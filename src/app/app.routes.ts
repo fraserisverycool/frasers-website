@@ -15,5 +15,8 @@ export const routes: Routes = [
   },
   {
     path: '2020', loadComponent: () => import('./oranges/oranges.component')
+  },
+  {
+    path: 'brexitsummit', loadComponent: () => import('./brexit/brexit.component')
   }
 ];
