@@ -1,0 +1,8 @@
+<div class="calendar-container">
+  <h2 class="calendar-title">Select a year</h2>
+  <div class="calendar-grid">
+    <button *ngFor="let year of years" (click)="goToYear(year)" class="year-button">
+      <span class="year-text">{{ year }}</span>
+    </button>
+  </div>
+</div>

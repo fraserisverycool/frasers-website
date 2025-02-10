@@ -1,0 +1,26 @@
+body {
+  background-color: #ffffe0;
+}
+
+.container {
+  background-color: #f5d698;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.game-review {
+  text-align: left;
+}
+
+.game-review img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: "600";
+}

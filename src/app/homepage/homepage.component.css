@@ -1,0 +1,71 @@
+body {
+  background: url('https://www.toptal.com/designers/subtlepatterns/uploads/noise.png');
+  color: #00ff00;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-align: center;
+  animation: blink 1s infinite alternate;
+}
+
+a {
+  background: url('https://www.toptal.com/designers/subtlepatterns/uploads/noise.png');
+  color: #00ff00;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-align: center;
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  from { color: #ff00ff; }
+  to { color: #00ff00; }
+}
+
+.container {
+  border: 5px dashed red;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 800px;
+}
+
+.marquee {
+  font-size: 24px;
+  font-weight: bold;
+  color: yellow;
+  background: purple;
+  padding: 5px;
+  border: 3px solid white;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.fun-button {
+  background: radial-gradient(circle, #ff1493, #ff4500);
+  border: 4px solid #ffcc00;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.fun-button:hover {
+  transform: scale(1.1) rotate(-3deg);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.fun-button:active {
+  transform: scale(0.95);
+}
