@@ -2,6 +2,10 @@ body {
     background-color: #ffffe0;
 }
 
+a {
+  color: purple;
+}
+
 .links {
   text-align: center;
 }

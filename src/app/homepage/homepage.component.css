@@ -1,13 +1,16 @@
 body {
-  background: url('https://www.toptal.com/designers/subtlepatterns/uploads/noise.png');
-  color: #00ff00;
-  font-family: Comic Sans MS, cursive, sans-serif;
+  background-color: #ffffe0;
+  color: #ffffe0;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
+}
+
+h1 {
+  font-family: Comic Sans MS, cursive, sans-serif;
   animation: blink 1s infinite alternate;
 }
 
 a {
-  background: url('https://www.toptal.com/designers/subtlepatterns/uploads/noise.png');
   color: #00ff00;
   font-family: Comic Sans MS, cursive, sans-serif;
   text-align: center;
@@ -20,7 +23,7 @@ a {
 }
 
 .container {
-  border: 5px dashed red;
+  border: 5px dashed orange;
   padding: 20px;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.8);
