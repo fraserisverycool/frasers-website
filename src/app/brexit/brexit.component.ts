@@ -14,7 +14,7 @@ export default class BrexitComponent implements OnInit {
   images: string[] = [];
   selectedImage: string | null = null;
 
-  constructor(private http: HttpClient) {} // Inject HttpClient
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
     this.loadImages();

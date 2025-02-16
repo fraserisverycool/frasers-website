@@ -38,6 +38,21 @@ export const routes: Routes = [
     path: 'films/2023', loadComponent: () => import('./films/three/three.component')
   },
   {
+    path: 'music', loadComponent: () => import('./music/music.component')
+  },
+  {
+    path: 'music/albums', loadComponent: () => import('./music/albums/albums.component')
+  },
+  {
+    path: 'music/spotify', loadComponent: () => import('./music/spotify/spotify.component')
+  },
+  {
+    path: 'music/nintendo', loadComponent: () => import('./music/nintendo/nintendo.component')
+  },
+  {
+    path: 'music/mixes', loadComponent: () => import('./music/mixes/mixes.component')
+  },
+  {
     path: 'brexitsummit', loadComponent: () => import('./brexit/brexit.component')
   }
 ];

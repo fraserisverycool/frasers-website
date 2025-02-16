@@ -1,0 +1,19 @@
+<div class="soundtrack-container">
+  <div *ngFor="let soundtrack of soundtracks" class="soundtrack-card" (click)="showDescription(soundtrack)">
+    <img [src]="soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image">
+    <h3 class="soundtrack-name">{{ soundtrack.name }}</h3>
+  </div>
+</div>
+
+<div *ngIf="selectedSoundtrack" class="modal">
+  <div class="modal-content">
+    <span class="close" (click)="closeDescription()">&times;</span>
+    <h2>{{ selectedSoundtrack.name }}</h2>
+    <img [src]="selectedSoundtrack.filename" [alt]="selectedSoundtrack.name" class="modal-image">
+    <p>{{ selectedSoundtrack.description }}</p>
+    <h3>Top Tracks:</h3>
+    <ul class="top-tracks">
+      <li *ngFor="let track of selectedSoundtrack.topTracks">{{ track }}</li>
+    </ul>
+  </div>
+</div>

@@ -5,7 +5,7 @@
   <title>Fraser's Website</title>
 </head>
 <body>
-<marquee class="marquee">Time is just a vibe 🔥</marquee>
+<app-custom-marquee [messages]="['Time is just a vibe 🔥', 'More is more 🔥', 'Don\'t fuck your friends 🔥', 'Never say no to smash 🔥']"></app-custom-marquee>
 <div class="container">
   <h1>Fraser's Website</h1>
   <p>Thank you so much for visiting my website! Since I stopped using social media I've been needing a space to post a bunch of nonsense.</p>
@@ -17,6 +17,10 @@
   <button class="fun-button" (click)="handleClick('/films')">
     <span class="button-text">Films</span>
   </button>
+  <p>Also be sure to check out this super extended music section which features loads of cool shit. There is a list of all my favourite albums, some links to Spotify playlists, a full review of all the soundtracks on the Nintendo music app, and even download links to all these wild video game mixes I made!</p>
+  <button class="fun-button" (click)="handleClick('/music')">
+    <span class="button-text">Music</span>
+  </button>
   <p>I've also got an archive of all the Top 8 images I made for my smash tournament, BREXIT SUMMIT. The story behind this is that I used to host strangers from the internet in my house every week for a smash ultimate tournament. I ended up having a lot of fun making these silly pictures of the top 8, and in order to have them available online I've put them all here:</p>
   <button class="fun-button" (click)="handleClick('/brexitsummit')">
     <span class="button-text">BREXIT SUMMIT Top 8 Pictures</span>
@@ -26,6 +30,5 @@
 <div class="gif">
   <img src="../../../assets/homepage/tut.gif">
 </div>
-<marquee class="marquee">More is more 🔥</marquee>
 </body>
 </html>

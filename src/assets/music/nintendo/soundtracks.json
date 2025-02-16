@@ -1,0 +1,11 @@
+{
+  "soundtracks": [
+    {
+      "filename": "assets/music/nintendo/dkc.png",
+      "name": "Donkey Kong Country",
+      "description": "This soundtrack is such a classic. It's timeless! I take joy in listening to this on public transport thinking to myself, people here don't know that I'm listening to the Donkey Kong Country soundtrack. They're just listening to pop music or something and I'm transcending listening to Aquatic Ambience. There are so many heavy hitters on here - the original Jungle level theme, the absolute vibes of some of the more chill tracks like Northern Hemispheres. Incredible! Also the game itself is totally still worth playing.",
+      "topTracks": ["Life in the Mines", "Fear Factory", "Forest Frenzy", "Treetop Rock", "Minecart Madness", "Aquatic Ambience", "DK Island Swing"]
+    }
+
+  ]
+}

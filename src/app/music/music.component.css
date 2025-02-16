@@ -1,0 +1,30 @@
+body {
+  background-color: #ffffe0;
+}
+
+.container {
+  background-color: #f5d698;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fun-button {
+  background: radial-gradient(circle, #ff1493, #ff4500);
+  border: 4px solid #ffcc00;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Times New Roman", cursive, sans-serif;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: greenyellow;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
