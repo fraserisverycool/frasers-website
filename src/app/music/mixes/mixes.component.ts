@@ -34,7 +34,7 @@ export default class MixesComponent implements OnInit, OnDestroy {
   }
 
   loadMixes(): void {
-    this.mixesSubscription = this.http.get<{ mixes: Mp3Info[] }>('assets/music/mixes/mixes_small.json').subscribe({
+    this.mixesSubscription = this.http.get<{ mixes: Mp3Info[] }>('assets/music/mixes/mixes.json').subscribe({
       next: (data) => {
         this.mp3Files = data.mixes;
       },
