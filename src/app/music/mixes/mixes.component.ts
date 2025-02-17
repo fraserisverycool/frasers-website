@@ -26,7 +26,7 @@ export default class MixesComponent {
   }
 
   loadMixes(): void {
-    this.http.get<{ mixes: Mp3Info[] }>('assets/music/mixes/mixes.json').subscribe({
+    this.http.get<{ mixes: Mp3Info[] }>('assets/music/mixes/mixes-small.json').subscribe({
       next: (data) => {
         this.mp3Files = data.mixes;
       },
