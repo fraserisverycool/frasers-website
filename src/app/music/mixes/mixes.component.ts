@@ -6,6 +6,7 @@ interface Mp3Info {
   name: string;
   description: string;
 }
+
 @Component({
   selector: 'app-mixes',
   standalone: true,
@@ -14,6 +15,21 @@ interface Mp3Info {
   styleUrls: ['./mixes.component.css']
 })
 export default class MixesComponent {
+
+  ngOnInit(): void {
+    this.loadMixes();
+  }
+
+  loadMixes(): void {
+    this.http.get<{ mixes: Soundtrack[] }>('assets/music/mixes/mixes.json').subscribe({
+      next: (data) => {
+        this.mp3Files = data.mixes;
+      },
+      error: (err) => {
+        console.error('Failed to load mixes:', err);
+      },
+    });
+  }
 
   mp3Files: Mp3Info[] = [
     {
