@@ -1,6 +1,7 @@
-import {Component} from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
+import { Subscription } from 'rxjs';
 
 interface Mp3Info {
   filename: string;
@@ -15,9 +16,10 @@ interface Mp3Info {
   templateUrl: './mixes.component.html',
   styleUrls: ['./mixes.component.css']
 })
-export default class MixesComponent {
+export default class MixesComponent implements OnInit, OnDestroy {
   mp3Files: Mp3Info[] = [];
   selectedMp3File: Mp3Info | null = null;
+  private mixesSubscription: Subscription | null = null;
 
   constructor(private http: HttpClient) {}
 
@@ -25,8 +27,14 @@ export default class MixesComponent {
     this.loadMixes();
   }
 
+  ngOnDestroy(): void {
+    if (this.mixesSubscription) {
+      this.mixesSubscription.unsubscribe();
+    }
+  }
+
   loadMixes(): void {
-    this.http.get<{ mixes: Mp3Info[] }>('assets/music/mixes/mixes-small.json').subscribe({
+    this.mixesSubscription = this.http.get<{ mixes: Mp3Info[] }>('assets/music/mixes/mixes_small.json').subscribe({
       next: (data) => {
         this.mp3Files = data.mixes;
       },
