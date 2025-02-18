@@ -2,17 +2,18 @@
 <div class="mp3-container">
   <h2 class="neon-text">🎵 MP3 Downloads 🎵</h2>
   <p>Currently the raspberry pi is unable to deal with hosting these files because it doesn't have enough memory. Working on a solution...</p>
-<!--  <ul class="mp3-list">-->
-<!--    <li *ngFor="let mp3 of mp3Files; let i = index" [style.animation-delay]="i * 0.1 + 's'">-->
-<!--      <div class="mp3-card" [style.background-color]="getRandomColor()">-->
-<!--        <h3>{{ mp3.name }}</h3>-->
-<!--        <p>{{ mp3.description }}</p>-->
+  <ul class="mp3-list">
+    <li *ngFor="let mp3 of mp3Files; let i = index" [style.animation-delay]="i * 0.1 + 's'">
+      <div class="mp3-card" [style.background-color]="getRandomColor()">
+        <h3>{{ mp3.name }}</h3>
+        <p>{{ mp3.description }}</p>
+        <p>DOWNLOAD UNAVAILABLE SORRY!</p>
 <!--        <a [href]="'assets/music/mixes/' + mp3.filename" [download]="mp3.filename">-->
 <!--          <span class="file-icon">🎧</span>-->
 <!--          Download {{ mp3.filename }}-->
 <!--        </a>-->
-<!--      </div>-->
-<!--    </li>-->
-<!--  </ul>-->
+      </div>
+    </li>
+  </ul>
 </div>
 </div>

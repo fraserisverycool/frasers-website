@@ -1,4 +1,5 @@
 <div class="album-container">
+  <h1>Albums! More coming later this is just a placeholder for now!</h1>
   <div *ngFor="let album of albums" class="album-card" (click)="showDescription(album)">
     <img [src]="album.filename" [alt]="album.name" class="album-image">
     <h3 class="album-name">{{ album.name }}</h3>
@@ -9,7 +10,7 @@
   <div class="modal-content">
     <span class="close" (click)="closeDescription()">&times;</span>
     <h2>{{ selectedAlbum.name }}</h2>
-    <img [src]="selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image">
+    <img [src]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image">
     <p>{{ selectedAlbum.description }}</p>
   </div>
 </div>
