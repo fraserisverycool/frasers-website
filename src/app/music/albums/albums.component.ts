@@ -4,7 +4,9 @@ import {HttpClient} from "@angular/common/http";
 
 interface Album {
   filename: string;
+  artist: string;
   name: string;
+  releaseyear: string;
   description: string;
 }
 

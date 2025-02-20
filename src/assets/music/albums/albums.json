@@ -1,14 +1,1390 @@
 {
   "albums": [
     {
-      "filename": "velvetrope.jpg",
-      "name": "Janet Jackson - The Velvet Rope",
-      "description": "This album has so much going on. I love the ultra chill tracks 'The Velvet Rope' and 'Anything'. She is such a badass and this albums takes you so many places. It's got some cheesy tracks but you gotta embrace them. Great to put on at a party at home with cool people."
+      "filename": "",
+      "artist": "Laura Marling",
+      "name": "Alas I Cannot Swim",
+      "releaseyear": "2008",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Laura Marling",
+      "name": "I Speak Because I Can",
+      "releaseyear": "2010",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Laura Marling",
+      "name": "A Creature I Don't Know",
+      "releaseyear": "2011",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Laura Marling",
+      "name": "Once I Was An Eagle",
+      "releaseyear": "2013",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Laura Marling",
+      "name": "Short Movie",
+      "releaseyear": "2015",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Laura Marling",
+      "name": "Semper Femina",
+      "releaseyear": "2017",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Laura Marling",
+      "name": "Song For Our Daughter",
+      "releaseyear": "2020",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Laura Marling",
+      "name": "Patterns In Repeat",
+      "releaseyear": "2024",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tunng",
+      "name": "Comments of the Inner Chorus",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tunng",
+      "name": "Good Arrows",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tunng",
+      "name": "…And Then We Saw Land",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tunng",
+      "name": "Turbines",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tunng",
+      "name": "Songs You Make At Night",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tunng",
+      "name": "DEAD CLUB",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tunng",
+      "name": "Love You All Over Again",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Janelle Monáe",
+      "name": "Metropolis: The Chase Suite",
+      "releaseyear": "2007",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Janelle Monáe",
+      "name": "The ArchAndroid",
+      "releaseyear": "2010",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Janelle Monáe",
+      "name": "The Electric Lady",
+      "releaseyear": "2013",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Janelle Monáe",
+      "name": "Dirty Computer",
+      "releaseyear": "2018",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Janelle Monáe",
+      "name": "The Age of Pleasure",
+      "releaseyear": "2023",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Jens Lekman",
+      "name": "When I Said I Wanted To Be Your Dog",
+      "releaseyear": "2004",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Jens Lekman",
+      "name": "Night Falls Over Kortedala",
+      "releaseyear": "2007",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Jens Lekman",
+      "name": "I Know What Love Isn't",
+      "releaseyear": "2012",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Jens Lekman",
+      "name": "Life Will See You Now",
+      "releaseyear": "2017",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Amy Winehouse",
+      "name": "Frank",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Amy Winehouse",
+      "name": "Back to Black",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Erykah Badu",
+      "name": "Baduizm",
+      "releaseyear": "",
+      "description": ""
     },
     {
       "filename": "mamasgun.jpg",
-      "name": "Erykah Badu - Mama's Gun",
+      "artist": "Erykah Badu",
+      "name": "Mama's Gun",
+      "releaseyear": "2000",
       "description": "I love Erykah Badu, she is everything. I got hooked on this album after watching her amazing Tiny Desk concert where she plays the 10 minute break up song 'Green Eyes', the closer of this album. When she says 'I don't know why I fucked with you' that's the final nail in the coffin, she has finally moved on. I also love love love the track 'Orange Moon'. And also the chill bit at the end of 'Time's a wastin', and the amazing remix of her hit 'On & On' called '...& On'"
+    },
+    {
+      "filename": "",
+      "artist": "Erykah Badu",
+      "name": "Worldwide Underground",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Erykah Badu",
+      "name": "New Amerykah Part One (4th World War)",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Erykah Badu",
+      "name": "New Amerykah Part Two: Return Of The Ankh",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Erykah Badu",
+      "name": "But You Caint Use My Phone",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Regina Spektor",
+      "name": "11:11",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Regina Spektor",
+      "name": "Songs",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Regina Spektor",
+      "name": "Soviet Kitsch",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Regina Spektor",
+      "name": "Begin to Hope",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Regina Spektor",
+      "name": "Far",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Regina Spektor",
+      "name": "What We Saw from the Cheap Seats",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Regina Spektor",
+      "name": "Remember Us to Life",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Regina Spektor",
+      "name": "Home, before and after",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Rhye",
+      "name": "Woman",
+      "releaseyear": "2013",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Rhye",
+      "name": "Blood",
+      "releaseyear": "2018",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Rhye",
+      "name": "Spirit",
+      "releaseyear": "2019",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Rhye",
+      "name": "Home",
+      "releaseyear": "2021",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kero Kero Bonito",
+      "name": "Intro Bonito",
+      "releaseyear": "2013",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kero Kero Bonito",
+      "name": "Bonito Generation",
+      "releaseyear": "2016",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kero Kero Bonito",
+      "name": "Time 'n' Place",
+      "releaseyear": "2018",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kero Kero Bonito",
+      "name": "Civilisation",
+      "releaseyear": "2021",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Norah Jones",
+      "name": "Come Away With Me",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Norah Jones",
+      "name": "Feels Like Home",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Norah Jones",
+      "name": "Not Too Late",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Norah Jones",
+      "name": "The Fall",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Norah Jones",
+      "name": "Little Broken Hearts",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Fleet Foxes",
+      "name": "Fleet Foxes",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Fleet Foxes",
+      "name": "Helplessness Blues",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Fleet Foxes",
+      "name": "Crack-Up",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Fleet Foxes",
+      "name": "Shore",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Timber Timbre",
+      "name": "Timber Timbre",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Timber Timbre",
+      "name": "Creep On, Creepin' On",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Timber Timbre",
+      "name": "Hot Dreams",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Timber Timbre",
+      "name": "Sincerely, Future Pollution",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Timber Timbre",
+      "name": "Lovage",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "The Tallest Man on Earth",
+      "name": "Shallow Grave",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "The Tallest Man on Earth",
+      "name": "The Wild Hunt",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "The Tallest Man on Earth",
+      "name": "There's No Leaving Now",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "The Tallest Man on Earth",
+      "name": "Dark Bird Is Home",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "The Tallest Man on Earth",
+      "name": "I Love You. It's a Fever Dream.",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "The Tallest Man on Earth",
+      "name": "Henry St.",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kings of Convenience",
+      "name": "Quiet Is The New Loud",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kings of Convenience",
+      "name": "Riot On An Empty Street",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kings of Convenience",
+      "name": "Declaration Of Dependence",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kings of Convenience",
+      "name": "Peace Or Love",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Aldous Harding",
+      "name": "Party",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Aldous Harding",
+      "name": "Designer",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Aldous Harding",
+      "name": "Warm Chris",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Michael Kiwanuka",
+      "name": "Home Again",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Michael Kiwanuka",
+      "name": "Love & Hate",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Michael Kiwanuka",
+      "name": "KIWANUKA",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Michael Kiwanuka",
+      "name": "Small Changes",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Magdalena Bay",
+      "name": "mini mix vol. 1",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Magdalena Bay",
+      "name": "A Little Rhythm and a Wicked Feeling",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Magdalena Bay",
+      "name": "mini mix vol. 2",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Magdalena Bay",
+      "name": "Mercurial World",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Magdalena Bay",
+      "name": "mini mix vol. 3",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Magdalena Bay",
+      "name": "Imaginal Disk",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Khruangbin",
+      "name": "The Universe Smiles Upon You",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Khruangbin",
+      "name": "Con Todo El Mundo",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Khruangbin",
+      "name": "Mordechai",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Khruangbin",
+      "name": "A LA SALA",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Sade",
+      "name": "Diamond Life",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Sade",
+      "name": "Promise",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Sade",
+      "name": "Stronger Than Pride",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Sade",
+      "name": "Love Deluxe",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Esperanza Spalding",
+      "name": "Emily's D+Evolution",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Confidence Man",
+      "name": "Tilt",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Confidence Man",
+      "name": "3AM (LA LA LA)",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Melody Gardot",
+      "name": "The Absence",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "St. Vincent",
+      "name": "Daddy's Home",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Miami Horror",
+      "name": "Illumination",
+      "releaseyear": "2010",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Leisure Society",
+      "name": "The Sleeper",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Weyes Blood",
+      "name": "Titanic Rising",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Weyes Blood",
+      "name": "And In The Darkness, Hearts Aglow",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Bonobo",
+      "name": "Black Sands",
+      "releaseyear": "2010",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Bonobo",
+      "name": "Days to Come",
+      "releaseyear": "2006",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Everything Everything",
+      "name": "Man Alive",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Everything Everything",
+      "name": "Arc",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Beyoncé",
+      "name": "RENAISSANCE",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Villagers",
+      "name": "{Awayland}",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Bajka",
+      "name": "Bajka in Wonderland",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Madeleine Peyroux",
+      "name": "Careless Love",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Stornoway",
+      "name": "Beachcomber's Windowsill",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Bon Iver",
+      "name": "For Emma, Forever Ago",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Bon Iver",
+      "name": "Bon Iver",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Django Django",
+      "name": "Django Django",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Charli XCX",
+      "name": "BRAT",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Broken Bells",
+      "name": "Broken Bells",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Lingua Ignota",
+      "name": "SINNER GET READY",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Black Midi",
+      "name": "Welcome to Hell",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Viagra Boys",
+      "name": "Cave World",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Ane Brun",
+      "name": "Changing of the Seasons",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Frank Ocean",
+      "name": "Channel ORANGE",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Hiatus Kaiyote",
+      "name": "Choose Your Weapon",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Patrick Watson",
+      "name": "Close to Paradise",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "HONNE",
+      "name": "Warm on a Cold Night",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tame Impala",
+      "name": "Lonerism",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kendrick Lamar",
+      "name": "To Pimp a Butterfly",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Loney Dear",
+      "name": "Dear John",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Loney Dear",
+      "name": "Hall Music",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Björk",
+      "name": "Debut",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Björk",
+      "name": "Homogenic",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Caroline Polachek",
+      "name": "Desire, I Want To Turn Into You",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Natalia Lafourcade",
+      "name": "De Todas Las Flores",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "School of Seven Bells",
+      "name": "Disconnect From Desire",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Laura Mvula",
+      "name": "Sing to the Moon",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Madonna",
+      "name": "Erotica",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kylie Minogue",
+      "name": "Rhythm of Love",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kylie Minogue",
+      "name": "Fever",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Dorian Electra",
+      "name": "Flamboyant",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Dorian Electra",
+      "name": "My Agenda",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Beirut",
+      "name": "The Flying Club Cup",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Nelly Furtado",
+      "name": "Folklore",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Hot Chip",
+      "name": "In Our Heads",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Kimbra",
+      "name": "The Golden Echo",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Miike Snow",
+      "name": "Miike Snow",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "HARD FEELINGS",
+      "name": "HARD FEELINGS",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "PinkPantheress",
+      "name": "Heaven Knows",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "ANOHNI and the Johnsons",
+      "name": "I Am A Bird Now",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "ANOHNI and the Johnsons",
+      "name": "My Back was a Bridge for you to Cross",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Sufjan Stevens",
+      "name": "Illinois",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Bear in Heaven",
+      "name": "I Love You, It's Cool",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Jockstrap",
+      "name": "I Love You Jennifer B",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Department of Eagles",
+      "name": "In Ear Park",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Ultraflex",
+      "name": "Infinite Wellness",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Ladyhawke",
+      "name": "Ladyhawke",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Tkay Maidza",
+      "name": "Last Year Was Weird Vol 2",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Feist",
+      "name": "Metals",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Air",
+      "name": "Moon Safari",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Metronomy",
+      "name": "Love Letters",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Madvillain",
+      "name": "Madvillainy",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Jamie Woon",
+      "name": "Making Time",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Silvana Estrada",
+      "name": "Marchita",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Ana Frango Elétrico",
+      "name": "Me Chama De Gato Que Eu Sou Sua",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Röyksopp",
+      "name": "Melody AM",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Animal Collective",
+      "name": "Merriweather Post Pavilion",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Camera Obscura",
+      "name": "My Maudlin Career",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Geordie Greep",
+      "name": "The New Sound",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Perfume Genius",
+      "name": "Ugly Season",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Little Simz",
+      "name": "NO THANK YOU",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Air France",
+      "name": "No Way Down / On Trade Winds",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Beach House",
+      "name": "Once Twice Melody",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Men I Trust",
+      "name": "Oncle Jazz",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Grizzly Bear",
+      "name": "Yellow House",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Coldplay",
+      "name": "Parachutes",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Gorillaz",
+      "name": "Plastic Beach",
+      "releaseyear": "2010",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Father John Misty",
+      "name": "Pure Comedy",
+      "releaseyear": "2017",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Róisín Murphy",
+      "name": "Róisín Machine",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Noname",
+      "name": "Room 25",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Fanfarlo",
+      "name": "Rooms Filled With Light",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Thievery Corporation",
+      "name": "Saudade",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Seal",
+      "name": "Seal",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Ginger Root",
+      "name": "SHINBANGUMI",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Avalanches",
+      "name": "Since I Left You",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Avalanches",
+      "name": "Wildflower",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "múm",
+      "name": "Sing Along To Songs You Don't Know",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "BADBADNOTGOOD ft. Baby Rose",
+      "name": "Slow Burn",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Nicole Atkins",
+      "name": "Slow Phaser",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Beach Boys",
+      "name": "Surf's Up",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Jessie Ware",
+      "name": "That! Feels Good!",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Jessie Ware",
+      "name": "What's Your Pleasure?",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "velvetrope.jpg",
+      "artist": "Janet Jackson",
+      "name": "The Velvet Rope",
+      "releaseyear": "1997",
+      "description": "This album has so much going on. I love the ultra chill tracks 'The Velvet Rope' and 'Anything'. She is such a badass and this albums takes you so many places. It's got some cheesy tracks but you gotta embrace them. Great to put on at a party at home with cool people."
+    },
+    {
+      "filename": "",
+      "artist": "SPELLLING",
+      "name": "The Turning Wheel",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "SAULT",
+      "name": "Untitled (Rise)",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Fujiya & Miyagi",
+      "name": "Ventriloquizzing",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "A Tribe Called Quest",
+      "name": "We got it from Here… Thank You 4 Your Service",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Marvin Gaye",
+      "name": "What's Going On",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Fat Dog",
+      "name": "WOOF.",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Lykke Li",
+      "name": "Wounded Rhymes",
+      "releaseyear": "",
+      "description": ""
+    },
+    {
+      "filename": "",
+      "artist": "Slow Club",
+      "name": "Yeah, So",
+      "releaseyear": "",
+      "description": ""
     }
   ]
 }
