@@ -1,7 +1,8 @@
 <div class="album-container">
-  <h1>Albums! More coming later this is just a placeholder for now!</h1>
+  <h1>My favourite albums</h1>
+  <p>This is a placeholder there is more to come!</p>
   <div *ngFor="let album of albums" class="album-card" (click)="showDescription(album)">
-    <img [src]="album.filename" [alt]="album.name" class="album-image">
+    <img [src]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image">
     <h3 class="album-name">{{ album.name }}</h3>
   </div>
 </div>

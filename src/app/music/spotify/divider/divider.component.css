@@ -1,0 +1,27 @@
+.divider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wave {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0) translateY(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(0) translateY(0) scaleY(0.5);
+  }
+  100% {
+    transform: translateX(0) translateY(0) scaleY(1);
+  }
+}

@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 
 interface Soundtrack {
   filename: string;
@@ -44,5 +44,14 @@ export default class NintendoComponent implements OnInit {
 
   closeDescription(): void {
     this.selectedSoundtrack = null;
+  }
+
+  getRandomColor() {
+    const r = Math.floor(Math.random() * 128);
+    const g = Math.floor(Math.random() * 128);
+    const b = Math.floor(Math.random() * 128);
+
+    const toHex = (c: number) => c.toString(16).padStart(2, '0');
+    return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
   }
 }

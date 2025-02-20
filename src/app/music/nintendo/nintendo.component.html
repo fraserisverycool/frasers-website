@@ -1,6 +1,11 @@
 <div class="soundtrack-container">
   <h1>Nintendo Soundtracks from the Nintendo Music App</h1>
   <p>This fucking app is so good. I've spent so much time suffering because Nintendo haven't released their soundtracks. I've been forced to make mixes of my favourite tracks and also listen to bad quality versions on Youtube. Now, however, it's possible to conveniently stream them all in one place. They even put a screenshot in for every single song, which is actually an insane amount of work. They also do infinitely repeatable versions and tag the tracks extensively in order to make automatically generated playlists. It's an insane feat and I love it. The only problem is that there aren't all that many soundtracks on it. Like there are so many amazing games that need representation here but instead we got things like Nintendogs. But it's fine because every Tuesday they drop a new one and this drip-feed has got me fucking addicted. All I want to do is review every single soundtrack on the app so that's why I made this page. I hope you enjoy it!</p>
+  <p>Also, bonus, here are two playlists I made in the app:</p>
+  <ul>
+    <li><a href="https://m.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/dcb1ff03-02b5-47c2-8f0b-5b52986ffd1a">Underrated Huge Tracks</a></li>
+    <li><a href="https://m.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/3c316631-eea9-4ecd-8cc4-ccb695903b1a">Peace & Tranquility</a></li>
+  </ul>
   <div *ngFor="let soundtrack of soundtracks" class="soundtrack-card" (click)="showDescription(soundtrack)">
     <img [src]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image">
     <h3 class="soundtrack-name">{{ soundtrack.name }}</h3>
@@ -12,11 +17,13 @@
     <span class="close" (click)="closeDescription()">&times;</span>
     <h2>{{ selectedSoundtrack.name }}</h2>
     <img [src]="'assets/music/nintendo/' + selectedSoundtrack.filename" [alt]="selectedSoundtrack.name" class="modal-image">
-    <h4>{{ selectedSoundtrack.platform }}</h4>
+    <div class="platform-icon" [ngClass]="selectedSoundtrack.platform | lowercase">
+      {{ selectedSoundtrack.platform }}
+    </div>
     <p>{{ selectedSoundtrack.description }}</p>
     <h3>Top Tracks:</h3>
     <ul class="top-tracks">
-      <li *ngFor="let track of selectedSoundtrack.topTracks">{{ track }}</li>
+      <li *ngFor="let track of selectedSoundtrack.topTracks" [style.background-color]="getRandomColor()">{{ track }}</li>
     </ul>
   </div>
 </div>
