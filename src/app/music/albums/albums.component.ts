@@ -30,7 +30,7 @@ export default class AlbumsComponent implements OnInit {
   loadAlbums(): void {
     this.http.get<{ albums: Album[] }>('assets/music/albums/albums.json').subscribe({
       next: (data) => {
-        this.albums = data.albums;
+        this.albums = data.albums.sort(() => Math.random() - 0.5);
       },
       error: (err) => {
         console.error('Failed to load albums:', err);

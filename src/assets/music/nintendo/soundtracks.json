@@ -1,6 +1,13 @@
 {
   "soundtracks": [
     {
+      "filename": "super-mario-bros-2.png",
+      "name": "Super Mario Bros 2",
+      "description": "This NES soundtrack is a total skip. I get that the Ground BGM is a classic but that's all it's got and it's not like I want to sit and listen to it",
+      "platform": "NES",
+      "topTracks": []
+    },
+    {
       "filename": "streetpass.webp",
       "name": "Streetpass Mii Plaza",
       "description": "I groaned a little when they dropped this one because it's more Mii music but I was also pleased to see our first 3DS entry. This soundtrack isn't great for listening though. I can at least recommend the hugely underrated final boss music of Find Mii 2, Dark Lord. There's a reason that was what got the remix in smash",
