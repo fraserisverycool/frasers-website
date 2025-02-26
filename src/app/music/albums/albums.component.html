@@ -9,8 +9,13 @@
     <button (click)="sortAlbums('releaseDate')">By Release Date</button>
   </div>
   <div *ngFor="let album of albums" class="album-card" (click)="showDescription(album)">
-    <img [src]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image">
-    <h3 class="album-name">{{album.artist}} - {{ album.name }}</h3>
+    <div class="album-image-container">
+      <img [src]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image">
+    </div>
+    <div class="album-info">
+      <h3 class="album-name">{{album.artist}} - {{ album.name }}</h3>
+      <span class="album-date">{{ album.releaseyear }}</span>
+    </div>
   </div>
 </div>
 
