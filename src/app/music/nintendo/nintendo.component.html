@@ -7,8 +7,13 @@
     <li><a href="https://m.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/3c316631-eea9-4ecd-8cc4-ccb695903b1a">Peace & Tranquility</a></li>
   </ul>
   <div *ngFor="let soundtrack of soundtracks" class="soundtrack-card" (click)="showDescription(soundtrack)">
-    <img [src]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image">
-    <h3 class="soundtrack-name">{{ soundtrack.name }}</h3>
+    <div class="soundtrack-image-container">
+      <img [src]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image">
+    </div>
+    <div class="soundtrack-info">
+      <h3 class="soundtrack-name">{{ soundtrack.name }}</h3>
+      <span class="soundtrack-platform">{{ soundtrack.platform }}</span>
+    </div>
   </div>
 </div>
 
