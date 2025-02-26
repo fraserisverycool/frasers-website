@@ -29,13 +29,6 @@
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "laura-short.jpg",
-      "artist": "Laura Marling",
-      "name": "Short Movie",
-      "releaseyear": "2015",
-      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
-    },
-    {
       "filename": "laura-semper.jpg",
       "artist": "Laura Marling",
       "name": "Semper Femina",
@@ -82,20 +75,6 @@
       "artist": "Tunng",
       "name": "Turbines",
       "releaseyear": "2013",
-      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
-    },
-    {
-      "filename": "tunng-songs.jpg",
-      "artist": "Tunng",
-      "name": "Songs You Make At Night",
-      "releaseyear": "2018",
-      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
-    },
-    {
-      "filename": "tunng-dead.jpg",
-      "artist": "Tunng",
-      "name": "DEAD CLUB",
-      "releaseyear": "2020",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
@@ -988,339 +967,360 @@
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "hot-heads.jpg",
       "artist": "Hot Chip",
       "name": "In Our Heads",
-      "releaseyear": "",
+      "releaseyear": "2012",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "kimbra-echo.webp",
       "artist": "Kimbra",
       "name": "The Golden Echo",
-      "releaseyear": "",
+      "releaseyear": "2014",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "miike-snow.jpg",
       "artist": "Miike Snow",
       "name": "Miike Snow",
-      "releaseyear": "",
+      "releaseyear": "2007",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "hard-feelings.jpg",
       "artist": "HARD FEELINGS",
       "name": "HARD FEELINGS",
-      "releaseyear": "",
+      "releaseyear": "2021",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "pink-heaven.jpg",
       "artist": "PinkPantheress",
       "name": "Heaven Knows",
-      "releaseyear": "",
+      "releaseyear": "2023",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "anohni-bird.png",
       "artist": "ANOHNI and the Johnsons",
       "name": "I Am A Bird Now",
-      "releaseyear": "",
+      "releaseyear": "2005",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "anohni-back.png",
       "artist": "ANOHNI and the Johnsons",
       "name": "My Back was a Bridge for you to Cross",
-      "releaseyear": "",
+      "releaseyear": "2023",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "sufjan-illinois.jpg",
       "artist": "Sufjan Stevens",
       "name": "Illinois",
-      "releaseyear": "",
+      "releaseyear": "2005",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "bear-heaven.webp",
       "artist": "Bear in Heaven",
       "name": "I Love You, It's Cool",
-      "releaseyear": "",
+      "releaseyear": "2012",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "jockstrap-jennifer.jpg",
       "artist": "Jockstrap",
       "name": "I Love You Jennifer B",
-      "releaseyear": "",
+      "releaseyear": "2022",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "department-ear.jpg",
       "artist": "Department of Eagles",
       "name": "In Ear Park",
-      "releaseyear": "",
+      "releaseyear": "2008",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "ultraflex-wellness.jpg",
       "artist": "Ultraflex",
       "name": "Infinite Wellness",
-      "releaseyear": "",
+      "releaseyear": "2022",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "ladyhawke-ladyhawke.jpg",
       "artist": "Ladyhawke",
       "name": "Ladyhawke",
-      "releaseyear": "",
+      "releaseyear": "2008",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "tkay-year.jpg",
       "artist": "Tkay Maidza",
       "name": "Last Year Was Weird Vol 2",
-      "releaseyear": "",
+      "releaseyear": "2020",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "feist-metals.jpg",
       "artist": "Feist",
       "name": "Metals",
-      "releaseyear": "",
+      "releaseyear": "2011",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "feist-die.jpg",
+      "artist": "Feist",
+      "name": "Let It Die",
+      "releaseyear": "2004",
+      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
+    },
+    {
+      "filename": "feist-reminder.jpg",
+      "artist": "Feist",
+      "name": "The Reminder",
+      "releaseyear": "2007",
+      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
+    },
+    {
+      "filename": "air-moon.jpg",
       "artist": "Air",
       "name": "Moon Safari",
-      "releaseyear": "",
+      "releaseyear": "1998",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "metronomy-love.jpg",
       "artist": "Metronomy",
       "name": "Love Letters",
-      "releaseyear": "",
+      "releaseyear": "2014",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "madvillain-madvillainy.jpg",
       "artist": "Madvillain",
       "name": "Madvillainy",
-      "releaseyear": "",
+      "releaseyear": "2004",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "woon-time.webp",
       "artist": "Jamie Woon",
       "name": "Making Time",
-      "releaseyear": "",
+      "releaseyear": "2015",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "silvana-marchita.jpg",
       "artist": "Silvana Estrada",
       "name": "Marchita",
-      "releaseyear": "",
+      "releaseyear": "2022",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "ana-chama.jpg",
       "artist": "Ana Frango Elétrico",
       "name": "Me Chama De Gato Que Eu Sou Sua",
-      "releaseyear": "",
+      "releaseyear": "2023",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "röyksopp-melody.jpg",
       "artist": "Röyksopp",
       "name": "Melody AM",
-      "releaseyear": "",
+      "releaseyear": "2001",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "animal-merriweather.webp",
       "artist": "Animal Collective",
       "name": "Merriweather Post Pavilion",
-      "releaseyear": "",
+      "releaseyear": "2009",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "camera-maudlin.jpg",
       "artist": "Camera Obscura",
       "name": "My Maudlin Career",
-      "releaseyear": "",
+      "releaseyear": "2009",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "geordie-new.jpg",
       "artist": "Geordie Greep",
       "name": "The New Sound",
-      "releaseyear": "",
+      "releaseyear": "2024",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "perfume-ugly.webp",
       "artist": "Perfume Genius",
       "name": "Ugly Season",
-      "releaseyear": "",
+      "releaseyear": "2022",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "simz-thank.jpg",
       "artist": "Little Simz",
       "name": "NO THANK YOU",
-      "releaseyear": "",
+      "releaseyear": "2022",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "air-france.jpg",
       "artist": "Air France",
       "name": "No Way Down / On Trade Winds",
-      "releaseyear": "",
+      "releaseyear": "2008",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "beach-once.jpg",
       "artist": "Beach House",
       "name": "Once Twice Melody",
-      "releaseyear": "",
+      "releaseyear": "2022",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
-      "artist": "Men I Trust",
-      "name": "Oncle Jazz",
-      "releaseyear": "",
-      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
-    },
-    {
-      "filename": "",
+      "filename": "grizzly-yellow.webp",
       "artist": "Grizzly Bear",
       "name": "Yellow House",
-      "releaseyear": "",
+      "releaseyear": "2006",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "coldplay-parachutes.jpg",
       "artist": "Coldplay",
       "name": "Parachutes",
-      "releaseyear": "",
+      "releaseyear": "2000",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "coldplay-rush.jpg",
+      "artist": "Coldplay",
+      "name": "A Rush of Blood to the Head",
+      "releaseyear": "2002",
+      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
+    },
+    {
+      "filename": "gorillaz-plastic.jpg",
       "artist": "Gorillaz",
       "name": "Plastic Beach",
       "releaseyear": "2010",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "father-comedy.jpg",
       "artist": "Father John Misty",
       "name": "Pure Comedy",
       "releaseyear": "2017",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "roisin-machine.jpg",
       "artist": "Róisín Murphy",
       "name": "Róisín Machine",
-      "releaseyear": "",
+      "releaseyear": "2020",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "noname-room.webp",
       "artist": "Noname",
       "name": "Room 25",
-      "releaseyear": "",
+      "releaseyear": "2018",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "noname-telefone.jpg",
+      "artist": "Noname",
+      "name": "Telefone",
+      "releaseyear": "2016",
+      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
+    },
+    {
+      "filename": "fanfarlo-rooms.webp",
       "artist": "Fanfarlo",
       "name": "Rooms Filled With Light",
-      "releaseyear": "",
+      "releaseyear": "2012",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "thievery-saudade.jpg",
       "artist": "Thievery Corporation",
       "name": "Saudade",
-      "releaseyear": "",
+      "releaseyear": "2014",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "seal-seal.jpg",
       "artist": "Seal",
       "name": "Seal",
-      "releaseyear": "",
+      "releaseyear": "1994",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "ginger-shinbangumi.jpg",
       "artist": "Ginger Root",
       "name": "SHINBANGUMI",
-      "releaseyear": "",
+      "releaseyear": "2024",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "avalanches-since.jpg",
       "artist": "Avalanches",
       "name": "Since I Left You",
-      "releaseyear": "",
+      "releaseyear": "2000",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "avalanches-wildflower.jpg",
       "artist": "Avalanches",
       "name": "Wildflower",
-      "releaseyear": "",
+      "releaseyear": "2016",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "mum-sing.jpg",
       "artist": "múm",
       "name": "Sing Along To Songs You Don't Know",
-      "releaseyear": "",
+      "releaseyear": "2009",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "badbad-slow.jpg",
       "artist": "BADBADNOTGOOD ft. Baby Rose",
       "name": "Slow Burn",
-      "releaseyear": "",
+      "releaseyear": "2024",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "nicole-slow.jpg",
       "artist": "Nicole Atkins",
       "name": "Slow Phaser",
-      "releaseyear": "",
+      "releaseyear": "2013",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "beach-surfs.jpg",
       "artist": "Beach Boys",
       "name": "Surf's Up",
-      "releaseyear": "",
+      "releaseyear": "1971",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "jessie-that.webp",
       "artist": "Jessie Ware",
       "name": "That! Feels Good!",
-      "releaseyear": "",
+      "releaseyear": "2023",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "jessie-pleasure.jpg",
       "artist": "Jessie Ware",
       "name": "What's Your Pleasure?",
-      "releaseyear": "",
+      "releaseyear": "2020",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
@@ -1331,59 +1331,52 @@
       "description": "This album has so much going on. I love the ultra chill tracks 'The Velvet Rope' and 'Anything'. She is such a badass and this albums takes you so many places. It's got some cheesy tracks but you gotta embrace them. Great to put on at a party at home with cool people."
     },
     {
-      "filename": "",
+      "filename": "spellling-turning.jpg",
       "artist": "SPELLLING",
       "name": "The Turning Wheel",
-      "releaseyear": "",
+      "releaseyear": "2021",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "sault-rise.jpg",
       "artist": "SAULT",
       "name": "Untitled (Rise)",
-      "releaseyear": "",
+      "releaseyear": "2020",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "fujiya-ventrilo.jpg",
       "artist": "Fujiya & Miyagi",
       "name": "Ventriloquizzing",
-      "releaseyear": "",
+      "releaseyear": "2011",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "tribe-thank.jpg",
       "artist": "A Tribe Called Quest",
       "name": "We got it from Here… Thank You 4 Your Service",
-      "releaseyear": "",
+      "releaseyear": "2016",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "marvin-what.jpg",
       "artist": "Marvin Gaye",
       "name": "What's Going On",
-      "releaseyear": "",
+      "releaseyear": "1971",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
-      "artist": "Fat Dog",
-      "name": "WOOF.",
-      "releaseyear": "",
-      "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
-    },
-    {
-      "filename": "",
+      "filename": "lykke-wounded.jpg",
       "artist": "Lykke Li",
       "name": "Wounded Rhymes",
-      "releaseyear": "",
+      "releaseyear": "2011",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     },
     {
-      "filename": "",
+      "filename": "slow-yeah.jpg",
       "artist": "Slow Club",
       "name": "Yeah, So",
-      "releaseyear": "",
+      "releaseyear": "2009",
       "description": "I'll write my thoughts on this album later! (I have too many favourite albums)"
     }
   ]

@@ -1,7 +1,7 @@
 <div class="page-container">
 <div class="mp3-container">
   <h2 class="neon-text">🎵 MP3 Downloads 🎵</h2>
-  <p>Currently the raspberry pi is unable to deal with hosting these files because it doesn't have enough memory. Working on a solution...</p>
+  <h4>Currently the raspberry pi is unable to deal with hosting these files because it doesn't have enough memory. Working on a solution...</h4>
   <ul class="mp3-list">
     <li *ngFor="let mp3 of mp3Files; let i = index" [style.animation-delay]="i * 0.1 + 's'">
       <div class="mp3-card" [style.background-color]="getRandomColor()">

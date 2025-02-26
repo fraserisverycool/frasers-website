@@ -1,5 +1,13 @@
+<h1>My favourite albums</h1>
+
 <div class="album-container">
-  <h1>My favourite albums - Under Construction!</h1>
+  <h4>I will write my thoughts about these albums down, but that will be a long process that I will take my time with. But you can still click these albums and know that I recommend them all!</h4>
+  <div class="sorting-buttons">
+    <button (click)="sortAlbums('random')">Random Order</button>
+    <button (click)="sortAlbums('alphabeticalName')">Alphabetical by Album</button>
+    <button (click)="sortAlbums('alphabeticalArtist')">Alphabetical by Artist</button>
+    <button (click)="sortAlbums('releaseDate')">By Release Date</button>
+  </div>
   <div *ngFor="let album of albums" class="album-card" (click)="showDescription(album)">
     <img [src]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image">
     <h3 class="album-name">{{album.artist}} - {{ album.name }}</h3>
