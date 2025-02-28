@@ -10,7 +10,7 @@
     <div class="soundtrack-image-container">
       <img [src]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image">
     </div>
-    <div class="soundtrack-info">
+    <div class="soundtrack-info" [ngClass]="soundtrack.platform | lowercase">
       <h3 class="soundtrack-name">{{ soundtrack.name }}</h3>
       <span class="soundtrack-platform">{{ soundtrack.platform }}</span>
     </div>

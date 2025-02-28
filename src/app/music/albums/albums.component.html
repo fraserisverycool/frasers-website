@@ -12,9 +12,9 @@
     <div class="album-image-container">
       <img [src]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image">
     </div>
-    <div class="album-info">
+    <div class="album-info" [style.background-color]="generateRainbowColor(album.releaseyear)" [style.color]="textColor">
       <h3 class="album-name">{{album.artist}} - {{ album.name }}</h3>
-      <span class="album-date">{{ album.releaseyear }}</span>
+      <span class="album-date" >{{ album.releaseyear }}</span>
     </div>
   </div>
 </div>
@@ -26,5 +26,20 @@
     <h4>{{selectedAlbum.releaseyear}}</h4>
     <img [src]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image">
     <p>{{ selectedAlbum.description }}</p>
+  </div>
+</div>
+<div *ngIf="selectedAlbum" class="modal">
+  <div class="modal-content">
+    <span class="close" (click)="closeDescription()">&times;</span>
+    <h2>{{ selectedAlbum.name }}</h2>
+    <img [src]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image">
+    <div class="releaseyear-icon" [style.background-color]="generateRainbowColor(selectedAlbum.releaseyear)" [style.color]="textColor">
+      {{ selectedAlbum.releaseyear }}
+    </div>
+    <p>{{ selectedAlbum.description }}</p>
+    <h3>Top Tracks:</h3>
+    <ul class="top-tracks">
+      <li *ngFor="let track of selectedAlbum.topTracks" [style.background-color]="getRandomColor()">{{ track }}</li>
+    </ul>
   </div>
 </div>
