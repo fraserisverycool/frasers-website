@@ -5,11 +5,7 @@
       <div class="image-container" (click)="openModal(photo)">
         <img [src]="'assets/gallery/' + photo.filename" [alt]="photo.title" class="gallery-image">
       </div>
-      <div class="image-details">
-        <h3>{{ photo.title }}</h3>
-        <p class="description">{{ photo.description }}</p>
-        <p class="date">{{ photo.month }}</p>
-      </div>
+      <app-photo></app-photo>
     </div>
   </div>
 </div>

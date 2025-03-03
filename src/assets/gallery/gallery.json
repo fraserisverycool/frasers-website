@@ -1,34 +1,132 @@
 {
   "pictures": [
     {
-      "filename": "melee.jpg",
+      "filename": "melee2.jpg",
       "title": "Drop everything and BO3 me",
       "description": "I always keeping an eye open for arcade machines when I'm Mexico not only to drop everything and challenge Jack to a game of King of Fighters (which they always won and yes I am still bitter), but also to find any weird shit, like this machine which had a bunch of emulated gamecube and wii games on it. We paid a couple of pesos and had 5 minutes in Smash Melee, which was just about enough to destroy Jack with melee Peach, even though I was unable to do any float cancels with the joystick",
-      "month": "January 2025"
+      "month": "January 2025",
+      "question": "What's the game I organise tournaments for?",
+      "answer": ["Smash", "Super Smash", "Super Smash Bros", "Smash Ultimate", "Super Smash Bros. Ultimate", "Ultimate"]
     },
     {
-      "filename": "archeology.jpg",
+      "filename": "archeology2.jpg",
       "title": "A glimpse into the world of archeology",
       "description": "Jack and I were killing time in Córdoba, Veracruz when we were approached by a lovely man who gave us like a 3 hour tour of the archeology museum, which was so good. We asked a ton of questions and showed a ton of interest, so much so that at the end he let us see his office, pictured here. He had all these shelves of pieces that needed to be registered and getting that insider look was just so fucking cool",
-      "month": "January 2025"
+      "month": "January 2025",
+      "question": "Which country did I visit for a month at the start of 2025?",
+      "answer": ["Mexico"]
     },
     {
-      "filename": "arturo.jpg",
+      "filename": "arturo2.jpg",
       "title": "Moments before the coolest physical manoeuvre I've ever pulled off",
-      "description": "Playa Colomitas in Puerto Vallarta with Arturo. Not only was the day beautiful, the hike beautiful and the beach beautiful, but we also had an amazing moment at this beach. It started to rain, so everyone got into one of the lancha boats you can see in the picture. Everyone struggled, fell inside unceremoniously, or needed to be helped by the driver. We were the last to enter, and although I was nervous, I just went for it and hoisted myself in. By some miracle, I did a perfect flip and landed on the seat so smoothly that people behind me were audibly impressed. Then Arturo comes up, passes me his shoes and bag then does an equally impressive twist into the boat right next me, then gives me a little kiss. Everyone on the boat cheered!",
-      "month": "January 2025"
-    },
-    {
-      "filename": "brenda.jpg",
-      "title": "Another Brenda Banger",
-      "description": "During some organised fun at Christmas, Brenda, the new partner of my grandad, came out with one of her gems. After tying her to the chair she says confidently 'Gag me'",
-      "month": "December 2024"
+      "description": "Playa Colomitas in Puerto Vallarta with a certain someone. Not only was the day beautiful, the hike beautiful and the beach beautiful, but we also had an amazing moment at this beach. It started to rain, so everyone got into one of the lancha boats you can see in the picture. Everyone struggled, fell inside unceremoniously, or needed to be helped by the driver. We were the last to enter, and although I was nervous, I just went for it and hoisted myself in. By some miracle, I did a perfect flip and landed on the seat so smoothly that people behind me were audibly impressed. Then the cute boy featured in the picture comes up, passes me his shoes and bag then does an equally impressive twist into the boat right next me, then gives me a little kiss. Everyone on the boat cheered!",
+      "month": "January 2025",
+      "question": "What's the name of the dentist that I met?",
+      "answer": ["Arturo"]
     },
     {
       "filename": "sam.jpg",
       "title": "The Trousers",
-      "description": "I was so happy to be invited to Mathis' birthday where the theme was just to wear your best outfit, so I did! I wore the Trousers in combination with this matching-colour jacket I found at Humana and although I knew it was a pretty out-there outfit, I felt right at home at the party. I even won a prize! Here I am pictured with Sam who I love and adore",
-      "month": "December 2024"
+      "description": "I was so happy to be invited to Mathis' birthday where the theme was just to wear your best outfit, so I did! I wore the Trousers in combination with this matching-colour jacket I found at Humana and although I knew it was a pretty out-there outfit, I felt right at home at the party. I even won a prize!",
+      "month": "December 2024",
+      "question": "Which city do I live in?",
+      "answer": ["Berlin"]
+    },
+    {
+      "filename": "lickilicky.jpg",
+      "title": "I choose you, Lickilicky!",
+      "description": "When I played Pokemon Brilliant Diamond, a disappointment of a game, I did take joy finding a Lickitung in the underground area. I had forgotten just how ugly that pokemon is, and if you know we well, you'll know that I love ugly pokemon the most. Then in the game, it evolved into Lickilicky and I was absolutely blown away by how ugly it is. I became obsessed - why does it have Wifi on its belly? Why is its tongue like that? I even painted a picture of Lickilicky for my house where it says, 'I choose you, Lickilicky!'. So when I saw this keychain right next to Pikachu and Charmander, I almost had a heart attack. Lickilicky was just there. Anyway I bought it and now it's my official DJ USB decoration, here pictured with Filthy Dog",
+      "month": "November 2024",
+      "question": "What is Lickilicky?",
+      "answer": ["A Pokemon", "Pokemon", "Pokémon", "ugly", "beautiful", "wifi"]
+    },
+    {
+      "filename": "clash2.jpg",
+      "title": "Stunning!",
+      "description": "I put on a new tournament at the Xperion Centre called Clash of Titans and it was a big success! This is a great pic of me and Jack commentating together in German, but my favourite memory from this day was Jack & Diego commentating together, Diego taking it all seriously and Jack just interrupting him to say 'Stunning!' just because Bayonetta is on the screen",
+      "month": "September 2024",
+      "question": "What event did I put on here?",
+      "answer": ["Smash Tournament", "Tournament", "Smash", "Commentary", "Super Smash Bros Tournament", "Clash of Titans", "Xperion"]
+    },
+    {
+      "filename": "tent2.jpg",
+      "title": "Whole lotta fun",
+      "description": "Ah, the experience of getting close friends who are noobs at video games to play smash, I love it. For the record, these two picked Olimar and Villager as their characters, which for me is a massive indication of how cool they are. Photo was taken at Whole Festival",
+      "month": "August 2024",
+      "question": "Who is my main character in Smash?",
+      "answer": ["Peach", "Princess", "Princess Peach", "Duck Hunt", "Duck Hunt Duo"]
+    },
+    {
+      "filename": "claudia.jpg",
+      "title": "Little Mac at Hasenheide",
+      "description": "A major WEYES event in Hasenheide. Highlight for me was Claudia wearing the Little Mac colours and doing this great light show. I got this picture of her that I really like",
+      "month": "July 2024",
+      "question": "What's the name of our DJ collective?",
+      "answer": ["Weyes"]
+    },
+    {
+      "filename": "quiz.jpg",
+      "title": "Fraser's Crazy Music Quiz",
+      "description": "This was peak Epitech, I got loads of attention and everything went smoothly. I put on a side event where the nerds have to guess what video game music I'm playing from a speaker, it's called Fraser's Crazy Music Quiz. Kitty Ort and Diego were watching me having my moment enthusiastically entertaining all the smash nerds and talking about one of my favourite topics",
+      "month": "June 2024",
+      "question": "What's the name of the place I run the monthly tournaments?",
+      "answer": ["Epitech", "Epitech Chase"]
+    },
+    {
+      "filename": "bday.jpg",
+      "title": "Tacky Powerpoint Karaoke",
+      "description": "For my birthday I asked all my friends to come over in their tackiest outfit, loved it. People really came through. We also did powerpoint karaoke, where Lauren smashed Jack's presentation about Liz Truss. 'Short for Lizard' still makes me chuckle whenever I think about it. In this picture I was forced to present Fab's work presentation about programming",
+      "month": "May 2024",
+      "question": "For what occasion was this tacky event?",
+      "answer": ["Birthday", "Your birthday", "My birthday", "31st"]
+    },
+    {
+      "filename": "planet.jpg",
+      "title": "Jack and Fraser Unity Planet",
+      "description": "For Diego's space themed party, Jack and I sat together to make a centrepiece decoration for it, a huge planet that would hang in the middle of the dancefloor. It was a total success and we called it the Jack and Fraser Unity Planet, and it includes this fun human eye on it. Now it hangs ominously in the corner of my room",
+      "month": "April 2024",
+      "question": "What's the name of the friend who threw a space-themed party in 2024 at Mauersegler?",
+      "answer": ["Diego"]
+    },
+    {
+      "filename": "mushroom.jpg",
+      "title": "Trip to the Philharmonic",
+      "description": "Diego got us all tickets to see this insanely wild choir, and we all went while high on mushrooms. We arrived late and Diego bless him was very anxious about not making it to our seats in time because there's no possibility to get in after they close the doors. Instead of being helpful in anyway I suggested a group photo. I dunno I was just feeling so chill, which is why I at least stopped to pose for this photo. I was high as balls though",
+      "month": "March 2024",
+      "question": "What was special about when we visited the Philharmonic?",
+      "answer": ["Mushrooms", "Magic mushrooms", "Shrooms"]
+    },
+    {
+      "filename": "tamales2.jpg",
+      "title": "Making tamales",
+      "description": "I was invited to stay with Josue's best friend's family in Córdoba, Veracruz and it was so fun! I felt like a part of the family, which in Mexico is a real thing. In this photo we are making tamales, some chicken & salsa verde and the others chocolate (!) tamales no less",
+      "month": "February 2024",
+      "question": "Which country was I visiting here?",
+      "answer": ["Mexico"]
+    },
+    {
+      "filename": "tower2.jpg",
+      "title": "La Torre",
+      "description": "We were told to get the tower, and that's what we did. Hell yeah. Aguachiles for days, and covered in the most acidic sauce you can imagine. Might be a top 10 lifetime meal. While waiting for this we bought two rugs from someone walking by (the yellow one in my living room is from here!)",
+      "month": "January 2024",
+      "question": "La Condesa, Santa Maria la Ribera, Roma are all examples of parts of which city?",
+      "answer": ["Mexico City", "Ciudad de México", "La Ciudad de México", "CDMX", "Ciudad de Mexico"]
+    },
+    {
+      "filename": "dj.jpg",
+      "title": "New hobby",
+      "description": "This was my second ever outing as DJ World Peace. It was at Jack's party and it was a huge success! Clarer made this peace sign because I lost the one I made on the way there, which made me so happy",
+      "month": "October 2023",
+      "question": "What is my DJ name?",
+      "answer": ["DJ World Peace", "DJWP"]
+    },
+    {
+      "filename": "bath.jpg",
+      "title": "Risky bath",
+      "description": "My mate Oscar got married in this fancy house in the countryside. One highlight for me was this insane standing bath that was just available in this weird hallway room. I immediately got in and I was spotted by Oscar soon after because there were no locks. Yes I was playing switch in the bath, I have no fear",
+      "month": "October 2023",
+      "question": "What's that thing on the table?",
+      "answer": ["Switch", "A Switch", "A Nintendo Switch", "Nintendo Switch", "Nintendo"]
     }
   ]
 }

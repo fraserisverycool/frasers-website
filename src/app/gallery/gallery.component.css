@@ -56,17 +56,7 @@ h3 {
   color: #333;
 }
 
-.description {
-  color: #666;
-  font-size: 0.9em;
-  margin-bottom: 10px;
-}
 
-.date {
-  color: #999;
-  font-size: 0.8em;
-  font-style: italic;
-}
 
 .modal {
   position: fixed;

@@ -1,0 +1,12 @@
+<div class="image-details">
+  <h3>{{ photo.title }}</h3>
+  <div>
+    <input type="password" [(ngModel)]="password" placeholder="photo.question">
+    <button (click)="checkPassword()">Submit</button>
+
+    <div *ngIf="showText">
+      <p>{{ photo.description }}</p>
+    </div>
+  </div>
+  <p class="date">{{ photo.month }}</p>
+</div>
