@@ -1,0 +1,21 @@
+<div class="gallery-container">
+  <h2>Photos!</h2>
+  <div class="gallery-rows">
+    <div *ngFor="let photo of photos; let i = index" class="gallery-row" [ngClass]="{'row-reverse': i % 2 !== 0}">
+      <div class="image-container" (click)="openModal(photo)">
+        <img [src]="'assets/gallery/' + photo.filename" [alt]="photo.title" class="gallery-image">
+      </div>
+      <div class="image-details">
+        <h3>{{ photo.title }}</h3>
+        <p class="description">{{ photo.description }}</p>
+        <p class="date">{{ photo.month }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h4>More photos coming soon! This part of the website is still pretty fresh, but I'm happy you made it to the end of the page. Here's a <a routerLink="/gallery/videos">secret webpage</a> for you</h4>
+
+<div *ngIf="modalImage" class="modal" (click)="closeModal()">
+  <img [src]="'assets/gallery/' + modalImage.filename" [alt]="modalImage.title" class="modal-image">
+</div>

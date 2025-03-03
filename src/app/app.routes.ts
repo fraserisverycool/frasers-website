@@ -53,6 +53,12 @@ export const routes: Routes = [
     path: 'music/mixes', loadComponent: () => import('./music/mixes/mixes.component')
   },
   {
+    path: 'gallery', loadComponent: () => import('./gallery/gallery.component')
+  },
+  {
+    path: 'gallery/videos', loadComponent: () => import('./gallery/videos/videos.component')
+  },
+  {
     path: 'brexitsummit', loadComponent: () => import('./brexit/brexit.component')
   }
 ];
