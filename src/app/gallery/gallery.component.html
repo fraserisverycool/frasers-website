@@ -1,7 +1,7 @@
 <div class="gallery-container">
   <h2>Photos!</h2>
   <div class="gallery-rows">
-    <div *ngFor="let photo of photos; let i = index" class="gallery-row" [ngClass]="{'row-reverse': i % 2 !== 0}">
+    <div *ngFor="let photo of photos; let i = index" class="gallery-row">
       <app-photo [photo]=photo></app-photo>
     </div>
   </div>
