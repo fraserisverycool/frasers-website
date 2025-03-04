@@ -10,7 +10,7 @@ interface Photo {
   description: string;
   month: string;
   question: string;
-  answer: string;
+  answer: string[];
 }
 
 @Component({
@@ -22,7 +22,7 @@ interface Photo {
 })
 export default class GalleryComponent implements OnInit {
   photos: Photo[] = [];
-  modalImage: Photo | null = null;
+
 
   constructor(private http: HttpClient) {}
 
@@ -36,14 +36,5 @@ export default class GalleryComponent implements OnInit {
       },
     });
   }
-
-  openModal(item: Photo) {
-    this.modalImage = item;
-  }
-
-  closeModal() {
-    this.modalImage = null;
-  }
-
 
 }

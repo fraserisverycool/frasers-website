@@ -1,34 +1,54 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import Photo from "./gallery.component";
+import {FormsModule} from "@angular/forms";
+
+interface Photo {
+  filename: string;
+  title: string;
+  description: string;
+  month: string;
+  question: string;
+  answer: string[];
+}
 
 @Component({
   selector: 'app-photo',
   standalone: true,
-  imports: [CommonModule, Photo],
+  imports: [CommonModule, FormsModule],
   templateUrl: './photo.component.html',
   styleUrls: ['./photo.component.css']
 })
 export default class PhotoComponent {
-  @input photo: Photo = <Photo>({
-    filename: "";
-    title: "";
-    description: "";
-    month: "";
-    question: "";
-    answer: "";
+  @Input() photo: Photo = <Photo>({
+    filename: "",
+    title: "",
+    description: "",
+    month: "",
+    question: "",
+    answer: [""]
   });
 
-  password = '';
-  correctPassword = this.photo.answer;
+  userAnswer = "";
   showText = false;
 
-  checkPassword() {
-    if (this.password === this.correctPassword) {
+  modalImage: Photo | null = null;
+
+  checkAnswer(answer: string) {
+    const userAnswer = answer.trim().toLowerCase();
+    if (this.photo.answer.some(answer => answer.toLowerCase() === userAnswer.toLowerCase())) {
       this.showText = true;
     } else {
-      alert('Incorrect password');
+      alert('Incorrect answer. Please try again.');
     }
+    this.userAnswer = '';
+  }
+
+  openModal(item: Photo) {
+    this.modalImage = item;
+  }
+
+  closeModal() {
+    this.modalImage = null;
   }
 
 }
