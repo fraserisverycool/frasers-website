@@ -1,7 +1,7 @@
 <h1>My favourite albums</h1>
 
 <div class="album-container">
-  <h4>I will write my thoughts about these albums down, but that will be a long process that I will take my time with. But you can still click these albums and know that I recommend them all!</h4>
+  <h4>I am currently writing my thoughts about these albums down, but it's a long process that I am taking my time with. If the album has a red border that means I haven't written a description yet, but you can still click these albums and know that I recommend them all!</h4>
   <div class="sorting-buttons">
     <button (click)="sortAlbums('random')">Random Order</button>
     <button (click)="sortAlbums('alphabeticalName')">Alphabetical by Album</button>
@@ -9,7 +9,9 @@
     <button (click)="sortAlbums('releaseDate')">By Release Date</button>
   </div>
   <div *ngFor="let album of albums" class="album-card" (click)="showDescription(album)">
-    <div class="album-image-container">
+    <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
+         [style.border-style]="album.description ? 'none' : 'solid'"
+         [style.border-width]="album.description ? '0' : '2px'">
       <img [src]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image">
     </div>
     <div class="album-info" [style.background-color]="generateRainbowColor(album.releaseyear)" [style.color]="textColor">
