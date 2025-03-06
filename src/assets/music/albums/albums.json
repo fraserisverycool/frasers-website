@@ -701,24 +701,24 @@
       "artist": "Sade",
       "name": "Promise",
       "releaseyear": "1985",
-      "description": "Sade stuns with this follow-up album, arguably even MORE classy and more sophisticated than the first. I always come back to the image of her at the window in the rain for the 'Sweetest Taboo' video. Such a vibe. And in terms of audio, just the first minute of the album with the James Bond ..............................",
-      "topTracks": []
+      "description": "Sade stuns with this follow-up album, arguably even MORE classy and more sophisticated than the first. I always come back to the image of her at the window in the rain for the 'Sweetest Taboo' video. Such a vibe. And in terms of audio, just the first minute of the album with the James Bond big band blow-out, then the single tap of the conga into the smoothest verse you could ever imagine. It's just something else! I also love the final track 'Maureen' about her car",
+      "topTracks": ["Is It a Crime", "The Sweetest Taboo", "War of the Hearts", "Mr Wrong", "Never as Good as the First Time", "Maureen"]
     },
     {
       "filename": "sade-stronger.jpg",
       "artist": "Sade",
       "name": "Stronger Than Pride",
       "releaseyear": "1988",
-      "description": "",
-      "topTracks": []
+      "description": "Ugh yet another stunning Sade album, how lucky we are to be able to listen to it on demand. The band evolves even further and become even silkier, even classier and even more beautiful than ever before. With the timeless 'Paradise', another favourite track 'Nothing Can Come Between Us', which I'm pretty sure features 3 different kinds of bass guitar. One track in particular has had a major effect on me in 2024, 'I Never Thought I'd See the Day'. It's a very quiet track with just two bass notes keeping the rhythm while Sade sings about the day it all goes wrong, and it's perfect for when you want to wallow in your sadness, or you are contemplating life-changing things. This song has been there for me when I need it. And then it's followed up by this beautiful instrumental track at the end. It's just perfect",
+      "topTracks": ["Paradise", "Nothing Can Come Between Us", "Turn My Back On You", "Keep Looking", "Clean Heart", "I Never Thought I'd See the Day", "Siempre Hay Esperanza"]
     },
     {
       "filename": "sade-love.jpg",
       "artist": "Sade",
       "name": "Love Deluxe",
       "releaseyear": "1992",
-      "description": "",
-      "topTracks": []
+      "description": "To think that we get the honour of living in a world where Sade graces us with their magnus opus, their ultimate album, the unbeatable Love Deluxe. This album REEKS of sensuality, desire and classy confidence. I went and put every track in the top tracks because it's just one of those albums. It starts off with the best one, 'No Ordinary Love', the sexiest song ever, and one I regularly put on during sex. The main theme of Streets of Rage, a house-influence soundtrack, reminds me of this song which makes me love it more. Then there's just always this amazing beat and vibe, more so than the previous albums, it's almost hypnotic. Hard to put into words. 'Like a Tattoo' has this devastating story, and when she sings 'I still feel the chill as I reveal my shame to you' I always have to stop what I'm doing and take a moment. And it ends with another beautiful instruments. God it's just a perfect album",
+      "topTracks": ["No Ordinary Love", "Feel No Pain", "Couldn't Love You More", "Like a Tattoo", "Kiss of Life", "Cherish The Day", "Pearls", "Bullet Proof Soul", "Mermaid"]
     },
     {
       "filename": "esperanza-emily.jpg",
@@ -770,11 +770,19 @@
     },
     {
       "filename": "leisure-sleeper.jpg",
-      "artist": "Leisure Society",
+      "artist": "The Leisure Society",
       "name": "The Sleeper",
       "releaseyear": "2009",
-      "description": "",
-      "topTracks": []
+      "description": "For a long time this was my favourite band! When I was 15 or so I had their albums on repeat. If any band puts in a remotely interesting chord progression, I'm in, which is why I was obsessed with 'Come To Your Senses' and 'We Were Wasted'. But I also loved how the melody hung so lightly in 'Last of the Melting Snow', then eventually swings in. It's just so nice. I fondly enjoy the nostalgia I feel with this album",
+      "topTracks": ["A Fighting Chance", "The Last Of The Melting Snow", "A Short Weekend Begins With Longing", "We Were Wasted", "Are We Happy?", "Come To Your Senses", "Love's Enormous Wings"]
+    },
+    {
+      "filename": "leisure-murky.jpg",
+      "artist": "The Leisure Society",
+      "name": "Into The Murky Water",
+      "releaseyear": "2011",
+      "description": "I got this album on CD around the time I had my first fish, Vaughan Williams. When the summer came around and I was too lazy to change the water more often and algea murked up the water, I enjoyed playing this album since it's also murky water related. It's a cute album! Lots of fun songs, the kind of music I really associate with English festivals. They also did an EP 'Out of the Murky Water' which I also adore",
+      "topTracks": ["Into The Murky Water", "Out Hearts Burn Like Damp Matches", "Better Written Off (Than Written Down)", "Just Like The Knife", "Flying", "Weir Road", "A Richer Dust"]
     },
     {
       "filename": "weyes-titanic.webp",
@@ -1189,8 +1197,8 @@
       "artist": "Department of Eagles",
       "name": "In Ear Park",
       "releaseyear": "2008",
-      "description": "",
-      "topTracks": []
+      "description": "In my indie days as a teenager I got into this album because I was a fan of Daniel Rossen from Grizzly Bear. For a folky album it has a very mysterious and dark vibe. You'll get what I mean when you hear the chorus in 'In Ear Park'. I also want to shout out the final track 'Balmy Night', which is about panic, and is definitely up there in terms of favourite ever songs. It feels like something is washing over you when you listen to it crescendo. This album does have a bad track, 'Classical Records'. Really not sure what's going on with that one",
+      "topTracks": ["In Ear Park", "Phantom Other", "Floating On The Lehigh", "Balmy Night"]
     },
     {
       "filename": "ultraflex-wellness.jpg",
@@ -1349,16 +1357,16 @@
       "artist": "Beach House",
       "name": "Once Twice Melody",
       "releaseyear": "2022",
-      "description": "",
-      "topTracks": []
+      "description": "This band truly have a unique sound! It's so awashed with sound that it feels like you're floating in space. The music feels like a dream, like your vision is hazy and you can't concentrate. And for some reason this album is a mega long 4-disk album! They released it in chunks, so I ended up listening to the first one a bunch, and for me it remains the best part. Although I like the creepy 'Masquerade' and beautiful conclusion 'Modern Love Stories' too. And the whole album, I just like it all",
+      "topTracks": ["Once Twice Melody", "Superstar", "Pink Funeral", "Through Me", "Over and Over", "Masquerade", "Modern Love Stories"]
     },
     {
       "filename": "grizzly-yellow.webp",
       "artist": "Grizzly Bear",
       "name": "Yellow House",
       "releaseyear": "2006",
-      "description": "",
-      "topTracks": []
+      "description": "I'm a fan of Daniel Rossen and that's how I got into this band. I like a lot of their albums but this is the one I've listened to the most, and the one that I like the most. Mysterious, nebulous music, fairy tale music, hard to say what kind of emotions are coming across. I really like the vibraphone in 'Central and Remote', and I especially love the track 'Reprise' which just has amazing harmony",
+      "topTracks": ["Easier", "Central and Remote", "Plans", "On a Neck, On a Spit", "Reprise"]
     },
     {
       "filename": "coldplay-parachutes.jpg",
