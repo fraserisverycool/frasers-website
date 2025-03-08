@@ -86,6 +86,10 @@ a {
   background: radial-gradient(circle, #67f525, #027800);
 }
 
+.fun-button.links {
+  background: radial-gradient(circle, #dd1fff, #c266ff);
+}
+
 .fun-button.brexit {
   background: radial-gradient(circle, #5745ff, #4800c4);
 }

@@ -10,71 +10,14 @@
   <h1 class="text-center">Films Fraser Watched in 2025</h1>
   <p class="lead text-center">New to this website are little film reviews. The year is still ongoing so this list will grow! I decided not to write down scores out of 10 because films aren't about that actually</p>
 
-  <div class='film-review mt-4'>
-    <h2>Coco</h2>
-    <p>Rewatched this delightful film with Mexicans asking if it's all real and they were like yep. Actually a delightful film</p>
-    <img src='../../../assets/films/coco.jpeg' width='600'>
+  <div *ngFor="let film of films">
+    <div class='film-review mt-4'>
+      <h2>{{ film.title }}</h2>
+      <p>{{ film.description }}</p>
+      <img [src]="'assets/films/' + film.filename" width='600'>
+    </div>
   </div>
 
-  <div class='film-review mt-4'>
-    <h2>Summer of 85</h2>
-    <p>Standard gay film, was pissed off by one of them randomly acting like a dickhead at the end with no warning</p>
-    <img src='../../../assets/films/summer.jpg' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>It Ends With Us</h2>
-    <p>Pretty people gazing at each other for two hours, I didn't love it</p>
-    <img src='../../../assets/films/it-ends.jpg' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>The Substance</h2>
-    <p>So good. Also the most horrible film I've ever watched. I'm not good with body horror so I'm not sure what I was doing watching this</p>
-    <img src='../../../assets/films/substance.jpg' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>Boy</h2>
-    <p>I was so nervous during all of this film because it's so tense but the ending was so beautiful. A Danish queer coming of age film, not an easy watch</p>
-    <img src='../../../assets/films/boy.jpg' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>Neosagradxs</h2>
-    <p>My friends Clarer and Miiel made this film!! And I'm in it!! I have two lines speaking in spanish and they are terrible, I am a terrible actor. My apologies to the directors and the viewers</p>
-    <img src='../../../assets/films/neosagradxs.PNG' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>Ato Noturno</h2>
-    <p>Gripping, amazing film about public figures exploring their kink of sex in public. Cheesy film noir soundtrack makes it so funny and enjoyable to watch. I watched it at the Berlinale and I loved it</p>
-    <img src='../../../assets/films/ato.png' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>Lesbian Space Princess</h2>
-    <p>Mongay always do a showing of the winner of the Teddy Award and this year it was this wacky animated film about lesbians in space. At parts it's hilarious but I did roll my eyes a few times</p>
-    <img src='../../../assets/films/lesbian.webp' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>Female Trouble</h2>
-    <p>Absolutely insane film, there are no words to describe it. It goes way too far and is hugely inappropriate and very disgusting. I loved it and was hugely entertained for the entire thing</p>
-    <img src='../../../assets/films/female.jpg' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>Nosferatu</h2>
-    <p>Hilarious film, one of the OG horror films where a bunch of tropes come from. I love how Count Orlok travels across Europe in a coffin via raft just so he can suck a German lady's blood. Also this vampire stuff is so sexually charged it's insane</p>
-    <img src='../../../assets/films/nosferatu.png' width='600'>
-  </div>
-
-  <div class='film-review mt-4'>
-    <h2>Dear Kelly</h2>
-    <p>As a fan of Channel 5, a top class youtube channel, I decided to check out their feature film about this right-winger and how he came to be so lost. It's pretty good</p>
-    <img src='../../../assets/films/dear-kelly.jpg' width='600'>
-  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

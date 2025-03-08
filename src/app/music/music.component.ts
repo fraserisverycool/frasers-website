@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {Router} from "@angular/router";
+import { RouterLink, RouterOutlet, Router } from '@angular/router';
 
 @Component({
   selector: 'app-music',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink, RouterOutlet],
   templateUrl: './music.component.html',
   styleUrls: ['./music.component.css']
 })

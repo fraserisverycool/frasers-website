@@ -56,12 +56,21 @@ export const routes: Routes = [
     path: 'music/mixes', loadComponent: () => import('./music/mixes/mixes.component')
   },
   {
+    path: 'music/worldpeace', loadComponent: () => import('./music/worldpeace/worldpeace.component')
+  },
+  {
     path: 'gallery', loadComponent: () => import('./gallery/gallery.component')
   },
   {
     path: 'gallery/videos', loadComponent: () => import('./gallery/videos/videos.component')
   },
   {
-    path: 'brexitsummit', loadComponent: () => import('./brexit/brexit.component')
+    path: 'links', loadComponent: () => import('./links/links.component')
+  },
+  {
+    path: 'smash', loadComponent: () => import('./smash/smash.component')
+  },
+  {
+    path: 'smash/brexitsummit', loadComponent: () => import('./smash/brexit/brexit.component')
   }
 ];

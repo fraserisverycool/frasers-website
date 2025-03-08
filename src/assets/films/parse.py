@@ -1,15 +1,8 @@
-<app-films></app-films>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Films Fraser Watched in 2023</title>
-</head>
-<body>
-<div class="container mt-5">
-  <h1 class="text-center">Films Fraser Watched in 2023</h1>
-  <p class="lead text-center">I actually went back through my diary to find all these films, and added a little impression for how they were. These are the first times I consistently wrote down what I watched.</p>
+import json
+from bs4 import BeautifulSoup
 
+# Your HTML content
+html_content = """
   <div class='film-review mt-4'>
     <h2>In from the Side</h2>
     <p>Fun film about a gay rugby team, but which featured absolutely no homophobia. It gets a high score from me because the main dude is so hot</p>
@@ -225,8 +218,33 @@
     <p>Really good film set almost entirely in a bedroom during a dramatic time about a hot gay guy who spirals downwards</p>
     <img src='../../../assets/films/in-bed.jpg' width='600'>
   </div>
+"""
 
-</div>
+# Parse HTML content
+soup = BeautifulSoup(html_content, 'html.parser')
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+# Find all film reviews
+film_reviews = soup.find_all('div', class_='film-review')
+
+# Initialize JSON data structure
+json_data = {
+  "films": []
+}
+
+# Loop through each film review
+for review in film_reviews:
+  title = review.find('h2').text
+  description = review.find('p').text
+  filename = review.find('img')['src'].split('/')[-1]
+
+  # Add film data to JSON
+  json_data['films'].append({
+    "filename": filename,
+    "title": title,
+    "description": description
+  })
+
+# Save JSON data to file
+print(json.dumps(json_data, file, indent=2, ensure_ascii=False))
+
+print("JSON file saved successfully.")

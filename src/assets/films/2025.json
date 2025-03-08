@@ -1,0 +1,59 @@
+{
+  "films": [
+    {
+      "filename": "coco.jpeg",
+      "title": "Coco",
+      "description": "Rewatched this delightful film with Mexicans asking if it's all real and they were like yep. Actually a delightful film"
+    },
+    {
+      "filename": "summer.jpg",
+      "title": "Summer of 85",
+      "description": "Standard gay film, was pissed off by one of them randomly acting like a dickhead at the end with no warning"
+    },
+    {
+      "filename": "it-ends.jpg",
+      "title": "It Ends With Us",
+      "description": "Pretty people gazing at each other for two hours, I didn't love it"
+    },
+    {
+      "filename": "substance.jpg",
+      "title": "The Substance",
+      "description": "So good. Also the most horrible film I've ever watched. I'm not good with body horror so I'm not sure what I was doing watching this"
+    },
+    {
+      "filename": "boy.jpg",
+      "title": "Boy",
+      "description": "I was so nervous during all of this film because it's so tense but the ending was so beautiful. A Danish queer coming of age film, not an easy watch"
+    },
+    {
+      "filename": "neosagradxs.PNG",
+      "title": "Neosagradxs",
+      "description": "My friends Clarer and Miiel made this film!! And I'm in it!! I have two lines speaking in spanish and they are terrible, I am a terrible actor. My apologies to the directors and the viewers"
+    },
+    {
+      "filename": "ato.png",
+      "title": "Ato Noturno",
+      "description": "Gripping, amazing film about public figures exploring their kink of sex in public. Cheesy film noir soundtrack makes it so funny and enjoyable to watch. I watched it at the Berlinale and I loved it"
+    },
+    {
+      "filename": "lesbian.webp",
+      "title": "Lesbian Space Princess",
+      "description": "Mongay always do a showing of the winner of the Teddy Award and this year it was this wacky animated film about lesbians in space. At parts it's hilarious but I did roll my eyes a few times"
+    },
+    {
+      "filename": "female.jpg",
+      "title": "Female Trouble",
+      "description": "Absolutely insane film, there are no words to describe it. It goes way too far and is hugely inappropriate and very disgusting. I loved it and was hugely entertained for the entire thing"
+    },
+    {
+      "filename": "nosferatu.png",
+      "title": "Nosferatu",
+      "description": "Hilarious film, one of the OG horror films where a bunch of tropes come from. I love how Count Orlok travels across Europe in a coffin via raft just so he can suck a German lady's blood. Also this vampire stuff is so sexually charged it's insane"
+    },
+    {
+      "filename": "dear-kelly.jpg",
+      "title": "Dear Kelly",
+      "description": "As a fan of Channel 5, a top class youtube channel, I decided to check out their feature film about this right-winger and how he came to be so lost. It's pretty good"
+    }
+  ]
+}
