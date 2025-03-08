@@ -245,6 +245,5 @@ for review in film_reviews:
   })
 
 # Save JSON data to file
-print(json.dumps(json_data, file, indent=2, ensure_ascii=False))
+print(json.dumps(json_data, indent=2, ensure_ascii=False))
 
-print("JSON file saved successfully.")
