@@ -1,0 +1,99 @@
+.kkSong-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ff99cc; /* Pastel pink background */
+}
+
+.kk-image {
+  max-height: 300px;
+}
+
+.kkSong-container h1 {
+  color: #185ac7; /* Light blue title */
+  text-shadow: 2px 2px #ff66cc; /* Pink shadow */
+}
+
+.tier-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.kkSong-image-container {
+  display: inline-block;
+  position: relative;
+  margin: 3px;
+}
+
+.kkSong-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular image */
+  border: 2px solid #66ccff; /* Light blue border */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.kkSong-image:hover {
+  transform: scale(1.05); /* Scale on hover */
+}
+
+.kkSong-name {
+  text-align: center;
+  font-size: 16px;
+  color: #550363; /* Pink song title */
+  position: relative;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Modal styling */
+.modal {
+  display: block; /* Show modal */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

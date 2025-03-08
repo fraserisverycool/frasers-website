@@ -50,6 +50,9 @@ export const routes: Routes = [
     path: 'music/nintendo', loadComponent: () => import('./music/nintendo/nintendo.component')
   },
   {
+    path: 'music/nintendo/kk', loadComponent: () => import('./music/nintendo/kk/kk.component')
+  },
+  {
     path: 'music/mixes', loadComponent: () => import('./music/mixes/mixes.component')
   },
   {

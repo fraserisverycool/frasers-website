@@ -1,0 +1,97 @@
+<div class="kkSong-container">
+  <h1>Ranked list of all K.K. Slider Songs</h1>
+
+  <img [src]="'assets/music/nintendo/kk/kk-slider.webp'" [alt]="'K.K. Slider'" class="kk-image">
+
+  <p>One of the best parts of Animal Crossing has always been Saturday night when K.K. Slider comes to town to sing one of his 100+ tracks. When you play the games you inevitably end up with favourites, the tracks you play in your house, but rarely does your average Animal Crossing player sit down and appreciate all of them. I, however, did exactly that and have formed a ranked list of every track that he has ever released. Am I crazy? Yes. But real talk, no other artist comes close to K.K. in terms of range. He has traveled to every country in the world and studied every style of music. His discography is a lesson in world music, and I learned so much from listening to all these styles I didn't know anything about before, and also from reading Nookipedia, which has some pretty good info on where a lot of these tracks draw their inspiration from. That being said, some of them are just objectively shit.</p>
+  <p>So, for this webpage, I decided to rank them in terms of vibes, how well they represent their given style, if the music is good, and also there are bonus points for great album art. I'll write a few sentences about each one as well with what I learned about the style of music he is emulating. Within the tiers they are not ordered.</p>
+
+  <!-- Tier S -->
+  <h1>The Crème de la Crème</h1>
+  <p>These K.K. tracks are so good. They are worthy of being played in my house, and they have reached some kind of legendary status, at least for me</p>
+  <div class="tier-container">
+    <div *ngFor="let kkSong of kkSongs" >
+      <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'S'">
+        <div class="kkSong-image-container">
+          <img [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+        </div>
+        <div class="kkSong-info">
+          <h3 class="kkSong-name">{{ kkSong.title }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tier A -->
+  <h1>Great tunes, great vibes</h1>
+  <p>These are enjoyable, pretty great tracks from the main man himself. He has a lot of deep cuts which aren't instant classics but definitely worth a listen</p>
+  <div class="tier-container">
+    <div *ngFor="let kkSong of kkSongs" >
+      <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'A'">
+        <div class="kkSong-image-container">
+          <img [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+        </div>
+        <div class="kkSong-info">
+          <h3 class="kkSong-name">{{ kkSong.title }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tier B -->
+  <h1>Eh they're alright I guess</h1>
+  <p>I don't feel too strongly about these tracks. Don't feel obliged to listen to them</p>
+  <div class="tier-container">
+    <div *ngFor="let kkSong of kkSongs" >
+      <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'B'">
+        <div class="kkSong-image-container">
+          <img [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+        </div>
+        <div class="kkSong-info">
+          <h3 class="kkSong-name">{{ kkSong.title }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tier C -->
+  <h1>Only listen to these for science</h1>
+  <p>A lot of K.K. tracks sound pretty bad or are just boring, this is a dumping ground for those</p>
+  <div class="tier-container">
+    <div *ngFor="let kkSong of kkSongs" >
+      <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'C'">
+        <div class="kkSong-image-container">
+          <img [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+        </div>
+        <div class="kkSong-info">
+          <h3 class="kkSong-name">{{ kkSong.title }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tier D -->
+  <h1>Farting into the microphone</h1>
+  <p>These are genuinely bad. You should only listen to them with the express purpose of laughing at them</p>
+  <div class="tier-container">
+    <div *ngFor="let kkSong of kkSongs" >
+      <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'D'">
+        <div class="kkSong-image-container">
+          <img [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+        </div>
+        <div class="kkSong-info">
+          <h3 class="kkSong-name">{{ kkSong.title }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="selectedKkSong" class="modal">
+  <div class="modal-content">
+    <span class="close" (click)="closeDescription()">&times;</span>
+    <h2>{{ selectedKkSong.title }}</h2>
+    <p>{{ selectedKkSong.description }}</p>
+    <img [src]="'assets/music/nintendo/kk/' + selectedKkSong.filename" [alt]="selectedKkSong.title" class="modal-image">
+  </div>
+</div>

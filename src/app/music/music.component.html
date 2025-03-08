@@ -1,19 +1,32 @@
 <div class="container mt-5">
   <h1>Time to listen to some great music</h1>
-  <p>On this page we've got all sorts! First, here are some of my favourite albums. I've already put like 200 albums on here, and I intend to write some words about each of them, but I'm taking my time with that for now. Still, you can pick up some recommendations here:</p>
-  <button class="fun-button" (click)="handleClick('/music/albums')">
-    <span class="button-text">Albums</span>
-  </button>
-  <p>Next, have you heard about the Nintendo music app? It's so good! Yeah there isn't a huge selection of soundtracks on there just yet, they're dropping new ones every week and I'm so hooked. I'm gonna write reviews of each soundtrack and also put my playlists of here:</p>
-  <button class="fun-button" (click)="handleClick('/music/nintendo')">
-    <span class="button-text">Nintendo Soundtracks</span>
-  </button>
-  <p>Talking about video game music, over the years I made a bunch of mixes of my favourite tracks. They are currently not available for download because I need a bit of time to figure out how to host these files on my raspberry pi. But I've already written a bunch of stuff about them:</p>
-  <button class="fun-button" (click)="handleClick('/music/mixes')">
-    <span class="button-text">Video Game Mixes</span>
-  </button>
-  <p>Finally here are some links to my favourite spotify playlists:</p>
-  <button class="fun-button" (click)="handleClick('/music/spotify')">
-    <span class="button-text">Spotify Playlists</span>
-  </button>
+  <div class="gif">
+    <img src="../../../assets/homepage/notes.gif">
+  </div>
+  <div class="square-layout">
+    <div class="square top-left">
+      <button class="fun-button" (click)="handleClick('/music/albums')">
+        <span class="button-text">Albums</span>
+      </button>
+      <p>Here are some of my favourite albums. I've already put like 200 albums on here, and I intend to write some words about each of them, but I'm taking my time with that for now. Still, you can pick up some recommendations here.</p>
+    </div>
+    <div class="square top-right">
+      <button class="fun-button" (click)="handleClick('/music/nintendo')">
+        <span class="button-text">Nintendo Soundtracks</span>
+      </button>
+      <p>Have you heard about the Nintendo music app? It's so good! Yeah there isn't a huge selection of soundtracks on there just yet, they're dropping new ones every week and I'm so hooked. I'm writing a review for each one they release.</p>
+    </div>
+    <div class="square bottom-left">
+      <button class="fun-button" (click)="handleClick('/music/mixes')">
+        <span class="button-text">Video Game Mixes</span>
+      </button>
+      <p>Talking about video game music, over the years I made a bunch of mixes of my favourite tracks. They are currently not available for download because I need a bit of time to figure out how to host these files on my raspberry pi. But I've already written a bunch of stuff about them if you wanna read.</p>
+    </div>
+    <div class="square bottom-right">
+      <button class="fun-button" (click)="handleClick('/music/spotify')">
+        <span class="button-text">Spotify Playlists</span>
+      </button>
+      <p>And here are some links to some of my favourite spotify playlists</p>
+    </div>
+  </div>
 </div>

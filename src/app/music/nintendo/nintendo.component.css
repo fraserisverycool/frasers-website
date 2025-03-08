@@ -169,3 +169,7 @@ h1 {
   background-color: #242001;
   color: white;
 }
+
+.kk-image {
+  max-height: 200px;
+}

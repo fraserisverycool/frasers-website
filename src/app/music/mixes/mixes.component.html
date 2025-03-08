@@ -1,6 +1,9 @@
 <div class="page-container">
 <div class="mp3-container">
   <h2 class="neon-text">🎵 MP3 Downloads 🎵</h2>
+  <div class="gif">
+    <img src="../../../assets/homepage/mp3.gif" margin="5px">
+  </div>
   <h4>Currently the raspberry pi is unable to deal with hosting these files because it doesn't have enough memory. Working on a solution...</h4>
   <ul class="mp3-list">
     <li *ngFor="let mp3 of mp3Files; let i = index" [style.animation-delay]="i * 0.1 + 's'">

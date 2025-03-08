@@ -30,12 +30,18 @@ a {
   max-width: 800px;
 }
 
+.gif-box {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
 .gif {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .fun-button {
@@ -63,3 +69,24 @@ a {
 .fun-button:active {
   transform: scale(0.95);
 }
+
+.fun-button.games {
+  background: radial-gradient(circle, #ff1493, #ff4500);
+}
+
+.fun-button.films {
+  background: radial-gradient(circle, #25f5a2, #00ccff);
+}
+
+.fun-button.music {
+  background: radial-gradient(circle, #ff6b2b, #ffcc00);
+}
+
+.fun-button.gallery {
+  background: radial-gradient(circle, #67f525, #027800);
+}
+
+.fun-button.brexit {
+  background: radial-gradient(circle, #5745ff, #4800c4);
+}
+

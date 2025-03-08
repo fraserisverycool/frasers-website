@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 interface Soundtrack {
   filename: string;
@@ -13,7 +14,7 @@ interface Soundtrack {
 @Component({
   selector: 'app-nintendo',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterOutlet, RouterLink],
   templateUrl: './nintendo.component.html',
   styleUrls: ['./nintendo.component.css']
 })
