@@ -10,9 +10,9 @@ import {RouterLink} from "@angular/router";
   styleUrls: ['./games.component.css']
 })
 export default class GamesComponent {
-  years = [2025, 2024, 2023, 2022, 2021, 2020];
+  years = ['next', '2025', '2024', '2023', '2022', '2021', '2020'];
 
-  goToYear(year: number) {
+  goToYear(year: string) {
     window.location.href = `/games/${year}`;
   }
 }

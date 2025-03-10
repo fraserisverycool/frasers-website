@@ -26,6 +26,9 @@ export const routes: Routes = [
     path: 'games/2020', loadComponent: () => import('./games/zero/zero.component')
   },
   {
+    path: 'games/next', loadComponent: () => import('./games/next/next.component')
+  },
+  {
     path: 'films', loadComponent: () => import('./films/films.component')
   },
   {
@@ -36,6 +39,9 @@ export const routes: Routes = [
   },
   {
     path: 'films/2023', loadComponent: () => import('./films/three/three.component')
+  },
+  {
+    path: 'films/next', loadComponent: () => import('./films/next/next.component')
   },
   {
     path: 'music', loadComponent: () => import('./music/music.component')

@@ -1,5 +1,5 @@
 {
-  "name": "angular-universal-standalone",
+  "name": "frasers-website",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,10 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run angular-universal-standalone:serve-ssr",
-    "serve:ssr": "node dist/angular-universal-standalone/server/main.js",
-    "build:ssr": "ng build && ng run angular-universal-standalone:server",
-    "prerender": "ng run angular-universal-standalone:prerender"
+    "dev:ssr": "ng run frasers-website:serve-ssr",
+    "serve:ssr": "node dist/frasers-website/server/main.js",
+    "build:ssr": "ng build && ng run frasers-website:server",
+    "prerender": "ng run frasers-website:prerender"
   },
   "private": true,
   "dependencies": {

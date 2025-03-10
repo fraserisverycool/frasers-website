@@ -1,0 +1,66 @@
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  max-width: 800px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #540d6e; /* Matches the game card colors */
+  text-shadow: 1px 1px 3px black;
+  text-align: center; /* Centers the text */
+  margin: 40px 0; /* Adds margin above and below */
+}
+
+.game-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background: repeating-linear-gradient(
+    -45deg,
+    #540d6e,
+    #540d6e 10px,
+    #ee4266 10px,
+    #ee4266 20px
+  );
+  text-shadow: 2px 2px 5px black, -2px -2px 5px white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  transform: rotate(-5deg);
+  animation: bounce 1.5s infinite alternate ease-in-out, spin 3s linear infinite;
+}
+
+.game-section {
+  width: 100%; /* Ensures sections span full width */
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap; /* Allows game cards to wrap */
+  justify-content: center; /* Center-align game cards */
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0) rotate(-5deg);
+  }
+  to {
+    transform: translateY(-20px) rotate(5deg);
+  }
+}
+@keyframes spin {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}

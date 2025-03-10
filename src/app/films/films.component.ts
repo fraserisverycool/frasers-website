@@ -10,9 +10,9 @@ import {RouterLink} from "@angular/router";
   styleUrls: ['./films.component.css']
 })
 export default class FilmsComponent {
-  years = [2025, 2024, 2023];
+  years = ["next", '2025', '2024', '2023'];
 
-  goToYear(year: number) {
+  goToYear(year: string) {
     window.location.href = `/films/${year}`;
   }
 }

@@ -1,0 +1,35 @@
+<app-games></app-games>
+<div class="game-container">
+  <h1>Games I would like to play</h1>
+
+  <p>
+    Here is an up-to-date list of games that I really wanna play. Sadly I am way too busy to play all the games I want. So I will longingly put them here in this list, knowing full well that we live in a world with too many games and I will never get through them all.
+  </p>
+
+  <div class="game-section">
+    <h2>Switch Games</h2>
+    <div class="game-list">
+      <div *ngFor="let game of switchgames" class="game-title">
+        {{ game }}
+      </div>
+    </div>
+  </div>
+
+  <div class="game-section">
+    <h2>Playstation Games</h2>
+    <div class="game-list">
+      <div *ngFor="let game of playstationgames" class="game-title">
+        {{ game }}
+      </div>
+    </div>
+  </div>
+
+  <div class="game-section">
+    <h2>PC Games</h2>
+    <div class="game-list">
+      <div *ngFor="let game of pcgames" class="game-title">
+        {{ game }}
+      </div>
+    </div>
+  </div>
+</div>
