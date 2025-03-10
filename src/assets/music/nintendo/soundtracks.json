@@ -1,6 +1,13 @@
 {
   "soundtracks": [
     {
+      "filename": "super-mario-bros-3.png",
+      "name": "Super Mario Bros 3",
+      "description": "NES soundtracks really are mostly unlistenable, the sound chip is that bad. Thankfully this particular one actually has some meat to it. This is the origin of lots of mario tracks which went on to have many remixes in future games, like the 'Ice World' theme being the ringtone in Paper Mario TTYD, or the 'Airship' theme being used for everything. Shoutouts to the smash remix of the Bowser theme from this game, they really took that tiny loop (along with the World 8 map music) and ran with it",
+      "platform": "NES",
+      "topTracks": ["World 6 Map (Ice Land)", "Fortress Boss", "World 8 Map (Dark Land)", "King of the Koopas"]
+    },
+    {
       "filename": "zelda-link-to-the-past.jpg",
       "name": "The Legend of Zelda: A Link to the Past",
       "description": "Hello, finally a great soundtrack after all these snoozers! This soundtrack is short and sweet with a bunch of timeless classics. 'Dark World' never gets old and be sure to appreciate 'Mountains and Forests...' which featured as a remix in Brawl's Subspace Emissary (the part with Link and Yoshi!). I would like to pay special homage to the Light World Dungeon theme which is so mysterious and epic, and never needed to be like this, and yet here we are. Cadence of Hyrule also remixed this track and I love it. Also, the opening theme starts with the iconic Rainy Night music then evolves into this complicated and fascinating overture. There's a lot to appreciate here",
