@@ -693,8 +693,8 @@
       "artist": "Esperanza Spalding",
       "name": "Emily's D+Evolution",
       "releaseyear": "2016",
-      "description": "",
-      "topTracks": []
+      "description": "I can't pretend to understand what this album is about or what its bewildering title is about. But I really like a lot of the songs! And I love her as a musician so much. It's not just this album that I regularly listen to but I would say this is the one that I connected with most. It started when I fell in love with the track 'Noble Nobles', then expanding into the wild 'Good Lava' which is literally about vagina juices and 'Rest In Pleasure' which has this amazing moment when she sings: 'I may not be in love with you, it's the idea of love I'm really into'",
+      "topTracks": ["Good Lava", "Unconditional Love", "Rest In Pleasure", "Noble Nobles"]
     },
     {
       "filename": "confidence-tilt.png",
@@ -717,16 +717,16 @@
       "artist": "Melody Gardot",
       "name": "The Absence",
       "releaseyear": "2012",
-      "description": "",
-      "topTracks": []
+      "description": "Another Fraser and his mum bonding artist. Melody Gardot is like a caricature of hotel lounge singers but fuck it I genuinely enjoy her music. This isn't her famous album but it's the one I like the most because she put in a ton of Portuguese and Brazilian influences into it. Some of the slower tracks are so fucking melodramatic, I love it. There are some nice upbeat tracks too but nobody does romantic crooning heartbreak songs like her. 'So We Meet Again My Heartache' is so extra. And I love the most the song 'Se Voce Me Ama', it makes me want to dim the lights, smoke a cigarette, display my body and confront my troubled lover about my heartbreak",
+      "topTracks": ["Mira", "So Long", "So We Meet Again My Heartache", "Lisboa", "Impossible Love", "Se Voce Me Ama"]
     },
     {
       "filename": "vincent-daddy.jpg",
       "artist": "St. Vincent",
       "name": "Daddy's Home",
       "releaseyear": "2021",
-      "description": "",
-      "topTracks": []
+      "description": "I have loved St Vincent for a long time but this is the album which truly cemented it for me. She changes things up by going full 70s! The vibe is super special and I find myself in the mood for this all the time. No matter where I am emotionally I can put this on and feel better. I like the peaceful songs the most but special shoutout to 'My Baby Wants A Baby' because it actually talks about not wanting to have kids, something you never hear songs about",
+      "topTracks": ["Down And Out Downtown", "The Melting Of The Sun", "Somebody Like Me", "My Baby Wants A Baby", "Candy Darling"]
     },
     {
       "filename": "miami-illumination.jpg",
@@ -757,16 +757,16 @@
       "artist": "Weyes Blood",
       "name": "Titanic Rising",
       "releaseyear": "2019",
-      "description": "",
-      "topTracks": []
+      "description": "Weyes Blood is amazing. Her songs are so peaceful and delightful and this album slaps. On first listen you might think this album is background music, but there is so much creative and fun stuff going on here. I love the switch up in the middle of 'Movies', a super visionary song, as well as the bit where she sings 'I just lay down and cry!' in 'Something to Believe'. But I think my favourites are just the last couple of tracks. Please do yourself a favour and watch her Tiny Desk concert where she plays those tracks. They are stunning, mesmerising. And I love her",
+      "topTracks": ["A Lot's Gonna Change", "Andromeda", "Something to Believe", "Movies", "Wild Time", "Picture Me Better"]
     },
     {
       "filename": "weyes-darkness.jpg",
       "artist": "Weyes Blood",
       "name": "And In The Darkness, Hearts Aglow",
       "releaseyear": "2022",
-      "description": "",
-      "topTracks": []
+      "description": "The song 'God Turn Me Into a Flower' is so perfect and beautiful. You should stop reading this and immediately go and watch the video on youtube. The video is very overwhelming and makes me tear up every time, so much so that I have to limit my viewing of the video so as for it not to become any less emotional impactful. That's the stunning highlight of the album but the other songs are also great. This album is undoubtedly a bit doomer, which I heavily vibe with. With the first track, as well as 'The Worst Is Done' which is explicitly about the covid pandemic show me that she and I share a lot of feelings about the direction the world is heading",
+      "topTracks": ["It's Not Just Me, It's Everybody", "Grapevine", "God Turn Me Into a Flower", "Twin Flame", "The Worst Is Done"]
     },
     {
       "filename": "bonobo-black.jpg",
@@ -805,8 +805,8 @@
       "artist": "Beyoncé",
       "name": "RENAISSANCE",
       "releaseyear": "2022",
-      "description": "",
-      "topTracks": []
+      "description": "I'm contractually obliged to put this album on here so I can get my Gay Man Certificate but I would have done it anyway because these songs slap. And you know, it's Beyoncé. For this album she embraces a new genre for her, house! House music is integral to the queer community, especially when its roots stem from the ballroom scene. She really leans into the Vogue/walking the catwalk angle of the genre and what can I say, she smashes it. The first half of the album in particular is great, although my favourite is definitely the final track where she interpolates 'I Feel Love' by Donna Summer. This track actually kick-started my deep dive into Donna Summer's discography so I want to officially thank Beyoncé for that",
+      "topTracks": ["COZY", "ALIEN SUPERSTAR", "CUFF IT", "ENERGY", "BREAK MY SOUL", "VIRGO'S GROOVE", "HEATED", "PURE/HONEY", "SUMMER RENAISSANCE"]
     },
     {
       "filename": "villagers-awayland.jpg",
@@ -865,14 +865,6 @@
       "topTracks": []
     },
     {
-      "filename": "charli-brat.jpg",
-      "artist": "Charli XCX",
-      "name": "Brat",
-      "releaseyear": "2024",
-      "description": "",
-      "topTracks": []
-    },
-    {
       "filename": "broken-bells.jpg",
       "artist": "Broken Bells",
       "name": "Broken Bells",
@@ -885,24 +877,24 @@
       "artist": "Lingua Ignota",
       "name": "SINNER GET READY",
       "releaseyear": "2021",
-      "description": "",
-      "topTracks": []
+      "description": "This album is reserved for very special moments. I listen to it exclusively when I am feeling deeply upset, or devastated by something. Sometimes when I doom about the world too hard I put this on. When I feel like shit and I want to feel worse, then I put this on. Why? It's definitely the wildest album on this webpage. Give the first track a listen and you'll see why. If you make it to the second track, you'll already have stopped what you're doing to give it your full attention. It just escalates from there. The album itself is all about Christian faith, and exposes many ridiculous issues through that lens. Kristen Hayter plays multiple characters who use religion to shield their vices and excuse their bare-faced threats and prejudices. There are also moments of peace on the track, but even they expose the deep sadness and loneliness behind these characters and asks the question of whether this is what makes bad people do bad things. I highly recommend this album but only if you're ready to FEEL something. It's definitely not for everyone. If you realise it is for you, I also highly recommend her album 'CALIGULA'",
+      "topTracks": ["I WHO BEND THE TALL GRASSES", "MANY HANDS", "PENNSYLVANIA FURNACE", "REPENT NOW CONFESS NOW", "THE SACRED LINAMENT OF JUDGMENT", "PERPETUAL FLAME OF CENTRALIA", "THE SOLITARY BRETHREN OF EPHRATA"]
     },
     {
       "filename": "black-hell.jpg",
       "artist": "Black Midi",
       "name": "Welcome to Hell",
       "releaseyear": "2022",
-      "description": "",
-      "topTracks": []
+      "description": "I'm not normally into rock music but this particular flavour of jazz rock really gripped me. The song 'Sugar/Tzu' alone was enough to get me interested in the band. I love the bombastic, explosive vibe all over the album, and I especially love the quiet break in the middle",
+      "topTracks": ["Hellfire", "Sugar/Tzu", "Welcome to Hell", "Still", "The Race Is About To Begin", "The Defence"]
     },
     {
       "filename": "viagra-cave.jpg",
       "artist": "Viagra Boys",
       "name": "Cave World",
       "releaseyear": "2022",
-      "description": "",
-      "topTracks": []
+      "description": "First of all, great name for a band. Love it. Normally I don't vibe with rock music but this album is so fun, I couldn't not include it on the website. Lyrically it makes fun of keyboard warriors on the internet which is always something I can get on board with. If you're with a crowd of rock fans you can put this on and it might get their attention. The songs are equal parts funny and catchy and every now and then they just do something new, like the random house music break at the end of 'Big Boy'",
+      "topTracks": ["Troglodyte", "Punk Rock Loser", "Ain't No Thief", "Big Boy", "ADD", "Return To Monke"]
     },
     {
       "filename": "ane-seasons.jpg",
