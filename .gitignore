@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 src/assets/music/mixes/*.mp3
+database.sqlite
