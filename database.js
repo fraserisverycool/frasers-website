@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Use cors middleware
 app.use(cors({
-  origin: 'http://localhost:4200', // Replace with your Angular app's URL
+  origin: ['http://localhost:4200', 'https://worldpeace.services'],
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept']
 }));
