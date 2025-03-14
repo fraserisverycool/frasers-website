@@ -1,7 +1,157 @@
+/* Container styling */
 .container {
   max-width: 800px;
   margin: auto;
   padding: 20px;
-  background-color: darkorange;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: linear-gradient(45deg, #ffffe8, #ff6b6b);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+/* Feedback list styling */
+.feedback-list {
+  margin-top: 20px;
+}
+
+.feedback-item {
+  border: 3px solid #000000;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ffe4b5;
+  border-radius: 10px;
+  box-shadow: inset 0 -3px #ffffff, inset -3px 0 #ffffff;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.feedback-item p {
+  margin: 5px 0;
+  max-width: 100%;
+}
+
+/* Feedback form styling */
+.feedback-form {
+  background: linear-gradient(45deg, #87cefa, #4682b4); /* Gradient blue background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.feedback-form select,
+.feedback-form input[type='text'] {
+  width: calc(100% - 10px);
+  padding: 10px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Button styling */
+button {
+  background-color: #32cd32; /* Lime green button */
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #228b22; /* Darker green on hover */
+}
+
+.error-message {
+  background-color: #ff6347; /* Tomato red background */
+  color: #fff; /* White text */
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  opacity: 0; /* Start fully transparent */
+  animation: fadeInOut 5s ease-in-out forwards; /* Apply the animation */
+}
+
+/* Define the fade-in and fade-out animation */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; /* Fully transparent at the start */
+  }
+  10% {
+    opacity: 1; /* Fade in to fully visible */
+  }
+  90% {
+    opacity: 1; /* Stay fully visible for most of the duration */
+  }
+  100% {
+    opacity: 0; /* Fade out to fully transparent */
+  }
+}
+
+.warning-banner {
+  background-color: #ff9900; /* Orange background */
+  color: #000; /* Black text */
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.warning-banner strong {
+  font-size: 18px;
+  text-shadow: 1px 1px #ccc;
+}
+
+.color-selection {
+  margin-bottom: 15px;
+}
+
+.color-selection label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.color-selection input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.color-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.color-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+}
+
+.color-button.selected {
+  border: 2px solid #333;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
