@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Use cors middleware
 app.use(cors({
-  origin: ['http://localhost:4200', 'https://worldpeace.services'],
+  origin: ['http://127.0.0.1:8080', 'https://worldpeace.services'],
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept']
 }));
