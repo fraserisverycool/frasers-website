@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../../../environments/environment';
 
 export interface Feedback {
   id: number;
@@ -14,7 +15,7 @@ export interface Feedback {
   providedIn: 'root'
 })
 export class GuestbookService {
-  private apiUrl = '${environment.apiUrl}';
+  private apiUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
 
