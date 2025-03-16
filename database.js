@@ -47,7 +47,7 @@ const Feedback = sequelize.define('Feedback', {
 
 sequelize.sync();
 
-app.get('/feedback', async (req, res) => {
+app.get('/api/feedback', async (req, res) => {
   try {
     const feedbacks = await Feedback.findAll();
     res.json(feedbacks);
@@ -56,7 +56,7 @@ app.get('/feedback', async (req, res) => {
   }
 });
 
-app.post('/feedback', [
+app.post('/api/feedback', [
   body('comment')
     .notEmpty().withMessage('You didn\'t even put anything down...')
     .isLength({ min: 10, max: 1000 }).withMessage('Comment must be between 10 and 1000 characters')
