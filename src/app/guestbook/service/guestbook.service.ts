@@ -14,7 +14,7 @@ export interface Feedback {
   providedIn: 'root'
 })
 export class GuestbookService {
-  private apiUrl = 'http://localhost/api';
+  private apiUrl = 'https://worldpeace.services/api';
 
   constructor(private http: HttpClient) { }
 

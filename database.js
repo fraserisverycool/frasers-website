@@ -7,7 +7,6 @@ const port = 3000;
 
 app.use(express.json());
 
-// Use cors middleware
 app.use(cors({
   origin: ['http://127.0.0.1:80', 'http://127.0.0.1', 'https://worldpeace.services', 'http://worldpeace.services'],
   methods: ['GET', 'POST', 'OPTIONS'],
