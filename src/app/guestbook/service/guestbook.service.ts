@@ -14,7 +14,7 @@ export interface Feedback {
   providedIn: 'root'
 })
 export class GuestbookService {
-  private apiUrl = 'http://127.0.0.1/api';
+  private apiUrl = '${environment.apiUrl}';
 
   constructor(private http: HttpClient) { }
 
