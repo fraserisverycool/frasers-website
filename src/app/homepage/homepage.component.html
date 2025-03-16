@@ -5,7 +5,7 @@
   <title>Fraser's Website</title>
 </head>
 <body>
-<app-custom-marquee [messages]="['Time is just a vibe 🔥', 'More is more 🔥', 'Don\'t fuck your friends 🔥', 'Never say no to smash 🔥', 'I came here to receive and to win 🔥']"></app-custom-marquee>
+<app-custom-marquee [messages]="['Time is just a vibe 🔥', 'More is more 🔥', 'Don\'t fuck your friends 🔥', 'Never say no to smash 🔥', 'I came here to win and to receive 🔥']"></app-custom-marquee>
 <div class="gif">
   <img src="../../../assets/homepage/welcome.gif">
 </div>
@@ -93,7 +93,15 @@
   <button class="fun-button brexit" (click)="handleClick('/smash')">
     <span class="button-text">Smash</span>
   </button>
-  <p>And get excited because coming up, I'm gonna put even more shit on here...</p>
+</div>
+<div class="gif">
+  <img src="../../../assets/homepage/dinomail.gif" margin="5px">
+</div>
+<div class="container">
+  <p>I've also made a place for you to leave a little message! If you have something on your heart, you can put it in the guestbook:</p>
+  <button class="fun-button guestbook" (click)="handleClick('/guestbook')">
+    <span class="button-text">Guestbook</span>
+  </button>
 </div>
 <div class="gif">
   <img src="../../../assets/homepage/tut.gif">

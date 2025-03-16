@@ -108,3 +108,7 @@ a {
   background: radial-gradient(circle, #5745ff, #4800c4);
 }
 
+.fun-button.guestbook {
+  background: radial-gradient(circle, #ff8000, #eb3700);
+}
+
