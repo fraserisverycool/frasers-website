@@ -1,0 +1,518 @@
+{
+  "characters": [
+    {
+      "name": "Mario",
+      "icon": "Mario (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Donkey Kong",
+      "icon": "Donkey Kong (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Link",
+      "icon": "Link (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Samus",
+      "icon": "Samus (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Dark Samus",
+      "icon": "Dark Samus (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Yoshi",
+      "icon": "Yoshi (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Kirby",
+      "icon": "Kirby (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Fox",
+      "icon": "Fox (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Pikachu",
+      "icon": "Pikachu (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Luigi",
+      "icon": "Luigi (1).png",
+      "picture": ["luigi.jpg", "luigi-2.jpg", "luigi-3.jpg"],
+      "description": "Luigi mains throughout history (Netanyahu, Chairman Mao, Hitler...) have always shown a propensity towards war crimes. They may be able to hide it, because they are ultimately successful people, but that grab combo is fascist and so are they."
+    },
+    {
+      "name": "Ness",
+      "icon": "Ness (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Captain Falcon",
+      "icon": "Captain Falcon (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Jigglypuff",
+      "icon": "Jigglypuff (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Peach",
+      "icon": "Peach (1).png",
+      "picture": ["peach.jpg_large", "peach-2.jpg", "peach-3.png"],
+      "description": "A real Peach main understands that landing JCFF tomahawk grab is better than a good meal, landing drap down up air combos is better than sex, and landing a zero to death turnip combo is so good that you grow weed in your apartment and give it to all your friends with the name 'Turnip Combo'"
+    },
+    {
+      "name": "Daisy",
+      "icon": "Daisy (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Bowser",
+      "icon": "Bowser (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Ice Climbers",
+      "icon": "Ice Climbers (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Sheik",
+      "icon": "Sheik (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Zelda",
+      "icon": "Zelda (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Dr. Mario",
+      "icon": "Dr Mario (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Pichu",
+      "icon": "Pichu (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Falco",
+      "icon": "Falco (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Marth",
+      "icon": "Marth (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Lucina",
+      "icon": "Lucina (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Young Link",
+      "icon": "Young Link (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Ganondorf",
+      "icon": "Ganondorf (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Mewtwo",
+      "icon": "Mewtwo (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Roy",
+      "icon": "Roy (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Chrom",
+      "icon": "Chrom (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Mr. Game & Watch",
+      "icon": "Mr Game & Watch (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Meta Knight",
+      "icon": "Meta Knight (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Pit",
+      "icon": "Pit (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Dark Pit",
+      "icon": "Dark Pit (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Zero Suit Samus",
+      "icon": "Zero Suit Samus (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Wario",
+      "icon": "Wario (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Snake",
+      "icon": "Snake (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Ike",
+      "icon": "Ike (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Pokémon Trainer",
+      "icon": "Pokemon Trainer (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Diddy Kong",
+      "icon": "Diddy Kong (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Lucas",
+      "icon": "Lucas (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Sonic",
+      "icon": "Sonic (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "King Dedede",
+      "icon": "King Dedede (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Olimar",
+      "icon": "Olimar (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Lucario",
+      "icon": "Lucario (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "R.O.B.",
+      "icon": "Rob (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Toon Link",
+      "icon": "Toon Link (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Wolf",
+      "icon": "Wolf (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Villager",
+      "icon": "Villager (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Mega Man",
+      "icon": "Mega Man (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Wii Fit Trainer",
+      "icon": "Wii Fit Trainer (1).png",
+      "picture": ["wiifit.webp", "wiifit-2.jpg", "wiifit-3.png"],
+      "description": "The person who saw that Wii Fit Trainer reveal trailer and realised, this is the character for me, is someone who intimately understands the fabric of the universe. They achieve success in smash and in life by drinking water, staying healthy and of course, breathing deeply."
+    },
+    {
+      "name": "Rosalina & Luma",
+      "icon": "Rosalina & Luma (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Little Mac",
+      "icon": "Little Mac (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Greninja",
+      "icon": "Greninja (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Mii Brawler",
+      "icon": "Mii Brawler (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Mii Swordfighter",
+      "icon": "Mii Swordfighter (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Mii Gunner",
+      "icon": "Mii Gunner (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Palutena",
+      "icon": "Palutena (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Pac-man",
+      "icon": "Pac Man (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Robin",
+      "icon": "Robin (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Shulk",
+      "icon": "Shulk (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Bowser Jr.",
+      "icon": "Bowser Jr (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Duck Hunt Duo",
+      "icon": "Duck Hunt (1).png",
+      "picture": ["duckhunt.png", "duckhunt-2.jpg", "duckhunt-3.png"],
+      "description": "The Duck Hunt main is a 30-something which subverts the common theme of most smash players: they're a financially secure, put-together adult with their shit together. They may be a composed professional during the day, but they have a love of chaos and bullshit which only truly comes out when defeating smash players 10 years younger than them in tournament."
+    },
+    {
+      "name": "Ryu",
+      "icon": "Ryu (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Ken",
+      "icon": "Ken (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Cloud",
+      "icon": "Cloud (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Corrin",
+      "icon": "Corrin (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Bayonetta",
+      "icon": "Bayonetta (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Inkling",
+      "icon": "Inkling (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Ridley",
+      "icon": "Ridley (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Simon",
+      "icon": "Simon (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Richter",
+      "icon": "Richter (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "King K. Rool",
+      "icon": "King K Rool (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Isabelle",
+      "icon": "Isabelle (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Incineroar",
+      "icon": "Incineroar (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Piranha Plant",
+      "icon": "Piranha Plant (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Joker",
+      "icon": "Joker (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Hero",
+      "icon": "Hero (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Banjo & Kazooie",
+      "icon": "Banjo & Kazooie (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Terry",
+      "icon": "Terry (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Byleth",
+      "icon": "Byleth (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Min Min",
+      "icon": "Min Min (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Steve",
+      "icon": "Steve (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Sephiroth",
+      "icon": "Sephiroth (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Pyra/Mythra",
+      "icon": "Pyra & Mythra (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Kazuya",
+      "icon": "Kazuya (1).png",
+      "picture": [],
+      "description": ""
+    },
+    {
+      "name": "Sora",
+      "icon": "Sora (1).png"
+    }
+  ]
+}

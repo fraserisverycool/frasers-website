@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http'; // Import HttpClient
+import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -21,7 +21,7 @@ export default class BrexitComponent implements OnInit {
   }
 
   loadImages(): void {
-    this.http.get<{ filenames: string[] }>('assets/brexit/filenames.json').subscribe({
+    this.http.get<{ filenames: string[] }>('assets/smash/brexit/filenames.json').subscribe({
       next: (data) => {
         this.images = data.filenames;
       },
