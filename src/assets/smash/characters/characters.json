@@ -57,7 +57,7 @@
     {
       "name": "Luigi",
       "icon": "Luigi (1).png",
-      "picture": ["luigi.jpg", "luigi-2.jpg", "luigi-3.jpg"],
+      "picture": ["luigi.png", "luigi-2.jpg", "luigi-3.jpg"],
       "description": "Luigi mains throughout history (Netanyahu, Chairman Mao, Hitler...) have always shown a propensity towards war crimes. They may be able to hide it, because they are ultimately successful people, but that grab combo is fascist and so are they."
     },
     {
@@ -69,8 +69,8 @@
     {
       "name": "Captain Falcon",
       "icon": "Captain Falcon (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["captain-falcon.webp", "captain-falcon-2.jpg", "captain-falcon-3.jpg_large"],
+      "description": "Captain Falcon mains are simple men who enjoy simple pleasures. After all, is there anything more hype than landing a Falcon Punch? You Falcon mains may think you're straight, but take a look at those abs through that skin-tight body suit and those nipple-like buttons and tell me you're not turned on"
     },
     {
       "name": "Jigglypuff",
@@ -249,8 +249,8 @@
     {
       "name": "King Dedede",
       "icon": "King Dedede (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["king-dedede.jpg", "king-dedede-2.jpg", "king-dedede-3.png"],
+      "description": "King Dedede mains are here to have fun. They don't even take their pleasure from hitting with the big hammer, they only play the game to enjoy his waddling walk animation, as well as his crouch"
     },
     {
       "name": "Olimar",
