@@ -9,8 +9,8 @@
     {
       "name": "Donkey Kong",
       "icon": "Donkey Kong (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["donkey-kong.jpeg", "donkey-kong.jpg", "donkey-kong-3.png"],
+      "description": "The average DK main's dick size is so big that it physically stops them from inputting any sensible buttons. They will be sure to tell you just how many spikes DK has (tell one of them that he only has three and see what happens), and they also make gorilla noises when they SD"
     },
     {
       "name": "Link",
@@ -58,7 +58,7 @@
       "name": "Luigi",
       "icon": "Luigi (1).png",
       "picture": ["luigi.png", "luigi-2.jpg", "luigi-3.jpg"],
-      "description": "Luigi mains throughout history (Netanyahu, Chairman Mao, Hitler...) have always shown a propensity towards war crimes. They may be able to hide it, because they are ultimately successful people, but that grab combo is fascist and so are they."
+      "description": "Luigi mains throughout history (Netanyahu, Chairman Mao, Hitler...) have always shown a propensity towards war crimes. They may be able to hide it, because they are ultimately successful people, but that grab combo is fascist and so are they"
     },
     {
       "name": "Ness",
@@ -111,8 +111,8 @@
     {
       "name": "Zelda",
       "icon": "Zelda (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["zelda.jpg", "zelda-2.png", "zelda-3.jpg"],
+      "description": "Zelda is the most stunning, beautiful character in the game, and Zelda mains understand that better than anyone else. Zelda mains have an eye for aesthetics, style and fashion. They understand that the inherent beauty behind every smash game must not be soiled by ugly characters"
     },
     {
       "name": "Dr. Mario",
@@ -393,8 +393,8 @@
     {
       "name": "Corrin",
       "icon": "Corrin (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["corrin.jpg", "corrin-2.jpg", "corrin-3.jpg"],
+      "description": "Fates may be one of my favourite Fire Emblems but that doesn't mean Corrin isn't the most plain and boring character out there. Corrin mains are even more boring than Corrin because they can't transform into an ugly dragon, which is at the very least a conversation starter"
     },
     {
       "name": "Bayonetta",
@@ -447,8 +447,8 @@
     {
       "name": "Piranha Plant",
       "icon": "Piranha Plant (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["piranha-plant.png", "piranha-plant-2.png", "piranha-plant-3.png"],
+      "description": "People who enjoy joke characters are people who are peace with the world. There is no winning or losing in life, there are only fleeting moments of joy for us to cling on to. Piranha Plant mains understand that winning doesn't matter, but experiencing the joy of playing as a potted plant is the only adrenaline kick we need to make it to the end of the smash tournament"
     },
     {
       "name": "Joker",
@@ -489,8 +489,8 @@
     {
       "name": "Steve",
       "icon": "Steve (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["steve.jpg", "steve-2.avif", "steve-3.jpg"],
+      "description": "The average Steve player divides their time between watching Minecraft youtubers, mobile games, Tiktok and school, and is still able to win the local Smash tournament. They have an absolute disregard for honour, fairness, respect or the rules, and would absolutely murder a puppy for a million robux. Some Steve mains also enjoy playing Minecraft"
     },
     {
       "name": "Sephiroth",

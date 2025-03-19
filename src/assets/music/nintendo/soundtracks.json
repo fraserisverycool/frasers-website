@@ -1,6 +1,27 @@
 {
   "soundtracks": [
     {
+      "filename": "tetris.jpg",
+      "name": "Tetris",
+      "description": "A classic. This game has been played by my whole family, parents and grandma included for years. Everyone in the family is capable of getting the rocket. Sadly the old Gameboy Advance SP that we used to play dramatically fell apart from overuse. Anyway these tracks are legendary even if they are just classical music. My dad always put Type C on because he recognised that it was Bach. My personal favourite is Type B, which has an amazing remix in Smash",
+      "platform": "Gameboy",
+      "topTracks": ["A-Type", "B-Type", "Name Entry"]
+    },
+    {
+      "filename": "dr-mario-nes.jpg",
+      "name": "Dr. Mario",
+      "description": "Wow, this particular soundtrack is actually unpleasant to the point where they should delete it from the app. That title theme sounds so shrill and horrible. The tracks sound actively worse than the gameboy version",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "tetris-nes.jpg",
+      "name": "Tetris",
+      "description": "Turns out the NES version has different music to the famous gameboy one! I didn't know. These tracks are just not the same though. At least Type B is here though",
+      "platform": "NES",
+      "topTracks": ["MUSIC-2"]
+    },
+    {
       "filename": "super-mario-bros-3.jpg",
       "name": "Super Mario Bros 3",
       "description": "NES soundtracks really are mostly unlistenable, the sound chip is that bad. Thankfully this particular one actually has some meat to it. This is the origin of lots of mario tracks which went on to have many remixes in future games, like the 'Ice World' theme being the ringtone in Paper Mario TTYD, or the 'Airship' theme being used for everything. Shoutouts to the smash remix of the Bowser theme from this game, they really took that tiny loop (along with the World 8 map music) and ran with it",
