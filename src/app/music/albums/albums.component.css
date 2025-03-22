@@ -1,6 +1,10 @@
 .page-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
   align-items: center;
-  min-height: 100vh; /* Ensure full height */
 }
 
 .album-container {
@@ -30,8 +34,20 @@ h4 {
   margin: 10px;
   cursor: pointer;
   transition: transform 0.3s ease;
-  display: flex; /* Use flexbox to stack elements vertically */
-  flex-direction: column; /* Stack elements vertically */
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .album-card {
+    width: calc(50% - 20px); /* Two cards per row on mobile */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .album-card {
+    width: calc(100% - 20px); /* One card per row on very small screens */
+  }
 }
 
 .album-card:hover {
@@ -141,22 +157,21 @@ h4 {
   text-align: center;
 }
 
-
 .sorting-buttons {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
   margin-bottom: 20px;
 }
 
 .sorting-buttons button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: #ff99cc;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
-  background-color: #ff99cc; /* Pastel pink */
-  color: #333;
-  transition: transform 0.2s ease-in-out;
+  transition: background-color 0.3s ease;
 }
 
 .sorting-buttons button:hover {
@@ -168,3 +183,22 @@ h4 {
   transform: scale(0.9);
   background-color: #ff99cc; /* Original color on click */
 }
+
+@media screen and (max-width: 768px) {
+  .sorting-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sorting-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+.sorting-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+

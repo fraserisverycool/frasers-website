@@ -3,6 +3,8 @@ body {
   color: #ffffe0;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -23,11 +25,13 @@ a {
 }
 
 .container {
-  border: 5px dashed orange;
+  width: 100%;
+  max-width: 800px;
   padding: 20px;
   margin: 0 auto;
+  box-sizing: border-box;
+  border: 5px dashed orange;
   background-color: rgba(0, 0, 0, 0.8);
-  max-width: 800px;
 }
 
 .gif-box {

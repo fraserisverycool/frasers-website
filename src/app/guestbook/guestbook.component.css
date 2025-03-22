@@ -1,12 +1,15 @@
 /* Container styling */
 .container {
+  width: 100%;
   max-width: 800px;
-  margin: auto;
   padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
   background: linear-gradient(45deg, #ffffe8, #ff6b6b);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   font-family: Verdana, sans-serif;
+  overflow: hidden;
 }
 
 /* Feedback list styling */
@@ -136,6 +139,7 @@ button:hover {
 .color-buttons {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .color-button {
