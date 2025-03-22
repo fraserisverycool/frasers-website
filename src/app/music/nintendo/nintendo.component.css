@@ -63,6 +63,7 @@ h1 {
   margin: 0;
   text-align: center;
   border-radius: 0 0 8px 8px; /* Keep bottom corners rounded */
+  flex-grow: 1;
 }
 
 .soundtrack-name {

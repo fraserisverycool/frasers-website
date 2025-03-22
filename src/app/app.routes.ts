@@ -74,6 +74,9 @@ export const routes: Routes = [
     path: 'links', loadComponent: () => import('./links/links.component')
   },
   {
+    path: 'links/durstloescher', loadComponent: () => import('./links/durstloescher/durstloescher.component')
+  },
+  {
     path: 'smash', loadComponent: () => import('./smash/smash.component')
   },
   {
