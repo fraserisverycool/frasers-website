@@ -417,8 +417,8 @@
     {
       "name": "Simon",
       "icon": "Simon (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["simon.jpg", "simon-2.jpg", "simon-3.jpg"],
+      "description": "A Belmont main who doesn't pick the objectively hotter Richter understand that in order to succeed in smash and in life one must try to resemble He-Man from that 90's cartoon as much as possible. Embrace the ugly, embrace the glory, and spread the vibes across the battlefield"
     },
     {
       "name": "Richter",
