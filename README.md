@@ -49,6 +49,14 @@ pm2 delete 0
 pm2 logs
 ```
 
+It's good to set up a cronjob for backups
+
+```crontab -e```
+
+Put this in the file:
+
+```0 2 * * * /home/fraserbowen/Documents/frasers-website/backup.sh```
+
 ## Nginx
 In order to run our Angular project in production mode, it's really good to use nginx, a useful way of serving built projects. It can do a bunch of stuff!
 
