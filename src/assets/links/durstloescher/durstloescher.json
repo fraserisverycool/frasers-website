@@ -147,6 +147,12 @@
     {
       "filename": "eistee-pfirsich.PNG",
       "name": "Eistee Pfirsich-Geschmack",
+      "score": "3",
+      "description": "3/10\uD83D\uDE10"
+    },
+    {
+      "filename": "eistee-zitrone2.PNG",
+      "name": "Eistee Zitronen-Geschmack",
       "score": "6.6",
       "description": "Joa... 6.6/10"
     },
@@ -179,6 +185,18 @@
       "name": "Erdbeer-Rhabarber-Geschmack",
       "score": "7.5",
       "description": "7.5/10"
+    },
+    {
+      "filename": "fruit.PNG",
+      "name": "Fruit Juice Drink Apple 12%, Orange 6%, Lemon 5%",
+      "score": "10",
+      "description": "!!!!! 10/10! After that really fucking hot day at KdK being dehydrated af this was the best drink I ever had in my life and it will stay that way forever. It changed me."
+    },
+    {
+      "filename": "mate.PNG",
+      "name": "Mate",
+      "score": "3",
+      "description": "Meh 3/10"
     }
   ]
 }
