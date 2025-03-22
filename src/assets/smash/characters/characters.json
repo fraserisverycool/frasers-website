@@ -99,8 +99,8 @@
     {
       "name": "Ice Climbers",
       "icon": "Ice Climbers (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["ice-climbers.jpg", "ice-climbers-2.jpg", "ice-climbers-3.jpg"],
+      "description": "Ice Climber mains could have invested the time they spent labbing the combos into doing a PhD. Instead of complaining about Nana being useless they could have learned a new skill instead. Instead of going 0-2 they could have just picked up Steve and won but no, Ice Climber mains play Ice Climbers as their one and only hobby"
     },
     {
       "name": "Sheik",
@@ -177,8 +177,8 @@
     {
       "name": "Mr. Game & Watch",
       "icon": "Mr Game & Watch (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["game-watch.webp", "game-watch-2.webp", "game-watch-3.jpg"],
+      "description": "Game and Watch mains are very suspicious. What are they up to? Why did they laugh at that thing I said that wasn't a joke? Are they fishing for a 9? What is their collective agenda? Why play as a character with so few vibes as this"
     },
     {
       "name": "Meta Knight",
@@ -267,8 +267,8 @@
     {
       "name": "R.O.B.",
       "icon": "Rob (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["rob.png", "rob-2.png", "rob-3.png"],
+      "description": "R.O.B. has little to no good fan-art for a good reason: it's a boring grey robot. R.O.B. mains are either also boring and grey, or they realised that it's much easier to win tournaments with this character than their actual favourite character and are therefore weak traitors to their actual mains"
     },
     {
       "name": "Toon Link",

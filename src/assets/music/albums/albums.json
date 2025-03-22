@@ -765,16 +765,8 @@
       "artist": "Everything Everything",
       "name": "Man Alive",
       "releaseyear": "2010",
-      "description": "",
-      "topTracks": []
-    },
-    {
-      "filename": "everything-arc.jpg",
-      "artist": "Everything Everything",
-      "name": "Arc",
-      "releaseyear": "2013",
-      "description": "",
-      "topTracks": []
+      "description": "I associate this band with a certain kind of annoying british lad so I hesitate to recommend their albums on my website, but fuck it, I like the music and that's all that matters. This band is NERDY! They're straight up writing songs with references to video games in them, and yes it's a bit cringe sometimes but it sounds good! It's like math rock. It's got lots of fun harmonies and lots to discover on multiple listens",
+      "topTracks": ["MY KZ, UR BF", "Leave The Engine Room", "Final Form", "Photoshop Handsome", "Two For Nero", "NASA Is On Your Side"]
     },
     {
       "filename": "beyonce-renaissance.png",
@@ -813,40 +805,32 @@
       "artist": "Stornoway",
       "name": "Beachcomber's Windowsill",
       "releaseyear": "2010",
-      "description": "",
-      "topTracks": []
+      "description": "Deeply personal album! This is a local band from where I'm from and whenever I listen to this I'm transported back to sixth form. One of the songs 'Fuel Up' is about being in a car at various stages in your life. It felt very salient because at that time I had just learned to drive myself. Little did I know I would grow up to become a car hater! The song still makes me emotional though. Then there's 'We Are the Battery Human' which is so good! It's about staring at screens too much, a topic very dear to my heart. I will always fondly remember seeing them live in Oxford with my childhood friend Oscar. It felt like a big moment before we both left for university",
+      "topTracks": ["Zorbing", "Fuel Up", "Boats and Trains", "We Are the Battery Human", "Here Comes the Blackout...!", "Watching Birds", "The End of the Movie", "Long Distance Lullaby"]
     },
     {
       "filename": "bon-emma.jpg",
       "artist": "Bon Iver",
       "name": "For Emma, Forever Ago",
       "releaseyear": "2007",
-      "description": "",
-      "topTracks": []
-    },
-    {
-      "filename": "bon-iver.jpg",
-      "artist": "Bon Iver",
-      "name": "Bon Iver",
-      "releaseyear": "2011",
-      "description": "",
-      "topTracks": []
+      "description": "This is THE winter album. Very peaceful and cerebral indie music for bearded dudes who wear beanies. I feel like some of these tracks like 'Flume' and 'Skinny Love' are classics at this point. The absolute stand-out though is the final song, which feels more like an encore or a bonus track 'Re: Stacks' with its beautiful guitar playing. So peaceful and delightful",
+      "topTracks": ["Flume", "Lump Sum", "Skinny Love", "For Emma", "Re: Stacks"]
     },
     {
       "filename": "django-django.jpg",
       "artist": "Django Django",
       "name": "Django Django",
       "releaseyear": "2012",
-      "description": "",
-      "topTracks": []
+      "description": "This is a fun pop rock album that might have been my first exposure to psychedelic-style music. After this I got into bands like Tame Impala for example. This might be a weird thing to say, but the lads in the band seem super unconfident, like just some local white boys from scotland. They are very cute though and I thought they smashed it when I went to their concert. This is their first breakout album and it has a bunch of bops. My favourite is the final track 'Silver Rays'",
+      "topTracks": ["Hail Bop", "Waveforms", "Hand of Man", "Silver Rays"]
     },
     {
       "filename": "broken-bells.jpg",
       "artist": "Broken Bells",
       "name": "Broken Bells",
       "releaseyear": "2010",
-      "description": "",
-      "topTracks": []
+      "description": "This is a super good indie rock band who released this super good album all this time ago. At first I just liked 'The High Road' because it's got this super fun synth, but with time I came to learn the vibe of 'Vaporize' is so good, like a Röyksopp song or something, and the last two tracks in particular are super cool, with a really nice transition between them. These songs have been with me for a long time and I just think album is class",
+      "topTracks": ["The High Road", "Vaporize", "Citizen", "Mongrel Heart", "The Mall & Misery"]
     },
     {
       "filename": "lingua-sinner.jpg",
@@ -877,8 +861,8 @@
       "artist": "Ane Brun",
       "name": "Changing of the Seasons",
       "releaseyear": "2008",
-      "description": "",
-      "topTracks": []
+      "description": "During my Swedish indie music phase I found this album by Norwegian singer Ane Brun. At first glance it's plain singer songwriter acoustic stuff, but if you get into it you find some of the most gorgeous songs. I use this album to relax and reflect. This album is for pensively staring out the window. I especially love 'Armour' because it's about the feeling of powerlessness in a relationship when the other person doesn't want to help themselves. Also 'Gillian' because it's so heartwarming. It's about feeling better after hearing Gillian Welch sing. The songs are kind of melancholic but actually there is a ton of positivity here too and I love that. It's like sad songs about happy things",
+      "topTracks": ["The Fall", "Changing of the Seasons", "Armour", "Round Table Conference", "Gillian", "Linger with Pleasure"]
     },
     {
       "filename": "frank-orange.jpg",
@@ -893,8 +877,8 @@
       "artist": "Hiatus Kaiyote",
       "name": "Choose Your Weapon",
       "releaseyear": "2015",
-      "description": "",
-      "topTracks": []
+      "description": "I listened to this album during the Saarland years when I was into stuff like Snarky Puppy. I'm kinda out of that phase now but I still love this album! It's actually insane. It's very maximalist, lots of shit going on constantly. It's very jazzy which is fun, lots of cluster chords and off-beat syncopated rhythms and time signatures and stuff. The singer is ad-libbing a lot and knows all the harmonies super good. My first song of theirs 'Breathing Underwater' which is a good showcase for their wild music. I think my favourite is 'The Lung' which I have a strong memory of listening too while painting, although I also really love the fun ending to 'Jekyll' where she just sings along to this series of crazy chords for like a whole minute",
+      "topTracks": ["Borderline With My Atoms", "Breathing Underwater", "Fingerprints", "Jekyll", "Atari", "The Lung"]
     },
     {
       "filename": "patrick-close.jpg",
@@ -909,16 +893,8 @@
       "artist": "HONNE",
       "name": "Warm on a Cold Night",
       "releaseyear": "2016",
-      "description": "",
-      "topTracks": []
-    },
-    {
-      "filename": "tame-lonerism.jpg",
-      "artist": "Tame Impala",
-      "name": "Lonerism",
-      "releaseyear": "2012",
-      "description": "",
-      "topTracks": []
+      "description": "I got into this band big time in my final year of university and I truly thought they were the bees knees. Looking back, I think their music is very cheesy and kinda bad but this first album remains in my heart. Afterwards they got really big in Asia and now make pretty surface level pop which I don't vibe with at all. But those first tracks they released really opened my eyes to chill vibe pop music. 'All in the Value' and 'Coastal Love' are both still great to this day",
+      "topTracks": ["Warm on a Cold Night", "Someone That Loves You", "All in the Value", "Out of My Control", "Coastal Love", "Good Together", "One at a Time Please"]
     },
     {
       "filename": "kendrick-pimp.webp",
@@ -965,24 +941,24 @@
       "artist": "Caroline Polachek",
       "name": "Desire, I Want To Turn Into You",
       "releaseyear": "2023",
-      "description": "",
-      "topTracks": []
+      "description": "I was truly in my pop era when I got into this album. My favourite song of hers is definitely 'Billions', which is such an amazing magical fantasy vibe. It's giving Björk. I love it when she says 'pearl of the oyster'. On a similar vein is the song 'Butterfly Net' which I also love, especially the version with Weyes Blood. I also have a big poster of the single art from 'Blood and Butter' in my kitchen and for good reason: this song has bagpipes in it and they sound fucking great. I also love that she put in a flamenco song 'Sunset' as well. What can't she do?",
+      "topTracks": ["Sunset", "Fly To You", "Blood And Butter", "Butterfly Net", "Billions"]
     },
     {
       "filename": "natalia-flores.jpg",
       "artist": "Natalia Lafourcade",
       "name": "De Todas Las Flores",
       "releaseyear": "2022",
-      "description": "",
-      "topTracks": []
+      "description": "This album means so much to me because I listened to it so much when visiting Mexico! It really helped me sink into Mexican culture and was my gateway drug to the huge world of Mexican music. She was already legend in Mexico but this album takes things to the next level. It's stunning. It merges lots of styles of music from all over latin america, is a little jazzy, and takes its time with long intros and lovely instrumentals. It still respects your time though. From beginning to end it takes your hand and guides you through all these emotional topics and I just love it so much. I also learned more about this album as I learned spanish, which was awesome. My favourites are the upbeat ones like 'El lugar correcto' and 'Canta la arena', and the very last track I have to save for special occasions because it makes me so sad",
+      "topTracks": ["Pasan los días", "El lugar correcto", "Pajarito Colibrí", "María la Curandera", "Caminar Bonito", "Canta la arena", "Que te vaya bonito Nicolás"]
     },
     {
       "filename": "school-disconnect.jpg",
       "artist": "School of Seven Bells",
       "name": "Disconnect From Desire",
       "releaseyear": "2010",
-      "description": "",
-      "topTracks": []
+      "description": "A super special band that I got into during uni times. They make very atmospheric pop/rock with lots of guitar pedals and noise. It's almost shoegaze-y. You can put on this album in your headphones when the wind is blowing really hard. Actually that makes a lot of sense because a bunch of the songs are about wind and storms and stuff. My favourite song is 'Bye Bye Bye' which feels like a tsunami. Tragically one of the band members died and they haven't made music since",
+      "topTracks": ["Windstorm", "Dust Devil", "Babelonia", "Bye Bye Bye"]
     },
     {
       "filename": "mvula-sing.jpg",
@@ -993,44 +969,52 @@
       "topTracks": ["Like the Morning Dew", "Can't Live with the World", "Is There Anybody Out there?", "Father, Father", "She", "Diamonds", "Jump Right Out", "Something Out of the Blue"]
     },
     {
+      "filename": "psychedelic-visceral.jpg",
+      "artist": "Psychedelic Porn Crumpets",
+      "name": "High Visceral, Pt. 1",
+      "releaseyear": "2016",
+      "description": "This band have a ridiculous name. It's so ridiculous to the point that I actively don't bring them up in conversation because I have to explain that it's a real band. Like why would you name yourself this. I mean I guess I called myself BREXIT so I can't talk but still. Anyway I don't claim to be a rock music lover but this is a fantastic rock album. It's great for working out. The intensity remains on maximum for the whole time, and then you have the blissful closing track. It's great",
+      "topTracks": ["Cornflake", "Cubensis Lenses", "..and the Addled Abstraction of Being", "Found God in a Tomato", "Denmark / Van Gogh & Gone"]
+    },
+    {
       "filename": "madonna-erotica.png",
       "artist": "Madonna",
       "name": "Erotica",
       "releaseyear": "1992",
-      "description": "",
-      "topTracks": []
+      "description": "This is the album that dropped after 'Vogue'. Madonna was in the middle of the New York ballroom scene at its height and this album is all about that scene! It's this beautiful blend of pop and house music that is so reminiscent of the era. It's full of queer anthems and a hallmark of queer history. I love the cover of 'Fever' done in this ballroom house style and I often DJ it! This album is also super sexualised which at the time was very scandalous but she just don't give a damn. Because it's Madonna and she's a legend",
+      "topTracks": ["Fever", "Deeper and Deeper", "Where Life Begins", "In This Life"]
     },
     {
       "filename": "kylie-rhythm.png",
       "artist": "Kylie Minogue",
       "name": "Rhythm of Love",
       "releaseyear": "1990",
-      "description": "",
-      "topTracks": []
+      "description": "Is 'Better the Devil You Know' the best pop song of all time? Maybe it is. One thing's for sure, I spent ages practicing this to myself at home before going to Monster Ronson's karaoke for the fun time. That key change is hard if you're new to singing like me. I am convinced that that song is actually very dark, it's about staying in an abusive relationship because it's too scary to leave it. There's this shot of her running in the music video with a look on her face which convinces me that I'm right. For the rest of the album, she is just dancing and partying though, which is also fine. This early 90s production by Stock Aitken Waterman is so good and Kylie fucking smashes it on all these songs. I am obsessed with the minute and a half intro to 'Shocked' I mean what a build up! And then there is the hilarious 'One Boy Girl' which features an uncredited rap from The Poetess, about her being faithful to her man, even when all the other girls are sleeping round. It's really great, definitely a bit problematic but I just love it",
+      "topTracks": ["Better the Devil You Know", "Step Back in Time", "Always Find the Time", "Shocked", "One Boy Girl", "Things Can Only Get Better"]
     },
     {
       "filename": "kylie-fever.jpg",
       "artist": "Kylie Minogue",
       "name": "Fever",
       "releaseyear": "2001",
-      "description": "",
-      "topTracks": []
+      "description": "Kylie's most famous era, when we enter into genre-defining 2000's dancepop. Young gay Fraser loved this album as a 10 year old. This might be when my mum might have started suspecting I was fruitier than my brothers. Looking back I realise that I was right - Kylie is a goddess and this album is an absolute classic. These hits are so singable at Karaoke. My absolute faves are definitely 'In Your Eyes' and 'Come into My World', both of which have great music videos",
+      "topTracks": ["More More More", "Love at First Sight", "Can't Get You out of My Head", "Come into My World", "In Your Eyes", "Burning Up"]
     },
     {
       "filename": "dorian-flamboyant.jpg",
       "artist": "Dorian Electra",
       "name": "Flamboyant",
       "releaseyear": "2019",
-      "description": "",
-      "topTracks": []
+      "description": "'You know I ain't straight, but I'll say it straight to you' - you know that Dorian Electra is great because they have MULTIPLE songs about romancing your bro. This album is so gay it hurts. It takes all the typical queer tropes and slams them in your face and it is so much fun. When they sing 'One on one!' in Man to Man they sound so horny, I love it. Then there's 'Flamboyant' which is just so fucking good, and even a song called 'Adam & Steve'. It's gay pop perfection",
+      "topTracks": ["Career Boy", "Man To Man", "Musical Genius", "Flamboyant", "Guyliner", "Adam & Steve"]
     },
     {
       "filename": "dorian-agenda.jpg",
       "artist": "Dorian Electra",
       "name": "My Agenda",
       "releaseyear": "2020",
-      "description": "",
-      "topTracks": []
+      "description": "This album is WILD! Dorian Electra goes full hyperpop for this one. Normally I'm not into the crazy hyperpop stuff but they do it super well they attach it to this insane concept of the neckbeard video game internet warrior. I mean just watch the video for 'Gentleman' and you'll understand. They are shitting on those keyboard warriors and turning their aesthetic into high art and it's so good. 'Edgelord's lyrics are just............ and then there's the video for 'Give Great Thanks'.......! And my all time favourite is the absurd video for 'F the World' featuring Dorian dressed up as a christian woman enjoying the autumn in the suburbs. It's a weird pastiche of vapid instagram models with this insane music going on in the background. Kudos to Dorian for this album it is insane",
+      "topTracks": ["F The World", "My Agenda", "Gentleman", "M'Lady", "Sorry Bro (I Love You)", "Edgelord", "Ram It Down", "Give Great Thanks"]
     },
     {
       "filename": "beirut-flying.jpg",
@@ -1045,8 +1029,8 @@
       "artist": "Nelly Furtado",
       "name": "Folklore",
       "releaseyear": "2003",
-      "description": "",
-      "topTracks": []
+      "description": "This is a key Fraser album which was with me during my original pop phase as a young teenager. I remember listening to this on my mp3 player on family holidays. All these songs are still so good today as well! 'Powerless' despite its lyrics is the most positive sounding song ever. And just listening to the album for this website entry got me listening to the lyrics of 'The Grass is Green' and only NOW do I finally understand what she's actually going on about. Then I always felt like this album was neatly split in two by the amazing 'Picture Perfect', where she plays the role of the girlfriend of a rising star. Whenever I hear this song I just get transported back. Same goes for 'Childhood Dreams' it's like unlocking core memories each time. I associate these songs with reading the 'Wind Singer' books as a child",
+      "topTracks": ["One-Trick Pony", "Powerless (Say What You Want)", "Explode", "Força", "The Grass Is Green", "Picture Perfect", "Build You Up", "Island Of Wonder", "Childhood Dream"]
     },
     {
       "filename": "hot-heads.jpg",
@@ -1061,16 +1045,24 @@
       "artist": "Kimbra",
       "name": "The Golden Echo",
       "releaseyear": "2014",
-      "description": "",
-      "topTracks": []
+      "description": "When I went to see Kimbra in concert recently she played a song from this album and said it was a deep cut that we probably don't know. I really wish I called out and said 'I love that album'! It might literally be her least popular one but it's my one. The songs are kinda wild and maybe it's not very accessible but fuck it I totally connected with this, much more than her other albums. Special shoutouts go to the song 'Rescue Him' about trying to fix up a difficult man, and 'As You Are' because she sounds so scary and horny all at once. The final song is really good too. I do tend to skip '90s music' I will say. That songs feels like she was just fucking around in the studio maybe a bit too much",
+      "topTracks": ["Teen Heat", "90s Music", "Goldmine", "Miracle", "Rescue Him", "Everlovin' Ya", "As You Are", "Love in High Places", "Waltz Me to the Grave"]
     },
     {
       "filename": "miike-snow.jpg",
       "artist": "Miike Snow",
       "name": "Miike Snow",
       "releaseyear": "2007",
-      "description": "",
-      "topTracks": []
+      "description": "This album is totally synonymous with playing World of Warcraft at the age of 15. I remember being interested when my friend Tim described the live show as a 'wall of sound'. I remember thinking to myself, what does that mean? so I approached the album with an open heart and ended up getting into a bunch of Swedish music. All these tracks, 'Burial', 'Silvia', 'Plastic Jungle'... I can even place them in certain locations in World of Warcraft. Anyway this album is great",
+      "topTracks": ["Animal", "Burial", "Silvia", "Plastic Jungle", "In Search Of"]
+    },
+    {
+      "filename": "miike-happy.jpg",
+      "artist": "Miike Snow",
+      "name": "Happy To You",
+      "releaseyear": "2012",
+      "description": "Less famous but in my opinion the better of the Miike Snow albums! This one has just so many banger tracks, and it's they're all so interesting. There's so many cool ideas in all these. Like listen to the first track and you'll see what I mean. I love the intenseness of 'Devil's Work', and the intimacy of 'Black Tin Box', which by the way features Lykke Li (who I looooove). I also spent a lot of time being obsessed with the song 'God Help This Divorce'",
+      "topTracks": ["Enter the Jokers Lair", "The Wave", "Devil's Work", "God Help This Divorce", "Bavarian #1 (Say You Will)", "Archipelago", "Black Tin Box", "Paddling Out"]
     },
     {
       "filename": "hard-feelings.jpg",
@@ -1117,8 +1109,8 @@
       "artist": "Bear in Heaven",
       "name": "I Love You, It's Cool",
       "releaseyear": "2012",
-      "description": "",
-      "topTracks": []
+      "description": "This is a pretty obscure psychedelic electronic band who make very busy and crowded music. Definitely a 'wall of sound' situation and it sounds fucking great. A lot of the songs are very intense, making this a great album for the gym, or actually really great for if you're feeling angry. It is danceable but I don't think it's about dancing, it's more of a solo headphones experience. It will at least drown out all your other thoughts so there's that",
+      "topTracks": ["The Reflection Of You", "Sinful Nature", "Cool Light", "Kiss Me Crazy", "World of Freakout", "Space Remains"]
     },
     {
       "filename": "department-ear.jpg",
@@ -1133,8 +1125,8 @@
       "artist": "Ultraflex",
       "name": "Infinite Wellness",
       "releaseyear": "2022",
-      "description": "",
-      "topTracks": []
+      "description": "This local Berlin band have made an aesthetic surrounding the concept of wellness of all things. We're talking massages, spa, and the white people who engage in that stuff. I fucking love it. They are two queer women who just know how to vibe and when we went to their show they had a poledancer and made loads of jokes about lesbian stuff and pregnancy. The music itself is giving 80s exercise dance videos, and the lyrics are just great. 'Rhodos' is literally about northern europeans visiting mediterranean islands get lathering themselves with aftersun. They famously accuse the listener of being 'tacky to the bone' which is something I deeply relate with",
+      "topTracks": ["Relax", "Mi Vuoi", "Rhodos"]
     },
     {
       "filename": "ladyhawke-ladyhawke.jpg",
@@ -1149,8 +1141,8 @@
       "artist": "Tkay Maidza",
       "name": "Last Year Was Weird Vol 2",
       "releaseyear": "2020",
-      "description": "",
-      "topTracks": []
+      "description": "This is a fun EP which is full of a great variety of stuff. We've got dance music, hip hop, some chill tracks. It's a fun, cute little collection of songs that I often find myself coming back to. I admit to learning about this from theneedledrop who sometimes has good recommendations. I really enjoy the track '24k'",
+      "topTracks": ["My Flowers", "24k", "You Sad", "PB Jam", "Don't Call Again"]
     },
     {
       "filename": "feist-metals.jpg",
@@ -1213,8 +1205,8 @@
       "artist": "Silvana Estrada",
       "name": "Marchita",
       "releaseyear": "2022",
-      "description": "",
-      "topTracks": []
+      "description": "PLEASE take some time out of your day and watch her Tiny Desk concert. It is stunning and she is amazing. This album is simple voice and mexican instrument the 'cuatro', although she enriches that with these amazing string arrangements that are never in the way. I love the album though because of the gorgeous songwriting and her beautiful voice. She's like an angel. Getting to this album while spending time in Mexico was also magical. There's something about understanding songs better over time as you get a better grasp on the language. I think for me my favourite track is 'Ser De Ti'. It describes belonging to someone, something I've never really felt before. It sounds almost resigned, disappointed, melancholic. Anyway, stop readying and go watch the Tiny Desk",
+      "topTracks": ["Te Guardo", "Marchita", "Carta", "Ser De Ti", "La Enfermedad Del Siglo"]
     },
     {
       "filename": "ana-chama.jpg",
@@ -1421,8 +1413,8 @@
       "artist": "Beach Boys",
       "name": "Surf's Up",
       "releaseyear": "1971",
-      "description": "",
-      "topTracks": []
+      "description": "When I was around 12 or 13 I had a triple CD of the Beach Boys' best hits and I became an official Beach Boys fan. I can't really imagine how or why it happened but now I know all the Beach Boys songs! I didn't realise it back then because I was a child but I always gravitated towards the tracks they released later on in their discography. Having learned more about the band as an adult, I now get it. Towards the end of the 60s, they abandoned the surfer rock they're known for and went far more experimental. These albums didn't sell well but they are the ones with all my favourite tracks! I barely listened to full albums from them but this one I did get into in the end, because it has some of my all time faves. 'Surf's Up' is great, although don't try to read into the lyrics, they are very bewildering. 'Disney Girls' also has a special place in my heart for some reason. I love the whistling in it",
+      "topTracks": ["Long Promised Road", "Disney Girls (1957)", "'Til I Die", "Surf's Up"]
     },
     {
       "filename": "jessie-that.webp",
