@@ -6,6 +6,12 @@
     <li><a href="https://m.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/dcb1ff03-02b5-47c2-8f0b-5b52986ffd1a">Underrated Huge Tracks</a></li>
     <li><a href="https://m.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/3c316631-eea9-4ecd-8cc4-ccb695903b1a">Peace & Tranquility</a></li>
   </ul>
+  <div class="sorting-buttons">
+    <button (click)="sortSoundtracks('release')">Release Order</button>
+    <button (click)="sortSoundtracks('random')">Random Order</button>
+    <button (click)="sortSoundtracks('alphabeticalName')">Alphabetical by Game</button>
+    <button (click)="sortSoundtracks('platform')">By Platform</button>
+  </div>
   <div *ngFor="let soundtrack of soundtracks" class="soundtrack-card" (click)="showDescription(soundtrack)">
     <div class="soundtrack-image-container">
       <img [src]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image">

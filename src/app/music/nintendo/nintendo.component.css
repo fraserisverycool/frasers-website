@@ -186,3 +186,50 @@ h1 {
 .kk-image {
   max-height: 200px;
 }
+
+.sorting-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sorting-buttons button {
+  padding: 10px 15px;
+  background-color: #ff99cc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sorting-buttons button:hover {
+  transform: scale(1.1);
+  background-color: #ff66b3; /* Brighter pink on hover */
+}
+
+.sorting-buttons button:active {
+  transform: scale(0.9);
+  background-color: #ff99cc; /* Original color on click */
+}
+
+@media screen and (max-width: 768px) {
+  .sorting-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sorting-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+.sorting-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+

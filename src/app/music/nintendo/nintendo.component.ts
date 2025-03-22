@@ -11,6 +11,20 @@ interface Soundtrack {
   topTracks: string[];
 }
 
+const platformOrder = [
+  "NES",
+  "Gameboy",
+  "SNES",
+  "N64",
+  "GBA",
+  "Gamecube",
+  "DS",
+  "Wii",
+  "3DS",
+  "Wii U",
+  "Switch"
+];
+
 @Component({
   selector: 'app-nintendo',
   standalone: true,
@@ -20,7 +34,13 @@ interface Soundtrack {
 })
 export default class NintendoComponent implements OnInit {
   soundtracks: Soundtrack[] = [];
+  originalSoundtracks: Soundtrack[] = [];
   selectedSoundtrack: Soundtrack | null = null;
+
+  platformRank: Record<string, number> = platformOrder.reduce((acc, platform, index) => {
+    acc[platform] = index;
+    return acc;
+  }, {} as Record<string, number>);
 
   constructor(private http: HttpClient) {}
 
@@ -31,7 +51,8 @@ export default class NintendoComponent implements OnInit {
   loadSoundtracks(): void {
     this.http.get<{ soundtracks: Soundtrack[] }>('assets/music/nintendo/soundtracks.json').subscribe({
       next: (data) => {
-        this.soundtracks = data.soundtracks;
+        this.originalSoundtracks = data.soundtracks;
+        this.sortSoundtracks('release');
       },
       error: (err) => {
         console.error('Failed to load soundtracks:', err);
@@ -54,5 +75,28 @@ export default class NintendoComponent implements OnInit {
 
     const toHex = (c: number) => c.toString(16).padStart(2, '0');
     return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+  }
+
+  sortSoundtracks(criteria: 'random' | 'release' | 'alphabeticalName' | 'platform'): void {
+    switch (criteria) {
+      case 'release':
+        this.soundtracks = this.originalSoundtracks;
+        break;
+      case 'random':
+        this.soundtracks = [...this.originalSoundtracks].sort(() => Math.random() - 0.5);
+        break;
+      case 'alphabeticalName':
+        this.soundtracks = [...this.originalSoundtracks].sort((a, b) => a.name.localeCompare(b.name));
+        break;
+      case 'platform':
+        this.soundtracks = [...this.originalSoundtracks].sort((a, b) => {
+          const rankA = this.platformRank[a.platform] ?? Number.MAX_SAFE_INTEGER;
+          const rankB = this.platformRank[b.platform] ?? Number.MAX_SAFE_INTEGER;
+          return rankA - rankB;
+        });
+        break;
+      default:
+        console.error('Invalid sorting criteria');
+    }
   }
 }
