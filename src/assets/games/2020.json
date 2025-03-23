@@ -2,178 +2,205 @@
   "games": [
     {
       "name": "Outer Wilds",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "10",
+      "gameplay": "10",
       "review": [
-        "I still think about this game. It was so much fun to explore this handcrafted solar system (!) while reading lore and dying in new and fantastic ways. If there was one game I wish I could play blind again it's this"
+        "I still think about this game. It was so much fun to explore this handcrafted solar system (!) while reading lore and dying in new and fantastic ways. If there was one game I wish I could play blind again it's this. I can't write too much about it here because the more you know about it, the more you ruin the experience of playing it for the first time.",
+        "So take my word for it, stop what you're doing and boot up Outer Wilds. It'll be a fun, emotional and at times scary ride. If you don't understand what's going on in the first hours, keep trying!"
       ],
       "image": "outer-wilds.jpg",
       "platform": "PS5"
     },
     {
-      "name": "Animal Crossing: New Horizons",
-      "vibes": "",
-      "gameplay": "",
+      "name": "Streets of Rage 4",
+      "vibes": "10",
+      "gameplay": "10",
       "review": [
-        "This game is food for the soul. It will calm you down when you are feeling stressed and be there for you in hard times. I've loved this game since wild world so this new version was a dream come true"
+        "Oh hell yeah this game is so fucking good. It's so much fun and such a cool game and the MUSIC! It's inspired by classic house music and goes so hard. The original SoR also had insane music and this successor totally channels the vibe perfectly.",
+        "It has such an amazing style. Beating up cops in the city, supernatural nonsense, throwing crowbars at people in the streets, eating floor turkeys. It's got everything. I played it a whole bunch and got really good with Floyd of all characters. Normally I do not vibe with heavy characters but we just connected!"
+      ],
+      "image": "streets-of-rage.jpg",
+      "platform": "Switch"
+    },
+    {
+      "name": "Slay the Spire",
+      "vibes": "7",
+      "gameplay": "11",
+      "review": [
+        "The first time I played this it didn't managed to get its hooks and claws into me. But I kept coming back. Why? Because this is one of the best games in the world!!!",
+        "I may have started playing in 2020, but I got so fucking into this in the 5 years after as well. It started by climbing the ascensions, then getting all the achievements, then just when I thought I was done, I set myself the challenge of beating the heart on A20 with all characters.",
+        "I managed to do it first try with the Watcher because well it's the Watcher. At that point I stopped playing her entirely because of the infinite, but the other three are all beautiful and perfect. I got Ironclad with a dead branch corruption deck of course, eventually managed to get Silent through with a poison deck, and then spent ages just grinding Defect until I finally got it in 2024. Around then, Balatro entered my life so I was able to say goodbye and officially start waiting for the second game."
+      ],
+      "image": "slay-the-spire.jpg",
+      "platform": "Switch"
+    },
+    {
+      "name": "Animal Crossing: New Horizons",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "This game is food for the soul. It will calm you down when you are feeling stressed and be there for you in hard times. I've loved this game since wild world so this new version was a dream come true.",
+        "I spent a year in this game, making the most perfect and beautiful island. I loved visiting other islands of friends during the pandemic and I loved making art in the game.",
+        "I do with the villagers were a little feistier and/or a bit more interesting. I remember the villagers saying the wildest things in older games... but it's fine because there's so much other stuff in there to make up for it.",
+        "Like the soundtrack! This time round we have a pretty upbeat set of hourly themes to enjoy. At first I was anti because there's too much peppy synth but I've come to love it. It's different but also the same. And with the 2.0 update there are a whole bunch of new KK Slider tracks, and I happen to love KK Slider tracks. I even made a ranking of them <a href=\"http://worldpeace.services/music/nintendo/kk\">here</a>."
       ],
       "image": "animal-crossing.jpg",
       "platform": "Switch"
     },
     {
       "name": "CrossCode",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "10",
+      "gameplay": "9",
       "review": [
-        "What a gorgeous action RPG! What I thought would be a 10 hour indie game ended up being one of the most compelling stories and settings I've ever seen. And that Soundtrack! And it was made in Germany!"
+        "What a gorgeous action RPG! What I thought would be a 10 hour indie game ended up being one of the most compelling stories and settings I've ever seen. And that Soundtrack! And it was made in Germany!",
+        "This RPG is so fun! The battling is super fun and the story is wild. The music is great and I have come back to this OST a lot. I kinda regret the non-ending, it feels like it was a bit unfinished. Then when the free DLC came it felt tacked on."
       ],
       "image": "crosscode.jpg",
       "platform": "Switch"
     },
     {
-      "name": "Streets of Rage 4",
-      "vibes": "",
-      "gameplay": "",
+      "name": "Pikmin 3 Deluxe",
+      "vibes": "9",
+      "gameplay": "8",
       "review": [
-        "Best soundtrack this year don't @ me. Seriously, stop looking at twitter and go play Streets of Rage. It's so much fun and such a cool game and the MUSIC"
+        "I love the Pikmin series with all my heart so you KNOW I was double dipping for this one. This game looks amazing! I love the areas, the music, the bosses, the enemies, and even the characters. I love the super detailed models of the fruit, although it's a bit silly that there's just all this fresh fruit lying around, and no treasures like before.",
+        "This deluxe edition came with some extra content but I don't think it was very good. In the end I just got this to replay the Wii U game which I loved and actually felt nostalgia for."
       ],
-      "image": "streets-of-rage.jpg",
+      "image": "pikmin-3.png",
       "platform": "Switch"
     },
     {
       "name": "Hades",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "8",
+      "gameplay": "9",
       "review": [
-        "I rode the Hades wave this autumn and I loved it. This game has such a good presentation and is so accessible. Hard not to recommend this to anyone. Can't stand the americans putting on British accents though"
+        "I rode the Hades wave in the autumn and I loved it. This game has such a good presentation and is so accessible. Hard not to recommend this to anyone. Can't stand the Americans putting on British accents though what were they thinking."
       ],
       "image": "hades.jpg",
       "platform": "Switch"
     },
     {
-      "name": "Slay the Spire",
-      "vibes": "",
-      "gameplay": "",
-      "review": [
-        "Was convinced to give this a try by numerous friends who had lost hundreds of hours in this game. I can totally see why, this game can be played in a million different ways and is very addicting"
-      ],
-      "image": "slay-the-spire.jpg",
-      "platform": "Switch"
-    },
-    {
       "name": "One Step From Eden",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "9",
+      "gameplay": "8",
       "review": [
-        "This is a really cool indie title which has the same deckbuilding element as Slay the Spire, but it's an action game. I came for the music and I stayed for... the music. Soundtrack is a bop"
+        "This is a really cool indie title which has the same deckbuilding element as Slay the Spire, but it's an action game. I came for the music and I stayed for... the music. The soundtrack is such a bop! It's this maximalist, over the top music by an artist I really like called STEEL_PLUS."
       ],
       "image": "onestep.jpg",
       "platform": "Switch"
     },
     {
       "name": "NieR: Automata",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "9",
+      "gameplay": "9",
       "review": [
-        "Really enjoyed the aesthetic in this game. Everything looked so beautiful. Small things irritated me like you walk a bit and suddenly the forest turns into a desert.. And they make you look at 2B's ass the whole game"
+        "Really enjoyed the aesthetic in this game. Everything looked so beautiful. The story was dramatic, the worldbuilding great, the characters great, the ending(s) cool. Music is fantastic!",
+        "Small things irritated me like you walk a bit and suddenly the forest turns into a desert.. And they make you look at 2B's ass the whole game which for me was a bit much."
       ],
       "image": "nier.jpg",
       "platform": "PS4"
     },
     {
       "name": "Final Fantasy VII",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "9",
+      "gameplay": "6",
       "review": [
-        "This January I played the OG FF7 and had a blast. It was slow but I pulled through, for cultural reasons. It's an amazing story and I wish I had played it as a child"
+        "In January I played the OG FF7 and had a blast. It was slow but I pulled through, for cultural reasons. It's an amazing story and I wish I had played it as a child.",
+        "These cute little blocky fellows navigate a complex world where there was an energy revolution when Mako was harvested by an evil corporation. It turns out Mako is the lifeblood of the planet and environmental destruction might not be a great idea after all. It features Cloud, the edgiest bitch ever but in this game even he is alright. Sephiroth is amazing and there are so many great moments.",
+        "The music is legendary! Listen to this <a href=\"https://youtu.be/PIkTNZUbeBE\">late-game track</a> that I love."
       ],
       "image": "sephiroth-cloud.gif",
       "platform": "PS1"
     },
     {
       "name": "Final Fantasy: VII: Remake",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "5",
+      "gameplay": "7",
       "review": [
-        "I also figured why not play the remake too. I can totally see how people think it's amazing, especially if they've played the original, but the writing was really bad so I couldn't take it very seriously"
+        "After playing the original, I also figured why not play the remake too. I can totally see how people think it's amazing, especially if they've played the original, but the writing was really bad so I couldn't take it very seriously. It was also very jarring to have a lot of the cartoon elements of the original in HD. I think the vibe is missing on this game quite a bit.",
+        "I liked the remixed music tracks a lot, and I enjoyed playing as Barret. It felt a bit cheap to only play a third of the story of the original though."
       ],
       "image": "final-fantasy.png",
       "platform": "PS4"
     },
     {
       "name": "The Witness",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "5",
+      "gameplay": "8",
       "review": [
-        "An environmental puzzle game on the PS4 which I got really into. The puzzles are always difficult but never impossible and the game comes with a cool message too"
+        "An environmental puzzle game on the PS4 which I got really into. The puzzles are always difficult but never impossible and the game comes with a cool message too. I just love puzzle games like this, and this was a bit different to usual because it was in 3D! So many angles to look at the puzzles."
       ],
       "image": "witness.jpg",
       "platform": "PS4"
     },
     {
       "name": "Factorio",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "3",
+      "gameplay": "9",
       "review": [
-        "BEWARE this game. It's extremely addicting, and for what? Endless progress. Seriously this game has no end. I've been playing multiplayer with 3 friends and we've gone for 8 hours at a time"
+        "BEWARE this game. It's extremely addicting, and for what? Endless progress. Seriously this game has no end. I played multiplayer with 3 friends and we're gone for 8 hours at a time. It's actually kind of miserable.",
+        "Once I replayed it on my own to make an ultra efficient factory and I realised that it's just fucking work. It's just programming. Optimising algorithms and refactoring old code. Dealing with bugs (literally). It's just like my job as a programmer. When I realised that I promised myself to stop forever. I will not touch the DLC."
       ],
       "image": "factorio.jpg",
       "platform": "PC"
     },
     {
-      "name": "Pikmin 3 Deluxe",
-      "vibes": "",
-      "gameplay": "",
-      "review": [
-        "I love the Pikmin series with all my heart so you KNOW I was double dipping for this one. The only reason this isn't in the #1 spot is because I've already played it all, and the new content is crap"
-      ],
-      "image": "pikmin-3.png",
-      "platform": "Switch"
-    },
-    {
       "name": "Towerfall",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "8",
+      "gameplay": "7",
       "review": [
-        "I started playing this kick-ass indie fighter with my friends this summer and it's hilarious. Super good party game now that I'm too good at smash to play that with my friends"
+        "I started playing this kick-ass indie fighter with my friends this summer and it's hilarious. Super good party game now that I'm too good at smash to play that with my friends. I find that it's really accessible and everyone can get into it, even if you're bad at video games. I'm also intrigued by all this unlocking I've been inadvertently doing."
       ],
       "image": "towerfall.jpg",
       "platform": "Switch"
     },
     {
       "name": "Paper Mario: The Origami King",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "9",
+      "gameplay": "5",
       "review": [
-        "As a fan of the originals I had some high hopes, but I was reminded that this game truly is for kids. I beat the game but I've probably outgrown it. It had some excellent highlights though"
+        "As a fan of the originals I had some high hopes, but I was reminded that this game truly is for kids. I beat the game but I've probably outgrown it. I didn't love the battle system so it was at times a bit of a slog.",
+        "But the vibe of the game is fab. It's got some hilarious writing, and I love the music so much. <a href=\"https://www.youtube.com/watch?v=zCXrspb-qLg\">This video</a> helped me realised how fucking great the soundtrack is. I didn't realise! These covers are so good and the team at Intelligent Systems who do music just go so fucking hard every game they do. They are amazing."
       ],
       "image": "paper-mario.jpg",
       "platform": "Switch"
     },
     {
       "name": "Super Mario 3D All-Stars",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "8",
+      "gameplay": "7",
       "review": [
-        "This game was a rip-off but I'm a nintendo slut and bought it anyway and really enjoyed playing all three games, although I was mainly just reminded of how good Odyssey is"
+        "This game was a rip-off but I'm a nintendo slut and bought it anyway and really enjoyed playing all three games, although I was mainly just reminded of how good Odyssey is.",
+        "It consists of Mario 64, Sunshine and Galaxy. All classics. But it's pretty scandalous that they took it off the eshop and had it as like a limited game only. I hope they never do that again."
       ],
       "image": "mario-all-stars.jpg",
       "platform": "Switch"
     },
     {
       "name": "Death Stranding",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "9",
+      "gameplay": "3",
       "review": [
-        "I just wanted to give it a try because I'd heard so much yet knew so little about it... I played about 15 hours but this game is not for the faint of heart like me. I was so terrified of those monsters that I couldn't play anymore"
+        "I just wanted to give it a try because I'd heard so much yet knew so little about it... What kind of vibe was this? The vibe was terrifying. It's like a scary, horror, dystopia vibe and they honestly nail it. You just have to walk around making deliveries in this horrible place where at any moment you could get attacked by the most terrifying monsters ever. They are literally invisible, and when they find you the whole world turns into a sea of black goop, it's terrifying.",
+        "I played about 15 hours but this game is not for the faint of heart like me. I was so terrified of those monsters that I couldn't play anymore."
       ],
       "image": "deathstranding.jpg",
       "platform": "PS4"
     },
     {
+      "name": "Katamari Damacy: Reroll",
+      "vibes": "8",
+      "gameplay": "2",
+      "review": [
+        "A crazy japanese game about rolling up junk into a ball. I like the big dude who tells you to do stuff in the game. The music is also great. Truly one-of-a-kind. But apart from that I was snoozing, and the gameplay kinda feels like work."
+      ],
+      "image": "katamari.jpg",
+      "platform": "Switch"
+    },
+    {
       "name": "The Last of Us",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "5",
+      "gameplay": "5",
       "review": [
         "I recognise that this is a great game but as someone who doesn't do well with either violence or suffering, I found it very upsetting. I did beat it though!"
       ],
@@ -181,111 +208,103 @@
       "platform": "PS4"
     },
     {
-      "name": "Horace",
-      "vibes": "",
-      "gameplay": "",
+      "name": "Shadow of the Colossus",
+      "vibes": "8",
+      "gameplay": "2",
       "review": [
-        "I've been playing this surprisingly deep (& very cheap) indie game. It's littered with references to pop culture and is very British, but I must be in the narrow target audience because I'm enjoying it"
+        "I really tried with this game, I promise. But the empty walks to the titans, and then the weird formulaic way of defeating them?? Like each one has a little puzzle “how do I get on it” and then you're set. Couldn't finish it.",
+        "But I respect that it has an excellent vibe. The emptiness and the sadness behind killing these beasts is very profound, and the steady descent into corruption is a really nice idea. I went back and watched someone else complete the game which was quite nice."
+      ],
+      "image": "shadow.jpg",
+      "platform": "PS4"
+    },
+    {
+      "name": "Horace",
+      "vibes": "7",
+      "gameplay": "2",
+      "review": [
+        "I've been playing this surprisingly deep (& very cheap) indie game. It's littered with references to pop culture and is very British, but I must be in the narrow target audience because I'm enjoying it. It is way too long though and I straight up don't recommend it!"
       ],
       "image": "horace.jpg",
       "platform": "Switch"
     },
     {
       "name": "A Way Out",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "2",
+      "gameplay": "4",
       "review": [
-        "This is a silly co-op game about escaping prison that I enjoyed playing in the summer. There are absolutely no stakes, so failure doesn't mean anything. I guess it's more of a visual novel"
+        "This is a silly co-op game about escaping prison that I enjoyed playing in the summer. There are absolutely no stakes, so failure doesn't mean anything. I guess it's more of a visual novel. It's gimmick is that it's co-op but I don't think it's actually that good. The story is pretty trope-y."
       ],
       "image": "wayout.png",
       "platform": "PS4"
     },
     {
       "name": "Ori and the Blind Forest",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "7",
+      "gameplay": "5",
       "review": [
-        "This is the first of the games on this list that I describe as “beautiful for the sake of being beautiful”. They really put all their eggs into that basket. It looks alright, but the game isn't that good imo"
+        "This is the first of the games on this list that I describe as “beautiful for the sake of being beautiful”. They really put all their eggs into that basket. It looks alright, but I found myself being resentful at how much it was showing with its lovely lighting. So petty, I know."
       ],
       "image": "ori.jpg",
       "platform": "Switch"
     },
     {
       "name": "Gris",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "4",
+      "gameplay": "2S",
       "review": [
-        "Tbh I would buy prints of some screenshots of the later parts of this game and hang them in my apartment. But I find these kinds of games a little over the top"
+        "Tbh I would buy prints of some screenshots of the later parts of this game and hang them in my apartment. But I find these kinds of games a little over the top. I guess they're meant to be emotional and to make you feel something but I just felt resentful."
       ],
       "image": "gris.jpg",
       "platform": "Switch"
     },
     {
       "name": "Journey",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "5",
+      "gameplay": "3S",
       "review": [
-        "I blasted through this in an evening and it was alright. Again it's just soaked in imagery, but not actually making a point or leaving me with anything"
+        "I blasted through this in an evening and it was alright. Again it's just soaked in imagery, but not actually making a point or leaving me with anything. Connecting with another player at one point was a nice touch. But I just don't vibe with these arty games at all."
       ],
       "image": "journey.png",
       "platform": "PS4"
     },
     {
       "name": "to The Moon",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "2",
+      "gameplay": "2S",
       "review": [
-        "This is a visual novel from 2011 that I tried out on a whim because it had a story that will make you cry. I love games like that but this one is a technical mess which stopped me from taking it seriously"
+        "This is a visual novel from 2011 that I tried out on a whim because it allegedly had a story that will make you cry. I love games like that but this one is a technical mess which stopped me from taking it seriously. I made it to the end but felt nothing."
       ],
       "image": "tothemoon.jpg",
       "platform": "Switch"
     },
-    {
-      "name": "Katamari Damacy: Reroll",
-      "vibes": "",
-      "gameplay": "",
-      "review": [
-        "A crazy japanese game about rolling up junk into a ball. I like the big dude who tells you to do stuff in the game but apart from that I was snoozing"
-      ],
-      "image": "katamari.jpg",
-      "platform": "Switch"
-    },
-    {
-      "name": "Shadow of the Colossus",
-      "vibes": "",
-      "gameplay": "",
-      "review": [
-        "I really tried with this game, I promise. But the empty walks to the titans, and then the weird formulaic way of defeating them?? Like each one has a little puzzle “how do I get on it” and then you're set. Couldn't finish it"
-      ],
-      "image": "shadow.jpg",
-      "platform": "PS4"
-    },
+
     {
       "name": "God of War",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "5",
+      "gameplay": "2",
       "review": [
-        "2020 is the year that I learned that I don't like hack and slash games. I wanted to see Kratos' character development, but the game was too boring to get far enough. Also he's a ridiculous character"
+        "2020 is the year that I learned that I don't like hack and slash games. I wanted to see Kratos's character development, but the game was too boring to get far enough. Also he's a ridiculous character. I was told I should at least up until a strong female character shows up. She did and I was like, finally I can stop."
       ],
       "image": "godofwar.jpg",
       "platform": "PS4"
     },
     {
       "name": "Dark Souls",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "3",
+      "gameplay": "2",
       "review": [
-        "For my own education I gave the original game a try but man this game is not for me. I need some colours and some recognisable characters. I didn't want to walk all the way back to the boss room each time I died"
+        "For my own education I gave the original game a try but man this game is not for me. I need some colours and some recognisable characters. I didn't want to walk all the way back to the boss room each time I died. I didn't make it past this monster on the bridge."
       ],
       "image": "darksouls.jpg",
       "platform": "PS4"
     },
     {
       "name": "Unravel 2",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "2",
+      "gameplay": "1",
       "review": [
-        "Man this game is utter trash... combines the “beautiful for the sake of being beautiful” trope with bad gameplay. We couldn't stop ridiculing the game as we played it."
+        "Man this game is utter trash... combines the “beautiful for the sake of being beautiful” trope with bad gameplay. We couldn't stop ridiculing the game as we played it. There are better co-op games out there but this got me even thinking if co-op games are even worth it man."
       ],
       "image": "unravel.jpg",
       "platform": "Switch"
