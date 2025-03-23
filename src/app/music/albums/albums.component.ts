@@ -20,7 +20,7 @@ interface Album {
 })
 export default class AlbumsComponent implements OnInit {
   albums: Album[] = [];
-  originalAlbums: Album[] = []; // Store original data
+  originalAlbums: Album[] = [];
   selectedAlbum: Album | null = null;
   private releaseYearColor = '#D3D3D3';
 

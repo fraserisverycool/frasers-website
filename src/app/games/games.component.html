@@ -1,9 +1,37 @@
 <div class="calendar-container">
-  <h2 class="calendar-title">Select a year</h2>
+  <h2 class="calendar-title">Ranked list of games from each year</h2>
   <div class="calendar-grid">
-    <button *ngFor="let year of years" (click)="goToYear(year)" class="year-button">
+    <button *ngFor="let year of years" (click)="sortGames(year)" class="year-button">
       <span class="year-text">{{ year }}</span>
     </button>
   </div>
 </div>
-
+<div class="calendar-container">
+  <h2 class="calendar-title">Or sort all the games using these...</h2>
+  <div class="calendar-grid">
+    <button *ngFor="let button of buttons" (click)="sortGames(button)" class="year-button">
+      <span class="year-text">{{ button }}</span>
+    </button>
+  </div>
+</div>
+<div class="container">
+  <h1 class="text-center">{{ title }}</h1>
+  <div *ngFor="let game of games">
+    <div class='game-review'>
+      <h2>{{ game.name }} ({{ game.platform }})</h2>
+      <p>
+        <span class="vibes">Vibes:</span> {{ game.vibes }}/10
+      </p>
+      <p>
+        <span class="gameplay">
+          {{ game.story == true ? 'Story:' : 'Gameplay:' }}
+        </span>
+        {{ game.gameplay }}/10
+      </p>
+      <div *ngFor="let paragraph of game.review">
+        <p [innerHTML]="paragraph"></p>
+      </div>
+      <img [src]="'assets/games/' + game.image" alt="{{ game.name }}">
+    </div>
+  </div>
+</div>
