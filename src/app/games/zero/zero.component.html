@@ -1,190 +1,24 @@
 <app-games></app-games>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Games Fraser Played in 2020</title>
-</head>
-<body>
-<div class="container mt-5">
+<div class="container">
   <h1 class="text-center">Games Fraser Played in 2020</h1>
-  <p class="lead text-center">Welcome to my list of games I played in 2022! This is the first one I ever did back on Twitter. Looking back on this in 2024 is funny because I didn't understand how much Slay the Spire would fucking take over my life over the next years.</p>
+  <p class="lead text-center">Welcome to my list of games I played in 2020! This is the first one I ever did back on Twitter. Looking back on this in 2024 is funny because I didn't understand how much Slay the Spire would fucking take over my life over the next years.</p>
 
-
-  <div class="game-review mt-4">
-    <h2>Outer Wilds</h2>
-    <p>I still think about this game. It was so much fun to explore this handcrafted solar system (!) while reading lore and dying in new and fantastic ways. If there was one game I wish I could play blind again it's this</p>
-    <img src="../../../assets/games/outer-wilds.jpg" width="600">
+  <div *ngFor="let game of games">
+    <div class='game-review'>
+      <h2>{{ game.name }} ({{ game.platform }})</h2>
+      <p *ngIf="game.vibes && game.vibes.toString().trim() !== ''">
+        <span class="vibes">Vibes:</span> {{ game.vibes }}/10
+      </p>
+      <p *ngIf="game.gameplay && game.gameplay.toString().trim() !== ''">
+        <span class="gameplay">
+          {{ game.gameplay.toString().endsWith('S') ? 'Story:' : 'Gameplay:' }}
+        </span>
+        {{ game.gameplay.toString().replace('S', '') }}/10
+      </p>
+      <div *ngFor="let paragraph of game.review">
+        <p [innerHTML]="paragraph"></p>
+      </div>
+      <img [src]="'assets/games/' + game.image" alt="{{ game.name }}">
+    </div>
   </div>
-
-  <div class="game-review mt-4">
-    <h2>Animal Crossing: New Horizons</h2>
-    <p>This game is food for the soul. It will calm you down when you are feeling stressed and be there for you in hard times. I've loved this game since wild world so this new version was a dream come true</p>
-    <img src="../../../assets/games/animal-crossing.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>CrossCode</h2>
-    <p>What a gorgeous action RPG! What I thought would be a 10 hour indie game ended up being one of the most compelling stories and settings I've ever seen. And that Soundtrack! And it was made in Germany!</p>
-    <img src="../../../assets/games/crosscode.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Streets of Rage 4</h2>
-    <p>Best soundtrack this year don't @ me. Seriously, stop looking at twitter and go play Streets of Rage. It's so much fun and such a cool game and the MUSIC</p>
-    <img src="../../../assets/games/streets-of-rage.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Hades</h2>
-    <p>I rode the Hades wave this autumn and I loved it. This game has such a good presentation and is so accessible. Hard not to recommend this to anyone. Can't stand the americans putting on British accents though</p>
-    <img src="../../../assets/games/hades.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Slay the Spire</h2>
-    <p>Was convinced to give this a try by numerous friends who had lost hundreds of hours in this game. I can totally see why, this game can be played in a million different ways and is very addicting</p>
-    <img src="../../../assets/games/slay-the-spire.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>One Step From Eden</h2>
-    <p>This is a really cool indie title which has the same deckbuilding element as Slay the Spire, but it's an action game. I came for the music and I stayed for… the music. Soundtrack is a bop</p>
-    <img src="../../../assets/games/onestep.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>NieR: Automata</h2>
-    <p>Really enjoyed the aesthetic in this game. Everything looked so beautiful. Small things irritated me like you walk a bit and suddenly the forest turns into a desert.. And they make you look at 2B's ass the whole game</p>
-    <img src="../../../assets/games/nier.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Final Fantasy VII</h2>
-    <p>This January I played the OG FF7 and had a blast. It was slow but I pulled through, for cultural reasons. It's an amazing story and I wish I had played it as a child</p>
-    <img src="../../../assets/games/sephiroth-cloud.gif">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Final Fantasy VII: Remake</h2>
-    <p>I also figured why not play the remake too. I can totally see how people think it's amazing, especially if they've played the original, but the writing was really bad so I couldn't take it very seriously</p>
-    <img src="../../../assets/games/final-fantasy.png" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>The Witness</h2>
-    <p>An environmental puzzle game on the PS4 which I got really into. The puzzles are always difficult but never impossible and the game comes with a cool message too</p>
-    <img src="../../../assets/games/witness.jpg" width="600">
-  </div>
-  <div class="game-review mt-4">
-    <h2>Factorio</h2>
-    <p>BEWARE this game. It's extremely addicting, and for what? Endless progress. Seriously this game has no end. I've been playing multiplayer with 3 friends and we've gone for 8 hours at a time</p>
-    <img src="../../../assets/games/factorio.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Pikmin 3 Deluxe</h2>
-    <p>I love the Pikmin series with all my heart so you KNOW I was double dipping for this one. The only reason this isn't in the #1 spot is because I've already played it all, and the new content is crap</p>
-    <img src="../../../assets/games/pikmin-3.png" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Towerfall</h2>
-    <p>I started playing this kick-ass indie fighter with my friends this summer and it's hilarious. Super good party game now that I'm too good at smash to play that with my friends</p>
-    <img src="../../../assets/games/towerfall.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Paper Mario: The Origami King</h2>
-    <p>As a fan of the originals I had some high hopes, but I was reminded that this game truly is for kids. I beat the game but I've probably outgrown it. It had some excellent highlights though</p>
-    <img src="../../../assets/games/paper-mario.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Super Mario 3D All-Stars</h2>
-    <p>This game was a rip-off but I'm a nintendo slut and bought it anyway and really enjoyed playing all three games, although I was mainly just reminded of how good Odyssey is</p>
-    <img src="../../../assets/games/mario-all-stars.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Death Stranding</h2>
-    <p>I just wanted to give it a try because I'd heard so much yet knew so little about it… I played about 15 hours but this game is not for the faint of heart like me. I was so terrified of those monsters that I couldn't play anymore</p>
-    <img src="../../../assets/games/deathstranding.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>The Last of Us</h2>
-    <p>I recognise that this is a great game but as someone who doesn't do well with either violence or suffering, I found it very upsetting. I did beat it though!</p>
-    <img src="../../../assets/games/lastofus.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Horace</h2>
-    <p>I've been playing this surprisingly deep (& very cheap) indie game. It's littered with references to pop culture and is very British, but I must be in the narrow target audience because I'm enjoying it</p>
-    <img src="../../../assets/games/horace.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>A Way Out</h2>
-    <p>This is a silly co-op game about escaping prison that I enjoyed playing in the summer. There are absolutely no stakes, so failure doesn't mean anything. I guess it's more of a visual novel</p>
-    <img src="../../../assets/games/wayout.png" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Ori and the Blind Forest</h2>
-    <p>This is the first of the games on this list that I describe as “beautiful for the sake of being beautiful”. They really put all their eggs into that basket. It looks alright, but the game isn't that good imo</p>
-    <img src="../../../assets/games/ori.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Gris</h2>
-    <p>Tbh I would buy prints of some screenshots of the later parts of this game and hang them in my apartment. But I find these kinds of games a little over the top</p>
-    <img src="../../../assets/games/gris.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Journey</h2>
-    <p>I blasted through this in an evening and it was alright. Again it's just soaked in imagery, but not actually making a point or leaving me with anything</p>
-    <img src="../../../assets/games/journey.png" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>To The Moon</h2>
-    <p>This is a visual novel from 2011 that I tried out on a whim because it had a story that will make you cry. I love games like that but this one is a technical mess which stopped me from taking it seriously</p>
-    <img src="../../../assets/games/tothemoon.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Katamari Damacy: Reroll</h2>
-    <p>A crazy japanese game about rolling up junk into a ball. I like the big dude who tells you to do stuff in the game but apart from that I was snoozing</p>
-    <img src="../../../assets/games/katamari.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Shadow of the Colossus (PS4)</h2>
-    <p>I really tried with this game, I promise. But the empty walks to the titans, and then the weird formulaic way of defeating them?? Like each one has a little puzzle “how do I get on it” and then you're set. Couldn't finish it</p>
-    <img src="../../../assets/games/shadow.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>God of War</h2>
-    <p>2020 is the year that I learned that I don't like hack and slash games. I wanted to see Kratos' character development, but the game was too boring to get far enough. Also he's a ridiculous character</p>
-    <img src="../../../assets/games/godofwar.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Dark Souls</h2>
-    <p>For my own education I gave the original game a try but man this game is not for me. I need some colours and some recognisable characters. I didn't want to walk all the way back to the boss room each time I died</p>
-    <img src="../../../assets/games/darksouls.jpg" width="600">
-  </div>
-
-  <div class="game-review mt-4">
-    <h2>Unravel 2 </h2>
-    <p>Man this game is utter trash… combines the “beautiful for the sake of being beautiful” trope with bad gameplay. We couldn't stop ridiculing the game as we played it.</p>
-    <img src="../../../assets/games/unravel.jpg" width="600">
-  </div>
-
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
