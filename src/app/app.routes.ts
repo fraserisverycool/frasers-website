@@ -14,15 +14,6 @@ export const routes: Routes = [
     path: 'films', loadComponent: () => import('./films/films.component')
   },
   {
-    path: 'films/2025', loadComponent: () => import('./films/five/five.component')
-  },
-  {
-    path: 'films/2024', loadComponent: () => import('./films/four/four.component')
-  },
-  {
-    path: 'films/2023', loadComponent: () => import('./films/three/three.component')
-  },
-  {
     path: 'films/next', loadComponent: () => import('./films/next/next.component')
   },
   {

@@ -1,8 +1,68 @@
+.container {
+  background-color: #f5d698;
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid #e6a23c;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+}
+
+h1 {
+  color: #d35400;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lead {
+  color: #34495e;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.film-review {
+  background-color: #fcfbb3;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.film-review h2 {
+  color: #2980b9;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.film-review p {
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.film-review img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .calendar-container {
   margin-top: 20px;
   text-align: center;
   padding: 20px;
-  background: linear-gradient(135deg, #ff6600, #ffcc00);
+  background: linear-gradient(135deg, #ffcc00, #ff6600);
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -38,4 +98,33 @@
   background: #ff6600;
   border-color: #ffcc00;
   transform: scale(1.1);
+}
+
+.calendar-container:nth-of-type(2) {
+  margin-top: 10px; /* Less margin */
+  padding: 10px; /* Less padding */
+  background: rgba(255, 102, 0, 0.2); /* More subtle background */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* More subtle shadow */
+}
+
+.calendar-container:nth-of-type(2) .calendar-title {
+  font-size: 18px; /* Smaller title */
+  margin-bottom: 5px; /* Less margin */
+  color: #333; /* Darker color for better readability against the lighter background */
+  text-shadow: none; /* Remove text shadow */
+}
+
+.calendar-container:nth-of-type(2) .year-button {
+  background: rgba(255, 204, 0, 0.5); /* Lighter background */
+  border: 1px solid #ff6600; /* Thinner border */
+  padding: 8px 16px; /* Smaller padding */
+  font-size: 14px; /* Smaller font size */
+  font-weight: normal; /* Less bold */
+  text-transform: none; /* No uppercase */
+}
+
+.calendar-container:nth-of-type(2) .year-button:hover {
+  background: rgba(255, 102, 0, 0.5); /* Lighter hover background */
+  border-color: #ffcc00;
+  transform: scale(1.05); /* Less scaling on hover */
 }

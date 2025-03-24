@@ -1,0 +1,520 @@
+{
+  "films": [
+    {
+      "filename": "coco.jpeg",
+      "title": "Coco",
+      "description": "Rewatched this delightful film with Mexicans asking if it's all real and they were like yep. Actually a delightful film",
+      "year": "2025"
+    },
+    {
+      "filename": "summer.jpg",
+      "title": "Summer of 85",
+      "description": "Standard gay film, was pissed off by one of them randomly acting like a dickhead at the end with no warning",
+      "year": "2025"
+    },
+    {
+      "filename": "it-ends.jpg",
+      "title": "It Ends With Us",
+      "description": "Pretty people gazing at each other for two hours, I didn't love it",
+      "year": "2025"
+    },
+    {
+      "filename": "substance.jpg",
+      "title": "The Substance",
+      "description": "So good. Also the most horrible film I've ever watched. I'm not good with body horror so I'm not sure what I was doing watching this",
+      "year": "2025"
+    },
+    {
+      "filename": "boy.jpg",
+      "title": "Boy",
+      "description": "I was so nervous during all of this film because it's so tense but the ending was so beautiful. A Danish queer coming of age film, not an easy watch",
+      "year": "2025"
+    },
+    {
+      "filename": "neosagradxs.PNG",
+      "title": "Neosagradxs",
+      "description": "My friends Clarer and Miiel made this film!! And I'm in it!! I have two lines speaking in spanish and they are terrible, I am a terrible actor. My apologies to the directors and the viewers",
+      "year": "2025"
+    },
+    {
+      "filename": "ato.png",
+      "title": "Ato Noturno",
+      "description": "Gripping, amazing film about public figures exploring their kink of sex in public. Cheesy film noir soundtrack makes it so funny and enjoyable to watch. I watched it at the Berlinale and I loved it",
+      "year": "2025"
+    },
+    {
+      "filename": "lesbian.webp",
+      "title": "Lesbian Space Princess",
+      "description": "Mongay always do a showing of the winner of the Teddy Award and this year it was this wacky animated film about lesbians in space. At parts it's hilarious but I did roll my eyes a few times",
+      "year": "2025"
+    },
+    {
+      "filename": "female.jpg",
+      "title": "Female Trouble",
+      "description": "Absolutely insane film, there are no words to describe it. It goes way too far and is hugely inappropriate and very disgusting. I loved it and was hugely entertained for the entire thing",
+      "year": "2025"
+    },
+    {
+      "filename": "nosferatu.png",
+      "title": "Nosferatu",
+      "description": "Hilarious film, one of the OG horror films where a bunch of tropes come from. I love how Count Orlok travels across Europe in a coffin via raft just so he can suck a German lady's blood. Also this vampire stuff is so sexually charged it's insane",
+      "year": "2025"
+    },
+    {
+      "filename": "dear-kelly.jpg",
+      "title": "Dear Kelly",
+      "description": "As a fan of Channel 5, a top class youtube channel, I decided to check out their feature film about this right-winger and how he came to be so lost. It's pretty good",
+      "year": "2025"
+    },
+    {
+      "filename": "flow.jpg",
+      "title": "Flow",
+      "description": "It's totally unrealistic for these animals to have this human-like reasoning and deduction!! But I forced myself not to think about that stuff because it's not actually about that. It's about the vibe. This film has no words in it and that is a vibe",
+      "year": "2025"
+    },
+    {
+      "filename": "baby.webp",
+      "title": "Baby",
+      "description": "A mongay film about sex workers in Sao Paolo which was kinda entertaining and had really beautiful 'chosen family' moments",
+      "year": "2025"
+    },
+    {
+      "filename": "oppenheimer.avif",
+      "title": "Oppenheimer",
+      "description": "What a snooze fest. This film is for people who think they're smart. They all speak too quickly and it's too long.",
+      "year": "2024"
+    },
+    {
+      "filename": "all-of-us-strangers.webp",
+      "title": "All of Us Strangers",
+      "description": "Loved this film so much. A gay man's hot new relationship with Paul Mescal and his old relationship with his suspiciously young parents. Love love love ",
+      "year": "2024"
+    },
+    {
+      "filename": "millers.jpg",
+      "title": "Miller's Girl",
+      "description": "Bad film about an older guy and how he fancies a minor. So icky and horrible",
+      "year": "2024"
+    },
+    {
+      "filename": "wikiriders.jpg",
+      "title": "Wikiriders",
+      "description": "Arty film about looking for rich guys in Mexico. The film feels unfinished because they apparently met him but couldn't show it for some reason",
+      "year": "2024"
+    },
+    {
+      "filename": "all-shall.jpg",
+      "title": "All Shall be Well",
+      "description": "Stunning film about older lesbians in Hong Kong. I cried and cried",
+      "year": "2024"
+    },
+    {
+      "filename": "huellos.jpg",
+      "title": "La Huella de unos Labios",
+      "description": "Sexy Mexican film about an alternative covid pandemic reality. Interesting but also pretty random",
+      "year": "2024"
+    },
+    {
+      "filename": "anatomy.jpg",
+      "title": "Anatomy of a Fall",
+      "description": "Thrilling, gripping film about a murder trial in France. Insane",
+      "year": "2024"
+    },
+    {
+      "filename": "human-voice.jpg",
+      "title": "The Human Voice",
+      "description": "Short film with Tilda Swinton being dramatic on the phone. It's so good",
+      "year": "2024"
+    },
+    {
+      "filename": "strange-way.jpg",
+      "title": "A Strange Way of Life",
+      "description": "Short film about gay cowboys. Pedro Pascal's in it and it's fucking great",
+      "year": "2024"
+    },
+    {
+      "filename": "love-is-the-devil.jpg",
+      "title": "Love is the Devil",
+      "description": "Film about Francis Bacon, hated it and hate him",
+      "year": "2024"
+    },
+    {
+      "filename": "liuben.jpg",
+      "title": "Liuben",
+      "description": "A sad gay film about Roma people in Bulgaria. Eye opening",
+      "year": "2024"
+    },
+    {
+      "filename": "paradis.jpg",
+      "title": "Le Paradis",
+      "description": "Pretty boring gay film about a youth detention centre in France. One cool part where he freestyle rapped but even that felt out of place",
+      "year": "2024"
+    },
+    {
+      "filename": "like-it-is.jpg",
+      "title": "Like it is",
+      "description": "Interesting older gay film with some brutal scenes. Pretty forgettable",
+      "year": "2024"
+    },
+    {
+      "filename": "challengers.jpg",
+      "title": "Challengers",
+      "description": "Very sexually charged film about tennis. I found it a bit cringe but it had its moments",
+      "year": "2024"
+    },
+    {
+      "filename": "women.jpg",
+      "title": "The Women",
+      "description": "Old film about women fawning around, it was pretty entertaining",
+      "year": "2024"
+    },
+    {
+      "filename": "wedding-banquet.jpg",
+      "title": "The Wedding Banquet",
+      "description": "Hilarious, wild film about a man in a gay relationship marrying a woman for a green card",
+      "year": "2024"
+    },
+    {
+      "filename": "lose-your-head.jpg",
+      "title": "Lose Your Head",
+      "description": "Set in Berlin! Wasn't too bad. About gays and murder",
+      "year": "2024"
+    },
+    {
+      "filename": "problemista.jpg",
+      "title": "Problemista",
+      "description": "Silly film about a difficult person and how hard it is to emigrate to the US. Light hearted and easy to watch. A pleasure",
+      "year": "2024"
+    },
+    {
+      "filename": "crossing.jpg",
+      "title": "Crossing",
+      "description": "Amazing and eye opening story about a Georgian women meeting a community of trans women in Istanbul. Highly recommend",
+      "year": "2024"
+    },
+    {
+      "filename": "love-lies-bleeding.jpg",
+      "title": "Love Lies Bleeding",
+      "description": "Watching this with a cinema full of lesbians was hilarious. It's brutal and hilarious",
+      "year": "2024"
+    },
+    {
+      "filename": "patagonia.jpg",
+      "title": "Patagonia",
+      "description": "Gay film in Italy pretty different to your average Mongay. Has a wild scene where he pisses on him.",
+      "year": "2024"
+    },
+    {
+      "filename": "danced.jpg",
+      "title": "And Then We Danced",
+      "description": "What’s it like to be gay as a Georgian traditional dancer? All the usual tropes",
+      "year": "2024"
+    },
+    {
+      "filename": "milk-serial.webp",
+      "title": "Milk and Serial",
+      "description": "Very unpleasant watch, about youtube pranksters, a topic I struggle with",
+      "year": "2024"
+    },
+    {
+      "filename": "porn-film-festival.jpg",
+      "title": "Dan Savage's Porn Film Festival",
+      "description": "A collection of 25 porn films 5 minutes or less. Fantastic, changed my whole outlook on sex. Life changing",
+      "year": "2024"
+    },
+    {
+      "filename": "oldboy.jpg",
+      "title": "Oldboy",
+      "description": "Pretty wild film about being imprisoned for many years and finally getting out. Pretty grim, also pretty silly ",
+      "year": "2024"
+    },
+    {
+      "filename": "smiley-face.webp",
+      "title": "Smiley Face",
+      "description": "Hilarious stoner comedy, a bit on the nose but great to watch someone just being so utterly distressed by events. Loved it",
+      "year": "2024"
+    },
+    {
+      "filename": "garcons.jpg",
+      "title": "Des Garçons de Province",
+      "description": "Pretty plain gay film at Mongay but I enjoyed the different vibe to your standard gay film ",
+      "year": "2024"
+    },
+    {
+      "filename": "deep-queer.jpeg",
+      "title": "The Deep Queer Massacre",
+      "description": "Hilarious horror film with a bunch of gays getting picked off one by one in the countryside by an evil trans lady. Loved it",
+      "year": "2024"
+    },
+    {
+      "filename": "mamantula.webp",
+      "title": "Mamantula",
+      "description": "Horror film about a man-spider who eats people after sucking their dicks. Investigation by Spanish speaking lesbian detectives in Berlin. So good for so many reasons, loved it so much",
+      "year": "2024"
+    },
+    {
+      "filename": "sunflower.jpg",
+      "title": "Sunflower",
+      "description": "At Mongay, I love sunflowers but this is just trope-y bullshit with cuts to a sunflower field. Very plain",
+      "year": "2024"
+    },
+    {
+      "filename": "anora.jpeg",
+      "title": "Anora",
+      "description": "Fascinating, thrilling film about a sex worker. I was on the edge of my seat the whole time, highly recommend",
+      "year": "2024"
+    },
+    {
+      "filename": "blair-witch.jpg",
+      "title": "The Blair Witch Project",
+      "description": "Watched this while taking mushrooms thinking it would be scary but it was actually mainly suspenseful and fun. Too many Americans ",
+      "year": "2024"
+    },
+    {
+      "filename": "paprika.avif",
+      "title": "Paprika",
+      "description": "Watched this anime film while taking mushrooms thinking it would be trippy and fun but it was just a series of dream sequences without much connecting story. Frustrating watch with a really unpleasant sexual assault scene.",
+      "year": "2024"
+    },
+    {
+      "filename": "senador.jpg",
+      "title": "El Senador",
+      "description": "Hilariously bad film set in Brazil, watched at Mongay. Acting so bad it's good. Great moment when the cinema audience gasped at the twist",
+      "year": "2024"
+    },
+    {
+      "filename": "comte-de-monte-cristo.webp",
+      "title": "Le Comte de Montecristo",
+      "description": "Surprisingly great! Some nonsense in there but is there anything really quite like revenge porn?",
+      "year": "2024"
+    },
+    {
+      "filename": "wallace-and-gromit.jpg",
+      "title": "Wallace and Gromit: Vengeance Most Fowl",
+      "description": "Delightful kids film with lots of funny tropes and references",
+      "year": "2024"
+    },
+    {
+      "filename": "pretty-woman.avif",
+      "title": "Pretty Woman",
+      "description": "Rewatched this banger film. Great soundtrack and great vibes. I would also sell my body for Richard Gere",
+      "year": "2024"
+    },
+    {
+      "filename": "in-from-the-side.jpg",
+      "title": "In from the Side",
+      "description": "Fun film about a gay rugby team, but which featured absolutely no homophobia. It gets a high score from me because the main dude is so hot",
+      "year": "2023"
+    },
+    {
+      "filename": "lonesome.jpeg",
+      "title": "Lonesome",
+      "description": "A bit over the top gay film set in Australia. This was my second ever Kino-cumshot",
+      "year": "2023"
+    },
+    {
+      "filename": "banshees.webp",
+      "title": "The Banshees of Inisherin",
+      "description": "Deeply upsetting film about depression in rural Ireland. Very beautiful",
+      "year": "2023"
+    },
+    {
+      "filename": "the-menu.jpg",
+      "title": "The Menu",
+      "description": "Didn't understand the point of this film. Why did she order a burger and why was it such a big deal",
+      "year": "2023"
+    },
+    {
+      "filename": "blue-caftan.webp",
+      "title": "The Blue Caftan",
+      "description": "Lovely film set in Morocco about embroidery. Just lovely. Quite long",
+      "year": "2023"
+    },
+    {
+      "filename": "futur-drei.jpg",
+      "title": "Futur Drei",
+      "description": "Delightful film about second generation Iranian kids in Germany. Eye opening",
+      "year": "2023"
+    },
+    {
+      "filename": "past-lives.jpg",
+      "title": "Past Lives",
+      "description": "Great opening scene. Loved humanising the American ‘villain’ character. Memorable film",
+      "year": "2023"
+    },
+    {
+      "filename": "dipped-in-black.jpg",
+      "title": "Dipped in Black",
+      "description": "Kinda boring depiction of transness in native American communities",
+      "year": "2023"
+    },
+    {
+      "filename": "orlando.jpg",
+      "title": "Orlando",
+      "description": "So boring, a theatre type film about Virginia Woolf and trans people",
+      "year": "2023"
+    },
+    {
+      "filename": "tar.jpg",
+      "title": "Tár",
+      "description": "Great music, compelling story. Weird and uncomfortable world of conducting orchestras. The film is way too long",
+      "year": "2023"
+    },
+    {
+      "filename": "lucky-strike.jpg",
+      "title": "Lucky Strike",
+      "description": "Korean thriller, it was good but I was sleepy on a plane watching it. Not very memorable",
+      "year": "2023"
+    },
+    {
+      "filename": "unbearable-weight.webp",
+      "title": "The Unbearable Weight of Massive Talent",
+      "description": "So cringe but I have to admit that I laughed a lot. It's a film about Nick Cage.",
+      "year": "2023"
+    },
+    {
+      "filename": "the-whale.png",
+      "title": "The Whale",
+      "description": "Devastating film. Ugly sobbing in the aeroplane. Watching him shovel in the food in such a self destructive way as a response to his self hatred is so painful ",
+      "year": "2023"
+    },
+    {
+      "filename": "roter-himmel.jpg",
+      "title": "Roter Himmel",
+      "description": "Mongay film where the main dude is so unlikeable and so rude to the other characters that it affects the enjoyment of the film ",
+      "year": "2023"
+    },
+    {
+      "filename": "super-mario.webp",
+      "title": "The Super Mario Movie",
+      "description": "Loved it. As a Nintendo fan this was a must watch. Why the fuck did they have licensed music in it",
+      "year": "2023"
+    },
+    {
+      "filename": "el-houb.jpg",
+      "title": "El Houb",
+      "description": "Devastating esposé on homophobic Arabic culture in Morocco. A strong willed man is determined to make his family understand that gay is fine ",
+      "year": "2023"
+    },
+    {
+      "filename": "swimmer.jpg",
+      "title": "The Swimmer",
+      "description": "What's it like being gay in an Israeli swimming team? Not that inspiring",
+      "year": "2023"
+    },
+    {
+      "filename": "grosse-freiheit.webp",
+      "title": "Große Freiheit",
+      "description": "This film totally stayed with me, even though the Austrian characters were hard to understand without subtitles. At the end when he goes cruising is very hard hitting",
+      "year": "2023"
+    },
+    {
+      "filename": "bis-ans-ende.webp",
+      "title": "Bis ans Ende der Nacht",
+      "description": "Cool film about a trans woman and an interesting plot. Also quite forgettable",
+      "year": "2023"
+    },
+    {
+      "filename": "mon-crime.jpg",
+      "title": "Mon Crime",
+      "description": "Fantastic lesbian nonsense! Delicious french film about women being successful",
+      "year": "2023"
+    },
+    {
+      "filename": "asteroid-city.jpg",
+      "title": "Asteroid City",
+      "description": "Silly film leaning heavily into the vibes but was actually kinda boring to watch",
+      "year": "2023"
+    },
+    {
+      "filename": "firebird.jpg",
+      "title": "Firebird",
+      "description": "What's it like to be gay in the Russian military, except they don't even speak Russian!",
+      "year": "2023"
+    },
+    {
+      "filename": "concerned-citizen.jpg",
+      "title": "Concerned Citizen",
+      "description": "A film about gay men gentrifying a poor neighbourhood in Israel which hit me hard because I feel strongly about this topic",
+      "year": "2023"
+    },
+    {
+      "filename": "heartbeats.png",
+      "title": "Heartbeats",
+      "description": "Film about a gay guy and a girl falling in love with the same hot guy. Some hilarious moments, highly enjoyable ",
+      "year": "2023"
+    },
+    {
+      "filename": "drifter.jpg",
+      "title": "Drifter",
+      "description": "This is about a boring countryside gay man becoming a Berlin queer. I really saw myself in him",
+      "year": "2023"
+    },
+    {
+      "filename": "passages.webp",
+      "title": "Passages",
+      "description": "Like it's good, but I didn't enjoy it. Something about films with unlikeable main characters",
+      "year": "2023"
+    },
+    {
+      "filename": "rotting.webp",
+      "title": "Rotting in the Sun",
+      "description": "Film about gay expats in Mexico, definitely saw myself in it. It was hilarious and wild. Loses tension a bit in the second half",
+      "year": "2023"
+    },
+    {
+      "filename": "fallen-leaves.jpg",
+      "title": "Fallen Leaves",
+      "description": "Beautiful film about poverty in Finland. Has a heavy 60s/70s vibe but is in the present day",
+      "year": "2023"
+    },
+    {
+      "filename": "burning-days.png",
+      "title": "Burning Days",
+      "description": "Small town Turkey with a pretty interesting plot. I enjoyed it. Gay themes",
+      "year": "2023"
+    },
+    {
+      "filename": "beast-in-the-jungle.webp",
+      "title": "The Beast in the Jungle",
+      "description": "Cool view into a Paris nightclub over the years but didn't take away much else from this film",
+      "year": "2023"
+    },
+    {
+      "filename": "where-butterflies.webp",
+      "title": "Where Butterflies Don't Fly",
+      "description": "Gay schoolteacher and pupil trapped in a cave together. Really well handled and suspenseful, enjoyable film",
+      "year": "2023"
+    },
+    {
+      "filename": "golden-delicious.jpg",
+      "title": "Golden Delicious",
+      "description": "Cheesy American gay film nonsense",
+      "year": "2023"
+    },
+    {
+      "filename": "arrete.jpg",
+      "title": "Arrête Avec tes Mensonges",
+      "description": "Boring film about an old french famous person who used to love a man",
+      "year": "2023"
+    },
+    {
+      "filename": "unsterblich.jpg",
+      "title": "Wir Werden Unsterblich Sein",
+      "description": "Hilariously bad film from Saarland. A gay thriller with terrible acting and editing",
+      "year": "2023"
+    },
+    {
+      "filename": "horseplay.jpg",
+      "title": "Horseplay",
+      "description": "Deeply harrowing film about lads on holiday. Explains the deep rooted homophobia in Argentina",
+      "year": "2023"
+    },
+    {
+      "filename": "in-bed.jpg",
+      "title": "In Bed",
+      "description": "Really good film set almost entirely in a bedroom during a dramatic time about a hot gay guy who spirals downwards",
+      "year": "2023"
+    }
+  ]
+}
