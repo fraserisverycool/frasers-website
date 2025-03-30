@@ -1,22 +1,16 @@
 <div class="calendar-container">
-  <h2 class="calendar-title">Ranked list of games from each year</h2>
   <div class="calendar-grid">
-    <button *ngFor="let year of years" (click)="sortGames(year)" class="year-button">
-      <span class="year-text">{{ year }}</span>
+    <button *ngFor="let filter of filters" (click)="sortGames(filter)" class="filter-button">
+      <span>{{ filter }}</span>
     </button>
   </div>
-</div>
-<div class="calendar-container">
-  <h2 class="calendar-title">Or sort all the games using these...</h2>
-  <div class="calendar-grid">
-    <button *ngFor="let button of buttons" (click)="sortGames(button)" class="year-button">
-      <span class="year-text">{{ button }}</span>
-    </button>
+  <div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search games...">
   </div>
 </div>
 <div class="container">
   <h1 class="text-center">{{ title }}</h1>
-  <div *ngFor="let game of games">
+  <div *ngFor="let game of filteredGames">
     <div class='game-review'>
       <h2>{{ game.name }} ({{ game.platform }})</h2>
       <p>

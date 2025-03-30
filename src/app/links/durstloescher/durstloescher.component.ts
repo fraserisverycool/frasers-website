@@ -60,7 +60,11 @@ export default class DurstloescherComponent implements OnInit {
         this.durstloescher = [...this.originalDurstloescher].sort((a, b) => a.name.localeCompare(b.name));
         break;
       case 'score':
-        this.durstloescher = [...this.originalDurstloescher].sort((a, b) => b.score.localeCompare(a.score));
+        this.durstloescher = [...this.originalDurstloescher].sort((a, b) => {
+          const scoreA = parseInt(a.score, 10);
+          const scoreB = parseInt(b.score, 10);
+          return scoreB - scoreA;
+        });
         break;
       default:
         console.error('Invalid sorting criteria');

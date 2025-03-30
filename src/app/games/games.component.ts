@@ -4,6 +4,7 @@ import { HttpClient } from "@angular/common/http";
 import { of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { RouterLink, RouterOutlet, Router } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 interface Game {
   name: string;
@@ -41,16 +42,16 @@ const platformOrder = [
 @Component({
   selector: 'app-games',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet],
+  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule],
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.css']
 })
 export default class GamesComponent implements OnInit {
   games: Game[] = [];
   originalGames: Game[] = [];
-  title: string = "Games Fraser played in 2025";
-  years = ["2025", "2024", "2023", "2022", "2021", "2020"];
-  buttons = ["random", "name", "vibes", "gameplay", "platform", "next"];
+  title: string = "Games Fraser has played since 2020";
+  filters = ["all", "2025", "2024", "2023", "2022", "2021", "2020", "random", "name", "vibes", "gameplay", "platform", "next"];
+  searchTerm: string = '';
 
   platformRank: Record<string, number> = platformOrder.reduce((acc, platform, index) => {
     acc[platform] = index;
@@ -85,15 +86,29 @@ export default class GamesComponent implements OnInit {
     ).subscribe(
       (parsedGames) => {
         this.originalGames = parsedGames;
-        this.sortGames('2025');
+        this.sortGames('all');
       }
     );
+  }
+
+  get filteredGames(): Game[] {
+    if (!this.searchTerm) {
+      return this.games;
+    }
+    return this.games.filter(game => {
+      const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
+      return game.name.toLowerCase().includes(lowerCaseSearchTerm);
+    });
   }
 
   sortGames(criteria: string): void {
     switch (criteria) {
       case 'next':
         this.router.navigate(['/games/next']);
+        break;
+      case 'all':
+        this.games = this.originalGames;
+        this.title = "Games Fraser has played since 2020";
         break;
       case '2025':
         this.games = this.originalGames.filter(game => game.year.includes('2025'));

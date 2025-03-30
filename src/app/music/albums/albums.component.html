@@ -2,13 +2,16 @@
 
 <div class="album-container">
   <h4>I've written something about all my favourite albums! If you're looking for a recommendation, you can have a little browse here. I'm currently working on a search function but until then I made these filters:</h4>
+  <div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search albums...">
+  </div>
   <div class="sorting-buttons">
     <button (click)="sortAlbums('random')">Random Order</button>
     <button (click)="sortAlbums('alphabeticalName')">Alphabetical by Album</button>
     <button (click)="sortAlbums('alphabeticalArtist')">Alphabetical by Artist</button>
     <button (click)="sortAlbums('releaseDate')">By Release Date</button>
   </div>
-  <div *ngFor="let album of albums" class="album-card" (click)="showDescription(album)">
+  <div *ngFor="let album of filteredAlbums" class="album-card" (click)="showDescription(album)">
     <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
          [style.border-style]="album.description ? 'none' : 'solid'"
          [style.border-width]="album.description ? '0' : '2px'">

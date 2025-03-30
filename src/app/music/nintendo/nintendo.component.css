@@ -184,6 +184,10 @@ h1 {
   color: white;
 }
 
+.center-image {
+  display: flex;
+  justify-content: center;}
+
 .kk-image {
   max-height: 200px;
 }
@@ -227,10 +231,23 @@ h1 {
   }
 }
 
-.sorting-buttons {
+.search-container {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  max-width: 300px;
+  background-color: #fbe3ff;
+}
+
+.search-container input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
 

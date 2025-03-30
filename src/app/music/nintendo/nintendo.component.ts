@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 interface Soundtrack {
   filename: string;
@@ -28,7 +29,7 @@ const platformOrder = [
 @Component({
   selector: 'app-nintendo',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink],
+  imports: [CommonModule, RouterOutlet, RouterLink, FormsModule],
   templateUrl: './nintendo.component.html',
   styleUrls: ['./nintendo.component.css']
 })
@@ -36,6 +37,7 @@ export default class NintendoComponent implements OnInit {
   soundtracks: Soundtrack[] = [];
   originalSoundtracks: Soundtrack[] = [];
   selectedSoundtrack: Soundtrack | null = null;
+  searchTerm: string = '';
 
   platformRank: Record<string, number> = platformOrder.reduce((acc, platform, index) => {
     acc[platform] = index;
@@ -57,6 +59,16 @@ export default class NintendoComponent implements OnInit {
       error: (err) => {
         console.error('Failed to load soundtracks:', err);
       },
+    });
+  }
+
+  get filteredSoundtracks(): Soundtrack[] {
+    if (!this.searchTerm) {
+      return this.soundtracks;
+    }
+    return this.soundtracks.filter(soundtrack => {
+      const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
+      return soundtrack.name.toLowerCase().includes(lowerCaseSearchTerm);
     });
   }
 

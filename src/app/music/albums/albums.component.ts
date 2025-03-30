@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
+import { FormsModule } from '@angular/forms';
 
 interface Album {
   filename: string;
@@ -14,7 +15,7 @@ interface Album {
 @Component({
   selector: 'app-albums',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './albums.component.html',
   styleUrls: ['./albums.component.css']
 })
@@ -23,6 +24,7 @@ export default class AlbumsComponent implements OnInit {
   originalAlbums: Album[] = [];
   selectedAlbum: Album | null = null;
   private releaseYearColor = '#D3D3D3';
+  searchTerm: string = '';
 
   constructor(private http: HttpClient) {}
 
@@ -39,6 +41,16 @@ export default class AlbumsComponent implements OnInit {
       error: (err) => {
         console.error('Failed to load albums:', err);
       },
+    });
+  }
+
+  get filteredAlbums(): Album[] {
+    if (!this.searchTerm) {
+      return this.albums;
+    }
+    return this.albums.filter(album => {
+      const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
+      return album.name.toLowerCase().includes(lowerCaseSearchTerm) || album.artist.toLowerCase().includes(lowerCaseSearchTerm);
     });
   }
 
