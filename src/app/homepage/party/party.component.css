@@ -4,8 +4,8 @@
   padding: 20px;
   margin: 0 auto;
   box-sizing: border-box;
-  background: radial-gradient(circle, #026913, #abff7a);
-  border: 1px solid #ccc;
+  border: 2px solid #4d3c00;
+  background: radial-gradient(circle, #fceebb, #dbb630);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

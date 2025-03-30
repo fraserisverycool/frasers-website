@@ -1,16 +1,11 @@
-.page-container {
+.container {
   width: 100%;
   max-width: 800px;
   padding: 20px;
   margin: 0 auto;
-  box-sizing: border-box;
-  align-items: center;
-}
-
-.album-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  border: 2px solid #023000;
+  border-radius: 8px;
+  background: radial-gradient(circle, #a1d6ad, #caff9e);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -168,7 +163,7 @@ h4 {
 
 .sorting-buttons button {
   padding: 10px 15px;
-  background-color: #ff99cc;
+  background-color: #6fa840;
   border: none;
   border-radius: 5px;
   cursor: pointer;

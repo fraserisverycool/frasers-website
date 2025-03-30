@@ -12,7 +12,7 @@
 <div class="container">
   <h1 class="text-center">{{ title }}</h1>
   <div *ngFor="let film of filteredFilms">
-    <div class='film-review mt-4'>
+    <div class='film-review'>
       <h2>{{ film.title }}</h2>
       <p>{{ film.description }}</p>
       <img [src]="'assets/films/' + film.filename">

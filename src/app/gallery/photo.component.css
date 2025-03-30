@@ -5,13 +5,12 @@
   transition: transform 0.3s ease;
   max-height: 600px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to bottom, #f7f7f7, #e7e7e7);
+  background-color: #ffde5c;
 }
 
 .image-container:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  background: linear-gradient(to bottom, #fff, #ddd);
 }
 
 .gallery-image {
@@ -30,7 +29,7 @@
 
 h3 {
   margin: 0 0 10px;
-  color: #00698f; /* A nice blue */
+  color: #872b00;
   font-weight: bold;
 }
 
@@ -85,7 +84,7 @@ h3 {
 .description-container {
   border-radius: 15px;
   margin-top: 10px;
-  background: linear-gradient(to bottom, #8f87ff, #ffc7f0);
+  background: linear-gradient(to bottom, #fff7ad, #ff7b3d);
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

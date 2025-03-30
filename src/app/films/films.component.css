@@ -1,18 +1,18 @@
 .container {
-  background-color: #f5d698;
+  background-color: #ff857a;
   width: 100%;
   max-width: 800px;
   padding: 30px;
   margin: 0 auto;
   box-sizing: border-box;
-  border: 2px solid #e6a23c;
+  border: 2px solid #8f000a;
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   margin-top: 20px;
 }
 
 h1 {
-  color: #d35400;
+  color: #360000;
   font-size: 2.5em;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ h1 {
 }
 
 .film-review {
-  background-color: #fcfbb3;
+  background-color: #ffc2c2;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 30px;
@@ -35,10 +35,10 @@ h1 {
 }
 
 .film-review h2 {
-  color: #2980b9;
+  color: #ad0000;
   font-size: 1.8em;
   margin-bottom: 15px;
-  border-bottom: 2px solid #3498db;
+  border-bottom: 2px solid #8f000a;
   padding-bottom: 10px;
 }
 
@@ -62,7 +62,7 @@ h1 {
   margin-top: 20px;
   text-align: center;
   padding: 20px;
-  background: linear-gradient(135deg, #ffcc00, #ff6600);
+  background: linear-gradient(135deg, #ff6045, #c40038);
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -83,8 +83,8 @@ h1 {
 }
 
 .filter-button {
-  background: #ffcc00;
-  border: 3px solid #ff6600;
+  background: #ffabae;
+  border: 3px solid #8f000a;
   padding: 15px 30px;
   font-size: 20px;
   font-weight: bold;
@@ -95,8 +95,8 @@ h1 {
 }
 
 .filter-button:hover {
-  background: #ff6600;
-  border-color: #ffcc00;
+  background: #b81c21;
+  border-color: #ffabae;
   transform: scale(1.1);
 }
 
@@ -109,10 +109,10 @@ h1 {
 .search-container input[type="text"] {
   padding: 10px;
   font-size: 18px;
-  border: 3px solid #ff6600;
+  border: 3px solid #8f000a;
   border-radius: 8px;
   max-width: 300px;
-  background-color: #ffefc9;
+  background-color: #ffabae;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
 }
 

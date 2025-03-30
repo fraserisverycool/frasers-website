@@ -1,13 +1,16 @@
 .container {
-  background-color: #a7fcaf;
+  width: 100%;
   max-width: 800px;
-  margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  margin: 0 auto;
+  border: 2px solid #023000;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center
+  background: radial-gradient(circle, #a1d6ad, #caff9e);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 
 .gif-box {
   display: flex;
