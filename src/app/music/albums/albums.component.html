@@ -14,7 +14,7 @@
     <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
          [style.border-style]="album.description ? 'none' : 'solid'"
          [style.border-width]="album.description ? '0' : '2px'">
-      <img [src]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image">
+      <img placeholder [src]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image">
     </div>
     <div class="album-info" [style.background-color]="generateRainbowColor(album.releaseyear)" [style.color]="textColor">
       <h3 class="album-name">{{album.artist}} - {{ album.name }}</h3>
@@ -26,17 +26,8 @@
 <div *ngIf="selectedAlbum" class="modal">
   <div class="modal-content">
     <span class="close" (click)="closeDescription()">&times;</span>
-    <h2>{{selectedAlbum.artist}} - {{ selectedAlbum.name }}</h2>
-    <h4>{{selectedAlbum.releaseyear}}</h4>
-    <img [src]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image">
-    <p>{{ selectedAlbum.description }}</p>
-  </div>
-</div>
-<div *ngIf="selectedAlbum" class="modal">
-  <div class="modal-content">
-    <span class="close" (click)="closeDescription()">&times;</span>
     <h2>{{ selectedAlbum.name }}</h2>
-    <img [src]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image">
+    <img placeholder [src]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image">
     <div class="releaseyear-icon" [style.background-color]="generateRainbowColor(selectedAlbum.releaseyear)" [style.color]="textColor">
       {{ selectedAlbum.releaseyear }}
     </div>

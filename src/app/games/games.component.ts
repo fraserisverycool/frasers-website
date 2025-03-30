@@ -1,5 +1,5 @@
 import { Component, OnInit, Injectable  } from '@angular/core';
-import { CommonModule, NgFor } from '@angular/common';
+import { CommonModule, NgOptimizedImage, NgFor } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import { of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
@@ -42,7 +42,7 @@ const platformOrder = [
 @Component({
   selector: 'app-games',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule],
+  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage],
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.css']
 })

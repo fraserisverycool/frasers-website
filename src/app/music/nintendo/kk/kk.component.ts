@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 
 interface KKSong {
@@ -12,7 +12,7 @@ interface KKSong {
 @Component({
   selector: 'app-kk',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgOptimizedImage],
   templateUrl: './kk.component.html',
   styleUrls: ['./kk.component.css']
 })

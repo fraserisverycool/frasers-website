@@ -99,27 +99,27 @@ a {
 
 .fun-button.music {
   background: radial-gradient(circle, #67f525, #027800);
-  border: 4px solid #ffcc00;
+  border: 4px solid #003305;
 }
 
 .fun-button.gallery {
   background: radial-gradient(circle, #ff8000, #eb3700);
-  border: 4px solid #ffcc00;
+  border: 4px solid #b53900;
 }
 
 .fun-button.links {
-  background: radial-gradient(circle, #25f5a2, #00ccff);
-  border: 4px solid #ffcc00;
+  background: radial-gradient(circle, #000000, #1f1f1f);
+  border: 4px solid #000000;
 }
 
 .fun-button.smash {
   background: radial-gradient(circle, #5745ff, #4800c4);
-  border: 4px solid #ffcc00;
+  border: 4px solid #0500a1;
 }
 
 .fun-button.guestbook {
   background: radial-gradient(circle, #dd1fff, #c266ff);
-  border: 4px solid #ffcc00;
+  border: 4px solid #ba00a8;
 }
 
 .flashing-warning {

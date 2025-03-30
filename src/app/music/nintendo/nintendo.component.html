@@ -17,7 +17,7 @@
   </div>
   <div *ngFor="let soundtrack of filteredSoundtracks" class="soundtrack-card" (click)="showDescription(soundtrack)">
     <div class="soundtrack-image-container">
-      <img [src]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image">
+      <img placeholder [src]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image">
     </div>
     <div class="soundtrack-info" [ngClass]="soundtrack.platform | lowercase">
       <h3 class="soundtrack-name">{{ soundtrack.name }}</h3>
@@ -29,7 +29,7 @@
     <h4>Oops! There are no soundtracks with that name. Here's a secret bonus for you for trying though:</h4>
     <div class="center-image">
       <a routerLink="/music/nintendo/kk">
-        <img [src]="'assets/music/nintendo/kk/kk-slider-icon.png'" [alt]="'K.K. Slider'" class="kk-image">
+        <img placeholder [src]="'assets/music/nintendo/kk/kk-slider-icon.png'" [alt]="'K.K. Slider'" class="kk-image">
       </a>
     </div>
   </div>
@@ -39,7 +39,7 @@
   <div class="modal-content">
     <span class="close" (click)="closeDescription()">&times;</span>
     <h2>{{ selectedSoundtrack.name }}</h2>
-    <img [src]="'assets/music/nintendo/' + selectedSoundtrack.filename" [alt]="selectedSoundtrack.name" class="modal-image">
+    <img placeholder [src]="'assets/music/nintendo/' + selectedSoundtrack.filename" [alt]="selectedSoundtrack.name" class="modal-image">
     <div class="platform-icon" [ngClass]="selectedSoundtrack.platform | lowercase">
       {{ selectedSoundtrack.platform }}
     </div>

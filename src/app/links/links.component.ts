@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { RouterLink, RouterOutlet, Router } from '@angular/router';
 
 @Component({
   selector: 'app-links',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet],
+  imports: [CommonModule, RouterLink, RouterOutlet, NgOptimizedImage],
   templateUrl: './links.component.html',
   styleUrls: ['./links.component.css']
 })

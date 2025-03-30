@@ -5,6 +5,8 @@
   background: linear-gradient(45deg, #05025c, #350170);
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   color: #cccab6;
+  border: 2px solid #000000;
+  border-radius: 10px;
 }
 
 button {

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import { FormsModule } from '@angular/forms';
 
@@ -15,7 +15,7 @@ interface Album {
 @Component({
   selector: 'app-albums',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, NgOptimizedImage],
   templateUrl: './albums.component.html',
   styleUrls: ['./albums.component.css']
 })

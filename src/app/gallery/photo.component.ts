@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {FormsModule} from "@angular/forms";
 
 interface Photo {
@@ -14,7 +14,7 @@ interface Photo {
 @Component({
   selector: 'app-photo',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, NgOptimizedImage],
   templateUrl: './photo.component.html',
   styleUrls: ['./photo.component.css']
 })

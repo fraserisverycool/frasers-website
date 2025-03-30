@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import { RouterLink, RouterOutlet } from '@angular/router';
 
@@ -13,7 +13,7 @@ interface Durstloescher {
 @Component({
   selector: 'app-durstloescher',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgOptimizedImage],
   templateUrl: './durstloescher.component.html',
   styleUrls: ['./durstloescher.component.css']
 })

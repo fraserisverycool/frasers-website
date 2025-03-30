@@ -5,7 +5,8 @@
   padding: 20px;
   margin: 0 auto;
   box-sizing: border-box;
-  background: linear-gradient(45deg, #ffffe8, #ff6b6b);
+  background: linear-gradient(45deg, #e89bd6, #f4bdff);
+  border: 2px solid #ee30ff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   font-family: Verdana, sans-serif;
@@ -36,7 +37,7 @@
 
 /* Feedback form styling */
 .feedback-form {
-  background: linear-gradient(45deg, #87cefa, #4682b4); /* Gradient blue background */
+  background: linear-gradient(45deg, #efe4f0, #facff4);
   padding: 20px;
   border-radius: 10px;
 }
@@ -65,7 +66,7 @@ input, textarea {
 
 /* Button styling */
 button {
-  background-color: #32cd32; /* Lime green button */
+  background-color: #b54dff;
   color: white;
   padding: 12px;
   border-radius: 5px;
@@ -73,7 +74,7 @@ button {
 }
 
 button:hover {
-  background-color: #228b22; /* Darker green on hover */
+  background-color: #5f02a1;
 }
 
 .error-message {
@@ -103,8 +104,8 @@ button:hover {
 }
 
 .warning-banner {
-  background-color: #ff9900; /* Orange background */
-  color: #000; /* Black text */
+  background-color: #6b70ff;
+  color: #000;
   padding: 10px;
   text-align: center;
   border-radius: 5px;

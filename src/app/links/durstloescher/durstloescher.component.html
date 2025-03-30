@@ -10,7 +10,7 @@
   </div>
   <div *ngFor="let durst of durstloescher" class="durstloescher-card" (click)="showDescription(durst)">
     <div class="durstloescher-image-container">
-      <img [src]="'assets/links/durstloescher/' + durst.filename" [alt]="durst.name" class="durstloescher-image">
+      <img placeholder [src]="'assets/links/durstloescher/' + durst.filename" [alt]="durst.name" class="durstloescher-image">
     </div>
     <div class="durstloescher-info">
       <h3 class="durstloescher-name">{{ durst.name }}</h3>
@@ -24,6 +24,6 @@
     <span class="close" (click)="closeDescription()">&times;</span>
     <h2>{{ selectedDurstloescher.name }}</h2>
     <p>{{ selectedDurstloescher.description }}</p>
-    <img [src]="'assets/links/durstloescher/' + selectedDurstloescher.filename" [alt]="selectedDurstloescher.name" class="modal-image">
+    <img placeholder [src]="'assets/links/durstloescher/' + selectedDurstloescher.filename" [alt]="selectedDurstloescher.name" class="modal-image">
   </div>
 </div>

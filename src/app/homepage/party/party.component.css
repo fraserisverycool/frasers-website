@@ -8,6 +8,7 @@
   background: radial-gradient(circle, #fceebb, #dbb630);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .gif {
@@ -28,6 +29,22 @@
   margin: 20px;
 }
 
+.pics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic {
+  margin: 10px;
+}
+
+.pic img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
 .keywords {
   display: flex;
   flex-wrap: wrap;
@@ -36,16 +53,13 @@
 }
 
 .keywords span {
-  background-color: #ffcc00; /* Bright yellow */
-  color: #000; /* Black text */
+  background-color: #db6e00;
+  color: #000;
   padding: 10px;
   margin: 5px;
   border-radius: 20px;
   font-weight: bold;
   font-size: larger;
-
-  /* Flashing effect */
-  animation: flash-animation infinite alternate;
 }
 
 @keyframes flash-animation {
@@ -54,23 +68,21 @@
 }
 
 .djs {
-  display: flex; /* Places the DJs in a row */
-  justify-content: center; /* Centers the bubbles horizontally */
-  gap: 20px; /* Adds space between the bubbles */
-  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
 }
 
 .dj {
-  background: linear-gradient(45deg, #ff6699, #66ccff); /* Fun gradient colors */
-  color: white; /* White text for contrast */
-  padding: 15px 20px; /* Bubble padding */
-  border-radius: 50%; /* Makes the element circular */
-  font-size: larger; /* Larger text size */
-  font-weight: bold; /* Bold text */
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* Adds a shadow for a bubble effect */
-
-  /* Flashing animation for fun effect */
-  animation: bubble-flash infinite alternate;
+  background: linear-gradient(45deg, #ff6699, #66ccff);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: larger;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  margin: 5px;
 }
 
 @keyframes bubble-flash {
