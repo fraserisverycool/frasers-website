@@ -99,14 +99,12 @@ h3 {
 .input-group input {
   padding: 10px;
   border: none;
-  border-radius: 5px 0 0 5px;
   width: calc(100% - 80px);
 }
 
 .input-group button {
   padding: 10px 20px;
   border: none;
-  border-radius: 0 5px 5px 0;
   background-color: #00698f; /* Matching the h3 color */
   color: white;
   cursor: pointer;

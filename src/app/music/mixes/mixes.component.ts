@@ -16,25 +16,20 @@ interface Mp3Info {
   templateUrl: './mixes.component.html',
   styleUrls: ['./mixes.component.css']
 })
-export default class MixesComponent implements OnInit, OnDestroy {
+export default class MixesComponent implements OnInit {
   mp3Files: Mp3Info[] = [];
   selectedMp3File: Mp3Info | null = null;
-  private mixesSubscription: Subscription | null = null;
+  color: String = "#000000"
 
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
     this.loadMixes();
-  }
-
-  ngOnDestroy(): void {
-    if (this.mixesSubscription) {
-      this.mixesSubscription.unsubscribe();
-    }
+    this.color = this.getRandomColor();
   }
 
   loadMixes(): void {
-    this.mixesSubscription = this.http.get<{ mixes: Mp3Info[] }>('assets/music/mixes/mixes.json').subscribe({
+    this.http.get<{ mixes: Mp3Info[] }>('assets/music/mixes/mixes.json').subscribe({
       next: (data) => {
         this.mp3Files = data.mixes;
       },
