@@ -116,3 +116,25 @@ a {
   background: radial-gradient(circle, #ff8000, #eb3700);
 }
 
+.flashing-warning {
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: yellow;
+  }
+}

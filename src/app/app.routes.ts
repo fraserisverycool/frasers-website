@@ -5,6 +5,9 @@ export const routes: Routes = [
     path: '', loadComponent: () => import('./homepage/homepage.component')
   },
   {
+    path: 'party', loadComponent: () => import('./homepage/party/party.component')
+  },
+  {
     path: 'games', loadComponent: () => import('./games/games.component')
   },
   {
