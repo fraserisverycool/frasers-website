@@ -6,5 +6,5 @@
 </div>
 
 <div class="overlay" *ngIf="selectedImage" (click)="closeImage()">
-  <img placeholder [src]="selectedImage" alt="Selected Image" class="enlarged" />
+  <img placeholder ngSrc="selectedImage" alt="Selected Image" class="enlarged" />
 </div>
