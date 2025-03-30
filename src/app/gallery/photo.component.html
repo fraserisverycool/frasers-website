@@ -3,11 +3,13 @@
   <div class="image-container" (click)="openModal(photo)">
     <img [src]="'assets/gallery/' + photo.filename" [alt]="photo.title" class="gallery-image">
   </div>
-  <div>
+  <div class="description-container">
     <p>To unlock the anecdote behind this photo, please answer this question:</p>
     <p>{{ photo.question }}</p>
-    <input [(ngModel)]="userAnswer" (keyup.enter)="checkAnswer(userAnswer)">
-    <button (click)="checkAnswer(userAnswer)">Submit</button>
+    <div class="input-group">
+      <input [(ngModel)]="userAnswer" (keyup.enter)="checkAnswer(userAnswer)" placeholder="Your answer here">
+      <button (click)="checkAnswer(userAnswer)">Submit</button>
+    </div>
     <div *ngIf="showText">
       <p>{{ photo.description }}</p>
     </div>

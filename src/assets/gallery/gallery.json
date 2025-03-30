@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "tea.jpg",
+      "title": "Flower Tea in Steglitz",
+      "description": "Víctor and I took half a tab of acid and enjoyed the wonders of the Botanischer Garten! It was so good. We found a tree who didn't have any branches, she just became a single long branch. Feeling inspired, we decided to go into Steglitz where we ate at a chinese restaurant. They sold flower tea and I mean look at it, it's gorgeous. We felt like children giggling in the corner of the restaurant and ogling at the tea and it was great",
+      "month": "March 2025",
+      "question": "What made this trip to the Botanischer Garten extra special?",
+      "answer": ["Acid", "LSD", "Trip"]
+    },
+    {
       "filename": "melee2.jpg",
       "title": "Drop everything and BO3 me",
       "description": "I always keeping an eye open for arcade machines when I'm Mexico not only to drop everything and challenge Jack to a game of King of Fighters (which they always won and yes I am still bitter), but also to find any weird shit, like this machine which had a bunch of emulated gamecube and wii games on it. We paid a couple of pesos and had 5 minutes in Smash Melee, which was just about enough to destroy Jack with melee Peach, even though I was unable to do any float cancels with the joystick",
@@ -127,6 +135,110 @@
       "month": "October 2023",
       "question": "What's that games thing on the side table?",
       "answer": ["Switch", "A Switch", "A Nintendo Switch", "Nintendo Switch", "Nintendo"]
+    },
+    {
+      "filename": "fish.jpg",
+      "title": "Risky bath",
+      "description": "These fish were so great. It was really hard to get them all in a shot so you just have this pic here. But there were six: Alicia Keys, Mary J. Blige, Aaliyah, Sade, Janet Jackson and Diana Ross. Mary J Blige was a total bully and is in my opinion responsible for the death of Sade, who was forced to cower behind the filter whenever Mary went on her biting rampages. In the end though it was Alicia Keys who was the final fish to stay alive. I wonder if Mary J Blige ever thinks about the consequences of her actions down in fishy hell",
+      "month": "October 2023",
+      "question": "What's the name of any of these fish?",
+      "answer": ["Alicia Keys", "Mary J. Blige", "Aaliyah", "Sade", "Janet Jackson", "Diana Ross"]
+    },
+    {
+      "filename": "tie-dye.jpg",
+      "title": "Lessons learned from the tie-dye experiment",
+      "description": "When Ort Diego and I met up to tie-dye a bunch of things so we could have some great party outfits, I also decided to dye some underwear. I figured that dying them with yellow would be a great idea since that's my favourite colour, but it turns out it just looks like piss. When I wore them it looked like I pissed myself. Lesson learned",
+      "month": "May 2023",
+      "question": "What's my favourite colour?",
+      "answer": ["Yellow"]
+    },
+    {
+      "filename": "phenomenon.jpg",
+      "title": "Sky phenomenon",
+      "description": "I was flying back from Mexico experiencing the horror which is transatlantic flights, and unable to get to sleep I was in a daze. Vielleicht hatte ich einen besonderen Brownie gegessen. When I opened my eyes, the whole sky was pink, even the sun itself and I swear for like 10 full minutes I was fully convinced that I was witnessing a one-in-a-lifetime sky phenomenon. I woke up Emma, who with an incredible stroke of luck, booked the same flight and we ended up right next to each other, and she was like, Fraser it's just a filter they put at night so people can sleep. I was so embarrassed",
+      "month": "April 2023",
+      "question": "Where is this photo taken?",
+      "answer": ["Aeroplane", "Plane", "Flight"]
+    },
+    {
+      "filename": "juice2.jpg",
+      "title": "The moment I realised fruit juice doesn't have to be like that",
+      "description": "Having given up alcohol, I had always dreaded ordering drinks in bars, because there's nothing actually good that isn't alcoholic. The real killer was fruit juice. When I think about ordering an apple juice in Germany I think about those small glass bottles with processed juice and added sugar. Then I went to Mexico, pictured here on a Grindr date, and I reluctantly ordered a papaya juice and it rocked my world. The guy just juiced a papaya right in front of me, put in a spoonful of sugar, mixed it and gave it to me and it was fucking delicious. My favourite Mexican food is genuinely just fruit",
+      "month": "March 2023",
+      "question": "Cuál es la palabra en español para juice?",
+      "answer": ["Jugo"]
+    },
+    {
+      "filename": "bouldering.jpg",
+      "title": "The lengths I went to impress a boy",
+      "description": "I wish I liked bouldering, genuinely. If I did, I would be so buff by now. But alas, scared of heights and don't like it when my fingers hurt. I've been known to go for social reasons, and in this picture I went in order to impress this guy Chris I was dating. He ended up ghosting me after this so I guess I did not successfully impress him",
+      "month": "February 2023",
+      "question": "Which sport does like all my friends do that I just can't get into?",
+      "answer": ["Bouldering", "Climbing"]
+    },
+    {
+      "filename": "brexit.jpg",
+      "title": "The cost of hosting an event every week without fail",
+      "description": "I used to invite people from the internet to my house every wednesday to play a 16-man bracket, and it was great. It was an awesome period of history, especially during a time when there were no tournaments in Berlin. As a human being I am very reliable and find myself unable to flake, even if that means not looking after myself. This resulted in me hosting these things even when I really didn't want to. In this picture I was actually ill, and people still came over. I just lay down in my bedroom and waited for it to all be over",
+      "month": "September 2022",
+      "question": "What was the name of the weekly smash tournament in my apartment?",
+      "answer": ["BREXIT SUMMIT"]
+    },
+    {
+      "filename": "film.jpg",
+      "title": "Professional filming in my apartment",
+      "description": "Can you believe actual professional film-maker Dr.Puppet came to my house to set up lights and actual equipment to film interviews? And then the video was never released!! I'm still bitter about it. As visitors of this website know, I love attention, so a full half hour interview was like a dream, and I didn't even have to leave the house. He was filming a smash documentary, and my tournament series BREXIT SUMMIT was going to feature in it. Maybe one day that footage will see the light of day, but I doubt it",
+      "month": "February 2022",
+      "question": "What did Dr.Puppet want to make a film about in my apartment?",
+      "answer": ["BREXIT SUMMIT", "Smash tournament", "Smash tournaments", "My tournaments", "Your tournaments"]
+    },
+    {
+      "filename": "newyear.jpg",
+      "title": "New Years in Animal Crossing",
+      "description": "When I returned from the UK after Christmas, they had placed UK on the red list and I had to go into isolation for two weeks, which stretched through new years. Instead of celebrating new years with friends, which is one of my favourite things, I thought to myself, this is an opportunity to enjoy the new years content in Animal Crossing and boy do I REGRET IT! I should have broken the law and gone out on that night because I was MISERABLE! All the fireworks were going off and I just felt huge FOMO. I remember taking a midnight bath and just crying in the bath because I was so sad",
+      "month": "December 2021",
+      "question": "What caused me to spend new years in 2021 in Animal Crossing?",
+      "answer": ["Pandemic", "Covid", "Covid-19", "The Pandemic", "Corona", "Coronavirus", "Lockdown", "Isolation"]
+    },
+    {
+      "filename": "vier.jpg",
+      "title": "Professional photo for LinkedIn",
+      "description": "Look at this insane photo they took of me at VIER. I had my hair done the day before the photo shoot so that hairdye is fresh. I loved having my hair like this for so long, it made me feel so special. What I really enjoyed about this photo is how much it looks like a stock photo. Have to say I didn't love working at VIER though. Looking back, I could have had it so much better if I left that job earlier",
+      "month": "October 2021",
+      "question": "What company was I working for at this time?",
+      "answer": ["VIER"]
+    },
+    {
+      "filename": "como.jpg",
+      "title": "Jack showing off",
+      "description": "The spicy gingers consists of me Kitty Lauren and Michael, and I even made badges for us. That all happened because in a not-drinking-alcohol moment I ordered a spicy ginger at a bar after literally everyone else got beer and it became a thing. Anyway we went to beautiful lake Como in Italy and that local produce is so delicious. In this picture, Jack is showing off. They made themself the goal of doing a headstand on a paddleboard and they followed through on it",
+      "month": "September 2021",
+      "question": "Which lake did me, Jack and the spicy gingers visit?",
+      "answer": ["Lake Como", "Como", "Italy"]
+    },
+    {
+      "filename": "surfing.jpg",
+      "title": "Cross-Stitch with a backstory",
+      "description": "I met Chelsea in 2019 and she ended up being the reason why I got to know Lauren and many other friends, so I am grateful to her for that. But she was famous for breaking up with friends out of the blue. We were outraged and bewildered when she did it after Jack innocently asked how her surfing trip to Portugal was going, so much so that I decided to stitch this piece of art to immortalise the moment. She's a crazy a bitch",
+      "month": "December 2020",
+      "question": "Who famously sent Jack an insane tirade of bullshit effectively ending their friendship after being asked if she was a surfing boss now?",
+      "answer": ["Chelsea"]
+    },
+    {
+      "filename": "commentary.jpg",
+      "title": "Werf das Motorrad. Iss das Motorrad. Sei das Motorrad.",
+      "description": "Imagine my delight when the venue that we organised for our smash tournament told us they booked a drag queen for our event, because it happened to be on the day of CSD! Back then I was an up-and-coming commentator and so I volunteered to do the commentary, and then I learned she would commentate with me! Even though she knows nothing about the game. I was shitting myself because it was the first time I ever did it in German, but it was so good. She was iconic and it was so funny. She made constant sexual innuendos and was thoroughly entertained by Wario eating his own motorbike so he can fart quicker",
+      "month": "July 2020",
+      "question": "What was I doing with this lovely lady at a smash tournament?",
+      "answer": ["Commentary", "Commentating", "Moderating", "Hosting", "Moderation"]
+    },
+    {
+      "filename": "boris.jpg",
+      "title": "Not the cardboard cut-out I always wanted",
+      "description": "As a thank you for hosting 10 BREXIT SUMMITs, the smash community got me this Boris cut-out and it is a funny present, given I was really giving speeches about politics before each of these tournaments. I understand how people associated me (with my tag BREXIT) to him during this time when he was PM, but god it means I have this thing that I can't really throw away just in my house. He is currently hidden somewhere so I don't have to look at him. In this picture he is sitting on my beautiful orange sofa which was with me for a long time. I drove this thing across the country and I loved it so much",
+      "month": "October 2019",
+      "question": "Who is this?",
+      "answer": ["Boris", "Boris Johnson"]
     }
   ]
 }
