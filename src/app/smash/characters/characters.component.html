@@ -5,13 +5,13 @@
     (click)="character.description ? selectCharacter(character) : null"
     [ngClass]="{'grayscale': !character.description}"
   >
-    <img placeholder [src]="'assets/smash/characters/icons/' + character.icon" alt="{{ character.name }}" class="character-icon" />
+    <img [ngSrc]="'assets/smash/characters/icons/' + character.icon" alt="{{ character.name }}" class="character-icon" width="20" height="20"/>
   </div>
 </div>
 
 <div class="character-detail" *ngIf="selectedCharacter">
   <button class="close-btn" (click)="closeDetail()">X</button>
-  <img placeholder [src]="'assets/smash/characters/pics/' + selectedCharacter.picture[0]" alt="{{ selectedCharacter.name }}" class="character-picture" />
+  <img [ngSrc]="'assets/smash/characters/pics/' + selectedCharacter.picture[0]" alt="{{ selectedCharacter.name }}" class="character-picture" width="600" height="600"/>
   <h2>{{ selectedCharacter.name }}</h2>
   <p>{{ selectedCharacter.description }}</p>
 </div>

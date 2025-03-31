@@ -15,7 +15,7 @@
     <div class='film-review'>
       <h2>{{ film.title }}</h2>
       <p>{{ film.description }}</p>
-      <img placeholder [src]="'assets/films/' + film.filename">
+      <img [ngSrc]="'assets/films/' + film.filename" width="600" height="400">
     </div>
   </div>
 </div>

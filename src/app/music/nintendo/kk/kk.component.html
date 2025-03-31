@@ -13,7 +13,7 @@
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'S'">
         <div class="kkSong-image-container">
-          <img placeholder [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
         </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -29,7 +29,7 @@
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'A'">
         <div class="kkSong-image-container">
-          <img placeholder [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
         </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -45,7 +45,7 @@
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'B'">
         <div class="kkSong-image-container">
-          <img placeholder [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
         </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -61,7 +61,7 @@
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'C'">
         <div class="kkSong-image-container">
-          <img placeholder [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
         </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -77,7 +77,7 @@
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'D'">
         <div class="kkSong-image-container">
-          <img placeholder [src]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image">
+          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
         </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -92,6 +92,6 @@
     <span class="close" (click)="closeDescription()">&times;</span>
     <h2>{{ selectedKkSong.title }}</h2>
     <p>{{ selectedKkSong.description }}</p>
-    <img placeholder [src]="'assets/music/nintendo/kk/' + selectedKkSong.filename" [alt]="selectedKkSong.title" class="modal-image">
+    <img [ngSrc]="'assets/music/nintendo/kk/' + selectedKkSong.filename" [alt]="selectedKkSong.title" class="modal-image" width="600" height="600">
   </div>
 </div>

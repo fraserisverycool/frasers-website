@@ -1,10 +1,10 @@
 
 <div class="image-grid">
   <div class="image-container" *ngFor="let image of images">
-    <img placeholder [src]="image" alt="Image" (click)="openImage(image)" />
+    <img [ngSrc]="image" alt="Image" (click)="openImage(image)" width="100" height="200"/>
   </div>
 </div>
 
 <div class="overlay" *ngIf="selectedImage" (click)="closeImage()">
-  <img placeholder ngSrc="selectedImage" alt="Selected Image" class="enlarged" />
+  <img ngSrc="selectedImage" alt="Selected Image" class="enlarged" width="600" height="800"/>
 </div>

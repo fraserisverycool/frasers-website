@@ -123,8 +123,8 @@
     {
       "name": "Pichu",
       "icon": "Pichu (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["pichu.webp", "pichu-2.png", "pichu-3.jpg"],
+      "description": "In order to main Pichu you need to be at peace with the fact that life is fleeting and all things pass. At first glance, Pichu mains seem frantic, excitable or dare I say trigger-happy, but deep-down they are prepared to take whatever life dishes out, even if that means losing a stock at 40 to an F-smash"
     },
     {
       "name": "Falco",
@@ -418,7 +418,7 @@
       "name": "Simon",
       "icon": "Simon (1).png",
       "picture": ["simon.jpg", "simon-2.jpg", "simon-3.jpg"],
-      "description": "A Belmont main who doesn't pick the objectively hotter Richter understand that in order to succeed in smash and in life one must try to resemble He-Man from that 90's cartoon as much as possible. Embrace the ugly, embrace the glory, and spread the vibes across the battlefield"
+      "description": "A Belmont main who doesn't pick the objectively hotter Richter understands that in order to succeed in smash and in life one must try to resemble He-Man from that 90's cartoon as much as possible. Embrace the ugly, embrace the glory, and spread the vibes across the battlefield"
     },
     {
       "name": "Richter",

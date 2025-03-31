@@ -25,7 +25,7 @@
       <div *ngFor="let paragraph of game.review">
         <p [innerHTML]="paragraph"></p>
       </div>
-      <img placeholder [src]="'assets/games/' + game.image" alt="{{ game.name }}">
+      <img [ngSrc]="'assets/games/' + game.image" alt="{{ game.name }}" width="600" height="400">
     </div>
   </div>
 </div>

@@ -1,7 +1,7 @@
 <div class="image-details">
   <h3>{{ photo.title }}</h3>
   <div class="image-container" (click)="openModal(photo)">
-    <img [src]="'assets/gallery/' + photo.filename" [alt]="photo.title" class="gallery-image">
+    <img [ngSrc]="'assets/gallery/' + photo.filename" [alt]="photo.title" class="gallery-image" width="600" height="600">
   </div>
   <div class="description-container">
     <p>To unlock the anecdote behind this photo, please answer this question:</p>
@@ -18,5 +18,5 @@
 </div>
 
 <div *ngIf="modalImage" class="modal" (click)="closeModal()">
-  <img [src]="'assets/gallery/' + modalImage.filename" [alt]="modalImage.title" class="modal-image">
+  <img [ngSrc]="'assets/gallery/' + modalImage.filename" [alt]="modalImage.title" class="modal-image" width="600" height="600">
 </div>
