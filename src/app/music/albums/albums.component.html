@@ -10,6 +10,13 @@
     <button (click)="sortAlbums('alphabeticalArtist')">Alphabetical by Artist</button>
     <button (click)="sortAlbums('releaseDate')">By Release Date</button>
   </div>
+  <div class="tag-filter-container">
+    <h4>Filter by Tags:</h4>
+    <div *ngFor="let tag of availableTags; let i = index" class="tag-checkbox">
+      <input type="checkbox" [id]="'tag-' + i" [value]="tag" (change)="toggleTagSelection(tag)" [checked]="selectedTags.includes(tag)">
+      <label [for]="'tag-' + i">{{ tag }}</label>
+    </div>
+  </div>
   <div *ngFor="let album of filteredAlbums" class="album-card" (click)="showDescription(album)">
     <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
          [style.border-style]="album.description ? 'none' : 'solid'"

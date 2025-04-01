@@ -10,6 +10,7 @@ interface Album {
   releaseyear: string;
   description: string;
   topTracks: string;
+  tags: string;
 }
 
 @Component({
@@ -25,6 +26,15 @@ export default class AlbumsComponent implements OnInit {
   selectedAlbum: Album | null = null;
   private releaseYearColor = '#D3D3D3';
   searchTerm: string = '';
+  selectedTags: string[] = [];
+
+  availableTags: string[] = [
+    'chill', 'electronic', 'pop', 'party',
+    'scandinavian', 'rock', 'folky', 'indie',
+    'brazilian', 'peaceful', 'soul', 'hip-hop', 'singer-songwriter',
+    'concrete themes', 'magical', 'from the heart',
+    'special vibes', 'classic', 'not for everyone', 'cunty', 'devastating', 'wild shit', 'all time faves'
+  ];
 
   constructor(private http: HttpClient) {}
 
@@ -45,13 +55,23 @@ export default class AlbumsComponent implements OnInit {
   }
 
   get filteredAlbums(): Album[] {
-    if (!this.searchTerm) {
-      return this.albums;
-    }
-    return this.albums.filter(album => {
+    let filtered = this.albums;
+
+    if (this.searchTerm) {
       const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
-      return album.name.toLowerCase().includes(lowerCaseSearchTerm) || album.artist.toLowerCase().includes(lowerCaseSearchTerm);
-    });
+      filtered = filtered.filter(album =>
+        album.name.toLowerCase().includes(lowerCaseSearchTerm) ||
+        album.artist.toLowerCase().includes(lowerCaseSearchTerm)
+      );
+    }
+
+    if (this.selectedTags.length > 0) {
+      filtered = filtered.filter(album =>
+        this.selectedTags.every(tag => album.tags.includes(tag))
+      );
+    }
+
+    return filtered;
   }
 
   showDescription(album: Album): void {
@@ -78,6 +98,14 @@ export default class AlbumsComponent implements OnInit {
         break;
       default:
         console.error('Invalid sorting criteria');
+    }
+  }
+
+  toggleTagSelection(tag: string): void {
+    if (this.selectedTags.includes(tag)) {
+      this.selectedTags = this.selectedTags.filter(t => t !== tag);
+    } else {
+      this.selectedTags.push(tag);
     }
   }
 
