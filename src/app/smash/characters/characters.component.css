@@ -47,6 +47,13 @@
   overflow-y: auto;
 }
 
+.character-picture {
+  max-width: 100%; /* Ensure the image fits within the modal width */
+  max-height: calc(80vh - 48px); /* Prevent the image from exceeding modal height */
+  object-fit: contain; /* Maintain original aspect ratio */
+}
+
+
 @media (min-width: 768px) {
   .character-detail {
     width: 70%;
@@ -70,12 +77,18 @@
   color: #ff6b6b; /* Change color on hover for visual feedback */
 }
 
-.character-picture {
-  width: 100%;
-  max-width: 400px;
-  margin-bottom: 16px;
-}
-
 .grayscale {
   filter: grayscale(100%);
+}
+
+.password-input {
+  margin-bottom: 20px;
+}
+
+.password-input label {
+  font-weight: bold;
+}
+
+.password-input input {
+  padding: 5px;
 }

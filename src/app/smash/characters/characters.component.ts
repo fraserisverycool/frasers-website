@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 interface Character {
   name: string;
@@ -12,13 +13,15 @@ interface Character {
 @Component({
   selector: 'app-characters',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage],
+  imports: [CommonModule, NgOptimizedImage, FormsModule],
   templateUrl: './characters.component.html',
-  styleUrls: ['./characters.component.css']
+  styleUrls: ['./characters.component.css'],
 })
 export class CharactersComponent implements OnInit {
   characters: Character[] = [];
   selectedCharacter?: Character;
+  password: string = '';
+  pictureMode: number = 0;
 
   constructor(private http: HttpClient) {}
 
@@ -43,5 +46,15 @@ export class CharactersComponent implements OnInit {
 
   closeDetail(): void {
     this.selectedCharacter = undefined;
+  }
+
+  updatePictureMode(): void {
+    if (this.password === 'wtf') {
+      this.pictureMode = 1;
+    } else if (this.password === 'fat') {
+      this.pictureMode = 2;
+    } else {
+      this.pictureMode = 0;
+    }
   }
 }

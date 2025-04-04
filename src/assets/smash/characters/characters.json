@@ -9,7 +9,7 @@
     {
       "name": "Donkey Kong",
       "icon": "Donkey Kong (1).png",
-      "picture": ["donkey-kong.jpeg", "donkey-kong.jpg", "donkey-kong-3.png"],
+      "picture": ["donkey-kong.jpeg", "donkey-kong-2.jpg", "donkey-kong-3.png"],
       "description": "The average DK main's dick size is so big that it physically stops them from inputting any sensible buttons. They will be sure to tell you just how many spikes DK has (tell one of them that he only has three and see what happens), and they also make gorilla noises when they SD"
     },
     {
@@ -255,8 +255,8 @@
     {
       "name": "Olimar",
       "icon": "Olimar (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["olimar.PNG", "olimar-2.webp", "olimar-3.png"],
+      "description": "Olimar mains are so rare that when you do find one you have to preserve them. They are uniquely skilled in that they can deal with relying on unreliable friends and taking what they are given. They are changeable, adaptable, and dare I say, fickle"
     },
     {
       "name": "Lucario",
@@ -285,8 +285,8 @@
     {
       "name": "Villager",
       "icon": "Villager (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["villager.jpg", "villager-2.png", "villager-3.png"],
+      "description": "At first glance Villager appears innocent, but it's clear that he is a murderer or at the very least a criminal. Villager mains understand this and not only play them, but also vibe with them. Dropping a bowling ball on someone's head, is it cartoon violence or is it revealing a darkness underneath? I would argue that Villager mains themselves grapple with that darkness"
     },
     {
       "name": "Mega Man",
