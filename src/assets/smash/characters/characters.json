@@ -219,8 +219,8 @@
     {
       "name": "Ike",
       "icon": "Ike (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["ike.jpg", "ike-2.jpg", "ike-3.png"],
+      "description": "Despite Ike being such a gay character, I've never known an Ike main to proudly display queerness in any way. So after thinking about it for a while, I've decided that it must be a repressive masculinity thing. You can at least get a glimpse of the truth by seeing if they play as Top Ike or Bottom Ike (or both!)"
     },
     {
       "name": "Pokémon Trainer",
@@ -303,8 +303,8 @@
     {
       "name": "Rosalina & Luma",
       "icon": "Rosalina & Luma (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["rosalina.jpg", "rosalina-2.png", "rosalina-3.png"],
+      "description": "Rosalina gameplay is very slow and therefore Rosalina mains are very chill. In their heart there is peace, in their eyes a twinkle of knowing. If they lose, they breathe a sigh of relief and move gracefully on with their lives. If they win, they breathe a sign of relief and move gracefully on with their lives."
     },
     {
       "name": "Little Mac",
@@ -321,20 +321,20 @@
     {
       "name": "Mii Brawler",
       "icon": "Mii Brawler (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["mii-brawler.jpg", "mii-brawler-2.jpg_large", "mii-brawler-3.png"],
+      "description": "Mii Brawler mains are extroverts and popular at school. Yes they may be insufferable but I'm happy to report that they at least have social skills"
     },
     {
       "name": "Mii Swordfighter",
       "icon": "Mii Swordfighter (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["mii-swordfighter.jpg", "mii-swordfighter-2.png", "mii-swordfighter-3.jpg"],
+      "description": "You might think that in terms of vibes, the Mii mains would be somewhat similar, you can imagine a clique in the school playground. But no, Mii Brawler mains are popular kids, Mii Gunner mains are the tech nerds, and Mii Swordfighter mains are the loners who kinda look like if someone would plot to blow up to the school, it might be them"
     },
     {
       "name": "Mii Gunner",
       "icon": "Mii Gunner (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["mii-gunner.jpg", "mii-gunner-2.jpg", "mii-gunner-3.png"],
+      "description": "The one Mii Gunner who I know proudly showed me the app they made on their phone which connected to a definitely tournament-illegal controller adapter and which was able to create multiple Mii Gunner specifications in like 20 seconds. Your average Mii Gunner main wouldn't understand why that's so weird"
     },
     {
       "name": "Palutena",
@@ -387,8 +387,8 @@
     {
       "name": "Cloud",
       "icon": "Cloud (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["cloud.avif", "cloud-2.png", "cloud-3.jpg"],
+      "description": "Cloud mains are lacking in social skills. Cloud himself lacks social skills and Cloud mains can really connect with that. Many mains of other characters flirt with Cloud and that's because they are insecure."
     },
     {
       "name": "Corrin",
@@ -435,8 +435,8 @@
     {
       "name": "Isabelle",
       "icon": "Isabelle (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["isabelle.webp", "isabelle-2.avif", "isabelle-3.png"],
+      "description": "Isabelle mains play Isabelle solely because she is cute. The gameplay, the fishing rod cheese, the weird match up spread, the tier list, the jab infinite, it's all completely irrelevant for Isabelle mains because she looks so cute in her winter jacket"
     },
     {
       "name": "Incineroar",
@@ -483,8 +483,8 @@
     {
       "name": "Min Min",
       "icon": "Min Min (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["minmin.jpg", "minmin-2.jpg", "minmin-3.jpg"],
+      "description": "Someone who enjoys the game ARMS would probably main Byleth or Mega Man or something. Min Min players couldn't give a shit about ARMS, they only give a shit about destroying their opponent's stocks, and also peace of mind. They take pleasure from watching their opponent's gameplay fall apart through the simple power of Long Punch"
     },
     {
       "name": "Steve",
@@ -507,12 +507,14 @@
     {
       "name": "Kazuya",
       "icon": "Kazuya (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["kazuya.jpg", "kazuya-2.jpg", "kazuya-3.jpg"],
+      "description": "Kazuya mains are the children who trample over their classmate's sandcastles. They're the people who called you fat at school. As an adult, they will open a rival business across the street and undercut your prices. When you point out that they are shameless, they'll shrug and say, yeah Kazuya's broken"
     },
     {
       "name": "Sora",
-      "icon": "Sora (1).png"
+      "icon": "Sora (1).png",
+      "picture": [],
+      "description": ""
     }
   ]
 }
