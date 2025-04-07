@@ -11,7 +11,8 @@
       ],
       "image": "metroid-prime.webp",
       "platform": "Switch",
-      "year": "2025"
+      "year": "2025",
+      "release": "2023"
     },
     {
       "name": "Isles of Sea and Sky",
@@ -24,7 +25,8 @@
       ],
       "image": "isles.webp",
       "platform": "PC",
-      "year": "2025"
+      "year": "2025",
+      "release": "2024"
     },
     {
       "name": "Case of the Golden Idol",
@@ -36,7 +38,8 @@
       ],
       "image": "golden-idol.avif",
       "platform": "Switch",
-      "year": "2025"
+      "year": "2025",
+      "release": "2022"
     },
     {
       "name": "Rift of the NecroDancer",
@@ -51,7 +54,8 @@
       ],
       "image": "rift.jpg",
       "platform": "Switch",
-      "year": "2025"
+      "year": "2025",
+      "release": "2025"
     },
     {
       "name": "Kuru Kuru Kururin",
@@ -63,7 +67,8 @@
       ],
       "image": "kuru.webp",
       "platform": "Gameboy Advance",
-      "year": "2025"
+      "year": "2025",
+      "release": "2001"
     },
     {
       "name": "CLICKOLDING",
@@ -74,7 +79,8 @@
       ],
       "image": "clickolding.webp",
       "platform": "PC",
-      "year": "2025"
+      "year": "2025",
+      "release": "2024"
     },
     {
       "name": "Split Fiction",
@@ -87,7 +93,8 @@
       ],
       "image": "split-fiction.jpg",
       "platform": "Xbox Gamepass",
-      "year": "2025"
+      "year": "2025",
+      "release": "2025"
     },
     {
       "name": "Miitopia",
@@ -102,7 +109,8 @@
       ],
       "image": "miitopia.jpg",
       "platform": "Switch",
-      "year": "2025"
+      "year": "2025",
+      "release": "2021"
     },
     {
       "name": "UFO 50",
@@ -117,7 +125,8 @@
       ],
       "image": "ufo50.png",
       "platform": "PC",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "Void Stranger",
@@ -131,7 +140,8 @@
       ],
       "image": "void.jpg",
       "platform": "PC",
-      "year": "2024"
+      "year": "2024",
+      "release": "2023"
     },
     {
       "name": "Balatro",
@@ -143,10 +153,11 @@
       ],
       "image": "balatro.png",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
-      "name": "Paper Mario: The Thousand Year Door",
+      "name": "Paper Mario: The Thousand Year Door (Switch Remake)",
       "vibes": "10",
       "gameplay": "9",
       "review": [
@@ -158,7 +169,8 @@
       ],
       "image": "paper-mario-ttyd.avif",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "Metroid Fusion",
@@ -170,8 +182,9 @@
         "It's way more linear in the sense that this computer tells you what to do at any point but I really appreciated that because I didn't enjoy in Super metroid how sometimes you had to decide on your own to go to a completely different sector to progress. It still left many things open in many cases so I still felt super smart finding my way around a lot of the time. There were like two points where I had to look up the answer because to be fair it was completely ridiculous. This one hole you have to find in the water sector is just so dumb, and the comments on the youtube video which shows the whole made me feel better about looking it up."
       ],
       "image": "metroid-fusion.webp",
-      "platform": "GBA",
-      "year": "2024"
+      "platform": "Gameboy Advance",
+      "year": "2024",
+      "release": "2002"
     },
     {
       "name": "13 Sentinels: Aegis Rim",
@@ -184,6 +197,7 @@
       "image": "13-sentinels.jpg",
       "platform": "Switch",
       "year": "2024",
+      "release": "2019",
       "story": true
     },
     {
@@ -197,7 +211,8 @@
       ],
       "image": "animal-well.avif",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "Rivals of Aether 2",
@@ -211,7 +226,8 @@
       ],
       "image": "rivals.jpg",
       "platform": "PC",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "The Legend of Zelda: Echoes of Wisdom",
@@ -224,7 +240,8 @@
       ],
       "image": "wisdom.png",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "Advance Wars 1+2: Re-Boot Camp",
@@ -237,7 +254,8 @@
       ],
       "image": "advancewars.jpg",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2023"
     },
     {
       "name": "Penny's Big Breakaway",
@@ -252,7 +270,8 @@
       ],
       "image": "penny.jpg",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "Thank Goodness You're Here",
@@ -265,6 +284,7 @@
       "image": "thank-goodness.jpg",
       "platform": "Switch",
       "year": "2024",
+      "release": "2024",
       "story": true
     },
     {
@@ -279,6 +299,7 @@
       "image": "harold.jpg",
       "platform": "Xbox Gamepass",
       "year": "2024",
+      "release": "2024",
       "story": true
     },
     {
@@ -290,7 +311,8 @@
       ],
       "image": "punch-out.webp",
       "platform": "NES",
-      "year": "2024"
+      "year": "2024",
+      "release": "1987"
     },
     {
       "name": "Cobalt Core",
@@ -304,7 +326,8 @@
       ],
       "image": "cobalt-core.jpg",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2023"
     },
     {
       "name": "Dave the Diver",
@@ -320,7 +343,8 @@
       ],
       "image": "dave.webp",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2023"
     },
     {
       "name": "Still Wakes The Deep",
@@ -331,7 +355,8 @@
       ],
       "image": "stillwakes.jpeg",
       "platform": "Xbox Gamepass",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "Chained Echoes",
@@ -343,7 +368,8 @@
       ],
       "image": "chained-echoes.jpg",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2022"
     },
     {
       "name": "Final Fantasy VII: Rebirth",
@@ -361,8 +387,9 @@
         "That was a lot of words about the vibe of the game, here's my review of the gameplay: The battle system in the game is really good. It took me a while to get into it (I'd forgotten everything from the previous game) but it's satisfying and fun. I also enjoy the Queen's Blood card game a lot. It's cool that there aren't any loading screens."
       ],
       "image": "final-fantasy-rebirth.webp",
-      "platform": "PS5",
-      "year": "2024"
+      "platform": "PlayStation 5",
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "Metal Gear Solid",
@@ -374,8 +401,9 @@
         "Gameplay-wise it isn't for me, stealthing around and then just murdering people isn't very fun, so I don't think I'll play any more of these games. But it was nice to see where Snake from Smash came from. I'm still on my journey to play, complete and understand every game that all the smash characters come from, so it's nice to tick off another character. Only a handful remain!"
       ],
       "image": "metalgearsolid.jpg",
-      "platform": "PS1",
-      "year": "2024"
+      "platform": "PlayStation 1",
+      "year": "2024",
+      "release": "1998"
     },
     {
       "name": "Cassette Beasts",
@@ -390,7 +418,8 @@
       ],
       "image": "cassette.avif",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2023"
     },
     {
       "name": "Tongue Tale",
@@ -403,7 +432,8 @@
       ],
       "image": "tongue-tale.avif",
       "platform": "Switch",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "Age of Mythology: Retold",
@@ -414,7 +444,8 @@
       ],
       "image": "mythology.jpeg",
       "platform": "PC",
-      "year": "2024"
+      "year": "2024",
+      "release": "2024"
     },
     {
       "name": "1000xRESIST",
@@ -429,6 +460,7 @@
       "image": "1000x.webp",
       "platform": "Switch",
       "year": "2024",
+      "release": "2024",
       "story": true
     },
     {
@@ -440,7 +472,8 @@
       ],
       "image": "little-left.jpeg",
       "platform": "Xbox Gamepass",
-      "year": "2024"
+      "year": "2024",
+      "release": "2022"
     },
     {
       "name": "Kingdom Hearts HD 2.5 Remix",
@@ -455,8 +488,9 @@
         "Well, I beat the game, which is saying something, I guess."
       ],
       "image": "kingdomhearts-2.png",
-      "platform": "PS4",
-      "year": "2024"
+      "platform": "PlayStation 4",
+      "year": "2024",
+      "release": "2014"
     },
     {
       "name": "Kingdom Hearts: Birth By Sleep",
@@ -466,8 +500,9 @@
         "Using the last ounce of my fading strength, I launched into the next game in the collection, a prequel spinoff which follows three new characters. This game has even more battle systems than usual, and I was punished pretty quickly for not engaging with them. I managed to get quite far, but at some point it became clear that I would have to grind levels, and level up these commands, and worse, in order to do so, I would have to play a mario party-style minigame. I noped out of that, finally took a step to preserve my health and sanity, and put kingdom hearts down forever."
       ],
       "image": "birth.jpg",
-      "platform": "PS4",
-      "year": "2024"
+      "platform": "PlayStation 4",
+      "year": "2024",
+      "release": "2010"
     },
     {
       "name": "Pizza Tower",
@@ -480,7 +515,8 @@
       ],
       "image": "pizzatower.png",
       "platform": "PC",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Anodyne 2: Return to Dust",
@@ -493,7 +529,8 @@
       ],
       "image": "anodyne.png",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2019"
     },
     {
       "name": "Ghost Trick: Phantom Detective",
@@ -504,7 +541,8 @@
       ],
       "image": "ghosttrick.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2010"
     },
     {
       "name": "Pikmin 4",
@@ -524,7 +562,8 @@
       ],
       "image": "pikmin.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "The Legend of Zelda: Tears of the Kingdom",
@@ -537,7 +576,8 @@
       ],
       "image": "tears.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Pokemon Trading Card Game",
@@ -550,10 +590,11 @@
       ],
       "image": "pokemon.jpg",
       "platform": "Gameboy",
-      "year": "2023"
+      "year": "2023",
+      "release": "1996"
     },
     {
-      "name": "Wario Ware: Move It!",
+      "name": "WarioWare: Move It!",
       "vibes": "10",
       "gameplay": "7",
       "review": [
@@ -561,7 +602,8 @@
       ],
       "image": "warioware.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Cocoon",
@@ -573,7 +615,8 @@
       ],
       "image": "cocoon.jpg",
       "platform": "Xbox Gamepass",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Super Mario Bros Wonder",
@@ -585,7 +628,8 @@
       ],
       "image": "mario.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Vampire Survivors",
@@ -597,7 +641,8 @@
       ],
       "image": "vampire.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2022"
     },
     {
       "name": "F-Zero 99",
@@ -609,7 +654,8 @@
       ],
       "image": "fzero.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Chants of Sennaar",
@@ -622,7 +668,8 @@
       ],
       "image": "chants.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Kirby's Return to Dreamland Deluxe",
@@ -633,7 +680,8 @@
       ],
       "image": "kirby.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Fire Emblem Engage",
@@ -647,7 +695,8 @@
       ],
       "image": "fireemblem.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Super Mario RPG",
@@ -659,7 +708,8 @@
       ],
       "image": "rpg.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "1996"
     },
     {
       "name": "Street Fighter 6",
@@ -670,8 +720,9 @@
         "Sadly I don't have time for a second competitive game next to smash, so I only played it for a short while. I would like to return to it."
       ],
       "image": "chunli.jpg",
-      "platform": "PS5",
-      "year": "2023"
+      "platform": "PlayStation 5",
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Sea of Stars",
@@ -690,7 +741,8 @@
       ],
       "image": "seaofstars.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Signalis",
@@ -702,7 +754,8 @@
       ],
       "image": "signalis.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2022"
     },
     {
       "name": "Neon White",
@@ -713,8 +766,9 @@
         "But it's super addictive. I really enjoyed playing it with my friend Fab and replaying the levels over and over. Deeply satisfying."
       ],
       "image": "neonwhite.jpg",
-      "platform": "PS5",
-      "year": "2023"
+      "platform": "PlayStation 5",
+      "year": "2023",
+      "release": "2022"
     },
     {
       "name": "The Looker",
@@ -724,8 +778,9 @@
         "This game is made as an homage to another fantastic game “The Witness”. If you loved that like me, play this! It's made by someone else but in the same style. It parodies the Witness in a really smart way. It's nice and short, and free!"
       ],
       "image": "looker.jpg",
-      "platform": "PS5",
-      "year": "2023"
+      "platform": "PlayStation 5",
+      "year": "2023",
+      "release": "2022"
     },
     {
       "name": "Citizen Sleeper",
@@ -736,7 +791,8 @@
       ],
       "image": "citizen.jpg",
       "platform": "PC",
-      "year": "2023"
+      "year": "2023",
+      "release": "2022"
     },
     {
       "name": "Stray",
@@ -749,8 +805,9 @@
         "I found myself thinking to myself that a cat game doesn't need to go this hard. It's a bit much. But I enjoyed it a lot."
       ],
       "image": "stray.jpg",
-      "platform": "PS5",
-      "year": "2023"
+      "platform": "PlayStation 5",
+      "year": "2023",
+      "release": "2022"
     },
     {
       "name": "The Legend of Zelda: Oracle of Ages",
@@ -762,7 +819,8 @@
       ],
       "image": "oracle.png",
       "platform": "Gameboy",
-      "year": "2023"
+      "year": "2023",
+      "release": "2001"
     },
     {
       "name": "Death's Door",
@@ -772,8 +830,9 @@
         "This was recommended to me by my friend Fab who said it would scratch the itch left behind by “Tunic” last year. However he did not understand that Tunic cannot be replaced thanks to its incredible “learning as you progress” mechanic. Nonetheless, this plays a lot like Tunic and has an alright vibe and music. One of the bosses is this old lady which is cool. But this game is lacking in heart and soul. It's a copy of this standard soulslike combat, with no new special mechanics or anything that sets it apart from other games."
       ],
       "image": "deathsdoor.jpg",
-      "platform": "PS5",
-      "year": "2023"
+      "platform": "PlayStation 5",
+      "year": "2023",
+      "release": "2021"
     },
     {
       "name": "Banjo Kazooie",
@@ -787,7 +846,8 @@
       ],
       "image": "banjo.jpg",
       "platform": "Nintendo 64",
-      "year": "2023"
+      "year": "2023",
+      "release": "1998"
     },
     {
       "name": "Dr Mario 64",
@@ -800,10 +860,11 @@
       ],
       "image": "drmario.jpg",
       "platform": "Nintendo 64",
-      "year": "2023"
+      "year": "2023",
+      "release": "2001"
     },
     {
-      "name": "Spider-man 2",
+      "name": "Marvel's Spider-Man 2",
       "vibes": "2",
       "gameplay": "3",
       "review": [
@@ -815,8 +876,9 @@
         "I don't recommend this game."
       ],
       "image": "spiderman.jpg",
-      "platform": "PS5",
-      "year": "2023"
+      "platform": "PlayStation 5",
+      "year": "2023",
+      "release": "2023 "
     },
     {
       "name": "Hifi Rush",
@@ -827,8 +889,9 @@
         "It kinda felt like I was playing some Content made by a Content Creator. I can almost picture the dev studio putting in all the elements to make a game which is enjoyed by the masses."
       ],
       "image": "hifirush.png",
-      "platform": "PS5",
-      "year": "2023"
+      "platform": "PlayStation 5",
+      "year": "2023",
+      "release": "2023"
     },
     {
       "name": "Pentiment",
@@ -838,8 +901,9 @@
         "This is a historically accurate visual novel about the middle ages. I picked it up because my friend Colin recommended it and I saw that one of my favourite artists (Lingua Ignota) sang a song on the soundtrack. The fact is, I'm not interested enough in history to get me through this slow-paced game. I gave up after the first major event happened and it became clear where the game was going."
       ],
       "image": "pentiment.jpg",
-      "platform": "PS5",
+      "platform": "PlayStation 5",
       "year": "2023",
+      "release": "2022",
       "story": true
     },
     {
@@ -851,7 +915,8 @@
       ],
       "image": "monstertrain.jpg",
       "platform": "Switch",
-      "year": "2023"
+      "year": "2023",
+      "release": "2020"
     },
     {
       "name": "Kingdom Hearts 1.5 Final Mix",
@@ -866,8 +931,9 @@
         "The cutscenes and dialog, the edginess, the characters... the whole thing is wild. I'll never forget playing this game."
       ],
       "image": "kingdomhearts.jpg",
-      "platform": "PS4",
-      "year": "2023"
+      "platform": "PlayStation 4",
+      "year": "2023",
+      "release": "2013 "
     },
     {
       "name": "Kingdom Hearts Re:Chain of Memories",
@@ -881,22 +947,24 @@
         "What was bad was realising that when I completed the game, there's a whole second playthrough with Riku with a new story and new battle mechanics. I had to play it. That shit was also bullshit, just like the main game, and there were fewer opportunities to cheese opponents. Still, I did it. Beating Ansem at the end was really hard but I did it. Mickey Mouse randomly appeared. Riku is caught being edgier than ever before. I can't get over how different this game is to Kingdom Hearts 1."
       ],
       "image": "chainofmemories.jpg",
-      "platform": "PS4",
-      "year": "2023"
+      "platform": "PlayStation 4",
+      "year": "2023",
+      "release": "2013"
     },
     {
       "name": "Kingdom Hearts 358/2 Days",
       "vibes": "5",
       "gameplay": "1",
       "review": [
-        "I also plowed through and started the next “game” in the PS4 collection, which by the way has the prize for the most ridiculous game title in this list.",
+        "I also plowed through and started the next “game” in the PlayStation 4 collection, which by the way has the prize for the most ridiculous game title in this list.",
         "SHIT ISN'T EVEN A GAME! This originally came out on DS and instead of remaking it like Chain of Memories, they just remade the cutscenes, and left out the gameplay. This is particularly wild because this story is part of the Kingdom Hearts lore and they put it in the collection so players can follow the story chronologically. Feels like super bad planning.",
         "About 15 minutes in when I realised this wasn't a game but rather a 3 hour movie of these terrible graphics I decided to accept the life I chose for myself and sit through it. This was made better by getting super stoned.",
         "I am blown away by the sheer volume of cutscenes of these characters eating ice cream while precariously balancing on the roof of a clocktower watching the sunset. It's genuinely all they ever do, their only activity. Despite this, the story continues to be baffling and bewildering. At this point I'm so far gone that I'm just letting the bizarre vibes of this entry in the series wash over me. Maybe Kingdom Hearts 2 will be a real game."
       ],
       "image": "icecream.jpg",
-      "platform": "PS4",
+      "platform": "PlayStation 4",
       "year": "2023",
+      "release": "2013",
       "story": true
     },
     {
@@ -909,8 +977,9 @@
         "The soundtrack is also perfect. An electronic vibe, almost like you're playing inside a simulation. I listen to the soundtrack on the regular it's that good."
       ],
       "image": "tunic.jpg",
-      "platform": "PS5",
-      "year": "2022"
+      "platform": "PlayStation 5",
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Inscryption",
@@ -921,7 +990,8 @@
       ],
       "image": "inscryption.jpg",
       "platform": "PC",
-      "year": "2022"
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Castlevania: Symphony of the Night",
@@ -932,8 +1002,9 @@
         "The music is amazing! How many metroidvanias have you played with actual classical music in it? And has any game ever nailed this dramatic, classy vibe like this before? Those character portraits are insane! I can only imagine how hype it must have been back then when you realise you don't play as Richter, but instead an actual vampire Alucard? So sick. Even the way he moves is just so cool. The whole game is so cool."
       ],
       "image": "castlevania-sotn.jpg",
-      "platform": "PS1",
-      "year": "2022"
+      "platform": "PlayStation 1",
+      "year": "2022",
+      "release": "1997"
     },
     {
       "name": "Omori",
@@ -945,7 +1016,8 @@
       ],
       "image": "omori.png",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2020"
     },
     {
       "name": "Everhood",
@@ -957,7 +1029,8 @@
       ],
       "image": "everhood.png",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Paradise Killer",
@@ -970,6 +1043,7 @@
       "image": "paradise-killer.jpg",
       "platform": "Switch",
       "year": "2022",
+      "release": "2020",
       "story": true
     },
     {
@@ -982,7 +1056,8 @@
       ],
       "image": "chicory.png",
       "platform": "PC",
-      "year": "2022"
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Elechead",
@@ -993,7 +1068,8 @@
       ],
       "image": "elechead.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Slice & Dice",
@@ -1005,7 +1081,8 @@
       ],
       "image": "slice-and-dice.jpg",
       "platform": "Mobile",
-      "year": "2022"
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Kirby and the Forgotten Land",
@@ -1017,7 +1094,8 @@
       ],
       "image": "kirby-forgotten-land.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Elden Ring",
@@ -1031,8 +1109,9 @@
         "So sorry, Elden Ring fans, I didn't get into it. But I you can't tell me I didn't try, I mean I beat Rennala."
       ],
       "image": "elden-ring.jpg",
-      "platform": "PS5",
-      "year": "2022"
+      "platform": "PlayStation 5",
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Xenoblade Chronicles 3",
@@ -1045,7 +1124,8 @@
       ],
       "image": "xenoblade-3.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Persona 5: Royal",
@@ -1056,8 +1136,9 @@
         "I will say that the vibes are immaculate, the soundtrack is class, 'Last Surprise' never gets old somehow, and Kasumi is cute. I don't normally do the anime stuff normally but I did enjoy all the nonsense. Akechi and Joker's moments together were so gay. And at one point they go to Hawaii which is hilarious."
       ],
       "image": "persona-5.jpg",
-      "platform": "PS5",
-      "year": "2022"
+      "platform": "PlayStation 5",
+      "year": "2022",
+      "release": "2019"
     },
     {
       "name": "Scarlet Nexus",
@@ -1067,8 +1148,9 @@
         "I was jamming to this OST for months before I decided to give the game a spin. It's pretty middle of the road in terms of gameplay, especially for me as I'm not a hack & slash fan. But I love games with good vibes and this one has a great vibe and I enjoyed it. I liked the design of the main characters and had a crush on the guy."
       ],
       "image": "scarlet-nexus.jpg",
-      "platform": "PS5",
-      "year": "2022"
+      "platform": "PlayStation 5",
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Valheim",
@@ -1079,7 +1161,8 @@
       ],
       "image": "valheim.jpg",
       "platform": "PC",
-      "year": "2022"
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Boomerang Fu",
@@ -1090,7 +1173,8 @@
       ],
       "image": "boomerang-fu.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2020"
     },
     {
       "name": "Psychonauts 2",
@@ -1100,8 +1184,9 @@
         "Playing this game reminded me of games which feel like I've paid for some content and am now receiving that content. I made it through to the end but it didn't make me feel much. Maybe I would have enjoyed it more if I were a child. I think I liked the first one because I was younger when I played it."
       ],
       "image": "psychonauts.png",
-      "platform": "PS5",
-      "year": "2022"
+      "platform": "PlayStation 5",
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Gorogoa",
@@ -1112,7 +1197,8 @@
       ],
       "image": "gorogoa.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2017"
     },
     {
       "name": "Super Castlevania 4",
@@ -1124,7 +1210,8 @@
       ],
       "image": "castlevania-4.jpg",
       "platform": "SNES",
-      "year": "2022"
+      "year": "2022",
+      "release": "1991"
     },
     {
       "name": "Castlevania",
@@ -1135,7 +1222,8 @@
       ],
       "image": "castlevania-nes.jpg",
       "platform": "NES",
-      "year": "2022"
+      "year": "2022",
+      "release": "1986"
     },
     {
       "name": "Castlevania: Rondo of Blood",
@@ -1145,8 +1233,9 @@
         "I wanna play all the games from all the smash characters so I had to play Richter's game. I had to get a separate collection on playstation for this one, which is fine except that this one doesn't come with save states, so I actually got straight up stuck against Death. I couldn't beat him so I gave up."
       ],
       "image": "castlevania-rondo.jpg",
-      "platform": "PS1",
-      "year": "2022"
+      "platform": "PlayStation 1",
+      "year": "2022",
+      "release": "1993"
     },
     {
       "name": "Kirby's Dream Buffet",
@@ -1157,7 +1246,8 @@
       ],
       "image": "kirby-dream-buffet.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Spiritfarer",
@@ -1168,7 +1258,8 @@
       ],
       "image": "spiritfarer.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2020"
     },
     {
       "name": "Mario Strikers: Battle League",
@@ -1179,7 +1270,8 @@
       ],
       "image": "mario-strikers.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Rain World",
@@ -1192,7 +1284,8 @@
       ],
       "image": "rainworld.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2017"
     },
     {
       "name": "Pokémon Legends: Arceus",
@@ -1204,7 +1297,8 @@
       ],
       "image": "pokemon-arceus.png",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Wandersong",
@@ -1215,7 +1309,8 @@
       ],
       "image": "wandersong.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2018"
     },
     {
       "name": "LISA: The Painful",
@@ -1226,7 +1321,8 @@
       ],
       "image": "lisa.jpg",
       "platform": "PC",
-      "year": "2022"
+      "year": "2022",
+      "release": "2014"
     },
     {
       "name": "Pac-Man World: Re-Pac",
@@ -1238,7 +1334,8 @@
       ],
       "image": "pacman.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Sports Story",
@@ -1249,7 +1346,8 @@
       ],
       "image": "sports-story.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2022"
     },
     {
       "name": "Loop Hero",
@@ -1260,7 +1358,8 @@
       ],
       "image": "loop-hero.jpg",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Unpacking",
@@ -1271,7 +1370,8 @@
       ],
       "image": "unpacking.png",
       "platform": "Switch",
-      "year": "2022"
+      "year": "2022",
+      "release": "2021"
     },
     {
       "name": "Outer Wilds: Echoes of the Eye",
@@ -1283,8 +1383,9 @@
         "The vibe is a little more horror than the base game. 'A little more horror' I say, I was the one with my heart BEATING playing through those certain sections. I was genuinely breathless, terrified. When I thought about the game while I was at work, I would get scared thinking about it! It took so much emotional strength to get through the Starlit Cove. After writing that sentence I went and looked at someone play through Starlit Cove and I got scared again!! It's a terrifying game!!"
       ],
       "image": "outer-wilds-echoes.jpg",
-      "platform": "PS5",
-      "year": "2021"
+      "platform": "PlayStation 5",
+      "year": "2021",
+      "release": "2021"
     },
     {
       "name": "Subnautica",
@@ -1296,8 +1397,9 @@
         "Then there's actually a whole story to the game that you slowly uncover as you explore more. It's so fascinating and cool. I loved this game so much."
       ],
       "image": "subnautica.jpg",
-      "platform": "PS5",
-      "year": "2021"
+      "platform": "PlayStation 5",
+      "year": "2021",
+      "release": "2018"
     },
     {
       "name": "Metroid: Dread",
@@ -1309,7 +1411,8 @@
       ],
       "image": "metroid-dread.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2021"
     },
     {
       "name": "Deltarune: Chapter 2",
@@ -1321,7 +1424,8 @@
       ],
       "image": "deltarune-2.png",
       "platform": "PC",
-      "year": "2021"
+      "year": "2021",
+      "release": "2021"
     },
     {
       "name": "Disco Elysium",
@@ -1335,10 +1439,11 @@
       ],
       "image": "disco-elysium.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2019"
     },
     {
-      "name": "WarioWare: Get It Together",
+      "name": "WarioWare: Get It Together!",
       "vibes": "9",
       "gameplay": "9",
       "review": [
@@ -1346,7 +1451,8 @@
       ],
       "image": "warioware-get-it-together.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2021"
     },
     {
       "name": "Fez",
@@ -1358,7 +1464,8 @@
       ],
       "image": "fez.png",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2012"
     },
     {
       "name": "A Short Hike",
@@ -1369,7 +1476,8 @@
       ],
       "image": "shorthike.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2019"
     },
     {
       "name": "Xenoblade Chronicles: Definitive Edition",
@@ -1381,7 +1489,8 @@
       ],
       "image": "xenoblade.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2020"
     },
     {
       "name": "Axiom Verge",
@@ -1392,7 +1501,8 @@
       ],
       "image": "axiom-verge.png",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2015"
     },
     {
       "name": "Abzu",
@@ -1402,8 +1512,9 @@
         "I'm normally not into arty farty games, but I love fish and sea life so this one was great. The perfect chill out game. Soundtrack has Ecco the Dolphin vibes. Great to smoke weed to."
       ],
       "image": "abzu.jpg",
-      "platform": "PS5",
+      "platform": "PlayStation 5",
       "year": "2021",
+      "release": "2016",
       "story": true
     },
     {
@@ -1416,7 +1527,8 @@
       ],
       "image": "mario-3d.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2021"
     },
     {
       "name": "Ring Fit Adventure",
@@ -1428,7 +1540,8 @@
       ],
       "image": "ringfit.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2019"
     },
     {
       "name": "Frostpunk",
@@ -1439,7 +1552,8 @@
       ],
       "image": "frostpunk.jpg",
       "platform": "PC",
-      "year": "2021"
+      "year": "2021",
+      "release": "2018"
     },
     {
       "name": "Inside",
@@ -1449,8 +1563,9 @@
         "Hard to describe what this game is but I enjoyed it a lot. A very dark and düster vibe as you make your way through some horrible factory. One of those games that makes you feel something. The ending is really cool."
       ],
       "image": "inside.png",
-      "platform": "PS5",
-      "year": "2021"
+      "platform": "PlayStation 5",
+      "year": "2021",
+      "release": "2016"
     },
     {
       "name": "Bugsnax",
@@ -1460,8 +1575,9 @@
         "First game I played on my new playstation. Unashamed to admit I played it because my favourite band (Kero Kero Bonito) did the theme song. I like the vibe and the game and characters are pretty cute. I do think it's all a bit forced though. I reckon the game could have benefitted from being more fucked up."
       ],
       "image": "bugsnax.png",
-      "platform": "PS5",
-      "year": "2021"
+      "platform": "PlayStation 5",
+      "year": "2021",
+      "release": "2020"
     },
     {
       "name": "Horizon: Zero Dawn",
@@ -1471,8 +1587,9 @@
         "A BEAUTIFUL and gorgeous-looking game. At first I was put off by it, also because I was scared of the dinosaurs, but I came back to it later and completed it. The story is really nice, although it's got this triple A video game sheen all over it which I don't like. It feels like I'm playing a video game, not that I'm actually a hunter warrior lady who shoots arrows at robot dinosaurs."
       ],
       "image": "horizon.jpg",
-      "platform": "PS5",
-      "year": "2021"
+      "platform": "PlayStation 5",
+      "year": "2021",
+      "release": "2017"
     },
     {
       "name": "Rocket League",
@@ -1483,8 +1600,9 @@
         "Definitely not a fan of the micro-transactions and monetisation. Fuck that shit."
       ],
       "image": "rocket-league.jpg",
-      "platform": "PS5",
-      "year": "2021"
+      "platform": "PlayStation 5",
+      "year": "2021",
+      "release": "2015"
     },
     {
       "name": "New Pokémon Snap",
@@ -1496,7 +1614,8 @@
       ],
       "image": "pokemon-snap.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2021"
     },
     {
       "name": "Captain Toad: Treasure Tracker",
@@ -1507,7 +1626,8 @@
       ],
       "image": "captain-toad.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2014"
     },
     {
       "name": "Bug Fables",
@@ -1517,8 +1637,9 @@
         "This game has some heart, which I appreciate, but I just found it quite boring. It tries to be Paper Mario a little too much, and doesn't really make its own “bug fables” identity. I wish it just had that special X factor which elevates some games over the rest. I don't even have specific feedback I just didn't vibe with it I guess."
       ],
       "image": "bugfables.jpg",
-      "platform": "PS5",
-      "year": "2021"
+      "platform": "PlayStation 5",
+      "year": "2021",
+      "release": "2019"
     },
     {
       "name": "Eastward",
@@ -1529,7 +1650,8 @@
       ],
       "image": "eastward.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2021"
     },
     {
       "name": "Pokemon: Brilliant Diamond",
@@ -1542,7 +1664,8 @@
       ],
       "image": "pokemon-diamond.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2021"
     },
     {
       "name": "Fire Emblem: The Binding Blade",
@@ -1553,8 +1676,9 @@
         "In the end, I didn't complete it. I got halfway through, but I was playing on an emulator and when I changed my phone I accidentally corrupted my save file. I really don't want to start it again because it's quite long and not very fulfilling. I decided that being FE7 is enough for the challenge because it features Roy as a baby boy at the end. Maybe I don't need to force myself to play bad games just for this random challenge I want to do."
       ],
       "image": "fireemblem-6.jpg",
-      "platform": "GBA",
-      "year": "2021"
+      "platform": "Gameboy Advance",
+      "year": "2021",
+      "release": "2002"
     },
     {
       "name": "Xenoblade Chronicles 2: Torna The Golden Country",
@@ -1565,7 +1689,8 @@
       ],
       "image": "xenoblade-torna.jpg",
       "platform": "Switch",
-      "year": "2021"
+      "year": "2021",
+      "release": "2018"
     },
     {
       "name": "Outer Wilds",
@@ -1576,8 +1701,9 @@
         "So take my word for it, stop what you're doing and boot up Outer Wilds. It'll be a fun, emotional and at times scary ride. If you don't understand what's going on in the first hours, keep trying!"
       ],
       "image": "outer-wilds.jpg",
-      "platform": "PS5",
-      "year": "2020"
+      "platform": "PlayStation 5",
+      "year": "2020",
+      "release": "2019"
     },
     {
       "name": "Streets of Rage 4",
@@ -1589,7 +1715,8 @@
       ],
       "image": "streets-of-rage.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "Slay the Spire",
@@ -1602,7 +1729,8 @@
       ],
       "image": "slay-the-spire.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2019"
     },
     {
       "name": "Animal Crossing: New Horizons",
@@ -1616,7 +1744,8 @@
       ],
       "image": "animal-crossing.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "CrossCode",
@@ -1628,7 +1757,8 @@
       ],
       "image": "crosscode.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2018"
     },
     {
       "name": "Pikmin 3 Deluxe",
@@ -1640,7 +1770,8 @@
       ],
       "image": "pikmin-3.png",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "Hades",
@@ -1651,7 +1782,8 @@
       ],
       "image": "hades.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "One Step From Eden",
@@ -1662,7 +1794,8 @@
       ],
       "image": "onestep.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "NieR: Automata",
@@ -1673,8 +1806,9 @@
         "Small things irritated me like you walk a bit and suddenly the forest turns into a desert.. And they make you look at 2B's ass the whole game which for me was a bit much."
       ],
       "image": "nier.jpg",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2017"
     },
     {
       "name": "Final Fantasy VII",
@@ -1686,8 +1820,9 @@
         "The music is legendary! Listen to this <a href=\"https://youtu.be/PIkTNZUbeBE\">late-game track</a> that I love."
       ],
       "image": "sephiroth-cloud.gif",
-      "platform": "PS1",
-      "year": "2020"
+      "platform": "PlayStation 1",
+      "year": "2020",
+      "release": "1997"
     },
     {
       "name": "Final Fantasy: VII: Remake",
@@ -1698,19 +1833,21 @@
         "I liked the remixed music tracks a lot, and I enjoyed playing as Barret. It felt a bit cheap to only play a third of the story of the original though."
       ],
       "image": "final-fantasy.png",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "The Witness",
       "vibes": "5",
       "gameplay": "8",
       "review": [
-        "An environmental puzzle game on the PS4 which I got really into. The puzzles are always difficult but never impossible and the game comes with a cool message too. I just love puzzle games like this, and this was a bit different to usual because it was in 3D! So many angles to look at the puzzles."
+        "An environmental puzzle game on the PlayStation 4 which I got really into. The puzzles are always difficult but never impossible and the game comes with a cool message too. I just love puzzle games like this, and this was a bit different to usual because it was in 3D! So many angles to look at the puzzles."
       ],
       "image": "witness.jpg",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2016"
     },
     {
       "name": "Factorio",
@@ -1722,7 +1859,8 @@
       ],
       "image": "factorio.jpg",
       "platform": "PC",
-      "year": "2020"
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "Towerfall",
@@ -1733,7 +1871,8 @@
       ],
       "image": "towerfall.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2013"
     },
     {
       "name": "Paper Mario: The Origami King",
@@ -1745,7 +1884,8 @@
       ],
       "image": "paper-mario.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "Super Mario 3D All-Stars",
@@ -1757,7 +1897,8 @@
       ],
       "image": "mario-all-stars.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2020"
     },
     {
       "name": "Death Stranding",
@@ -1768,8 +1909,9 @@
         "I played about 15 hours but this game is not for the faint of heart like me. I was so terrified of those monsters that I couldn't play anymore."
       ],
       "image": "deathstranding.jpg",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2019"
     },
     {
       "name": "Katamari Damacy: Reroll",
@@ -1780,7 +1922,8 @@
       ],
       "image": "katamari.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2018"
     },
     {
       "name": "The Last of Us",
@@ -1790,11 +1933,12 @@
         "I recognise that this is a great game but as someone who doesn't do well with either violence or suffering, I found it very upsetting. I did beat it though!"
       ],
       "image": "lastofus.jpg",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2013"
     },
     {
-      "name": "Shadow of the Colossus",
+      "name": "Shadow of the Colossus (PS4 Remake)",
       "vibes": "8",
       "gameplay": "2",
       "review": [
@@ -1802,8 +1946,9 @@
         "But I respect that it has an excellent vibe. The emptiness and the sadness behind killing these beasts is very profound, and the steady descent into corruption is a really nice idea. I went back and watched someone else complete the game which was quite nice."
       ],
       "image": "shadow.jpg",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2018"
     },
     {
       "name": "Horace",
@@ -1814,7 +1959,8 @@
       ],
       "image": "horace.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2019"
     },
     {
       "name": "A Way Out",
@@ -1824,8 +1970,9 @@
         "This is a silly co-op game about escaping prison that I enjoyed playing in the summer. There are absolutely no stakes, so failure doesn't mean anything. I guess it's more of a visual novel. It's gimmick is that it's co-op but I don't think it's actually that good. The story is pretty trope-y."
       ],
       "image": "wayout.png",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2018"
     },
     {
       "name": "Ori and the Blind Forest",
@@ -1836,7 +1983,8 @@
       ],
       "image": "ori.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2015"
     },
     {
       "name": "Gris",
@@ -1848,6 +1996,7 @@
       "image": "gris.jpg",
       "platform": "Switch",
       "year": "2020",
+      "release": "2018",
       "story": true
     },
     {
@@ -1858,8 +2007,9 @@
         "I blasted through this in an evening and it was alright. Again it's just soaked in imagery, but not actually making a point or leaving me with anything. Connecting with another player at one point was a nice touch. But I just don't vibe with these arty games at all."
       ],
       "image": "journey.png",
-      "platform": "PS4",
+      "platform": "PlayStation 4",
       "year": "2020",
+      "release": "2012",
       "story": true
     },
     {
@@ -1872,19 +2022,21 @@
       "image": "tothemoon.jpg",
       "platform": "Switch",
       "year": "2020",
+      "release": "2011",
       "story": true
     },
 
     {
-      "name": "God of War",
+      "name": "God of War (PS4 Reboot)",
       "vibes": "5",
       "gameplay": "2",
       "review": [
         "2020 is the year that I learned that I don't like hack and slash games. I wanted to see Kratos's character development, but the game was too boring to get far enough. Also he's a ridiculous character. I was told I should at least up until a strong female character shows up. She did and I was like, finally I can stop."
       ],
       "image": "godofwar.jpg",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2018"
     },
     {
       "name": "Dark Souls",
@@ -1894,8 +2046,9 @@
         "For my own education I gave the original game a try but man this game is not for me. I need some colours and some recognisable characters. I didn't want to walk all the way back to the boss room each time I died. I didn't make it past this monster on the bridge."
       ],
       "image": "darksouls.jpg",
-      "platform": "PS4",
-      "year": "2020"
+      "platform": "PlayStation 4",
+      "year": "2020",
+      "release": "2011"
     },
     {
       "name": "Unravel 2",
@@ -1906,7 +2059,3038 @@
       ],
       "image": "unravel.jpg",
       "platform": "Switch",
-      "year": "2020"
+      "year": "2020",
+      "release": "2018"
+    },
+    {
+      "name": "Antichamber",
+      "vibes": "4",
+      "gameplay": "3",
+      "review": ["A bizarre puzzle game with very conceptual and abstract puzzles. The vibe is harsh colours or lack thereof, like exploring the mind of the spirit of a colour printer. I wasn't smart enough to complete the game but I enjoyed making slow progress on it"],
+      "image": "antichamber.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Asteroids",
+      "vibes": "1",
+      "gameplay": "2",
+      "review": ["A classic that I played with Dad when I was a child. A classic, but it's not like I would recommend it or anything"],
+      "image": "asteroids.png",
+      "platform": "Arcade",
+      "year": "older",
+      "release": "1979"
+    },
+    {
+      "name": "Sonic 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "sonic-2.webp",
+      "platform": "Sega Mega Drive",
+      "year": "older",
+      "release": "1992"
+    },
+    {
+      "name": "Infamous",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation 3",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 3",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation 2",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Croc: Legend of the Gobbos",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "Quantum Redshift",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Xbox 360",
+      "year": "older",
+      "release": "2002"
+    },
+    {
+      "name": "Fable",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Xbox",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Super Smash Bros. Ultimate",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Shantae and the Pirate's Curse",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "Pokemon Y",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "World of Goo",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2008"
+    },
+    {
+      "name": "Scribblenauts",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2002"
+    },
+    {
+      "name": "Pokemon FireRed",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "GoldenEye 007",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "Super Mario Land",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy",
+      "year": "older",
+      "release": "1989"
+    },
+    {
+      "name": "Super Mario Kart",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1992"
+    },
+    {
+      "name": "Super Mario Bros.",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "NES",
+      "year": "older",
+      "release": "1985"
+    },
+    {
+      "name": "Ball",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Game and Watch",
+      "year": "older",
+      "release": "1980"
+    },
+    {
+      "name": "Jet Pack Joyride",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Audiosurf",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2008"
+    },
+    {
+      "name": "Pac-man",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Arcade",
+      "year": "older",
+      "release": "1980"
+    },
+    {
+      "name": "Sonic 3 & Knuckles",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Sega Mega Drive",
+      "year": "older",
+      "release": "1994"
+    },
+    {
+      "name": "Infamous 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation 3",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 4",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation 2",
+      "year": "older",
+      "release": "2002"
+    },
+    {
+      "name": "Bust-a-move",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "1994"
+    },
+    {
+      "name": "Halo 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Xbox",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Bayonetta 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "The Legend of Zelda: A Link Between Worlds",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Super Mario Galaxy",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Pokemon Soul Silver",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Fire Emblem: Path of Radiance",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "The Legend of Zelda: The Minish Cap",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1998"
+    },
+    {
+      "name": "Pokemon Yellow",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Super Mario World",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1990"
+    },
+    {
+      "name": "Earthbound Beginnings (Mother 1)",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "NES",
+      "year": "older",
+      "release": "1989"
+    },
+    {
+      "name": "Temple Run",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Barotrauma",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2023"
+    },
+    {
+      "name": "Mega Bomberman",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Sega Mega Drive",
+      "year": "older",
+      "release": "1994"
+    },
+    {
+      "name": "Grand Theft Auto: San Andreas",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation 2",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Tomb Raider",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "1996"
+    },
+    {
+      "name": "Octopath Traveler",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "New Super Mario Bros. U",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2012"
+    },
+    {
+      "name": "Pokemon Sun",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "New Super Mario Bros. Wii",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "New Super Mario Bros.",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Super Mario Sunshine",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2002"
+    },
+    {
+      "name": "Pokemon Emerald",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Super Mario 64",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1996"
+    },
+    {
+      "name": "Pokemon Silver",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Super Mario World 2: Yoshi's Island",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1995"
+    },
+    {
+      "name": "Ice Climber",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "NES",
+      "year": "older",
+      "release": "1984"
+    },
+    {
+      "name": "Cut the Rope",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2010"
+    },
+    {
+      "name": "Command & Conquer 3: Tiberium Wars",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Micro Machines V2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Sega Mega Drive",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "Tekken Tag Tournament",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation 2",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Tekken 3",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "Xenoblade Chronicles 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Donkey Kong Country: Tropical Freeze",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "Pokemon Alpha Sapphire",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "Wii Sports Resort",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Pokemon White",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2010"
+    },
+    {
+      "name": "Soul Calibur II",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Kirby: Nightmare in Dream Land",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2002"
+    },
+    {
+      "name": "The Legend of Zelda: Majora's Mask",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "2000"
+    },
+    {
+      "name": "Tetris",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy",
+      "year": "older",
+      "release": "1984"
+    },
+    {
+      "name": "F-Zero",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1990"
+    },
+    {
+      "name": "Duck Hunt",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "NES",
+      "year": "older",
+      "release": "1984"
+    },
+    {
+      "name": "Angry Birds",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Downfall: A Slay the Spire Fan Expansion",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2022"
+    },
+    {
+      "name": "Mickey Mouse: Castle of Illusion",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Sega Mega Drive",
+      "year": "older",
+      "release": "1990"
+    },
+    {
+      "name": "super fun racing game with micro machines vibes",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation 2",
+      "year": "older",
+      "release": ""
+    },
+    {
+      "name": "Crash Bandicoot",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "1996"
+    },
+    {
+      "name": "Fire Emblem: Three Houses",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Nintendo Land",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2012"
+    },
+    {
+      "name": "The Legend of Zelda: Majora's Mask 3D",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Wii Sports",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Animal Crossing: Wild World",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "The Legend of Zelda: Twilight Princess",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Fire Emblem: The Blazing Blade",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Paper Mario",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "2000"
+    },
+    {
+      "name": "The Legend of Zelda: Link's Awakening",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy",
+      "year": "older",
+      "release": "1993"
+    },
+    {
+      "name": "Panel de Pon (Tetris Attack)",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1995"
+    },
+    {
+      "name": "Balloon Fight",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "NES",
+      "year": "older",
+      "release": "1984"
+    },
+    {
+      "name": "Final Fantasy VIII",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Guitar Hero III: Legends of Rock",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Stardew Valley",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Splatoon",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Pokemon Super Mystery Dungeon",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Super Smash Bros. Brawl",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2008"
+    },
+    {
+      "name": "Fire Emblem: Shadow Dragon",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2008"
+    },
+    {
+      "name": "Mario Kart: Double Dash!!",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Fire Emblem: The Sacred Stones",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Star Fox 64",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "The Grinch",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy",
+      "year": "older",
+      "release": "2000"
+    },
+    {
+      "name": "Kirby Super Star",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1996"
+    },
+    {
+      "name": "A Hat in Time",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "2000"
+    },
+    {
+      "name": "Mario + Rabbids Kingdom Battle",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Super Mario Maker",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Fire Emblem: Awakening",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2012"
+    },
+    {
+      "name": "Pokemon Battle Revolution",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "The Legend of Zelda: Phantom Hourglass",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Super Smash Bros. Melee",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Metroid: Zero Mission",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "F-Zero X",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1998"
+    },
+    {
+      "name": "Donkey Kong Country",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1994"
+    },
+    {
+      "name": "Into the Breach",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Croc 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Celeste",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Super Smash Bros. for Wii U",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "Animal Crossing: New Leaf",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2012"
+    },
+    {
+      "name": "Mario Kart Wii",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2008"
+    },
+    {
+      "name": "Pokemon Diamond",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Paper Mario: The Thousand Year Door",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Mother 3",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Donkey Kong 64",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1995"
+    },
+    {
+      "name": "Portal",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Gex 3: Deep Cover Gecko",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Super Mario Odyssey",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Paper Mario: Color Splash",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Kirby: Planet Robobot",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Kirby's Epic Yarn",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2010"
+    },
+    {
+      "name": "Chrono Trigger",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "1995"
+    },
+    {
+      "name": "Pikmin",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Wario Land 4",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Conker's Bad Fur Day",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Earthbound",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1994"
+    },
+    {
+      "name": "Portal 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "this adventure game with the aztecs",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": ""
+    },
+    {
+      "name": "ARMS",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Pokken Tournament",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Tomodachi Life",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Donkey Kong Country Returns",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2010"
+    },
+    {
+      "name": "Pokemon White 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2012"
+    },
+    {
+      "name": "The Simpsons Hit & Run",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Pokemon Mystery Dungeon: Red Rescue Team",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "Mario Kart 64",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1996"
+    },
+    {
+      "name": "Super Metroid",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1994"
+    },
+    {
+      "name": "Psychonauts",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "Rayman",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation",
+      "year": "older",
+      "release": "1995"
+    },
+    {
+      "name": "Sonic Mania",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "The Legend of Zelda: Wind Waker HD",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Fire Emblem Echoes: Shadows of Valentia",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Metroid Prime Trilogy",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "The Legend of Zelda: Spirit Tracks",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "SSX 3",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "WarioWare, Inc.: Mega Microgame$!",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Pokemon Stadium",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "2000"
+    },
+    {
+      "name": "The Legend of Zelda: A Link to the Past",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1991"
+    },
+    {
+      "name": "Sid Meier's Civilization IV",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "Tetris 99",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Yoshi's Woolly World",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Metroid: Samus Returns",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "The Legend of Zelda: Skyward Sword",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Rhythm Heaven",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "SSX Tricky",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Golden Sun: The Lost Age",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2002"
+    },
+    {
+      "name": "Pokemon Stadium 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "2000"
+    },
+    {
+      "name": "Kirby's Dream Land 3",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "Skullgirls",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2012"
+    },
+    {
+      "name": "Wargroove",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Hyrule Warriors",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "Mario & Luigi: Superstar Saga + Bowser's Minions",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Super Paper Mario",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Super Mario 64 DS",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Star Wars: Jedi Knight II: Jedi Outcast",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2002"
+    },
+    {
+      "name": "Mario Kart Super Circuit",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Kirby 64: The Crystal Shards",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "2000"
+    },
+    {
+      "name": "Super Bomberman",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1993"
+    },
+    {
+      "name": "The Stanley Parable",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Puyo Puyo Tetris",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "Kirby and the Rainbow Curse",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Mario Kart 7",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Mario Strikers Charged",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Professor Layton and the Curious Village",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Cel Damage",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gamecube",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Advance Wars: Black Hole Rising",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Yoshi's Story",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "SUPERHOT",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Hollow Knight",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "NES Remix Pack",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "Kid Icarus: Uprising",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2012"
+    },
+    {
+      "name": "Super Mario Galaxy 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2010"
+    },
+    {
+      "name": "Mario Kart DS",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "Kirby & The Amazing Mirror",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Diddy Kong Racing",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "Terraria",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Pokemon Shield",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Pikmin 3",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Hey! Pikmin",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Animal Crossing: Let's Go to the City",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2008"
+    },
+    {
+      "name": "Super Princess Peach",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Super Smash Bros.",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Tilt Brush",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Mario Kart 8 Deluxe",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Fire Emblem Fates",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Okami",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Sonic Rush",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "Turbo Turtle Adventure",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Gameboy Advance",
+      "year": "older",
+      "release": "2002"
+    },
+    {
+      "name": "1080\u00b0 Snowboarding",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1998"
+    },
+    {
+      "name": "Undertale",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "The Legend of Zelda: Link's Awakening",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "1993"
+    },
+    {
+      "name": "Super Smash Bros. for 3DS",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2014"
+    },
+    {
+      "name": "Fire Emblem: Radiant Dawn",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Pokemon Mystery Dungeon: Explorers of Sky",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Pokemon Snap",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Deltarune: Chapter 1",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Cadence of Hyrule: Crypt of the NecroDancer featuring The Legend of Zelda",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Yoshi's New Island",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "De Blob",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2008"
+    },
+    {
+      "name": "Mario Party DS",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Snowboard Kids",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "Worms 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1997"
+    },
+    {
+      "name": "Baba is You",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Star Fox 64 3D",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "WarioWare: Smooth Moves",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Advance Wars: Days of Ruin",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Iggy's Reckin' Balls",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1998"
+    },
+    {
+      "name": "Command & Conquer: Red Alert",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1996"
+    },
+    {
+      "name": "Super Mario Maker 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Pilotwings Resort",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Pikmin 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Yoshi's Island DS",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "RollerCoaster Tycoon",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Crypt of the NecroDancer",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "Wii Fit",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2008"
+    },
+    {
+      "name": "Phoenix Wright: Ace Attorney",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "The Sims",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2000"
+    },
+    {
+      "name": "Shovel Knight: Treasure Trove",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Donkey Kong: Barrel Blast",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Custom Robo Arena",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "Runescape",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Pokemon Mystery Dungeon Red Rescue Team DX",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2020"
+    },
+    {
+      "name": "Bit.Trip Runner",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2010"
+    },
+    {
+      "name": "Professor Layton and Pandora's Box",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Minecraft",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Overcooked",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "42 All-Time Classics",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "AM2R: Another Metroid 2 Remake",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Golf Story",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Diddy Kong Racing DS",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Chasm",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "The Messenger",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Worms: Open Warfare",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "DS",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Zoombinis",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1996"
+    },
+    {
+      "name": "Yooka-Laylee and the Impossible Lair",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Zool 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1993"
+    },
+    {
+      "name": "Prison Architect",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2015"
+    },
+    {
+      "name": "World of Warcraft",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Return of the Obra Dinn",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Lemmings",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1991"
+    },
+    {
+      "name": "Mega Man 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "1989"
+    },
+    {
+      "name": "Frogger",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1981"
+    },
+    {
+      "name": "Mega Man 3",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "1990"
+    },
+    {
+      "name": "Neopets",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Mega Man 4",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "1991"
+    },
+    {
+      "name": "Lemmings 3D",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "1995"
+    },
+    {
+      "name": "VA-11 HALL-A",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Worms 3D",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Yooka Laylee",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Snake Pass",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Shantae: Half-Genie Hero",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Dandara",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Hyper Light Drifter",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Owlboy",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Just Shapes and Beats",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Guacamelee!",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Enter the Gungeon",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Katana Zero",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Mega Man 11",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Rivals of Aether",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Untitled Goose Game",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Kirby Star Allies",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Snipperclips",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "SteamWorld Dig 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Dragon Quest XI S: Echoes of an Elusive Age",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Overcooked 2",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Cuphead",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Worms W.M.D",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Oxenfree",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Firewatch",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2016"
+    },
+    {
+      "name": "Valkyria Chronicles 4",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2022"
+    },
+    {
+      "name": "Minit",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Fortnite",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Bioshock",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Nickelodeon All Star Brawl",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2021"
+    },
+    {
+      "name": "Don't Starve",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Rayman Legends",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Crash Bandicoot N-Sane Trilogy",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Reigns: Kings & Queens",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Bastion",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2011"
+    },
+    {
+      "name": "Desert Child",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
+      "name": "Heave Ho",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2019"
+    },
+    {
+      "name": "Superliminal",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2020"
+    },
+    {
+      "name": "Scott Pilgrim vs The World: The Game",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2010"
+    },
+    {
+      "name": "Marvel's Spider-Man",
+      "vibes": "",
+      "gameplay": "",
+      "review": [],
+      "image": "",
+      "platform": "PlayStation 4",
+      "year": "older",
+      "release": "2018"
     }
   ]
 }

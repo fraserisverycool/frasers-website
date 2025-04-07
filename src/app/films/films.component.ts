@@ -11,6 +11,7 @@ interface Film {
   title: string;
   description: string;
   year: string;
+  release: number;
 }
 
 @Component({
@@ -24,7 +25,7 @@ export default class FilmsComponent implements OnInit {
   films: Film[] = [];
   originalFilms: Film[] = [];
   title: string = "Films Fraser has watched since 2013";
-  filters = ["all", "2025", "2024", "2023", "random", "alphabetical", "next"];
+  filters = ["all", "2025", "2024", "2023", "random", "alphabetical", "release", "next"];
   searchTerm: string = '';
 
   constructor(private http: HttpClient, private router: Router) {}
@@ -84,6 +85,10 @@ export default class FilmsComponent implements OnInit {
       case 'alphabetical':
         this.films = [...this.originalFilms].sort((a, b) => a.title.localeCompare(b.title));
         this.title = "Films Fraser has watched since 2023 ordered by name";
+        break;
+      case 'release':
+        this.films = [...this.originalFilms].sort((a, b) => a.release - b.release);
+        this.title = "Films Fraser has watched since 2023 ordered by release date";
         break;
       default:
         console.error('Invalid sorting criteria');

@@ -58,6 +58,11 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.release-info {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
 .calendar-container {
   margin-top: 20px;
   text-align: center;
