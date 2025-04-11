@@ -1,6 +1,13 @@
 {
   "soundtracks": [
     {
+      "filename": "luigis-mansion.jpg",
+      "name": "Luigi's Mansion",
+      "description": "This soundtrack doesn't really make for enjoyable listening. It's spooky and goofy horror music, so it's just not great for when you're about your normal life. Maybe you can put it on if you're playing a horror-themed board game (shoutouts to Betrayal at House on the Hill) but otherwise, only the credits theme is worth dipping your toes in for.",
+      "platform": "Gamecube",
+      "topTracks": ["Staff Credits"]
+    },
+    {
       "filename": "f-zero.jpg",
       "name": "F-Zero",
       "description": "It's a classic! I'm so glad this soundtrack has been popularised by F-Zero 99 because it really contains some gems. Of course you've got Mute City and Big Blue and who doesn't love those tracks by now, but there's also one of my all-time favourite SNES tracks 'Silence'. I also want to point out 'Fire Field' although nothing beats in the remix in smash",

@@ -2066,7 +2066,9 @@
       "name": "Antichamber",
       "vibes": "4",
       "gameplay": "3",
-      "review": ["A bizarre puzzle game with very conceptual and abstract puzzles. The vibe is harsh colours or lack thereof, like exploring the mind of the spirit of a colour printer. I wasn't smart enough to complete the game but I enjoyed making slow progress on it"],
+      "review": [
+        "A bizarre puzzle game with very conceptual and abstract puzzles. The vibe is harsh colours or lack thereof, like exploring the mind of the spirit of a colour printer. I wasn't smart enough to complete the game but I enjoyed making slow progress on it"
+      ],
       "image": "antichamber.jpg",
       "platform": "PC",
       "year": "older",
@@ -2076,7 +2078,9 @@
       "name": "Asteroids",
       "vibes": "1",
       "gameplay": "2",
-      "review": ["A classic that I played with Dad when I was a child. A classic, but it's not like I would recommend it or anything"],
+      "review": [
+        "A classic that I played with Dad when I was a child. A classic, but it's not like I would recommend it or anything"
+      ],
       "image": "asteroids.png",
       "platform": "Arcade",
       "year": "older",
@@ -2084,9 +2088,11 @@
     },
     {
       "name": "Sonic 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
+      "vibes": "10",
+      "gameplay": "7",
+      "review": [
+        "What a banger. Huge game. A classic, and I associate it with so many good memories as a child. I remember playing this with school friends from primary school because one of them had a Sega Mega Drive. The music? Hello. Banger after banger. Check out fucking <a href=\"https://www.youtube.com/watch?v=_Eg7ZWnYKHE&list=PLvNp0Boas721Im_ZBhvDEuCqzLsRvlKb3&index=6&ab_channel=DeoxysPrime\">Hill Top Zone</a>! I love the various environments like Oil Ocean or Aquatic Ruin and their bright colours and strong vibes. It sucked that there wasn't save files though, it meant that I very rarely made it past Metropolis and only when I was older was I able to beat the final boss."
+      ],
       "image": "sonic-2.webp",
       "platform": "Sega Mega Drive",
       "year": "older",
@@ -2094,10 +2100,12 @@
     },
     {
       "name": "Infamous",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "1",
+      "gameplay": "2",
+      "review": [
+        "Not a great game. I remember playing it for a bit at some point. The main character is a classic \"what people thought gamers wanted\" type character: 30-year old shaven head white guy. This game is a like a power fantasy, with lots of murdering people using electrical superpowers. Wild that it exists to be honest."
+      ],
+      "image": "infamous.webp",
       "platform": "PlayStation 3",
       "year": "older",
       "release": "2009"
@@ -2106,78 +2114,100 @@
       "name": "Tony Hawk's Pro Skater 3",
       "vibes": "",
       "gameplay": "",
-      "review": [],
-      "image": "",
+      "review": [
+        "My true love was Pro Skater 4, but this one I distinctly remember playing at a family friend's place when I was a child. I strongly remember the Foundry, Canada, Suburbia and Toyko, although the memories are more like core memories than specific things."
+      ],
+      "image": "tony-3.webp",
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2001"
     },
     {
       "name": "Croc: Legend of the Gobbos",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "1",
+      "review": [
+        "I borrowed this from my friend Oscar when I was a child because I loved Croc 2 so much, but was pretty disappointed by how the gobbos just look like fuzzballs, and the bosses were total bullshit. I never beat it but it's definitely not a good game so that's fine."
+      ],
+      "image": "croc.webp",
       "platform": "PlayStation",
       "year": "older",
       "release": "1997"
     },
     {
       "name": "Quantum Redshift",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "4",
+      "review": [
+        "Sometimes when we hung out with our friend Amy back then as teenagers, we used to play this racing game on her Xbox. It was alright. I watched a video of it again and it looks kinda shit."
+      ],
+      "image": "quantum-redshift.webp",
       "platform": "Xbox 360",
       "year": "older",
       "release": "2002"
     },
     {
       "name": "Fable",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "4",
+      "review": [
+        "Loved this classic game. My brother got it and at first I just played the good route and couldn't really understand why anyone would take the evil route. But then I grew up and played the evil part and it felt so fun, like breaking the rules. It was also the first game to have some kind of morality system, so this was all very exciting at the time. Looking back, it's kinda wild that games now just let you go around murdering people and living out evil fantasies. Anyway, the game is hilarious. It's old and probably aged very badly but I can imagine it would be a right laugh to play it again.",
+        "Funny story in year 10 we had to do a week's work experience somewhere, and the school gave out jobs like shelf stacking and stuff, but I wanted to be extra so I contacted a family friend who let me work at his game studio where he worked as an animator. It was sick! I didn't do any actual work I just hung out in their office. He was an animator and they were working on an Xbox game called 'Pure' so I got to see all the game dev for that. And this game studio before that made Fable! And said family friend had tons of old models and animations from all the characters and environments in Fable on his computer. It was so cool."
+      ],
+      "image": "fable.jpg",
       "platform": "Xbox",
       "year": "older",
       "release": "2004"
     },
     {
       "name": "Super Smash Bros. Ultimate",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "I mean where do I even begin. Anyone who knows me knows I love this game and it probably is my favourite game ever. I mean, come on. Imagine you're a nintendo fanboy and then they release a game with all your favourite nintendo characters in it, all your favourite nintendo music and in general all the fan service you could ever want. And the game is actually good. It's so good that I organise all the motherfucking tournaments for it in Berlin and compete in it myself even. This game is just the bees knees, it has everything. There are so many characters, and so of course I naturally gravitate towards my favourites. There's something for everyone here.",
+        "And the game is actually so good. There are so many layers of depth! As a child I remember early smash games the difference between learning how to Up-B back to stage, or how to use roll and spotdodge, and not knowing that stuff. That was like level 1 smash. Fastforward to today and I'm on like level 10 smash, playing in competitive tournaments. Now it's all about specific match up knowledge, having a gameplan and changing your gameplan mid-game. It's about mind games and understanding what your opponent will do. It's an actual fighting game and it turns out I'm super into that. Playing in tournament has been so satisfying, and I have loved slowly getting better over the years.",
+        "In fact I can only recommend to anyone to join the smash community. Going to tournaments is just so fun, and sure the community itself is full of nerds, and mostly they are boys, there are also a bunch of cool people, and there's no money involved. So it's an actual grassroots community, all just getting together for the love the game, and that is so cool. Now I'm a community leader and I do a lot of very fulfilling work for the community. It's nice and has inspired me to look for more community in my life.",
+        "I personally main Peach because she is just stunning. Her vibes are great and her victory screens are hilarious. I love that she has the float mechanic, which makes her able to move unlike any other character. It also means she has a very good disadvantage, so I don't have to be frustrated about not being able to get back to stage. Early smash ultimate days I even got some great results with her, but that's because she was a monster in the early meta. These days, the meta has been overcrowded with bullshit characters and camping, but luckily it doesn't hinder too much my enjoyment of the local tournaments that I put on. That being said, he's hoping for a switch 2 edition which nerfs Steve!",
+        "I'm not done talking about this game. Have you seen the soundtrack? There are over a thousand tracks. Each stage from each game franchise has a whole bunch of music from their respective games, and crucially, there are banger remixes of hundreds of these tracks. All my favourite nintendo games are represented here with some of the best remixes ever. What more could you possibly want?! Well, I guess a good online, but that's fine. Having a bad online just means that people are forced to come to my offline smash tournaments hehe"
+      ],
+      "image": "smash-ultimate.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Shantae and the Pirate's Curse",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
-      "platform": "Wii U",
+      "vibes": "9",
+      "gameplay": "8",
+      "review": [
+        "I loved this game! I think I played it during this empty Nintendo Wii U period desperately looking for something good. I was floored by the absolute bangers in the soundtrack and got hooked. I immediately made a mix of all the tracks (available on the music section of this website!) because they are so fucking good. The game itself is also great, although what is going on with the boobs? All the girls have insane boobs, and I played this on the 3DS, where the boobs literally pop out of the screen. Representation of women in video games, am I right"
+      ],
+      "image": "shantae-pirate.jpg",
+      "platform": "3DS",
       "year": "older",
       "release": "2014"
     },
     {
       "name": "Pokemon Y",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "4",
+      "review": [
+        "For me this game was the beginning of the end. Pokemon never really recovered from this game. This was when we all realised that they are more interested in making money than making good games.",
+        "It did have some great new pokemon in the new generation, so I'll give it that. And it had some hilarious moments, and the Team Flare music is great. But overall this game is just ridiculous, and the magic isn't really there."
+      ],
+      "image": "pokemon-y.jpg",
       "platform": "3DS",
       "year": "older",
       "release": "2013"
     },
     {
       "name": "World of Goo",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "7",
+      "review": [
+        "A cute and fun puzzle game! These physics kind of puzzles are also great. It might be the only WiiWare game I played."
+      ],
+      "image": "world-of-goo.jpg",
       "platform": "Wii",
       "year": "older",
       "release": "2008"
@@ -2186,88 +2216,121 @@
       "name": "Scribblenauts",
       "vibes": "",
       "gameplay": "",
-      "review": [],
-      "image": "",
+      "review": [
+        "In this game you could type in anything, and it would make an object of it in the game. It really attempts to go for the free user input approach to make a video game, which is brave. There are many words in the world! I started small but ended up testing the limits of the system pretty quickly. It's very easy to cheese all the levels after a bit of experimenting. Kudos to the devs for trying though."
+      ],
+      "image": "scribblenauts.webp",
       "platform": "DS",
       "year": "older",
       "release": "2009"
     },
     {
       "name": "The Legend of Zelda: The Wind Waker",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "Is it my favourite Zelda? It might just be. I remember being so insanely excited for this game as a child, and when I finally started playing, exploring Outset Island, I thought it was like paradise. It was everything I could ever want from a zelda game and more! And it had this beautiful artstyle which totally captured my imagination.",
+        "There are so many moments that I love, everything about Windfall Island, setting sail for the first time, the stealth bits in Forsaken Fortress, the cool Rito characters, the dragon on the mountain, the silly music in the forest, the sad music of the deku tree, Makar, the vibe switch when you get to the tower of the gods, when Tetra winks at you, being terrified of the zombies in the earth temple, the general vibe of the wind temple, Molgera's boss theme, that one ice island when link always falls on his face, the look on Link's face when he sidles along a ridge, the feeling you get when you unfreeze time in Hyrule castle, the part with puppet ganon. The game just has so many good moments and such good music to go with it. Is it flawless? No. But the HD remake is!"
+      ],
+      "image": "wind-waker.png",
       "platform": "Gamecube",
       "year": "older",
       "release": "2002"
     },
     {
+      "name": "The Legend of Zelda: The Wind Waker HD",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "Is it my favourite Zelda? It might just be. During the Nintendo drought of like 2013/2014, this was such a blessing. Absolute banger getting redone with a nice filter and some gameplay improvements. Perfect, stunning, and the best way to play the game. Absolutely wild that as of writing this (2025), it's still only available on Wii U."
+      ],
+      "image": "wind-waker-hd.jpg",
+      "platform": "Wii U",
+      "year": "older",
+      "release": "2013"
+    },
+    {
       "name": "Pokemon FireRed",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "7",
+      "review": [
+        "This game is actually class. The originals are kinda unplayable so having this somewhat sensible version of Kanto was totally amazing. This also opened my eyes to the idea of a 'remake' when I was a child. It's weird because this came out when I was 11, and back then I remember being nostalgic for the original which I must have played when I was like 6.",
+        "The Sevii islands were so cool, and Jessie and James were in it. Lots of love."
+      ],
+      "image": "pokemon-firered.jpg",
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004"
     },
     {
       "name": "GoldenEye 007",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "5",
+      "review": [
+        "My brother Cam played this game more than me, but I definitely also tried it. I have some core memories associated with the first few levels, and from being forced to play the multiplayer with my brothers. Back then I didn't really like violence in games at all so was much busier playing Donkey Kong 64 instead of this. But I enjoyed using the motion sensor mines. Also I used to think that the gun pictures in the image looked like a big fancy pen."
+      ],
+      "image": "goldeneye.webp",
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997"
     },
     {
       "name": "Super Mario Land",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "5",
+      "review": [
+        "I loved this game so much. It was my first mario game! Only later did I play super mario world so this was the benchmark for platformers for me. Definitely one of the very first games I ever played. Most notable is the classic music. Huge. Looking back, I appreciate that it's not in the mushroom kingdom and that there are worlds based on countries in real life. And also Daisy is the princess here, not Peach!"
+      ],
+      "image": "super-mario-land.jpg",
       "platform": "Gameboy",
       "year": "older",
       "release": "1989"
     },
     {
       "name": "Super Mario Kart",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "4",
+      "review": [
+        "I can't believe the first mario kart looked like this! They split the screen like this on the fucking super nintendo and straight up made a 3d game. Insane! The game itself is hard as balls but you can kinda get good at it if you keep at it. Some of these tracks are legendary, and I love it when they get remade in the newer mario kart games, it's just deeply satisfying.",
+        "I also have to shout out the soundtrack. Like 6 of the tracks is latin-inspired music! Salsa in things like Choco Island and Samba in Donut Plains, it's everywhere you listen. I love it! And of course this is where a brand new genre of music was invented: Rainbow Road music. Is there anything like it?"
+      ],
+      "image": "super-mario-kart.avif",
       "platform": "SNES",
       "year": "older",
       "release": "1992"
     },
     {
       "name": "Super Mario Bros.",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "5",
+      "review": [
+        "I mean yeah it's a classic but it's not like it's good. Still, I'm happy it exists."
+      ],
+      "image": "super-mario-bros.bmp",
       "platform": "NES",
       "year": "older",
       "release": "1985"
     },
     {
       "name": "Ball",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "1",
+      "gameplay": "0",
+      "review": [
+        "My friend Fab had a special Super Mario Game and Watch thing and I killed some time by playing the 'Ball' game on it, which is exactly how it used to be on the original Game and Watch. This game is boring as fuck, and there's no end. At some point I gave up and let myself die because it didn't become any more difficult. Would not recommend to a friend. But I'm satisfied to have played a game featuring the character from smash Mr Game and Watch."
+      ],
+      "image": "ball.webp",
       "platform": "Game and Watch",
       "year": "older",
       "release": "1980"
     },
     {
       "name": "Jet Pack Joyride",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "1",
+      "gameplay": "1",
+      "review": [
+        "God, I got so hopelessly addicted to this. I remember thinking, I just need to do a few more runs, then I can finally unlock all the stuff, but they kept releasing new stuff so quickly that I couldn't keep up. I became obsessed with just getting all the unlockables long after I stopped having fun with the game. In the end, this game taught me to never play mobile games again. Fuck games like this with predatory pricing systems and addictive gameplay loops. They're not even good."
+      ],
+      "image": "jetpack.webp",
       "platform": "Mobile",
       "year": "older",
       "release": "2011"
@@ -5091,6 +5154,307 @@
       "platform": "PlayStation 4",
       "year": "older",
       "release": "2018"
+    },
+    {
+      "name": "Farmville",
+      "vibes": "1",
+      "gameplay": "2",
+      "review": [
+        "This was the first major game to exist with microtransactions. At first, I was excited. It's a facebook game that EVERYONE was playing. It was so cool growing my plants and visiting all my facebook friends' farms to get rewards. I got hooked. Eventually though, more and more people at school quit it because they saw it for what it really was: a soulless money making scheme. I eventually got the memo and deleted it, but not before I spend 5 pounds on a decorative tea house for my farm. Why the fuck did I do that? It was an eye opening moment that really turned me off of games with microtransactions forever after."
+      ],
+      "image": "farmville.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Fishville",
+      "vibes": "0",
+      "gameplay": "1",
+      "review": [
+        "Another horrible facebook game that I played parallel to Farmville. No soul, no life, just a young me not yet understanding the power of microtransactions."
+      ],
+      "image": "fishville.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Insaniquarium",
+      "vibes": "3",
+      "gameplay": "1",
+      "review": [
+        "It's a browser game from Addicting Games dot com or something. It was great. A special time when there was just these flash or java games on the computer. This was the first time I ever played a browser game and I remember being blown away that it could remember how my aquarium looked without saving anything. That's the day I learned what cookies were."
+      ],
+      "image": "insaniquarium.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2001"
+    },
+    {
+      "name": "Cookie Clicker",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2013"
+    },
+    {
+      "name": "Universal Paperclips",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "",
+      "platform": "PC",
+      "year": "older",
+      "release": "2017"
+    },
+    {
+      "name": "Plague Inc",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "plague.jpg",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2012"
+    },
+    {
+      "name": "Yeti Sports",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "yeti-sports.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Falling Sand",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+        "This is a sick browser game which I had a lot of fun fucking around with. Physics! I feel like this little game is timeless. You can still play it <a href=\"https://boredhumans.com/falling_sand.php\">here</a>."
+      ],
+      "image": "falling-sand.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Flea Circus",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "flea-circus.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Microsoft Pinball Arcade",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "pinball.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "1998"
+    },
+    {
+      "name": "Microsoft Hearts",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "hearts.png",
+      "platform": "PC",
+      "year": "older",
+      "release": "1992"
+    },
+    {
+      "name": "Microsoft Hearts",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "hearts.png",
+      "platform": "PC",
+      "year": "older",
+      "release": "1992"
+    },
+    {
+      "name": "Microsoft Solitaire",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "solitaire.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "1990"
+    },
+    {
+      "name": "Words with Friends",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "words.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2009"
+    },
+    {
+      "name": "Bubble Trouble",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "bubble-trouble.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Club Penguin",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "club-penguin.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "The Impossible Quiz",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "impossible-quiz.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "2007"
+    },
+    {
+      "name": "Cyber Mice Party 2003",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "cyber-mice.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Minesweeper",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "minesweeper.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "1990"
+    },
+    {
+      "name": "Bug on a Wire",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "bug-wire.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Red Beard",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "red-beard.png",
+      "platform": "PC",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Twiddlestix",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "twiddlestix.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Line Rider",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "linerider.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2006"
+    },
+    {
+      "name": "The Classroom",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "classroom.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Kellogg's Frosties Gr-r-rand Prix",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "frosties.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "2003"
+    },
+    {
+      "name": "Lego Racers",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "lego-racers.png",
+      "platform": "PC",
+      "year": "older",
+      "release": "1999"
+    },
+    {
+      "name": "Snake",
+      "vibes": "",
+      "gameplay": "",
+      "review": [
+      ],
+      "image": "snake.png",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "1998"
     }
   ]
 }
