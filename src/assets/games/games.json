@@ -2337,80 +2337,98 @@
     },
     {
       "name": "Audiosurf",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "5",
+      "review": [
+        "This game was awesome because you could put in your own music and it would generate a rhythm game for it! And it would even have its own associated leaderboard, so you could go super niche and be the big boss for the Yoshi's Island DS title theme or something. I loved doing this it made me feel special playing rhythm games with all my favourite Nintendo tracks. I can't comment on whether it was actually good, but I remember thoroughly enjoying it."
+      ],
+      "image": "audiosurf.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2008"
     },
     {
       "name": "Pac-man",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "1",
+      "review": [
+        "I've played the original Pac-man, actually in an arcade for sure, but also in like a Google doodle as well. It's everywhere really. I wouldn't say it's good though. Iconic, but not actually fun. It's really unsatisfying leaving uneated pellets around."
+      ],
+      "image": "pacman-arcade.jpg",
       "platform": "Arcade",
       "year": "older",
       "release": "1980"
     },
     {
       "name": "Sonic 3 & Knuckles",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "Absolute banger of a game that I adored as a child. The music, hello? So many iconic areas, Angel Island, Hydrocity, Marble Garden, loved them all. The Knuckles version with all the extra levels is also amazing. This was peak Sonic for me for my whole life (at least until Sonic Mania happened)."
+      ],
+      "image": "sonic-3.jpg",
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1994"
     },
     {
       "name": "Infamous 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "2",
+      "review": [
+        "Not sure how I ended up playing this as well as the original, but it's equally as dumb and the characters very ugly."
+      ],
+      "image": "infamous-2.webp",
       "platform": "PlayStation 3",
       "year": "older",
       "release": "2011"
     },
     {
       "name": "Tony Hawk's Pro Skater 4",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "7",
+      "review": [
+        "Wow, looking back at screenshots of this game it looks so shit, but I swear this was the bees knees back then. I spent hours on it and got genuinely good at it. I did all the hard missions even on the unlockable levels like Carnival at the end. The licensed soundtrack gave this a punk rock vibe which I thought I didn't like but actually it's great. This is the best Tony Hawk's game for sure."
+      ],
+      "image": "tony-4.webp",
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2002"
     },
     {
-      "name": "Bust-a-move",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "name": "Bust-a-move 2 Arcade Edition",
+      "vibes": "7",
+      "gameplay": "6",
+      "review": [
+        "This is actually called 'Puzzle Bobble' but our version was called Bust-a-move for some reason. It's a banger! I struggled so hard against some of these levels and child me associated the pain with the little characters you were fighting against. There's a difficulty spike with the pink haired girl and I fucking loathed her."
+      ],
+      "image": "bust-a-move.jpg",
       "platform": "PlayStation",
       "year": "older",
       "release": "1994"
     },
     {
       "name": "Halo 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "3",
+      "review": [
+        "I never really loved this game, but my brother played it all the time. Sometimes we played multiplayer, so I would just look for the purple gun because it looked nice. Shooting games like this were never my thing, I was too busy playing Diddy Kong Racing."
+      ],
+      "image": "halo-2",
       "platform": "Xbox",
       "year": "older",
       "release": "2004"
     },
     {
       "name": "The Legend of Zelda: Breath of the Wild",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "9",
+      "review": [
+        "It's a classic! This game redefined open world gaming and said, no it doesn't have to be like Ubisoft like it. In this game, you go to a tower, you climb it, and you look out and see a bunch of cool shit that you wanna check out. There's so much cool shit! Shrines are fun and just hanging out and glamping is just great.",
+        "The music is super special. It's piano based and very sparse in the open world. The towns and battles all have that zelda style, but it's a bit different, the music is kinda kooky (look at the normal battle theme) but also light and airy, thanks to the acoustic instrumentation. I really love it.",
+        "The story is totally shit, but this game isn't about the story. You have to let that go."
+      ],
+      "image": "zelda-botw.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
@@ -5193,22 +5211,24 @@
     },
     {
       "name": "Cookie Clicker",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "6",
+      "gameplay": "6",
       "review": [
+        "It's an idle game about making as many cookies as possible and it's really good. You can just get started on it already but make sure you don't play at work! I consider this the ultimate idle game"
       ],
-      "image": "",
+      "image": "cookie.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2013"
     },
     {
       "name": "Universal Paperclips",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "1",
+      "gameplay": "3",
       "review": [
+        "It's an idle game about making as many paperclips as possible. I think this ends up being a commentary on AI. An AI, having been told to create as many paperclips as possible, will destroy humanity in order to do so."
       ],
-      "image": "",
+      "image": "paperclips.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2017"
@@ -5218,6 +5238,7 @@
       "vibes": "",
       "gameplay": "",
       "review": [
+        "A game about spreading a deadly virus and killing everyone. I enjoyed playing this for a bit, it taught me about infectiousness and deadliness. I remember failing to infect Greenland because I thought they were insignificant but they ended up successfully isolating there and survived the plague."
       ],
       "image": "plague.jpg",
       "platform": "Mobile",
@@ -5226,9 +5247,10 @@
     },
     {
       "name": "Yeti Sports",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "3",
+      "gameplay": "4",
       "review": [
+        "A bizarre collection of games where a yeti does some extreme sports. It's all very weird and not good or anything but it was a serious conversation topic in primary school."
       ],
       "image": "yeti-sports.webp",
       "platform": "PC",
@@ -5237,8 +5259,8 @@
     },
     {
       "name": "Falling Sand",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "8",
+      "gameplay": "5",
       "review": [
         "This is a sick browser game which I had a lot of fun fucking around with. Physics! I feel like this little game is timeless. You can still play it <a href=\"https://boredhumans.com/falling_sand.php\">here</a>."
       ],
@@ -5249,9 +5271,10 @@
     },
     {
       "name": "Flea Circus",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "3",
+      "gameplay": "6",
       "review": [
+        "I was so obsessed with Runescape that I visited the website of Jagex, the people who made it and sent them emails and shit. I also found this other game they had on there which is somethign like a tech demo. I loved it! Maybe this was the birth of my love of puzzle games. It was well hard."
       ],
       "image": "flea-circus.webp",
       "platform": "PC",
@@ -5260,9 +5283,10 @@
     },
     {
       "name": "Microsoft Pinball Arcade",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "8",
+      "gameplay": "4",
       "review": [
+        "This is such a throwback. I loved this, even though I never truly understood how to do well in it. I have a strong memory of playing this at my grandparent's house in France, having an insane run and asking myself how the fuck did I do that? At the same time, my brothers were in my room and called me 'fart boy' because I farted in my sleep all the time. I got upset and cried"
       ],
       "image": "pinball.webp",
       "platform": "PC",
@@ -5271,20 +5295,10 @@
     },
     {
       "name": "Microsoft Hearts",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "5",
+      "gameplay": "4",
       "review": [
-      ],
-      "image": "hearts.png",
-      "platform": "PC",
-      "year": "older",
-      "release": "1992"
-    },
-    {
-      "name": "Microsoft Hearts",
-      "vibes": "",
-      "gameplay": "",
-      "review": [
+        "I enjoyed playing this against the computer on Windows XP. This is a family favourite card game so I was good at it, even as a child."
       ],
       "image": "hearts.png",
       "platform": "PC",
@@ -5293,9 +5307,10 @@
     },
     {
       "name": "Microsoft Solitaire",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "7",
+      "gameplay": "3",
       "review": [
+        "I loved playing this on Windows XP when I was bored. I really enjoyed the different images on the cards, especially the beach theme."
       ],
       "image": "solitaire.webp",
       "platform": "PC",
@@ -5304,20 +5319,22 @@
     },
     {
       "name": "Words with Friends",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "4",
+      "gameplay": "7",
       "review": [
+        "A mobile game where you can play crosswords with your friends asynchronously! I played with my friend Charlotte and my mum and it was great. I always won and it was awesome. Scrabble still a great board game."
       ],
       "image": "words.webp",
-      "platform": "PC",
+      "platform": "Mobile",
       "year": "older",
       "release": "2009"
     },
     {
       "name": "Bubble Trouble",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "2",
+      "gameplay": "1",
       "review": [
+        "This was a flash game from miniclip.com that I enjoyed, but playing it back now, it's total bullshit. Still, shoutouts to whoever made this for doing something new I guess."
       ],
       "image": "bubble-trouble.jpg",
       "platform": "PC",
@@ -5326,9 +5343,10 @@
     },
     {
       "name": "Club Penguin",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "7",
+      "gameplay": "2",
       "review": [
+        "I didn't truly engage with Club Penguin but I dipped my toes in. I enjoy that it became a meme later down the line. I remember there not being anything to do there."
       ],
       "image": "club-penguin.webp",
       "platform": "PC",
@@ -5340,6 +5358,7 @@
       "vibes": "",
       "gameplay": "",
       "review": [
+        "It's that old internet humour which back then, I 100% subscribed to. Playing this now I'm just immediately not interested in playing because it's total bullshit. But back then there weren't actual good games on the internet so I just bashed my head against this until I beat it. Also playing it now I'm asking myself, did the original have the Rocky theme tune in the background? It did, right? I have no way of checking that."
       ],
       "image": "impossible-quiz.jpg",
       "platform": "PC",
@@ -5348,9 +5367,10 @@
     },
     {
       "name": "Cyber Mice Party 2003",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "2",
+      "gameplay": "1",
       "review": [
+        "I have a core memory of this flash game. Sometimes when I'm killing time and I have objects on a desk in front of me, I imagine the mice moving between the objects. Still to this day I think about it."
       ],
       "image": "cyber-mice.jpg",
       "platform": "PC",
@@ -5359,9 +5379,10 @@
     },
     {
       "name": "Minesweeper",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "5",
+      "gameplay": "5",
       "review": [
+        "Who didn't play the OG minesweeper on their Windows XP computer. This shit was so good. The excitement of finding a 4, the misery of the 50/50. The drama"
       ],
       "image": "minesweeper.jpg",
       "platform": "PC",
@@ -5370,9 +5391,10 @@
     },
     {
       "name": "Bug on a Wire",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "9",
+      "gameplay": "2",
       "review": [
+        "I can't say how this old flash game I found on miniclip.com ended up having such impeccable vibes, but it just does and we all have to accept that. The music is so good, it makes me feel like this bug's journey is truly endless. The premise of this game is wild. Why does the bug need to get over there so quickly? The game always ends at the same point because the difficulty spike is insane but for those two minutes, I feel some kind of peace."
       ],
       "image": "bug-wire.webp",
       "platform": "PC",
@@ -5381,9 +5403,10 @@
     },
     {
       "name": "Red Beard",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "4",
+      "gameplay": "2",
       "review": [
+        "For me a very formative platformer. I remember playing this on miniclip on the primary school library computers."
       ],
       "image": "red-beard.png",
       "platform": "PC",
@@ -5392,9 +5415,10 @@
     },
     {
       "name": "Twiddlestix",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "3",
+      "gameplay": "6",
       "review": [
+        "THIS is where I recognised Kuru Kuru Kururin from!! There was this nagging feeling at the back of my mind that I'd seen it before and lo and behold, this flash game I played on miniclip way back when was a blatent rip off of it. I played it again just now and it's so much worse than Kuru. The game concept is still great though so you should go play Kuru on the Nintendo Switch online!"
       ],
       "image": "twiddlestix.jpg",
       "platform": "PC",
@@ -5402,10 +5426,23 @@
       "release": "2003"
     },
     {
-      "name": "Line Rider",
-      "vibes": "",
-      "gameplay": "",
+      "name": "Roller Coaster Tycoon 3",
+      "vibes": "2",
+      "gameplay": "5",
       "review": [
+        "What a downgrade from the originals! The vibes are off and the game performs badly. Since then the series has nosedived, sad."
+      ],
+      "image": "rollercoaster-3.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "2004"
+    },
+    {
+      "name": "Line Rider",
+      "vibes": "7",
+      "gameplay": "9",
+      "review": [
+        "Genuinely fantastic game for your desktop! I spent ages making the most bomb-ass tracks for this little dude to ride down. It's all about momentum and controlling his speed. You can also add environment lines which don't affect the course which change everything. Suddenly, it becomes art. I know that many artists have uploaded amazing linerider tracks to youtube with beautiful drawing and sometimes even synced to music. So good. So much respect for Line Rider."
       ],
       "image": "linerider.webp",
       "platform": "PC",
@@ -5414,9 +5451,10 @@
     },
     {
       "name": "The Classroom",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "1",
+      "gameplay": "3",
       "review": [
+        "This is a seemingly innocent game about stealthing past the teacher to copy the answers of a smart person in a school exam without being seen. Except it has this FUCKED UP ending where there's a school shooting and you have to use your stealth skills to avoid the shooter. Looking back, fucking wild."
       ],
       "image": "classroom.webp",
       "platform": "PC",
@@ -5425,9 +5463,10 @@
     },
     {
       "name": "Kellogg's Frosties Gr-r-rand Prix",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "2",
+      "gameplay": "2",
       "review": [
+        "This is some copy and paste racing sim game from the deep depths of my memory. I remember playing it because it came in a box of frosties."
       ],
       "image": "frosties.webp",
       "platform": "PC",
@@ -5436,9 +5475,10 @@
     },
     {
       "name": "Lego Racers",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "7",
+      "gameplay": "6",
       "review": [
+        "My friend Tim loved this game and he's so right. Looking back, this had so much wild shit in it, like actual shortcuts. Mario Kart could never. You can build your own cart and that was the coolest fucking thing back then."
       ],
       "image": "lego-racers.png",
       "platform": "PC",
@@ -5447,14 +5487,27 @@
     },
     {
       "name": "Snake",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "1",
+      "gameplay": "3",
       "review": [
+        "I mean it's a classic and when I had a Nokia, you know I was all over this game while waiting for the bus or something"
       ],
       "image": "snake.png",
       "platform": "Mobile",
       "year": "older",
       "release": "1998"
+    },
+    {
+      "name": "Flow Free",
+      "vibes": "1",
+      "gameplay": "1",
+      "review": [
+        "A shitty mobile game I played about connecting dots. Really hard to find this one because of all the identical clones on the app store. What even is mobile gaming anymore"
+      ],
+      "image": "connect.png",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2012"
     }
   ]
 }

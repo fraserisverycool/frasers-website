@@ -38,6 +38,9 @@ export const routes: Routes = [
     path: 'music/mixes', loadComponent: () => import('./music/mixes/mixes.component')
   },
   {
+    path: 'music/cds', loadComponent: () => import('./music/cds/cds.component')
+  },
+  {
     path: 'music/worldpeace', loadComponent: () => import('./music/worldpeace/worldpeace.component')
   },
   {

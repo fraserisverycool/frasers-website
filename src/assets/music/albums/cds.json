@@ -1,0 +1,753 @@
+{
+  "cds": [
+  {
+    "artist": "Aldous Harding",
+    "album": "Designer",
+    "genre": "Art Pop",
+    "description": "An all time fave. Chill & weird music. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "aldous-party.jpg"
+  },
+  {
+    "artist": "Anohni and the Johnsons",
+    "album": "My Back was a Bridge for You to Cross",
+    "genre": "Art Pop",
+    "description": "Only really suitable for listening to on your own. Nonetheless totally gorgeous and you can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "anohni-back.png"
+  },
+  {
+    "artist": "Björk",
+    "album": "Post",
+    "genre": "Art Pop",
+    "description": "A wackier album, expect some heads turned if you put this on the CD player.",
+    "image": "björk-post.jpg"
+  },
+  {
+    "artist": "Björk",
+    "album": "Homogenic",
+    "genre": "Art Pop",
+    "description": "A fave. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "björk-homogenic.jpg"
+  },
+  {
+    "artist": "Björk",
+    "album": "Debut",
+    "genre": "Art Pop",
+    "description": "A classic. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "björk-debut.jpg"
+  },
+  {
+    "artist": "PJ Harvey",
+    "album": "Let England Shake",
+    "genre": "Art Pop",
+    "description": "A gift from Lydia. I like it a lot.",
+    "image": "pj-england.jpg"
+  },
+  {
+    "artist": "Portishead",
+    "album": "Dummy",
+    "genre": "Art Pop",
+    "description": "Got this CD twice by accident so if anyone wants another one let me know.",
+    "image": "portishead-dummy.jpg"
+  },
+  {
+    "artist": "Magdalena Bay",
+    "album": "Imaginal Disk",
+    "genre": "Art Pop",
+    "description": "Was obsessed with this album in 2024. Great to put on for gay party people.",
+    "image": "magdalena-imaginal.jpg"
+  },
+  {
+    "artist": "Regina Spektor",
+    "album": "What We Saw from the Cheap Seats",
+    "genre": "Art Pop",
+    "description": "Love this album. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "regina-cheap.jpg"
+  },
+  {
+    "artist": "Regina Spektor",
+    "album": "Soviet Kitsch",
+    "genre": "Art Pop",
+    "description": "Maybe my favourite of hers. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "regina-soviet.jpg"
+  },
+  {
+    "artist": "Regina Spektor",
+    "album": "Far",
+    "genre": "Art Pop",
+    "description": "More pop-y tracks from Regina. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "regina-far.jpg"
+  },
+  {
+    "artist": "Róisín Murphy",
+    "album": "Ruby Blue",
+    "genre": "Art Pop",
+    "description": "Very out there early Roisin that I borrowed from Kitty and never gave back.",
+    "image": "roisin-ruby.png"
+  },
+  {
+    "artist": "Spellling",
+    "album": "The Turning Wheel",
+    "genre": "Art Pop",
+    "description": "Beautiful and magical music. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "spellling-turning.jpg"
+  },
+  {
+    "artist": "Adele",
+    "album": "30",
+    "genre": "Pop",
+    "description": "Nice pop ballads.",
+    "image": "adele-30.jpg"
+  },
+  {
+    "artist": "Amy Winehouse",
+    "album": "Frank",
+    "genre": "Pop",
+    "description": "All time classic. Great for all situations. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "amy-frank.jpg"
+  },
+  {
+    "artist": "Destiny's Child",
+    "album": "The Writing's on the Wall",
+    "genre": "Pop",
+    "description": "Pre-drinking for the queer party music. A gift from Kitty",
+    "image": "destiny-writing.jpg"
+  },
+  {
+    "artist": "Goldfrapp",
+    "album": "Supernature",
+    "genre": "Pop",
+    "description": "Underrated classic dance pop",
+    "image": "goldfrapp-supernature.jpg"
+  },
+  {
+    "artist": "Janelle Monáe",
+    "album": "The ArchAndroid",
+    "genre": "Pop",
+    "description": "One of my all-time faves. Vast, all-encompassing music. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "janelle-arch.jpg"
+  },
+  {
+    "artist": "Janet Jackson",
+    "album": "The Velvet Rope",
+    "genre": "Pop",
+    "description": "Classic, perfect for a party. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "janet-velvet.jpg"
+  },
+  {
+    "artist": "Kylie Minogue",
+    "album": "Rhythm of Love",
+    "genre": "Pop",
+    "description": "Timeless and perfect. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "kylie-rhythm.png"
+  },
+  {
+    "artist": "Lykke Li",
+    "album": "Wounded Rhymes",
+    "genre": "Pop",
+    "description": "Sad and beautiful. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "lykke-wounded.jpg"
+  },
+  {
+    "artist": "Madonna",
+    "album": "Music",
+    "genre": "Pop",
+    "description": "Given to me by a Grindr hookup. Great result, great album.",
+    "image": "madonna-music.jpg"
+  },
+  {
+    "artist": "Madonna",
+    "album": "Erotica",
+    "genre": "Pop",
+    "description": "Vogue music! You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "madonna-erotica.png"
+  },
+  {
+    "artist": "Natalia Lafourcade",
+    "album": "Hasta La Raíz",
+    "genre": "Pop",
+    "description": "Legendary Mexican singer!",
+    "image": "natalia-raiz.jpg"
+  },
+  {
+    "artist": "Nelly Furtado",
+    "album": "Whoa, Nelly!",
+    "genre": "Pop",
+    "description": "The original Nelly Furtado tracks",
+    "image": "nelly-whoa.webp"
+  },
+  {
+    "artist": "Nelly Furtado",
+    "album": "Folklore",
+    "genre": "Pop",
+    "description": "Kinda indie pop music. My favourite from her. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "nelly-folklore.jpg"
+  },
+  {
+    "artist": "Prince",
+    "album": "1999",
+    "genre": "Pop",
+    "description": "Great for party prep. Crowd-pleaser",
+    "image": "prince-1999.png"
+  },
+  {
+    "artist": "Tears For Fears",
+    "album": "Songs from the Big Chair",
+    "genre": "Pop",
+    "description": "Dramatic music! Some classics on here",
+    "image": "tears-songs.jpg"
+  },
+  {
+    "artist": "Various Artists",
+    "album": "Party Collection Vol.2",
+    "genre": "Pop",
+    "description": "A fun compilation I found",
+    "image": "party-2.jpg"
+  },
+  {
+    "artist": "Various Artists",
+    "album": "Party Collection Vol.3",
+    "genre": "Pop",
+    "description": "Another fun compilation I found",
+    "image": "party-3.jpg"
+  },
+  {
+    "artist": "Air",
+    "album": "Moon Safari",
+    "genre": "Rock & Electronic",
+    "description": "Classic, easy listening early 2000s electronica. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "air-moon.jpg"
+  },
+  {
+    "artist": "Bonobo",
+    "album": "Black Sands",
+    "genre": "Rock & Electronic",
+    "description": "Crowd-pleaser, everyone loves this banger album. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "bonobo-black.jpg"
+  },
+  {
+    "artist": "Chet Faker",
+    "album": "Built on Glass",
+    "genre": "Rock & Electronic",
+    "description": "Chill, soulful music",
+    "image": "chet-built.jpg"
+  },
+  {
+    "artist": "Django Django",
+    "album": "Off Planet",
+    "genre": "Rock & Electronic",
+    "description": "Very eclectic. Kinda house-y, kinda pop-y, hard to pin down. There's this one track on disc one that I hate",
+    "image": "django-planet.jpg"
+  },
+  {
+    "artist": "Kero Kero Bonito",
+    "album": "Civilisation",
+    "genre": "Rock & Electronic",
+    "description": "A Fraser favourite and if you put this on I will just die. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "kkb-civilisation.jpg"
+  },
+  {
+    "artist": "Hot Chip",
+    "album": "In Our Heads",
+    "genre": "Rock & Electronic",
+    "description": "This one always goes down well. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "hot-heads.jpg"
+  },
+  {
+    "artist": "Röyksopp",
+    "album": "Melody AM",
+    "genre": "Rock & Electronic",
+    "description": "Chill electronic music. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "röyksopp-melody.jpg"
+  },
+  {
+    "artist": "The Stranglers",
+    "album": "Greatest Hits",
+    "genre": "Rock & Electronic",
+    "description": "70s rock music. Great for when older generations are in the room",
+    "image": "stranglers-greatest.jpg"
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Plastic Beach",
+    "genre": "Rock & Electronic",
+    "description": "Well known and cool music from Gorillaz. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "gorillaz-plastic.jpg"
+  },
+  {
+    "artist": "Tame Impala",
+    "album": "Lonerism",
+    "genre": "Rock & Electronic",
+    "description": "Imo the better of the Tame Impala albums. Psych rock",
+    "image": "tame-lonerism.jpg"
+  },
+  {
+    "artist": "Earth, Wind and Fire",
+    "album": "Greatest Hits",
+    "genre": "House & Disco",
+    "description": "Classic disco tracks for you and your family",
+    "image": "earth-greatest.jpg"
+  },
+  {
+    "artist": "Jessie Ware",
+    "album": "What's Your Pleasure (Platinum Edition)",
+    "genre": "House & Disco",
+    "description": "Pop perfection from the disco princess. B side CD is my favourite. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "jessie-pleasure-2.jpg"
+  },
+  {
+    "artist": "Chaka Khan",
+    "album": "Epiphany: The Best of Chaka Khan",
+    "genre": "House & Disco",
+    "description": "Great party disco pop",
+    "image": "chaka-epiphany.jpg"
+  },
+  {
+    "artist": "Diana Ross",
+    "album": "Love & Life",
+    "genre": "House & Disco",
+    "description": "I mean it's Diana Ross",
+    "image": "diana-love.jpg"
+  },
+  {
+    "artist": "Donna Summer",
+    "album": "The Best of Donna Summer",
+    "genre": "House & Disco",
+    "description": "This compilation is so good",
+    "image": "donna-greatest.jpg"
+  },
+  {
+    "artist": "Donna Summer",
+    "album": "Another Place and Time",
+    "genre": "House & Disco",
+    "description": "I was gifted this by a Grindr hook up",
+    "image": "donna-another.jpg"
+  },
+  {
+    "artist": "Hercules & Love Affair",
+    "album": "Blue Songs",
+    "genre": "House & Disco",
+    "description": "It's nice upbeat background music but it doesn't feature their famous song with Anohni",
+    "image": "hercules-blue.jpg"
+  },
+  {
+    "artist": "Ana Frango Elétrico",
+    "album": "Me Chama de Gato que eu Sou Sua",
+    "genre": "House & Disco",
+    "description": "Brazilian rock/disco music. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "ana-chama.jpg"
+  },
+  {
+    "artist": "Titlez",
+    "album": "Family Affairs",
+    "genre": "House & Disco",
+    "description": "No idea where this came from but it's got some banger house music on it",
+    "image": "titlez-family.jpg"
+  },
+  {
+    "artist": "Beirut",
+    "album": "The Flying Club Cup",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Peaceful and nice French-inspired album. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "beirut-flying.jpg"
+  },
+  {
+    "artist": "Bon Iver",
+    "album": "For Emma, Forever Ago",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Music for sleep. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "bon-emma.jpg"
+  },
+  {
+    "artist": "Broken Bells",
+    "album": "Broken Bells",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Music for doing things in the house. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "broken-bells.jpg"
+  },
+  {
+    "artist": "Feist",
+    "album": "The Reminder",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Her famous hits are on this album. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "feist-reminder.jpg"
+  },
+  {
+    "artist": "Feist",
+    "album": "Let It Die",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Older, rawer Feist. I love this one. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "feist-die.jpg"
+  },
+  {
+    "artist": "Fleet Foxes",
+    "album": "Helplessness Blues",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Classic folky stuff. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "fleet-helpless.jpg"
+  },
+  {
+    "artist": "Jens Lekman",
+    "album": "Night Over Kortedala",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Maybe not for everyone but for me an absolute favourite. Crucially on streaming services is a newer (worse) version of this album so you have the original on my CD player. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "jens-night.jpg"
+  },
+  {
+    "artist": "The Leisure Society",
+    "album": "Into The Murky Water",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Inoffensive folky music that I always loved. Great album art. I also have two of them for some reason",
+    "image": "leisure-murky.jpg"
+  },
+  {
+    "artist": "The Lovin' Spoonful",
+    "album": "Summer in the City",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "60s music if you're looking for that vibe",
+    "image": "lovin-summer.jpg"
+  },
+  {
+    "artist": "Kings of Convenience",
+    "album": "Riot on an Empty Street",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Very peaceful music. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "kings-riot.jpg"
+  },
+  {
+    "artist": "Kings of Convenience",
+    "album": "Quiet is the New Loud",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Super peaceful music. A gift from Diego. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "kings-quiet.jpg"
+  },
+  {
+    "artist": "Laura Marling",
+    "album": "Song For Our Daughter",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Beautiful tracks. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "laura-song.jpg"
+  },
+  {
+    "artist": "Mark Barnes",
+    "album": "Welcome to Cholsey",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "This CD is fucked up because it's so old and it glitches so much that its unlistenable. It's also just terrible. But it has a special place in my heart because it's from a neighbouring village to where I'm from and I don't want to throw it away. I just hope nobody puts this on. If you're interested you can watch this video of <a href=\"https://youtu.be/8RA99j62Y14?feature=shared\">the legend himself</a>.",
+    "image": "mark-cholsey.jpg"
+  },
+  {
+    "artist": "Nick Drake",
+    "album": "Pink Moon",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Peaceful and beautiful songs from popular folk artist Nick Drake.",
+    "image": "nick-pink.jpg"
+  },
+  {
+    "artist": "Simon and Garfunkel",
+    "album": "Greatest Hits",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "All their hits. I love this CD",
+    "image": "simon-greatest.jpg"
+  },
+  {
+    "artist": "Stornoway",
+    "album": "Beachcomber's Windowsill",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "For fans on England I guess. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "stornoway-beachcomber.jpg"
+  },
+  {
+    "artist": "Sufjan Stevens",
+    "album": "Illinois",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "American indie music with a special instrumentation and flair. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "sufjan-illinois.jpg"
+  },
+  {
+    "artist": "The Tallest Man on Earth",
+    "album": "Sometimes the Blues is just a Passing Bird",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Beautiful EP that I cherish",
+    "image": "tallest-blues.jpg"
+  },
+  {
+    "artist": "The Tallest Man on Earth",
+    "album": "Henry St",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "His newer album which is also great but not one of my favourites",
+    "image": "tallest-henry.webp"
+  },
+  {
+    "artist": "The Tallest Man on Earth",
+    "album": "The Wild Hunt",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Classic, beautiful guitar tracks. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "tallest-wild.jpg"
+  },
+  {
+    "artist": "Tunng",
+    "album": "Good Arrows",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Their weirder album probably. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "tunng-good.jpg"
+  },
+  {
+    "artist": "Tunng",
+    "album": "Turbines",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Niche album that I love. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "tunng-turbines.jpg"
+  },
+  {
+    "artist": "Tunng",
+    "album": "...And Then We Saw Land",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Their hit album with folky-electronica vibes. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "tunng-land.jpg"
+  },
+  {
+    "artist": "Weyes Blood",
+    "album": "Titanic Rising",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Beautiful magic music from the stunning Weyes Blood. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "weyes-titanic.webp"
+  },
+  {
+    "artist": "Weyes Blood",
+    "album": "And in the Darkness, Hearts Aglow",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "Gorgeous. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "weyes-darkness.jpg"
+  },
+  {
+    "artist": "D'Angelo",
+    "album": "Brown Sugar",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Classic neo-soul album",
+    "image": "d'angelo-brown.jpg"
+  },
+  {
+    "artist": "Duke Ellington",
+    "album": "This is Jazz 7",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Classic root-de-toot on the old trumpet jazz",
+    "image": "duke-jazz.jpg"
+  },
+  {
+    "artist": "Erykah Badu",
+    "album": "Baduizm",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Classic neo-soul album. I love her so much. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "erykah-baduizm.jpg"
+  },
+  {
+    "artist": "Erykah Badu",
+    "album": "Mama's Gun",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "My favourite from neo-soul queen herself Erykah Badu. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "erykah-mama.jpg"
+  },
+  {
+    "artist": "Frank Ocean",
+    "album": "Channel Orange",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Classic hip-hop/soul record. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "frank-orange.jpg"
+  },
+  {
+    "artist": "Lauryn Hill",
+    "album": "The Miseducation of Lauryn Hill",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Classic hip-hop album",
+    "image": "lauryn-miseducation.jpg"
+  },
+  {
+    "artist": "Marvin Gaye",
+    "album": "What's Going On?",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Light and airy soul music. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "marvin-what.jpg"
+  },
+  {
+    "artist": "Michael Jackson",
+    "album": "Off the Wall",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "I feel weird about having this CD because I do believe he molested children",
+    "image": "michael-wall.jpg"
+  },
+  {
+    "artist": "Michael Kiwanuka",
+    "album": "KIWANUKA",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Stunning soul album. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "michael-kiwanuka.jpg"
+  },
+  {
+    "artist": "Miles Davis",
+    "album": "Kind of Blue",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Some bebop music. Peaceful",
+    "image": "miles-kind.jpg"
+  },
+  {
+    "artist": "Nina Simone",
+    "album": "The Very Best of Nina Simone",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "So many classics. She's amazing",
+    "image": "nina-very.jpg"
+  },
+  {
+    "artist": "Nina Simone",
+    "album": "Little Girl Blue",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Lovely album featuring many of my favourites",
+    "image": "nina-little.jpg"
+  },
+  {
+    "artist": "Sault",
+    "album": 9,
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Lovely soul album. It's a bit special because it's no longer available on streaming services. So enjoy it on my CD player while you can!",
+    "image": "sault-9.jpg"
+  },
+  {
+    "artist": "Stevie Wonder",
+    "album": "Songs in the Key of Life",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Classic feel-good album",
+    "image": "stevie-key.jpg"
+  },
+  {
+    "artist": "Sun Ra",
+    "album": "Space is the Place",
+    "genre": "Jazz, Soul & Hip-Hop",
+    "description": "Very bizarre and inaccessible music, straight up do not recommend",
+    "image": "sun-space.jpg"
+  },
+  {
+    "artist": "Caetano Veloso",
+    "album": "Antologia",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "Bossa nova inspired music from Brazil",
+    "image": "caetano-antologia.jpg"
+  },
+  {
+    "artist": "Corinne Bailey Rae",
+    "album": "Corinne Bailey Rae",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "Pleasant singer",
+    "image": "corinne-bailey.jpg"
+  },
+  {
+    "artist": "Madeleine Peyroux",
+    "album": "Careless Love",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "Music that my mum likes. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "madeleine-careless.jpg"
+  },
+  {
+    "artist": "Melody Gardot",
+    "album": "My One and Only Thrill",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "Music that my mum likes. Very classy",
+    "image": "melody-thrill.jpg"
+  },
+  {
+    "artist": "Melody Gardot",
+    "album": "The Absence",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "Lots of really nice Portuguese-inspired music",
+    "image": "melody-absence.jpg"
+  },
+  {
+    "artist": "Norah Jones",
+    "album": "Feels Like Home",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "Classic peaceful music. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "norah-feels.jpg"
+  },
+  {
+    "artist": "Norah Jones",
+    "album": "Not Too Late",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "My personal fave from Norah. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "norah-not.jpg"
+  },
+  {
+    "artist": "Riveros",
+    "album": "La Verdad",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "Not a great CD. From a failed Mexican artist. Jack has a funny story about how they got me this CD",
+    "image": "riveros-verdad.jpg"
+  },
+  {
+    "artist": "Rhye",
+    "album": "Woman",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "The true meaning of the word love. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "rhye-woman.jpg"
+  },
+  {
+    "artist": "Sade",
+    "album": "The Ultimate Collection",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "My queen Sade. So smooth, so classy. A gift from Ort",
+    "image": "sade-ultimate.jpg"
+  },
+  {
+    "artist": "Sade",
+    "album": "Love Deluxe",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "The ultimate Sade album. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
+    "image": "sade-love.jpg"
+  },
+  {
+    "artist": "Sessa",
+    "album": "Estrela Acesa",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "Very smooth brazilian jazz album. Bought the CD from the man himself when I saw him in concert",
+    "image": "sessa-estrela.jpg"
+  },
+  {
+    "artist": "Toninho Horta",
+    "album": "Moonstone",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "A gift from Diego. Gorgeous brazilian music",
+    "image": "toninho-moonstone.jpg"
+  },
+  {
+    "artist": "Garoad",
+    "album": "VA-11 Hall-A",
+    "genre": "Video Game OST",
+    "description": "Amazing vibes, electronic jpop style",
+    "image": "garoad-vallhalla.jpg"
+  },
+  {
+    "artist": "Barry Topping",
+    "album": "Paradise Killer",
+    "genre": "Video Game OST",
+    "description": "Vaporwave kinda music, although upbeat",
+    "image": "barry-paradise.webp"
+  },
+  {
+    "artist": "Debussy",
+    "album": "Piano Works",
+    "genre": "Classical",
+    "description": "Beautiful piano music",
+    "image": "debussy-clair.jpg"
+  },
+  {
+    "artist": "Chopin",
+    "album": "Nocturnes",
+    "genre": "Classical",
+    "description": "Beautiful and melancholic piano music",
+    "image": "chopin-nocturnes.jpg"
+  },
+  {
+    "artist": "Rimsky-Korsakov",
+    "album": "Scheherezade",
+    "genre": "Classical",
+    "description": "My favourite symphony!",
+    "image": "rimsky-scheherezade.jpg"
+  }
+]
+}

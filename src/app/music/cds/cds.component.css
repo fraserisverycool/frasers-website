@@ -1,0 +1,236 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2px solid #023000;
+  border-radius: 8px;
+  background-color: #caff9e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  width: 100%;
+}
+
+h4 {
+  text-align: center;
+  color: #333;
+  width: 100%;
+  max-width: 800px;
+}
+
+.cd-card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .cd-card {
+    width: calc(50% - 20px); /* Two cards per row on mobile */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cd-card {
+    width: calc(100% - 20px); /* One card per row on very small screens */
+  }
+}
+
+.cd-card:hover {
+  transform: scale(1.05);
+}
+
+.cd-image-container {
+  width: 100%;
+  padding-top: calc(100%); /* This makes the image container square */
+  position: relative;
+  overflow: hidden;
+}
+
+.cd-image {
+  position: absolute;
+  top: 13px;
+  left: 21px;
+  width: 89%;
+  height: 89%;
+  object-fit: cover; /* This ensures the image covers the entire square */
+}
+
+.cd-case {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* This ensures the CD case image fits within the square */
+  pointer-events: none; /* Prevents the CD case image from interfering with clicks */
+}
+
+.cd-info {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  border-radius: 8px 8px 8px 8px;
+  flex-grow: 1;
+}
+
+.cd-name {
+  margin-bottom: 5px; /* Add a little space between name and date */
+}
+
+.cd-date {
+  font-size: 0.8em; /* Make the date smaller */
+  opacity: 0.8; /* Make the date slightly less prominent */
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.sorting-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sorting-buttons button {
+  padding: 10px 15px;
+  background-color: #6fa840;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sorting-buttons button:hover {
+  transform: scale(1.1);
+  background-color: #00731e;
+}
+
+.sorting-buttons button:active {
+  transform: scale(0.9);
+  background-color: #00731e;
+}
+
+@media screen and (max-width: 768px) {
+  .sorting-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sorting-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  max-width: 300px;
+  background-color: #d9ffe3;
+}
+
+.search-container input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.tag-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 150px; /* Limits the height of the tag container */
+  overflow-y: auto; /* Adds a scrollbar if the content exceeds the height */
+  border: 1px solid #ccc; /* Adds a border around the container */
+  padding: 10px;
+  background-color: #d9ffe3; /* Light background for better visibility */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.tag-radio {
+  display: inline-flex;
+  align-items: center;
+}
+
+.tag-radio input[type="radio"] {
+  margin-right: 5px;
+  visibility: hidden; /* Hide the radio button itself */
+}
+
+.tag-radio label {
+  background-color: #6fa840;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.tag-radio input[type="radio"]:checked + label {
+  background-color: #00731e; /* Highlight the selected label */
+}
+
+.tag-radio label:hover {
+  background-color: #00731e;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.gif-box {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
