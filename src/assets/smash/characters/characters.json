@@ -39,8 +39,8 @@
     {
       "name": "Kirby",
       "icon": "Kirby (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["kirby.jpg", "kirby-2.jpg", "kirby-3.png"],
+      "description": "Kirby players tend to be new players who are still learning how to recover to stage. Kirby mains get a little overwhelmed by all the stimulus on the screen and fly to the top and gently all back to stage looking for some brief respite. Once they learn to cheese with inhale, they reach true levels of kirby nonsense that they are destined for."
     },
     {
       "name": "Fox",
@@ -153,8 +153,8 @@
     {
       "name": "Ganondorf",
       "icon": "Ganondorf (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["ganondorf.jpg", "ganondorf-2.jpg", "ganondorf-3.png"],
+      "description": "A variation on the Captain Falcon main's 'Simple men who enjoy simple pleasures' but more masochistic. A Ganondorf main has to actually take pleasure in playing such a bad character. When they lose, it's fine because it's Ganon, but when they win, you just know they will gloat about it."
     },
     {
       "name": "Mewtwo",
@@ -189,14 +189,14 @@
     {
       "name": "Pit",
       "icon": "Pit (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["pit.jpg", "pit-2.jpg", "pit-3.jpg"],
+      "description": "Pit players are the real deal. They can give a good handshake, they will probably beat you at billiards, they'll buy you a drink at the bar. They probably have a heart of gold."
     },
     {
       "name": "Dark Pit",
       "icon": "Dark Pit (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["dark-pit.jpg", "dark-pit-2.png", "dark-pit-3.jpg"],
+      "description": "Dark Pit players, just like Pit players, are also the real deal, although arguably a tiny bit spicier. They can give a good fistbump, will probably beat you at billiards AND ping pong, and take a sip of your drink without asking. They probably have a heart of gold."
     },
     {
       "name": "Zero Suit Samus",
@@ -351,8 +351,8 @@
     {
       "name": "Robin",
       "icon": "Robin (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["robin.jpg", "robin-2.png", "robin-3.jpg"],
+      "description": "I feel like Robin appeals to trans people!"
     },
     {
       "name": "Shulk",
