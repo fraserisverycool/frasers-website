@@ -1,6 +1,13 @@
 {
   "soundtracks": [
     {
+      "filename": "zelda-nes.jpg",
+      "name": "The Legend of Zelda",
+      "description": "I'm starting to get a little frustrated with these NES soundtrack releases because I just can't help but feel entitled to more. Maybe it's because I've been doing such an insane amount of content for this website this month and my standards are now high. I guess I need to chill. It takes ages to put these soundtracks on here. I will cope. This Zelda soundtrack has some very famous tracks in it. I always loved the game over theme because it was used in Majora's Mask and I didn't know about it for so long. And now I learned that they remixed it for the Ending Theme. Nice.",
+      "platform": "NES",
+      "topTracks": ["Game Over", "Ending Theme"]
+    },
+    {
       "filename": "luigis-mansion.jpg",
       "name": "Luigi's Mansion",
       "description": "This soundtrack doesn't really make for enjoyable listening. It's spooky and goofy horror music, so it's just not great for when you're about your normal life. Maybe you can put it on if you're playing a horror-themed board game (shoutouts to Betrayal at House on the Hill) but otherwise, only the credits theme is worth dipping your toes in for.",
