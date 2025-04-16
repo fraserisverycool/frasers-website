@@ -2414,7 +2414,7 @@
       "review": [
         "I never really loved this game, but my brother played it all the time. Sometimes we played multiplayer, so I would just look for the purple gun because it looked nice. Shooting games like this were never my thing, I was too busy playing Diddy Kong Racing."
       ],
-      "image": "halo-2",
+      "image": "halo-2.jpg",
       "platform": "Xbox",
       "year": "older",
       "release": "2004"
@@ -2735,100 +2735,125 @@
     },
     {
       "name": "Pokemon Emerald",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "8",
+      "review": [
+        "I have a strong memory of holding out on buying Ruby or Sapphire so I could buy Emerald. I even imported it from the USA! I'm so glad I did, Emerald was so much better than the others. I remember some of my original team. I had a Glalie for sure, because also back then I had an appreciation of ugly pokemon.",
+        "I love the Hoenn region, especially the watery bit at the end with all the cool pokemon. This gen had some banger pokemon! Motherfucking Wailord. I also love the music and general vibe a lot."
+      ],
+      "image": "pokemon-emerald.jpg",
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004"
     },
     {
       "name": "Super Mario 64",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "Classic doesn't even begin to describe this game! It's the ultimate classic. It was a banger then and it's still a banger now. Is there any better feeling than getting a star?",
+        "The music alone is so good. Dire, Dire Docks, Bowser's Road, Hazy Maze Caves are my favourites. This game changed everything back then."
+      ],
+      "image": "super-mario-64.jpg",
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1996"
     },
     {
       "name": "Pokemon Silver",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "9",
+      "review": [
+        "Gen 2 is my SHIT! I fucking love everything about gold and silver. It turned the unplayable gen 1 into banger games, added a bunch of amazing pokemon and a sick new region. It added night and day, which was huge.",
+        "I still remember so fondly having a Forretress which didn't even learn any good bug moves, and waiting until near the end of the game to catch a Piloswine, my favourite pokemon at the time. Maybe still my favourite pokemon I need to think about that."
+      ],
+      "image": "pokemon-silver.jpg",
       "platform": "Gameboy",
       "year": "older",
       "release": "1999"
     },
     {
       "name": "Super Mario World 2: Yoshi's Island",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "I mean just look at this game. They really made a 'hand-drawn' style game on the SNES! It looks so good! I love the scenery in this picture and I have a painting in my room where I tried to recreate it.",
+        "The game is hard an nails though! Especially if you want to get perfect scores on the level. I never managed to do that, not to 100%, it's just too brutal, especially on those extra levels."
+      ],
+      "image": "yoshis-island.png",
       "platform": "SNES",
       "year": "older",
       "release": "1995"
     },
     {
       "name": "Ice Climber",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "1",
+      "review": [
+        "As an ice climbers main in brawl times, I felt obliged to play this on the virtual console, really trying my best to like it. But it's shit. The characters control terribly, and the game gets boring after like 3 mountains. The swing music at the peak of the summit is great though."
+      ],
+      "image": "ice-climber.jpg",
       "platform": "NES",
       "year": "older",
       "release": "1984"
     },
     {
       "name": "Cut the Rope",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "1",
+      "gameplay": "4",
+      "review": [
+        "One of the better early mobile games because it had a finite amount of levels."
+      ],
+      "image": "cut-the-rope.webp",
       "platform": "Mobile",
       "year": "older",
       "release": "2010"
     },
     {
       "name": "Command & Conquer 3: Tiberium Wars",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "6",
+      "review": [
+        "I played this because I loved Red Alert as a child. It's alright. I enjoyed playing as the aliens"
+      ],
+      "image": "tiberium.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Micro Machines V2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "I remember having the time of my fucking life with this game. It was hilarious multiplayer and I got well into the single player too. I hope there's a spiritual successor to this one day"
+      ],
+      "image": "micro-machines.png",
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1997"
     },
     {
       "name": "Tekken Tag Tournament",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "This is the only actual fighting game I played as a child. My brothers were always better but I enjoyed playing as Eddy to start with spamming the breakdance move, and when I grew up I mained Julia and Michelle, probably because I'm gay. Nina and Jun were other favourites, so yeah.",
+        "Anyway this game is great. Vibes, soundtrack, arcade mode, all great. What is going on with Paul's haircut and is King actually some kind of animal. Also what is going on with Tekken lore generally."
+      ],
+      "image": "tekken-tag.jpg",
       "platform": "PlayStation 2",
       "year": "older",
       "release": "1999"
     },
     {
       "name": "Tekken 3",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "6",
+      "review": [
+        "I was very young when we had this so I wasn't able to play much and get good. But I remember loving that you could unlock a tiny dinosaur, Gon. He was my main"
+      ],
+      "image": "tekken-3.jpg",
       "platform": "PlayStation",
       "year": "older",
       "release": "1997"
