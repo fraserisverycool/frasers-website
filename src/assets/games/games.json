@@ -2591,100 +2591,144 @@
     },
     {
       "name": "Barotrauma",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "5",
+      "review": [
+        "It's just like the name suggests, it's a traumatic and upsetting management game about running a submarine. I'm sure it's good but I don't want to spend my free time being this distressed"
+      ],
+      "image": "barotrauma.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2023"
     },
     {
       "name": "Mega Bomberman",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "9",
+      "review": [
+        "I loved this game!! I played it on my friend's Sega but later on I emulated it on PC because it was so good. The adventure mode slaps, the music is class, the final boss is ridiculously hard, and the multiplayer mode is perfect. Me and my brothers played a bunch. Lots of core memories associated with this."
+      ],
+      "image": "mega-bomberman.webp",
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1994"
     },
     {
       "name": "Grand Theft Auto: San Andreas",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "8",
+      "review": [
+        "I loved playing this game when I was younger, but not for the normal reasons. This was the first time I'd played an open world game! You could go anywhere. I loved exploring the world and finding secrets and treasures. I loved free roaming and hanging out. Doing the missions was also cool I guess. There's a point in the game where you can just start stealing airplanes and fly them around. I remember feeling like anything was possible!",
+        "Wild that the first time I had those feelings was with grand theft auto! This game taught me everything I knew back then about black culture in America, as well as gang violence and prostitution. There I was, a child, going around shooting gang members, having sex with prostitutes, I even remember becoming a pimp in one mission. Looking back I think it gave me a kind of baseline understanding of a bunch of real issues in America that was totally warped. You can just fuck a prostitute then kill her to get the money back, it's totally fucked up. I remember really enjoying the missions where you just drive round in a fire truck and put out fires. Because I was a child. And there I was, also expanding the gang's territory in these crazy shoot-outs in the streets.",
+        "I'm not saying the game is bad. I think the vibe is super good, the music and especially the car radio stations are great, and the open world was amazing. But it's wild that so many of us played this in our formative years. I know that I didn't think about the wealth of social issues the game brings up with any sort of critical eye. Because I was a child."
+      ],
+      "image": "gta-san-andreas.webp",
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2004"
     },
     {
+      "name": "Grand Theft Auto",
+      "vibes": "4",
+      "gameplay": "3",
+      "review": [
+        "All I remember of this game was being ridiculed by my brothers for enjoying taking a car and driving it properly down the streets without bumping into anyone. I enjoyed following the law. I guess that says a lot about me that I wasn't excited about murdering people and stealing their cars. Me and GTA have never really gotten on."
+      ],
+      "image": "gta.webp",
+      "platform": "PC",
+      "year": "older",
+      "release": "1997"
+    },
+    {
       "name": "Tomb Raider",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "4",
+      "review": [
+        "It's triangle tits herself! An icon. I definitely did not finish this, but I played it at I think a cousin's place as a child. I remember enjoying the mood and having to find cogs or something."
+      ],
+      "image": "tomb-raider.jpeg",
       "platform": "PlayStation",
       "year": "older",
       "release": "1996"
     },
     {
       "name": "Octopath Traveler",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "3",
+      "review": [
+        "This game had a lot going for it, and in two departments especially it truly excels: music and visuals. This was the first time we were treated to the HD-2D thing and I love it. I think it looks so nice! The soundtrack is also top class. It's perfect for use in your DnD campaign. The boss battle music is insanely good.",
+        "I really loved Tressa. She's a total babe and I made sure to play her story to the end. In order to do that though, I had to play the stories of all the other 7 characters, even though they were all completely unrelated. The game is split into four sections, and in each section you have to complete some story for each character. When I finally got to the fourth and final section, I just did Tressa's story then called it quits. Why? Because this game is fucking exhausting. It's so long. The boss battles take over an hour sometimes. I remember doing one of them while taking a bath, and deciding to get out of the bath before finishing the fight. Which is ridiculous if you think about it. I should be able to complete one boss fight in one bathtime. I feel like that's an unwritten rule that until this point has been largely respected.",
+        "The worst thing about this game though is the fact that it's 8 different stories which have no relation with one another. The characters barely even talk to each other! Why even have 8 stories like this if they don't interact? They could have built a beautiful world with tons of related characters and storylines but no it's super separated and therefore boring. And it makes no sense why they're all travelling together. This really pissed me off when trying to enjoy the story. For such a long game, having to play 8 very shallow stories with no meat to them was just lame.",
+        "I'm told the second game is better in that regard but I don't have the strength to even try it."
+      ],
+      "image": "octopath.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "New Super Mario Bros. U",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "6",
+      "review": [
+        "The New Super Mario Bros series had some great moments. The original had fantastic vibes, and the Wii version changed everything by adding multiplayer. But this version on the Wii U brings nothing new to the table. I think it's quite soulless. There is one level which isn't your standard Mario, this painted swamp level pictured here. That's it. The Luigi DLC was good though!"
+      ],
+      "image": "super-mario-bros-u.webp",
       "platform": "Wii U",
       "year": "older",
       "release": "2012"
     },
     {
       "name": "Pokemon Sun",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "6",
+      "review": [
+        "After the disappointment that was gen 6, I got really into gen 7, I'm not gonna lie. I even made a mix of all the music from this game, available in the music section of this website! And it does have some great tracks, especially the Aether Paradise and Team Skull stuff. A lot of the town and city themes are also great. I think they smashed it with the Hawaiian islands setting.",
+        "This gen also introduced us to a bunch of hilarious new pokemon, including potentially my favourite pokemon ever, Alolan Exeggutor. It's just a motherfucking tree. So good.",
+        "This game has a lot of random ass bullshit though, I won't lie. The part where the evil CEO lady fuses with this tentacle squid ultra beast thing just so she can float in the air and have an ordinary pokemon battle? I think that is someone's sex fantasy. And what the fuck is up with these weird-ass ultra beasts. I mean I love it because they're totally insane, but hello? Guzzlord? Buzzwole? What were they smoking when they decided to make these the legendary pokemon. Also the main character just has this gormless look on their face all the time which both ruins the vibe and also makes it hilarious, in a laughing-at not laughing-with kinda way.",
+        "I dunno I guess this game still has a space in my heart."
+      ],
+      "image": "pokemon-sun.png",
       "platform": "3DS",
       "year": "older",
       "release": "2016"
     },
     {
       "name": "New Super Mario Bros. Wii",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "8",
+      "review": [
+        "It is insane that this game had just four playable characters and two of them were TOAD. I'm still upset about it I mean Peach is right there. Look at the latest mario kart roster and see how far they're come.",
+        "Anyway I remember when this came out and it was huge. Playing multiplayer was the best ever, specifically because you could purposefully make life harder for the other players. It genuinely created great party game moments with friends.",
+        "The vibes became a little stale after the DS game I guess but they added some new things like the beautiful underground volcano music."
+      ],
+      "image": "super-mario-bros-wii.jpg",
       "platform": "Wii",
       "year": "older",
       "release": "2009"
     },
     {
       "name": "New Super Mario Bros.",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "I understand that this is the first in a series of arguably boring looking mario games, so most people wouldn't say this is worth playing, but I stand by the fact that this is the best one in terms of vibes. The credits theme alone is fantastic. And I remember the look and style of this game being so fresh back then. Not to mention it came with these banger minigames that we played soooo much as kids."
+      ],
+      "image": "super-mario-bros-ds.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2006"
     },
     {
       "name": "Super Mario Sunshine",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "Banger alert! This game is so good. They thought up a whole ass tropical island for Mario to just go to and find some shenanigans to get up to. Something about being able to see the other levels from the various different points on the island is just cool. And I love the general sunny and positive vibe of the game. The piantas are all delightful, the missions are fun. SURE there is a lot of bullshit and I wouldn't recommend anyone to 100% like I did. But you can't deny the vibes are off the charts.",
+        "Also this is the game where Mario got a bunch of cool moves! Running and jumping around in 3D was revolutionised with this game. The FLUDD mechanic is great.",
+        "There are a bunch of great moments in this game. The sand bird, the underwater part, the local musicians in pianta village, the genuinely terrifying manta ray thing, the casino, and why on earth is the final boss battle just bowser taking a bath?"
+      ],
+      "image": "super-mario-sunshine.webp",
       "platform": "Gamecube",
       "year": "older",
       "release": "2002"
