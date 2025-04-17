@@ -159,8 +159,8 @@
     {
       "name": "Mewtwo",
       "icon": "Mewtwo (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["mewtwo", "mewtwo-2.png", "mewtwo-3.png"],
+      "description": "Mewtwo is a character for big-brain people. They don't just organise their gameplan into a flowchart, they organise their life into one."
     },
     {
       "name": "Roy",
