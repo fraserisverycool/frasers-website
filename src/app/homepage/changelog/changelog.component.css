@@ -1,0 +1,86 @@
+.container {
+  background-color: #b0f8ff;
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid #e6a23c;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+}
+
+.retro-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  background: linear-gradient(90deg, #f7e6fd 0%, #e0f7fa 100%);
+  box-shadow: 0 0 16px #ffb347, 0 0 32px #ffccff;
+  border: 4px double #ff69b4;
+}
+
+.retro-table th, .retro-table td {
+  border: 2px solid #00ffff;
+  padding: 0.75em 1em;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.retro-table th {
+  background: #ffb347;
+  color: #800080;
+  text-shadow: 1px 1px 0 #fff, 2px 2px 0 #ff69b4;
+  letter-spacing: 2px;
+}
+
+.retro-table tr:nth-child(even) {
+  background: #e0ffff;
+}
+
+.retro-table tr:nth-child(odd) {
+  background: #ffe4e1;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.major {
+  animation: glow 1.5s infinite alternate;
+  font-weight: bold;
+  color: #d500f9;
+  background: #fffde7 !important;
+}
+
+.sparkle {
+  text-shadow:
+    0 0 8px #ff69b4,
+    0 0 16px #ff69b4,
+    0 0 24px #ffd700,
+    0 0 32px #fff;
+  font-size: 1.2em;
+  animation: sparkle-glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #ffd700, 0 0 20px #ff69b4;
+    background-color: #fffde7;
+  }
+  to {
+    box-shadow: 0 0 30px #ffd700, 0 0 40px #ff69b4;
+    background-color: #fff8e1;
+  }
+}
+
+@keyframes sparkle-glow {
+  from {
+    color: #d500f9;
+    text-shadow: 0 0 8px #ff69b4, 0 0 16px #ffd700;
+  }
+  to {
+    color: #ffd700;
+    text-shadow: 0 0 24px #ff69b4, 0 0 32px #ffd700;
+  }
+}

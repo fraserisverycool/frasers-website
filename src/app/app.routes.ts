@@ -8,6 +8,9 @@ export const routes: Routes = [
     path: 'party', loadComponent: () => import('./homepage/party/party.component')
   },
   {
+    path: 'changelog', loadComponent: () => import('./homepage/changelog/changelog.component')
+  },
+  {
     path: 'games', loadComponent: () => import('./games/games.component')
   },
   {

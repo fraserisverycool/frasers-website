@@ -39,6 +39,7 @@ const platformOrder = [
   "Xbox",
   "Xbox 360",
   "Xbox Gamepass",
+  "Xbox Series X",
   "PC",
   "Arcade",
   "Sega Mega Drive",

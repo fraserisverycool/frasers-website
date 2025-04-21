@@ -3124,14 +3124,66 @@
       "release": "2006"
     },
     {
+      "name": "Microsoft Flight Simulator 2020",
+      "vibes": "4",
+      "gameplay": "4",
+      "review": [
+        "I can't remember when I played this but it was at Fab's place because he had just bought the Series X. I really enjoyed it! Because Google Earth is great. We flew over my street in Friedrichshain! The game is really for fans of planes, which I'm not. But for everyone else it's still fun to fly around different places."
+      ],
+      "image": "flight-simulator.webp",
+      "platform": "Xbox Series X",
+      "year": "older",
+      "release": "2020"
+    },
+    {
       "name": "Animal Crossing: Wild World",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "I remember my friend Oscar being excited about this game having read about it in the official Nintendo magazine while I was at school, so I got it and then magic happened. It's a super peaceful life sim and so much fun to just hang out and let the time past there. I have strong memories of trawling the beach for expensive shells, asking friends to give me their different fruits, having a mushroom themed house. The absolute excitement of waiting for Saturday 8pm for the KK Slider performance.",
+        "I regret that I lost the game cartridge, I would love to revisit my original town. I remember Friga the penguin the most, who wandered between mine and Oscar's towns constantly. The villagers were so sassy in this game. They were actually never as fun as this.",
+        "Most importantly, this game's hourly music set the bar very high in the world of peaceful background music in video games. The tracks are simple but iconic, and never boring. You can put it on and just vibe."
+      ],
+      "image": "animal-crossing-wild.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2005"
+    },
+    {
+      "name": "Donkey Kong",
+      "vibes": "3",
+      "gameplay": "3",
+      "review": [
+        "I played this as a part of Donkey Kong 64 but it totally counts. I don't think it's a good game and I don't recommend it. But true Donkey Kong fans should play it for their education."
+      ],
+      "image": "donkey-kong.jpg",
+      "platform": "Arcade",
+      "year": "older",
+      "release": "1981"
+    },
+    {
+      "name": "Jetpac",
+      "vibes": "2",
+      "gameplay": "2",
+      "review": [
+        "This was part of Donkey Kong 64 but I beat it in order to get the silly coin you need to beat the game. It's not great"
+      ],
+      "image": "jetpac.gif",
+      "platform": "Arcade",
+      "year": "older",
+      "release": "1983"
+    },
+    {
+      "name": "StreetPass Mii Plaza",
+      "vibes": "7",
+      "gameplay": "4",
+      "review": [
+        "This was the most exciting thing about the 3ds. Getting those puzzle pieces every time you got home from carrying around your DS all day... so exciting. Find Mii and Find Mii 2 were both super entertaining and I will always remember them fondly. I never played any of the other paid games."
+      ],
+      "image": "streetpass.avif",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2011"
     },
     {
       "name": "The Legend of Zelda: Twilight Princess",
