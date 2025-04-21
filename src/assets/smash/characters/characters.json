@@ -3,8 +3,8 @@
     {
       "name": "Mario",
       "icon": "Mario (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["mario.webp", "mario-2.png", "mario-3.png"],
+      "description": "Mario mains exclusively eat vanilla ice cream, enjoy plain cookies, and have vanilla sex. When asked how they're doing, they respond 'not too bad'. They are aggressively normie to the extent that they might even say their favourite colour is grey or beige."
     },
     {
       "name": "Donkey Kong",
@@ -33,8 +33,8 @@
     {
       "name": "Yoshi",
       "icon": "Yoshi (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["yoshi.webp", "yoshi-2.gif", "yoshi-3.png"],
+      "description": "Yoshi players are living in some kind of fantasy land. Their heads are in the clouds. They drift through life with reckless abandon"
     },
     {
       "name": "Kirby",
@@ -87,8 +87,8 @@
     {
       "name": "Daisy",
       "icon": "Daisy (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["daisy.jpg", "daisy-2.jpg", "daisy-3.png"],
+      "description": "Daisy mains are equally as fabulous as Peach mains, except they butter their toast on both sides, sit on armchairs with one leg under their bum, and sleep around more."
     },
     {
       "name": "Bowser",
@@ -117,8 +117,8 @@
     {
       "name": "Dr. Mario",
       "icon": "Dr Mario (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["dr-mario.jpg", "dr-mario.png", "dr-mario.png"],
+      "description": "Dr. Mario fucks. And so do Dr. Mario mains. They don't care about your feelings, nor do they care about tournament results. They came to fuck."
     },
     {
       "name": "Pichu",
@@ -465,8 +465,8 @@
     {
       "name": "Banjo & Kazooie",
       "icon": "Banjo & Kazooie (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["banjo.jpg", "banjo-2.webp", "banjo-3.png"],
+      "description": "Most people agree that playing as Banjo and Kazooie is no fun, so in order to MAIN this character, you have to be such a die-hand fan of the series that you are willing to grit your teeth through the unsatisfying projectiles and learn to shoot your shot (wonderwing) at the right time. This character is not for premature ejaculators"
     },
     {
       "name": "Terry",
