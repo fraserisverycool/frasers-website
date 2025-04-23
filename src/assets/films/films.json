@@ -1,6 +1,27 @@
 {
   "films": [
     {
+      "filename": "hump2.png",
+      "title": "Dan Savage's Hump Porn Film Festival 2025 Part 1",
+      "description": "A collection of porn films 5 minutes or less, for a second time! I can't deny that it's excellent. A couple of them truly horrified me. One of them super piqued my interest",
+      "year": "2025",
+      "release": "2025"
+    },
+    {
+      "filename": "sebastian.jpg",
+      "title": "Sebastian",
+      "description": "A mongay about a gay escort who writes himself into his own book with a pseudonym. He constantly looks like he's about to start crying throughout the film. I found it to be quite predictable and not all that impactful",
+      "year": "2025",
+      "release": "2024"
+    },
+    {
+      "filename": "possession.jpg",
+      "title": "Possession",
+      "description": "Amazing film, very intense, lots of very jarring cuts. Two very queer-coded side characters. Lots of quotable moments and an iconic scene in our very Platz der Luftbrücke!",
+      "year": "2025",
+      "release": "1981"
+    },
+    {
       "filename": "oslo-liebe.webp",
       "title": "Oslo Stories: Love",
       "description": "Beautiful soundtrack and stunning vistas of Oslo. Great vibe in this film. Very cosy and heartwarming. Some interesting ideas around relationships and the main female character is so beautiful. I really loved it",
@@ -212,7 +233,7 @@
     },
     {
       "filename": "hump.png",
-      "title": "Dan Savage's Hump Porn Film Festival",
+      "title": "Dan Savage's Hump Porn Film Festival 2024",
       "description": "A collection of 25 porn films 5 minutes or less. Fantastic, changed my whole outlook on sex. Life changing",
       "year": "2024",
       "release": "2024"

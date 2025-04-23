@@ -58,6 +58,18 @@
       "release": "2025"
     },
     {
+      "name": "Star of Providence",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "This is a very intense tiny bullet hell game! Your little spaceship can navigate really well through all the bullets, but there are just so many bullets! I was a little disappointed to learn that this was a roguelike. These days roguelikes make me upset because I would get a really good run then feel like I could never reach those heights again. This game offers next to nothing in terms of 'roguelite' elements, i.e. things that will make future runs easier. Instead you just have to git gud. I kinda have gotten better, but the element of luck involved is kinda putting me off. I'm sticking with it because I want to know about the lore and what some of these secrets mean."
+      ],
+      "image": "providence.avif",
+      "platform": "Switch",
+      "year": "2025",
+      "release": "2017"
+    },
+    {
       "name": "Kuru Kuru Kururin",
       "vibes": "7",
       "gameplay": "8",
@@ -3187,110 +3199,141 @@
     },
     {
       "name": "The Legend of Zelda: Twilight Princess",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "The hype I had for this game was astronomical. I remember seeing the screenshots in the official nintendo magazine and my jaw dropping to the floor. Realistic-looking zelda with good graphics? This was going to be huge. And it was! When it came out I dropped everything and steamed through it, showing off to friends at school how quickly I was getting through it. It was amazing and I loved it.",
+        "They really went to a new, creepy place in this game. Such a shock after the delightful Wind Waker. The whole twilight realm is its own special version of creepy, but the characters and vibes of the normal world are also totally creepy too. The designs of the characters are very out there indeed.",
+        "There are so many great moments, like going to the bird city, the lost woods, the yetis, the bug collector, the ugly father figure, the battle on the bridge, the final boss. Also this game features one of the scariest zelda moments ever: the floating hands in the palace of twilight. Even as a teenager at this point I was fucking terrified.",
+        "The soundtrack is stunning. So many classics like Faron Woods, Hyrule Field, Lake Hylia, but also sleeper hits like the music when you're a wolf in Ordon Village, the Ordon Ranch music, the Fishing hole music, or all the miniboss music. So much to enjoy!"
+      ],
+      "image": "zelda-twilight.jpg",
       "platform": "Gamecube",
       "year": "older",
       "release": "2006"
     },
     {
       "name": "Fire Emblem: The Blazing Blade",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "8",
+      "review": [
+        "Together with Sacred Stones this is a fantastic Fire Emblem entry on the GBA. It builds on the foundation of the previous game, the Binding Blade, which featured Roy, and actually turns it into a good strategy game with some depth. It's the story of Roy's father Eliwood and his two mates Lyn and Hector. The story is exactly what you expect from Fire Emblem but it's still a nice time, and you get to switch around the characters a bit which is fun. Lyn is very likeable!"
+      ],
+      "image": "fireemblem-7.jpg",
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2003"
     },
     {
       "name": "Paper Mario",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "7",
+      "review": [
+        "It's wild that this game exists! A game about being paper-thin, and it's a 3d game! You go around in a silly mario RPG except everyone is made of paper. Bit of a weird premise if you ask me, but this little RPG has some excellent writing, something which Mario games don't normally go for. You have all these adorable partners and go around and fight monsters in turn-based battles. A great soundtrack to go with it. Lots of iconic moments too!"
+      ],
+      "image": "paper-mario-64.jpg",
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000"
     },
     {
       "name": "The Legend of Zelda: Link's Awakening",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "I truly think that this is the first video game I played. It might have been lemmings or frogger on my dad's dos computer and it might have been tetris, but at the very least, this is when I became a gamer.",
+        "This game means so much to me. I know its world and soundtrack so intimately having played it so many times. It took me many years to complete it, because I was too dumb as a child to know where I had to go next. Although I admit the game does not signpost where you should go. You are forced to roam the world and find stuff, which today is kinda unacceptable bad game design, but back then resulted in me putting the game down and coming back when I was a couple of years longer. I remember the boss key in Bottle Grotto was a hard barrier for me for YEARS.",
+        "Later when I little by little discovered the delights the game has to offer, the trading quest, the animal village, the scene with Marin on the beach, the face shrine, and each time I was a little bit older. It was so cool. Eventually beating it was a huge moment.",
+        "This game has SUCH a kooky vibe. It's bizarre and almost creepy with a bunch of really weird stuff. The whole having your name changed to THIEF if you steal the bow and arrow is really funny. I remember being devastated when I did that as a child - you mean I can't change my name back??",
+        "But it's also quite melancholic. When you discover the truth of the island in the face shrine (incredible music by the way), the tone shifts quite a lot. The ending feels almost like death, it's kinda wild. Unlike any other zelda game."
+      ],
+      "image": "zelda-awakening.jpg",
       "platform": "Gameboy",
       "year": "older",
       "release": "1993"
     },
     {
       "name": "Panel de Pon (Tetris Attack)",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "9",
+      "review": [
+        "This is a puzzle game that I played on the switch online where it's like tetris and you have to swap adjacent bricks to form lines of 3. You can line up the lines to form a combo, and its surprisingly deep! I got quite into it and I challenge any readers to play me online"
+      ],
+      "image": "panel-de-pon.png",
       "platform": "SNES",
       "year": "older",
       "release": "1995"
     },
     {
       "name": "Balloon Fight",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "3",
+      "review": [
+        "This game is pretty bad but it has a fun theme for the balloon trip mode. I feel like the remake of this in WarioWare Smooth Moves is better, also the Nintendo Land version."
+      ],
+      "image": "balloon-fight.bmp",
       "platform": "NES",
       "year": "older",
       "release": "1984"
     },
     {
       "name": "Final Fantasy VIII",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "4",
+      "review": [
+        "My friend Mariana gifted me this on steam and I played it for a bit. I really enjoyed the music and have since listened to the soundtrack a bunch, but the game itself was kinda annoying. I hadn't played final fantasy 7 at this point so I didn't really have a foundation for this kind of game and was very lost very quickly. One thing I enjoyed was having a GF and using her in battle."
+      ],
+      "image": "final-fantasy-8.webp",
       "platform": "PC",
       "year": "older",
       "release": "1999"
     },
     {
       "name": "Guitar Hero III: Legends of Rock",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "9",
+      "review": [
+        "Funny how I viewed this game as a 'cool rock game' that cool people played (like my brother), but actually it's just a super traditional rhythm game! And rhythm games are probably viewed as lame by your standard Halo enjoyer (my brother), and yet it hit the world by storm. I'm grateful to it for introducing me to the genre!",
+        "Using the plastic guitar as a controller was a genius move honestly and I loved it, despite not really caring about rock music. I got so good at it! Interestingly, I ended up appreciating all the rock music after all, even things like Metallica. Cliffs of Dover I still love and I'm shameless but I enjoy Knights of Cydonia by Muse."
+      ],
+      "image": "guitar-hero.jpg",
       "platform": "PlayStation",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Stardew Valley",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "10",
+      "review": [
+        "Wow, this game is so fucking good. It's like Animal Crossing on steroids! This is my go-to recommendation for people who are trying to get into gaming. And more than anything else, girls love this game! Something about the interactions and relationships with the villagers just appeals, also to me. I was very invested in giving Alex his egg everyday that he loved, so that I could get him to marry me. This is when I learned that I like soft jocks. Playing the rest of the game is great, mines, community centre and fishing, all fine, but I did it all so Alex would work out shirtless in front of our family house"
+      ],
+      "image": "stardew.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Splatoon",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "4",
+      "review": [
+        "I dunno about this game. I played the single player and enjoyed some online matches, but truth is, I wasn't built for team games, let alone online team games. I don't feel the need to start a new match. I'm glad I played it, because I could tick off Inkling from the list of smash characters whose games I've played.",
+        "The vibes of this game are off. It's going for this cool kids thing which doesn't appeal to me at all. I love sea creatures and I wasn't excited by the squids and octopuses theme. Actually I'm kinda blown away they made squids and octopuses work at all, it's kinda impressive. But the biggest offender is the horrible soundtrack. It's somewhere between rock and stoned electronic musician gargling mouthwash."
+      ],
+      "image": "splatoon.webp",
       "platform": "Wii U",
       "year": "older",
       "release": "2015"
     },
     {
       "name": "Pokemon Super Mystery Dungeon",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "6",
+      "review": [
+        "People say this is bad but I really enjoyed it! Sure it doesn't have the magic of the first two games, but it has great moments, and also great music. The Nuzleaf twist was great. The recruitment system was a bit weird, I won't lie. I got that Salamence way too early. Maybe I wouldn't recommend this game, unless you're already a Mystery Dungeon fan. It's niche"
+      ],
+      "image": "mystery-dungeon.jpg",
       "platform": "3DS",
       "year": "older",
       "release": "2015"
