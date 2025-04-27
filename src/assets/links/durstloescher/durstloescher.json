@@ -1,196 +1,276 @@
 {
   "durstloescher": [
     {
+      "filename": "honigmelone.PNG",
+      "name": "Honigmelonen-Zitronen-Geschmack",
+      "score": "8",
+      "description": "Yaasssssss. 8/10 schmeckt enttäuschend nicht nach Honigmelone aber schmeckt gut\uD83D\uDE42\u200D↕\uFE0Feher etwas nach Wassermelone mit einem Hauch bubble gum aber nicht schlecht +Zitrone. Sehr erfrischend, fruchtig. Würde ich auf jeden Fall nochmal holen. Danke Jasba\uD83D\uDE4F\uD83C\uDFFD\uD83D\uDE4F\uD83C\uDFFD\uD83D\uDE4F\uD83C\uDFFD",
+      "fraserscore": "",
+      "fraserdescription": ""
+    },
+    {
+      "filename": "eistee-pfirsich-2.PNG",
+      "name": "Eistee Pfirsich-Geschmack 0% Zucker",
+      "score": "6.8",
+      "description": "Hab voll verpeilt das iwie zu bewerten. 6.8/10. Find war ziemlich lecker. Und dafür, dass es ZERO Zucker hat werde ich das vlt öfters holen, weil Diabetes einfach gruselig ist. Hätte aber gerne andere Sorten mit zero. DISCLAIMER: ich war sehr high hier. DISCLAIMER 2: ich war sehr wahrscheinlich high bei vielen meiner anderen Bewertungen.",
+      "fraserscore": "",
+      "fraserdescription": ""
+    },
+    {
       "filename": "mystery-black.PNG",
       "name": "Mystery Black Edition",
       "score": "7.5",
-      "description": "Yaaayyyyy\uD83D\uDE0E\uD83D\uDE0E\uD83D\uDE0Egeb es eine 7,5. Schmeckt wie Apfelsaft mit einem kleinen extra von iwas. Aber weniger süß als man denkt, was nice ist\uD83D\uDDA4"
+      "description": "Yaaayyyyy\uD83D\uDE0E\uD83D\uDE0E\uD83D\uDE0Egeb es eine 7,5. Schmeckt wie Apfelsaft mit einem kleinen extra von iwas. Aber weniger süß als man denkt, was nice ist\uD83D\uDDA4",
+      "fraserscore": "7.5",
+      "fraserdescription": "It's just Apfelsaft, which I like, but I expected more from a mystery flavour"
     },
     {
       "filename": "maracuja-vanille.PNG",
       "name": "Maracuja- und Vanille- Geschmack",
       "score": "6",
-      "description": "Yoooooo hab gar nicht mitbekommen, dass dieser hier gedroppt wurde\uD83D\uDE31(shout out an Tomas für den Hinweis). Leider hört er sich cooler an als er ist. Der Vanille Geschmack ist zu stark und Maracuja leider viel zu schwach. Schmeckt zwar, aber die Erwartungen waren zu hoch und die Enttäuschung ein bitterer Beigeschmack. Leider nur 6/10"
+      "description": "Yoooooo hab gar nicht mitbekommen, dass dieser hier gedroppt wurde\uD83D\uDE31(shout out an Tomas für den Hinweis). Leider hört er sich cooler an als er ist. Der Vanille Geschmack ist zu stark und Maracuja leider viel zu schwach. Schmeckt zwar, aber die Erwartungen waren zu hoch und die Enttäuschung ein bitterer Beigeschmack. Leider nur 6/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "fan.PNG",
       "name": "Erdbeer- und Zitronengeschmack: Fan-Edition",
       "score": "9",
-      "description": "\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA(nach EU Wahlen nur noch peinlicher) 9/10 war richtig lecker. Erdbeere Zitrone. Würde ich auf jeden nochmal holen (shout out an Alina und Jasper fürs mitnehmen \uD83E\uDEF6\uD83C\uDFFD)\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA"
+      "description": "\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA(nach EU Wahlen nur noch peinlicher) 9/10 war richtig lecker. Erdbeere Zitrone. Würde ich auf jeden nochmal holen (shout out an Alina und Jasper fürs mitnehmen \uD83E\uDEF6\uD83C\uDFFD)\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA\uD83C\uDDE9\uD83C\uDDEA",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "eistee-zitrone.PNG",
       "name": "Eistee Zitronen-Geschmack ZERO",
       "score": "3",
-      "description": "Schmeckt wie mit Zucker soweit ich mich erinnern kann. Also 3/10, würd ich nicht nochmal holen"
+      "description": "Schmeckt wie mit Zucker soweit ich mich erinnern kann. Also 3/10, würd ich nicht nochmal holen",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "tropical.PNG",
       "name": "Tropical-Geschmack",
       "score": "9.4",
-      "description": "Wie Multivitamin aber tropisch \uD83C\uDF1A (also besser) 9.4/10"
+      "description": "Wie Multivitamin aber tropisch \uD83C\uDF1A (also besser) 9.4/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "mystery.PNG",
       "name": "Mystery",
       "score": "9.3",
-      "description": "Wenn Freunde dir den neuen Durstlöscher besorgen \uD83D\uDC9C 9.3/10 war voll lecker. Iwie Eistee Pfirsich + Wassermelone + was anderes. Laut der Packung Hibiskus + Hagebutte+ Zitrone \uD83E\uDD24"
+      "description": "Wenn Freunde dir den neuen Durstlöscher besorgen \uD83D\uDC9C 9.3/10 war voll lecker. Iwie Eistee Pfirsich + Wassermelone + was anderes. Laut der Packung Hibiskus + Hagebutte+ Zitrone \uD83E\uDD24",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "regenbogen.PNG",
       "name": "Regenbogen Edition",
       "score": "8",
-      "description": "\uD83D\uDE0D\uD83D\uDE0D\uD83D\uDE0D\uD83D\uDE0D\uD83D\uDE0D\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08omg endlich. Kp was für ein Geschmack das ist (bissel zitronig) aber nice. 8/10"
+      "description": "\uD83D\uDE0D\uD83D\uDE0D\uD83D\uDE0D\uD83D\uDE0D\uD83D\uDE0D\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08\uD83C\uDF08omg endlich. Kp was für ein Geschmack das ist (bissel zitronig) aber nice. 8/10",
+      "fraserscore": "9",
+      "fraserdescription": "Delicious, refreshing. No idea what it is, wasn't even clear from the ingredient list."
     },
     {
       "filename": "sauer-erdbeer.PNG",
       "name": "Saure Erdbeere-Geschmack",
       "score": "7.1",
-      "description": "Schmeckt nach sauere Erdbeere. Würde ich nicht nochmal holen. 7,1/10"
+      "description": "Schmeckt nach sauere Erdbeere. Würde ich nicht nochmal holen. 7,1/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "sauer-pfirsich.PNG",
       "name": "Saurer Pfirsich-Geschmack",
       "score": "7",
-      "description": "Wow schmeckt wirklich nach Pfirsich Saureringe. Im Abgang aber iwie auch nach Pfirsich Eistee. 7/10"
+      "description": "Wow schmeckt wirklich nach Pfirsich Saureringe. Im Abgang aber iwie auch nach Pfirsich Eistee. 7/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "bubblegum.PNG",
       "name": "Kaugummi-Geschmack BUBBLE GUM",
       "score": "6",
-      "description": "Schlechter als das andere 6/10"
+      "description": "Schlechter als das andere 6/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "sauer-kirsch.PNG",
       "name": "Sauerkirsche-Zitrone ZERO",
       "score": "6",
-      "description": "Kann nicht glaub, dass ich diese Sorte noch nicht gepostet hatte. Vlt kann ich es einfach nicht finden. 6/10 viel besser als ich in Erinnerung hatte. Mehr nach Kirsche und weniger sauer als erwartet (Enzo loves it\uD83D\uDC9C)"
+      "description": "Kann nicht glaub, dass ich diese Sorte noch nicht gepostet hatte. Vlt kann ich es einfach nicht finden. 6/10 viel besser als ich in Erinnerung hatte. Mehr nach Kirsche und weniger sauer als erwartet (Enzo loves it\uD83D\uDC9C)",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "karamell.PNG",
       "name": "Karamell-Geschmack",
       "score": "?",
-      "description": "Not sure how to feel about it. It kinda does taste like Karamell but it's weird. I feel like Karamell should be cream based ?/10"
+      "description": "Not sure how to feel about it. It kinda does taste like Karamell but it's weird. I feel like Karamell should be cream based ?/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "sauer-apfel.PNG",
       "name": "Saurer Apfel",
       "score": "7.6",
-      "description": "Schmeckt wirklich danach. 7,6/10"
+      "description": "Schmeckt wirklich danach. 7,6/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "blaubeer-vanille.PNG",
       "name": "Blaubeer-Vanille Geschmack",
       "score": "8",
-      "description": "Schmeckt fast wie die andere Blaubeere 8/10"
+      "description": "Schmeckt fast wie die andere Blaubeere 8/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "zuckerwatte.PNG",
       "name": "Zuckerwatter-Geschmack",
       "score": "6",
-      "description": "Wow wusste nicht Mal dass das existiert aber war iwie meh 6/10"
+      "description": "Wow wusste nicht Mal dass das existiert aber war iwie meh 6/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "bubblegum2.PNG",
       "name": "Bubble Gum Geschmack",
       "score": "8",
-      "description": "8/10 endlich! Viel besser als Bro tea Oda so aber leider werde ich mich daran wahrscheinlich nicht erinnern"
+      "description": "8/10 endlich! Viel besser als Bro tea Oda so aber leider werde ich mich daran wahrscheinlich nicht erinnern",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "cola.PNG",
       "name": "Cola-Geschmack",
       "score": "5",
-      "description": "Endlich probiert 5/10 Aldi cola ohne Kohlensäure"
+      "description": "Endlich probiert 5/10 Aldi cola ohne Kohlensäure",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "erdbeer-himbeer.PNG",
       "name": "Erdbeer-Himbeer",
       "score": "7",
-      "description": "7/10 schmeckt wie roter Frucht bonbon"
+      "description": "7/10 schmeckt wie roter Frucht bonbon",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "waldmeister.PNG",
       "name": "Waldmeister-Geschmack",
       "score": "8",
-      "description": "8/10 nicht Jedermanns Sache"
+      "description": "8/10 nicht Jedermanns Sache",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "orange.PNG",
       "name": "Orange",
       "score": "6",
-      "description": "Ofc doesn't taste like orange. Still nice tho 6/10"
+      "description": "Ofc doesn't taste like orange. Still nice tho 6/10",
+      "fraserscore": "8",
+      "fraserdescription": "Orange juice is delicious"
     },
     {
       "filename": "eistee-mango.PNG",
       "name": "Eistee Mango-Geschmack",
       "score": "7.8",
-      "description": "Nice 7,8/10"
+      "description": "Nice 7,8/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "wassermelone.PNG",
       "name": "Wassermelonen-Geschmack",
       "score": "7.9",
-      "description": "7.9/10 mega nice. Viel erfrischender als ich in Erinnerung hatte \uD83D\uDE2F"
+      "description": "7.9/10 mega nice. Viel erfrischender als ich in Erinnerung hatte \uD83D\uDE2F",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "blueberry-marshmallow.PNG",
       "name": "Blueberry-Marshmallow-Geschmack",
       "score": "9.5",
-      "description": "Taste like strawberry cream bonbons 9.5/10"
+      "description": "Taste like strawberry cream bonbons 9.5/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "himbeer.PNG",
       "name": "Himbeer",
       "score": "8.7",
-      "description": "A surprising 8.7/10"
+      "description": "A surprising 8.7/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "eistee-pfirsich.PNG",
       "name": "Eistee Pfirsich-Geschmack",
       "score": "3",
-      "description": "3/10\uD83D\uDE10"
+      "description": "3/10\uD83D\uDE10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "eistee-zitrone2.PNG",
       "name": "Eistee Zitronen-Geschmack",
       "score": "6.6",
-      "description": "Joa... 6.6/10"
+      "description": "Joa... 6.6/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "multivitamin.PNG",
       "name": "Multivitamin 12-Frucht",
       "score": "9",
-      "description": "Wow never thought I would feel like that but 9/10 (better than kiba????)"
+      "description": "Wow never thought I would feel like that but 9/10 (better than kiba????)",
+      "fraserscore": "9",
+      "fraserdescription": "Really delicious, this one is my go-to"
     },
     {
       "filename": "banane-sauerkirsche.PNG",
       "name": "Banane-Sauerkirsche",
       "score": "8",
-      "description": "Classic 8/10"
+      "description": "Classic 8/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "eistee-energy.PNG",
       "name": "Eistee Energy-Geschmack",
       "score": "1",
-      "description": "1/10."
+      "description": "1/10.",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "granatapfel.PNG",
       "name": "Granatapfel-Zitronen-Geschmack",
       "score": "9",
-      "description": "9/10"
+      "description": "9/10",
+      "fraserscore": "10",
+      "fraserdescription": "This slaps so hard. Delicious"
     },
     {
       "filename": "erdbeer-rhabarber.PNG",
       "name": "Erdbeer-Rhabarber-Geschmack",
       "score": "7.5",
-      "description": "7.5/10"
+      "description": "7.5/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "fruit.PNG",
       "name": "Fruit Juice Drink Apple 12%, Orange 6%, Lemon 5%",
       "score": "10",
-      "description": "!!!!! 10/10! After that really fucking hot day at KdK being dehydrated af this was the best drink I ever had in my life and it will stay that way forever. It changed me."
+      "description": "!!!!! 10/10! After that really fucking hot day at KdK being dehydrated af this was the best drink I ever had in my life and it will stay that way forever. It changed me.",
+      "fraserscore": "",
+      "fraserdescription": ""
     },
     {
       "filename": "mate.PNG",

@@ -15,19 +15,19 @@
     {
       "name": "Link",
       "icon": "Link (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Samus",
       "icon": "Samus (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Dark Samus",
       "icon": "Dark Samus (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -45,13 +45,13 @@
     {
       "name": "Fox",
       "icon": "Fox (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Pikachu",
       "icon": "Pikachu (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -63,7 +63,7 @@
     {
       "name": "Ness",
       "icon": "Ness (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -75,7 +75,7 @@
     {
       "name": "Jigglypuff",
       "icon": "Jigglypuff (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -93,7 +93,7 @@
     {
       "name": "Bowser",
       "icon": "Bowser (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -105,7 +105,7 @@
     {
       "name": "Sheik",
       "icon": "Sheik (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -129,25 +129,25 @@
     {
       "name": "Falco",
       "icon": "Falco (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Marth",
       "icon": "Marth (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Lucina",
       "icon": "Lucina (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Young Link",
       "icon": "Young Link (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -165,13 +165,13 @@
     {
       "name": "Roy",
       "icon": "Roy (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Chrom",
       "icon": "Chrom (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -183,7 +183,7 @@
     {
       "name": "Meta Knight",
       "icon": "Meta Knight (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -201,19 +201,19 @@
     {
       "name": "Zero Suit Samus",
       "icon": "Zero Suit Samus (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Wario",
       "icon": "Wario (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Snake",
       "icon": "Snake (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -225,25 +225,25 @@
     {
       "name": "Pokémon Trainer",
       "icon": "Pokemon Trainer (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Diddy Kong",
       "icon": "Diddy Kong (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Lucas",
       "icon": "Lucas (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Sonic",
       "icon": "Sonic (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -261,7 +261,7 @@
     {
       "name": "Lucario",
       "icon": "Lucario (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -273,13 +273,13 @@
     {
       "name": "Toon Link",
       "icon": "Toon Link (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Wolf",
       "icon": "Wolf (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -291,7 +291,7 @@
     {
       "name": "Mega Man",
       "icon": "Mega Man (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -309,13 +309,13 @@
     {
       "name": "Little Mac",
       "icon": "Little Mac (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Greninja",
       "icon": "Greninja (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -339,13 +339,13 @@
     {
       "name": "Palutena",
       "icon": "Palutena (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Pac-man",
       "icon": "Pac Man (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -357,13 +357,13 @@
     {
       "name": "Shulk",
       "icon": "Shulk (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Bowser Jr.",
       "icon": "Bowser Jr (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -375,13 +375,13 @@
     {
       "name": "Ryu",
       "icon": "Ryu (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Ken",
       "icon": "Ken (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -399,19 +399,19 @@
     {
       "name": "Bayonetta",
       "icon": "Bayonetta (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["bayonetta.jpg", "bayonetta-2.webp", "bayonetta-3.png"],
+      "description": "Bayonetta players tend to be bottoms"
     },
     {
       "name": "Inkling",
       "icon": "Inkling (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Ridley",
       "icon": "Ridley (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -423,14 +423,14 @@
     {
       "name": "Richter",
       "icon": "Richter (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "King K. Rool",
       "icon": "King K Rool (1).png",
-      "picture": [],
-      "description": ""
+      "picture": ["k-rool.avif", "k-rool-2.jpg", "k-rool-3.jpg"],
+      "description": "K Rool players are the babies of smash, they are still learning the ropes. They're still learning how to press the buttons and still trying to figure out the mechanics. They're squinting at the screen trying to find their own crowns. Eventually they will start to get good and switch to a real character"
     },
     {
       "name": "Isabelle",
@@ -441,7 +441,7 @@
     {
       "name": "Incineroar",
       "icon": "Incineroar (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -453,13 +453,13 @@
     {
       "name": "Joker",
       "icon": "Joker (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Hero",
       "icon": "Hero (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -471,13 +471,13 @@
     {
       "name": "Terry",
       "icon": "Terry (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Byleth",
       "icon": "Byleth (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -495,13 +495,13 @@
     {
       "name": "Sephiroth",
       "icon": "Sephiroth (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
       "name": "Pyra/Mythra",
       "icon": "Pyra & Mythra (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     },
     {
@@ -513,7 +513,7 @@
     {
       "name": "Sora",
       "icon": "Sora (1).png",
-      "picture": [],
+      "picture": [".jpg", "-2.jpg", "-3.jpg"],
       "description": ""
     }
   ]

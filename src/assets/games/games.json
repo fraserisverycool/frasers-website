@@ -2700,7 +2700,7 @@
         "This game has a lot of random ass bullshit though, I won't lie. The part where the evil CEO lady fuses with this tentacle squid ultra beast thing just so she can float in the air and have an ordinary pokemon battle? I think that is someone's sex fantasy. And what the fuck is up with these weird-ass ultra beasts. I mean I love it because they're totally insane, but hello? Guzzlord? Buzzwole? What were they smoking when they decided to make these the legendary pokemon. Also the main character just has this gormless look on their face all the time which both ruins the vibe and also makes it hilarious, in a laughing-at not laughing-with kinda way.",
         "I dunno I guess this game still has a space in my heart."
       ],
-      "image": "pokemon-sun.png",
+      "image": "pokemon-sun.PNG",
       "platform": "3DS",
       "year": "older",
       "release": "2016"
@@ -2878,7 +2878,7 @@
         "It is so fucked up that they hired a literal hentai artist to be the character designer for this game. The sheer size of everyone's badonkadonks is mind-boggling. There are multiple in-script jokes about them! Pictured here is Dahlia, the first optional 'blade' I encountered. She's a monstrosity! Then there's Pyra, whose ass you have to look at the whole game as she runs beside you in her skimpy pants. Her character is just a Mary Sue who is just all boobs and no brains. Hate it. Mythra also insufferable.",
         "I hate so much about this game but I fucking finished it. I was so excited about the switch that I just did it. There were redeeming factors! I loved the regional accents, especially Nia's. I like Rex. I don't care I'll just admit it. Morag the only competent human being there, thank god they included her. I really enjoyed the environments, especially the stunning kingdom of Uraya. The cloud sea is a great idea."
       ],
-      "image": "xenoblade-2.webp",
+      "image": "xenoblade-2.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
@@ -3618,40 +3618,53 @@
     },
     {
       "name": "Animal Crossing: New Leaf",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "Amazing game that accompanied me through university times. I loved logging in every day to work on my beautiful town. The game looked better than ever, and was on a handheld again, which is perfect. I love Isabelle and all the new content. The characters are all very cute and fun.",
+        "Crucially, the soundtrack has been updated with new hourly themes and I love them so much. They have such a different vibe to the previous ones, it's its own special thing. That alone gives this game a special flavour that wasn't present in New Horizons. In this game you could somewhat customise the island which was awesome"
+      ],
+      "image": "animal-crossing-leaf.jpg",
       "platform": "3DS",
       "year": "older",
       "release": "2012"
     },
     {
       "name": "Mario Kart Wii",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "A classic of the Wii era, I remember its release fondly. Some of the best tracks in series history in this game. Daisy Circuit is my vibe. Otherwise, Maple Treeway, Grumble Volcano, Bowser's Castle, Dry Dry Ruins, Koopa Cape are some of my faves. The music is so good!",
+        "There was a time when I was younger when I got really into the time trial mode. You could compare your scores with your registered friends and people online. I always tried to outdo my friends James and Peter, and when it came to Shy Guy Beach I got an insanely good time and made it onto the leaderboards using the Magikoopa. Otherwise you just know I got that 3 star rating and did everything this game had to offer. I was truly obsessed, which is why I look back at these tracks so fondly.",
+        "I loved playing as Koopa Troopa! And I fucking hated Funky Kong. Everyone online just played Funky Kong in the same motorbike because it's a top tier combo and I resented it so much."
+      ],
+      "image": "mario-kart-wii.avif",
       "platform": "Wii",
       "year": "older",
       "release": "2008"
     },
     {
       "name": "Pokemon Diamond",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "Gen 4 really took things to the next level vibe-wise. An insanely beautiful soundtrack ('Lake', 'Eterna Forest', 'Pokemon League', and many more...) which is particularly jazzy, a straightforward but still fun story, a fun new batch of pokemon. I remember really wanting a Burmy so I got a friend to trade me one. It was called Cpt. Burmy. I also had Kricketune, Lumineon and even Bastiodon on my first team."
+        "Who could forget facing the champion Cynthia with that beautiful piano music, and she just sends out a brand new pokemon Spiritomb which has no weaknesses, then fucking Milotic then fucking Garchomp which just destroyed everything. I remember trying so many times to beat her and finally doing it at my friend Oscar's house."
+      ],
+      "image": "pokemon-diamond-2.png",
       "platform": "DS",
       "year": "older",
       "release": "2006"
     },
     {
       "name": "Paper Mario: The Thousand Year Door",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "9",
+      "review": [
+        "An absolute banger and a classic. This game is so funny! You visit somewhere which isn't the Mushroom Kingdom so the environments are totally different to what you're used to. That they based it on Rogueport (best music) is kinda wild, and then you visit the trippy Boggly Woods to play pikmin, a floating fighting arena, an Agatha Christie murder mystery on a train, the genuinely creepy Twilight Town (great music), even the fucking moon. So much to enjoy!",
+        "As far as I'm concerned this is the ultimate Mario RPG I think they knocked it out of the water."
+      ],
+      "image": "paper-mario-ttyd-2.jpg",
       "platform": "Gamecube",
       "year": "older",
       "release": "2004"

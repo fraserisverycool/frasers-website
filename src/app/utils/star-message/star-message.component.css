@@ -1,0 +1,149 @@
+.star-message-box {
+  display: inline-block;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 2rem auto;
+  text-align: center;
+  cursor: default;
+  user-select: none;
+  position: relative;
+  width: 220px; /* fix width to star size */
+  height: 220px;
+}
+
+/* The star shape */
+.star {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  clip-path: polygon(
+    50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+    50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+  );
+  box-shadow:
+    0 0 0 8px #ff6f91,
+    0 0 15px 12px #ffb6b9,
+    inset 0 5px 10px rgba(255 255 255 / 0.6);
+  color: #fff;
+  padding: 1.5rem 1.2rem 1rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  transition: transform 0.3s ease;
+  overflow: hidden; /* prevent overflow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.star:hover {
+  transform: rotate(10deg) scale(1.1);
+  box-shadow:
+    0 0 0 8px #ff527b,
+    0 0 20px 15px #ff8aa2,
+    inset 0 8px 15px rgba(255 255 255 / 0.8);
+}
+
+/* Score text smaller and wrapped */
+.score {
+  font-size: 2.8rem; /* smaller font size */
+  line-height: 1.1;
+  text-shadow: 2px 2px 4px #b03a4d;
+  margin-bottom: 0.3rem;
+  word-break: break-word;
+  max-width: 90%;
+}
+
+/* Description smaller and wrapped */
+.description {
+  font-size: 1rem; /* smaller font */
+  color: #fff;
+  text-shadow: 1px 1px 3px #6e0d1d;
+  padding: 0 0.5rem;
+  font-style: italic;
+  user-select: text;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+/* Sparkles container */
+.star-message-box::before,
+.star-message-box::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 10%;
+  left: 10%;
+  width: 15px;
+  height: 15px;
+  background: radial-gradient(circle at center, #fff, transparent 70%);
+  box-shadow:
+    0 0 8px 2px #fff,
+    0 0 15px 5px #ff9a9e,
+    0 0 25px 10px #fad0c4;
+  border-radius: 50%;
+  animation: sparkle 2.5s infinite ease-in-out alternate;
+  filter: drop-shadow(0 0 2px #fff);
+  z-index: 10;
+}
+
+.star-message-box::after {
+  top: 70%;
+  left: 75%;
+  width: 10px;
+  height: 10px;
+  animation-delay: 1.25s;
+  box-shadow:
+    0 0 6px 1.5px #fff,
+    0 0 12px 4px #ff9a9e,
+    0 0 20px 8px #fad0c4;
+}
+
+/* Additional small sparkles using pseudo elements */
+.star-message-box span.sparkle {
+  position: absolute;
+  background: radial-gradient(circle at center, #fff, transparent 70%);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 1.5px #fff);
+  animation: sparkle 3s infinite ease-in-out alternate;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Position individual sparkles */
+.star-message-box span.sparkle1 {
+  top: 15%;
+  left: 80%;
+  width: 8px;
+  height: 8px;
+  animation-delay: 0s;
+}
+
+.star-message-box span.sparkle2 {
+  top: 50%;
+  left: 5%;
+  width: 6px;
+  height: 6px;
+  animation-delay: 1s;
+}
+
+.star-message-box span.sparkle3 {
+  top: 85%;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  animation-delay: 2s;
+}
+
+/* Sparkle animation */
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.8) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2) rotate(15deg);
+  }
+}

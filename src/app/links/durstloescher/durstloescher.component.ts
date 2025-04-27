@@ -2,18 +2,21 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import { RouterLink, RouterOutlet } from '@angular/router';
+import StarMessageComponent from "../../utils/star-message/star-message.component";
 
 interface Durstloescher {
   filename: string;
   name: string;
   score: string;
   description: string;
+  fraserscore: string;
+  fraserdescription: string;
 }
 
 @Component({
   selector: 'app-durstloescher',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage],
+  imports: [CommonModule, NgOptimizedImage, StarMessageComponent],
   templateUrl: './durstloescher.component.html',
   styleUrls: ['./durstloescher.component.css']
 })
