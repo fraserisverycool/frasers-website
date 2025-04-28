@@ -267,6 +267,13 @@
     "image": "stranglers-greatest.jpg"
   },
   {
+    "artist": "Various Artists",
+    "album": "Phenomenon: Music from the Motion Picture",
+    "genre": "Rock & Electronic",
+    "description": "Soundtrack to a film I haven't seen that Víctor gave me! Various artists including some rock classics",
+    "image": "phenomenon.jpg"
+  },
+  {
     "artist": "Gorillaz",
     "album": "Plastic Beach",
     "genre": "Rock & Electronic",
@@ -426,6 +433,13 @@
     "genre": "Indie & Singer-Songwriter",
     "description": "Beautiful tracks. You can read about it in the <a routerLink=\"/music/albums\">albums</a> section.",
     "image": "laura-song.jpg"
+  },
+  {
+    "artist": "Mari Boine",
+    "album": "Sterna Paradisea",
+    "genre": "Indie & Singer-Songwriter",
+    "description": "CD Víctor gave me. It features a singer from northern Norway singing in the Sami language!",
+    "image": "mari-sterna.jpg"
   },
   {
     "artist": "Mark Barnes",
@@ -713,6 +727,13 @@
     "genre": "Vocal Jazz & Smooth",
     "description": "A gift from Diego. Gorgeous brazilian music",
     "image": "toninho-moonstone.jpg"
+  },
+  {
+    "artist": "Panthenol Spray Jojoba",
+    "album": "Entspannen... Abschalten... Träumen... Eine Mischung softer Musik für Ihr Wohlbefinden",
+    "genre": "Vocal Jazz & Smooth",
+    "description": "A CD that Víctor gave me, I guess from a zu verschenken box. It's generic massage music. Who knows when it will come in handy. I couldn't find the actual musician on the CD case",
+    "image": "massage.jpg"
   },
   {
     "artist": "Garoad",

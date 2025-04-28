@@ -64,7 +64,7 @@ export default class FilmsComponent implements OnInit {
         break;
       case 'all':
         this.films = this.originalFilms;
-        this.title = "Films Fraser has watched since 2013";
+        this.title = "Films Fraser has watched since 2023";
         break;
       case '2025':
         this.films = this.originalFilms.filter(film => film.year.includes('2025'));
