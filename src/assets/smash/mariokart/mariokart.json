@@ -558,7 +558,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": "n64-wario-stadium.png"
+    "image": "n64-wario-stadium-n64.png"
   },
   {
     "id": 30,
@@ -1108,7 +1108,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-luigi-circuit-gcn.webp"
   },
   {
     "id": 42,
@@ -1119,7 +1119,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-luigi-circuit-gcn.webp"
   },
   {
     "id": 52,
@@ -1130,7 +1130,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-peach-beach.webp"
   },
   {
     "id": 52,
@@ -1141,7 +1141,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-peach-beach.webp"
   },
   {
     "id": 53,
@@ -1152,7 +1152,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-baby-park.webp"
   },
   {
     "id": 53,
@@ -1163,7 +1163,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-baby-park.png"
   },
   {
     "id": 53,
@@ -1174,7 +1174,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-baby-park.webp"
   },
   {
     "id": 54,
@@ -1185,7 +1185,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-dry-dry-desert.webp"
   },
   {
     "id": 54,
@@ -1196,7 +1196,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-dry-dry-desert.jpg"
   },
   {
     "id": 55,
@@ -1207,7 +1207,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-mushroom-bridge.webp"
   },
   {
     "id": 55,
@@ -1218,7 +1218,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-mushroom-bridge.webp"
   },
   {
     "id": 39,
@@ -1229,7 +1229,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-mario-circuit-gcn.webp"
   },
   {
     "id": 39,
@@ -1240,7 +1240,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-mario-circuit-gcn.webp"
   },
   {
     "id": 56,
@@ -1251,7 +1251,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-daisy-cruiser.webp"
   },
   {
     "id": 56,
@@ -1262,7 +1262,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-daisy-cruiser.webp"
   },
   {
     "id": 56,
@@ -1273,7 +1273,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-daisy-cruiser.webp"
   },
   {
     "id": 57,
@@ -1284,7 +1284,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-waluigi-stadium.webp"
   },
   {
     "id": 57,
@@ -1295,7 +1295,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-waluigi-stadium.webp"
   },
   {
     "id": 57,
@@ -1306,7 +1306,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-waluigi-stadium.webp"
   },
   {
     "id": 30,
@@ -1317,7 +1317,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-sherbet-land-gcn.webp"
   },
   {
     "id": 30,
@@ -1328,7 +1328,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-sherbet-land-gcn.webp"
   },
   {
     "id": 58,
@@ -1339,7 +1339,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-mushroom-city.webp"
   },
   {
     "id": 59,
@@ -1350,7 +1350,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-yoshi-circuit.webp"
   },
   {
     "id": 59,
@@ -1361,7 +1361,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-yoshi-circuit.webp"
   },
   {
     "id": 59,
@@ -1372,7 +1372,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-yoshi-circuit.webp"
   },
   {
     "id": 60,
@@ -1383,7 +1383,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-dk-mountain.webp"
   },
   {
     "id": 60,
@@ -1394,7 +1394,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-dk-mountain.webp"
   },
   {
     "id": 60,
@@ -1405,7 +1405,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-dk-mountain.webp"
   },
   {
     "id": 61,
@@ -1416,7 +1416,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-wario-colosseum.webp"
   },
   {
     "id": 62,
@@ -1427,7 +1427,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-dino-dino-jungle.webp"
   },
   {
     "id": 62,
@@ -1438,7 +1438,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-dino-dino-jungle.webp"
   },
   {
     "id": 32,
@@ -1449,7 +1449,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-bowsers-castle-gcn.webp"
   },
   {
     "id": 20,
@@ -1460,7 +1460,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "gcn-rainbow-road-gcn.webp"
   },
   {
     "id": 63,
@@ -1471,7 +1471,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-figure-8-circuit.webp"
   },
   {
     "id": 64,
@@ -1482,7 +1482,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-yoshi-falls.webp"
   },
   {
     "id": 64,
@@ -1493,7 +1493,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-yoshi-falls.webp"
   },
   {
     "id": 65,
@@ -1504,7 +1504,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-cheep-cheep-beach.webp"
   },
   {
     "id": 65,
@@ -1515,7 +1515,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-cheep-cheep-beach.webp"
   },
   {
     "id": 66,
@@ -1526,7 +1526,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-luigis-mansion.webp"
   },
   {
     "id": 66,
@@ -1537,7 +1537,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-luigis-mansion.webp"
   },
   {
     "id": 67,
@@ -1548,7 +1548,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-desert-hills.webp"
   },
   {
     "id": 67,
@@ -1559,7 +1559,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-desert-hills.webp"
   },
   {
     "id": 68,
@@ -1570,7 +1570,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-delfino-square.webp"
   },
   {
     "id": 68,
@@ -1581,7 +1581,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-delfino-square.webp"
   },
   {
     "id": 69,
@@ -1592,7 +1592,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-waluigi-pinball.webp"
   },
   {
     "id": 69,
@@ -1603,7 +1603,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-waluigi-pinball.jpg"
   },
   {
     "id": 69,
@@ -1614,7 +1614,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-waluigi-pinball.webp"
   },
   {
     "id": 70,
@@ -1625,7 +1625,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-shroom-ridge.png"
   },
   {
     "id": 70,
@@ -1636,7 +1636,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-shroom-ridge.webp"
   },
   {
     "id": 71,
@@ -1647,7 +1647,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-dk-pass.webp"
   },
   {
     "id": 71,
@@ -1658,7 +1658,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-dk-pass.jpg"
   },
   {
     "id": 72,
@@ -1669,7 +1669,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-tick-tock-clock.png"
   },
   {
     "id": 72,
@@ -1680,7 +1680,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-tick-tock-clock.webp"
   },
   {
     "id": 39,
@@ -1691,7 +1691,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-mario-circuit-ds.webp"
   },
   {
     "id": 39,
@@ -1702,7 +1702,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-mario-circuit-ds.webp"
   },
   {
     "id": 73,
@@ -1713,7 +1713,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-airship-fortress.webp"
   },
   {
     "id": 73,
@@ -1724,7 +1724,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-airship-fortress.webp"
   },
   {
     "id": 29,
@@ -1735,7 +1735,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-wario-stadium-ds.webp"
   },
   {
     "id": 29,
@@ -1746,7 +1746,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-wario-stadium-ds.webp"
   },
   {
     "id": 74,
@@ -1757,7 +1757,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-peach-gardens.png"
   },
   {
     "id": 74,
@@ -1768,7 +1768,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-peach-gardens.png"
   },
   {
     "id": 74,
@@ -1779,7 +1779,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-peach-gardens.webp"
   },
   {
     "id": 32,
@@ -1790,7 +1790,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-bowsers-castle-ds.webp"
   },
   {
     "id": 20,
@@ -1801,7 +1801,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "ds-rainbow-road-ds.webp"
   },
   {
     "id": 42,
@@ -1812,7 +1812,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-luigi-circuit-wii.webp"
   },
   {
     "id": 75,
@@ -1823,7 +1823,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-moo-moo-meadows.webp"
   },
   {
     "id": 75,
@@ -1834,7 +1834,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-moo-moo-meadows.webp"
   },
   {
     "id": 76,
@@ -1845,7 +1845,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-mushroom-gorge.png"
   },
   {
     "id": 76,
@@ -1856,7 +1856,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-mushroom-gorge.jpg"
   },
   {
     "id": 76,
@@ -1867,7 +1867,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-mushroom-gorge.webp"
   },
   {
     "id": 77,
@@ -1878,7 +1878,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-toads-factory.webp"
   },
   {
     "id": 39,
@@ -1889,7 +1889,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-mario-circuit-wii.webp"
   },
   {
     "id": 78,
@@ -1900,7 +1900,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-coconut-mall.webp"
   },
   {
     "id": 78,
@@ -1911,7 +1911,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-coconut-mall.webp"
   },
   {
     "id": 78,
@@ -1922,7 +1922,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-coconut-mall.jpg"
   },
   {
     "id": 79,
@@ -1933,7 +1933,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-dks-snowboard-cross.webp"
   },
   {
     "id": 79,
@@ -1944,7 +1944,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-dks-snowboard-cross.webp"
   },
   {
     "id": 80,
@@ -1955,7 +1955,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-warios-gold-mine.webp"
   },
   {
     "id": 80,
@@ -1966,7 +1966,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-warios-gold-mine.webp"
   },
   {
     "id": 81,
@@ -1977,7 +1977,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-daisy-circuit.webp"
   },
   {
     "id": 81,
@@ -1988,7 +1988,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-daisy-circuit.webp"
   },
   {
     "id": 82,
@@ -1999,7 +1999,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-koopa-cape.webp"
   },
   {
     "id": 82,
@@ -2010,7 +2010,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-koopa-cape.webp"
   },
   {
     "id": 82,
@@ -2021,7 +2021,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-koopa-cape.webp"
   },
   {
     "id": 83,
@@ -2032,7 +2032,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-maple-treeway.webp"
   },
   {
     "id": 83,
@@ -2043,7 +2043,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "3ds-maple-treeway.webp"
   },
   {
     "id": 83,
@@ -2054,7 +2054,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-maple-treeway.jpg"
   },
   {
     "id": 84,
@@ -2065,7 +2065,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-grumble-volcano.png"
   },
   {
     "id": 84,
@@ -2076,7 +2076,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-grumble-volcano.webp"
   },
   {
     "id": 85,
@@ -2087,7 +2087,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-dry-dry-ruins.webp"
   },
   {
     "id": 86,
@@ -2098,7 +2098,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-moonview-highway.webp"
   },
   {
     "id": 86,
@@ -2109,7 +2109,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-moonview-highway.webp"
   },
   {
     "id": 32,
@@ -2120,7 +2120,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-bowsers-castle-wii.png"
   },
   {
     "id": 20,
@@ -2131,7 +2131,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "wii-rainbow-road-wii.webp"
   },
   {
     "id": 20,
@@ -2142,7 +2142,7 @@
     "track": "",
     "ranking": "",
     "description": "",
-    "image": ""
+    "image": "mk8-rainbow-road-wii.webp"
   },
   {
     "id": 87,
