@@ -65,6 +65,9 @@ export const routes: Routes = [
     path: 'smash/brexitsummit', loadComponent: () => import('./smash/brexit/brexit.component')
   },
   {
+    path: 'smash/mariokart', loadComponent: () => import('./smash/mariokart/mariokart.component')
+  },
+  {
     path: 'guestbook', loadComponent: () => import('./guestbook/guestbook.component')
   }
 ];
