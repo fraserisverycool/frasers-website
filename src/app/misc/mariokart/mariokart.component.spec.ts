@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import PartyComponent from './party.component';
+import { MariokartComponent } from './mariokart.component';
 
-describe('PartyComponent', () => {
-  let component: PartyComponent;
-  let fixture: ComponentFixture<PartyComponent>;
+describe('MariokartComponent', () => {
+  let component: MariokartComponent;
+  let fixture: ComponentFixture<MariokartComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [PartyComponent]
+      imports: [MariokartComponent]
     });
-    fixture = TestBed.createComponent(PartyComponent);
+    fixture = TestBed.createComponent(MariokartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,33 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(45deg, #05025c, #350170);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: #cccab6;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  margin-bottom: 10px;
+  background-color: #cccab6;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

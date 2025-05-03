@@ -1,0 +1,70 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(45deg, #05025c, #350170);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: #cccab6;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.track-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.track-card .mario-kart-64 {
+  width: 320px;
+  height: 237px;
+  object-fit: cover;
+}
+
+.track-card .mario-kart-ds {
+  width: 320px;
+  height: 237px;
+  object-fit: cover;
+}
+
+.track-card {
+  margin: 1em;
+  padding: 1em;
+  background-color: #ffffe0;
+  border: 1px solid #333;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.track-card img {
+  width: 100%; /* adjust as necessary */
+  height: auto;
+}
+
+.track-card h2,
+.track-card h3,
+.track-card h4 {
+  margin: 5px 0;
+}
+
+.track-card p {
+  margin: 5px 0;
+}
+
+.filter-bar {
+  background-color: #ffffe0;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+.filter-bar a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.filter-bar a:hover {
+  color: #007bff;
+}

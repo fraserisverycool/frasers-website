@@ -1,0 +1,43 @@
+<div class="container">
+  <h1>What does your main say about you?</h1>
+  <div class="character-grid">
+  <div
+    class="character.description ? character-item : character-nothing"
+    *ngFor="let character of characters"
+    (click)="character.description ? selectCharacter(character) : null"
+    [ngClass]="{'grayscale': !character.description}"
+  >
+    <img
+      [ngSrc]="'assets/misc/characters/icons/' + character.icon"
+      alt="{{ character.name }}"
+      class="character-icon"
+      width="20"
+      height="20"
+    />
+  </div>
+</div>
+
+<div class="password-input">
+  <label for="password">Change the character images with a password:</label>
+  <input
+    id="password"
+    type="text"
+    [(ngModel)]="password"
+    (input)="updatePictureMode()"
+    placeholder="ask me personally for this..."
+  />
+</div>
+
+  <div class="character-detail" *ngIf="selectedCharacter">
+  <button class="close-btn" (click)="closeDetail()">X</button>
+  <h2>{{ selectedCharacter.name }}</h2>
+  <p>{{ selectedCharacter.description }}</p>
+  <img
+    [ngSrc]="'assets/misc/characters/pics/' + selectedCharacter.picture[pictureMode]"
+    alt="{{ selectedCharacter.name }}"
+    class="character-picture"
+    width="600"
+    height="600"
+  />
+</div>
+</div>

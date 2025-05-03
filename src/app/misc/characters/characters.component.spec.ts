@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import PartyComponent from './party.component';
+import CharactersComponent from './characters.component';
 
-describe('PartyComponent', () => {
-  let component: PartyComponent;
-  let fixture: ComponentFixture<PartyComponent>;
+describe('CharactersComponent', () => {
+  let component: CharactersComponent;
+  let fixture: ComponentFixture<CharactersComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [PartyComponent]
+      imports: [CharactersComponent]
     });
-    fixture = TestBed.createComponent(PartyComponent);
+    fixture = TestBed.createComponent(CharactersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -53,19 +53,22 @@ export const routes: Routes = [
     path: 'gallery/videos', loadComponent: () => import('./gallery/videos/videos.component')
   },
   {
-    path: 'links', loadComponent: () => import('./links/links.component')
+    path: 'community', loadComponent: () => import('./community/community.component')
   },
   {
-    path: 'links/durstloescher', loadComponent: () => import('./links/durstloescher/durstloescher.component')
+    path: 'community/durstloescher', loadComponent: () => import('./community/durstloescher/durstloescher.component')
   },
   {
-    path: 'smash', loadComponent: () => import('./smash/smash.component')
+    path: 'misc', loadComponent: () => import('./misc/misc.component')
   },
   {
-    path: 'smash/brexitsummit', loadComponent: () => import('./smash/brexit/brexit.component')
+    path: 'misc/brexitsummit', loadComponent: () => import('./misc/brexit/brexit.component')
   },
   {
-    path: 'smash/mariokart', loadComponent: () => import('./smash/mariokart/mariokart.component')
+    path: 'misc/characters', loadComponent: () => import('./misc/characters/characters.component')
+  },
+  {
+    path: 'misc/mariokart', loadComponent: () => import('./misc/mariokart/mariokart.component')
   },
   {
     path: 'guestbook', loadComponent: () => import('./guestbook/guestbook.component')
