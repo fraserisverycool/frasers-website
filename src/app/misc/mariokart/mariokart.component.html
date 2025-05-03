@@ -1,21 +1,32 @@
 <div class="container">
   <nav class="filter-bar">
-    <a *ngFor="let game of gameMap | keyvalue:orderUnchanged" (click)="filterTracks(game.key)">
+    <a class="filter-button" *ngFor="let game of gameMap | keyvalue:orderUnchanged" (click)="filterTracks(game.key)">
       {{ game.value }}
     </a>
   </nav>
   <div class="track-list">
     <div *ngFor="let track of tracks" class="track-card">
-      <img [src]="'assets/misc/mariokart/' + track.image" [class.mario-kart-64]="track.game === gameMap['n64']" [class.mario-kart-ds]="track.game === gameMap['ds']" alt="{{ track.name }} image">
-      <h2>{{ track.name }}</h2>
-      <h3>Game: {{ track.game }}</h3>
-      <h4>Original Game: {{ track.originalgame }}</h4>
+      <img
+        [src]="'assets/misc/mariokart/' + track.image"
+        [class.mario-kart-64]="track.game === gameMap['n64']"
+        [class.mario-kart-ds]="track.game === gameMap['ds']"
+        [class.mario-kart-7]="track.game === gameMap['3ds']"
+        alt="{{ track.name }} image">
+      <div class="track-header">
+        <h2>{{ track.name }}</h2>
+        <h3>{{ getKeyByValue(gameMap, track.originalgame) }}</h3>
+      </div>
       <p>{{ track.description }}</p>
       <div>
-        <p>Music: {{ track.music }}</p>
-        <p>Vibes: {{ track.vibes }}</p>
-        <p>Track: {{ track.track }}</p>
-        <p>Ranking: {{ track.ranking }}</p>
+        <p>Music:
+          <span class="star" *ngFor="let i of ' '.repeat(track.music).split('')">★</span><span class="star" *ngFor="let i of ' '.repeat(5-track.music).split('')">☆</span>
+        </p>
+        <p>Vibes:
+          <span class="star" *ngFor="let i of ' '.repeat(track.vibes).split('')">★</span><span class="star" *ngFor="let i of ' '.repeat(5-track.vibes).split('')">☆</span>
+        </p>
+        <p>Track:
+          <span class="star" *ngFor="let i of ' '.repeat(track.track).split('')">★</span><span class="star" *ngFor="let i of ' '.repeat(5-track.track).split('')">☆</span>
+        </p>
       </div>
     </div>
   </div>

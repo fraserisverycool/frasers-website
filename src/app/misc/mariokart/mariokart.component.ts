@@ -68,5 +68,8 @@ export default class MariokartComponent implements OnInit{
     }
   }
 
+  getKeyByValue(object: Record<string, string>, value: string): string | undefined {
+    return Object.keys(object).find(key => object[key] === value)?.toUpperCase();
+  }
 }
 
