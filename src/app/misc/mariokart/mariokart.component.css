@@ -20,24 +20,6 @@
   align-items: center;
 }
 
-.track-card .mario-kart-64 {
-  width: 320px;
-  height: 237px;
-  object-fit: cover;
-}
-
-.track-card .mario-kart-ds {
-  width: 320px;
-  height: 237px;
-  object-fit: cover;
-}
-
-.track-card .mario-kart-7 {
-  width: 400px;
-  height: 240px;
-  object-fit: cover;
-}
-
 .track-card {
   margin: 1em;
   padding: 1em;

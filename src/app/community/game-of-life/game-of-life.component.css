@@ -9,3 +9,33 @@
   color: white;
   overflow: hidden;
 }
+
+/* Responsive iframe wrapper */
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  /* 4:3 aspect ratio (560/750 = 0.75) */
+  padding-top: 75%;
+  margin: 0 auto;
+  max-width: 750px; /* Optional: limits max size on desktop */
+}
+
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: #000;
+}
+
+/* Responsive text */
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.container p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}

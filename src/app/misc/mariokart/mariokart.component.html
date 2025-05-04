@@ -8,9 +8,6 @@
     <div *ngFor="let track of tracks" class="track-card">
       <img
         [src]="'assets/misc/mariokart/' + track.image"
-        [class.mario-kart-64]="track.game === gameMap['n64']"
-        [class.mario-kart-ds]="track.game === gameMap['ds']"
-        [class.mario-kart-7]="track.game === gameMap['3ds']"
         alt="{{ track.name }} image">
       <div class="track-header">
         <h2>{{ track.name }}</h2>
