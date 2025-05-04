@@ -59,6 +59,9 @@ export const routes: Routes = [
     path: 'community/durstloescher', loadComponent: () => import('./community/durstloescher/durstloescher.component')
   },
   {
+    path: 'community/game-of-life', loadComponent: () => import('./community/game-of-life/game-of-life.component')
+  },
+  {
     path: 'misc', loadComponent: () => import('./misc/misc.component')
   },
   {

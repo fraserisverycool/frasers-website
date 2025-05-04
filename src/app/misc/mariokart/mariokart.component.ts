@@ -25,6 +25,7 @@ interface Track {
 export default class MariokartComponent implements OnInit{
   tracks: Track[] = [];
   originalTracks: Track[] = [];
+  currentFilter: string = "";
 
   gameMap = {
     'snes': 'Super Mario Kart',
@@ -36,6 +37,19 @@ export default class MariokartComponent implements OnInit{
     '3ds': 'Mario Kart 7',
     'mk8': 'Mario Kart 8 Deluxe',
   };
+
+  gameDescription = {
+    'snes': "The original and OG game! I never played this one as a child, instead just coming back to it as an adult. It's really hard but you can get the knack of it if you play for a bit. This is early days so they didn't have unique tracks, instead having Mario Circuit 1, 2 etc. In fact there are four Mario Circuits which is excessive. For this ranking I put all the themed circuits together even if there is some variation between the tracks because I wanted at least some level of consistency for this game that I have played the least out of all of the Mario Karts.",
+    'n64': 'Mario Kart 64',
+    'gba': "Super Circuit is lowkey a super fun game. It's hard to get used to when going on 150cc yes but it's still a lot of fun! They take the Super Mario Kart formula and modernise it, also creating some really inspired themed circuits. The latter half of the tracks tend to have a lot of difficult 90 degree turns and other bullshit, which makes it less fun. For some reason, there are four Bowser's Castles. I ended up ranking them together because their vibes are so similar but that fourth one is just ridiculous.",
+    'gcn': 'Mario Kart: Double Dash!!',
+    'ds': 'Mario Kart DS',
+    'wii': 'Mario Kart Wii',
+    '3ds': 'Mario Kart 7',
+    'mk8': 'Mario Kart 8 Deluxe',
+  };
+
+  pageDescription = "Welcome to my ranking of every Mario Kart track ever. This is an exhaustive list featuring everything because I love it when lists are complete. What's that, I hear you say? Mario Kart Tour and Mario Kart Arcade GP aren't represented? Fuck you! Those aren't real games. If it means that Piranha Plant Pipeline gets forgotten to history, so be it! A quick note about these rankings, you might notice that the order doesn't correspond with the number of stars I give to each track. That's fine. These rankings come from the heart, and won't necessarily follow the rules. You've been warned!"
 
   constructor(private http: HttpClient) {}
 
@@ -62,7 +76,12 @@ export default class MariokartComponent implements OnInit{
   filterTracks(criteria: string): void {
     let gameName = this.gameMap[criteria as keyof typeof this.gameMap];
     if (gameName) {
-      this.tracks = [...this.originalTracks].filter((track) => track.game === gameName);
+      this.tracks = [...this.originalTracks]
+        .filter((track) => track.game === gameName)
+        .sort((a, b) => a.ranking - b.ranking);
+        //.sort((a, b) => a.name.localeCompare(b.name));
+      this.currentFilter = criteria;
+      this.tracks.forEach(track => console.log(track.name));
     } else {
       console.error('Invalid filtering criteria');
     }

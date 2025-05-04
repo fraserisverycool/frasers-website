@@ -19,6 +19,10 @@
 .link {
   margin-top: 20px;
   color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
 }
 
 .link h2 {

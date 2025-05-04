@@ -104,7 +104,6 @@
   display: flex;
   margin-bottom: 1em;
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.3);
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0;
