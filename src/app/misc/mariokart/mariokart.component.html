@@ -14,15 +14,30 @@
         <h3>{{ getKeyByValue(gameMap, track.originalgame) }}</h3>
       </div>
       <p>{{ track.description }}</p>
-      <div>
+      <div class="star-bar">
         <p>Music:
-          <span class="star" *ngFor="let i of ' '.repeat(track.music).split('')">★</span><span class="star" *ngFor="let i of ' '.repeat(5-track.music).split('')">☆</span>
+          <span class="star" *ngFor="let i of ' '.repeat(track.music).split('')">
+            <img src="'assets/misc/mariokart/spinningstar.gif'">
+          </span>
+          <span class="star" *ngFor="let i of ' '.repeat(5-track.music).split('')">
+            ☆
+          </span>
         </p>
         <p>Vibes:
-          <span class="star" *ngFor="let i of ' '.repeat(track.vibes).split('')">★</span><span class="star" *ngFor="let i of ' '.repeat(5-track.vibes).split('')">☆</span>
+          <span class="star" *ngFor="let i of ' '.repeat(track.vibes).split('')">
+            <img src="'assets/misc/mariokart/spinningstar.gif'">
+          </span>
+          <span class="star" *ngFor="let i of ' '.repeat(5-track.vibes).split('')">
+            ☆
+          </span>
         </p>
         <p>Track:
-          <span class="star" *ngFor="let i of ' '.repeat(track.track).split('')">★</span><span class="star" *ngFor="let i of ' '.repeat(5-track.track).split('')">☆</span>
+          <span class="star" *ngFor="let i of ' '.repeat(track.track).split('')">
+            <img src="'assets/misc/mariokart/spinningstar.gif'">
+          </span>
+          <span class="star" *ngFor="let i of ' '.repeat(5-track.track).split('')">
+            ☆
+          </span>
         </p>
       </div>
     </div>
