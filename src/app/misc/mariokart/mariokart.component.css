@@ -116,3 +116,8 @@
   transform: scale(1.1); /* Adds a scaling effect on hover */
   background: linear-gradient(to right, #dd2476, #ff512f); /* Reverses the gradient on hover */
 }
+
+.star-bar {
+  display: flex;
+  flex-direction: row;
+}
