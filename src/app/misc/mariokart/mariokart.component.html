@@ -1,9 +1,16 @@
 <div class="container">
+  <h1>Fraser's Mario Kart Rankings</h1>
+  <p>{{ pageDescription }}</p>
   <nav class="filter-bar">
-    <a class="filter-button" *ngFor="let game of gameMap | keyvalue:orderUnchanged" (click)="filterTracks(game.key)">
+    <a
+      class="filter-button"
+      [ngClass]="{ 'selected': currentFilter === game.key }"
+      *ngFor="let game of gameMap | keyvalue:orderUnchanged"
+      (click)="filterTracks(game.key)">
       {{ game.value }}
     </a>
   </nav>
+  <p>{{ gameDescription[currentFilter] }}</p>
   <div class="track-list">
     <div *ngFor="let track of tracks" class="track-card">
       <img
@@ -19,24 +26,15 @@
           <span class="star" *ngFor="let i of ' '.repeat(track.music).split('')">
             <img src="../../../assets/misc/mariokart/spinningstar.gif">
           </span>
-          <span class="star" *ngFor="let i of ' '.repeat(5-track.music).split('')">
-            ☆
-          </span>
         </p>
         <p>Vibes:
           <span class="star" *ngFor="let i of ' '.repeat(track.vibes).split('')">
             <img src="../../../assets/misc/mariokart/spinningstar.gif">
           </span>
-          <span class="star" *ngFor="let i of ' '.repeat(5-track.vibes).split('')">
-            ☆
-          </span>
         </p>
         <p>Track:
           <span class="star" *ngFor="let i of ' '.repeat(track.track).split('')">
             <img src="../../../assets/misc/mariokart/spinningstar.gif">
-          </span>
-          <span class="star" *ngFor="let i of ' '.repeat(5-track.track).split('')">
-            ☆
           </span>
         </p>
       </div>

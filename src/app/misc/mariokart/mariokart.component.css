@@ -114,12 +114,18 @@
 
 .filter-bar .filter-button:hover {
   transform: scale(1.1); /* Adds a scaling effect on hover */
-  background: linear-gradient(to right, #dd2476, #ff512f); /* Reverses the gradient on hover */
+}
+
+.filter-bar .filter-button.selected {
+  background: #ffffff; /* Change background color to white for more contrast */
+  color: #dd2476; /* Change the text color for contrast against the white background */
+  box-shadow: 0 0 20px #dd2476, 0 0 30px #dd2476, 0 0 40px #dd2476; /* Enhance box shadow for a glow effect */
 }
 
 .star-bar {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .star-bar img {
