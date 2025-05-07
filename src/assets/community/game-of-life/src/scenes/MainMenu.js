@@ -16,7 +16,7 @@ export class MainMenu extends Scene
         this.tile.scaleY = this.scaleTileY;
         this.tile.setOrigin(0, 0);
 
-        this.add.text(512, 300, 'Super Shooter', {
+        this.add.text(512, 300, 'Game of Life', {
             fontFamily: 'Arial Black', fontSize: 70, color: '#ffffff',
             stroke: '#000000', strokeThickness: 8,
             align: 'center'

@@ -237,8 +237,8 @@
       "name": "Banane-Sauerkirsche",
       "score": "8",
       "description": "Classic 8/10",
-      "fraserscore": "",
-      "fraserdescription": ""
+      "fraserscore": "5",
+      "fraserdescription": "I would argue this is too much of a Geschmacksexplosion. It's too extreme."
     },
     {
       "filename": "eistee-energy.PNG",
@@ -276,7 +276,9 @@
       "filename": "mate.PNG",
       "name": "Mate",
       "score": "3",
-      "description": "Meh 3/10"
+      "description": "Meh 3/10",
+      "fraserscore": "",
+      "fraserdescription": ""
     }
   ]
 }
