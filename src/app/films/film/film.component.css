@@ -1,0 +1,37 @@
+.film-review {
+  background-color: #ffc2c2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.film-review h2 {
+  color: #ad0000;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #8f000a;
+  padding-bottom: 10px;
+}
+
+.film-review p {
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.film-review img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.release-info {
+  font-weight: bold;
+  color: #e74c3c;
+}

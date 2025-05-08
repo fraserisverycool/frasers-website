@@ -1,0 +1,14 @@
+<div *ngIf="selectedDurstloescher" class="modal">
+  <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
+    <span class="close" (click)="close.emit()">&times;</span>
+    <h2>{{ selectedDurstloescher.name }}</h2>
+    <p>{{ selectedDurstloescher.description }}</p>
+    <img [ngSrc]="'assets/community/durstloescher/' + selectedDurstloescher.filename" [alt]="selectedDurstloescher.name" class="modal-image" width="600" height="600">
+    <div *ngIf="selectedDurstloescher.fraserscore" class="star">
+      <app-star-message
+        [score]="selectedDurstloescher.fraserscore"
+        [description]="selectedDurstloescher.fraserdescription">
+      </app-star-message>
+    </div>
+  </div>
+</div>

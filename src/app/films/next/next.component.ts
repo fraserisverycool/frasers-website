@@ -11,8 +11,8 @@ import FilmsComponent from "../films.component";
 })
 export default class NextComponent {
   films = [
-    'Labyrinth', 'Playtime', 'Black Christmas', 'Wings', 'Possession',
-    'Mulholland Drive', 'Suspiria', 'Pink Flamingos', "I'm Still Here",
+    'Labyrinth', 'Playtime', 'Black Christmas', 'Wings',
+    'Mulholland Drive', 'Pink Flamingos', "I'm Still Here",
     'Queer', 'Nickel Boys', 'The Seed of the Sacred Fig', 'Inline Empire',
     'Aftersun', "It's Such a Beautiful Day", 'The Host',
     'Boys Go to Jupiter', 'My Favourite Cake', 'Sueño en Otro Idioma',
@@ -26,7 +26,7 @@ export default class NextComponent {
     'Top Gun Maverick', 'Uncut Gems', 'Shelter',
     'Duke', 'Flee', 'Slow West',
     'Babel', 'Cha Cha Real Smooth',
-    'Rear Windows', "Manco Cápac", "Coming Out",
+    'Rear Windows', "Manco Cápac",
     "The Departures", "Mummy", "Matthias and Maxime",
     "Kite Runner"
   ];

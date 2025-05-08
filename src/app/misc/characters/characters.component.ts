@@ -2,18 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-
-interface Character {
-  name: string;
-  icon: string;
-  picture: string[];
-  description: string;
-}
+import {Character} from "./character.interface";
+import {CharacterComponent} from "./character/character.component";
 
 @Component({
   selector: 'app-characters',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, FormsModule],
+  imports: [CommonModule, NgOptimizedImage, FormsModule, CharacterComponent],
   templateUrl: './characters.component.html',
   styleUrls: ['./characters.component.css'],
 })
@@ -41,7 +36,9 @@ export default class CharactersComponent implements OnInit {
   }
 
   selectCharacter(character: Character): void {
-    this.selectedCharacter = character;
+    setTimeout(() => {
+      this.selectedCharacter = character;
+    }, 0);
   }
 
   closeDetail(): void {

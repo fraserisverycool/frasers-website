@@ -1,0 +1,12 @@
+<div class="character-detail" *ngIf="selectedCharacter" appClickedOutside (clickedOutside)="close.emit()">
+  <button class="close-btn" (click)="close.emit()">X</button>
+  <h2>{{ selectedCharacter.name }}</h2>
+  <p>{{ selectedCharacter.description }}</p>
+  <img
+    [ngSrc]="'assets/misc/characters/pics/' + selectedCharacter.picture[pictureMode]"
+    alt="{{ selectedCharacter.name }}"
+    class="character-picture"
+    width="600"
+    height="600"
+  />
+</div>

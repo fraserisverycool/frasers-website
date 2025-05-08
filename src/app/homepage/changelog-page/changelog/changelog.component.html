@@ -1,0 +1,16 @@
+<div *ngIf="error" style="color: red;">
+  {{ error }}
+</div>
+
+<table class="retro-table">
+  <tbody>
+  <tr *ngFor="let entry of changelogEntries">
+    <td class="nowrap" [class.major]="entry.majorRelease">{{ entry.date }}</td>
+    <td [class.major]="entry.majorRelease">
+      <span *ngIf="entry.majorRelease" class="sparkle">✨</span>
+      {{ entry.message }}
+      <span *ngIf="entry.majorRelease" class="sparkle">✨</span>
+    </td>
+  </tr>
+  </tbody>
+</table>

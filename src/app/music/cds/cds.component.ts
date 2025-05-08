@@ -1,20 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
-import { FormsModule } from '@angular/forms';
-
-interface CD {
-  artist: string;
-  album: string;
-  genre: string;
-  description: string;
-  image: string;
-}
+import {Component, OnInit} from '@angular/core';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
+import {HttpClient} from "@angular/common/http";
+import {FormsModule} from '@angular/forms';
+import {CD} from "./cd.interface";
+import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
+import {CdModalComponent} from "./cd-modal/cd-modal.component";
 
 @Component({
   selector: 'app-cds',
   standalone: true,
-  imports: [CommonModule, FormsModule, NgOptimizedImage],
+  imports: [CommonModule, FormsModule, NgOptimizedImage, DurstloescherModalComponent, CdModalComponent],
   templateUrl: './cds.component.html',
   styleUrls: ['./cds.component.css']
 })
@@ -83,7 +78,9 @@ export default class CdsComponent implements OnInit {
   }
 
   showDescription(cd: CD): void {
-    this.selectedCd = cd;
+    setTimeout(() => {
+      this.selectedCd = cd;
+    }, 0);
   }
 
   closeDescription(): void {

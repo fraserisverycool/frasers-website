@@ -1,14 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
-export interface Feedback {
-  id: number;
-  comment: string;
-  name: string;
-  color: string;
-  timestamp: string;
-}
+import {Feedback} from "../feedback.interface";
 
 @Injectable({
   providedIn: 'root'

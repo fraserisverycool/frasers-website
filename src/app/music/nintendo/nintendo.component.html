@@ -35,18 +35,4 @@
   </div>
 </div>
 
-<div *ngIf="selectedSoundtrack" class="modal">
-  <div class="modal-content">
-    <span class="close" (click)="closeDescription()">&times;</span>
-    <h2>{{ selectedSoundtrack.name }}</h2>
-    <img [ngSrc]="'assets/music/nintendo/' + selectedSoundtrack.filename" [alt]="selectedSoundtrack.name" class="modal-image" width="600" height="600">
-    <div class="platform-icon" [ngClass]="selectedSoundtrack.platform | lowercase">
-      {{ selectedSoundtrack.platform }}
-    </div>
-    <p>{{ selectedSoundtrack.description }}</p>
-    <h3>Top Tracks:</h3>
-    <ul class="top-tracks">
-      <li *ngFor="let track of selectedSoundtrack.topTracks" [style.background-color]="getRandomColor()">{{ track }}</li>
-    </ul>
-  </div>
-</div>
+<app-soundtrack-modal *ngIf="selectedSoundtrack" [selectedSoundtrack]="selectedSoundtrack" (close)="closeDescription()"></app-soundtrack-modal>

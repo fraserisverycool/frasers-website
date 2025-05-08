@@ -1,0 +1,108 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.top-tracks {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.top-tracks li {
+  background-color: #f0f0f0;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.top-tracks li:hover {
+  background-color: #e0e0e0;
+}
+
+.platform-icon {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-width: 100px;
+  text-align: center;
+}
+
+.nes {
+  background-color: #00171c;
+  color: white;
+}
+
+.snes {
+  background-color: #1c0600;
+  color: white;
+}
+
+.n64 {
+  background-color: #0a001c;
+  color: white;
+}
+
+.gamecube {
+  background-color: #00081c;
+  color: white;
+}
+
+.wii {
+  background-color: #013330;
+  color: white;
+}
+
+.gba {
+  background-color: #052401;
+  color: white;
+}
+
+.switch {
+  background-color: #240101;
+  color: white;
+}
+
+.\33 ds {
+  background-color: #242001;
+  color: white;
+}

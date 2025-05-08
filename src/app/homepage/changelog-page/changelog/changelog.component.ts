@@ -1,12 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
-
-interface ChangelogEntry {
-  date: string;
-  message: string;
-  majorRelease: boolean;
-}
+import {ChangelogEntry} from "../changelog-entry.interface";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-changelog',
@@ -15,7 +10,7 @@ interface ChangelogEntry {
   templateUrl: './changelog.component.html',
   styleUrls: ['./changelog.component.css']
 })
-export default class ChangelogComponent implements OnInit {
+export class ChangelogComponent implements OnInit {
   changelogEntries: ChangelogEntry[] = [];
   error: string | null = null;
 
@@ -36,10 +31,8 @@ export default class ChangelogComponent implements OnInit {
     for (const line of lines) {
       if (!line.trim()) continue;
 
-      // Split by comma and remove whitespace
       const parts = line.split(',').map(p => p.trim());
 
-      // Require at least 2 columns (date + message)
       if (parts.length < 2) continue;
 
       this.changelogEntries.push({

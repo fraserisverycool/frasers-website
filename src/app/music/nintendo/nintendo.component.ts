@@ -1,16 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
-import { RouterLink, RouterOutlet } from '@angular/router';
-import { FormsModule } from '@angular/forms';
-
-interface Soundtrack {
-  filename: string;
-  name: string;
-  description: string;
-  platform: string;
-  topTracks: string[];
-}
+import {Component, OnInit} from '@angular/core';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
+import {HttpClient} from "@angular/common/http";
+import {RouterLink, RouterOutlet} from '@angular/router';
+import {FormsModule} from '@angular/forms';
+import {Soundtrack} from "./soundtrack.interface";
+import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
+import {SoundtrackModalComponent} from "./soundtrack-modal/soundtrack-modal.component";
 
 const platformOrder = [
   "NES",
@@ -29,7 +24,7 @@ const platformOrder = [
 @Component({
   selector: 'app-nintendo',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, FormsModule, NgOptimizedImage],
+  imports: [CommonModule, RouterOutlet, RouterLink, FormsModule, NgOptimizedImage, DurstloescherModalComponent, SoundtrackModalComponent],
   templateUrl: './nintendo.component.html',
   styleUrls: ['./nintendo.component.css']
 })
@@ -73,20 +68,13 @@ export default class NintendoComponent implements OnInit {
   }
 
   showDescription(soundtrack: Soundtrack): void {
-    this.selectedSoundtrack = soundtrack;
+    setTimeout(() => {
+      this.selectedSoundtrack = soundtrack;
+    }, 0);
   }
 
   closeDescription(): void {
     this.selectedSoundtrack = null;
-  }
-
-  getRandomColor() {
-    const r = Math.floor(Math.random() * 128);
-    const g = Math.floor(Math.random() * 128);
-    const b = Math.floor(Math.random() * 128);
-
-    const toHex = (c: number) => c.toString(16).padStart(2, '0');
-    return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
   }
 
   sortSoundtracks(criteria: 'random' | 'release' | 'alphabeticalName' | 'platform'): void {
