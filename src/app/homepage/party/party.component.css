@@ -54,6 +54,12 @@
   height: auto;
 }
 
+.pic-small img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
 .keywords {
   display: flex;
   flex-wrap: wrap;
