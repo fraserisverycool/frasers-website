@@ -11,23 +11,6 @@
 <div class="container">
   <h1 class="text-center">{{ title }}</h1>
   <div *ngFor="let game of filteredGames">
-    <div class='game-review'>
-      <h2>{{ game.name }} ({{ game.platform }})</h2>
-      <p>
-        <span class="vibes">Vibes:</span> {{ game.vibes }}/10 |
-        <span class="gameplay">
-          {{ game.story == true ? 'Story:' : 'Gameplay:' }}
-        </span>
-        {{ game.gameplay }}/10
-      </p>
-      <p>
-        <span class="release-info">Released:</span> {{ game.release }} |
-        <span class="release-info">Played:</span> {{ game.year === 'older' ? 'before 2020' : game.year }}
-      </p>
-      <div *ngFor="let paragraph of game.review">
-        <p [innerHTML]="paragraph"></p>
-      </div>
-      <img [ngSrc]="'assets/games/' + game.image" alt="{{ game.name }}" width="600" height="400">
-    </div>
+    <app-game [game]="game"></app-game>
   </div>
 </div>

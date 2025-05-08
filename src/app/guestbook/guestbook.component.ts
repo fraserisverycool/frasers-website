@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {Feedback, GuestbookService} from "./service/guestbook.service";
+import {GuestbookService} from "./service/guestbook.service";
 import {FormsModule} from "@angular/forms";
+import {Feedback} from "./feedback.interface";
 
 @Component({
   selector: 'app-guestbook',

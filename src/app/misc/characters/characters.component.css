@@ -42,52 +42,6 @@
   height: 32px;
 }
 
-.character-detail {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: linear-gradient(45deg, #520027, #520101);
-  padding: 24px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  text-align: center;
-  width: 90%;
-  max-width: 400px;
-  max-height: 80vh;
-  overflow-y: auto;
-}
-
-.character-picture {
-  max-width: 100%; /* Ensure the image fits within the modal width */
-  max-height: calc(80vh - 48px); /* Prevent the image from exceeding modal height */
-  object-fit: contain; /* Maintain original aspect ratio */
-}
-
-
-@media (min-width: 768px) {
-  .character-detail {
-    width: 70%;
-    max-width: 600px;
-  }
-}
-
-.close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background-color: transparent;
-  border: none;
-  font-size: 20px; /* Increased font size for better visibility */
-  color: #fff; /* Set color to white for contrast */
-  cursor: pointer;
-  transition: color 0.3s ease; /* Add a transition effect */
-}
-
-.close-btn:hover {
-  color: #ff6b6b; /* Change color on hover for visual feedback */
-}
-
 .grayscale {
   filter: grayscale(100%);
 }

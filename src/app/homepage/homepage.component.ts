@@ -2,11 +2,12 @@ import {Component} from '@angular/core';
 import {NgFor, NgOptimizedImage} from '@angular/common';
 import {Router, RouterLink} from "@angular/router";
 import {CustomMarqueeComponent} from "./custom-marquee/custom-marquee.component";
+import {ChangelogComponent} from "./changelog-page/changelog/changelog.component";
 
 @Component({
   selector: 'app-homepage',
   standalone: true,
-  imports: [NgFor, RouterLink, CustomMarqueeComponent, NgOptimizedImage],
+  imports: [NgFor, RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent],
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css']
 })

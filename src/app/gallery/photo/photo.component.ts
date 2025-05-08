@@ -1,15 +1,7 @@
 import {Component, Input} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {FormsModule} from "@angular/forms";
-
-interface Photo {
-  filename: string;
-  title: string;
-  description: string;
-  month: string;
-  question: string;
-  answer: string[];
-}
+import {Photo} from "../photo.interface";
 
 @Component({
   selector: 'app-photo',

@@ -1,0 +1,15 @@
+<div *ngIf="selectedAlbum" class="modal">
+  <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
+    <span class="close" (click)="close.emit()">&times;</span>
+    <h2>{{ selectedAlbum.name }}</h2>
+    <img [ngSrc]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image" width="600" height="600">
+    <div class="releaseyear-icon" [style.background-color]="selectedAlbum.color" [style.color]="selectedAlbum.textColor">
+      {{ selectedAlbum.releaseyear }}
+    </div>
+    <p>{{ selectedAlbum.description }}</p>
+    <h3>Top Tracks:</h3>
+    <ul class="top-tracks">
+      <li *ngFor="let track of selectedAlbum.topTracks" [style.background-color]="currentRandomColor">{{ track }}</li>
+    </ul>
+  </div>
+</div>

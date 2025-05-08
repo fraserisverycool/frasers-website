@@ -1,22 +1,12 @@
-import { Component, OnInit, Injectable  } from '@angular/core';
-import { CommonModule, NgOptimizedImage, NgFor } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
-import { of } from 'rxjs';
-import { catchError, map } from 'rxjs/operators';
-import { RouterLink, RouterOutlet, Router } from '@angular/router';
-import { FormsModule } from '@angular/forms';
-
-interface Game {
-  name: string;
-  vibes: number;
-  gameplay: number;
-  review: string[];
-  image: string;
-  platform: string;
-  year: string;
-  release: number;
-  story: boolean;
-}
+import {Component, OnInit} from '@angular/core';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
+import {HttpClient} from "@angular/common/http";
+import {of} from 'rxjs';
+import {catchError, map} from 'rxjs/operators';
+import {Router, RouterLink, RouterOutlet} from '@angular/router';
+import {FormsModule} from '@angular/forms';
+import {Game} from "./game.interface";
+import {GameComponent} from "./game/game.component";
 
 const platformOrder = [
   "Game and Watch",
@@ -49,7 +39,7 @@ const platformOrder = [
 @Component({
   selector: 'app-games',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage],
+  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, GameComponent],
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.css']
 })

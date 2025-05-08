@@ -1,23 +1,15 @@
-import { Component, OnInit, Injectable  } from '@angular/core';
-import { CommonModule, NgOptimizedImage, NgFor } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
-import { of } from 'rxjs';
-import { catchError, map } from 'rxjs/operators';
-import { RouterLink, RouterOutlet, Router } from '@angular/router';
-import { FormsModule } from '@angular/forms';
-
-interface Film {
-  filename: string;
-  title: string;
-  description: string;
-  year: string;
-  release: number;
-}
+import {Component, OnInit} from '@angular/core';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
+import {HttpClient} from "@angular/common/http";
+import {Router, RouterLink, RouterOutlet} from '@angular/router';
+import {FormsModule} from '@angular/forms';
+import {Film} from "./film.interface";
+import {FilmComponent} from "./film/film.component";
 
 @Component({
   selector: 'app-films',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage],
+  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, FilmComponent],
   templateUrl: './films.component.html',
   styleUrls: ['./films.component.css']
 })

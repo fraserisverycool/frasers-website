@@ -2,16 +2,8 @@ import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {HttpClient} from "@angular/common/http";
 import {RouterLink} from "@angular/router";
-import PhotoComponent from "./photo.component";
-
-interface Photo {
-  filename: string;
-  title: string;
-  description: string;
-  month: string;
-  question: string;
-  answer: string[];
-}
+import PhotoComponent from "./photo/photo.component";
+import {Photo} from "./photo.interface";
 
 @Component({
   selector: 'app-gallery',
@@ -22,7 +14,6 @@ interface Photo {
 })
 export default class GalleryComponent implements OnInit {
   photos: Photo[] = [];
-
 
   constructor(private http: HttpClient) {}
 

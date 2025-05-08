@@ -2,20 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import StarMessageComponent from "../../utils/star-message/star-message.component";
-
-interface Durstloescher {
-  filename: string;
-  name: string;
-  score: string;
-  description: string;
-  fraserscore: string;
-  fraserdescription: string;
-}
+import {ClickedOutsideDirective} from "../../utils/directives/clicked-outside.directive";
+import {Durstloescher} from "./durstloescher.interface";
+import {DurstloescherModalComponent} from "./durstloescher-model/durstloescher-modal.component";
 
 @Component({
   selector: 'app-durstloescher',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, StarMessageComponent],
+  imports: [CommonModule, NgOptimizedImage, StarMessageComponent, ClickedOutsideDirective, DurstloescherModalComponent],
   templateUrl: './durstloescher.component.html',
   styleUrls: ['./durstloescher.component.css']
 })
@@ -43,7 +37,9 @@ export default class DurstloescherComponent implements OnInit {
   }
 
   showDescription(durstloescher: Durstloescher): void {
-    this.selectedDurstloescher = durstloescher;
+    setTimeout(() => {
+      this.selectedDurstloescher = durstloescher;
+    }, 0);
   }
 
   closeDescription(): void {
@@ -72,4 +68,6 @@ export default class DurstloescherComponent implements OnInit {
         console.error('Invalid sorting criteria');
     }
   }
+
+  protected readonly close = close;
 }
