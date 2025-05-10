@@ -1,5 +1,8 @@
 <div class="container">
   <h1>Fraser's Mario Kart Rankings</h1>
+
+  <img src="../../../assets/misc/kart.gif">
+
   <p>{{ pageDescription }}</p>
   <nav class="filter-bar">
     <a
@@ -14,8 +17,11 @@
   <div class="track-list">
     <div *ngFor="let track of tracks" class="track-card">
       <img
-        [src]="'assets/misc/mariokart/' + track.image"
-        alt="{{ track.name }} image">
+        [ngSrc]="'assets/misc/mariokart/' + track.image"
+        alt="{{ track.name }} image"
+        width="600"
+        height="400"
+      >
       <div class="track-header">
         <h2>{{ track.name }}</h2>
         <h3>{{ getKeyByValue(gameMap, track.originalgame) }}</h3>

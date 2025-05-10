@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {HttpClient} from "@angular/common/http";
 
 interface Track {
@@ -18,7 +18,7 @@ interface Track {
 @Component({
   selector: 'app-mariokart',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgOptimizedImage],
   templateUrl: './mariokart.component.html',
   styleUrls: ['./mariokart.component.css']
 })
@@ -61,7 +61,7 @@ export default class MariokartComponent implements OnInit{
     this.http.get<{ tracks: Track[] }>('assets/misc/mariokart/mariokart.json').subscribe({
       next: (data) => {
         this.originalTracks = data.tracks;
-        this.filterTracks('gba');
+        this.filterTracks('mk8');
       },
       error: (err) => {
         console.error('Failed to load tracks:', err);
@@ -79,9 +79,7 @@ export default class MariokartComponent implements OnInit{
       this.tracks = [...this.originalTracks]
         .filter((track) => track.game === gameName)
         .sort((a, b) => a.ranking - b.ranking);
-        //.sort((a, b) => a.name.localeCompare(b.name));
       this.currentFilter = criteria;
-      this.tracks.forEach(track => console.log(track.name));
     } else {
       console.error('Invalid filtering criteria');
     }

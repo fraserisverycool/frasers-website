@@ -31,3 +31,23 @@ button:hover {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.image {
+  display: inline-block;
+  margin: 10px;
+  width: calc(50% - 20px);
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .image {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+}
