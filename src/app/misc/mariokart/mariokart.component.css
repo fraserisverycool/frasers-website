@@ -37,6 +37,7 @@
 
 .track-card img {
   width: 100%;
+  height: auto;
 }
 
 .track-card h2 {
@@ -126,9 +127,46 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.star-bar p {
+  min-width: 120px;
 }
 
 .star-bar img {
   height: 15px;
   width: 15px;
+}
+
+.nav-button {
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #3480eb;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: #d2e3fc;  /* Box Background Color */
+  border-radius: 10px;  /* Rounded Corners */
+  padding: 10px;  /* Internal Spacing */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow: Horizontal-Offset, Vertical-Offset, Blur-Radius, Color */
+}
+
+.navigation h4 {
+  font-size: 1em;
 }

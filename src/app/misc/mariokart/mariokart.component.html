@@ -24,7 +24,7 @@
       >
       <div class="track-header">
         <h2>{{ track.name }}</h2>
-        <h3>{{ getKeyByValue(gameMap, track.originalgame) }}</h3>
+        <h3>{{ getKeyByValue(gameMap, track.original) }}</h3>
       </div>
       <p>{{ track.description }}</p>
       <div class="star-bar">
@@ -43,6 +43,23 @@
             <img src="../../../assets/misc/mariokart/spinningstar.gif">
           </span>
         </p>
+      </div>
+      <div *ngIf="hasDuplicates(track)" class="navigation">
+        <button
+          *ngIf="track.previousGame"
+          (click)="navigateToTrack(track.previousGame, track.game, track.id)"
+          class="nav-button"
+        >
+          <span>&#8592;</span> Prev
+        </button>
+        <h4>Compare with other versions! Current Game: {{ track.game }}</h4>
+        <button
+          *ngIf="track.nextGame"
+          (click)="navigateToTrack(track.nextGame, track.game, track.id)"
+          class="nav-button"
+        >
+          Next <span>&#8594;</span>
+        </button>
       </div>
     </div>
   </div>

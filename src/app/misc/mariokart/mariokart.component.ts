@@ -6,13 +6,15 @@ interface Track {
   id: number;
   name: string;
   game: string;
-  originalgame: string;
+  original: string;
   music: number;
   vibes: number;
   track: number;
   ranking: number;
   description: string;
   image: string;
+  nextGame: string;
+  previousGame: string;
 }
 
 @Component({
@@ -61,6 +63,7 @@ export default class MariokartComponent implements OnInit{
     this.http.get<{ tracks: Track[] }>('assets/misc/mariokart/mariokart.json').subscribe({
       next: (data) => {
         this.originalTracks = data.tracks;
+        this.calculateNextAndPreviousTracks();
         this.filterTracks('mk8');
       },
       error: (err) => {
@@ -90,6 +93,45 @@ export default class MariokartComponent implements OnInit{
       return 'Tour';
     }
     return Object.keys(object).find(key => object[key] === value)?.toUpperCase();
+  }
+
+  calculateNextAndPreviousTracks(): void {
+    const orderedTracks = [...this.originalTracks].sort((a, b) => {
+      if (a.id < b.id) return -1;
+      if (a.id > b.id) return 1;
+
+      const gameOrderIndexA = Object.values(this.gameMap).indexOf(a.game);
+      const gameOrderIndexB = Object.values(this.gameMap).indexOf(b.game);
+      return gameOrderIndexA - gameOrderIndexB;
+    });
+
+    this.originalTracks.forEach(track => {
+      const correspondingOrderedTrack = orderedTracks.find(orderedTrack => orderedTrack.id === track.id && orderedTrack.game === track.game);
+      if (correspondingOrderedTrack) {
+        const indexInOrderedTracks = orderedTracks.indexOf(correspondingOrderedTrack);
+        if (indexInOrderedTracks > 0 && orderedTracks[indexInOrderedTracks - 1].id === correspondingOrderedTrack.id) {
+          track.previousGame = orderedTracks[indexInOrderedTracks - 1].game;
+        }
+        if (indexInOrderedTracks < orderedTracks.length - 1 && orderedTracks[indexInOrderedTracks + 1].id === correspondingOrderedTrack.id) {
+          track.nextGame = orderedTracks[indexInOrderedTracks + 1].game;
+        }
+      }
+    });
+  }
+
+  navigateToTrack(newGame: string, oldGame: string, id: number): void {
+    const newTrack = this.originalTracks.find(track => track.id === id && track.game === newGame);
+    const oldTrackIndex = this.tracks.findIndex(track => track.id === id && track.game === oldGame);
+
+    if (newTrack) {
+
+      this.tracks[oldTrackIndex] = newTrack;
+      this.tracks = [...this.tracks];
+    }
+  }
+
+  hasDuplicates(track: Track) {
+    return this.originalTracks.filter(t => t.id === track.id).length > 1;
   }
 }
 
