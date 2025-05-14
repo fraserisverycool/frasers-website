@@ -88,13 +88,13 @@
       "name": "Daisy",
       "icon": "Daisy (1).png",
       "picture": ["daisy.jpg", "daisy-2.jpg", "daisy-3.png"],
-      "description": "Daisy mains are equally as fabulous as Peach mains, except they butter their toast on both sides, sit on armchairs with one leg under their bum, and sleep around more."
+      "description": "Daisy mains are equally as fabulous as Peach mains, except they butter their toast on both sides, sit on armchairs with one leg under their bum, and sleep around more"
     },
     {
       "name": "Bowser",
       "icon": "Bowser (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["bowser.webp", "bowser-2.jpg", "bowser-3.png"],
+      "description": "Bowser mains have Big Dick Energy. They are here to fuck. In rare occasions, they are instead compensating for something else"
     },
     {
       "name": "Ice Climbers",
@@ -243,8 +243,8 @@
     {
       "name": "Sonic",
       "icon": "Sonic (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["sonic.jfif", "sonic-2.png", "sonic-3.png"],
+      "description": "Cowards! Sonic mains will run from their problems, their responsibilities, and you. In real life you can't pressure them with projectiles, so it's best to try to persuade them to drop Sonic instead"
     },
     {
       "name": "King Dedede",
@@ -261,8 +261,8 @@
     {
       "name": "Lucario",
       "icon": "Lucario (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["lucario.jpg", "lucario-2.jpg", "lucario-3.png"],
+      "description": "Lucario mains live life on the edge. They are adrenaline junkies and love danger in general. Catch them on a nearby rollercoaster, or burning a match right down the whole length of the stick and hurting themselves, or fishing for back air"
     },
     {
       "name": "R.O.B.",

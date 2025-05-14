@@ -3555,7 +3555,7 @@
     {
       "name": "Donkey Kong Country",
       "vibes": "10",
-      "gameplay": "9",
+      "gameplay": "8",
       "review": [
         "Talk about all-time classics! This is the best looking game on SNES, they made some kind of black magic happen for it. That being said, I actually played through this much later using an emulator. It's so good! I adore the music and environments in this game. This is where David Wise saw that he had to write a track for a gorilla riding a dolphin underwater and decided to compose the best video game music ever, aquatic ambience. Insane."
       ],
@@ -3670,71 +3670,105 @@
       "release": "2004"
     },
     {
+      "name": "Rampage",
+      "vibes": "2",
+      "gameplay": "4",
+      "review": [
+        "Wow, we used to play this all the time as kids! It's literally just destroying buildings, and eventually you stop and start again. It's just pure fun honestly. Destruction makes for good gameplay."
+      ],
+      "image": "rampage.jpg",
+      "platform": "Nintendo 64",
+      "year": "older",
+      "release": "1997"
+    },
+    {
       "name": "Mother 3",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "This is without a doubt my favourite RPG. It's a beautiful and heartwrenching story about societal change, family, and technology. This game goes places, and quickly! In chapter 1 an unexpected and horrible twist awaits you, with the most amazing music to accompany it. Chapter 3 puts you in the POV of a monkey who is tortured and enslaved for entertainment. Chapter 6 well, if you know you know. Chapter 8, right at the end of this Japan-only obscure-ass game, is New Pork City, the stage from Smash! Incredible that New Pork City of all places is represented in Smash.",
+        "This game's vibe is so immaculate. It's whole thing with sunflowers definitely kicked off my love for them. I love sunflowers so much that I got one tattooed on me! But what makes this game truly special is its soundtrack. It sounds unlike anything else and I am obsessed. Over in the music section of this website you can find the mixes I made - I did a mix of this soundtrack and just put every single track in, resulting in an almost 3-hour extravaganza. It's just that good.",
+        "I really encourage any readers of this site to consider playing Mother 3! Tragically it was never localised in English, but it's very easy to get a fan translation. Best is playing on original hardware, because the battles feature a rhythm game system which works better with buttons, but emulation on your PC will work fine too. Do yourselves a favour and get to know where this obscure smash character Lucas comes from, it's well worth your time."
+      ],
+      "image": "mother-3.webp",
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2006"
     },
     {
       "name": "Donkey Kong 64",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "5",
+      "review": [
+        "I will never forget the pure delight I experienced as a child when my brother's friend offhand told me that I could have his copy of Donkey Kong 64. For me it was like a magical perfect game and suddenly I got to play it! I was absolutely enchanted with it. I loved all of the locations, I loved spending time going round with all the characters collecting a bunch of shit. I adored the music, the nonsense minigames, the jank. I accepted all the bullshit this game has to offer with grace because it was magical. I loved Lanky Kong and also Tiny Kong. Crystal Caves was my favourite level, possibly because I didn't know about it for many years! When I eventually got all the golden bananas, it felt like a monumental achievement. And can we talk about the legendary soundbite 'Ohhhhh banana!'. Classic.",
+        "I understand that it's a bad game. I get it. Looking back, I get it. But just understand that this game has a very special place in my heart because I loved it as a child so much. I played this before I played Super Mario 64 or Banjo Kazooie so you can imagine the impact it had."
+      ],
+      "image": "donkey-kong-64.webp",
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1999"
     },
     {
       "name": "Donkey Kong Country 2: Diddy's Kong Quest",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "This might be one of the few games I've actually played on the SNES! I was always missing it but when a friend in Saarland gave me his SNES I just popped in the game and played through! These games are really hard, especially without save states, and I will be completely transparent I didn't complete it, because I no longer have the patience I did as a child.",
+        "Anyway the reason this game is so legendary is of course the soundtrack. Hello, Stickerbrush Symphony? Insane."
+      ],
+      "image": "dkc-2.jpg",
       "platform": "SNES",
       "year": "older",
       "release": "1995"
     },
     {
       "name": "Portal",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "10",
+      "review": [
+        "What a fantastic concept! You can do so much with it, and this game does! You shoot these portals and can seamlessly travel through them. It's amazing that game can render the other side of the portal, it must have been a technical nightmare. This game is at its core a puzzle game, and I love puzzle games. Coupled with a cute and simple story with the iconic Glados, you've got a hit!"
+      ],
+      "image": "portal.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Gex 3: Deep Cover Gecko",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "Mate this game has everything. You can dress up as sherlock holmes and solve a mystery in a haunted mansion. In said mansion you can also turn into a vampire and fly! You can kill evil santa, fire cannons from a pirate ship, fly around as a superhero, become a greek god who maybe says 'I'm well hard' (at least that's what we thought as kids). There was this really difficult climbing the beanstalk level. Actually the greek level was the hardest. And I loved the vibe of the western world which has you on a massive pile of shit at one point. And I love Gex's one liners, like in the Christmas world: 'It's pretty, alright. Pretty cold!'. A classic.",
+        "I never understood why the box art and the cutscenes feature a human woman as the damsel in distress. What the fuck. Why does this have to be a sex thing."
+      ],
+      "image": "gex-3.jpg",
       "platform": "PlayStation",
       "year": "older",
       "release": "1999"
     },
     {
       "name": "Super Mario Odyssey",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "10",
+      "review": [
+        "This game is so much fun and also super accessible for everyone, so I always recommend it. It might be the pinnacle of 3d platforming. It's so much fun to control Mario as he jumps and does all these crazy tricks with the hat in the air. And I love how you just go around and find a bunch of moons everywhere. Some easy, some hard. It's just satisfying.",
+        "I really enjoy all the worlds in the game. Some of them combine tropes (like Sand Kingdom has a Mexican-style town, Egyptian pyramids and Western-style music), but others have brand new ideas, like Steam Gardens or the Volcano level. My personal favourite is the Seaside Kingdom. First it looks stunning with the bubbly water. Who came up with the idea of a sea made of sprudel? Inspired. And the music is pure bossa nova bliss. The best beach music ever made.",
+        "They went all out on Bowser's Kingdom, and even added in fun, small kingdoms in between like the insane Ruined Kingdom. And I love that they gave Mario different outfits for once! Including my favourite 'nipples Mario'."
+      ],
+      "image": "mario-odyssey.webp",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Paper Mario: Color Splash",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "3",
+      "review": [
+        "This game is bad, and it wasn't good enough for me to actually sit through and finish it. They tried to 'innovate' the Paper Mario series again, and for yet another time it didn't work. This battle system is plain and boring. No good. The vibes aren't so great because all the characters look the same! All the Toads are the same, all the Shy Guys are the same.",
+        "However, there is one thing that is really good about this game, and that's the dialogue. There are some hilarious lines in this game."
+      ],
+      "image": "paper-mario-colour.jpg",
       "platform": "Wii U",
       "year": "older",
       "release": "2016"
