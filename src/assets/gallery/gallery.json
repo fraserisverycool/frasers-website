@@ -1,6 +1,30 @@
 {
   "pictures": [
     {
+      "filename": "world-peace2.jpg",
+      "title": "DJ World Peace presents Party 4 World Peace",
+      "description": "We threw a big party at Mauersegler! This time I was the one responsible because it was my birthday, which meant that I got loads of attention, which I loved. I wore a dress for the first time in my life and kinda enjoyed it. I made sashes for everyone so we could all be beauty pageant queens, because I made the theme of the party 'World Peace' and 'Disco'. Not easy themes to work with but the people came through and it was a huge success!",
+      "month": "May 2025",
+      "question": "What was the theme of this event?",
+      "answer": ["World Peace", "Disco", "Disco and World Peace", "World Peace and Disco"]
+    },
+    {
+      "filename": "choir.jpg",
+      "title": "400+ singers at the Philharmonie",
+      "description": "For the second time, Diego prepared an insane trip to the Philharmonie to listen to some beautiful choral music while we took mushrooms. Somehow I'm always tripping when I'm in this place. At first, like 10 individual choirs came and sang one song each for us, which was everything: funny, shocking, dramatic, culturally insensitive. Then after the break, all the choirs came together and sang - 400+ people! They filled up most of the seats in the room already. It was insane. This totally shut us up as our eyes glazed over in a trance. A very special moment.",
+      "month": "April 2025",
+      "question": "What made this trip to the Philharmonie special?",
+      "answer": ["Mushrooms", "Drugs", "Psychedelics", "Diego", "Shrooms"]
+    },
+    {
+      "filename": "analog2.jpg",
+      "title": "Analog Weekend",
+      "description": "We were invited to DJ at this really cool weekend away in Sachsen! Everyone there had jobs like cooking, operating the sauna, putting on workshops etc. Jack famously put on a workshop about putting stuff up your butt. My job was to decorate the dancefloor which was a huge success! It was a great bonding experience for WEYES. There is not much photo evidence of the weekend's shenanigans because of the lack of phones but here's a photo of a printed out picture from an analog camera of me and Jack looking cute. This was also the first outing of my new moustache.",
+      "month": "April 2025",
+      "question": "What wasn't allowed at the Analog Weekend?",
+      "answer": ["Phones", "Digital Camera", "Digital Cameras", "Phone", "Handy", "Cellphone", "Mobile Phone", "Smartphone", "Smartphones"]
+    },
+    {
       "filename": "tea.jpg",
       "title": "Flower Tea in Steglitz",
       "description": "Víctor and I took half a tab of acid and enjoyed the wonders of the Botanischer Garten! It was so good. We found a tree who didn't have any branches, she just became a single long branch. Feeling inspired, we decided to go into Steglitz where we ate at a chinese restaurant. They sold flower tea and I mean look at it, it's gorgeous. We felt like children giggling in the corner of the restaurant and ogling at the tea and it was great",

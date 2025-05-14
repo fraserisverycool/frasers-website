@@ -1,6 +1,15 @@
 {
   "albums": [
     {
+      "filename": "spellling-portrait.jpg",
+      "artist": "Spellling",
+      "name": "Portrait of my Heart",
+      "releaseyear": "2025",
+      "description": "Having adored her previous album 'The Turning Wheel' I was skeptical about this alt-rock album - it's so different! But after getting to know it, I realise that it's still Spellling. That witchy, magical vibe is still very much there. It's way heavier, and even has this metal breakdown in the song 'Satisfaction'. A personal favourite is 'Destiny Arrives' which is just so dramatic. Fantastic music video too.",
+      "topTracks": ["Portrait of my Heart", "Destiny Arrives", "Love Ray Eyes", "Sometimes"],
+      "tags": ["rock", "magical"]
+    },
+    {
       "filename": "laura-alas.jpg",
       "artist": "Laura Marling",
       "name": "Alas I Cannot Swim",
