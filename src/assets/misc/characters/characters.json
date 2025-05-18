@@ -15,20 +15,20 @@
     {
       "name": "Link",
       "icon": "Link (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["link.avif", "link-2.jpg", "link-3.png"],
+      "description": "I know so few Link players. The ones I do know are suspicious."
     },
     {
       "name": "Samus",
       "icon": "Samus (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["samus.jpg", "samus-2.jpg", "samus-3.png"],
+      "description": "Lots of different kinds of people main Samus because she is so popular and cool. Tragically however, none of the people playing Samus are popular or cool themselves"
     },
     {
       "name": "Dark Samus",
       "icon": "Dark Samus (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["dark-samus.jpg", "dark-samus-2.jpg", "dark-samus-3.jpg"],
+      "description": "Dark Samus players are just edgelords. Probably a child"
     },
     {
       "name": "Yoshi",
@@ -51,8 +51,8 @@
     {
       "name": "Pikachu",
       "icon": "Pikachu (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["pikachu.jpg", "pikachu-2.webp", "pikachu-3.jpg"],
+      "description": "Pikachu players will insist their character is cool and popular and try themselves to act cool and popular, but they will inevitably end up camping you with Thunderjolt in the game, and probably stabbing you in the back in real life or something idk"
     },
     {
       "name": "Luigi",
@@ -147,8 +147,8 @@
     {
       "name": "Young Link",
       "icon": "Young Link (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["young-link.webp", "young-link-2.png", "young-link-3.png"],
+      "description": "So many Young Link players end up being Americans who just want to come and whine."
     },
     {
       "name": "Ganondorf",
@@ -201,8 +201,8 @@
     {
       "name": "Zero Suit Samus",
       "icon": "Zero Suit Samus (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["zero-suit-samus.jpg", "zero-suit-samus-2.png", "zero-suit-samus-3.jpg"],
+      "description": "ZSS players start playing her because she's hot. Actually that's the only real reason people play her I think"
     },
     {
       "name": "Wario",
@@ -273,8 +273,8 @@
     {
       "name": "Toon Link",
       "icon": "Toon Link (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["toon-link.jpg", "toon-link-2.png", "toon-link-3.png"],
+      "description": "Let's be real, Toon Link players only play him because they love Wind Waker so much. He's cute and that's one of the main reasons to play him"
     },
     {
       "name": "Wolf",
@@ -411,8 +411,8 @@
     {
       "name": "Ridley",
       "icon": "Ridley (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["ridley.jpg", "ridley-2.png", "ridley-3.jpg"],
+      "description": "Ridley is the ugliest character in the game (which is saying something since the game features Ken), and the people who play him really resonate with that ugliness. They really vibe with how ugly Ridley is"
     },
     {
       "name": "Simon",
