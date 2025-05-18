@@ -63,8 +63,8 @@
     {
       "name": "Ness",
       "icon": "Ness (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["ness.jpg", "ness-2.jpg", "ness-3.jpg"],
+      "description": "Ness mains are annoying children who fully and wholly reflect their character. They are unperturbed by his constant screaming"
     },
     {
       "name": "Captain Falcon",
@@ -75,14 +75,14 @@
     {
       "name": "Jigglypuff",
       "icon": "Jigglypuff (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["jigglypuff.jpg", "jigglypuff-2.jpg", "jigglypuff-3.png"],
+      "description": "Pink, cute and bubbly make for a fun character to main, but for puff mains it's not just about those things but rather committing war crimes. Stealing lives at 40% and edgeguarding with nair are ruled as war crimes by the international court of justice"
     },
     {
       "name": "Peach",
       "icon": "Peach (1).png",
       "picture": ["peach.jpg_large", "peach-2.jpg", "peach-3.png"],
-      "description": "A real Peach main understands that landing JCFF tomahawk grab is better than a good meal, landing drap down up air combos is better than sex, and landing a zero to death turnip combo is so good that you grow weed in your apartment and give it to all your friends with the name 'Turnip Combo'"
+      "description": "A real Peach main understands that landing JCFF tomahawk grab is better than a good meal, landing drag down up air combos is better than sex, and landing a zero to death turnip combo is so good that you grow weed in your apartment and give it to all your friends with the name 'Turnip Combo'"
     },
     {
       "name": "Daisy",
@@ -105,8 +105,8 @@
     {
       "name": "Sheik",
       "icon": "Sheik (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["sheik.webp", "sheik-2.jpg", "sheik-3.jpg"],
+      "description": "Sheik mains think they're so goddamn cool"
     },
     {
       "name": "Zelda",
@@ -207,14 +207,14 @@
     {
       "name": "Wario",
       "icon": "Wario (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["wario.jpg", "wario-2.PNG", "wario-3.jpg"],
+      "description": "I would be very suspicious if your spouse told you they main Wario. Are they cheating? Are they gambling? How are their finances?"
     },
     {
       "name": "Snake",
       "icon": "Snake (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["snake.jpg", "snake-2.jpg", "snake-3.png"],
+      "description": "A lover of chaos. If they are not already a criminal, they will eventually commit a crime"
     },
     {
       "name": "Ike",
