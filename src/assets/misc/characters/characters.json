@@ -231,8 +231,8 @@
     {
       "name": "Diddy Kong",
       "icon": "Diddy Kong (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["diddy-kong.jpg", "diddy-kong-2.png", "diddy-kong-3.jpg"],
+      "description": "Diddy Kong mains aren't as cool or special as they think they are. To main this character you have to be cool with listening to constant monkey screams, which I think says a lot."
     },
     {
       "name": "Lucas",
@@ -309,8 +309,8 @@
     {
       "name": "Little Mac",
       "icon": "Little Mac (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["little-mac.webp", "little-mac-2.png", "little-mac-3.png"],
+      "description": "Adrenaline Junkies, centers of attention, likely neurodiverse, possibly hasn't showered this morning"
     },
     {
       "name": "Greninja",
@@ -339,14 +339,14 @@
     {
       "name": "Palutena",
       "icon": "Palutena (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["palutena.jpg", "palutena-2.jpg", "palutena-3.jpg"],
+      "description": "Palutena mains are normies who are just interested in having a good job, a good routine, and settling down with kids"
     },
     {
       "name": "Pac-man",
       "icon": "Pac Man (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["pac-man.jpg", "pac-man-2.png", "pac-man-3.jpg"],
+      "description": "Agents of chaos. They're smart, sure, but they are concerned first and foremost with destroying order and breaking rules"
     },
     {
       "name": "Robin",
@@ -363,8 +363,8 @@
     {
       "name": "Bowser Jr.",
       "icon": "Bowser Jr (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["bowser-jr.jpg", "bowser-jr-2.jpg", "bowser-jr-3.jpg"],
+      "description": "Varies hugely on which Koopaling they select. If they select Wendy, they are queer, if they select Roy, possibly also queer, if they select Morton that's a big red flag. Plain Bowser Jr would be the kind of person who never tries new things"
     },
     {
       "name": "Duck Hunt Duo",
@@ -381,8 +381,8 @@
     {
       "name": "Ken",
       "icon": "Ken (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["ken.png", "ken-2.jpg", "ken-3.jpg"],
+      "description": "Choosing to play Ken is wild, since he is one of the ugliest things I've ever seen. To think that he is cool means to be blind. Therefore I surmise that the average Ken main is blind"
     },
     {
       "name": "Cloud",
@@ -453,14 +453,14 @@
     {
       "name": "Joker",
       "icon": "Joker (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["joker.png", "joker-2.webp", "joker-3.jpg"],
+      "description": "One of the most common characters. I'd say the only generalisation I can make about Joker mains is 'gamer'. It's a broad church party with many different factions"
     },
     {
       "name": "Hero",
       "icon": "Hero (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["hero.webp", "hero-2.jpg", "hero-3.jpg"],
+      "description": "Hero mains have never had sex. They are NOT to be trusted"
     },
     {
       "name": "Banjo & Kazooie",
@@ -495,14 +495,14 @@
     {
       "name": "Sephiroth",
       "icon": "Sephiroth (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["sephiroth.jpg", "sephiroth-2.jpg", "sephiroth-3.jpg"],
+      "description": "Sephiroth mains are kinda freaky. Obsessive"
     },
     {
       "name": "Pyra/Mythra",
       "icon": "Pyra & Mythra (1).png",
-      "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "picture": ["pyra-mythra.jpg", "pyra-mythra-2.jpg", "pyra-mythra-3.jpg"],
+      "description": "Pythra mains are anime nerds who jerk off to cutscenes of Pyra and Mythra in the game. You only really main this character if you love their boobs"
     },
     {
       "name": "Kazuya",
