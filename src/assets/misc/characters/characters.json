@@ -46,7 +46,7 @@
       "name": "Fox",
       "icon": "Fox (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Fox mains are extroverts, larger than life, ready for anything. They are keen beans. They are honest, and will not tell you lies"
     },
     {
       "name": "Pikachu",
@@ -130,19 +130,19 @@
       "name": "Falco",
       "icon": "Falco (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Falco mains are bitter. They love to complain about the game and threaten to quit playing. But they always come crawling back, and they always return to their one true love: Falco"
     },
     {
       "name": "Marth",
       "icon": "Marth (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Marth mains, or 'Tipper Freaks', play this character exclusively for the satisfaction of stealing an early kill with a perfect tipper. However hitting that tipper is kinda like gambling. Therefore, Marth mains are kinda addicted to gambling"
     },
     {
       "name": "Lucina",
       "icon": "Lucina (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Similar to Mario mains, Lucina mains enjoy plain doughnuts without jam, bread without butter, spaghetti without sauce, except maybe they also have a social life"
     },
     {
       "name": "Young Link",
@@ -166,13 +166,13 @@
       "name": "Roy",
       "icon": "Roy (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Roy mains are always driving in fifth gear. They want to see immediate results when they do something. They expect constant improvement and progress. In game they are constantly doing, doing and doing some more. In real life, too"
     },
     {
       "name": "Chrom",
       "icon": "Chrom (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Similar to Roy mains, Chrom mains are always driving in fifth gear. However, they understand, unlike Roy mains, that sometimes, life doesn't allow for the lifestyle you desire. Sometimes, you have to stop pressing buttons"
     },
     {
       "name": "Mr. Game & Watch",
@@ -184,7 +184,7 @@
       "name": "Meta Knight",
       "icon": "Meta Knight (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Meta Knight is a shadow of his former self from previous games, only those who cling to those times still play him. They are living in a fantasy world"
     },
     {
       "name": "Pit",
@@ -226,7 +226,7 @@
       "name": "Pokémon Trainer",
       "icon": "Pokemon Trainer (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "PT mains think they are free, they can win games with any pokemon they want, they can make their way through life as they choose. However in reality, they play Squirtle at the start, but rely on Ivysaur for difficult match ups, and Charizard for last hit situations. The game is telling us to play this character in this certain way, and society tells us to live our lives in a certain way. PT players must understand this"
     },
     {
       "name": "Diddy Kong",
@@ -238,7 +238,7 @@
       "name": "Lucas",
       "icon": "Lucas (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Most Lucas mains I know are just fans of Mother 3, which for me is a huge green flag. They are emotionally intelligent and have excellent taste"
     },
     {
       "name": "Sonic",
@@ -280,7 +280,7 @@
       "name": "Wolf",
       "icon": "Wolf (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Wolf players do not compromise their morals in order to get the win. They don't settle for gimmicks or dirty tricks. They are honest, but they pick Wolf over other honest characters because they are also edgelords"
     },
     {
       "name": "Villager",
@@ -292,7 +292,7 @@
       "name": "Mega Man",
       "icon": "Mega Man (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "The Mega Man player says they enjoy the complicated footstool/metal blade tricks, but in reality spend 90% of neutral shooting pellets. They are dishonest and enjoy irritating others"
     },
     {
       "name": "Wii Fit Trainer",
@@ -316,7 +316,7 @@
       "name": "Greninja",
       "icon": "Greninja (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Greninja mains try so hard and struggle so much. This applies to real life as well as smash"
     },
     {
       "name": "Mii Brawler",
@@ -358,7 +358,7 @@
       "name": "Shulk",
       "icon": "Shulk (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Shulk mains are very cocky. They love winning and are willing to work for it. I feel like Shulk mains are likely to become CEOs and leaders in life"
     },
     {
       "name": "Bowser Jr.",
@@ -376,7 +376,7 @@
       "name": "Ryu",
       "icon": "Ryu (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Ryu players just enjoy fighting games, its as simple as that. They find themselves playing smash but they'd rather be playing other, less popular games"
     },
     {
       "name": "Ken",
@@ -406,7 +406,7 @@
       "name": "Inkling",
       "icon": "Inkling (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "There are so few Inkling mains left since the early smash ultimate meta. I guess the people who still play them have been living under a rock and don't understand that she's kinda bad"
     },
     {
       "name": "Ridley",
@@ -424,7 +424,7 @@
       "name": "Richter",
       "icon": "Richter (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Richter is hot but the gameplay is boring. It's hard to say if Richter mains are popular/cool or unpopular/lame, they really tow the line between the two"
     },
     {
       "name": "King K. Rool",
@@ -442,7 +442,7 @@
       "name": "Incineroar",
       "icon": "Incineroar (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Another character, similar to Captain Falcon, who is for simple men who enjoy simple pleasures. Here there's the added flavour of enjoying the taunting and showing off"
     },
     {
       "name": "Piranha Plant",
@@ -472,13 +472,13 @@
       "name": "Terry",
       "icon": "Terry (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Terry players tend to be from Latin America, or Japan, because that's where his game was popular. Europeans who play him are suspicious"
     },
     {
       "name": "Byleth",
       "icon": "Byleth (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "To get excited about this character tells me that you also get excited by stale bread, staying a little longer at work to get something done, or daring to taste a bit of cake mixture before putting it in the oven"
     },
     {
       "name": "Min Min",
@@ -514,7 +514,7 @@
       "name": "Sora",
       "icon": "Sora (1).png",
       "picture": [".jpg", "-2.jpg", "-3.jpg"],
-      "description": ""
+      "description": "Sora players are almost exclusively diehard Kingdom Hearts fans which for me means they are delusional and blinded by nostalgia"
     }
   ]
 }
