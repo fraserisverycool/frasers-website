@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>{{title}}</h1>
+  <div class="card" *ngFor="let book of books">
+    <img [ngSrc]="'assets/books/' + book.filename" width="600" height="400">
+    <div class="card-info">
+      <h2>{{book.title}}</h2>
+      <p>{{book.author}}</p>
+      <p class="release">{{book.release}}</p>
+      <p>{{book.description}}</p>
+      <button (click)="book.showSpoiler = !book.showSpoiler">
+        {{book.showSpoiler ? 'Hide Spoiler Discussion' : 'Display Spoiler Discussion'}}
+      </button>
+      <p *ngIf="book.showSpoiler">{{book.spoiler}}</p>
+    </div>
+  </div>
+</div>
+
+

@@ -102,12 +102,17 @@ a {
   border: 4px solid #003305;
 }
 
+.fun-button.books {
+  background: radial-gradient(circle, #00d9d9, #97f7f7);
+  border: 4px solid #003636;
+}
+
 .fun-button.gallery {
   background: radial-gradient(circle, #ff8000, #eb3700);
   border: 4px solid #b53900;
 }
 
-.fun-button.links {
+.fun-button.community {
   background: radial-gradient(circle, #000000, #1f1f1f);
   border: 4px solid #000000;
 }

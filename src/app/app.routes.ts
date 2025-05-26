@@ -47,6 +47,9 @@ export const routes: Routes = [
     path: 'music/worldpeace', loadComponent: () => import('./music/worldpeace/worldpeace.component')
   },
   {
+    path: 'books', loadComponent: () => import('./books/books.component')
+  },
+  {
     path: 'gallery', loadComponent: () => import('./gallery/gallery.component')
   },
   {
