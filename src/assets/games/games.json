@@ -4240,70 +4240,92 @@
     },
     {
       "name": "ARMS",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "7",
+      "review": [
+        "This is actually one of the ultimate party games and nobody can convince me otherwise. The concept of having springy arms and fighting like that is hilarious, why the fuck not, and the game is wacky enough to make it fun. Also, in terms of being a competitive fighting game, it's surprisingly deep! Infinite different combinations of arms mean lots of strategies and stuff like that. I once commentating an online ARMS tournament and learned so much shit about all the different strats, it was sick. Tragically the scene isn't too big so getting good at the game isn't really a thing but it remains a hilarious party game (with motion controls of course).",
+        "Personally I enjoyed Lola Pop, even though she's the most basic character with no lore. She's just a clown who likes sweets and can inflate like a balloon like Lanky Kong. I also LOVE the main theme with the choir, what an absolute banger. There are also a number of other choice tracks in the soundtrack, like the credits theme or Mechanica's level. I made a mix for it, you can download it in the music section!"
+      ],
+      "image": "arms.avif",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Pokken Tournament",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "5",
+      "review": [
+        "This is a Pokemon fighting game which was very exciting at the time. When it came down to playing it, like with all fighting games, I didn't find time to get good. I played a bit with friends and enjoyed maining Machamp, but the truth is I love obscure pokemon and my faves aren't really represented. That being said, wow, Machamp is so ugly and I love him. I also didn't vibe with the 3d & 2d combination. And the music and vibes isn't really great."
+      ],
+      "image": "pokken.jpg",
       "platform": "Wii U",
       "year": "older",
       "release": "2015"
     },
     {
       "name": "Tomodachi Life",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "3",
+      "review": [
+        "I was completely sold by this game when they did a mini Nintendo direct for it way back when. It was genuinely hilarious! This game has that special Nintendo humour that you can also see in WarioWare or Wii Sports. I love it. It's just so random. The stuff they come up with, is just so good. And then you get to put your own miis and your own little inputs and it's just hilarious. You can even make the miis sing songs and you can write lyrics for them. It's just so good. I loved making my friends and watching them get up to ridiculous shenanigans.",
+        "I do remember not playing the game for very long though, because a lot of the content starts repeating quite quickly. There isn't all that much to do."
+      ],
+      "image": "tomodachi.jpg",
       "platform": "3DS",
       "year": "older",
       "release": "2013"
     },
     {
       "name": "Donkey Kong Country Returns",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "10",
+      "review": [
+        "Alright alright this game doesn't quite reach the heights of Tropical Freeze but it's still a top-class 10/10 game. It looks great and is a beautiful reimagining of how DKC looks, the music is pretty good and the game is full of great moments. The spider level is genuinely scary, the factory levels are super cool, World 4 is just the super fun minecart and rocket barrel levels, which are great, and this game invented the amazing silhouette levels. The sunset level was so inspiring that I painted a picture of it for my house.",
+        "The game is also one of the best platformers ever, the rolling mechanic is so cool, because if you jump from a roll you keep the momentum, and it lets you fly through levels at breakneck speeds. After you beat the game you can try and speedrun the levels for these medals and I loved doing that! This was one of the only times I really got into the doing things fast aspect of gaming. Otherwise generally the game is kinda hard with only 2 health points. I remember this game taught me to git gud at platformers.",
+        "Also this game is great because everything has a sensible context. Like there are no floating platforms, but rather all the platforms are part of other structures that make sense in the context of the level. And you have to really pay attention to the environment because there are these puzzle pieces hidden everywhere in secret nooks and crannies. Man, this game also taught me to find secrets! By the end I was able to spot all the clues for hidden areas like it was nothing. Platformers since this game have got nothing on me, I can find all the secrets. Unless they're bullshit. Luckily, in this game secrets are never bullshit, they are always somehow signposted. Great game design, love it"
+      ],
+      "image": "dkc-returns.webp",
       "platform": "Wii",
       "year": "older",
       "release": "2010"
     },
     {
       "name": "Pokemon White 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "This game is super good! It takes the already fantastic Black and White and adds more stuff. Some highlights are the revamped gyms, I love them, especially the electric gym, and the new poison and water gyms. Shoutouts to some of the new music too, Virbank city and Colress's battle music. So good.",
+        "I don't think this game hits quite as hard as the first one, partly because we know this region now, and this time round there are old pokemon too. I remember having a Drapion on my team, a beautifully ugly pokemon. I don't remember too much about the story, I guess it doesn't hit quite as hard as the first game's story, which is the only actual notable story in the whole series."
+      ],
+      "image": "pokemon-white-2.gif",
       "platform": "DS",
       "year": "older",
       "release": "2012"
     },
     {
       "name": "The Simpsons Hit & Run",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "Wow, this game is a huge vibe! I loooooved it. 7 levels where you get to play as a bunch of different characters (including the kids because this is america) driving around and causing trouble, GTA-style. It's so fun! I remember driving around for so long just enjoying the open world, full of all the places from the cartoon. I loved all the silly jokes lifted directly from the cartoon as well.",
+        "I'm certain this game isn't as good as I remember and I specifically remember some of the zombie missions at the end was super hard, but whatever. The vibes are definitely there!"
+      ],
+      "image": "simpsons.avif",
       "platform": "Gamecube",
       "year": "older",
       "release": "2003"
     },
     {
       "name": "Pokemon Mystery Dungeon: Red Rescue Team",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "Where do I even begin, this game means so much to me it's insane. I have many core memories associated with buying this game. Oscar and I took the train to Reading with the express purpose of buying this. On the way back to Cholsey we started the game and I even named my two main pokemon after train stations close to home: Tilehurst (Cubone) and Pangbourne (Squirtle). When I had to make a team name I thought 'Tileteam' would be great because I was called Tilehurst, but then it called it 'Team Tileteam', which I also ended up loving, fuck it.",
+        "There's so much to love here!! You actually play at the pokemon for once, incredible. An actual story, not the very weak story of normal mainline games, and an entirely new kind of game that I'd never seen before. I loved it. I remember having a third party member, a Ledyba called Mavis who was genuinely an excellent addition to the team because she knew a confuse move. I was devastated when the two main guys go on a solo trip half way through because I couldn't bring Mavis along. But I was delighted when I beat the game and saw that there was a ton of other stuff to do, and now I could evolve all my pokemon! So good!",
+        "The vibes of this game are immaculate. The music is great. The finale with the Sky Tower is just fantastic. I loved it. There's also a remake of this which I highly recommend."
+      ],
+      "image": "pokemon-red-rescue-team.jpg",
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2005"
