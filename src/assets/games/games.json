@@ -3532,7 +3532,7 @@
       "vibes": "9",
       "gameplay": "9",
       "review": [
-        "This is where Zero Suit Samus comes from! This complete reimagining of the original Metroid, complete with an extra story at the end where Samus loses her suit. This game is so fucking good it's wild. It's been completely redone so doesn't have bullshit NES nonsense in there, but still features the OG story, Ridley, Kraid etc. Everything you could ever want"
+        "This is where Zero Suit Samus comes from! This complete reimagining of the original Metroid, complete with an extra story at the end where Samus loses her suit. This game is so fucking good it's wild. It's been completely redone so doesn't have bullshit NES nonsense in there, but still features the OG story, Ridley, Kraid etc. Everything you could ever want."
       ],
       "image": "metroid-zero.png",
       "platform": "Gameboy Advance",
@@ -4332,70 +4332,80 @@
     },
     {
       "name": "Mario Kart 64",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "6",
+      "review": [
+        "Vibes for this game are off the charts. If you want to learn more about the vibes of this game, check out the <a href=\"worldpeace.services/misc/mariokart\">Mario Kart rankings</a> that I made. I've written pretty extensively about all the original tracks there. It's something I care about a lot and I feel that this game really nails a fantastic and fun vibe, more so than most Mario Kart games.",
+        "The title theme alone is enough to get you excited. It's a classic! And then there are a bunch of fantastic tracks like Toad's Turnpike, Rainbow Road, Bowser's Castle, Sherbet Land, Koopa Troopa Beach. The soundtrack to all of these is great.",
+        "I will say there are some duds in there too, like Wario Stadium or Choco Mountain, but whatever. Also I don't feel like the drifting is very good in this game. I don't have much control over the kart."
+      ],
+      "image": "mario-kart-64.png",
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1996"
     },
     {
       "name": "Super Metroid",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "My first Metroid game! I loved it. I love the opening section, and I love how when you land on the planet, you have to walk left, not right! It's a foreshadowing that in this game you're going to have to explore everywhere in order to progress. And doing that is hard! There were many points when I was stuck here. But when you do eventually figure something out and get a new power-up, it's the best feeling ever.",
+        "Music-wise this has some of the most iconic music in the series. I'm talking Brinstar Green and Brinstar Red, both classics. Theme of Samus, Maridia, even the fucking Mother Brain music is iconic. It's so insane and scary. It's a scary game!",
+        "Together with Zero Mission I really recommend this one for Metroid beginners. Also following the speed-run scene for this is super interesting."
+      ],
+      "image": "super-metroid.webp",
       "platform": "SNES",
       "year": "older",
       "release": "1994"
     },
     {
       "name": "Psychonauts",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "6",
+      "review": [
+        "This is a game for kids! Luckily, I was a kid when I played this. I remember enjoying it a lot and completing it. I really enjoyed Milla's dance party, which might have been a sign that I was gay. The game had lots of super fun worlds to explore and despite its jank it had a lot of heart. It was made with love. I'm not sure if I played it again today I would enjoy it but my rose-tinted glasses say it was great."
+      ],
+      "image": "psychonauts-1.webp",
       "platform": "PC",
       "year": "older",
       "release": "2005"
     },
     {
       "name": "Rayman",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "2",
+      "review": [
+        "We had this on the playstation and I remember constantly restarting the game, I'm not sure if it's because we were unable to save for some reason, or if the game was just hard as balls and we ran out of lives all the time. I feel like it was the latter! I suffered so many times through the first levels, and then the nightmarish music-themed area. On occasion I would reach the blue mountains but never get further than that. I threw myself over and over at this game but it didn't relent, I just kept dying and dying.",
+        "It was all OK though because I was a child and had endless patience for bad games. Now much of the game art is ingrained into my brain as core memories. Even writing this review got me a little emotional and nostalgic remembering the mosquito boss, the look of the blue crystals, punching the cages. I loved this game so much."
+      ],
+      "image": "rayman.jpg",
       "platform": "PlayStation",
       "year": "older",
       "release": "1995"
     },
     {
       "name": "Sonic Mania",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "By far my favourite sonic game, Sonic Mania takes that classic 2D sonic and elevates it to one of the best games ever. It consists of 12 zones, 8 reimaginings of old ones, and 4 new ones, and they're all fucking great. The new ones, Studiopolis, Press Garden, Mirage Saloon and Titanic Monarch are all 10/10 they just smashed it. They look fantastic and the music is top notch. The MUSIC!!!",
+        "The music was made by Tee Lopes who was actually a youtuber who posted remixes of the classic sonic tracks. Somehow he ended up writing the music for an official Sonic game and he fucking knocked it out of the park. He also remixed all these old tracks with such love, and for the new act 2 versions of a few of them, went ham on a remixed version of them. I just adore Green Hill's act 2, as well Oil Ocean's. The Sonic CD tracks are so fun and different, and then there's the Sonic 3 tracks which are very faithful.",
+        "I have played through this game so many times I just love it."
+      ],
+      "image": "sonic-mania.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
-      "name": "The Legend of Zelda: Wind Waker HD",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
-      "platform": "Wii U",
-      "year": "older",
-      "release": "2013"
-    },
-    {
       "name": "Fire Emblem Echoes: Shadows of Valentia",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "8",
+      "review": [
+        "Arguably one of the very best Fire Emblems! This fun 3DS game changed up the mechanics big time, voice acted the whole thing, and it was a huge success! The music is amazing, and even the story is great, which is surprising since this is a remake of an old-as-balls game on the NES, out only in Japan. Still, Alm & Celica are great protagonists, and it's fun that they get split up and have their own little teams with them.",
+        "It also came with these weird 3D dungeons, but they weren't very good. I also feel like some of the battle maps are kinda boring and could have been updated. In terms of layout they are very faithful to the original which in my view (in this case) is totally unnecessary."
+      ],
+      "image": "fireemblem-2.jpg",
       "platform": "3DS",
       "year": "older",
       "release": "2017"
