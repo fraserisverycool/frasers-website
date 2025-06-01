@@ -14,7 +14,6 @@ export class HomepageColorService {
   constructor(private http: HttpClient) { }
 
   getLatestColor(): Observable<{latest: string, total: number}> {
-    console.log(this.apiUrl + "/homepage");
     return this.http.get<Color[]>(`${this.apiUrl}/homepage`).pipe(
       map(colors => {
         if (!colors || colors.length === 0) {
@@ -23,7 +22,6 @@ export class HomepageColorService {
         const sorted = [...colors].sort(
           (a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()
         );
-        console.log(sorted[0].color);
         return { latest: sorted[0].color, total: colors.length };
       }),
       catchError(error => {
@@ -33,12 +31,7 @@ export class HomepageColorService {
     );
   }
 
-  test(): Observable<Color[]> {
-    return this.http.get<Color[]>(`${this.apiUrl}/homepage`);
-  }
-
   postColor(color: { color: string }): Observable<Color> {
-    console.log(color);
     return this.http.post<Color>(`${this.apiUrl}/homepage`, color).pipe(
       tap({
         error: (error) => console.error('Error posting colour:', error),

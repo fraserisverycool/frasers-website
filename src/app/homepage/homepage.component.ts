@@ -56,7 +56,7 @@ export default class HomepageComponent {
         this.showError('Error loading colour');
         return of();
       })
-    );
+    ).subscribe();
   }
 
   submitColor(): void {
@@ -75,7 +75,7 @@ export default class HomepageComponent {
           }
           return of();
         })
-      );
+      ).subscribe();
     }
   }
 
