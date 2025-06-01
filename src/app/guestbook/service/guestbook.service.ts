@@ -2,16 +2,18 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import {Feedback} from "../feedback.interface";
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GuestbookService {
-  private apiUrl = 'https://worldpeace.services/api';
+  private apiUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
 
   getFeedback(): Observable<Feedback[]> {
+    console.log(this.apiUrl + "/feedback");
     return this.http.get<Feedback[]>(`${this.apiUrl}/feedback`);
   }
 

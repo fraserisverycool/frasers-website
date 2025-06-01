@@ -8,7 +8,7 @@ const port = 3000;
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://127.0.0.1:80', 'http://127.0.0.1', 'https://worldpeace.services', 'http://worldpeace.services'],
+  origin: ['http://127.0.0.1:80', 'http://127.0.0.1', 'http://localhost:4200', 'https://worldpeace.services', 'http://worldpeace.services'],
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept']
 }));
@@ -73,7 +73,7 @@ app.post('/api/feedback', [
     .not().contains('<').withMessage('This comment contained a "<" and it had better be for a <3 because bitch if you wanted to inject code or something I will publicly shame you for it')
     .not().contains('>').withMessage('Comment cannot contain ">" bitch are you trying to hack me or something? Bitch??'),
   body('name')
-    .notEmpty().withMessage('Would love it if you could put down a name'),
+    .notEmpty().withMessage('Would love it if you could put down a name')
     .isLength({ min: 1, max: 100 }).withMessage('Name must be between 1 and 100 characters')
     .not().contains('<').withMessage('This name contained a "<" and it had better be for a <3 because bitch if you wanted to inject code or something I will publicly shame you for it')
     .not().contains('>').withMessage('Name cannot contain ">" bitch are you trying to hack me or something? Bitch??'),
@@ -102,16 +102,16 @@ app.post('/api/feedback', [
 
 });
 
-app.get('/api/homepage-color', async (req, res) => {
+app.get('/api/homepage', async (req, res) => {
   try {
-    const feedbacks = await HomepageColor.findAll();
-    res.json(feedbacks);
+    const colors = await HomepageColor.findAll();
+    res.json(colors);
   } catch (error) {
     res.status(500).json({ error: 'Error retrieving homepage colour' });
   }
 });
 
-app.post('/api/homepage-color', [
+app.post('/api/homepage', [
   body('color')
     .notEmpty().withMessage('You have to put a colour (a hex code) into the box')
     .matches(/^#([0-9a-fA-F]{6})$/).withMessage('The colour needs to be a valid hex code')

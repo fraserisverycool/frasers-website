@@ -1,6 +1,20 @@
 {
   "films": [
     {
+      "filename": "if-i-die.jpg",
+      "title": "If I Die, It'll Be Of Joy",
+      "description": "Very cute film about an awkward topic: old age. It follows three fantastic old queer people and makes me both fearful and hopeful for old age",
+      "year": "2025",
+      "release": "2024"
+    },
+    {
+      "filename": "tchindas.jpg",
+      "title": "Tchindas",
+      "description": "Beautiful and positive film about the preparations for the carnival in Cape Verde. It follows a community of queer people not just living their best lives but being the centre of attention with no problems and no homophobia. Delightful",
+      "year": "2025",
+      "release": "2015"
+    },
+    {
       "filename": "i-am-a-flower.jpg",
       "title": "I am a Flower",
       "description": "A cute and fun animated short about a flower man who is asking his mum if she's gonna be there for his transformation tomorrow. Heartbreaking story about parents who will just never understand. I cried at this one, and when the director gave a Q&A right after he cried too",
