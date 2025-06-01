@@ -1,0 +1,40 @@
+.color-selection {
+  margin-bottom: 15px;
+}
+
+.color-selection label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.color-selection input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.color-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.color-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+}
+
+.color-button.selected {
+  border: 2px solid #333;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

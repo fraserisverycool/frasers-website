@@ -18,7 +18,6 @@
   <div class="changelog-container">
     <app-changelog></app-changelog>
   </div>
-</div>
 <div class="gif-box">
   <div class="gif">
     <img src="../../../assets/homepage/news.gif">
@@ -30,12 +29,10 @@
     <img src="../../../assets/homepage/gamecube.gif">
   </div>
 </div>
-<div class="container">
   <p>The original thing I used this website for was to give reviews of all the video games I play. There are some long and thought-out impressions of literally every game I've played since 2020. You can check out the lists here:</p>
   <button class="fun-button games" (click)="handleClick('/games')">
     <span class="button-text">Games</span>
   </button>
-</div>
 <div class="gif-box">
   <div class="gif">
     <img src="../../../assets/homepage/camera.gif">
@@ -47,21 +44,17 @@
     <img src="../../../assets/homepage/worm.gif">
   </div>
 </div>
-<div class="container">
   <p>I also have some stuff on the films I've watched! Although you have to know that most films I watch are queer arthouse films because I have a Yorck Unlimited card and like to go to "Mongay", their monday showing of gay films.</p>
   <button class="fun-button films" (click)="handleClick('/films')">
     <span class="button-text">Films</span>
   </button>
-</div>
 <div class="gif">
   <img src="../../../assets/homepage/ciber.gif" margin="5px">
 </div>
-<div class="container">
   <p>Also be sure to check out this super extended music section which features loads of cool shit. There is a list of all my favourite albums, some links to Spotify playlists, a full review of all the soundtracks on the Nintendo music app, and even download links to all these wild video game mixes I made!</p>
   <button class="fun-button music" (click)="handleClick('/music')">
     <span class="button-text">Music</span>
   </button>
-</div>
 <div class="gif-box">
   <div class="gif">
     <img src="../../../assets/homepage/book.gif">
@@ -73,21 +66,17 @@
     <img src="../../../assets/homepage/bookmark.gif">
   </div>
 </div>
-<div class="container">
   <p>I don't claim to be a big reader but that doesn't mean I haven't read some banger books. If you're looking for your next mind-blowing holiday reading experience, I have some recommendations for you here:</p>
   <button class="fun-button books" (click)="handleClick('/books')">
     <span class="button-text">Books</span>
   </button>
-</div>
 <div class="gif">
   <img src="../../../assets/homepage/eyes.gif" margin="5px">
 </div>
-<div class="container">
   <p>If you want to see some cool pictures of my life, then you might enjoy the Gallery section. I've got some fun anecdotes over there:</p>
   <button class="fun-button gallery" (click)="handleClick('/gallery')">
     <span class="button-text">Gallery</span>
   </button>
-</div>
 <div class="gif-box">
   <div class="gif">
     <img src="../../../assets/homepage/fish.gif">
@@ -99,29 +88,32 @@
     <img src="../../../assets/homepage/fish.gif">
   </div>
 </div>
-<div class="container">
   <p>This section contains guest content from members of the community:</p>
   <button class="fun-button community" (click)="handleClick('/community')">
     <span class="button-text">Community</span>
   </button>
-</div>
 <div class="gif">
   <img src="../../../assets/homepage/sungulls.gif" margin="5px">
 </div>
-<div class="container">
   <p>This section is just a dumping ground for all the other stuff that didn't fit anywhere else! A lot of thoughts about Nintendo stuff:</p>
   <button class="fun-button misc" (click)="handleClick('/misc')">
     <span class="button-text">Misc</span>
   </button>
-</div>
 <div class="gif">
   <img src="../../../assets/homepage/dinomail.gif" margin="5px">
 </div>
-<div class="container">
   <p>I've also made a place for you to leave a little message! If you have something on your heart, you can put it in the guestbook:</p>
   <button class="fun-button guestbook" (click)="handleClick('/guestbook')">
     <span class="button-text">Guestbook</span>
   </button>
+  <p>Wanna change the colour of this homepage? Select a colour or put in a hex code here:</p>
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+  <form (ngSubmit)="submitColour()">
+    <app-color-picker [color]="colorSelection.color" (colorChange)="colorSelection.color = $event"></app-color-picker>
+    <button type="submit">Submit Colour</button>
+  </form>
 </div>
 <div class="gif">
   <img src="../../../assets/homepage/tut.gif">

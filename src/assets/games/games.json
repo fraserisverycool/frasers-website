@@ -4412,30 +4412,40 @@
     },
     {
       "name": "Metroid Prime Trilogy",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "Incredible that they packaged all three games together in one! Such value for money! I played this later in life when I was living in Saarland, and I'm so glad I did. Metroid Prime 1 is an all-time classic. Incredible how they took the metroidvania principle and translated it perfectly into 3D. It's just so fun and the vibes are so strong. I also played Metroid Prime 2 and loved it. Maybe it's a little less iconic but it's still got all that good stuff.",
+        "Metroid Prime 3 I didn't resonate with, it was way more combat-heavy and less exploration-y. I ended up not finishing it, which I regret, but I've since read online that lots of people feel the same way. Despite this, I'm giving the trilogy a perfect score because it contains Metroid Prime 1, which is one of the greatest games ever."
+      ],
+      "image": "metroid-prime-trilogy.jpg",
       "platform": "Wii",
       "year": "older",
       "release": "2009"
     },
     {
       "name": "The Legend of Zelda: Spirit Tracks",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "5",
+      "review": [
+        "This game's whole thing was that you drive a train around, which honestly wasn't all that. This train gameplay wasn't really speaking to me, even if the music for it is great. That being said I'm glad this game improved on Phantom Hourglass so much. It's easy to forget but this was controlled entirely with the DS stylus and it fucking worked!",
+        "That being said, I never truly loved this game."
+      ],
+      "image": "zelda-spirit-tracks.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2009"
     },
     {
       "name": "SSX 3",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "Wow I played this so fucking much it's insane. This game was so fun! Going fast, doing tricks, and all the racetracks were so cool. They were even all connected together on the mountain! And it was possible to do races from the very peak to the city at the bottom, and I thought that was the coolest shit ever. No loading zones or anything!",
+        "So funny how in this game you can just jump and do a flip without a ramp or anything.",
+        "It has a licenced soundtrack and this is legit how I got into a bunch of new music. I will always be grateful to SSX 3 for introducing me to Röyksopp's 'Poor Leno'. Beautiful"
+      ],
+      "image": "ssx-3.png",
       "platform": "Gamecube",
       "year": "older",
       "release": "2003"

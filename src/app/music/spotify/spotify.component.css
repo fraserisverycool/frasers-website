@@ -10,3 +10,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.flex-item {
+  width: 100%;
+}

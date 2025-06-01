@@ -1,0 +1,23 @@
+<div class="color-selection">
+  <label for="color">What colour would you like?</label>
+  <input type="text" id="color" [(ngModel)]="color" name="color" placeholder="#ffffff">
+  <div class="color-buttons">
+    <button type="button" class="color-button" [class.selected]="color === '#ffffff'" (click)="selectColor('#ffffff')" style="background-color: #ffffff;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#3498db'" (click)="selectColor('#3498db')" style="background-color: #3498db;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#e74c3c'" (click)="selectColor('#e74c3c')" style="background-color: #e74c3c;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#00632a'" (click)="selectColor('#00632a')" style="background-color: #00632a;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#f54ee7'" (click)="selectColor('#f54ee7')" style="background-color: #f54ee7;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#b51016'" (click)="selectColor('#b51016')" style="background-color: #b51016;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#f1c40f'" (click)="selectColor('#f1c40f')" style="background-color: #f1c40f;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#16a085'" (click)="selectColor('#16a085')" style="background-color: #16a085;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#0e37c9'" (click)="selectColor('#0e37c9')" style="background-color: #0e37c9;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#8e44ad'" (click)="selectColor('#8e44ad')" style="background-color: #8e44ad;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#2c3e50'" (click)="selectColor('#2c3e50')" style="background-color: #2c3e50;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#95a5a6'" (click)="selectColor('#95a5a6')" style="background-color: #95a5a6;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#4CAF50'" (click)="selectColor('#4CAF50')" style="background-color: #4CAF50;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#ff5500'" (click)="selectColor('#ff5500')" style="background-color: #ff5500;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#03A9F4'" (click)="selectColor('#03A9F4')" style="background-color: #03A9F4;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#8BC34A'" (click)="selectColor('#8BC34A')" style="background-color: #8BC34A;"></button>
+    <button type="button" class="color-button" [class.selected]="color === '#57290a'" (click)="selectColor('#57290a')" style="background-color: #57290a;"></button>
+  </div>
+</div>

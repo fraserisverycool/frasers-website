@@ -1,4 +1,3 @@
-/* Container styling */
 .container {
   width: 100%;
   max-width: 800px;
@@ -13,7 +12,6 @@
   overflow: hidden;
 }
 
-/* Feedback list styling */
 .feedback-list {
   margin-top: 20px;
 }
@@ -35,7 +33,6 @@
   max-width: 100%;
 }
 
-/* Feedback form styling */
 .feedback-form {
   background: linear-gradient(45deg, #efe4f0, #facff4);
   padding: 20px;
@@ -64,7 +61,6 @@ input, textarea {
   border: none;
 }
 
-/* Button styling */
 button {
   background-color: #b54dff;
   color: white;
@@ -78,28 +74,27 @@ button:hover {
 }
 
 .error-message {
-  background-color: #ff6347; /* Tomato red background */
-  color: #fff; /* White text */
+  background-color: #ff6347;
+  color: #fff;
   padding: 15px;
   margin-top: 15px;
   border-radius: 10px;
-  opacity: 0; /* Start fully transparent */
-  animation: fadeInOut 5s ease-in-out forwards; /* Apply the animation */
+  opacity: 0;
+  animation: fadeInOut 5s ease-in-out forwards;
 }
 
-/* Define the fade-in and fade-out animation */
 @keyframes fadeInOut {
   0% {
-    opacity: 0; /* Fully transparent at the start */
+    opacity: 0;
   }
   10% {
-    opacity: 1; /* Fade in to fully visible */
+    opacity: 1;
   }
   90% {
-    opacity: 1; /* Stay fully visible for most of the duration */
+    opacity: 1;
   }
   100% {
-    opacity: 0; /* Fade out to fully transparent */
+    opacity: 0;
   }
 }
 
@@ -118,47 +113,6 @@ button:hover {
 .warning-banner strong {
   font-size: 18px;
   text-shadow: 1px 1px #ccc;
-}
-
-.color-selection {
-  margin-bottom: 15px;
-}
-
-.color-selection label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.color-selection input[type="text"] {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.color-buttons {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.color-button {
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.color-button:hover {
-  transform: scale(1.1);
-}
-
-.color-button.selected {
-  border: 2px solid #333;
-  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .gif {

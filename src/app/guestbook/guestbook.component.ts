@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import ColorPickerComponent from "../utils/color-picker/color-picker.component";
 import {GuestbookService} from "./service/guestbook.service";
 import {FormsModule} from "@angular/forms";
 import {Feedback} from "./feedback.interface";
@@ -7,7 +8,7 @@ import {Feedback} from "./feedback.interface";
 @Component({
   selector: 'app-guestbook',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, ColorPickerComponent],
   templateUrl: './guestbook.component.html',
   styleUrls: ['./guestbook.component.css']
 })
@@ -56,7 +57,7 @@ export default class GuestbookComponent {
     this.errorMessage = message;
     setTimeout(() => {
       this.errorMessage = '';
-    }, 5000); // Hide the error message after 5 seconds
+    }, 5000);
   }
 
   selectColor(color: string): void {
