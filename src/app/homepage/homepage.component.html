@@ -114,6 +114,7 @@
     <app-color-picker [color]="colorSelection.color" (colorChange)="colorSelection.color = $event"></app-color-picker>
     <button type="submit">Submit Colour</button>
   </form>
+  <p class="small-text">Number of times changed so far: {{ this.colorChanges }}</p>
 </div>
 <div class="gif">
   <img src="../../../assets/homepage/tut.gif">

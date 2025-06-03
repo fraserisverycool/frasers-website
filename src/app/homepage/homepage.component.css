@@ -149,6 +149,10 @@ a {
   }
 }
 
+.small-text {
+  font-size: 6px;
+}
+
 .footnote {
   color: black;
 }

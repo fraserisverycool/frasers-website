@@ -4622,30 +4622,38 @@
     },
     {
       "name": "Kirby's Dream Land 3",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "7",
+      "review": [
+        "A nice little piece of Kirby history here. I love the hand-drawn artstyle and it's really fun to play with the different animal friends, of which my favourite is the dumb looking fish. Especially of note is the wild and varied soundtrack. I would recommend this game to Kirby fans, it still totally holds up today."
+      ],
+      "image": "kirby-dream-land-3.jpg",
       "platform": "SNES",
       "year": "older",
       "release": "1997"
     },
     {
-      "name": "Skullgirls",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "name": "Skullgirls 2nd Encore",
+      "vibes": "4",
+      "gameplay": "7",
+      "review": [
+        "We were talking about fighting games and I was interested in trying out a new one, and since my friend Pomi raved about this, I gave it a go. It's fun to play and I can definitely imagine spending time with it and getting good with it (I was vibing with Parasoul), however I simply don't have the time to get into another competitive game. It's a shame because I would really enjoy other fighting games but they just require way too much time.",
+        "Also this game is so wild, it's like boob physics the game. I'm personally not into the sexualised women characters only situation although I will say some of the characters have really fun ideas with their designs. I think the overall vibe is a bit too creepy for me though."
+      ],
+      "image": "skullgirls.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2012"
     },
     {
       "name": "Wargroove",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "5",
+      "review": [
+        "I played this because I was missing advance wars! It came out at a time when I hadn't played a strategy game like this in a while. However I felt that it doesn't reach the heights of advance wars. I got very close to the end but there were some really long and difficult and honestly boring missions towards the end which sadly made me give it up. I also feel like that soundtrack was very forgettable.",
+        "I will say one thing though, you can play as a dog in this game. A commander that is simply a dog. It's amazing. Fantastic."
+      ],
+      "image": "wargroove.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
