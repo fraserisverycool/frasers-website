@@ -26,7 +26,7 @@ export class HomepageColorService {
       }),
       catchError(error => {
         console.error('Error fetching homepage colour:', error);
-        return of({latest: '', total: 0});
+        return of({latest: '#ffffff', total: 0});
       })
     );
   }

@@ -54,6 +54,7 @@ export default class HomepageComponent {
         }}),
       catchError(error => {
         this.showError('Error loading colour');
+        this.homepageColor = "#ffffff"
         return of();
       })
     ).subscribe();
