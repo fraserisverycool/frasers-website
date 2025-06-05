@@ -107,31 +107,37 @@ export default class GamesComponent implements OnInit {
         break;
       case 'all':
         this.games = this.originalGames;
-        this.title = "Games Fraser has played since 2020";
+        this.title = "All games Fraser has ever played most recent first";
         break;
       case '2025':
         this.games = this.originalGames.filter(game => game.year.includes('2025'));
-        this.title = "Games Fraser played in 2025";
+        this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.title = "Games Fraser played in 2025 ranked";
         break;
       case '2024':
         this.games = this.originalGames.filter(game => game.year.includes('2024'));
-        this.title = "Games Fraser played in 2024";
+        this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.title = "Games Fraser played in 2024 ranked";
         break;
       case '2023':
         this.games = this.originalGames.filter(game => game.year.includes('2023'));
-        this.title = "Games Fraser played in 2023";
+        this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.title = "Games Fraser played in 2023 ranked";
         break;
       case '2022':
         this.games = this.originalGames.filter(game => game.year.includes('2022'));
-        this.title = "Games Fraser played in 2022";
+        this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.title = "Games Fraser played in 2022 ranked";
         break;
       case '2021':
         this.games = this.originalGames.filter(game => game.year.includes('2021'));
-        this.title = "Games Fraser played in 2021";
+        this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.title = "Games Fraser played in 2021 ranked";
         break;
       case '2020':
         this.games = this.originalGames.filter(game => game.year.includes('2020'));
-        this.title = "Games Fraser played in 2020";
+        this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.title = "Games Fraser played in 2020 ranked";
         break;
       case 'older':
         this.games = this.originalGames.filter(game => game.year.includes('older'));

@@ -8,4 +8,5 @@ export interface Game {
   year: string;
   release: number;
   story: boolean;
+  score: number;
 }
