@@ -4951,60 +4951,78 @@
     },
     {
       "name": "Hyrule Warriors",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "3",
+      "review": [
+        "I had never played or even heard of Dynasty Warriors so going into this was a bit of a shock. This is a thing? It's like a one-man-army situation where you go around mindlessly murdering hundreds of people while listening to metal remixes of Zelda songs. It's alright, and although I did complete it, it was a struggle, and it was during the dry Wii U years when there was nothing to play.",
+        "I remember vibing with Sheik the most. And I thoroughly enjoyed the oversexualised villain OC who makes orgasm noises all the time, pictured here."
+      ],
+      "image": "hyrule-warriors.jpg",
       "platform": "Wii U",
       "year": "older",
       "release": "2014"
     },
     {
       "name": "Mario & Luigi: Superstar Saga + Bowser's Minions",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "4",
+      "review": [
+        "I played the original as a child on my friend Oscar's game for a bit but never truly played it. I wanted to make up for that by buying the remake on the 3DS but I also didn't get into it. I got maybe halfway through and gave it a good try, but in the end this is a game for kids. If I'm gonna play a turn based RPG I'm gonna need some depth.",
+        "The vibes are good though. I love the dancing that the Mario bros do during battles."
+      ],
+      "image": "mario-and-luigi.jpg",
       "platform": "3DS",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Super Paper Mario",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "I love Super Paper Mario so much. People (me) complain that they keep changing Paper Mario and they should just make everything like the thousand year door, and they're (I'm) right, but this game is the exception, it's so different but so good. I love the speedy gameplay, the 3D puzzles, all the various locations.",
+        "The game's soundtrack is so nice. Just Flipside has its own very remarkable music that gives this game its unique vibe. From there Mario will go to space, an 8-bit land, a samurai tournament, all sorts of weird and wacky places. This isn't your standard Level 1, Level 2 affair!",
+        "Then you have a genuinely touching story with the fabulous Count Bleck and his minions, and a very threatening-looking and ever-growing black hole in the sky that promises to destroy all the worlds. At one point the black hole actually destroys the world and you go to literal hell. This game is unafraid to go there.",
+        "I love that you can play as Peach and Bowser and Luigi too. I loved the pit of 100 trials. I remember as a child I 100%'d this game, which is actually insane because I cooked every recipe in the cookbook. There is no reason to do that! It was an important turning point in my gaming career though. I stopped being a completionist that day."
+      ],
+      "image": "super-paper-mario.avif",
       "platform": "Wii",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Super Mario 64 DS",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "I may have played the original as a child first, but the DS is the first time I actually PLAYED played it. Like got all the stars and visited all the levels. I loved it. I loved that you start as Yoshi! How fun and subversive. I also love how you can collect the hats of other characters to briefly become them. I think that's what Donkey Kong 64 was missing.",
+        "Also this game with a bunch of banger minigames that we used to play using download play all the time. Loved it."
+      ],
+      "image": "mario-64.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2004"
     },
     {
-      "name": "Star Wars: Jedi Knight II: Jedi Outcast",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "name": "Star Wars Jedi Knight II: Jedi Outcast",
+      "vibes": "3",
+      "gameplay": "2",
+      "review": [
+        "I played this for a bit when I was younger, can't say why. I remember enjoying using the force to zap people."
+      ],
+      "image": "star-wars.webp",
       "platform": "Gamecube",
       "year": "older",
       "release": "2002"
     },
     {
       "name": "Mario Kart Super Circuit",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "An underrated Mario Kart game! Yeah it looks worse than Mario Kart 64 which came before it, but it's soooo much better than Super Mario Kart on the SNES. After playing a bit it's quite easy to get good at drifting. And the stages, although flat, are fun! The soundtrack is also fantastic."
+      ],
+      "image": "mario-kart-super-circuit.jpg",
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2001"
