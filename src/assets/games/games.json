@@ -1,6 +1,22 @@
 {
   "games": [
     {
+      "name": "Mario Kart World",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "Incredible! They just went and made the best Mario Kart ever. Mario Kart 8 really perfected the formula so I was asking myself how they would top it. By making it open world and having you drive between tracks, it has completely changed the formula and breathed new life into the series. At first I was skeptical about only going around the tracks for one lap and spending two or more laps travelling to the next one, but actually that's what this game is all about: all the crazy shit they throw at you between the tracks. No longer can you get good at Mario Kart by just learning all the tracks because you'll never learn this entire world. Instead, you have to react to all the new twists and turns awaiting you in every race. It means this will be replayable for ages!",
+        "I really love the VS mode where you can select literally any stage and go from anywhere to anywhere. There are infinite possibilities! The other mode, Knockout tour, is also great, especially when playing online. However how come I can't make my own knockout tours out of my favourite tracks? That would be my one main wish for the game. Then I love the open world free roam mode! You can just explore all these cool places and it's absolutely covered in references to old Mario Kart games, which I love to soak up.",
+        "But the real crown jewel of this game is the SOUNDTRACK! Holy shit!!! Not only does this feature absolute banger music for the 30 or so official tracks they have (including awesome intro music as you approach the stage), but it also features of 200 tracks of remixes of old mario and mario kart songs!! Between tracks and especially in the free roam and even on the main menu, you can just hear all this music. It's amazing! We've got reimaginings and modernisations of old and forgotten tracks, favourites, and just well everything in between. The sheer volume is insane, and each one has been made with such love. Playing this game and just hearing something like the Mario Kart DS credits theme, or Bowser's Castle GBA, or many obscure tracks just sets me off. Playing this game with me is insufferable because I will stop the conversation to point out the name of the track and how much I love it.",
+        "Also, the characters! I love playing as Cheep Cheep, Snowman, Piranha Plant... I mean what an honour. I love it. I think this is gonna be a huge game on this system and I can't wait to keep playing it over the next decade!"
+      ],
+      "image": "mario-kart-world.webp",
+      "platform": "Switch 2",
+      "year": "2025",
+      "release": "2025",
+      "score": 20
+    },
+    {
       "name": "Astrobot",
       "vibes": "3",
       "gameplay": "10",

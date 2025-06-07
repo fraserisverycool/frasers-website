@@ -21,6 +21,7 @@ const platformOrder = [
   "3DS",
   "Wii U",
   "Switch",
+  "Switch 2",
   "PlayStation 1",
   "PlayStation 2",
   "PlayStation 3",
