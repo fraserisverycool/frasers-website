@@ -5029,50 +5029,63 @@
     },
     {
       "name": "Kirby 64: The Crystal Shards",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "6",
+      "review": [
+        "Look I know this is a fan favourite but let's be real this game looks like shit and the music sounds like shit. It breaks my heart because actually I'm a huge kirby fan but I only completed it for science. I looked up the O2 fight online because I ain't spending anymore time in this game that I need to.",
+        "Combining the copy abilities was inspired that. I loved that."
+      ],
+      "image": "kirby-crystal.png",
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000"
     },
     {
       "name": "Super Bomberman",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "7",
+      "review": [
+        "I have this on my SNES in my current apartment and still sometimes bring it out for party games when people are over. Bomberman is a banger and it's fun to have a version of it that's so quick to boot up and so retro. It's lucky that the battle music is so good because it just repeats and repeats, very loudly."
+      ],
+      "image": "super-bomberman.jpg",
       "platform": "SNES",
       "year": "older",
       "release": "1993"
     },
     {
       "name": "The Stanley Parable",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "3",
+      "review": [
+        "This game has the same vibes as the TV show Severance. It's about meaningless work in a meaningless office. A incorporeal voice starts narrating your life and you start following this bizarre yellow line on the floor. Weird shit starts happening and it becomes clear this is some kind of nightmare. As the game goes on and you follow more yellow lines, or orders from the disembodied voice, things escalate and become more and more conceptual.",
+        "Honestly I didn't learn anything from this. I kinda expect to learn some life lessons from arty games like this but I was just baffled the whole time. At some point it started feeling like a waste of time."
+      ],
+      "image": "stanley-parable.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2013"
     },
     {
       "name": "Puyo Puyo Tetris",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "9",
+      "review": [
+        "I have genuinely played this game so much it's wild. Me and my mates from home play it online a lot! Well not so much these days because the servers are so bad. We also exclusively play one multiplayer 'Swap' mode where it switches between Tetris and Puyo Puyo every 30 seconds or so. That's the only competitive mode I think.",
+        "Anyway it's bad in the sense that this mode only has one battle theme and the colours and vibe are all a bit too much. But the core gameplay is class and we have had loads of fun with this game. I even made a little side event thing for it at BREXIT SUMMIT 100."
+      ],
+      "image": "puyo-puyo-tetris.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2014"
     },
     {
       "name": "Kirby and the Rainbow Curse",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "5",
+      "review": [
+        "Talk about obscure Wii U games! Nothing could stop this Kirby fan and Wii U owner. I played through this game and genuinely enjoyed it. What makes this game special isn't the claymation aesthetic, the bizarre gameplay or the general cuteness, but its excellent soundtrack! I mean just listen to <a href=\"https://youtu.be/KLVbm47RFHE?feature=shared\">this track</a>. It was of course made my Shogo Sakai, my favourite vgm composer (he did Mother 3 and the smash bros themes). There's even a jukebox with a bunch of banger remixes of classic kirby tracks. Love love love."
+      ],
+      "image": "kirby-rainbow-curse.jpg",
       "platform": "Wii U",
       "year": "older",
       "release": "2015"
