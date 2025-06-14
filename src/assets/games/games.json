@@ -5092,90 +5092,141 @@
     },
     {
       "name": "Mario Kart 7",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "6",
+      "review": [
+        "Definitely the weakest Mario Kart game. They simply didn't pull through on the fun tracks or fun vibes. I think the stages on the handheld look kinda lame and empty. A lot of the music is really sub-par, considering how good Mario Kart music normally is. This game introduced ultra-boring stages like Mario Circuit and Daisy Hills, and my least favourite I think Cheep Cheep Lagoon, whose music is an affront to beach themes.",
+        "I borrowed this from my friend Andrew way back when and enjoyed it for a bit but apart from Rainbow Road and Wuhu Island this didn't have much to offer."
+      ],
+      "image": "mario-kart-7.jpg",
       "platform": "3DS",
       "year": "older",
       "release": "2011"
     },
     {
       "name": "Mario Strikers Charged",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "6",
+      "review": [
+        "I played this at my friend James' place after school sometimes. It was a lot of fun but I enjoyed playing Brawl more with James. I never appreciated how the opponent can score 5 goals at once if you fuck up the supergoal thing.",
+        "The vibes of this game are saved by Daisy, who is unafraid to scream at any time and I love her for that."
+      ],
+      "image": "mario-strikers-charged.jpg",
       "platform": "Wii",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Professor Layton and the Curious Village",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "What a fun game! It's a collection of puzzles and I fucking love puzzle games. It's very peaceful and comes with a cute story. The cartoon aesthetics are top-notch, the music is fantastic, and the characters just great. Lots of enjoy!"
+      ],
+      "image": "professor-layton.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Cel Damage",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "4",
+      "review": [
+        "This is a wild game on the gamecube that I distinctly remember buying from Blockbuster for 2 pounds. It's basically just Mario Kart battle mode with the cel shading popularised by Wind Waker. It was wacky and fun, but back then I didn't really understand that there was such things as bad games. The market wasn't oversaturated with slop back then so I couldn't really recognise this game for what it is, a clone!",
+        "I mained a character called Dominique Trix."
+      ],
+      "image": "cel-damage.jpg",
       "platform": "Gamecube",
       "year": "older",
       "release": "2001"
     },
     {
       "name": "Advance Wars: Black Hole Rising",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "9",
+      "review": [
+        "Loved playing this as a child! I missed out on the first game but that's fine because this one is all you need. I loved the campaign although it was really hard, and then the custom map builder was awesome. I really sank many hours into this! I was an advance wars fan way before I was a fire emblem fan for sure. My favourite CO was Colin."
+      ],
+      "image": "advance-wars.jpg",
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2003"
     },
     {
+      "name": "Advance Wars: Dual Strike",
+      "vibes": "5",
+      "gameplay": "8",
+      "review": [
+        "This was also a great game but I never owned it. I remember playing it multiplayer on the bus on school trips. It had some extra mechanics which I thought were great, but I never played the campaign."
+      ],
+      "image": "advance-wars-dual.png",
+      "platform": "DS",
+      "year": "older",
+      "release": "2005"
+    },
+    {
+      "name": "Monsteca Corral",
+      "vibes": "1",
+      "gameplay": "1",
+      "review": [
+        "What a trip. This is a weird ass game that looks more like someone's first ever video game than anything else. The story is wild, you control these robots and are trying to help a giant flying worm to hatch, or something like that. It was very conceptual and maybe it could be enjoyable if you took mushrooms."
+      ],
+      "image": "monsteca-corral.jpg",
+      "platform": "Wii",
+      "year": "older",
+      "release": "2010"
+    },
+    {
       "name": "Yoshi's Story",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "One of my all time favourite games and possibly one of the very first games I played! I got this game for my 6th birthday and I was thrilled! I loved it. I spent so much time as a tiny child playing this and not understanding anything. As a result I have a bunch of core memories associated with it. The music especially really means a lot to me.",
+        "My favourite level was 'Torrential Maze' but I could so rarely play it because I didn't understand that I needed to collect the hearts to unlock the stage. Other highlights were the Tall Tower, the beehive jungle level, the terrifying piranha plant grove, wanting to get enough hearts on page 4 because I really wanted to avoid the underwater levels. The ghost bowser's castle was so hard!",
+        "Later in life I learned that there's more to the game than just vibing through the levels and I attempted to collect all the melons, but that shit is hard! There are so many melons hidden in bullshit places, impossible minigames, and you eat other fruit by accident so easily."
+      ],
+      "image": "yoshis-story.jpg",
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997"
     },
     {
       "name": "SUPERHOT",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "4",
+      "review": [
+        "I tried it because the premise is cool. The premise is that time is stopped and only progresses as you move. So you have all the time in the world to consider how you're going to shoot these red guys. I'm not great at shooters and I found this game to be too stressful for me. I heard it's really wild in VR!"
+      ],
+      "image": "superhot.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Hollow Knight",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "When I talk about vibes in video games, I'm talking about how close other video games achieve the status of ultimate vibe like Hollow Knight. This game is such a vibe it's insane. There are endless 'ambience and music from Hollow Knight for studying' compilations on youtube for a reason. The music is so sombre and peaceful and unlike anything else really. Then when the boss music hits, it's fucking great, it's dramatic but still fits the vibe of the gloomy caves. When I listen to tracks like 'Hornet battle' I enjoy how it sounds like baroque music.",
+        "Specifically I love the main Crossroads area, Greenpath and the City of Tears. The music is stunning, and also the game looks amazing. The artstyle is somewhere between creepy and cute and they nail it. I truly don't think another 2D platformer can look as good as this.",
+        "Gameplay-wise this game is also a 10. It's super open, meaning you can go anywhere really, and for a metroidvania you'd think that would be a problem but it straight up isn't. At some point you learn about the goal of the game and you have some directions on the map but all in all it's just about vibing through the various locations at your leisure and finding all this cool shit. At some point everything changes when you can double jump and you just want to go through the whole world again looking for secrets.",
+        "The combat is sooooo satisfying! You have loads of short, fast attacks, but the enemies have lots of health so you have to hit them many times. But if you get good at it, you can kill stuff quickly with a flurry of blows and it feels great. The bosses are not your standard hit-them-three-times affair, but rather require you to fit in as many of these tiny hits in as possible between attacks. When you get hit yourself you it feels BAD, like the whole screen goes black and it HURTS. Sound design really helps with that and no game nails sound design like this one.",
+        "There's also just tons of fun stuff to find and see. The game can keep going forever if you want. I personally was never able to defeat the Radiance and to this day I feel bad about it, but that hasn't stopped me from replaying this game 2 times and getting enjoyment out of it that way. Also did I mention that all the characters in this game are bugs? It's an insect game! And it has INSANE lore. Genuinely worth getting into those hour long deep dives into the lore because it is sooooo detailed."
+      ],
+      "image": "hollow-knight.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "NES Remix Pack",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "2",
+      "review": [
+        "This is a game where you are given little challenges from Nintendo NES games, maybe remixed a little somehow. It's alright but this version on the Wii U was pretty bare bones. I think they perfected the formula in the Nintendo World Championships NES Edition."
+      ],
+      "image": "nes-remix-pack.jpg",
       "platform": "Wii U",
       "year": "older",
       "release": "2014"
