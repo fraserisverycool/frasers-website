@@ -1,6 +1,20 @@
 {
   "films": [
     {
+      "filename": "portrait.jpg",
+      "title": "Portrait of a Lady on Fire",
+      "description": "A lesbian longing film, featuring this actress just staring at the camera for most of it. I thought it was boring. Like surely in those times people didn't talk with extended silences like that",
+      "year": "2025",
+      "release": "2019"
+    },
+    {
+      "filename": "all-we-imagine.jpg",
+      "title": "All We Imagine As Light",
+      "description": "Imagine you have an arranged marriage then your husband fucks off leaving you in Mumbai to live and work alone your whole life. This lady with bags under her eyes has accepted her fate and this film really hones in on that. A slow burner and a look into a different world",
+      "year": "2025",
+      "release": "2024"
+    },
+    {
       "filename": "if-i-die.jpg",
       "title": "If I Die, It'll Be Of Joy",
       "description": "Very cute film about an awkward topic: old age. It follows three fantastic old queer people and makes me both fearful and hopeful for old age",
