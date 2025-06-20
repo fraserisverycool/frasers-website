@@ -5125,6 +5125,7 @@
       ],
       "image": "professor-layton.jpg",
       "platform": "DS",
+      "story": true,
       "year": "older",
       "release": "2007"
     },
@@ -5734,70 +5735,87 @@
     },
     {
       "name": "Iggy's Reckin' Balls",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "3",
+      "review": [
+        "I have strong childhood memories of this. Thinking about it this was such a fever dream. Wild that they made a racing game like this."
+      ],
+      "image": "iggy.png",
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1998"
     },
     {
       "name": "Command & Conquer: Red Alert",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "5",
+      "review": [
+        "I played this a bunch with my brothers. Don't think I got very far in the campaign because I'm child but I enjoyed the multiplayer. I also enjoyed this one female agent called Tanya that you can deploy, and whenever you deploy her she just says in a really snarky voice :'Tanya!'"
+      ],
+      "image": "red-alert.gif",
       "platform": "PC",
       "year": "older",
       "release": "1996"
     },
     {
       "name": "Super Mario Maker 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "9",
+      "review": [
+        "This game is equally as good as the first one! Apart from the new 3D World vibes, there's nothing too new here. It's still a great game! I made some levels if anyone wants to come over and play them."
+      ],
+      "image": "super-mario-maker-2.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2019"
     },
     {
       "name": "Pilotwings Resort",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "5",
+      "review": [
+        "Borrowed this from Oscar on the 3DS and really enjoyed it! It's got some great music, that classic Mii + Wuhu Island vibe. A lot to enjoy, although I didn't play much into the game, I have to admit."
+      ],
+      "image": "pilotwings-resort.jpg",
       "platform": "3DS",
       "year": "older",
       "release": "2011"
     },
     {
       "name": "Pikmin 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "I love Pikmin 2 so much. This game really embodies the wacky and creepy Pikmin vibe, possibly the most out of all of them. In this game you collect treasure of real brands and items like Duracell batteries, which is awesome. It's like, are we on Earth? Nah can't be because there are weird monsters here. But I love it, and all the stuff with Louie towards the end, super cool. Love the montage of him on his own on the planet.",
+        "This game added in purple and white pikmin which are iconic. It also added caves which added a lot of fun gameplay to the game, but it just doesn't make sense that time stops down there. It's also kinda weird to be able to reset to the beginning of the floor all the time. It's like a completely different game to the time management stuff going on outside.",
+        "I love the vibes of the different areas, especially the forboding Wistful Wilds. And I love the Piklopedia with that <a href=\"https://www.youtube.com/watch?v=QJQNLpzJJDA&ab_channel=olimar12345\">music</a>!",
+        "Maybe this is my favourite Pikmin game, I'm not sure. Highly recommend."
+      ],
+      "image": "pikmin-2.jpg",
       "platform": "Wii",
       "year": "older",
       "release": "2004"
     },
     {
       "name": "Yoshi's Island DS",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "8",
+      "review": [
+        "I love Yoshi's Island DS! Everyone says the original is better and maybe they're right but I played the shit out of this! With all the different babies it's totally innovative and different. I also enjoy the music, although it is all variations of the same music. Speaking of music, the title theme is so beautiful. You need to listen to a minute of ocean sounds but then it comes in. Stunning. I loved this game, and completing it is just as hard as the original."
+      ],
+      "image": "yoshis-island-ds.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2006"
     },
     {
       "name": "RollerCoaster Tycoon",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "9",
+      "review": [
+        "Lovingly dubbed 'Roundabouts' by my dad, I loved RollerCoaster Tycoon and would play it all the time after school. You could make your own theme parks and it was so good! The system was super flexible and making rollercoasters was so fun. I loved the little scenarios and all the music you could play. I played this game to death!"
+      ],
+      "image": "rollercoaster.png",
       "platform": "PC",
       "year": "older",
       "release": "1999"
@@ -5829,130 +5847,186 @@
     },
     {
       "name": "Phoenix Wright: Ace Attorney",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "This game is so good! Huge vibes are unexpected from a game about law and order, but it is so cute and funny. I love the judge, I love how extra everyone is. Why are Mia's tits that huge. Highly recommend this!"
+      ],
+      "image": "phoenix-wright.jpg",
       "platform": "DS",
+      "story": true,
       "year": "older",
       "release": "2001"
     },
     {
       "name": "The Sims",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "7",
+      "review": [
+        "This game is iconic for a reason: it's hilarious. These characters are so dumb and funny that the game just constantly remains entertaining. I have a lot of memories associated with this as a child. Training a lady up to level 10 cooking and the first meal she cooks she burns the house down. Letting the sims drown in the pool, showdowns with the robber, training up to be an Astronaut and then just sleeping in one day and getting fucking fired.",
+        "I also really enjoyed the house-building and selecting the furniture, which is funny because I don't like doing those things in real life. Character create of course, hilarious. Then they pee on the floor, great. I also really enjoyed the expansion packs I had a holidays one which was great. And I looooove the shopping music"
+      ],
+      "image": "sims.png",
       "platform": "PC",
       "year": "older",
       "release": "2000"
     },
     {
+      "name": "The Sims 3",
+      "vibes": "5",
+      "gameplay": "6",
+      "review": [
+        "I played this for a bit at some point, but it's ugly in a really bad way! I didn't truly get into it like the original, although it does have a lot of potential for hilarity. I downloaded a mod to make sexy buff guys which is just typical gay nonsense really, incredible that I lied to myself so much about that back then."
+      ],
+      "image": "sims-3.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "2009"
+    },
+    {
       "name": "Shovel Knight: Treasure Trove",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "10",
+      "review": [
+        "I think of indie games as either before shovel knight or after shovel knight, because shovel knight was so high quality that it fucking revolutionised the platforming genre. From that point on, it was all about quality of life and making the user feel good. Shovel Knight was the first 'clean' indie game. It felt so good to play and was really well designed.",
+        "I like the world and the other knights. I especially liked the other campaigns with reaper knight and king knight, they were fabulous. This even comes with its own little platform fighter which is a lot of fun. The music from Jake Kaufman is top class. Some real chiptune magic."
+      ],
+      "image": "shovel-knight.png",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Donkey Kong: Barrel Blast",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "2",
+      "review": [
+        "The attempt at Donkey Kong Kart. It's really weird and not really worth your time or money. Some good music."
+      ],
+      "image": "donkey-kong-barrel.jpg",
       "platform": "Wii",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Custom Robo Arena",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6 ",
+      "gameplay": "7",
+      "review": [
+        "This game was wild. Genuinely a lot of fun to play the battles, but then there was this totally baffling story where you start each day with the same dialogue with your family over and over again. At points this game feels like a fever dream."
+      ],
+      "image": "custom-robo.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2006"
     },
     {
       "name": "Runescape",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "7",
+      "review": [
+        "Runescape was the real deal, man. My first ever MMO and I fucking loved it. Seeing all those people online for the first time like that was amazing. I learned that people are weird. I also made friends on here! I would message random players about this and that. Once I cried because mum told me I had to stop playing right when I was having a conversation with a new friend. After a few years I even got the membership for a year or so. I loved exploring the whole game, it was amazing. There was so much stuff!",
+        "A lot of the music is firmly ingrained in my brain. It was classic. I loved the 'newbie island' music. I remember getting really good at woodcutting, which is without doubt the lamest skill to grind. Alas, I was a child."
+      ],
+      "image": "runescape.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2001"
     },
     {
       "name": "Bit.Trip Runner",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "4",
+      "review": [
+        "This is a fun auto-runner where you play as a rainbow man. It was alright but didn't do too much for me."
+      ],
+      "image": "bit-trip.jpg",
       "platform": "Wii",
       "year": "older",
       "release": "2010"
     },
     {
       "name": "Professor Layton and Pandora's Box",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "6",
+      "review": [
+        "Another banger Professor Layton, loved it. Story was a bit more intense than Curious Village, but I would still recommend Curious Village over this to newcomers."
+      ],
+      "image": "layton.jpg",
       "platform": "DS",
+      "story": true,
       "year": "older",
       "release": "2009"
     },
     {
       "name": "Minecraft",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "Minecraft is a top 10 game of all time for sure. It has become a cultural staple for a reason. It's like lego! Building endlessly to your heart's content. The simplicity of the blocks is super easy to understand so everyone can get involved. You can build whatever you want, it's like expressing yourself artistically in 3D. I've built so much cool shit. There's also adventuring and killing monsters and stuff and that stuff is alright, although I'm more of a builder than a fighter. More of a lover.",
+        "When this first came out, I played it a bunch and loved it, but only ever single player. Then during the pandemic I played it online with friends for the first time and it changed everything. I was able to log in at anytime, build stuff and my mates would see it when they log in later. It was so good. I made the mode amazing pixel art and was so proud. As I write this I'm currently involved in a new server with my friend Anni and it's so fun at the start when everyone has all this motivation."
+      ],
+      "image": "minecraft.png",
       "platform": "PC",
       "year": "older",
       "release": "2011"
     },
     {
       "name": "Overcooked",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "8",
+      "review": [
+        "Genuine banger party game! I played this through with my friend Alex and as a duo it was just perfect I think. We super harmonised and managed to beat the game. When you play this with more players than that, chaos ensues. It makes for a great party game, but for me the true fun is getting those 3 star ratings with ruthless efficiency. I main the chef in the wheelchair."
+      ],
+      "image": "overcooked.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2016"
     },
     {
+      "name": "Overcooked 2",
+      "vibes": "7",
+      "gameplay": "7",
+      "review": [
+        "Can't say why but this game bugs me. I feel like it's worse than the first one, like everything is a downgrade. I always play the first one even though I have this one on my switch."
+      ],
+      "image": "overcooked-2.jpg",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018"
+    },
+    {
       "name": "42 All-Time Classics",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "6",
+      "review": [
+        "We played this a whole bunch as kids! Some of the games are quite good and I kinda enjoyed play it, even single player. Some of the music is great, especially the Chess/Backgammon theme."
+      ],
+      "image": "42.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2006"
     },
     {
       "name": "AM2R: Another Metroid 2 Remake",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "8",
+      "review": [
+        "So sad that was released after 10 years development by one guy so shortly before Nintendo do their own remake! But that doesn't mean this game isn't fantastic in its own right. It's as good as a real game and way better than the original Metroid 2. Kudos to the developer I loved playing this."
+      ],
+      "image": "am2r.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Golf Story",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "7",
+      "review": [
+        "This game really does have heart and soul. It's got a funny vaguely golf-themed story, nonsense dialogue, and some genuinely great core golf gameplay. Me and my mates did play some multiplayer of this in the early days. It's pretty janky, feels held together with glue."
+      ],
+      "image": "golf-story.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
@@ -5973,9 +6047,11 @@
     },
     {
       "name": "Chasm",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
+      "vibes": "4",
+      "gameplay": "5",
+      "review": [
+        "This was a super cute point and click adventure that I found on Miniclip.com when I was a child. It's not easy but I beat it!"
+      ],
       "image": "chasm.jpg",
       "platform": "PC",
       "year": "older",
@@ -5983,90 +6059,113 @@
     },
     {
       "name": "The Messenger",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "9",
+      "review": [
+        "A fantastic indie game based on Ninja Gaiden. A lot of fun to play, great music, and I especially love the switch between 8-Bit and 16-Bit, and when it turns into a metroidvania. Highly recommend."
+      ],
+      "image": "messenger.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Worms: Open Warfare",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "5",
+      "review": [
+        "I played this on my PC at some point when I was missing Worms 2. It's alright I guess."
+      ],
+      "image": "worms-open.jpg",
       "platform": "DS",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Zoombinis",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "2",
+      "review": [
+        "Strong core memories of this game being on the primary school computers! We used it as an educational tool. I remember making the pizzas with fondness."
+      ],
+      "image": "zoombinis.jpg",
       "platform": "PC",
       "year": "older",
       "release": "1996"
     },
     {
       "name": "Yooka-Laylee and the Impossible Lair",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "5",
+      "review": [
+        "I like the idea of starting off with one impossible level and as you progress through the game, you get better at it and at some point eventually you can challenge the final impossible level and actually beat it. Except I hate to complain but the impossible level in this game is IMPOSSIBLE! The difficulty spike between it and everything before it is huge. I beat it in the end after many tries, but only out of spite!",
+        "I also don't enjoy the vibe of the game. I get that it's meant to look good with the fancy lighting and colours and it kinda does, but all the levels have this lighting and look the same. I did like how some levels had variations depending on stuff that happened in the overworld, that was super cool.",
+        "Yooka and Laylee don't speak to me as characters. They feel like copies of Banjo and Kazooie. Also this game is a total rip-off of Donkey Kong Country Tropical Freeze. Dear reader, go play Donkey Kong instead."
+      ],
+      "image": "yooka-laylee-impossible.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2019"
     },
     {
       "name": "Zool 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "2",
+      "review": [
+        "Strong memories of having the disc of this game and jumping around in this colourful game. Don't remember much else."
+      ],
+      "image": "zool-2.jpg",
       "platform": "PC",
       "year": "older",
       "release": "1993"
     },
     {
       "name": "Prison Architect",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "2",
+      "review": [
+        "I thought this would be a hard-hitting management game which makes you make difficult decisions and consider the obsurdity of the prison system. But it was a very shallow and boring game that I regret buying. I regret buying on switch especially as it's actually a mouse game."
+      ],
+      "image": "prison.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2015"
     },
     {
       "name": "World of Warcraft",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "7",
+      "review": [
+        "I lost a year of my life to this game, when I was 16 or so. I played on my brother's account and loved it, although I didn't play this MMO in the same way as most. I got to level 80, and then just focused on seeing every single region in the world and getting the tabard for that. I just loved exploring in the game, the world was so huge and populated with players just hanging out! I especially loved it when I built my helicopter and just flew around the place. I was so proud of my helicopter.",
+        "My username was 'subtleperson' because I was playing as a rogue. I never played PvP because fuck that shit."
+      ],
+      "image": "world-of-warcraft.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2004"
     },
     {
       "name": "Return of the Obra Dinn",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "This game actually looks like this screenshot, that's the artstyle! Never had anything like it. It's wild! You have a magical item that lets you look at dead bodies and witness the seconds before their death. By looking at these scenes, you have to use detective powers to figure out who was on this boat and what happened to them.",
+        "It's so cool! There are a bunch of awesome twists. I really recommend playing this with your partner together."
+      ],
+      "image": "obra-dinn.jpg",
       "platform": "Switch",
+      "story": true,
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Lemmings",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "5",
+      "review": [
+        "We played this on DOS as kids because this is the only video game that dad has ever loved. It's great."
+      ],
+      "image": "lemmings.gif ",
       "platform": "PC",
       "year": "older",
       "release": "1991"
@@ -6320,16 +6419,6 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019"
-    },
-    {
-      "name": "Overcooked 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
-      "platform": "Switch",
-      "year": "older",
-      "release": "2018"
     },
     {
       "name": "Cuphead",
