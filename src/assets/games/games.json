@@ -6172,140 +6172,171 @@
     },
     {
       "name": "Mega Man 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
-      "platform": "Switch",
+      "vibes": "3",
+      "gameplay": "5",
+      "review": [
+        "For my education I played some NES Mega Man games and they are tough and brutal, but I see why they are popular. This is the one with the iconic music and I enjoyed that. I even beat the game thanks to save states!"
+      ],
+      "image": "megaman-2.jpg",
+      "platform": "NES",
       "year": "older",
       "release": "1989"
     },
     {
+      "name": "Mega Man 3",
+      "vibes": "3",
+      "gameplay": "5",
+      "review": [
+        "This is just the same as Mega Man 2."
+      ],
+      "image": "megaman-3.jpg",
+      "platform": "NES",
+      "year": "older",
+      "release": "1990"
+    },
+    {
+      "name": "Mega Man 4",
+      "vibes": "3",
+      "gameplay": "5",
+      "review": [
+        "This is just the same as Mega Man 2 and 3 except I didn't quite have the strength to finish it. And so ended my journey into the world of Mega Man."
+      ],
+      "image": "megaman-4.png",
+      "platform": "NES",
+      "year": "older",
+      "release": "1991"
+    },
+    {
       "name": "Frogger",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "2",
+      "review": [
+        "A very old game on my dad's DOS computer that we played when we were infants I guess. It was really hard!"
+      ],
+      "image": "frogger.png",
       "platform": "PC",
       "year": "older",
       "release": "1981"
     },
     {
-      "name": "Mega Man 3",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
-      "platform": "Switch",
-      "year": "older",
-      "release": "1990"
-    },
-    {
       "name": "Neopets",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "Ah hell yes I loved Neopets! If you know you know!! It's this awesome website where you can have Neopets like pokemon and raise them and feed them and stuff. You could play games to early coins and buy and sell stuff. I loved all the games and loved my little Chia called Frozenbluixi. My favourite game was Ice Cream Factory. The website had a bunch of cool stuff with other players, like a whole economy and stuff, but I didn't really engage with that. Neopets is where I had my first personal website though! They had a little HTML tutorial for the profile page and I learned some important life skills. Shoutouts to Neopets man, and to my dying, still alive Neopets. I'm sorry I can't feed you, but I can't find my password."
+      ],
+      "image": "neopets.jpg",
       "platform": "PC",
       "year": "older",
       "release": "1999"
     },
     {
-      "name": "Mega Man 4",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
-      "platform": "Switch",
-      "year": "older",
-      "release": "1991"
-    },
-    {
       "name": "Lemmings 3D",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "2",
+      "review": [
+        "The concept seemed so cool but it was fiddly and not very fun in the end."
+      ],
+      "image": "lemmings-3d.jpg",
       "platform": "PC",
       "year": "older",
       "release": "1995"
     },
     {
       "name": "VA-11 HALL-A",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "7",
+      "review": [
+        "This game is such a vibe! The soundtrack is so good that I even have a CD of it! It's the ultimate vaporwave/japanese-inspired synthwave album. Throughout the game you barkeep at a rundown bar in cyberpunk future, and have a bunch of interesting conversations with the patrons who come in. You also make them drinks but that's just something to keep you occupied.",
+        "A little story unfolds but it's mainly something like a slice of life situation, a little peek into this world for a bit. It's awesome. Totally cozy."
+      ],
+      "image": "vall-halla.jpg",
       "platform": "Switch",
+      "story": true,
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Worms 3D",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "1",
+      "gameplay": "1",
+      "review": [
+        "Played this at a friend's place and thought it was shit. Stick to Worms 2."
+      ],
+      "image": "worms-3d.jpg",
       "platform": "PC",
       "year": "older",
       "release": "2003"
     },
     {
       "name": "Yooka Laylee",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "3",
+      "review": [
+        "I backed this game on Kickstarter! So I got bombarded with emails about it for like two years, and I was bored of it before I even played it! Something about doing this Kickstarter really takes the magic away. I saw every step of the development process and it totally ruined it. Also I don't think the game is that good. The worlds are way too huge and empty. I don't think I completed it in the end. I don't really like the main characters Yooka and Laylee."
+      ],
+      "image": "yooka-laylee.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Snake Pass",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "Shoutouts to Snake Pass for doing something entirely new! A game where you control a snake. It works! It's a fun little puzzle platformer and I really enjoyed my time with it. This came out at that time when the Switch just came out and I wanted to play anything and everything on it."
+      ],
+      "image": "snake-pass.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Shantae: Half-Genie Hero",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "I love Shantae!! And this game has the best soundtrack out of all of them. Jake Kaufman goes ham on this one, so many instant classics for me. I made a mix of its music available for download in the music section of this website, I just love it that much.",
+        "Gameplay wise it bothered me that it's just about backtracking with new abilities all the time. You go back to the first area all the time, but never to the later areas much."
+      ],
+      "image": "shantae-genie.png",
       "platform": "Switch",
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Dandara",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "7",
+      "review": [
+        "A great little platformer where you jump from wall to wall. It's got a nice vibey story where you fight abstract concepts more than actual things. What makes this game special is the absolutely fabulous soundtrack! I made a mix of it because it's that good (you can download it on this website). The boss music goes <a href=\"https://www.youtube.com/watch?v=SWm9u8gODqE&list=PLqcJH6ZaJZc6LugLEgmkWrV0wHt6AJ2uX&index=8&ab_channel=LXIV\">CRAZY</a>!"
+      ],
+      "image": "dandara.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Hyper Light Drifter",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "A beautiful pixel art 2D Zelda-like game. Really well done with a fantastic vibe. The colours and the mood are super unique. It's kinda gory and brutal too. I really liked the aesthetic and ended up getting a huge poster of this game for my hallway."
+      ],
+      "image": "hyper-light.png",
       "platform": "Switch",
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Owlboy",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "9",
+      "gameplay": "7",
+      "review": [
+        "Stunning pixel art in this lovely indie game! It's different to usual platformers because you can just fly. There's lots of different sections but I guess it's kinda linear. It has a nice story and I really enjoyed it. It was made by one person over 10 years! Nuts how people devote their lives to these things."
+      ],
+      "image": "owlboy.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2016"
@@ -6354,8 +6385,10 @@
       "name": "Mega Man 11",
       "vibes": "",
       "gameplay": "",
-      "review": [],
-      "image": "",
+      "review": [
+        "Thinking that with a lick of paint, I might actually start to enjoy Mega Man I got this game. However I found myself frustrated at the formula with the robot masters, and some of the bullshit in the game, like the insta-kill fire in the fire stage. Didn't make it very far."
+      ],
+      "image": "megaman-11.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
