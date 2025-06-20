@@ -8,35 +8,6 @@ import {FormsModule} from '@angular/forms';
 import {Game} from "./game.interface";
 import {GameComponent} from "./game/game.component";
 
-const platformOrder = [
-  "Game and Watch",
-  "NES",
-  "Gameboy",
-  "SNES",
-  "Nintendo 64",
-  "Gameboy Advance",
-  "Gamecube",
-  "DS",
-  "Wii",
-  "3DS",
-  "Wii U",
-  "Switch",
-  "Switch 2",
-  "PlayStation 1",
-  "PlayStation 2",
-  "PlayStation 3",
-  "PlayStation 4",
-  "PlayStation 5",
-  "Xbox",
-  "Xbox 360",
-  "Xbox Gamepass",
-  "Xbox Series X",
-  "PC",
-  "Arcade",
-  "Sega Mega Drive",
-  "Mobile"
-];
-
 @Component({
   selector: 'app-games',
   standalone: true,
@@ -49,9 +20,38 @@ export default class GamesComponent implements OnInit {
   originalGames: Game[] = [];
   title: string = "Games Fraser has played since 2020";
   filters = ["all", "2025", "2024", "2023", "2022", "2021", "2020", "older", "random", "name", "vibes", "gameplay", "release", "platform", "next"];
+  platformOrder: string[] = [
+    "Game and Watch",
+    "NES",
+    "Gameboy",
+    "SNES",
+    "Nintendo 64",
+    "Gameboy Advance",
+    "Gamecube",
+    "DS",
+    "Wii",
+    "3DS",
+    "Wii U",
+    "Switch",
+    "Switch 2",
+    "PlayStation 1",
+    "PlayStation 2",
+    "PlayStation 3",
+    "PlayStation 4",
+    "PlayStation 5",
+    "Xbox",
+    "Xbox 360",
+    "Xbox Gamepass",
+    "Xbox Series X",
+    "PC",
+    "Arcade",
+    "Sega Mega Drive",
+    "Mobile"
+  ];
   searchTerm: string = '';
-
-  platformRank: Record<string, number> = platformOrder.reduce((acc, platform, index) => {
+  currentFilter: string = '';
+  isPlatformSelected: boolean = false;
+  platformRank: Record<string, number> = this.platformOrder.reduce((acc, platform, index) => {
     acc[platform] = index;
     return acc;
   }, {} as Record<string, number>);
@@ -102,66 +102,80 @@ export default class GamesComponent implements OnInit {
   }
 
   sortGames(criteria: string): void {
+    this.currentFilter = criteria;
     switch (criteria) {
       case 'next':
         this.router.navigate(['/games/next']);
         break;
       case 'all':
         this.games = this.originalGames;
+        this.isPlatformSelected = false;
         this.title = "All games Fraser has ever played most recent first";
         break;
       case '2025':
         this.games = this.originalGames.filter(game => game.year.includes('2025'));
         this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser played in 2025 ranked";
         break;
       case '2024':
         this.games = this.originalGames.filter(game => game.year.includes('2024'));
         this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser played in 2024 ranked";
         break;
       case '2023':
         this.games = this.originalGames.filter(game => game.year.includes('2023'));
         this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser played in 2023 ranked";
         break;
       case '2022':
         this.games = this.originalGames.filter(game => game.year.includes('2022'));
         this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser played in 2022 ranked";
         break;
       case '2021':
         this.games = this.originalGames.filter(game => game.year.includes('2021'));
         this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser played in 2021 ranked";
         break;
       case '2020':
         this.games = this.originalGames.filter(game => game.year.includes('2020'));
         this.games = [...this.games].sort((a, b) => b.score - a.score);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser played in 2020 ranked";
         break;
       case 'older':
         this.games = this.originalGames.filter(game => game.year.includes('older'));
+        this.isPlatformSelected = false;
         this.title = "Games Fraser played in the years before he started recording this stuff in 2020. This is a work in progress!";
         break;
       case 'random':
         this.games = [...this.originalGames].sort(() => Math.random() - 0.5);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser has written about ordered randomly";
         break;
       case 'name':
         this.games = [...this.originalGames].sort((a, b) => a.name.localeCompare(b.name));
+        this.isPlatformSelected = false;
         this.title = "Games Fraser has written about ordered by name";
         break;
       case 'vibes':
         this.games = [...this.originalGames].sort((a, b) => b.vibes - a.vibes);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser has written about ordered by vibes";
         break;
       case 'gameplay':
         this.games = [...this.originalGames].sort((a, b) => b.gameplay - a.gameplay);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser has written about ordered by gameplay";
         break;
       case 'release':
         this.games = [...this.originalGames].sort((a, b) => a.release - b.release);
+        this.isPlatformSelected = false;
         this.title = "Games Fraser has written about ordered by release year";
         break;
       case 'platform':
@@ -170,10 +184,14 @@ export default class GamesComponent implements OnInit {
           const rankB = this.platformRank[b.platform] ?? Number.MAX_SAFE_INTEGER;
           return rankA - rankB;
         });
+        this.isPlatformSelected = true;
         this.title = "Games Fraser has written about ordered by platform";
         break;
       default:
-        console.error('Invalid sorting criteria');
+        this.games = [...this.originalGames].filter(game => game.platform == criteria)
+        this.games = [...this.games].sort((a, b) => a.release - b.release);
+        this.isPlatformSelected = true;
+        this.title = "Games on " + criteria + " that Fraser has written about"
     }
   }
 }

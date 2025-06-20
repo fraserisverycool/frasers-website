@@ -45,18 +45,18 @@ h1 {
 .calendar-grid {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
   flex-wrap: wrap;
 }
 
 .filter-button {
   background: #ffcc00;
   border: 3px solid #ff6600;
-  padding: 15px 30px;
-  font-size: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
   font-weight: bold;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 6px;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
 }
@@ -65,6 +65,12 @@ h1 {
   background: #ff6600;
   border-color: #ffcc00;
   transform: scale(1.1);
+}
+
+.filter-button.active {
+  background: #661300;
+  border-color: #290d06;
+  color: #fff;
 }
 
 .search-container {
@@ -86,4 +92,44 @@ h1 {
 .search-container input[type="text"]:focus {
   outline: none;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.calendar-container-mini {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffcc00, #ff6600);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.calendar-grid-mini {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.filter-button-mini {
+  background: #ffcc00;
+  border: 2px solid #ff6600;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-button-mini:hover {
+  background: #ff6600;
+  border-color: #ffcc00;
+}
+
+.filter-button-mini.active {
+  background: #661300;
+  border-color: #290d06;
+  color: #fff;
 }
