@@ -6379,11 +6379,11 @@
     },
     {
       "name": "Katana Zero",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "9",
+      "gameplay": "8",
       "review": [
         "This game has a really cool concept in the story where if you take this drug you can have these time-rewind powers, but then you get addicted and if you stop taking the drug, time slows down for you and you eventually get stuck into eternity. Or something like that I can't remember",
-        "..."
+        "It's also good a really nice soundtrack and a satisfying gameplay loop. The ending is totally unsatisfying though."
       ],
       "image": "katana-zero.jpg",
       "platform": "Switch",
@@ -6392,8 +6392,8 @@
     },
     {
       "name": "Mega Man 11",
-      "vibes": "",
-      "gameplay": "",
+      "vibes": "5",
+      "gameplay": "4",
       "review": [
         "Thinking that with a lick of paint, I might actually start to enjoy Mega Man I got this game. However I found myself frustrated at the formula with the robot masters, and some of the bullshit in the game, like the insta-kill fire in the fire stage. Didn't make it very far."
       ],
@@ -6404,40 +6404,48 @@
     },
     {
       "name": "Rivals of Aether",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "8",
+      "review": [
+        "The original Rivals is super cool! I downloaded it and really enjoyed playing it. However, the online on Switch is really bad and I don't have time for other fighting games, so I inevitably stopped. But it's a banger for sure."
+      ],
+      "image": "rivals-1.avif",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Untitled Goose Game",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "7",
+      "review": [
+        "Huge game! This is what video games are all about. Maybe you never fantasised about being a goose annoying people and causing trouble, but for a low price you can live out that fantasy and it's great. So simple and so funny. A delightful game that is really great for non-gamers."
+      ],
+      "image": "goose.webp",
       "platform": "Switch",
       "year": "older",
       "release": "2019"
     },
     {
       "name": "Kirby Star Allies",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "5",
+      "review": [
+        "This game is so fucking easy there's almost no point. It is polished and looks good, but it's definitely missing something. That being said, it has a fantastic and very expansive soundtrack. You can also play as almost any kirby character you like which is fun. I just wish it was more challenging!"
+      ],
+      "image": "kirby-star-allies.webp",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Snipperclips",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "7",
+      "review": [
+        "Switch launch title which I enjoyed playing with my friend Stefan. It was a lot of fun! Especially when playing with the new console with the joycons. The little characters were cute and fun with their facial expressions and the puzzles were fun too. I came back to play it years later but it didn't hit the same."
+      ],
+      "image": "snipperclips.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
