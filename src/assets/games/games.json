@@ -6343,30 +6343,36 @@
     },
     {
       "name": "Just Shapes and Beats",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "9",
+      "review": [
+        "A super cool bullet hell game where the shit comes flying at you in time to the music. You can play with friends and it's really great! The music is pretty good too. I feel like the colours are a bit too much."
+      ],
+      "image": "shapes.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Guacamelee!",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "In this game you play as a luchador in a Mexican style, day-of-the-dead situation, and it really nails that vibe in a nice, humerous way. It is, however, just another metroidvania, and doesn't bring too much new stuff to the table."
+      ],
+      "image": "guacamelee.webp",
       "platform": "Switch",
       "year": "older",
       "release": "2013"
     },
     {
       "name": "Enter the Gungeon",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "6",
+      "review": [
+        "It's a roguelike bullet hell game where everything is themed after guns and bullets. It's not a theme I really like if I'm honest. I played it at the start of my roguelike journey and although I did get kinda into it, this thing happened which happens with a lot of roguelikes. After several failed attempts, I got one incredible wonder run where I almost got to the end (having previously beaten the first boss like twice only). I played this one run for ages and everything was hanging on it, and then I lost. I tried to play another one but I could never reach those heights again. I blew it! Then I lost interest in playing it further. This happens with lots of games though, not just this."
+      ],
+      "image": "gungeon.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2016"
@@ -6375,8 +6381,11 @@
       "name": "Katana Zero",
       "vibes": "",
       "gameplay": "",
-      "review": [],
-      "image": "",
+      "review": [
+        "This game has a really cool concept in the story where if you take this drug you can have these time-rewind powers, but then you get addicted and if you stop taking the drug, time slows down for you and you eventually get stuck into eternity. Or something like that I can't remember",
+        "..."
+      ],
+      "image": "katana-zero.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2019"
