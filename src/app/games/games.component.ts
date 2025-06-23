@@ -151,7 +151,7 @@ export default class GamesComponent implements OnInit {
       case 'older':
         this.games = this.originalGames.filter(game => game.year.includes('older'));
         this.isPlatformSelected = false;
-        this.title = "Games Fraser played in the years before he started recording this stuff in 2020. This is a work in progress!";
+        this.title = "Games Fraser played in the years before he started recording this stuff in 2020. Let me know if I missed something!";
         break;
       case 'random':
         this.games = [...this.originalGames].sort(() => Math.random() - 0.5);

@@ -6452,140 +6452,198 @@
     },
     {
       "name": "SteamWorld Dig 2",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "4",
+      "review": [
+        "I was interested in this because I enjoyed the first one, it has a good vibe and people said it was good. With the exception of a scary section in the middle, this game didn't bring much to the table."
+      ],
+      "image": "steamworld-dig-2.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
+      "name": "SteamWorld Dig",
+      "vibes": "6",
+      "gameplay": "5",
+      "review": [
+        "This is a fun little gameplay loop which doesn't overstay its welcome. Maybe not worth playing these days anymore but I remember enjoying it."
+      ],
+      "image": "steamworld-dig-2.jpg",
+      "platform": "3DS",
+      "year": "older",
+      "release": "2013"
+    },
+    {
       "name": "Dragon Quest XI S: Echoes of an Elusive Age",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "5",
+      "review": [
+        "Everyone said this game would be so good, but it's just not. It's so plain! It's so vanilla! I'm not against having generic orchestral music like this but there are like 10 music tracks in the game, so you're constantly hearing the same song over and over. It's actually unforgivable considering how long the game is.",
+        "I played the demo and found myself enjoying it despite all that, because there was an interesting story twist. But then I bought the whole game and only made it about another 5 hours in before getting exhausted. I had no desire to connect with the mechanics. Even meeting the queer character wasn't enough to keep me on board. It features a small child girl who is actually very old and I just don't like that trope. Also the hero is very ugly.",
+        "I really want to complete this game for my project to beat every game that all the smash characters are from, but this game is just too lame and together with Roy's game might be the reason I don't complete the challenge."
+      ],
+      "image": "dragon-quest-11.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2019"
     },
     {
+      "name": "Dragon Quest IX: Sentinels of the Starry Sky",
+      "vibes": "5",
+      "gameplay": "4",
+      "review": [
+        "I borrowed this from my mate Oscar back in the day and I got really into it! You could make your own character and name your teammates after your friends and that was just great. I got really into this but I have to say that I didn't beat the final boss because I didn't have it in me to grind levels. This was the real classic JRPG experience in that regard."
+      ],
+      "image": "dragon-quest-9.jpg",
+      "platform": "DS",
+      "year": "older",
+      "release": "2009"
+    },
+    {
       "name": "Cuphead",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "10",
+      "gameplay": "7",
+      "review": [
+        "I mean vibes are through the roof with this game. No game has gone for the old mickey mouse cartoon look and this game nails it! The music is also fantastic. I highly recommend it for that alone!",
+        "You have to know though that this is an intense boss rush game and it's hard as nails. It's more like a bullet hell game than a run n gun! I played about half of it but eventually got exhausted. But big respect to Cuphead, it's great."
+      ],
+      "image": "cuphead.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Worms W.M.D",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "5",
+      "review": [
+        "It's a worms game available on switch. In theory it's good but I dunno it's missing the X factor. I would rather play Worms 2"
+      ],
+      "image": "worms-wmd.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Oxenfree",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "1",
+      "gameplay": "1",
+      "review": [
+        "I fucking hated this game. It's just super American with a bunch of Americans being annoying. For visual novels, after playing this I decided to not play if it's about Americans because they annoy me too much. The supernatural stuff was just random and without any interesting premise. Ugh I just think it's lame. I completed it for some reason."
+      ],
+      "image": "oxenfree.jpg",
       "platform": "Switch",
+      "story": true,
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Firewatch",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "This may be in effect a visual novel about Americans, meaning I'm not interested, but it's actually alright. It has a nice loneliness vibe, and some really nice dialog with the woman in the walky-talky. There's a really lovely intimate moment there as well which I was quite touched by.",
+        "I like the lighting and tension in the forest as the threat of fire increases. Although one thing bothered me: the complete lack of wildlife. It was just a dead area with trees and no animals!"
+      ],
+      "image": "firewatch.jpg",
       "platform": "Switch",
+      "story": true,
       "year": "older",
       "release": "2016"
     },
     {
       "name": "Valkyria Chronicles 4",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "3",
+      "review": [
+        "I heard this is super good but I found it to be pretty boring. I don't like the characters and the story seemed pretty boring, but I admit I didn't make it far into the game. It has an attractive artstyle but it wasn't enough to keep me interested."
+      ],
+      "image": "valkyria-4.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "6",
+      "review": [
+        "As a lover of Streets of Rage I decided to give this a try and actually thinking about it I quite liked it! But I didn't love it. Not like Streets of Rage. Hmm, maybe I should play this again."
+      ],
+      "image": "tmnt.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2022"
     },
     {
       "name": "Minit",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "8",
+      "gameplay": "8",
+      "review": [
+        "This is a super good little short game that I totally recommend! You play a 2D zelda-like game but every minute you just die, and you have to restart. So you have to beat the game in one minute! But each time you explore a new spot and learn a little bit more about the area. It's super smart and there's loads of cool stuff to discover. I liked the music and the ending!"
+      ],
+      "image": "minit.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Fortnite",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "1",
+      "review": [
+        "I played this for the culture. It was free on switch so I played a few rounds but honestly I hated it. I'm not interested in micro-transactions or games that have them. I'm terrible at shooters"
+      ],
+      "image": "fortnite.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2017"
     },
     {
       "name": "Bioshock",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "6",
+      "gameplay": "3",
+      "review": [
+        "The cool thing about Bioshock is that it takes place in a destroyed underwater world. But I didn't enjoy the shooting gameplay, it's just not my thing. I wanted to get into because people say great things about it but it's not for me."
+      ],
+      "image": "bioshock.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2007"
     },
     {
       "name": "Nickelodeon All Star Brawl",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "4",
+      "review": [
+        "I fucking bought this game full price! What a mistake. I did it because we wanted to do a side event at a smash tournament and everyone was excited about it. But it turned out to be a dud! It was glitchy and shit in the end. I enjoyed playing as Sandy. It's a shame because there were so many cool characters."
+      ],
+      "image": "nick.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2021"
     },
     {
       "name": "Don't Starve",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "5",
+      "gameplay": "3",
+      "review": [
+        "I gave it a try but I found it to be stressful and too gloomy for me"
+      ],
+      "image": "dont-starve.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2013"
     },
     {
       "name": "Rayman Legends",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "2",
+      "gameplay": "1",
+      "review": [
+        "People say this is good but I hated it. I thought it was heartless and boring to play. The music tracks were nothing special."
+      ],
+      "image": "rayman-legends.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2013"
@@ -6604,60 +6662,72 @@
     },
     {
       "name": "Bastion",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "2",
+      "review": [
+        "I enjoyed Hades so decided to try another game from the studio, but I didn't like it at all. So much talking and the gameplay was really boring."
+      ],
+      "image": "bastion.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2011"
     },
     {
       "name": "Desert Child",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "7",
+      "gameplay": "2",
+      "review": [
+        "This is a vibes game, where you just enjoy the vibes of a cyberpunk hip-hop future situation. The trailer looks awesome. But then I bought it and booted it up and realised there is little to no gameplay. It's a damp squib. No reason to boot it up again"
+      ],
+      "image": "desert-child.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2018"
     },
     {
       "name": "Heave Ho",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "4",
+      "gameplay": "6",
+      "review": [
+        "This is a fun co-op puzzle game! I recommend playing it with gamers because the controls are quite difficult."
+      ],
+      "image": "heave-ho.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2019"
     },
     {
       "name": "Superliminal",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "3",
+      "review": [
+        "This is a game like portal where you go around solving puzzles using physics. You pick up items and place them down again, except they scale in a weird way. You can make items big or small and solve puzzles that way. It's meant to be a mind-bending game and it kinda is, but I got frustrated with it."
+      ],
+      "image": "superliminimal.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2020"
     },
     {
       "name": "Scott Pilgrim vs The World: The Game",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "3",
+      "review": [
+        "As a Streets of Rage fan I decided to pick up this classic beat-em-up but was instantly disappointed. Very boring to play and the soundtrack simply isn't good enough to keep me interested."
+      ],
+      "image": "scott-pilgrim.jpg",
       "platform": "Switch",
       "year": "older",
       "release": "2010"
     },
     {
       "name": "Marvel's Spider-Man",
-      "vibes": "",
-      "gameplay": "",
-      "review": [],
-      "image": "",
+      "vibes": "3",
+      "gameplay": "2",
+      "review": [
+        "I get it that it feels nice to websling around town but actually it's dumb that you can't crash into buildings. No skill is requires to swing around. I just played the opening section for science but decided this isn't the game for me."
+      ],
+      "image": "spiderman-1.jpg",
       "platform": "PlayStation 4",
       "year": "older",
       "release": "2018"
