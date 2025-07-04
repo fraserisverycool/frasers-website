@@ -37,7 +37,8 @@ export default class MariokartComponent implements OnInit{
     'ds': 'Mario Kart DS',
     'wii': 'Mario Kart Wii',
     '3ds': 'Mario Kart 7',
-    'mk8': 'Mario Kart 8 Deluxe'
+    'mk8': 'Mario Kart 8 Deluxe',
+    'world': 'Mario Kart World'
   };
 
   gameDescription: { [key: string]: string }  = {
@@ -49,6 +50,7 @@ export default class MariokartComponent implements OnInit{
     'wii': "This one is my jam. I'll never forget the hype surrounding this game coming out. Playing with motion controls on the Wii Wheel was the best and WOW! All the new stages are so good. No Mario Kart even comes close to the quality of Mario Kart Wii when it comes to new stages. And the vibes and soundtrack are just on point. To be honest, any track that was in Mario Kart Wii is for me an instant classic because I played it so many times.",
     '3ds': "This is in my opinion the weakest Mario Kart. It doesn't bring much to the table in terms of gameplay, and definitely not when it comes to fun and unique racetracks. Music-wise we're working with an ugly, tinny-sounding set of instruments. I will admit that its selection of retro tracks is excellent though (as is reflected by this ranking). Full disclosure, I haven't played this one as much as other ones, in fact I never even owned it, but rather borrowed it from my friend Andrew for a few weeks.",
     'mk8': "Holy moly. This game took things to the next level! Not only does it have an insane number of racetracks in comparison to all the others, but unlike all previous editions, it completely reimagined its retro tracks! Especially when it comes to those GBA remakes, holy moly they are almost unrecognisable! In this list you will find serious improvements to previous iterations of the retro courses. It's also got a lot to do with the incredible soundtrack. They went full jazz band for this soundtrack, and remade all the old tracks as well! A couple of them are misses but the vast majority are huge hits. This game is everything and I'm so happy it exists. I'm even delighted about all the Mario Kart Tour tracks that made it in!",
+    'world': "Oh damn!! This is a Smash Ultimate situation where I couldn't imagine how they out-do themselves and then they just went and did it! A huge, open world version of Mario Kart where you can drive between the tracks? Inspired. Actually, everything I ever wanted. Absolute highlight for me is the incredible soundtrack featuring over 300 remixes of Mario tracks. So good. For this ranking I'm just focusing on the 30 main tracks, although the game is so much more than just those."
   };
 
   pageDescription = "Welcome to my ranking of every Mario Kart track ever. This is an exhaustive list featuring everything because I love it when lists are complete. What's that, I hear you say? Mario Kart Tour and Mario Kart Arcade GP aren't represented? Fuck you! Those aren't real games. If it means that Piranha Plant Pipeline gets forgotten to history, so be it! A quick note about these rankings, you might notice that the order doesn't correspond with the number of stars I give to each track. That's fine. These rankings come from the heart, and won't necessarily follow the rules. You've been warned!"
@@ -64,7 +66,7 @@ export default class MariokartComponent implements OnInit{
       next: (data) => {
         this.originalTracks = data.tracks;
         this.calculateNextAndPreviousTracks();
-        this.filterTracks('mk8');
+        this.filterTracks('world');
       },
       error: (err) => {
         console.error('Failed to load tracks:', err);

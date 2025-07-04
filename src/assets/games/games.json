@@ -1,6 +1,19 @@
 {
   "games": [
     {
+      "name": "Super Mario Strikers",
+      "vibes": "4",
+      "gameplay": "1",
+      "review": [
+        "Well, I gave it a go on the Switch 2's Gamecube feature, but didn't vibe with it at all. Just not my kind of game. But I love Daisy in this game and it was cute to watch my friend Franz get so excited while playing it."
+      ],
+      "image": "mario-strikers-gc.jpg",
+      "platform": "Gamecube",
+      "year": "2025",
+      "release": "2005",
+      "score": 1
+    },
+    {
       "name": "Mario Kart World",
       "vibes": "10",
       "gameplay": "10",

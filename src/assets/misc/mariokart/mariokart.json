@@ -25,6 +25,18 @@
       "image": "ds-mario-circuit-1.png"
     },
     {
+      "id": 1,
+      "name": "Mario Circuit",
+      "game": "Mario Kart World",
+      "original": "Super Mario Kart",
+      "music": "5",
+      "vibes": "3",
+      "track": "4",
+      "ranking": "19",
+      "description": "This is such a fun interpretation of this classic! They combined Mario Circuit 1, 2 and 3 (RIP Mario Circuit 4) into one, with each lap going around a different classic course. Unlike the rest of the game, they are all flat and don't lend themselves to fun shortcuts, but rather just good driving. I like it! And I love that they finally remixed this song!! And leaned into its latin flavour. Love the music that plays as you approach this stage. Great.",
+      "image": "world-mario-circuit.jpg"
+    },
+    {
       "id": 2,
       "name": "Donut Plains 1",
       "game": "Super Mario Kart",
@@ -314,6 +326,18 @@
     },
     {
       "id": 17,
+      "name": "Koopa Troopa Beach",
+      "game": "Mario Kart World",
+      "original": "Super Mario Kart",
+      "music": "2",
+      "vibes": "3",
+      "track": "1",
+      "ranking": "25",
+      "description": "Man, they took one of my favourite tracks from the super nintendo and they kinda fumbled it. It's a tiny island that you go around 5 times. It's not as chaotic as Baby Park but equally as boring. For some reason, this level is insanely bright and you can barely see anything. The thing that made this level the most special was the music, and now it's just a generic sounding EDM track. The Koopa Troopa DJ is not enough to save this track.",
+      "image": "world-koopa-beach.jpg"
+    },
+    {
+      "id": 17,
       "name": "Koopa Beach 2",
       "game": "Mario Kart DS",
       "original": "Super Mario Kart",
@@ -577,6 +601,18 @@
       "image": "mk8-choco-mountain.webp"
     },
     {
+      "id": 27,
+      "name": "Choco Mountain",
+      "game": "Mario Kart World",
+      "original": "Mario Kart 64",
+      "music": "1",
+      "vibes": "1",
+      "track": "1",
+      "ranking": "30",
+      "description": "Ugh I've never liked this track and they brought it back for a FOURTH TIME? And they STILL haven't themed it around chocolate at all. If it were me, I would literally make the mountain out of chocolate or something. Instead they changed the vibe to Monster Rally with a bunch of mud everywhere. I hate it. Also, it's so similar to Wario Stadium in terms of vibes, they should have done something else here.",
+      "image": "world-choco-mountain.jpg"
+    },
+    {
       "id": 28,
       "name": "Mario Raceway",
       "game": "Mario Kart 64",
@@ -611,6 +647,18 @@
       "ranking": "14",
       "description": "I have to give it a 5 in music because it's that banger Mario Raceway music, but I do wish this track had its own Wario-style music. Otherwise, this track is to be avoided. It's insanely long, really boring, and has this jump near the end where if you get hit by a lightning, you fall to an earlier part of the track. Fuck that.",
       "image": "n64-wario-stadium-n64.png"
+    },
+    {
+      "id": 29,
+      "name": "Wario Stadium",
+      "game": "Mario Kart World",
+      "original": "Mario Kart 64",
+      "music": "5",
+      "vibes": "3",
+      "track": "4",
+      "ranking": "22",
+      "description": "I'm happy they brought it back, I never thought they would considering the original is so terrible, and they really successfully turned things around! Shout-outs to the Mario Kart team for saving this forgotten, terrible track! I love that they remixed the already banger music into a rockier version. I'm excited to learn how to do all the tricks on the rails that this stage has. There's a lot going on!",
+      "image": "world-wario-stadium.jpg"
     },
     {
       "id": 30,
@@ -1249,6 +1297,18 @@
       "image": "wii-peach-beach.webp"
     },
     {
+      "id": 52,
+      "name": "Peach Beach",
+      "game": "Mario Kart World",
+      "original": "Mario Kart: Double Dash!!",
+      "music": "5",
+      "vibes": "5",
+      "track": "5",
+      "ranking": "2",
+      "description": "I was soooo excited when I learned that one of my favourite ever tracks was coming back! And thank GOD they did a good remix of the music this time. The Mario Kart 8 Daisy Cruiser music was not it for me. And now they changed this stage a bunch to turn it into an entire resort island, which I love. Vibes are great and all three laps are different. Actually the stage is kinda unrecognisable, but at least those Cataquacks are still there causing trouble. I just love the look of this place the most.",
+      "image": "world-peach-beach.avif"
+    },
+    {
       "id": 53,
       "name": "Baby Park",
       "game": "Mario Kart: Double Dash!!",
@@ -1573,6 +1633,18 @@
       "image": "3ds-dino-dino-jungle.webp"
     },
     {
+      "id": 62,
+      "name": "Dino Dino Jungle",
+      "game": "Mario Kart World",
+      "original": "Mario Kart: Double Dash!!",
+      "music": "5",
+      "vibes": "5",
+      "track": "5",
+      "ranking": "4",
+      "description": "The drums in this remix are so good. I love arriving to this track in the game because it just goes so hard. And then theres dinosaurs everywhere? Fucking love it. There's more dinosaurs than in the original. There's straight up dinosaurs everywhere! And they innovated by changing the vibe to a Jurassic Park situation. It's a lot of fun. I mean hello, you can do tricks off of the Triceratops!",
+      "image": "world-dino-dino-jungle.png"
+    },
+    {
       "id": 150,
       "name": "Bowser's Castle",
       "game": "Mario Kart: Double Dash!!",
@@ -1705,6 +1777,18 @@
       "image": "wii-desert-hills.webp"
     },
     {
+      "id": 67,
+      "name": "Desert Hills",
+      "game": "Mario Kart World",
+      "original": "Mario Kart DS",
+      "music": "2",
+      "vibes": "1",
+      "track": "1",
+      "ranking": "29",
+      "description": "Listen, I'm not the biggest Desert Hills hater but why did they pick this when they already have two good DS tracks, no GBA tracks, and Yoshi Desert is RIGHT THERE! Not only that but they flattened the eponymous hills! The music or the generic desert vibe of the area does is no favours either. Sad to say that they fucked up on desert hills lads. They could have added the angry sun at least.",
+      "image": "world-desert-hills.avif"
+    },
+    {
       "id": 68,
       "name": "Delfino Square",
       "game": "Mario Kart DS",
@@ -1813,6 +1897,18 @@
       "image": "3ds-dk-pass.jpg"
     },
     {
+      "id": 71,
+      "name": "DK Pass",
+      "game": "Mario Kart World",
+      "original": "Mario Kart DS",
+      "music": "3",
+      "vibes": "2",
+      "track": "3",
+      "ranking": "23",
+      "description": "They turned this stage into a ski resort which I enjoy! It's a nice look, although why did they take away the snowmen at the end of the track? Baffling decision. They went full christmas on the soundtrack which I'm not against. This track is neither here nor there for me.",
+      "image": "world-dk-pass.avif"
+    },
+    {
       "id": 72,
       "name": "Tick Tock Clock",
       "game": "Mario Kart DS",
@@ -1883,6 +1979,18 @@
       "ranking": "2",
       "description": "A unique and fun track from the DS days. I just really enjoy the vibe of the area and the especially the upbeat western-style music.",
       "image": "3ds-airship-fortress.webp"
+    },
+    {
+      "id": 73,
+      "name": "Airship Fortress",
+      "game": "Mario Kart World",
+      "original": "Mario Kart DS",
+      "music": "5",
+      "vibes": "5",
+      "track": "5",
+      "ranking": "1",
+      "description": "So happy they brought back this classic from DS! They made it look soooo good! Wild that they have this cartoonish open world where all the tracks are connected, and this one is just a literal war zone. They went super hard on the music and drifting around that tower remains as much fun as always. Love love love.",
+      "image": "world-airship-fortress.webp"
     },
     {
       "id": 153,
@@ -2005,6 +2113,18 @@
       "image": "mk8-moo-moo-meadows.webp"
     },
     {
+      "id": 75,
+      "name": "Moo Moo Meadows",
+      "game": "Mario Kart World",
+      "original": "Mario Kart Wii",
+      "music": "3",
+      "vibes": "4",
+      "track": "4",
+      "ranking": "26",
+      "description": "I think I'm just really bored of this track by now. They did nothing new with it really, so I'm not excited to drive there in this game. I think it looks worse than the previous game, and the music isn't anything new. More of the same. It's become like a new Mario Circuit.",
+      "image": "world-moo-moo-meadows.webp"
+    },
+    {
       "id": 76,
       "name": "Mushroom Gorge",
       "game": "Mario Kart Wii",
@@ -2051,6 +2171,18 @@
       "ranking": "10",
       "description": "This is a classic and a banger! The music is an easy 10/10, it has that wild piano section at the start which is so hard to play on the piano - what key is it even in? And the track just gets wilder as it goes on. For effect, they reset the track when you shoot out of the factory at the end of the lap, but this means that you never hear the whole music track, which is actually tragic. It's also super cool how this track is all about how they make those item boxes. Awesome.",
       "image": "wii-toads-factory.webp"
+    },
+    {
+      "id": 77,
+      "name": "Toad's Factory",
+      "game": "Mario Kart World",
+      "original": "Mario Kart Wii",
+      "music": "5",
+      "vibes": "5",
+      "track": "5",
+      "ranking": "9",
+      "description": "So happy they brought back this classic from the Wii! It's pretty faithful, and the remixed music is great, and crucially, you can hear the whole track this time! Everything about this track is just excellent.",
+      "image": "world-toads-factory.webp"
     },
     {
       "id": 157,
@@ -2401,6 +2533,18 @@
       "image": "3ds-shy-guy-bazaar.webp"
     },
     {
+      "id": 90,
+      "name": "Shy Guy Bazaar",
+      "game": "Mario Kart World",
+      "original": "Mario Kart 7",
+      "music": "4",
+      "vibes": "5",
+      "track": "5",
+      "ranking": "3",
+      "description": "Wow, they really took the best of the bunch from the 3DS tracks, good for them. They really radically changed this stage to include way more paths and places to do tricks. It really feels like getting lost in a busy market town when you drive through. Sometimes, you get to even drive through a new palace that has been put there, themed after Daisy!",
+      "image": "world-shy-guy-bazaar.avif"
+    },
+    {
       "id": 91,
       "name": "Wuhu Loop",
       "game": "Mario Kart 7",
@@ -2507,6 +2651,18 @@
       "ranking": "7",
       "description": "This is a fun and wild way to make use of the new driving underwater stuff. You really go up and down a lot! I like it though. It's kind of a different vibe to what we're used to.",
       "image": "3ds-wario-shipyard.webp"
+    },
+    {
+      "id": 95,
+      "name": "Wario Shipyard",
+      "game": "Mario Kart World",
+      "original": "Mario Kart 7",
+      "music": "4",
+      "vibes": "5",
+      "track": "4",
+      "ranking": "13",
+      "description": "The new vibe of this place is so good! It looks so gloomy and stormy and fun. At first I liked the change from the underwater sections to the riding the waves, but over time I've become frustrated with the waves. Having a few of those sections is fine, but this track is all about how good you are at driving on water. Maybe my opinion will change once I get better at that.",
+      "image": "world-warios-shipyard.webp"
     },
     {
       "id": 96,
@@ -3025,6 +3181,18 @@
       "image": "mk8-sky-high-sundae.webp"
     },
     {
+      "id": 129,
+      "name": "Sky-High Sundae",
+      "game": "Mario Kart World",
+      "original": "Mario Kart Tour",
+      "music": "2",
+      "vibes": "4",
+      "track": "4",
+      "ranking": "16",
+      "description": "Talk about a GLOW UP! They really turned things around with this god-awful track. They really plonked a bunch of huge floating ice creams in the open world and brought back Sky-High Sundae. Thankfully, the new mechanics really make this stage way more interesting. The music is better but still baffling.",
+      "image": "world-sky-high-sundae.jpg"
+    },
+    {
       "id": 130,
       "name": "London Loop",
       "game": "Mario Kart 8 Deluxe",
@@ -3167,6 +3335,198 @@
       "ranking": "49",
       "description": "Great flamenco music!! Very rarely we get flamenco-inspired Nintendo music so we have to soak this up the max, guys. It sounds so good, even the variations for the football stadium and the museum, although the museum is so tiny, what was even the point? Anyway this track is great.",
       "image": "mk8-madrid-drive.webp"
+    },
+    {
+      "id": 142,
+      "name": "Mario Bros. Circuit",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "28",
+      "description": "Thoughts coming soon...",
+      "image": "world-mario-bros-circuit.png"
+    },
+    {
+      "id": 143,
+      "name": "Crown City",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "24",
+      "description": "Thoughts coming soon...",
+      "image": "world-crown-city.avif"
+    },
+    {
+      "id": 144,
+      "name": "Whistlestop Summit",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "17",
+      "description": "Thoughts coming soon...",
+      "image": "world-whistlestop-summit.png"
+    },
+    {
+      "id": 145,
+      "name": "DK Spaceport",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "14",
+      "description": "Thoughts coming soon...",
+      "image": "world-dk-spaceport.webp"
+    },
+    {
+      "id": 146,
+      "name": "Starview Peak",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "12",
+      "description": "Thoughts coming soon...",
+      "image": "world-starview-peak.jpg"
+    },
+    {
+      "id": 147,
+      "name": "Faraway Oasis",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "20",
+      "description": "Thoughts coming soon...",
+      "image": "world-faraway-oasis.jpg"
+    },
+    {
+      "id": 148,
+      "name": "Peach Stadium",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "27",
+      "description": "Thoughts coming soon...",
+      "image": "world-peach-stadium.avif"
+    },
+    {
+      "id": 149,
+      "name": "Salty Salty Speedway",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "21",
+      "description": "Thoughts coming soon...",
+      "image": "world-salty-salty-speedway.png"
+    },
+    {
+      "id": 150,
+      "name": "Great ? Block Ruins",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "10",
+      "description": "Thoughts coming soon...",
+      "image": "world-great-block-ruins.jpg"
+    },
+    {
+      "id": 151,
+      "name": "Cheep Cheep Falls",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "15",
+      "description": "Thoughts coming soon...",
+      "image": "world-cheep-cheep-falls.png"
+    },
+    {
+      "id": 152,
+      "name": "Dandelion Depths",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "8",
+      "description": "Thoughts coming soon...",
+      "image": "world-dandelion-depths.jpg"
+    },
+    {
+      "id": 153,
+      "name": "Boo Cinema",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "6",
+      "description": "Thoughts coming soon...",
+      "image": "world-boo-cinema.jpg"
+    },
+    {
+      "id": 154,
+      "name": "Dry Bones Burnout",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "5",
+      "description": "Thoughts coming soon...",
+      "image": "world-dry-bones-burnout.webp"
+    },
+    {
+      "id": 155,
+      "name": "Bowser's Castle",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "11",
+      "description": "Thoughts coming soon...",
+      "image": "world-bowsers-castle.jpg"
+    },
+    {
+      "id": 156,
+      "name": "Acorn Heights",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "18",
+      "description": "Thoughts coming soon...",
+      "image": "world-acorn-heights.jpg"
+    },
+    {
+      "id": 157,
+      "name": "Rainbow Road",
+      "game": "Mario Kart World",
+      "original": "Mario Kart World",
+      "music": "",
+      "vibes": "",
+      "track": "",
+      "ranking": "7",
+      "description": "Thoughts coming soon...",
+      "image": "world-rainbow-road.png"
     }
   ]
 }
