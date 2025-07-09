@@ -1,6 +1,13 @@
 {
   "soundtracks": [
     {
+      "filename": "ocarina-of-time-3d.jpg",
+      "name": "The Legend of Zelda: Ocarina of Time 3D",
+      "description": "At first I was pissed that they released literally the same soundtrack as Ocarina of Time before Majora's Mask or Twilight Princess. Then I thought it's OK, some of the tracks like Hyrule Field do sound a bit better and they added a nice credits theme. But then I realise this is missing a whole bunch of tracks like Jabu Jabu's Belly? Why? Why put all the ocarina songs together like this? Then I reminded myself I'm not entitled to these games, I'm already paying next to nothing for the subscription, I should be grateful. I need to embrace the tombola which churns out these soundtracks.",
+      "platform": "3DS",
+      "topTracks": ["Title Theme", "Kokiri Forest", "Hyrule Castle Courtyard", "Kakariko Village", "Middle Boss Battle", "Zora's Domain", "Forest Temple", "Water Temple", "Gerudo Valley", "Spirit Temple", "Last Battle", "End Credits 2"]
+    },
+    {
       "filename": "super-mario-bros-u.jpg",
       "name": "New Super Mario Bros. U Deluxe",
       "description": "The very clean and tidy sound of New Super Mario Bros has landed on the app. It's very sanitised and shares much of the same music with all of its predecessors, but something about having played so many of these games makes me love them in the end. The desert theme is actually really great, and the beach theme has this really nice part where some warm synths come in. The castle theme is way more epic than I remember, and the two volcano themes are genuinely class. They are an actual, real vibe. This game is also famous for the bah-bahs! that the monsters all dance to, and that's very iconic and to be heard all over the soundtrack and honestly I love it. I'm just gonna say it, this is better music than Super Mario Bros Wonder!",
@@ -348,7 +355,7 @@
       "name": "The Legend of Zelda: Ocarina of Time",
       "description": "This is it guys, this is the ultimate childhood adventure game and you just KNOW it's packed full of amazing music. The temple music is all so good and atmospheric, and then the battle music is also such a unique vibe. The final boss music again Ganon is the most intense battle music ever and I can't get enough",
       "platform": "N64",
-      "topTracks": ["Kokiri Forest", "Hyrule Castle Courtyard", "Kakariko Village", "Middle Boss Battle", "Zora's Domain", "Forest Temple", "Water Temple", "Gerudo Valley", "Spirit Temple", "Last Battle"]
+      "topTracks": ["Title Theme", "Kokiri Forest", "Hyrule Castle Courtyard", "Kakariko Village", "Middle Boss Battle", "Zora's Domain", "Forest Temple", "Water Temple", "Gerudo Valley", "Spirit Temple", "Last Battle"]
     },
     {
       "filename": "lylat-wars.jpg",

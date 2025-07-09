@@ -805,7 +805,7 @@
       "image": "ds-banshee-boardwalk.webp"
     },
     {
-      "id": 143,
+      "id": 36,
       "name": "Rainbow Road",
       "game": "Mario Kart 64",
       "original": "Mario Kart 64",
@@ -817,7 +817,7 @@
       "image": "n64-rainbow-road-n64.webp"
     },
     {
-      "id": 143,
+      "id": 36,
       "name": "Rainbow Road",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 64",
@@ -829,7 +829,7 @@
       "image": "mk8-rainbow-road-n64.webp"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Peach Circuit",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -841,7 +841,7 @@
       "image": "gba-peach-circuit.png"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Peach Circuit",
       "game": "Mario Kart DS",
       "original": "Mario Kart: Super Circuit",
@@ -853,7 +853,7 @@
       "image": "ds-peach-circuit.png"
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "Shy Guy Beach",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -865,7 +865,7 @@
       "image": "gba-shy-guy-beach.webp"
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "Shy Guy Beach",
       "game": "Mario Kart Wii",
       "original": "Mario Kart: Super Circuit",
@@ -877,7 +877,7 @@
       "image": "wii-shy-guy-beach.webp"
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "Riverside Park",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -889,7 +889,7 @@
       "image": "gba-riverside-park.webp"
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "Riverside Park",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Super Circuit",
@@ -901,7 +901,7 @@
       "image": "mk8-riverside-park.jpg"
     },
     {
-      "id": 144,
+      "id": 40,
       "name": "Bowser's Castle 1",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -913,7 +913,7 @@
       "image": "gba-bowsers-castle-1.webp"
     },
     {
-      "id": 144,
+      "id": 40,
       "name": "Bowser's Castle 1",
       "game": "Mario Kart 7",
       "original": "Mario Kart: Super Circuit",
@@ -925,7 +925,7 @@
       "image": "3ds-bowsers-castle-1.jpg"
     },
     {
-      "id": 39,
+      "id": 41,
       "name": "Mario Circuit",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -937,7 +937,7 @@
       "image": "gba-mario-circuit-gba.png"
     },
     {
-      "id": 39,
+      "id": 41,
       "name": "Mario Circuit",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Super Circuit",
@@ -949,7 +949,7 @@
       "image": "mk8-mario-circuit-gba.webp"
     },
     {
-      "id": 40,
+      "id": 42,
       "name": "Boo Lake",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -961,7 +961,7 @@
       "image": "gba-boo-lake.webp"
     },
     {
-      "id": 40,
+      "id": 42,
       "name": "Boo Lake",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Super Circuit",
@@ -973,7 +973,7 @@
       "image": "mk8-boo-lake.webp"
     },
     {
-      "id": 41,
+      "id": 43,
       "name": "Cheese Land",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -985,7 +985,7 @@
       "image": "gba-cheese-land.webp"
     },
     {
-      "id": 41,
+      "id": 43,
       "name": "Cheese Land",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Super Circuit",
@@ -997,7 +997,7 @@
       "image": "mk8-cheese-land.webp"
     },
     {
-      "id": 145,
+      "id": 44,
       "name": "Bowser's Castle 2",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1009,7 +1009,7 @@
       "image": "gba-bowsers-castle-2.webp"
     },
     {
-      "id": 145,
+      "id": 44,
       "name": "Bowser's Castle 2",
       "game": "Mario Kart DS",
       "original": "Mario Kart: Super Circuit",
@@ -1021,7 +1021,7 @@
       "image": "ds-bowsers-castle-2.png"
     },
     {
-      "id": 42,
+      "id": 45,
       "name": "Luigi Circuit",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1033,7 +1033,7 @@
       "image": "gba-luigi-circuit-gba.webp"
     },
     {
-      "id": 42,
+      "id": 45,
       "name": "Luigi Circuit",
       "game": "Mario Kart DS",
       "original": "Mario Kart: Super Circuit",
@@ -1045,7 +1045,7 @@
       "image": "ds-luigi-circuit-gba.png"
     },
     {
-      "id": 43,
+      "id": 46,
       "name": "Sky Garden",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1057,7 +1057,7 @@
       "image": "gba-sky-garden.webp"
     },
     {
-      "id": 43,
+      "id": 46,
       "name": "Sky Garden",
       "game": "Mario Kart DS",
       "original": "Mario Kart: Super Circuit",
@@ -1069,7 +1069,7 @@
       "image": "ds-sky-garden.png"
     },
     {
-      "id": 43,
+      "id": 46,
       "name": "Sky Garden",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Super Circuit",
@@ -1081,7 +1081,7 @@
       "image": "mk8-sky-garden.webp"
     },
     {
-      "id": 44,
+      "id": 47,
       "name": "Cheep-Cheep Island",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1093,7 +1093,7 @@
       "image": "gba-cheep-cheep-island.webp"
     },
     {
-      "id": 45,
+      "id": 48,
       "name": "Sunset Wilds",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1105,7 +1105,7 @@
       "image": "gba-sunset-wilds.webp"
     },
     {
-      "id": 45,
+      "id": 48,
       "name": "Sunset Wilds",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Super Circuit",
@@ -1117,7 +1117,7 @@
       "image": "mk8-sunset-wilds.webp"
     },
     {
-      "id": 46,
+      "id": 49,
       "name": "Snow Land",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1129,7 +1129,7 @@
       "image": "gba-snow-land.webp"
     },
     {
-      "id": 46,
+      "id": 49,
       "name": "Snow Land",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Super Circuit",
@@ -1141,7 +1141,7 @@
       "image": "mk8-snow-land.webp"
     },
     {
-      "id": 47,
+      "id": 50,
       "name": "Ribbon Road",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1153,7 +1153,7 @@
       "image": "gba-ribbon-road.webp"
     },
     {
-      "id": 47,
+      "id": 50,
       "name": "Ribbon Road",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Super Circuit",
@@ -1165,7 +1165,7 @@
       "image": "mk8-ribbon-road.webp"
     },
     {
-      "id": 48,
+      "id": 51,
       "name": "Yoshi Desert",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1177,7 +1177,7 @@
       "image": "gba-yoshi-desert.webp"
     },
     {
-      "id": 142,
+      "id": 52,
       "name": "Bowser's Castle 3",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1189,7 +1189,7 @@
       "image": "gba-bowsers-castle-3.webp"
     },
     {
-      "id": 142,
+      "id": 52,
       "name": "Bowser's Castle 3",
       "game": "Mario Kart Wii",
       "original": "Mario Kart: Super Circuit",
@@ -1201,7 +1201,7 @@
       "image": "wii-bowsers-castle-3.webp"
     },
     {
-      "id": 49,
+      "id": 53,
       "name": "Lakeside Park",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1213,7 +1213,7 @@
       "image": "gba-lakeside-park.webp"
     },
     {
-      "id": 50,
+      "id": 54,
       "name": "Broken Pier",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1225,7 +1225,7 @@
       "image": "gba-broken-pier.webp"
     },
     {
-      "id": 51,
+      "id": 55,
       "name": "Bowser's Castle 4",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1237,7 +1237,7 @@
       "image": "gba-bowsers-castle-4.webp"
     },
     {
-      "id": 146,
+      "id": 56,
       "name": "Rainbow Road",
       "game": "Mario Kart: Super Circuit",
       "original": "Mario Kart: Super Circuit",
@@ -1249,7 +1249,7 @@
       "image": "gba-rainbow-road-gba.webp"
     },
     {
-      "id": 147,
+      "id": 57,
       "name": "Luigi Circuit",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1261,7 +1261,7 @@
       "image": "gcn-luigi-circuit-gcn.webp"
     },
     {
-      "id": 147,
+      "id": 57,
       "name": "Luigi Circuit",
       "game": "Mario Kart DS",
       "original": "Mario Kart: Double Dash!!",
@@ -1273,7 +1273,7 @@
       "image": "ds-luigi-circuit-gcn.webp"
     },
     {
-      "id": 52,
+      "id": 58,
       "name": "Peach Beach",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1285,7 +1285,7 @@
       "image": "gcn-peach-beach.webp"
     },
     {
-      "id": 52,
+      "id": 58,
       "name": "Peach Beach",
       "game": "Mario Kart Wii",
       "original": "Mario Kart: Double Dash!!",
@@ -1297,7 +1297,7 @@
       "image": "wii-peach-beach.webp"
     },
     {
-      "id": 52,
+      "id": 58,
       "name": "Peach Beach",
       "game": "Mario Kart World",
       "original": "Mario Kart: Double Dash!!",
@@ -1309,7 +1309,7 @@
       "image": "world-peach-beach.avif"
     },
     {
-      "id": 53,
+      "id": 59,
       "name": "Baby Park",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1321,7 +1321,7 @@
       "image": "gcn-baby-park.webp"
     },
     {
-      "id": 53,
+      "id": 59,
       "name": "Baby Park",
       "game": "Mario Kart DS",
       "original": "Mario Kart: Double Dash!!",
@@ -1333,7 +1333,7 @@
       "image": "ds-baby-park.png"
     },
     {
-      "id": 53,
+      "id": 59,
       "name": "Baby Park",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Double Dash!!",
@@ -1345,7 +1345,7 @@
       "image": "mk8-baby-park.webp"
     },
     {
-      "id": 54,
+      "id": 60,
       "name": "Dry Dry Desert",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1357,7 +1357,7 @@
       "image": "gcn-dry-dry-desert.webp"
     },
     {
-      "id": 54,
+      "id": 60,
       "name": "Dry Dry Desert",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Double Dash!!",
@@ -1369,7 +1369,7 @@
       "image": "mk8-dry-dry-desert.jpg"
     },
     {
-      "id": 55,
+      "id": 61,
       "name": "Mushroom Bridge",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1381,7 +1381,7 @@
       "image": "gcn-mushroom-bridge.webp"
     },
     {
-      "id": 55,
+      "id": 61,
       "name": "Mushroom Bridge",
       "game": "Mario Kart DS",
       "original": "Mario Kart: Double Dash!!",
@@ -1393,7 +1393,7 @@
       "image": "ds-mushroom-bridge.webp"
     },
     {
-      "id": 148,
+      "id": 62,
       "name": "Mario Circuit",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1405,7 +1405,7 @@
       "image": "gcn-mario-circuit-gcn.webp"
     },
     {
-      "id": 148,
+      "id": 62,
       "name": "Mario Circuit",
       "game": "Mario Kart Wii",
       "original": "Mario Kart: Double Dash!!",
@@ -1417,7 +1417,7 @@
       "image": "wii-mario-circuit-gcn.webp"
     },
     {
-      "id": 56,
+      "id": 63,
       "name": "Daisy Cruiser",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1429,7 +1429,7 @@
       "image": "gcn-daisy-cruiser.webp"
     },
     {
-      "id": 56,
+      "id": 63,
       "name": "Daisy Cruiser",
       "game": "Mario Kart 7",
       "original": "Mario Kart: Double Dash!!",
@@ -1441,7 +1441,7 @@
       "image": "3ds-daisy-cruiser.webp"
     },
     {
-      "id": 56,
+      "id": 63,
       "name": "Daisy Cruiser",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Double Dash!!",
@@ -1453,7 +1453,7 @@
       "image": "mk8-daisy-cruiser.jpg"
     },
     {
-      "id": 57,
+      "id": 64,
       "name": "Waluigi Stadium",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1465,7 +1465,7 @@
       "image": "gcn-waluigi-stadium.webp"
     },
     {
-      "id": 57,
+      "id": 64,
       "name": "Waluigi Stadium",
       "game": "Mario Kart Wii",
       "original": "Mario Kart: Double Dash!!",
@@ -1477,7 +1477,7 @@
       "image": "wii-waluigi-stadium.webp"
     },
     {
-      "id": 57,
+      "id": 64,
       "name": "Waluigi Stadium",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Double Dash!!",
@@ -1489,7 +1489,7 @@
       "image": "mk8-waluigi-stadium.webp"
     },
     {
-      "id": 149,
+      "id": 65,
       "name": "Sherbet Land",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1501,7 +1501,7 @@
       "image": "gcn-sherbet-land-gcn.webp"
     },
     {
-      "id": 149,
+      "id": 65,
       "name": "Sherbet Land",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Double Dash!!",
@@ -1513,7 +1513,7 @@
       "image": "mk8-sherbet-land-gcn.webp"
     },
     {
-      "id": 58,
+      "id": 66,
       "name": "Mushroom City",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1525,7 +1525,7 @@
       "image": "gcn-mushroom-city.webp"
     },
     {
-      "id": 59,
+      "id": 67,
       "name": "Yoshi Circuit",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1537,7 +1537,7 @@
       "image": "gcn-yoshi-circuit.webp"
     },
     {
-      "id": 59,
+      "id": 67,
       "name": "Yoshi Circuit",
       "game": "Mario Kart DS",
       "original": "Mario Kart: Double Dash!!",
@@ -1549,7 +1549,7 @@
       "image": "ds-yoshi-circuit.webp"
     },
     {
-      "id": 59,
+      "id": 67,
       "name": "Yoshi Circuit",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Double Dash!!",
@@ -1561,7 +1561,7 @@
       "image": "mk8-yoshi-circuit.webp"
     },
     {
-      "id": 60,
+      "id": 68,
       "name": "DK Mountain",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1573,7 +1573,7 @@
       "image": "gcn-dk-mountain.webp"
     },
     {
-      "id": 60,
+      "id": 68,
       "name": "DK Mountain",
       "game": "Mario Kart Wii",
       "original": "Mario Kart: Double Dash!!",
@@ -1585,7 +1585,7 @@
       "image": "wii-dk-mountain.webp"
     },
     {
-      "id": 60,
+      "id": 68,
       "name": "DK Mountain",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart: Double Dash!!",
@@ -1597,7 +1597,7 @@
       "image": "mk8-dk-mountain.webp"
     },
     {
-      "id": 61,
+      "id": 69,
       "name": "Wario Colosseum",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1609,7 +1609,7 @@
       "image": "gcn-wario-colosseum.webp"
     },
     {
-      "id": 62,
+      "id": 70,
       "name": "Dino Dino Jungle",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1621,7 +1621,7 @@
       "image": "gcn-dino-dino-jungle.webp"
     },
     {
-      "id": 62,
+      "id": 70,
       "name": "Dino Dino Jungle",
       "game": "Mario Kart 7",
       "original": "Mario Kart: Double Dash!!",
@@ -1633,7 +1633,7 @@
       "image": "3ds-dino-dino-jungle.webp"
     },
     {
-      "id": 62,
+      "id": 70,
       "name": "Dino Dino Jungle",
       "game": "Mario Kart World",
       "original": "Mario Kart: Double Dash!!",
@@ -1645,7 +1645,7 @@
       "image": "world-dino-dino-jungle.png"
     },
     {
-      "id": 150,
+      "id": 71,
       "name": "Bowser's Castle",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1657,7 +1657,7 @@
       "image": "gcn-bowsers-castle-gcn.webp"
     },
     {
-      "id": 151,
+      "id": 72,
       "name": "Rainbow Road",
       "game": "Mario Kart: Double Dash!!",
       "original": "Mario Kart: Double Dash!!",
@@ -1669,7 +1669,7 @@
       "image": "gcn-rainbow-road-gcn.webp"
     },
     {
-      "id": 63,
+      "id": 73,
       "name": "Figure-8 Circuit",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1681,7 +1681,7 @@
       "image": "ds-figure-8-circuit.webp"
     },
     {
-      "id": 64,
+      "id": 74,
       "name": "Yoshi Falls",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1693,7 +1693,7 @@
       "image": "ds-yoshi-falls.webp"
     },
     {
-      "id": 64,
+      "id": 74,
       "name": "Yoshi Falls",
       "game": "Mario Kart Wii",
       "original": "Mario Kart DS",
@@ -1705,7 +1705,7 @@
       "image": "wii-yoshi-falls.webp"
     },
     {
-      "id": 65,
+      "id": 75,
       "name": "Cheep Cheep Beach",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1717,7 +1717,7 @@
       "image": "ds-cheep-cheep-beach.webp"
     },
     {
-      "id": 65,
+      "id": 75,
       "name": "Cheep Cheep Beach",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart DS",
@@ -1729,7 +1729,7 @@
       "image": "mk8-cheep-cheep-beach.webp"
     },
     {
-      "id": 66,
+      "id": 76,
       "name": "Luigi's Mansion",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1741,7 +1741,7 @@
       "image": "ds-luigis-mansion.webp"
     },
     {
-      "id": 66,
+      "id": 76,
       "name": "Luigi's Mansion",
       "game": "Mario Kart 7",
       "original": "Mario Kart DS",
@@ -1753,7 +1753,7 @@
       "image": "3ds-luigis-mansion.webp"
     },
     {
-      "id": 67,
+      "id": 77,
       "name": "Desert Hills",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1765,7 +1765,7 @@
       "image": "ds-desert-hills.webp"
     },
     {
-      "id": 67,
+      "id": 77,
       "name": "Desert Hills",
       "game": "Mario Kart Wii",
       "original": "Mario Kart DS",
@@ -1777,7 +1777,7 @@
       "image": "wii-desert-hills.webp"
     },
     {
-      "id": 67,
+      "id": 77,
       "name": "Desert Hills",
       "game": "Mario Kart World",
       "original": "Mario Kart DS",
@@ -1789,7 +1789,7 @@
       "image": "world-desert-hills.avif"
     },
     {
-      "id": 68,
+      "id": 78,
       "name": "Delfino Square",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1801,7 +1801,7 @@
       "image": "ds-delfino-square.webp"
     },
     {
-      "id": 68,
+      "id": 78,
       "name": "Delfino Square",
       "game": "Mario Kart Wii",
       "original": "Mario Kart DS",
@@ -1813,7 +1813,7 @@
       "image": "wii-delfino-square.webp"
     },
     {
-      "id": 69,
+      "id": 79,
       "name": "Waluigi Pinball",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1825,7 +1825,7 @@
       "image": "ds-waluigi-pinball.webp"
     },
     {
-      "id": 69,
+      "id": 79,
       "name": "Waluigi Pinball",
       "game": "Mario Kart 7",
       "original": "Mario Kart DS",
@@ -1837,7 +1837,7 @@
       "image": "3ds-waluigi-pinball.jpg"
     },
     {
-      "id": 69,
+      "id": 79,
       "name": "Waluigi Pinball",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart DS",
@@ -1849,7 +1849,7 @@
       "image": "mk8-waluigi-pinball.webp"
     },
     {
-      "id": 70,
+      "id": 80,
       "name": "Shroom Ridge",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1861,7 +1861,7 @@
       "image": "ds-shroom-ridge.png"
     },
     {
-      "id": 70,
+      "id": 80,
       "name": "Shroom Ridge",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart DS",
@@ -1873,7 +1873,7 @@
       "image": "mk8-shroom-ridge.webp"
     },
     {
-      "id": 71,
+      "id": 81,
       "name": "DK Pass",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1885,7 +1885,7 @@
       "image": "ds-dk-pass.webp"
     },
     {
-      "id": 71,
+      "id": 81,
       "name": "DK Pass",
       "game": "Mario Kart 7",
       "original": "Mario Kart DS",
@@ -1897,7 +1897,7 @@
       "image": "3ds-dk-pass.jpg"
     },
     {
-      "id": 71,
+      "id": 81,
       "name": "DK Pass",
       "game": "Mario Kart World",
       "original": "Mario Kart DS",
@@ -1909,7 +1909,7 @@
       "image": "world-dk-pass.avif"
     },
     {
-      "id": 72,
+      "id": 82,
       "name": "Tick Tock Clock",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1921,7 +1921,7 @@
       "image": "ds-tick-tock-clock.png"
     },
     {
-      "id": 72,
+      "id": 82,
       "name": "Tick Tock Clock",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart DS",
@@ -1933,7 +1933,7 @@
       "image": "mk8-tick-tock-clock.webp"
     },
     {
-      "id": 152,
+      "id": 83,
       "name": "Mario Circuit",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1945,7 +1945,7 @@
       "image": "ds-mario-circuit-ds.png"
     },
     {
-      "id": 152,
+      "id": 83,
       "name": "Mario Circuit",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart DS",
@@ -1957,7 +1957,7 @@
       "image": "mk8-mario-circuit-ds.webp"
     },
     {
-      "id": 73,
+      "id": 84,
       "name": "Airship Fortress",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -1969,7 +1969,7 @@
       "image": "ds-airship-fortress.webp"
     },
     {
-      "id": 73,
+      "id": 84,
       "name": "Airship Fortress",
       "game": "Mario Kart 7",
       "original": "Mario Kart DS",
@@ -1981,7 +1981,7 @@
       "image": "3ds-airship-fortress.webp"
     },
     {
-      "id": 73,
+      "id": 84,
       "name": "Airship Fortress",
       "game": "Mario Kart World",
       "original": "Mario Kart DS",
@@ -1993,7 +1993,7 @@
       "image": "world-airship-fortress.webp"
     },
     {
-      "id": 153,
+      "id": 85,
       "name": "Wario Stadium",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -2005,7 +2005,7 @@
       "image": "ds-wario-stadium-ds.webp"
     },
     {
-      "id": 153,
+      "id": 85,
       "name": "Wario Stadium",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart DS",
@@ -2017,7 +2017,7 @@
       "image": "mk8-wario-stadium-ds.webp"
     },
     {
-      "id": 74,
+      "id": 86,
       "name": "Peach Gardens",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -2029,7 +2029,7 @@
       "image": "ds-peach-gardens.png"
     },
     {
-      "id": 74,
+      "id": 86,
       "name": "Peach Gardens",
       "game": "Mario Kart Wii",
       "original": "Mario Kart DS",
@@ -2041,7 +2041,7 @@
       "image": "wii-peach-gardens.png"
     },
     {
-      "id": 74,
+      "id": 86,
       "name": "Peach Gardens",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart DS",
@@ -2053,7 +2053,7 @@
       "image": "mk8-peach-gardens.webp"
     },
     {
-      "id": 154,
+      "id": 87,
       "name": "Bowser's Castle",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -2065,7 +2065,7 @@
       "image": "ds-bowsers-castle-ds.webp"
     },
     {
-      "id": 155,
+      "id": 88,
       "name": "Rainbow Road",
       "game": "Mario Kart DS",
       "original": "Mario Kart DS",
@@ -2077,7 +2077,7 @@
       "image": "ds-rainbow-road-ds.webp"
     },
     {
-      "id": 156,
+      "id": 89,
       "name": "Luigi Circuit",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2089,7 +2089,7 @@
       "image": "wii-luigi-circuit-wii.webp"
     },
     {
-      "id": 75,
+      "id": 90,
       "name": "Moo Moo Meadows",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2101,7 +2101,7 @@
       "image": "wii-moo-moo-meadows.webp"
     },
     {
-      "id": 75,
+      "id": 90,
       "name": "Moo Moo Meadows",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2113,7 +2113,7 @@
       "image": "mk8-moo-moo-meadows.webp"
     },
     {
-      "id": 75,
+      "id": 90,
       "name": "Moo Moo Meadows",
       "game": "Mario Kart World",
       "original": "Mario Kart Wii",
@@ -2125,7 +2125,7 @@
       "image": "world-moo-moo-meadows.webp"
     },
     {
-      "id": 76,
+      "id": 91,
       "name": "Mushroom Gorge",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2137,7 +2137,7 @@
       "image": "wii-mushroom-gorge.png"
     },
     {
-      "id": 76,
+      "id": 91,
       "name": "Mushroom Gorge",
       "game": "Mario Kart 7",
       "original": "Mario Kart Wii",
@@ -2149,7 +2149,7 @@
       "image": "3ds-mushroom-gorge.jpg"
     },
     {
-      "id": 76,
+      "id": 91,
       "name": "Mushroom Gorge",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2161,7 +2161,7 @@
       "image": "mk8-mushroom-gorge.jpg"
     },
     {
-      "id": 77,
+      "id": 92,
       "name": "Toad's Factory",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2173,7 +2173,7 @@
       "image": "wii-toads-factory.webp"
     },
     {
-      "id": 77,
+      "id": 92,
       "name": "Toad's Factory",
       "game": "Mario Kart World",
       "original": "Mario Kart Wii",
@@ -2185,7 +2185,7 @@
       "image": "world-toads-factory.webp"
     },
     {
-      "id": 157,
+      "id": 93,
       "name": "Mario Circuit",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2197,7 +2197,7 @@
       "image": "wii-mario-circuit-wii.webp"
     },
     {
-      "id": 78,
+      "id": 94,
       "name": "Coconut Mall",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2209,7 +2209,7 @@
       "image": "wii-coconut-mall.webp"
     },
     {
-      "id": 78,
+      "id": 94,
       "name": "Coconut Mall",
       "game": "Mario Kart 7",
       "original": "Mario Kart Wii",
@@ -2221,7 +2221,7 @@
       "image": "3ds-coconut-mall.webp"
     },
     {
-      "id": 78,
+      "id": 94,
       "name": "Coconut Mall",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2233,7 +2233,7 @@
       "image": "mk8-coconut-mall.jpg"
     },
     {
-      "id": 79,
+      "id": 95,
       "name": "DK's Snowboard Cross",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2245,7 +2245,7 @@
       "image": "wii-dks-snowboard-cross.webp"
     },
     {
-      "id": 79,
+      "id": 95,
       "name": "DK's Snowboard Cross",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2257,7 +2257,7 @@
       "image": "mk8-dks-snowboard-cross.jpg"
     },
     {
-      "id": 80,
+      "id": 96,
       "name": "Wario's Gold Mine",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2269,7 +2269,7 @@
       "image": "wii-warios-gold-mine.webp"
     },
     {
-      "id": 80,
+      "id": 96,
       "name": "Wario's Gold Mine",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2281,7 +2281,7 @@
       "image": "mk8-warios-gold-mine.webp"
     },
     {
-      "id": 81,
+      "id": 97,
       "name": "Daisy Circuit",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2293,7 +2293,7 @@
       "image": "wii-daisy-circuit.webp"
     },
     {
-      "id": 81,
+      "id": 97,
       "name": "Daisy Circuit",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2305,7 +2305,7 @@
       "image": "mk8-daisy-circuit.webp"
     },
     {
-      "id": 82,
+      "id": 98,
       "name": "Koopa Cape",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2317,7 +2317,7 @@
       "image": "wii-koopa-cape.webp"
     },
     {
-      "id": 82,
+      "id": 98,
       "name": "Koopa Cape",
       "game": "Mario Kart 7",
       "original": "Mario Kart Wii",
@@ -2329,7 +2329,7 @@
       "image": "3ds-koopa-cape.webp"
     },
     {
-      "id": 82,
+      "id": 98,
       "name": "Koopa Cape",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2341,7 +2341,7 @@
       "image": "mk8-koopa-cape.webp"
     },
     {
-      "id": 83,
+      "id": 99,
       "name": "Maple Treeway",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2353,7 +2353,7 @@
       "image": "wii-maple-treeway.webp"
     },
     {
-      "id": 83,
+      "id": 99,
       "name": "Maple Treeway",
       "game": "Mario Kart 7",
       "original": "Mario Kart Wii",
@@ -2365,7 +2365,7 @@
       "image": "3ds-maple-treeway.webp"
     },
     {
-      "id": 83,
+      "id": 99,
       "name": "Maple Treeway",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2377,7 +2377,7 @@
       "image": "mk8-maple-treeway.jpg"
     },
     {
-      "id": 84,
+      "id": 100,
       "name": "Grumble Volcano",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2389,7 +2389,7 @@
       "image": "wii-grumble-volcano.png"
     },
     {
-      "id": 84,
+      "id": 100,
       "name": "Grumble Volcano",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2401,7 +2401,7 @@
       "image": "mk8-grumble-volcano.webp"
     },
     {
-      "id": 85,
+      "id": 101,
       "name": "Dry Dry Ruins",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2413,7 +2413,7 @@
       "image": "wii-dry-dry-ruins.webp"
     },
     {
-      "id": 86,
+      "id": 102,
       "name": "Moonview Highway",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2425,7 +2425,7 @@
       "image": "wii-moonview-highway.webp"
     },
     {
-      "id": 86,
+      "id": 102,
       "name": "Moonview Highway",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2437,7 +2437,7 @@
       "image": "mk8-moonview-highway.webp"
     },
     {
-      "id": 158,
+      "id": 103,
       "name": "Bowser's Castle",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2449,7 +2449,7 @@
       "image": "wii-bowsers-castle-wii.png"
     },
     {
-      "id": 159,
+      "id": 104,
       "name": "Rainbow Road",
       "game": "Mario Kart Wii",
       "original": "Mario Kart Wii",
@@ -2461,7 +2461,7 @@
       "image": "wii-rainbow-road-wii.webp"
     },
     {
-      "id": 159,
+      "id": 104,
       "name": "Rainbow Road",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Wii",
@@ -2473,7 +2473,7 @@
       "image": "mk8-rainbow-road-wii.webp"
     },
     {
-      "id": 87,
+      "id": 105,
       "name": "Toad Circuit",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2485,7 +2485,7 @@
       "image": "3ds-toad-circuit.webp"
     },
     {
-      "id": 87,
+      "id": 105,
       "name": "Toad Circuit",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 7",
@@ -2497,7 +2497,7 @@
       "image": "mk8-toad-circuit.webp"
     },
     {
-      "id": 88,
+      "id": 106,
       "name": "Daisy Hills",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2509,7 +2509,7 @@
       "image": "3ds-daisy-hills.webp"
     },
     {
-      "id": 89,
+      "id": 107,
       "name": "Cheep Cheep Lagoon",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2521,7 +2521,7 @@
       "image": "3ds-cheep-cheep-lagoon.webp"
     },
     {
-      "id": 90,
+      "id": 108,
       "name": "Shy Guy Bazaar",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2533,7 +2533,7 @@
       "image": "3ds-shy-guy-bazaar.webp"
     },
     {
-      "id": 90,
+      "id": 108,
       "name": "Shy Guy Bazaar",
       "game": "Mario Kart World",
       "original": "Mario Kart 7",
@@ -2545,7 +2545,7 @@
       "image": "world-shy-guy-bazaar.avif"
     },
     {
-      "id": 91,
+      "id": 109,
       "name": "Wuhu Loop",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2557,7 +2557,7 @@
       "image": "3ds-wuhu-loop.webp"
     },
     {
-      "id": 160,
+      "id": 110,
       "name": "Mario Circuit",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2569,7 +2569,7 @@
       "image": "3ds-mario-circuit-3ds.webp"
     },
     {
-      "id": 92,
+      "id": 111,
       "name": "Melody Motorway",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2581,7 +2581,7 @@
       "image": "3ds-music-park.webp"
     },
     {
-      "id": 92,
+      "id": 111,
       "name": "Melody Motorway",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 7",
@@ -2593,7 +2593,7 @@
       "image": "mk8-music-park.webp"
     },
     {
-      "id": 93,
+      "id": 112,
       "name": "Alpine Pass",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2605,7 +2605,7 @@
       "image": "3ds-alpine-pass.webp"
     },
     {
-      "id": 93,
+      "id": 112,
       "name": "Alpine Pass",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 7",
@@ -2617,7 +2617,7 @@
       "image": "mk8-alpine-pass.webp"
     },
     {
-      "id": 94,
+      "id": 113,
       "name": "Piranha Plant Pipeway",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2629,7 +2629,7 @@
       "image": "3ds-piranha-plant-pipeway.webp"
     },
     {
-      "id": 94,
+      "id": 113,
       "name": "Piranha Plant Pipeway",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 7",
@@ -2641,7 +2641,7 @@
       "image": "mk8-piranha-plant-pipeway.webp"
     },
     {
-      "id": 95,
+      "id": 114,
       "name": "Wario Shipyard",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2653,7 +2653,7 @@
       "image": "3ds-wario-shipyard.webp"
     },
     {
-      "id": 95,
+      "id": 114,
       "name": "Wario Shipyard",
       "game": "Mario Kart World",
       "original": "Mario Kart 7",
@@ -2665,7 +2665,7 @@
       "image": "world-warios-shipyard.webp"
     },
     {
-      "id": 96,
+      "id": 115,
       "name": "Neo Bowser City",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2677,7 +2677,7 @@
       "image": "3ds-neo-bowser-city.webp"
     },
     {
-      "id": 96,
+      "id": 115,
       "name": "Neo Bowser City",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 7",
@@ -2689,7 +2689,7 @@
       "image": "3ds-neo-bowser-city.webp"
     },
     {
-      "id": 97,
+      "id": 116,
       "name": "Maka Wuhu",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2701,7 +2701,7 @@
       "image": "3ds-maka-wuhu.webp"
     },
     {
-      "id": 98,
+      "id": 117,
       "name": "DK Jungle",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2713,7 +2713,7 @@
       "image": "3ds-dk-jungle.webp"
     },
     {
-      "id": 98,
+      "id": 117,
       "name": "DK Jungle",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 7",
@@ -2725,7 +2725,7 @@
       "image": "mk8-dk-jungle.webp"
     },
     {
-      "id": 99,
+      "id": 118,
       "name": "Rosalina's Ice World",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2737,7 +2737,7 @@
       "image": "3ds-rosalinas-ice-world.png"
     },
     {
-      "id": 99,
+      "id": 118,
       "name": "Rosalina's Ice World",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 7",
@@ -2749,7 +2749,7 @@
       "image": "mk8-rosalinas-ice-world.webp"
     },
     {
-      "id": 162,
+      "id": 119,
       "name": "Bowser's Castle",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2761,7 +2761,7 @@
       "image": "3ds-bowsers-castle-3ds.webp"
     },
     {
-      "id": 163,
+      "id": 120,
       "name": "Rainbow Road",
       "game": "Mario Kart 7",
       "original": "Mario Kart 7",
@@ -2773,7 +2773,7 @@
       "image": "3ds-rainbow-road-3ds.webp"
     },
     {
-      "id": 163,
+      "id": 120,
       "name": "Rainbow Road",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 7",
@@ -2785,7 +2785,7 @@
       "image": "mk8-rainbow-road-3ds.webp"
     },
     {
-      "id": 100,
+      "id": 121,
       "name": "Mario Kart Stadium",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2797,7 +2797,7 @@
       "image": "mk8-mario-kart-stadium.webp"
     },
     {
-      "id": 101,
+      "id": 122,
       "name": "Water Park",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2809,7 +2809,7 @@
       "image": "mk8-water-park.webp"
     },
     {
-      "id": 102,
+      "id": 123,
       "name": "Sweet Sweet Canyon",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2821,7 +2821,7 @@
       "image": "mk8-sweet-sweet-canyon.webp"
     },
     {
-      "id": 103,
+      "id": 124,
       "name": "Thwomp Ruins",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2833,7 +2833,7 @@
       "image": "mk8-thwomp-ruins.webp"
     },
     {
-      "id": 164,
+      "id": 125,
       "name": "Mario Circuit",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2845,7 +2845,7 @@
       "image": "mk8-mario-circuit-mk8.webp"
     },
     {
-      "id": 104,
+      "id": 126,
       "name": "Toad Harbour",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2857,7 +2857,7 @@
       "image": "mk8-toad-harbour.png"
     },
     {
-      "id": 105,
+      "id": 127,
       "name": "Twisted Mansion",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2869,7 +2869,7 @@
       "image": "mk8-twisted-mansion.webp"
     },
     {
-      "id": 106,
+      "id": 128,
       "name": "Shy Guy Falls",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2881,7 +2881,7 @@
       "image": "mk8-shy-guy-falls.webp"
     },
     {
-      "id": 107,
+      "id": 129,
       "name": "Sunshine Airport",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2893,7 +2893,7 @@
       "image": "mk8-sunshine-airport.webp"
     },
     {
-      "id": 108,
+      "id": 130,
       "name": "Dolphin Shoals",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2905,7 +2905,7 @@
       "image": "mk8-dolphin-shoals.webp"
     },
     {
-      "id": 109,
+      "id": 131,
       "name": "Electrodrome",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2917,7 +2917,7 @@
       "image": "mk8-electrodrome.webp"
     },
     {
-      "id": 110,
+      "id": 132,
       "name": "Mount Wario",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2929,7 +2929,7 @@
       "image": "mk8-mount-wario.webp"
     },
     {
-      "id": 111,
+      "id": 133,
       "name": "Cloudtop Cruise",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2941,7 +2941,7 @@
       "image": "mk8-cloudtop-cruise.webp"
     },
     {
-      "id": 112,
+      "id": 134,
       "name": "Bone Dry Dunes",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2953,7 +2953,7 @@
       "image": "mk8-bone-dry-dunes.webp"
     },
     {
-      "id": 165,
+      "id": 135,
       "name": "Bowser's Castle",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2965,7 +2965,7 @@
       "image": "mk8-bowsers-castle-mk8.webp"
     },
     {
-      "id": 166,
+      "id": 136,
       "name": "Rainbow Road",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2977,7 +2977,7 @@
       "image": "mk8-rainbow-road-mk8.webp"
     },
     {
-      "id": 113,
+      "id": 137,
       "name": "Excitebike Arena",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -2989,7 +2989,7 @@
       "image": "mk8-excitebike-arena.webp"
     },
     {
-      "id": 114,
+      "id": 138,
       "name": "Dragon Driftway",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3001,7 +3001,7 @@
       "image": "mk8-dragon-driftway.webp"
     },
     {
-      "id": 115,
+      "id": 139,
       "name": "Mute City",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3013,7 +3013,7 @@
       "image": "mk8-mute-city.webp"
     },
     {
-      "id": 116,
+      "id": 140,
       "name": "Ice Ice Outpost",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3025,7 +3025,7 @@
       "image": "mk8-ice-ice-outpost.webp"
     },
     {
-      "id": 117,
+      "id": 141,
       "name": "Hyrule Circuit",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3037,7 +3037,7 @@
       "image": "mk8-hyrule-circuit.webp"
     },
     {
-      "id": 118,
+      "id": 142,
       "name": "Wild Woods",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3049,7 +3049,7 @@
       "image": "mk8-wild-woods.jpg"
     },
     {
-      "id": 119,
+      "id": 143,
       "name": "Animal Crossing",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3061,7 +3061,7 @@
       "image": "mk8-animal-crossing.png"
     },
     {
-      "id": 120,
+      "id": 144,
       "name": "Super Bell Subway",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3073,7 +3073,7 @@
       "image": "mk8-super-bell-subway.webp"
     },
     {
-      "id": 121,
+      "id": 145,
       "name": "Big Blue",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3085,7 +3085,7 @@
       "image": "mk8-big-blue.webp"
     },
     {
-      "id": 122,
+      "id": 146,
       "name": "Yoshi's Island",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3097,7 +3097,7 @@
       "image": "mk8-yoshis-island.webp"
     },
     {
-      "id": 123,
+      "id": 147,
       "name": "Squeaky Clean Sprint",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart 8 Deluxe",
@@ -3109,7 +3109,7 @@
       "image": "mk8-squeaky-clean-sprint.webp"
     },
     {
-      "id": 124,
+      "id": 148,
       "name": "Paris Promenade",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3121,7 +3121,7 @@
       "image": "mk8-paris-promenade.png"
     },
     {
-      "id": 125,
+      "id": 149,
       "name": "Tokyo Blur",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3133,7 +3133,7 @@
       "image": "mk8-tokyo-blur.webp"
     },
     {
-      "id": 126,
+      "id": 150,
       "name": "Ninja Hideaway",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3145,7 +3145,7 @@
       "image": "mk8-ninja-hideaway.webp"
     },
     {
-      "id": 127,
+      "id": 151,
       "name": "New York Minute",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3157,7 +3157,7 @@
       "image": "mk8-new-york-minute.webp"
     },
     {
-      "id": 128,
+      "id": 152,
       "name": "Sydney Sprint",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3169,7 +3169,7 @@
       "image": "mk8-sydney-sprint.webp"
     },
     {
-      "id": 129,
+      "id": 153,
       "name": "Sky-High Sundae",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3181,7 +3181,7 @@
       "image": "mk8-sky-high-sundae.webp"
     },
     {
-      "id": 129,
+      "id": 153,
       "name": "Sky-High Sundae",
       "game": "Mario Kart World",
       "original": "Mario Kart Tour",
@@ -3193,7 +3193,7 @@
       "image": "world-sky-high-sundae.jpg"
     },
     {
-      "id": 130,
+      "id": 154,
       "name": "London Loop",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3205,7 +3205,7 @@
       "image": "mk8-london-loop.webp"
     },
     {
-      "id": 131,
+      "id": 155,
       "name": "Berlin Byways",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3217,7 +3217,7 @@
       "image": "mk8-berlin-byways.jpg"
     },
     {
-      "id": 132,
+      "id": 156,
       "name": "Merry Mountain",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3229,7 +3229,7 @@
       "image": "mk8-merry-mountain.webp"
     },
     {
-      "id": 133,
+      "id": 157,
       "name": "Amsterdam Drift",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3241,7 +3241,7 @@
       "image": "mk8-amsterdam-drift.jpg"
     },
     {
-      "id": 134,
+      "id": 158,
       "name": "Bangkok Rush",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3253,7 +3253,7 @@
       "image": "mk8-bangkok-rush.jpg"
     },
     {
-      "id": 135,
+      "id": 159,
       "name": "Singapore Speedway",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3265,7 +3265,7 @@
       "image": "mk8-singapore-speedway.jpg"
     },
     {
-      "id": 136,
+      "id": 160,
       "name": "Athens Dash",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3277,7 +3277,7 @@
       "image": "mk8-athens-dash.webp"
     },
     {
-      "id": 137,
+      "id": 161,
       "name": "Los Angeles Laps",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3289,7 +3289,7 @@
       "image": "mk8-los-angeles-laps.jpg"
     },
     {
-      "id": 138,
+      "id": 162,
       "name": "Vancouver Velocity",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3301,7 +3301,7 @@
       "image": "mk8-vancouver-velocity.webp"
     },
     {
-      "id": 139,
+      "id": 163,
       "name": "Rome Avanti",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3313,7 +3313,7 @@
       "image": "mk8-rome-avanti.webp"
     },
     {
-      "id": 140,
+      "id": 164,
       "name": "Piranha Plant Cove",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3325,7 +3325,7 @@
       "image": "mk8-piranha-plant-cove.webp"
     },
     {
-      "id": 141,
+      "id": 165,
       "name": "Madrid Drive",
       "game": "Mario Kart 8 Deluxe",
       "original": "Mario Kart Tour",
@@ -3337,7 +3337,7 @@
       "image": "mk8-madrid-drive.webp"
     },
     {
-      "id": 142,
+      "id": 166,
       "name": "Mario Bros. Circuit",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3349,7 +3349,7 @@
       "image": "world-mario-bros-circuit.png"
     },
     {
-      "id": 143,
+      "id": 167,
       "name": "Crown City",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3361,7 +3361,7 @@
       "image": "world-crown-city.avif"
     },
     {
-      "id": 144,
+      "id": 168,
       "name": "Whistlestop Summit",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3373,7 +3373,7 @@
       "image": "world-whistlestop-summit.png"
     },
     {
-      "id": 145,
+      "id": 169,
       "name": "DK Spaceport",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3385,7 +3385,7 @@
       "image": "world-dk-spaceport.webp"
     },
     {
-      "id": 146,
+      "id": 170,
       "name": "Starview Peak",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3397,7 +3397,7 @@
       "image": "world-starview-peak.jpg"
     },
     {
-      "id": 147,
+      "id": 171,
       "name": "Faraway Oasis",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3409,7 +3409,7 @@
       "image": "world-faraway-oasis.jpg"
     },
     {
-      "id": 148,
+      "id": 172,
       "name": "Peach Stadium",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3421,7 +3421,7 @@
       "image": "world-peach-stadium.avif"
     },
     {
-      "id": 149,
+      "id": 173,
       "name": "Salty Salty Speedway",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3433,7 +3433,7 @@
       "image": "world-salty-salty-speedway.png"
     },
     {
-      "id": 150,
+      "id": 174,
       "name": "Great ? Block Ruins",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3445,7 +3445,7 @@
       "image": "world-great-block-ruins.jpg"
     },
     {
-      "id": 151,
+      "id": 175,
       "name": "Cheep Cheep Falls",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3457,7 +3457,7 @@
       "image": "world-cheep-cheep-falls.png"
     },
     {
-      "id": 152,
+      "id": 176,
       "name": "Dandelion Depths",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3469,7 +3469,7 @@
       "image": "world-dandelion-depths.jpg"
     },
     {
-      "id": 153,
+      "id": 177,
       "name": "Boo Cinema",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3481,7 +3481,7 @@
       "image": "world-boo-cinema.jpg"
     },
     {
-      "id": 154,
+      "id": 178,
       "name": "Dry Bones Burnout",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3493,7 +3493,7 @@
       "image": "world-dry-bones-burnout.webp"
     },
     {
-      "id": 155,
+      "id": 179,
       "name": "Bowser's Castle",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3505,7 +3505,7 @@
       "image": "world-bowsers-castle.jpg"
     },
     {
-      "id": 156,
+      "id": 180,
       "name": "Acorn Heights",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
@@ -3517,7 +3517,7 @@
       "image": "world-acorn-heights.jpg"
     },
     {
-      "id": 157,
+      "id": 181,
       "name": "Rainbow Road",
       "game": "Mario Kart World",
       "original": "Mario Kart World",
