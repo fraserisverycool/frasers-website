@@ -99,6 +99,13 @@
       "image": "shakespears-hormonally.jpg"
     },
     {
+      "artist": "St. Vincent",
+      "album": "All Born Screaming",
+      "genre": "Art Pop",
+      "description": "Got it at the St. Vincent. Was overcome by how good she was",
+      "image": "vincent-screaming.jpg"
+    },
+    {
       "artist": "Adele",
       "album": "30",
       "genre": "Pop",
@@ -239,6 +246,13 @@
       "image": "pretty-woman.webp"
     },
     {
+      "artist": "Various Artists",
+      "album": "Italian Favourites: Millenium Collection",
+      "genre": "Pop",
+      "description": "Spotted this in a second hand shop in Friedrichshain",
+      "image": "italian-collection.PNG"
+    },
+    {
       "artist": "Air",
       "album": "Moon Safari",
       "genre": "Rock & Electronic",
@@ -323,6 +337,13 @@
       "image": "gough-hosianna.jpg"
     },
     {
+      "artist": "Manu Chao",
+      "album": "La Radiolina",
+      "genre": "Rock & Electronic",
+      "description": "Spotted this in a second hand shop in Friedrichshain",
+      "image": "manu-radiolina.jpg"
+    },
+    {
       "artist": "Earth, Wind and Fire",
       "album": "Greatest Hits",
       "genre": "House & Disco",
@@ -384,6 +405,13 @@
       "genre": "House & Disco",
       "description": "No idea where this came from but it's got some banger house music on it",
       "image": "titlez-family.jpg"
+    },
+    {
+      "artist": "Jamiroquai",
+      "album": "The Return of the Space Cowboy",
+      "genre": "House & Disco",
+      "description": "Spotted this in a second hand shop in Friedrichshain",
+      "image": "jamiroquai-space.jpeg"
     },
     {
       "artist": "Beirut",
@@ -797,6 +825,20 @@
       "genre": "Vocal Jazz & Smooth",
       "description": "Víctor found this on the floor. It's nice Brazilian folk band music",
       "image": "marcos-carnaval.jpg"
+    },
+    {
+      "artist": "Dionne Warwick",
+      "album": "Dionne Warwick sings the Bacharach & David Songbook",
+      "genre": "Vocal Jazz & Smooth",
+      "description": "Spotted this in a second hand shop in Friedrichshain",
+      "image": "dionne-bacharach.jpeg"
+    },
+    {
+      "artist": "Edith Piaf",
+      "album": "Non Je Ne Regrette Rien",
+      "genre": "Vocal Jazz & Smooth",
+      "description": "Spotted this in a second hand shop in Friedrichshain",
+      "image": "edith-non.jpg"
     },
     {
       "artist": "Garoad",
