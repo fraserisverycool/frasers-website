@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
-import {Character} from "../character.interface";
+import {Character, Decoration} from "../character.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 
 @Component({
@@ -14,4 +14,34 @@ export class CharacterComponent {
   @Input() selectedCharacter: Character | undefined;
   @Input() pictureMode: number = 0;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
+
+  getBadge(ratingType: string, value: boolean) {
+    let badgeText = ratingType + ' ';
+    if (value) {
+      badgeText += '\u2713';
+    } else {
+      badgeText += '\u274C';
+    }
+    return badgeText;
+  }
+
+  getColor(value: boolean) {
+    return value ? 'green' : 'red';
+  }
+
+  getColorBorder(value: boolean) {
+    return "2px solid " + this.getColor(value);
+  }
+
+  getBorder(color: string) {
+    return "0 0 10px " + color;
+  }
+
+  getButtonText(character: Character): string {
+    return !character.showMain ? "Show me the truth" : "I can't handle the truth";
+  }
+
+  isEmpty(deco: Decoration[]): boolean {
+    return deco.length == 0;
+  }
 }

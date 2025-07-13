@@ -1,13 +1,13 @@
 <div class="container">
-  <h1>What does your main say about you?</h1>
-  <p>Please don't take these seriously! I'm just fooling around. It's vibes-based, not based on any people in particular. You can write me an email if you disagree with any of them.</p>
+  <h1>Choose your fighter!</h1>
   <div class="character-grid">
     <div
       class="character.description ? character-item : character-nothing"
       *ngFor="let character of characters"
-      (click)="character.description ? selectCharacter(character) : null"
-      [ngClass]="{'grayscale': !character.description}"
+      (click)="character.main ? selectCharacter(character) : null"
+      [ngClass]="{'grayscale': !character.main}"
     >
+      <div class="box" [style.box-shadow]="getBorderColor(character.color)"></div>
       <img
         [ngSrc]="'assets/misc/characters/icons/' + character.icon"
         alt="{{ character.name }}"

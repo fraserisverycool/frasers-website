@@ -22,6 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .character-item:not(.grayscale) {
@@ -37,9 +38,16 @@
   cursor: default;
 }
 
+.box {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+}
+
 .character-icon {
   width: 32px;
   height: 32px;
+  z-index: 1;
 }
 
 .grayscale {

@@ -28,6 +28,8 @@ export default class CharactersComponent implements OnInit {
     this.http.get<{ characters: Character[] }>('assets/misc/characters/characters.json').subscribe({
       next: (data) => {
         this.characters = data.characters;
+        this.calculateColors();
+        this.reorderDecorations();
       },
       error: (err) => {
         console.error('Failed to load characters:', err);
@@ -54,4 +56,33 @@ export default class CharactersComponent implements OnInit {
       this.pictureMode = 0;
     }
   }
+
+  calculateColors(): void {
+    this.characters.forEach((character) => {
+      const color = this.calculateColor(character);
+      character.color = color;
+    });
+  }
+
+  calculateColor(character: Character): string {
+    if (!character.played) {
+      return 'red';
+    }
+    if (!character.completed) {
+      return 'orange';
+    }
+    if (!character.understood) {
+      return 'yellow';
+    }
+    return 'green';
+  }
+
+  getBorderColor(color: string): string {
+    return "0 0 25px " + color;
+  }
+
+reorderDecorations(): void {
+  this.characters.forEach(character => {
+    character.deco.sort((a, b) => a.order - b.order);
+  });}
 }

@@ -4,517 +4,1747 @@
       "name": "Mario",
       "icon": "Mario (1).png",
       "picture": ["mario.webp", "mario-2.png", "mario-3.png"],
-      "description": "Mario mains exclusively eat vanilla ice cream, enjoy plain cookies, and have vanilla sex. When asked how they're doing, they respond 'not too bad'. They are aggressively normie to the extent that they might even say their favourite colour is grey or beige."
+      "main": "Mario mains exclusively eat vanilla ice cream, enjoy plain cookies, and have vanilla sex. When asked how they're doing, they respond 'not too bad'. They are aggressively normie to the extent that they might even say their favourite colour is grey or beige.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I've played almost every single mainline Mario game. I've been there from the start. I know almost everything there is to know about the series.",
+      "deco": [
+        {
+          "filename": "mario1.jpg",
+          "order": 2,
+          "description": "Nice poster that Franz got for me"
+        },
+        {
+          "filename": "mario2.jpg",
+          "order": 1,
+          "description": "Beautiful kinky Mario that Sam painted for me!! I cherish this so much"
+        },
+        {
+          "filename": "mario3.jpg",
+          "order": 3,
+          "description": "Mario features in this cool 3D image"
+        },
+        {
+          "filename": "mario4.jpg",
+          "order": 4,
+          "description": "A fridge magnet"
+        },
+        {
+          "filename": "mario5.jpg",
+          "order": 5,
+          "description": "A weird Amiibo"
+        },
+        {
+          "filename": "mario6.jpg",
+          "order": 6,
+          "description": "A plain sticker I found"
+        },
+        {
+          "filename": "mario7.jpg",
+          "order": 7,
+          "description": "Some other sticker I found"
+        }
+      ]
     },
     {
       "name": "Donkey Kong",
       "icon": "Donkey Kong (1).png",
       "picture": ["donkey-kong.jpeg", "donkey-kong-2.jpg", "donkey-kong-3.png"],
-      "description": "The average DK main's dick size is so big that it physically stops them from inputting any sensible buttons. They will be sure to tell you just how many spikes DK has (tell one of them that he only has three and see what happens), and they also make gorilla noises when they SD"
+      "main": "The average DK main's dick size is so big that it physically stops them from inputting any sensible buttons. They will be sure to tell you just how many spikes DK has (tell one of them that he only has three and see what happens), and they also make gorilla noises when they SD",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I've played the vast majority of DK games and loved them. A series full of nostalgia and also Tropical Freeze, one of the best games of all time.",
+      "deco": [
+        {
+          "filename": "dk1.jpg",
+          "order": 4,
+          "description": "A picture drawn onto a goodbye card"
+        },
+        {
+          "filename": "dk2.jpg",
+          "order": 5,
+          "description": "A fun figurine I have"
+        },
+        {
+          "filename": "dk3.jpg",
+          "order": 1,
+          "description": "I painted this inspired by DKC Returns' silhouette levels"
+        },
+        {
+          "filename": "dk4.jpg",
+          "order": 2,
+          "description": "Tropical Freeze took it further with the green version"
+        },
+        {
+          "filename": "dk5.jpg",
+          "order": 3,
+          "description": "And this is of course Amiss Abyss"
+        },
+        {
+          "filename": "dk6.jpg",
+          "order": 6,
+          "description": "Amiibo, has spent some time in the aquarium so is dirty"
+        }
+      ]
     },
     {
       "name": "Link",
       "icon": "Link (1).png",
       "picture": ["link.avif", "link-2.jpg", "link-3.png"],
-      "description": "I know so few Link players. The ones I do know are suspicious."
+      "main": "I know so few Link players. The ones I do know are suspicious.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love the legend of Zelda and am working on playing them all. I'm missing Zelda 2, Triforce Heroes, Four Swords, and Four Swords Adventures.",
+      "deco": [
+        {
+          "filename": "link1.jpg",
+          "order": 7,
+          "description": "Cool Majora's Mask poster I found at a convention"
+        },
+        {
+          "filename": "link2.jpg",
+          "order": 6,
+          "description": "Cool Link's Awakening poster I found"
+        },
+        {
+          "filename": "link3.jpg",
+          "order": 16,
+          "description": "Nice postcard from an artist I used to follow on Twitter"
+        },
+        {
+          "filename": "link4.jpg",
+          "order": 15,
+          "description": "Nice postcard from an artist I used to follow on Twitter"
+        },
+        {
+          "filename": "link5.jpg",
+          "order": 14,
+          "description": "Nice postcard from an artist I used to follow on Twitter"
+        },
+        {
+          "filename": "link6.jpg",
+          "order": 13,
+          "description": "Nice postcard from an artist I used to follow on Twitter"
+        },
+        {
+          "filename": "link7.jpg",
+          "order": 12,
+          "description": "Nice postcard from an artist I used to follow on Twitter"
+        },
+        {
+          "filename": "link8.jpg",
+          "order": 5,
+          "description": "Cool official Nintendo poster"
+        },
+        {
+          "filename": "link9.jpg",
+          "order": 4,
+          "description": "Nice drawing of Link looking hot in his male gerudo outfit"
+        },
+        {
+          "filename": "link10.jpg",
+          "order": 3,
+          "description": "Cool poster that Ichsan got for me, I loved it so much"
+        },
+        {
+          "filename": "link11.jpg",
+          "order": 8,
+          "description": "The poster that came with the puzzle for this image"
+        },
+        {
+          "filename": "link12.jpg",
+          "order": 2,
+          "description": "A fun breath of the wild thing I found at a convention"
+        },
+        {
+          "filename": "link13.jpg",
+          "order": 1,
+          "description": "A beautiful big poster from an artist I used to follow on Patreon (Orioto)"
+        },
+        {
+          "filename": "link14.jpg",
+          "order": 9,
+          "description": "The puzzle itself"
+        },
+        {
+          "filename": "link15.jpg",
+          "order": 10,
+          "description": "The cardboard from the box of the puzzle"
+        },
+        {
+          "filename": "link16.jpg",
+          "order": 11,
+          "description": "A tiny part of the side of the box of the puzzle"
+        }
+      ]
     },
     {
       "name": "Samus",
       "icon": "Samus (1).png",
       "picture": ["samus.jpg", "samus-2.jpg", "samus-3.png"],
-      "description": "Lots of different kinds of people main Samus because she is so popular and cool. Tragically however, none of the people playing Samus are popular or cool themselves"
+      "main": "Lots of different kinds of people main Samus because she is so popular and cool. Tragically however, none of the people playing Samus are popular or cool themselves",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I've played all the 2D Metroids, and most of the 3D ones apart from Other M. I love Metroid!",
+      "deco": [
+        {
+          "filename": "samus1.jpg",
+          "order": 1,
+          "description": "Cool Metroid 2 poster, can't remember where I got it"
+        },
+        {
+          "filename": "samus2.jpg",
+          "order": 2,
+          "description": "Cool Super Metroid poster"
+        },
+        {
+          "filename": "samus3.jpg",
+          "order": 3,
+          "description": "Awesome sticker I got from a nintendo booth at a convention"
+        }
+      ]
     },
     {
       "name": "Dark Samus",
       "icon": "Dark Samus (1).png",
       "picture": ["dark-samus.jpg", "dark-samus-2.jpg", "dark-samus-3.jpg"],
-      "description": "Dark Samus players are just edgelords. Probably a child"
+      "main": "Dark Samus players are just edgelords. Probably a child",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I really enjoyed Metroid Prime 2! This character is so creepy and horrible though.",
+      "deco": []
     },
     {
       "name": "Yoshi",
       "icon": "Yoshi (1).png",
       "picture": ["yoshi.webp", "yoshi-2.gif", "yoshi-3.png"],
-      "description": "Yoshi players are living in some kind of fantasy land. Their heads are in the clouds. They drift through life with reckless abandon"
+      "main": "Yoshi players are living in some kind of fantasy land. Their heads are in the clouds. They drift through life with reckless abandon",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I loved Yoshi's Story as a child, played all the Yoshi's Island games too. Love this series.",
+      "deco": [
+        {
+          "filename": "yoshi1.jpg",
+          "order": 1,
+          "description": "An early painting of mine"
+        },
+        {
+          "filename": "yoshi2.jpg",
+          "order": 2,
+          "description": "A cool japanese Yoshi's Island box"
+        },
+        {
+          "filename": "yoshi3.jpg",
+          "order": 3,
+          "description": "A pink yoshi plush that's a bit worse for wear"
+        },
+        {
+          "filename": "yoshi4.jpg",
+          "order": 4,
+          "description": "A sticker that Marco gave me"
+        }
+      ]
     },
     {
       "name": "Kirby",
       "icon": "Kirby (1).png",
       "picture": ["kirby.jpg", "kirby-2.jpg", "kirby-3.png"],
-      "description": "Kirby players tend to be new players who are still learning how to recover to stage. Kirby mains get a little overwhelmed by all the stimulus on the screen and fly to the top and gently all back to stage looking for some brief respite. Once they learn to cheese with inhale, they reach true levels of kirby nonsense that they are destined for."
+      "main": "Kirby players tend to be new players who are still learning how to recover to stage. Kirby mains get a little overwhelmed by all the stimulus on the screen and fly to the top and gently all back to stage looking for some brief respite. Once they learn to cheese with inhale, they reach true levels of kirby nonsense that they are destined for.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I'm missing a few Kirby games but I've played the vast majority and loved them.",
+      "deco": [
+        {
+          "filename": "kirby1.jpg",
+          "order": 1,
+          "description": "A painting that I actually made twice because I wasn't satisfied with the first one. I'm honestly still not satisfied with it"
+        },
+        {
+          "filename": "kirby1.jpg",
+          "order": 2,
+          "description": "A cute kirby I bought in Mexico"
+        }
+      ]
     },
     {
       "name": "Fox",
       "icon": "Fox (1).png",
       "picture": ["fox.jpg", "fox-2.jpg", "fox-3.jpg"],
-      "description": "Fox mains are extroverts, larger than life, ready for anything. They are keen beans. They are honest, and will not tell you lies"
+      "main": "Fox mains are extroverts, larger than life, ready for anything. They are keen beans. They are honest, and will not tell you lies",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Loved Lylat Wars, but never truly got into the rest of the series",
+      "deco": []
     },
     {
       "name": "Pikachu",
       "icon": "Pikachu (1).png",
       "picture": ["pikachu.jpg", "pikachu-2.webp", "pikachu-3.jpg"],
-      "description": "Pikachu players will insist their character is cool and popular and try themselves to act cool and popular, but they will inevitably end up camping you with Thunderjolt in the game, and probably stabbing you in the back in real life or something idk"
+      "main": "Pikachu players will insist their character is cool and popular and try themselves to act cool and popular, but they will inevitably end up camping you with Thunderjolt in the game, and probably stabbing you in the back in real life or something idk",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I have played all the Pokemon generations apart from Gen 9 because I had really given up hope by this point. Love classic Pokemon though. I had Pokemon Yellow as a child.",
+      "deco": [
+        {
+          "filename": "pikachu1.jpg",
+          "order": 1,
+          "description": "Nice poster that Franz got me"
+        },
+        {
+          "filename": "pikachu2.jpg",
+          "order": 1,
+          "description": "Arturo made me this sign and it features Pikachus!"
+        },
+        {
+          "filename": "pikachu3.jpg",
+          "order": 1,
+          "description": "Very mid poster featuring Pikachu"
+        },
+        {
+          "filename": "pikachu4.jpg",
+          "order": 1,
+          "description": "Cute sticker I found"
+        }
+      ]
     },
     {
       "name": "Luigi",
       "icon": "Luigi (1).png",
       "picture": ["luigi.png", "luigi-2.jpg", "luigi-3.jpg"],
-      "description": "Luigi mains throughout history (Netanyahu, Chairman Mao, Hitler...) have always shown a propensity towards war crimes. They may be able to hide it, because they are ultimately successful people, but that grab combo is fascist and so are they"
+      "main": "Luigi mains throughout history (Netanyahu, Chairman Mao, Hitler...) have always shown a propensity towards war crimes. They may be able to hide it, because they are ultimately successful people, but that grab combo is fascist and so are they",
+      "played": false,
+      "completed": false,
+      "understood": false,
+      "playedDescription": "I never played Luigi's Mansion! I will do it eventually, but it just looks so boring...",
+      "deco": [
+        {
+          "filename": "luigi1.jpg",
+          "order": 1,
+          "description": "A cool poster that Franz got for me"
+        },
+        {
+          "filename": "luigi2.jpg",
+          "order": 2,
+          "description": "Luigi features on this cool 3D picture"
+        },
+        {
+          "filename": "luigi3.jpg",
+          "order": 3,
+          "description": "I found this cool sticker"
+        }
+      ]
     },
     {
       "name": "Ness",
       "icon": "Ness (1).png",
       "picture": ["ness.jpg", "ness-2.jpg", "ness-3.jpg"],
-      "description": "Ness mains are annoying children who fully and wholly reflect their character. They are unperturbed by his constant screaming"
+      "main": "Ness mains are annoying children who fully and wholly reflect their character. They are unperturbed by his constant screaming",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love Earthbound with all my heart, and I even played Mother 1 as well.",
+      "deco": [
+        {
+          "filename": "ness1.jpg",
+          "order": 1,
+          "description": "I cross-stitched this a million years ago"
+        }
+      ]
     },
     {
       "name": "Captain Falcon",
       "icon": "Captain Falcon (1).png",
       "picture": ["captain-falcon.webp", "captain-falcon-2.jpg", "captain-falcon-3.jpg_large"],
-      "description": "Captain Falcon mains are simple men who enjoy simple pleasures. After all, is there anything more hype than landing a Falcon Punch? You Falcon mains may think you're straight, but take a look at those abs through that skin-tight body suit and those nipple-like buttons and tell me you're not turned on"
+      "main": "Captain Falcon mains are simple men who enjoy simple pleasures. After all, is there anything more hype than landing a Falcon Punch? You Falcon mains may think you're straight, but take a look at those abs through that skin-tight body suit and those nipple-like buttons and tell me you're not turned on",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "F-Zero X on the N64 was my jam, I actually got good at that. The original and F-Zero 99 also a lot of fun. Let's see about GX though.",
+      "deco": []
     },
     {
       "name": "Jigglypuff",
       "icon": "Jigglypuff (1).png",
       "picture": ["jigglypuff.jpg", "jigglypuff-2.jpg", "jigglypuff-3.png"],
-      "description": "Pink, cute and bubbly make for a fun character to main, but for puff mains it's not just about those things but rather committing war crimes. Stealing lives at 40% and edgeguarding with nair are ruled as war crimes by the international court of justice"
+      "main": "Pink, cute and bubbly make for a fun character to main, but for puff mains it's not just about those things but rather committing war crimes. Stealing lives at 40% and edgeguarding with nair are ruled as war crimes by the international court of justice",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Loved the OG Pokemon games. I remember the Jigglypuff in Pewter city that sings you to sleep.",
+      "deco": [
+        {
+          "filename": "jigglypuff1.jpg",
+          "order": 2,
+          "description": "Cute Amiibo"
+        },
+        {
+          "filename": "jigglypuff2.jpg",
+          "order": 1,
+          "description": "Super fun little sticker that Tobias gave me"
+        }
+      ]
     },
     {
       "name": "Peach",
       "icon": "Peach (1).png",
       "picture": ["peach.jpg_large", "peach-2.jpg", "peach-3.png"],
-      "description": "A real Peach main understands that landing JCFF tomahawk grab is better than a good meal, landing drag down up air combos is better than sex, and landing a zero to death turnip combo is so good that you grow weed in your apartment and give it to all your friends with the name 'Turnip Combo'"
+      "main": "A real Peach main understands that landing JCFF tomahawk grab is better than a good meal, landing drag down up air combos is better than sex, and landing a zero to death turnip combo is so good that you grow weed in your apartment and give it to all your friends with the name 'Turnip Combo'",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Yes, I played Super Princess Peach and I hated it. No, I didn't play Princess Peach Showtime and that's OK, it's a game for children.",
+      "deco": [
+        {
+          "filename": "peach1.jpg",
+          "order": 4,
+          "description": "Cute pic from a convention"
+        },
+        {
+          "filename": "peach2.jpg",
+          "order": 5,
+          "description": "Another cute pic from a convention"
+        },
+        {
+          "filename": "peach3.jpg",
+          "order": 7,
+          "description": "Adorable picture that a friend from the smash community drew for me"
+        },
+        {
+          "filename": "peach4.jpg",
+          "order": 10,
+          "description": "Cursed postcard that Diego made"
+        },
+        {
+          "filename": "peach5.jpg",
+          "order": 8,
+          "description": "An awesome trading card that Bubbly made!"
+        },
+        {
+          "filename": "peach6.jpg",
+          "order": 9,
+          "description": "Cute drawing of Peach having a moment looking at ZSS"
+        },
+        {
+          "filename": "peach7.jpg",
+          "order": 11,
+          "description": "Peach features in this cool 3D image"
+        },
+        {
+          "filename": "peach8.jpg",
+          "order": 2,
+          "description": "This is from the old big smash poster, used as inspiration for the painting in the kitchen"
+        },
+        {
+          "filename": "peach9.jpg",
+          "order": 1,
+          "description": "A fun long painting I did! She's SDing"
+        },
+        {
+          "filename": "peach10.jpg",
+          "order": 3,
+          "description": "A cursed Peach toy I found in Mexico"
+        },
+        {
+          "filename": "peach11.jpg",
+          "order": 12,
+          "description": "A cursed lego Peach thing"
+        },
+        {
+          "filename": "peach12.jpg",
+          "order": 13,
+          "description": "A little figurine that I bought as a prize for smash tournaments but kept instead"
+        },
+        {
+          "filename": "peach13.jpg",
+          "order": 14,
+          "description": "A baby peach plush that Diego told me was creepy and shouldn't be on display"
+        },
+        {
+          "filename": "peach14.jpg",
+          "order": 15,
+          "description": "A nintendo sticker I found"
+        },
+        {
+          "filename": "peach15.jpg",
+          "order": 16,
+          "description": "Another cute sticker I found"
+        },
+        {
+          "filename": "peach16.jpg",
+          "order": 6,
+          "description": "Another cute pic from a convention"
+        }
+      ]
     },
     {
       "name": "Daisy",
       "icon": "Daisy (1).png",
       "picture": ["daisy.jpg", "daisy-2.jpg", "daisy-3.png"],
-      "description": "Daisy mains are equally as fabulous as Peach mains, except they butter their toast on both sides, sit on armchairs with one leg under their bum, and sleep around more"
+      "main": "Daisy mains are equally as fabulous as Peach mains, except they butter their toast on both sides, sit on armchairs with one leg under their bum, and sleep around more",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played and loved Super Mario Land! Although I feel like Daisy represents the Mario Sports series, which is also great.",
+      "deco": [
+        {
+          "filename": "daisy1.jpg",
+          "order": 1,
+          "description": "A figurine I got for prizes for side events for tournaments. She's upside down because she's just that kinda gal. I'm a bit nervous that I superglued her to this lamp and now won't be able to sell it if I have to move"
+        }
+      ]
     },
     {
       "name": "Bowser",
       "icon": "Bowser (1).png",
       "picture": ["bowser.webp", "bowser-2.jpg", "bowser-3.png"],
-      "description": "Bowser mains have Big Dick Energy. They are here to fuck. In rare occasions, they are instead compensating for something else"
+      "main": "Bowser mains have Big Dick Energy. They are here to fuck. In rare occasions, they are instead compensating for something else",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I didn't play Bowser's Inside Story but I did play almost every other game featuring Bowser. Bowser's Fury is great.",
+      "deco": [
+        {
+          "filename": "bowser1.jpg",
+          "order": 1,
+          "description": "A poster made for our TO team back in like 2023"
+        },
+        {
+          "filename": "bowser2.jpg",
+          "order": 2,
+          "description": "Bowser features in this cool 3d picture"
+        },
+        {
+          "filename": "bowser3.jpg",
+          "order": 3,
+          "description": "A nice sticker I found"
+        }
+      ]
     },
     {
       "name": "Ice Climbers",
       "icon": "Ice Climbers (1).png",
       "picture": ["ice-climbers.jpg", "ice-climbers-2.jpg", "ice-climbers-3.jpg"],
-      "description": "Ice Climber mains could have invested the time they spent labbing the combos into doing a PhD. Instead of complaining about Nana being useless they could have learned a new skill instead. Instead of going 0-2 they could have just picked up Steve and won but no, Ice Climber mains play Ice Climbers as their one and only hobby"
+      "main": "Ice Climber mains could have invested the time they spent labbing the combos into doing a PhD. Instead of complaining about Nana being useless they could have learned a new skill instead. Instead of going 0-2 they could have just picked up Steve and won but no, Ice Climber mains play Ice Climbers as their one and only hobby",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I honestly think Ice Climber is a shit game. You can't really complete it because it's a high-score arcade game but I played it enough over the years.",
+      "deco": [
+        {
+          "filename": "iceclimbers1.jpg",
+          "order": 1,
+          "description": "I painted this!"
+        }
+      ]
     },
     {
       "name": "Sheik",
       "icon": "Sheik (1).png",
       "picture": ["sheik.webp", "sheik-2.jpg", "sheik-3.jpg"],
-      "description": "Sheik mains think they're so goddamn cool"
+      "main": "Sheik mains think they're so goddamn cool",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Ocarina of Time is a masterpiece.",
+      "deco": [
+        {
+          "filename": "sheik1.jpg",
+          "order": 1,
+          "description": "Awesome official Nintendo poster"
+        },
+        {
+          "filename": "sheik2.jpg",
+          "order": 2,
+          "description": "A poster made for our TO team back in like 2023"
+        }
+      ]
     },
     {
       "name": "Zelda",
       "icon": "Zelda (1).png",
       "picture": ["zelda.jpg", "zelda-2.png", "zelda-3.jpg"],
-      "description": "Zelda is the most stunning, beautiful character in the game, and Zelda mains understand that better than anyone else. Zelda mains have an eye for aesthetics, style and fashion. They understand that the inherent beauty behind every smash game must not be soiled by ugly characters"
+      "main": "Zelda is the most stunning, beautiful character in the game, and Zelda mains understand that better than anyone else. Zelda mains have an eye for aesthetics, style and fashion. They understand that the inherent beauty behind every smash game must not be soiled by ugly characters",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I loved Echoes of Wisdom! And I love Zelda in general.",
+      "deco": [
+        {
+          "filename": "zelda1.jpg",
+          "order": 1,
+          "description": "Awesome official Nintendo poster"
+        },
+        {
+          "filename": "zelda2.jpg",
+          "order": 2,
+          "description": "Not so cute Amiibo"
+        }
+      ]
     },
     {
       "name": "Dr. Mario",
       "icon": "Dr Mario (1).png",
       "picture": ["dr-mario.jpg", "dr-mario.png", "dr-mario.png"],
-      "description": "Dr. Mario fucks. And so do Dr. Mario mains. They don't care about your feelings, nor do they care about tournament results. They came to fuck."
+      "main": "Dr. Mario fucks. And so do Dr. Mario mains. They don't care about your feelings, nor do they care about tournament results. They came to fuck.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Dr. Mario 64 and found it to be a pretty weak puzzle game. I beat the story mode by bashing my head against a wall until I won by luck.",
+      "deco": []
     },
     {
       "name": "Pichu",
       "icon": "Pichu (1).png",
       "picture": ["pichu.webp", "pichu-2.png", "pichu-3.jpg"],
-      "description": "In order to main Pichu you need to be at peace with the fact that life is fleeting and all things pass. At first glance, Pichu mains seem frantic, excitable or dare I say trigger-happy, but deep-down they are prepared to take whatever life dishes out, even if that means losing a stock at 40 to an F-smash"
+      "main": "In order to main Pichu you need to be at peace with the fact that life is fleeting and all things pass. At first glance, Pichu mains seem frantic, excitable or dare I say trigger-happy, but deep-down they are prepared to take whatever life dishes out, even if that means losing a stock at 40 to an F-smash",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Generation 2 is my jam. Loved it!",
+      "deco": [
+        {
+          "filename": "pichu1.jpg",
+          "order": 1,
+          "description": "I made this with modelling clay!"
+        },
+        {
+          "filename": "pichu2.jpg",
+          "order": 2,
+          "description": "A big keychain I found in Mexico"
+        }
+      ]
     },
     {
       "name": "Falco",
       "icon": "Falco (1).png",
       "picture": ["falco.webp", "falco-2.png", "falco-3.png"],
-      "description": "Falco mains are bitter. They love to complain about the game and threaten to quit playing. But they always come crawling back, and they always return to their one true love: Falco"
+      "main": "Falco mains are bitter. They love to complain about the game and threaten to quit playing. But they always come crawling back, and they always return to their one true love: Falco",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Lylat Wars and loved it but never explored outside of that.",
+      "deco": [
+        {
+          "filename": "falco1.jpg",
+          "order": 1,
+          "description": "A poster made for our TO team back in like 2023"
+        }
+      ]
     },
     {
       "name": "Marth",
       "icon": "Marth (1).png",
       "picture": ["marth.webp", "marth-2.jpg", "marth-3.jpg"],
-      "description": "Marth mains, or 'Tipper Freaks', play this character exclusively for the satisfaction of stealing an early kill with a perfect tipper. However hitting that tipper is kinda like gambling. Therefore, Marth mains are kinda addicted to gambling"
+      "main": "Marth mains, or 'Tipper Freaks', play this character exclusively for the satisfaction of stealing an early kill with a perfect tipper. However hitting that tipper is kinda like gambling. Therefore, Marth mains are kinda addicted to gambling",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Shadow Dragon on the DS and found it to be a very boring story with plain characters and not much going for it.",
+      "deco": []
     },
     {
       "name": "Lucina",
       "icon": "Lucina (1).png",
       "picture": ["lucina.jpg", "lucina-2.gif", "lucina-3.png"],
-      "description": "Similar to Mario mains, Lucina mains enjoy plain doughnuts without jam, bread without butter, spaghetti without sauce, except maybe they also have a social life"
+      "main": "Similar to Mario mains, Lucina mains enjoy plain doughnuts without jam, bread without butter, spaghetti without sauce, except maybe they also have a social life",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I really enjoyed Fire Emblem Awakening!",
+      "deco": [
+        {
+          "filename": "lucina1.jpg",
+          "order": 1,
+          "description": "I made this with hama beads!"
+        }
+      ]
     },
     {
       "name": "Young Link",
       "icon": "Young Link (1).png",
       "picture": ["young-link.webp", "young-link-2.png", "young-link-3.png"],
-      "description": "So many Young Link players end up being Americans who just want to come and whine."
+      "main": "So many Young Link players end up being Americans who just want to come and whine.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Ocarina of Time and Majora's Mask are both timeless classics.",
+      "deco": [
+        {
+          "filename": "younglink1.jpg",
+          "order": 1,
+          "description": "Awesome official Nintendo poster"
+        }
+      ]
     },
     {
       "name": "Ganondorf",
       "icon": "Ganondorf (1).png",
       "picture": ["ganondorf.jpg", "ganondorf-2.jpg", "ganondorf-3.png"],
-      "description": "A variation on the Captain Falcon main's 'Simple men who enjoy simple pleasures' but more masochistic. A Ganondorf main has to actually take pleasure in playing such a bad character. When they lose, it's fine because it's Ganon, but when they win, you just know they will gloat about it."
+      "main": "A variation on the Captain Falcon main's 'Simple men who enjoy simple pleasures' but more masochistic. A Ganondorf main has to actually take pleasure in playing such a bad character. When they lose, it's fine because it's Ganon, but when they win, you just know they will gloat about it.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I've played almost all the Zelda games and loved them.",
+      "deco": [
+        {
+          "filename": "ganon1.jpg",
+          "order": 1,
+          "description": "Awesome official Nintendo poster"
+        }
+      ]
     },
     {
       "name": "Mewtwo",
       "icon": "Mewtwo (1).png",
       "picture": ["mewtwo", "mewtwo-2.png", "mewtwo-3.png"],
-      "description": "Mewtwo is a character for big-brain people. They don't just organise their gameplan into a flowchart, they organise their life into one."
+      "main": "Mewtwo is a character for big-brain people. They don't just organise their gameplan into a flowchart, they organise their life into one.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I'll always remember encountering Mewtwo in Cerulean Cave.",
+      "deco": [
+        {
+          "filename": "mewtwo1.jpg",
+          "order": 1,
+          "description": "A cool huge mewtwo card from Friki Plaza in Mexico"
+        },
+        {
+          "filename": "mewtwo2.jpg",
+          "order": 2,
+          "description": "The same card from a different angle! It also has Mew"
+        },
+        {
+          "filename": "mewtwo3.jpg",
+          "order": 3,
+          "description": "Bit of a weak picture of Mewtwo"
+        }
+      ]
     },
     {
       "name": "Roy",
       "icon": "Roy (1).png",
       "picture": ["roy.png", "roy-2.jpg", "roy-3.jpg"],
-      "description": "Roy mains are always driving in fifth gear. They want to see immediate results when they do something. They expect constant improvement and progress. In game they are constantly doing, doing and doing some more. In real life, too"
+      "main": "Roy mains are always driving in fifth gear. They want to see immediate results when they do something. They expect constant improvement and progress. In game they are constantly doing, doing and doing some more. In real life, too",
+      "played": true,
+      "completed": false,
+      "understood": true,
+      "playedDescription": "I thought I would count this as completed because I beat FE7, a genuinely good game. But FE6? A struggle. I got halfway through then lost my save file.",
+      "deco": [
+        {
+          "filename": "roy1.jpg",
+          "order": 1,
+          "description": "A fun postcard of Roy that I found at a convention"
+        },
+        {
+          "filename": "roy2.jpg",
+          "order": 2,
+          "description": "A poster made for our TO team back in like 2023"
+        }
+      ]
     },
     {
       "name": "Chrom",
       "icon": "Chrom (1).png",
       "picture": ["chrom.gif", "chrom-2.jpg", "chrom-3.jpg"],
-      "description": "Similar to Roy mains, Chrom mains are always driving in fifth gear. However, they understand, unlike Roy mains, that sometimes, life doesn't allow for the lifestyle you desire. Sometimes, you have to stop pressing buttons"
+      "main": "Similar to Roy mains, Chrom mains are always driving in fifth gear. However, they understand, unlike Roy mains, that sometimes, life doesn't allow for the lifestyle you desire. Sometimes, you have to stop pressing buttons",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I really enjoyed Fire Emblem Awakening!",
+      "deco": [
+        {
+          "filename": "chrom1.jpg",
+          "order": 1,
+          "description": "I made this with hama beads!"
+        }
+      ]
     },
     {
       "name": "Mr. Game & Watch",
       "icon": "Mr Game & Watch (1).png",
       "picture": ["game-watch.webp", "game-watch-2.webp", "game-watch-3.jpg"],
-      "description": "Game and Watch mains are very suspicious. What are they up to? Why did they laugh at that thing I said that wasn't a joke? Are they fishing for a 9? What is their collective agenda? Why play as a character with so few vibes as this"
+      "main": "Game and Watch mains are very suspicious. What are they up to? Why did they laugh at that thing I said that wasn't a joke? Are they fishing for a 9? What is their collective agenda? Why play as a character with so few vibes as this",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "My friend Fab got this Legend of Zelda Game and Watch where I could play the game 'Ball', which was boring and had no end. It didn't get harder so eventually I just chose to lose.",
+      "deco": [
+        {
+          "filename": "gnw1.jpg",
+          "order": 2,
+          "description": "I just printed this out from the internet because I loved this artist (hungry_clicker)"
+        },
+        {
+          "filename": "gnw2.jpg",
+          "order": 1,
+          "description": "A cool old photo of Oberbaumbrücke that I decided to spruce up with this cool sticker of Game and Watch"
+        }
+      ]
     },
     {
       "name": "Meta Knight",
       "icon": "Meta Knight (1).png",
       "picture": ["meta-knight.jpg", "meta-knight-2.jpeg", "meta-knight-3.png"],
-      "description": "Meta Knight is a shadow of his former self from previous games, only those who cling to those times still play him. They are living in a fantasy world"
+      "main": "Meta Knight is a shadow of his former self from previous games, only those who cling to those times still play him. They are living in a fantasy world",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love Kirby games and I love all the parts with Meta Knight.",
+      "deco": []
     },
     {
       "name": "Pit",
       "icon": "Pit (1).png",
       "picture": ["pit.jpg", "pit-2.jpg", "pit-3.jpg"],
-      "description": "Pit players are the real deal. They can give a good handshake, they will probably beat you at billiards, they'll buy you a drink at the bar. They probably have a heart of gold."
+      "main": "Pit players are the real deal. They can give a good handshake, they will probably beat you at billiards, they'll buy you a drink at the bar. They probably have a heart of gold.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Kid Icarus uprising and didn't love it. Never played the original.",
+      "deco": []
     },
     {
       "name": "Dark Pit",
       "icon": "Dark Pit (1).png",
       "picture": ["dark-pit.jpg", "dark-pit-2.png", "dark-pit-3.jpg"],
-      "description": "Dark Pit players, just like Pit players, are also the real deal, although arguably a tiny bit spicier. They can give a good fistbump, will probably beat you at billiards AND ping pong, and take a sip of your drink without asking. They probably have a heart of gold."
+      "main": "Dark Pit players, just like Pit players, are also the real deal, although arguably a tiny bit spicier. They can give a good fistbump, will probably beat you at billiards AND ping pong, and take a sip of your drink without asking. They probably have a heart of gold.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Kid Icarus uprising and didn't love it.",
+      "deco": []
     },
     {
       "name": "Zero Suit Samus",
       "icon": "Zero Suit Samus (1).png",
       "picture": ["zero-suit-samus.jpg", "zero-suit-samus-2.png", "zero-suit-samus-3.jpg"],
-      "description": "ZSS players start playing her because she's hot. Actually that's the only real reason people play her I think"
+      "main": "ZSS players start playing her because she's hot. Actually that's the only real reason people play her I think",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I loved Metroid Zero Mission! Banger game! Wild that they made a character out of this game's epilogue!",
+      "deco": [
+        {
+          "filename": "zss1.jpg",
+          "order": 1,
+          "description": "Super cute drawing of her having a moment with Princess Peach"
+        }
+      ]
     },
     {
       "name": "Wario",
       "icon": "Wario (1).png",
       "picture": ["wario.jpg", "wario-2.PNG", "wario-3.jpg"],
-      "description": "I would be very suspicious if your spouse told you they main Wario. Are they cheating? Are they gambling? How are their finances?"
+      "main": "I would be very suspicious if your spouse told you they main Wario. Are they cheating? Are they gambling? How are their finances?",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love WarioWare and also Wario Land 4.",
+      "deco": [
+        {
+          "filename": "wario1.jpg",
+          "order": 3,
+          "description": "A poster made for our TO team back in like 2023"
+        },
+        {
+          "filename": "wario2.jpg",
+          "order": 1,
+          "description": "Cool little figurine I got when I bought a bunch of them as prizes for side events at tournaments"
+        },
+        {
+          "filename": "wario3.jpg",
+          "order": 2,
+          "description": "Fun sticker I got from some nintendo thing"
+        }
+      ]
     },
     {
       "name": "Snake",
       "icon": "Snake (1).png",
       "picture": ["snake.jpg", "snake-2.jpg", "snake-3.png"],
-      "description": "A lover of chaos. If they are not already a criminal, they will eventually commit a crime"
+      "main": "A lover of chaos. If they are not already a criminal, they will eventually commit a crime",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Metal Gear Solid 1 and it was cool to see the references from Smash, but I didn't enjoy myself really and won't play anymore.",
+      "deco": [
+        {
+          "filename": "snake1.jpg",
+          "order": 1,
+          "description": "I just printed this out because this artist (hungry_clicker) is so great"
+        }
+      ]
     },
     {
       "name": "Ike",
       "icon": "Ike (1).png",
       "picture": ["ike.jpg", "ike-2.jpg", "ike-3.png"],
-      "description": "Despite Ike being such a gay character, I've never known an Ike main to proudly display queerness in any way. So after thinking about it for a while, I've decided that it must be a repressive masculinity thing. You can at least get a glimpse of the truth by seeing if they play as Top Ike or Bottom Ike (or both!)"
+      "main": "Despite Ike being such a gay character, I've never known an Ike main to proudly display queerness in any way. So after thinking about it for a while, I've decided that it must be a repressive masculinity thing. You can at least get a glimpse of the truth by seeing if they play as Top Ike or Bottom Ike (or both!)",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I loved Radiant Dawn, and eventually later in life played Path of Radiance.",
+      "deco": []
     },
     {
       "name": "Pokémon Trainer",
       "icon": "Pokemon Trainer (1).png",
       "picture": ["pokemon-trainer.jpg", "pokemon-trainer-2.png", "pokemon-trainer-3.jpg"],
-      "description": "PT mains think they are free, they can win games with any pokemon they want, they can make their way through life as they choose. However in reality, they play Squirtle at the start, but rely on Ivysaur for difficult match ups, and Charizard for last hit situations. The game is telling us to play this character in this certain way, and society tells us to live our lives in a certain way. PT players must understand this"
+      "main": "PT mains think they are free, they can win games with any pokemon they want, they can make their way through life as they choose. However in reality, they play Squirtle at the start, but rely on Ivysaur for difficult match ups, and Charizard for last hit situations. The game is telling us to play this character in this certain way, and society tells us to live our lives in a certain way. PT players must understand this",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love Pokemon games!",
+      "deco": [
+        {
+          "filename": "pokemontrainer1.jpg",
+          "order": 1,
+          "description": "The weird uncomfortably shaped sudowoodo as a cross stitch. Made it ages ago"
+        },
+        {
+          "filename": "pokemontrainer2.jpg",
+          "order": 2,
+          "description": "Rosie made this with hama beads and gave it to me (in exchange for something I made)"
+        }
+      ]
     },
     {
       "name": "Diddy Kong",
       "icon": "Diddy Kong (1).png",
       "picture": ["diddy-kong.jpg", "diddy-kong-2.png", "diddy-kong-3.jpg"],
-      "description": "Diddy Kong mains aren't as cool or special as they think they are. To main this character you have to be cool with listening to constant monkey screams, which I think says a lot."
+      "main": "Diddy Kong mains aren't as cool or special as they think they are. To main this character you have to be cool with listening to constant monkey screams, which I think says a lot.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love the Donkey Kong series!",
+      "deco": [
+        {
+          "filename": "diddy1.jpg",
+          "order": 2,
+          "description": "A poster made for our TO team back in like 2023"
+        },
+        {
+          "filename": "diddy2.jpg",
+          "order": 1,
+          "description": "Fun plastic toy I got when I bought some figurines for side event prizes at tournaments"
+        }
+      ]
     },
     {
       "name": "Lucas",
       "icon": "Lucas (1).png",
       "picture": ["lucas.jpg", "lucas-2.jpg", "lucas-3.jpg"],
-      "description": "Most Lucas mains I know are just fans of Mother 3, which for me is a huge green flag. They are emotionally intelligent and have excellent taste"
+      "main": "Most Lucas mains I know are just fans of Mother 3, which for me is a huge green flag. They are emotionally intelligent and have excellent taste",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love Mother 3 with all my heart.",
+      "deco": [
+        {
+          "filename": "lucas1.jpg",
+          "order": 1,
+          "description": "Beautiful poster that I ordered online"
+        }
+      ]
     },
     {
       "name": "Sonic",
       "icon": "Sonic (1).png",
       "picture": ["sonic.jfif", "sonic-2.png", "sonic-3.png"],
-      "description": "Cowards! Sonic mains will run from their problems, their responsibilities, and you. In real life you can't pressure them with projectiles, so it's best to try to persuade them to drop Sonic instead"
+      "main": "Cowards! Sonic mains will run from their problems, their responsibilities, and you. In real life you can't pressure them with projectiles, so it's best to try to persuade them to drop Sonic instead",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I was a fan of the 2D sonics as a child. Hated the 3D sonics.",
+      "deco": [
+        {
+          "filename": "sonic1.jpg",
+          "order": 1,
+          "description": "Painting I did as an homage to this really hard-to-understand part of Sonic 3"
+        }
+      ]
     },
     {
       "name": "King Dedede",
       "icon": "King Dedede (1).png",
       "picture": ["king-dedede.jpg", "king-dedede-2.jpg", "king-dedede-3.png"],
-      "description": "King Dedede mains are here to have fun. They don't even take their pleasure from hitting with the big hammer, they only play the game to enjoy his waddling walk animation, as well as his crouch"
+      "main": "King Dedede mains are here to have fun. They don't even take their pleasure from hitting with the big hammer, they only play the game to enjoy his waddling walk animation, as well as his crouch",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love the Kirby series!",
+      "deco": [
+        {
+          "filename": "dedede1.jpg",
+          "order": 1,
+          "description": "Dedede features on this cute leaflet"
+        }
+      ]
     },
     {
       "name": "Olimar",
       "icon": "Olimar (1).png",
       "picture": ["olimar.PNG", "olimar-2.webp", "olimar-3.png"],
-      "description": "Olimar mains are so rare that when you do find one you have to preserve them. They are uniquely skilled in that they can deal with relying on unreliable friends and taking what they are given. They are changeable, adaptable, and dare I say, fickle"
+      "main": "Olimar mains are so rare that when you do find one you have to preserve them. They are uniquely skilled in that they can deal with relying on unreliable friends and taking what they are given. They are changeable, adaptable, and dare I say, fickle",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love Pikmin and have played all of the games and love them.",
+      "deco": [
+        {
+          "filename": "olimar1.jpg",
+          "order": 1,
+          "description": "Beautiful big poster that I bought online from an artist (Orioto) I used to support on Patreon"
+        },
+        {
+          "filename": "olimar2.jpg",
+          "order": 3,
+          "description": "Cool merch from the nintendo store that Marco told me about"
+        },
+        {
+          "filename": "olimar3.jpg",
+          "order": 4,
+          "description": "Cute Amiibo"
+        },
+        {
+          "filename": "olimar4.jpg",
+          "order": 2,
+          "description": "Hidden paintings! Also some of my very first paintings"
+        },
+        {
+          "filename": "olimar5.jpg",
+          "order": 5,
+          "description": "Cute sticker"
+        },
+        {
+          "filename": "olimar6.jpg",
+          "order": 6,
+          "description": "Another cute sticker"
+        }
+      ]
     },
     {
       "name": "Lucario",
       "icon": "Lucario (1).png",
       "picture": ["lucario.jpg", "lucario-2.jpg", "lucario-3.png"],
-      "description": "Lucario mains live life on the edge. They are adrenaline junkies and love danger in general. Catch them on a nearby rollercoaster, or burning a match right down the whole length of the stick and hurting themselves, or fishing for back air"
+      "main": "Lucario mains live life on the edge. They are adrenaline junkies and love danger in general. Catch them on a nearby rollercoaster, or burning a match right down the whole length of the stick and hurting themselves, or fishing for back air",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Generation 4 is great. Loved Pokemon Diamond back in the day, although I never got Lucario because he's so ugly.",
+      "deco": [
+        {
+          "filename": "lucario1.jpg",
+          "order": 1,
+          "description": "Fun picture of rainbow gay lucario that I found at a convention"
+        },
+        {
+          "filename": "lucario2.jpg",
+          "order": 2,
+          "description": "Very mid picture featuring Lucario"
+        }
+      ]
     },
     {
       "name": "R.O.B.",
       "icon": "Rob (1).png",
       "picture": ["rob.png", "rob-2.png", "rob-3.png"],
-      "description": "R.O.B. has little to no good fan-art for a good reason: it's a boring grey robot. R.O.B. mains are either also boring and grey, or they realised that it's much easier to win tournaments with this character than their actual favourite character and are therefore weak traitors to their actual mains"
+      "main": "R.O.B. has little to no good fan-art for a good reason: it's a boring grey robot. R.O.B. mains are either also boring and grey, or they realised that it's much easier to win tournaments with this character than their actual favourite character and are therefore weak traitors to their actual mains",
+      "played": false,
+      "completed": false,
+      "understood": false,
+      "playedDescription": "I'm still waiting for my chance to play Stack Up or Gyromite with the original ROB controller.",
+      "deco": [
+        {
+          "filename": "rob1.jpg",
+          "order": 2,
+          "description": "Cute doodle on a goodbye card"
+        },
+        {
+          "filename": "rob2.jpg",
+          "order": 1,
+          "description": "Really cool photo of Ostbahnhof that I decided to alter by putting this sticker of ROB on it"
+        }
+      ]
     },
     {
       "name": "Toon Link",
       "icon": "Toon Link (1).png",
       "picture": ["toon-link.jpg", "toon-link-2.png", "toon-link-3.png"],
-      "description": "Let's be real, Toon Link players only play him because they love Wind Waker so much. He's cute and that's one of the main reasons to play him"
+      "main": "Let's be real, Toon Link players only play him because they love Wind Waker so much. He's cute and that's one of the main reasons to play him",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love Wind Waker, so so much.",
+      "deco": [
+        {
+          "filename": "toonlink1.jpg",
+          "order": 3,
+          "description": "Cool postcard from an artist I like"
+        },
+        {
+          "filename": "toonlink2.jpg",
+          "order": 1,
+          "description": "I painted this because I loved the feature in the Wii U version so much. So funny"
+        },
+        {
+          "filename": "toonlink3.jpg",
+          "order": 2,
+          "description": "Awesome depiction of the legend from Wind Waker that I got at a convention"
+        }
+      ]
     },
     {
       "name": "Wolf",
       "icon": "Wolf (1).png",
       "picture": ["wolf.jpg", "wolf-2.jpg", "wolf-3.png"],
-      "description": "Wolf players do not compromise their morals in order to get the win. They don't settle for gimmicks or dirty tricks. They are honest, but they pick Wolf over other honest characters because they are also edgelords"
+      "main": "Wolf players do not compromise their morals in order to get the win. They don't settle for gimmicks or dirty tricks. They are honest, but they pick Wolf over other honest characters because they are also edgelords",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Lylat Wars and enjoyed it, but never played other Star Fox games really.",
+      "deco": [
+        {
+          "filename": "wolf1.jpg",
+          "order": 1,
+          "description": "Great little sticker from this sticker pack that Sirius got me"
+        }
+      ]
     },
     {
       "name": "Villager",
       "icon": "Villager (1).png",
       "picture": ["villager.jpg", "villager-2.png", "villager-3.png"],
-      "description": "At first glance Villager appears innocent, but it's clear that he is a murderer or at the very least a criminal. Villager mains understand this and not only play them, but also vibe with them. Dropping a bowling ball on someone's head, is it cartoon violence or is it revealing a darkness underneath? I would argue that Villager mains themselves grapple with that darkness"
+      "main": "At first glance Villager appears innocent, but it's clear that he is a murderer or at the very least a criminal. Villager mains understand this and not only play them, but also vibe with them. Dropping a bowling ball on someone's head, is it cartoon violence or is it revealing a darkness underneath? I would argue that Villager mains themselves grapple with that darkness",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love Animal Crossing and have played all of the main ones apart from the N64 and GC ones.",
+      "deco": [
+        {
+          "filename": "villager1.jpg",
+          "order": 1,
+          "description": "This was my character in animal crossing for a long time. I followed a youtube tutorial to see how it would be"
+        }
+      ]
     },
     {
       "name": "Mega Man",
       "icon": "Mega Man (1).png",
       "picture": ["mega-man.jpg", "mega-man-2.jpg", "mega-man-3.png"],
-      "description": "The Mega Man player says they enjoy the complicated footstool/metal blade tricks, but in reality spend 90% of neutral shooting pellets. They are dishonest and enjoy irritating others"
+      "main": "The Mega Man player says they enjoy the complicated footstool/metal blade tricks, but in reality spend 90% of neutral shooting pellets. They are dishonest and enjoy irritating others",
+      "played": true,
+      "completed": true,
+      "understood": false,
+      "playedDescription": "I played Mega Man 2, 3, and 4 and decided that will do for me. I would like to continue my journey and play Mega Man X, and Battle Network.",
+      "deco": [
+        {
+          "filename": "megaman1.jpg",
+          "order": 1,
+          "description": "I made this with hama beads!"
+        }
+      ]
     },
     {
       "name": "Wii Fit Trainer",
       "icon": "Wii Fit Trainer (1).png",
       "picture": ["wiifit.webp", "wiifit-2.jpg", "wiifit-3.png"],
-      "description": "The person who saw that Wii Fit Trainer reveal trailer and realised, this is the character for me, is someone who intimately understands the fabric of the universe. They achieve success in smash and in life by drinking water, staying healthy and of course, breathing deeply."
+      "main": "The person who saw that Wii Fit Trainer reveal trailer and realised, this is the character for me, is someone who intimately understands the fabric of the universe. They achieve success in smash and in life by drinking water, staying healthy and of course, breathing deeply.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "My mum got us this when we were young! I didn't play it all that much but luckily it's not a game you can complete.",
+      "deco": [
+        {
+          "filename": "wiifit1.jpg",
+          "order": 2,
+          "description": "Cute picture that Pomi doodled in a goodbye card"
+        },
+        {
+          "filename": "wiifit2.jpg",
+          "order": 3,
+          "description": "The first Amiibo I ever got!"
+        },
+        {
+          "filename": "wiifit3.jpg",
+          "order": 1,
+          "description": "People don't see this painting I made because they have to look up"
+        }
+      ]
     },
     {
       "name": "Rosalina & Luma",
       "icon": "Rosalina & Luma (1).png",
       "picture": ["rosalina.jpg", "rosalina-2.png", "rosalina-3.png"],
-      "description": "Rosalina gameplay is very slow and therefore Rosalina mains are very chill. In their heart there is peace, in their eyes a twinkle of knowing. If they lose, they breathe a sigh of relief and move gracefully on with their lives. If they win, they breathe a sign of relief and move gracefully on with their lives."
+      "main": "Rosalina gameplay is very slow and therefore Rosalina mains are very chill. In their heart there is peace, in their eyes a twinkle of knowing. If they lose, they breathe a sigh of relief and move gracefully on with their lives. If they win, they breathe a sign of relief and move gracefully on with their lives.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Mario Galaxy 1 and 2 both great!",
+      "deco": [
+        {
+          "filename": "rosalina1.jpg",
+          "order": 1,
+          "description": "Cute Amiibo"
+        }
+      ]
     },
     {
       "name": "Little Mac",
       "icon": "Little Mac (1).png",
       "picture": ["little-mac.webp", "little-mac-2.png", "little-mac-3.png"],
-      "description": "Adrenaline Junkies, centers of attention, likely neurodiverse, possibly hasn't showered this morning"
+      "main": "Adrenaline Junkies, centers of attention, likely neurodiverse, possibly hasn't showered this morning",
+      "played": true,
+      "completed": false,
+      "understood": false,
+      "playedDescription": "I really want to get into Punchout because it's genuinely good. But it's hard as balls and I need to actually get good before I can beat it. Maybe I should just play the Wii one.",
+      "deco": []
     },
     {
       "name": "Greninja",
       "icon": "Greninja (1).png",
       "picture": ["greninja.jpg", "greninja-2.jpg", "greninja-3.jpg"],
-      "description": "Greninja mains try so hard and struggle so much. This applies to real life as well as smash"
+      "main": "Greninja mains try so hard and struggle so much. This applies to real life as well as smash",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Gen 6 but didn't love it. Didn't have a Greninja because it's ugly.",
+      "deco": [
+        {
+          "filename": "greninja1.jpg",
+          "order": 1,
+          "description": "A fun pokemon card I found in a pack of fake cards from Mexico"
+        }
+      ]
     },
     {
       "name": "Mii Brawler",
       "icon": "Mii Brawler (1).png",
       "picture": ["mii-brawler.jpg", "mii-brawler-2.jpg_large", "mii-brawler-3.png"],
-      "description": "Mii Brawler mains are extroverts and popular at school. Yes they may be insufferable but I'm happy to report that they at least have social skills"
+      "main": "Mii Brawler mains are extroverts and popular at school. Yes they may be insufferable but I'm happy to report that they at least have social skills",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Wii Sports to death!",
+      "deco": []
     },
     {
       "name": "Mii Swordfighter",
       "icon": "Mii Swordfighter (1).png",
       "picture": ["mii-swordfighter.jpg", "mii-swordfighter-2.png", "mii-swordfighter-3.jpg"],
-      "description": "You might think that in terms of vibes, the Mii mains would be somewhat similar, you can imagine a clique in the school playground. But no, Mii Brawler mains are popular kids, Mii Gunner mains are the tech nerds, and Mii Swordfighter mains are the loners who kinda look like if someone would plot to blow up to the school, it might be them"
+      "main": "You might think that in terms of vibes, the Mii mains would be somewhat similar, you can imagine a clique in the school playground. But no, Mii Brawler mains are popular kids, Mii Gunner mains are the tech nerds, and Mii Swordfighter mains are the loners who kinda look like if someone would plot to blow up to the school, it might be them",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Wii Sports to death! I also tried out the Wii Sports Resort sword fighting but never really got good at it or anything.",
+      "deco": [
+        {
+          "filename": "miiswordfighter1.jpg",
+          "order": 1,
+          "description": "This Amiibo is where it should be, drowning in pools"
+        }
+      ]
     },
     {
       "name": "Mii Gunner",
       "icon": "Mii Gunner (1).png",
       "picture": ["mii-gunner.jpg", "mii-gunner-2.jpg", "mii-gunner-3.png"],
-      "description": "The one Mii Gunner who I know proudly showed me the app they made on their phone which connected to a definitely tournament-illegal controller adapter and which was able to create multiple Mii Gunner specifications in like 20 seconds. Your average Mii Gunner main wouldn't understand why that's so weird"
+      "main": "The one Mii Gunner who I know proudly showed me the app they made on their phone which connected to a definitely tournament-illegal controller adapter and which was able to create multiple Mii Gunner specifications in like 20 seconds. Your average Mii Gunner main wouldn't understand why that's so weird",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Wii Sports to death!",
+      "deco": []
     },
     {
       "name": "Palutena",
       "icon": "Palutena (1).png",
       "picture": ["palutena.jpg", "palutena-2.jpg", "palutena-3.jpg"],
-      "description": "Palutena mains are normies who are just interested in having a good job, a good routine, and settling down with kids"
+      "main": "Palutena mains are normies who are just interested in having a good job, a good routine, and settling down with kids",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Kid Icarus Uprising but didn't love it. Never played the original.",
+      "deco": []
     },
     {
       "name": "Pac-man",
       "icon": "Pac Man (1).png",
       "picture": ["pac-man.jpg", "pac-man-2.png", "pac-man-3.jpg"],
-      "description": "Agents of chaos. They're smart, sure, but they are concerned first and foremost with destroying order and breaking rules"
+      "main": "Agents of chaos. They're smart, sure, but they are concerned first and foremost with destroying order and breaking rules",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Everyone's played the arcade Pac-man, but for this challenge I played Pac-Man World: Re-Pac which was a terrible game.",
+      "deco": [
+        {
+          "filename": "pacman1.jpg",
+          "order": 1,
+          "description": "Cool sticker I found"
+        }
+      ]
     },
     {
       "name": "Robin",
       "icon": "Robin (1).png",
       "picture": ["robin.jpg", "robin-2.png", "robin-3.jpg"],
-      "description": "I feel like Robin appeals to trans people!"
+      "main": "I feel like Robin appeals to trans people!",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I really liked Fire Emblem Awakening!",
+      "deco": [
+        {
+          "filename": "robin1.jpg",
+          "order": 1,
+          "description": "I made this with hama beads!"
+        }
+      ]
     },
     {
       "name": "Shulk",
       "icon": "Shulk (1).png",
       "picture": ["shulk.jpg", "shulk-2.png", "shulk-3.jpg"],
-      "description": "Shulk mains are very cocky. They love winning and are willing to work for it. I feel like Shulk mains are likely to become CEOs and leaders in life"
+      "main": "Shulk mains are very cocky. They love winning and are willing to work for it. I feel like Shulk mains are likely to become CEOs and leaders in life",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I really enjoyed Xenoblade Chronicles on the Switch. Great game.",
+      "deco": []
     },
     {
       "name": "Bowser Jr.",
       "icon": "Bowser Jr (1).png",
       "picture": ["bowser-jr.jpg", "bowser-jr-2.jpg", "bowser-jr-3.jpg"],
-      "description": "Varies hugely on which Koopaling they select. If they select Wendy, they are queer, if they select Roy, possibly also queer, if they select Morton that's a big red flag. Plain Bowser Jr would be the kind of person who never tries new things"
+      "main": "Varies hugely on which Koopaling they select. If they select Wendy, they are queer, if they select Roy, possibly also queer, if they select Morton that's a big red flag. Plain Bowser Jr would be the kind of person who never tries new things",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I really like Mario Sunshine!",
+      "deco": []
     },
     {
       "name": "Duck Hunt Duo",
       "icon": "Duck Hunt (1).png",
       "picture": ["duckhunt.png", "duckhunt-2.jpg", "duckhunt-3.png"],
-      "description": "The Duck Hunt main is a 30-something which subverts the common theme of most smash players: they're a financially secure, put-together adult with their shit together. They may be a composed professional during the day, but they have a love of chaos and bullshit which only truly comes out when defeating smash players 10 years younger than them in tournament."
+      "main": "The Duck Hunt main is a 30-something which subverts the common theme of most smash players: they're a financially secure, put-together adult with their shit together. They may be a composed professional during the day, but they have a love of chaos and bullshit which only truly comes out when defeating smash players 10 years younger than them in tournament.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Duck Hunt with the zapper at a retro games convention! I recognised that it's great technology, and harder than it looks.",
+      "deco": [
+        {
+          "filename": "duckhunt1.jpg",
+          "order": 5,
+          "description": "A poster made for our TO team back in like 2023"
+        },
+        {
+          "filename": "duckhunt2.jpg",
+          "order": 2,
+          "description": "My paintings also feature in this fun leaflet"
+        },
+        {
+          "filename": "duckhunt3.jpg",
+          "order": 3,
+          "description": "Cool 3D printed duck given to me from Marco"
+        },
+        {
+          "filename": "duckhunt4.jpg",
+          "order": 6,
+          "description": "Cute Amiibo"
+        },
+        {
+          "filename": "duckhunt5.jpg",
+          "order": 1,
+          "description": "I was so inspired by SkWiirrel winning a tournament that I painted these on the leftover parts of the kitchen work surface that were cut out for the sink and hob"
+        },
+        {
+          "filename": "duckhunt6.jpg",
+          "order": 4,
+          "description": "I drew this for a top 8 picture for BREXIT SUMMIT"
+        }
+      ]
     },
     {
       "name": "Ryu",
       "icon": "Ryu (1).png",
       "picture": ["ryu.jpg", "ryu-2.jpg", "ryu-3.PNG"],
-      "description": "Ryu players just enjoy fighting games, its as simple as that. They find themselves playing smash but they'd rather be playing other, less popular games"
+      "main": "Ryu players just enjoy fighting games, its as simple as that. They find themselves playing smash but they'd rather be playing other, less popular games",
+      "played": true,
+      "completed": false,
+      "understood": false,
+      "playedDescription": "I played Street Fighter 6 but I haven't understood the game yet. I need to get good. I was thinking about the playing Street Fighter 2 instead.",
+      "deco": [
+        {
+          "filename": "ryu1.jpg",
+          "order": 1,
+          "description": "This is a kinda boring poster that I saw in the street in Mexico"
+        }
+      ]
     },
     {
       "name": "Ken",
       "icon": "Ken (1).png",
       "picture": ["ken.png", "ken-2.jpg", "ken-3.jpg"],
-      "description": "Choosing to play Ken is wild, since he is one of the ugliest things I've ever seen. To think that he is cool means to be blind. Therefore I surmise that the average Ken main is blind"
+      "main": "Choosing to play Ken is wild, since he is one of the ugliest things I've ever seen. To think that he is cool means to be blind. Therefore I surmise that the average Ken main is blind",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Street Fighter 6 but I haven't understood the game yet. I need to get good. I was thinking about the playing Street Fighter 2 instead.",
+      "deco": [
+        {
+          "filename": "ken1.jpg",
+          "order": 1,
+          "description": "This is a kinda boring poster that I saw in the street in Mexico"
+        }
+      ]
     },
     {
       "name": "Cloud",
       "icon": "Cloud (1).png",
       "picture": ["cloud.avif", "cloud-2.png", "cloud-3.jpg"],
-      "description": "Cloud mains are lacking in social skills. Cloud himself lacks social skills and Cloud mains can really connect with that. Many mains of other characters flirt with Cloud and that's because they are insecure."
+      "main": "Cloud mains are lacking in social skills. Cloud himself lacks social skills and Cloud mains can really connect with that. Many mains of other characters flirt with Cloud and that's because they are insecure.",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played both the original and the remakes. Great story.",
+      "deco": []
     },
     {
       "name": "Corrin",
       "icon": "Corrin (1).png",
       "picture": ["corrin.jpg", "corrin-2.jpg", "corrin-3.jpg"],
-      "description": "Fates may be one of my favourite Fire Emblems but that doesn't mean Corrin isn't the most plain and boring character out there. Corrin mains are even more boring than Corrin because they can't transform into an ugly dragon, which is at the very least a conversation starter"
+      "main": "Fates may be one of my favourite Fire Emblems but that doesn't mean Corrin isn't the most plain and boring character out there. Corrin mains are even more boring than Corrin because they can't transform into an ugly dragon, which is at the very least a conversation starter",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I will always have a soft spot for Fire Emblem Fates. I played all three of the routes (I know).",
+      "deco": [
+        {
+          "filename": "corrin1.jpg",
+          "order": 1,
+          "description": "I painted this, it's what she says when she wins. She really has a way with words."
+        }
+      ]
     },
     {
       "name": "Bayonetta",
       "icon": "Bayonetta (1).png",
       "picture": ["bayonetta.jpg", "bayonetta-2.webp", "bayonetta-3.png"],
-      "description": "Bayonetta players tend to be bottoms"
+      "main": "Bayonetta players tend to be bottoms",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Bayonetta 2 and that's enough for me I think.",
+      "deco": []
     },
     {
       "name": "Inkling",
       "icon": "Inkling (1).png",
       "picture": ["inkling.jpg", "inkling-2.webp", "inkling-3.jpg"],
-      "description": "There are so few Inkling mains left since the early smash ultimate meta. I guess the people who still play them have been living under a rock and don't understand that she's kinda bad"
+      "main": "There are so few Inkling mains left since the early smash ultimate meta. I guess the people who still play them have been living under a rock and don't understand that she's kinda bad",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Splatoon 1 on the Wii U for a bit, and beat the single player. Online multiplayer games are not for me though.",
+      "deco": [
+        {
+          "filename": "inkling1.jpg",
+          "order": 1,
+          "description": "Got this sticker from a nintendo booth at a convention"
+        }
+      ]
     },
     {
       "name": "Ridley",
       "icon": "Ridley (1).png",
       "picture": ["ridley.jpg", "ridley-2.png", "ridley-3.jpg"],
-      "description": "Ridley is the ugliest character in the game (which is saying something since the game features Ken), and the people who play him really resonate with that ugliness. They really vibe with how ugly Ridley is"
+      "main": "Ridley is the ugliest character in the game (which is saying something since the game features Ken), and the people who play him really resonate with that ugliness. They really vibe with how ugly Ridley is",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love Metroid and have played almost all of them!",
+      "deco": [
+        {
+          "filename": "ridley1.jpg",
+          "order": 1,
+          "description": "Super cool poster that I think Franz got for me"
+        }
+      ]
     },
     {
       "name": "Simon",
       "icon": "Simon (1).png",
       "picture": ["simon.jpg", "simon-2.jpg", "simon-3.jpg"],
-      "description": "A Belmont main who doesn't pick the objectively hotter Richter understands that in order to succeed in smash and in life one must try to resemble He-Man from that 90's cartoon as much as possible. Embrace the ugly, embrace the glory, and spread the vibes across the battlefield"
+      "main": "A Belmont main who doesn't pick the objectively hotter Richter understands that in order to succeed in smash and in life one must try to resemble He-Man from that 90's cartoon as much as possible. Embrace the ugly, embrace the glory, and spread the vibes across the battlefield",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Super Castlevania 4, and Castlevania NES. Both required save states but whatever.",
+      "deco": []
     },
     {
       "name": "Richter",
       "icon": "Richter (1).png",
       "picture": ["richter.jpg", "richter-2.jpg", "richter-3.png"],
-      "description": "Richter is hot but the gameplay is boring. It's hard to say if Richter mains are popular/cool or unpopular/lame, they really tow the line between the two"
+      "main": "Richter is hot but the gameplay is boring. It's hard to say if Richter mains are popular/cool or unpopular/lame, they really tow the line between the two",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Rondo of Blood with save states, and genuinely played and loved Symphony of the Night.",
+      "deco": []
     },
     {
       "name": "King K. Rool",
       "icon": "King K Rool (1).png",
       "picture": ["k-rool.avif", "k-rool-2.jpg", "k-rool-3.jpg"],
-      "description": "K Rool players are the babies of smash, they are still learning the ropes. They're still learning how to press the buttons and still trying to figure out the mechanics. They're squinting at the screen trying to find their own crowns. Eventually they will start to get good and switch to a real character"
+      "main": "K Rool players are the babies of smash, they are still learning the ropes. They're still learning how to press the buttons and still trying to figure out the mechanics. They're squinting at the screen trying to find their own crowns. Eventually they will start to get good and switch to a real character",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love the Donkey Kong series!",
+      "deco": []
     },
     {
       "name": "Isabelle",
       "icon": "Isabelle (1).png",
       "picture": ["isabelle.webp", "isabelle-2.avif", "isabelle-3.png"],
-      "description": "Isabelle mains play Isabelle solely because she is cute. The gameplay, the fishing rod cheese, the weird match up spread, the tier list, the jab infinite, it's all completely irrelevant for Isabelle mains because she looks so cute in her winter jacket"
+      "main": "Isabelle mains play Isabelle solely because she is cute. The gameplay, the fishing rod cheese, the weird match up spread, the tier list, the jab infinite, it's all completely irrelevant for Isabelle mains because she looks so cute in her winter jacket",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love New Leaf and New Horizons. Isabelle is the best.",
+      "deco": [
+        {
+          "filename": "isabelle1.jpg",
+          "order": 1,
+          "description": "I painted this when Isabelle was announced for Smash"
+        },
+        {
+          "filename": "isabelle2.jpg",
+          "order": 3,
+          "description": "Cute Amiibo"
+        },
+        {
+          "filename": "isabelle3.jpg",
+          "order": 2,
+          "description": "Cool cushion for the sofa!"
+        }
+      ]
     },
     {
       "name": "Incineroar",
       "icon": "Incineroar (1).png",
       "picture": ["incineroar.jpg", "incineroar-2.jpg", "incineroar-3.jpg"],
-      "description": "Another character, similar to Captain Falcon, who is for simple men who enjoy simple pleasures. Here there's the added flavour of enjoying the taunting and showing off"
+      "main": "Another character, similar to Captain Falcon, who is for simple men who enjoy simple pleasures. Here there's the added flavour of enjoying the taunting and showing off",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I really enjoyed Gen 7 for some reason. Never had an Incineroar because it's ugly.",
+      "deco": [
+        {
+          "filename": "incineroar1.jpg",
+          "order": 1,
+          "description": "I got this sticker from a sticker pack that Sirius got me"
+        }
+      ]
     },
     {
       "name": "Piranha Plant",
       "icon": "Piranha Plant (1).png",
       "picture": ["piranha-plant.png", "piranha-plant-2.png", "piranha-plant-3.png"],
-      "description": "People who enjoy joke characters are people who are peace with the world. There is no winning or losing in life, there are only fleeting moments of joy for us to cling on to. Piranha Plant mains understand that winning doesn't matter, but experiencing the joy of playing as a potted plant is the only adrenaline kick we need to make it to the end of the smash tournament"
+      "main": "People who enjoy joke characters are people who are peace with the world. There is no winning or losing in life, there are only fleeting moments of joy for us to cling on to. Piranha Plant mains understand that winning doesn't matter, but experiencing the joy of playing as a potted plant is the only adrenaline kick we need to make it to the end of the smash tournament",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I love the Super Mario series and love that they included a basic enemy (a plant!) from it.",
+      "deco": [
+        {
+          "filename": "piranhaplant1.jpg",
+          "order": 1,
+          "description": "I painted this, nobody ever sees it because they have to look up"
+        },
+        {
+          "filename": "piranhaplant2.jpg",
+          "order": 2,
+          "description": "I cross stitched this as soon as Piranha Plant was announced"
+        },
+        {
+          "filename": "piranhaplant3.jpg",
+          "order": 3,
+          "description": "A fun sticker I found from a Nintendo stand at Comic-Con"
+        }
+      ]
     },
     {
       "name": "Joker",
       "icon": "Joker (1).png",
       "picture": ["joker.png", "joker-2.webp", "joker-3.jpg"],
-      "description": "One of the most common characters. I'd say the only generalisation I can make about Joker mains is 'gamer'. It's a broad church party with many different factions"
+      "main": "One of the most common characters. I'd say the only generalisation I can make about Joker mains is 'gamer'. It's a broad church party with many different factions",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played through all of fucking Persona 5 and ended up finishing it out of spite. Hated that Persona 5 Royal just kept fucking going.",
+      "deco": [
+        {
+          "filename": "joker1.jpg",
+          "order": 1,
+          "description": "Bought this at a convention"
+        }
+      ]
     },
     {
       "name": "Hero",
       "icon": "Hero (1).png",
       "picture": ["hero.webp", "hero-2.jpg", "hero-3.jpg"],
-      "description": "Hero mains have never had sex. They are NOT to be trusted"
+      "main": "Hero mains have never had sex. They are NOT to be trusted",
+      "played": true,
+      "completed": false,
+      "understood": true,
+      "playedDescription": "I played Dragon Quest Sentinels of the Starry Sky but never completed it as a child because of the grinding. I bought Dragon Quest 11S but I hate it so much and can't see myself finishing it. It's so boring.",
+      "deco": [
+        {
+          "filename": "hero1.jpg",
+          "order": 1,
+          "description": "A cool sticker from a pack of stickers that Sirius got me"
+        },
+        {
+          "filename": "hero2.jpg",
+          "order": 2,
+          "description": "Another cool sticker from a pack of stickers that Sirius got me"
+        }
+      ]
     },
     {
       "name": "Banjo & Kazooie",
       "icon": "Banjo & Kazooie (1).png",
       "picture": ["banjo.jpg", "banjo-2.webp", "banjo-3.png"],
-      "description": "Most people agree that playing as Banjo and Kazooie is no fun, so in order to MAIN this character, you have to be such a die-hand fan of the series that you are willing to grit your teeth through the unsatisfying projectiles and learn to shoot your shot (wonderwing) at the right time. This character is not for premature ejaculators"
+      "main": "Most people agree that playing as Banjo and Kazooie is no fun, so in order to MAIN this character, you have to be such a die-hand fan of the series that you are willing to grit your teeth through the unsatisfying projectiles and learn to shoot your shot (wonderwing) at the right time. This character is not for premature ejaculators",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played it later in life but enjoyed it! I think I'll skip Tooie.",
+      "deco": []
     },
     {
       "name": "Terry",
       "icon": "Terry (1).png",
       "picture": ["terry.webp", "terry-2.png", "terry-3.jpg"],
-      "description": "Terry players tend to be from Latin America, or Japan, because that's where his game was popular. Europeans who play him are suspicious"
+      "main": "Terry players tend to be from Latin America, or Japan, because that's where his game was popular. Europeans who play him are suspicious",
+      "played": true,
+      "completed": false,
+      "understood": false,
+      "playedDescription": "I played a bit of King of Fighters in Mexico on the arcades, but I can't actually play. I need to learn.",
+      "deco": [
+        {
+          "filename": "terry1.jpg",
+          "order": 1,
+          "description": "Bought this online from a cool artist I used to follow on Twitter"
+        },
+        {
+          "filename": "terry2.jpg",
+          "order": 2,
+          "description": "Found this in a street market in Mexico. It's stunning!"
+        }
+      ]
     },
     {
       "name": "Byleth",
       "icon": "Byleth (1).png",
       "picture": ["byleth.jpg", "byleth-2.png", "byleth-3.jpg"],
-      "description": "To get excited about this character tells me that you also get excited by stale bread, staying a little longer at work to get something done, or daring to taste a bit of cake mixture before putting it in the oven"
+      "main": "To get excited about this character tells me that you also get excited by stale bread, staying a little longer at work to get something done, or daring to taste a bit of cake mixture before putting it in the oven",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played through Claude's route and decided that counts.",
+      "deco": []
     },
     {
       "name": "Min Min",
       "icon": "Min Min (1).png",
       "picture": ["minmin.jpg", "minmin-2.jpg", "minmin-3.jpg"],
-      "description": "Someone who enjoys the game ARMS would probably main Byleth or Mega Man or something. Min Min players couldn't give a shit about ARMS, they only give a shit about destroying their opponent's stocks, and also peace of mind. They take pleasure from watching their opponent's gameplay fall apart through the simple power of Long Punch"
+      "main": "Someone who enjoys the game ARMS would probably main Byleth or Mega Man or something. Min Min players couldn't give a shit about ARMS, they only give a shit about destroying their opponent's stocks, and also peace of mind. They take pleasure from watching their opponent's gameplay fall apart through the simple power of Long Punch",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I really enjoyed ARMS! A really great party game.",
+      "deco": [
+        {
+          "filename": "minmin1.jpg",
+          "order": 1,
+          "description": "Genuinely the best thing I ever painted"
+        }
+      ]
     },
     {
       "name": "Steve",
       "icon": "Steve (1).png",
       "picture": ["steve.jpg", "steve-2.avif", "steve-3.jpg"],
-      "description": "The average Steve player divides their time between watching Minecraft youtubers, mobile games, Tiktok and school, and is still able to win the local Smash tournament. They have an absolute disregard for honour, fairness, respect or the rules, and would absolutely murder a puppy for a million robux. Some Steve mains also enjoy playing Minecraft"
+      "main": "The average Steve player divides their time between watching Minecraft youtubers, mobile games, Tiktok and school, and is still able to win the local Smash tournament. They have an absolute disregard for honour, fairness, respect or the rules, and would absolutely murder a puppy for a million robux. Some Steve mains also enjoy playing Minecraft",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "Minecraft is a top 10 video game ever. Send me a message if you want to play on our server.",
+      "deco": []
     },
     {
       "name": "Sephiroth",
       "icon": "Sephiroth (1).png",
       "picture": ["sephiroth.jpg", "sephiroth-2.jpg", "sephiroth-3.jpg"],
-      "description": "Sephiroth mains are kinda freaky. Obsessive"
+      "main": "Sephiroth mains are kinda freaky. Obsessive",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Final Fantasy 7 the OG and the remakes.",
+      "deco": []
     },
     {
       "name": "Pyra/Mythra",
       "icon": "Pyra & Mythra (1).png",
       "picture": ["pyra-mythra.jpg", "pyra-mythra-2.jpg", "pyra-mythra-3.jpg"],
-      "description": "Pythra mains are anime nerds who jerk off to cutscenes of Pyra and Mythra in the game. You only really main this character if you love their boobs"
+      "main": "Pythra mains are anime nerds who jerk off to cutscenes of Pyra and Mythra in the game. You only really main this character if you love their boobs",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I actually beat Xenoblade Chronicles 2! Couldn't do the DLC, that was too much.",
+      "deco": []
     },
     {
       "name": "Kazuya",
       "icon": "Kazuya (1).png",
       "picture": ["kazuya.jpg", "kazuya-2.jpg", "kazuya-3.jpg"],
-      "description": "Kazuya mains are the children who trample over their classmate's sandcastles. They're the people who called you fat at school. As an adult, they will open a rival business across the street and undercut your prices. When you point out that they are shameless, they'll shrug and say, yeah Kazuya's broken"
+      "main": "Kazuya mains are the children who trample over their classmate's sandcastles. They're the people who called you fat at school. As an adult, they will open a rival business across the street and undercut your prices. When you point out that they are shameless, they'll shrug and say, yeah Kazuya's broken",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Tekken Tag Tournament as a child a whole bunch and got really into it.",
+      "deco": []
     },
     {
       "name": "Sora",
       "icon": "Sora (1).png",
       "picture": ["sora.avif", "sora-2.jpg", "sora-3.png"],
-      "description": "Sora players are almost exclusively diehard Kingdom Hearts fans which for me means they are delusional and blinded by nostalgia"
+      "main": "Sora players are almost exclusively diehard Kingdom Hearts fans which for me means they are delusional and blinded by nostalgia",
+      "played": true,
+      "completed": true,
+      "understood": true,
+      "playedDescription": "I played Kingdom Hearts 1, 2 and like 3 spin-offs. They are really bad, playing these was more like a science experiment.",
+      "deco": [
+        {
+          "filename": "sora1.jpg",
+          "order": 1,
+          "description": "Bought this at a convention"
+        }
+      ]
     }
   ]
 }
