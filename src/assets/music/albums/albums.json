@@ -1,6 +1,15 @@
 {
   "albums": [
     {
+      "filename": "pink-fancy.jpg",
+      "artist": "PinkPantheress",
+      "name": "Fancy That!",
+      "releaseyear": "2025",
+      "description": "This cheeky little 20 minute album is great. She is known for these short songs and continues to deliver on this new little project. I love this first track 'Illegal' the most, but the whole album is great. It makes me want to put on my bob wig and flick my hair. It makes me want to buy a handbag. I love that she samples british classics like Bassment Jaxx Romeo and Starz in their Eyes by Just Jack. And then there's one really warm moment in 'Nice to Know You' which I really like.",
+      "topTracks": ["Illegal", "Girl Like Me", "Tonight", "Stars", "Nice to Know You", "Stateside"],
+      "tags": ["pop", "special vibes"]
+    },
+    {
       "filename": "spellling-portrait.jpg",
       "artist": "Spellling",
       "name": "Portrait of my Heart",

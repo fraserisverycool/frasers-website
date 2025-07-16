@@ -1,6 +1,19 @@
 {
   "games": [
     {
+      "name": "Deltarune: Chapter 3",
+      "vibes": "9",
+      "gameplay": "8",
+      "review": [
+        "After so many years it's time to play Deltarune again! The quality remains just as high as before, but maybe we've made it to chapter 3, its starting to become same-y? The music is still great, the new funny character is great, I like the artstyle of the TV stuff. There's a lot to enjoy! Toby Fox has a way with humour. The storyline with the throuple was a highlight for me. I look forward to looking for secrets in this game further down the line! ...or maybe just watching a youtube video about it later."
+      ],
+      "image": "deltarune-3.png",
+      "platform": "Switch 2",
+      "year": "2025",
+      "release": "2025",
+      "score": 16
+    },
+    {
       "name": "Super Mario Strikers",
       "vibes": "4",
       "gameplay": "1",
