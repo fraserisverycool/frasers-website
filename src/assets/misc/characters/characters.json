@@ -86,6 +86,11 @@
           "filename": "dk6.jpg",
           "order": 6,
           "description": "Amiibo, has spent some time in the aquarium so is dirty"
+        },
+        {
+          "filename": "dk7.jpg",
+          "order": 7,
+          "description": "A silly plate I made at the Paint Your Style shop"
         }
       ]
     },
@@ -482,6 +487,16 @@
           "filename": "peach16.jpg",
           "order": 6,
           "description": "Another cute pic from a convention"
+        },
+        {
+          "filename": "peach17.jpg",
+          "order": 17,
+          "description": "Methusa got me this cute mug!"
+        },
+        {
+          "filename": "peach18.jpg",
+          "order": 18,
+          "description": "Symon got me this cute Tellerchen!"
         }
       ]
     },
