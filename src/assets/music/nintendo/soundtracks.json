@@ -1,6 +1,188 @@
 {
   "soundtracks": [
     {
+      "filename": "mach-rider.png",
+      "name": "Mach Rider",
+      "description": "The smash remix goes so hard but this sounds kinda bad. I like the direction Course BGM 2 takes the music.",
+      "platform": "NES",
+      "topTracks": ["Course BGM 1", "Course BGM 2"]
+    },
+    {
+      "filename": "gyromite.jpg",
+      "name": "Gyromite",
+      "description": "Another R.O.B. soundtrack. 'Game A' is a bit of a bop.",
+      "platform": "NES",
+      "topTracks": ["Game A BGM"]
+    },
+    {
+      "filename": "stack-up.webp",
+      "name": "Stack-Up",
+      "description": "This is where a bunch of the R.O.B. music comes from in Smash. It's all pretty shit, except I kinda got into Bingo BGM.",
+      "platform": "NES",
+      "topTracks": ["Bingo BGM"]
+    },
+    {
+      "filename": "wrecking-crew.jpg",
+      "name": "Wrecking Crew",
+      "description": "It's recognisable but I don't love it. The smash remix goes so hard on the bonus phase part.",
+      "platform": "NES",
+      "topTracks": ["Bonus Phase"]
+    },
+    {
+      "filename": "soccer.jpg",
+      "name": "Soccer",
+      "description": "The image kinda looks like one of the players is exposing himself. The music is alright.",
+      "platform": "NES",
+      "topTracks": ["Halftime"]
+    },
+    {
+      "filename": "ice-climber.jpg",
+      "name": "Ice Climber",
+      "description": "As an Ice Climbers appreciater in Smash and previously an Ice Climbers main in the Brawl days, I loved this music and played it on the piano!",
+      "platform": "NES",
+      "topTracks": ["Title BGM/Bonus Round"]
+    },
+    {
+      "filename": "balloon-fight.jpg",
+      "name": "Balloon Fight",
+      "description": "And this is actually good shit!! Balloon Trip is an all-time fave NES track. I get a warm fuzzy feeling when I think about all the amazing remixes of it throughout the years (Smashing Live, Nintendo Land, Smash, WarioWare...)",
+      "platform": "NES",
+      "topTracks": ["Enemy Floating Down", "Balloon Trip"]
+    },
+    {
+      "filename": "excitebike.jpg",
+      "name": "Excitebike",
+      "description": "Never liked Excitebike.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "clu-clu-land.jpg",
+      "name": "Clu Clu Land",
+      "description": "I feel a certain fondness for this music because of the smash remix.",
+      "platform": "NES",
+      "topTracks": ["Scene BGM", "Bonus Round BGM"]
+    },
+    {
+      "filename": "urban-champion.jpg",
+      "name": "Urban Champion",
+      "description": "Some of the tracks are alright, could be worse.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "f1-race.png",
+      "name": "F1 Race",
+      "description": "Very frenetic and unpleasant to listen to.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "devil-world.jpg",
+      "name": "Devil World",
+      "description": "Some public domain classical music, why not. Nothing special here.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "donkey-kong-3.PNG",
+      "name": "Donkey Kong 3",
+      "description": "This soundtrack is hellish",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "hogans-alley.jpg",
+      "name": "Hogan's Alley",
+      "description": "Lowkey kinda groovy. Shout-outs to the can.",
+      "platform": "NES",
+      "topTracks": ["Instruction BGM"]
+    },
+    {
+      "filename": "golf.png",
+      "name": "Golf",
+      "description": "Put on this soundtrack when you've taken drugs, I'm sure it's a great time.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "duck-hunt.jpg",
+      "name": "Duck Hunt",
+      "description": "Shoutouts to Duck Hunt who I play competitively in smash. The two Duck Hunt remixes in smash slap.",
+      "platform": "NES",
+      "topTracks": ["Title BGM", "Game A/B Start", "Clear"]
+    },
+    {
+      "filename": "wild-gunman.png",
+      "name": "Wild Gunman",
+      "description": "Shoutouts to Duck Hunt in smash and also this one track from this which is fun.",
+      "platform": "NES",
+      "topTracks": ["Game A/B Start"]
+    },
+    {
+      "filename": "pinball.PNG",
+      "name": "Pinball",
+      "description": "This soundtrack has a whopping 2 tracks, they are fine.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "tennis.jpg",
+      "name": "Tennis",
+      "description": "It's better than Baseball but I won't listen to it again.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "donkey-kong-jr-math.jpg",
+      "name": "Donkey Kong Jr. Math",
+      "description": "I had a vague understanding that this game existed. It reuses the music from Donkey Kong Jr.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "baseball.jpg",
+      "name": "Baseball",
+      "description": "There really is nothing here.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "mario-bros.webp",
+      "name": "Mario Bros.",
+      "description": "Kinda fun that this soundtrack puts in public domain classical music. Why not.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "gomoku-narabe-renju.jpg",
+      "name": "Gomoku Narabe Renju",
+      "description": "It's a game to play Go! It has some jingles that you can listen to.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "mah-jong.png",
+      "name": "Mah-Jong",
+      "description": "I don't know anything about Mah-Jong but the minute I spent listening to these bloops wasn't wasted I guess.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "donkey-kong-jr.avif",
+      "name": "Donkey Kong Jr.",
+      "description": "I didn't realise until this moment that the music from the special stage from DKC Returns is based off of this! But otherwise there's really nothing here.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
+      "filename": "donkey-kong.webp",
+      "name": "Donkey Kong",
+      "description": "Here we go, it's the beginning of a marathon of NES tracks! Insane that they dropped 23 all at once. I played this all the time in Donkey Kong 64 but there really is very little to enjoy. The 'Round 1 BGM' can go fuck itself because it's a 3 second loop that people select in smash to throw you off in tournament.",
+      "platform": "NES",
+      "topTracks": [""]
+    },
+    {
       "filename": "mario-kart-64.jpg",
       "name": "Mario Kart 64",
       "description": "Although I was sad that this soundtrack release probably means that Mario Kart World is very far away, I'm just happy to have this absolute banger soundtrack on the app! From the very first track to the end you have banger after banger. I love the inimitable sound, the big-stadium vibe, the instruments, and the variety. So many of these tracks have become classics. This soundtrack release also caused me to go down a rabbit hole where I learned that the winning results theme (for which there is an outrageously amazing remix in Mario Kart World) has a secret second part of the song which appears after an hour. That was because of a bug! And in this soundtrack they fixed it. Awesome. Plus, it's in 11/8, hell yeah.",
