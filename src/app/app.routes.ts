@@ -77,6 +77,12 @@ export const routes: Routes = [
     path: 'misc/mariokart', loadComponent: () => import('./misc/mariokart/mariokart.component')
   },
   {
+    path: 'misc/stitch', loadComponent: () => import('./misc/stitch/stitch.component')
+  },
+  {
+    path: 'misc/writing', loadComponent: () => import('./misc/writing/writing.component')
+  },
+  {
     path: 'guestbook', loadComponent: () => import('./guestbook/guestbook.component')
   }
 ];

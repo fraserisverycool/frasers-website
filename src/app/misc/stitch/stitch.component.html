@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Cross Stitches</h1>
+  <p>This list sadly isn't exhaustive, there are cross stitches lost to time, photos of which I can't find.</p>
+  <div class="stitch-list">
+    <div *ngFor="let stitch of stitches" class="stitch-card">
+      <img
+        [ngSrc]="'assets/misc/stitch/' + stitch.filename"
+        width="600"
+        height="400"
+      >
+      <p>{{ stitch.comment }}</p>
+    </div>
+  </div>
+</div>
