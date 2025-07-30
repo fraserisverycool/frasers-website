@@ -6757,6 +6757,18 @@
       "platform": "PlayStation 4",
       "year": "older",
       "release": "2018"
+    },
+    {
+      "name": "EyeToy: Play",
+      "vibes": "6",
+      "gameplay": "4",
+      "review": [
+        "This was a wild thing that was popular for a while, you could buy this webcam that plugged into the PS2, and then you would appear in the game! At the time, this was insane technology. You could use your image in the game to fight monsters and play minigames, and I loved it! I don't think I played it all that much but have fond memories of it for sure."
+      ],
+      "image": "eyetoy.jpg",
+      "platform": "PlayStation 2",
+      "year": "older",
+      "release": "2003"
     }
   ]
 }

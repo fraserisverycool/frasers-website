@@ -1,6 +1,13 @@
 {
   "soundtracks": [
     {
+      "filename": "mario-paint.jpg",
+      "name": "Mario Paint",
+      "description": "Mario Paint has lots of classic little melodies which have made their home in future Mario games (like Mario Maker) so I knew it all, despite having never played this game at this point. However I wouldn't say it's a nice listening experience. The save music is low-key a banger and I enjoyed the fly-swatting from WarioWare so they have plus points.",
+      "platform": "SNES",
+      "topTracks": ["Save & Load", "Gnat Attack: Level 1"]
+    },
+    {
       "filename": "mach-rider.png",
       "name": "Mach Rider",
       "description": "The smash remix goes so hard but this sounds kinda bad. I like the direction Course BGM 2 takes the music.",

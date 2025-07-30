@@ -1,6 +1,15 @@
 {
   "albums": [
     {
+      "filename": "natalia-cancionera.jpg",
+      "artist": "Natalia Lafourcade",
+      "name": "Cancionera",
+      "releaseyear": "2025",
+      "description": "Wow, after loving the previous album so much, here I am again, my world rocked from another Natalia record. In this one, it feels like she's playing the role of an alter-ego called 'cancionera'. She's got these beautiful upbeat and happy songs like 'Cocos en la playa' which feel more like putting on a smiley face to deal with the sad feelings. It feels like she's coping. Otherwise she talks about smoking a joint on that track which is great, you go girl. 'El Coconito' is literally about wanting to feed corn to a turkey but there's no corn. But she also bares all on the sad songs, which I love. I love her sad songs the most. The title track is stunning, and I love the bit where she screams 'ay mamita Guadalupe!' on 'Carinito de Acapulco'. 'Luna Cresciente' vibes-wise feels like a huge black bird flying in the night. It's a song about longing and then sinks into this beautiful outro track. I love it. I love this whole album, it's different from the previous one but equally as stunning and the fun songs equally as fun.",
+      "topTracks": ["Cancionera", "Cocos en la Playa", "El Coconito", "Cariñito de Acapulco", "Luna Creciente"],
+      "tags": ["spanish language", "from the heart", "singer-songwriter"]
+    },
+    {
       "filename": "pink-fancy.jpg",
       "artist": "PinkPantheress",
       "name": "Fancy That!",
