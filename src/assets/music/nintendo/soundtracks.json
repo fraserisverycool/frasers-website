@@ -1,6 +1,27 @@
 {
   "soundtracks": [
     {
+      "filename": "pilotwings-resort.jpg",
+      "name": "Pilotwings Resort",
+      "description": "This soundtrack takes the 'jam' vibe from the N64 game and runs away with it! But that's not to say that there aren't peaceful grooves as well. Just look at 'Glider', the best track. It's SUCH a vibe. I adore its remix in smash. The staff credits also take things in this direction and I'm all for it. I will say this soundtrack has fewer tracks that go insanely hard like the previous games, but I still like it.",
+      "platform": "3DS",
+      "topTracks": ["Plane", "Turbo Jet", "Rocket Belt", "Glider", "Staff Credits"]
+    },
+    {
+      "filename": "pilotwings-64.jpg",
+      "name": "Pilotwings 64",
+      "description": "This game takes the chill vibe from the SNES game into an even chiller direction! This soundtrack is so outrageously groovy, it's insane. It's just a jam! The loops are really long with multiple solos from different instruments coming in over like 3 or 4 minutes. I love it. It's to the point where listening to them in the app isn't that nice actually. I want to give special shoutouts to the all-time great nintendo music 'Birdman', the most outrageously silky smooth jam you can ever imagine. It's the sexiest music on the whole app. Right before it is 'Jumble Hopper' which has this hilarious clown part which is really giving Banjo Kazooie. Anyway, this soundtrack is probably a bit cheesy and too much but I still love it so much.",
+      "platform": "N64",
+      "topTracks": ["Title Screen", "File/Vehicle Select", "Hang Glider", "Rocket Belt", "Gyrocopter", "Jumble Hopper", "Birdman", "Replay", "Staff Credits"]
+    },
+    {
+      "filename": "pilotwings.jpg",
+      "name": "Pilotwings",
+      "description": "I was so delighted to see Nintendo dropping three banger soundtracks in one week! Starting with one of my favourite ever SNES soundtracks. This game is a total vibe, and has some super fun, wacky tracks in it. I love that clown-like 'Rocket Belt' song, the timeless 'Light Plane', and especially the major tone-shift towards the end of the game with 'Helicopter'. That track was made by a different composer and it shows, it's wild, and so so intense.",
+      "platform": "SNES",
+      "topTracks": ["Title Screen", "Light Plane", "Skydiving", "Rocket Belt", "Hang Glider", "Helicopter", "Ending Theme"]
+    },
+    {
       "filename": "mario-paint.jpg",
       "name": "Mario Paint",
       "description": "Mario Paint has lots of classic little melodies which have made their home in future Mario games (like Mario Maker) so I knew it all, despite having never played this game at this point. However I wouldn't say it's a nice listening experience. The save music is low-key a banger and I enjoyed the fly-swatting from WarioWare so they have plus points.",

@@ -272,9 +272,14 @@
           "description": "A painting that I actually made twice because I wasn't satisfied with the first one. I'm honestly still not satisfied with it"
         },
         {
-          "filename": "kirby1.jpg",
+          "filename": "kirby2.jpg",
           "order": 2,
           "description": "A cute kirby I bought in Mexico"
+        },
+        {
+          "filename": "kirby3.jpg",
+          "order": 3,
+          "description": "A cool pin that Jack gave me"
         }
       ]
     },
@@ -1709,7 +1714,13 @@
       "completed": true,
       "understood": true,
       "playedDescription": "Minecraft is a top 10 video game ever. Send me a message if you want to play on our server.",
-      "deco": []
+      "deco": [
+        {
+          "filename": "steve1.jpg",
+          "order": 2,
+          "description": "Stole this from a kid's Minecraft comic book that Veo got for his birthday"
+        }
+      ]
     },
     {
       "name": "Sephiroth",
