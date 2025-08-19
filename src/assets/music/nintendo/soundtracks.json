@@ -1,6 +1,20 @@
 {
   "soundtracks": [
     {
+      "filename": "kirby-air-riders.png",
+      "name": "Kirby Air Riders",
+      "description": "I certainly didn't expect this little teaser taster of an unreleased game! I was so upset that there was no new soundtrack then like an angel, Sakurai appeared an blessed us with this little gift. On first listen the music sounds pretty generic and not like normal Kirby music but I can totally see myself getting into it. It sounds a lot like the original soundtrack, which I'm excited about, and during Sakurai's presentation I heard some remixes of Kirby classics too, so I think this soundtrack is going to have a lot to give. I will say I don't care for these main themes with singing in them. This also confirms that a Switch 2 soundtrack will be heading to the app eventually! Awesome!",
+      "platform": "Switch 2",
+      "topTracks": ["Waveflow Waters", "Steamgust Forge", "Mount Amberfalls"]
+    },
+    {
+      "filename": "captain-toad.png",
+      "name": "Captain Toad Treasure Tracker",
+      "description": "This soundtrack really is very bland. It has none of the magic of the Mario Odyssey soundtrack and none of it is very memorable. The initial whistle of the Captain Toad theme from Galaxy is not enough to support a whole soundtrack. I quite like 'Beep Block Sky Plaza' which is a bit of a bop.",
+      "platform": "Switch",
+      "topTracks": ["Episode 1", "Plucky Pass Beginnings", "Beep Block Sky Plaza"]
+    },
+    {
       "filename": "pilotwings-resort.jpg",
       "name": "Pilotwings Resort",
       "description": "This soundtrack takes the 'jam' vibe from the N64 game and runs away with it! But that's not to say that there aren't peaceful grooves as well. Just look at 'Glider', the best track. It's SUCH a vibe. I adore its remix in smash. The staff credits also take things in this direction and I'm all for it. I will say this soundtrack has fewer tracks that go insanely hard like the previous games, but I still like it.",

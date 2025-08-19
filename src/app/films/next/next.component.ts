@@ -11,7 +11,8 @@ import FilmsComponent from "../films.component";
 })
 export default class NextComponent {
   films = [
-    'Labyrinth', 'Playtime', 'Black Christmas', 'Wings',
+    'Black Orpheus', 'Hereditary', 'Where Dragons Live', 'Painted boats',
+    'Labyrinth', 'Playtime', 'Black Christmas', 'Wings', 'The Trial',
     'Mulholland Drive', 'Pink Flamingos', "I'm Still Here",
     'Queer', 'Nickel Boys', 'The Seed of the Sacred Fig', 'Inline Empire',
     'Aftersun', "It's Such a Beautiful Day", 'The Host',

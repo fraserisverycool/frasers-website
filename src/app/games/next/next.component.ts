@@ -12,7 +12,6 @@ import GamesComponent from "../games.component";
 export default class NextComponent {
   playstationgames = [
     'Sable',
-    'Astrobot',
     'Tinykin',
     'Hardspace Shipbreaker',
     'Humanity'
@@ -27,10 +26,8 @@ export default class NextComponent {
     'Psuedoregalia',
     'Unicorn Overlord',
     'Duelists of Eden',
-    'Gravity circuit',
-    'Morsels (out 2025)',
+    'Morsels',
     'Iconoclasts',
-    'Star of Providence'
   ];
   pcgames = [
     'Papers Please',
@@ -41,12 +38,13 @@ export default class NextComponent {
     'Shadows of Doubt',
     'Yellow Taxi Goes Vroom',
     'Zeroranger',
-    'Quantum Witch (out 2025)',
+    'Quantum Witch',
     'Mouthwashing',
     'Arctic eggs',
     'Tactical breach wizards',
     'The Forgotten City',
     'Stephen\'s Sausage Rolls',
-    'The Dark Queen of Mortholme'
+    'The Dark Queen of Mortholme',
+    'Noita'
   ];
 }
