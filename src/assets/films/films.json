@@ -1,6 +1,20 @@
 {
   "films": [
     {
+      "filename": "blue-boy.jpg",
+      "title": "Blue Boy",
+      "description": "Short film featuring escorts listening to themselves tell stories. It was nice and thought-provoking",
+      "year": "2025",
+      "release": "2019"
+    },
+    {
+      "filename": "pornomelancolia.jpg",
+      "title": "Pornomelancolía",
+      "description": "An upsetting film about making porn in Mexico. On paper things seem alright but you can tell he is deeply upset throughout most of the film. Largely real as well, according to the director FAQ afterwards, not just fiction.",
+      "year": "2025",
+      "release": "2022"
+    },
+    {
       "filename": "ciure.png",
       "title": "Ciurè",
       "description": "ARGH this film really pissed me off. They went way too far with the straight guy. I disliked so many of his scenes, and how Ciurè just dealt with his bullshit at great cost for no reason. She was portrayed as a flawless human, but real people aren't like that. I liked that she looks like Amy Winehouse though",

@@ -28,6 +28,7 @@ export default class NextComponent {
     'Duelists of Eden',
     'Morsels',
     'Iconoclasts',
+    'Shinobi: Art of Vengeance'
   ];
   pcgames = [
     'Papers Please',
