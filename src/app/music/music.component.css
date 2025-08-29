@@ -66,3 +66,38 @@
   margin-top: 50px;
   scale: 0.8;
 }
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+
+.cd-image-container {
+  width: 50%;
+  position: relative;
+  overflow: visible;
+  margin: 0 auto;
+}
+
+.cd-image {
+  display: block;
+  width: 89%;
+  height: 89%;
+  object-fit: contain;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cd-case {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  z-index: 10;
+}

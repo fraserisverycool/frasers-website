@@ -1,7 +1,12 @@
 <div class="image-details">
   <h3>{{ photo.title }}</h3>
   <div class="image-container" (click)="openModal(photo)">
-    <img [ngSrc]="'assets/gallery/' + photo.filename" [alt]="photo.title" class="gallery-image" width="600" height="600">
+    <ng-container *ngIf="showText; else normalImage">
+      <img [ngSrc]="'assets/gallery/' + photo.unmasked" [alt]="photo.title" class="gallery-image" width="600" height="600">
+    </ng-container>
+    <ng-template #normalImage>
+      <img [ngSrc]="'assets/gallery/' + photo.filename" [alt]="photo.title" class="gallery-image" width="600" height="600">
+    </ng-template>
   </div>
   <div class="description-container">
     <p>To unlock the anecdote behind this photo, please answer this question:</p>

@@ -2,6 +2,7 @@
   "pictures": [
     {
       "filename": "bob2.jpg",
+      "unmasked": "bob.jpg",
       "title": "Fabulous party idea",
       "description": "My friend Sam put on a party where the theme was bobs! Pictured here is Victor, sorry I mean Christine who looks great in her bob. For the day I became Stella, but I didn't look as good as her. Impressively, a good 70-80% of attendees had bobs, and it was so easy to be sociable and outgoing because you could start every conversation with 'Hey, nice bob!'",
       "month": "July 2025",
@@ -9,7 +10,8 @@
       "answer": ["Bob", "Bobs", "Bob Hairstyle"]
     },
     {
-      "filename": "kicker.jpg",
+      "filename": "kicker2.jpg",
+      "unmasked": "kicker.jpg",
       "title": "Commentating the D-Kicker tournament",
       "description": "Our friends Marta and Víctor asked us to commentate their kicker tournament, which we immediately said yes to. When the day came, it hit Diego and I that we had to entertain a whole crowd for like 3 hours! The event went super well thankfully. One highlight for me personally was being able to set up a projection of the table on the wall using a combination of my streaming skills from smash and Diego's shibari skills - he hung the webcam from the ceiling, pointing it down at the table! And on the day we set it up and it just worked! That is the power of friendship right there.",
       "month": "May 2025",
@@ -18,6 +20,7 @@
     },
     {
       "filename": "world-peace2.jpg",
+      "unmasked": "world-peace.jpg",
       "title": "DJ World Peace presents Party 4 World Peace",
       "description": "We threw a big party at Mauersegler! This time I was the one responsible because it was my birthday, which meant that I got loads of attention, which I loved. I wore a dress for the first time in my life and kinda enjoyed it. I made sashes for everyone so we could all be beauty pageant queens, because I made the theme of the party 'World Peace' and 'Disco'. Not easy themes to work with but the people came through and it was a huge success!",
       "month": "May 2025",
@@ -34,6 +37,7 @@
     },
     {
       "filename": "analog2.jpg",
+      "unmasked": "analog.jpg",
       "title": "Analog Weekend",
       "description": "We were invited to DJ at this really cool weekend away in Sachsen! Everyone there had jobs like cooking, operating the sauna, putting on workshops etc. Jack famously put on a workshop about putting stuff up your butt. My job was to decorate the dancefloor which was a huge success! It was a great bonding experience for WEYES. There is not much photo evidence of the weekend's shenanigans because of the lack of phones but here's a photo of a printed out picture from an analog camera of me and Jack looking cute. This was also the first outing of my new moustache.",
       "month": "April 2025",
@@ -58,6 +62,7 @@
     },
     {
       "filename": "melee2.jpg",
+      "unmasked": "melee.jpg",
       "title": "Drop everything and BO3 me",
       "description": "I always keeping an eye open for arcade machines when I'm Mexico not only to drop everything and challenge Jack to a game of King of Fighters (which they always won and yes I am still bitter), but also to find any weird shit, like this machine which had a bunch of emulated gamecube and wii games on it. We paid a couple of pesos and had 5 minutes in Smash Melee, which was just about enough to destroy Jack with melee Peach, even though I was unable to do any float cancels with the joystick",
       "month": "January 2025",
@@ -66,6 +71,7 @@
     },
     {
       "filename": "archeology2.jpg",
+      "unmasked": "archeology.jpg",
       "title": "A glimpse into the world of archeology",
       "description": "Jack and I were killing time in Córdoba, Veracruz when we were approached by a lovely man who gave us like a 3 hour tour of the archeology museum, which was so good. We asked a ton of questions and showed a ton of interest, so much so that at the end he let us see his office, pictured here. He had all these shelves of pieces that needed to be registered and getting that insider look was just so fucking cool",
       "month": "January 2025",
@@ -74,6 +80,7 @@
     },
     {
       "filename": "arturo2.jpg",
+      "unmasked": "arturo.jpg",
       "title": "Moments before the coolest physical manoeuvre I've ever pulled off",
       "description": "Playa Colomitas in Puerto Vallarta with a certain someone. Not only was the day beautiful, the hike beautiful and the beach beautiful, but we also had an amazing moment at this beach. It started to rain, so everyone got into one of the lancha boats you can see in the picture. Everyone struggled, fell inside unceremoniously, or needed to be helped by the driver. We were the last to enter, and although I was nervous, I just went for it and hoisted myself in. By some miracle, I did a perfect flip and landed on the seat so smoothly that people behind me were audibly impressed. Then the cute boy featured in the picture comes up, passes me his shoes and bag then does an equally impressive twist into the boat right next me, then gives me a little kiss. Everyone on the boat cheered!",
       "month": "January 2025",
@@ -98,6 +105,7 @@
     },
     {
       "filename": "clash2.jpg",
+      "unmasked": "clash.jpg",
       "title": "Stunning!",
       "description": "I put on a new tournament at the Xperion Centre called Clash of Titans and it was a big success! This is a great pic of me and Jack commentating together in German, but my favourite memory from this day was Jack & Diego commentating together, Diego taking it all seriously and Jack just interrupting him to say 'Stunning!' just because Bayonetta is on the screen",
       "month": "September 2024",
@@ -106,6 +114,7 @@
     },
     {
       "filename": "tent2.jpg",
+      "unmasked": "tent.jpg",
       "title": "Whole lotta fun",
       "description": "Ah, the experience of getting close friends who are noobs at video games to play smash, I love it. For the record, these two picked Olimar and Villager as their characters, which for me is a massive indication of how cool they are. Photo was taken at Whole Festival",
       "month": "August 2024",
@@ -154,6 +163,7 @@
     },
     {
       "filename": "tamales2.jpg",
+      "unmasked": "tamales.jpg",
       "title": "Making tamales",
       "description": "I was invited to stay with Josue's best friend's family in Córdoba, Veracruz and it was so fun! I felt like a part of the family, which in Mexico is a real thing. In this photo we are making tamales, some chicken & salsa verde and the others chocolate (!) tamales no less",
       "month": "February 2024",
@@ -162,6 +172,7 @@
     },
     {
       "filename": "tower2.jpg",
+      "unmasked": "tower.jpg",
       "title": "La Torre",
       "description": "We were told to get the tower, and that's what we did. Hell yeah. Aguachiles for days, and covered in the most acidic sauce you can imagine. Might be a top 10 lifetime meal. While waiting for this we bought two rugs from someone walking by (the yellow one in my living room is from here!)",
       "month": "January 2024",
@@ -210,6 +221,7 @@
     },
     {
       "filename": "juice2.jpg",
+      "unmasked": "juice.jpg",
       "title": "The moment I realised fruit juice doesn't have to be like that",
       "description": "Having given up alcohol, I had always dreaded ordering drinks in bars, because there's nothing actually good that isn't alcoholic. The real killer was fruit juice. When I think about ordering an apple juice in Germany I think about those small glass bottles with processed juice and added sugar. Then I went to Mexico, pictured here on a Grindr date, and I reluctantly ordered a papaya juice and it rocked my world. The guy just juiced a papaya right in front of me, put in a spoonful of sugar, mixed it and gave it to me and it was fucking delicious. My favourite Mexican food is genuinely just fruit",
       "month": "March 2023",
