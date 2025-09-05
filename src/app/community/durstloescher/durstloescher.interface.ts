@@ -5,4 +5,5 @@ export interface Durstloescher {
   description: string;
   fraserscore: string;
   fraserdescription: string;
+  id: string;
 }

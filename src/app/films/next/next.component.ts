@@ -11,6 +11,7 @@ import FilmsComponent from "../films.component";
 })
 export default class NextComponent {
   films = [
+    'Lurker', 'Moonstruck', 'Streets of Fire', 'Gladiator',
     'Black Orpheus', 'Hereditary', 'Where Dragons Live', 'Painted boats',
     'Labyrinth', 'Playtime', 'Black Christmas', 'Wings', 'The Trial',
     'Mulholland Drive', 'Pink Flamingos', "I'm Still Here",

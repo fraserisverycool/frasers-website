@@ -5,889 +5,1016 @@
       "album": "Designer",
       "genre": "Art Pop",
       "description": "An all time fave. Chill & weird music. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "aldous-party.jpg"
+      "image": "aldous-party.jpg",
+      "id": "7401e22e-2970-4edb-a84b-cf487f6601a1"
     },
     {
       "artist": "Anohni and the Johnsons",
       "album": "My Back was a Bridge for You to Cross",
       "genre": "Art Pop",
       "description": "Only really suitable for listening to on your own. Nonetheless totally gorgeous and you can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "anohni-back.png"
+      "image": "anohni-back.png",
+      "id": "e12eab42-55c6-4161-9c45-9db18d098b27"
     },
     {
       "artist": "Björk",
       "album": "Post",
       "genre": "Art Pop",
       "description": "A wackier album, expect some heads turned if you put this on the CD player.",
-      "image": "björk-post.jpg"
+      "image": "björk-post.jpg",
+      "id": "96c55983-549f-4fa8-b7cb-a841c4ee59f5"
     },
     {
       "artist": "Björk",
       "album": "Homogenic",
       "genre": "Art Pop",
       "description": "A fave. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "björk-homogenic.jpg"
+      "image": "björk-homogenic.jpg",
+      "id": "f1fd7d58-f061-4d89-9bad-2dc009bb9a9c"
     },
     {
       "artist": "Björk",
       "album": "Debut",
       "genre": "Art Pop",
       "description": "A classic. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "björk-debut.jpg"
+      "image": "björk-debut.jpg",
+      "id": "f6d10258-f518-4063-8d41-187da5aefc58"
     },
     {
       "artist": "PJ Harvey",
       "album": "Let England Shake",
       "genre": "Art Pop",
       "description": "A gift from Lydia. I like it a lot.",
-      "image": "pj-england.jpg"
+      "image": "pj-england.jpg",
+      "id": "b3cca35d-204c-415f-befb-9a45228f479e"
     },
     {
       "artist": "Portishead",
       "album": "Dummy",
       "genre": "Art Pop",
       "description": "Got this CD twice by accident so if anyone wants another one let me know.",
-      "image": "portishead-dummy.jpg"
+      "image": "portishead-dummy.jpg",
+      "id": "434c86f1-ab83-430c-91c7-c528fdda1b1a"
     },
     {
       "artist": "Magdalena Bay",
       "album": "Imaginal Disk",
       "genre": "Art Pop",
       "description": "Was obsessed with this album in 2024. Great to put on for gay party people.",
-      "image": "magdalena-imaginal.jpg"
+      "image": "magdalena-imaginal.jpg",
+      "id": "21f2a0b0-9785-4e21-87d9-ae0182a4af31"
     },
     {
       "artist": "Regina Spektor",
       "album": "What We Saw from the Cheap Seats",
       "genre": "Art Pop",
       "description": "Love this album. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "regina-cheap.jpg"
+      "image": "regina-cheap.jpg",
+      "id": "33066076-7b99-4797-83b9-23177ee94b14"
     },
     {
       "artist": "Regina Spektor",
       "album": "Soviet Kitsch",
       "genre": "Art Pop",
       "description": "Maybe my favourite of hers. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "regina-soviet.jpg"
+      "image": "regina-soviet.jpg",
+      "id": "da2b166b-aaa5-4ca4-bc3a-ab7d82f3019c"
     },
     {
       "artist": "Regina Spektor",
       "album": "Far",
       "genre": "Art Pop",
       "description": "More pop-y tracks from Regina. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "regina-far.jpg"
+      "image": "regina-far.jpg",
+      "id": "3188eb43-5fb7-492d-b3c5-ddff8c2583b8"
     },
     {
       "artist": "Róisín Murphy",
       "album": "Ruby Blue",
       "genre": "Art Pop",
       "description": "Very out there early Roisin that I borrowed from Kitty and never gave back.",
-      "image": "roisin-ruby.png"
+      "image": "roisin-ruby.png",
+      "id": "b6db7683-753e-446e-82fc-01545333ea1a"
     },
     {
       "artist": "Spellling",
       "album": "The Turning Wheel",
       "genre": "Art Pop",
       "description": "Beautiful and magical music. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "spellling-turning.jpg"
+      "image": "spellling-turning.jpg",
+      "id": "9e70b193-0f92-4f08-ad4d-8be8dd0d8238"
     },
     {
       "artist": "Shakespears Sisters",
       "album": "Hormonally Yours",
       "genre": "Art Pop",
       "description": "Picked it up because of the name. It's some dream pop like Cocteau Twins or Beach House.",
-      "image": "shakespears-hormonally.jpg"
+      "image": "shakespears-hormonally.jpg",
+      "id": "a13c44a1-37d5-47ea-ba86-8db2accd013d"
     },
     {
       "artist": "St. Vincent",
       "album": "All Born Screaming",
       "genre": "Art Pop",
       "description": "Got it at the St. Vincent. Was overcome by how good she was",
-      "image": "vincent-screaming.jpg"
+      "image": "vincent-screaming.jpg",
+      "id": "fab04872-1825-4311-b816-b7f6c850638a"
     },
     {
       "artist": "Adele",
       "album": "30",
       "genre": "Pop",
       "description": "Nice pop ballads.",
-      "image": "adele-30.jpg"
+      "image": "adele-30.jpg",
+      "id": "87f8debf-7830-47ec-9dc9-1276e4813033"
     },
     {
       "artist": "Amy Winehouse",
       "album": "Frank",
       "genre": "Pop",
       "description": "All time classic. Great for all situations. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "amy-frank.jpg"
+      "image": "amy-frank.jpg",
+      "id": "dd393ec2-0fc7-43dd-ab46-80af4c5be22a"
     },
     {
       "artist": "Destiny's Child",
       "album": "The Writing's on the Wall",
       "genre": "Pop",
       "description": "Pre-drinking for the queer party music. A gift from Kitty",
-      "image": "destiny-writing.jpg"
+      "image": "destiny-writing.jpg",
+      "id": "a0d99bd2-179c-4f30-90ca-13bf6efefeaf"
     },
     {
       "artist": "Goldfrapp",
       "album": "Supernature",
       "genre": "Pop",
       "description": "Underrated classic dance pop",
-      "image": "goldfrapp-supernature.jpg"
+      "image": "goldfrapp-supernature.jpg",
+      "id": "5bae1f5b-5bca-4259-bd32-9ed330eac503"
     },
     {
       "artist": "Janelle Monáe",
       "album": "The ArchAndroid",
       "genre": "Pop",
       "description": "One of my all-time faves. Vast, all-encompassing music. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "janelle-arch.jpg"
+      "image": "janelle-arch.jpg",
+      "id": "59f1bdb1-dab3-49f4-9a19-9f10fb680a2a"
     },
     {
       "artist": "Janet Jackson",
       "album": "The Velvet Rope",
       "genre": "Pop",
       "description": "Classic, perfect for a party. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "janet-velvet.jpg"
+      "image": "janet-velvet.jpg",
+      "id": "8f2857c8-9acc-48c6-9396-7840fc073ef5"
     },
     {
       "artist": "Kylie Minogue",
       "album": "Rhythm of Love",
       "genre": "Pop",
       "description": "Timeless and perfect. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "kylie-rhythm.png"
+      "image": "kylie-rhythm.png",
+      "id": "f657ae27-ad6c-4df3-8783-f052d5bbc44a"
     },
     {
       "artist": "Lykke Li",
       "album": "Wounded Rhymes",
       "genre": "Pop",
       "description": "Sad and beautiful. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "lykke-wounded.jpg"
+      "image": "lykke-wounded.jpg",
+      "id": "c2c144bd-f83d-4d8c-bddd-17226c9678e1"
     },
     {
       "artist": "Madonna",
       "album": "Music",
       "genre": "Pop",
       "description": "Given to me by a Grindr hookup. Great result, great album.",
-      "image": "madonna-music.jpg"
+      "image": "madonna-music.jpg",
+      "id": "1c58507b-4273-405c-8300-df362bff0c26"
     },
     {
       "artist": "Madonna",
       "album": "Erotica",
       "genre": "Pop",
       "description": "Vogue music! You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "madonna-erotica.png"
+      "image": "madonna-erotica.png",
+      "id": "4e0d1d0b-034f-45f4-a5c8-d593828db4a6"
     },
     {
       "artist": "Natalia Lafourcade",
       "album": "Hasta La Raíz",
       "genre": "Pop",
       "description": "Legendary Mexican singer!",
-      "image": "natalia-raiz.jpg"
+      "image": "natalia-raiz.jpg",
+      "id": "9554db16-171e-42ca-8c9c-a301d1d0aaf9"
     },
     {
       "artist": "Nelly Furtado",
       "album": "Whoa, Nelly!",
       "genre": "Pop",
       "description": "The original Nelly Furtado tracks",
-      "image": "nelly-whoa.webp"
+      "image": "nelly-whoa.webp",
+      "id": "1618c5a1-5c97-462e-a78b-5473ef39f1d8"
     },
     {
       "artist": "Nelly Furtado",
       "album": "Folklore",
       "genre": "Pop",
       "description": "Kinda indie pop music. My favourite from her. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "nelly-folklore.jpg"
+      "image": "nelly-folklore.jpg",
+      "id": "8ef08674-cca3-4ecf-9641-5de6a1655216"
     },
     {
       "artist": "Prince",
       "album": "1999",
       "genre": "Pop",
       "description": "Great for party prep. Crowd-pleaser",
-      "image": "prince-1999.png"
+      "image": "prince-1999.png",
+      "id": "0c0fa171-8cf3-4e44-b228-970990123c30"
     },
     {
       "artist": "Tears For Fears",
       "album": "Songs from the Big Chair",
       "genre": "Pop",
       "description": "Dramatic music! Some classics on here",
-      "image": "tears-songs.jpg"
+      "image": "tears-songs.jpg",
+      "id": "c0957503-d07d-484f-85b4-35e8da636263"
     },
     {
       "artist": "Various Artists",
       "album": "Party Collection Vol.2",
       "genre": "Pop",
       "description": "A fun compilation I found",
-      "image": "party-2.jpg"
+      "image": "party-2.jpg",
+      "id": "95accf94-86b6-44fc-be2f-4afb462b90c5"
     },
     {
       "artist": "Various Artists",
       "album": "Party Collection Vol.3",
       "genre": "Pop",
       "description": "Another fun compilation I found",
-      "image": "party-3.jpg"
+      "image": "party-3.jpg",
+      "id": "c3fb8934-dd37-4fa7-a44a-8606145f6caf"
     },
     {
       "artist": "Kylie Minogue",
       "album": "Body Language",
       "genre": "Pop",
       "description": "More niche Kylie. I love the song 'Chocolate'",
-      "image": "kylie-body.jpg"
+      "image": "kylie-body.jpg",
+      "id": "5dc90bd8-86bf-4f60-a996-8f78d5f69718"
     },
     {
       "artist": "Eurhythmics",
       "album": "Greatest Hits",
       "genre": "Pop",
       "description": "More than just 'Sweet Dreams'!",
-      "image": "eurhythmics-greatest.jpg"
+      "image": "eurhythmics-greatest.jpg",
+      "id": "5107bd31-d61c-4668-9208-2653978d1eff"
     },
     {
       "artist": "Various Artists",
       "album": "Pretty Woman Soundtrack",
       "genre": "Pop",
       "description": "Some golden oldies on here. I'm mostly in it for 'King of Wishful Thinking'",
-      "image": "pretty-woman.webp"
+      "image": "pretty-woman.webp",
+      "id": "a14d317e-de45-416c-8d81-cde7f8604c2d"
     },
     {
       "artist": "Various Artists",
       "album": "Italian Favourites: Millenium Collection",
       "genre": "Pop",
       "description": "Spotted this in a second hand shop in Friedrichshain",
-      "image": "italian-collection.PNG"
+      "image": "italian-collection.PNG",
+      "id": "81d7cedd-fc96-4912-8881-90d932b2175b"
     },
     {
       "artist": "Air",
       "album": "Moon Safari",
       "genre": "Rock & Electronic",
       "description": "Classic, easy listening early 2000s electronica. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "air-moon.jpg"
+      "image": "air-moon.jpg",
+      "id": "ad715218-1036-4d42-a2c9-2c15c4803e4e"
     },
     {
       "artist": "Bonobo",
       "album": "Black Sands",
       "genre": "Rock & Electronic",
       "description": "Crowd-pleaser, everyone loves this banger album. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "bonobo-black.jpg"
+      "image": "bonobo-black.jpg",
+      "id": "579ad7c6-c72c-42d4-8314-a4e87e77ee98"
     },
     {
       "artist": "Chet Faker",
       "album": "Built on Glass",
       "genre": "Rock & Electronic",
       "description": "Chill, soulful music",
-      "image": "chet-built.jpg"
+      "image": "chet-built.jpg",
+      "id": "5673b359-90ae-4c08-b446-1fd78cab33cb"
     },
     {
       "artist": "Django Django",
       "album": "Off Planet",
       "genre": "Rock & Electronic",
       "description": "Very eclectic. Kinda house-y, kinda pop-y, hard to pin down. There's this one track on disc one that I hate",
-      "image": "django-planet.jpg"
+      "image": "django-planet.jpg",
+      "id": "d9f2ef70-a9f1-41ec-a1ea-41b48f5b20a1"
     },
     {
       "artist": "Kero Kero Bonito",
       "album": "Civilisation",
       "genre": "Rock & Electronic",
       "description": "A Fraser favourite and if you put this on I will just die. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "kkb-civilisation.jpg"
+      "image": "kkb-civilisation.jpg",
+      "id": "49bc8077-5ab3-428f-8a83-5daeb5e306f3"
     },
     {
       "artist": "Hot Chip",
       "album": "In Our Heads",
       "genre": "Rock & Electronic",
       "description": "This one always goes down well. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "hot-heads.jpg"
+      "image": "hot-heads.jpg",
+      "id": "ee9d9b89-b1c6-4bdb-95f5-3b7be201d258"
     },
     {
       "artist": "Röyksopp",
       "album": "Melody AM",
       "genre": "Rock & Electronic",
       "description": "Chill electronic music. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "röyksopp-melody.jpg"
+      "image": "röyksopp-melody.jpg",
+      "id": "453bd211-a6fe-41fb-9965-2f08769ab127"
     },
     {
       "artist": "The Stranglers",
       "album": "Greatest Hits",
       "genre": "Rock & Electronic",
       "description": "70s rock music. Great for when older generations are in the room",
-      "image": "stranglers-greatest.jpg"
+      "image": "stranglers-greatest.jpg",
+      "id": "77066de5-36c3-4880-9f5d-121eb667df62"
     },
     {
       "artist": "Various Artists",
       "album": "Phenomenon: Music from the Motion Picture",
       "genre": "Rock & Electronic",
       "description": "Soundtrack to a film I haven't seen that Víctor gave me! Various artists including some rock classics",
-      "image": "phenomenon.jpg"
+      "image": "phenomenon.jpg",
+      "id": "3fff7bdf-8173-429e-afa3-557ccec9d8a3"
     },
     {
       "artist": "Gorillaz",
       "album": "Plastic Beach",
       "genre": "Rock & Electronic",
       "description": "Well known and cool music from Gorillaz. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "gorillaz-plastic.jpg"
+      "image": "gorillaz-plastic.jpg",
+      "id": "424e4ffe-d6c5-4af1-bad4-f1ac0baed434"
     },
     {
       "artist": "Tame Impala",
       "album": "Lonerism",
       "genre": "Rock & Electronic",
       "description": "Imo the better of the Tame Impala albums. Psych rock",
-      "image": "tame-lonerism.jpg"
+      "image": "tame-lonerism.jpg",
+      "id": "57f5d7a3-8fc9-4aa9-8045-ec28ab06d98d"
     },
     {
       "artist": "Gough",
       "album": "Hosianna Mindfuck",
       "genre": "Rock & Electronic",
       "description": "Bought this on a whim because of the name. Punk rock",
-      "image": "gough-hosianna.jpg"
+      "image": "gough-hosianna.jpg",
+      "id": "4ae1c90d-f8cb-4602-a30b-2a671c454007"
     },
     {
       "artist": "Manu Chao",
       "album": "La Radiolina",
       "genre": "Rock & Electronic",
       "description": "Spotted this in a second hand shop in Friedrichshain",
-      "image": "manu-radiolina.jpg"
+      "image": "manu-radiolina.jpg",
+      "id": "38ce7470-ad73-4bfb-bc85-16739fb699a9"
     },
     {
       "artist": "Earth, Wind and Fire",
       "album": "Greatest Hits",
       "genre": "House & Disco",
       "description": "Classic disco tracks for you and your family",
-      "image": "earth-greatest.jpg"
+      "image": "earth-greatest.jpg",
+      "id": "0883c62f-796a-4cf5-966f-df870e3a9963"
     },
     {
       "artist": "Jessie Ware",
       "album": "What's Your Pleasure (Platinum Edition)",
       "genre": "House & Disco",
       "description": "Pop perfection from the disco princess. B side CD is my favourite. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "jessie-pleasure-2.jpg"
+      "image": "jessie-pleasure-2.jpg",
+      "id": "501326c9-296e-4f7a-868a-86546dc84a34"
     },
     {
       "artist": "Chaka Khan",
       "album": "Epiphany: The Best of Chaka Khan",
       "genre": "House & Disco",
       "description": "Great party disco pop",
-      "image": "chaka-epiphany.jpg"
+      "image": "chaka-epiphany.jpg",
+      "id": "b1db3e78-dc86-40a4-94be-64486cb219c0"
     },
     {
       "artist": "Diana Ross",
       "album": "Love & Life",
       "genre": "House & Disco",
       "description": "I mean it's Diana Ross",
-      "image": "diana-love.jpg"
+      "image": "diana-love.jpg",
+      "id": "0dfa06ed-9bbd-4a15-8ced-843afa9017e2"
     },
     {
       "artist": "Donna Summer",
       "album": "The Best of Donna Summer",
       "genre": "House & Disco",
       "description": "This compilation is so good",
-      "image": "donna-greatest.jpg"
+      "image": "donna-greatest.jpg",
+      "id": "f3072a0c-ae49-4bd8-83c4-1c4ea605bce4"
     },
     {
       "artist": "Donna Summer",
       "album": "Another Place and Time",
       "genre": "House & Disco",
       "description": "I was gifted this by a Grindr hook up",
-      "image": "donna-another.jpg"
+      "image": "donna-another.jpg",
+      "id": "dbf584dd-3f04-48eb-8f3c-ca8ea80dfd28"
     },
     {
       "artist": "Hercules & Love Affair",
       "album": "Blue Songs",
       "genre": "House & Disco",
       "description": "It's nice upbeat background music but it doesn't feature their famous song with Anohni",
-      "image": "hercules-blue.jpg"
+      "image": "hercules-blue.jpg",
+      "id": "601387d1-b701-4a40-a2b2-5d9533ea4738"
     },
     {
       "artist": "Ana Frango Elétrico",
       "album": "Me Chama de Gato que eu Sou Sua",
       "genre": "House & Disco",
       "description": "Brazilian rock/disco music. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "ana-chama.jpg"
+      "image": "ana-chama.jpg",
+      "id": "0aec3136-e218-460b-8e36-585cfd7d163a"
     },
     {
       "artist": "Titlez",
       "album": "Family Affairs",
       "genre": "House & Disco",
       "description": "No idea where this came from but it's got some banger house music on it",
-      "image": "titlez-family.jpg"
+      "image": "titlez-family.jpg",
+      "id": "c339abf3-bd4c-4302-9d45-3f1ee0e27fa3"
     },
     {
       "artist": "Jamiroquai",
       "album": "The Return of the Space Cowboy",
       "genre": "House & Disco",
       "description": "Spotted this in a second hand shop in Friedrichshain",
-      "image": "jamiroquai-space.jpeg"
+      "image": "jamiroquai-space.jpeg",
+      "id": "679861e8-e282-4cf7-9bda-dd4ecab339b6"
     },
     {
       "artist": "Beirut",
       "album": "The Flying Club Cup",
       "genre": "Indie & Singer-Songwriter",
       "description": "Peaceful and nice French-inspired album. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "beirut-flying.jpg"
+      "image": "beirut-flying.jpg",
+      "id": "726d668c-87fa-4b70-bc2d-bae4598ffb23"
     },
     {
       "artist": "Bon Iver",
       "album": "For Emma, Forever Ago",
       "genre": "Indie & Singer-Songwriter",
       "description": "Music for sleep. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "bon-emma.jpg"
+      "image": "bon-emma.jpg",
+      "id": "860eb587-196f-4189-b5e4-f2fc0b38b2e3"
     },
     {
       "artist": "Broken Bells",
       "album": "Broken Bells",
       "genre": "Indie & Singer-Songwriter",
       "description": "Music for doing things in the house. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "broken-bells.jpg"
+      "image": "broken-bells.jpg",
+      "id": "943af804-68e1-449b-8a03-98ad91e5dde3"
     },
     {
       "artist": "Feist",
       "album": "The Reminder",
       "genre": "Indie & Singer-Songwriter",
       "description": "Her famous hits are on this album. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "feist-reminder.jpg"
+      "image": "feist-reminder.jpg",
+      "id": "8b2ab892-4576-4b37-bdd4-f90b2a84f109"
     },
     {
       "artist": "Feist",
       "album": "Let It Die",
       "genre": "Indie & Singer-Songwriter",
       "description": "Older, rawer Feist. I love this one. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "feist-die.jpg"
+      "image": "feist-die.jpg",
+      "id": "dd7a184a-ab78-4cd6-bb43-48ba2116ad92"
     },
     {
       "artist": "Fleet Foxes",
       "album": "Helplessness Blues",
       "genre": "Indie & Singer-Songwriter",
       "description": "Classic folky stuff. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "fleet-helpless.jpg"
+      "image": "fleet-helpless.jpg",
+      "id": "d17c5731-67f6-42b5-a5d7-bcf0e330f1d8"
     },
     {
       "artist": "Jens Lekman",
       "album": "Night Over Kortedala",
       "genre": "Indie & Singer-Songwriter",
       "description": "Maybe not for everyone but for me an absolute favourite. Crucially on streaming services is a newer (worse) version of this album so you have the original on my CD player. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "jens-night.jpg"
+      "image": "jens-night.jpg",
+      "id": "be4e970e-b6be-44bc-9648-dc0acd318f72"
     },
     {
       "artist": "The Leisure Society",
       "album": "Into The Murky Water",
       "genre": "Indie & Singer-Songwriter",
       "description": "Inoffensive folky music that I always loved. Great album art. I also have two of them for some reason",
-      "image": "leisure-murky.jpg"
+      "image": "leisure-murky.jpg",
+      "id": "4b9d422d-8040-4c47-b8e2-6f36e2f4ddd4"
     },
     {
       "artist": "The Lovin' Spoonful",
       "album": "Summer in the City",
       "genre": "Indie & Singer-Songwriter",
       "description": "60s music if you're looking for that vibe",
-      "image": "lovin-summer.jpg"
+      "image": "lovin-summer.jpg",
+      "id": "46551dec-1061-4c55-8e5e-b150fcf91643"
     },
     {
       "artist": "Kings of Convenience",
       "album": "Riot on an Empty Street",
       "genre": "Indie & Singer-Songwriter",
       "description": "Very peaceful music. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "kings-riot.jpg"
+      "image": "kings-riot.jpg",
+      "id": "21fedfef-5ada-4e08-a2e3-c653b754cd1f"
     },
     {
       "artist": "Kings of Convenience",
       "album": "Quiet is the New Loud",
       "genre": "Indie & Singer-Songwriter",
       "description": "Super peaceful music. A gift from Diego. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "kings-quiet.jpg"
+      "image": "kings-quiet.jpg",
+      "id": "32ed82cd-3291-4795-ba88-db253d6ba911"
     },
     {
       "artist": "Laura Marling",
       "album": "Song For Our Daughter",
       "genre": "Indie & Singer-Songwriter",
       "description": "Beautiful tracks. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "laura-song.jpg"
+      "image": "laura-song.jpg",
+      "id": "a33fd1d7-0f46-424c-a079-d06eaaf44292"
     },
     {
       "artist": "Mari Boine",
       "album": "Sterna Paradisea",
       "genre": "Indie & Singer-Songwriter",
       "description": "CD Víctor gave me. It features a singer from northern Norway singing in the Sami language!",
-      "image": "mari-sterna.jpg"
+      "image": "mari-sterna.jpg",
+      "id": "8de9866e-368b-4be5-92cb-38a073eded05"
     },
     {
       "artist": "Mark Barnes",
       "album": "Welcome to Cholsey",
       "genre": "Indie & Singer-Songwriter",
       "description": "This CD is fucked up because it's so old and it glitches so much that its unlistenable. It's also just terrible. But it has a special place in my heart because it's from a neighbouring village to where I'm from and I don't want to throw it away. I just hope nobody puts this on. If you're interested you can watch this video of <a href=\"https://youtu.be/8RA99j62Y14?feature=shared\">the legend himself</a>.",
-      "image": "mark-cholsey.jpg"
+      "image": "mark-cholsey.jpg",
+      "id": "9e1c3d24-c4df-4d88-be6f-14431fa05eb1"
     },
     {
       "artist": "Nick Drake",
       "album": "Pink Moon",
       "genre": "Indie & Singer-Songwriter",
       "description": "Peaceful and beautiful songs from popular folk artist Nick Drake.",
-      "image": "nick-pink.jpg"
+      "image": "nick-pink.jpg",
+      "id": "888d7db4-22de-415d-af2a-6fd26573f0e4"
     },
     {
       "artist": "Simon and Garfunkel",
       "album": "Greatest Hits",
       "genre": "Indie & Singer-Songwriter",
       "description": "All their hits. I love this CD",
-      "image": "simon-greatest.jpg"
+      "image": "simon-greatest.jpg",
+      "id": "c1fbf43c-fc21-472f-b6b8-6891c1977060"
     },
     {
       "artist": "Stornoway",
       "album": "Beachcomber's Windowsill",
       "genre": "Indie & Singer-Songwriter",
       "description": "For fans on England I guess. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "stornoway-beachcomber.jpg"
+      "image": "stornoway-beachcomber.jpg",
+      "id": "141d34e9-447c-4fee-81ca-e34576b25379"
     },
     {
       "artist": "Sufjan Stevens",
       "album": "Illinois",
       "genre": "Indie & Singer-Songwriter",
       "description": "American indie music with a special instrumentation and flair. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "sufjan-illinois.jpg"
+      "image": "sufjan-illinois.jpg",
+      "id": "6e4d601d-bd01-4636-8db4-ab6fd59ef570"
     },
     {
       "artist": "The Tallest Man on Earth",
       "album": "Sometimes the Blues is just a Passing Bird",
       "genre": "Indie & Singer-Songwriter",
       "description": "Beautiful EP that I cherish",
-      "image": "tallest-blues.jpg"
+      "image": "tallest-blues.jpg",
+      "id": "b8fe555f-6369-4240-81ce-3958ca1c7d63"
     },
     {
       "artist": "The Tallest Man on Earth",
       "album": "Henry St",
       "genre": "Indie & Singer-Songwriter",
       "description": "His newer album which is also great but not one of my favourites",
-      "image": "tallest-henry.webp"
+      "image": "tallest-henry.webp",
+      "id": "169f2005-9508-4d8c-853c-1344145cc123"
     },
     {
       "artist": "The Tallest Man on Earth",
       "album": "The Wild Hunt",
       "genre": "Indie & Singer-Songwriter",
       "description": "Classic, beautiful guitar tracks. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "tallest-wild.jpg"
+      "image": "tallest-wild.jpg",
+      "id": "6d0e9178-40b1-4ae6-a15c-d2b901c5d25f"
     },
     {
       "artist": "Tunng",
       "album": "Good Arrows",
       "genre": "Indie & Singer-Songwriter",
       "description": "Their weirder album probably. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "tunng-good.jpg"
+      "image": "tunng-good.jpg",
+      "id": "aca7f24e-a75a-4d24-899f-7cd2f489d8fc"
     },
     {
       "artist": "Tunng",
       "album": "Turbines",
       "genre": "Indie & Singer-Songwriter",
       "description": "Niche album that I love. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "tunng-turbines.jpg"
+      "image": "tunng-turbines.jpg",
+      "id": "ca741b18-29c0-41dd-ad3b-0482640b72d3"
     },
     {
       "artist": "Tunng",
       "album": "...And Then We Saw Land",
       "genre": "Indie & Singer-Songwriter",
       "description": "Their hit album with folky-electronica vibes. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "tunng-land.jpg"
+      "image": "tunng-land.jpg",
+      "id": "2983b0c3-6a57-4c23-a1a7-96d28f891baa"
     },
     {
       "artist": "Weyes Blood",
       "album": "Titanic Rising",
       "genre": "Indie & Singer-Songwriter",
       "description": "Beautiful magic music from the stunning Weyes Blood. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "weyes-titanic.webp"
+      "image": "weyes-titanic.webp",
+      "id": "039ac788-3eac-44d2-a499-ded81fe0d38a"
     },
     {
       "artist": "Weyes Blood",
       "album": "And in the Darkness, Hearts Aglow",
       "genre": "Indie & Singer-Songwriter",
       "description": "Gorgeous. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "weyes-darkness.jpg"
+      "image": "weyes-darkness.jpg",
+      "id": "8e8bb02a-a2cf-4b88-a9ed-601797205b5a"
     },
     {
       "artist": "D'Angelo",
       "album": "Brown Sugar",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Classic neo-soul album",
-      "image": "d'angelo-brown.jpg"
+      "image": "d'angelo-brown.jpg",
+      "id": "e1f60e74-9758-4436-a59d-c17ead1f19f9"
     },
     {
       "artist": "Duke Ellington",
       "album": "This is Jazz 7",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Classic root-de-toot on the old trumpet jazz",
-      "image": "duke-jazz.jpg"
+      "image": "duke-jazz.jpg",
+      "id": "d4e1288f-c00f-4639-868d-86452005eaca"
     },
     {
       "artist": "Erykah Badu",
       "album": "Baduizm",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Classic neo-soul album. I love her so much. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "erykah-baduizm.jpg"
+      "image": "erykah-baduizm.jpg",
+      "id": "6c2298d9-e529-4c84-8ad1-15e4db12242f"
     },
     {
       "artist": "Erykah Badu",
       "album": "Mama's Gun",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "My favourite from neo-soul queen herself Erykah Badu. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "erykah-mama.jpg"
+      "image": "erykah-mama.jpg",
+      "id": "12f12c99-7858-4ab5-ac35-64d5a3b2c5b0"
     },
     {
       "artist": "Frank Ocean",
       "album": "Channel Orange",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Classic hip-hop/soul record. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "frank-orange.jpg"
+      "image": "frank-orange.jpg",
+      "id": "acf20816-07d1-42d1-84ea-36b30e07af1f"
     },
     {
       "artist": "Lauryn Hill",
       "album": "The Miseducation of Lauryn Hill",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Classic hip-hop album",
-      "image": "lauryn-miseducation.jpg"
+      "image": "lauryn-miseducation.jpg",
+      "id": "3fca90e5-c2a0-419e-b74b-10dc732bcb6a"
     },
     {
       "artist": "Marvin Gaye",
       "album": "What's Going On?",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Light and airy soul music. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "marvin-what.jpg"
+      "image": "marvin-what.jpg",
+      "id": "be1a7a62-21c0-438b-a13f-53a8366331e6"
     },
     {
       "artist": "Michael Jackson",
       "album": "Off the Wall",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "I feel weird about having this CD because I do believe he molested children",
-      "image": "michael-wall.jpg"
+      "image": "michael-wall.jpg",
+      "id": "ee1c44f5-f8df-414a-8725-26cbf2287aa2"
     },
     {
       "artist": "Michael Kiwanuka",
       "album": "KIWANUKA",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Stunning soul album. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "michael-kiwanuka.jpg"
+      "image": "michael-kiwanuka.jpg",
+      "id": "1d90938f-a906-4894-bb28-8550e286c1ea"
     },
     {
       "artist": "Miles Davis",
       "album": "Kind of Blue",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Some bebop music. Peaceful",
-      "image": "miles-kind.jpg"
+      "image": "miles-kind.jpg",
+      "id": "af1c965f-8c9c-476a-b8a7-22f20d2d649c"
     },
     {
       "artist": "Nina Simone",
       "album": "The Very Best of Nina Simone",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "So many classics. She's amazing",
-      "image": "nina-very.jpg"
+      "image": "nina-very.jpg",
+      "id": "9e3dae9f-9946-42c2-88cb-97cc922cc5b3"
     },
     {
       "artist": "Nina Simone",
       "album": "Little Girl Blue",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Lovely album featuring many of my favourites",
-      "image": "nina-little.jpg"
+      "image": "nina-little.jpg",
+      "id": "904a5f95-5380-46b6-b24b-ddeb4f73f585"
     },
     {
       "artist": "Sault",
       "album": 9,
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Lovely soul album. It's a bit special because it's no longer available on streaming services. So enjoy it on my CD player while you can!",
-      "image": "sault-9.jpg"
+      "image": "sault-9.jpg",
+      "id": "7333707e-247e-41c6-990a-dcccfcd4b8c1"
     },
     {
       "artist": "Stevie Wonder",
       "album": "Songs in the Key of Life",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Classic feel-good album",
-      "image": "stevie-key.jpg"
+      "image": "stevie-key.jpg",
+      "id": "295670c1-5d02-425b-b33d-7b0004d2ae8c"
     },
     {
       "artist": "Sun Ra",
       "album": "Space is the Place",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Very bizarre and inaccessible music, straight up do not recommend",
-      "image": "sun-space.jpg"
+      "image": "sun-space.jpg",
+      "id": "4be84adf-e50b-4fa2-bae3-60c4a9eb12bb"
     },
     {
       "artist": "Jurassic 5",
       "album": "Jurassic 5",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Some classic west coast hip hop!",
-      "image": "jurassic-5.jpg"
+      "image": "jurassic-5.jpg",
+      "id": "6a2c7adb-3e80-4cd8-8ecd-04325a0cfaac"
     },
     {
       "artist": "Aretha Franklin",
       "album": "The Very Best of Aretha Franklin",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Great collection of classics from the queen herself",
-      "image": "aretha-best.jpg"
+      "image": "aretha-best.jpg",
+      "id": "a80a7793-bb8b-4bdb-bb42-f374fbf3f693"
     },
     {
       "artist": "Various Artists",
       "album": "Street Soul",
       "genre": "Jazz, Soul & Hip-Hop",
       "description": "Fun compilation of R&B, Acid Jazz, Hip-hop",
-      "image": "street-soul.jpg"
+      "image": "street-soul.jpg",
+      "id": "4f3e1a0d-6987-4c20-ae1c-a51936931d66"
     },
     {
       "artist": "Caetano Veloso",
       "album": "Antologia",
       "genre": "Vocal Jazz & Smooth",
       "description": "Bossa nova inspired music from Brazil",
-      "image": "caetano-antologia.jpg"
+      "image": "caetano-antologia.jpg",
+      "id": "516f848d-837d-48be-ac6b-ca06470ae809"
     },
     {
       "artist": "Corinne Bailey Rae",
       "album": "Corinne Bailey Rae",
       "genre": "Vocal Jazz & Smooth",
       "description": "Pleasant singer",
-      "image": "corinne-bailey.jpg"
+      "image": "corinne-bailey.jpg",
+      "id": "0b382481-d191-4b9e-9e06-40b7a52e5536"
     },
     {
       "artist": "Madeleine Peyroux",
       "album": "Careless Love",
       "genre": "Vocal Jazz & Smooth",
       "description": "Music that my mum likes. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "madeleine-careless.jpg"
+      "image": "madeleine-careless.jpg",
+      "id": "e3ab864a-1e8f-4945-a90c-d65ffb8dc040"
     },
     {
       "artist": "Melody Gardot",
       "album": "My One and Only Thrill",
       "genre": "Vocal Jazz & Smooth",
       "description": "Music that my mum likes. Very classy",
-      "image": "melody-thrill.jpg"
+      "image": "melody-thrill.jpg",
+      "id": "4622e194-280a-4166-9321-bf676f114cee"
     },
     {
       "artist": "Melody Gardot",
       "album": "The Absence",
       "genre": "Vocal Jazz & Smooth",
       "description": "Lots of really nice Portuguese-inspired music",
-      "image": "melody-absence.jpg"
+      "image": "melody-absence.jpg",
+      "id": "57c11ac6-26f5-4d9d-91c1-f98db80ed7ff"
     },
     {
       "artist": "Norah Jones",
       "album": "Feels Like Home",
       "genre": "Vocal Jazz & Smooth",
       "description": "Classic peaceful music. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "norah-feels.jpg"
+      "image": "norah-feels.jpg",
+      "id": "9bb1e34b-721a-4d86-940a-fabdbee4fe16"
     },
     {
       "artist": "Norah Jones",
       "album": "Not Too Late",
       "genre": "Vocal Jazz & Smooth",
       "description": "My personal fave from Norah. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "norah-not.jpg"
+      "image": "norah-not.jpg",
+      "id": "9a060060-c528-428c-9ffa-0d57453493db"
     },
     {
       "artist": "Riveros",
       "album": "La Verdad",
       "genre": "Vocal Jazz & Smooth",
       "description": "Not a great CD. From a failed Mexican artist. Jack has a funny story about how they got me this CD",
-      "image": "riveros-verdad.jpg"
+      "image": "riveros-verdad.jpg",
+      "id": "3d1622ef-d278-4212-a7b7-9195d9dc6c86"
     },
     {
       "artist": "Rhye",
       "album": "Woman",
       "genre": "Vocal Jazz & Smooth",
       "description": "The true meaning of the word love. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "rhye-woman.jpg"
+      "image": "rhye-woman.jpg",
+      "id": "ede14305-d2b7-48f5-8e97-316b27e921ed"
     },
     {
       "artist": "Sade",
       "album": "The Ultimate Collection",
       "genre": "Vocal Jazz & Smooth",
       "description": "My queen Sade. So smooth, so classy. A gift from Ort",
-      "image": "sade-ultimate.jpg"
+      "image": "sade-ultimate.jpg",
+      "id": "6bd53f63-b4a3-444e-8077-aac866621648"
     },
     {
       "artist": "Sade",
       "album": "Love Deluxe",
       "genre": "Vocal Jazz & Smooth",
       "description": "The ultimate Sade album. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
-      "image": "sade-love.jpg"
+      "image": "sade-love.jpg",
+      "id": "99664da9-4d12-4afc-9fec-17e1894d47d6"
     },
     {
       "artist": "Sessa",
       "album": "Estrela Acesa",
       "genre": "Vocal Jazz & Smooth",
       "description": "Very smooth brazilian jazz album. Bought the CD from the man himself when I saw him in concert",
-      "image": "sessa-estrela.jpg"
+      "image": "sessa-estrela.jpg",
+      "id": "05545c04-a610-4999-8f75-3d913a3986b0"
     },
     {
       "artist": "Toninho Horta",
       "album": "Moonstone",
       "genre": "Vocal Jazz & Smooth",
       "description": "A gift from Diego. Gorgeous brazilian music",
-      "image": "toninho-moonstone.jpg"
+      "image": "toninho-moonstone.jpg",
+      "id": "7ff88b50-15fa-4ffe-9569-fb86f21dc7c5"
     },
     {
       "artist": "Panthenol Spray Jojoba",
       "album": "Entspannen... Abschalten... Träumen... Eine Mischung softer Musik für Ihr Wohlbefinden",
       "genre": "Vocal Jazz & Smooth",
       "description": "A CD that Víctor gave me, I guess from a zu verschenken box. It's very weird, it's these bizarre English language songs (despite the German case) which I can't imagine being relaxing when getting massaged. No evidence of an artist name on the case.",
-      "image": "massage.jpg"
+      "image": "massage.jpg",
+      "id": "3404ba9c-0957-412d-a176-d24d8413c5c2"
     },
     {
       "artist": "Marcos Frederico",
       "album": "Carnaval Cigano",
       "genre": "Vocal Jazz & Smooth",
       "description": "Víctor found this on the floor. It's nice Brazilian folk band music",
-      "image": "marcos-carnaval.jpg"
+      "image": "marcos-carnaval.jpg",
+      "id": "1f8f9e6f-78c8-456f-b6a0-026ca159c536"
     },
     {
       "artist": "Dionne Warwick",
       "album": "Dionne Warwick sings the Bacharach & David Songbook",
       "genre": "Vocal Jazz & Smooth",
       "description": "Spotted this in a second hand shop in Friedrichshain",
-      "image": "dionne-bacharach.jpeg"
+      "image": "dionne-bacharach.jpeg",
+      "id": "46f16052-ad37-4e5b-9d0e-5c609fbc8023"
     },
     {
       "artist": "Edith Piaf",
       "album": "Non Je Ne Regrette Rien",
       "genre": "Vocal Jazz & Smooth",
       "description": "Spotted this in a second hand shop in Friedrichshain",
-      "image": "edith-non.jpg"
+      "image": "edith-non.jpg",
+      "id": "645adee3-5de8-4925-b802-f924364f0b7d"
     },
     {
       "artist": "Garoad",
       "album": "VA-11 Hall-A",
       "genre": "Video Game OST",
       "description": "Amazing vibes, electronic jpop style",
-      "image": "garoad-vallhalla.jpg"
+      "image": "garoad-vallhalla.jpg",
+      "id": "01039d32-5bea-42e5-a6af-1da854653f4a"
     },
     {
       "artist": "Barry Topping",
       "album": "Paradise Killer",
       "genre": "Video Game OST",
       "description": "Vaporwave kinda music, although upbeat",
-      "image": "barry-paradise.webp"
+      "image": "barry-paradise.webp",
+      "id": "846881d4-df18-423d-a87c-50c5e8c1a005"
     },
     {
       "artist": "Debussy",
       "album": "Piano Works",
       "genre": "Classical",
       "description": "Beautiful piano music",
-      "image": "debussy-clair.jpg"
+      "image": "debussy-clair.jpg",
+      "id": "6748f4e9-cb79-4c98-af27-ac996aef0dce"
     },
     {
       "artist": "Chopin",
       "album": "Nocturnes",
       "genre": "Classical",
       "description": "Beautiful and melancholic piano music",
-      "image": "chopin-nocturnes.jpg"
+      "image": "chopin-nocturnes.jpg",
+      "id": "25693774-a4b8-4fc3-9d6a-a84f168f2457"
     },
     {
       "artist": "Rimsky-Korsakov",
       "album": "Scheherezade",
       "genre": "Classical",
       "description": "My favourite symphony!",
-      "image": "rimsky-scheherezade.jpg"
+      "image": "rimsky-scheherezade.jpg",
+      "id": "76beb9eb-3e77-48d7-844d-bb959d56ddb2"
     },
     {
       "artist": "Beethoven",
       "album": "Symphony No. 5 & Symphony No. 6",
       "genre": "Classical",
       "description": "Very famous orchestra music",
-      "image": "beethoven-5-6.PNG"
+      "image": "beethoven-5-6.PNG",
+      "id": "53987e20-9b0c-418b-a160-97918ff1363a"
     },
     {
       "artist": "Ennio Morricone",
       "album": "A Fistful of Dollars: The Lure of the West",
       "genre": "Classical",
       "description": "Classic music from spaghetti western films",
-      "image": "ennio-fistful.jpg"
+      "image": "ennio-fistful.jpg",
+      "id": "a801a83d-20cd-4f53-aecf-9d4791c3ac34"
     }
   ]
 }

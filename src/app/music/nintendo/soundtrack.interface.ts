@@ -4,4 +4,5 @@ export interface Soundtrack {
   description: string;
   platform: string;
   topTracks: string[];
+  id: string;
 }

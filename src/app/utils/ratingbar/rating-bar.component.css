@@ -1,0 +1,31 @@
+.rating-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.circle:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.circle.selected {
+  outline: 2px solid #000;
+  opacity: 1;
+}
+
+.count {
+  min-width: 20px;
+  text-align: center;
+  font-size: 12px;
+}

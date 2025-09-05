@@ -7,6 +7,7 @@ interface KKSong {
   title: string;
   tier: string;
   description: string;
+  id: string;
 }
 
 @Component({

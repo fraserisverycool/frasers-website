@@ -3,7 +3,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {HttpClient} from "@angular/common/http";
 
 interface Track {
-  id: number;
+  trackId: number;
   name: string;
   game: string;
   original: string;
@@ -15,6 +15,7 @@ interface Track {
   image: string;
   nextGame: string;
   previousGame: string;
+  id: string;
 }
 
 @Component({
@@ -99,8 +100,8 @@ export default class MariokartComponent implements OnInit{
 
   calculateNextAndPreviousTracks(): void {
     const orderedTracks = [...this.originalTracks].sort((a, b) => {
-      if (a.id < b.id) return -1;
-      if (a.id > b.id) return 1;
+      if (a.trackId < b.trackId) return -1;
+      if (a.trackId > b.trackId) return 1;
 
       const gameOrderIndexA = Object.values(this.gameMap).indexOf(a.game);
       const gameOrderIndexB = Object.values(this.gameMap).indexOf(b.game);
@@ -108,22 +109,22 @@ export default class MariokartComponent implements OnInit{
     });
 
     this.originalTracks.forEach(track => {
-      const correspondingOrderedTrack = orderedTracks.find(orderedTrack => orderedTrack.id === track.id && orderedTrack.game === track.game);
+      const correspondingOrderedTrack = orderedTracks.find(orderedTrack => orderedTrack.trackId === track.trackId && orderedTrack.game === track.game);
       if (correspondingOrderedTrack) {
         const indexInOrderedTracks = orderedTracks.indexOf(correspondingOrderedTrack);
-        if (indexInOrderedTracks > 0 && orderedTracks[indexInOrderedTracks - 1].id === correspondingOrderedTrack.id) {
+        if (indexInOrderedTracks > 0 && orderedTracks[indexInOrderedTracks - 1].trackId === correspondingOrderedTrack.trackId) {
           track.previousGame = orderedTracks[indexInOrderedTracks - 1].game;
         }
-        if (indexInOrderedTracks < orderedTracks.length - 1 && orderedTracks[indexInOrderedTracks + 1].id === correspondingOrderedTrack.id) {
+        if (indexInOrderedTracks < orderedTracks.length - 1 && orderedTracks[indexInOrderedTracks + 1].trackId === correspondingOrderedTrack.trackId) {
           track.nextGame = orderedTracks[indexInOrderedTracks + 1].game;
         }
       }
     });
   }
 
-  navigateToTrack(newGame: string, oldGame: string, id: number): void {
-    const newTrack = this.originalTracks.find(track => track.id === id && track.game === newGame);
-    const oldTrackIndex = this.tracks.findIndex(track => track.id === id && track.game === oldGame);
+  navigateToTrack(newGame: string, oldGame: string, trackId: number): void {
+    const newTrack = this.originalTracks.find(track => track.trackId === trackId && track.game === newGame);
+    const oldTrackIndex = this.tracks.findIndex(track => track.trackId === trackId && track.game === oldGame);
 
     if (newTrack) {
 
@@ -133,7 +134,7 @@ export default class MariokartComponent implements OnInit{
   }
 
   hasDuplicates(track: Track) {
-    return this.originalTracks.filter(t => t.id === track.id).length > 1;
+    return this.originalTracks.filter(t => t.trackId === track.trackId).length > 1;
   }
 }
 

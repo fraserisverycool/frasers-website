@@ -47,7 +47,7 @@
       <div *ngIf="hasDuplicates(track)" class="navigation">
         <button
           *ngIf="track.previousGame"
-          (click)="navigateToTrack(track.previousGame, track.game, track.id)"
+          (click)="navigateToTrack(track.previousGame, track.game, track.trackId)"
           class="nav-button"
         >
           <span>&#8592;</span> Prev
@@ -55,7 +55,7 @@
         <h4>Compare with other versions! Current Game: {{ track.game }}</h4>
         <button
           *ngIf="track.nextGame"
-          (click)="navigateToTrack(track.nextGame, track.game, track.id)"
+          (click)="navigateToTrack(track.nextGame, track.game, track.trackId)"
           class="nav-button"
         >
           Next <span>&#8594;</span>

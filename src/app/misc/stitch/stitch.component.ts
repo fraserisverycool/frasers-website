@@ -5,6 +5,7 @@ import {HttpClient} from "@angular/common/http";
 interface Stitch {
     filename: string;
     comment: string;
+    id: string;
 }
 
 @Component({

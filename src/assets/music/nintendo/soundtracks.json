@@ -5,644 +5,1303 @@
       "name": "Fire Emblem Awakening",
       "description": "Huge banger alert, guys, this soundtrack is so good. It marks the start of modern Fire Emblem's beautiful, luscious, colourful, complex, orchestral soundtracks. The choice of chords and the chord progressions are to die for. The map themes are all really good, and feature this slightly unorthodox leitmotif which makes all Awakening music so recognisable. This introduced the two variations of map themes as well, which, great, but when it comes to me deciding which version I like the most, I crumble into pieces. It's hard to decide. I also want to shout out the final boss music 'Id (Purpose)' which is so lengthy and iconic, and heavily features awesome accordions for that folky flare. And they build up to it throughout the whole game with all these other 'Id' songs. I love it. All this mystery surrounding Robin with that music on top, so good. I'll be enjoying this soundtrack on the app for a while! Here's to Fates (the best FE soundtrack!) landing on the app one day as well!",
       "platform": "3DS",
-      "topTracks": ["Id (Serenity)", "Prelude", "\"It appears the capital was spared the chaos.\"", "\"Oh, it's no so bad, Lissa. Just a healthy little walk!\"", "\"We'd best prepare for combat, just to be safe.\"", "Duty", "Destiny (Ablaze)", "\"Now that's a declaration of war if I've ever heard one!\"", "Miscreant", "\"Don't speak her name!\"", "Divine Decree (Ablaze)", "Conquest", "Conquest (Ablaze)", "\"Such bonds are the true strength of this army.\"", "Storm Clouds", "\"You may call me Marth\"", "Id (Dilemma)", "Chaos", "Id (Sorrow)", "Id (Purpose)"]
+      "topTracks": [
+        "Id (Serenity)",
+        "Prelude",
+        "\"It appears the capital was spared the chaos.\"",
+        "\"Oh, it's no so bad, Lissa. Just a healthy little walk!\"",
+        "\"We'd best prepare for combat, just to be safe.\"",
+        "Duty",
+        "Destiny (Ablaze)",
+        "\"Now that's a declaration of war if I've ever heard one!\"",
+        "Miscreant",
+        "\"Don't speak her name!\"",
+        "Divine Decree (Ablaze)",
+        "Conquest",
+        "Conquest (Ablaze)",
+        "\"Such bonds are the true strength of this army.\"",
+        "Storm Clouds",
+        "\"You may call me Marth\"",
+        "Id (Dilemma)",
+        "Chaos",
+        "Id (Sorrow)",
+        "Id (Purpose)"
+      ],
+      "id": "b2e0351c-b1c0-4c08-814f-384dd3a85c86"
     },
     {
       "filename": "kirby-air-riders.png",
       "name": "Kirby Air Riders",
       "description": "I certainly didn't expect this little teaser taster of an unreleased game! I was so upset that there was no new soundtrack then like an angel, Sakurai appeared an blessed us with this little gift. On first listen the music sounds pretty generic and not like normal Kirby music but I can totally see myself getting into it. It sounds a lot like the original soundtrack, which I'm excited about, and during Sakurai's presentation I heard some remixes of Kirby classics too, so I think this soundtrack is going to have a lot to give. I will say I don't care for these main themes with singing in them. This also confirms that a Switch 2 soundtrack will be heading to the app eventually! Awesome!",
       "platform": "Switch 2",
-      "topTracks": ["Waveflow Waters", "Steamgust Forge", "Mount Amberfalls"]
+      "topTracks": [
+        "Waveflow Waters",
+        "Steamgust Forge",
+        "Mount Amberfalls"
+      ],
+      "id": "fcf16469-155a-4633-ba2b-d31435e7bc0e"
     },
     {
       "filename": "captain-toad.png",
       "name": "Captain Toad Treasure Tracker",
       "description": "This soundtrack really is very bland. It has none of the magic of the Mario Odyssey soundtrack and none of it is very memorable. The initial whistle of the Captain Toad theme from Galaxy is not enough to support a whole soundtrack. I quite like 'Beep Block Sky Plaza' which is a bit of a bop.",
       "platform": "Switch",
-      "topTracks": ["Episode 1", "Plucky Pass Beginnings", "Beep Block Sky Plaza"]
+      "topTracks": [
+        "Episode 1",
+        "Plucky Pass Beginnings",
+        "Beep Block Sky Plaza"
+      ],
+      "id": "a7bc8ac3-a2fc-4c83-a212-7d070c27e7e8"
     },
     {
       "filename": "pilotwings-resort.jpg",
       "name": "Pilotwings Resort",
       "description": "This soundtrack takes the 'jam' vibe from the N64 game and runs away with it! But that's not to say that there aren't peaceful grooves as well. Just look at 'Glider', the best track. It's SUCH a vibe. I adore its remix in smash. The staff credits also take things in this direction and I'm all for it. I will say this soundtrack has fewer tracks that go insanely hard like the previous games, but I still like it.",
       "platform": "3DS",
-      "topTracks": ["Plane", "Turbo Jet", "Rocket Belt", "Glider", "Staff Credits"]
+      "topTracks": [
+        "Plane",
+        "Turbo Jet",
+        "Rocket Belt",
+        "Glider",
+        "Staff Credits"
+      ],
+      "id": "a63c42ab-8d56-4229-9a29-9b5a831b689e"
     },
     {
       "filename": "pilotwings-64.jpg",
       "name": "Pilotwings 64",
       "description": "This game takes the chill vibe from the SNES game into an even chiller direction! This soundtrack is so outrageously groovy, it's insane. It's just a jam! The loops are really long with multiple solos from different instruments coming in over like 3 or 4 minutes. I love it. It's to the point where listening to them in the app isn't that nice actually. I want to give special shoutouts to the all-time great nintendo music 'Birdman', the most outrageously silky smooth jam you can ever imagine. It's the sexiest music on the whole app. Right before it is 'Jumble Hopper' which has this hilarious clown part which is really giving Banjo Kazooie. Anyway, this soundtrack is probably a bit cheesy and too much but I still love it so much.",
       "platform": "N64",
-      "topTracks": ["Title Screen", "File/Vehicle Select", "Hang Glider", "Rocket Belt", "Gyrocopter", "Jumble Hopper", "Birdman", "Replay", "Staff Credits"]
+      "topTracks": [
+        "Title Screen",
+        "File/Vehicle Select",
+        "Hang Glider",
+        "Rocket Belt",
+        "Gyrocopter",
+        "Jumble Hopper",
+        "Birdman",
+        "Replay",
+        "Staff Credits"
+      ],
+      "id": "9c4ebd97-ad8f-4d44-9eb5-97b2a16ad875"
     },
     {
       "filename": "pilotwings.jpg",
       "name": "Pilotwings",
       "description": "I was so delighted to see Nintendo dropping three banger soundtracks in one week! Starting with one of my favourite ever SNES soundtracks. This game is a total vibe, and has some super fun, wacky tracks in it. I love that clown-like 'Rocket Belt' song, the timeless 'Light Plane', and especially the major tone-shift towards the end of the game with 'Helicopter'. That track was made by a different composer and it shows, it's wild, and so so intense.",
       "platform": "SNES",
-      "topTracks": ["Title Screen", "Light Plane", "Skydiving", "Rocket Belt", "Hang Glider", "Helicopter", "Ending Theme"]
+      "topTracks": [
+        "Title Screen",
+        "Light Plane",
+        "Skydiving",
+        "Rocket Belt",
+        "Hang Glider",
+        "Helicopter",
+        "Ending Theme"
+      ],
+      "id": "bed414d4-c505-4a0b-86df-b8a77b5db0b9"
     },
     {
       "filename": "mario-paint.jpg",
       "name": "Mario Paint",
       "description": "Mario Paint has lots of classic little melodies which have made their home in future Mario games (like Mario Maker) so I knew it all, despite having never played this game at this point. However I wouldn't say it's a nice listening experience. The save music is low-key a banger and I enjoyed the fly-swatting from WarioWare so they have plus points.",
       "platform": "SNES",
-      "topTracks": ["Save & Load", "Gnat Attack: Level 1"]
+      "topTracks": [
+        "Save & Load",
+        "Gnat Attack: Level 1"
+      ],
+      "id": "f5a9f497-27d9-49e2-a0ed-c53f12176ee4"
     },
     {
       "filename": "mach-rider.png",
       "name": "Mach Rider",
       "description": "The smash remix goes so hard but this sounds kinda bad. I like the direction Course BGM 2 takes the music.",
       "platform": "NES",
-      "topTracks": ["Course BGM 1", "Course BGM 2"]
+      "topTracks": [
+        "Course BGM 1",
+        "Course BGM 2"
+      ],
+      "id": "fc39c1a5-e934-44b3-8385-78e9325049e7"
     },
     {
       "filename": "gyromite.jpg",
       "name": "Gyromite",
       "description": "Another R.O.B. soundtrack. 'Game A' is a bit of a bop.",
       "platform": "NES",
-      "topTracks": ["Game A BGM"]
+      "topTracks": [
+        "Game A BGM"
+      ],
+      "id": "2b1ff442-4df5-4ede-94fb-48250606e090"
     },
     {
       "filename": "stack-up.webp",
       "name": "Stack-Up",
       "description": "This is where a bunch of the R.O.B. music comes from in Smash. It's all pretty shit, except I kinda got into Bingo BGM.",
       "platform": "NES",
-      "topTracks": ["Bingo BGM"]
+      "topTracks": [
+        "Bingo BGM"
+      ],
+      "id": "68d9fd3e-a894-4a04-aec8-8d6f4e4e4a0b"
     },
     {
       "filename": "wrecking-crew.jpg",
       "name": "Wrecking Crew",
       "description": "It's recognisable but I don't love it. The smash remix goes so hard on the bonus phase part.",
       "platform": "NES",
-      "topTracks": ["Bonus Phase"]
+      "topTracks": [
+        "Bonus Phase"
+      ],
+      "id": "b3b3223d-924f-40c6-970f-207f7f069c11"
     },
     {
       "filename": "soccer.jpg",
       "name": "Soccer",
       "description": "The image kinda looks like one of the players is exposing himself. The music is alright.",
       "platform": "NES",
-      "topTracks": ["Halftime"]
+      "topTracks": [
+        "Halftime"
+      ],
+      "id": "cab82278-8f20-4be1-b5f8-ccca062b8193"
     },
     {
       "filename": "ice-climber.jpg",
       "name": "Ice Climber",
       "description": "As an Ice Climbers appreciater in Smash and previously an Ice Climbers main in the Brawl days, I loved this music and played it on the piano!",
       "platform": "NES",
-      "topTracks": ["Title BGM/Bonus Round"]
+      "topTracks": [
+        "Title BGM/Bonus Round"
+      ],
+      "id": "20f9c0cf-12fb-4b94-b8c6-0ba3a48bcd59"
     },
     {
       "filename": "balloon-fight.jpg",
       "name": "Balloon Fight",
       "description": "And this is actually good shit!! Balloon Trip is an all-time fave NES track. I get a warm fuzzy feeling when I think about all the amazing remixes of it throughout the years (Smashing Live, Nintendo Land, Smash, WarioWare...)",
       "platform": "NES",
-      "topTracks": ["Enemy Floating Down", "Balloon Trip"]
+      "topTracks": [
+        "Enemy Floating Down",
+        "Balloon Trip"
+      ],
+      "id": "df27e730-2c4b-4dd7-902a-a3777b48c947"
     },
     {
       "filename": "excitebike.jpg",
       "name": "Excitebike",
       "description": "Never liked Excitebike.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "6c22724f-2f16-43fb-871b-cc8ac23cf443"
     },
     {
       "filename": "clu-clu-land.jpg",
       "name": "Clu Clu Land",
       "description": "I feel a certain fondness for this music because of the smash remix.",
       "platform": "NES",
-      "topTracks": ["Scene BGM", "Bonus Round BGM"]
+      "topTracks": [
+        "Scene BGM",
+        "Bonus Round BGM"
+      ],
+      "id": "8b1a1b90-9631-4bde-a222-178cd3dbc724"
     },
     {
       "filename": "urban-champion.jpg",
       "name": "Urban Champion",
       "description": "Some of the tracks are alright, could be worse.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "db5fe85a-01f2-4b29-aec2-193e9992a6aa"
     },
     {
       "filename": "f1-race.png",
       "name": "F1 Race",
       "description": "Very frenetic and unpleasant to listen to.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "518ccfbf-4d1b-4122-b325-a91f6f543b7f"
     },
     {
       "filename": "devil-world.jpg",
       "name": "Devil World",
       "description": "Some public domain classical music, why not. Nothing special here.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "b0f10f8a-3dd3-4888-a4de-0d07b9dce89c"
     },
     {
       "filename": "donkey-kong-3.PNG",
       "name": "Donkey Kong 3",
       "description": "This soundtrack is hellish",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "51c6e07d-d362-412d-8bb0-bf5a55fc2a60"
     },
     {
       "filename": "hogans-alley.jpg",
       "name": "Hogan's Alley",
       "description": "Lowkey kinda groovy. Shout-outs to the can.",
       "platform": "NES",
-      "topTracks": ["Instruction BGM"]
+      "topTracks": [
+        "Instruction BGM"
+      ],
+      "id": "33d1743e-a260-4156-8cc3-1956f54976ec"
     },
     {
       "filename": "golf.png",
       "name": "Golf",
       "description": "Put on this soundtrack when you've taken drugs, I'm sure it's a great time.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "7ef5cd0f-bf7b-4eaa-8804-f31f60a4721b"
     },
     {
       "filename": "duck-hunt.jpg",
       "name": "Duck Hunt",
       "description": "Shoutouts to Duck Hunt who I play competitively in smash. The two Duck Hunt remixes in smash slap.",
       "platform": "NES",
-      "topTracks": ["Title BGM", "Game A/B Start", "Clear"]
+      "topTracks": [
+        "Title BGM",
+        "Game A/B Start",
+        "Clear"
+      ],
+      "id": "ed86717b-26b5-4c39-85c7-5daa06c98b76"
     },
     {
       "filename": "wild-gunman.png",
       "name": "Wild Gunman",
       "description": "Shoutouts to Duck Hunt in smash and also this one track from this which is fun.",
       "platform": "NES",
-      "topTracks": ["Game A/B Start"]
+      "topTracks": [
+        "Game A/B Start"
+      ],
+      "id": "e154fd0d-10f0-47b8-842d-35a120be56ff"
     },
     {
       "filename": "pinball.PNG",
       "name": "Pinball",
       "description": "This soundtrack has a whopping 2 tracks, they are fine.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "df87a9ad-ec79-4597-8325-bb92d350ccb6"
     },
     {
       "filename": "tennis.jpg",
       "name": "Tennis",
       "description": "It's better than Baseball but I won't listen to it again.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "3f16bfe9-2151-4109-94bb-964dadb2afcc"
     },
     {
       "filename": "donkey-kong-jr-math.jpg",
       "name": "Donkey Kong Jr. Math",
       "description": "I had a vague understanding that this game existed. It reuses the music from Donkey Kong Jr.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "f9ad42da-79c3-42ae-ab62-ba08d9181adb"
     },
     {
       "filename": "baseball.jpg",
       "name": "Baseball",
       "description": "There really is nothing here.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "78bfa07c-a27b-479e-8139-474b8946fbf8"
     },
     {
       "filename": "mario-bros.webp",
       "name": "Mario Bros.",
       "description": "Kinda fun that this soundtrack puts in public domain classical music. Why not.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "60be7215-62f7-4671-95d7-1051cb234722"
     },
     {
       "filename": "gomoku-narabe-renju.jpg",
       "name": "Gomoku Narabe Renju",
       "description": "It's a game to play Go! It has some jingles that you can listen to.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "6e037e73-99a3-4bc0-aa27-1cf4a84e8bc3"
     },
     {
       "filename": "mah-jong.png",
       "name": "Mah-Jong",
       "description": "I don't know anything about Mah-Jong but the minute I spent listening to these bloops wasn't wasted I guess.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "390b4e27-1ad1-4af9-9281-337c129ca222"
     },
     {
       "filename": "donkey-kong-jr.avif",
       "name": "Donkey Kong Jr.",
       "description": "I didn't realise until this moment that the music from the special stage from DKC Returns is based off of this! But otherwise there's really nothing here.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "f4a8f1c6-7d47-4248-825e-f13549002c26"
     },
     {
       "filename": "donkey-kong.webp",
       "name": "Donkey Kong",
       "description": "Here we go, it's the beginning of a marathon of NES tracks! Insane that they dropped 23 all at once. I played this all the time in Donkey Kong 64 but there really is very little to enjoy. The 'Round 1 BGM' can go fuck itself because it's a 3 second loop that people select in smash to throw you off in tournament.",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "d0114361-2ab9-4736-b1d8-783b7a50f8da"
     },
     {
       "filename": "mario-kart-64.jpg",
       "name": "Mario Kart 64",
       "description": "Although I was sad that this soundtrack release probably means that Mario Kart World is very far away, I'm just happy to have this absolute banger soundtrack on the app! From the very first track to the end you have banger after banger. I love the inimitable sound, the big-stadium vibe, the instruments, and the variety. So many of these tracks have become classics. This soundtrack release also caused me to go down a rabbit hole where I learned that the winning results theme (for which there is an outrageously amazing remix in Mario Kart World) has a secret second part of the song which appears after an hour. That was because of a bug! And in this soundtrack they fixed it. Awesome. Plus, it's in 11/8, hell yeah.",
       "platform": "N64",
-      "topTracks": ["Mario Kart 64 Title Screen", "Selection Screens", "Luigi Raceway", "Koopa Troopa Beach", "Kalimari Desert", "Toad's Turnpike", "Frappe Snowland", "Mario Raceway", "Wario Stadium", "Sherbet Land", "Royal Raceway", "Rainbow Road", "Results (1st - 4th Place)", "Staff Credits"]
+      "topTracks": [
+        "Mario Kart 64 Title Screen",
+        "Selection Screens",
+        "Luigi Raceway",
+        "Koopa Troopa Beach",
+        "Kalimari Desert",
+        "Toad's Turnpike",
+        "Frappe Snowland",
+        "Mario Raceway",
+        "Wario Stadium",
+        "Sherbet Land",
+        "Royal Raceway",
+        "Rainbow Road",
+        "Results (1st - 4th Place)",
+        "Staff Credits"
+      ],
+      "id": "4f880791-de3b-4797-ac42-309338bfd02c"
     },
     {
       "filename": "ocarina-of-time-3d.jpg",
       "name": "The Legend of Zelda: Ocarina of Time 3D",
       "description": "At first I was pissed that they released literally the same soundtrack as Ocarina of Time before Majora's Mask or Twilight Princess. Then I thought it's OK, some of the tracks like Hyrule Field do sound a bit better and they added a nice credits theme. But then I realise this is missing a whole bunch of tracks like Jabu Jabu's Belly? Why? Why put all the ocarina songs together like this? Then I reminded myself I'm not entitled to these games, I'm already paying next to nothing for the subscription, I should be grateful. I need to embrace the tombola which churns out these soundtracks.",
       "platform": "3DS",
-      "topTracks": ["Title Theme", "Kokiri Forest", "Hyrule Castle Courtyard", "Kakariko Village", "Middle Boss Battle", "Zora's Domain", "Forest Temple", "Water Temple", "Gerudo Valley", "Spirit Temple", "Last Battle", "End Credits 2"]
+      "topTracks": [
+        "Title Theme",
+        "Kokiri Forest",
+        "Hyrule Castle Courtyard",
+        "Kakariko Village",
+        "Middle Boss Battle",
+        "Zora's Domain",
+        "Forest Temple",
+        "Water Temple",
+        "Gerudo Valley",
+        "Spirit Temple",
+        "Last Battle",
+        "End Credits 2"
+      ],
+      "id": "a64d3436-0c93-4c6d-9cd4-b801eb444f06"
     },
     {
       "filename": "super-mario-bros-u.jpg",
       "name": "New Super Mario Bros. U Deluxe",
       "description": "The very clean and tidy sound of New Super Mario Bros has landed on the app. It's very sanitised and shares much of the same music with all of its predecessors, but something about having played so many of these games makes me love them in the end. The desert theme is actually really great, and the beach theme has this really nice part where some warm synths come in. The castle theme is way more epic than I remember, and the two volcano themes are genuinely class. They are an actual, real vibe. This game is also famous for the bah-bahs! that the monsters all dance to, and that's very iconic and to be heard all over the soundtrack and honestly I love it. I'm just gonna say it, this is better music than Super Mario Bros Wonder!",
       "platform": "Switch",
-      "topTracks": ["Desert Theme", "Beach Theme", "Castle Theme", "Lava Theme", "Lava Cave/Underground Ruins"]
+      "topTracks": [
+        "Desert Theme",
+        "Beach Theme",
+        "Castle Theme",
+        "Lava Theme",
+        "Lava Cave/Underground Ruins"
+      ],
+      "id": "09d252df-7ac0-4014-9082-aaee47a1422d"
     },
     {
       "filename": "yoshis-story.jpg",
       "name": "Yoshi's Story",
       "description": "For me personally, this game is everything. One of the very first video games I ever played. I don't know if this is true but I feel like I got it as a gift for my 6th birthday! As a child I fucking loved it. It's so cute and also simple and I played it over and over and over. As a result I have a lot of nostalgia for the game and its music especially. I know that a lot of the recorder sounds and especially the singing Yoshis is straight up out of tune but that doesn't bother me. I feel like the main title theme is happy but also somewhat melancholy. Yo-Yo-Yoshi and Yoshi Games are both hilarious. Yoshis and the Wind is so good, I even covered this once on piano with my friend Amy on cello. Sure a lot of the music is a variation of the main theme, but the final credits theme 'Yoshi's Tale' isn't, it's a beautiful and different melody that has been an all-time favourite VGM for me since I was child. The remix in smash bros brawl was a major turning point in my life. Still today listening to it makes me feel feelings, I love it so much.",
       "platform": "N64",
-      "topTracks": ["Yoshi's Story!", "Yoshis on the Beach", "Yo-Yo-Yoshi!", "Yoshis and the Wind", "Play It Again, Yoshi", "Yoshi Games", "P.3-Summit", "P.5-Ocean", "Yoshi's Disco", "Happiness", "Yoshi's Tale"]
+      "topTracks": [
+        "Yoshi's Story!",
+        "Yoshis on the Beach",
+        "Yo-Yo-Yoshi!",
+        "Yoshis and the Wind",
+        "Play It Again, Yoshi",
+        "Yoshi Games",
+        "P.3-Summit",
+        "P.5-Ocean",
+        "Yoshi's Disco",
+        "Happiness",
+        "Yoshi's Tale"
+      ],
+      "id": "72fe4b58-388f-4d7b-9416-16328e995c87"
     },
     {
       "filename": "51-games.jpg",
       "name": "51 Worldwide Games",
       "description": "What the fuck is this. Instead of listening to the just-release Mario Kart World soundtrack here I am suffering through this 100+ track long soundtrack of minimal and pointless random sounds. This is what I deserve for getting my hopes up after Tears of the Kingdom two weeks ago. I will say that the opening song is kind of a banger, but the rest really is a right off. Thank god I didn't get this game because wow. It's a shame because the OG '42 All-time Classics' game on the DS was great and had a great OST. Oh well. This time the tombola which decides which Nintendo Soundtrack we're getting has decided on this and we're all just going to have to deal with that.",
       "platform": "Switch",
-      "topTracks": ["Opening"]
+      "topTracks": [
+        "Opening"
+      ],
+      "id": "aa981f57-f420-4e2f-8f9c-50e021e359ac"
     },
     {
       "filename": "zelda-totk.jpg",
       "name": "The Legend of Zelda: Tears of the Kingdom",
       "description": "I was so delighted when this soundtrack was released on the app - I never thought it would happen because of its sheer size! With over 300 tracks we are truly spoiled. This soundtrack takes the majesty of Breath of the Wild and just ups the ante. You've got almost the whole soundtrack of BOTW here plus a bunch of new stuff as well. It successfully follows the vibe and expands on it too. For me the ultimate upgrade is the temple themes. All the temples have this amazing, growing, swelling atmospheric music, each evoking themes from their respective areas. Highlights are definitely the Lightning Temple and Fire Temple. Otherwise we have all the town themes but this time split into night and day - so thoughtful! We can listen to the combined versions on the BOTW soundtrack... that's how you know that the devs of this app care. We also have a new town: Lookout Landing. I love it so much! There are multiple versions and I love them all, although the final version with all the sages is really just chef's kiss. And I love how you hear that music in all the lookout towers, and other spots around the world. Also shoutout to the music that plays as you descend into the depths. I will never forget doing this and immediately hearing the terrifying music of 'Frox Battle' and shitting myself. Great stuff.",
       "platform": "Switch",
-      "topTracks": ["Overworld (Skies)", "The Temple of Time", "Sky Islands", "Shrines of Light", "Parting Ways With Rauru", "Skydiving", "Lookout Landing", "Flux Construct Battle", "Off to Investigate the Cloud", "Wind Temple (Third Phase)", "Wind Temple (Fourth Phase)", "Wind Temple (Fifth Phase)", "Battle with Colgera (First Phase)", "Battle with Colgera (Second Phase)", "What We Must Do", "Tulin, Sage of Wind", "Rito Village (Night)", "Gleeok Battle", "Battle with Yunobo, Clearly Not Himself", "Fire Temple (Second Phase)", "Fire Temple (Fourth Phase)", "Fire Temple (Fifth Phase)", "Battle with Marbled Gohma (Second Phase)", "Yunobo, Sage of Fire", "Minigame: Ultra Ball Haul", "Frox Battle", "Mipha Court", "Overworld (Low Gravity)", "Water Temple (Fourth Phase)", "Sidon, Sage of Water", "Zora's Domain (Day)", "Battle with the Returned Master Kohga", "Gerudo Shelter", "Reuniting with Riju", "Defending Kara Kara Bazaar", "Defending Gerudo Town", "Lightning Temple (Second Phase)", "Lightning Temple (Fourth Phase)", "Battle with Queen Gidbo (Second Phase)", "Riju, Sage of Lightning", "Lurelin Village (Day)", "Lookout Landing Shrouded in Darkness", "Hyrule Castle (Skies)", "Looking Landing (The Four Sages Gather)", "Hateno Village (Day)", "Cece and Reede", "Construct Factory (Third Phase)", "Construct Factory (Fifth Phase)", "Battle with Seized Construct (Second Phase)", "Mineru, Sage of Spirit", "Korok Forest (Day)", "The Demon King's Army", "Battle with Ganondorf", "Battle with Ganondorf, Second Form (First Phase)", "Battle with Ganondorf, Second Form (Second Phase)", "Battle with Demon Dragon", "Tarrey Town (Night)", "Riding the Sun Balloon"]
+      "topTracks": [
+        "Overworld (Skies)",
+        "The Temple of Time",
+        "Sky Islands",
+        "Shrines of Light",
+        "Parting Ways With Rauru",
+        "Skydiving",
+        "Lookout Landing",
+        "Flux Construct Battle",
+        "Off to Investigate the Cloud",
+        "Wind Temple (Third Phase)",
+        "Wind Temple (Fourth Phase)",
+        "Wind Temple (Fifth Phase)",
+        "Battle with Colgera (First Phase)",
+        "Battle with Colgera (Second Phase)",
+        "What We Must Do",
+        "Tulin, Sage of Wind",
+        "Rito Village (Night)",
+        "Gleeok Battle",
+        "Battle with Yunobo, Clearly Not Himself",
+        "Fire Temple (Second Phase)",
+        "Fire Temple (Fourth Phase)",
+        "Fire Temple (Fifth Phase)",
+        "Battle with Marbled Gohma (Second Phase)",
+        "Yunobo, Sage of Fire",
+        "Minigame: Ultra Ball Haul",
+        "Frox Battle",
+        "Mipha Court",
+        "Overworld (Low Gravity)",
+        "Water Temple (Fourth Phase)",
+        "Sidon, Sage of Water",
+        "Zora's Domain (Day)",
+        "Battle with the Returned Master Kohga",
+        "Gerudo Shelter",
+        "Reuniting with Riju",
+        "Defending Kara Kara Bazaar",
+        "Defending Gerudo Town",
+        "Lightning Temple (Second Phase)",
+        "Lightning Temple (Fourth Phase)",
+        "Battle with Queen Gidbo (Second Phase)",
+        "Riju, Sage of Lightning",
+        "Lurelin Village (Day)",
+        "Lookout Landing Shrouded in Darkness",
+        "Hyrule Castle (Skies)",
+        "Looking Landing (The Four Sages Gather)",
+        "Hateno Village (Day)",
+        "Cece and Reede",
+        "Construct Factory (Third Phase)",
+        "Construct Factory (Fifth Phase)",
+        "Battle with Seized Construct (Second Phase)",
+        "Mineru, Sage of Spirit",
+        "Korok Forest (Day)",
+        "The Demon King's Army",
+        "Battle with Ganondorf",
+        "Battle with Ganondorf, Second Form (First Phase)",
+        "Battle with Ganondorf, Second Form (Second Phase)",
+        "Battle with Demon Dragon",
+        "Tarrey Town (Night)",
+        "Riding the Sun Balloon"
+      ],
+      "id": "7aba79be-96f7-4195-9902-94199f6f0800"
     },
     {
       "filename": "splatoon.jpg",
       "name": "Splatoon",
       "description": "Continuing the string of disappointments from the Nintendo Music app we have the original Splatoon on the Wii U! Just like with the Splatoon 2 and 3 I feel like they totally miss the mark with the style of this soundtrack. The music is just tacky (in a bad way) and sounds bad. I hate the vocals and find the pop-rock direction very generic. I will say this though I was pleasantly surprised by some of the octoling-themed music towards the end of the story mode. Not bad. Also, there's an actual dub track in there which I enjoy. Finally I want to point out the lobby music is in this app is a total trip. Very strange vibe, I recommend listening while super stoned (what I did).",
       "platform": "Wii U",
-      "topTracks": ["The Plaza", "Dubble Bath / Bob Dub", "Eight-Legged Advance / Turquoise October", "Tentacular Circus / Turquoise October", "I am Octavio / DJ Octavio"]
+      "topTracks": [
+        "The Plaza",
+        "Dubble Bath / Bob Dub",
+        "Eight-Legged Advance / Turquoise October",
+        "Tentacular Circus / Turquoise October",
+        "I am Octavio / DJ Octavio"
+      ],
+      "id": "8bb8a85f-654e-4a8f-9bc6-aec1b6d06496"
     },
     {
       "filename": "kid-icarus.png",
       "name": "Kid Icarus",
       "description": "I've always felt that this soundtrack is horrible and disgusting thanks to the screeching sound at the start of the very first track, the 'Title Theme'. But dear reader I do implore you listen further, because this is one of the better NES soundtracks. Stages 1 and 2 are lengthy and fun tracks which are famous from smash, and thinking about it, they are both bangers. Stage 4 is also a sleeper hit.",
       "platform": "NES",
-      "topTracks": ["Stage 1", "Stage 2", "Stage 4"]
+      "topTracks": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 4"
+      ],
+      "id": "c3df7215-daa6-452b-856c-e91f9618bfe2"
     },
     {
       "filename": "pokemon-sword-shield.jpg",
       "name": "Pokemon Sword and Shield",
       "description": "Devastating that they gave us Gen 8 over any of the classic games. Sigh. Well, we can look at this one too. For research purposes I sat through this entire soundtrack from beginning to end but it's very long and honestly a chore. The soundfont just sounds so bad. I really resent how they over-rely on the slap bass to make it sound cool, but actually it sounds like shit. The music featuring the legendary pokemon has this weird wolf whistle melody which I feel like is almost right, but in the end just sounds weird and uncomfortable. There are two notable exceptions, the battle music for the Battle Tower, which you can actually hear is composed by Toby Fox of Undertale fame. It really stands out compared to all the others! But most importantly of all, this game introduced the most incredible Gym Leader music, arguably one of the best in the whole series. When you're in the stadium and this techno-inspired music starts blasting, it's so fucking good. It goes so hard. But tragically I didn't save it to my favourites, because once they switch it to a major key and then even worse, add a horrible singing crowd, it transforms into a shitty tinny clusterfuck of nonsense, just like the rest of the soundtrack.",
       "platform": "Switch",
-      "topTracks": ["Battle! (Gym Leader)", "Battle! (Battle Tower)"]
+      "topTracks": [
+        "Battle! (Gym Leader)",
+        "Battle! (Battle Tower)"
+      ],
+      "id": "46b42ee8-d21f-4cc2-965a-842cb2e9f9c1"
     },
     {
       "filename": "mario-kart-7.jpg",
       "name": "Mario Kart 7",
       "description": "I was so baffled to see this soundtrack because I'm currently writing up the insane mario kart rankings page and have come to the conclusion that this is the weakest entry in the series. Then Nintendo comes here on a thursday and gets me to relisten to the soundtrack and tries to change my mind! Well I've given it another chance and just have to say it's still full of actively bad tracks. When I was making my mario kart mix, it hurt to put some of these tracks in. Cheep Cheep Lagoon is a mockery of mario kart beach music. Peach Beach spits on it. Daisy Hills is a joke, the Bowser Castle music is painful to listen to, and I am baffled by Rosalina's Ice World. I know this was 2011 but it sounds AI generated. To me, these tracks make Mario Kart 7's soundtrack the unwanted child in the family. The selection of retro tracks is very strong with slightly nicer sounding favourites like GBA Bowser Castle 1, DS Waluigi Pinball and DS Airship Fortress. Special shoutouts go to this version of Rainbow Road which is a genuinely excellent track and a worthy follow-up to all the classics that came before it. I love that opening chord sequence.",
       "platform": "3ds",
-      "topTracks": ["Mario Kart 7 Title Screen", "Wuhu Loop", "Neo Bowser City", "Rainbow Road", "Rainbow Road (Lunar Surface)", "N64 Luigi Raceway", "GBA Bowser Castle 1", "N64 Koopa Beach", "Wii Coconut Mall", "DS Waluigi Stadium", "GCN Daisy Cruiser", "DS Airship Fortress", "SNES Rainbow Road"]
+      "topTracks": [
+        "Mario Kart 7 Title Screen",
+        "Wuhu Loop",
+        "Neo Bowser City",
+        "Rainbow Road",
+        "Rainbow Road (Lunar Surface)",
+        "N64 Luigi Raceway",
+        "GBA Bowser Castle 1",
+        "N64 Koopa Beach",
+        "Wii Coconut Mall",
+        "DS Waluigi Stadium",
+        "GCN Daisy Cruiser",
+        "DS Airship Fortress",
+        "SNES Rainbow Road"
+      ],
+      "id": "549f5ed8-d6a2-471b-ad79-2088af2a35c7"
     },
     {
       "filename": "fire-emblem-engage.avif",
       "name": "Fire Emblem Engage",
       "description": "Finally, they released a big one! I've been hankering for some modern Fire Emblem, because the compositions are always very intricate and remarkable. They keep the fire emblem flare, despite being quite maximalist, similar to Kirby soundtracks. What I especially love are the beautiful, colourful chords they use with the strings. It sounds like wind going through your hair. Now the soundtrack is many hours long and overwhelming for those who haven't played the game. You could just put it on and enjoy it, but if I were to give a recommendation it would be to enjoy the map themes. They are stunning! And in this game us Fire Emblem fans are BLESSED with 12 map themes corresponding to 12 other Fire Emblem titles! In this game you meet spirits of characters from previous games, and we get to hear sublime remixes of their respective music. I'm talking 'With Mila's Divine Protection' from FE2, a stunning 'Wind through the Plains' remix, and finally some love for Fire Emblem Fates, my personal favourite. Maybe in 2030 they will release that soundtrack. Ugh I just loved listening to this soundtrack, it's so long and meaty and I never gave it the time of day it deserves. I also really appreciate that the new map themes have long loops. Spending all week listening to this has catapulted me back into Fire Emblem land and I might just start replaying Sacred Stones",
       "platform": "Switch",
-      "topTracks": ["Faraway Holy Land", "Holy Land of Lythos", "Trial of Emblems", "Trial of the Holy War", "A Goddess and Her Puppets", "Good Morning, Divine One", "Firene, Kingdom of Abundance", "The Bountiful Prince", "Preparations", "Friendly Chat", "Full Bloom in the Breeze", "Trial of Echoes", "Trial of Dawn", "Good Company in Brodia", "Tear Streaked (Ice)", "Elusia, Kingdom of Knowledge", "Stalwart Preparations", "Chilling Rain", "Trial of Blazing", "Trial of Awakening", "Try Your Hand at Wyvern Riding?", "Solm, Queendom of Freedom", "Trial of Radiance", "Trial of the Academy", "Trial of Fates", "Trial of the Pact", "Trial of Heroes", "Fire Emblem Theme (The Fire Emblem)"]
+      "topTracks": [
+        "Faraway Holy Land",
+        "Holy Land of Lythos",
+        "Trial of Emblems",
+        "Trial of the Holy War",
+        "A Goddess and Her Puppets",
+        "Good Morning, Divine One",
+        "Firene, Kingdom of Abundance",
+        "The Bountiful Prince",
+        "Preparations",
+        "Friendly Chat",
+        "Full Bloom in the Breeze",
+        "Trial of Echoes",
+        "Trial of Dawn",
+        "Good Company in Brodia",
+        "Tear Streaked (Ice)",
+        "Elusia, Kingdom of Knowledge",
+        "Stalwart Preparations",
+        "Chilling Rain",
+        "Trial of Blazing",
+        "Trial of Awakening",
+        "Try Your Hand at Wyvern Riding?",
+        "Solm, Queendom of Freedom",
+        "Trial of Radiance",
+        "Trial of the Academy",
+        "Trial of Fates",
+        "Trial of the Pact",
+        "Trial of Heroes",
+        "Fire Emblem Theme (The Fire Emblem)"
+      ],
+      "id": "093958c9-18d9-44f7-a272-344b93773837"
     },
     {
       "filename": "zelda-nes.png",
       "name": "The Legend of Zelda",
       "description": "I'm starting to get a little frustrated with these NES soundtrack releases because I just can't help but feel entitled to more. Maybe it's because I've been doing such an insane amount of content for this website this month and my standards are now high. I guess I need to chill. It takes ages to put these soundtracks on here. I will cope. This Zelda soundtrack has some very famous tracks in it. I always loved the game over theme because it was used in Majora's Mask and I didn't know about it for so long. And now I learned that they remixed it for the Ending Theme. Nice.",
       "platform": "NES",
-      "topTracks": ["Game Over", "Ending Theme"]
+      "topTracks": [
+        "Game Over",
+        "Ending Theme"
+      ],
+      "id": "c81dff38-de68-46f1-9851-9d061a1317e7"
     },
     {
       "filename": "luigis-mansion.jpg",
       "name": "Luigi's Mansion",
       "description": "This soundtrack doesn't really make for enjoyable listening. It's spooky and goofy horror music, so it's just not great for when you're about your normal life. Maybe you can put it on if you're playing a horror-themed board game (shoutouts to Betrayal at House on the Hill) but otherwise, only the credits theme is worth dipping your toes in for.",
       "platform": "Gamecube",
-      "topTracks": ["Staff Credits"]
+      "topTracks": [
+        "Staff Credits"
+      ],
+      "id": "2895a12e-3b07-47b2-aa97-542658fe3611"
     },
     {
       "filename": "f-zero.jpg",
       "name": "F-Zero",
       "description": "It's a classic! I'm so glad this soundtrack has been popularised by F-Zero 99 because it really contains some gems. Of course you've got Mute City and Big Blue and who doesn't love those tracks by now, but there's also one of my all-time favourite SNES tracks 'Silence'. I also want to point out 'Fire Field' although nothing beats in the remix in smash",
       "platform": "SNES",
-      "topTracks": ["Mute City", "Big Blue", "Silence", "White Land I", "Fire Field"]
+      "topTracks": [
+        "Mute City",
+        "Big Blue",
+        "Silence",
+        "White Land I",
+        "Fire Field"
+      ],
+      "id": "536047af-d0f0-49c2-a1a6-6d3427d2c804"
     },
     {
       "filename": "kirby-forgotten.avif",
       "name": "Kirby and the Forgotten Land",
       "description": "When they first released this soundtrack it only had 23 tracks, but in August they updated it with the full tracks. I was butthurt about that for a while, but it's time to move on. This is an excellent soundtrack! The composers pour so much love into Kirby soundtracks. Each level's music has some nod to some earlier songs, like 'Abandoned Beach' to Float Islands or 'Northeast Frost Street' to Rainbow Resort and as a diehard Kirby fan I fucking love that. Also this game does not disappoint in terms of cosmic horror final bosses. Until listening to it on the app I didn't appreciate the insane 'Two Planets Approach the Roche Limit'. What a finale! One thing I love especially about this soundtrack is the chord sequences. So many of the tracks have this super special modern kirby chord sequence in their B or C sections, like in the Wondaria tracks or the Abandoned Beach theme. There are also lots of circles of fifths which are always to die for. Some of the crazy boss themes are giving modern fire emblem in their busy, jazzy vibes, and I love it. Shoutouts to kirby soundtracks, they are so special and cool.",
       "platform": "Switch",
-      "topTracks": ["Through the Tunnel", "A Trip to Alivel Mall", "Abandoned Beach", "Fast-Flowing Waterworks", "Welcome Back, Kirby", "Welcome to Wondaria", "The Wondaria Dream Parade", "Northeast Frost Street", "The Battle of Blizzard Bridge", "Roar of Dedede", "Burning, Churning Power Plant", "Masked and Wild: D.D.D.", "Two Planets Approach the Roche Limit", "Faded Dream of a Psychomeddler", "Scattered Souls across Isolated Isles", "Morpho Knight", "Secret Area: HAL Room 2", "Decisive Battle: Ultimate Z", "Two Planets Approach the Roche Limit (Chaos Elfilis)"]
+      "topTracks": [
+        "Through the Tunnel",
+        "A Trip to Alivel Mall",
+        "Abandoned Beach",
+        "Fast-Flowing Waterworks",
+        "Welcome Back, Kirby",
+        "Welcome to Wondaria",
+        "The Wondaria Dream Parade",
+        "Northeast Frost Street",
+        "The Battle of Blizzard Bridge",
+        "Roar of Dedede",
+        "Burning, Churning Power Plant",
+        "Masked and Wild: D.D.D.",
+        "Two Planets Approach the Roche Limit",
+        "Faded Dream of a Psychomeddler",
+        "Scattered Souls across Isolated Isles",
+        "Morpho Knight",
+        "Secret Area: HAL Room 2",
+        "Decisive Battle: Ultimate Z",
+        "Two Planets Approach the Roche Limit (Chaos Elfilis)"
+      ],
+      "id": "c03cb17d-de2b-458f-85ab-38293a86615a"
     },
     {
       "filename": "tetris.jpg",
       "name": "Tetris",
       "description": "A classic. This game has been played by my whole family, parents and grandma included for years. Everyone in the family is capable of getting the rocket. Sadly the old Gameboy Advance SP that we used to play dramatically fell apart from overuse. Anyway these tracks are legendary even if they are just classical music. My dad always put Type C on because he recognised that it was Bach. My personal favourite is Type B, which has an amazing remix in Smash",
       "platform": "Gameboy",
-      "topTracks": ["A-Type", "B-Type", "Name Entry"]
+      "topTracks": [
+        "A-Type",
+        "B-Type",
+        "Name Entry"
+      ],
+      "id": "33e52da8-417a-4ce1-9e5e-2acd2f0f1c1a"
     },
     {
       "filename": "dr-mario-nes.jpg",
       "name": "Dr. Mario",
       "description": "Wow, this particular soundtrack is actually unpleasant to the point where they should delete it from the app. That title theme sounds so shrill and horrible. The tracks sound actively worse than the gameboy version",
       "platform": "NES",
-      "topTracks": [""]
+      "topTracks": [
+        ""
+      ],
+      "id": "982c9d0b-c1f6-485b-9cfa-edc4ef520aba"
     },
     {
       "filename": "tetris-nes.jpg",
       "name": "Tetris",
       "description": "Turns out the NES version has different music to the famous gameboy one! I didn't know. These tracks are just not the same though. At least Type B is here though",
       "platform": "NES",
-      "topTracks": ["MUSIC-2"]
+      "topTracks": [
+        "MUSIC-2"
+      ],
+      "id": "c2b39d48-01ae-4f7f-aba4-14a6d257e1a2"
     },
     {
       "filename": "super-mario-bros-3.jpg",
       "name": "Super Mario Bros 3",
       "description": "NES soundtracks really are mostly unlistenable, the sound chip is that bad. Thankfully this particular one actually has some meat to it. This is the origin of lots of mario tracks which went on to have many remixes in future games, like the 'Ice World' theme being the ringtone in Paper Mario TTYD, or the 'Airship' theme being used for everything. Shoutouts to the smash remix of the Bowser theme from this game, they really took that tiny loop (along with the World 8 map music) and ran with it",
       "platform": "NES",
-      "topTracks": ["World 6 Map (Ice Land)", "Fortress Boss", "World 8 Map (Dark Land)", "King of the Koopas"]
+      "topTracks": [
+        "World 6 Map (Ice Land)",
+        "Fortress Boss",
+        "World 8 Map (Dark Land)",
+        "King of the Koopas"
+      ],
+      "id": "7a357d51-a8cb-4e0b-b599-b467c3fd7ea0"
     },
     {
       "filename": "zelda-link-to-the-past.jpg",
       "name": "The Legend of Zelda: A Link to the Past",
       "description": "Hello, finally a great soundtrack after all these snoozers! This soundtrack is short and sweet with a bunch of timeless classics. 'Dark World' never gets old and be sure to appreciate 'Mountains and Forests...' which featured as a remix in Brawl's Subspace Emissary (the part with Link and Yoshi!). I would like to pay special homage to the Light World Dungeon theme which is so mysterious and epic, and never needed to be like this, and yet here we are. Cadence of Hyrule also remixed this track and I love it. Also, the opening theme starts with the iconic Rainy Night music then evolves into this complicated and fascinating overture. There's a lot to appreciate here",
       "platform": "SNES",
-      "topTracks": ["Title Theme", "Opening Scene", "Hyrule Castle", "Kakariko Village", "Light World Dungeon", "Lost Woods", "Dark World", "Mountains and Forests of the Dark World"]
+      "topTracks": [
+        "Title Theme",
+        "Opening Scene",
+        "Hyrule Castle",
+        "Kakariko Village",
+        "Light World Dungeon",
+        "Lost Woods",
+        "Dark World",
+        "Mountains and Forests of the Dark World"
+      ],
+      "id": "da71255b-64d1-405d-aa2f-8d87f5f3af37"
     },
     {
       "filename": "super-mario-bros-2.png",
       "name": "Super Mario Bros 2",
       "description": "This NES soundtrack is a total skip. I get that the Ground BGM is a classic but that's all it's got and it's not like I want to sit and listen to it",
       "platform": "NES",
-      "topTracks": []
+      "topTracks": [],
+      "id": "787b9789-4827-4672-91bf-2759ab859777"
     },
     {
       "filename": "streetpass.webp",
       "name": "Streetpass Mii Plaza",
       "description": "I groaned a little when they dropped this one because it's more Mii music but I was also pleased to see our first 3DS entry. This soundtrack isn't great for listening though. I can at least recommend the hugely underrated final boss music of Find Mii 2, Dark Lord. There's a reason that was what got the remix in smash",
       "platform": "3DS",
-      "topTracks": ["Dark Lord", "Ultimate Ghost"]
+      "topTracks": [
+        "Dark Lord",
+        "Ultimate Ghost"
+      ],
+      "id": "91e253e4-988d-490f-83f6-5d8caa793a18"
     },
     {
       "filename": "golden-sun.jpg",
       "name": "Golden Sun",
       "description": "I admit to not knowing this soundtrack at all! I look forward to getting to know it",
       "platform": "GBA",
-      "topTracks": ["Village Theme", "Sworn Enemies Stand in Your Way"]
+      "topTracks": [
+        "Village Theme",
+        "Sworn Enemies Stand in Your Way"
+      ],
+      "id": "cfacf2ed-7c1b-428a-964f-44782c4de095"
     },
     {
       "filename": "super-mario-world.png",
       "name": "Super Mario World",
       "description": "Listening to this made me realise a bunch of cool stuff. The Bowser battle theme is the same as Super Mario Kart's Bowser's Castle, and Donut Plains from Mario Kart comes from the second world here. Anyway there is a lot to enjoy here, although for me just the castle music and boss music really shine",
       "platform": "SNES",
-      "topTracks": ["Castle BGM", "Koopalings BGM"]
+      "topTracks": [
+        "Castle BGM",
+        "Koopalings BGM"
+      ],
+      "id": "a447a508-8d24-467c-9004-be11b2a306e8"
     },
     {
       "filename": "pokemon-legends.jpg",
       "name": "Pokémon Legends: Arceus",
       "description": "I gave up on this because it looked so bad graphically, but I was aware in the back of my mind that the ambient music was good. It's been nice to go back and listen to some of the tracks. They have very long loops and pay a lot of respect to the Diamond/Pearl source material. Like when the 'Heartwood' music suddenly starts giving Eterna Forest, it's great",
       "platform": "Switch",
-      "topTracks": ["Heartwood", "Stone Portal", "Battle! (Origin Forme Dialga/Palkia)", "Jubilife Village 3"]
+      "topTracks": [
+        "Heartwood",
+        "Stone Portal",
+        "Battle! (Origin Forme Dialga/Palkia)",
+        "Jubilife Village 3"
+      ],
+      "id": "bcb868e8-1334-4750-a91e-d8b4d2e5a428"
     },
     {
       "filename": "super-mario-kart.jpg",
       "name": "Super Mario Kart",
       "description": "Damn I love old Mario Kart music so much, and these are the ORIGINALS! It's such a delight to hear these tracks. One thing I only appreciated after listening to it on the Nintendo Music App is how 3 tracks are like salsa music (Mario Circuit, Choco Island, Vanilla Lake) and 2 others are like samba music (Donut Plains, Koopa Beach)",
       "platform": "SNES",
-      "topTracks": ["Mario Circuit", "Choco Island", "Koopa Beach", "Rainbow Road"]
+      "topTracks": [
+        "Mario Circuit",
+        "Choco Island",
+        "Koopa Beach",
+        "Rainbow Road"
+      ],
+      "id": "1c7691b6-8982-45c0-90ae-2b1330f45f3f"
     },
     {
       "filename": "zelda-wind-waker.jpg",
       "name": "The Legend of Zelda: Wind Waker",
       "description": "Let me tell you I was so happy when this one dropped. Wind Waker means everything to me, and its soundtrack is unlike anything else. I love the town music, especially Windfall Island, and I also want to shout out not only Dragon Roost Island but the little guitar riff from it that plays at the end of 'Medli, the Sage of Earth'. This game and soundtrack is a masterpiece",
       "platform": "Gamecube",
-      "topTracks": ["Outset Island", "Grandma", "Windfall Island", "Dragon Roost Island", "Forest Haven", "The Deku Tree and Friends", "Kalle Demos", "Tower of the Gods", "Gohdan Battle", "Hyrule Castle", "Medli, the Sage of Earth", "Molgera Battle", "Puppet Ganon (Snake Form)", "Parting Ways"]
+      "topTracks": [
+        "Outset Island",
+        "Grandma",
+        "Windfall Island",
+        "Dragon Roost Island",
+        "Forest Haven",
+        "The Deku Tree and Friends",
+        "Kalle Demos",
+        "Tower of the Gods",
+        "Gohdan Battle",
+        "Hyrule Castle",
+        "Medli, the Sage of Earth",
+        "Molgera Battle",
+        "Puppet Ganon (Snake Form)",
+        "Parting Ways"
+      ],
+      "id": "667929af-ec39-44f9-ac52-fbdf0b06df7d"
     },
     {
       "filename": "dkc-3.jpg",
       "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
       "description": "The third one as well! This one famously isn't as good as the others in terms of gameplay and also soundtrack, but that's fine, the vibe is still there and I look forward to getting to know this soundtrack better over time",
       "platform": "SNES",
-      "topTracks": ["Northern Kremisphere", "Get Fit A-Go-Go"]
+      "topTracks": [
+        "Northern Kremisphere",
+        "Get Fit A-Go-Go"
+      ],
+      "id": "a5896369-e1b4-4114-98f2-d7b506e7bcb1"
     },
     {
       "filename": "super-mario-64.jpg",
       "name": "Super Mario 64",
       "description": "Maybe the most famous Nintendo soundtrack ever and for good reason. These tracks have elevated into the halls of legend they are just that good. Dire, Dire Docks is flawless and potentially a top 5 Nintendo song. Give yourself the gift of listening to this soundtrack",
       "platform": "N64",
-      "topTracks": ["Title Theme", "Opening", "Dire, Dire Docks", "Bowser's Road", "Hazy Maze Cave", "Staff Roll"]
+      "topTracks": [
+        "Title Theme",
+        "Opening",
+        "Dire, Dire Docks",
+        "Bowser's Road",
+        "Hazy Maze Cave",
+        "Staff Roll"
+      ],
+      "id": "69dac4f4-5151-4057-a0d8-db38d58b9b1c"
     },
     {
       "filename": "zelda-skyward-sword.jpg",
       "name": "The Legend of Zelda: Skyward Sword",
       "description": "Zelda games are the gift that keep on giving whenever it comes to music and this game is no different. It's got questionable gameplay and story, sure, but some great vibes. The Ancient Cistern in my favourite track I think, but Lanayru Sand Sea comes a close second. That's some real great desert music, hell yeah",
       "platform": "Wii",
-      "topTracks": ["Skyloft", "Fi's Theme", "Faron Woods", "A Small Island", "The Thrill Digger Digsite", "The Earth Temple", "Lanayru Desert", "The Ancient Cistern", "The Lanayru Sand Sea", "The Fire Sanctuary", "Bamboo Island"]
+      "topTracks": [
+        "Skyloft",
+        "Fi's Theme",
+        "Faron Woods",
+        "A Small Island",
+        "The Thrill Digger Digsite",
+        "The Earth Temple",
+        "Lanayru Desert",
+        "The Ancient Cistern",
+        "The Lanayru Sand Sea",
+        "The Fire Sanctuary",
+        "Bamboo Island"
+      ],
+      "id": "0a472267-297b-46f2-9b2e-15d2dc940d8b"
     },
     {
       "filename": "wave-race.jpg",
       "name": "Wave Race 64",
       "description": "Wow another surprise drop from this obscure game, I'm loving it though. Some of these tracks have immaculate vibes, of which the obvious stand out is Drake Lake",
       "platform": "N64",
-      "topTracks": ["Sunny Beach (1996 Ver.)", "Drake Lake", "Twilight City", "4th-Place Finish"]
+      "topTracks": [
+        "Sunny Beach (1996 Ver.)",
+        "Drake Lake",
+        "Twilight City",
+        "4th-Place Finish"
+      ],
+      "id": "bb9d260b-9aaa-4f7b-903f-69fd0bce2575"
     },
     {
       "filename": "splatoon-2.jpg",
       "name": "Splatoon 2",
       "description": "Ah I just really don't care about Splatoon... I was kinda disappointed that this was released instead of anything else really. Splatoon music sounds like shit",
       "platform": "Switch",
-      "topTracks": []
+      "topTracks": [],
+      "id": "05542d83-b55a-4d9f-a6ee-aea4c31331b1"
     },
     {
       "filename": "brain-training.jpg",
       "name": "Dr Kawashima's Brain Training: How Old Is Your Brain?",
       "description": "When they dropped this one I realised that they're deciding which soundtrack to release based off on a tombola in the Nintendo office. There really is nothing of note here, apart from it conforming to the vibe of 2000s Nintendo, something I enjoy",
       "platform": "DS",
-      "topTracks": []
+      "topTracks": [],
+      "id": "acfab6d8-0e20-4327-9572-b45dbfd08f8b"
     },
     {
       "filename": "f-zero-x.jpg",
       "name": "F-Zero X",
       "description": "As a non-metal lover... I love this soundtrack. There's something special about it. These tracks goes so hard, and of course Mute City and Big Blue are timeless classics. I once used the credits theme in a trailer for a smash tournament that I made, really loved it",
       "platform": "N64",
-      "topTracks": ["Endless Challenge (Mute City)", "Dream Chaser (Silence)", "Decided by the Eyes (Big Blue)", "Climb Up / Last Chance! (White Land / Big Hand)", "Goal BGM", "Grand Prix Ending"]
+      "topTracks": [
+        "Endless Challenge (Mute City)",
+        "Dream Chaser (Silence)",
+        "Decided by the Eyes (Big Blue)",
+        "Climb Up / Last Chance! (White Land / Big Hand)",
+        "Goal BGM",
+        "Grand Prix Ending"
+      ],
+      "id": "14f90c65-307e-437c-b4a1-90b2c82427e2"
     },
     {
       "filename": "wii-sports.jpg",
       "name": "Wii Sports",
       "description": "Everyone played this and knows the vibe. No-one does this vibe like Wii-era Nintendo, and this is the quintessential 2006 vibe that you've been craving. Bask in the glow of the main theme and look up the words 'frutiger aero'",
       "platform": "Wii",
-      "topTracks": ["Title Theme", "Tennis: Player Selection", "Boxing: Results"]
+      "topTracks": [
+        "Title Theme",
+        "Tennis: Player Selection",
+        "Boxing: Results"
+      ],
+      "id": "e6de7497-fa60-4285-a52f-cb0069da84b8"
     },
     {
       "filename": "dkc-2.jpg",
       "name": "Donkey Kong Country 2: Diddy's Kong Quest",
       "description": "Oh hell yes if you thought the first game was good, this one is EQUALLY as good and it features the ultimate Donkey Kong song, Stickerbrush Symphony. What a transcendent piece of art. This soundtrack really nails ambient tracks, and has so many delights. I also adore the final boss music",
       "platform": "SNES",
-      "topTracks": ["Hot-Head Bop (Hot-Head Hop)", "Stickerbrush Symphony (Bramble Blast)", "Disco Train (Target Terror)", "Forest Interlude (Web Woods)", "In a Snowbound Land (Clapper's Cavern)", "Crocodile Cacophony"]
+      "topTracks": [
+        "Hot-Head Bop (Hot-Head Hop)",
+        "Stickerbrush Symphony (Bramble Blast)",
+        "Disco Train (Target Terror)",
+        "Forest Interlude (Web Woods)",
+        "In a Snowbound Land (Clapper's Cavern)",
+        "Crocodile Cacophony"
+      ],
+      "id": "4f691f1d-cc8f-459a-b84e-2bfe3d9b951e"
     },
     {
       "filename": "mario-wonder.jpg",
       "name": "Super Mario Bros. Wonder",
       "description": "This game is really fun to play, but the music is ass. I had high hopes because I actually love the New Super Mario Bros music, but there's nothing good here really. I was excited by the trailer in the music because of the funny voice, but they only used it for like one track, such a disappointment",
       "platform": "Switch",
-      "topTracks": ["Grassland Theme"]
+      "topTracks": [
+        "Grassland Theme"
+      ],
+      "id": "37b0ca8a-32dd-40fd-9a3b-55a6fcbd9d22"
     },
     {
       "filename": "pikmin-4.jpg",
       "name": "Pikmin 4",
       "description": "I had such high hopes for this, because I am a huge pikmin fan. Pikmin 1, 2 and 3 have such special vibes which are perfectly captured by their soundtracks, but I was disappointed by this. When the first main area, Sun-Speckled Terrace, had that minimal ass piano music in the background, I was disappointed. It's got nothing on Forest of Hope, what were they thinking? They did this variable music, this time with different instruments coming in depending on which enemy is nearby, and it doesn't work. It can't work if the base music is so sparse and bare. There are some good tracks though, like the beautiful title theme. I can't wait for them to put on some older pikmin games on here though",
       "platform": "Switch",
-      "topTracks": ["Title Screen", "Today's Rescue Results", "Serene Shores", "Olimar's Shipwreck Tale: Serene Shores"]
+      "topTracks": [
+        "Title Screen",
+        "Today's Rescue Results",
+        "Serene Shores",
+        "Olimar's Shipwreck Tale: Serene Shores"
+      ],
+      "id": "8cb6b89e-1563-402e-a2e2-97fc0b98b7ec"
     },
     {
       "filename": "pokemon-scarlet-violet.jpg",
       "name": "Pokémon Scarlet and Pokémon Violet",
       "description": "Let's be real these games are not good. They don't look good and they have no vibes. Tragically, the soundtrack also isn't anything to write home about, which is tragic considering Pokemon's rich history. Ah well",
       "platform": "Switch",
-      "topTracks": ["Area Zero"]
+      "topTracks": [
+        "Area Zero"
+      ],
+      "id": "b4487372-c225-40e7-901e-2c853cc415bd"
     },
     {
       "filename": "splatoon-3.jpg",
       "name": "Splatoon 3",
       "description": "I don't like Splatoon music, I just don't think it's good. The weird voices, the not-very-good pop music. I haven't even given this soundtrack much of a chance",
       "platform": "Switch",
-      "topTracks": []
+      "topTracks": [],
+      "id": "f4c36fa2-7cef-4303-ba13-18887d76f3e5"
     },
     {
       "filename": "animal-crossing-new-horizons.jpg",
       "name": "Animal Crossing: New Horizons",
       "description": "Where do I even begin. There is so much to discuss! Animal Crossing approaches video game music so differently to any other game and must be treated with the utmost respect. The composers of this game, just like the games before it, created chill vibes for each and every hour of the day, and all of them match the time of day perfectly. What a pleasure and honour it is to be able to listen to them in the Nintendo Music App. I think my absolute favourite is 7pm. Then there are all the other events music, like the Tourney Competing track. I love it so much!!! And THEN! K.K. Slider's whole discography is available, including all the newer tracks from the 2.0 update. We can talk about classics like K.K. Cruisin' and K.K. Bossa but mate the newer tracks are also fire. Check out K.K. Break it's so good",
       "platform": "Switch",
-      "topTracks": ["12:00 AM - Clear", "2:00 AM - Clear", "5:00 AM - Clear", "12:00 PM - Clear", "5:00 PM - Clear", "7:00 PM - Clear", "Island Life Orientation 7 - Clear", "Construction-Complete Ceremony", "The Roost", "Tourney - Competing", "Fireworks Show", "Festivale", "K.K. Cruisin' (Instrumental)", "K.K. Soul (Instrumental)", "K.K. Milonga (Instrumental)", "K.K. House (Instrumental)", "K.K. Break (Instrumental)", "K.K. Bossa (Instrumental)", "K.K. Moody (Instrumental)", "Drivin' (Instrumental)", "K.K. D&B (Instrumental)"]
+      "topTracks": [
+        "12:00 AM - Clear",
+        "2:00 AM - Clear",
+        "5:00 AM - Clear",
+        "12:00 PM - Clear",
+        "5:00 PM - Clear",
+        "7:00 PM - Clear",
+        "Island Life Orientation 7 - Clear",
+        "Construction-Complete Ceremony",
+        "The Roost",
+        "Tourney - Competing",
+        "Fireworks Show",
+        "Festivale",
+        "K.K. Cruisin' (Instrumental)",
+        "K.K. Soul (Instrumental)",
+        "K.K. Milonga (Instrumental)",
+        "K.K. House (Instrumental)",
+        "K.K. Break (Instrumental)",
+        "K.K. Bossa (Instrumental)",
+        "K.K. Moody (Instrumental)",
+        "Drivin' (Instrumental)",
+        "K.K. D&B (Instrumental)"
+      ],
+      "id": "17310804-2539-4e72-9f5a-dc7ca0289bfd"
     },
     {
       "filename": "kirby-star-allies.jpg",
       "name": "Kirby Star Allies",
       "description": "I overlooked this one at first because the game is mid, but then I remembered that newer Kirby games are treasure troves showcasing the rich history of the Kirby soundtracks, and that this game is no different. Shoutouts to the Nintendo Music App for including all the bonus tracks from older games. As you go through the 200+ tracks you will find classics from SNES and GBA titles, and bangers from Robobot, the best Kirby game. At the end there is a gauntlet of all the best final boss themes from across the series and it's so good. This is a totally huge goldmine full of amazing tracks. It is so good",
       "platform": "Switch",
-      "topTracks": ["Orange Ocean (Kirby: Nightmare in Dream Land)", "Song of Supplication", "The Last Iceberg (Kirby's Dream Land 3)", "Vs. Dark Matter (Kirby's Dream Land 3)", "Far-Flung Starlight Heroes", "Winds across Earthfall", "Caverna's Massive Mazes", "Towara's Ancient Towers", "Dedede's Tridimensional Cannon (Kirby: Planet Robobot)", "Friends' Gateway", "Shadowy Partners", "Milky Way Wishes (Kirby's Fun Pak)", "THE END...?", "Battle of Nightmares", "Vs. Marx - Star Allies Dream Ver.", "The Girls Who Fought The Darkness"]
+      "topTracks": [
+        "Orange Ocean (Kirby: Nightmare in Dream Land)",
+        "Song of Supplication",
+        "The Last Iceberg (Kirby's Dream Land 3)",
+        "Vs. Dark Matter (Kirby's Dream Land 3)",
+        "Far-Flung Starlight Heroes",
+        "Winds across Earthfall",
+        "Caverna's Massive Mazes",
+        "Towara's Ancient Towers",
+        "Dedede's Tridimensional Cannon (Kirby: Planet Robobot)",
+        "Friends' Gateway",
+        "Shadowy Partners",
+        "Milky Way Wishes (Kirby's Fun Pak)",
+        "THE END...?",
+        "Battle of Nightmares",
+        "Vs. Marx - Star Allies Dream Ver.",
+        "The Girls Who Fought The Darkness"
+      ],
+      "id": "bcb7b388-97e4-4307-b761-358464e805e7"
     },
     {
       "filename": "mario-odyssey.jpg",
       "name": "Super Mario Odyssey",
       "description": "Such a good game with some real highlights in its OST. Not saying the whole thing is consistently good, but at the very least it has the ultimate beach level music in Bubblaine. No beach level can top this, it's pure bossa nova bliss",
       "platform": "Switch",
-      "topTracks": ["Tostarena Ruins", "Steam Gardens", "New Donk City", "Bubblaine", "Bowser's Castle", "Bowser's Castle: Main Courtyard"]
+      "topTracks": [
+        "Tostarena Ruins",
+        "Steam Gardens",
+        "New Donk City",
+        "Bubblaine",
+        "Bowser's Castle",
+        "Bowser's Castle: Main Courtyard"
+      ],
+      "id": "9de77299-81f5-4943-b378-2a34b84e8b88"
     },
     {
       "filename": "mario-kart-8.jpg",
       "name": "Mario Kart 8 Deluxe",
       "description": "This fucking game has taken all the best tracks from Mario Kart history and remake them with a full band! And they're SO GOOD! When they announced that Mario Kart was getting a million more tracks I jizzed in my pants because more amazing retro tracks would be remade. What an absolute dream. They even added all the Tour tracks which also turned out to be great. Thanks to that we got a potentially top 5 nintendo music moment: motherfucking Sydney Sprint!! Give it a listen!!",
       "platform": "Switch",
-      "topTracks": ["Bone Dry Ruins", "GBA Mario Circuit", "N64 Toad's Turnpike", "SNES Donut Plains 3", "N64 Royal Raceway", "Wii Grumble Volcano", "SNES Rainbow Road", "Wild Woods", "Animal Crossing (Winter)", "Spectating", "Wii Coconut Mall", "DS Waluigi Pinball", "Tour Sydney Sprint", "GBA Boo Lake", "Wii Moonview Highway", "Tour Vancouver Velocity", "Wii Daisy Circuit"]
+      "topTracks": [
+        "Bone Dry Ruins",
+        "GBA Mario Circuit",
+        "N64 Toad's Turnpike",
+        "SNES Donut Plains 3",
+        "N64 Royal Raceway",
+        "Wii Grumble Volcano",
+        "SNES Rainbow Road",
+        "Wild Woods",
+        "Animal Crossing (Winter)",
+        "Spectating",
+        "Wii Coconut Mall",
+        "DS Waluigi Pinball",
+        "Tour Sydney Sprint",
+        "GBA Boo Lake",
+        "Wii Moonview Highway",
+        "Tour Vancouver Velocity",
+        "Wii Daisy Circuit"
+      ],
+      "id": "d5ce1b7c-e892-4d4f-91c2-661bc9a1210f"
     },
     {
       "filename": "botw.jpg",
       "name": "The Legend of Zelda: Breath of the Wild",
       "description": "This soundtrack was a total game changer and I fucking love it. This game had a combination of chill areas with no music, amazing town themes and super intense battle music. And all of it has a special vibe thanks to the heavy use of piano, specifally sparse, parallel chords. Urbosa's theme is the best because Urbosa is the best. And do give the exploring the divine beasts music a try even if the first minute is always bad",
       "platform": "Switch",
-      "topTracks": ["King Rhoam's Plea", "Hateno Village", "Zora's Domain", "Rito Village", "Battle with Divine Beast Vah Medoh", "Battle with Divine Beast Vah Naboris", "Reuniting with Urbosa", "Molduga Battle", "Korok Forest", "Lurelin Village", "Hyrule Castle", "The Final Trial"]
+      "topTracks": [
+        "King Rhoam's Plea",
+        "Hateno Village",
+        "Zora's Domain",
+        "Rito Village",
+        "Battle with Divine Beast Vah Medoh",
+        "Battle with Divine Beast Vah Naboris",
+        "Reuniting with Urbosa",
+        "Molduga Battle",
+        "Korok Forest",
+        "Lurelin Village",
+        "Hyrule Castle",
+        "The Final Trial"
+      ],
+      "id": "bcf6234e-09fd-4512-b48a-602f8331a789"
     },
     {
       "filename": "super-mario-galaxy.jpg",
       "name": "Super Mario Galaxy",
       "description": "So many classic tracks and so many hidden gems in this great soundtrack! When I made my mix of fire-themed video games levels I learned that the fiery levels in this game sound great! Also why did they give the most insane music to random-ass Bouy Base Galaxy?",
       "platform": "Wii",
-      "topTracks": ["Star Festival", "Space Junk Road", "Battlerock Galaxy", "Buoy Base Galaxy", "Melty Molten Galaxy", "The Galaxy Reactor", "Purple Comet", "Gateway Galaxy", "The Fiery Stronghold", "Dusty Dune Galaxy"]
+      "topTracks": [
+        "Star Festival",
+        "Space Junk Road",
+        "Battlerock Galaxy",
+        "Buoy Base Galaxy",
+        "Melty Molten Galaxy",
+        "The Galaxy Reactor",
+        "Purple Comet",
+        "Gateway Galaxy",
+        "The Fiery Stronghold",
+        "Dusty Dune Galaxy"
+      ],
+      "id": "b82aa125-8e7d-48e3-8e03-39f1f1e8d951"
     },
     {
       "filename": "wii.webp",
       "name": "Wii Channels",
       "description": "I love that they put this in, what a pleasure. It tells me that they care about covering 100% of their stuff. Of course Wii Shop and Mii Channels are iconic but this was the perfect excuse to get to know some of the more obscure channel music, and holy moly! There are some bangers in there! Disco in Everybody Votes Channel and Jungle in the News Channel, what does this not have?",
       "platform": "Wii",
-      "topTracks": ["Mii Plaza", "Main Theme (Wii Shop Channel)", "Slide Show: Scenic (Photo Channel)", "Checking the News: Daytime (News Channel)", "Poll Screen (Everybody Votes Channel)"]
+      "topTracks": [
+        "Mii Plaza",
+        "Main Theme (Wii Shop Channel)",
+        "Slide Show: Scenic (Photo Channel)",
+        "Checking the News: Daytime (News Channel)",
+        "Poll Screen (Everybody Votes Channel)"
+      ],
+      "id": "c9e59998-fc45-42cd-a5d2-a58bf9b9d02d"
     },
     {
       "filename": "tomodachi.webp",
       "name": "Tomodachi Collection",
       "description": "Another insane addition, not really with much to enjoy here. However I have to admit this game is very funny and some of the music that goes with it is hilarious. They even included the songs you can make the Miis, and the J-Pop is lowkey good",
       "platform": "DS",
-      "topTracks": ["Clothing Shop", "J-Pop: To a New Future"]
+      "topTracks": [
+        "Clothing Shop",
+        "J-Pop: To a New Future"
+      ],
+      "id": "80459a47-7831-472d-a3ad-145f018d38a3"
     },
     {
       "filename": "nintendogs.jpg",
       "name": "Nintendogs",
       "description": "Wow they don't give a fuck, they really put this soundtrack up here. I mean it's not like Nintendogs is known for its music but why the fuck not. I know the bathtime music from smash but the original is nothing to write home about",
       "platform": "DS",
-      "topTracks": []
+      "topTracks": [],
+      "id": "13cc318c-a4ac-4370-9eaa-d922422aa0b2"
     },
     {
       "filename": "metroid-prime.webp",
       "name": "Metroid Prime",
       "description": "Oh hell yeah baby Metroid Prime, what a banger soundtrack. From the chill Phendrana drifts to the sick Ridley battle music, I fucking love it all. It really does have a special sci-fi vibe that contributes to the atmosphere of the game so perfectly",
       "platform": "Gamecube",
-      "topTracks": ["File Select", "Parasite Queen", "Phendrana Drifts", "Phendrana Battle", "Tallon Overworld Revisited", "Crashed Ship", "Meta Ridley Battle", "Samus's Record"]
+      "topTracks": [
+        "File Select",
+        "Parasite Queen",
+        "Phendrana Drifts",
+        "Phendrana Battle",
+        "Tallon Overworld Revisited",
+        "Crashed Ship",
+        "Meta Ridley Battle",
+        "Samus's Record"
+      ],
+      "id": "e2f4f508-319c-4395-8505-ef665c10fa17"
     },
     {
       "filename": "fire-emblem-blazing-blade.jpg",
       "name": "Fire Emblem: The Blazing Blade",
       "description": "It is absolutely wild that they put this soundtrack in the opening roster of this app. Not only would it take so long to play through the game and get these screenshots, but for just this obscure FE game on the GBA? That's when I knew they were really ready to put a LOT of music on here over time. Hell yeah. Anyway I don't think this soundtrack is all that good but it has some standouts like the music from Lyn's levels. I loved Lyn when I played this",
       "platform": "GBA",
-      "topTracks": ["Winds Across the Plains", "Together, We Ride!", "An Unexpected Caller"]
+      "topTracks": [
+        "Winds Across the Plains",
+        "Together, We Ride!",
+        "An Unexpected Caller"
+      ],
+      "id": "3fc2c1c2-f873-4eb3-99da-69c7b4c070c9"
     },
     {
       "filename": "ocarina-of-time.jpg",
       "name": "The Legend of Zelda: Ocarina of Time",
       "description": "This is it guys, this is the ultimate childhood adventure game and you just KNOW it's packed full of amazing music. The temple music is all so good and atmospheric, and then the battle music is also such a unique vibe. The final boss music again Ganon is the most intense battle music ever and I can't get enough",
       "platform": "N64",
-      "topTracks": ["Title Theme", "Kokiri Forest", "Hyrule Castle Courtyard", "Kakariko Village", "Middle Boss Battle", "Zora's Domain", "Forest Temple", "Water Temple", "Gerudo Valley", "Spirit Temple", "Last Battle"]
+      "topTracks": [
+        "Title Theme",
+        "Kokiri Forest",
+        "Hyrule Castle Courtyard",
+        "Kakariko Village",
+        "Middle Boss Battle",
+        "Zora's Domain",
+        "Forest Temple",
+        "Water Temple",
+        "Gerudo Valley",
+        "Spirit Temple",
+        "Last Battle"
+      ],
+      "id": "e02becb1-df1f-4803-b3b7-2ac068c5c9bc"
     },
     {
       "filename": "lylat-wars.jpg",
       "name": "Lylat Wars",
       "description": "I didn't realise until listening to this soundtrack again here that this soundtrack is SO ocarina of time, and then I learned it's literally also Koji Kondo. Really makes sense. Thanks to smash I love the Mission Accomplished and Opening themes and I have to say the other level tracks are also good vibes",
       "platform": "N64",
-      "topTracks": ["Opening Theme", "Zoness", "Mission Complete"]
+      "topTracks": [
+        "Opening Theme",
+        "Zoness",
+        "Mission Complete"
+      ],
+      "id": "9d5f3ab4-4352-4467-9ed4-b8b7d732822d"
     },
     {
       "filename": "yoshis-island.jpg",
       "name": "Yoshi's Island",
       "description": "A classic game, although I don't think I'll spend much of my time with the soundtrack. I like the castle music a lot though and thoroughly enjoyed the game",
       "platform": "SNES",
-      "topTracks": ["Castles & Forts BGM", "Stage Boss", "Athletic BGM"]
+      "topTracks": [
+        "Castles & Forts BGM",
+        "Stage Boss",
+        "Athletic BGM"
+      ],
+      "id": "66913b57-449c-4dfa-9169-f40fe6d9ecad"
     },
     {
       "filename": "dkc.png",
       "name": "Donkey Kong Country",
       "description": "This soundtrack is such a classic. It's timeless! I take joy in listening to this on public transport thinking to myself, people here don't know that I'm listening to the Donkey Kong Country soundtrack. They're just listening to pop music or something and I'm transcending listening to Aquatic Ambience. There are so many heavy hitters on here - the original Jungle level theme, the absolute vibes of some of the more chill tracks like Northern Hemispheres. Incredible! Also the game itself is totally still worth playing.",
       "platform": "SNES",
-      "topTracks": ["Life in the Mines", "Fear Factory", "Forest Frenzy", "Treetop Rock", "Minecart Madness", "Aquatic Ambience", "DK Island Swing"]
+      "topTracks": [
+        "Life in the Mines",
+        "Fear Factory",
+        "Forest Frenzy",
+        "Treetop Rock",
+        "Minecart Madness",
+        "Aquatic Ambience",
+        "DK Island Swing"
+      ],
+      "id": "30a89c9e-3375-4f3d-9b95-356b1c385523"
     },
     {
       "filename": "kirbys-dreamland.jpg",
       "name": "Kirby's Dream Land",
       "description": "The origin of so many of my favourite Kirby tracks, they are so good. Did you know Float Islands eventually became the rest area from Smash Melee's All-Star mode?",
       "platform": "Gameboy",
-      "topTracks": ["Castle Lololo", "Float Islands", "A New Wind for Tomorrow"]
+      "topTracks": [
+        "Castle Lololo",
+        "Float Islands",
+        "A New Wind for Tomorrow"
+      ],
+      "id": "f7dc4150-053e-4433-9631-a61865a4cf5a"
     },
     {
       "filename": "dr-mario.jpg",
       "name": "Dr. Mario",
       "description": "This soundtrack doesn't have much to offer, but Chill is a banger",
       "platform": "Gameboy",
-      "topTracks": ["Chill"]
+      "topTracks": [
+        "Chill"
+      ],
+      "id": "d0ead184-aae5-466f-8193-f1f1bb1f8afa"
     },
     {
       "filename": "metroid.webp",
       "name": "Metroid",
       "description": "Hello, a NES soundtrack with multiple classic tracks that are actually good? Hell yeah. Metroid always delivers! I love the escape and ending themes the most, and this is of course also where the incredible Smash Melee Metroid remixes are from",
       "platform": "NES",
-      "topTracks": ["Miniboss Hideout I: Kraid", "Escape", "Ending"]
+      "topTracks": [
+        "Miniboss Hideout I: Kraid",
+        "Escape",
+        "Ending"
+      ],
+      "id": "907a22c6-f172-4e43-befc-191c375afc10"
     },
     {
       "filename": "super-mario-bros.png",
       "name": "Super Mario Bros",
       "description": "I truly don't think this soundtrack has much to offer. It would take some remixes further down the line to make me appreciate this music. The underground theme sounds like Koji Kondo farted it out in half an hour",
       "platform": "NES",
-      "topTracks": ["Underwater BGM"]
+      "topTracks": [
+        "Underwater BGM"
+      ],
+      "id": "3383bf0c-9462-4196-b537-7cd73ba9ca55"
     }
   ]
 }

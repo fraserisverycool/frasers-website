@@ -8,4 +8,5 @@ export interface Album {
   tags: string;
   color: string;
   textColor: string;
+  id: string;
 }

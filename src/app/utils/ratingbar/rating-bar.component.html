@@ -1,0 +1,12 @@
+<div class="rating-bar">
+  <button
+    *ngFor="let count of counts; let i = index"
+    class="circle"
+    [style.backgroundColor]="colors[i]"
+    [class.selected]="selectedIndex === i"
+    (click)="onSelect(i)"
+  ></button>
+  <span class="count" *ngFor="let count of counts; let i = index">
+    {{ count }}
+  </span>
+</div>
