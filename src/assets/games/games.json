@@ -1,6 +1,22 @@
 {
   "games": [
     {
+      "name": "Blue Prince",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "Daaaaamn this game is so good! This is another one of those rare information games where you have to understand stuff about the lore and how things work in order to progress. I read somewhere people call them 'Metroidbrainias' which I thoroughly enjoy. Although this game is actually a roguelike! You go through a explore this mansion by drafting new rooms as you go. Each room is full of secrets about what's actually going on and it makes you want to learn everything about the game.",
+        "At the time of writing this I found the 46th room and decided to call it a day because the scope of the game is terrifying. I had many amazing eureka moments throughout my playthrough but one of them was learning about a crazy chess puzzle, thanks to happening to have the device you need to light candles on me when I finally got the basement key and was able to go down the fountain to the special area at the back. When I saw that those notes I had made about chess pieces in different rooms were about to be used... wait I have to draft them ALL? On top of this, my mate Rodrigo revealed at this point that he had over 150 hours in the game. For my sanity and my safety, I have to say no to the chess puzzle. I'll probably just get another sanctum key anyway, and that puzzle where I have to learn about all the history in order to make those sigils, my GOD. I wrote like 20 pages of notes for this, and I would have needed a new book to solve that one.",
+        "Anyway shout-outs to this game. So many highlights. I loved the logic puzzles, Alzara, the Aquarium puzzle, the computer system, the excitement of going to a brand new room. So much to enjoy!",
+        "I highly recommend this puzzle game! Puzzle games are the best!"
+      ],
+      "image": "blue-prince.jpg",
+      "platform": "Playstation 5",
+      "year": "2025",
+      "release": "2025",
+      "score": 18
+    },
+    {
       "name": "Deltarune: Chapter 4",
       "vibes": "10",
       "gameplay": "9",
