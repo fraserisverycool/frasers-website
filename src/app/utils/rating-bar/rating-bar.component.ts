@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 export class RatingBarComponent {
   @Input() counts: number[] = [0, 0, 0, 0, 0];
   selectedIndex: number | null = null;
-  colors: string[] = ['#e74c3c', '#f39c12', '#f1c40f', '#2ecc71', '#3498db'];
+  filenames: string[] = ['reaction-wet.png', 'reaction-poo.png', 'reaction-hurr.png', 'reaction-peace.png', 'reaction-science.png'];
 
   onSelect(index: number): void {
     if (this.selectedIndex !== null) return;
