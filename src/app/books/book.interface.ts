@@ -6,5 +6,6 @@ export interface Book {
   spoiler: string;
   release: number;
   showSpoiler?: boolean;
+  rating: number[];
   id: string;
 }

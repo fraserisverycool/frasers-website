@@ -8,6 +8,7 @@ interface Video {
   title: string;
   description: string;
   embedUrl?: SafeResourceUrl;
+  rating: number[];
   id: string;
 }
 

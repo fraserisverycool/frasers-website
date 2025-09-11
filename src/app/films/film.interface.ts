@@ -4,5 +4,6 @@ export interface Film {
   description: string;
   year: string;
   release: number;
+  rating: number[];
   id: string;
 }

@@ -9,5 +9,6 @@ export interface Game {
   release: number;
   story: boolean;
   score: number;
+  rating: number[];
   id: string;
 }

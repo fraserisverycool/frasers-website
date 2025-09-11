@@ -13,7 +13,6 @@ export class GuestbookService {
   constructor(private http: HttpClient) { }
 
   getFeedback(): Observable<Feedback[]> {
-    console.log(this.apiUrl + "/feedback");
     return this.http.get<Feedback[]>(`${this.apiUrl}/feedback`);
   }
 

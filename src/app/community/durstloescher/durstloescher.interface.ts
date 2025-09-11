@@ -5,5 +5,6 @@ export interface Durstloescher {
   description: string;
   fraserscore: string;
   fraserdescription: string;
+  rating: number[];
   id: string;
 }

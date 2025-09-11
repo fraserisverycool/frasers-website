@@ -1,15 +1,57 @@
 <div class="rating-bar">
-  <button
-    *ngFor="let count of counts; let i = index"
-    (click)="onSelect(i)"
-  >
-    <img [ngSrc]="'assets/utils/' + filenames[i]"
-         [alt]="filenames[i]"
-         width="30"
-         height="30"
+  <button (click)="onSelect(0)" class="button">
+    <img [ngSrc]="'assets/utils/reaction-wet.png'"
+         [alt]="filenames[0]"
+         width="35"
+         height="35"
          class="circle">
     <span class="count">
-      {{ count }}
+      {{ rating?.ratings[0] || 0 }}
     </span>
+    <div class="hover-text" [ngStyle]="{'color': colors[0]}">wet for her</div>
+  </button>
+  <button (click)="onSelect(1)" class="button">
+    <img [ngSrc]="'assets/utils/reaction-poo.png'"
+         [alt]="filenames[1]"
+         width="35"
+         height="35"
+         class="circle">
+    <span class="count">
+      {{ rating?.ratings[1] || 0 }}
+    </span>
+    <div class="hover-text" [ngStyle]="{'color': colors[1]}">poop poop fart</div>
+  </button>
+  <button (click)="onSelect(2)" class="button">
+    <img [ngSrc]="'assets/utils/reaction-hurr.png'"
+         [alt]="filenames[2]"
+         width="35"
+         height="35"
+         class="circle">
+    <span class="count">
+      {{ rating?.ratings[2] || 0 }}
+    </span>
+    <div class="hover-text" [ngStyle]="{'color': colors[2]}">hurr hurr</div>
+  </button>
+  <button (click)="onSelect(3)" class="button">
+    <img [ngSrc]="'assets/utils/reaction-peace.png'"
+         [alt]="filenames[3]"
+         width="35"
+         height="35"
+         class="circle">
+    <span class="count">
+      {{ rating?.ratings[3] || 0 }}
+    </span>
+    <div class="hover-text" [ngStyle]="{'color': colors[3]}">imagine world peace</div>
+  </button>
+  <button (click)="onSelect(4)" class="button">
+    <img [ngSrc]="'assets/utils/reaction-science.png'"
+         [alt]="filenames[4]"
+         width="35"
+         height="35"
+         class="circle">
+    <span class="count">
+      {{ rating?.ratings[4] || 0 }}
+    </span>
+    <div class="hover-text" [ngStyle]="{'color': colors[4]}">science!</div>
   </button>
 </div>

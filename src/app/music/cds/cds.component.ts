@@ -5,6 +5,7 @@ import {FormsModule} from '@angular/forms';
 import {CD} from "./cd.interface";
 import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
 import {CdModalComponent} from "./cd-modal/cd-modal.component";
+import {RatingService} from "../../utils/rating-bar/service/rating.service";
 
 @Component({
   selector: 'app-cds',
@@ -22,7 +23,7 @@ export default class CdsComponent implements OnInit {
   genreList = ["Art Pop", "Pop", "Rock & Electronic", "House & Disco", "Indie & Singer-Songwriter", "Jazz, Soul & Hip-Hop", "Vocal Jazz & Smooth", "Video Game OST", "Classical"];
   selectedTag: string | null = null;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadGenres();
@@ -47,12 +48,26 @@ export default class CdsComponent implements OnInit {
     this.http.get<{ cds: CD[] }>('assets/music/albums/cds.json').subscribe({
       next: (data) => {
         this.originalCds = data.cds;
+        this.getRatings();
         this.sortCds('genre');
       },
       error: (err) => {
         console.error('Failed to load CDs:', err);
       },
     });
+  }
+
+  getRatings(): void {
+    this.ratingService.getRatingsById(this.originalCds.map(cd => cd.id))
+      .subscribe(cdRatings => {
+        this.originalCds = this.originalCds.map(cd => {
+          const ratingData = cdRatings.find(rating => rating.id === cd.id);
+          if (ratingData) {
+            cd.rating = ratingData.ratings;
+          }
+          return cd;
+        });
+      });
   }
 
   get filteredCds(): CD[] {

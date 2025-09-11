@@ -1,21 +1,30 @@
-import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {Component, Input} from '@angular/core';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
+import {RatingService} from "./service/rating.service";
+import {Rating} from "./service/rating.interface";
 
 @Component({
   selector: 'app-rating-bar',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgOptimizedImage],
   templateUrl: './rating-bar.component.html',
   styleUrls: ['./rating-bar.component.css']
 })
 export class RatingBarComponent {
-  @Input() counts: number[] = [0, 0, 0, 0, 0];
-  selectedIndex: number | null = null;
+  @Input() rating: Rating = {
+    id: '',
+    ratings: [0,0,0,0,0]
+  }
   filenames: string[] = ['reaction-wet.png', 'reaction-poo.png', 'reaction-hurr.png', 'reaction-peace.png', 'reaction-science.png'];
+  colors: string[] = ['#d5006c', '#fe6b06', '#38a105', '#0291ff', '#912efc'];
+
+  constructor(private ratingService: RatingService) {
+  }
 
   onSelect(index: number): void {
-    if (this.selectedIndex !== null) return;
-    this.selectedIndex = index;
-    this.counts[index] += 1;
+    if (this.rating.ratings[index] < 999) {
+      this.rating.ratings[index] += 1;
+    }
+    this.ratingService.updateRating(this.rating);
   }
 }

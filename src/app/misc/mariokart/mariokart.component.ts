@@ -15,6 +15,7 @@ interface Track {
   image: string;
   nextGame: string;
   previousGame: string;
+  rating: number[];
   id: string;
 }
 

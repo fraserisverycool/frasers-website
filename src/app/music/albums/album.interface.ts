@@ -8,5 +8,6 @@ export interface Album {
   tags: string;
   color: string;
   textColor: string;
+  rating: number[];
   id: string;
 }

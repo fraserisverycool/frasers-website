@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use(cors({
   origin: ['http://127.0.0.1:80', 'http://127.0.0.1', 'http://localhost:4200', 'https://worldpeace.services', 'http://worldpeace.services'],
-  methods: ['GET', 'POST', 'OPTIONS'],
+  methods: ['GET', 'POST', 'PUT', 'OPTIONS'],
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept']
 }));
 
@@ -52,6 +52,16 @@ const HomepageColor = sequelize.define('HomepageColor', {
   timestamp: {
     type: DataTypes.DATE,
     defaultValue: Sequelize.NOW
+  }
+});
+
+const Rating = sequelize.define('rating', {
+  id: {
+    type: Sequelize.STRING,
+    primaryKey: true
+  },
+  ratings: {
+    type: Sequelize.ARRAY(Sequelize.INTEGER)
   }
 });
 
@@ -128,6 +138,46 @@ app.post('/api/homepage', [
   } catch (error) {
     console.error('Error creating homepage colour:', error);
     res.status(500).json({ error: 'Error creating homepage colour', details: error.message });
+  }
+});
+
+app.post('/api/ratings', async (req, res) => {
+  const { ids } = req.body;
+
+  try {
+    const ratings = await Rating.findAll({
+      where: {
+        id: ids
+      }
+    });
+    res.json(ratings);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.put('/api/ratings/:id', async (req, res) => {
+  const { ratings } = req.body;
+
+  try {
+    const number_of_updated_rows = await Rating.update(
+      {
+        ratings,
+      },
+      {
+        where: {
+          id: req.params.id,
+        },
+      }
+    );
+
+    if (number_of_updated_rows[0] === 0) {
+      return res.status(404).json({ error: "Rating not found" });
+    }
+
+    res.status(204).send(); // If no content is to be sent back
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 

@@ -10,6 +10,7 @@ export interface Character {
   showMain: boolean;
   main: string;
   deco: Decoration[];
+  rating: number[];
   id: string;
 }
 

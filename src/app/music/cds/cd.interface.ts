@@ -4,5 +4,6 @@ export interface CD {
   genre: string;
   description: string;
   image: string;
+  rating: number[];
   id: string;
 }

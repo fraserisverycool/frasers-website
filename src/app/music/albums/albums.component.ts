@@ -6,7 +6,8 @@ import {ClickedOutsideDirective} from "../../utils/directives/clicked-outside.di
 import {Album} from "./album.interface";
 import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
 import {AlbumModalComponent} from "./album-modal/album-modal.component";
-import {AlbumsService} from "./albums.service";
+import {AlbumsService} from "./service/albums.service";
+import {RatingService} from "../../utils/rating-bar/service/rating.service";
 
 @Component({
   selector: 'app-albums',
@@ -31,7 +32,7 @@ export default class AlbumsComponent implements OnInit {
     'special vibes', 'classic', 'not for everyone', 'cunty', 'devastating', 'wild shit', 'all time faves'
   ];
 
-  constructor(private http: HttpClient, private albumsService: AlbumsService) {}
+  constructor(private http: HttpClient, private albumsService: AlbumsService, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadAlbums();
@@ -41,6 +42,7 @@ export default class AlbumsComponent implements OnInit {
     this.http.get<{ albums: Album[] }>('assets/music/albums/albums.json').subscribe({
       next: (data) => {
         this.originalAlbums = data.albums;
+        this.getRatings();
         this.sortAlbums('random');
         this.generateColours();
       },
@@ -48,6 +50,19 @@ export default class AlbumsComponent implements OnInit {
         console.error('Failed to load albums:', err);
       },
     });
+  }
+
+  getRatings(): void {
+    this.ratingService.getRatingsById(this.originalAlbums.map(album => album.id))
+      .subscribe(albumRatings => {
+        this.originalAlbums = this.originalAlbums.map(album => {
+          const ratingData = albumRatings.find(rating => rating.id === album.id);
+          if (ratingData) {
+            album.rating = ratingData.ratings;
+          }
+          return album;
+        });
+      });
   }
 
   get filteredAlbums(): Album[] {

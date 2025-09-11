@@ -7,6 +7,7 @@ interface Mp3Info {
   filename: string;
   name: string;
   description: string;
+  rating: number[];
   id: string;
 }
 

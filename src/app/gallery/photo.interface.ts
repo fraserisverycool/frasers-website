@@ -6,5 +6,6 @@ export interface Photo {
   month: string;
   question: string;
   answer: string[];
+  rating: number[];
   id: string;
 }

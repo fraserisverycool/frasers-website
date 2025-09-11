@@ -58,7 +58,6 @@ export default class MusicComponent implements OnInit {
   loadRandomCds(): void {
     this.http.get<{ cds: CD[] }>('assets/music/albums/cds.json').subscribe({
       next: (data) => {
-        console.log(data.cds);
         this.randomCd = data.cds[Math.floor(Math.random() * data.cds.length)];
       },
       error: (err) => {
