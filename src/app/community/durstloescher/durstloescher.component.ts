@@ -46,7 +46,7 @@ export default class DurstloescherComponent implements OnInit {
           if (ratingData) {
             durstloescher.rating = ratingData.ratings;
           } else {
-            durstloescher.rating = [0,0,0,0,0];
+            durstloescher.rating = [0,0,0,0,0,0];
           }
           return durstloescher;
         });

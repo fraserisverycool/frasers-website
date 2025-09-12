@@ -60,7 +60,7 @@ export default class AlbumsComponent implements OnInit {
           if (ratingData) {
             album.rating = ratingData.ratings;
           } else {
-            album.rating = [0,0,0,0,0];
+            album.rating = [0,0,0,0,0,0];
           }
           return album;
         });

@@ -87,7 +87,7 @@ export default class MariokartComponent implements OnInit{
           if (ratingData) {
             track.rating = ratingData.ratings;
           } else {
-            track.rating = [0,0,0,0,0];
+            track.rating = [0,0,0,0,0,0];
           }
           return track;
         });

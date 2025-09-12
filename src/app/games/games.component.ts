@@ -101,7 +101,7 @@ export default class GamesComponent implements OnInit {
           if (ratingData) {
             game.rating = ratingData.ratings;
           } else {
-            game.rating = [0,0,0,0,0];
+            game.rating = [0,0,0,0,0,0];
           }
           return game;
         });

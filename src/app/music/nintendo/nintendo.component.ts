@@ -67,7 +67,7 @@ export default class NintendoComponent implements OnInit {
           if (ratingData) {
             soundtrack.rating = ratingData.ratings;
           } else {
-            soundtrack.rating = [0,0,0,0,0];
+            soundtrack.rating = [0,0,0,0,0,0];
           }
           return soundtrack;
         });

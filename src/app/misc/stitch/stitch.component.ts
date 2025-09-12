@@ -47,7 +47,7 @@ export default class StitchComponent implements OnInit {
           if (ratingData) {
             stitch.rating = ratingData.ratings;
           } else {
-            stitch.rating = [0,0,0,0,0];
+            stitch.rating = [0,0,0,0,0,0];
           }
           return stitch;
         });

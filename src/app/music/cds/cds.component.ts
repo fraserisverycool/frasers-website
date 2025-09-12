@@ -65,7 +65,7 @@ export default class CdsComponent implements OnInit {
           if (ratingData) {
             cd.rating = ratingData.ratings;
           } else {
-            cd.rating = [0,0,0,0,0];
+            cd.rating = [0,0,0,0,0,0];
           }
           return cd;
         });

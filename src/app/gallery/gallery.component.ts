@@ -38,7 +38,7 @@ export default class GalleryComponent implements OnInit {
           if (ratingData) {
             photo.rating = ratingData.ratings;
           } else {
-            photo.rating = [0,0,0,0,0];
+            photo.rating = [0,0,0,0,0,0];
           }
           return photo;
         });

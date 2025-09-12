@@ -51,7 +51,7 @@ export default class MixesComponent implements OnInit {
           if (ratingData) {
             mp3File.rating = ratingData.ratings;
           } else {
-            mp3File.rating = [0,0,0,0,0];
+            mp3File.rating = [0,0,0,0,0,0];
           }
           return mp3File;
         });

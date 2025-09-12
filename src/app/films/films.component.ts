@@ -49,7 +49,7 @@ export default class FilmsComponent implements OnInit {
           if (ratingData) {
             film.rating = ratingData.ratings;
           } else {
-            film.rating = [0,0,0,0,0];
+            film.rating = [0,0,0,0,0,0];
           }
           return film;
         });

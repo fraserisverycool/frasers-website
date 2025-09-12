@@ -13,10 +13,10 @@ import {Rating} from "./service/rating.interface";
 export class RatingBarComponent {
   @Input() rating: Rating = {
     id: '',
-    ratings: [0,0,0,0,0]
+    ratings: [0,0,0,0,0,0]
   }
-  filenames: string[] = ['reaction-wet.png', 'reaction-poo.png', 'reaction-hurr.png', 'reaction-peace.png', 'reaction-science.png'];
-  colors: string[] = ['#d5006c', '#fe6b06', '#38a105', '#0291ff', '#912efc'];
+  filenames: string[] = ['reaction-wet.png', 'reaction-poo.png', 'reaction-hurr.png', 'reaction-peace.png', 'reaction-cool.png', 'reaction-science.png'];
+  colors: string[] = ['#d5006c', '#7e4b1e', '#38a105', '#ff8900', '#0090ff', '#912efc'];
 
   constructor(private ratingService: RatingService) {
   }

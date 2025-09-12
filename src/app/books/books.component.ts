@@ -42,7 +42,7 @@ export default class BooksComponent implements OnInit {
           if (ratingData) {
             books.rating = ratingData.ratings;
           } else {
-            books.rating = [0,0,0,0,0];
+            books.rating = [0,0,0,0,0,0];
           }
           return books;
         });

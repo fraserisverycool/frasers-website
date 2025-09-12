@@ -1,7 +1,7 @@
 <div class="rating-bar">
   <button (click)="onSelect(0)" class="button">
     <img [ngSrc]="'assets/utils/reaction-wet.png'"
-         [alt]="filenames[0]"
+         [alt]="'wet for her'"
          width="35"
          height="35"
          class="circle">
@@ -12,7 +12,7 @@
   </button>
   <button (click)="onSelect(1)" class="button">
     <img [ngSrc]="'assets/utils/reaction-poo.png'"
-         [alt]="filenames[1]"
+         [alt]="'poop poop fart'"
          width="35"
          height="35"
          class="circle">
@@ -23,7 +23,7 @@
   </button>
   <button (click)="onSelect(2)" class="button">
     <img [ngSrc]="'assets/utils/reaction-hurr.png'"
-         [alt]="filenames[2]"
+         [alt]="'hurr hurr'"
          width="35"
          height="35"
          class="circle">
@@ -34,24 +34,35 @@
   </button>
   <button (click)="onSelect(3)" class="button">
     <img [ngSrc]="'assets/utils/reaction-peace.png'"
-         [alt]="filenames[3]"
+         [alt]="'useful'"
          width="35"
          height="35"
          class="circle">
     <span class="count">
       {{ (rating && rating.ratings) ? rating.ratings[3] : 0 }}
     </span>
-    <div class="hover-text" [ngStyle]="{'color': colors[3]}">imagine world peace</div>
+    <div class="hover-text" [ngStyle]="{'color': colors[3]}">useful!</div>
   </button>
   <button (click)="onSelect(4)" class="button">
-    <img [ngSrc]="'assets/utils/reaction-science.png'"
-         [alt]="filenames[4]"
+    <img [ngSrc]="'assets/utils/reaction-cool.png'"
+         [alt]="'cool'"
          width="35"
          height="35"
          class="circle">
     <span class="count">
       {{ (rating && rating.ratings) ? rating.ratings[4] : 0 }}
     </span>
-    <div class="hover-text" [ngStyle]="{'color': colors[4]}">science</div>
+    <div class="hover-text" [ngStyle]="{'color': colors[3]}">cool</div>
+  </button>
+  <button (click)="onSelect(5)" class="button">
+    <img [ngSrc]="'assets/utils/reaction-science.png'"
+         [alt]="'science'"
+         width="35"
+         height="35"
+         class="circle">
+    <span class="count">
+      {{ (rating && rating.ratings) ? rating.ratings[5] : 0 }}
+    </span>
+    <div class="hover-text" [ngStyle]="{'color': colors[5]}">science</div>
   </button>
 </div>

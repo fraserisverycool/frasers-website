@@ -51,7 +51,7 @@ export default class KkComponent implements OnInit {
           if (ratingData) {
             kkSong.rating = ratingData.ratings;
           } else {
-            kkSong.rating = [0,0,0,0,0];
+            kkSong.rating = [0,0,0,0,0,0];
           }
           return kkSong;
         });

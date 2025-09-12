@@ -47,7 +47,7 @@ export default class CharactersComponent implements OnInit {
           if (ratingData) {
             character.rating = ratingData.ratings;
           } else {
-            character.rating = [0,0,0,0,0];
+            character.rating = [0,0,0,0,0,0];
           }
           return character;
         });

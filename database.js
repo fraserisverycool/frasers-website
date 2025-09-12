@@ -164,8 +164,8 @@ app.post('/api/ratings', async (req, res) => {
 
 app.put('/api/ratings/:id', async (req, res) => {
   const { id } = req.params;
-  const { ratings } = req.body; // Destructure directly from req.body
-  const stringifiedRatings = JSON.stringify(ratings); // Stringify ratings for storage
+  const { ratings } = req.body;
+  const stringifiedRatings = JSON.stringify(ratings);
   try {
     const [rating, created] = await Rating.findOrCreate({
       where: { id },
