@@ -11,6 +11,8 @@
         {{book.showSpoiler ? 'Hide Spoiler Discussion' : 'Display Spoiler Discussion'}}
       </button>
       <p *ngIf="book.showSpoiler">{{book.spoiler}}</p>
+      <div [ngStyle]="{'padding-bottom': '25px'}"></div>
+      <app-rating-bar [rating]="{id: book.id, ratings: book.rating}"></app-rating-bar>
     </div>
   </div>
 </div>

@@ -5,6 +5,7 @@ import StarMessageComponent from "../../utils/star-message/star-message.componen
 import {ClickedOutsideDirective} from "../../utils/directives/clicked-outside.directive";
 import {Durstloescher} from "./durstloescher.interface";
 import {DurstloescherModalComponent} from "./durstloescher-model/durstloescher-modal.component";
+import {RatingService} from "../../utils/rating-bar/service/rating.service";
 
 @Component({
   selector: 'app-durstloescher',
@@ -18,7 +19,7 @@ export default class DurstloescherComponent implements OnInit {
   originalDurstloescher: Durstloescher[] = [];
   selectedDurstloescher: Durstloescher | null = null;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadDurstloescher();
@@ -28,12 +29,28 @@ export default class DurstloescherComponent implements OnInit {
     this.http.get<{ durstloescher: Durstloescher[] }>('assets/community/durstloescher/durstloescher.json').subscribe({
       next: (data) => {
         this.originalDurstloescher = data.durstloescher;
+        this.getRatings();
         this.sortDurstloescher('post');
       },
       error: (err) => {
         console.error('Failed to load durstloescher:', err);
       },
     });
+  }
+
+  getRatings(): void {
+    this.ratingService.getRatingsById(this.originalDurstloescher.map(durstloescher => durstloescher.id))
+      .subscribe(durstloescherRatings => {
+        this.originalDurstloescher = this.originalDurstloescher.map(durstloescher => {
+          const ratingData = durstloescherRatings.find(rating => rating.id === durstloescher.id);
+          if (ratingData) {
+            durstloescher.rating = ratingData.ratings;
+          } else {
+            durstloescher.rating = [0,0,0,0,0];
+          }
+          return durstloescher;
+        });
+      });
   }
 
   showDescription(durstloescher: Durstloescher): void {

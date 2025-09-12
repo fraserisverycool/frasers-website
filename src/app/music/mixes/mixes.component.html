@@ -14,6 +14,7 @@
           <span class="file-icon">🎧</span>
           Download {{ mp3.filename }}
         </a>
+        <app-rating-bar [rating]="{id: mp3.id, ratings: mp3.rating}"></app-rating-bar>
       </div>
     </li>
   </ul>

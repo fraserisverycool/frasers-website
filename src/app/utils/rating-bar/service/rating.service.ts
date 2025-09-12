@@ -18,6 +18,6 @@ export class RatingService {
   }
 
   updateRating(rating: Rating): void {
-    this.http.put(`${this.apiUrl}/ratings/${rating.id}`, rating.ratings).subscribe()
+    this.http.put(`${this.apiUrl}/ratings/${rating.id}`, {ratings: rating.ratings}).subscribe()
   }
 }

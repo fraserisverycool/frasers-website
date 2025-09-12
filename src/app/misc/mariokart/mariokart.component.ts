@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {HttpClient} from "@angular/common/http";
+import {RatingService} from "../../utils/rating-bar/service/rating.service";
+import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 
 interface Track {
   trackId: number;
@@ -22,7 +24,7 @@ interface Track {
 @Component({
   selector: 'app-mariokart',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage],
+  imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
   templateUrl: './mariokart.component.html',
   styleUrls: ['./mariokart.component.css']
 })
@@ -57,7 +59,7 @@ export default class MariokartComponent implements OnInit{
 
   pageDescription = "Welcome to my ranking of every Mario Kart track ever. This is an exhaustive list featuring everything because I love it when lists are complete. What's that, I hear you say? Mario Kart Tour and Mario Kart Arcade GP aren't represented? Fuck you! Those aren't real games. If it means that Piranha Plant Pipeline gets forgotten to history, so be it! A quick note about these rankings, you might notice that the order doesn't correspond with the number of stars I give to each track. That's fine. These rankings come from the heart, and won't necessarily follow the rules. You've been warned!"
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadTracks();
@@ -67,6 +69,7 @@ export default class MariokartComponent implements OnInit{
     this.http.get<{ tracks: Track[] }>('assets/misc/mariokart/mariokart.json').subscribe({
       next: (data) => {
         this.originalTracks = data.tracks;
+        this.getRatings();
         this.calculateNextAndPreviousTracks();
         this.filterTracks('world');
       },
@@ -74,6 +77,21 @@ export default class MariokartComponent implements OnInit{
         console.error('Failed to load tracks:', err);
       },
     });
+  }
+
+  getRatings(): void {
+    this.ratingService.getRatingsById(this.tracks.map(track => track.id))
+      .subscribe(trackRatings => {
+        this.tracks = this.tracks.map(track => {
+          const ratingData = trackRatings.find(rating => rating.id === track.id);
+          if (ratingData) {
+            track.rating = ratingData.ratings;
+          } else {
+            track.rating = [0,0,0,0,0];
+          }
+          return track;
+        });
+      });
   }
 
   orderUnchanged = (): number => {

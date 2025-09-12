@@ -6,7 +6,7 @@
          height="35"
          class="circle">
     <span class="count">
-      {{ rating?.ratings[0] || 0 }}
+      {{ (rating && rating.ratings) ? rating.ratings[0] : 0 }}
     </span>
     <div class="hover-text" [ngStyle]="{'color': colors[0]}">wet for her</div>
   </button>
@@ -17,7 +17,7 @@
          height="35"
          class="circle">
     <span class="count">
-      {{ rating?.ratings[1] || 0 }}
+      {{ (rating && rating.ratings) ? rating.ratings[1] : 0 }}
     </span>
     <div class="hover-text" [ngStyle]="{'color': colors[1]}">poop poop fart</div>
   </button>
@@ -28,7 +28,7 @@
          height="35"
          class="circle">
     <span class="count">
-      {{ rating?.ratings[2] || 0 }}
+      {{ (rating && rating.ratings) ? rating.ratings[2] : 0 }}
     </span>
     <div class="hover-text" [ngStyle]="{'color': colors[2]}">hurr hurr</div>
   </button>
@@ -39,7 +39,7 @@
          height="35"
          class="circle">
     <span class="count">
-      {{ rating?.ratings[3] || 0 }}
+      {{ (rating && rating.ratings) ? rating.ratings[3] : 0 }}
     </span>
     <div class="hover-text" [ngStyle]="{'color': colors[3]}">imagine world peace</div>
   </button>
@@ -50,8 +50,8 @@
          height="35"
          class="circle">
     <span class="count">
-      {{ rating?.ratings[4] || 0 }}
+      {{ (rating && rating.ratings) ? rating.ratings[4] : 0 }}
     </span>
-    <div class="hover-text" [ngStyle]="{'color': colors[4]}">science!</div>
+    <div class="hover-text" [ngStyle]="{'color': colors[4]}">science</div>
   </button>
 </div>

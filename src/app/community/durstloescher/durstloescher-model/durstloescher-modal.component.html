@@ -10,5 +10,7 @@
         [description]="selectedDurstloescher.fraserdescription">
       </app-star-message>
     </div>
+    <div [ngStyle]="{'padding-bottom': '30px'}"></div>
+    <app-rating-bar [rating]="{id: selectedDurstloescher.id, ratings: selectedDurstloescher.rating}"></app-rating-bar>
   </div>
 </div>

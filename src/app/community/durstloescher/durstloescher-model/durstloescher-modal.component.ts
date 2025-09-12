@@ -3,11 +3,12 @@ import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import StarMessageComponent from "../../../utils/star-message/star-message.component";
 import {Durstloescher} from "../durstloescher.interface";
+import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 
 @Component({
   selector: 'app-durstloescher-modal',
   standalone: true,
-    imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, StarMessageComponent],
+    imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, StarMessageComponent, RatingBarComponent],
   templateUrl: './durstloescher-modal.component.html',
   styleUrls: ['./durstloescher-modal.component.css']
 })

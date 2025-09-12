@@ -2,11 +2,12 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {Soundtrack} from "../soundtrack.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
+import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 
 @Component({
   selector: 'app-soundtrack-modal',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective],
+  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent],
   templateUrl: './soundtrack-modal.component.html',
   styleUrls: ['./soundtrack-modal.component.css']
 })

@@ -64,6 +64,8 @@ export default class CdsComponent implements OnInit {
           const ratingData = cdRatings.find(rating => rating.id === cd.id);
           if (ratingData) {
             cd.rating = ratingData.ratings;
+          } else {
+            cd.rating = [0,0,0,0,0];
           }
           return cd;
         });

@@ -51,5 +51,7 @@
       <p>{{ decoration.description }} </p>
     </div>
   </div>
+  <div [ngStyle]="{'padding-bottom': '15px'}"></div>
+  <app-rating-bar [rating]="{id: selectedCharacter.id, ratings: selectedCharacter.rating}"></app-rating-bar>
 
 </div>

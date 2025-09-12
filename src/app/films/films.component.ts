@@ -5,6 +5,7 @@ import {Router, RouterLink, RouterOutlet} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {Film} from "./film.interface";
 import {FilmComponent} from "./film/film.component";
+import {RatingService} from "../utils/rating-bar/service/rating.service";
 
 @Component({
   selector: 'app-films',
@@ -20,7 +21,7 @@ export default class FilmsComponent implements OnInit {
   filters = ["all", "2025", "2024", "2023", "random", "alphabetical", "release", "next"];
   searchTerm: string = '';
 
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private http: HttpClient, private router: Router, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadFilms();
@@ -30,6 +31,7 @@ export default class FilmsComponent implements OnInit {
     this.http.get<{ films: Film[] }>('assets/films/films.json').subscribe({
       next: (data) => {
         this.originalFilms = data.films;
+        this.getRatings();
         this.sortFilms('all');
 
       },
@@ -37,6 +39,21 @@ export default class FilmsComponent implements OnInit {
         console.error('Failed to load films:', err);
       },
     });
+  }
+
+  getRatings(): void {
+    this.ratingService.getRatingsById(this.originalFilms.map(film => film.id))
+      .subscribe(filmRatings => {
+        this.originalFilms = this.originalFilms.map(film => {
+          const ratingData = filmRatings.find(rating => rating.id === film.id);
+          if (ratingData) {
+            film.rating = ratingData.ratings;
+          } else {
+            film.rating = [0,0,0,0,0];
+          }
+          return film;
+        });
+      });
   }
 
   get filteredFilms(): Film[] {

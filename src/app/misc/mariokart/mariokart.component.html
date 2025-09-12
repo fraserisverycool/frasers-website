@@ -61,6 +61,8 @@
           Next <span>&#8594;</span>
         </button>
       </div>
+      <div [ngStyle]="{'padding-bottom': '25px'}"></div>
+      <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
     </div>
   </div>
 </div>

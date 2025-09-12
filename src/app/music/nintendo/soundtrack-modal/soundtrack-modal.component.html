@@ -11,5 +11,6 @@
     <ul class="top-tracks">
       <li *ngFor="let track of selectedSoundtrack.topTracks" [style.background-color]="currentRandomColor">{{ track }}</li>
     </ul>
+    <app-rating-bar [rating]="{id: selectedSoundtrack.id, ratings: selectedSoundtrack.rating}"></app-rating-bar>
   </div>
 </div>

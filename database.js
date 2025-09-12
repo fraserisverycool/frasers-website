@@ -57,11 +57,11 @@ const HomepageColor = sequelize.define('HomepageColor', {
 
 const Rating = sequelize.define('rating', {
   id: {
-    type: Sequelize.STRING,
+    type: DataTypes.STRING,
     primaryKey: true
   },
   ratings: {
-    type: Sequelize.ARRAY(Sequelize.INTEGER)
+    type: DataTypes.STRING,
   }
 });
 
@@ -150,33 +150,33 @@ app.post('/api/ratings', async (req, res) => {
         id: ids
       }
     });
-    res.json(ratings);
+
+    const parsedRatings = ratings.map(rating => ({
+      id: rating.id,
+      ratings: JSON.parse(rating.ratings)
+    }));
+
+    res.json(parsedRatings);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
 
 app.put('/api/ratings/:id', async (req, res) => {
-  const { ratings } = req.body;
-
+  const { id } = req.params;
+  const { ratings } = req.body; // Destructure directly from req.body
+  const stringifiedRatings = JSON.stringify(ratings); // Stringify ratings for storage
   try {
-    const number_of_updated_rows = await Rating.update(
-      {
-        ratings,
-      },
-      {
-        where: {
-          id: req.params.id,
-        },
-      }
-    );
-
-    if (number_of_updated_rows[0] === 0) {
-      return res.status(404).json({ error: "Rating not found" });
+    const [rating, created] = await Rating.findOrCreate({
+      where: { id },
+      defaults: { ratings: stringifiedRatings }
+    });
+    if (!created) {
+      await rating.update({ ratings: stringifiedRatings });
     }
-
-    res.status(204).send(); // If no content is to be sent back
+    res.status(204).send();
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: err.message });
   }
 });

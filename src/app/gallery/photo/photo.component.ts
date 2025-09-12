@@ -2,11 +2,12 @@ import {Component, Input} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {FormsModule} from "@angular/forms";
 import {Photo} from "../photo.interface";
+import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 
 @Component({
   selector: 'app-photo',
   standalone: true,
-  imports: [CommonModule, FormsModule, NgOptimizedImage],
+    imports: [CommonModule, FormsModule, NgOptimizedImage, RatingBarComponent],
   templateUrl: './photo.component.html',
   styleUrls: ['./photo.component.css']
 })

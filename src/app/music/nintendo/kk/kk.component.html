@@ -93,5 +93,6 @@
     <h2>{{ selectedKkSong.title }}</h2>
     <p>{{ selectedKkSong.description }}</p>
     <img [ngSrc]="'assets/music/nintendo/kk/' + selectedKkSong.filename" [alt]="selectedKkSong.title" class="modal-image" width="600" height="600">
+    <app-rating-bar [rating]="{id: selectedKkSong.id, ratings: selectedKkSong.rating}"></app-rating-bar>
   </div>
 </div>

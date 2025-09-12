@@ -6,6 +6,7 @@ import {FormsModule} from '@angular/forms';
 import {Soundtrack} from "./soundtrack.interface";
 import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
 import {SoundtrackModalComponent} from "./soundtrack-modal/soundtrack-modal.component";
+import {RatingService} from "../../utils/rating-bar/service/rating.service";
 
 const platformOrder = [
   "NES",
@@ -39,7 +40,7 @@ export default class NintendoComponent implements OnInit {
     return acc;
   }, {} as Record<string, number>);
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadSoundtracks();
@@ -49,12 +50,28 @@ export default class NintendoComponent implements OnInit {
     this.http.get<{ soundtracks: Soundtrack[] }>('assets/music/nintendo/soundtracks.json').subscribe({
       next: (data) => {
         this.originalSoundtracks = data.soundtracks;
+        this.getRatings();
         this.sortSoundtracks('release');
       },
       error: (err) => {
         console.error('Failed to load soundtracks:', err);
       },
     });
+  }
+
+  getRatings(): void {
+    this.ratingService.getRatingsById(this.originalSoundtracks.map(soundtrack => soundtrack.id))
+      .subscribe(soundtrackRatings => {
+        this.originalSoundtracks = this.originalSoundtracks.map(soundtrack => {
+          const ratingData = soundtrackRatings.find(rating => rating.id === soundtrack.id);
+          if (ratingData) {
+            soundtrack.rating = ratingData.ratings;
+          } else {
+            soundtrack.rating = [0,0,0,0,0];
+          }
+          return soundtrack;
+        });
+      });
   }
 
   get filteredSoundtracks(): Soundtrack[] {

@@ -15,4 +15,6 @@
     <p [innerHTML]="paragraph"></p>
   </div>
   <img [ngSrc]="'assets/games/' + game.image" alt="{{ game.name }}" width="600" height="400">
+  <div [ngStyle]="{'padding-bottom': '10px'}"></div>
+  <app-rating-bar [rating]="{id: game.id, ratings: game.rating}"></app-rating-bar>
 </div>

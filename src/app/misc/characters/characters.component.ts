@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import {Character} from "./character.interface";
 import {CharacterComponent} from "./character/character.component";
+import {RatingService} from "../../utils/rating-bar/service/rating.service";
 
 @Component({
   selector: 'app-characters',
@@ -18,7 +19,7 @@ export default class CharactersComponent implements OnInit {
   password: string = '';
   pictureMode: number = 0;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadCharacters();
@@ -28,6 +29,7 @@ export default class CharactersComponent implements OnInit {
     this.http.get<{ characters: Character[] }>('assets/misc/characters/characters.json').subscribe({
       next: (data) => {
         this.characters = data.characters;
+        this.getRatings();
         this.calculateColors();
         this.reorderDecorations();
       },
@@ -35,6 +37,21 @@ export default class CharactersComponent implements OnInit {
         console.error('Failed to load characters:', err);
       },
     });
+  }
+
+  getRatings(): void {
+    this.ratingService.getRatingsById(this.characters.map(character => character.id))
+      .subscribe(characterRatings => {
+        this.characters = this.characters.map(character => {
+          const ratingData = characterRatings.find(rating => rating.id === character.id);
+          if (ratingData) {
+            character.rating = ratingData.ratings;
+          } else {
+            character.rating = [0,0,0,0,0];
+          }
+          return character;
+        });
+      });
   }
 
   selectCharacter(character: Character): void {

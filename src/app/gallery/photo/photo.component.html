@@ -19,7 +19,8 @@
       <p>{{ photo.description }}</p>
     </div>
   </div>
-  <p class="date">{{ photo.month }}</p>
+  <p class="date" [ngStyle]="{'padding-bottom': '10px'}">{{ photo.month }}</p>
+  <app-rating-bar [rating]="{id: photo.id, ratings: photo.rating}"></app-rating-bar>
 </div>
 
 <div *ngIf="modalImage" class="modal" (click)="closeModal()">

@@ -7,6 +7,7 @@ import {Router, RouterLink, RouterOutlet} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {Game} from "./game.interface";
 import {GameComponent} from "./game/game.component";
+import {RatingService} from "../utils/rating-bar/service/rating.service";
 
 @Component({
   selector: 'app-games',
@@ -56,7 +57,7 @@ export default class GamesComponent implements OnInit {
     return acc;
   }, {} as Record<string, number>);
 
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private http: HttpClient, private router: Router, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadGames();
@@ -86,9 +87,25 @@ export default class GamesComponent implements OnInit {
     ).subscribe(
       (parsedGames) => {
         this.originalGames = parsedGames;
+        this.getRatings();
         this.sortGames('all');
       }
     );
+  }
+
+  getRatings(): void {
+    this.ratingService.getRatingsById(this.originalGames.map(game => game.id))
+      .subscribe(gameRatings => {
+        this.originalGames = this.originalGames.map(game => {
+          const ratingData = gameRatings.find(rating => rating.id === game.id);
+          if (ratingData) {
+            game.rating = ratingData.ratings;
+          } else {
+            game.rating = [0,0,0,0,0];
+          }
+          return game;
+        });
+      });
   }
 
   get filteredGames(): Game[] {

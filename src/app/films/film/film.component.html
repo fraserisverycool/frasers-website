@@ -6,4 +6,6 @@
   </p>
   <p>{{ film.description }}</p>
   <img [ngSrc]="'assets/films/' + film.filename" width="600" height="400">
+  <div [ngStyle]="{'padding-bottom': '10px'}"></div>
+  <app-rating-bar [rating]="{id: film.id, ratings: film.rating}"></app-rating-bar>
 </div>

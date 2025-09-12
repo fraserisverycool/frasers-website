@@ -8,7 +8,8 @@
         width="600"
         height="400"
       >
-      <p>{{ stitch.comment }}</p>
+      <p [ngStyle]="{'padding-bottom': '15px'}">{{ stitch.comment }}</p>
+      <app-rating-bar [rating]="{id: stitch.id, ratings: stitch.rating}" class="rating"></app-rating-bar>
     </div>
   </div>
 </div>

@@ -2,11 +2,12 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {Character, Decoration} from "../character.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
+import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 
 @Component({
   selector: 'app-character',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective],
+  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent],
   templateUrl: './character.component.html',
   styleUrls: ['./character.component.css']
 })
