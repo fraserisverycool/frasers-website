@@ -11,4 +11,5 @@ export interface Game {
   score: number;
   rating: number[];
   id: string;
+  newsletter: boolean;
 }

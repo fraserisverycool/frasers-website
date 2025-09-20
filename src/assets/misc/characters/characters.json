@@ -17,36 +17,43 @@
         {
           "filename": "mario1.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Nice poster that Franz got for me"
         },
         {
           "filename": "mario2.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Beautiful kinky Mario that Sam painted for me!! I cherish this so much"
         },
         {
           "filename": "mario3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "Mario features in this cool 3D image"
         },
         {
           "filename": "mario4.jpg",
           "order": 4,
+          "newsletter": true,
           "description": "A fridge magnet"
         },
         {
           "filename": "mario5.jpg",
           "order": 5,
+          "newsletter": true,
           "description": "A weird Amiibo"
         },
         {
           "filename": "mario6.jpg",
           "order": 6,
+          "newsletter": true,
           "description": "A plain sticker I found"
         },
         {
           "filename": "mario7.jpg",
           "order": 7,
+          "newsletter": true,
           "description": "Some other sticker I found"
         }
       ],
@@ -69,36 +76,43 @@
         {
           "filename": "dk1.jpg",
           "order": 4,
+          "newsletter": true,
           "description": "A picture drawn onto a goodbye card"
         },
         {
           "filename": "dk2.jpg",
           "order": 5,
+          "newsletter": true,
           "description": "A fun figurine I have"
         },
         {
           "filename": "dk3.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I painted this inspired by DKC Returns' silhouette levels"
         },
         {
           "filename": "dk4.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Tropical Freeze took it further with the green version"
         },
         {
           "filename": "dk5.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "And this is of course Amiss Abyss"
         },
         {
           "filename": "dk6.jpg",
           "order": 6,
+          "newsletter": true,
           "description": "Amiibo, has spent some time in the aquarium so is dirty"
         },
         {
           "filename": "dk7.jpg",
           "order": 7,
+          "newsletter": true,
           "description": "A silly plate I made at the Paint Your Style shop"
         }
       ],
@@ -121,81 +135,97 @@
         {
           "filename": "link1.jpg",
           "order": 7,
+          "newsletter": true,
           "description": "Cool Majora's Mask poster I found at a convention"
         },
         {
           "filename": "link2.jpg",
           "order": 6,
+          "newsletter": true,
           "description": "Cool Link's Awakening poster I found"
         },
         {
           "filename": "link3.jpg",
           "order": 16,
+          "newsletter": true,
           "description": "Nice postcard from an artist I used to follow on Twitter"
         },
         {
           "filename": "link4.jpg",
           "order": 15,
+          "newsletter": true,
           "description": "Nice postcard from an artist I used to follow on Twitter"
         },
         {
           "filename": "link5.jpg",
           "order": 14,
+          "newsletter": true,
           "description": "Nice postcard from an artist I used to follow on Twitter"
         },
         {
           "filename": "link6.jpg",
           "order": 13,
+          "newsletter": true,
           "description": "Nice postcard from an artist I used to follow on Twitter"
         },
         {
           "filename": "link7.jpg",
           "order": 12,
+          "newsletter": true,
           "description": "Nice postcard from an artist I used to follow on Twitter"
         },
         {
           "filename": "link8.jpg",
           "order": 5,
+          "newsletter": true,
           "description": "Cool official Nintendo poster"
         },
         {
           "filename": "link9.jpg",
           "order": 4,
+          "newsletter": true,
           "description": "Nice drawing of Link looking hot in his male gerudo outfit"
         },
         {
           "filename": "link10.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "Cool poster that Ichsan got for me, I loved it so much"
         },
         {
           "filename": "link11.jpg",
           "order": 8,
+          "newsletter": true,
           "description": "The poster that came with the puzzle for this image"
         },
         {
           "filename": "link12.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "A fun breath of the wild thing I found at a convention"
         },
         {
           "filename": "link13.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A beautiful big poster from an artist I used to follow on Patreon (Orioto)"
         },
         {
           "filename": "link14.jpg",
           "order": 9,
+          "newsletter": true,
           "description": "The puzzle itself"
         },
         {
           "filename": "link15.jpg",
           "order": 10,
+          "newsletter": true,
           "description": "The cardboard from the box of the puzzle"
         },
         {
           "filename": "link16.jpg",
           "order": 11,
+          "newsletter": true,
           "description": "A tiny part of the side of the box of the puzzle"
         }
       ],
@@ -218,16 +248,19 @@
         {
           "filename": "samus1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Cool Metroid 2 poster, can't remember where I got it"
         },
         {
           "filename": "samus2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Cool Super Metroid poster"
         },
         {
           "filename": "samus3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "Awesome sticker I got from a nintendo booth at a convention"
         }
       ],
@@ -266,21 +299,25 @@
         {
           "filename": "yoshi1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "An early painting of mine"
         },
         {
           "filename": "yoshi2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "A cool japanese Yoshi's Island box"
         },
         {
           "filename": "yoshi3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "A pink yoshi plush that's a bit worse for wear"
         },
         {
           "filename": "yoshi4.jpg",
           "order": 4,
+          "newsletter": true,
           "description": "A sticker that Marco gave me"
         }
       ],
@@ -303,16 +340,19 @@
         {
           "filename": "kirby1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A painting that I actually made twice because I wasn't satisfied with the first one. I'm honestly still not satisfied with it"
         },
         {
           "filename": "kirby2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "A cute kirby I bought in Mexico"
         },
         {
           "filename": "kirby3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "A cool pin that Jack gave me"
         }
       ],
@@ -351,21 +391,25 @@
         {
           "filename": "pikachu1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Nice poster that Franz got me"
         },
         {
           "filename": "pikachu2.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Arturo made me this sign and it features Pikachus!"
         },
         {
           "filename": "pikachu3.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Very mid poster featuring Pikachu"
         },
         {
           "filename": "pikachu4.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Cute sticker I found"
         }
       ],
@@ -388,16 +432,19 @@
         {
           "filename": "luigi1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A cool poster that Franz got for me"
         },
         {
           "filename": "luigi2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Luigi features on this cool 3D picture"
         },
         {
           "filename": "luigi3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "I found this cool sticker"
         }
       ],
@@ -420,6 +467,7 @@
         {
           "filename": "ness1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I cross-stitched this a million years ago"
         }
       ],
@@ -458,11 +506,13 @@
         {
           "filename": "jigglypuff1.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Cute Amiibo"
         },
         {
           "filename": "jigglypuff2.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Super fun little sticker that Tobias gave me"
         }
       ],
@@ -485,91 +535,109 @@
         {
           "filename": "peach1.jpg",
           "order": 4,
+          "newsletter": true,
           "description": "Cute pic from a convention"
         },
         {
           "filename": "peach2.jpg",
           "order": 5,
+          "newsletter": true,
           "description": "Another cute pic from a convention"
         },
         {
           "filename": "peach3.jpg",
           "order": 7,
+          "newsletter": true,
           "description": "Adorable picture that a friend from the smash community drew for me"
         },
         {
           "filename": "peach4.jpg",
           "order": 10,
+          "newsletter": true,
           "description": "Cursed postcard that Diego made"
         },
         {
           "filename": "peach5.jpg",
           "order": 8,
+          "newsletter": true,
           "description": "An awesome trading card that Bubbly made!"
         },
         {
           "filename": "peach6.jpg",
           "order": 9,
+          "newsletter": true,
           "description": "Cute drawing of Peach having a moment looking at ZSS"
         },
         {
           "filename": "peach7.jpg",
           "order": 11,
+          "newsletter": true,
           "description": "Peach features in this cool 3D image"
         },
         {
           "filename": "peach8.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "This is from the old big smash poster, used as inspiration for the painting in the kitchen"
         },
         {
           "filename": "peach9.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A fun long painting I did! She's SDing"
         },
         {
           "filename": "peach10.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "A cursed Peach toy I found in Mexico"
         },
         {
           "filename": "peach11.jpg",
           "order": 12,
+          "newsletter": true,
           "description": "A cursed lego Peach thing"
         },
         {
           "filename": "peach12.jpg",
           "order": 13,
+          "newsletter": true,
           "description": "A little figurine that I bought as a prize for smash tournaments but kept instead"
         },
         {
           "filename": "peach13.jpg",
           "order": 14,
+          "newsletter": true,
           "description": "A baby peach plush that Diego told me was creepy and shouldn't be on display"
         },
         {
           "filename": "peach14.jpg",
           "order": 15,
+          "newsletter": true,
           "description": "A nintendo sticker I found"
         },
         {
           "filename": "peach15.jpg",
           "order": 16,
+          "newsletter": true,
           "description": "Another cute sticker I found"
         },
         {
           "filename": "peach16.jpg",
           "order": 6,
+          "newsletter": true,
           "description": "Another cute pic from a convention"
         },
         {
           "filename": "peach17.jpg",
           "order": 17,
+          "newsletter": true,
           "description": "Methusa got me this cute mug!"
         },
         {
           "filename": "peach18.jpg",
           "order": 18,
+          "newsletter": true,
           "description": "Symon got me this cute Tellerchen!"
         }
       ],
@@ -592,6 +660,7 @@
         {
           "filename": "daisy1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A figurine I got for prizes for side events for tournaments. She's upside down because she's just that kinda gal. I'm a bit nervous that I superglued her to this lamp and now won't be able to sell it if I have to move"
         }
       ],
@@ -614,16 +683,19 @@
         {
           "filename": "bowser1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A poster made for our TO team back in like 2023"
         },
         {
           "filename": "bowser2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Bowser features in this cool 3d picture"
         },
         {
           "filename": "bowser3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "A nice sticker I found"
         }
       ],
@@ -646,6 +718,7 @@
         {
           "filename": "iceclimbers1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I painted this!"
         }
       ],
@@ -668,11 +741,13 @@
         {
           "filename": "sheik1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Awesome official Nintendo poster"
         },
         {
           "filename": "sheik2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "A poster made for our TO team back in like 2023"
         }
       ],
@@ -695,11 +770,13 @@
         {
           "filename": "zelda1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Awesome official Nintendo poster"
         },
         {
           "filename": "zelda2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Not so cute Amiibo"
         }
       ],
@@ -738,11 +815,13 @@
         {
           "filename": "pichu1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I made this with modelling clay!"
         },
         {
           "filename": "pichu2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "A big keychain I found in Mexico"
         }
       ],
@@ -765,6 +844,7 @@
         {
           "filename": "falco1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A poster made for our TO team back in like 2023"
         }
       ],
@@ -803,6 +883,7 @@
         {
           "filename": "lucina1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I made this with hama beads!"
         }
       ],
@@ -825,6 +906,7 @@
         {
           "filename": "younglink1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Awesome official Nintendo poster"
         }
       ],
@@ -847,6 +929,7 @@
         {
           "filename": "ganon1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Awesome official Nintendo poster"
         }
       ],
@@ -869,16 +952,19 @@
         {
           "filename": "mewtwo1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A cool huge mewtwo card from Friki Plaza in Mexico"
         },
         {
           "filename": "mewtwo2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "The same card from a different angle! It also has Mew"
         },
         {
           "filename": "mewtwo3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "Bit of a weak picture of Mewtwo"
         }
       ],
@@ -901,11 +987,13 @@
         {
           "filename": "roy1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A fun postcard of Roy that I found at a convention"
         },
         {
           "filename": "roy2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "A poster made for our TO team back in like 2023"
         }
       ],
@@ -928,6 +1016,7 @@
         {
           "filename": "chrom1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I made this with hama beads!"
         }
       ],
@@ -950,11 +1039,13 @@
         {
           "filename": "gnw1.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "I just printed this out from the internet because I loved this artist (hungry_clicker)"
         },
         {
           "filename": "gnw2.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A cool old photo of Oberbaumbrücke that I decided to spruce up with this cool sticker of Game and Watch"
         }
       ],
@@ -1025,6 +1116,7 @@
         {
           "filename": "zss1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Super cute drawing of her having a moment with Princess Peach"
         }
       ],
@@ -1047,16 +1139,19 @@
         {
           "filename": "wario1.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "A poster made for our TO team back in like 2023"
         },
         {
           "filename": "wario2.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Cool little figurine I got when I bought a bunch of them as prizes for side events at tournaments"
         },
         {
           "filename": "wario3.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Fun sticker I got from some nintendo thing"
         }
       ],
@@ -1079,6 +1174,7 @@
         {
           "filename": "snake1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I just printed this out because this artist (hungry_clicker) is so great"
         }
       ],
@@ -1117,11 +1213,13 @@
         {
           "filename": "pokemontrainer1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "The weird uncomfortably shaped sudowoodo as a cross stitch. Made it ages ago"
         },
         {
           "filename": "pokemontrainer2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Rosie made this with hama beads and gave it to me (in exchange for something I made)"
         }
       ],
@@ -1144,11 +1242,13 @@
         {
           "filename": "diddy1.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "A poster made for our TO team back in like 2023"
         },
         {
           "filename": "diddy2.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Fun plastic toy I got when I bought some figurines for side event prizes at tournaments"
         }
       ],
@@ -1171,6 +1271,7 @@
         {
           "filename": "lucas1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Beautiful poster that I ordered online"
         }
       ],
@@ -1193,6 +1294,7 @@
         {
           "filename": "sonic1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Painting I did as an homage to this really hard-to-understand part of Sonic 3"
         }
       ],
@@ -1215,6 +1317,7 @@
         {
           "filename": "dedede1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Dedede features on this cute leaflet"
         }
       ],
@@ -1237,31 +1340,37 @@
         {
           "filename": "olimar1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Beautiful big poster that I bought online from an artist (Orioto) I used to support on Patreon"
         },
         {
           "filename": "olimar2.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "Cool merch from the nintendo store that Marco told me about"
         },
         {
           "filename": "olimar3.jpg",
           "order": 4,
+          "newsletter": true,
           "description": "Cute Amiibo"
         },
         {
           "filename": "olimar4.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Hidden paintings! Also some of my very first paintings"
         },
         {
           "filename": "olimar5.jpg",
           "order": 5,
+          "newsletter": true,
           "description": "Cute sticker"
         },
         {
           "filename": "olimar6.jpg",
           "order": 6,
+          "newsletter": true,
           "description": "Another cute sticker"
         }
       ],
@@ -1284,11 +1393,13 @@
         {
           "filename": "lucario1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Fun picture of rainbow gay lucario that I found at a convention"
         },
         {
           "filename": "lucario2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Very mid picture featuring Lucario"
         }
       ],
@@ -1311,11 +1422,13 @@
         {
           "filename": "rob1.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Cute doodle on a goodbye card"
         },
         {
           "filename": "rob2.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Really cool photo of Ostbahnhof that I decided to alter by putting this sticker of ROB on it"
         }
       ],
@@ -1338,16 +1451,19 @@
         {
           "filename": "toonlink1.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "Cool postcard from an artist I like"
         },
         {
           "filename": "toonlink2.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I painted this because I loved the feature in the Wii U version so much. So funny"
         },
         {
           "filename": "toonlink3.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Awesome depiction of the legend from Wind Waker that I got at a convention"
         }
       ],
@@ -1370,6 +1486,7 @@
         {
           "filename": "wolf1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Great little sticker from this sticker pack that Sirius got me"
         }
       ],
@@ -1392,6 +1509,7 @@
         {
           "filename": "villager1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "This was my character in animal crossing for a long time. I followed a youtube tutorial to see how it would be"
         }
       ],
@@ -1414,6 +1532,7 @@
         {
           "filename": "megaman1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I made this with hama beads!"
         }
       ],
@@ -1436,16 +1555,19 @@
         {
           "filename": "wiifit1.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Cute picture that Pomi doodled in a goodbye card"
         },
         {
           "filename": "wiifit2.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "The first Amiibo I ever got!"
         },
         {
           "filename": "wiifit3.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "People don't see this painting I made because they have to look up"
         }
       ],
@@ -1468,6 +1590,7 @@
         {
           "filename": "rosalina1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Cute Amiibo"
         }
       ],
@@ -1506,6 +1629,7 @@
         {
           "filename": "greninja1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A fun pokemon card I found in a pack of fake cards from Mexico"
         }
       ],
@@ -1544,6 +1668,7 @@
         {
           "filename": "miiswordfighter1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "This Amiibo is where it should be, drowning in pools"
         }
       ],
@@ -1598,6 +1723,7 @@
         {
           "filename": "pacman1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Cool sticker I found"
         }
       ],
@@ -1620,6 +1746,7 @@
         {
           "filename": "robin1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I made this with hama beads!"
         }
       ],
@@ -1674,31 +1801,37 @@
         {
           "filename": "duckhunt1.jpg",
           "order": 5,
+          "newsletter": true,
           "description": "A poster made for our TO team back in like 2023"
         },
         {
           "filename": "duckhunt2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "My paintings also feature in this fun leaflet"
         },
         {
           "filename": "duckhunt3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "Cool 3D printed duck given to me from Marco"
         },
         {
           "filename": "duckhunt4.jpg",
           "order": 6,
+          "newsletter": true,
           "description": "Cute Amiibo"
         },
         {
           "filename": "duckhunt5.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I was so inspired by SkWiirrel winning a tournament that I painted these on the leftover parts of the kitchen work surface that were cut out for the sink and hob"
         },
         {
           "filename": "duckhunt6.jpg",
           "order": 4,
+          "newsletter": true,
           "description": "I drew this for a top 8 picture for BREXIT SUMMIT"
         }
       ],
@@ -1721,6 +1854,7 @@
         {
           "filename": "ryu1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "This is a kinda boring poster that I saw in the street in Mexico"
         }
       ],
@@ -1743,6 +1877,7 @@
         {
           "filename": "ken1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "This is a kinda boring poster that I saw in the street in Mexico"
         }
       ],
@@ -1781,6 +1916,7 @@
         {
           "filename": "corrin1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I painted this, it's what she says when she wins. She really has a way with words."
         }
       ],
@@ -1819,6 +1955,7 @@
         {
           "filename": "inkling1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Got this sticker from a nintendo booth at a convention"
         }
       ],
@@ -1841,6 +1978,7 @@
         {
           "filename": "ridley1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Super cool poster that I think Franz got for me"
         }
       ],
@@ -1911,16 +2049,19 @@
         {
           "filename": "isabelle1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I painted this when Isabelle was announced for Smash"
         },
         {
           "filename": "isabelle2.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "Cute Amiibo"
         },
         {
           "filename": "isabelle3.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Cool cushion for the sofa!"
         }
       ],
@@ -1943,6 +2084,7 @@
         {
           "filename": "incineroar1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I got this sticker from a sticker pack that Sirius got me"
         }
       ],
@@ -1965,16 +2107,19 @@
         {
           "filename": "piranhaplant1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "I painted this, nobody ever sees it because they have to look up"
         },
         {
           "filename": "piranhaplant2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "I cross stitched this as soon as Piranha Plant was announced"
         },
         {
           "filename": "piranhaplant3.jpg",
           "order": 3,
+          "newsletter": true,
           "description": "A fun sticker I found from a Nintendo stand at Comic-Con"
         }
       ],
@@ -1997,6 +2142,7 @@
         {
           "filename": "joker1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Bought this at a convention"
         }
       ],
@@ -2019,11 +2165,13 @@
         {
           "filename": "hero1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "A cool sticker from a pack of stickers that Sirius got me"
         },
         {
           "filename": "hero2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Another cool sticker from a pack of stickers that Sirius got me"
         }
       ],
@@ -2062,11 +2210,13 @@
         {
           "filename": "terry1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Bought this online from a cool artist I used to follow on Twitter"
         },
         {
           "filename": "terry2.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Found this in a street market in Mexico. It's stunning!"
         }
       ],
@@ -2105,6 +2255,7 @@
         {
           "filename": "minmin1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Genuinely the best thing I ever painted"
         }
       ],
@@ -2127,6 +2278,7 @@
         {
           "filename": "steve1.jpg",
           "order": 2,
+          "newsletter": true,
           "description": "Stole this from a kid's Minecraft comic book that Veo got for his birthday"
         }
       ],
@@ -2177,7 +2329,14 @@
       "completed": true,
       "understood": true,
       "playedDescription": "I played Tekken Tag Tournament as a child a whole bunch and got really into it.",
-      "deco": [],
+      "deco": [
+        {
+          "filename": "kazuya1.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "Whale got me this as a gift"
+        }
+      ],
       "id": "60516ec7-ac53-4ba6-933e-0c1726fb27c4"
     },
     {
@@ -2197,6 +2356,7 @@
         {
           "filename": "sora1.jpg",
           "order": 1,
+          "newsletter": true,
           "description": "Bought this at a convention"
         }
       ],

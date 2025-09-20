@@ -10,7 +10,8 @@
         "2D Challenge Course 1 (DK Island Swing)",
         "Zebra Bananza"
       ],
-      "id": "7de975de-956f-411e-9499-785d023fec09"
+      "id": "7de975de-956f-411e-9499-785d023fec09",
+      "newsletter": false
     },
     {
       "filename": "super-mario-galaxy-2.png",
@@ -33,7 +34,8 @@
         "Slimy Spring Galaxy",
         "Bowser's Galaxy Generator"
       ],
-      "id": "9b8b09c1-50c2-4851-a36e-7ea8dcd99a48"
+      "id": "9b8b09c1-50c2-4851-a36e-7ea8dcd99a48",
+      "newsletter": false
     },
     {
       "filename": "golden-sun-lost-age.jpg",
@@ -49,7 +51,8 @@
         "Gondowan Settlement",
         "The Lost Age (Ending)"
       ],
-      "id": "b2e0351c-b1c0-4c08-814f-384dd3a85c86"
+      "id": "b2e0351c-b1c0-4c08-814f-384dd3a85c86",
+      "newsletter": true
     },
     {
       "filename": "fire-emblem-awakening.jpg",
@@ -78,7 +81,8 @@
         "Id (Sorrow)",
         "Id (Purpose)"
       ],
-      "id": "b2e0351c-b1c0-4c08-814f-384dd3a85c86"
+      "id": "b2e0351c-b1c0-4c08-814f-384dd3a85c86",
+      "newsletter": true
     },
     {
       "filename": "kirby-air-riders.png",
@@ -90,7 +94,8 @@
         "Steamgust Forge",
         "Mount Amberfalls"
       ],
-      "id": "fcf16469-155a-4633-ba2b-d31435e7bc0e"
+      "id": "fcf16469-155a-4633-ba2b-d31435e7bc0e",
+      "newsletter": true
     },
     {
       "filename": "captain-toad.png",
@@ -102,7 +107,8 @@
         "Plucky Pass Beginnings",
         "Beep Block Sky Plaza"
       ],
-      "id": "a7bc8ac3-a2fc-4c83-a212-7d070c27e7e8"
+      "id": "a7bc8ac3-a2fc-4c83-a212-7d070c27e7e8",
+      "newsletter": true
     },
     {
       "filename": "pilotwings-resort.jpg",
@@ -116,7 +122,8 @@
         "Glider",
         "Staff Credits"
       ],
-      "id": "a63c42ab-8d56-4229-9a29-9b5a831b689e"
+      "id": "a63c42ab-8d56-4229-9a29-9b5a831b689e",
+      "newsletter": true
     },
     {
       "filename": "pilotwings-64.jpg",
@@ -134,7 +141,8 @@
         "Replay",
         "Staff Credits"
       ],
-      "id": "9c4ebd97-ad8f-4d44-9eb5-97b2a16ad875"
+      "id": "9c4ebd97-ad8f-4d44-9eb5-97b2a16ad875",
+      "newsletter": true
     },
     {
       "filename": "pilotwings.jpg",
@@ -150,7 +158,8 @@
         "Helicopter",
         "Ending Theme"
       ],
-      "id": "bed414d4-c505-4a0b-86df-b8a77b5db0b9"
+      "id": "bed414d4-c505-4a0b-86df-b8a77b5db0b9",
+      "newsletter": true
     },
     {
       "filename": "mario-paint.jpg",
@@ -161,7 +170,8 @@
         "Save & Load",
         "Gnat Attack: Level 1"
       ],
-      "id": "f5a9f497-27d9-49e2-a0ed-c53f12176ee4"
+      "id": "f5a9f497-27d9-49e2-a0ed-c53f12176ee4",
+      "newsletter": true
     },
     {
       "filename": "mach-rider.png",
@@ -172,7 +182,8 @@
         "Course BGM 1",
         "Course BGM 2"
       ],
-      "id": "fc39c1a5-e934-44b3-8385-78e9325049e7"
+      "id": "fc39c1a5-e934-44b3-8385-78e9325049e7",
+      "newsletter": true
     },
     {
       "filename": "gyromite.jpg",
@@ -182,7 +193,8 @@
       "topTracks": [
         "Game A BGM"
       ],
-      "id": "2b1ff442-4df5-4ede-94fb-48250606e090"
+      "id": "2b1ff442-4df5-4ede-94fb-48250606e090",
+      "newsletter": true
     },
     {
       "filename": "stack-up.webp",
@@ -192,7 +204,8 @@
       "topTracks": [
         "Bingo BGM"
       ],
-      "id": "68d9fd3e-a894-4a04-aec8-8d6f4e4e4a0b"
+      "id": "68d9fd3e-a894-4a04-aec8-8d6f4e4e4a0b",
+      "newsletter": true
     },
     {
       "filename": "wrecking-crew.jpg",
@@ -202,7 +215,8 @@
       "topTracks": [
         "Bonus Phase"
       ],
-      "id": "b3b3223d-924f-40c6-970f-207f7f069c11"
+      "id": "b3b3223d-924f-40c6-970f-207f7f069c11",
+      "newsletter": true
     },
     {
       "filename": "soccer.jpg",
@@ -212,7 +226,8 @@
       "topTracks": [
         "Halftime"
       ],
-      "id": "cab82278-8f20-4be1-b5f8-ccca062b8193"
+      "id": "cab82278-8f20-4be1-b5f8-ccca062b8193",
+      "newsletter": true
     },
     {
       "filename": "ice-climber.jpg",
@@ -222,7 +237,8 @@
       "topTracks": [
         "Title BGM/Bonus Round"
       ],
-      "id": "20f9c0cf-12fb-4b94-b8c6-0ba3a48bcd59"
+      "id": "20f9c0cf-12fb-4b94-b8c6-0ba3a48bcd59",
+      "newsletter": true
     },
     {
       "filename": "balloon-fight.jpg",
@@ -233,7 +249,8 @@
         "Enemy Floating Down",
         "Balloon Trip"
       ],
-      "id": "df27e730-2c4b-4dd7-902a-a3777b48c947"
+      "id": "df27e730-2c4b-4dd7-902a-a3777b48c947",
+      "newsletter": true
     },
     {
       "filename": "excitebike.jpg",
@@ -243,7 +260,8 @@
       "topTracks": [
         ""
       ],
-      "id": "6c22724f-2f16-43fb-871b-cc8ac23cf443"
+      "id": "6c22724f-2f16-43fb-871b-cc8ac23cf443",
+      "newsletter": true
     },
     {
       "filename": "clu-clu-land.jpg",
@@ -254,7 +272,8 @@
         "Scene BGM",
         "Bonus Round BGM"
       ],
-      "id": "8b1a1b90-9631-4bde-a222-178cd3dbc724"
+      "id": "8b1a1b90-9631-4bde-a222-178cd3dbc724",
+      "newsletter": true
     },
     {
       "filename": "urban-champion.jpg",
@@ -264,7 +283,8 @@
       "topTracks": [
         ""
       ],
-      "id": "db5fe85a-01f2-4b29-aec2-193e9992a6aa"
+      "id": "db5fe85a-01f2-4b29-aec2-193e9992a6aa",
+      "newsletter": true
     },
     {
       "filename": "f1-race.png",
@@ -274,7 +294,8 @@
       "topTracks": [
         ""
       ],
-      "id": "518ccfbf-4d1b-4122-b325-a91f6f543b7f"
+      "id": "518ccfbf-4d1b-4122-b325-a91f6f543b7f",
+      "newsletter": true
     },
     {
       "filename": "devil-world.jpg",
@@ -284,7 +305,8 @@
       "topTracks": [
         ""
       ],
-      "id": "b0f10f8a-3dd3-4888-a4de-0d07b9dce89c"
+      "id": "b0f10f8a-3dd3-4888-a4de-0d07b9dce89c",
+      "newsletter": true
     },
     {
       "filename": "donkey-kong-3.PNG",
@@ -294,7 +316,8 @@
       "topTracks": [
         ""
       ],
-      "id": "51c6e07d-d362-412d-8bb0-bf5a55fc2a60"
+      "id": "51c6e07d-d362-412d-8bb0-bf5a55fc2a60",
+      "newsletter": true
     },
     {
       "filename": "hogans-alley.jpg",
@@ -304,7 +327,8 @@
       "topTracks": [
         "Instruction BGM"
       ],
-      "id": "33d1743e-a260-4156-8cc3-1956f54976ec"
+      "id": "33d1743e-a260-4156-8cc3-1956f54976ec",
+      "newsletter": true
     },
     {
       "filename": "golf.png",
@@ -314,7 +338,8 @@
       "topTracks": [
         ""
       ],
-      "id": "7ef5cd0f-bf7b-4eaa-8804-f31f60a4721b"
+      "id": "7ef5cd0f-bf7b-4eaa-8804-f31f60a4721b",
+      "newsletter": true
     },
     {
       "filename": "duck-hunt.jpg",
@@ -326,7 +351,8 @@
         "Game A/B Start",
         "Clear"
       ],
-      "id": "ed86717b-26b5-4c39-85c7-5daa06c98b76"
+      "id": "ed86717b-26b5-4c39-85c7-5daa06c98b76",
+      "newsletter": true
     },
     {
       "filename": "wild-gunman.png",
@@ -336,7 +362,8 @@
       "topTracks": [
         "Game A/B Start"
       ],
-      "id": "e154fd0d-10f0-47b8-842d-35a120be56ff"
+      "id": "e154fd0d-10f0-47b8-842d-35a120be56ff",
+      "newsletter": true
     },
     {
       "filename": "pinball.PNG",
@@ -346,7 +373,8 @@
       "topTracks": [
         ""
       ],
-      "id": "df87a9ad-ec79-4597-8325-bb92d350ccb6"
+      "id": "df87a9ad-ec79-4597-8325-bb92d350ccb6",
+      "newsletter": true
     },
     {
       "filename": "tennis.jpg",
@@ -356,7 +384,8 @@
       "topTracks": [
         ""
       ],
-      "id": "3f16bfe9-2151-4109-94bb-964dadb2afcc"
+      "id": "3f16bfe9-2151-4109-94bb-964dadb2afcc",
+      "newsletter": true
     },
     {
       "filename": "donkey-kong-jr-math.jpg",
@@ -366,7 +395,8 @@
       "topTracks": [
         ""
       ],
-      "id": "f9ad42da-79c3-42ae-ab62-ba08d9181adb"
+      "id": "f9ad42da-79c3-42ae-ab62-ba08d9181adb",
+      "newsletter": true
     },
     {
       "filename": "baseball.jpg",
@@ -376,7 +406,8 @@
       "topTracks": [
         ""
       ],
-      "id": "78bfa07c-a27b-479e-8139-474b8946fbf8"
+      "id": "78bfa07c-a27b-479e-8139-474b8946fbf8",
+      "newsletter": true
     },
     {
       "filename": "mario-bros.webp",
@@ -386,7 +417,8 @@
       "topTracks": [
         ""
       ],
-      "id": "60be7215-62f7-4671-95d7-1051cb234722"
+      "id": "60be7215-62f7-4671-95d7-1051cb234722",
+      "newsletter": true
     },
     {
       "filename": "gomoku-narabe-renju.jpg",
@@ -396,7 +428,8 @@
       "topTracks": [
         ""
       ],
-      "id": "6e037e73-99a3-4bc0-aa27-1cf4a84e8bc3"
+      "id": "6e037e73-99a3-4bc0-aa27-1cf4a84e8bc3",
+      "newsletter": true
     },
     {
       "filename": "mah-jong.png",
@@ -406,7 +439,8 @@
       "topTracks": [
         ""
       ],
-      "id": "390b4e27-1ad1-4af9-9281-337c129ca222"
+      "id": "390b4e27-1ad1-4af9-9281-337c129ca222",
+      "newsletter": true
     },
     {
       "filename": "donkey-kong-jr.avif",
@@ -416,7 +450,8 @@
       "topTracks": [
         ""
       ],
-      "id": "f4a8f1c6-7d47-4248-825e-f13549002c26"
+      "id": "f4a8f1c6-7d47-4248-825e-f13549002c26",
+      "newsletter": true
     },
     {
       "filename": "donkey-kong.webp",
@@ -426,7 +461,8 @@
       "topTracks": [
         ""
       ],
-      "id": "d0114361-2ab9-4736-b1d8-783b7a50f8da"
+      "id": "d0114361-2ab9-4736-b1d8-783b7a50f8da",
+      "newsletter": true
     },
     {
       "filename": "mario-kart-64.jpg",
@@ -449,7 +485,8 @@
         "Results (1st - 4th Place)",
         "Staff Credits"
       ],
-      "id": "4f880791-de3b-4797-ac42-309338bfd02c"
+      "id": "4f880791-de3b-4797-ac42-309338bfd02c",
+      "newsletter": true
     },
     {
       "filename": "ocarina-of-time-3d.jpg",
@@ -470,7 +507,8 @@
         "Last Battle",
         "End Credits 2"
       ],
-      "id": "a64d3436-0c93-4c6d-9cd4-b801eb444f06"
+      "id": "a64d3436-0c93-4c6d-9cd4-b801eb444f06",
+      "newsletter": true
     },
     {
       "filename": "super-mario-bros-u.jpg",
@@ -484,7 +522,8 @@
         "Lava Theme",
         "Lava Cave/Underground Ruins"
       ],
-      "id": "09d252df-7ac0-4014-9082-aaee47a1422d"
+      "id": "09d252df-7ac0-4014-9082-aaee47a1422d",
+      "newsletter": true
     },
     {
       "filename": "yoshis-story.jpg",
@@ -504,7 +543,8 @@
         "Happiness",
         "Yoshi's Tale"
       ],
-      "id": "72fe4b58-388f-4d7b-9416-16328e995c87"
+      "id": "72fe4b58-388f-4d7b-9416-16328e995c87",
+      "newsletter": true
     },
     {
       "filename": "51-games.jpg",
@@ -514,7 +554,8 @@
       "topTracks": [
         "Opening"
       ],
-      "id": "aa981f57-f420-4e2f-8f9c-50e021e359ac"
+      "id": "aa981f57-f420-4e2f-8f9c-50e021e359ac",
+      "newsletter": true
     },
     {
       "filename": "zelda-totk.jpg",
@@ -581,7 +622,8 @@
         "Tarrey Town (Night)",
         "Riding the Sun Balloon"
       ],
-      "id": "7aba79be-96f7-4195-9902-94199f6f0800"
+      "id": "7aba79be-96f7-4195-9902-94199f6f0800",
+      "newsletter": true
     },
     {
       "filename": "splatoon.jpg",
@@ -595,7 +637,8 @@
         "Tentacular Circus / Turquoise October",
         "I am Octavio / DJ Octavio"
       ],
-      "id": "8bb8a85f-654e-4a8f-9bc6-aec1b6d06496"
+      "id": "8bb8a85f-654e-4a8f-9bc6-aec1b6d06496",
+      "newsletter": true
     },
     {
       "filename": "kid-icarus.png",
@@ -607,7 +650,8 @@
         "Stage 2",
         "Stage 4"
       ],
-      "id": "c3df7215-daa6-452b-856c-e91f9618bfe2"
+      "id": "c3df7215-daa6-452b-856c-e91f9618bfe2",
+      "newsletter": true
     },
     {
       "filename": "pokemon-sword-shield.jpg",
@@ -618,7 +662,8 @@
         "Battle! (Gym Leader)",
         "Battle! (Battle Tower)"
       ],
-      "id": "46b42ee8-d21f-4cc2-965a-842cb2e9f9c1"
+      "id": "46b42ee8-d21f-4cc2-965a-842cb2e9f9c1",
+      "newsletter": true
     },
     {
       "filename": "mario-kart-7.jpg",
@@ -640,7 +685,8 @@
         "DS Airship Fortress",
         "SNES Rainbow Road"
       ],
-      "id": "549f5ed8-d6a2-471b-ad79-2088af2a35c7"
+      "id": "549f5ed8-d6a2-471b-ad79-2088af2a35c7",
+      "newsletter": true
     },
     {
       "filename": "fire-emblem-engage.avif",
@@ -677,7 +723,8 @@
         "Trial of Heroes",
         "Fire Emblem Theme (The Fire Emblem)"
       ],
-      "id": "093958c9-18d9-44f7-a272-344b93773837"
+      "id": "093958c9-18d9-44f7-a272-344b93773837",
+      "newsletter": true
     },
     {
       "filename": "zelda-nes.png",
@@ -688,7 +735,8 @@
         "Game Over",
         "Ending Theme"
       ],
-      "id": "c81dff38-de68-46f1-9851-9d061a1317e7"
+      "id": "c81dff38-de68-46f1-9851-9d061a1317e7",
+      "newsletter": true
     },
     {
       "filename": "luigis-mansion.jpg",
@@ -698,7 +746,8 @@
       "topTracks": [
         "Staff Credits"
       ],
-      "id": "2895a12e-3b07-47b2-aa97-542658fe3611"
+      "id": "2895a12e-3b07-47b2-aa97-542658fe3611",
+      "newsletter": true
     },
     {
       "filename": "f-zero.jpg",
@@ -712,7 +761,8 @@
         "White Land I",
         "Fire Field"
       ],
-      "id": "536047af-d0f0-49c2-a1a6-6d3427d2c804"
+      "id": "536047af-d0f0-49c2-a1a6-6d3427d2c804",
+      "newsletter": true
     },
     {
       "filename": "kirby-forgotten.avif",
@@ -740,7 +790,8 @@
         "Decisive Battle: Ultimate Z",
         "Two Planets Approach the Roche Limit (Chaos Elfilis)"
       ],
-      "id": "c03cb17d-de2b-458f-85ab-38293a86615a"
+      "id": "c03cb17d-de2b-458f-85ab-38293a86615a",
+      "newsletter": true
     },
     {
       "filename": "tetris.jpg",
@@ -752,7 +803,8 @@
         "B-Type",
         "Name Entry"
       ],
-      "id": "33e52da8-417a-4ce1-9e5e-2acd2f0f1c1a"
+      "id": "33e52da8-417a-4ce1-9e5e-2acd2f0f1c1a",
+      "newsletter": true
     },
     {
       "filename": "dr-mario-nes.jpg",
@@ -762,7 +814,8 @@
       "topTracks": [
         ""
       ],
-      "id": "982c9d0b-c1f6-485b-9cfa-edc4ef520aba"
+      "id": "982c9d0b-c1f6-485b-9cfa-edc4ef520aba",
+      "newsletter": true
     },
     {
       "filename": "tetris-nes.jpg",
@@ -772,7 +825,8 @@
       "topTracks": [
         "MUSIC-2"
       ],
-      "id": "c2b39d48-01ae-4f7f-aba4-14a6d257e1a2"
+      "id": "c2b39d48-01ae-4f7f-aba4-14a6d257e1a2",
+      "newsletter": true
     },
     {
       "filename": "super-mario-bros-3.jpg",
@@ -785,7 +839,8 @@
         "World 8 Map (Dark Land)",
         "King of the Koopas"
       ],
-      "id": "7a357d51-a8cb-4e0b-b599-b467c3fd7ea0"
+      "id": "7a357d51-a8cb-4e0b-b599-b467c3fd7ea0",
+      "newsletter": true
     },
     {
       "filename": "zelda-link-to-the-past.jpg",
@@ -802,7 +857,8 @@
         "Dark World",
         "Mountains and Forests of the Dark World"
       ],
-      "id": "da71255b-64d1-405d-aa2f-8d87f5f3af37"
+      "id": "da71255b-64d1-405d-aa2f-8d87f5f3af37",
+      "newsletter": true
     },
     {
       "filename": "super-mario-bros-2.png",
@@ -810,7 +866,8 @@
       "description": "This NES soundtrack is a total skip. I get that the Ground BGM is a classic but that's all it's got and it's not like I want to sit and listen to it",
       "platform": "NES",
       "topTracks": [],
-      "id": "787b9789-4827-4672-91bf-2759ab859777"
+      "id": "787b9789-4827-4672-91bf-2759ab859777",
+      "newsletter": true
     },
     {
       "filename": "streetpass.webp",
@@ -821,7 +878,8 @@
         "Dark Lord",
         "Ultimate Ghost"
       ],
-      "id": "91e253e4-988d-490f-83f6-5d8caa793a18"
+      "id": "91e253e4-988d-490f-83f6-5d8caa793a18",
+      "newsletter": true
     },
     {
       "filename": "golden-sun.jpg",
@@ -832,7 +890,8 @@
         "Village Theme",
         "Sworn Enemies Stand in Your Way"
       ],
-      "id": "cfacf2ed-7c1b-428a-964f-44782c4de095"
+      "id": "cfacf2ed-7c1b-428a-964f-44782c4de095",
+      "newsletter": true
     },
     {
       "filename": "super-mario-world.png",
@@ -843,7 +902,8 @@
         "Castle BGM",
         "Koopalings BGM"
       ],
-      "id": "a447a508-8d24-467c-9004-be11b2a306e8"
+      "id": "a447a508-8d24-467c-9004-be11b2a306e8",
+      "newsletter": true
     },
     {
       "filename": "pokemon-legends.jpg",
@@ -856,7 +916,8 @@
         "Battle! (Origin Forme Dialga/Palkia)",
         "Jubilife Village 3"
       ],
-      "id": "bcb868e8-1334-4750-a91e-d8b4d2e5a428"
+      "id": "bcb868e8-1334-4750-a91e-d8b4d2e5a428",
+      "newsletter": true
     },
     {
       "filename": "super-mario-kart.jpg",
@@ -869,7 +930,8 @@
         "Koopa Beach",
         "Rainbow Road"
       ],
-      "id": "1c7691b6-8982-45c0-90ae-2b1330f45f3f"
+      "id": "1c7691b6-8982-45c0-90ae-2b1330f45f3f",
+      "newsletter": true
     },
     {
       "filename": "zelda-wind-waker.jpg",
@@ -892,7 +954,8 @@
         "Puppet Ganon (Snake Form)",
         "Parting Ways"
       ],
-      "id": "667929af-ec39-44f9-ac52-fbdf0b06df7d"
+      "id": "667929af-ec39-44f9-ac52-fbdf0b06df7d",
+      "newsletter": true
     },
     {
       "filename": "dkc-3.jpg",
@@ -903,7 +966,8 @@
         "Northern Kremisphere",
         "Get Fit A-Go-Go"
       ],
-      "id": "a5896369-e1b4-4114-98f2-d7b506e7bcb1"
+      "id": "a5896369-e1b4-4114-98f2-d7b506e7bcb1",
+      "newsletter": true
     },
     {
       "filename": "super-mario-64.jpg",
@@ -918,7 +982,8 @@
         "Hazy Maze Cave",
         "Staff Roll"
       ],
-      "id": "69dac4f4-5151-4057-a0d8-db38d58b9b1c"
+      "id": "69dac4f4-5151-4057-a0d8-db38d58b9b1c",
+      "newsletter": true
     },
     {
       "filename": "zelda-skyward-sword.jpg",
@@ -938,7 +1003,8 @@
         "The Fire Sanctuary",
         "Bamboo Island"
       ],
-      "id": "0a472267-297b-46f2-9b2e-15d2dc940d8b"
+      "id": "0a472267-297b-46f2-9b2e-15d2dc940d8b",
+      "newsletter": true
     },
     {
       "filename": "wave-race.jpg",
@@ -951,7 +1017,8 @@
         "Twilight City",
         "4th-Place Finish"
       ],
-      "id": "bb9d260b-9aaa-4f7b-903f-69fd0bce2575"
+      "id": "bb9d260b-9aaa-4f7b-903f-69fd0bce2575",
+      "newsletter": true
     },
     {
       "filename": "splatoon-2.jpg",
@@ -959,7 +1026,8 @@
       "description": "Ah I just really don't care about Splatoon... I was kinda disappointed that this was released instead of anything else really. Splatoon music sounds like shit",
       "platform": "Switch",
       "topTracks": [],
-      "id": "05542d83-b55a-4d9f-a6ee-aea4c31331b1"
+      "id": "05542d83-b55a-4d9f-a6ee-aea4c31331b1",
+      "newsletter": true
     },
     {
       "filename": "brain-training.jpg",
@@ -967,7 +1035,8 @@
       "description": "When they dropped this one I realised that they're deciding which soundtrack to release based off on a tombola in the Nintendo office. There really is nothing of note here, apart from it conforming to the vibe of 2000s Nintendo, something I enjoy",
       "platform": "DS",
       "topTracks": [],
-      "id": "acfab6d8-0e20-4327-9572-b45dbfd08f8b"
+      "id": "acfab6d8-0e20-4327-9572-b45dbfd08f8b",
+      "newsletter": true
     },
     {
       "filename": "f-zero-x.jpg",
@@ -982,7 +1051,8 @@
         "Goal BGM",
         "Grand Prix Ending"
       ],
-      "id": "14f90c65-307e-437c-b4a1-90b2c82427e2"
+      "id": "14f90c65-307e-437c-b4a1-90b2c82427e2",
+      "newsletter": true
     },
     {
       "filename": "wii-sports.jpg",
@@ -994,7 +1064,8 @@
         "Tennis: Player Selection",
         "Boxing: Results"
       ],
-      "id": "e6de7497-fa60-4285-a52f-cb0069da84b8"
+      "id": "e6de7497-fa60-4285-a52f-cb0069da84b8",
+      "newsletter": true
     },
     {
       "filename": "dkc-2.jpg",
@@ -1009,7 +1080,8 @@
         "In a Snowbound Land (Clapper's Cavern)",
         "Crocodile Cacophony"
       ],
-      "id": "4f691f1d-cc8f-459a-b84e-2bfe3d9b951e"
+      "id": "4f691f1d-cc8f-459a-b84e-2bfe3d9b951e",
+      "newsletter": true
     },
     {
       "filename": "mario-wonder.jpg",
@@ -1019,7 +1091,8 @@
       "topTracks": [
         "Grassland Theme"
       ],
-      "id": "37b0ca8a-32dd-40fd-9a3b-55a6fcbd9d22"
+      "id": "37b0ca8a-32dd-40fd-9a3b-55a6fcbd9d22",
+      "newsletter": true
     },
     {
       "filename": "pikmin-4.jpg",
@@ -1032,7 +1105,8 @@
         "Serene Shores",
         "Olimar's Shipwreck Tale: Serene Shores"
       ],
-      "id": "8cb6b89e-1563-402e-a2e2-97fc0b98b7ec"
+      "id": "8cb6b89e-1563-402e-a2e2-97fc0b98b7ec",
+      "newsletter": true
     },
     {
       "filename": "pokemon-scarlet-violet.jpg",
@@ -1042,7 +1116,8 @@
       "topTracks": [
         "Area Zero"
       ],
-      "id": "b4487372-c225-40e7-901e-2c853cc415bd"
+      "id": "b4487372-c225-40e7-901e-2c853cc415bd",
+      "newsletter": true
     },
     {
       "filename": "splatoon-3.jpg",
@@ -1050,7 +1125,8 @@
       "description": "I don't like Splatoon music, I just don't think it's good. The weird voices, the not-very-good pop music. I haven't even given this soundtrack much of a chance",
       "platform": "Switch",
       "topTracks": [],
-      "id": "f4c36fa2-7cef-4303-ba13-18887d76f3e5"
+      "id": "f4c36fa2-7cef-4303-ba13-18887d76f3e5",
+      "newsletter": true
     },
     {
       "filename": "animal-crossing-new-horizons.jpg",
@@ -1080,7 +1156,8 @@
         "Drivin' (Instrumental)",
         "K.K. D&B (Instrumental)"
       ],
-      "id": "17310804-2539-4e72-9f5a-dc7ca0289bfd"
+      "id": "17310804-2539-4e72-9f5a-dc7ca0289bfd",
+      "newsletter": true
     },
     {
       "filename": "kirby-star-allies.jpg",
@@ -1105,7 +1182,8 @@
         "Vs. Marx - Star Allies Dream Ver.",
         "The Girls Who Fought The Darkness"
       ],
-      "id": "bcb7b388-97e4-4307-b761-358464e805e7"
+      "id": "bcb7b388-97e4-4307-b761-358464e805e7",
+      "newsletter": true
     },
     {
       "filename": "mario-odyssey.jpg",
@@ -1120,7 +1198,8 @@
         "Bowser's Castle",
         "Bowser's Castle: Main Courtyard"
       ],
-      "id": "9de77299-81f5-4943-b378-2a34b84e8b88"
+      "id": "9de77299-81f5-4943-b378-2a34b84e8b88",
+      "newsletter": true
     },
     {
       "filename": "mario-kart-8.jpg",
@@ -1146,7 +1225,8 @@
         "Tour Vancouver Velocity",
         "Wii Daisy Circuit"
       ],
-      "id": "d5ce1b7c-e892-4d4f-91c2-661bc9a1210f"
+      "id": "d5ce1b7c-e892-4d4f-91c2-661bc9a1210f",
+      "newsletter": true
     },
     {
       "filename": "botw.jpg",
@@ -1167,7 +1247,8 @@
         "Hyrule Castle",
         "The Final Trial"
       ],
-      "id": "bcf6234e-09fd-4512-b48a-602f8331a789"
+      "id": "bcf6234e-09fd-4512-b48a-602f8331a789",
+      "newsletter": true
     },
     {
       "filename": "super-mario-galaxy.jpg",
@@ -1186,7 +1267,8 @@
         "The Fiery Stronghold",
         "Dusty Dune Galaxy"
       ],
-      "id": "b82aa125-8e7d-48e3-8e03-39f1f1e8d951"
+      "id": "b82aa125-8e7d-48e3-8e03-39f1f1e8d951",
+      "newsletter": true
     },
     {
       "filename": "wii.webp",
@@ -1200,7 +1282,8 @@
         "Checking the News: Daytime (News Channel)",
         "Poll Screen (Everybody Votes Channel)"
       ],
-      "id": "c9e59998-fc45-42cd-a5d2-a58bf9b9d02d"
+      "id": "c9e59998-fc45-42cd-a5d2-a58bf9b9d02d",
+      "newsletter": true
     },
     {
       "filename": "tomodachi.webp",
@@ -1211,7 +1294,8 @@
         "Clothing Shop",
         "J-Pop: To a New Future"
       ],
-      "id": "80459a47-7831-472d-a3ad-145f018d38a3"
+      "id": "80459a47-7831-472d-a3ad-145f018d38a3",
+      "newsletter": true
     },
     {
       "filename": "nintendogs.jpg",
@@ -1219,7 +1303,8 @@
       "description": "Wow they don't give a fuck, they really put this soundtrack up here. I mean it's not like Nintendogs is known for its music but why the fuck not. I know the bathtime music from smash but the original is nothing to write home about",
       "platform": "DS",
       "topTracks": [],
-      "id": "13cc318c-a4ac-4370-9eaa-d922422aa0b2"
+      "id": "13cc318c-a4ac-4370-9eaa-d922422aa0b2",
+      "newsletter": true
     },
     {
       "filename": "metroid-prime.webp",
@@ -1236,7 +1321,8 @@
         "Meta Ridley Battle",
         "Samus's Record"
       ],
-      "id": "e2f4f508-319c-4395-8505-ef665c10fa17"
+      "id": "e2f4f508-319c-4395-8505-ef665c10fa17",
+      "newsletter": true
     },
     {
       "filename": "fire-emblem-blazing-blade.jpg",
@@ -1248,7 +1334,8 @@
         "Together, We Ride!",
         "An Unexpected Caller"
       ],
-      "id": "3fc2c1c2-f873-4eb3-99da-69c7b4c070c9"
+      "id": "3fc2c1c2-f873-4eb3-99da-69c7b4c070c9",
+      "newsletter": true
     },
     {
       "filename": "ocarina-of-time.jpg",
@@ -1268,7 +1355,8 @@
         "Spirit Temple",
         "Last Battle"
       ],
-      "id": "e02becb1-df1f-4803-b3b7-2ac068c5c9bc"
+      "id": "e02becb1-df1f-4803-b3b7-2ac068c5c9bc",
+      "newsletter": true
     },
     {
       "filename": "lylat-wars.jpg",
@@ -1280,7 +1368,8 @@
         "Zoness",
         "Mission Complete"
       ],
-      "id": "9d5f3ab4-4352-4467-9ed4-b8b7d732822d"
+      "id": "9d5f3ab4-4352-4467-9ed4-b8b7d732822d",
+      "newsletter": true
     },
     {
       "filename": "yoshis-island.jpg",
@@ -1292,7 +1381,8 @@
         "Stage Boss",
         "Athletic BGM"
       ],
-      "id": "66913b57-449c-4dfa-9169-f40fe6d9ecad"
+      "id": "66913b57-449c-4dfa-9169-f40fe6d9ecad",
+      "newsletter": true
     },
     {
       "filename": "dkc.png",
@@ -1308,7 +1398,8 @@
         "Aquatic Ambience",
         "DK Island Swing"
       ],
-      "id": "30a89c9e-3375-4f3d-9b95-356b1c385523"
+      "id": "30a89c9e-3375-4f3d-9b95-356b1c385523",
+      "newsletter": true
     },
     {
       "filename": "kirbys-dreamland.jpg",
@@ -1320,7 +1411,8 @@
         "Float Islands",
         "A New Wind for Tomorrow"
       ],
-      "id": "f7dc4150-053e-4433-9631-a61865a4cf5a"
+      "id": "f7dc4150-053e-4433-9631-a61865a4cf5a",
+      "newsletter": true
     },
     {
       "filename": "dr-mario.jpg",
@@ -1330,7 +1422,8 @@
       "topTracks": [
         "Chill"
       ],
-      "id": "d0ead184-aae5-466f-8193-f1f1bb1f8afa"
+      "id": "d0ead184-aae5-466f-8193-f1f1bb1f8afa",
+      "newsletter": true
     },
     {
       "filename": "metroid.webp",
@@ -1342,7 +1435,8 @@
         "Escape",
         "Ending"
       ],
-      "id": "907a22c6-f172-4e43-befc-191c375afc10"
+      "id": "907a22c6-f172-4e43-befc-191c375afc10",
+      "newsletter": true
     },
     {
       "filename": "super-mario-bros.png",
@@ -1352,7 +1446,8 @@
       "topTracks": [
         "Underwater BGM"
       ],
-      "id": "3383bf0c-9462-4196-b537-7cd73ba9ca55"
+      "id": "3383bf0c-9462-4196-b537-7cd73ba9ca55",
+      "newsletter": true
     }
   ]
 }

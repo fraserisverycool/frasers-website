@@ -10,4 +10,5 @@ export interface Album {
   textColor: string;
   rating: number[];
   id: string;
+  newsletter: boolean;
 }

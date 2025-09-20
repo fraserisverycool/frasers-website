@@ -6,4 +6,5 @@ export interface CD {
   image: string;
   rating: number[];
   id: string;
+  newsletter: boolean;
 }

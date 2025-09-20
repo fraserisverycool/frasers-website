@@ -12,7 +12,8 @@
         "Bobs",
         "Bob Hairstyle"
       ],
-      "id": "0b432e75-98c6-4f3a-83cf-da3f9a63ed8a"
+      "id": "0b432e75-98c6-4f3a-83cf-da3f9a63ed8a",
+      "newsletter": true
     },
     {
       "filename": "kicker2.jpg",
@@ -24,7 +25,8 @@
       "answer": [
         "Dick"
       ],
-      "id": "539bc807-cec8-4212-820a-0c10a3feff55"
+      "id": "539bc807-cec8-4212-820a-0c10a3feff55",
+      "newsletter": true
     },
     {
       "filename": "world-peace2.jpg",
@@ -39,7 +41,8 @@
         "Disco and World Peace",
         "World Peace and Disco"
       ],
-      "id": "c8d5da29-b4f4-4bf0-9fe7-730f9dd0e43a"
+      "id": "c8d5da29-b4f4-4bf0-9fe7-730f9dd0e43a",
+      "newsletter": true
     },
     {
       "filename": "choir.jpg",
@@ -55,7 +58,8 @@
         "Diego",
         "Shrooms"
       ],
-      "id": "838d91a1-310e-47a0-8506-c5f7cd3c621f"
+      "id": "838d91a1-310e-47a0-8506-c5f7cd3c621f",
+      "newsletter": true
     },
     {
       "filename": "analog2.jpg",
@@ -75,7 +79,8 @@
         "Smartphone",
         "Smartphones"
       ],
-      "id": "f6b4dad7-2b9e-417f-8923-931222d73e1e"
+      "id": "f6b4dad7-2b9e-417f-8923-931222d73e1e",
+      "newsletter": true
     },
     {
       "filename": "tea.jpg",
@@ -89,7 +94,8 @@
         "LSD",
         "Trip"
       ],
-      "id": "18b245ab-66eb-49e2-b51b-c5bc31d748d5"
+      "id": "18b245ab-66eb-49e2-b51b-c5bc31d748d5",
+      "newsletter": true
     },
     {
       "filename": "beyonce.jpg",
@@ -101,7 +107,8 @@
       "answer": [
         "Fish"
       ],
-      "id": "061565bf-feb3-4588-91ee-db4f51744e13"
+      "id": "061565bf-feb3-4588-91ee-db4f51744e13",
+      "newsletter": true
     },
     {
       "filename": "melee2.jpg",
@@ -118,7 +125,8 @@
         "Super Smash Bros. Ultimate",
         "Ultimate"
       ],
-      "id": "df5f4915-036d-4617-beb5-54208e4ec4a1"
+      "id": "df5f4915-036d-4617-beb5-54208e4ec4a1",
+      "newsletter": true
     },
     {
       "filename": "archeology2.jpg",
@@ -130,7 +138,8 @@
       "answer": [
         "Mexico"
       ],
-      "id": "d0c5d41a-2297-4adf-8a89-a83c0f5c05a7"
+      "id": "d0c5d41a-2297-4adf-8a89-a83c0f5c05a7",
+      "newsletter": true
     },
     {
       "filename": "arturo2.jpg",
@@ -142,7 +151,8 @@
       "answer": [
         "Arturo"
       ],
-      "id": "51991cee-2097-4555-a168-37774d7707d6"
+      "id": "51991cee-2097-4555-a168-37774d7707d6",
+      "newsletter": true
     },
     {
       "filename": "sam.jpg",
@@ -154,7 +164,8 @@
       "answer": [
         "Berlin"
       ],
-      "id": "d2d941a3-73c7-48b5-b4a0-c5ee771cd237"
+      "id": "d2d941a3-73c7-48b5-b4a0-c5ee771cd237",
+      "newsletter": true
     },
     {
       "filename": "lickilicky.jpg",
@@ -171,7 +182,8 @@
         "beautiful",
         "wifi"
       ],
-      "id": "23a3dd20-ccbb-4ac7-9a83-a29c47c6de37"
+      "id": "23a3dd20-ccbb-4ac7-9a83-a29c47c6de37",
+      "newsletter": true
     },
     {
       "filename": "clash2.jpg",
@@ -189,7 +201,8 @@
         "Clash of Titans",
         "Xperion"
       ],
-      "id": "3d5267c7-3d05-43e3-88b3-b8cd1461eaa4"
+      "id": "3d5267c7-3d05-43e3-88b3-b8cd1461eaa4",
+      "newsletter": true
     },
     {
       "filename": "tent2.jpg",
@@ -205,7 +218,8 @@
         "Duck Hunt",
         "Duck Hunt Duo"
       ],
-      "id": "30fcbad1-b9b5-41b5-9b81-4fc44b6df021"
+      "id": "30fcbad1-b9b5-41b5-9b81-4fc44b6df021",
+      "newsletter": true
     },
     {
       "filename": "claudia.jpg",
@@ -217,7 +231,8 @@
       "answer": [
         "Weyes"
       ],
-      "id": "9f9762ea-a7d8-411f-b895-ef705e7d8fd1"
+      "id": "9f9762ea-a7d8-411f-b895-ef705e7d8fd1",
+      "newsletter": true
     },
     {
       "filename": "quiz.jpg",
@@ -230,7 +245,8 @@
         "Epitech",
         "Epitech Chase"
       ],
-      "id": "141f645e-024c-407d-a223-fdf8a058c146"
+      "id": "141f645e-024c-407d-a223-fdf8a058c146",
+      "newsletter": true
     },
     {
       "filename": "bday.jpg",
@@ -245,7 +261,8 @@
         "My birthday",
         "31st"
       ],
-      "id": "e19d67a8-b607-4e23-b16a-30c7f346d76b"
+      "id": "e19d67a8-b607-4e23-b16a-30c7f346d76b",
+      "newsletter": true
     },
     {
       "filename": "planet.jpg",
@@ -257,7 +274,8 @@
       "answer": [
         "Diego"
       ],
-      "id": "9c080a26-58a3-4b34-9194-e4a9d1f1bbf9"
+      "id": "9c080a26-58a3-4b34-9194-e4a9d1f1bbf9",
+      "newsletter": true
     },
     {
       "filename": "mushroom.jpg",
@@ -271,7 +289,8 @@
         "Magic mushrooms",
         "Shrooms"
       ],
-      "id": "210b4390-e8ac-4970-81fb-b78fcdf4fd71"
+      "id": "210b4390-e8ac-4970-81fb-b78fcdf4fd71",
+      "newsletter": true
     },
     {
       "filename": "tamales2.jpg",
@@ -283,7 +302,8 @@
       "answer": [
         "Mexico"
       ],
-      "id": "32df7aee-0cb0-48d1-b316-c967d7f13f6e"
+      "id": "32df7aee-0cb0-48d1-b316-c967d7f13f6e",
+      "newsletter": true
     },
     {
       "filename": "tower2.jpg",
@@ -299,7 +319,8 @@
         "CDMX",
         "Ciudad de Mexico"
       ],
-      "id": "b209916e-720c-4b9c-99d6-66af6a66826d"
+      "id": "b209916e-720c-4b9c-99d6-66af6a66826d",
+      "newsletter": true
     },
     {
       "filename": "dj.jpg",
@@ -312,7 +333,8 @@
         "DJ World Peace",
         "DJWP"
       ],
-      "id": "e79a70d2-8a0e-4dc3-9715-063059945ead"
+      "id": "e79a70d2-8a0e-4dc3-9715-063059945ead",
+      "newsletter": true
     },
     {
       "filename": "bath.jpg",
@@ -328,7 +350,8 @@
         "Nintendo Switch",
         "Nintendo"
       ],
-      "id": "a39debff-93e0-4f3d-9f87-85a6230088ad"
+      "id": "a39debff-93e0-4f3d-9f87-85a6230088ad",
+      "newsletter": true
     },
     {
       "filename": "fish.jpg",
@@ -345,7 +368,8 @@
         "Janet Jackson",
         "Diana Ross"
       ],
-      "id": "86b7ac0c-4bf9-4182-b46e-a051fd28c6f8"
+      "id": "86b7ac0c-4bf9-4182-b46e-a051fd28c6f8",
+      "newsletter": true
     },
     {
       "filename": "tie-dye.jpg",
@@ -357,7 +381,8 @@
       "answer": [
         "Yellow"
       ],
-      "id": "edd3cf8e-d8e2-4714-a387-6b9e0fdad5a2"
+      "id": "edd3cf8e-d8e2-4714-a387-6b9e0fdad5a2",
+      "newsletter": true
     },
     {
       "filename": "phenomenon.jpg",
@@ -371,7 +396,8 @@
         "Plane",
         "Flight"
       ],
-      "id": "f1a6baad-2a78-4f08-9f94-b6d9239f66eb"
+      "id": "f1a6baad-2a78-4f08-9f94-b6d9239f66eb",
+      "newsletter": true
     },
     {
       "filename": "juice2.jpg",
@@ -383,7 +409,8 @@
       "answer": [
         "Jugo"
       ],
-      "id": "821fd504-7842-49de-9ba7-595b7958266f"
+      "id": "821fd504-7842-49de-9ba7-595b7958266f",
+      "newsletter": true
     },
     {
       "filename": "bouldering.jpg",
@@ -396,7 +423,8 @@
         "Bouldering",
         "Climbing"
       ],
-      "id": "c2dbd95f-9ebf-41fa-8c23-1b2838246acf"
+      "id": "c2dbd95f-9ebf-41fa-8c23-1b2838246acf",
+      "newsletter": true
     },
     {
       "filename": "brexit.jpg",
@@ -408,7 +436,8 @@
       "answer": [
         "BREXIT SUMMIT"
       ],
-      "id": "f91ca037-6f79-4dd8-849b-3233def1c1fc"
+      "id": "f91ca037-6f79-4dd8-849b-3233def1c1fc",
+      "newsletter": true
     },
     {
       "filename": "film.jpg",
@@ -424,7 +453,8 @@
         "My tournaments",
         "Your tournaments"
       ],
-      "id": "0733f059-b7c3-4443-8838-1126aad4c12f"
+      "id": "0733f059-b7c3-4443-8838-1126aad4c12f",
+      "newsletter": true
     },
     {
       "filename": "newyear.jpg",
@@ -443,7 +473,8 @@
         "Lockdown",
         "Isolation"
       ],
-      "id": "2898d3b0-221c-420f-a44d-b4939e836a50"
+      "id": "2898d3b0-221c-420f-a44d-b4939e836a50",
+      "newsletter": true
     },
     {
       "filename": "vier.jpg",
@@ -455,7 +486,8 @@
       "answer": [
         "VIER"
       ],
-      "id": "ca46b076-3b19-43de-a63e-1384b9633e69"
+      "id": "ca46b076-3b19-43de-a63e-1384b9633e69",
+      "newsletter": true
     },
     {
       "filename": "como.jpg",
@@ -469,7 +501,8 @@
         "Como",
         "Italy"
       ],
-      "id": "b9ad6c78-040f-44de-a4dd-1d00d9b92f01"
+      "id": "b9ad6c78-040f-44de-a4dd-1d00d9b92f01",
+      "newsletter": true
     },
     {
       "filename": "surfing.jpg",
@@ -481,7 +514,8 @@
       "answer": [
         "Chelsea"
       ],
-      "id": "9d7c1601-7744-45d1-b02e-fa55b1c283d4"
+      "id": "9d7c1601-7744-45d1-b02e-fa55b1c283d4",
+      "newsletter": true
     },
     {
       "filename": "commentary.jpg",
@@ -497,7 +531,8 @@
         "Hosting",
         "Moderation"
       ],
-      "id": "92ca7792-ba59-4393-b2e3-a3a1d9f0da7c"
+      "id": "92ca7792-ba59-4393-b2e3-a3a1d9f0da7c",
+      "newsletter": true
     },
     {
       "filename": "boris.jpg",
@@ -510,7 +545,8 @@
         "Boris",
         "Boris Johnson"
       ],
-      "id": "6d7e0a7a-b595-4499-9a8a-453fc2f23435"
+      "id": "6d7e0a7a-b595-4499-9a8a-453fc2f23435",
+      "newsletter": true
     }
   ]
 }

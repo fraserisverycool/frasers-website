@@ -11,6 +11,7 @@ interface KKSong {
   description: string;
   rating: number[];
   id: string;
+  newsletter: boolean;
 }
 
 @Component({

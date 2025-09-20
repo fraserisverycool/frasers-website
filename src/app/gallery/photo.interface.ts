@@ -8,4 +8,5 @@ export interface Photo {
   answer: string[];
   rating: number[];
   id: string;
+  newsletter: boolean;
 }

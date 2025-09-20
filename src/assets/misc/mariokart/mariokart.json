@@ -11,7 +11,8 @@
       "ranking": "13",
       "description": "The music is great, iconic even, but I don't like the colours, and this one is very plain indeed. It's the tutorial level.",
       "image": "snes-mario-circuit-1.webp",
-      "id": "3fc7d0c1-054d-4611-a05e-b5a8cc72b1a8"
+      "id": "3fc7d0c1-054d-4611-a05e-b5a8cc72b1a8",
+      "newsletter": true
     },
     {
       "trackId": 1,
@@ -24,7 +25,8 @@
       "ranking": "31",
       "description": "Incredible that in a game which contains Figure-8 Circuit you could also put in the next most boring track too. There is nothing going on here. At least the classic music is great.",
       "image": "ds-mario-circuit-1.png",
-      "id": "b9e87513-3a5f-4884-92fd-1f855b4a9fe5"
+      "id": "b9e87513-3a5f-4884-92fd-1f855b4a9fe5",
+      "newsletter": true
     },
     {
       "trackId": 1,
@@ -37,7 +39,8 @@
       "ranking": "19",
       "description": "This is such a fun interpretation of this classic! They combined Mario Circuit 1, 2 and 3 (RIP Mario Circuit 4) into one, with each lap going around a different classic course. Unlike the rest of the game, they are all flat and don't lend themselves to fun shortcuts, but rather just good driving. I like it! And I love that they finally remixed this song!! And leaned into its latin flavour. Love the music that plays as you approach this stage. Great.",
       "image": "world-mario-circuit.jpg",
-      "id": "1d2f5742-d92c-4672-a15f-cc48dc038b8f"
+      "id": "1d2f5742-d92c-4672-a15f-cc48dc038b8f",
+      "newsletter": true
     },
     {
       "trackId": 2,
@@ -50,7 +53,8 @@
       "ranking": "6",
       "description": "I love the samba inspired music of Donut Plains. Otherwise, the vibe is very plain. Donut Plains 1 has nothing special going for it, you can't even fall into the water.",
       "image": "snes-donut-plains-1.webp",
-      "id": "3ea40d1f-8b34-4828-8a02-99010750f039"
+      "id": "3ea40d1f-8b34-4828-8a02-99010750f039",
+      "newsletter": true
     },
     {
       "trackId": 2,
@@ -63,7 +67,8 @@
       "ranking": "28",
       "description": "This stage is really boring! It has some shortcuts with a mushroom but that is it. The original music is there and good, though.",
       "image": "ds-donut-plains-1.png",
-      "id": "09f88b01-2b59-4e07-a52c-c2f284b78d31"
+      "id": "09f88b01-2b59-4e07-a52c-c2f284b78d31",
+      "newsletter": true
     },
     {
       "trackId": 3,
@@ -76,7 +81,8 @@
       "ranking": "18",
       "description": "Fuck Ghost Valley, what a miserable vibe. Those ghosts look like shit and it's just copied music from Super Mario World. At least this version trained you up to be able to race on Rainbow Road and doesn't have too much bullshit.",
       "image": "snes-ghost-valley-1.webp",
-      "id": "cca14097-50c4-4744-b468-c2cf70f07d21"
+      "id": "cca14097-50c4-4744-b468-c2cf70f07d21",
+      "newsletter": true
     },
     {
       "trackId": 4,
@@ -89,7 +95,8 @@
       "ranking": "9",
       "description": "Bowser Castle's vibes are all sharp corners, thwomps and falling into lava. Luckily, this version is very forgiving, so you can enjoy the vibe without dying constantly. It's kinda cool that the music is the same as the final boss music from Super Mario World but maybe that's also kinda lame too.",
       "image": "snes-bowser-castle-1.webp",
-      "id": "5ed502cd-a858-4f82-b38a-b0099bd200f6"
+      "id": "5ed502cd-a858-4f82-b38a-b0099bd200f6",
+      "newsletter": true
     },
     {
       "trackId": 5,
@@ -102,7 +109,8 @@
       "ranking": "12",
       "description": "This one contains a jump! It jumps over a previous section of the course which for the time was very exciting.",
       "image": "snes-mario-circuit-2.webp",
-      "id": "892ac826-267b-465a-b5e6-4ff708309f8c"
+      "id": "892ac826-267b-465a-b5e6-4ff708309f8c",
+      "newsletter": true
     },
     {
       "trackId": 5,
@@ -115,7 +123,8 @@
       "ranking": "23",
       "description": "This is a boring level, having a jump means nothing at this point. But the music is classic. There's a really nice video of the TAS time trial for this track: https://www.youtube.com/watch?v=0498-yr5CLI&ab_channel=MKWilliam",
       "image": "3ds-mario-circuit-2.webp",
-      "id": "c0f5014a-c60b-417e-8676-dbf13d046a16"
+      "id": "c0f5014a-c60b-417e-8676-dbf13d046a16",
+      "newsletter": true
     },
     {
       "trackId": 6,
@@ -128,7 +137,8 @@
       "ranking": "8",
       "description": "Love the music of Choco Island. It's like salsa music! And it has a great drum break at the end of the loop. The level looks like shit though, literally. Is it chocolate, or is it poo? Choco Island 1 specifically has got nothing interesting going for it.",
       "image": "snes-choco-island-1.png",
-      "id": "4fc3e3d6-40e4-4c62-a21c-cffcd7abd113"
+      "id": "4fc3e3d6-40e4-4c62-a21c-cffcd7abd113",
+      "newsletter": true
     },
     {
       "trackId": 7,
@@ -141,7 +151,8 @@
       "ranking": "19",
       "description": "This level is harder than the first one but still has wide paths so it's doable. Hate the disappearing blocks mechanic and the vibe in general.",
       "image": "snes-ghost-valley-2.png",
-      "id": "7df10ab0-cc68-4b05-89d7-9b0ff1cf4ffe"
+      "id": "7df10ab0-cc68-4b05-89d7-9b0ff1cf4ffe",
+      "newsletter": true
     },
     {
       "trackId": 7,
@@ -154,7 +165,8 @@
       "ranking": "25",
       "description": "I always disliked this track because when I was younger I felt like this was a try-hard stage for boring people who just want to go fast around boring flat tracks. I think it looks kinda special on the Wii though. But the music is so bad.",
       "image": "wii-ghost-valley-2.webp",
-      "id": "c2510ba8-758d-485c-b5a0-d2c6d3c31340"
+      "id": "c2510ba8-758d-485c-b5a0-d2c6d3c31340",
+      "newsletter": true
     },
     {
       "trackId": 8,
@@ -167,7 +179,8 @@
       "ranking": "4",
       "description": "At least this one features a lake, but you probably won't fall into it. It's a long and boring track. Luckily you have the music to keep you going.",
       "image": "snes-donut-plains-2.webp",
-      "id": "91f0b0d5-fba1-4584-8779-077ec2dc1309"
+      "id": "91f0b0d5-fba1-4584-8779-077ec2dc1309",
+      "newsletter": true
     },
     {
       "trackId": 9,
@@ -180,7 +193,8 @@
       "ranking": "11",
       "description": "This stage literally features a dead end! What the actual fuck. You're just minding your own business playing Mario Kart and then bam, you have to REVERSE and go back to the track because there was a fake end. Fuck that terrible design. No. Oh my god.",
       "image": "snes-bowser-castle-2.png",
-      "id": "71b048fb-76af-4c3f-8eab-4d0d7204a268"
+      "id": "71b048fb-76af-4c3f-8eab-4d0d7204a268",
+      "newsletter": true
     },
     {
       "trackId": 10,
@@ -193,7 +207,8 @@
       "ranking": "14",
       "description": "It's quite long and has a sharp corner, otherwise it's unremarkable. The pipes just get in the way in an annoying way.",
       "image": "snes-mario-circuit-3.webp",
-      "id": "195f6d24-ed1c-48fb-9737-fe94fa58766b"
+      "id": "195f6d24-ed1c-48fb-9737-fe94fa58766b",
+      "newsletter": true
     },
     {
       "trackId": 10,
@@ -206,7 +221,8 @@
       "ranking": "30",
       "description": "Always hated this level. It looks so bad and the music sounds really shit with the SNES instruments on the Wii. The stage is boring to drive on and I don't like the colours.",
       "image": "wii-mario-circuit-3.webp",
-      "id": "471b5131-d6da-4389-96c7-823ad25af658"
+      "id": "471b5131-d6da-4389-96c7-823ad25af658",
+      "newsletter": true
     },
     {
       "trackId": 10,
@@ -219,7 +235,8 @@
       "ranking": "85",
       "description": "They made such an effort with all the other snes retro tracks, and they left this one looking like all the snes Mario Circuits: shit. Even the music sounds bad and it's a classic banger. I kinda wish they remade Mario Circuit 4 instead then they've done them all. We had enough of this one on the Wii.",
       "image": "mk8-mario-circuit-3.webp",
-      "id": "f238f424-e894-4cb1-8e2b-5227ffbc0e14"
+      "id": "f238f424-e894-4cb1-8e2b-5227ffbc0e14",
+      "newsletter": true
     },
     {
       "trackId": 11,
@@ -232,7 +249,8 @@
       "ranking": "2",
       "description": "I love beach levels and this one does not disappoint! Beautiful bossa nova inspired music and a great all-round vibe. In this stage you have to drive through the water which slows you down, but you can be tactical about it and jump or use a mushroom at the right moments to keep your speed. It's a lot of fun. It's a classic.",
       "image": "snes-koopa-beach-1.png",
-      "id": "145b8990-b25a-419c-a8cf-a9a17d7630cc"
+      "id": "145b8990-b25a-419c-a8cf-a9a17d7630cc",
+      "newsletter": true
     },
     {
       "trackId": 12,
@@ -245,7 +263,8 @@
       "ranking": "7",
       "description": "This one actually has a big pile of poo that you have to drive through, it's a little more interesting and fun.",
       "image": "snes-choco-island-2.png",
-      "id": "97264576-d12b-4c00-9ba6-40454407a419"
+      "id": "97264576-d12b-4c00-9ba6-40454407a419",
+      "newsletter": true
     },
     {
       "trackId": 12,
@@ -258,7 +277,8 @@
       "ranking": "22",
       "description": "What a garish yellow this stage is! It's not even poo-coloured, it's vomit-coloured. This stage features a bit pile of brown goop at the end. Something to enjoy the salsa music to.",
       "image": "ds-choco-island-2.webp",
-      "id": "ee3847df-d984-43b8-84d9-a4697730fb94"
+      "id": "ee3847df-d984-43b8-84d9-a4697730fb94",
+      "newsletter": true
     },
     {
       "trackId": 13,
@@ -271,7 +291,8 @@
       "ranking": "16",
       "description": "It's exciting to get to this late-game stage with a complete vibe switch to all the other tracks, but don't let it fool you. This level is bullshit. It has these tiny ice cubes that block the road in these tight tunnels. Fuck that! Also, the beta music for this level is way better than the actual music.",
       "image": "snes-vanilla-lake-1.webp",
-      "id": "b2fec386-0334-4023-8575-aa0391b9c392"
+      "id": "b2fec386-0334-4023-8575-aa0391b9c392",
+      "newsletter": true
     },
     {
       "trackId": 14,
@@ -284,7 +305,8 @@
       "ranking": "10",
       "description": "This stage is super hard because of all the sharp turns and Thwomps. Nothing compared the horror that is Bowser Castle 2 but still.",
       "image": "snes-bowser-castle-3.png",
-      "id": "f17f907c-f32e-4f87-8904-2c242a1a98d8"
+      "id": "f17f907c-f32e-4f87-8904-2c242a1a98d8",
+      "newsletter": true
     },
     {
       "trackId": 14,
@@ -297,7 +319,8 @@
       "ranking": "18",
       "description": "What a banger remake! This is what I'm talking about! They took the plain-ass snes track, and for the first time a Bowser Castle and completely transformed it into a super fun, super intense track. I love the music remix a lot - it's the rock remix that it deserved! I enjoy that there are these super thin platforms to get boosts on.",
       "image": "mk8-bowser-castle-3.webp",
-      "id": "c44d2bfc-95d4-486f-ae3f-4088348f6243"
+      "id": "c44d2bfc-95d4-486f-ae3f-4088348f6243",
+      "newsletter": true
     },
     {
       "trackId": 15,
@@ -310,7 +333,8 @@
       "ranking": "15",
       "description": "Disappointing, this is definitely just a Platzhalter. It's just the same as Mario Circuit 3 but mirrored and with more Monty Moles and pipes to annoy you. No wonder this stage was never brought back, it sucks.",
       "image": "snes-mario-circuit-4.webp",
-      "id": "09edf426-053f-4a8c-bd63-738b3f30f265"
+      "id": "09edf426-053f-4a8c-bd63-738b3f30f265",
+      "newsletter": true
     },
     {
       "trackId": 16,
@@ -323,7 +347,8 @@
       "ranking": "6",
       "description": "Alright, this one finally has some special stuff going on, but it's all BULLSHIT! You have to actually jump over the hole in the second bridge, and the first bridge is super deceptive. This level is tough as nails and I hate it. Not even the music is enough to keep me going.",
       "image": "snes-donut-plains-3.webp",
-      "id": "8961c802-015b-41e8-80d9-f95c6365b4ae"
+      "id": "8961c802-015b-41e8-80d9-f95c6365b4ae",
+      "newsletter": true
     },
     {
       "trackId": 16,
@@ -336,7 +361,8 @@
       "ranking": "21",
       "description": "I love Donut Plains 3. This was the first time they revealed the HD reimagination of snes tracks and I was so shook. It looks so good! With the nice water, the hills in the background, and the remix of the music. It was so exciting to see the glow up! And I love this track layout. I learned that you could drift through the water and skip a corner and I feel like it's my little secret shortcut that nobody knows about.",
       "image": "mk8-donut-plains-3.webp",
-      "id": "0c2bff76-076a-4510-a5ab-a3b6fdca7a45"
+      "id": "0c2bff76-076a-4510-a5ab-a3b6fdca7a45",
+      "newsletter": true
     },
     {
       "trackId": 17,
@@ -349,7 +375,8 @@
       "ranking": "3",
       "description": "This stage is all about finding that perfect line around the island between the grass and the water. There's the bit at the start where you have to go in the water and there's not much you can do about it. But it's still fun. I like that this is just one big island and not an archipelago like the other one.",
       "image": "snes-koopa-beach-2.png",
-      "id": "444c6d7c-2071-4c0a-ad8b-c50c41a6c0e3"
+      "id": "444c6d7c-2071-4c0a-ad8b-c50c41a6c0e3",
+      "newsletter": true
     },
     {
       "trackId": 17,
@@ -362,7 +389,8 @@
       "ranking": "25",
       "description": "Man, they took one of my favourite tracks from the super nintendo and they kinda fumbled it. It's a tiny island that you go around 5 times. It's not as chaotic as Baby Park but equally as boring. For some reason, this level is insanely bright and you can barely see anything. The thing that made this level the most special was the music, and now it's just a generic sounding EDM track. The Koopa Troopa DJ is not enough to save this track.",
       "image": "world-koopa-beach.jpg",
-      "id": "599a7781-67b5-46f6-9535-88055bd674c6"
+      "id": "599a7781-67b5-46f6-9535-88055bd674c6",
+      "newsletter": true
     },
     {
       "trackId": 17,
@@ -375,7 +403,8 @@
       "ranking": "7",
       "description": "They improved this stage by making it so that going in the water doesn't slow you down. It's a good change turning one of the best SNES tracks into an even better one! I love love love this music.",
       "image": "ds-koopa-beach-2.png",
-      "id": "891b0434-73b7-4f2d-bdbf-51187817429c"
+      "id": "891b0434-73b7-4f2d-bdbf-51187817429c",
+      "newsletter": true
     },
     {
       "trackId": 18,
@@ -388,7 +417,8 @@
       "ranking": "20",
       "description": "Hate that this has all the misery of the previous Ghost Valleys, except ALSO holes in the ground. I'm happy this was never recreated as a retro course because it's shit.",
       "image": "snes-ghost-valley-3.png",
-      "id": "936fb46b-ff00-4a59-b086-365fdb597fb6"
+      "id": "936fb46b-ff00-4a59-b086-365fdb597fb6",
+      "newsletter": true
     },
     {
       "trackId": 19,
@@ -401,7 +431,8 @@
       "ranking": "17",
       "description": "I don't know how they did it but they made this stage even more bullshit than the first one. This time the ice cubes are EVERYWHERE and it is impossible to navigate the track. I enjoy that this stage features a big lake that you drive around but it has nothing else to offer. I think it deserves a remake but said remake would have to completely rework it.",
       "image": "snes-vanilla-lake-2.webp",
-      "id": "9b0493c9-ec86-464a-9cc0-93284d6857d7"
+      "id": "9b0493c9-ec86-464a-9cc0-93284d6857d7",
+      "newsletter": true
     },
     {
       "trackId": 20,
@@ -414,7 +445,8 @@
       "ranking": "1",
       "description": "This stage is iconic. This is where the genre of 'fantasy space adventure rainbow music' was invented! The B section of this music introduces us to the classic Rainbow Road music that we know and love and I am just so thankful. I think the idea to make a rainbow racetrack in space was inspired. The track itself is plain, but has no walls! So you need to have learned how to use the drift button properly by this point.",
       "image": "snes-rainbow-road-snes.webp",
-      "id": "08198124-d18c-4369-88cb-cec8fc5258ff"
+      "id": "08198124-d18c-4369-88cb-cec8fc5258ff",
+      "newsletter": true
     },
     {
       "trackId": 20,
@@ -427,7 +459,8 @@
       "ranking": "4",
       "description": "When I first learned about this, I was so shook. I didn't know they could not only bring back retro courses, but recreate them, shaping them into something new. It looks so silly having a Rainbow Road like this but it's also delightful and charming. I love it. And we have a great upgraded version of the classic music too!",
       "image": "3ds-rainbow-road-snes.webp",
-      "id": "e6061910-1c6b-4263-a461-6d6b641df14b"
+      "id": "e6061910-1c6b-4263-a461-6d6b641df14b",
+      "newsletter": true
     },
     {
       "trackId": 20,
@@ -440,7 +473,8 @@
       "ranking": "11",
       "description": "They remade it... again!! I can't believe it. This time it's floating above some land and comes with a brand new remix, which I love. It looks noticeably better than the 3DS version and is such a vibe. I love the concept of a flat Rainbow Road like this.",
       "image": "mk8-rainbow-road-snes.webp",
-      "id": "136454e2-6bbe-4abb-8057-70171e8c317c"
+      "id": "136454e2-6bbe-4abb-8057-70171e8c317c",
+      "newsletter": true
     },
     {
       "trackId": 21,
@@ -453,7 +487,8 @@
       "ranking": "16",
       "description": "A very boring level. It's a tutorial level for the tutorials, absolutely no shenanigans at all. Only that absolutely banging music.",
       "image": "n64-luigi-raceway.webp",
-      "id": "251d833f-0b53-4a4c-a58b-51e06b1ac696"
+      "id": "251d833f-0b53-4a4c-a58b-51e06b1ac696",
+      "newsletter": true
     },
     {
       "trackId": 21,
@@ -466,7 +501,8 @@
       "ranking": "24",
       "description": "This is a boring track from the N64 and it's boring here too. Only its immense soundtrack keep this high up the rankings.",
       "image": "3ds-luigi-raceway.webp",
-      "id": "9c03ac0b-0fee-4ee1-9903-d6cd04668127"
+      "id": "9c03ac0b-0fee-4ee1-9903-d6cd04668127",
+      "newsletter": true
     },
     {
       "trackId": 22,
@@ -479,7 +515,8 @@
       "ranking": "11",
       "description": "I don't love the music in this. It's hard to love this track when Moo Moo Meadows exists. The racetrack itself is just a super wide dirt track in a big circle.",
       "image": "n64-moo-moo-farm.webp",
-      "id": "fb736f0f-7c0f-411e-a354-241c6160b042"
+      "id": "fb736f0f-7c0f-411e-a354-241c6160b042",
+      "newsletter": true
     },
     {
       "trackId": 22,
@@ -492,7 +529,8 @@
       "ranking": "26",
       "description": "This is just as lame as it was on Nintendo 64. I remember playing it a lot because of the download multiplayer.",
       "image": "ds-moo-moo-farm.webp",
-      "id": "cc813ff1-8b11-4211-b0f3-505b995148f1"
+      "id": "cc813ff1-8b11-4211-b0f3-505b995148f1",
+      "newsletter": true
     },
     {
       "trackId": 23,
@@ -505,7 +543,8 @@
       "ranking": "6",
       "description": "Looks-wise, this level looks so drab. These colours should not be used in a beach level. Luckily, the music is top notch. This level has this really difficult jump into a shortcut which is really cool.",
       "image": "n64-koopa-troopa-beach.webp",
-      "id": "32c27912-e9e8-40c8-8155-d1222459a810"
+      "id": "32c27912-e9e8-40c8-8155-d1222459a810",
+      "newsletter": true
     },
     {
       "trackId": 23,
@@ -518,7 +557,8 @@
       "ranking": "13",
       "description": "I quite like this level, especially the music, and the shortcut is totally manageable in this game thanks to the gliding. The colours are a bit boring.",
       "image": "3ds-koopa-troopa-beach.webp",
-      "id": "a6620f1a-0547-43d7-8410-d7e0be7975eb"
+      "id": "a6620f1a-0547-43d7-8410-d7e0be7975eb",
+      "newsletter": true
     },
     {
       "trackId": 24,
@@ -531,7 +571,8 @@
       "ranking": "8",
       "description": "They made the insane design choice to make the train come right in front of the track, meaning everyone has to wait for it to go past in the first lap. Nuts. Actually it's kinda funny. Kind of an iconic level.",
       "image": "n64-kalimari-desert.webp",
-      "id": "ef3269c7-ac66-4e1c-9808-6843ce5b2168"
+      "id": "ef3269c7-ac66-4e1c-9808-6843ce5b2168",
+      "newsletter": true
     },
     {
       "trackId": 24,
@@ -544,7 +585,8 @@
       "ranking": "19",
       "description": "This is a classic from the N64 and they've changed a few things up. In the original, everyone had to wait for the first train, which is insane, so that's fixed. However originally you could choose to drive through the tunnel, but that's been removed here. All in all hard to say if it's a good track now. Music is alright.",
       "image": "3ds-kalimari-desert.webp",
-      "id": "157b8174-f80e-4b36-bb98-4a01e0f84061"
+      "id": "157b8174-f80e-4b36-bb98-4a01e0f84061",
+      "newsletter": true
     },
     {
       "trackId": 24,
@@ -557,7 +599,8 @@
       "ranking": "47",
       "description": "They really did this one up! The original track, while cool because it has a train, was actually kinda of a boring course. Now they switched it up so you can go through the train tunnel, which is just so cool! Especially because you could actually drive through the tunnel in the original one. I'm also a sucker for a sunset level, and it does look quite good here. The remix is good but not outstanding.",
       "image": "mk8-kalimari-desert.webp",
-      "id": "17e55ddf-17a1-46d0-9338-c0993e3ca8c7"
+      "id": "17e55ddf-17a1-46d0-9338-c0993e3ca8c7",
+      "newsletter": true
     },
     {
       "trackId": 25,
@@ -570,7 +613,8 @@
       "ranking": "1",
       "description": "This stage is such a VIBE! That music, the beautiful sky, the driving at night-time feeling, so fucking good. I even enjoy drifting around all the cars. It's such a good racetrack. It makes you wonder where all these cars are actually going though!",
       "image": "n64-toads-turnpike.png",
-      "id": "f3371b2f-cdc2-4ad7-bf5e-96918cbfa636"
+      "id": "f3371b2f-cdc2-4ad7-bf5e-96918cbfa636",
+      "newsletter": true
     },
     {
       "trackId": 25,
@@ -583,7 +627,8 @@
       "ranking": "14",
       "description": "I love Toad's Turnpike so much! This music is such a vibe and they made it even better in this remix. I have to say though, this version of the stage doesn't quite capture the imagination of the nation like the original N64 version. Still love it though.",
       "image": "mk8-toads-turnpike.webp",
-      "id": "d052da95-27d2-4c9d-8d13-8af263d0f935"
+      "id": "d052da95-27d2-4c9d-8d13-8af263d0f935",
+      "newsletter": true
     },
     {
       "trackId": 26,
@@ -596,7 +641,8 @@
       "ranking": "10",
       "description": "I love this classic winter music, that alone carries the track. Otherwise the scenery is very sparse and I'm not seeing much in the way of 'frappé'. There's an ominous ice statue of Mario which makes me uneasy.",
       "image": "n64-frappe-snowland.webp",
-      "id": "b2d71019-677e-4b59-99de-99c9ccb08c99"
+      "id": "b2d71019-677e-4b59-99de-99c9ccb08c99",
+      "newsletter": true
     },
     {
       "trackId": 26,
@@ -609,7 +655,8 @@
       "ranking": "23",
       "description": "This classic winter music is so good. Otherwise this is just the same as the N64 version, not too much to enjoy here.",
       "image": "ds-frappe-snowland.webp",
-      "id": "26fc72b0-4b8f-41aa-afe8-8a43e3d4ba76"
+      "id": "26fc72b0-4b8f-41aa-afe8-8a43e3d4ba76",
+      "newsletter": true
     },
     {
       "trackId": 27,
@@ -622,7 +669,8 @@
       "ranking": "15",
       "description": "What's going on with Choco Mountain? It looks like it's made of shit, not chocolate. Why choose the colours grey and brown as the theme for the level? Also I don't like all the curvy valleys and bumps in the road.",
       "image": "n64-choco-mountain.webp",
-      "id": "fb889f8e-c57f-4234-8c92-4a4f77ca02b8"
+      "id": "fb889f8e-c57f-4234-8c92-4a4f77ca02b8",
+      "newsletter": true
     },
     {
       "trackId": 27,
@@ -635,7 +683,8 @@
       "ranking": "27",
       "description": "I hate that this brought this back and with the DS's draw distance it looks even worse. Is it meant to look foggy like this? Who concocted this vibe. It's horrible.",
       "image": "ds-choco-mountain.webp",
-      "id": "789bb998-924b-4a74-872a-2c6e554a4e23"
+      "id": "789bb998-924b-4a74-872a-2c6e554a4e23",
+      "newsletter": true
     },
     {
       "trackId": 27,
@@ -648,7 +697,8 @@
       "ranking": "91",
       "description": "Why do I keep having to look at this stage?! They're bringing it back to the new game too, what the fuck. Even in high definition here it looks like shit. Who decided to make a foggy brown mountain of shit level like this. Still don't love the music.",
       "image": "mk8-choco-mountain.webp",
-      "id": "ac3271d1-b221-4ce9-869d-2445d1ea3395"
+      "id": "ac3271d1-b221-4ce9-869d-2445d1ea3395",
+      "newsletter": true
     },
     {
       "trackId": 27,
@@ -661,7 +711,8 @@
       "ranking": "30",
       "description": "Ugh I've never liked this track and they brought it back for a FOURTH TIME? And they STILL haven't themed it around chocolate at all. If it were me, I would literally make the mountain out of chocolate or something. Instead they changed the vibe to Monster Rally with a bunch of mud everywhere. I hate it. Also, it's so similar to Wario Stadium in terms of vibes, they should have done something else here.",
       "image": "world-choco-mountain.jpg",
-      "id": "39fa6a1d-6b2f-4ede-850b-c855fa458625"
+      "id": "39fa6a1d-6b2f-4ede-850b-c855fa458625",
+      "newsletter": true
     },
     {
       "trackId": 28,
@@ -674,7 +725,8 @@
       "ranking": "9",
       "description": "It's kinda iconic I guess because it appeared in Mario Kart Wii. I always enjoyed the big pipe but now as I type this I'm asking myself why. What even is this place and why does it looks like this?",
       "image": "n64-mario-raceway.webp",
-      "id": "29b1a2dc-eb04-4ec9-a30c-f0dc0f662779"
+      "id": "29b1a2dc-eb04-4ec9-a30c-f0dc0f662779",
+      "newsletter": true
     },
     {
       "trackId": 28,
@@ -687,7 +739,8 @@
       "ranking": "26",
       "description": "I think this track is one of the better Mario Circuit levels, and they made it look a lot nicer on the Wii. But I'm asking myself why does this stage have all these objects in it.",
       "image": "wii-mario-raceway.webp",
-      "id": "cdfeb677-258b-4869-b55e-28920c5bdc83"
+      "id": "cdfeb677-258b-4869-b55e-28920c5bdc83",
+      "newsletter": true
     },
     {
       "trackId": 29,
@@ -700,7 +753,8 @@
       "ranking": "14",
       "description": "I have to give it a 5 in music because it's that banger Mario Raceway music, but I do wish this track had its own Wario-style music. Otherwise, this track is to be avoided. It's insanely long, really boring, and has this jump near the end where if you get hit by a lightning, you fall to an earlier part of the track. Fuck that.",
       "image": "n64-wario-stadium-n64.png",
-      "id": "70f19a2c-07d4-4bbf-81e7-ad60521ea418"
+      "id": "70f19a2c-07d4-4bbf-81e7-ad60521ea418",
+      "newsletter": true
     },
     {
       "trackId": 29,
@@ -713,7 +767,8 @@
       "ranking": "22",
       "description": "I'm happy they brought it back, I never thought they would considering the original is so terrible, and they really successfully turned things around! Shout-outs to the Mario Kart team for saving this forgotten, terrible track! I love that they remixed the already banger music into a rockier version. I'm excited to learn how to do all the tricks on the rails that this stage has. There's a lot going on!",
       "image": "world-wario-stadium.jpg",
-      "id": "63840b3f-a9f6-41cc-a5cb-cd1f2146299e"
+      "id": "63840b3f-a9f6-41cc-a5cb-cd1f2146299e",
+      "newsletter": true
     },
     {
       "trackId": 30,
@@ -726,7 +781,8 @@
       "ranking": "4",
       "description": "That classic winter music just like Frappe Snowland, but this time used for a track that actually looks good. You're on an iceberg and you have navigate around these sharp breaks in the ice. There are penguins, and a reflective surface on the ground. It's super cool.",
       "image": "n64-sherbet-land-n64.webp",
-      "id": "ec3dc7a4-abaa-4a6c-ac2a-67885d083f5e"
+      "id": "ec3dc7a4-abaa-4a6c-ac2a-67885d083f5e",
+      "newsletter": true
     },
     {
       "trackId": 30,
@@ -739,7 +795,8 @@
       "ranking": "12",
       "description": "Great track! One of my favourites from the Wii era. I actually almost got a world record on the online on this stage because I knew the secret of the Magikoopa going faster on this stage than other bikes. I even beat some of those crazy 9999 players online with that trick and I loved it. It looks great on the Wii and the music is a classic.",
       "image": "wii-sherbet-land-n64.webp",
-      "id": "7de03805-a756-4aeb-9656-de1e2319e569"
+      "id": "7de03805-a756-4aeb-9656-de1e2319e569",
+      "newsletter": true
     },
     {
       "trackId": 31,
@@ -752,7 +809,8 @@
       "ranking": "12",
       "description": "This track is super lame, it's very plain and even less interesting than the other two Raceways. This one does have a massive jump which at the time was everything. So it gets some points for that. Also the excellent music.",
       "image": "n64-royal-raceway.webp",
-      "id": "92a8eccc-7be4-4c06-880b-8e29c82d760a"
+      "id": "92a8eccc-7be4-4c06-880b-8e29c82d760a",
+      "newsletter": true
     },
     {
       "trackId": 31,
@@ -765,7 +823,8 @@
       "ranking": "84",
       "description": "They remixed this absolute banger and it sounds great. But here we are, still looking at standard Mario Circuits. They made this one look kinda good with the hot air balloons, but underneath the surface it's just more of the same generic shit.",
       "image": "mk8-royal-raceway.webp",
-      "id": "fea507df-27b9-4e37-a9df-a79eaef7be01"
+      "id": "fea507df-27b9-4e37-a9df-a79eaef7be01",
+      "newsletter": true
     },
     {
       "trackId": 32,
@@ -778,7 +837,8 @@
       "ranking": "3",
       "description": "Such a creepy and interesting direction for a Bowser's Castle! That ominous music, what feels like a vampire castle. It's one of the best Bowser's Castles if you ask me. There's a lot of fun shit in the level, those classic tight corners, lava, a cool corner for drifting.",
       "image": "n64-bowsers-castle-n64.webp",
-      "id": "c4eea87a-b491-4761-b38d-284007e1ba31"
+      "id": "c4eea87a-b491-4761-b38d-284007e1ba31",
+      "newsletter": true
     },
     {
       "trackId": 32,
@@ -791,7 +851,8 @@
       "ranking": "18",
       "description": "Great rendition of a great track. This is one of my favourite Bowser Castles and it was an absolute banger on the Wii. Landing on the side on the final jump to shortcut past the building? Pure drama.",
       "image": "wii-bowsers-castle-n64.webp",
-      "id": "c3452392-af9d-4b13-942c-ca3527bc6f23"
+      "id": "c3452392-af9d-4b13-942c-ca3527bc6f23",
+      "newsletter": true
     },
     {
       "trackId": 33,
@@ -804,7 +865,8 @@
       "ranking": "13",
       "description": "DK got hard done by on this level. There is no music, it's just a 15 second drum loop. How disappointing is that? The level itself is just endless jungle and one cave. The jump is kinda cool I guess.",
       "image": "n64-dks-jungle-parkway.webp",
-      "id": "aac84eeb-f5f1-4b14-8146-81d65da5df11"
+      "id": "aac84eeb-f5f1-4b14-8146-81d65da5df11",
+      "newsletter": true
     },
     {
       "trackId": 33,
@@ -817,7 +879,8 @@
       "ranking": "28",
       "description": "The terrible drum loop was carried over to the Wii version. I repeat, there is no music just shit-sounding bongo drums. The vibes of the stage are also still bad. It looks like crap.",
       "image": "wii-dks-jungle-parkway.webp",
-      "id": "71037dd1-d822-4d62-a91d-94d224ae4ff9"
+      "id": "71037dd1-d822-4d62-a91d-94d224ae4ff9",
+      "newsletter": true
     },
     {
       "trackId": 34,
@@ -830,7 +893,8 @@
       "ranking": "7",
       "description": "The original multi-pathed track and honestly the best. I think everyone agrees the little shortcut on the left is the fastest. I like that taking that path is a little risky. I don't love the music but I enjoy that they put in a massive, inexplicably spinning Yoshi egg in there at the end just to make this valley into Yoshi Valley.",
       "image": "n64-yoshi-valley.webp",
-      "id": "0c4d9cb5-5e0c-49f6-bd2a-eeea80f44d92"
+      "id": "0c4d9cb5-5e0c-49f6-bd2a-eeea80f44d92",
+      "newsletter": true
     },
     {
       "trackId": 34,
@@ -843,7 +907,8 @@
       "ranking": "27",
       "description": "This is such a fun track! It branches off into a bunch of different paths, although the bridge on the left is still the fastest route. I just think this stage would be more special if all the routes were viable. The morning light looks good here and the spinning egg continues spinning in all its glory.",
       "image": "mk8-yoshi-valley.webp",
-      "id": "ce0fce91-45a8-43ab-9a3b-a6211177d12e"
+      "id": "ce0fce91-45a8-43ab-9a3b-a6211177d12e",
+      "newsletter": true
     },
     {
       "trackId": 35,
@@ -856,7 +921,8 @@
       "ranking": "5",
       "description": "They really nail the vibe in this one! I love the massive cheep cheep, the dark water, the weird bat building and ghosts that come out at the end of the track. It's kinda difficult.",
       "image": "n64-banshee-boardwalk.webp",
-      "id": "82a965c3-8739-4d91-8219-9a99b00f99f0"
+      "id": "82a965c3-8739-4d91-8219-9a99b00f99f0",
+      "newsletter": true
     },
     {
       "trackId": 35,
@@ -869,7 +935,8 @@
       "ranking": "8",
       "description": "This is much the same as the N64 version, a lot to enjoy in this level. The vibe is good and real.",
       "image": "ds-banshee-boardwalk.webp",
-      "id": "1f05a551-39f2-4c3d-aff9-3f24a1a9098a"
+      "id": "1f05a551-39f2-4c3d-aff9-3f24a1a9098a",
+      "newsletter": true
     },
     {
       "trackId": 36,
@@ -882,7 +949,8 @@
       "ranking": "2",
       "description": "Absolutely iconic stage, one of the greatest in Mario Kart history. This level was so hard, but when you got good at the game and just sailed by in first place on this stage, it felt like magic. The music is like fantasy space adventure to the max. The track is insanely long. Way too long, in fact, I don't know what they were thinking. But the big drop at the beginning is so good. It's so funny how your character just starts drifting into space for a while. It's like when the drugs hit.",
       "image": "n64-rainbow-road-n64.webp",
-      "id": "6bd778d5-ab3b-4c06-bd1c-c7bcdc8f4685"
+      "id": "6bd778d5-ab3b-4c06-bd1c-c7bcdc8f4685",
+      "newsletter": true
     },
     {
       "trackId": 36,
@@ -895,7 +963,8 @@
       "ranking": "24",
       "description": "This stage looks so gooooood! In terms of vibes it might be the best Rainbow Road. The music is good but in my opinion not as good as the original. Also, I think it's good that they made it shorter, but it's actually too short! And I remember this stage being really hard, now it's just a flat course with little to nothing going on.",
       "image": "mk8-rainbow-road-n64.webp",
-      "id": "bdce78e7-97a1-4553-a72f-d95a2dc8ad76"
+      "id": "bdce78e7-97a1-4553-a72f-d95a2dc8ad76",
+      "newsletter": true
     },
     {
       "trackId": 37,
@@ -908,7 +977,8 @@
       "ranking": "19",
       "description": "A very plain circuit. It's an introduction to the game. The generic music is good though, better than most generic mario kart music. Otherwise it's literally just driving on a road.",
       "image": "gba-peach-circuit.png",
-      "id": "69b4541e-7a60-4ab5-ad52-82e46b0cb054"
+      "id": "69b4541e-7a60-4ab5-ad52-82e46b0cb054",
+      "newsletter": true
     },
     {
       "trackId": 37,
@@ -921,7 +991,8 @@
       "ranking": "29",
       "description": "They went for a plain and easy one from Super Circuit which I guess is fine because the music is great, but it is quite boring.",
       "image": "ds-peach-circuit.png",
-      "id": "7b8933cf-3b07-4725-b6a4-c1bde9f40b71"
+      "id": "7b8933cf-3b07-4725-b6a4-c1bde9f40b71",
+      "newsletter": true
     },
     {
       "trackId": 38,
@@ -934,7 +1005,8 @@
       "ranking": "3",
       "description": "Iconic stage with some of my favourite beach music in the series. That bassline. I love that in the track you can choose which side of the islands you can go around. The crabs are cute.",
       "image": "gba-shy-guy-beach.webp",
-      "id": "599555a9-2018-4318-a90c-5e3f61714a5a"
+      "id": "599555a9-2018-4318-a90c-5e3f61714a5a",
+      "newsletter": true
     },
     {
       "trackId": 38,
@@ -947,7 +1019,8 @@
       "ranking": "6",
       "description": "Shy Guy Beach my beloved. I used to cheese really fast times on this stage (just like Sherbet Land) by using the Magikoopa in the sea, because this bike goes faster offroad. I'm also a lover of beach levels and this one is great. Sure it's flat but it's special.",
       "image": "wii-shy-guy-beach.webp",
-      "id": "4bb87fa2-f8f7-4190-a2e1-08f050522396"
+      "id": "4bb87fa2-f8f7-4190-a2e1-08f050522396",
+      "newsletter": true
     },
     {
       "trackId": 39,
@@ -960,7 +1033,8 @@
       "ranking": "11",
       "description": "I have core memories associated with playing this stage on the bus as a child. I loved the colours, the jungle vibe. The track is quite forgiving but featured a cool jump.",
       "image": "gba-riverside-park.webp",
-      "id": "c34f52a5-75e4-418b-aac4-1393e8c48cc0"
+      "id": "c34f52a5-75e4-418b-aac4-1393e8c48cc0",
+      "newsletter": true
     },
     {
       "trackId": 39,
@@ -973,7 +1047,8 @@
       "ranking": "26",
       "description": "Very cool reimagination of a GBA track that I always liked! It's honestly unrecognisable from the original but that's fine, it looks so nice. They've changed the colours up, now it's sunset, and I love sunset so it's a yes from me. The music remix is also great.",
       "image": "mk8-riverside-park.jpg",
-      "id": "363d05af-a56b-4ff5-ae2c-a65f5aae94ec"
+      "id": "363d05af-a56b-4ff5-ae2c-a65f5aae94ec",
+      "newsletter": true
     },
     {
       "trackId": 40,
@@ -986,7 +1061,8 @@
       "ranking": "6",
       "description": "I love the music from the Bowser's Castle levels, when it gets to that B section, it goes off so hard. Otherwise the tracks differentiate themselves by their fun backgrounds and increasingly long and difficult tracks. I like this one the most because it's not too punishing. However it's not long enough to listen to the whole song.",
       "image": "gba-bowsers-castle-1.webp",
-      "id": "8c4e550c-f446-4bde-963a-460738313ffb"
+      "id": "8c4e550c-f446-4bde-963a-460738313ffb",
+      "newsletter": true
     },
     {
       "trackId": 40,
@@ -999,7 +1075,8 @@
       "ranking": "12",
       "description": "really love this faithful rendition of this GBA track that I really like. The upgraded soundfont does the already excellent music wonders, and the sharp corners are totally doable in this game's mechanics. It just looks great!",
       "image": "3ds-bowsers-castle-1.jpg",
-      "id": "04b7303e-1361-476c-a024-f92c49e05172"
+      "id": "04b7303e-1361-476c-a024-f92c49e05172",
+      "newsletter": true
     },
     {
       "trackId": 41,
@@ -1012,7 +1089,8 @@
       "ranking": "20",
       "description": "It's just driving on a road, this stage has nothing to give. The generic mario kart music is nice though.",
       "image": "gba-mario-circuit-gba.png",
-      "id": "0db707fc-90bc-4ceb-9d44-a8457d68da39"
+      "id": "0db707fc-90bc-4ceb-9d44-a8457d68da39",
+      "newsletter": true
     },
     {
       "trackId": 41,
@@ -1025,7 +1103,8 @@
       "ranking": "39",
       "description": "Incredible how they took a track with so few vibes and made this banger! Just by making the area look nicer and adding a fun anti-gravity section, they turned a standard race-track into a fun race-track. They even added a little pitstop with an item box in it. So fun! This saxophone-heavy remix of the original music is also excellent.",
       "image": "mk8-mario-circuit-gba.webp",
-      "id": "c24d66ee-541b-434c-a851-8e4ba89740f3"
+      "id": "c24d66ee-541b-434c-a851-8e4ba89740f3",
+      "newsletter": true
     },
     {
       "trackId": 42,
@@ -1038,7 +1117,8 @@
       "ranking": "16",
       "description": "In my opinion, this ghost music is some of the best in the series. However, what I don't like about this track is that it's meant to be a lake but there's no water. I never liked the SNES-style ghost levels with these weird blocks that break when you hit them. The stages are so perilous!",
       "image": "gba-boo-lake.webp",
-      "id": "926f4f40-0cda-4acd-85b7-11bc3e6f829f"
+      "id": "926f4f40-0cda-4acd-85b7-11bc3e6f829f",
+      "newsletter": true
     },
     {
       "trackId": 42,
@@ -1051,7 +1131,8 @@
       "ranking": "12",
       "description": "This might be my favourite reimagining of a retro track ever! They took the very mediocre original, made it into an actual lake and added sick underwater sections. They took the ghostly boardwalk concept and went ham with it. And they added the most insane drums to the music. It goes so hard for no reason!",
       "image": "mk8-boo-lake.webp",
-      "id": "cff26d62-f621-4009-b6e3-c6ce01b30739"
+      "id": "cff26d62-f621-4009-b6e3-c6ce01b30739",
+      "newsletter": true
     },
     {
       "trackId": 43,
@@ -1064,7 +1145,8 @@
       "ranking": "14",
       "description": "Stunning landscape, I love that they made the whole place out of cheese with little mice running round. Music is a party banger.",
       "image": "gba-cheese-land.webp",
-      "id": "5664b82b-7881-4ba9-9288-370dc886009e"
+      "id": "5664b82b-7881-4ba9-9288-370dc886009e",
+      "newsletter": true
     },
     {
       "trackId": 43,
@@ -1077,7 +1159,8 @@
       "ranking": "22",
       "description": "Oh my god they took some already fantastic music and turned it into an absolute banger. It might not be the music you expect for a desert made out of cheese but it's so fun. I love the section at the end before it loops. The stage also looks completely unrecognisable from the original but that's fine. They did a lot of cheese-themed stuff to the level but I think they could have gone harder.",
       "image": "mk8-cheese-land.webp",
-      "id": "1c6730be-03e1-422a-85d7-b47f213c3adc"
+      "id": "1c6730be-03e1-422a-85d7-b47f213c3adc",
+      "newsletter": true
     },
     {
       "trackId": 44,
@@ -1090,7 +1173,8 @@
       "ranking": "7",
       "description": "Amazing music, I like the purple background a lot, but this is where shit starts to get difficult. We have the metal grating sections without walls, all those 90 degree turns and so much lava. Difficult.",
       "image": "gba-bowsers-castle-2.webp",
-      "id": "7928e379-6409-430a-8729-7de6e0353916"
+      "id": "7928e379-6409-430a-8729-7de6e0353916",
+      "newsletter": true
     },
     {
       "trackId": 44,
@@ -1103,7 +1187,8 @@
       "ranking": "12",
       "description": "How did they fuck up this music so much!? The original is so good, and this sounds just absolutely terrible on the DS. What the fuck. The stage looks really good though.",
       "image": "ds-bowsers-castle-2.png",
-      "id": "b22c00bf-b4ae-4b36-9d4e-4b58db5da36f"
+      "id": "b22c00bf-b4ae-4b36-9d4e-4b58db5da36f",
+      "newsletter": true
     },
     {
       "trackId": 45,
@@ -1116,7 +1201,8 @@
       "ranking": "13",
       "description": "For some reason Luigi's circuit is pelting it down with rain and I'm not against it. I think only Neo Bowser City had rain outside of this so it's pretty unique. I also think this generic 'mario circuit' music is super good.",
       "image": "gba-luigi-circuit-gba.webp",
-      "id": "a2c58141-0793-473f-83b4-a6225ccdba81"
+      "id": "a2c58141-0793-473f-83b4-a6225ccdba81",
+      "newsletter": true
     },
     {
       "trackId": 45,
@@ -1129,7 +1215,8 @@
       "ranking": "17",
       "description": "Interesting to see this rainy vibe translate into a more 3D space. There is actually a modelled zepellin in this version. Music is great.",
       "image": "ds-luigi-circuit-gba.png",
-      "id": "2a01757f-c61b-487d-9bc4-c01e11988c0f"
+      "id": "2a01757f-c61b-487d-9bc4-c01e11988c0f",
+      "newsletter": true
     },
     {
       "trackId": 46,
@@ -1142,7 +1229,8 @@
       "ranking": "4",
       "description": "I loved this track as a child. Driving around on clouds? Sure it looks like trash on the GBA but my brain filled in all the gaps and I loved it. Music is uplifting and great. There's a cool shortcut if you mushroom on this ramp somewhere.",
       "image": "gba-sky-garden.webp",
-      "id": "ce676649-cfdd-4260-92ec-06e4d3081c80"
+      "id": "ce676649-cfdd-4260-92ec-06e4d3081c80",
+      "newsletter": true
     },
     {
       "trackId": 46,
@@ -1155,7 +1243,8 @@
       "ranking": "11",
       "description": "They put in the Luigi Circuit zeppelin! Otherwise this stage is delight. I love the setting and this was one of my favourites as a child. The music sounds good here!",
       "image": "ds-sky-garden.png",
-      "id": "7f648826-db9b-4a03-a7a4-4e2cc5f11d55"
+      "id": "7f648826-db9b-4a03-a7a4-4e2cc5f11d55",
+      "newsletter": true
     },
     {
       "trackId": 46,
@@ -1168,7 +1257,8 @@
       "ranking": "62",
       "description": "I think this stage looks alright and I'm happy this stage is here, but I would be lying if I said I wasn't so taken by this version. Something about it just using all the assets from Cloudtop Cruise makes me feel like it wasn't made with love.",
       "image": "mk8-sky-garden.webp",
-      "id": "f3b650dd-4a19-4d0a-86f3-429b9f6467ed"
+      "id": "f3b650dd-4a19-4d0a-86f3-429b9f6467ed",
+      "newsletter": true
     },
     {
       "trackId": 47,
@@ -1181,7 +1271,8 @@
       "ranking": "2",
       "description": "The unappreciated sibling to Shy Guy Beach, same banging beach music that I love, and this time with added vibes with the sunset and massive fish jumping in the distance. It's got two difficult 90 degree turns near the end to make sure that the beginners know their place.",
       "image": "gba-cheep-cheep-island.webp",
-      "id": "275d4b86-58ec-4ddf-bfe6-e3da9a02a352"
+      "id": "275d4b86-58ec-4ddf-bfe6-e3da9a02a352",
+      "newsletter": true
     },
     {
       "trackId": 48,
@@ -1194,7 +1285,8 @@
       "ranking": "12",
       "description": "The vibes of this stage are off the charts. That sunset is so good and I LOVE how it sets over the course of the three laps. They took the desert level vibe and transformed it into something super special. The track and music are kinda mid.",
       "image": "gba-sunset-wilds.webp",
-      "id": "5b88772c-7952-4609-a54c-d904e61fa1f4"
+      "id": "5b88772c-7952-4609-a54c-d904e61fa1f4",
+      "newsletter": true
     },
     {
       "trackId": 48,
@@ -1207,7 +1299,8 @@
       "ranking": "89",
       "description": "This retro track is so upsetting. Why the fuck did they take out the sunset from Sunset Wilds? What were they thinking? Now the sun doesn't even set, it just sits there. The whole amazing vibe of the original came from the sky changing colour each lap and they just ignored that entirely. I don't enjoy driving around the track because of this, the wasted potential.",
       "image": "mk8-sunset-wilds.webp",
-      "id": "f6755e7b-3ba8-46a0-a8f3-088a86f63094"
+      "id": "f6755e7b-3ba8-46a0-a8f3-088a86f63094",
+      "newsletter": true
     },
     {
       "trackId": 49,
@@ -1220,7 +1313,8 @@
       "ranking": "15",
       "description": "This stage has little to no coins meaning I was constantly spinning out of control when doing my research for this ranking. All the coins are in one spot lined up in the middle. If you miss that for whatever reason, it's over! When you do get it though, it feels great. Also, is it harder to drift on this slippery stage? Falling in water feels terrible as well. The music is kinda plain but I love the pink sky.",
       "image": "gba-snow-land.webp",
-      "id": "5ee07bba-dfca-40cd-9f3c-09f8294509d8"
+      "id": "5ee07bba-dfca-40cd-9f3c-09f8294509d8",
+      "newsletter": true
     },
     {
       "trackId": 49,
@@ -1233,7 +1327,8 @@
       "ranking": "35",
       "description": "I think they did a great job with this track. They breathed life into an otherwise annoying stage. Now the line of coins come and follow the track for a bit, it's a cool throwback. I love the pink and blue colours!",
       "image": "mk8-snow-land.webp",
-      "id": "6930bd85-9757-408f-9175-1a34de53255b"
+      "id": "6930bd85-9757-408f-9175-1a34de53255b",
+      "newsletter": true
     },
     {
       "trackId": 50,
@@ -1246,7 +1341,8 @@
       "ranking": "9",
       "description": "I have a strong memory of this being the stand-out track on the GBA. The whole land is made of presents! What a fun concept! Although did you know that there is a busted shortcut on this track? I also think it's kind unfair with lots of difficult turns.",
       "image": "gba-ribbon-road.webp",
-      "id": "d382f449-87fa-4037-9e7a-da2dde3b72f0"
+      "id": "d382f449-87fa-4037-9e7a-da2dde3b72f0",
+      "newsletter": true
     },
     {
       "trackId": 50,
@@ -1259,7 +1355,8 @@
       "ranking": "66",
       "description": "Baffling that they took the original concept of a land made out of presents and instead remade it as a child's bedroom! I'm not saying it looks bad, far from it, but like why. I think the music was never that good and this updated version doesn't do too much to impress me. I don't feel like it fits to the this land of toys vibe. The track itself is quite chaotic with the moving ribbon, it's quite fun.",
       "image": "mk8-ribbon-road.webp",
-      "id": "df8c96ec-0ef5-4c9a-a340-917d12558e37"
+      "id": "df8c96ec-0ef5-4c9a-a340-917d12558e37",
+      "newsletter": true
     },
     {
       "trackId": 51,
@@ -1272,7 +1369,8 @@
       "ranking": "18",
       "description": "A plain and trope-y Egyptian style desert level. Music is alright, but this has nothing on Sunset Wilds. I like the Yoshi Sphinx.",
       "image": "gba-yoshi-desert.webp",
-      "id": "2564da8a-d789-406c-808a-acb60e974f31"
+      "id": "2564da8a-d789-406c-808a-acb60e974f31",
+      "newsletter": true
     },
     {
       "trackId": 52,
@@ -1285,7 +1383,8 @@
       "ranking": "5",
       "description": "Great music as usual, I like the stormy outdoors background, and the track itself isn't so ridiculous. I like the diagonal bit through the corners. There's less bullshit happening on this track.",
       "image": "gba-bowsers-castle-3.webp",
-      "id": "f7d16a19-35e0-4eb7-87d7-435960fcf88a"
+      "id": "f7d16a19-35e0-4eb7-87d7-435960fcf88a",
+      "newsletter": true
     },
     {
       "trackId": 52,
@@ -1298,7 +1397,8 @@
       "ranking": "16",
       "description": "I think this is the version that put GBA Bowser's Castle into the collective consciousness. The music sounds great here and it's one of the better of the originals. I think this is the reason I love this music so much.",
       "image": "wii-bowsers-castle-3.webp",
-      "id": "bb606145-a79b-437b-b85f-06fb3e01e6be"
+      "id": "bb606145-a79b-437b-b85f-06fb3e01e6be",
+      "newsletter": true
     },
     {
       "trackId": 53,
@@ -1311,7 +1411,8 @@
       "ranking": "10",
       "description": "This and Riverside Park are both kinda iconic for me. They really represent this era of Mario Kart. I really enjoy how they made two similar tracks and this one is like a remix of the first one, with alternative music and fun volcano eruptions, and even the sky turns darker as the race goes on. Awesome.",
       "image": "gba-lakeside-park.webp",
-      "id": "968187b6-55b6-4963-9267-e99b18bb75f3"
+      "id": "968187b6-55b6-4963-9267-e99b18bb75f3",
+      "newsletter": true
     },
     {
       "trackId": 54,
@@ -1324,7 +1425,8 @@
       "ranking": "17",
       "description": "True to its name, this stage is perilous and difficult, but I actually feel like it's on the same level as Boo Lake. What's going on with the weird mountains in the background. The music is great though.",
       "image": "gba-broken-pier.webp",
-      "id": "268057a4-1da3-4e60-aec3-9202b9305674"
+      "id": "268057a4-1da3-4e60-aec3-9202b9305674",
+      "newsletter": true
     },
     {
       "trackId": 55,
@@ -1337,7 +1439,8 @@
       "ranking": "8",
       "description": "Great music, interesting background, not sure what's going on. But this stage is so long and so fucking hard. There are so many 90 degree turns, so much lava to fall into, there are even multiple routes, and in general far too much chaos. I like that it has mechakoopas.",
       "image": "gba-bowsers-castle-4.webp",
-      "id": "ca24c414-fdb4-4ca9-a97b-db06f50fadd8"
+      "id": "ca24c414-fdb4-4ca9-a97b-db06f50fadd8",
+      "newsletter": true
     },
     {
       "trackId": 56,
@@ -1350,7 +1453,8 @@
       "ranking": "1",
       "description": "Had a good think about it and I think this is actually one of those all time great tracks. Super Circuit is a great time and when you finally unlock this super hard stage, it's so fun. They took the music in a different direction for this Rainbow Road but it still has that magic in the intro and the special section at the end. I loved when they featured that little section at the end in the Rainbow Road smash medley - that is a deep cut! The sad part is that when playing this game though, you'll probably finish the race before the song gets to that part. Otherwise this track is hard is nails because there are jumps instead of edges, but it allows for some wild shortcuts.",
       "image": "gba-rainbow-road-gba.webp",
-      "id": "5bd9193b-d107-45ff-a095-02837a2e388d"
+      "id": "5bd9193b-d107-45ff-a095-02837a2e388d",
+      "newsletter": true
     },
     {
       "trackId": 57,
@@ -1363,7 +1467,8 @@
       "ranking": "13",
       "description": "I like that they did something interesting with their tutorial level in Double Dash. In this stage, half of the lap is spent going one way, and then the other is going back on the other way on the same road, so you often come into contact with people further behind you in the lap. It's a great little idea and the music is cute.",
       "image": "gcn-luigi-circuit-gcn.webp",
-      "id": "f3f3d733-c9c2-4a60-9739-8f11146d2b4f"
+      "id": "f3f3d733-c9c2-4a60-9739-8f11146d2b4f",
+      "newsletter": true
     },
     {
       "trackId": 57,
@@ -1376,7 +1481,8 @@
       "ranking": "24",
       "description": "They took yet another beginner stage with not much going on. DS retro tracks are really not all that. At least this one has the fun two-way street gimmick.",
       "image": "ds-luigi-circuit-gcn.webp",
-      "id": "4ceee5a9-ea23-43c8-9a1c-c3aea3db984a"
+      "id": "4ceee5a9-ea23-43c8-9a1c-c3aea3db984a",
+      "newsletter": true
     },
     {
       "trackId": 58,
@@ -1389,7 +1495,8 @@
       "ranking": "2",
       "description": "Peach Beach has some of the most perfect beach music you could ever imagine. Couple that with a Super Mario Sunshine themed level complete with Cataquacks, and you have yourself a recipe for a perfect stage. So delightful and a personal favourite of mine.",
       "image": "gcn-peach-beach.webp",
-      "id": "3ab281c8-0956-4817-aac7-11ce2432fda1"
+      "id": "3ab281c8-0956-4817-aac7-11ce2432fda1",
+      "newsletter": true
     },
     {
       "trackId": 58,
@@ -1402,7 +1509,8 @@
       "ranking": "7",
       "description": "Huge track, I love it so much. This perfect beach music, the vibe, the jump over the water. Even the fact that there's a random place near the end on the left with item boxes you can visit. Why did they add that. Is one of those cruise ships Daisy Cruiser?",
       "image": "wii-peach-beach.webp",
-      "id": "85ab50cd-d2c5-406c-9919-336a01ceb258"
+      "id": "85ab50cd-d2c5-406c-9919-336a01ceb258",
+      "newsletter": true
     },
     {
       "trackId": 58,
@@ -1415,7 +1523,8 @@
       "ranking": "2",
       "description": "I was soooo excited when I learned that one of my favourite ever tracks was coming back! And thank GOD they did a good remix of the music this time. The Mario Kart 8 Daisy Cruiser music was not it for me. And now they changed this stage a bunch to turn it into an entire resort island, which I love. Vibes are great and all three laps are different. Actually the stage is kinda unrecognisable, but at least those Cataquacks are still there causing trouble. I just love the look of this place the most.",
       "image": "world-peach-beach.avif",
-      "id": "c17f7349-8dd6-4fcf-b8ed-a39dc2588800"
+      "id": "c17f7349-8dd6-4fcf-b8ed-a39dc2588800",
+      "newsletter": true
     },
     {
       "trackId": 59,
@@ -1428,7 +1537,8 @@
       "ranking": "8",
       "description": "This stage changed everything. Everyone fucking loved it because it's so simple and chaotic. I remember always kinda resenting it. There's no way to play competitively on this stage. They designed the music which goes up really well for the stage though.",
       "image": "gcn-baby-park.webp",
-      "id": "d62abe96-14df-4552-af39-4203e7079214"
+      "id": "d62abe96-14df-4552-af39-4203e7079214",
+      "newsletter": true
     },
     {
       "trackId": 59,
@@ -1441,7 +1551,8 @@
       "ranking": "18",
       "description": "Also on the DS this was deemed to be a fan favourite, although in my opinion, it didn't hit quite as hard as the original. The background looks worse and did they make the stage bigger?",
       "image": "ds-baby-park.png",
-      "id": "86f29d8a-ec26-4fda-8994-e9546a7126b8"
+      "id": "86f29d8a-ec26-4fda-8994-e9546a7126b8",
+      "newsletter": true
     },
     {
       "trackId": 59,
@@ -1454,7 +1565,8 @@
       "ranking": "74",
       "description": "Baby Park is a pretty different time compared to the previous versions but it's hard to put my finger on why. One thing they changed was they made the music go up a key each time you complete a lap. This is a cool idea, but it means you'll never get to hear the whole music track. I like the updated graphics and background but this stage is all a bit too much for my taste.",
       "image": "mk8-baby-park.webp",
-      "id": "715f28c8-541b-4ba4-9511-d2f73f8a30a5"
+      "id": "715f28c8-541b-4ba4-9511-d2f73f8a30a5",
+      "newsletter": true
     },
     {
       "trackId": 60,
@@ -1467,7 +1579,8 @@
       "ranking": "12",
       "description": "One of the worse desert levels, that's for sure. The music is grating, and the level is kinda annoying with the curves, bumps and pokeys. Also nobody ever actually falls into the quicksand.",
       "image": "gcn-dry-dry-desert.webp",
-      "id": "dcf17583-c8f6-4b10-b0d7-b017137cb90d"
+      "id": "dcf17583-c8f6-4b10-b0d7-b017137cb90d",
+      "newsletter": true
     },
     {
       "trackId": 60,
@@ -1480,7 +1593,8 @@
       "ranking": "65",
       "description": "They improved the vibe a lot from the original, thank god, but this stage doesn't reach the heights of Dry Dry Ruins or Bone Dry Desert. I like this music for its constant guitar strumming and beat. The stage is kinda boring to drive though.",
       "image": "mk8-dry-dry-desert.jpg",
-      "id": "5e18e710-96d8-4920-b9fb-2a82df97e54f"
+      "id": "5e18e710-96d8-4920-b9fb-2a82df97e54f",
+      "newsletter": true
     },
     {
       "trackId": 61,
@@ -1493,7 +1607,8 @@
       "ranking": "15",
       "description": "I don't understand why there is a bridge going between these two places when there's literally a motorway across the coast. It's clearly just trying to emulate the highs (and lows) of motorway driving. In my opinion it's a bad vibe. This is trying to be Toad's Turnpike but failing, instead it's just making me think about how much I hate cars and car infrastructure.",
       "image": "gcn-mushroom-bridge.webp",
-      "id": "ea4db8ef-d90f-44c0-8ba8-90bc9fc966d0"
+      "id": "ea4db8ef-d90f-44c0-8ba8-90bc9fc966d0",
+      "newsletter": true
     },
     {
       "trackId": 61,
@@ -1506,7 +1621,8 @@
       "ranking": "25",
       "description": "This is just like the gamecube version. I don't like it in just the same way. Actually I think it even looks worse.",
       "image": "ds-mushroom-bridge.webp",
-      "id": "8d24a5a9-5e0f-4069-b94e-a9d8be97b73c"
+      "id": "8d24a5a9-5e0f-4069-b94e-a9d8be97b73c",
+      "newsletter": true
     },
     {
       "trackId": 62,
@@ -1519,7 +1635,8 @@
       "ranking": "16",
       "description": "Wow, this is so much more boring than Luigi Circuit. This really has got nothing going for it. I guess the last couple of corners and the little bridge are kinda satisfying.",
       "image": "gcn-mario-circuit-gcn.webp",
-      "id": "d494893a-538e-445c-a884-6f0869ac8cc8"
+      "id": "d494893a-538e-445c-a884-6f0869ac8cc8",
+      "newsletter": true
     },
     {
       "trackId": 62,
@@ -1532,7 +1649,8 @@
       "ranking": "29",
       "description": "Why did they add this to Mario Kart Wii? It's a totally generic Mario Circuit and there's already Mario Raceway. Life is full of little disappointments.",
       "image": "wii-mario-circuit-gcn.webp",
-      "id": "9829f94e-13f6-4574-9f31-0c6932a2e0e3"
+      "id": "9829f94e-13f6-4574-9f31-0c6932a2e0e3",
+      "newsletter": true
     },
     {
       "trackId": 63,
@@ -1545,7 +1663,8 @@
       "ranking": "3",
       "description": "This shares the same beautiful music with Peach Beach. I'll always love Peach Beach more but this is also a real fun track. I like that the tables and item boxes roll with the waves inside the boat.",
       "image": "gcn-daisy-cruiser.webp",
-      "id": "22600511-2121-4e2c-8ae8-65f434057f94"
+      "id": "22600511-2121-4e2c-8ae8-65f434057f94",
+      "newsletter": true
     },
     {
       "trackId": 63,
@@ -1558,7 +1677,8 @@
       "ranking": "10",
       "description": "I like how they switched up this retro course by adding the underwater sections! Otherwise this is a delightful rendition of an already excellent track with excellent music. I'll always love Peach Beach more but I can't say why.",
       "image": "3ds-daisy-cruiser.webp",
-      "id": "aca6cfaa-c901-45a2-a57c-575aeae01c8b"
+      "id": "aca6cfaa-c901-45a2-a57c-575aeae01c8b",
+      "newsletter": true
     },
     {
       "trackId": 63,
@@ -1571,7 +1691,8 @@
       "ranking": "29",
       "description": "This is totally ridiculous but I'm totally hung up on loving this stage because of this weird thing in the music where the steel drum doesn't do a tremolo thing. In the original the steel drums are really subtle and this remix just does it so differently that it's jarring. It bothers me so much because otherwise this would be a perfect remix of a perfect song, especially with the beautiful strings. But this one annoyance is truly stopping me from loving Daisy Cruiser. The stage itself is fine, just same as the 3DS verison really.",
       "image": "mk8-daisy-cruiser.jpg",
-      "id": "1d2aa070-5a06-4bd1-9d4d-f6f4ee2214e9"
+      "id": "1d2aa070-5a06-4bd1-9d4d-f6f4ee2214e9",
+      "newsletter": true
     },
     {
       "trackId": 64,
@@ -1584,7 +1705,8 @@
       "ranking": "6",
       "description": "This is a pretty fun stage! This is the stadium dirt-track level that N64 Wario Stadium dreamed of being. I feel like the music is a bit shit.",
       "image": "gcn-waluigi-stadium.webp",
-      "id": "e7cc251b-105c-4552-8d84-350507b9eb5b"
+      "id": "e7cc251b-105c-4552-8d84-350507b9eb5b",
+      "newsletter": true
     },
     {
       "trackId": 64,
@@ -1597,7 +1719,8 @@
       "ranking": "23",
       "description": "Fun stage! It looks nicer than the original and you can hug the half pipe boosters which is fun and requires skill. Lots to enjoy, just the music is pretty bad.",
       "image": "wii-waluigi-stadium.webp",
-      "id": "f4886ce3-69d5-493e-88b9-2c1daa7b043b"
+      "id": "f4886ce3-69d5-493e-88b9-2c1daa7b043b",
+      "newsletter": true
     },
     {
       "trackId": 64,
@@ -1610,7 +1733,8 @@
       "ranking": "55",
       "description": "This is much the same as the Wii version, although with some nicer browns on the dirt. Not any noticeable improvements in the music really.",
       "image": "mk8-waluigi-stadium.webp",
-      "id": "0ea7551b-7749-49d4-8e93-88cc7a578939"
+      "id": "0ea7551b-7749-49d4-8e93-88cc7a578939",
+      "newsletter": true
     },
     {
       "trackId": 65,
@@ -1623,7 +1747,8 @@
       "ranking": "9",
       "description": "Decorations-wise this stage a bunch of random shit, ice-skating shy guys, freezies that freeze and bounce off of you and blowing clouds. It's going for the 'more is more' approach, which I respect, but results in a lack of cohesion. What is even going on in this level. The music's alright.",
       "image": "gcn-sherbet-land-gcn.webp",
-      "id": "4086ed4a-7bd9-4a1a-ab92-a4b5926fd0e4"
+      "id": "4086ed4a-7bd9-4a1a-ab92-a4b5926fd0e4",
+      "newsletter": true
     },
     {
       "trackId": 65,
@@ -1636,7 +1761,8 @@
       "ranking": "54",
       "description": "I really like the remixed music, it sounds so nice and contains the classic Double Dash whistle. I think this stage is really fun to drive in with the new underwater sections too. Yeah, great little ice level, I support it. It feels more cohesive than the original in terms of style.",
       "image": "mk8-sherbet-land-gcn.webp",
-      "id": "c14e9256-70b8-4e08-a5f9-71e951206467"
+      "id": "c14e9256-70b8-4e08-a5f9-71e951206467",
+      "newsletter": true
     },
     {
       "trackId": 66,
@@ -1649,7 +1775,8 @@
       "ranking": "4",
       "description": "What a wild level! It's very chaotic! There is loads of shit on the roads, loads of 90 degree turns, and even a split path. At the end a crazy against-the-traffic part. Lots of shenanigans! The music is a bit shit.",
       "image": "gcn-mushroom-city.webp",
-      "id": "bae2e3c0-b0cb-4e47-b8de-276d0daf8b9c"
+      "id": "bae2e3c0-b0cb-4e47-b8de-276d0daf8b9c",
+      "newsletter": true
     },
     {
       "trackId": 67,
@@ -1662,7 +1789,8 @@
       "ranking": "14",
       "description": "The whole thing is that the island is shaped like a Yoshi, but driving around the island you don't really feel like you're riding on a Yoshi. In fact it feels generic and boring. There's a cool mushroom shortcut through a waterfall.",
       "image": "gcn-yoshi-circuit.webp",
-      "id": "ce0b3842-7429-4524-b1ff-bf05c7de1e2e"
+      "id": "ce0b3842-7429-4524-b1ff-bf05c7de1e2e",
+      "newsletter": true
     },
     {
       "trackId": 67,
@@ -1675,7 +1803,8 @@
       "ranking": "21",
       "description": "This is just the same as the gamecube version but looks worse. I find it quite boring and not enough to do with Yoshi.",
       "image": "ds-yoshi-circuit.webp",
-      "id": "ea9031b6-5783-4abf-820f-69d5710db6d8"
+      "id": "ea9031b6-5783-4abf-820f-69d5710db6d8",
+      "newsletter": true
     },
     {
       "trackId": 67,
@@ -1688,7 +1817,8 @@
       "ranking": "76",
       "description": "I kinda enjoy this track with its many curves but other than that there's not too much going on. I resent that there's nothing really Yoshi-related here, apart from the shape of the course.",
       "image": "mk8-yoshi-circuit.webp",
-      "id": "3dcf0a7e-df8a-45c6-af67-0b3f004fb510"
+      "id": "3dcf0a7e-df8a-45c6-af67-0b3f004fb510",
+      "newsletter": true
     },
     {
       "trackId": 68,
@@ -1701,7 +1831,8 @@
       "ranking": "5",
       "description": "This is an iconic level. Shooting out of the barrel, bumping down the rocky bit at the top, attempting to jump the crevasse, getting a green shell on the rickety bridge. So many excellent shenanigans. As far as minimal drumming music, it's alright I guess.",
       "image": "gcn-dk-mountain.webp",
-      "id": "7888db3b-9e9f-498c-8fa3-361395d6c445"
+      "id": "7888db3b-9e9f-498c-8fa3-361395d6c445",
+      "newsletter": true
     },
     {
       "trackId": 68,
@@ -1714,7 +1845,8 @@
       "ranking": "22",
       "description": "Super fun stage equally as good as the original if not better thanks to the better mechanics, making it more possible than ever to cross that crevasse!",
       "image": "wii-dk-mountain.webp",
-      "id": "fbfff9dc-d411-4c12-8e07-7234c6ecf051"
+      "id": "fbfff9dc-d411-4c12-8e07-7234c6ecf051",
+      "newsletter": true
     },
     {
       "trackId": 68,
@@ -1727,7 +1859,8 @@
       "ranking": "36",
       "description": "Such a great track now looking good in fancy HD. So much potential for shenanigans on that final bridge, and that crevasse in the ground is still a lot of fun.",
       "image": "mk8-dk-mountain.webp",
-      "id": "fa2fe2ee-310d-42a4-9fa1-c4f12a387330"
+      "id": "fa2fe2ee-310d-42a4-9fa1-c4f12a387330",
+      "newsletter": true
     },
     {
       "trackId": 69,
@@ -1740,7 +1873,8 @@
       "ranking": "11",
       "description": "Of all the levels, this is the one that feels most like a rollercoaster. It's insane! If you've got the drifting down in this game, it can be a fun level, but otherwise it's too much. It's too long! Vibes are good though.",
       "image": "gcn-wario-colosseum.webp",
-      "id": "d4a813bb-a960-4fb2-a5ed-4fea774d0ef6"
+      "id": "d4a813bb-a960-4fb2-a5ed-4fea774d0ef6",
+      "newsletter": true
     },
     {
       "trackId": 70,
@@ -1753,7 +1887,8 @@
       "ranking": "7",
       "description": "I remember this track being so difficult. But it's hard to deny that it's super cool. I mean, dinosaurs are great. I love that you get to see the dinosaur's feet as well as its head later on in the track.",
       "image": "gcn-dino-dino-jungle.webp",
-      "id": "772c9235-ea71-47d7-af1a-87104c9f323a"
+      "id": "772c9235-ea71-47d7-af1a-87104c9f323a",
+      "newsletter": true
     },
     {
       "trackId": 70,
@@ -1766,7 +1901,8 @@
       "ranking": "15",
       "description": "Super fun level with a big dinosaur in it! I remember it being really hard on the gamecube but totally fine here, although that's probably just because I grew up.",
       "image": "3ds-dino-dino-jungle.webp",
-      "id": "a4261a0f-af46-4ded-bc6c-b9641790a0d7"
+      "id": "a4261a0f-af46-4ded-bc6c-b9641790a0d7",
+      "newsletter": true
     },
     {
       "trackId": 70,
@@ -1779,7 +1915,8 @@
       "ranking": "4",
       "description": "The drums in this remix are so good. I love arriving to this track in the game because it just goes so hard. And then theres dinosaurs everywhere? Fucking love it. There's more dinosaurs than in the original. There's straight up dinosaurs everywhere! And they innovated by changing the vibe to a Jurassic Park situation. It's a lot of fun. I mean hello, you can do tricks off of the Triceratops!",
       "image": "world-dino-dino-jungle.png",
-      "id": "c7f08e18-aa2b-41d0-9e5f-5c0bb09c5407"
+      "id": "c7f08e18-aa2b-41d0-9e5f-5c0bb09c5407",
+      "newsletter": true
     },
     {
       "trackId": 71,
@@ -1792,7 +1929,8 @@
       "ranking": "10",
       "description": "This Bowser's Castle feels a bit random. Sure, it has cool elements in it, lots of fun obstacles, but it doesn't have a coherent vibe. Nor does it have good music.",
       "image": "gcn-bowsers-castle-gcn.webp",
-      "id": "fb7ad1a7-124f-4eaf-a1a9-bf25c54674de"
+      "id": "fb7ad1a7-124f-4eaf-a1a9-bf25c54674de",
+      "newsletter": true
     },
     {
       "trackId": 72,
@@ -1805,7 +1943,8 @@
       "ranking": "1",
       "description": "Let me tell you the fact that this Rainbow Road was set floating above a city in the nighttime was so fucking cool back then. It was inspired. This level was so beautiful. I love it! And the music just perfect. Maybe it's the best ever Rainbow Road music, and that's saying something with all those incredible Mario Kart 8 remixes. It's just timeless!",
       "image": "gcn-rainbow-road-gcn.webp",
-      "id": "25384c2e-24e8-4d90-9488-cc3e73b8a042"
+      "id": "25384c2e-24e8-4d90-9488-cc3e73b8a042",
+      "newsletter": true
     },
     {
       "trackId": 73,
@@ -1818,7 +1957,8 @@
       "ranking": "32",
       "description": "Wild that this lame-ass, boring-ass track got the highest honour of being a stage in Super Smash Bros. The music is cute but not nearly enough to save this plain-ass, sleepy-ass racetrack.",
       "image": "ds-figure-8-circuit.webp",
-      "id": "5d7ae711-fe1e-4a76-a13b-3dc970f1d3b6"
+      "id": "5d7ae711-fe1e-4a76-a13b-3dc970f1d3b6",
+      "newsletter": true
     },
     {
       "trackId": 74,
@@ -1831,7 +1971,8 @@
       "ranking": "13",
       "description": "What a bizarre design for a stage. Why does it look like this. I guess it's kinda fun to risk it all and drive on the sloped bit. This particular minimal drum music is at least catchy.",
       "image": "ds-yoshi-falls.webp",
-      "id": "f44c3edc-cc34-4a6c-9a66-51a46024d64d"
+      "id": "f44c3edc-cc34-4a6c-9a66-51a46024d64d",
+      "newsletter": true
     },
     {
       "trackId": 74,
@@ -1844,7 +1985,8 @@
       "ranking": "24",
       "description": "A third retro track in Mario Kart Wii with jungle-drums music. This one is pretty boring but thinking back maybe I did have a lot of fun on this stage after all.",
       "image": "wii-yoshi-falls.webp",
-      "id": "98403f90-93fe-46b3-a2db-85fb6b007579"
+      "id": "98403f90-93fe-46b3-a2db-85fb6b007579",
+      "newsletter": true
     },
     {
       "trackId": 75,
@@ -1857,7 +1999,8 @@
       "ranking": "6",
       "description": "I like the beach music a lot, and although it does have that bland, Koopa Troopa Beach look to it, it's not nearly as bad as that, and also features different sections. All in all a worthy entry into the Mario Beach level canon.",
       "image": "ds-cheep-cheep-beach.webp",
-      "id": "a43a7f65-00d8-46d9-8d35-082ec1c7bc5c"
+      "id": "a43a7f65-00d8-46d9-8d35-082ec1c7bc5c",
+      "newsletter": true
     },
     {
       "trackId": 75,
@@ -1870,7 +2013,8 @@
       "ranking": "31",
       "description": "I love all the lighting effects they added to this stage to make it feel like you're in the Caribbean. I like the remix of the music, which is hugely giving Mario Sunshine energy. This version might be one of my favourite beach levels!",
       "image": "mk8-cheep-cheep-beach.webp",
-      "id": "19029609-ac42-4589-a9da-f69cb648c631"
+      "id": "19029609-ac42-4589-a9da-f69cb648c631",
+      "newsletter": true
     },
     {
       "trackId": 76,
@@ -1883,7 +2027,8 @@
       "ranking": "20",
       "description": "Always kinda hated this level for some reason. On paper it's alright, but something about constantly playing it with the free download multiplayer thing made me hate it. Don't like the music or the swamp bit.",
       "image": "ds-luigis-mansion.webp",
-      "id": "c8d20520-9833-4a9d-8a29-b46cf4d4ea36"
+      "id": "c8d20520-9833-4a9d-8a29-b46cf4d4ea36",
+      "newsletter": true
     },
     {
       "trackId": 76,
@@ -1896,7 +2041,8 @@
       "ranking": "22",
       "description": "At least it's a new kind of spooky level, you get to go in the mansion and stuff. But the music doesn't fit and I just have this personal thing against this stage because I disliked it on the DS.",
       "image": "3ds-luigis-mansion.webp",
-      "id": "fcb60510-66f2-4186-8ce1-28beed82a0b5"
+      "id": "fcb60510-66f2-4186-8ce1-28beed82a0b5",
+      "newsletter": true
     },
     {
       "trackId": 77,
@@ -1909,7 +2055,8 @@
       "ranking": "14",
       "description": "I think this level low-key taught me how to snake in this game. Those turns at the end around the hills require constant drifting and before you know it, you're snaking. The music is cheeky and the vibe is plain, but I enjoy the Super Mario Bros 3-style sun spitting out fireballs.",
       "image": "ds-desert-hills.webp",
-      "id": "38df364d-8ab1-455c-8691-7881a7b278ed"
+      "id": "38df364d-8ab1-455c-8691-7881a7b278ed",
+      "newsletter": true
     },
     {
       "trackId": 77,
@@ -1922,7 +2069,8 @@
       "ranking": "20",
       "description": "This level is kinda shit compared to Dry Dry Ruins but there are good times to be had here. I just think it looks and sounds kinda shit.",
       "image": "wii-desert-hills.webp",
-      "id": "67764084-3daf-4d58-894b-761becf70bb3"
+      "id": "67764084-3daf-4d58-894b-761becf70bb3",
+      "newsletter": true
     },
     {
       "trackId": 77,
@@ -1935,7 +2083,8 @@
       "ranking": "29",
       "description": "Listen, I'm not the biggest Desert Hills hater but why did they pick this when they already have two good DS tracks, no GBA tracks, and Yoshi Desert is RIGHT THERE! Not only that but they flattened the eponymous hills! The music or the generic desert vibe of the area does is no favours either. Sad to say that they fucked up on desert hills lads. They could have added the angry sun at least.",
       "image": "world-desert-hills.avif",
-      "id": "ae96e6c7-8dfe-4292-b627-44cd28fc1b6f"
+      "id": "ae96e6c7-8dfe-4292-b627-44cd28fc1b6f",
+      "newsletter": true
     },
     {
       "trackId": 78,
@@ -1948,7 +2097,8 @@
       "ranking": "4",
       "description": "Delightful DS classic! I feel that this music really captures the 'peachy' vibe of a lot of the 'urban'-style tracks. The track itself is really hard with all the hard-to-see sharp corners and the pier. There's a cool little shortcut between the buildings which I like.",
       "image": "ds-delfino-square.webp",
-      "id": "cc3a2fdd-233c-4323-8b62-f663f40063b2"
+      "id": "cc3a2fdd-233c-4323-8b62-f663f40063b2",
+      "newsletter": true
     },
     {
       "trackId": 78,
@@ -1961,7 +2111,8 @@
       "ranking": "14",
       "description": "I was so excited when one of my favourite DS tracks came back on the Wii, and it sounds so good now! The streets are a bit bigger which makes it a bit nicer to drive in. I think it looks great.",
       "image": "wii-delfino-square.webp",
-      "id": "ef7cbe56-e56a-4777-a344-66037cfdb6c3"
+      "id": "ef7cbe56-e56a-4777-a344-66037cfdb6c3",
+      "newsletter": true
     },
     {
       "trackId": 79,
@@ -1974,7 +2125,8 @@
       "ranking": "1",
       "description": "An all-time Mario Kart classic! Waluigi Pinball is so iconic. The music goes so hard, and the level itself is just so inspired. I'm a huge fan.",
       "image": "ds-waluigi-pinball.webp",
-      "id": "2a486859-a574-446c-bf36-9fb2985d07de"
+      "id": "2a486859-a574-446c-bf36-9fb2985d07de",
+      "newsletter": true
     },
     {
       "trackId": 79,
@@ -1987,7 +2139,8 @@
       "ranking": "3",
       "description": "It's hard to give this a perfect score because Waluigi literally isn't a playable character in Mario Kart 7. It's kinda scandalous if you think about it. Anyway this is an all time classic track and it's almost wasted on Mario Kart 7.",
       "image": "3ds-waluigi-pinball.jpg",
-      "id": "26059ec8-1d20-469b-bfc9-e6ca6c1d90f3"
+      "id": "26059ec8-1d20-469b-bfc9-e6ca6c1d90f3",
+      "newsletter": true
     },
     {
       "trackId": 79,
@@ -2000,7 +2153,8 @@
       "ranking": "23",
       "description": "This classic track is remade again with new graphics and I'm in. Well, I'm in it for the music! Except what I hadn't realised while popping off during the reveal of this track was we already had a remix of this music in Wario Stadium! Whatever, this stage is still great and a lot of fun. although, is it possible that this stage is too big now? I never get hit by the balls anymore.",
       "image": "mk8-waluigi-pinball.webp",
-      "id": "5aa87c20-8c34-48b0-ad9a-8020462c1f56"
+      "id": "5aa87c20-8c34-48b0-ad9a-8020462c1f56",
+      "newsletter": true
     },
     {
       "trackId": 80,
@@ -2013,7 +2167,8 @@
       "ranking": "10",
       "description": "For a road through green fields stage, this is actually alright! The music is very uplifting and fun, although in this version there is traffic coming towards you as well as going away, which makes it stressful. Driving along the cliffside is fun and dangerous!",
       "image": "ds-shroom-ridge.png",
-      "id": "fc01968d-5c23-4453-a94c-e14deddc1465"
+      "id": "fc01968d-5c23-4453-a94c-e14deddc1465",
+      "newsletter": true
     },
     {
       "trackId": 80,
@@ -2026,7 +2181,8 @@
       "ranking": "34",
       "description": "I just love this positive-sounding and uplifting music! Sounds like partying with a smile on your face. They rocked it with the remix, although I don't think they rocked it with the graphics. It looks very plain and I feel like they could have done more with it.",
       "image": "mk8-shroom-ridge.webp",
-      "id": "6c8c0785-abdb-4750-b7a4-a849627252e7"
+      "id": "6c8c0785-abdb-4750-b7a4-a849627252e7",
+      "newsletter": true
     },
     {
       "trackId": 81,
@@ -2039,7 +2195,8 @@
       "ranking": "19",
       "description": "One of two DK-goes-skiing stages. I find it quite plain and the music quite annoying. Hard to appreciate this when DK's Snowboard Cross exists.",
       "image": "ds-dk-pass.webp",
-      "id": "34295d0f-0a81-4f1e-bbe3-d98f7d4f5900"
+      "id": "34295d0f-0a81-4f1e-bbe3-d98f7d4f5900",
+      "newsletter": true
     },
     {
       "trackId": 81,
@@ -2052,7 +2209,8 @@
       "ranking": "21",
       "description": "It's alright I guess but I don't like that violin sound in the music. Definitely one of the weaker snow levels and this version brings nothing new to the table.",
       "image": "3ds-dk-pass.jpg",
-      "id": "adf21415-0b3e-42ae-b58d-779d62b7651e"
+      "id": "adf21415-0b3e-42ae-b58d-779d62b7651e",
+      "newsletter": true
     },
     {
       "trackId": 81,
@@ -2065,7 +2223,8 @@
       "ranking": "23",
       "description": "They turned this stage into a ski resort which I enjoy! It's a nice look, although why did they take away the snowmen at the end of the track? Baffling decision. They went full christmas on the soundtrack which I'm not against. This track is neither here nor there for me.",
       "image": "world-dk-pass.avif",
-      "id": "3cd44001-fbdc-455e-8a93-4fc76e16c4d4"
+      "id": "3cd44001-fbdc-455e-8a93-4fc76e16c4d4",
+      "newsletter": true
     },
     {
       "trackId": 82,
@@ -2078,7 +2237,8 @@
       "ranking": "9",
       "description": "Making a level out of Super Mario 64's clock level is so inspired! The music is better than you might think on first listen and they did a great job with the visuals.",
       "image": "ds-tick-tock-clock.png",
-      "id": "75e95a14-70fc-4244-8939-82e15a6cf30c"
+      "id": "75e95a14-70fc-4244-8939-82e15a6cf30c",
+      "newsletter": true
     },
     {
       "trackId": 82,
@@ -2091,7 +2251,8 @@
       "ranking": "57",
       "description": "So fun that they brought back this niche DS track based on the Super Mario 64 clock level. I love what they did with the place! I think the music sounds better than ever and the stage remains a lot of fun to play.",
       "image": "mk8-tick-tock-clock.webp",
-      "id": "f9d994d7-26a3-4d31-9c81-64b4111be7f3"
+      "id": "f9d994d7-26a3-4d31-9c81-64b4111be7f3",
+      "newsletter": true
     },
     {
       "trackId": 83,
@@ -2104,7 +2265,8 @@
       "ranking": "30",
       "description": "This Mario Circuit really brings nothing to the table. There's nothing here. At least it's not Figure-8 Circuit.",
       "image": "ds-mario-circuit-ds.png",
-      "id": "cbfad988-6606-4eda-8913-e6666dca2eca"
+      "id": "cbfad988-6606-4eda-8913-e6666dca2eca",
+      "newsletter": true
     },
     {
       "trackId": 83,
@@ -2117,7 +2279,8 @@
       "ranking": "96",
       "description": "Super lame that they brought back this boring ass Mario Circuit. There are so few good Mario Circuits why does this have to keep happening! This one really has nothing of note in the track. I guess there's a big wiggler. Not enough to impress me.",
       "image": "mk8-mario-circuit-ds.webp",
-      "id": "9717df05-39c1-4235-a2b6-eef258a5376d"
+      "id": "9717df05-39c1-4235-a2b6-eef258a5376d",
+      "newsletter": true
     },
     {
       "trackId": 84,
@@ -2130,7 +2293,8 @@
       "ranking": "3",
       "description": "Hidden gem! Great western-style music and a super unique setting: the airships from Super Mario Bros 3! Then you get shot into a building with a sick twisty tower. There's a lot to love, mainly the banging music.",
       "image": "ds-airship-fortress.webp",
-      "id": "571833cc-f914-465b-9807-97efe9a706d3"
+      "id": "571833cc-f914-465b-9807-97efe9a706d3",
+      "newsletter": true
     },
     {
       "trackId": 84,
@@ -2143,7 +2307,8 @@
       "ranking": "2",
       "description": "A unique and fun track from the DS days. I just really enjoy the vibe of the area and the especially the upbeat western-style music.",
       "image": "3ds-airship-fortress.webp",
-      "id": "254a611e-cd02-49ca-88b7-87ff4a77c405"
+      "id": "254a611e-cd02-49ca-88b7-87ff4a77c405",
+      "newsletter": true
     },
     {
       "trackId": 84,
@@ -2156,7 +2321,8 @@
       "ranking": "1",
       "description": "So happy they brought back this classic from DS! They made it look soooo good! Wild that they have this cartoonish open world where all the tracks are connected, and this one is just a literal war zone. They went super hard on the music and drifting around that tower remains as much fun as always. Love love love.",
       "image": "world-airship-fortress.webp",
-      "id": "ae139aaa-16ea-492e-8296-9294dc7c0434"
+      "id": "ae139aaa-16ea-492e-8296-9294dc7c0434",
+      "newsletter": true
     },
     {
       "trackId": 85,
@@ -2169,7 +2335,8 @@
       "ranking": "15",
       "description": "This also uses the same music as Waluigi Pinball so you are jamming your way through this dirt-track stadium. Seriously why are there so many levels that look like this. This one is kinda hard to get right in terms of turning the corners. I like that there are lots of boosters.",
       "image": "ds-wario-stadium-ds.webp",
-      "id": "93ea2f85-9884-4658-ae48-737d24d4137e"
+      "id": "93ea2f85-9884-4658-ae48-737d24d4137e",
+      "newsletter": true
     },
     {
       "trackId": 85,
@@ -2182,7 +2349,8 @@
       "ranking": "52",
       "description": "They had some fun with this level and added an anti-gravity section which I like! Otherwise it's the same fun obstacles in this same-y dirt track place. The music is Waluigi Pinball so hell yeah it's great.",
       "image": "mk8-wario-stadium-ds.webp",
-      "id": "8ae22671-a5c9-47d1-870f-42700aa79509"
+      "id": "8ae22671-a5c9-47d1-870f-42700aa79509",
+      "newsletter": true
     },
     {
       "trackId": 86,
@@ -2195,7 +2363,8 @@
       "ranking": "5",
       "description": "This is how you make a Peach level! The vibes are on point. It looks like royal gardens, not a racetrack, which just makes it fun, almost like you're trespassing. Music is in a rare 3/4 and nails the feeling perfectly.",
       "image": "ds-peach-gardens.png",
-      "id": "f10c3d0f-514a-4902-9d9c-bda3d7faea76"
+      "id": "f10c3d0f-514a-4902-9d9c-bda3d7faea76",
+      "newsletter": true
     },
     {
       "trackId": 86,
@@ -2208,7 +2377,8 @@
       "ranking": "19",
       "description": "Beautiful track with loads of fun routes to take. As good as the DS version if not better. A delight.",
       "image": "wii-peach-gardens.png",
-      "id": "08cc52ba-f64d-4235-a3d7-a6f091f3d879"
+      "id": "08cc52ba-f64d-4235-a3d7-a6f091f3d879",
+      "newsletter": true
     },
     {
       "trackId": 86,
@@ -2221,7 +2391,8 @@
       "ranking": "15",
       "description": "They changed it around so that in the final lap you go a different way around the track! It's inspired and I love it. The new remix of the music is great.",
       "image": "mk8-peach-gardens.webp",
-      "id": "2823037f-14b1-47ce-8e12-c9901f839611"
+      "id": "2823037f-14b1-47ce-8e12-c9901f839611",
+      "newsletter": true
     },
     {
       "trackId": 87,
@@ -2234,7 +2405,8 @@
       "ranking": "16",
       "description": "The most memorable part of this level is the massive twisting pole that you ride towards the end of the track. Why on earth did they put that in. Apart from that, there's your typical Bowser's Castle full of traps and stuff. I feel like the ending is a call back to the GBA Bowser's Castles which is nice.",
       "image": "ds-bowsers-castle-ds.webp",
-      "id": "cc87679b-6e92-4533-8a11-bc399b28e0a8"
+      "id": "cc87679b-6e92-4533-8a11-bc399b28e0a8",
+      "newsletter": true
     },
     {
       "trackId": 88,
@@ -2247,7 +2419,8 @@
       "ranking": "2",
       "description": "This Rainbow Road isn't like the others, I feel like the music has a slightly melancholic edge to it. I remember enjoying playing it on the piano but really slow like a ballad. That's how much Rainbow Road has touched me. Driving on this one was so fun because it had a loop-the-loop and a really cool spiral section. A lot to love.",
       "image": "ds-rainbow-road-ds.webp",
-      "id": "673ab192-7887-4ab6-a00e-c274971c29c8"
+      "id": "673ab192-7887-4ab6-a00e-c274971c29c8",
+      "newsletter": true
     },
     {
       "trackId": 89,
@@ -2260,7 +2433,8 @@
       "ranking": "32",
       "description": "I always thought this track was lame, and to this day I do not understand why everyone always picked it when playing online. It's just a plain boring racetrack with nothing.",
       "image": "wii-luigi-circuit-wii.webp",
-      "id": "c2764dd9-d9af-43b1-a895-9d66a4f45641"
+      "id": "c2764dd9-d9af-43b1-a895-9d66a4f45641",
+      "newsletter": true
     },
     {
       "trackId": 90,
@@ -2273,7 +2447,8 @@
       "ranking": "21",
       "description": "This level is iconic and well-loved by many. In this game it's really giving Moo Moo Farm, a stage I really dislike. The cows are great though. It's just a really great track.",
       "image": "wii-moo-moo-meadows.webp",
-      "id": "76b29d66-bdf6-4f90-bb2b-d53fb4990d1b"
+      "id": "76b29d66-bdf6-4f90-bb2b-d53fb4990d1b",
+      "newsletter": true
     },
     {
       "trackId": 90,
@@ -2286,7 +2461,8 @@
       "ranking": "33",
       "description": "They took a (in my opinion) mediocre stage from the Wii and made it STUNNING! The morning light and updated look is just so good, and the new music has beautiful strings now. It creates a super special vibe and thus solidifies itself as the best farm-themed level.",
       "image": "mk8-moo-moo-meadows.webp",
-      "id": "b3e4652f-bb87-4448-84be-55af595e0134"
+      "id": "b3e4652f-bb87-4448-84be-55af595e0134",
+      "newsletter": true
     },
     {
       "trackId": 90,
@@ -2299,7 +2475,8 @@
       "ranking": "26",
       "description": "I think I'm just really bored of this track by now. They did nothing new with it really, so I'm not excited to drive there in this game. I think it looks worse than the previous game, and the music isn't anything new. More of the same. It's become like a new Mario Circuit.",
       "image": "world-moo-moo-meadows.webp",
-      "id": "cb0c7a29-7d3a-4a12-bee9-1248c823a5ce"
+      "id": "cb0c7a29-7d3a-4a12-bee9-1248c823a5ce",
+      "newsletter": true
     },
     {
       "trackId": 91,
@@ -2312,7 +2489,8 @@
       "ranking": "27",
       "description": "I never liked this stage, mainly because of the ugly music. That flute and synth combo just sounds clown-like and shit. The level looks pretty shit too, and bouncing on mushrooms is not enough to keep me interested.",
       "image": "wii-mushroom-gorge.png",
-      "id": "238ed912-583d-401c-9241-3f669ccf5999"
+      "id": "238ed912-583d-401c-9241-3f669ccf5999",
+      "newsletter": true
     },
     {
       "trackId": 91,
@@ -2325,7 +2503,8 @@
       "ranking": "29",
       "description": "I've always hated Mushroom Gorge. The music sounds so shit and it looks and is boring as a stage. Mario Kart 7 has taken no steps to improve it.",
       "image": "3ds-mushroom-gorge.jpg",
-      "id": "d6f0a5e8-0965-4c03-8a32-bee270a74f70"
+      "id": "d6f0a5e8-0965-4c03-8a32-bee270a74f70",
+      "newsletter": true
     },
     {
       "trackId": 91,
@@ -2338,7 +2517,8 @@
       "ranking": "88",
       "description": "They barely remixed the music at all meaning that this music sounds equally as shit as before. And the stage remains boring. There is now a new, blue mushroom to bounce on and that's it.",
       "image": "mk8-mushroom-gorge.jpg",
-      "id": "01abf46b-e848-4582-b65b-afb20f388c67"
+      "id": "01abf46b-e848-4582-b65b-afb20f388c67",
+      "newsletter": true
     },
     {
       "trackId": 92,
@@ -2351,7 +2531,8 @@
       "ranking": "10",
       "description": "This is a classic and a banger! The music is an easy 10/10, it has that wild piano section at the start which is so hard to play on the piano - what key is it even in? And the track just gets wilder as it goes on. For effect, they reset the track when you shoot out of the factory at the end of the lap, but this means that you never hear the whole music track, which is actually tragic. It's also super cool how this track is all about how they make those item boxes. Awesome.",
       "image": "wii-toads-factory.webp",
-      "id": "0855a969-23cf-4865-ad8d-e8fda4314548"
+      "id": "0855a969-23cf-4865-ad8d-e8fda4314548",
+      "newsletter": true
     },
     {
       "trackId": 92,
@@ -2364,7 +2545,8 @@
       "ranking": "9",
       "description": "So happy they brought back this classic from the Wii! It's pretty faithful, and the remixed music is great, and crucially, you can hear the whole track this time! Everything about this track is just excellent.",
       "image": "world-toads-factory.webp",
-      "id": "ea33b4ac-f81c-402d-b4ba-17d4ddcaf175"
+      "id": "ea33b4ac-f81c-402d-b4ba-17d4ddcaf175",
+      "newsletter": true
     },
     {
       "trackId": 93,
@@ -2377,7 +2559,8 @@
       "ranking": "31",
       "description": "A pretty boring Mario Circuit. Why are there so many of these. This is bringing nothing to the table, only this part with the chain chomp. Better than Luigi Circuit I guess.",
       "image": "wii-mario-circuit-wii.webp",
-      "id": "e0bf997e-d7fc-4780-8bff-463f038a9aeb"
+      "id": "e0bf997e-d7fc-4780-8bff-463f038a9aeb",
+      "newsletter": true
     },
     {
       "trackId": 94,
@@ -2390,7 +2573,8 @@
       "ranking": "3",
       "description": "This level is a classic! There's so much to enjoy - the escalators changing directions, the multiple paths, the shortcut through the shop, the awkward jumps in the garden area, and most importantly the cars with the miis in them. I have fond memories of my Obama mii smiling at me after running me over at the end of the lap. And the music! The little excited build up at the start and then the ding! So good.",
       "image": "wii-coconut-mall.webp",
-      "id": "ce87f9b9-8a67-470d-835a-3723d2fca218"
+      "id": "ce87f9b9-8a67-470d-835a-3723d2fca218",
+      "newsletter": true
     },
     {
       "trackId": 94,
@@ -2403,7 +2587,8 @@
       "ranking": "8",
       "description": "A banger classic from the Wii era. Great music, fun premise. Much the same as the Wii version.",
       "image": "3ds-coconut-mall.webp",
-      "id": "1421b61a-2835-4dc4-ba40-3fa98597212f"
+      "id": "1421b61a-2835-4dc4-ba40-3fa98597212f",
+      "newsletter": true
     },
     {
       "trackId": 94,
@@ -2416,7 +2601,8 @@
       "ranking": "13",
       "description": "It's so hype that they brought back this track! It's an absolute classic and it still holds up today. It looks great and they even mixed up the cars at the end with these crazy spin moves that they do. Whatever I'm all for it. The music sounds so good.",
       "image": "mk8-coconut-mall.jpg",
-      "id": "5c09eb61-ddf7-402b-a681-08c3997df4e4"
+      "id": "5c09eb61-ddf7-402b-a681-08c3997df4e4",
+      "newsletter": true
     },
     {
       "trackId": 95,
@@ -2429,7 +2615,8 @@
       "ranking": "5",
       "description": "Such a fun stage to play on! I love the half pipe at the end when you can hug the walls to go really fast. And I love the two massive crevasses that I always attempt to jump over. The 1% of times that I actually pull it off feel good enough to make up for all the times I fail. The music is also so good! It's way more vibes than DK Pass and features what sounds like K.K. Slider saying '1234' at the start. I don't know if that's real.",
       "image": "wii-dks-snowboard-cross.webp",
-      "id": "6c94ec23-6bd3-406b-a916-686ece0d8751"
+      "id": "6c94ec23-6bd3-406b-a916-686ece0d8751",
+      "newsletter": true
     },
     {
       "trackId": 95,
@@ -2442,7 +2629,8 @@
       "ranking": "20",
       "description": "An excellent upgrade to an already excellent stage! All the random jumps and stuff are equally as fun here as on the Wii. It looks great and has a fantastic soundtrack. So much to enjoy, especially attempting to jump over the massive crevasse.",
       "image": "mk8-dks-snowboard-cross.jpg",
-      "id": "80fced8f-486e-4457-a023-bb8f0bae7ae3"
+      "id": "80fced8f-486e-4457-a023-bb8f0bae7ae3",
+      "newsletter": true
     },
     {
       "trackId": 96,
@@ -2455,7 +2643,8 @@
       "ranking": "15",
       "description": "Super fun level with insane steep ups and downs! Also a sick shortcut at the end in the mine. Music is alright and I like the vibe a lot.",
       "image": "wii-warios-gold-mine.webp",
-      "id": "76ccf25a-87dd-4964-b891-7fbdff91c706"
+      "id": "76ccf25a-87dd-4964-b891-7fbdff91c706",
+      "newsletter": true
     },
     {
       "trackId": 96,
@@ -2468,7 +2657,8 @@
       "ranking": "30",
       "description": "They made this level look really good! I am a sucker for a sunset though. Now the minecarts are little boosters which make a different kind of vibe in the underground part. You still need to time it right for the shortcut which is fun.",
       "image": "mk8-warios-gold-mine.webp",
-      "id": "bd917463-0d59-4c82-8a91-824169c7cb07"
+      "id": "bd917463-0d59-4c82-8a91-824169c7cb07",
+      "newsletter": true
     },
     {
       "trackId": 97,
@@ -2481,7 +2671,8 @@
       "ranking": "1",
       "description": "Potentially my all-time favourite Mario Kart track ever! This music is everything. This is music for going shopping with the girls. It's hopeful and lovely and there is a gorgeous sunset. I just love it. I will always feel happy driving on this course, even if it's pretty simple. It's got the hidden jump in the house, the corner at the end with the pavement. It's just great.",
       "image": "wii-daisy-circuit.webp",
-      "id": "f4d55b3a-0e48-4da6-85a4-b894dae91e20"
+      "id": "f4d55b3a-0e48-4da6-85a4-b894dae91e20",
+      "newsletter": true
     },
     {
       "trackId": 97,
@@ -2494,7 +2685,8 @@
       "ranking": "2",
       "description": "I love Daisy Circuit with all my heart! They remixed the music and I couldn't be happier with it. I love the positive vibe of this stage, the sunset of course, and the strange piranha plant cardboard pop-up that obstructs the little staircase in the house that you can drive up.",
       "image": "mk8-daisy-circuit.webp",
-      "id": "8e09b438-dabc-4dbb-9bb8-eb12698e3734"
+      "id": "8e09b438-dabc-4dbb-9bb8-eb12698e3734",
+      "newsletter": true
     },
     {
       "trackId": 98,
@@ -2507,7 +2699,8 @@
       "ranking": "13",
       "description": "This course really has everything! The cliffside at the start, then the river, then the underwater bit. This was the bees knees. I love that the music changes for the river and the underwater part, although it's not the best music ever.",
       "image": "wii-koopa-cape.webp",
-      "id": "b1ee6898-e2ac-4fbf-a299-884ec83fd4bf"
+      "id": "b1ee6898-e2ac-4fbf-a299-884ec83fd4bf",
+      "newsletter": true
     },
     {
       "trackId": 98,
@@ -2520,7 +2713,8 @@
       "ranking": "14",
       "description": "Inexplicably, there is no river rapids variation of the song. Why go to the effort of remastering the soundtrack and missing that? They also made the underwater section actually underwater and I'm kinda not cool with that. Still a good track.",
       "image": "3ds-koopa-cape.webp",
-      "id": "3b936be0-262b-4acc-8841-f13f7e73f3a4"
+      "id": "3b936be0-262b-4acc-8841-f13f7e73f3a4",
+      "newsletter": true
     },
     {
       "trackId": 98,
@@ -2533,7 +2727,8 @@
       "ranking": "32",
       "description": "They remixed the music and this time they did three different variations which is good and proper, and respectful to the original. Good. The underwater bit is still underwater though and I think the original Wii did that better.",
       "image": "mk8-koopa-cape.webp",
-      "id": "a31a1677-fb15-4489-93b8-016ddf9fe611"
+      "id": "a31a1677-fb15-4489-93b8-016ddf9fe611",
+      "newsletter": true
     },
     {
       "trackId": 99,
@@ -2546,7 +2741,8 @@
       "ranking": "8",
       "description": "What a fun and new vibe for a Mario Kart track! I love the colours and the cozy feel. The music is great, and the course has some fun shenanigans to enjoy.",
       "image": "wii-maple-treeway.webp",
-      "id": "0e4967d6-002c-4041-b892-2951c8d51b0b"
+      "id": "0e4967d6-002c-4041-b892-2951c8d51b0b",
+      "newsletter": true
     },
     {
       "trackId": 99,
@@ -2559,7 +2755,8 @@
       "ranking": "11",
       "description": "I of course loved Maple Treeway on the Wii but this doesn't bring too much new to the table if I'm honest. With time I've realised I don't love the music as much as I thought I did.",
       "image": "3ds-maple-treeway.webp",
-      "id": "48bb6ed9-346d-411a-a0a3-451d771bef37"
+      "id": "48bb6ed9-346d-411a-a0a3-451d771bef37",
+      "newsletter": true
     },
     {
       "trackId": 99,
@@ -2572,7 +2769,8 @@
       "ranking": "28",
       "description": "They improved the music with those lush strings so I'm totally sold on this stage now. I think it's a lot of fun and I really enjoy the autumn theme.",
       "image": "mk8-maple-treeway.jpg",
-      "id": "df6f1086-820d-4e02-81c7-a1f5a04b3e1f"
+      "id": "df6f1086-820d-4e02-81c7-a1f5a04b3e1f",
+      "newsletter": true
     },
     {
       "trackId": 100,
@@ -2585,7 +2783,8 @@
       "ranking": "4",
       "description": "So rare to see a lava level that isn't Bowser's Castle! I think this level is an unsung hero from the Wii. People always talk about Coconut Mall this, Maple Treeway that, but never appreciate how much fun Grumble Volcano is. The collapsing track is inspired, and in my opinion actively inspired the direction the series began to go where each lap is different. The music is also so intense! It's so good!",
       "image": "wii-grumble-volcano.png",
-      "id": "0e71333d-187d-42d8-b699-0e2afb364432"
+      "id": "0e71333d-187d-42d8-b699-0e2afb364432",
+      "newsletter": true
     },
     {
       "trackId": 100,
@@ -2598,7 +2797,8 @@
       "ranking": "17",
       "description": "An underrated banger! This stage's music was SO GOOD on the Wii that they didn't even bother remixing. Honestly, right call. The stage falls apart over time and that adds to the intensity in a major way. It's just a great course!",
       "image": "mk8-grumble-volcano.webp",
-      "id": "a7bee87f-5665-4afe-a17f-cf02f5c71e95"
+      "id": "a7bee87f-5665-4afe-a17f-cf02f5c71e95",
+      "newsletter": true
     },
     {
       "trackId": 101,
@@ -2611,7 +2811,8 @@
       "ranking": "11",
       "description": "Lowkey the best desert track in Mario Kart ever. The music is catchy and fun, with that stereotypical instrumentation but fuck it it sounds so good. And I love how it changes to this mysterious Egyptian mummy music when you enter the ruins. This stage also changes each lap and features a key mushroom shortcut right before the end. It may not look like much but this stage has so much to offer.",
       "image": "wii-dry-dry-ruins.webp",
-      "id": "8af48509-f8c3-4dd5-83fb-b38bd10595fa"
+      "id": "8af48509-f8c3-4dd5-83fb-b38bd10595fa",
+      "newsletter": true
     },
     {
       "trackId": 102,
@@ -2624,7 +2825,8 @@
       "ranking": "2",
       "description": "This stage was famous for being super difficult, especially when we were young and shit at drifting. Now I just love it for its immaculate vibes. The stage is split between a country motorway and a bustling city, one is cramped and one is open, it's like two different racetracks in one. The music is so dramatic, I love it. And I love that there are different versions for the two halves of the track.",
       "image": "wii-moonview-highway.webp",
-      "id": "95427ab6-b871-4046-83fc-b281676daa3d"
+      "id": "95427ab6-b871-4046-83fc-b281676daa3d",
+      "newsletter": true
     },
     {
       "trackId": 102,
@@ -2637,7 +2839,8 @@
       "ranking": "7",
       "description": "They did a great job of translating this stage into the modern era. It looks stunning and the soundtrack is awesome. I love the switch between countryside motorway and big multi-lane city streets. The clarinet and vibraphone of the city section's music... so good. Vibes off the charts to be honest.",
       "image": "mk8-moonview-highway.webp",
-      "id": "9e4ef6a8-a597-4c5c-b214-30a44846e37a"
+      "id": "9e4ef6a8-a597-4c5c-b214-30a44846e37a",
+      "newsletter": true
     },
     {
       "trackId": 103,
@@ -2650,7 +2853,8 @@
       "ranking": "17",
       "description": "Those opening notes in the song are so amazing!! Such a good intro to the track. Then you arrive in the castle and it changes to a much slower song, which is actually a remix of the melody from Maple Treeway! The stage itself is kinda hard with all the sharp turns and traps.",
       "image": "wii-bowsers-castle-wii.png",
-      "id": "dafa68f5-a219-4c1c-b60e-a65ef1c68f48"
+      "id": "dafa68f5-a219-4c1c-b60e-a65ef1c68f48",
+      "newsletter": true
     },
     {
       "trackId": 104,
@@ -2663,7 +2867,8 @@
       "ranking": "9",
       "description": "This Rainbow Road is giving Mario Galaxy, which makes sense. The music has the gusty garden theme woven in and you can see starbits around the course. I remember it being hard as nails! Very few guardrails to stop you from falling and in some parts the track is not wide at all. But vibes are still excellent and this stage is a total delight to play on. It's dangerous and exciting and I love it.",
       "image": "wii-rainbow-road-wii.webp",
-      "id": "709f0944-edb8-45c1-b449-099c790b76ac"
+      "id": "709f0944-edb8-45c1-b449-099c790b76ac",
+      "newsletter": true
     },
     {
       "trackId": 104,
@@ -2676,7 +2881,8 @@
       "ranking": "8",
       "description": "They did an excellent job capturing the original vibe of this track! This rainbow was always more pastel than other ones and that is well represented here. It's so nice to drive on, is still kinda difficult as well. The music sounds excellent with this remix.",
       "image": "mk8-rainbow-road-wii.webp",
-      "id": "e65f5541-5ff8-406e-b683-0390ef01c331"
+      "id": "e65f5541-5ff8-406e-b683-0390ef01c331",
+      "newsletter": true
     },
     {
       "trackId": 105,
@@ -2689,7 +2895,8 @@
       "ranking": "26",
       "description": "What a plain and boring track. It's got a slowed down version of the otherwise excellent main theme that I really don't fuck with.",
       "image": "3ds-toad-circuit.webp",
-      "id": "33738937-4435-48b2-b7aa-5c342d7af1c2"
+      "id": "33738937-4435-48b2-b7aa-5c342d7af1c2",
+      "newsletter": true
     },
     {
       "trackId": 105,
@@ -2702,7 +2909,8 @@
       "ranking": "95",
       "description": "Such a plain and boring track. The big toads are kinda creepy and otherwise it had nothing. I don't like the music of this stage either.",
       "image": "mk8-toad-circuit.webp",
-      "id": "c2a022f8-cc69-45a6-8e19-4d451d4076b4"
+      "id": "c2a022f8-cc69-45a6-8e19-4d451d4076b4",
+      "newsletter": true
     },
     {
       "trackId": 106,
@@ -2715,7 +2923,8 @@
       "ranking": "31",
       "description": "Listening to the Daisy Hills music makes me react so violently that I had to put this so low. I even give this stage a point for sharing some vibes with Bianca Hills from Super Mario Sunshine but that couldn't save it.",
       "image": "3ds-daisy-hills.webp",
-      "id": "c4434e39-c0bb-41ec-a3f3-047399ca9459"
+      "id": "c4434e39-c0bb-41ec-a3f3-047399ca9459",
+      "newsletter": true
     },
     {
       "trackId": 107,
@@ -2728,7 +2937,8 @@
       "ranking": "32",
       "description": "This music is an insult to Mario beach music. It sounds like an assault on the ears. The steel drums sound terrible and I hate it. If Peach Beach were dead, she would be rolling in her grave (she's back baby!!). This stage is also just a boring circle, meant to show off a meaningless underwater mechanic. One of my least favourite Mario Kart tracks ever.",
       "image": "3ds-cheep-cheep-lagoon.webp",
-      "id": "0922c55d-b411-442e-8eb2-7bc121fba174"
+      "id": "0922c55d-b411-442e-8eb2-7bc121fba174",
+      "newsletter": true
     },
     {
       "trackId": 108,
@@ -2741,7 +2951,8 @@
       "ranking": "9",
       "description": "A rare interesting track from the new levels. I love the Arabian nights vibe! The music is weird but good.",
       "image": "3ds-shy-guy-bazaar.webp",
-      "id": "b7984c48-9eab-451b-901d-fb9d43ab159b"
+      "id": "b7984c48-9eab-451b-901d-fb9d43ab159b",
+      "newsletter": true
     },
     {
       "trackId": 108,
@@ -2754,7 +2965,8 @@
       "ranking": "3",
       "description": "Wow, they really took the best of the bunch from the 3DS tracks, good for them. They really radically changed this stage to include way more paths and places to do tricks. It really feels like getting lost in a busy market town when you drive through. Sometimes, you get to even drive through a new palace that has been put there, themed after Daisy!",
       "image": "world-shy-guy-bazaar.avif",
-      "id": "50ba9d35-4e12-4c37-bdd9-a752b1d63ae4"
+      "id": "50ba9d35-4e12-4c37-bdd9-a752b1d63ae4",
+      "newsletter": true
     },
     {
       "trackId": 109,
@@ -2767,7 +2979,8 @@
       "ranking": "6",
       "description": "Another stunning Wuhu Island track - I love these! Having mario kart tracks which don't repeat 3 times is actually a revolution. It's so fun to just tour around one big mountain and end up where you started. Great level.",
       "image": "3ds-wuhu-loop.webp",
-      "id": "4ca03349-edd2-4a5d-b225-276c2eca6a9d"
+      "id": "4ca03349-edd2-4a5d-b225-276c2eca6a9d",
+      "newsletter": true
     },
     {
       "trackId": 110,
@@ -2780,7 +2993,8 @@
       "ranking": "30",
       "description": "This is Toad Circuit but you can go into Peach's Castle. That's the only thing it has. Even that is ridiculous because Peach wouldn't sign that contract unless her name was on the track - why is it even Mario Circuit. I resent that so much that I pushed this one right down to the bottom of the rankings. Such a boring and dumb track.",
       "image": "3ds-mario-circuit-3ds.webp",
-      "id": "da7a80e4-132f-4e84-8d2b-94101e519546"
+      "id": "da7a80e4-132f-4e84-8d2b-94101e519546",
+      "newsletter": true
     },
     {
       "trackId": 111,
@@ -2793,7 +3007,8 @@
       "ranking": "20",
       "description": "This is kind of fun with the pianos and xylophones and other instruments. Novel concept and quite fun to play on.",
       "image": "3ds-music-park.webp",
-      "id": "b59a362b-db57-429b-b4f4-ea4f89786299"
+      "id": "b59a362b-db57-429b-b4f4-ea4f89786299",
+      "newsletter": true
     },
     {
       "trackId": 111,
@@ -2806,7 +3021,8 @@
       "ranking": "60",
       "description": "It's quite fun to play on! They made it look nicer here. The dynamic music is still there and sounding great.",
       "image": "mk8-music-park.webp",
-      "id": "ccb18707-2eb8-4586-9dd9-363b6b49acdd"
+      "id": "ccb18707-2eb8-4586-9dd9-363b6b49acdd",
+      "newsletter": true
     },
     {
       "trackId": 112,
@@ -2819,7 +3035,8 @@
       "ranking": "27",
       "description": "I don't love this track. It's samey and boring. It's meant to show off the flying mechanic but in my opinion it's too much flying. Also why did they call it Alpine Pass in the European version? Do we only understand the 'Alps' and not the 'Mountain'?",
       "image": "3ds-alpine-pass.webp",
-      "id": "42306148-e71f-48ae-b590-274ec1a6bd25"
+      "id": "42306148-e71f-48ae-b590-274ec1a6bd25",
+      "newsletter": true
     },
     {
       "trackId": 112,
@@ -2832,7 +3049,8 @@
       "ranking": "87",
       "description": "I don't think this track looks very good at all in this version. It looks plain and generic, and driving it isn't that fun. I don't really like the new remix.",
       "image": "mk8-alpine-pass.webp",
-      "id": "1f358155-5aa1-4554-b444-9429e32b02e0"
+      "id": "1f358155-5aa1-4554-b444-9429e32b02e0",
+      "newsletter": true
     },
     {
       "trackId": 113,
@@ -2845,7 +3063,8 @@
       "ranking": "16",
       "description": "I enjoy this create take on the Super Mario Bros 1-1 and 1-2 vibes. Reimagining the pipes this way is a lot of fun, and I like the blast through the castle that looks like the NES game at the end. Music is heavy with that slap bass and I'm all for it.",
       "image": "3ds-piranha-plant-pipeway.webp",
-      "id": "6e3b801c-9c46-420b-a6a3-646347b2d0cc"
+      "id": "6e3b801c-9c46-420b-a6a3-646347b2d0cc",
+      "newsletter": true
     },
     {
       "trackId": 113,
@@ -2858,7 +3077,8 @@
       "ranking": "46",
       "description": "This stage looks great in this game. I love that this level asks the critical question, what is going on inside those green pipes? Here they are present liked sewers and I like the vibe and the music.",
       "image": "mk8-piranha-plant-pipeway.webp",
-      "id": "074e0f1c-9432-42df-a78a-fa0ec1e9995e"
+      "id": "074e0f1c-9432-42df-a78a-fa0ec1e9995e",
+      "newsletter": true
     },
     {
       "trackId": 114,
@@ -2871,7 +3091,8 @@
       "ranking": "7",
       "description": "This is a fun and wild way to make use of the new driving underwater stuff. You really go up and down a lot! I like it though. It's kind of a different vibe to what we're used to.",
       "image": "3ds-wario-shipyard.webp",
-      "id": "417adb1b-d619-4483-886b-afc7ddd371ba"
+      "id": "417adb1b-d619-4483-886b-afc7ddd371ba",
+      "newsletter": true
     },
     {
       "trackId": 114,
@@ -2884,7 +3105,8 @@
       "ranking": "13",
       "description": "The new vibe of this place is so good! It looks so gloomy and stormy and fun. At first I liked the change from the underwater sections to the riding the waves, but over time I've become frustrated with the waves. Having a few of those sections is fine, but this track is all about how good you are at driving on water. Maybe my opinion will change once I get better at that.",
       "image": "world-warios-shipyard.webp",
-      "id": "0ba6bf13-2e90-4dff-8805-bd5d8ed3b703"
+      "id": "0ba6bf13-2e90-4dff-8805-bd5d8ed3b703",
+      "newsletter": true
     },
     {
       "trackId": 115,
@@ -2897,7 +3119,8 @@
       "ranking": "18",
       "description": "Despite the fact that this music literally has Toad's Turnpike in it, this music doesn't spark joy in me. The stage itself, while doing something with the rain, doesn't inspire much delight in me. It's alright, I guess.",
       "image": "3ds-neo-bowser-city.webp",
-      "id": "99128636-1012-4bfd-959f-45b41b0007ec"
+      "id": "99128636-1012-4bfd-959f-45b41b0007ec",
+      "newsletter": true
     },
     {
       "trackId": 115,
@@ -2910,7 +3133,8 @@
       "ranking": "61",
       "description": "Nice to have such a cool rainy effect! On this and Luigi Circuit on the GBA have rain in them. Otherwise this track is harder than Rainbow Road, there's so much going on and so many serious curves on thin tracks. The music is alright.",
       "image": "3ds-neo-bowser-city.webp",
-      "id": "06e72b25-276f-47ea-bae4-ead2cbbe9b40"
+      "id": "06e72b25-276f-47ea-bae4-ead2cbbe9b40",
+      "newsletter": true
     },
     {
       "trackId": 116,
@@ -2923,7 +3147,8 @@
       "ranking": "5",
       "description": "I love the Wuhu levels! Along with Rainbow Road they are just one long lap! So much to enjoy as you tour the amazing Wuhu island, one of my favourite Nintendo creations. This place just screams Nintendo Wii and I love it. The music is even Wii Sports, which is so good, except it sounds really tinny here. Anyway both Wuhu tracks are great but this one has you jumping off a mountain into the sunset so it's the winner.",
       "image": "3ds-maka-wuhu.webp",
-      "id": "4faa1776-1c95-49d7-82ee-34528d53c191"
+      "id": "4faa1776-1c95-49d7-82ee-34528d53c191",
+      "newsletter": true
     },
     {
       "trackId": 117,
@@ -2936,7 +3161,8 @@
       "ranking": "17",
       "description": "Wild that they made a track based on Donkey Kong Country Returns! But I like it! I love that game and this vibe is awesome. I wish the music were more of a banger. How could they take such an iconic theme and ruin it like this.",
       "image": "3ds-dk-jungle.webp",
-      "id": "6480d205-259e-477d-94c9-0d3bcb63357e"
+      "id": "6480d205-259e-477d-94c9-0d3bcb63357e",
+      "newsletter": true
     },
     {
       "trackId": 117,
@@ -2949,7 +3175,8 @@
       "ranking": "42",
       "description": "I'm glad this stage for a remake because it looks really great. It makes me want to play Donkey Kong Country Returns! They added an anti-gravity part which is fun. The music remains a bit of a mystery though. Why did they go for this sound? Otherwise they love making super drum-level typically jungle level music so I don't see why they didn't do that here.",
       "image": "mk8-dk-jungle.webp",
-      "id": "a454056a-e8b1-40ce-941d-c118908798e0"
+      "id": "a454056a-e8b1-40ce-941d-c118908798e0",
+      "newsletter": true
     },
     {
       "trackId": 118,
@@ -2962,7 +3189,8 @@
       "ranking": "28",
       "description": "OK it does look nice and the colours are good, it's nice to have a mystical icy level like this. But I hate it. The music is so horrible like what is even going on. Why is half of Rosalina's observatory just a snowy teepee now. This whole track feels forced.",
       "image": "3ds-rosalinas-ice-world.png",
-      "id": "e56deee9-d1ee-4a0d-8ace-a759fe43de7a"
+      "id": "e56deee9-d1ee-4a0d-8ace-a759fe43de7a",
+      "newsletter": true
     },
     {
       "trackId": 118,
@@ -2975,7 +3203,8 @@
       "ranking": "70",
       "description": "Can't bring myself to like this because the music is so weird. I guess it's nice to have a magical icy level like this to mix things up, but it just needs some actual good ice level music to go with it.",
       "image": "mk8-rosalinas-ice-world.webp",
-      "id": "73e71087-2c41-4830-bd53-c0157f5dedbe"
+      "id": "73e71087-2c41-4830-bd53-c0157f5dedbe",
+      "newsletter": true
     },
     {
       "trackId": 119,
@@ -2988,7 +3217,8 @@
       "ranking": "25",
       "description": "Horrible music, weird design, why are we in a volcano? Why are there underwater parts in the volcano. It's ugly.",
       "image": "3ds-bowsers-castle-3ds.webp",
-      "id": "200cc1f0-3bfb-4c18-bd04-253f66e051a5"
+      "id": "200cc1f0-3bfb-4c18-bd04-253f66e051a5",
+      "newsletter": true
     },
     {
       "trackId": 120,
@@ -3001,7 +3231,8 @@
       "ranking": "1",
       "description": "I really feel like the team put all their eggs in one basket with this one. One of the very few new 3ds tracks that I genuinely love, this Rainbow Road perfectly continues the tradition, while also creating the series' first track which is different every lap! This paved the way for those city levels and Mount Wario and I love that it just has so much random shit in it. I love the planetary theme, and that the music changes when you're on the moon's surface. It's a fantastic track.",
       "image": "3ds-rainbow-road-3ds.webp",
-      "id": "79867ee4-9cb0-48ba-aab3-6f4a5edecfdd"
+      "id": "79867ee4-9cb0-48ba-aab3-6f4a5edecfdd",
+      "newsletter": true
     },
     {
       "trackId": 120,
@@ -3014,7 +3245,8 @@
       "ranking": "4",
       "description": "How do they keep coming up with different vibes and styles for all these different Rainbow Roads? This one is very blue and looks stunning. This one also has way more than your average Rainbow Road going on. I'm talking planets, stars, rings, everything. I love how the music calms down for a bit when you land on the moon. I think this might be the best Rainbow Road actually. It's just got everything.",
       "image": "mk8-rainbow-road-3ds.webp",
-      "id": "3e927085-ed81-46a7-9ed5-28fb57f055ab"
+      "id": "3e927085-ed81-46a7-9ed5-28fb57f055ab",
+      "newsletter": true
     },
     {
       "trackId": 121,
@@ -3027,7 +3259,8 @@
       "ranking": "93",
       "description": "If you think about it, this is just the same as Mario Circuit GBA, but that stage has way more vibes than this one. This is a boring stage and the music is also boring.",
       "image": "mk8-mario-kart-stadium.webp",
-      "id": "680d1e2d-2522-42bb-ba8a-5cfcb824d8b2"
+      "id": "680d1e2d-2522-42bb-ba8a-5cfcb824d8b2",
+      "newsletter": true
     },
     {
       "trackId": 122,
@@ -3040,7 +3273,8 @@
       "ranking": "92",
       "description": "This stage has nothing going for it. Not even the kinda cute underwater version of the music makes up for the fact that this is a boring course, just meant to show off that this game can do underwater too. You don't even notice that you're on the loop-the-loop on the anti-gravity section.",
       "image": "mk8-water-park.webp",
-      "id": "2fd6d0de-32e4-434f-896e-cc8c4a880d75"
+      "id": "2fd6d0de-32e4-434f-896e-cc8c4a880d75",
+      "newsletter": true
     },
     {
       "trackId": 123,
@@ -3053,7 +3287,8 @@
       "ranking": "77",
       "description": "This isn't too bad. It's gone for a theme and committed to it (unlike you, Choco Mountain) but I don't get too excited about Sweet Sweet Canyon.",
       "image": "mk8-sweet-sweet-canyon.webp",
-      "id": "43516183-e891-4770-81df-90f19e364ff3"
+      "id": "43516183-e891-4770-81df-90f19e364ff3",
+      "newsletter": true
     },
     {
       "trackId": 124,
@@ -3066,7 +3301,8 @@
       "ranking": "45",
       "description": "This music is pretty special! The B section is this really intense and harmonic section which sounds like it's straight out of Pokemon or Xenoblade. That alone makes me quite like the stage.",
       "image": "mk8-thwomp-ruins.webp",
-      "id": "fdb9f717-a630-4f28-b4a9-757843514bc0"
+      "id": "fdb9f717-a630-4f28-b4a9-757843514bc0",
+      "newsletter": true
     },
     {
       "trackId": 125,
@@ -3079,7 +3315,8 @@
       "ranking": "94",
       "description": "This track is in the shape of a Möbius Strip, which is really cool in theory, but in practice is just one long corner. It makes for boring driving! And because the whole thing in anti-gravity, it feels like it might as well habe not been anti-gravity at all.",
       "image": "mk8-mario-circuit-mk8.webp",
-      "id": "7b206f80-c917-421a-9bbe-d230196f00e8"
+      "id": "7b206f80-c917-421a-9bbe-d230196f00e8",
+      "newsletter": true
     },
     {
       "trackId": 126,
@@ -3092,7 +3329,8 @@
       "ranking": "79",
       "description": "I'm asking myself why I like Daisy Circuit so much and find this stage boring in comparison. They share a lot in common. But what can I say, it's the music. This music is alright but it doesn't hit the same. I like the stage though it's quite fun.",
       "image": "mk8-toad-harbour.png",
-      "id": "2f13a7df-1bf0-4cae-8cee-ea0729be4b22"
+      "id": "2f13a7df-1bf0-4cae-8cee-ea0729be4b22",
+      "newsletter": true
     },
     {
       "trackId": 127,
@@ -3105,7 +3343,8 @@
       "ranking": "50",
       "description": "This stage actually looks so good and is super fun! It's giving Ocarina of Time Forest Temple with its twisting pathways, it has an inexplicable underwater section and the anti-gravity hallway is super cool. The music is very generic spooky music but this is the first time we're getting an original spooky level in a long time and I think they did well.",
       "image": "mk8-twisted-mansion.webp",
-      "id": "38a0e789-8833-4e3d-8e2c-3f556213bfcb"
+      "id": "38a0e789-8833-4e3d-8e2c-3f556213bfcb",
+      "newsletter": true
     },
     {
       "trackId": 128,
@@ -3118,7 +3357,8 @@
       "ranking": "67",
       "description": "This music is sounding like some South American folky music and is a lot of fun. The stage concept is alright although I wish the shy guys featured more.",
       "image": "mk8-shy-guy-falls.webp",
-      "id": "b543e61e-3e45-434f-94e0-71e04bd0794d"
+      "id": "b543e61e-3e45-434f-94e0-71e04bd0794d",
+      "newsletter": true
     },
     {
       "trackId": 129,
@@ -3131,7 +3371,8 @@
       "ranking": "25",
       "description": "I've had a lot of fun on this stage over the years. The jumping off the luggage carrier, crashing into the plane wheels, and especially taking off like a plane! They really nailed the vibe of the music for this one, the chords they chose match taking off in the first lap perfectly, and then when you fly down again the music changes to this really cool dreamy section. Great concept and a great course.",
       "image": "mk8-sunshine-airport.webp",
-      "id": "1356cf51-a0c8-453c-b12c-0eadb4741642"
+      "id": "1356cf51-a0c8-453c-b12c-0eadb4741642",
+      "newsletter": true
     },
     {
       "trackId": 130,
@@ -3144,7 +3385,8 @@
       "ranking": "41",
       "description": "What a fun level! The music is of course great, with three distinct sounding variations, Koopa Cape style, except arguably better. That sax solo goes crazy in the final part of the lap, love it. And I enjoy the underwater bit with the pipes and the eel that you can spam tricks on.",
       "image": "mk8-dolphin-shoals.webp",
-      "id": "dd1c1cc8-4d23-466b-aea6-25842d2732cf"
+      "id": "dd1c1cc8-4d23-466b-aea6-25842d2732cf",
+      "newsletter": true
     },
     {
       "trackId": 131,
@@ -3157,7 +3399,8 @@
       "ranking": "64",
       "description": "Did you know that Electrodrome is the only Mario Kart stage to consist of only one word? I really love that piece of trivia. Like why didn't they call it party party pandemonium? I think this stage is fun though.",
       "image": "mk8-electrodrome.webp",
-      "id": "b3bd9227-e8e5-4d95-a5d9-48cdbaace00a"
+      "id": "b3bd9227-e8e5-4d95-a5d9-48cdbaace00a",
+      "newsletter": true
     },
     {
       "trackId": 132,
@@ -3170,7 +3413,8 @@
       "ranking": "16",
       "description": "I mean of course this is a top tier track, I love all the 3-laps-in-1 courses! And this one is just a great time, starting at the top of the mountain, going through all these different sections and eventually going on this epic final straight at the end. It's just great! I love the way the music changes as you go down.",
       "image": "mk8-mount-wario.webp",
-      "id": "24b95dce-a1a1-4e98-ac45-f6e29be270ac"
+      "id": "24b95dce-a1a1-4e98-ac45-f6e29be270ac",
+      "newsletter": true
     },
     {
       "trackId": 133,
@@ -3183,7 +3427,8 @@
       "ranking": "73",
       "description": "People tlak about this being one of the best new stages but honestly I'm just not feeling it. Like sure the Gusty Garden Galaxy theme works wonders, the switch to electric guitars in the thundercloud, it's good. But I just don't love it as much as I maybe should for some reason.",
       "image": "mk8-cloudtop-cruise.webp",
-      "id": "9f2e12cc-f5ac-419c-8760-bb31d2a22f2e"
+      "id": "9f2e12cc-f5ac-419c-8760-bb31d2a22f2e",
+      "newsletter": true
     },
     {
       "trackId": 134,
@@ -3196,7 +3441,8 @@
       "ranking": "38",
       "description": "Love this track! I think it's an underrated banger. The music is great, the vibe is a bit different to your standard Dry Dry Desert or something with the sunset, the skeleton versions of piranha plants, the bones everywhere. I think it looks great and I love to come to this track.",
       "image": "mk8-bone-dry-dunes.webp",
-      "id": "bec51b62-ded0-4529-89ea-aa352878c524"
+      "id": "bec51b62-ded0-4529-89ea-aa352878c524",
+      "newsletter": true
     },
     {
       "trackId": 135,
@@ -3209,7 +3455,8 @@
       "ranking": "59",
       "description": "Finally some actual banging rock/metal style music for a Bowser's Castle. It's great! This stage is super bombastic, although I will say it's quite light on the weird and wacky obstacles.",
       "image": "mk8-bowsers-castle-mk8.webp",
-      "id": "c6293378-69eb-4178-8356-c4c2acac0b38"
+      "id": "c6293378-69eb-4178-8356-c4c2acac0b38",
+      "newsletter": true
     },
     {
       "trackId": 136,
@@ -3222,7 +3469,8 @@
       "ranking": "58",
       "description": "Putting Rainbow Road on a space station is inspired, and I approve the mixup! However at the end of the day, this stage isn't serving that Rainbow Road vibe that I crave. It starts off with a tight figure of 8, which is cool, then you land on a space station, which is cool, then the path splits in two, which is cool. Yet somehow the vibes are off.",
       "image": "mk8-rainbow-road-mk8.webp",
-      "id": "e387dfaf-4f2f-41d7-9749-27f4ce47dcd6"
+      "id": "e387dfaf-4f2f-41d7-9749-27f4ce47dcd6",
+      "newsletter": true
     },
     {
       "trackId": 137,
@@ -3235,7 +3483,8 @@
       "ranking": "81",
       "description": "Did you know this stage is randomly generated?? I didn't know that until writing this. It gives me more respect for a track that I originally felt was boring. I guess it is quite fun to do all the jumps! I don't love the music and environment though.",
       "image": "mk8-excitebike-arena.webp",
-      "id": "861fd0e2-6cf0-4baa-86ea-779ff610347e"
+      "id": "861fd0e2-6cf0-4baa-86ea-779ff610347e",
+      "newsletter": true
     },
     {
       "trackId": 138,
@@ -3248,7 +3497,8 @@
       "ranking": "43",
       "description": "This stage looks super good! Is this the dragon from Yoshi's Story?? I like that it snakes around so much, the curves are satisfying, the music is pretty good. It's all anti-gravity which for me is a bit of a negative because it loses the magic a bit.",
       "image": "mk8-dragon-driftway.webp",
-      "id": "4423e3d1-7c87-4b6d-ba84-c4f97e044f1e"
+      "id": "4423e3d1-7c87-4b6d-ba84-c4f97e044f1e",
+      "newsletter": true
     },
     {
       "trackId": 139,
@@ -3261,7 +3511,8 @@
       "ranking": "6",
       "description": "Yeeeees this stage is super good! The soundtrack goes crazy and the speed is just so fast, just like F-Zero. I love that there aren't any coins, just the purple bars instead. There are constant boosts so you're constantly at max speed. I also like the purple colour scheme.",
       "image": "mk8-mute-city.webp",
-      "id": "d5763e8f-a436-44da-a873-5879d2832ab4"
+      "id": "d5763e8f-a436-44da-a873-5879d2832ab4",
+      "newsletter": true
     },
     {
       "trackId": 140,
@@ -3274,7 +3525,8 @@
       "ranking": "75",
       "description": "What is this course meant to be? A roller coaster in Antarctica? It's whole gimmick is having the track constantly split into two, which is quite fun, and there are some seriously tough shortcuts. But I don't like the music or vibe very much.",
       "image": "mk8-ice-ice-outpost.webp",
-      "id": "a8ce32a3-b0e5-4eba-9dc6-8be08cfaf785"
+      "id": "a8ce32a3-b0e5-4eba-9dc6-8be08cfaf785",
+      "newsletter": true
     },
     {
       "trackId": 141,
@@ -3287,7 +3539,8 @@
       "ranking": "69",
       "description": "I don't feel like this track truly represents Hyrule in the same way Yoshi's Island, Animal Crossing and F-Zero are represented. It has the castle, the chamber of sages, the rupees, the master sword, the sound effect from Skyward Sword and that's about it. Otherwise the track is plain. The music is a rock remix of the main theme and also Zelda's lullaby but it's not blowing my socks off.",
       "image": "mk8-hyrule-circuit.webp",
-      "id": "ed2aa0bf-0831-4d10-aa4e-a437f692f655"
+      "id": "ed2aa0bf-0831-4d10-aa4e-a437f692f655",
+      "newsletter": true
     },
     {
       "trackId": 142,
@@ -3300,7 +3553,8 @@
       "ranking": "5",
       "description": "This stage looks so good! And there's so much going on here. If you look there are the Shy Guys in the tree with their cute treehouses, and then after you get to the bottom of the tree are the toads with their different kinds of houses! I love the lush forest vibe of this stage too, the water rapids, the pond, the twisting branches. They really decided to go super hard on this one! And the music is also pretty out there, Mario Kart's only music in 5/4 time! This feels like Maple Treeway but better in every way.",
       "image": "mk8-wild-woods.jpg",
-      "id": "79d19fd7-6ca9-4ac8-b979-6cdaa67e5162"
+      "id": "79d19fd7-6ca9-4ac8-b979-6cdaa67e5162",
+      "newsletter": true
     },
     {
       "trackId": 143,
@@ -3313,7 +3567,8 @@
       "ranking": "10",
       "description": "What a fantastic course! It's just four different courses in one! I never get tired of this because it's literally going to take 4 times as many goes before I get bored. I love the music of all the seasons, each one starting with the New Leaf theme but then evolving into a second different theme. The Winter music in particular has a special place in my heart.",
       "image": "mk8-animal-crossing.png",
-      "id": "d707a228-8327-4889-9106-6754fbf31160"
+      "id": "d707a228-8327-4889-9106-6754fbf31160",
+      "newsletter": true
     },
     {
       "trackId": 144,
@@ -3326,7 +3581,8 @@
       "ranking": "40",
       "description": "Wow the bass player on this track is going crazy! When you go to the underground part of the course, the slap bass goes ham on that underground theme. Hell yeah. It's fun to drive around the U-Bahn here!",
       "image": "mk8-super-bell-subway.webp",
-      "id": "aecf30ae-eb3d-4657-b643-8b010a1a20d8"
+      "id": "aecf30ae-eb3d-4657-b643-8b010a1a20d8",
+      "newsletter": true
     },
     {
       "trackId": 145,
@@ -3339,7 +3595,8 @@
       "ranking": "1",
       "description": "YEEEEES this stage has everything it's so good! You go fast just like in F-Zero, you can jump between different tracks for speed, you are constantly on max speed thanks to the water stream and the boosts and anti-gravity stuff. It's all one big lap which is always super fun. Only problem is it's over too soon! And shoutouts to the music, hell yes. That fast-paced F-Zero music, the best music track from that game by the way, combined with the Mario Kart 8 saxophone? Incredible.",
       "image": "mk8-big-blue.webp",
-      "id": "413e2c8d-8b86-4c99-a2ec-f9f40aace147"
+      "id": "413e2c8d-8b86-4c99-a2ec-f9f40aace147",
+      "newsletter": true
     },
     {
       "trackId": 146,
@@ -3352,7 +3609,8 @@
       "ranking": "19",
       "description": "This stage looks so good! It's so faithful to the Yoshi's Island and full to the brim with fun references. Hyrule Circuit needs to learn from this! I love all the different sections and the special shortcut at the end. The music is great.",
       "image": "mk8-yoshis-island.webp",
-      "id": "f5f459b7-96c4-4691-8ad4-0286c98b8495"
+      "id": "f5f459b7-96c4-4691-8ad4-0286c98b8495",
+      "newsletter": true
     },
     {
       "trackId": 147,
@@ -3365,7 +3623,8 @@
       "ranking": "51",
       "description": "I'm not sure why the music is like Frank Sinatra swing music but that's the situation, we're swinging around a bathroom! Honestly, great concept for a track. I enjoy the wedding ring in the drain, the mechanical cheep-cheeps (what are they doing there?), all the random household objects. Really great that Mario Kart finally has a toilet for us to drive on.",
       "image": "mk8-squeaky-clean-sprint.webp",
-      "id": "f1b81951-d412-4f3e-905d-ae701a2916be"
+      "id": "f1b81951-d412-4f3e-905d-ae701a2916be",
+      "newsletter": true
     },
     {
       "trackId": 148,
@@ -3378,7 +3637,8 @@
       "ranking": "63",
       "description": "A rare Mario Kart waltz, only Peach Gardens had ever done it before this. It's good! This stage presents Paris like a very pleasant place, which it isn't. But we can live in the dream for a few laps at least. This stage is a little confusing with all the sharp and changing turns.",
       "image": "mk8-paris-promenade.png",
-      "id": "6c214c79-534a-40dc-b092-5dadeb285549"
+      "id": "6c214c79-534a-40dc-b092-5dadeb285549",
+      "newsletter": true
     },
     {
       "trackId": 149,
@@ -3391,7 +3651,8 @@
       "ranking": "72",
       "description": "If it were me designing a course based on Tokyo I would have gone in a more City Pop direction. But this track feels like what I imagine driving to work is like in Japan. The final lap is literally just a motorway. I do like the music a bit but this stage could have been so much more.",
       "image": "mk8-tokyo-blur.webp",
-      "id": "e1d0bc66-d9f4-470a-8fe1-3147ec5d0532"
+      "id": "e1d0bc66-d9f4-470a-8fe1-3147ec5d0532",
+      "newsletter": true
     },
     {
       "trackId": 150,
@@ -3404,7 +3665,8 @@
       "ranking": "56",
       "description": "I think this stage is kinda kooky and fun! I'm not too keen on the music but I love how it looks. What is going on with Mario Kart 8's DLC and driving up stairs at ridiculous angles though. That's not how things work! Whatever, there's lots of fun little nooks and crannies and shortcuts here to enjoy.",
       "image": "mk8-ninja-hideaway.webp",
-      "id": "6af37789-c5bd-42a0-8659-0fe41fddb590"
+      "id": "6af37789-c5bd-42a0-8659-0fe41fddb590",
+      "newsletter": true
     },
     {
       "trackId": 151,
@@ -3417,7 +3679,8 @@
       "ranking": "71",
       "description": "This stage doesn't have too much going on for it in my opinion. I don't like the swing music and the only nice thing about how it looks is the Central Park sections. But even then there's this one part where you can try and mushroom through the trees for a cheeky shortcut, but Lakitu will pick you up for being out of boards! Annoying.",
       "image": "mk8-new-york-minute.webp",
-      "id": "49af3d5e-d0a0-4541-92a7-59f34efff46a"
+      "id": "49af3d5e-d0a0-4541-92a7-59f34efff46a",
+      "newsletter": true
     },
     {
       "trackId": 152,
@@ -3430,7 +3693,8 @@
       "ranking": "3",
       "description": "It's Sydney motherfucking Sprint everyone!!!!! I give this track's music and unprecented 6 stars because there is nothing that goes as hard as this!!! My enthusiasm for this course is sky high. We've got the harbour bridge and of course the opera house, it all looks great. It's got some straight streets with things in the way but it's still a fun little stage. Totally carried by the music. I'm obsessed.",
       "image": "mk8-sydney-sprint.webp",
-      "id": "67960b39-27ca-44bf-b58a-00fe692f046d"
+      "id": "67960b39-27ca-44bf-b58a-00fe692f046d",
+      "newsletter": true
     },
     {
       "trackId": 153,
@@ -3443,7 +3707,8 @@
       "ranking": "90",
       "description": "This level is trying too hard. There's so many bright colours and the concept of flying ice cream is too extreme. The stage is also really weird with the anti-gravity stuff, it seems like impossible physics are at play. Also you drive up stairs which annoys me. And at the end of the day, this stage is just a plain loop. The music is also very questionable. I respect experimental stuff but this is just a little much.",
       "image": "mk8-sky-high-sundae.webp",
-      "id": "c943be8b-a6b2-41ab-b022-908dedb7835e"
+      "id": "c943be8b-a6b2-41ab-b022-908dedb7835e",
+      "newsletter": true
     },
     {
       "trackId": 153,
@@ -3456,7 +3721,8 @@
       "ranking": "16",
       "description": "Talk about a GLOW UP! They really turned things around with this god-awful track. They really plonked a bunch of huge floating ice creams in the open world and brought back Sky-High Sundae. Thankfully, the new mechanics really make this stage way more interesting. The music is better but still baffling.",
       "image": "world-sky-high-sundae.jpg",
-      "id": "fd8ba6b3-df93-44fe-987a-685888e2b9ed"
+      "id": "fd8ba6b3-df93-44fe-987a-685888e2b9ed",
+      "newsletter": true
     },
     {
       "trackId": 154,
@@ -3469,7 +3735,8 @@
       "ranking": "78",
       "description": "Music-wise they went for 70s rock which makes sense but I don't love the vibe they went for. Also I find the stage quite plain. Maybe it's because I hate London in real life. Probably.",
       "image": "mk8-london-loop.webp",
-      "id": "72b3fb94-c0d8-489f-b418-3da0698306fd"
+      "id": "72b3fb94-c0d8-489f-b418-3da0698306fd",
+      "newsletter": true
     },
     {
       "trackId": 155,
@@ -3482,7 +3749,8 @@
       "ranking": "48",
       "description": "So wild to play this stage!! Because I cycle through the Brandenburg Gate and past the Siegessäule all the time, and now I can just do it in Mario Kart! Also we go past the East Side Gallery and over the Oberbaumbrücke, which is so close to where I live. Awesome. The stage itself is really hard with all the streets and cars, it's not clear where to go next, especially with it changing every lap. The music is an enigma though. It's a mixture of some kind of techno and like... Mozart? I honestly think it sounds like shit. They should have gone full techno and made the final lap be in Berghain.",
       "image": "mk8-berlin-byways.jpg",
-      "id": "31013ebb-8435-4f3f-89e9-93aa8a2c24a9"
+      "id": "31013ebb-8435-4f3f-89e9-93aa8a2c24a9",
+      "newsletter": true
     },
     {
       "trackId": 156,
@@ -3495,7 +3763,8 @@
       "ranking": "86",
       "description": "Funny to think there was a time when Nintendo straight up avoided talking about Christmas, I'm talking about you Animal Crossing Wild World, and now here we are with Santa's sleigh, this Christmas-ass music and literally Whoville from the Grinch. Well I think this Christmas-ass music is kinda lame and the stage itself is super boring.",
       "image": "mk8-merry-mountain.webp",
-      "id": "981e6e56-1ec5-4631-a822-deb91331c9e4"
+      "id": "981e6e56-1ec5-4631-a822-deb91331c9e4",
+      "newsletter": true
     },
     {
       "trackId": 157,
@@ -3508,7 +3777,8 @@
       "ranking": "83",
       "description": "Super cool of them to include driving in the canal, north Amsterdam with the countryside, and the fields of tulips. I'm missing the coffeeshops though. When will weed be canon in Mario Kart? I have to say though, I will never like this stage because of the music. I just think it's terrible. I hate this choir thing they've got going on.",
       "image": "mk8-amsterdam-drift.jpg",
-      "id": "4395d39e-1aaf-4563-9c9c-d7b258a5a8d4"
+      "id": "4395d39e-1aaf-4563-9c9c-d7b258a5a8d4",
+      "newsletter": true
     },
     {
       "trackId": 158,
@@ -3521,7 +3791,8 @@
       "ranking": "53",
       "description": "This stage is so fun! There's a lot of nonsense going on. Driving on the water at the start is cool. I like the colours and the vibe. The music is pretty good too.",
       "image": "mk8-bangkok-rush.jpg",
-      "id": "14b1f7b3-d596-4a21-96e9-9c62a914882a"
+      "id": "14b1f7b3-d596-4a21-96e9-9c62a914882a",
+      "newsletter": true
     },
     {
       "trackId": 159,
@@ -3534,7 +3805,8 @@
       "ranking": "44",
       "description": "Wow this stage looks so good! I love the swimming pool on the skyscraper roof! I love the chinatown section with the different music. The vibe is expensive hotels and rich people and I'm here for it. It looks like a futuristic paradise. So much to enjoy!",
       "image": "mk8-singapore-speedway.jpg",
-      "id": "7dd74d37-a13b-470a-8809-3b23f7ce2519"
+      "id": "7dd74d37-a13b-470a-8809-3b23f7ce2519",
+      "newsletter": true
     },
     {
       "trackId": 160,
@@ -3547,7 +3819,8 @@
       "ranking": "80",
       "description": "This stage takes place entirely in the ruins of Acropolis which makes it feel like a very ancient city track. But I think it looks kinda shit if I'm honest. The music isn't enough to make up for it.",
       "image": "mk8-athens-dash.webp",
-      "id": "ca189c6b-ce89-4682-9858-e91c4cb0e1c6"
+      "id": "ca189c6b-ce89-4682-9858-e91c4cb0e1c6",
+      "newsletter": true
     },
     {
       "trackId": 161,
@@ -3560,7 +3833,8 @@
       "ranking": "82",
       "description": "I imagine Los Angeles to be one of the worst places on earth. Even this racetrack kinda contributes to that imagine with the whole oil rig thing. Otherwise this stage is totally forgettable! The music is a bit different and I appreciate that, but it's not actually good.",
       "image": "mk8-los-angeles-laps.jpg",
-      "id": "1fd58722-3e6f-435a-bee6-5acf76685dfc"
+      "id": "1fd58722-3e6f-435a-bee6-5acf76685dfc",
+      "newsletter": true
     },
     {
       "trackId": 162,
@@ -3573,7 +3847,8 @@
       "ranking": "37",
       "description": "Ironically it's this track, not Tokyo Blur that gets the Japanese fusion funk music. Whatever. I love it. And I love how this stage looks! The wintry city vibe is great, and there's quite a lot of nature for one of these tracks. Not one but two trips to the ice rink, why not. Lots to enjoy, especially that banging music.",
       "image": "mk8-vancouver-velocity.webp",
-      "id": "faf733ae-7cdd-481a-b302-506a563a8e41"
+      "id": "faf733ae-7cdd-481a-b302-506a563a8e41",
+      "newsletter": true
     },
     {
       "trackId": 163,
@@ -3586,7 +3861,8 @@
       "ranking": "68",
       "description": "I really like this music! The stage itself it lots of driving on stairs which ruins it for me a bit. I like the cloudy evening atmosphere but it's not what I associate with Italy. They should have done this for London instead. The stage doesn't have too much else to offer.",
       "image": "mk8-rome-avanti.webp",
-      "id": "42e8942e-108b-435c-9e83-731b6f5720d6"
+      "id": "42e8942e-108b-435c-9e83-731b6f5720d6",
+      "newsletter": true
     },
     {
       "trackId": 164,
@@ -3599,7 +3875,8 @@
       "ranking": "9",
       "description": "This is like a beautiful underwater sequel to Wild Woods and I love it. It's such a vibe! It changes ever lap and feels a bit like playing Temple Run with all the corners. I feel like I haven't had all the time necessary to discover all of this track's many secrets.",
       "image": "mk8-piranha-plant-cove.webp",
-      "id": "cd6319eb-eb67-4d6c-9e78-8cc7640f5a63"
+      "id": "cd6319eb-eb67-4d6c-9e78-8cc7640f5a63",
+      "newsletter": true
     },
     {
       "trackId": 165,
@@ -3612,7 +3889,8 @@
       "ranking": "49",
       "description": "Great flamenco music!! Very rarely we get flamenco-inspired Nintendo music so we have to soak this up the max, guys. It sounds so good, even the variations for the football stadium and the museum, although the museum is so tiny, what was even the point? Anyway this track is great.",
       "image": "mk8-madrid-drive.webp",
-      "id": "07c30885-4f01-4de9-83e6-8060fa7d154e"
+      "id": "07c30885-4f01-4de9-83e6-8060fa7d154e",
+      "newsletter": true
     },
     {
       "trackId": 166,
@@ -3625,7 +3903,8 @@
       "ranking": "28",
       "description": "I just think this track is pretty plain. I like that the theme of this game is this rockabilly music and this is one of the few tracks that really represents that. But it's the standard Mario Circuit of this game, there's never gonna be anything too crazy about it.",
       "image": "world-mario-bros-circuit.png",
-      "id": "31e7edac-723b-43d2-9e69-3652323724a5"
+      "id": "31e7edac-723b-43d2-9e69-3652323724a5",
+      "newsletter": true
     },
     {
       "trackId": 167,
@@ -3638,7 +3917,8 @@
       "ranking": "24",
       "description": "I dismissed this track at first because it was giving the vibes of a plain city track, but actually it's a lot of fun! It's got a fancy part and a dirty run-down part, which is funny because it hints at the existence of wealth inequality in the world of Mario Kart. The 3-lap version is super fun with loads of different sections which makes it super fun, and at the end it's over the rooves which is so fun.",
       "image": "world-crown-city.avif",
-      "id": "a4ce781e-a1d4-49d1-90b6-18223fe30ccf"
+      "id": "a4ce781e-a1d4-49d1-90b6-18223fe30ccf",
+      "newsletter": true
     },
     {
       "trackId": 168,
@@ -3651,7 +3931,8 @@
       "ranking": "17",
       "description": "This is an interesting mix of folky/celtic music and country/rockabilly vibe, I feel like these two things don't mix. But this stage has loads of fun shortcuts and a cool section which is just the rails.",
       "image": "world-whistlestop-summit.png",
-      "id": "f6c14b30-0983-4711-a43c-2dfcdda348fd"
+      "id": "f6c14b30-0983-4711-a43c-2dfcdda348fd",
+      "newsletter": true
     },
     {
       "trackId": 169,
@@ -3664,7 +3945,8 @@
       "ranking": "14",
       "description": "So fun! I love that they brought back arcade DK for this! I love that you can drive to this place from another track and still climb all the way to the top in a 5-lap extravaganza. It's chaotic and fun and a nice homage.",
       "image": "world-dk-spaceport.webp",
-      "id": "adfdf4bd-68ab-4316-b758-960f825c1848"
+      "id": "adfdf4bd-68ab-4316-b758-960f825c1848",
+      "newsletter": true
     },
     {
       "trackId": 170,
@@ -3677,7 +3959,8 @@
       "ranking": "12",
       "description": "This is so Rosalina's Ice World coded that it's insane, I feel like they were just gonna put in that stage and realised it didn't quite fit so made this super similar level. I love the vibes though! So magical and rainbow road-like. There's a nice library inside and it's cool to have that Rosalina vibe in amongst the other tracks. Love it.",
       "image": "world-starview-peak.jpg",
-      "id": "0d7ecec8-79d9-4f5f-b43e-8cb36ce6be1b"
+      "id": "0d7ecec8-79d9-4f5f-b43e-8cb36ce6be1b",
+      "newsletter": true
     },
     {
       "trackId": 171,
@@ -3690,7 +3973,8 @@
       "ranking": "20",
       "description": "We've never had an African themed track and they smashed it! There are animals like zebras and giraffes now and I love that. There's a good waterfall part which reminds me of Yoshi Falls.",
       "image": "world-faraway-oasis.jpg",
-      "id": "c7bae45f-cd62-4c0c-8e0c-654cd52205f3"
+      "id": "c7bae45f-cd62-4c0c-8e0c-654cd52205f3",
+      "newsletter": true
     },
     {
       "trackId": 172,
@@ -3703,7 +3987,8 @@
       "ranking": "27",
       "description": "It's nice to make Peach's Castle into a circuit but it's kinda boring. The only thing that separates this from other stadiums is that it's pink. I just think its plain. The best thing about this stage is that it goes nicely into Rainbow Road.",
       "image": "world-peach-stadium.avif",
-      "id": "6461dfaa-0948-4f14-af32-72cc5bd84d2f"
+      "id": "6461dfaa-0948-4f14-af32-72cc5bd84d2f",
+      "newsletter": true
     },
     {
       "trackId": 173,
@@ -3716,7 +4001,8 @@
       "ranking": "21",
       "description": "This stage was probably a Venice track from Tour that never made it - but why not! I love the Italian/Mediterranean vibe. Driving on the canal is great! I like all the different kinds of water in this game and this is a good showcase of that.",
       "image": "world-salty-salty-speedway.png",
-      "id": "afdde8df-afb0-490c-8e08-901131df723d"
+      "id": "afdde8df-afb0-490c-8e08-901131df723d",
+      "newsletter": true
     },
     {
       "trackId": 174,
@@ -3729,7 +4015,8 @@
       "ranking": "10",
       "description": "I'm a little angry about there being a special character in this track name but I'll forgive it. It's a great idea, a floating ruined question block? Why the fuck not. It's great to have a track in the sky like this and the music is alright as well.",
       "image": "world-great-block-ruins.jpg",
-      "id": "230eb75c-e88b-4619-8ad7-9f1ef8b0dfab"
+      "id": "230eb75c-e88b-4619-8ad7-9f1ef8b0dfab",
+      "newsletter": true
     },
     {
       "trackId": 175,
@@ -3742,7 +4029,8 @@
       "ranking": "15",
       "description": "The water looks amazing! Incredible that they made this possible really. And I love the traditional Japanese vibe. The bit at the end with the off road hill that you can mushroom over is kinda bullshit though.",
       "image": "world-cheep-cheep-falls.png",
-      "id": "aa3d80be-740f-47be-877e-6e890106c8cf"
+      "id": "aa3d80be-740f-47be-877e-6e890106c8cf",
+      "newsletter": true
     },
     {
       "trackId": 176,
@@ -3755,7 +4043,8 @@
       "ranking": "8",
       "description": "What a fun vibe! Upstairs is Mario Odyssey's Steam Gardens, then its downstairs with Xenoblade 2 Kingdom of Uraya. I love the switch up and that gorgeous blue cavern. Great, a personal favourite.",
       "image": "world-dandelion-depths.jpg",
-      "id": "4f36a6f3-c076-4248-8925-46a46e629934"
+      "id": "4f36a6f3-c076-4248-8925-46a46e629934",
+      "newsletter": true
     },
     {
       "trackId": 177,
@@ -3768,7 +4057,8 @@
       "ranking": "6",
       "description": "Finally, they took the ghost valley formula and turned it into something special! They took it to the next level with this genius little idea. I love the vibes of the general area as well, with it being next to something like Boo Lake. The jazz vibe is great as well.",
       "image": "world-boo-cinema.jpg",
-      "id": "648e71f7-3645-411f-986d-332512acf38e"
+      "id": "648e71f7-3645-411f-986d-332512acf38e",
+      "newsletter": true
     },
     {
       "trackId": 178,
@@ -3781,7 +4071,8 @@
       "ranking": "5",
       "description": "They made a Mexican day of the dead track using Dry Bones and put it in a volcano! I love the colours and the papel picado and the salsa music. There are also tons of different routes which is super fun.",
       "image": "world-dry-bones-burnout.webp",
-      "id": "26814807-179b-4357-81f4-0d22f5b10c48"
+      "id": "26814807-179b-4357-81f4-0d22f5b10c48",
+      "newsletter": true
     },
     {
       "trackId": 179,
@@ -3794,7 +4085,8 @@
       "ranking": "11",
       "description": "The Bowser's Castle in this game is so good! It's this super intimidating volcano and has the classic sharp turns. Maybe I like to go to this track so I can listen to the banger Bowser Castle remixes when you drive to nearby areas.",
       "image": "world-bowsers-castle.jpg",
-      "id": "0f146679-94f6-4102-aa17-375005c23c36"
+      "id": "0f146679-94f6-4102-aa17-375005c23c36",
+      "newsletter": true
     },
     {
       "trackId": 180,
@@ -3807,7 +4099,8 @@
       "ranking": "18",
       "description": "A new entry in the beautiful forest vibe, channeling Maple Treeway and Wild Woods, and I'm here for it. I enjoy driving on the vines, and there's this cool part where you can wall ride and shortcut towards the end.",
       "image": "world-acorn-heights.jpg",
-      "id": "dd15dfc4-cac2-48fd-a86e-96524e7433e9"
+      "id": "dd15dfc4-cac2-48fd-a86e-96524e7433e9",
+      "newsletter": true
     },
     {
       "trackId": 181,
@@ -3820,7 +4113,8 @@
       "ranking": "7",
       "description": "They well all out for this one! I really appreciate that it references back to old Rainbow Roads with N64's insane length, SNES's blocky look with the thwomps, Wii U's space station, flying over the city like Double Dash. It's extreme! I honestly think it's trying too hard though. Also, crucially, I feel the music is too generic and doesn't truly capture the magic of Rainbow Road. It feels a bit forced. It's still very exciting to play though!",
       "image": "world-rainbow-road.png",
-      "id": "345a625b-04d7-4406-a52d-bfe761279546"
+      "id": "345a625b-04d7-4406-a52d-bfe761279546",
+      "newsletter": true
     }
   ]
 }

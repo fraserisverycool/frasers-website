@@ -8,4 +8,5 @@ export interface Book {
   showSpoiler?: boolean;
   rating: number[];
   id: string;
+  newsletter: boolean;
 }

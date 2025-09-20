@@ -15,7 +15,8 @@
       "year": "2025",
       "release": "2025",
       "score": 18,
-      "id": "085ca94e-8e54-496b-9722-2c014b3ef8a2"
+      "id": "085ca94e-8e54-496b-9722-2c014b3ef8a2",
+      "newsletter": false
     },
     {
       "name": "Deltarune: Chapter 4",
@@ -30,7 +31,8 @@
       "year": "2025",
       "release": "2025",
       "score": 17,
-      "id": "2368988d-7bf7-44fa-8923-db869f736607"
+      "id": "2368988d-7bf7-44fa-8923-db869f736607",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong Bananza",
@@ -47,7 +49,8 @@
       "year": "2025",
       "release": "2025",
       "score": 19,
-      "id": "0257df43-ebed-400d-b07a-5440a1795493"
+      "id": "0257df43-ebed-400d-b07a-5440a1795493",
+      "newsletter": true
     },
     {
       "name": "Deltarune: Chapter 3",
@@ -61,7 +64,8 @@
       "year": "2025",
       "release": "2025",
       "score": 16,
-      "id": "53af54a0-2b90-4c23-a40f-7d394cfcbe93"
+      "id": "53af54a0-2b90-4c23-a40f-7d394cfcbe93",
+      "newsletter": true
     },
     {
       "name": "Super Mario Strikers",
@@ -75,7 +79,8 @@
       "year": "2025",
       "release": "2005",
       "score": 1,
-      "id": "a5d482c8-4a8e-4660-80d1-29fcc349d799"
+      "id": "a5d482c8-4a8e-4660-80d1-29fcc349d799",
+      "newsletter": true
     },
     {
       "name": "Mario Kart World",
@@ -92,7 +97,8 @@
       "year": "2025",
       "release": "2025",
       "score": 20,
-      "id": "ab7ce381-e527-46fb-9277-7393351dc20c"
+      "id": "ab7ce381-e527-46fb-9277-7393351dc20c",
+      "newsletter": true
     },
     {
       "name": "Astrobot",
@@ -107,7 +113,8 @@
       "year": "2025",
       "release": "2024",
       "score": 6,
-      "id": "2883a6be-daba-435c-82e2-384e8117ac48"
+      "id": "2883a6be-daba-435c-82e2-384e8117ac48",
+      "newsletter": true
     },
     {
       "name": "Game of Life",
@@ -122,7 +129,8 @@
       "year": "2025",
       "release": "2025",
       "score": 1,
-      "id": "789ccc76-eb0c-4bdb-a9bc-be219aba28a1"
+      "id": "789ccc76-eb0c-4bdb-a9bc-be219aba28a1",
+      "newsletter": true
     },
     {
       "name": "Star of Providence",
@@ -136,7 +144,8 @@
       "year": "2025",
       "release": "2017",
       "score": 8,
-      "id": "3b3e8b8f-d555-4bea-8b4b-a502500595ae"
+      "id": "3b3e8b8f-d555-4bea-8b4b-a502500595ae",
+      "newsletter": true
     },
     {
       "name": "Gravity Circuit",
@@ -150,7 +159,8 @@
       "year": "2025",
       "release": "2023",
       "score": 4,
-      "id": "36bbea31-11a0-4c2b-84f6-643b90fe2395"
+      "id": "36bbea31-11a0-4c2b-84f6-643b90fe2395",
+      "newsletter": true
     },
     {
       "name": "Miitopia",
@@ -168,7 +178,8 @@
       "year": "2025",
       "release": "2021",
       "score": 2,
-      "id": "a481d6ed-4f36-4bf6-929f-90722be04454"
+      "id": "a481d6ed-4f36-4bf6-929f-90722be04454",
+      "newsletter": true
     },
     {
       "name": "Kuru Kuru Kururin",
@@ -183,7 +194,8 @@
       "year": "2025",
       "release": "2001",
       "score": 7,
-      "id": "455f5eaa-8a71-48a5-9434-25c7a1139a82"
+      "id": "455f5eaa-8a71-48a5-9434-25c7a1139a82",
+      "newsletter": true
     },
     {
       "name": "Isles of Sea and Sky",
@@ -199,7 +211,8 @@
       "year": "2025",
       "release": "2024",
       "score": 11,
-      "id": "586f9726-16f4-496f-9644-801f14a66387"
+      "id": "586f9726-16f4-496f-9644-801f14a66387",
+      "newsletter": true
     },
     {
       "name": "Rift of the NecroDancer",
@@ -217,7 +230,8 @@
       "year": "2025",
       "release": "2025",
       "score": 9,
-      "id": "a45d2c1f-b3df-4098-8db1-5260790665fd"
+      "id": "a45d2c1f-b3df-4098-8db1-5260790665fd",
+      "newsletter": true
     },
     {
       "name": "Split Fiction",
@@ -233,7 +247,8 @@
       "year": "2025",
       "release": "2025",
       "score": 3,
-      "id": "68a972bf-d9b8-4ccf-8e12-64709d483a68"
+      "id": "68a972bf-d9b8-4ccf-8e12-64709d483a68",
+      "newsletter": true
     },
     {
       "name": "CLICKOLDING",
@@ -247,7 +262,8 @@
       "year": "2025",
       "release": "2024",
       "score": 5,
-      "id": "00bb2dec-cfa2-4145-82b0-c8936be6c0ef"
+      "id": "00bb2dec-cfa2-4145-82b0-c8936be6c0ef",
+      "newsletter": true
     },
     {
       "name": "Case of the Golden Idol",
@@ -262,7 +278,8 @@
       "year": "2025",
       "release": "2022",
       "score": 10,
-      "id": "e18b08b3-86f9-4c23-85ed-2e89be4a91a7"
+      "id": "e18b08b3-86f9-4c23-85ed-2e89be4a91a7",
+      "newsletter": true
     },
     {
       "name": "Metroid Prime Remastered",
@@ -278,7 +295,8 @@
       "year": "2025",
       "release": "2023",
       "score": 12,
-      "id": "fef97954-6507-4f83-a123-c06cb94d3e80"
+      "id": "fef97954-6507-4f83-a123-c06cb94d3e80",
+      "newsletter": true
     },
     {
       "name": "Advance Wars 1+2: Re-Boot Camp",
@@ -294,7 +312,8 @@
       "year": "2024",
       "release": "2023",
       "score": 18,
-      "id": "0d9680ff-163b-429a-b6d7-e0c53769612d"
+      "id": "0d9680ff-163b-429a-b6d7-e0c53769612d",
+      "newsletter": true
     },
     {
       "name": "Still Wakes The Deep",
@@ -308,7 +327,8 @@
       "year": "2024",
       "release": "2024",
       "score": 11,
-      "id": "a82f028c-d031-4822-a071-fb7e6045dbb7"
+      "id": "a82f028c-d031-4822-a071-fb7e6045dbb7",
+      "newsletter": true
     },
     {
       "name": "13 Sentinels: Aegis Rim",
@@ -324,7 +344,8 @@
       "release": "2019",
       "story": true,
       "score": 22,
-      "id": "39b17a0b-7944-4856-a61a-efb379e465e3"
+      "id": "39b17a0b-7944-4856-a61a-efb379e465e3",
+      "newsletter": true
     },
     {
       "name": "Rivals of Aether 2",
@@ -341,7 +362,8 @@
       "year": "2024",
       "release": "2024",
       "score": 20,
-      "id": "06f5d954-ff98-4412-9729-40e6336a94dc"
+      "id": "06f5d954-ff98-4412-9729-40e6336a94dc",
+      "newsletter": true
     },
     {
       "name": "UFO 50",
@@ -359,7 +381,8 @@
       "year": "2024",
       "release": "2024",
       "score": 27,
-      "id": "5b29eefe-b401-4464-aa45-f0b3ba9f5aaa"
+      "id": "5b29eefe-b401-4464-aa45-f0b3ba9f5aaa",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Echoes of Wisdom",
@@ -375,7 +398,8 @@
       "year": "2024",
       "release": "2024",
       "score": 19,
-      "id": "59bef18c-6c16-4e2e-8ebb-692a2c8ed993"
+      "id": "59bef18c-6c16-4e2e-8ebb-692a2c8ed993",
+      "newsletter": true
     },
     {
       "name": "Kingdom Hearts: Birth By Sleep",
@@ -389,7 +413,8 @@
       "year": "2024",
       "release": "2010",
       "score": 1,
-      "id": "2714dec7-8379-41f1-9c75-d4d0002f2c0d"
+      "id": "2714dec7-8379-41f1-9c75-d4d0002f2c0d",
+      "newsletter": true
     },
     {
       "name": "Age of Mythology: Retold",
@@ -403,7 +428,8 @@
       "year": "2024",
       "release": "2024",
       "score": 5,
-      "id": "f6212974-44c2-4826-bf3a-f50232ba709a"
+      "id": "f6212974-44c2-4826-bf3a-f50232ba709a",
+      "newsletter": true
     },
     {
       "name": "Kingdom Hearts HD 2.5 Remix",
@@ -422,7 +448,8 @@
       "year": "2024",
       "release": "2014",
       "score": 2,
-      "id": "16922f11-449c-4611-b134-ee69291e16c2"
+      "id": "16922f11-449c-4611-b134-ee69291e16c2",
+      "newsletter": true
     },
     {
       "name": "Thank Goodness You're Here",
@@ -438,7 +465,8 @@
       "release": "2024",
       "story": true,
       "score": 16,
-      "id": "88a6ef8f-c8a3-4232-bca6-74464882e685"
+      "id": "88a6ef8f-c8a3-4232-bca6-74464882e685",
+      "newsletter": true
     },
     {
       "name": "Harold Halibut",
@@ -455,7 +483,8 @@
       "release": "2024",
       "story": true,
       "score": 15,
-      "id": "e77be82c-6553-455d-8b59-23b8e2bd4f08"
+      "id": "e77be82c-6553-455d-8b59-23b8e2bd4f08",
+      "newsletter": true
     },
     {
       "name": "A Little to the Left",
@@ -469,7 +498,8 @@
       "year": "2024",
       "release": "2022",
       "score": 3,
-      "id": "ee3556b3-2077-4457-8425-28f315502dbf"
+      "id": "ee3556b3-2077-4457-8425-28f315502dbf",
+      "newsletter": true
     },
     {
       "name": "Chained Echoes",
@@ -484,7 +514,8 @@
       "year": "2024",
       "release": "2022",
       "score": 10,
-      "id": "9a199120-6ecf-4b84-9fee-ad63c6cf822e"
+      "id": "9a199120-6ecf-4b84-9fee-ad63c6cf822e",
+      "newsletter": true
     },
     {
       "name": "Metal Gear Solid",
@@ -500,7 +531,8 @@
       "year": "2024",
       "release": "1998",
       "score": 8,
-      "id": "b774a642-5dd0-4f99-9de3-fc5a94222097"
+      "id": "b774a642-5dd0-4f99-9de3-fc5a94222097",
+      "newsletter": true
     },
     {
       "name": "Punchout",
@@ -514,7 +546,8 @@
       "year": "2024",
       "release": "1987",
       "score": 14,
-      "id": "3be3f63a-5573-400a-a485-29c68b45ce5b"
+      "id": "3be3f63a-5573-400a-a485-29c68b45ce5b",
+      "newsletter": true
     },
     {
       "name": "Tongue Tale",
@@ -530,7 +563,8 @@
       "year": "2024",
       "release": "2024",
       "score": 6,
-      "id": "4f78a631-b96a-4084-999d-9fbc6335d19d"
+      "id": "4f78a631-b96a-4084-999d-9fbc6335d19d",
+      "newsletter": true
     },
     {
       "name": "Paper Mario: The Thousand Year Door",
@@ -548,7 +582,8 @@
       "year": "2024",
       "release": "2024",
       "score": 24,
-      "id": "573de1bc-b2fd-45a9-98af-40a9e63d7d72"
+      "id": "573de1bc-b2fd-45a9-98af-40a9e63d7d72",
+      "newsletter": true
     },
     {
       "name": "Cassette Beasts",
@@ -566,7 +601,8 @@
       "year": "2024",
       "release": "2023",
       "score": 7,
-      "id": "37917f07-ac56-4f66-afc4-2728610acf2b"
+      "id": "37917f07-ac56-4f66-afc4-2728610acf2b",
+      "newsletter": true
     },
     {
       "name": "Animal Well",
@@ -582,7 +618,8 @@
       "year": "2024",
       "release": "2024",
       "score": 21,
-      "id": "acfccc13-31b1-43db-86c3-0aa90bbad01d"
+      "id": "acfccc13-31b1-43db-86c3-0aa90bbad01d",
+      "newsletter": true
     },
     {
       "name": "Balatro",
@@ -597,7 +634,8 @@
       "year": "2024",
       "release": "2024",
       "score": 25,
-      "id": "d32f852c-c54e-49c7-aa98-52635c95386c"
+      "id": "d32f852c-c54e-49c7-aa98-52635c95386c",
+      "newsletter": true
     },
     {
       "name": "Final Fantasy VII: Rebirth",
@@ -619,7 +657,8 @@
       "year": "2024",
       "release": "2024",
       "score": 9,
-      "id": "1fbfc730-043c-40ea-92a2-fd25a62662e1"
+      "id": "1fbfc730-043c-40ea-92a2-fd25a62662e1",
+      "newsletter": true
     },
     {
       "name": "Penny's Big Breakaway",
@@ -637,7 +676,8 @@
       "year": "2024",
       "release": "2024",
       "score": 17,
-      "id": "18279720-1721-4ef4-a92f-6cf2fcd290cf"
+      "id": "18279720-1721-4ef4-a92f-6cf2fcd290cf",
+      "newsletter": true
     },
     {
       "name": "Metroid Fusion",
@@ -653,7 +693,8 @@
       "year": "2024",
       "release": "2002",
       "score": 23,
-      "id": "dd92da0d-4889-407f-bb86-5dedad921a83"
+      "id": "dd92da0d-4889-407f-bb86-5dedad921a83",
+      "newsletter": true
     },
     {
       "name": "Cobalt Core",
@@ -670,7 +711,8 @@
       "year": "2024",
       "release": "2023",
       "score": 13,
-      "id": "fe0ab92b-ec6b-4eb2-87ab-f79715fb7c5f"
+      "id": "fe0ab92b-ec6b-4eb2-87ab-f79715fb7c5f",
+      "newsletter": true
     },
     {
       "name": "1000xRESIST",
@@ -688,7 +730,8 @@
       "release": "2024",
       "story": true,
       "score": 4,
-      "id": "199a92a8-02d3-4213-aa6b-dc011fc1b674"
+      "id": "199a92a8-02d3-4213-aa6b-dc011fc1b674",
+      "newsletter": true
     },
     {
       "name": "Dave the Diver",
@@ -707,7 +750,8 @@
       "year": "2024",
       "release": "2023",
       "score": 12,
-      "id": "8ca82efb-9465-4c48-980d-63b82e382097"
+      "id": "8ca82efb-9465-4c48-980d-63b82e382097",
+      "newsletter": true
     },
     {
       "name": "Void Stranger",
@@ -724,7 +768,8 @@
       "year": "2024",
       "release": "2023",
       "score": 26,
-      "id": "d7fabb6e-cb83-41ca-9cee-657d6f4335e9"
+      "id": "d7fabb6e-cb83-41ca-9cee-657d6f4335e9",
+      "newsletter": true
     },
     {
       "name": "Dr Mario 64",
@@ -740,7 +785,8 @@
       "year": "2023",
       "release": "2001",
       "score": 9,
-      "id": "31980121-ea47-4d5d-9908-6f45ad6149aa"
+      "id": "31980121-ea47-4d5d-9908-6f45ad6149aa",
+      "newsletter": true
     },
     {
       "name": "Marvel's Spider-Man 2",
@@ -759,7 +805,8 @@
       "year": "2023",
       "release": "2023 ",
       "score": 8,
-      "id": "50bccc01-f3e1-4d9d-8ec3-e8fb91e5b971"
+      "id": "50bccc01-f3e1-4d9d-8ec3-e8fb91e5b971",
+      "newsletter": true
     },
     {
       "name": "Kingdom Hearts 358/2 Days",
@@ -777,7 +824,8 @@
       "release": "2013",
       "story": true,
       "score": 1,
-      "id": "64eaadba-2521-40fd-9c0b-cf236afccd22"
+      "id": "64eaadba-2521-40fd-9c0b-cf236afccd22",
+      "newsletter": true
     },
     {
       "name": "Signalis",
@@ -792,7 +840,8 @@
       "year": "2023",
       "release": "2022",
       "score": 18,
-      "id": "ee863a4f-5fb0-432a-91bb-a590caf49538"
+      "id": "ee863a4f-5fb0-432a-91bb-a590caf49538",
+      "newsletter": true
     },
     {
       "name": "Kingdom Hearts Re:Chain of Memories",
@@ -810,7 +859,8 @@
       "year": "2023",
       "release": "2013",
       "score": 2,
-      "id": "f153f19e-7bde-44d9-ae27-50cc55551d50"
+      "id": "f153f19e-7bde-44d9-ae27-50cc55551d50",
+      "newsletter": true
     },
     {
       "name": "Banjo Kazooie",
@@ -827,7 +877,8 @@
       "year": "2023",
       "release": "1998",
       "score": 10,
-      "id": "5777b311-c111-4528-923c-a8c0438e0bf6"
+      "id": "5777b311-c111-4528-923c-a8c0438e0bf6",
+      "newsletter": true
     },
     {
       "name": "WarioWare: Move It!",
@@ -841,7 +892,8 @@
       "year": "2023",
       "release": "2023",
       "score": 29,
-      "id": "0797b0b6-ed02-4242-8239-38729c5e4ad7"
+      "id": "0797b0b6-ed02-4242-8239-38729c5e4ad7",
+      "newsletter": true
     },
     {
       "name": "Kingdom Hearts 1.5 Final Mix",
@@ -860,7 +912,8 @@
       "year": "2023",
       "release": "2013 ",
       "score": 3,
-      "id": "277476eb-946f-46b5-b13d-f3d55293bd44"
+      "id": "277476eb-946f-46b5-b13d-f3d55293bd44",
+      "newsletter": true
     },
     {
       "name": "Cocoon",
@@ -875,7 +928,8 @@
       "year": "2023",
       "release": "2023",
       "score": 28,
-      "id": "6b6e8659-ef86-4c4b-bbfd-960dd1b88239"
+      "id": "6b6e8659-ef86-4c4b-bbfd-960dd1b88239",
+      "newsletter": true
     },
     {
       "name": "Anodyne 2: Return to Dust",
@@ -891,7 +945,8 @@
       "year": "2023",
       "release": "2019",
       "score": 34,
-      "id": "a693f361-f33a-497f-a0ce-4c54b40d773e"
+      "id": "a693f361-f33a-497f-a0ce-4c54b40d773e",
+      "newsletter": true
     },
     {
       "name": "Super Mario Bros Wonder",
@@ -906,7 +961,8 @@
       "year": "2023",
       "release": "2023",
       "score": 27,
-      "id": "92af4cd1-78f8-4467-9d0b-afcbf21e72d9"
+      "id": "92af4cd1-78f8-4467-9d0b-afcbf21e72d9",
+      "newsletter": true
     },
     {
       "name": "Ghost Trick: Phantom Detective",
@@ -920,7 +976,8 @@
       "year": "2023",
       "release": "2010",
       "score": 33,
-      "id": "763e56bb-62aa-4d90-9293-a0ac2710fb9e"
+      "id": "763e56bb-62aa-4d90-9293-a0ac2710fb9e",
+      "newsletter": true
     },
     {
       "name": "Chants of Sennaar",
@@ -936,7 +993,8 @@
       "year": "2023",
       "release": "2023",
       "score": 24,
-      "id": "866241db-32dc-46dc-bddc-015d0d74ca7f"
+      "id": "866241db-32dc-46dc-bddc-015d0d74ca7f",
+      "newsletter": true
     },
     {
       "name": "F-Zero 99",
@@ -951,7 +1009,8 @@
       "year": "2023",
       "release": "2023",
       "score": 25,
-      "id": "6ba581da-784f-4d21-b0c1-e60df02a44ac"
+      "id": "6ba581da-784f-4d21-b0c1-e60df02a44ac",
+      "newsletter": true
     },
     {
       "name": "Sea of Stars",
@@ -973,7 +1032,8 @@
       "year": "2023",
       "release": "2023",
       "score": 19,
-      "id": "2fcf402f-11b6-481d-a5d6-55767465aa93"
+      "id": "2fcf402f-11b6-481d-a5d6-55767465aa93",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Oracle of Ages",
@@ -988,7 +1048,8 @@
       "year": "2023",
       "release": "2001",
       "score": 12,
-      "id": "ad102382-d63d-467a-a43a-94961f6ff7fb"
+      "id": "ad102382-d63d-467a-a43a-94961f6ff7fb",
+      "newsletter": true
     },
     {
       "name": "Death's Door",
@@ -1002,7 +1063,8 @@
       "year": "2023",
       "release": "2021",
       "score": 11,
-      "id": "f877f9c8-2bd0-487f-b754-a255dd1152c1"
+      "id": "f877f9c8-2bd0-487f-b754-a255dd1152c1",
+      "newsletter": true
     },
     {
       "name": "Monster Train",
@@ -1016,7 +1078,8 @@
       "year": "2023",
       "release": "2020",
       "score": 4,
-      "id": "49c5bd6d-c96c-4499-af58-ebeea640a902"
+      "id": "49c5bd6d-c96c-4499-af58-ebeea640a902",
+      "newsletter": true
     },
     {
       "name": "Vampire Survivors",
@@ -1031,7 +1094,8 @@
       "year": "2023",
       "release": "2022",
       "score": 26,
-      "id": "a34f11d8-bd8b-4e8d-ae02-d688d1e5df4d"
+      "id": "a34f11d8-bd8b-4e8d-ae02-d688d1e5df4d",
+      "newsletter": true
     },
     {
       "name": "Pokemon Trading Card Game",
@@ -1047,7 +1111,8 @@
       "year": "2023",
       "release": "1996",
       "score": 30,
-      "id": "a9150e8e-bd91-44e6-84ae-9ec0a1593503"
+      "id": "a9150e8e-bd91-44e6-84ae-9ec0a1593503",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem Engage",
@@ -1064,7 +1129,8 @@
       "year": "2023",
       "release": "2023",
       "score": 22,
-      "id": "f7bd7777-7e79-4d6b-9b4b-7c38795bc6f7"
+      "id": "f7bd7777-7e79-4d6b-9b4b-7c38795bc6f7",
+      "newsletter": true
     },
     {
       "name": "Pikmin 4",
@@ -1087,7 +1153,8 @@
       "year": "2023",
       "release": "2023",
       "score": 32,
-      "id": "bfc11af8-779c-4506-83dd-f3c532b75aad"
+      "id": "bfc11af8-779c-4506-83dd-f3c532b75aad",
+      "newsletter": true
     },
     {
       "name": "Super Mario RPG",
@@ -1102,7 +1169,8 @@
       "year": "2023",
       "release": "1996",
       "score": 21,
-      "id": "cc3533ca-a92c-440f-81e3-47602e4300a2"
+      "id": "cc3533ca-a92c-440f-81e3-47602e4300a2",
+      "newsletter": true
     },
     {
       "name": "Pentiment",
@@ -1117,7 +1185,8 @@
       "release": "2022",
       "story": true,
       "score": 5,
-      "id": "6887fcd8-25e4-428e-95db-c1578b445109"
+      "id": "6887fcd8-25e4-428e-95db-c1578b445109",
+      "newsletter": true
     },
     {
       "name": "Street Fighter 6",
@@ -1132,7 +1201,8 @@
       "year": "2023",
       "release": "2023",
       "score": 20,
-      "id": "cdf040bf-d5ce-4d38-a8cd-38c13548dbcf"
+      "id": "cdf040bf-d5ce-4d38-a8cd-38c13548dbcf",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Tears of the Kingdom",
@@ -1148,7 +1218,8 @@
       "year": "2023",
       "release": "2023",
       "score": 31,
-      "id": "7db96778-ee81-4f26-b3b3-8f2d5f2c8f88"
+      "id": "7db96778-ee81-4f26-b3b3-8f2d5f2c8f88",
+      "newsletter": true
     },
     {
       "name": "Pizza Tower",
@@ -1164,7 +1235,8 @@
       "year": "2023",
       "release": "2023",
       "score": 35,
-      "id": "25d0c7bd-3644-4b65-800e-866ae7821677"
+      "id": "25d0c7bd-3644-4b65-800e-866ae7821677",
+      "newsletter": true
     },
     {
       "name": "Kirby's Return to Dreamland Deluxe",
@@ -1178,7 +1250,8 @@
       "year": "2023",
       "release": "2023",
       "score": 23,
-      "id": "02008136-43b2-457d-91fb-12522bd26421"
+      "id": "02008136-43b2-457d-91fb-12522bd26421",
+      "newsletter": true
     },
     {
       "name": "Hifi Rush",
@@ -1193,7 +1266,8 @@
       "year": "2023",
       "release": "2023",
       "score": 6,
-      "id": "453c123b-ffef-4c6e-8ede-62d8447c2def"
+      "id": "453c123b-ffef-4c6e-8ede-62d8447c2def",
+      "newsletter": true
     },
     {
       "name": "Citizen Sleeper",
@@ -1207,7 +1281,8 @@
       "year": "2023",
       "release": "2022",
       "score": 15,
-      "id": "0796cc81-6325-4d9b-bbe3-88ba32d530d4"
+      "id": "0796cc81-6325-4d9b-bbe3-88ba32d530d4",
+      "newsletter": true
     },
     {
       "name": "The Looker",
@@ -1221,7 +1296,8 @@
       "year": "2023",
       "release": "2022",
       "score": 16,
-      "id": "08076a62-ceee-4dcd-8dc7-9fa6eaed40f2"
+      "id": "08076a62-ceee-4dcd-8dc7-9fa6eaed40f2",
+      "newsletter": true
     },
     {
       "name": "Norco",
@@ -1235,7 +1311,8 @@
       "year": "2023",
       "release": "2022",
       "score": 14,
-      "id": "676f533d-3231-4d9c-88c7-20e8d96a5018"
+      "id": "676f533d-3231-4d9c-88c7-20e8d96a5018",
+      "newsletter": true
     },
     {
       "name": "It Takes Two",
@@ -1249,7 +1326,8 @@
       "year": "2023",
       "release": "2021",
       "score": 7,
-      "id": "49a000db-5306-467a-b139-71152f03afc8"
+      "id": "49a000db-5306-467a-b139-71152f03afc8",
+      "newsletter": true
     },
     {
       "name": "Neon White",
@@ -1264,7 +1342,8 @@
       "year": "2023",
       "release": "2022",
       "score": 17,
-      "id": "a2c75b08-b8cb-4780-8350-aaa080271557"
+      "id": "a2c75b08-b8cb-4780-8350-aaa080271557",
+      "newsletter": true
     },
     {
       "name": "Stray",
@@ -1281,7 +1360,8 @@
       "year": "2023",
       "release": "2022",
       "score": 13,
-      "id": "2b4ac705-82dd-405f-964a-da315333d2a9"
+      "id": "2b4ac705-82dd-405f-964a-da315333d2a9",
+      "newsletter": true
     },
     {
       "name": "Sports Story",
@@ -1295,7 +1375,8 @@
       "year": "2022",
       "release": "2022",
       "score": 3,
-      "id": "03e5e925-cae3-4e1b-a800-45ff50bbcb5f"
+      "id": "03e5e925-cae3-4e1b-a800-45ff50bbcb5f",
+      "newsletter": true
     },
     {
       "name": "Pac-Man World: Re-Pac",
@@ -1310,7 +1391,8 @@
       "year": "2022",
       "release": "2022",
       "score": 4,
-      "id": "b91c578d-a765-4a1d-8824-d2fd15ef57a1"
+      "id": "b91c578d-a765-4a1d-8824-d2fd15ef57a1",
+      "newsletter": true
     },
     {
       "name": "Castlevania: Symphony of the Night",
@@ -1325,7 +1407,8 @@
       "year": "2022",
       "release": "1997",
       "score": 32,
-      "id": "78ed7a8b-1b44-4f88-a27c-3214b149156a"
+      "id": "78ed7a8b-1b44-4f88-a27c-3214b149156a",
+      "newsletter": true
     },
     {
       "name": "Scarlet Nexus",
@@ -1339,7 +1422,8 @@
       "year": "2022",
       "release": "2021",
       "score": 20,
-      "id": "d4ec490a-2105-4dfe-a899-11b79b38d8a7"
+      "id": "d4ec490a-2105-4dfe-a899-11b79b38d8a7",
+      "newsletter": true
     },
     {
       "name": "Castlevania: Rondo of Blood",
@@ -1353,7 +1437,8 @@
       "year": "2022",
       "release": "1993",
       "score": 13,
-      "id": "c0ed3846-d362-49a5-b3ef-75bcf45b3ad6"
+      "id": "c0ed3846-d362-49a5-b3ef-75bcf45b3ad6",
+      "newsletter": true
     },
     {
       "name": "Slice & Dice",
@@ -1368,7 +1453,8 @@
       "year": "2022",
       "release": "2021",
       "score": 26,
-      "id": "8f1d9be1-5847-44d1-a171-5d999ede8bdf"
+      "id": "8f1d9be1-5847-44d1-a171-5d999ede8bdf",
+      "newsletter": true
     },
     {
       "name": "Wandersong",
@@ -1382,7 +1468,8 @@
       "year": "2022",
       "release": "2018",
       "score": 6,
-      "id": "6a84d1fa-27e1-4a6c-8efd-60a0d39b1161"
+      "id": "6a84d1fa-27e1-4a6c-8efd-60a0d39b1161",
+      "newsletter": true
     },
     {
       "name": "Castlevania",
@@ -1396,7 +1483,8 @@
       "year": "2022",
       "release": "1986",
       "score": 14,
-      "id": "a01ce1e3-658d-418e-9500-303a7a55b589"
+      "id": "a01ce1e3-658d-418e-9500-303a7a55b589",
+      "newsletter": true
     },
     {
       "name": "Super Castlevania 4",
@@ -1411,7 +1499,8 @@
       "year": "2022",
       "release": "1991",
       "score": 15,
-      "id": "9f74e7c3-9cc0-4962-af26-e4e01a2d5d9f"
+      "id": "9f74e7c3-9cc0-4962-af26-e4e01a2d5d9f",
+      "newsletter": true
     },
     {
       "name": "Everhood",
@@ -1426,7 +1515,8 @@
       "year": "2022",
       "release": "2021",
       "score": 30,
-      "id": "14355906-5e89-4db3-9c56-95125f205fd8"
+      "id": "14355906-5e89-4db3-9c56-95125f205fd8",
+      "newsletter": true
     },
     {
       "name": "LISA: The Painful",
@@ -1440,7 +1530,8 @@
       "year": "2022",
       "release": "2014",
       "score": 5,
-      "id": "094cbe99-b20e-4f5b-9c2f-12074d3d06c7"
+      "id": "094cbe99-b20e-4f5b-9c2f-12074d3d06c7",
+      "newsletter": true
     },
     {
       "name": "Rain World",
@@ -1456,7 +1547,8 @@
       "year": "2022",
       "release": "2017",
       "score": 9,
-      "id": "a7edbabf-078a-4572-a365-a40338b968f2"
+      "id": "a7edbabf-078a-4572-a365-a40338b968f2",
+      "newsletter": true
     },
     {
       "name": "Tunic",
@@ -1472,7 +1564,8 @@
       "year": "2022",
       "release": "2022",
       "score": 34,
-      "id": "d9b6af74-5651-40cf-b787-5fbb3ba148bf"
+      "id": "d9b6af74-5651-40cf-b787-5fbb3ba148bf",
+      "newsletter": true
     },
     {
       "name": "Kirby's Dream Buffet",
@@ -1486,7 +1579,8 @@
       "year": "2022",
       "release": "2022",
       "score": 12,
-      "id": "bb58934f-3b92-4eb0-bb8c-8e26524e8cb6"
+      "id": "bb58934f-3b92-4eb0-bb8c-8e26524e8cb6",
+      "newsletter": true
     },
     {
       "name": "Elechead",
@@ -1500,7 +1594,8 @@
       "year": "2022",
       "release": "2021",
       "score": 27,
-      "id": "4adb98c8-e5b2-4d17-b555-06c6d14bd7ba"
+      "id": "4adb98c8-e5b2-4d17-b555-06c6d14bd7ba",
+      "newsletter": true
     },
     {
       "name": "Omori",
@@ -1515,7 +1610,8 @@
       "year": "2022",
       "release": "2020",
       "score": 31,
-      "id": "cca03760-2278-42a6-9001-736d904f9fd7"
+      "id": "cca03760-2278-42a6-9001-736d904f9fd7",
+      "newsletter": true
     },
     {
       "name": "Xenoblade Chronicles 3",
@@ -1531,7 +1627,8 @@
       "year": "2022",
       "release": "2022",
       "score": 22,
-      "id": "ae2468b3-94c0-4fe8-a8c1-d4988e530ee2"
+      "id": "ae2468b3-94c0-4fe8-a8c1-d4988e530ee2",
+      "newsletter": true
     },
     {
       "name": "Mario Strikers: Battle League",
@@ -1545,7 +1642,8 @@
       "year": "2022",
       "release": "2022",
       "score": 10,
-      "id": "8ffc43dc-7a18-43b2-a79c-0eacf3df917e"
+      "id": "8ffc43dc-7a18-43b2-a79c-0eacf3df917e",
+      "newsletter": true
     },
     {
       "name": "Gorogoa",
@@ -1559,7 +1657,8 @@
       "year": "2022",
       "release": "2017",
       "score": 16,
-      "id": "18850d58-ffe8-4fac-8553-ebcfbc1358ac"
+      "id": "18850d58-ffe8-4fac-8553-ebcfbc1358ac",
+      "newsletter": true
     },
     {
       "name": "Downfall: A Slay the Spire Fan Expansion",
@@ -1573,7 +1672,8 @@
       "year": "2022",
       "release": "2022",
       "score": 23,
-      "id": "b65c8f36-386e-429c-8935-3f95da4b7f4f"
+      "id": "b65c8f36-386e-429c-8935-3f95da4b7f4f",
+      "newsletter": true
     },
     {
       "name": "Persona 5: Royal",
@@ -1588,7 +1688,8 @@
       "year": "2022",
       "release": "2019",
       "score": 21,
-      "id": "8bba6b44-b969-47b6-ab98-3fa405f8e289"
+      "id": "8bba6b44-b969-47b6-ab98-3fa405f8e289",
+      "newsletter": true
     },
     {
       "name": "Elden Ring",
@@ -1606,7 +1707,8 @@
       "year": "2022",
       "release": "2022",
       "score": 24,
-      "id": "e68c32f1-5459-4084-b1d2-ca6a2321da26"
+      "id": "e68c32f1-5459-4084-b1d2-ca6a2321da26",
+      "newsletter": true
     },
     {
       "name": "Microsoft Flight Simulator 2020",
@@ -1620,7 +1722,8 @@
       "year": "2022",
       "release": "2020",
       "score": 8,
-      "id": "401f7257-6c8b-4bc4-86b8-045d27753395"
+      "id": "401f7257-6c8b-4bc4-86b8-045d27753395",
+      "newsletter": true
     },
     {
       "name": "Kirby and the Forgotten Land",
@@ -1635,7 +1738,8 @@
       "year": "2022",
       "release": "2022",
       "score": 25,
-      "id": "182ce1f8-cdd4-45c2-be6c-dcfd322eafbb"
+      "id": "182ce1f8-cdd4-45c2-be6c-dcfd322eafbb",
+      "newsletter": true
     },
     {
       "name": "Boomerang Fu",
@@ -1649,7 +1753,8 @@
       "year": "2022",
       "release": "2020",
       "score": 18,
-      "id": "b25f1d01-a35d-4574-8dc9-443d70b2b6aa"
+      "id": "b25f1d01-a35d-4574-8dc9-443d70b2b6aa",
+      "newsletter": true
     },
     {
       "name": "Spiritfarer",
@@ -1663,7 +1768,8 @@
       "year": "2022",
       "release": "2020",
       "score": 11,
-      "id": "5005bd9e-6f43-4e1f-8dff-92172bc84768"
+      "id": "5005bd9e-6f43-4e1f-8dff-92172bc84768",
+      "newsletter": true
     },
     {
       "name": "Loop Hero",
@@ -1677,7 +1783,8 @@
       "year": "2022",
       "release": "2021",
       "score": 2,
-      "id": "9f0fbbb1-d2f4-4979-aa3f-3533ed799638"
+      "id": "9f0fbbb1-d2f4-4979-aa3f-3533ed799638",
+      "newsletter": true
     },
     {
       "name": "Unpacking",
@@ -1691,7 +1798,8 @@
       "year": "2022",
       "release": "2021",
       "score": 1,
-      "id": "08169ccd-42fb-4684-92f2-a2604336f9a9"
+      "id": "08169ccd-42fb-4684-92f2-a2604336f9a9",
+      "newsletter": true
     },
     {
       "name": "Inscryption",
@@ -1705,7 +1813,8 @@
       "year": "2022",
       "release": "2021",
       "score": 33,
-      "id": "c844895c-7c0e-4140-8d78-e21517938e25"
+      "id": "c844895c-7c0e-4140-8d78-e21517938e25",
+      "newsletter": true
     },
     {
       "name": "Chicory: A Colorful Tale",
@@ -1720,7 +1829,8 @@
       "year": "2022",
       "release": "2021",
       "score": 28,
-      "id": "4a1bfb46-c2e9-40ed-9307-acd13d3b3a04"
+      "id": "4a1bfb46-c2e9-40ed-9307-acd13d3b3a04",
+      "newsletter": true
     },
     {
       "name": "Pokemon Legends: Arceus",
@@ -1735,7 +1845,8 @@
       "year": "2022",
       "release": "2022",
       "score": 7,
-      "id": "038d94f9-9496-4030-8dfb-20f53e43a59b"
+      "id": "038d94f9-9496-4030-8dfb-20f53e43a59b",
+      "newsletter": true
     },
     {
       "name": "Paradise Killer",
@@ -1751,7 +1862,8 @@
       "release": "2020",
       "story": true,
       "score": 29,
-      "id": "a13c52c0-827f-4afa-9241-27765d1bd34f"
+      "id": "a13c52c0-827f-4afa-9241-27765d1bd34f",
+      "newsletter": true
     },
     {
       "name": "Psychonauts 2",
@@ -1765,7 +1877,8 @@
       "year": "2022",
       "release": "2021",
       "score": 17,
-      "id": "53b3c4d1-ebe0-4c89-ab48-0d330f3f130c"
+      "id": "53b3c4d1-ebe0-4c89-ab48-0d330f3f130c",
+      "newsletter": true
     },
     {
       "name": "Valheim",
@@ -1779,7 +1892,8 @@
       "year": "2022",
       "release": "2021",
       "score": 19,
-      "id": "2aaec956-8b6d-456f-a082-f224e583efc0"
+      "id": "2aaec956-8b6d-456f-a082-f224e583efc0",
+      "newsletter": true
     },
     {
       "name": "Disco Elysium",
@@ -1796,7 +1910,8 @@
       "year": "2021",
       "release": "2019",
       "score": 24,
-      "id": "3743aced-1b5e-47e5-8dcd-5dc2b036b5d3"
+      "id": "3743aced-1b5e-47e5-8dcd-5dc2b036b5d3",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem: The Binding Blade",
@@ -1811,7 +1926,8 @@
       "year": "2021",
       "release": "2002",
       "score": 4,
-      "id": "c07eb0c6-a7a2-41d0-bafb-06f21f11bf1d"
+      "id": "c07eb0c6-a7a2-41d0-bafb-06f21f11bf1d",
+      "newsletter": true
     },
     {
       "name": "Frostpunk",
@@ -1825,7 +1941,8 @@
       "year": "2021",
       "release": "2018",
       "score": 15,
-      "id": "1a110b0c-53af-4962-9321-413fee80dd70"
+      "id": "1a110b0c-53af-4962-9321-413fee80dd70",
+      "newsletter": true
     },
     {
       "name": "Ring Fit Adventure",
@@ -1840,7 +1957,8 @@
       "year": "2021",
       "release": "2019",
       "score": 16,
-      "id": "034b1fa4-18c0-4a19-ad24-c5683d36dffd"
+      "id": "034b1fa4-18c0-4a19-ad24-c5683d36dffd",
+      "newsletter": true
     },
     {
       "name": "Pokemon: Brilliant Diamond",
@@ -1856,7 +1974,8 @@
       "year": "2021",
       "release": "2021",
       "score": 5,
-      "id": "9b77d3d5-497d-4ef7-8a7a-d8d454bcd329"
+      "id": "9b77d3d5-497d-4ef7-8a7a-d8d454bcd329",
+      "newsletter": true
     },
     {
       "name": "Outer Wilds: Echoes of the Eye",
@@ -1872,7 +1991,8 @@
       "year": "2021",
       "release": "2021",
       "score": 28,
-      "id": "0df56f65-4d79-424c-96b8-72f98e7d5eed"
+      "id": "0df56f65-4d79-424c-96b8-72f98e7d5eed",
+      "newsletter": true
     },
     {
       "name": "Metroid: Dread",
@@ -1887,7 +2007,8 @@
       "year": "2021",
       "release": "2021",
       "score": 26,
-      "id": "473f3cb5-9314-4059-a9ed-2a8ddca23362"
+      "id": "473f3cb5-9314-4059-a9ed-2a8ddca23362",
+      "newsletter": true
     },
     {
       "name": "New Pokemon Snap",
@@ -1902,7 +2023,8 @@
       "year": "2021",
       "release": "2021",
       "score": 10,
-      "id": "ca42a802-05cf-4e0f-88ca-4ab2ddbc30ae"
+      "id": "ca42a802-05cf-4e0f-88ca-4ab2ddbc30ae",
+      "newsletter": true
     },
     {
       "name": "Captain Toad: Treasure Tracker",
@@ -1916,7 +2038,8 @@
       "year": "2021",
       "release": "2014",
       "score": 9,
-      "id": "2fb92a2b-41ac-42d3-8128-47ee5deaceef"
+      "id": "2fb92a2b-41ac-42d3-8128-47ee5deaceef",
+      "newsletter": true
     },
     {
       "name": "Eastward",
@@ -1930,7 +2053,8 @@
       "year": "2021",
       "release": "2021",
       "score": 7,
-      "id": "ae55f894-2179-4fb4-b73f-a3af70e0a8a4"
+      "id": "ae55f894-2179-4fb4-b73f-a3af70e0a8a4",
+      "newsletter": true
     },
     {
       "name": "Deltarune: Chapter 2",
@@ -1945,7 +2069,8 @@
       "year": "2021",
       "release": "2021",
       "score": 25,
-      "id": "77551035-52c7-4a8d-9113-55e4cd176dff"
+      "id": "77551035-52c7-4a8d-9113-55e4cd176dff",
+      "newsletter": true
     },
     {
       "name": "WarioWare: Get It Together!",
@@ -1959,7 +2084,8 @@
       "year": "2021",
       "release": "2021",
       "score": 23,
-      "id": "14a1fdee-9049-44a8-8741-d634ed39d2d8"
+      "id": "14a1fdee-9049-44a8-8741-d634ed39d2d8",
+      "newsletter": true
     },
     {
       "name": "Horizon: Zero Dawn",
@@ -1973,7 +2099,8 @@
       "year": "2021",
       "release": "2017",
       "score": 12,
-      "id": "34f428f7-4285-4122-b2c8-1ad6e15d9e5c"
+      "id": "34f428f7-4285-4122-b2c8-1ad6e15d9e5c",
+      "newsletter": true
     },
     {
       "name": "Bug Fables",
@@ -1987,7 +2114,8 @@
       "year": "2021",
       "release": "2019",
       "score": 8,
-      "id": "68ed0be8-fafb-42bf-a297-4358fae53070"
+      "id": "68ed0be8-fafb-42bf-a297-4358fae53070",
+      "newsletter": true
     },
     {
       "name": "Subnautica",
@@ -2003,7 +2131,8 @@
       "year": "2021",
       "release": "2018",
       "score": 27,
-      "id": "8b5e4e39-afe2-4940-bd8e-6078902d8a18"
+      "id": "8b5e4e39-afe2-4940-bd8e-6078902d8a18",
+      "newsletter": true
     },
     {
       "name": "Abzu",
@@ -2018,7 +2147,8 @@
       "release": "2016",
       "story": true,
       "score": 18,
-      "id": "2d19f295-5d9e-4a08-9774-ccc0c81d267a"
+      "id": "2d19f295-5d9e-4a08-9774-ccc0c81d267a",
+      "newsletter": true
     },
     {
       "name": "Bugsnax",
@@ -2032,7 +2162,8 @@
       "year": "2021",
       "release": "2020",
       "score": 13,
-      "id": "512c63cb-a2d3-475f-b8cd-1521827666ff"
+      "id": "512c63cb-a2d3-475f-b8cd-1521827666ff",
+      "newsletter": true
     },
     {
       "name": "Astro's Playroom",
@@ -2046,7 +2177,8 @@
       "year": "2021",
       "release": "2020",
       "score": 6,
-      "id": "df185cd7-f018-4781-a7c0-6586305c34a6"
+      "id": "df185cd7-f018-4781-a7c0-6586305c34a6",
+      "newsletter": true
     },
     {
       "name": "A Short Hike",
@@ -2060,7 +2192,8 @@
       "year": "2021",
       "release": "2019",
       "score": 21,
-      "id": "954f79c6-70cb-4aa7-b875-2499cc3b8966"
+      "id": "954f79c6-70cb-4aa7-b875-2499cc3b8966",
+      "newsletter": true
     },
     {
       "name": "Inside",
@@ -2074,7 +2207,8 @@
       "year": "2021",
       "release": "2016",
       "score": 14,
-      "id": "c235200c-b92a-4108-b43d-881fbdcbd862"
+      "id": "c235200c-b92a-4108-b43d-881fbdcbd862",
+      "newsletter": true
     },
     {
       "name": "Reigns: Kings & Queens",
@@ -2088,7 +2222,8 @@
       "year": "2021",
       "release": "2018",
       "score": 3,
-      "id": "e722784f-e5ed-463b-aa44-f865c02beb3e"
+      "id": "e722784f-e5ed-463b-aa44-f865c02beb3e",
+      "newsletter": true
     },
     {
       "name": "Fez",
@@ -2103,7 +2238,8 @@
       "year": "2021",
       "release": "2012",
       "score": 22,
-      "id": "46d70c05-cc3d-4aa1-979f-7d6f53e4ad79"
+      "id": "46d70c05-cc3d-4aa1-979f-7d6f53e4ad79",
+      "newsletter": true
     },
     {
       "name": "Xenoblade Chronicles 2: Torna The Golden Country",
@@ -2117,7 +2253,8 @@
       "year": "2021",
       "release": "2018",
       "score": 2,
-      "id": "9f1a9442-6522-4589-989d-61ab0e8fd316"
+      "id": "9f1a9442-6522-4589-989d-61ab0e8fd316",
+      "newsletter": true
     },
     {
       "name": "Xenoblade Chronicles: Definitive Edition",
@@ -2132,7 +2269,8 @@
       "year": "2021",
       "release": "2020",
       "score": 20,
-      "id": "977c5eaa-3346-495a-9b6b-6f8ea4454045"
+      "id": "977c5eaa-3346-495a-9b6b-6f8ea4454045",
+      "newsletter": true
     },
     {
       "name": "Super Mario 3D World + Bowser's Fury",
@@ -2147,7 +2285,8 @@
       "year": "2021",
       "release": "2021",
       "score": 17,
-      "id": "f615c432-ce17-47cd-9c6a-50386dbf0e5f"
+      "id": "f615c432-ce17-47cd-9c6a-50386dbf0e5f",
+      "newsletter": true
     },
     {
       "name": "Rocket League",
@@ -2162,7 +2301,8 @@
       "year": "2021",
       "release": "2015",
       "score": 11,
-      "id": "eea9e7c8-bcbb-4032-91a0-85f3aa918d88"
+      "id": "eea9e7c8-bcbb-4032-91a0-85f3aa918d88",
+      "newsletter": true
     },
     {
       "name": "Diablo 3",
@@ -2176,7 +2316,8 @@
       "year": "2021",
       "release": "2012",
       "score": 1,
-      "id": "9887f2d0-ec36-4bbf-8e31-d4dec94ce7e5"
+      "id": "9887f2d0-ec36-4bbf-8e31-d4dec94ce7e5",
+      "newsletter": true
     },
     {
       "name": "Axiom Verge",
@@ -2190,7 +2331,8 @@
       "year": "2021",
       "release": "2015",
       "score": 19,
-      "id": "5934e3b6-d491-4da4-b851-f9d8c9b9789f"
+      "id": "5934e3b6-d491-4da4-b851-f9d8c9b9789f",
+      "newsletter": true
     },
     {
       "name": "Factorio",
@@ -2205,7 +2347,8 @@
       "year": "2020",
       "release": "2020",
       "score": 17,
-      "id": "b49cc4b7-bc09-4a88-a79e-ba89a81501f9"
+      "id": "b49cc4b7-bc09-4a88-a79e-ba89a81501f9",
+      "newsletter": true
     },
     {
       "name": "Slay the Spire",
@@ -2221,7 +2364,8 @@
       "year": "2020",
       "release": "2019",
       "score": 28,
-      "id": "fa51bcbc-d283-4521-8f7e-8002e7857e29"
+      "id": "fa51bcbc-d283-4521-8f7e-8002e7857e29",
+      "newsletter": true
     },
     {
       "name": "Pikmin 3 Deluxe",
@@ -2236,7 +2380,8 @@
       "year": "2020",
       "release": "2020",
       "score": 25,
-      "id": "adf4064f-6a08-484b-b1bb-0a07dda19d6f"
+      "id": "adf4064f-6a08-484b-b1bb-0a07dda19d6f",
+      "newsletter": true
     },
     {
       "name": "Hades",
@@ -2250,7 +2395,8 @@
       "year": "2020",
       "release": "2020",
       "score": 24,
-      "id": "6959925a-0390-4b7b-94f4-ea518dab225b"
+      "id": "6959925a-0390-4b7b-94f4-ea518dab225b",
+      "newsletter": true
     },
     {
       "name": "Death Stranding",
@@ -2265,7 +2411,8 @@
       "year": "2020",
       "release": "2019",
       "score": 13,
-      "id": "28e1d013-cae6-43a6-aef6-6b438b127f83"
+      "id": "28e1d013-cae6-43a6-aef6-6b438b127f83",
+      "newsletter": true
     },
     {
       "name": "CrossCode",
@@ -2280,7 +2427,8 @@
       "year": "2020",
       "release": "2018",
       "score": 26,
-      "id": "cf64530b-de9e-473e-96b1-3aaf5a5c1817"
+      "id": "cf64530b-de9e-473e-96b1-3aaf5a5c1817",
+      "newsletter": true
     },
     {
       "name": "Journey",
@@ -2295,7 +2443,8 @@
       "release": "2012",
       "story": true,
       "score": 5,
-      "id": "176c4826-26f4-460e-9ad5-0fad8ff4bf71"
+      "id": "176c4826-26f4-460e-9ad5-0fad8ff4bf71",
+      "newsletter": true
     },
     {
       "name": "Outer Wilds",
@@ -2310,7 +2459,8 @@
       "year": "2020",
       "release": "2019",
       "score": 30,
-      "id": "2ad8c1af-9a4f-4255-b56e-98e258d8099b"
+      "id": "2ad8c1af-9a4f-4255-b56e-98e258d8099b",
+      "newsletter": true
     },
     {
       "name": "Unravel 2",
@@ -2324,7 +2474,8 @@
       "year": "2020",
       "release": "2018",
       "score": 1,
-      "id": "a72d6d97-8f7c-4def-987e-c6bc5a09573e"
+      "id": "a72d6d97-8f7c-4def-987e-c6bc5a09573e",
+      "newsletter": true
     },
     {
       "name": "Horace",
@@ -2338,7 +2489,8 @@
       "year": "2020",
       "release": "2019",
       "score": 9,
-      "id": "4d3efb87-ab0a-43d6-8bce-8c8218812047"
+      "id": "4d3efb87-ab0a-43d6-8bce-8c8218812047",
+      "newsletter": true
     },
     {
       "name": "Super Mario 3D All-Stars",
@@ -2353,7 +2505,8 @@
       "year": "2020",
       "release": "2020",
       "score": 14,
-      "id": "b986d5f7-d490-4d36-8f8c-d770cfe6049e"
+      "id": "b986d5f7-d490-4d36-8f8c-d770cfe6049e",
+      "newsletter": true
     },
     {
       "name": "A Way Out",
@@ -2367,7 +2520,8 @@
       "year": "2020",
       "release": "2018",
       "score": 8,
-      "id": "98ed8841-b1ae-4ce4-a974-a6126b3f4546"
+      "id": "98ed8841-b1ae-4ce4-a974-a6126b3f4546",
+      "newsletter": true
     },
     {
       "name": "Katamari Damacy: Reroll",
@@ -2381,7 +2535,8 @@
       "year": "2020",
       "release": "2018",
       "score": 12,
-      "id": "964311d4-895e-452f-9028-6441564368d7"
+      "id": "964311d4-895e-452f-9028-6441564368d7",
+      "newsletter": true
     },
     {
       "name": "Paper Mario: The Origami King",
@@ -2396,7 +2551,8 @@
       "year": "2020",
       "release": "2020",
       "score": 15,
-      "id": "ce5afcd3-15af-4f7a-879c-238150d080e5"
+      "id": "ce5afcd3-15af-4f7a-879c-238150d080e5",
+      "newsletter": true
     },
     {
       "name": "The Last of Us",
@@ -2410,7 +2566,8 @@
       "year": "2020",
       "release": "2013",
       "score": 11,
-      "id": "7f6b670e-a6f2-414b-a570-b543750c8ad3"
+      "id": "7f6b670e-a6f2-414b-a570-b543750c8ad3",
+      "newsletter": true
     },
     {
       "name": "Dark Souls",
@@ -2424,7 +2581,8 @@
       "year": "2020",
       "release": "2011",
       "score": 2,
-      "id": "341e13cf-6136-4dca-ac2d-ce916c69ca00"
+      "id": "341e13cf-6136-4dca-ac2d-ce916c69ca00",
+      "newsletter": true
     },
     {
       "name": "Final Fantasy: VII: Remake",
@@ -2439,7 +2597,8 @@
       "year": "2020",
       "release": "2020",
       "score": 19,
-      "id": "84926a44-35cd-460a-bd00-4d8274455664"
+      "id": "84926a44-35cd-460a-bd00-4d8274455664",
+      "newsletter": true
     },
     {
       "name": "Towerfall",
@@ -2453,7 +2612,8 @@
       "year": "2020",
       "release": "2013",
       "score": 16,
-      "id": "29429900-3a9a-4cb6-b8e3-33910963ac3e"
+      "id": "29429900-3a9a-4cb6-b8e3-33910963ac3e",
+      "newsletter": true
     },
     {
       "name": "Shadow of the Colossus",
@@ -2468,7 +2628,8 @@
       "year": "2020",
       "release": "2018",
       "score": 10,
-      "id": "5023247b-c440-4a8c-b8e8-7129b76f77f7"
+      "id": "5023247b-c440-4a8c-b8e8-7129b76f77f7",
+      "newsletter": true
     },
     {
       "name": "Ori and the Blind Forest",
@@ -2482,7 +2643,8 @@
       "year": "2020",
       "release": "2015",
       "score": 7,
-      "id": "1c7b1699-0427-444c-95d8-cded00e93923"
+      "id": "1c7b1699-0427-444c-95d8-cded00e93923",
+      "newsletter": true
     },
     {
       "name": "NieR: Automata",
@@ -2497,7 +2659,8 @@
       "year": "2020",
       "release": "2017",
       "score": 22,
-      "id": "9ed4c59d-b62e-4470-8946-8b3bd718b2e7"
+      "id": "9ed4c59d-b62e-4470-8946-8b3bd718b2e7",
+      "newsletter": true
     },
     {
       "name": "Streets of Rage 4",
@@ -2512,7 +2675,8 @@
       "year": "2020",
       "release": "2020",
       "score": 29,
-      "id": "25becd81-4b8e-485b-a8bb-67647f633659"
+      "id": "25becd81-4b8e-485b-a8bb-67647f633659",
+      "newsletter": true
     },
     {
       "name": "One Step From Eden",
@@ -2526,7 +2690,8 @@
       "year": "2020",
       "release": "2020",
       "score": 23,
-      "id": "94d75a18-6a99-4602-964d-5bc5755ff6da"
+      "id": "94d75a18-6a99-4602-964d-5bc5755ff6da",
+      "newsletter": true
     },
     {
       "name": "Gris",
@@ -2541,7 +2706,8 @@
       "release": "2018",
       "story": true,
       "score": 6,
-      "id": "a78be8d9-76a7-4ba3-b6dd-8e1ae45bf0e9"
+      "id": "a78be8d9-76a7-4ba3-b6dd-8e1ae45bf0e9",
+      "newsletter": true
     },
     {
       "name": "The Witness",
@@ -2555,7 +2721,8 @@
       "year": "2020",
       "release": "2016",
       "score": 18,
-      "id": "393fa54d-f6f1-4428-a55e-a146a4af5dbc"
+      "id": "393fa54d-f6f1-4428-a55e-a146a4af5dbc",
+      "newsletter": true
     },
     {
       "name": "Animal Crossing: New Horizons",
@@ -2572,7 +2739,8 @@
       "year": "2020",
       "release": "2020",
       "score": 27,
-      "id": "0bd22846-c276-4eba-b0d4-9e49382bae56"
+      "id": "0bd22846-c276-4eba-b0d4-9e49382bae56",
+      "newsletter": true
     },
     {
       "name": "God of War",
@@ -2586,7 +2754,8 @@
       "year": "2020",
       "release": "2018",
       "score": 3,
-      "id": "406dc4ad-d196-4040-ba58-6469cac07f48"
+      "id": "406dc4ad-d196-4040-ba58-6469cac07f48",
+      "newsletter": true
     },
     {
       "name": "Pokemon Mystery Dungeon: Rescue Team DX",
@@ -2600,7 +2769,8 @@
       "year": "2020",
       "release": "2020",
       "score": 21,
-      "id": "528b1dc1-9ea0-47ed-9274-0ff2b529fdd4"
+      "id": "528b1dc1-9ea0-47ed-9274-0ff2b529fdd4",
+      "newsletter": true
     },
     {
       "name": "Final Fantasy VII",
@@ -2616,7 +2786,8 @@
       "year": "2020",
       "release": "1997",
       "score": 20,
-      "id": "d023ca2a-ad00-4386-8c2d-09a6254436ae"
+      "id": "d023ca2a-ad00-4386-8c2d-09a6254436ae",
+      "newsletter": true
     },
     {
       "name": "To The Moon",
@@ -2631,7 +2802,8 @@
       "release": "2011",
       "story": true,
       "score": 4,
-      "id": "e901f44a-2552-4f99-adbd-2f45764b8892"
+      "id": "e901f44a-2552-4f99-adbd-2f45764b8892",
+      "newsletter": true
     },
     {
       "name": "Antichamber",
@@ -2644,7 +2816,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2013",
-      "id": "9284b8a1-e05a-45c2-900f-9aaf3c8c1957"
+      "id": "9284b8a1-e05a-45c2-900f-9aaf3c8c1957",
+      "newsletter": true
     },
     {
       "name": "Asteroids",
@@ -2657,7 +2830,8 @@
       "platform": "Arcade",
       "year": "older",
       "release": "1979",
-      "id": "0b7547b0-7efa-4669-a0ad-5b6af1e40627"
+      "id": "0b7547b0-7efa-4669-a0ad-5b6af1e40627",
+      "newsletter": true
     },
     {
       "name": "Sonic 2",
@@ -2670,7 +2844,8 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1992",
-      "id": "99ce8d83-8bf6-4865-9b0e-8791e1f323ad"
+      "id": "99ce8d83-8bf6-4865-9b0e-8791e1f323ad",
+      "newsletter": true
     },
     {
       "name": "Infamous",
@@ -2683,7 +2858,8 @@
       "platform": "PlayStation 3",
       "year": "older",
       "release": "2009",
-      "id": "5b4007ba-3906-4b7b-bf41-bee2fcd7df54"
+      "id": "5b4007ba-3906-4b7b-bf41-bee2fcd7df54",
+      "newsletter": true
     },
     {
       "name": "Tony Hawk's Pro Skater 3",
@@ -2696,7 +2872,8 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2001",
-      "id": "186de011-ccbb-418e-aa77-d5858bd45fed"
+      "id": "186de011-ccbb-418e-aa77-d5858bd45fed",
+      "newsletter": true
     },
     {
       "name": "Croc: Legend of the Gobbos",
@@ -2709,7 +2886,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1997",
-      "id": "30d4c01d-1b45-41a5-9ee8-70d00b7a0ec2"
+      "id": "30d4c01d-1b45-41a5-9ee8-70d00b7a0ec2",
+      "newsletter": true
     },
     {
       "name": "Quantum Redshift",
@@ -2722,7 +2900,8 @@
       "platform": "Xbox 360",
       "year": "older",
       "release": "2002",
-      "id": "3f9d0430-aee1-496b-9403-310682a3f012"
+      "id": "3f9d0430-aee1-496b-9403-310682a3f012",
+      "newsletter": true
     },
     {
       "name": "Fable",
@@ -2736,7 +2915,8 @@
       "platform": "Xbox",
       "year": "older",
       "release": "2004",
-      "id": "7bd6b6a4-730e-4f17-a1db-458d0024e4f4"
+      "id": "7bd6b6a4-730e-4f17-a1db-458d0024e4f4",
+      "newsletter": true
     },
     {
       "name": "Super Smash Bros. Ultimate",
@@ -2753,7 +2933,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "fa4da187-a071-4224-853c-057bbc852fe6"
+      "id": "fa4da187-a071-4224-853c-057bbc852fe6",
+      "newsletter": true
     },
     {
       "name": "Shantae and the Pirate's Curse",
@@ -2766,7 +2947,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2014",
-      "id": "44419dd9-4acd-4886-a85a-12162bfff0a4"
+      "id": "44419dd9-4acd-4886-a85a-12162bfff0a4",
+      "newsletter": true
     },
     {
       "name": "Pokemon Y",
@@ -2780,7 +2962,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2013",
-      "id": "507740f4-34c6-4581-823e-69a249e9075a"
+      "id": "507740f4-34c6-4581-823e-69a249e9075a",
+      "newsletter": true
     },
     {
       "name": "World of Goo",
@@ -2793,7 +2976,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2008",
-      "id": "7a9cb007-02ce-41b4-9b8b-2871592d56e5"
+      "id": "7a9cb007-02ce-41b4-9b8b-2871592d56e5",
+      "newsletter": true
     },
     {
       "name": "Scribblenauts",
@@ -2806,7 +2990,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2009",
-      "id": "5db90ee9-99c8-43ec-b112-ec4cf840f0d2"
+      "id": "5db90ee9-99c8-43ec-b112-ec4cf840f0d2",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: The Wind Waker",
@@ -2820,7 +3005,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2002",
-      "id": "b20f8d76-2acd-47c6-b5ad-d907cd342c8b"
+      "id": "b20f8d76-2acd-47c6-b5ad-d907cd342c8b",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: The Wind Waker HD",
@@ -2833,7 +3019,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2013",
-      "id": "2cb182ce-2242-452a-a873-63cfe7381416"
+      "id": "2cb182ce-2242-452a-a873-63cfe7381416",
+      "newsletter": true
     },
     {
       "name": "Pokemon FireRed",
@@ -2847,7 +3034,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "id": "35383057-c500-4329-8517-b480543c16c7"
+      "id": "35383057-c500-4329-8517-b480543c16c7",
+      "newsletter": true
     },
     {
       "name": "GoldenEye 007",
@@ -2860,7 +3048,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997",
-      "id": "43bdc83d-c1a7-4cbf-aa30-8db081992b5c"
+      "id": "43bdc83d-c1a7-4cbf-aa30-8db081992b5c",
+      "newsletter": true
     },
     {
       "name": "Super Mario Land",
@@ -2873,7 +3062,8 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1989",
-      "id": "44584464-9694-4fdd-94eb-93de4859b9a6"
+      "id": "44584464-9694-4fdd-94eb-93de4859b9a6",
+      "newsletter": true
     },
     {
       "name": "Super Mario Kart",
@@ -2887,7 +3077,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1992",
-      "id": "a9f1d898-2718-4401-986e-218880ba68a2"
+      "id": "a9f1d898-2718-4401-986e-218880ba68a2",
+      "newsletter": true
     },
     {
       "name": "Super Mario Bros.",
@@ -2900,7 +3091,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1985",
-      "id": "78911d0a-3dc3-49f3-8f0c-c1c0147add90"
+      "id": "78911d0a-3dc3-49f3-8f0c-c1c0147add90",
+      "newsletter": true
     },
     {
       "name": "Ball",
@@ -2913,7 +3105,8 @@
       "platform": "Game and Watch",
       "year": "older",
       "release": "1980",
-      "id": "e9fe92de-1619-4784-8516-c285f31ecc90"
+      "id": "e9fe92de-1619-4784-8516-c285f31ecc90",
+      "newsletter": true
     },
     {
       "name": "Jet Pack Joyride",
@@ -2926,7 +3119,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2011",
-      "id": "fd8509ee-e2a2-4e26-8d89-d08381f21248"
+      "id": "fd8509ee-e2a2-4e26-8d89-d08381f21248",
+      "newsletter": true
     },
     {
       "name": "Audiosurf",
@@ -2939,7 +3133,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2008",
-      "id": "1a0bbd16-eadb-4892-821f-326336a7b35b"
+      "id": "1a0bbd16-eadb-4892-821f-326336a7b35b",
+      "newsletter": true
     },
     {
       "name": "Pac-man",
@@ -2952,7 +3147,8 @@
       "platform": "Arcade",
       "year": "older",
       "release": "1980",
-      "id": "3d53a4d5-f207-49c7-8717-3e0486af0e04"
+      "id": "3d53a4d5-f207-49c7-8717-3e0486af0e04",
+      "newsletter": true
     },
     {
       "name": "Sonic 3 & Knuckles",
@@ -2965,7 +3161,8 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1994",
-      "id": "e28fc559-54d9-4c33-969d-b40a0fb51419"
+      "id": "e28fc559-54d9-4c33-969d-b40a0fb51419",
+      "newsletter": true
     },
     {
       "name": "Infamous 2",
@@ -2978,7 +3175,8 @@
       "platform": "PlayStation 3",
       "year": "older",
       "release": "2011",
-      "id": "8fbfb42e-42de-49a0-afbe-66ab7f4ad42b"
+      "id": "8fbfb42e-42de-49a0-afbe-66ab7f4ad42b",
+      "newsletter": true
     },
     {
       "name": "Tony Hawk's Pro Skater 4",
@@ -2991,7 +3189,8 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2002",
-      "id": "6935a6b6-c797-4953-8ffc-ce90ee37573b"
+      "id": "6935a6b6-c797-4953-8ffc-ce90ee37573b",
+      "newsletter": true
     },
     {
       "name": "Bust-a-move 2 Arcade Edition",
@@ -3004,7 +3203,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1994",
-      "id": "0a13b1a5-8e99-49aa-a2fa-6f2b7e71b782"
+      "id": "0a13b1a5-8e99-49aa-a2fa-6f2b7e71b782",
+      "newsletter": true
     },
     {
       "name": "Halo 2",
@@ -3017,7 +3217,8 @@
       "platform": "Xbox",
       "year": "older",
       "release": "2004",
-      "id": "c64255be-2807-461c-b483-40243f641e76"
+      "id": "c64255be-2807-461c-b483-40243f641e76",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Breath of the Wild",
@@ -3032,7 +3233,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "c27b7783-1c12-4c22-bca1-32929127bb49"
+      "id": "c27b7783-1c12-4c22-bca1-32929127bb49",
+      "newsletter": true
     },
     {
       "name": "Bayonetta 2",
@@ -3048,7 +3250,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2014",
-      "id": "cd44c4b5-e0f7-4b28-9ea6-88fc61177d0d"
+      "id": "cd44c4b5-e0f7-4b28-9ea6-88fc61177d0d",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: A Link Between Worlds",
@@ -3061,7 +3264,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2013",
-      "id": "8e401c38-bf07-4358-bf7a-2c5a82040625"
+      "id": "8e401c38-bf07-4358-bf7a-2c5a82040625",
+      "newsletter": true
     },
     {
       "name": "Super Mario Galaxy",
@@ -3075,7 +3279,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2007",
-      "id": "2c68dc18-f815-48a5-8798-be2ea52f3526"
+      "id": "2c68dc18-f815-48a5-8798-be2ea52f3526",
+      "newsletter": true
     },
     {
       "name": "Pokemon Soul Silver",
@@ -3090,7 +3295,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2009",
-      "id": "52fb1014-fc0b-405e-b7fd-bc668d059937"
+      "id": "52fb1014-fc0b-405e-b7fd-bc668d059937",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem: Path of Radiance",
@@ -3105,7 +3311,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2005",
-      "id": "11394782-b787-48aa-bc0b-ad6e1c71ab97"
+      "id": "11394782-b787-48aa-bc0b-ad6e1c71ab97",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: The Minish Cap",
@@ -3118,7 +3325,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "id": "a28e950b-2b54-4d83-b0f2-5ab020ad71aa"
+      "id": "a28e950b-2b54-4d83-b0f2-5ab020ad71aa",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Ocarina of Time",
@@ -3134,7 +3342,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1998",
-      "id": "c84e66a0-17e9-49ca-bbf3-952f3e40422d"
+      "id": "c84e66a0-17e9-49ca-bbf3-952f3e40422d",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Ocarina of Time 3D",
@@ -3147,7 +3356,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2011",
-      "id": "2aab1b6a-50ca-4a9f-aeeb-07edc0f02e2f"
+      "id": "2aab1b6a-50ca-4a9f-aeeb-07edc0f02e2f",
+      "newsletter": true
     },
     {
       "name": "Pokemon Yellow",
@@ -3161,7 +3371,8 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1999",
-      "id": "24936783-e7b7-4c05-b6b3-01cbed439dfe"
+      "id": "24936783-e7b7-4c05-b6b3-01cbed439dfe",
+      "newsletter": true
     },
     {
       "name": "Super Mario World",
@@ -3174,7 +3385,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1990",
-      "id": "908411b2-9b96-45c1-bc95-97d2bfbdc9cd"
+      "id": "908411b2-9b96-45c1-bc95-97d2bfbdc9cd",
+      "newsletter": true
     },
     {
       "name": "Earthbound Beginnings (Mother 1)",
@@ -3187,7 +3399,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1989",
-      "id": "46276119-8cb2-438d-947e-9f80b074e0d7"
+      "id": "46276119-8cb2-438d-947e-9f80b074e0d7",
+      "newsletter": true
     },
     {
       "name": "Temple Run",
@@ -3200,7 +3413,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2011",
-      "id": "b5d3343d-f801-47cf-9c53-052eae198c90"
+      "id": "b5d3343d-f801-47cf-9c53-052eae198c90",
+      "newsletter": true
     },
     {
       "name": "Barotrauma",
@@ -3213,7 +3427,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2023",
-      "id": "3af8847d-3c98-4637-8647-16f544fb1bdc"
+      "id": "3af8847d-3c98-4637-8647-16f544fb1bdc",
+      "newsletter": true
     },
     {
       "name": "Mega Bomberman",
@@ -3226,7 +3441,8 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1994",
-      "id": "46f4c344-2435-4735-af7b-74098760989a"
+      "id": "46f4c344-2435-4735-af7b-74098760989a",
+      "newsletter": true
     },
     {
       "name": "Grand Theft Auto: San Andreas",
@@ -3241,7 +3457,8 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2004",
-      "id": "71842255-7730-4efd-802a-a86967a3cd1e"
+      "id": "71842255-7730-4efd-802a-a86967a3cd1e",
+      "newsletter": true
     },
     {
       "name": "Grand Theft Auto",
@@ -3254,7 +3471,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1997",
-      "id": "7604d432-6579-424f-889b-1f15f04c7343"
+      "id": "7604d432-6579-424f-889b-1f15f04c7343",
+      "newsletter": true
     },
     {
       "name": "Tomb Raider",
@@ -3267,7 +3485,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1996",
-      "id": "3f562481-c229-4b59-b9e0-c4dbf6389bdd"
+      "id": "3f562481-c229-4b59-b9e0-c4dbf6389bdd",
+      "newsletter": true
     },
     {
       "name": "Octopath Traveler",
@@ -3283,7 +3502,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "f9700b72-bcca-43e7-835c-24931fa9f6eb"
+      "id": "f9700b72-bcca-43e7-835c-24931fa9f6eb",
+      "newsletter": true
     },
     {
       "name": "New Super Mario Bros. U",
@@ -3296,7 +3516,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2012",
-      "id": "1ea45243-e16a-49d3-942c-547110621876"
+      "id": "1ea45243-e16a-49d3-942c-547110621876",
+      "newsletter": true
     },
     {
       "name": "Pokemon Sun",
@@ -3312,7 +3533,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2016",
-      "id": "ec835a95-7220-48da-b43e-cd6c628b5571"
+      "id": "ec835a95-7220-48da-b43e-cd6c628b5571",
+      "newsletter": true
     },
     {
       "name": "New Super Mario Bros. Wii",
@@ -3327,7 +3549,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2009",
-      "id": "24fd4a48-7d70-47ce-8517-192df98a44da"
+      "id": "24fd4a48-7d70-47ce-8517-192df98a44da",
+      "newsletter": true
     },
     {
       "name": "New Super Mario Bros.",
@@ -3340,7 +3563,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2006",
-      "id": "4cacce89-5082-49c5-9425-b37b2bc6f33b"
+      "id": "4cacce89-5082-49c5-9425-b37b2bc6f33b",
+      "newsletter": true
     },
     {
       "name": "Super Mario Sunshine",
@@ -3355,7 +3579,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2002",
-      "id": "e4c96876-59ac-42f6-b6ea-2691debf8bfc"
+      "id": "e4c96876-59ac-42f6-b6ea-2691debf8bfc",
+      "newsletter": true
     },
     {
       "name": "Pokemon Emerald",
@@ -3369,7 +3594,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "id": "b6330104-34d1-45cd-95ea-deb4084054b0"
+      "id": "b6330104-34d1-45cd-95ea-deb4084054b0",
+      "newsletter": true
     },
     {
       "name": "Super Mario 64",
@@ -3383,7 +3609,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1996",
-      "id": "297b54ce-ed6f-4108-9266-407005493dbf"
+      "id": "297b54ce-ed6f-4108-9266-407005493dbf",
+      "newsletter": true
     },
     {
       "name": "Pokemon Silver",
@@ -3397,7 +3624,8 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1999",
-      "id": "b8a10a3b-b9c2-42ff-b0b0-96e41bc4466f"
+      "id": "b8a10a3b-b9c2-42ff-b0b0-96e41bc4466f",
+      "newsletter": true
     },
     {
       "name": "Super Mario World 2: Yoshi's Island",
@@ -3411,7 +3639,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1995",
-      "id": "2a4c4db0-0210-4380-9ccc-832f9a9a589a"
+      "id": "2a4c4db0-0210-4380-9ccc-832f9a9a589a",
+      "newsletter": true
     },
     {
       "name": "Ice Climber",
@@ -3424,7 +3653,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1984",
-      "id": "a097e0f3-8f4b-4b09-92a4-3eee302acbd3"
+      "id": "a097e0f3-8f4b-4b09-92a4-3eee302acbd3",
+      "newsletter": true
     },
     {
       "name": "Cut the Rope",
@@ -3437,7 +3667,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2010",
-      "id": "545c9e2a-3063-46dc-bb1b-a054a6da4ca7"
+      "id": "545c9e2a-3063-46dc-bb1b-a054a6da4ca7",
+      "newsletter": true
     },
     {
       "name": "Command & Conquer 3: Tiberium Wars",
@@ -3450,7 +3681,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2007",
-      "id": "545a437e-3058-42aa-853c-be4e3adb79b7"
+      "id": "545a437e-3058-42aa-853c-be4e3adb79b7",
+      "newsletter": true
     },
     {
       "name": "Micro Machines V2",
@@ -3463,7 +3695,8 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1997",
-      "id": "6e737a3d-6602-4f9b-b8c7-2e37ef379282"
+      "id": "6e737a3d-6602-4f9b-b8c7-2e37ef379282",
+      "newsletter": true
     },
     {
       "name": "Tekken Tag Tournament",
@@ -3477,7 +3710,8 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "1999",
-      "id": "28800c49-efcb-4d8d-ba61-c87402f67953"
+      "id": "28800c49-efcb-4d8d-ba61-c87402f67953",
+      "newsletter": true
     },
     {
       "name": "Tekken 3",
@@ -3490,7 +3724,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1997",
-      "id": "f74404dd-4b0b-41db-ba46-1fed9026685e"
+      "id": "f74404dd-4b0b-41db-ba46-1fed9026685e",
+      "newsletter": true
     },
     {
       "name": "Xenoblade Chronicles 2",
@@ -3504,7 +3739,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "7563268f-0527-483f-8f8a-085c71e57842"
+      "id": "7563268f-0527-483f-8f8a-085c71e57842",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong Country: Tropical Freeze",
@@ -3521,7 +3757,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2014",
-      "id": "62907b8d-e6a8-4631-aa98-5ddab5949cb5"
+      "id": "62907b8d-e6a8-4631-aa98-5ddab5949cb5",
+      "newsletter": true
     },
     {
       "name": "Pokemon Alpha Sapphire",
@@ -3535,7 +3772,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2014",
-      "id": "da94815b-deeb-465d-83cc-83f784bf3f40"
+      "id": "da94815b-deeb-465d-83cc-83f784bf3f40",
+      "newsletter": true
     },
     {
       "name": "Wii Sports Resort",
@@ -3548,7 +3786,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2009",
-      "id": "aa8a5949-d755-4eae-8a9d-900c8b5efd1a"
+      "id": "aa8a5949-d755-4eae-8a9d-900c8b5efd1a",
+      "newsletter": true
     },
     {
       "name": "Pilotwings 64",
@@ -3561,7 +3800,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1996",
-      "id": "1e7e40d0-56b8-47b8-b7d2-0520b7d16a40"
+      "id": "1e7e40d0-56b8-47b8-b7d2-0520b7d16a40",
+      "newsletter": true
     },
     {
       "name": "Pilotwings",
@@ -3574,7 +3814,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1990",
-      "id": "1d8bc623-ae60-473b-bebd-e72e7dda9212"
+      "id": "1d8bc623-ae60-473b-bebd-e72e7dda9212",
+      "newsletter": true
     },
     {
       "name": "Pokemon White",
@@ -3589,7 +3830,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2010",
-      "id": "726f93eb-4d6f-4816-b835-e7a98cb279a0"
+      "id": "726f93eb-4d6f-4816-b835-e7a98cb279a0",
+      "newsletter": true
     },
     {
       "name": "Soul Calibur II",
@@ -3602,7 +3844,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2003",
-      "id": "9377ef8e-ff00-40b5-8914-27f04c5a6b02"
+      "id": "9377ef8e-ff00-40b5-8914-27f04c5a6b02",
+      "newsletter": true
     },
     {
       "name": "Kirby: Nightmare in Dream Land",
@@ -3616,7 +3859,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2002",
-      "id": "e4f45fae-68c5-4382-9e85-75936fcf6a6d"
+      "id": "e4f45fae-68c5-4382-9e85-75936fcf6a6d",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Majora's Mask",
@@ -3631,7 +3875,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000",
-      "id": "8c2304e3-166a-46ad-858f-c80029d8e56c"
+      "id": "8c2304e3-166a-46ad-858f-c80029d8e56c",
+      "newsletter": true
     },
     {
       "name": "Tetris",
@@ -3644,7 +3889,8 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1984",
-      "id": "684b5d0c-39cb-4a8a-b3e1-a023cd445c01"
+      "id": "684b5d0c-39cb-4a8a-b3e1-a023cd445c01",
+      "newsletter": true
     },
     {
       "name": "F-Zero",
@@ -3657,7 +3903,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1990",
-      "id": "5728d002-c10b-40a0-a538-d55a7e310151"
+      "id": "5728d002-c10b-40a0-a538-d55a7e310151",
+      "newsletter": true
     },
     {
       "name": "Duck Hunt",
@@ -3670,7 +3917,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1984",
-      "id": "c89b0245-0590-439b-9b13-bcbbbea551e5"
+      "id": "c89b0245-0590-439b-9b13-bcbbbea551e5",
+      "newsletter": true
     },
     {
       "name": "Angry Birds",
@@ -3683,7 +3931,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2009",
-      "id": "1883e2ce-9836-48fd-b09d-29f2a45b426b"
+      "id": "1883e2ce-9836-48fd-b09d-29f2a45b426b",
+      "newsletter": true
     },
     {
       "name": "Mickey Mouse: Castle of Illusion",
@@ -3696,7 +3945,8 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1990",
-      "id": "b85daff6-5e03-4bcf-b77d-29f572e944ca"
+      "id": "b85daff6-5e03-4bcf-b77d-29f572e944ca",
+      "newsletter": true
     },
     {
       "name": "Crash Bandicoot",
@@ -3709,7 +3959,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1996",
-      "id": "bbb3ef27-119b-4993-b4a2-83d5f0a5c70d"
+      "id": "bbb3ef27-119b-4993-b4a2-83d5f0a5c70d",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem: Three Houses",
@@ -3724,7 +3975,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "2048baaa-cc74-4b29-82f0-a12c5c0817f0"
+      "id": "2048baaa-cc74-4b29-82f0-a12c5c0817f0",
+      "newsletter": true
     },
     {
       "name": "Nintendo Land",
@@ -3737,7 +3989,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2012",
-      "id": "d84d71a4-44b1-4585-bb08-67bd3ed5fe20"
+      "id": "d84d71a4-44b1-4585-bb08-67bd3ed5fe20",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Majora's Mask 3D",
@@ -3750,7 +4003,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2015",
-      "id": "4e854365-0f0f-4365-bb25-7e2b2f5a3e04"
+      "id": "4e854365-0f0f-4365-bb25-7e2b2f5a3e04",
+      "newsletter": true
     },
     {
       "name": "Wii Sports",
@@ -3763,7 +4017,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2006",
-      "id": "3a09d972-767b-421b-82eb-5e475c9eac0e"
+      "id": "3a09d972-767b-421b-82eb-5e475c9eac0e",
+      "newsletter": true
     },
     {
       "name": "Animal Crossing: Wild World",
@@ -3778,7 +4033,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2005",
-      "id": "68c179f3-0a50-4cc9-84f8-83643a8c97b7"
+      "id": "68c179f3-0a50-4cc9-84f8-83643a8c97b7",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong",
@@ -3791,7 +4047,8 @@
       "platform": "Arcade",
       "year": "older",
       "release": "1981",
-      "id": "3a92819c-9663-4fee-8947-7a445e79a3f6"
+      "id": "3a92819c-9663-4fee-8947-7a445e79a3f6",
+      "newsletter": true
     },
     {
       "name": "Jetpac",
@@ -3804,7 +4061,8 @@
       "platform": "Arcade",
       "year": "older",
       "release": "1983",
-      "id": "364ce85d-0fd2-4387-a81f-c24bf6f10e0b"
+      "id": "364ce85d-0fd2-4387-a81f-c24bf6f10e0b",
+      "newsletter": true
     },
     {
       "name": "StreetPass Mii Plaza",
@@ -3817,7 +4075,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2011",
-      "id": "40129e3d-459e-4fdd-bb6a-90589d444af8"
+      "id": "40129e3d-459e-4fdd-bb6a-90589d444af8",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Twilight Princess",
@@ -3833,7 +4092,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2006",
-      "id": "c43c4aa7-737f-4b67-843a-1a8fa511b965"
+      "id": "c43c4aa7-737f-4b67-843a-1a8fa511b965",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem: The Blazing Blade",
@@ -3846,7 +4106,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2003",
-      "id": "9902fc64-9094-452f-ba5f-b1f6fbcd01ae"
+      "id": "9902fc64-9094-452f-ba5f-b1f6fbcd01ae",
+      "newsletter": true
     },
     {
       "name": "Paper Mario",
@@ -3859,7 +4120,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000",
-      "id": "b8ee37ce-a3fd-4566-abb5-ce6b5e8bd2a9"
+      "id": "b8ee37ce-a3fd-4566-abb5-ce6b5e8bd2a9",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Link's Awakening",
@@ -3876,7 +4138,8 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1993",
-      "id": "c0abfbcb-2220-443d-a307-1c0ffb6a4a81"
+      "id": "c0abfbcb-2220-443d-a307-1c0ffb6a4a81",
+      "newsletter": true
     },
     {
       "name": "Panel de Pon (Tetris Attack)",
@@ -3889,7 +4152,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1995",
-      "id": "a759b5e6-e9ce-4653-ab29-98c0e645fe1c"
+      "id": "a759b5e6-e9ce-4653-ab29-98c0e645fe1c",
+      "newsletter": true
     },
     {
       "name": "Balloon Fight",
@@ -3902,7 +4166,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1984",
-      "id": "ff197bdc-ede2-4d77-886f-845df56cc312"
+      "id": "ff197bdc-ede2-4d77-886f-845df56cc312",
+      "newsletter": true
     },
     {
       "name": "Final Fantasy VIII",
@@ -3915,7 +4180,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1999",
-      "id": "df200a67-0277-4818-b712-26efb7b43a94"
+      "id": "df200a67-0277-4818-b712-26efb7b43a94",
+      "newsletter": true
     },
     {
       "name": "Guitar Hero III: Legends of Rock",
@@ -3929,7 +4195,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "2007",
-      "id": "e93192e1-61fe-47b4-bede-ce8c6e5c940a"
+      "id": "e93192e1-61fe-47b4-bede-ce8c6e5c940a",
+      "newsletter": true
     },
     {
       "name": "Stardew Valley",
@@ -3942,7 +4209,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2016",
-      "id": "c215ae2e-9cc4-4816-b8fa-5f6278b3a5cc"
+      "id": "c215ae2e-9cc4-4816-b8fa-5f6278b3a5cc",
+      "newsletter": true
     },
     {
       "name": "Splatoon",
@@ -3956,7 +4224,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2015",
-      "id": "3d420dbc-a2e8-4506-b6a3-9b8a6ed03283"
+      "id": "3d420dbc-a2e8-4506-b6a3-9b8a6ed03283",
+      "newsletter": true
     },
     {
       "name": "Pokemon Super Mystery Dungeon",
@@ -3969,7 +4238,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2015",
-      "id": "157a8834-16e8-47b4-bb99-33d73c346cd3"
+      "id": "157a8834-16e8-47b4-bb99-33d73c346cd3",
+      "newsletter": true
     },
     {
       "name": "Super Smash Bros. Brawl",
@@ -3985,7 +4255,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2008",
-      "id": "bfe24845-32a6-4171-b1a7-304b405319e5"
+      "id": "bfe24845-32a6-4171-b1a7-304b405319e5",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem: Shadow Dragon",
@@ -3998,7 +4269,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2008",
-      "id": "9c8340ef-1e6f-4762-b7b5-f5fe6a020746"
+      "id": "9c8340ef-1e6f-4762-b7b5-f5fe6a020746",
+      "newsletter": true
     },
     {
       "name": "Mario Kart: Double Dash!!",
@@ -4012,7 +4284,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2003",
-      "id": "937816dc-597d-4435-9816-bd0aab8ce4dc"
+      "id": "937816dc-597d-4435-9816-bd0aab8ce4dc",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem: The Sacred Stones",
@@ -4025,7 +4298,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "id": "d48c29a3-99ba-4fc6-a4f1-9bef6aef2af0"
+      "id": "d48c29a3-99ba-4fc6-a4f1-9bef6aef2af0",
+      "newsletter": true
     },
     {
       "name": "Lylat Wars",
@@ -4038,7 +4312,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997",
-      "id": "1a939d9d-3e6f-4f6d-9cf5-f61e5d5f367d"
+      "id": "1a939d9d-3e6f-4f6d-9cf5-f61e5d5f367d",
+      "newsletter": true
     },
     {
       "name": "The Grinch",
@@ -4051,7 +4326,8 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "2000",
-      "id": "84bd8054-6fa1-472c-8123-4a47c126ef0e"
+      "id": "84bd8054-6fa1-472c-8123-4a47c126ef0e",
+      "newsletter": true
     },
     {
       "name": "Kirby Super Star",
@@ -4064,7 +4340,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1996",
-      "id": "1ac24a59-f76a-4ad4-9a1d-50d3d588f299"
+      "id": "1ac24a59-f76a-4ad4-9a1d-50d3d588f299",
+      "newsletter": true
     },
     {
       "name": "A Hat in Time",
@@ -4078,7 +4355,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2017",
-      "id": "9910e68b-3484-48bc-bd0c-fa512e59b11a"
+      "id": "9910e68b-3484-48bc-bd0c-fa512e59b11a",
+      "newsletter": true
     },
     {
       "name": "Tony Hawk's Pro Skater 2",
@@ -4091,7 +4369,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "2000",
-      "id": "74784129-c2fd-45b6-ae5e-cb4c6e4bced8"
+      "id": "74784129-c2fd-45b6-ae5e-cb4c6e4bced8",
+      "newsletter": true
     },
     {
       "name": "Mario + Rabbids Kingdom Battle",
@@ -4105,7 +4384,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "34d12e3e-a7b0-427f-9cc8-ed461124c9f8"
+      "id": "34d12e3e-a7b0-427f-9cc8-ed461124c9f8",
+      "newsletter": true
     },
     {
       "name": "Super Mario Maker",
@@ -4118,7 +4398,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2015",
-      "id": "0e769f6d-6030-4deb-8a9b-aa095cbc7914"
+      "id": "0e769f6d-6030-4deb-8a9b-aa095cbc7914",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem: Awakening",
@@ -4132,7 +4413,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2012",
-      "id": "064b2866-9310-4b5e-8440-4258e0019fe8"
+      "id": "064b2866-9310-4b5e-8440-4258e0019fe8",
+      "newsletter": true
     },
     {
       "name": "Pokemon Battle Revolution",
@@ -4145,7 +4427,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2006",
-      "id": "53a59c1b-b126-4811-aaeb-f4b59bb1538c"
+      "id": "53a59c1b-b126-4811-aaeb-f4b59bb1538c",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Phantom Hourglass",
@@ -4158,7 +4441,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2007",
-      "id": "2847b014-775b-4717-8df2-e040d93e7f4e"
+      "id": "2847b014-775b-4717-8df2-e040d93e7f4e",
+      "newsletter": true
     },
     {
       "name": "Super Smash Bros. Melee",
@@ -4173,7 +4457,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2001",
-      "id": "f6db03d6-d677-43bd-bb10-fab6e31f89b8"
+      "id": "f6db03d6-d677-43bd-bb10-fab6e31f89b8",
+      "newsletter": true
     },
     {
       "name": "Metroid: Zero Mission",
@@ -4186,7 +4471,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "id": "47f1151e-1e70-4c34-8576-725cb0911cd6"
+      "id": "47f1151e-1e70-4c34-8576-725cb0911cd6",
+      "newsletter": true
     },
     {
       "name": "F-Zero X",
@@ -4200,7 +4486,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1998",
-      "id": "ce1fabeb-83e6-4da1-b32a-289de0c84d4c"
+      "id": "ce1fabeb-83e6-4da1-b32a-289de0c84d4c",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong Country",
@@ -4213,7 +4500,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1994",
-      "id": "9a0ad427-f54a-4a69-b8ca-8fc112c556be"
+      "id": "9a0ad427-f54a-4a69-b8ca-8fc112c556be",
+      "newsletter": true
     },
     {
       "name": "Into the Breach",
@@ -4226,7 +4514,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2018",
-      "id": "c3661b02-1ade-45aa-bf25-de029e8fe399"
+      "id": "c3661b02-1ade-45aa-bf25-de029e8fe399",
+      "newsletter": true
     },
     {
       "name": "Croc 2",
@@ -4240,7 +4529,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1999",
-      "id": "07e09ac9-5db8-4e93-a0ee-540019f8a683"
+      "id": "07e09ac9-5db8-4e93-a0ee-540019f8a683",
+      "newsletter": true
     },
     {
       "name": "Celeste",
@@ -4254,7 +4544,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "77cb3fe9-9c29-45bb-84dc-80880941df5e"
+      "id": "77cb3fe9-9c29-45bb-84dc-80880941df5e",
+      "newsletter": true
     },
     {
       "name": "Super Smash Bros. for Wii U",
@@ -4269,7 +4560,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2014",
-      "id": "c01370f3-edc1-4747-a4d8-afa97a5f173d"
+      "id": "c01370f3-edc1-4747-a4d8-afa97a5f173d",
+      "newsletter": true
     },
     {
       "name": "Animal Crossing: New Leaf",
@@ -4283,7 +4575,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2012",
-      "id": "f1ced7e0-737b-48d1-ab6c-c44f790c4501"
+      "id": "f1ced7e0-737b-48d1-ab6c-c44f790c4501",
+      "newsletter": true
     },
     {
       "name": "Mario Kart Wii",
@@ -4298,7 +4591,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2008",
-      "id": "b8e6e33b-9b00-444d-92cb-4c7a9994dde3"
+      "id": "b8e6e33b-9b00-444d-92cb-4c7a9994dde3",
+      "newsletter": true
     },
     {
       "name": "Pokemon Diamond",
@@ -4312,7 +4606,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2006",
-      "id": "88e07aa5-e6cc-4c00-84bc-9ef4566f6973"
+      "id": "88e07aa5-e6cc-4c00-84bc-9ef4566f6973",
+      "newsletter": true
     },
     {
       "name": "Paper Mario: The Thousand Year Door",
@@ -4326,7 +4621,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2004",
-      "id": "3d87f93c-8689-4fd9-b062-e55c23f58ad5"
+      "id": "3d87f93c-8689-4fd9-b062-e55c23f58ad5",
+      "newsletter": true
     },
     {
       "name": "Rampage",
@@ -4339,7 +4635,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997",
-      "id": "45da08cc-c303-402b-8264-d8cbcd013687"
+      "id": "45da08cc-c303-402b-8264-d8cbcd013687",
+      "newsletter": true
     },
     {
       "name": "Mother 3",
@@ -4354,7 +4651,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2006",
-      "id": "19567366-5300-4039-9377-49b467cd10a1"
+      "id": "19567366-5300-4039-9377-49b467cd10a1",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong 64",
@@ -4368,7 +4666,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1999",
-      "id": "322d2eca-f88c-4611-97e0-675eac3a1108"
+      "id": "322d2eca-f88c-4611-97e0-675eac3a1108",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong Country 2: Diddy's Kong Quest",
@@ -4382,7 +4681,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1995",
-      "id": "2f807827-a1fb-444f-80c6-d2dbeee94471"
+      "id": "2f807827-a1fb-444f-80c6-d2dbeee94471",
+      "newsletter": true
     },
     {
       "name": "Portal",
@@ -4395,7 +4695,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2007",
-      "id": "650bdaf3-35b0-4fbb-9147-1c78379fdd54"
+      "id": "650bdaf3-35b0-4fbb-9147-1c78379fdd54",
+      "newsletter": true
     },
     {
       "name": "Gex 3: Deep Cover Gecko",
@@ -4409,7 +4710,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1999",
-      "id": "d0122d19-342d-4013-a54c-d391ceb8eb2d"
+      "id": "d0122d19-342d-4013-a54c-d391ceb8eb2d",
+      "newsletter": true
     },
     {
       "name": "Super Mario Odyssey",
@@ -4424,7 +4726,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "e3900625-6a69-4be2-9f37-561f452a11c0"
+      "id": "e3900625-6a69-4be2-9f37-561f452a11c0",
+      "newsletter": true
     },
     {
       "name": "Paper Mario: Color Splash",
@@ -4438,7 +4741,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2016",
-      "id": "05d8ffee-0e09-45e0-8ef3-a0b3071aed6f"
+      "id": "05d8ffee-0e09-45e0-8ef3-a0b3071aed6f",
+      "newsletter": true
     },
     {
       "name": "Kirby: Planet Robobot",
@@ -4453,7 +4757,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2016",
-      "id": "edda77e7-bbf5-44e1-9a33-7635838c5084"
+      "id": "edda77e7-bbf5-44e1-9a33-7635838c5084",
+      "newsletter": true
     },
     {
       "name": "Kirby's Epic Yarn",
@@ -4466,7 +4771,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2010",
-      "id": "1de805d8-c9f9-4ae8-aea7-0265862e3c24"
+      "id": "1de805d8-c9f9-4ae8-aea7-0265862e3c24",
+      "newsletter": true
     },
     {
       "name": "Chrono Trigger",
@@ -4480,7 +4786,8 @@
       "platform": "DS",
       "year": "older",
       "release": "1995",
-      "id": "a3685d2f-11b3-4f43-b583-0eee5340af3c"
+      "id": "a3685d2f-11b3-4f43-b583-0eee5340af3c",
+      "newsletter": true
     },
     {
       "name": "Pikmin",
@@ -4495,7 +4802,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2001",
-      "id": "1f36f498-55e7-4679-8dff-faf1c3b98e7b"
+      "id": "1f36f498-55e7-4679-8dff-faf1c3b98e7b",
+      "newsletter": true
     },
     {
       "name": "Wario Land 4",
@@ -4509,7 +4817,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2001",
-      "id": "f5445b80-1b6b-4964-aaae-3f2d56d42987"
+      "id": "f5445b80-1b6b-4964-aaae-3f2d56d42987",
+      "newsletter": true
     },
     {
       "name": "Conker's Bad Fur Day",
@@ -4523,7 +4832,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2001",
-      "id": "024c1bce-b791-4f18-87dd-dba86462a698"
+      "id": "024c1bce-b791-4f18-87dd-dba86462a698",
+      "newsletter": true
     },
     {
       "name": "Earthbound",
@@ -4538,7 +4848,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1994",
-      "id": "a910767b-f040-4f01-b751-6e0a46eeec09"
+      "id": "a910767b-f040-4f01-b751-6e0a46eeec09",
+      "newsletter": true
     },
     {
       "name": "Portal 2",
@@ -4551,7 +4862,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2011",
-      "id": "b106bb93-bbb6-4aa2-9831-9c39619c708d"
+      "id": "b106bb93-bbb6-4aa2-9831-9c39619c708d",
+      "newsletter": true
     },
     {
       "name": "OFF",
@@ -4564,7 +4876,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2008",
-      "id": "ce8bee15-07ad-4013-8261-dde97f3befb3"
+      "id": "ce8bee15-07ad-4013-8261-dde97f3befb3",
+      "newsletter": true
     },
     {
       "name": "Farmville",
@@ -4577,7 +4890,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2009",
-      "id": "e198f35f-c546-4416-a339-436611184fa7"
+      "id": "e198f35f-c546-4416-a339-436611184fa7",
+      "newsletter": true
     },
     {
       "name": "Fishville",
@@ -4590,7 +4904,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2009",
-      "id": "b2f8099a-324f-46b7-a219-aebffbcc995d"
+      "id": "b2f8099a-324f-46b7-a219-aebffbcc995d",
+      "newsletter": true
     },
     {
       "name": "Insaniquarium",
@@ -4603,7 +4918,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2001",
-      "id": "5a268ae1-9e19-49a9-97ea-b76b339465af"
+      "id": "5a268ae1-9e19-49a9-97ea-b76b339465af",
+      "newsletter": true
     },
     {
       "name": "Cookie Clicker",
@@ -4616,7 +4932,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2013",
-      "id": "d4e3fb0e-ac19-4c2f-a0e6-a97ce992d965"
+      "id": "d4e3fb0e-ac19-4c2f-a0e6-a97ce992d965",
+      "newsletter": true
     },
     {
       "name": "Universal Paperclips",
@@ -4629,7 +4946,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2017",
-      "id": "241499aa-785c-408a-9eb4-bdbe7d1d0369"
+      "id": "241499aa-785c-408a-9eb4-bdbe7d1d0369",
+      "newsletter": true
     },
     {
       "name": "Plague Inc",
@@ -4642,7 +4960,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2012",
-      "id": "c17fe3c0-e818-4d5f-a2f5-95c8aa6edc9d"
+      "id": "c17fe3c0-e818-4d5f-a2f5-95c8aa6edc9d",
+      "newsletter": true
     },
     {
       "name": "Yeti Sports",
@@ -4655,7 +4974,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2004",
-      "id": "ba6cdafe-6f82-4fa4-8923-dcc3a33d6dda"
+      "id": "ba6cdafe-6f82-4fa4-8923-dcc3a33d6dda",
+      "newsletter": true
     },
     {
       "name": "Falling Sand",
@@ -4668,7 +4988,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2004",
-      "id": "d8dae0ec-cfaa-4563-b4be-befdbd07a6b1"
+      "id": "d8dae0ec-cfaa-4563-b4be-befdbd07a6b1",
+      "newsletter": true
     },
     {
       "name": "Flea Circus",
@@ -4681,7 +5002,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2004",
-      "id": "2caf2612-6d4c-471e-bced-33385e5f6a1e"
+      "id": "2caf2612-6d4c-471e-bced-33385e5f6a1e",
+      "newsletter": true
     },
     {
       "name": "Microsoft Pinball Arcade",
@@ -4694,7 +5016,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1998",
-      "id": "ca515648-fbb1-495f-9710-d4c2599392de"
+      "id": "ca515648-fbb1-495f-9710-d4c2599392de",
+      "newsletter": true
     },
     {
       "name": "Microsoft Hearts",
@@ -4707,7 +5030,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1992",
-      "id": "1b7cc4ef-08e5-403f-bd4d-f2cdb30868bb"
+      "id": "1b7cc4ef-08e5-403f-bd4d-f2cdb30868bb",
+      "newsletter": true
     },
     {
       "name": "Microsoft Solitaire",
@@ -4720,7 +5044,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1990",
-      "id": "8e7e294b-185a-4904-9d25-8632f9833384"
+      "id": "8e7e294b-185a-4904-9d25-8632f9833384",
+      "newsletter": true
     },
     {
       "name": "Words with Friends",
@@ -4733,7 +5058,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2009",
-      "id": "9e94da52-dba5-46bc-a371-d5979dc94ab1"
+      "id": "9e94da52-dba5-46bc-a371-d5979dc94ab1",
+      "newsletter": true
     },
     {
       "name": "Bubble Trouble",
@@ -4746,7 +5072,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2007",
-      "id": "74abf030-ba61-4854-8dc2-1a0776b55765"
+      "id": "74abf030-ba61-4854-8dc2-1a0776b55765",
+      "newsletter": true
     },
     {
       "name": "Club Penguin",
@@ -4759,7 +5086,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2005",
-      "id": "86007628-537e-47ca-8e38-857d1ecad871"
+      "id": "86007628-537e-47ca-8e38-857d1ecad871",
+      "newsletter": true
     },
     {
       "name": "The Impossible Quiz",
@@ -4772,7 +5100,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2007",
-      "id": "48def8d7-6f27-488e-b8b2-014e2c30f1dd"
+      "id": "48def8d7-6f27-488e-b8b2-014e2c30f1dd",
+      "newsletter": true
     },
     {
       "name": "Cyber Mice Party 2003",
@@ -4785,7 +5114,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2003",
-      "id": "792a27d5-f3a7-4dee-a40d-a6afdee934f5"
+      "id": "792a27d5-f3a7-4dee-a40d-a6afdee934f5",
+      "newsletter": true
     },
     {
       "name": "Minesweeper",
@@ -4798,7 +5128,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1990",
-      "id": "f2dc1ce3-ab0e-47af-bee8-da781a890acf"
+      "id": "f2dc1ce3-ab0e-47af-bee8-da781a890acf",
+      "newsletter": true
     },
     {
       "name": "Bug on a Wire",
@@ -4811,7 +5142,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2003",
-      "id": "b14e5d09-4242-433e-9b68-c159f59ee294"
+      "id": "b14e5d09-4242-433e-9b68-c159f59ee294",
+      "newsletter": true
     },
     {
       "name": "Red Beard",
@@ -4824,7 +5156,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2004",
-      "id": "8d959098-b763-4d87-940f-4abdbfd27ca3"
+      "id": "8d959098-b763-4d87-940f-4abdbfd27ca3",
+      "newsletter": true
     },
     {
       "name": "Twiddlestix",
@@ -4837,7 +5170,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2003",
-      "id": "26dd3e6b-d316-47f0-9852-e12226fc3a8b"
+      "id": "26dd3e6b-d316-47f0-9852-e12226fc3a8b",
+      "newsletter": true
     },
     {
       "name": "Roller Coaster Tycoon 3",
@@ -4850,7 +5184,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2004",
-      "id": "8f0762c0-d00f-4c4c-b8ee-d5d6d010db05"
+      "id": "8f0762c0-d00f-4c4c-b8ee-d5d6d010db05",
+      "newsletter": true
     },
     {
       "name": "Line Rider",
@@ -4863,7 +5198,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2006",
-      "id": "8b91daaf-becb-4776-a70e-d91c3485a8d7"
+      "id": "8b91daaf-becb-4776-a70e-d91c3485a8d7",
+      "newsletter": true
     },
     {
       "name": "The Classroom",
@@ -4876,7 +5212,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2003",
-      "id": "b6e4a752-3a57-4b34-a253-9ab7ce9590c8"
+      "id": "b6e4a752-3a57-4b34-a253-9ab7ce9590c8",
+      "newsletter": true
     },
     {
       "name": "Kellogg's Frosties Gr-r-rand Prix",
@@ -4889,7 +5226,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2003",
-      "id": "5b80c947-6f16-4ef9-9ace-0f55f5a11249"
+      "id": "5b80c947-6f16-4ef9-9ace-0f55f5a11249",
+      "newsletter": true
     },
     {
       "name": "Lego Racers",
@@ -4902,7 +5240,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1999",
-      "id": "add90920-78ae-4077-ac1a-219c6a7a22f1"
+      "id": "add90920-78ae-4077-ac1a-219c6a7a22f1",
+      "newsletter": true
     },
     {
       "name": "Snake",
@@ -4915,7 +5254,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "1998",
-      "id": "26641089-7901-4fb6-aa37-917509f0722e"
+      "id": "26641089-7901-4fb6-aa37-917509f0722e",
+      "newsletter": true
     },
     {
       "name": "Flow Free",
@@ -4928,7 +5268,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2012",
-      "id": "1e664293-5b47-46bc-b473-5e3ad55960ac"
+      "id": "1e664293-5b47-46bc-b473-5e3ad55960ac",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Oracle of Seasons",
@@ -4941,7 +5282,8 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "2001",
-      "id": "32cf7be6-cf2b-49b7-ac25-f6d6c925a68d"
+      "id": "32cf7be6-cf2b-49b7-ac25-f6d6c925a68d",
+      "newsletter": true
     },
     {
       "name": "ARMS",
@@ -4955,7 +5297,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "cc02ab41-5769-4edd-876a-8a8ff6cfcd2e"
+      "id": "cc02ab41-5769-4edd-876a-8a8ff6cfcd2e",
+      "newsletter": true
     },
     {
       "name": "Pokken Tournament",
@@ -4968,7 +5311,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2015",
-      "id": "b34cb2a9-ef38-4ce6-a198-1572ddde9418"
+      "id": "b34cb2a9-ef38-4ce6-a198-1572ddde9418",
+      "newsletter": true
     },
     {
       "name": "Tomodachi Life",
@@ -4982,7 +5326,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2013",
-      "id": "a3304184-4256-4544-9089-a7e671681e12"
+      "id": "a3304184-4256-4544-9089-a7e671681e12",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong Country Returns",
@@ -4997,7 +5342,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2010",
-      "id": "f54ae34d-ebe2-4b66-b6f3-f0e0d5f38d9e"
+      "id": "f54ae34d-ebe2-4b66-b6f3-f0e0d5f38d9e",
+      "newsletter": true
     },
     {
       "name": "Pokemon White 2",
@@ -5011,7 +5357,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2012",
-      "id": "5bc67ca9-e67c-437c-ae5f-21d172116257"
+      "id": "5bc67ca9-e67c-437c-ae5f-21d172116257",
+      "newsletter": true
     },
     {
       "name": "The Simpsons Hit & Run",
@@ -5025,7 +5372,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2003",
-      "id": "d25dcf5f-61f1-4ee2-b110-9b4597a1ab95"
+      "id": "d25dcf5f-61f1-4ee2-b110-9b4597a1ab95",
+      "newsletter": true
     },
     {
       "name": "Pokemon Mystery Dungeon: Red Rescue Team",
@@ -5040,7 +5388,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2005",
-      "id": "f9f07405-7335-4da7-a59c-7de8fcc9628e"
+      "id": "f9f07405-7335-4da7-a59c-7de8fcc9628e",
+      "newsletter": true
     },
     {
       "name": "Mario Kart 64",
@@ -5055,7 +5404,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1996",
-      "id": "f97a3dbd-178d-43fe-84fd-0846d2b29a77"
+      "id": "f97a3dbd-178d-43fe-84fd-0846d2b29a77",
+      "newsletter": true
     },
     {
       "name": "Super Metroid",
@@ -5070,7 +5420,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1994",
-      "id": "d829fc85-14c1-4c5c-9668-001c47931b9a"
+      "id": "d829fc85-14c1-4c5c-9668-001c47931b9a",
+      "newsletter": true
     },
     {
       "name": "Psychonauts",
@@ -5083,7 +5434,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2005",
-      "id": "4860aef0-e816-40ee-ba85-f2597d0da55e"
+      "id": "4860aef0-e816-40ee-ba85-f2597d0da55e",
+      "newsletter": true
     },
     {
       "name": "Rayman",
@@ -5097,7 +5449,8 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1995",
-      "id": "7b051009-1e88-4cfe-ab00-76147f2b6b5f"
+      "id": "7b051009-1e88-4cfe-ab00-76147f2b6b5f",
+      "newsletter": true
     },
     {
       "name": "Sonic Mania",
@@ -5112,7 +5465,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "5917860d-4e36-4d88-ae63-637eda99cd42"
+      "id": "5917860d-4e36-4d88-ae63-637eda99cd42",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem Echoes: Shadows of Valentia",
@@ -5126,7 +5480,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2017",
-      "id": "b45c8815-e14b-4c71-acab-6a5943f70f01"
+      "id": "b45c8815-e14b-4c71-acab-6a5943f70f01",
+      "newsletter": true
     },
     {
       "name": "Metroid Prime Trilogy",
@@ -5140,7 +5495,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2009",
-      "id": "7bc8fe83-c4b7-4a36-a207-5f99999541e9"
+      "id": "7bc8fe83-c4b7-4a36-a207-5f99999541e9",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Spirit Tracks",
@@ -5154,7 +5510,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2009",
-      "id": "bd4662dd-7328-444f-8a91-d0c577981d08"
+      "id": "bd4662dd-7328-444f-8a91-d0c577981d08",
+      "newsletter": true
     },
     {
       "name": "SSX 3",
@@ -5169,7 +5526,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2003",
-      "id": "b01b90df-4b86-4d2f-a10e-328f90f5a8bb"
+      "id": "b01b90df-4b86-4d2f-a10e-328f90f5a8bb",
+      "newsletter": true
     },
     {
       "name": "WarioWare, Inc.: Mega Microgame$!",
@@ -5184,7 +5542,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2003",
-      "id": "d49bd127-03e9-43b3-889e-dd8a53051fd0"
+      "id": "d49bd127-03e9-43b3-889e-dd8a53051fd0",
+      "newsletter": true
     },
     {
       "name": "Jurassic Park",
@@ -5197,7 +5556,8 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1993",
-      "id": "1da38496-aa63-4681-a178-cc2c2e625a40"
+      "id": "1da38496-aa63-4681-a178-cc2c2e625a40",
+      "newsletter": true
     },
     {
       "name": "Pokemon Stadium",
@@ -5211,7 +5571,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000",
-      "id": "04e9a25e-3772-4013-b018-a002c3f8bc2f"
+      "id": "04e9a25e-3772-4013-b018-a002c3f8bc2f",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: A Link to the Past",
@@ -5226,7 +5587,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1991",
-      "id": "709f24d1-aef5-42ab-91ce-a4da124b3f09"
+      "id": "709f24d1-aef5-42ab-91ce-a4da124b3f09",
+      "newsletter": true
     },
     {
       "name": "Sid Meier's Civilization IV",
@@ -5241,7 +5603,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2005",
-      "id": "02caacf9-1e02-4710-85b6-9ec5dd553022"
+      "id": "02caacf9-1e02-4710-85b6-9ec5dd553022",
+      "newsletter": true
     },
     {
       "name": "Tetris 99",
@@ -5254,7 +5617,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "4ce3ea11-af65-45bb-95d2-2c56dece9083"
+      "id": "4ce3ea11-af65-45bb-95d2-2c56dece9083",
+      "newsletter": true
     },
     {
       "name": "Yoshi's Woolly World",
@@ -5268,7 +5632,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2015",
-      "id": "46df292c-422a-4c72-9a7b-b3b6bc2fc2dc"
+      "id": "46df292c-422a-4c72-9a7b-b3b6bc2fc2dc",
+      "newsletter": true
     },
     {
       "name": "Metroid: Samus Returns",
@@ -5283,7 +5648,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2017",
-      "id": "5aba6148-fbe5-42a5-8e34-e05bb3566196"
+      "id": "5aba6148-fbe5-42a5-8e34-e05bb3566196",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Skyward Sword",
@@ -5299,7 +5665,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2011",
-      "id": "f2236f6c-c7c2-45a1-bf95-e8f40d931d59"
+      "id": "f2236f6c-c7c2-45a1-bf95-e8f40d931d59",
+      "newsletter": true
     },
     {
       "name": "Rhythm Paradise",
@@ -5312,7 +5679,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2009",
-      "id": "5ad3fd8b-877b-4937-ab8f-a0740bc177fb"
+      "id": "5ad3fd8b-877b-4937-ab8f-a0740bc177fb",
+      "newsletter": true
     },
     {
       "name": "SSX Tricky",
@@ -5325,7 +5693,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2001",
-      "id": "0d294839-19af-43f1-99e3-a5da2edd722e"
+      "id": "0d294839-19af-43f1-99e3-a5da2edd722e",
+      "newsletter": true
     },
     {
       "name": "Golden Sun: The Lost Age",
@@ -5338,7 +5707,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2002",
-      "id": "3dba43ad-99ae-4578-a168-bbb80e0a191b"
+      "id": "3dba43ad-99ae-4578-a168-bbb80e0a191b",
+      "newsletter": true
     },
     {
       "name": "Pokemon Stadium 2",
@@ -5352,7 +5722,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000",
-      "id": "3f80f10e-8387-4717-9614-1220398016d9"
+      "id": "3f80f10e-8387-4717-9614-1220398016d9",
+      "newsletter": true
     },
     {
       "name": "Kirby's Dream Land 3",
@@ -5365,7 +5736,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1997",
-      "id": "07e881c8-d82a-47d6-93bd-4b49dfc51154"
+      "id": "07e881c8-d82a-47d6-93bd-4b49dfc51154",
+      "newsletter": true
     },
     {
       "name": "Skullgirls 2nd Encore",
@@ -5379,7 +5751,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2012",
-      "id": "2774356e-8dab-4cbf-aba3-967f094279ef"
+      "id": "2774356e-8dab-4cbf-aba3-967f094279ef",
+      "newsletter": true
     },
     {
       "name": "Wargroove",
@@ -5393,7 +5766,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "bc92c11c-0cd3-47d0-81e9-c7cbd044845f"
+      "id": "bc92c11c-0cd3-47d0-81e9-c7cbd044845f",
+      "newsletter": true
     },
     {
       "name": "Hyrule Warriors",
@@ -5407,7 +5781,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2014",
-      "id": "78dee7df-5ade-4f59-b060-f417e8a59978"
+      "id": "78dee7df-5ade-4f59-b060-f417e8a59978",
+      "newsletter": true
     },
     {
       "name": "Mario & Luigi: Superstar Saga + Bowser's Minions",
@@ -5421,7 +5796,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2017",
-      "id": "79547b3e-2120-4c18-9a32-da26aa14d3a2"
+      "id": "79547b3e-2120-4c18-9a32-da26aa14d3a2",
+      "newsletter": true
     },
     {
       "name": "Super Paper Mario",
@@ -5437,7 +5813,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2007",
-      "id": "78d3d3ef-155e-4867-83b2-7ecd24b1dd62"
+      "id": "78d3d3ef-155e-4867-83b2-7ecd24b1dd62",
+      "newsletter": true
     },
     {
       "name": "Super Mario 64 DS",
@@ -5451,7 +5828,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2004",
-      "id": "c720de63-cb63-49c8-97e8-c311ea2dac11"
+      "id": "c720de63-cb63-49c8-97e8-c311ea2dac11",
+      "newsletter": true
     },
     {
       "name": "Star Wars Jedi Knight II: Jedi Outcast",
@@ -5464,7 +5842,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2002",
-      "id": "fb70b7bf-0de9-4e63-884f-0213b3683834"
+      "id": "fb70b7bf-0de9-4e63-884f-0213b3683834",
+      "newsletter": true
     },
     {
       "name": "Mario Kart Super Circuit",
@@ -5477,7 +5856,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2001",
-      "id": "8ba668b9-0947-4365-9e45-bddd0e0cf3f4"
+      "id": "8ba668b9-0947-4365-9e45-bddd0e0cf3f4",
+      "newsletter": true
     },
     {
       "name": "Kirby 64: The Crystal Shards",
@@ -5491,7 +5871,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000",
-      "id": "97c44281-aea0-4af9-aaf7-158af952c75c"
+      "id": "97c44281-aea0-4af9-aaf7-158af952c75c",
+      "newsletter": true
     },
     {
       "name": "Super Bomberman",
@@ -5504,7 +5885,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1993",
-      "id": "1cfa5b12-b5bb-4041-b1a5-910cadf5d157"
+      "id": "1cfa5b12-b5bb-4041-b1a5-910cadf5d157",
+      "newsletter": true
     },
     {
       "name": "The Stanley Parable",
@@ -5518,7 +5900,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2013",
-      "id": "a6ebf078-f3b0-4a75-b7cd-5aebbeb34161"
+      "id": "a6ebf078-f3b0-4a75-b7cd-5aebbeb34161",
+      "newsletter": true
     },
     {
       "name": "Puyo Puyo Tetris",
@@ -5532,7 +5915,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2014",
-      "id": "338f6cb5-742d-4e51-8645-567cab98c438"
+      "id": "338f6cb5-742d-4e51-8645-567cab98c438",
+      "newsletter": true
     },
     {
       "name": "Kirby and the Rainbow Curse",
@@ -5545,7 +5929,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2015",
-      "id": "c516e361-d4a9-431a-8d79-e4a0b9767cef"
+      "id": "c516e361-d4a9-431a-8d79-e4a0b9767cef",
+      "newsletter": true
     },
     {
       "name": "Mario Kart 7",
@@ -5559,7 +5944,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2011",
-      "id": "2a8fa18f-c4de-46d6-9e19-d55d15a0a2f0"
+      "id": "2a8fa18f-c4de-46d6-9e19-d55d15a0a2f0",
+      "newsletter": true
     },
     {
       "name": "Mario Strikers Charged",
@@ -5573,7 +5959,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2007",
-      "id": "adac4b16-7201-4dde-8602-f6f7214a919f"
+      "id": "adac4b16-7201-4dde-8602-f6f7214a919f",
+      "newsletter": true
     },
     {
       "name": "Professor Layton and the Curious Village",
@@ -5587,7 +5974,8 @@
       "story": true,
       "year": "older",
       "release": "2007",
-      "id": "15f83c33-e7ef-4ae7-9db3-fc89dbc8dfcc"
+      "id": "15f83c33-e7ef-4ae7-9db3-fc89dbc8dfcc",
+      "newsletter": true
     },
     {
       "name": "Cel Damage",
@@ -5601,7 +5989,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2001",
-      "id": "ab83b452-4b5a-4461-ad34-4d201fb852b6"
+      "id": "ab83b452-4b5a-4461-ad34-4d201fb852b6",
+      "newsletter": true
     },
     {
       "name": "Advance Wars: Black Hole Rising",
@@ -5614,7 +6003,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2003",
-      "id": "3e89f6f0-ef3e-40b6-9792-43558be57217"
+      "id": "3e89f6f0-ef3e-40b6-9792-43558be57217",
+      "newsletter": true
     },
     {
       "name": "Advance Wars: Dual Strike",
@@ -5627,7 +6017,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2005",
-      "id": "cc2d4979-b5a2-464f-998b-ccf9a5213f7c"
+      "id": "cc2d4979-b5a2-464f-998b-ccf9a5213f7c",
+      "newsletter": true
     },
     {
       "name": "Monsteca Corral",
@@ -5640,7 +6031,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2010",
-      "id": "f083379d-9a05-45a4-83a6-c9aee1b3a3dc"
+      "id": "f083379d-9a05-45a4-83a6-c9aee1b3a3dc",
+      "newsletter": true
     },
     {
       "name": "Yoshi's Story",
@@ -5655,7 +6047,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997",
-      "id": "06f77044-5bf6-41c9-abad-9dbdfe78a65b"
+      "id": "06f77044-5bf6-41c9-abad-9dbdfe78a65b",
+      "newsletter": true
     },
     {
       "name": "SUPERHOT",
@@ -5668,7 +6061,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2016",
-      "id": "47cdd1b8-9213-48a1-b791-e15e3702a4e3"
+      "id": "47cdd1b8-9213-48a1-b791-e15e3702a4e3",
+      "newsletter": true
     },
     {
       "name": "Hollow Knight",
@@ -5685,7 +6079,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "1249483d-0bab-4bfa-a509-4019c05b9f0d"
+      "id": "1249483d-0bab-4bfa-a509-4019c05b9f0d",
+      "newsletter": true
     },
     {
       "name": "NES Remix Pack",
@@ -5698,7 +6093,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2014",
-      "id": "06c16396-8dc0-4f9b-8cd7-e19a96703f49"
+      "id": "06c16396-8dc0-4f9b-8cd7-e19a96703f49",
+      "newsletter": true
     },
     {
       "name": "Kid Icarus: Uprising",
@@ -5712,7 +6108,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2012",
-      "id": "89594062-6254-4441-9147-0e29fd7fcc53"
+      "id": "89594062-6254-4441-9147-0e29fd7fcc53",
+      "newsletter": true
     },
     {
       "name": "Super Mario Galaxy 2",
@@ -5726,7 +6123,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2010",
-      "id": "88da3058-bddb-4d68-84a4-fc4ea1c8297a"
+      "id": "88da3058-bddb-4d68-84a4-fc4ea1c8297a",
+      "newsletter": true
     },
     {
       "name": "Mario Kart DS",
@@ -5740,7 +6138,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2005",
-      "id": "ac59e58d-c3fc-4e9b-9dd0-407517995567"
+      "id": "ac59e58d-c3fc-4e9b-9dd0-407517995567",
+      "newsletter": true
     },
     {
       "name": "Kirby & The Amazing Mirror",
@@ -5754,7 +6153,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "id": "d47ba91b-50e1-41e9-9bf5-bb08091b8c82"
+      "id": "d47ba91b-50e1-41e9-9bf5-bb08091b8c82",
+      "newsletter": true
     },
     {
       "name": "Diddy Kong Racing",
@@ -5770,7 +6170,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997",
-      "id": "bf9ba4ce-cb4a-44b3-ac88-35724f8b0005"
+      "id": "bf9ba4ce-cb4a-44b3-ac88-35724f8b0005",
+      "newsletter": true
     },
     {
       "name": "Terraria",
@@ -5783,7 +6184,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2011",
-      "id": "eaece134-b29d-49f5-8ab7-6fea7b81e368"
+      "id": "eaece134-b29d-49f5-8ab7-6fea7b81e368",
+      "newsletter": true
     },
     {
       "name": "Pokemon Shield",
@@ -5798,7 +6200,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "5c1fcb1e-053f-488a-ad5b-022d9236b237"
+      "id": "5c1fcb1e-053f-488a-ad5b-022d9236b237",
+      "newsletter": true
     },
     {
       "name": "Pikmin 3",
@@ -5814,7 +6217,8 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2013",
-      "id": "3af841db-6f7b-4aec-b259-96ac8ffc3500"
+      "id": "3af841db-6f7b-4aec-b259-96ac8ffc3500",
+      "newsletter": true
     },
     {
       "name": "Hey! Pikmin",
@@ -5828,7 +6232,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2017",
-      "id": "8291285f-3e97-4e31-b8a1-37e168b876c6"
+      "id": "8291285f-3e97-4e31-b8a1-37e168b876c6",
+      "newsletter": true
     },
     {
       "name": "Animal Crossing: Let's Go to the City",
@@ -5842,7 +6247,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2008",
-      "id": "ca57b4b4-ce4c-409c-b718-0d17fb3fd69e"
+      "id": "ca57b4b4-ce4c-409c-b718-0d17fb3fd69e",
+      "newsletter": true
     },
     {
       "name": "Super Princess Peach",
@@ -5855,7 +6261,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2005",
-      "id": "465745b2-5bbd-4744-9d54-d709c1726713"
+      "id": "465745b2-5bbd-4744-9d54-d709c1726713",
+      "newsletter": true
     },
     {
       "name": "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006",
@@ -5868,7 +6275,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2006",
-      "id": "be042607-f5e2-4ccb-a458-36fe243885e9"
+      "id": "be042607-f5e2-4ccb-a458-36fe243885e9",
+      "newsletter": true
     },
     {
       "name": "Super Smash Bros.",
@@ -5882,7 +6290,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1999",
-      "id": "50c2b381-2991-498c-9938-7cc7b3a553d6"
+      "id": "50c2b381-2991-498c-9938-7cc7b3a553d6",
+      "newsletter": true
     },
     {
       "name": "Tilt Brush",
@@ -5895,7 +6304,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2016",
-      "id": "37fa2ebd-cd4e-4a95-88c7-f482ccc222c6"
+      "id": "37fa2ebd-cd4e-4a95-88c7-f482ccc222c6",
+      "newsletter": true
     },
     {
       "name": "Mario Kart 8 Deluxe",
@@ -5911,7 +6321,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "c722a76a-7f74-47fc-82cd-d63cd06a1772"
+      "id": "c722a76a-7f74-47fc-82cd-d63cd06a1772",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem Fates",
@@ -5927,7 +6338,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2015",
-      "id": "f4f40d92-d3ae-40e9-8eab-c56d613863e4"
+      "id": "f4f40d92-d3ae-40e9-8eab-c56d613863e4",
+      "newsletter": true
     },
     {
       "name": "Okami",
@@ -5942,7 +6354,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2006",
-      "id": "72722284-3616-44b4-8836-bb28e5f9e9ae"
+      "id": "72722284-3616-44b4-8836-bb28e5f9e9ae",
+      "newsletter": true
     },
     {
       "name": "Sonic Rush",
@@ -5955,7 +6368,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2005",
-      "id": "bfa9bb4a-4116-4fb2-a031-0c60b5e41dbe"
+      "id": "bfa9bb4a-4116-4fb2-a031-0c60b5e41dbe",
+      "newsletter": true
     },
     {
       "name": "Turbo Turtle Adventure",
@@ -5968,7 +6382,8 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2002",
-      "id": "0e143696-9ec8-4cae-81be-d02b3ed4fe37"
+      "id": "0e143696-9ec8-4cae-81be-d02b3ed4fe37",
+      "newsletter": true
     },
     {
       "name": "1080° Snowboarding",
@@ -5981,7 +6396,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1998",
-      "id": "164d1d60-cd8d-4723-a60a-5c42f7f62af8"
+      "id": "164d1d60-cd8d-4723-a60a-5c42f7f62af8",
+      "newsletter": true
     },
     {
       "name": "Undertale",
@@ -5998,7 +6414,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2015",
-      "id": "3953531f-ed19-49ee-b259-f61797f939b1"
+      "id": "3953531f-ed19-49ee-b259-f61797f939b1",
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Link's Awakening",
@@ -6012,7 +6429,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "1993",
-      "id": "3ff9bf2a-121c-4e4b-8262-67a843775204"
+      "id": "3ff9bf2a-121c-4e4b-8262-67a843775204",
+      "newsletter": true
     },
     {
       "name": "Super Smash Bros. for 3DS",
@@ -6026,7 +6444,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2014",
-      "id": "b4411398-a564-4279-a60a-64c62966385a"
+      "id": "b4411398-a564-4279-a60a-64c62966385a",
+      "newsletter": true
     },
     {
       "name": "Fire Emblem: Radiant Dawn",
@@ -6040,7 +6459,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2007",
-      "id": "f9ad80a9-fdad-4737-8039-296b53a9deed"
+      "id": "f9ad80a9-fdad-4737-8039-296b53a9deed",
+      "newsletter": true
     },
     {
       "name": "Pokemon Mystery Dungeon: Explorers of Sky",
@@ -6053,7 +6473,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2009",
-      "id": "84cbf015-9305-47ea-8fd9-4a1861c4ed9a"
+      "id": "84cbf015-9305-47ea-8fd9-4a1861c4ed9a",
+      "newsletter": true
     },
     {
       "name": "Pokemon Snap",
@@ -6066,7 +6487,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1999",
-      "id": "b6f4ade0-195b-4382-b74b-8fab9c8016b3"
+      "id": "b6f4ade0-195b-4382-b74b-8fab9c8016b3",
+      "newsletter": true
     },
     {
       "name": "Deltarune: Chapter 1",
@@ -6080,7 +6502,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2018",
-      "id": "2f1be1bf-264f-4e3e-ad57-2d4726d7f4fa"
+      "id": "2f1be1bf-264f-4e3e-ad57-2d4726d7f4fa",
+      "newsletter": true
     },
     {
       "name": "Cadence of Hyrule: Crypt of the NecroDancer featuring The Legend of Zelda",
@@ -6094,7 +6517,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "66da7f87-946e-4972-afd9-191c944a2125"
+      "id": "66da7f87-946e-4972-afd9-191c944a2125",
+      "newsletter": true
     },
     {
       "name": "Yoshi's New Island",
@@ -6107,7 +6531,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2013",
-      "id": "cadf42c9-dc64-4fcd-8a9b-58e7d59007dd"
+      "id": "cadf42c9-dc64-4fcd-8a9b-58e7d59007dd",
+      "newsletter": true
     },
     {
       "name": "De Blob",
@@ -6120,7 +6545,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2008",
-      "id": "ac76cc3b-1e2e-419a-9bb4-37745f8b85a9"
+      "id": "ac76cc3b-1e2e-419a-9bb4-37745f8b85a9",
+      "newsletter": true
     },
     {
       "name": "Mario Party DS",
@@ -6133,7 +6559,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2007",
-      "id": "62309a6b-2712-4076-ae0a-52644650c4c9"
+      "id": "62309a6b-2712-4076-ae0a-52644650c4c9",
+      "newsletter": true
     },
     {
       "name": "Mario Party Superstars",
@@ -6146,7 +6573,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2021",
-      "id": "04ad9c7d-a1d9-45f5-8376-85b88509a083"
+      "id": "04ad9c7d-a1d9-45f5-8376-85b88509a083",
+      "newsletter": true
     },
     {
       "name": "Mario Party Jamboree",
@@ -6159,7 +6587,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2025",
-      "id": "9d83126e-5af5-471d-aab7-fe506d1dd98e"
+      "id": "9d83126e-5af5-471d-aab7-fe506d1dd98e",
+      "newsletter": true
     },
     {
       "name": "Snowboard Kids",
@@ -6172,7 +6601,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997",
-      "id": "5485fa49-33ba-4ad9-9442-fa8fa4fb80ba"
+      "id": "5485fa49-33ba-4ad9-9442-fa8fa4fb80ba",
+      "newsletter": true
     },
     {
       "name": "Worms 2",
@@ -6185,7 +6615,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1997",
-      "id": "b6d88af3-c17e-4531-9bd8-646e8a9ac3ce"
+      "id": "b6d88af3-c17e-4531-9bd8-646e8a9ac3ce",
+      "newsletter": true
     },
     {
       "name": "Baba is You",
@@ -6199,7 +6630,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "408d155b-4318-4211-be60-0b86791e12ef"
+      "id": "408d155b-4318-4211-be60-0b86791e12ef",
+      "newsletter": true
     },
     {
       "name": "Star Fox 64 3D",
@@ -6212,7 +6644,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2011",
-      "id": "d5deb161-0a16-4bd2-b484-1aff3bbcd249"
+      "id": "d5deb161-0a16-4bd2-b484-1aff3bbcd249",
+      "newsletter": true
     },
     {
       "name": "WarioWare: Smooth Moves",
@@ -6225,7 +6658,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2006",
-      "id": "2ef70a2c-6468-45d0-b35b-34afa223daaa"
+      "id": "2ef70a2c-6468-45d0-b35b-34afa223daaa",
+      "newsletter": true
     },
     {
       "name": "Advance Wars: Days of Ruin",
@@ -6238,7 +6672,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2007",
-      "id": "cf5ad2f1-36ce-410f-80c6-f8218b9f351d"
+      "id": "cf5ad2f1-36ce-410f-80c6-f8218b9f351d",
+      "newsletter": true
     },
     {
       "name": "Iggy's Reckin' Balls",
@@ -6251,7 +6686,8 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1998",
-      "id": "08319467-e42d-4d1a-8897-1d08361f6330"
+      "id": "08319467-e42d-4d1a-8897-1d08361f6330",
+      "newsletter": true
     },
     {
       "name": "Command & Conquer: Red Alert",
@@ -6264,7 +6700,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1996",
-      "id": "40754c47-0933-48b7-b530-525a9ca112af"
+      "id": "40754c47-0933-48b7-b530-525a9ca112af",
+      "newsletter": true
     },
     {
       "name": "Super Mario Maker 2",
@@ -6277,7 +6714,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "14e8538c-8d3c-4fff-81c9-01df14cd035c"
+      "id": "14e8538c-8d3c-4fff-81c9-01df14cd035c",
+      "newsletter": true
     },
     {
       "name": "Pilotwings Resort",
@@ -6290,7 +6728,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2011",
-      "id": "79fca4f0-292f-44b2-bb87-ac0efa251144"
+      "id": "79fca4f0-292f-44b2-bb87-ac0efa251144",
+      "newsletter": true
     },
     {
       "name": "Pikmin 2",
@@ -6306,7 +6745,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2004",
-      "id": "7440167b-0ca6-4d9f-80d0-c1005bcec8a4"
+      "id": "7440167b-0ca6-4d9f-80d0-c1005bcec8a4",
+      "newsletter": true
     },
     {
       "name": "Yoshi's Island DS",
@@ -6319,7 +6759,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2006",
-      "id": "3d990df2-b2fa-4415-a5ec-a78c738878e7"
+      "id": "3d990df2-b2fa-4415-a5ec-a78c738878e7",
+      "newsletter": true
     },
     {
       "name": "RollerCoaster Tycoon",
@@ -6332,7 +6773,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1999",
-      "id": "fb7d7d4a-1c3b-4ac3-9e9a-cc3152a27cf0"
+      "id": "fb7d7d4a-1c3b-4ac3-9e9a-cc3152a27cf0",
+      "newsletter": true
     },
     {
       "name": "Crypt of the NecroDancer",
@@ -6345,7 +6787,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2015",
-      "id": "0dc859e3-7ab7-4aea-8fae-cf56eff19f87"
+      "id": "0dc859e3-7ab7-4aea-8fae-cf56eff19f87",
+      "newsletter": true
     },
     {
       "name": "Wii Fit",
@@ -6359,7 +6802,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2008",
-      "id": "6bd0e960-3295-4d24-8174-6ce734b8d493"
+      "id": "6bd0e960-3295-4d24-8174-6ce734b8d493",
+      "newsletter": true
     },
     {
       "name": "Phoenix Wright: Ace Attorney",
@@ -6373,7 +6817,8 @@
       "story": true,
       "year": "older",
       "release": "2001",
-      "id": "d92eabd6-ea11-4fc2-b54c-839509b1524b"
+      "id": "d92eabd6-ea11-4fc2-b54c-839509b1524b",
+      "newsletter": true
     },
     {
       "name": "The Sims",
@@ -6387,7 +6832,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2000",
-      "id": "2c2f7b72-e1b6-4f8f-8c99-fd40aeb60c7a"
+      "id": "2c2f7b72-e1b6-4f8f-8c99-fd40aeb60c7a",
+      "newsletter": true
     },
     {
       "name": "The Sims 3",
@@ -6400,7 +6846,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2009",
-      "id": "7e0b4132-fe8d-421d-987d-27449fba0c7e"
+      "id": "7e0b4132-fe8d-421d-987d-27449fba0c7e",
+      "newsletter": true
     },
     {
       "name": "Shovel Knight: Treasure Trove",
@@ -6414,7 +6861,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "c41e52e4-ea78-4c1f-ad0f-5ccbc73092bd"
+      "id": "c41e52e4-ea78-4c1f-ad0f-5ccbc73092bd",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong: Barrel Blast",
@@ -6427,7 +6875,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2007",
-      "id": "354f3cc3-ab5d-44b6-877f-7ac340cb8cdc"
+      "id": "354f3cc3-ab5d-44b6-877f-7ac340cb8cdc",
+      "newsletter": true
     },
     {
       "name": "Custom Robo Arena",
@@ -6440,7 +6889,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2006",
-      "id": "baf3a308-f9d9-4d9f-9869-57f71621d3fb"
+      "id": "baf3a308-f9d9-4d9f-9869-57f71621d3fb",
+      "newsletter": true
     },
     {
       "name": "Runescape",
@@ -6454,7 +6904,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2001",
-      "id": "51421406-b5b4-41bd-bf1a-6e93bc352acd"
+      "id": "51421406-b5b4-41bd-bf1a-6e93bc352acd",
+      "newsletter": true
     },
     {
       "name": "Bit.Trip Runner",
@@ -6467,7 +6918,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2010",
-      "id": "b46252d4-b2fe-4bdd-a217-bf4af5e921bf"
+      "id": "b46252d4-b2fe-4bdd-a217-bf4af5e921bf",
+      "newsletter": true
     },
     {
       "name": "Professor Layton and Pandora's Box",
@@ -6481,7 +6933,8 @@
       "story": true,
       "year": "older",
       "release": "2009",
-      "id": "38daf972-fd9f-447c-9204-56ab1056ce7d"
+      "id": "38daf972-fd9f-447c-9204-56ab1056ce7d",
+      "newsletter": true
     },
     {
       "name": "Minecraft",
@@ -6495,7 +6948,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2011",
-      "id": "f1023a23-6fd9-4ab6-9b86-993a725759a3"
+      "id": "f1023a23-6fd9-4ab6-9b86-993a725759a3",
+      "newsletter": true
     },
     {
       "name": "Overcooked",
@@ -6508,7 +6962,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2016",
-      "id": "40491231-0406-4691-ad24-3864a324179f"
+      "id": "40491231-0406-4691-ad24-3864a324179f",
+      "newsletter": true
     },
     {
       "name": "Overcooked 2",
@@ -6521,7 +6976,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "bc796422-a594-4cfb-b24d-32204a0b2d72"
+      "id": "bc796422-a594-4cfb-b24d-32204a0b2d72",
+      "newsletter": true
     },
     {
       "name": "42 All-Time Classics",
@@ -6534,7 +6990,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2006",
-      "id": "87f98089-634e-4b9d-bf12-f5c75f5781c9"
+      "id": "87f98089-634e-4b9d-bf12-f5c75f5781c9",
+      "newsletter": true
     },
     {
       "name": "AM2R: Another Metroid 2 Remake",
@@ -6547,7 +7004,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2016",
-      "id": "060e3c76-a744-4353-8461-eea3f9daa8e4"
+      "id": "060e3c76-a744-4353-8461-eea3f9daa8e4",
+      "newsletter": true
     },
     {
       "name": "Golf Story",
@@ -6560,7 +7018,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "9d90fb14-d808-4f9a-a1bb-6b32139ceb56"
+      "id": "9d90fb14-d808-4f9a-a1bb-6b32139ceb56",
+      "newsletter": true
     },
     {
       "name": "Diddy Kong Racing DS",
@@ -6575,7 +7034,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2007",
-      "id": "91a14ab0-b470-40bd-8eca-8cbe1020f2db"
+      "id": "91a14ab0-b470-40bd-8eca-8cbe1020f2db",
+      "newsletter": true
     },
     {
       "name": "Chasm",
@@ -6588,7 +7048,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2018",
-      "id": "77ac8bd6-039a-4614-b88f-1d45828a0683"
+      "id": "77ac8bd6-039a-4614-b88f-1d45828a0683",
+      "newsletter": true
     },
     {
       "name": "The Messenger",
@@ -6601,7 +7062,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "0e106b47-d40e-4e74-8ca9-f85cc0be7631"
+      "id": "0e106b47-d40e-4e74-8ca9-f85cc0be7631",
+      "newsletter": true
     },
     {
       "name": "Worms: Open Warfare",
@@ -6614,7 +7076,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2007",
-      "id": "0dd9d314-5130-4be2-8b6b-21455d0542d8"
+      "id": "0dd9d314-5130-4be2-8b6b-21455d0542d8",
+      "newsletter": true
     },
     {
       "name": "Zoombinis",
@@ -6627,7 +7090,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1996",
-      "id": "36220988-3740-4def-9c05-ad0dfc3cff95"
+      "id": "36220988-3740-4def-9c05-ad0dfc3cff95",
+      "newsletter": true
     },
     {
       "name": "Yooka-Laylee and the Impossible Lair",
@@ -6642,7 +7106,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "a51e9a41-8900-4608-80f4-06c141dbc226"
+      "id": "a51e9a41-8900-4608-80f4-06c141dbc226",
+      "newsletter": true
     },
     {
       "name": "Zool 2",
@@ -6655,7 +7120,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1993",
-      "id": "0eade715-6a6f-42aa-bba0-920ac66d533a"
+      "id": "0eade715-6a6f-42aa-bba0-920ac66d533a",
+      "newsletter": true
     },
     {
       "name": "Prison Architect",
@@ -6668,7 +7134,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2015",
-      "id": "fa892e39-a43e-49b7-83bf-2b80322e9751"
+      "id": "fa892e39-a43e-49b7-83bf-2b80322e9751",
+      "newsletter": true
     },
     {
       "name": "World of Warcraft",
@@ -6682,7 +7149,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2004",
-      "id": "dffb4724-cd55-4df8-b1f6-b9ea9ebf85ec"
+      "id": "dffb4724-cd55-4df8-b1f6-b9ea9ebf85ec",
+      "newsletter": true
     },
     {
       "name": "Return of the Obra Dinn",
@@ -6697,7 +7165,8 @@
       "story": true,
       "year": "older",
       "release": "2018",
-      "id": "c4b19014-de17-44f6-a3ea-52cede45cb1b"
+      "id": "c4b19014-de17-44f6-a3ea-52cede45cb1b",
+      "newsletter": true
     },
     {
       "name": "Lemmings",
@@ -6710,7 +7179,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1991",
-      "id": "826f8cdf-f2bd-4cb0-a143-b7f957e8299d"
+      "id": "826f8cdf-f2bd-4cb0-a143-b7f957e8299d",
+      "newsletter": true
     },
     {
       "name": "Mega Man 2",
@@ -6723,7 +7193,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1989",
-      "id": "714b6dda-58ec-4f6d-9adc-f784a4dd3c48"
+      "id": "714b6dda-58ec-4f6d-9adc-f784a4dd3c48",
+      "newsletter": true
     },
     {
       "name": "Mega Man 3",
@@ -6736,7 +7207,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1990",
-      "id": "763dc956-1616-425c-ba2a-e1a4d0511615"
+      "id": "763dc956-1616-425c-ba2a-e1a4d0511615",
+      "newsletter": true
     },
     {
       "name": "Mega Man 4",
@@ -6749,7 +7221,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1991",
-      "id": "62b6ae16-5045-4b39-9cef-39838cbb86ca"
+      "id": "62b6ae16-5045-4b39-9cef-39838cbb86ca",
+      "newsletter": true
     },
     {
       "name": "Frogger",
@@ -6762,7 +7235,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1981",
-      "id": "2bf5feca-ca92-47f3-a8c8-2e68fec1ec87"
+      "id": "2bf5feca-ca92-47f3-a8c8-2e68fec1ec87",
+      "newsletter": true
     },
     {
       "name": "Neopets",
@@ -6775,7 +7249,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1999",
-      "id": "8e664965-69ee-4b0b-8806-c6d8782da9a2"
+      "id": "8e664965-69ee-4b0b-8806-c6d8782da9a2",
+      "newsletter": true
     },
     {
       "name": "Lemmings 3D",
@@ -6788,7 +7263,8 @@
       "platform": "PC",
       "year": "older",
       "release": "1995",
-      "id": "632ea941-ed06-4e99-9691-39a9946d251b"
+      "id": "632ea941-ed06-4e99-9691-39a9946d251b",
+      "newsletter": true
     },
     {
       "name": "VA-11 HALL-A",
@@ -6803,7 +7279,8 @@
       "story": true,
       "year": "older",
       "release": "2016",
-      "id": "0bef95d3-a498-4778-abc2-1e761ad25e12"
+      "id": "0bef95d3-a498-4778-abc2-1e761ad25e12",
+      "newsletter": true
     },
     {
       "name": "Worms 3D",
@@ -6816,7 +7293,8 @@
       "platform": "PC",
       "year": "older",
       "release": "2003",
-      "id": "5b9926d1-8c1f-45bf-a6a1-56eebadf2d1f"
+      "id": "5b9926d1-8c1f-45bf-a6a1-56eebadf2d1f",
+      "newsletter": true
     },
     {
       "name": "Yooka Laylee",
@@ -6829,7 +7307,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "37418af3-aa56-4f5d-b61d-3fc8d199ca93"
+      "id": "37418af3-aa56-4f5d-b61d-3fc8d199ca93",
+      "newsletter": true
     },
     {
       "name": "Snake Pass",
@@ -6842,7 +7321,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "89ff48a0-9555-4152-b43f-07ef9e850195"
+      "id": "89ff48a0-9555-4152-b43f-07ef9e850195",
+      "newsletter": true
     },
     {
       "name": "Shantae: Half-Genie Hero",
@@ -6856,7 +7336,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2016",
-      "id": "da2f632b-8b40-42fd-8ef4-b81b77f3afe7"
+      "id": "da2f632b-8b40-42fd-8ef4-b81b77f3afe7",
+      "newsletter": true
     },
     {
       "name": "Dandara",
@@ -6869,7 +7350,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "1f9b49c1-199b-4c98-839d-b5f493b75942"
+      "id": "1f9b49c1-199b-4c98-839d-b5f493b75942",
+      "newsletter": true
     },
     {
       "name": "Hyper Light Drifter",
@@ -6882,7 +7364,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2016",
-      "id": "9f20fa66-6247-4b9e-8bd3-62fd429307e9"
+      "id": "9f20fa66-6247-4b9e-8bd3-62fd429307e9",
+      "newsletter": true
     },
     {
       "name": "Owlboy",
@@ -6895,7 +7378,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2016",
-      "id": "15ec5425-6f3d-4dba-8cf4-b99c0b5a9a82"
+      "id": "15ec5425-6f3d-4dba-8cf4-b99c0b5a9a82",
+      "newsletter": true
     },
     {
       "name": "Just Shapes and Beats",
@@ -6908,7 +7392,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "fcd7b609-4b8d-4b1f-86e6-6d7ceaf29c76"
+      "id": "fcd7b609-4b8d-4b1f-86e6-6d7ceaf29c76",
+      "newsletter": true
     },
     {
       "name": "Guacamelee!",
@@ -6921,7 +7406,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2013",
-      "id": "8cd21a4f-922c-453f-b756-a744a25340be"
+      "id": "8cd21a4f-922c-453f-b756-a744a25340be",
+      "newsletter": true
     },
     {
       "name": "Enter the Gungeon",
@@ -6934,7 +7420,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2016",
-      "id": "79a99b4d-4e52-41c3-935c-c68976db6fa9"
+      "id": "79a99b4d-4e52-41c3-935c-c68976db6fa9",
+      "newsletter": true
     },
     {
       "name": "Katana Zero",
@@ -6948,7 +7435,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "07940184-2d08-46b2-ae4e-613f0f4cc488"
+      "id": "07940184-2d08-46b2-ae4e-613f0f4cc488",
+      "newsletter": true
     },
     {
       "name": "Mega Man 11",
@@ -6961,7 +7449,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "4bfda87b-df1f-4a96-963f-d4260444038d"
+      "id": "4bfda87b-df1f-4a96-963f-d4260444038d",
+      "newsletter": true
     },
     {
       "name": "Rivals of Aether",
@@ -6974,7 +7463,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "bc1d3c90-ac97-4136-9282-02764e454a8b"
+      "id": "bc1d3c90-ac97-4136-9282-02764e454a8b",
+      "newsletter": true
     },
     {
       "name": "Untitled Goose Game",
@@ -6987,7 +7477,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "417aab36-7f26-4cbf-85d6-d48f2e3f1c5a"
+      "id": "417aab36-7f26-4cbf-85d6-d48f2e3f1c5a",
+      "newsletter": true
     },
     {
       "name": "Kirby Star Allies",
@@ -7000,7 +7491,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "4dc464c0-bbfa-4994-921b-e1a2121b8aa8"
+      "id": "4dc464c0-bbfa-4994-921b-e1a2121b8aa8",
+      "newsletter": true
     },
     {
       "name": "Snipperclips",
@@ -7013,7 +7505,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "2bbe482c-6af4-433b-a9d4-9451a28fe04e"
+      "id": "2bbe482c-6af4-433b-a9d4-9451a28fe04e",
+      "newsletter": true
     },
     {
       "name": "SteamWorld Dig 2",
@@ -7026,7 +7519,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "d8bf2b4a-725c-4840-9632-0458d1888d8b"
+      "id": "d8bf2b4a-725c-4840-9632-0458d1888d8b",
+      "newsletter": true
     },
     {
       "name": "SteamWorld Dig",
@@ -7039,7 +7533,8 @@
       "platform": "3DS",
       "year": "older",
       "release": "2013",
-      "id": "224e116b-c9db-4b82-bf6c-ac1032f4e24f"
+      "id": "224e116b-c9db-4b82-bf6c-ac1032f4e24f",
+      "newsletter": true
     },
     {
       "name": "Dragon Quest XI S: Echoes of an Elusive Age",
@@ -7054,7 +7549,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "b32850d9-ba40-4727-8b29-b0373bc3c65f"
+      "id": "b32850d9-ba40-4727-8b29-b0373bc3c65f",
+      "newsletter": true
     },
     {
       "name": "Dragon Quest IX: Sentinels of the Starry Sky",
@@ -7067,7 +7563,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2009",
-      "id": "9a65fd62-06ef-4a05-836d-21f360484092"
+      "id": "9a65fd62-06ef-4a05-836d-21f360484092",
+      "newsletter": true
     },
     {
       "name": "Cuphead",
@@ -7081,7 +7578,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "3b7151dd-63b4-4cd9-91e2-019ee79b1c83"
+      "id": "3b7151dd-63b4-4cd9-91e2-019ee79b1c83",
+      "newsletter": true
     },
     {
       "name": "Worms W.M.D",
@@ -7094,7 +7592,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2016",
-      "id": "70a4126e-b471-4ce1-a2c1-9ac1dbaa44d5"
+      "id": "70a4126e-b471-4ce1-a2c1-9ac1dbaa44d5",
+      "newsletter": true
     },
     {
       "name": "Oxenfree",
@@ -7108,7 +7607,8 @@
       "story": true,
       "year": "older",
       "release": "2016",
-      "id": "aae7f77e-4ee9-4394-92ad-d010915a68e1"
+      "id": "aae7f77e-4ee9-4394-92ad-d010915a68e1",
+      "newsletter": true
     },
     {
       "name": "Firewatch",
@@ -7123,7 +7623,8 @@
       "story": true,
       "year": "older",
       "release": "2016",
-      "id": "daddd848-e777-4bf6-83f7-09d3e1975ed5"
+      "id": "daddd848-e777-4bf6-83f7-09d3e1975ed5",
+      "newsletter": true
     },
     {
       "name": "Valkyria Chronicles 4",
@@ -7136,7 +7637,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "58eea160-a249-4048-a1d1-a1e514323c76"
+      "id": "58eea160-a249-4048-a1d1-a1e514323c76",
+      "newsletter": true
     },
     {
       "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
@@ -7149,7 +7651,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2022",
-      "id": "68e1e96b-f542-4e27-9abd-6d6f7e5121ee"
+      "id": "68e1e96b-f542-4e27-9abd-6d6f7e5121ee",
+      "newsletter": true
     },
     {
       "name": "Minit",
@@ -7162,7 +7665,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "221dce15-59d4-4834-b8fb-14102d483e82"
+      "id": "221dce15-59d4-4834-b8fb-14102d483e82",
+      "newsletter": true
     },
     {
       "name": "Fortnite",
@@ -7175,7 +7679,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "311d7fec-447e-484f-a229-306efb4f3aa5"
+      "id": "311d7fec-447e-484f-a229-306efb4f3aa5",
+      "newsletter": true
     },
     {
       "name": "Bioshock",
@@ -7188,7 +7693,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2007",
-      "id": "12abe525-7451-4866-98db-8c23a0ac2e81"
+      "id": "12abe525-7451-4866-98db-8c23a0ac2e81",
+      "newsletter": true
     },
     {
       "name": "Nickelodeon All Star Brawl",
@@ -7201,7 +7707,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2021",
-      "id": "3a90a7b2-c7f6-4e87-bd90-ca2d236291cb"
+      "id": "3a90a7b2-c7f6-4e87-bd90-ca2d236291cb",
+      "newsletter": true
     },
     {
       "name": "Don't Starve",
@@ -7214,7 +7721,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2013",
-      "id": "bed97527-8226-434b-9d8c-a4c660f71e0c"
+      "id": "bed97527-8226-434b-9d8c-a4c660f71e0c",
+      "newsletter": true
     },
     {
       "name": "Rayman Legends",
@@ -7227,7 +7735,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2013",
-      "id": "7694f082-fa94-4573-bb52-54bf829c6696"
+      "id": "7694f082-fa94-4573-bb52-54bf829c6696",
+      "newsletter": true
     },
     {
       "name": "Crash Bandicoot N-Sane Trilogy",
@@ -7240,7 +7749,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "id": "ab643955-da94-49b5-9d7c-b3409597be4b"
+      "id": "ab643955-da94-49b5-9d7c-b3409597be4b",
+      "newsletter": true
     },
     {
       "name": "Bastion",
@@ -7253,7 +7763,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2011",
-      "id": "84dc4a2d-8777-4981-bec5-ade524d25b0c"
+      "id": "84dc4a2d-8777-4981-bec5-ade524d25b0c",
+      "newsletter": true
     },
     {
       "name": "Desert Child",
@@ -7266,7 +7777,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "id": "3ec3a48c-a977-49ed-8b29-90c3cbf0bc38"
+      "id": "3ec3a48c-a977-49ed-8b29-90c3cbf0bc38",
+      "newsletter": true
     },
     {
       "name": "Heave Ho",
@@ -7279,7 +7791,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "id": "7c6400f5-3c08-4e91-92a6-2e5f64cb35fb"
+      "id": "7c6400f5-3c08-4e91-92a6-2e5f64cb35fb",
+      "newsletter": true
     },
     {
       "name": "Superliminal",
@@ -7292,7 +7805,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2020",
-      "id": "5063ee9d-cee4-49e3-b46e-b7a9299e882c"
+      "id": "5063ee9d-cee4-49e3-b46e-b7a9299e882c",
+      "newsletter": true
     },
     {
       "name": "Scott Pilgrim vs The World: The Game",
@@ -7305,7 +7819,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2010",
-      "id": "e3d82e8d-a038-48f0-932a-25475a250a0b"
+      "id": "e3d82e8d-a038-48f0-932a-25475a250a0b",
+      "newsletter": true
     },
     {
       "name": "Marvel's Spider-Man",
@@ -7318,7 +7833,8 @@
       "platform": "PlayStation 4",
       "year": "older",
       "release": "2018",
-      "id": "6a50a255-1437-47d8-946d-ffb643e380d6"
+      "id": "6a50a255-1437-47d8-946d-ffb643e380d6",
+      "newsletter": true
     },
     {
       "name": "EyeToy: Play",
@@ -7331,7 +7847,36 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2003",
-      "id": "56f16e5a-7ab3-4f9f-bae2-c5531b38d80b"
+      "id": "56f16e5a-7ab3-4f9f-bae2-c5531b38d80b",
+      "newsletter": true
+    },
+    {
+      "name": "AirBlade",
+      "vibes": "5",
+      "gameplay": "3",
+      "review": [
+        "I randomly remembered this old Tony Hawk's rip off that I played at some point when I was younger. I was so impressed that you could skateboard with a hoverboard! I thought it was a revolutionary idea. Looking back, it's literally just a normal skateboarding game."
+      ],
+      "image": "airblade.jpg",
+      "platform": "PlayStation 2",
+      "year": "older",
+      "release": "2001",
+      "id": "895972bc-fdb4-44b6-b66f-2fcd964cb80d",
+      "newsletter": false
+    },
+    {
+      "name": "Desktop Destroyer",
+      "vibes": "9",
+      "gameplay": "1",
+      "review": [
+        "I saw an image of the hammer from this game and I was launched back into the past, kinda like when you smell something from your childhood and you have this moment where you are suddenly transported back. I used to love destroying my desktop with termites, flamethrowers and chainsaws and was endlessly entertained by it. It's a real blast from the past."
+      ],
+      "image": "desktop-destroyer.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "1999",
+      "id": "de4d5d06-2928-4bcb-9143-25c11d7447f1",
+      "newsletter": false
     }
   ]
 }

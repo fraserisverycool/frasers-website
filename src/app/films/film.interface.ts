@@ -6,4 +6,5 @@ export interface Film {
   release: number;
   rating: number[];
   id: string;
+  newsletter: boolean;
 }

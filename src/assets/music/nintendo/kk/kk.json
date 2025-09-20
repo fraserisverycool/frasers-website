@@ -5,749 +5,856 @@
       "title": "Chillwaves",
       "tier": "A",
       "description": "Very much what it says on the tin. This kind of music does land well with me, although I admit there's not too much special about the track. It's just great to listen to",
-      "id": "ee4afa6c-0fa2-4d1b-9e67-3be141c7b028"
+      "id": "ee4afa6c-0fa2-4d1b-9e67-3be141c7b028",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Lament.webp",
       "title": "K.K. Lament",
       "tier": "S",
       "description": "Have to admit I slept on this song until making this list. It's like the Japanese version of K.K. Moody",
-      "id": "e8532c2b-5ba4-4997-a8d9-52b92d56677e"
+      "id": "e8532c2b-5ba4-4997-a8d9-52b92d56677e",
+      "newsletter": true
     },
     {
       "filename": "K.K._Bashment_NH_Texture.webp",
       "title": "K.K. Bashment",
       "tier": "A",
       "description": "I had to look it up, apparently Bashment music is from Jamaica and evolved from reggae and added lots of loops and electronic instruments. I'm not hearing it in the track but I still kinda vibe with it",
-      "id": "7c00625c-6da7-42a0-8eda-7f0c4f1a6db9"
+      "id": "7c00625c-6da7-42a0-8eda-7f0c4f1a6db9",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Love_Song.webp",
       "title": "K.K. Love Song",
       "tier": "C",
       "description": "This isn't the R&B song we deserve. A great genre but this just sounds bad. What are those strings in the B section",
-      "id": "c5c11a7f-8ac5-4ef7-b048-5cf8a935bc43"
+      "id": "c5c11a7f-8ac5-4ef7-b048-5cf8a935bc43",
+      "newsletter": true
     },
     {
       "filename": "K.K._Break_NH_Texture.webp",
       "title": "K.K. Break",
       "tier": "S",
       "description": "One of the new batch of tracks, and a huge banger. So glad we have more hip hop next to K.K. Cruisin' now. This is more like 70s hiphop which was still funky, like from that TV show The Get Down. The performance version goes HARD!",
-      "id": "f051bb4d-23f7-49f7-8893-671b77bbd1a9"
+      "id": "f051bb4d-23f7-49f7-8893-671b77bbd1a9",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Lullaby.webp",
       "title": "K.K. Lullaby",
       "tier": "C",
       "description": "It's very inoffensive",
-      "id": "d26d3a47-2e4a-4b15-a1c1-0339b3dd9571"
+      "id": "d26d3a47-2e4a-4b15-a1c1-0339b3dd9571",
+      "newsletter": true
     },
     {
       "filename": "K.K._Chorinho_NH_Texture.webp",
       "title": "K.K. Chorinho",
       "tier": "A",
       "description": "It's pretty good! This is more music from Brazil and I enjoy its rhythm",
-      "id": "185aba34-7e59-4d6d-9f2b-829e2c6255f7"
+      "id": "185aba34-7e59-4d6d-9f2b-829e2c6255f7",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Mambo.webp",
       "title": "K.K. Mambo",
       "tier": "B",
       "description": "Mambo is like easy salsa before salsa dancing came along. I kinda like this track but it's not as good as K.K. Salsa",
-      "id": "4cac1718-06a1-496d-9232-ee12482bbb0c"
+      "id": "4cac1718-06a1-496d-9232-ee12482bbb0c",
+      "newsletter": true
     },
     {
       "filename": "K.K._Dub_NH_Texture.webp",
       "title": "K.K. Dub",
       "tier": "A",
       "description": "From the new batch of songs, I feel like this doesn't represent Dub music all that much because it's so whimsical and fairylike. It's still quite nice and it does have that great echo-ey percussion and sparse instrumentation",
-      "id": "e5e8ff6d-d627-4960-97c1-a4e1bf0c46c9"
+      "id": "e5e8ff6d-d627-4960-97c1-a4e1bf0c46c9",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Marathon.webp",
       "title": "K.K. Marathon",
       "tier": "A",
       "description": "This one is Indonesian music and it's actually great. When it kicks in, it's great. Reminds me of the Lost Kingdom from Odyssey",
-      "id": "be3ebce5-2ed1-430a-a7a2-d38c8f8b5865"
+      "id": "be3ebce5-2ed1-430a-a7a2-d38c8f8b5865",
+      "newsletter": true
     },
     {
       "filename": "K.K._Fugue_NH_Texture.webp",
       "title": "K.K. Fugue",
       "tier": "C",
       "description": "Harpsichord music from the baroque era. This music is so old and not my thing. Give me K.K. Sonata over this any day",
-      "id": "17fdfc6d-02ed-4d25-812b-26cc411f4a3c"
+      "id": "17fdfc6d-02ed-4d25-812b-26cc411f4a3c",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._March.webp",
       "title": "K.K. March",
       "tier": "C",
       "description": "It's a boring song and this kind of music is boring",
-      "id": "b16088c5-130f-49c9-9d01-159b237ea3d7"
+      "id": "b16088c5-130f-49c9-9d01-159b237ea3d7",
+      "newsletter": true
     },
     {
       "filename": "K.K._Hop_NH_Texture.webp",
       "title": "K.K. Hop",
       "tier": "A",
       "description": "Whereas K.K. Cruisin' was more west coast, this one is more east coast Hip Hop. It's great. Reminds me of Funky Kong",
-      "id": "dd085381-3956-4236-8bf7-fefbfb565a5e"
+      "id": "dd085381-3956-4236-8bf7-fefbfb565a5e",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Mariachi.webp",
       "title": "K.K. Mariachi",
       "tier": "B",
       "description": "There are many kinds of music in Mexico and this is the only track representing any of it. I guess K.K. only visited Jalisco. Just like real mariachi I gotta say this is kinda plain",
-      "id": "898f0344-d22a-43b2-a451-3a64a55192b4"
+      "id": "898f0344-d22a-43b2-a451-3a64a55192b4",
+      "newsletter": true
     },
     {
       "filename": "K.K._Khoomei_NH_Texture.webp",
       "title": "K.K. Khoomei",
       "tier": "A",
       "description": "This is the throat-singing track! Music from Mongolia. I actually think K.K. smashed it with this one. He went and learned Tuvan throat-singing just for one track, I mean that is dedication",
-      "id": "7a1befab-7c90-49c1-b0fa-4c92d412cd1b"
+      "id": "7a1befab-7c90-49c1-b0fa-4c92d412cd1b",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Metal.webp",
       "title": "K.K. Metal",
       "tier": "C",
       "description": "I don't really like metal music so I struggle to connect with this one. Since K.K.'s mastering tends to result in very tinny-sounding music, metal music isn't truly brought across as it should be",
-      "id": "7223cec1-b115-4791-88c9-39c9ba4d2d4a"
+      "id": "7223cec1-b115-4791-88c9-39c9ba4d2d4a",
+      "newsletter": true
     },
     {
       "filename": "K.K._Lovers_NH_Texture.webp",
       "title": "K.K. Lovers",
       "tier": "A",
       "description": "Super chill reggae-style R&B vibe with that Steven Universe flair. It's pretty good",
-      "id": "d591e402-3f8e-4505-a869-9a731c5b8c23"
+      "id": "d591e402-3f8e-4505-a869-9a731c5b8c23",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Milonga.webp",
       "title": "K.K. Milonga",
       "tier": "S",
       "description": "This is one my favourites although I have to admit it has a lot to do with the village 'Diva' posing like one of your french girls on the cover. The milonga is the super intense Argentine Tango music that Astor Piazzolla made. It's so good. Fiery, passionate, intense. Hell yeah",
-      "id": "b1784c63-1be7-48ff-8f31-a0956125bad7"
+      "id": "b1784c63-1be7-48ff-8f31-a0956125bad7",
+      "newsletter": true
     },
     {
       "filename": "K.K._Polka_NH_Texture.webp",
       "title": "K.K. Polka",
       "tier": "C",
       "description": "The flipside to K.K. Bazaar but more boring and normie. I guess it's cool that eastern Europe is well represented",
-      "id": "3a3e5aeb-928b-4fd7-a88d-cc81dc34c534"
+      "id": "3a3e5aeb-928b-4fd7-a88d-cc81dc34c534",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Moody.webp",
       "title": "K.K. Moody",
       "tier": "S",
       "description": "Oh hell yes, this is that latin bolero music that I loved listening to in Mexico. It's so outrageously romantic that I just melt listening to it. The perfect music to yawn and stretch your arm, and then place it on your lover's shoulder. That rolling piano melody is so seductive. I'm obsessed",
-      "id": "2600b512-333f-493c-92d1-c24fcf083b54"
+      "id": "2600b512-333f-493c-92d1-c24fcf083b54",
+      "newsletter": true
     },
     {
       "filename": "K.K._Robot_Synth_NH_Texture.webp",
       "title": "K.K. Robot Synth",
       "tier": "B",
       "description": "I guess this K.K. going through his Hatsune Miku phase. I personally can't stand this stuff normally but I do enjoy that cheesy part at the end of the loop",
-      "id": "436168e2-325c-4773-8dc0-5b437a10c217"
+      "id": "436168e2-325c-4773-8dc0-5b437a10c217",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Oasis.webp",
       "title": "K.K. Oasis",
       "tier": "A",
       "description": "The only Indian representative might be off-putting at first but it gets super intense and climaxes into this insane elephant noise. It's a ride",
-      "id": "e14f3275-92c9-4763-b9a4-53a79e37df2e"
+      "id": "e14f3275-92c9-4763-b9a4-53a79e37df2e",
+      "newsletter": true
     },
     {
       "filename": "K.K._Slack-Key_NH_Texture.webp",
       "title": "K.K. Slack-Key",
       "tier": "A",
       "description": "More Hawaiian music, this time with just a guitar. It's very peaceful and quite nice",
-      "id": "a0dfb99e-4c86-41fd-8ca2-961507ea3aaa"
+      "id": "a0dfb99e-4c86-41fd-8ca2-961507ea3aaa",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Parade.webp",
       "title": "K.K. Parade",
       "tier": "D",
       "description": "I kinda hate this track. It's meant to be clown music or something and it just makes me feel uneasy",
-      "id": "dced4042-4061-411c-a4a8-ebfd054528e5"
+      "id": "dced4042-4061-411c-a4a8-ebfd054528e5",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Agent_K.K..webp",
       "title": "Agent K.K.",
       "tier": "A",
       "description": "Great if only for the album art. I guess this is meant to be for a spy film",
-      "id": "02eff7da-6e2d-48ed-b551-075584b97a96"
+      "id": "02eff7da-6e2d-48ed-b551-075584b97a96",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Ragtime.webp",
       "title": "K.K. Ragtime",
       "tier": "B",
       "description": "K.K. is playing the role of Scott Joplin and giving us that speakeasy vibe. It's good but samey and too short",
-      "id": "1413eec1-024a-4ae0-948e-d59e5ee71238"
+      "id": "1413eec1-024a-4ae0-948e-d59e5ee71238",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Aloha_K.K..webp",
       "title": "Aloha K.K.",
       "tier": "B",
       "description": "Hula music from Hawaii. It's very forgettable and inoffensive",
-      "id": "d7f68393-a746-45e6-8458-91bf0a96d7e1"
+      "id": "d7f68393-a746-45e6-8458-91bf0a96d7e1",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Rally.webp",
       "title": "K.K. Rally",
       "tier": "D",
       "description": "Truly one of the worst Japanese folk music tracks here. What is that voice sound? It sounds like a diseased frog",
-      "id": "04b44232-2e0d-4e9a-88fb-e5e828ffaf97"
+      "id": "04b44232-2e0d-4e9a-88fb-e5e828ffaf97",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Animal_City.webp",
       "title": "Animal City",
       "tier": "A",
       "description": "This is just a remix of Let's Go To The City's city theme. Even the best artists sometimes do covers and that's fine. I happen to love this song it's a win in my books",
-      "id": "71c05048-0b14-4305-8dd7-59b31931edf0"
+      "id": "71c05048-0b14-4305-8dd7-59b31931edf0",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Reggae.webp",
       "title": "K.K. Reggae",
       "tier": "C",
       "description": "It does a good job with the reggae genre but I think it sounds kinda goofy and dumb",
-      "id": "dbcad887-43f4-47d5-ba4e-6ede84514c17"
+      "id": "dbcad887-43f4-47d5-ba4e-6ede84514c17",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Bubblegum_K.K..webp",
       "title": "Bubblegum K.K.",
       "tier": "B",
       "description": "This kind of music is making a comeback and this particular song definitely went viral. Exposure from the smash remix really ingrained it into the brains of any smash players forever. I'm not against it but I've simply heard it too much",
-      "id": "27dc25ab-07db-4147-93c9-566003d7d724"
+      "id": "27dc25ab-07db-4147-93c9-566003d7d724",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Rock.webp",
       "title": "K.K. Rock",
       "tier": "C",
       "description": "There's not too much in the way of rock representation, and this stadium rock sounds and album art is giving AC/DC which really isn't my vibe",
-      "id": "32cdc289-ee8f-4230-a98d-d0b847088e39"
+      "id": "32cdc289-ee8f-4230-a98d-d0b847088e39",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Cafe_K.K..webp",
       "title": "Café K.K.",
       "tier": "A",
       "description": "French chanson, I just wish it were featuring Edith Piaf or something. It's kinda romantic which I like, and the B and C sections are good. It's like music from the film Amélie",
-      "id": "1f80763b-c940-4b7b-bd63-2d94e2efcac5"
+      "id": "1f80763b-c940-4b7b-bd63-2d94e2efcac5",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Rockabilly.webp",
       "title": "K.K. Rockabilly",
       "tier": "B",
       "description": "Elvis Presley called and is asking for royalty money! The B section of this track is great",
-      "id": "dbddecb3-ff23-423f-9d10-a8e18ea89076"
+      "id": "dbddecb3-ff23-423f-9d10-a8e18ea89076",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Comrade_K.K..webp",
       "title": "Comrade K.K.",
       "tier": "B",
       "description": "I don't like this song that much but Nookipedia taught me that there were these bards who travelled from the Soviet Union around the world and sang this kind of music in the 60s, for example in Japan. K.K. did a song based on that because he is so world-wise",
-      "id": "5facb62a-737e-4d15-b81a-fe73d2815481"
+      "id": "5facb62a-737e-4d15-b81a-fe73d2815481",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Safari.webp",
       "title": "K.K. Safari",
       "tier": "C",
       "description": "African music from Kenya or Ethiopia or something. Cool that this part of the world is represented, but they're using that horrible choir sound again",
-      "id": "6163c8d7-8153-46db-b2ad-705e2186913c"
+      "id": "6163c8d7-8153-46db-b2ad-705e2186913c",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-DJ_K.K..webp",
       "title": "DJ K.K.",
       "tier": "B",
       "description": "This is the techno track that I guess we won't be putting on at Berghain. It's kinda cheesy like some eurobeat so I appreciate it for that. The performance version is significantly better",
-      "id": "00a2c6f3-2a64-47a4-8251-cef23cebf8a5"
+      "id": "00a2c6f3-2a64-47a4-8251-cef23cebf8a5",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Salsa.webp",
       "title": "K.K. Salsa",
       "tier": "S",
       "description": "Fantastic salsa track, would dance to this for sure. Love the piano, the percussion, the melody and even the weird choir thing",
-      "id": "ce867aa2-202b-4fad-a5cb-bc3e0ac42ced"
+      "id": "ce867aa2-202b-4fad-a5cb-bc3e0ac42ced",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Drivin.webp",
       "title": "Drivin'",
       "tier": "S",
       "description": "This album art is totally a reference to Blue Note Records who signed a ton of artists who played smooth jazz music. This track is giving city pop vibes which I am here for. Love the driving through the city at night vibes",
-      "id": "ab5aae80-eb82-40fb-bc44-7078dfd3979f"
+      "id": "ab5aae80-eb82-40fb-bc44-7078dfd3979f",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Samba.webp",
       "title": "K.K. Samba",
       "tier": "B",
       "description": "Loud and intrusive percussion with a trambone freestyling over it is a lot of fun but there isn't actually all that much going on here. Shout-outs to Brazil though",
-      "id": "1e0fc1a7-352c-4cf7-ade4-15db7d1cdc3c"
+      "id": "1e0fc1a7-352c-4cf7-ade4-15db7d1cdc3c",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Farewell.webp",
       "title": "Farewell",
       "tier": "A",
       "description": "A beautiful little track, minimalist, with these lovely rising scales. At some point some bass comes in and it's very warm and nice. It's giving Steven Universe",
-      "id": "4ba1619d-30cf-4bd6-8ad0-c4ffde4d90c5"
+      "id": "4ba1619d-30cf-4bd6-8ad0-c4ffde4d90c5",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Ska.webp",
       "title": "K.K. Ska",
       "tier": "B",
       "description": "I enjoy this track for its Mario Kart vibes but it's a really short loop",
-      "id": "4863015c-9427-4c56-92f3-c7a6845f5d93"
+      "id": "4863015c-9427-4c56-92f3-c7a6845f5d93",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Forest_Life.webp",
       "title": "Forest Life",
       "tier": "S",
       "description": "A great cover of the second section of the original Animal Crossing's title theme, and the song really evokes that game. Great track",
-      "id": "732261fa-26fb-4a86-9dbe-ad93f6a31c70"
+      "id": "732261fa-26fb-4a86-9dbe-ad93f6a31c70",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Sonata.webp",
       "title": "K.K. Sonata",
       "tier": "A",
       "description": "This is super Beethoven, and definitely the best of the solo piano tracks. Romantic era composition and a lot of fun",
-      "id": "fd07bd44-7317-4fad-9b6c-70b16136f771"
+      "id": "fd07bd44-7317-4fad-9b6c-70b16136f771",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Go_K.K._Rider.webp",
       "title": "Go K.K. Rider",
       "tier": "A",
       "description": "Another track made famous by smash, you can't help but like it. According to Nookipedia this is based off of a popular superhero TV show in Japan",
-      "id": "2a21034f-0ea0-4cd9-bcb6-9261d7efec9a"
+      "id": "2a21034f-0ea0-4cd9-bcb6-9261d7efec9a",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Song.webp",
       "title": "K.K. Song",
       "tier": "D",
       "description": "This is just Totaka's song with a melody and a cowbell. Nothing more than an easter egg",
-      "id": "1c30b254-8542-454b-ada4-e77309a6ab0b"
+      "id": "1c30b254-8542-454b-ada4-e77309a6ab0b",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Hypno_K.K..webp",
       "title": "Hypno K.K.",
       "tier": "B",
       "description": "Like it's better than Pondering but what was he thinking really. Is it music for taking drugs?",
-      "id": "ae7b4193-2025-4972-9a1e-b6d48aab1f41"
+      "id": "ae7b4193-2025-4972-9a1e-b6d48aab1f41",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Soul.webp",
       "title": "K.K. Soul",
       "tier": "S",
       "description": "This one is an actual maximum vibe. You know I have this one in my house in the game, because it's just that good. Catch me dancing to this on my own in my house",
-      "id": "4bb20255-0254-42b2-9177-2b2e85918ccc"
+      "id": "4bb20255-0254-42b2-9177-2b2e85918ccc",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-I_Love_You.webp",
       "title": "I Love You",
       "tier": "D",
       "description": "A song played entirely on this instrument called a 'calliope'. It's one of those horrible pipe machines that you hear in Mexico City. This song really has nothing going for it",
-      "id": "f4938e80-f2dc-4817-8085-d7d774a7553e"
+      "id": "f4938e80-f2dc-4817-8085-d7d774a7553e",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Steppe.webp",
       "title": "K.K. Steppe",
       "tier": "A",
       "description": "This one is a lot of fun because of the tempo change. The villagers in Animal Crossing are all really good at keeping up with it. I'm impressed that K.K. learned the Russian dance for this album cover",
-      "id": "06096c5e-d3e4-4d52-9ce0-ced93d796132"
+      "id": "06096c5e-d3e4-4d52-9ce0-ced93d796132",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Imperial_K.K..webp",
       "title": "Imperial K.K.",
       "tier": "B",
       "description": "This one is actually from China, and not one of the like 10 Japanese tracks. It's alright",
-      "id": "23aa4acb-d8f7-47f7-b5cc-81d409fb38fc"
+      "id": "23aa4acb-d8f7-47f7-b5cc-81d409fb38fc",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Stroll.webp",
       "title": "K.K. Stroll",
       "tier": "C",
       "description": "Another original with no real influence. It's simple and honestly it's boring",
-      "id": "7c380ef1-5b3c-49df-9c7e-924c0a0ba64b"
+      "id": "7c380ef1-5b3c-49df-9c7e-924c0a0ba64b",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Adventure.webp",
       "title": "K.K. Adventure",
       "tier": "C",
       "description": "K.K. takes a stab at film music. This sounds like Star Wars. But it's far too short, so much so that I'm already bored of it and I've only heard it like 4 times",
-      "id": "257a320d-265e-4758-8e9a-c345d588a15c"
+      "id": "257a320d-265e-4758-8e9a-c345d588a15c",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Swing.webp",
       "title": "K.K. Swing",
       "tier": "A",
       "description": "I love this sleepy crooner with that slow walking bassline. It's not going in S tier though because of the weird bit at the end of the loop where it sounds creepy and ruins the vibe",
-      "id": "9a70f037-8092-48eb-837d-4292def1a090"
+      "id": "9a70f037-8092-48eb-837d-4292def1a090",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Aria.webp",
       "title": "K.K. Aria",
       "tier": "C",
       "description": "This is meant to be opera music I think, but I think it's kinda boring",
-      "id": "808a0c77-d10a-4713-a396-098ea7ebf2f8"
+      "id": "808a0c77-d10a-4713-a396-098ea7ebf2f8",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Synth.webp",
       "title": "K.K. Synth",
       "tier": "D",
       "description": "What on earth is going on here. The album art suggests Kraftwerk but the music sounds like a malfunctioning Dial-up internet connection",
-      "id": "9e3e7425-250d-4c73-96a3-fc5c5768b525"
+      "id": "9e3e7425-250d-4c73-96a3-fc5c5768b525",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Ballad.webp",
       "title": "K.K. Ballad",
       "tier": "D",
       "description": "I hate it",
-      "id": "24ababd2-7f37-4c24-8826-316917499db2"
+      "id": "24ababd2-7f37-4c24-8826-316917499db2",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Tango.webp",
       "title": "K.K. Tango",
       "tier": "A",
       "description": "This has nothing on K.K. Milonga but it's still a banger. Tango music is so good",
-      "id": "22220e7c-8a6a-4179-ae59-fc5dc4cbc1d5"
+      "id": "22220e7c-8a6a-4179-ae59-fc5dc4cbc1d5",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Bazaar.webp",
       "title": "K.K. Bazaar",
       "tier": "A",
       "description": "Hungarian dance music! At first I didn't like it but it's unusually fast for a K.K. song and actually kinda intense and cool",
-      "id": "de1c938a-f69f-4ecd-98f4-99451b938d6a"
+      "id": "de1c938a-f69f-4ecd-98f4-99451b938d6a",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Technopop.webp",
       "title": "K.K. Technopop",
       "tier": "C",
       "description": "What is going on with this? This weird high synth into this dispersed soundscape of nonsense, and that with a black eyed peas album cover? This feels like it's AI generated",
-      "id": "f1a0359b-ad77-4d2e-a26b-78f8c80ed1af"
+      "id": "f1a0359b-ad77-4d2e-a26b-78f8c80ed1af",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Birthday.webp",
       "title": "K.K. Birthday",
       "tier": "C",
       "description": "It's fine I guess. It's what people sing to each other on their birthdays in Animal Crossing, nothing more special than that",
-      "id": "bf09bbac-1de6-4525-9fd5-edf7008b9d01"
+      "id": "bf09bbac-1de6-4525-9fd5-edf7008b9d01",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Waltz.webp",
       "title": "K.K. Waltz",
       "tier": "S",
       "description": "This one is so good because the B section has this really fast section which all the villagers can sing perfectly. It's a great Viennese Waltz on its own too. It's so dramatic",
-      "id": "78a2baad-e247-4226-ac5f-eccee75f462b"
+      "id": "78a2baad-e247-4226-ac5f-eccee75f462b",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Blues.webp",
       "title": "K.K. Blues",
       "tier": "B",
       "description": "Great use of whistling in this track. 12 bar classic blues",
-      "id": "92679fe0-d58b-4ad6-b165-4c5f784ff9da"
+      "id": "92679fe0-d58b-4ad6-b165-4c5f784ff9da",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Western.webp",
       "title": "K.K. Western",
       "tier": "A",
       "description": "A classic. It's great. Captures the western perfectly",
-      "id": "f8f6ef34-93c5-43d1-a356-04f250eaabf0"
+      "id": "f8f6ef34-93c5-43d1-a356-04f250eaabf0",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Bossa.webp",
       "title": "K.K. Bossa",
       "tier": "S",
       "description": "I am a lover and connoisseur of bossa nova music so this is of course an instant S tier. It's perfect. Sit back and listen to the waves and enjoy the immaculate vibes",
-      "id": "156e635d-06f5-45e6-9f23-aac119a65ecd"
+      "id": "156e635d-06f5-45e6-9f23-aac119a65ecd",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-King_K.K..webp",
       "title": "King K.K.",
       "tier": "C",
       "description": "This particular Japanese folk track is better than most. It reminds me of the music from Ecruteak City in Pokemon",
-      "id": "906a8322-467e-47b1-8c2c-c0199ebfb3f4"
+      "id": "906a8322-467e-47b1-8c2c-c0199ebfb3f4",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Calypso.webp",
       "title": "K.K. Calypso",
       "tier": "B",
       "description": "Steel Drum music from the Caribbean. It has great potential but is maybe a bit too sparse",
-      "id": "c7a2e2fd-be95-4f29-81b8-609f750bcaca"
+      "id": "c7a2e2fd-be95-4f29-81b8-609f750bcaca",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Lucky_K.K..webp",
       "title": "Lucky K.K.",
       "tier": "B",
       "description": "Controversial track because the music is irish but K.K. chose to wear a scottish kilt for the photoshoot. I guess he's trying to represent all the celtic nations in one fell swoop but I think it's a bit culturally insensitive",
-      "id": "4538172d-bc95-490d-934a-d181d7bf0fa3"
+      "id": "4538172d-bc95-490d-934a-d181d7bf0fa3",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Casbah.webp",
       "title": "K.K. Casbah",
       "tier": "C",
       "description": "Turkish music. I honestly think it sounds pretty bad",
-      "id": "cfee51b7-ae6d-4254-80e7-3937f9587709"
+      "id": "cfee51b7-ae6d-4254-80e7-3937f9587709",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Marine_Song_2001.webp",
       "title": "Marine Song 2001",
       "tier": "B",
       "description": "Thank god they went for Kapp'n's voice for this one. Nice for K.K. to feature other artists for once. Sea shanties are more Kapp'n's vibe after all. I appreciate that it's nice and long",
-      "id": "38bc3ebe-00aa-44ee-910d-766c41d90186"
+      "id": "38bc3ebe-00aa-44ee-910d-766c41d90186",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Chorale.webp",
       "title": "K.K. Chorale",
       "tier": "C",
       "description": "I guess this is meant to be the wedding march of Animal Crossing. It's alright I guess",
-      "id": "2e9f9b02-8bdc-4a33-9278-3c96abdf84a3"
+      "id": "2e9f9b02-8bdc-4a33-9278-3c96abdf84a3",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Mountain_Song.webp",
       "title": "Mountain Song",
       "tier": "B",
       "description": "This is meant to be Swiss music, Sound of Music style. It's bad but it has this great B section where the villagers go crazy if they sing it. I prefer K.K. Waltz though",
-      "id": "fd6f6ca1-3cca-481d-9116-c44f9c3f3b59"
+      "id": "fd6f6ca1-3cca-481d-9116-c44f9c3f3b59",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Condor.webp",
       "title": "K.K. Condor",
       "tier": "A",
       "description": "It's a classic because it plays on Smashville. It's also totally a reference to 'El Condor Pasa', this super famous folk tune from Peru",
-      "id": "f54270f5-1f83-48c3-9483-d3f1256b3c74"
+      "id": "f54270f5-1f83-48c3-9483-d3f1256b3c74",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Mr._K.K..webp",
       "title": "Mr. K.K.",
       "tier": "D",
       "description": "From what I can judge this is 'school music' and in Japan it's a thing to sing music like this with your schoolchildren. I think this music is a steaming pile of shit",
-      "id": "00dcf913-e5fb-41a1-a314-12e1518ff1ba"
+      "id": "00dcf913-e5fb-41a1-a314-12e1518ff1ba",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Country.webp",
       "title": "K.K. Country",
       "tier": "B",
       "description": "This is kinda generic but it's not too bad because it reminds me of Kalamari Desert",
-      "id": "2baeb5d8-8b0e-4271-81a7-2bcc9ef35af8"
+      "id": "2baeb5d8-8b0e-4271-81a7-2bcc9ef35af8",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-My_Place.webp",
       "title": "My Place",
       "tier": "A",
       "description": "An original from K.K. which doesn't really draw from a particular influence. I really like the chord progression",
-      "id": "16146d14-fff0-437a-9de5-7be571f726f8"
+      "id": "16146d14-fff0-437a-9de5-7be571f726f8",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Cruisin.webp",
       "title": "K.K. Cruisin'",
       "tier": "S",
       "description": "G-Funk from the west coast. Hell yeah, K.K. went there and not only that, he created a classic. This acid jazz harmony and phat beat is the recipe for the perfect gangster rap music. And can we please talk about this album cover, he looks like an absolute boss. The performance version is also very special. 5 perfect, simple chords in rotation",
-      "id": "bdd46793-3ccd-47c0-af96-e7af53f74d3f"
+      "id": "bdd46793-3ccd-47c0-af96-e7af53f74d3f",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Neapolitan.webp",
       "title": "Neapolitan",
       "tier": "A",
       "description": "Italian music! This one develops into a very lovely and satisfying conclusion. I quite like it",
-      "id": "d1a2714d-bd62-4d80-8890-784de354af65"
+      "id": "d1a2714d-bd62-4d80-8890-784de354af65",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._D&B.webp",
       "title": "K.K. D&B",
       "tier": "S",
       "description": "Huge track which expands your mind as you listen to it. The spacy chords, the fast moving tempo. It's evoking similar vibes to 'Drivin' and I love it",
-      "id": "ebbd9519-2335-42a5-ae5a-6edd214cac4f"
+      "id": "ebbd9519-2335-42a5-ae5a-6edd214cac4f",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Only_Me.webp",
       "title": "Only Me",
       "tier": "C",
       "description": "This song is giving Frank Sinatra. I don't really like it though",
-      "id": "f218c980-a140-45a5-9c41-fecabfe86f63"
+      "id": "f218c980-a140-45a5-9c41-fecabfe86f63",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Dirge.webp",
       "title": "K.K. Dirge",
       "tier": "D",
       "description": "Why would anyone make music like this unless for a horror film. Maybe for a funeral but even that would be weird. K.K. what were you thinking? And why those weird sounds?",
-      "id": "4754db8d-0314-4ca3-a981-ca75dc1d0463"
+      "id": "4754db8d-0314-4ca3-a981-ca75dc1d0463",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Pondering.webp",
       "title": "Pondering",
       "tier": "C",
       "description": "I appreciate Pondering for doing something new. You can't blame K.K. for only copying other styles but this original stuff if completely original. Sounds kinda bad though",
-      "id": "4952fef0-232a-4c27-8950-28fb3604c7ac"
+      "id": "4952fef0-232a-4c27-8950-28fb3604c7ac",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Disco.webp",
       "title": "K.K. Disco",
       "tier": "S",
       "description": "A classic. When the B section kicks in it's just pure bliss. There's a reason that disco music is the best and this K.K. song really showcases that. I do think K.K. House has the edge but this slaps so hard",
-      "id": "366cd77a-62ed-4416-b3da-412231372fba"
+      "id": "366cd77a-62ed-4416-b3da-412231372fba",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Rockin_K.K..webp",
       "title": "Rockin' K.K.",
       "tier": "B",
       "description": "Rock and roll music! This is what they invented the guitar for. This is like Johnny Be Good, it's kinda fun",
-      "id": "b433e343-dab1-4fcb-8eef-82d984cb39e4"
+      "id": "b433e343-dab1-4fcb-8eef-82d984cb39e4",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Dixie.webp",
       "title": "K.K. Dixie",
       "tier": "B",
       "description": "This is just 'oh went the saints come marching in' from the American South. It's alright",
-      "id": "4e49a240-4018-48ac-ac8c-886443d25858"
+      "id": "4e49a240-4018-48ac-ac8c-886443d25858",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Soulful_K.K..webp",
       "title": "Soulful K.K.",
       "tier": "A",
       "description": "K.K.'s take on 'Stand by me' in all its full gospel glory. It's really good, although the choir sound kinda sounds shit. But I love the finger clicks and the fact they kept it minimalist",
-      "id": "d4962601-6e92-47e9-b039-8bd60faca6d0"
+      "id": "d4962601-6e92-47e9-b039-8bd60faca6d0",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Etude.webp",
       "title": "K.K. Étude",
       "tier": "B",
       "description": "Some nice solo piano from baroque times I guess. I don't love it but I also don't hate it",
-      "id": "b983d361-9bde-470d-b38f-0227edc3f596"
+      "id": "b983d361-9bde-470d-b38f-0227edc3f596",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Space_K.K..webp",
       "title": "Space K.K.",
       "tier": "D",
       "description": "Some kind of minimalist, experimental music that I straight up don't vibe with",
-      "id": "ef20c83a-38f7-40a3-a725-fc20ea92320a"
+      "id": "ef20c83a-38f7-40a3-a725-fc20ea92320a",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Faire.webp",
       "title": "K.K. Faire",
       "tier": "D",
       "description": "What is up with all these shitty Japanese folk tracks? This one sounds particularly bad with that horrible voice again. This is just as bad as K.K. Rally",
-      "id": "b7800104-f958-497c-80a4-34b02c18008e"
+      "id": "b7800104-f958-497c-80a4-34b02c18008e",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Spring_Blossoms.webp",
       "title": "Spring Blossoms",
       "tier": "C",
       "description": "This is actually a remix of a deep cut from the Japan-only N64 Animal Crossing, specifically the cherry blossom festival. Therefore it's more Japanese folk music and again it's not that good",
-      "id": "b88e989a-2b6c-40d1-89f0-69774aa1e609"
+      "id": "b88e989a-2b6c-40d1-89f0-69774aa1e609",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Flamenco.webp",
       "title": "K.K. Flamenco",
       "tier": "A",
       "description": "Representing Spain we have this little flamenco number. Flamenco music is great and this is a banger. Also great art",
-      "id": "88183c95-3ce6-4c96-afa8-e38af717245b"
+      "id": "88183c95-3ce6-4c96-afa8-e38af717245b",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Stale_Cupcakes.webp",
       "title": "Stale Cupcakes",
       "tier": "B",
       "description": "I can just picture K.K. shedding a tear at the thought of forgotten snacks. The name of the song carries it though, it's actually pretty boring",
-      "id": "a0517587-0ddb-4ae8-9e5d-8b4b7f3bccca"
+      "id": "a0517587-0ddb-4ae8-9e5d-8b4b7f3bccca",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Folk.webp",
       "title": "K.K. Folk",
       "tier": "D",
       "description": "As an enjoyer of folk music from the british isles I was a little disappointed to hear that this one is based off of ancient Japanese folk. I think this songs kinda sounds like shit",
-      "id": "59e13e43-593c-450b-842b-e58df1cdb9a6"
+      "id": "59e13e43-593c-450b-842b-e58df1cdb9a6",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Steep_Hill.webp",
       "title": "Steep Hill",
       "tier": "A",
       "description": "This kind of music was popular in Japan before the 80s, and the album art looks like a famous guy from Yellow Magic Orchestra (a great band). Nookipedia seems to think this song has a lot of cultural significance. I like the B section",
-      "id": "4b2845a0-962f-4733-9a39-b3b201abe5f0"
+      "id": "4b2845a0-962f-4733-9a39-b3b201abe5f0",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Fusion.webp",
       "title": "K.K. Fusion",
       "tier": "S",
       "description": "Huge acid jazz track in the vein of Jamiroquai or Herbie Hancock. Great bassline and great synth stabs. Fantastic intro too",
-      "id": "20e4b511-091d-49dc-8d95-3355ff69857a"
+      "id": "20e4b511-091d-49dc-8d95-3355ff69857a",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Surfin_K.K..webp",
       "title": "Surfin' K.K.",
       "tier": "C",
       "description": "Beach Boys music! I really enjoy the Beach Boys but this particular song isn't it. That cymbal bothers me",
-      "id": "c07fcd08-fa18-471b-aa79-8a44fac5cb7c"
+      "id": "c07fcd08-fa18-471b-aa79-8a44fac5cb7c",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Groove.webp",
       "title": "K.K. Groove",
       "tier": "S",
       "description": "That tambourine! This is giving funk just like the K. Funk. It's so classy and I love it",
-      "id": "90e278e1-83a2-4b1d-9eee-e8e0eba48dcf"
+      "id": "90e278e1-83a2-4b1d-9eee-e8e0eba48dcf",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-The_K._Funk.webp",
       "title": "The K. Funk",
       "tier": "S",
       "description": "Classic funk music like you hear from Parliament. I love it. That drum beat and prominent bassline, it's just class",
-      "id": "33927455-1fbc-4704-9cf7-2732af043c02"
+      "id": "33927455-1fbc-4704-9cf7-2732af043c02",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Gumbo.webp",
       "title": "K.K. Gumbo",
       "tier": "B",
       "description": "Gumbo is spicy soup from New Orleans so I assume this is meant to be New Orleans jazz. It's alright",
-      "id": "f41d2e8d-7e8c-4ae8-bc12-a6d872299b01"
+      "id": "f41d2e8d-7e8c-4ae8-bc12-a6d872299b01",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-To_the_Edge.webp",
       "title": "To the Edge",
       "tier": "D",
       "description": "This is a steaming pile of garbage. According to Nookipedia it's 'rocksteady' music which is also from Jamaica like a lot of these tracks. I think for this one KK was smoking too much weed and farted into the microphone a little too much",
-      "id": "a8c64617-5e15-4c7b-827f-c3068a580b67"
+      "id": "a8c64617-5e15-4c7b-827f-c3068a580b67",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._House.webp",
       "title": "K.K. House",
       "tier": "S",
       "description": "Hands down my favourite track of the whole bunch. K.K. House goes so hard. The piano break? Luscious. The bassline? Delicious. That disco beat? Scruptious. I'm also obsessed with the girls on the cover, including my queen Friga who has always been with me. She's just a girl who loves to party",
-      "id": "fcc21405-9aac-4288-8a7f-97558350f3b9"
+      "id": "fcc21405-9aac-4288-8a7f-97558350f3b9",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Two_Days_Ago.webp",
       "title": "Two Days Ago",
       "tier": "C",
       "description": "This must be a reference to 'Yesterday' by the Beatles. I think it's cheesy in all the wrong ways, and I don't enjoy that melody instrument",
-      "id": "663dab69-ad8a-4250-8da8-4bc2f3caf392"
+      "id": "663dab69-ad8a-4250-8da8-4bc2f3caf392",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Island.webp",
       "title": "K.K. Island",
       "tier": "C",
       "description": "A vaguely tropical sounding track. It remixes a brief melody from the gamecube game but the loop is so short",
-      "id": "3630433c-1c4b-47dc-974d-a928ef435e49"
+      "id": "3630433c-1c4b-47dc-974d-a928ef435e49",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Wandering.webp",
       "title": "Wandering",
       "tier": "C",
       "description": "I feel like this is meant to be something like Fleetwood Mac. Except I think it sounds like shit with that piano",
-      "id": "9445444c-230e-4881-87a1-6d1802e480eb"
+      "id": "9445444c-230e-4881-87a1-6d1802e480eb",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Jazz.webp",
       "title": "K.K. Jazz",
       "tier": "B",
       "description": "Some bebop style modern Jazz in the vein of Miles Davis. It's fun with its fast paced walking bassline",
-      "id": "508c1806-f110-4d22-b647-555374abdec3"
+      "id": "508c1806-f110-4d22-b647-555374abdec3",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-Welcome_Horizons.webp",
       "title": "Welcome Horizons",
       "tier": "B",
       "description": "A cover of the main theme, a bit lame, but it's not like the main theme is bad...",
-      "id": "35b0838f-65f8-4b52-a708-9e6659b8b19b"
+      "id": "35b0838f-65f8-4b52-a708-9e6659b8b19b",
+      "newsletter": true
     },
     {
       "filename": "NH-Album_Cover-K.K._Jongara.webp",
       "title": "K.K. Jongara",
       "tier": "A",
       "description": "Lowkey the best of the japanese folk music tracks. It's a short loop but it goes kinda hard, and the performance version too",
-      "id": "e9affe3b-c469-40a5-99de-d04cfb979e0d"
+      "id": "e9affe3b-c469-40a5-99de-d04cfb979e0d",
+      "newsletter": true
     }
   ]
 }

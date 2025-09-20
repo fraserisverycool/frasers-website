@@ -9,6 +9,7 @@ interface Stitch {
     comment: string;
     rating: number[];
     id: string;
+  newsletter: boolean;
 }
 
 @Component({

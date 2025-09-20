@@ -23,7 +23,8 @@
         "from the heart",
         "singer-songwriter"
       ],
-      "id": "fade264e-1707-4fb5-bc60-3bd277ae06c7"
+      "id": "fade264e-1707-4fb5-bc60-3bd277ae06c7",
+      "newsletter": false
     },
     {
       "filename": "pink-fancy.jpg",
@@ -43,7 +44,8 @@
         "pop",
         "special vibes"
       ],
-      "id": "321f76fb-8451-4b2a-aaa9-db119b9531a3"
+      "id": "321f76fb-8451-4b2a-aaa9-db119b9531a3",
+      "newsletter": true
     },
     {
       "filename": "spellling-portrait.jpg",
@@ -61,7 +63,8 @@
         "rock",
         "magical"
       ],
-      "id": "88ddc702-f2fc-4924-bba5-5f161c8c2894"
+      "id": "88ddc702-f2fc-4924-bba5-5f161c8c2894",
+      "newsletter": true
     },
     {
       "filename": "laura-alas.jpg",
@@ -83,7 +86,8 @@
         "chill",
         "singer-songwriter"
       ],
-      "id": "c0222c77-5739-43c5-8b9f-fdf86077752f"
+      "id": "c0222c77-5739-43c5-8b9f-fdf86077752f",
+      "newsletter": true
     },
     {
       "filename": "laura-speak.jpg",
@@ -102,7 +106,8 @@
         "singer-songwriter",
         "peaceful"
       ],
-      "id": "7729776e-f273-4a13-b522-fa4c276ba30b"
+      "id": "7729776e-f273-4a13-b522-fa4c276ba30b",
+      "newsletter": true
     },
     {
       "filename": "laura-creature.webp",
@@ -121,7 +126,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "5f99958d-3772-4c39-92d2-a8b4d410b7fb"
+      "id": "5f99958d-3772-4c39-92d2-a8b4d410b7fb",
+      "newsletter": true
     },
     {
       "filename": "laura-once.jpg",
@@ -144,7 +150,8 @@
         "singer-songwriter",
         "peaceful"
       ],
-      "id": "75504134-b70e-4ad3-8553-2afc707002fb"
+      "id": "75504134-b70e-4ad3-8553-2afc707002fb",
+      "newsletter": true
     },
     {
       "filename": "laura-semper.jpg",
@@ -164,7 +171,8 @@
         "singer-songwriter",
         "peaceful"
       ],
-      "id": "5e69dfdf-c422-4b31-a358-2d8297e3193b"
+      "id": "5e69dfdf-c422-4b31-a358-2d8297e3193b",
+      "newsletter": true
     },
     {
       "filename": "laura-song.jpg",
@@ -186,7 +194,8 @@
         "singer-songwriter",
         "peaceful"
       ],
-      "id": "dd769b66-9065-4579-a717-80679acdc22c"
+      "id": "dd769b66-9065-4579-a717-80679acdc22c",
+      "newsletter": true
     },
     {
       "filename": "tunng-comments.jpg",
@@ -210,7 +219,8 @@
         "not for everyone",
         "magical"
       ],
-      "id": "755b5bac-96ca-4454-87c6-718305a9c04d"
+      "id": "755b5bac-96ca-4454-87c6-718305a9c04d",
+      "newsletter": true
     },
     {
       "filename": "tunng-good.jpg",
@@ -232,7 +242,8 @@
         "indie",
         "not for everyone"
       ],
-      "id": "347ff7ff-ed85-46e6-840d-894322c2d709"
+      "id": "347ff7ff-ed85-46e6-840d-894322c2d709",
+      "newsletter": true
     },
     {
       "filename": "tunng-land.jpg",
@@ -253,7 +264,8 @@
         "folky",
         "indie"
       ],
-      "id": "93d41def-1b47-44e3-a043-21d29ad3e84f"
+      "id": "93d41def-1b47-44e3-a043-21d29ad3e84f",
+      "newsletter": true
     },
     {
       "filename": "tunng-turbines.jpg",
@@ -273,7 +285,8 @@
         "indie",
         "chill"
       ],
-      "id": "3d033388-3b1a-435f-a219-ce2c9c50eb16"
+      "id": "3d033388-3b1a-435f-a219-ce2c9c50eb16",
+      "newsletter": true
     },
     {
       "filename": "tunng-love.jpg",
@@ -294,7 +307,8 @@
         "indie",
         "not for everyone"
       ],
-      "id": "362ebad0-f182-4386-a90d-ee042300c6a8"
+      "id": "362ebad0-f182-4386-a90d-ee042300c6a8",
+      "newsletter": true
     },
     {
       "filename": "janelle-metropolis.jpg",
@@ -312,7 +326,8 @@
         "soul",
         "magical"
       ],
-      "id": "596f4a06-7789-4db8-9153-0fee52d00ef2"
+      "id": "596f4a06-7789-4db8-9153-0fee52d00ef2",
+      "newsletter": true
     },
     {
       "filename": "janelle-arch.jpg",
@@ -337,7 +352,8 @@
         "magical",
         "all time faves"
       ],
-      "id": "6ace17f0-d21a-4395-aa9e-1e73eb9eb69c"
+      "id": "6ace17f0-d21a-4395-aa9e-1e73eb9eb69c",
+      "newsletter": true
     },
     {
       "filename": "janelle-electric.jpg",
@@ -361,7 +377,8 @@
         "soul",
         "magical"
       ],
-      "id": "07169c01-98a7-4c38-ac54-9c01a31fe9de"
+      "id": "07169c01-98a7-4c38-ac54-9c01a31fe9de",
+      "newsletter": true
     },
     {
       "filename": "janelle-dirty.jpg",
@@ -380,7 +397,8 @@
         "pop",
         "cunty"
       ],
-      "id": "95b10708-90ae-4425-a7d9-d50bf6aaa80d"
+      "id": "95b10708-90ae-4425-a7d9-d50bf6aaa80d",
+      "newsletter": true
     },
     {
       "filename": "janelle-age.jpg",
@@ -397,7 +415,8 @@
         "pop",
         "cunty"
       ],
-      "id": "3a8fb5c0-61b5-4faa-8700-5d3a5ac5d67c"
+      "id": "3a8fb5c0-61b5-4faa-8700-5d3a5ac5d67c",
+      "newsletter": true
     },
     {
       "filename": "jens-dog.webp",
@@ -417,7 +436,8 @@
         "singer-songwriter",
         "concrete themes"
       ],
-      "id": "34a91783-1cb1-4966-bc7c-452bf46020f1"
+      "id": "34a91783-1cb1-4966-bc7c-452bf46020f1",
+      "newsletter": true
     },
     {
       "filename": "jens-night.jpg",
@@ -439,7 +459,8 @@
         "concrete themes",
         "all time faves"
       ],
-      "id": "3326ee3e-0a5f-4b22-b543-f784e8414d77"
+      "id": "3326ee3e-0a5f-4b22-b543-f784e8414d77",
+      "newsletter": true
     },
     {
       "filename": "jens-argument.webp",
@@ -457,7 +478,8 @@
         "singer-songwriter",
         "concrete themes"
       ],
-      "id": "ded464ad-ac9d-4df2-a010-b5604e27c732"
+      "id": "ded464ad-ac9d-4df2-a010-b5604e27c732",
+      "newsletter": true
     },
     {
       "filename": "jens-love.webp",
@@ -477,7 +499,8 @@
         "concrete themes",
         "special vibes"
       ],
-      "id": "bc16bbcc-cf5f-4470-ae9f-e7d5291684e0"
+      "id": "bc16bbcc-cf5f-4470-ae9f-e7d5291684e0",
+      "newsletter": true
     },
     {
       "filename": "jens-life.jpg",
@@ -496,7 +519,8 @@
         "singer-songwriter",
         "concrete themes"
       ],
-      "id": "2572b86f-481f-4f71-8b9e-df724c5e3fdf"
+      "id": "2572b86f-481f-4f71-8b9e-df724c5e3fdf",
+      "newsletter": true
     },
     {
       "filename": "amy-frank.jpg",
@@ -515,7 +539,8 @@
       "tags": [
         "soul"
       ],
-      "id": "6857faeb-66ef-4151-a95f-e32cc599bd2f"
+      "id": "6857faeb-66ef-4151-a95f-e32cc599bd2f",
+      "newsletter": true
     },
     {
       "filename": "amy-black.jpg",
@@ -537,7 +562,8 @@
         "classic",
         "cunty"
       ],
-      "id": "b8454c9a-b97f-49d0-a263-5af0f76a2a3c"
+      "id": "b8454c9a-b97f-49d0-a263-5af0f76a2a3c",
+      "newsletter": true
     },
     {
       "filename": "erykah-baduizm.jpg",
@@ -558,7 +584,8 @@
         "classic",
         "peaceful"
       ],
-      "id": "b0b22c15-95b0-4d8a-a032-2f866af4234c"
+      "id": "b0b22c15-95b0-4d8a-a032-2f866af4234c",
+      "newsletter": true
     },
     {
       "filename": "erykah-mama.jpg",
@@ -582,7 +609,8 @@
         "all time faves",
         "chill"
       ],
-      "id": "07521daa-562f-4847-8aad-7b0cd203b385"
+      "id": "07521daa-562f-4847-8aad-7b0cd203b385",
+      "newsletter": true
     },
     {
       "filename": "erykah-worldwide.jpg",
@@ -602,7 +630,8 @@
         "soul",
         "hip-hop"
       ],
-      "id": "b4ffcc43-b256-4ff6-84c4-0b99cee56259"
+      "id": "b4ffcc43-b256-4ff6-84c4-0b99cee56259",
+      "newsletter": true
     },
     {
       "filename": "erykah-america-1.jpg",
@@ -621,7 +650,8 @@
       "tags": [
         "soul"
       ],
-      "id": "d9924430-6be3-430c-9a2c-f52845ce132b"
+      "id": "d9924430-6be3-430c-9a2c-f52845ce132b",
+      "newsletter": true
     },
     {
       "filename": "erykah-america-2.jpg",
@@ -642,7 +672,8 @@
         "soul",
         "chill"
       ],
-      "id": "e392a296-a840-4d84-8484-ae58905453bd"
+      "id": "e392a296-a840-4d84-8484-ae58905453bd",
+      "newsletter": true
     },
     {
       "filename": "erykah-caint.jpg",
@@ -661,7 +692,8 @@
       "tags": [
         "soul"
       ],
-      "id": "1ed37129-581d-40f1-bbd0-f70a26fee855"
+      "id": "1ed37129-581d-40f1-bbd0-f70a26fee855",
+      "newsletter": true
     },
     {
       "filename": "regina-11.jpg",
@@ -677,7 +709,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "e7d65454-dc64-4983-bfe6-092ad4062b2b"
+      "id": "e7d65454-dc64-4983-bfe6-092ad4062b2b",
+      "newsletter": true
     },
     {
       "filename": "regina-songs.jpg",
@@ -697,7 +730,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "0f37680e-4d02-4d72-b0bc-4c0a76d31a21"
+      "id": "0f37680e-4d02-4d72-b0bc-4c0a76d31a21",
+      "newsletter": true
     },
     {
       "filename": "regina-soviet.jpg",
@@ -719,7 +753,8 @@
         "all time faves",
         "concrete themes"
       ],
-      "id": "4667f540-2793-4828-ac95-16337456fec1"
+      "id": "4667f540-2793-4828-ac95-16337456fec1",
+      "newsletter": true
     },
     {
       "filename": "regina-begin.jpg",
@@ -740,7 +775,8 @@
         "singer-songwriter",
         "concrete themes"
       ],
-      "id": "3524d0f9-26ee-430b-bc68-6cd1d3c03244"
+      "id": "3524d0f9-26ee-430b-bc68-6cd1d3c03244",
+      "newsletter": true
     },
     {
       "filename": "regina-far.jpg",
@@ -761,7 +797,8 @@
         "magical",
         "concrete themes"
       ],
-      "id": "0089954e-9b80-4a07-8ad7-0a76919a8044"
+      "id": "0089954e-9b80-4a07-8ad7-0a76919a8044",
+      "newsletter": true
     },
     {
       "filename": "regina-cheap.jpg",
@@ -780,7 +817,8 @@
         "singer-songwriter",
         "concrete themes"
       ],
-      "id": "b46489df-1aad-4da5-8908-dc00c6a46cb2"
+      "id": "b46489df-1aad-4da5-8908-dc00c6a46cb2",
+      "newsletter": true
     },
     {
       "filename": "regina-remember.jpg",
@@ -802,7 +840,8 @@
         "magical",
         "concrete themes"
       ],
-      "id": "9e8d0e66-5189-4aa2-bdf3-25952d13149a"
+      "id": "9e8d0e66-5189-4aa2-bdf3-25952d13149a",
+      "newsletter": true
     },
     {
       "filename": "regina-home.jpg",
@@ -819,7 +858,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "6e8139a9-d664-4029-9816-ff725220e43b"
+      "id": "6e8139a9-d664-4029-9816-ff725220e43b",
+      "newsletter": true
     },
     {
       "filename": "rhye-woman.jpg",
@@ -841,7 +881,8 @@
         "special vibes",
         "all time faves"
       ],
-      "id": "e5fb3b07-929d-48f4-b7ba-fe29e74dfe47"
+      "id": "e5fb3b07-929d-48f4-b7ba-fe29e74dfe47",
+      "newsletter": true
     },
     {
       "filename": "rhye-blood.webp",
@@ -861,7 +902,8 @@
       "tags": [
         "peaceful"
       ],
-      "id": "480dcb30-be52-495e-95d7-db64e5e0ebd0"
+      "id": "480dcb30-be52-495e-95d7-db64e5e0ebd0",
+      "newsletter": true
     },
     {
       "filename": "rhye-home.jpg",
@@ -881,7 +923,8 @@
       "tags": [
         "peaceful"
       ],
-      "id": "0c14fb4a-f256-40e1-b592-eed74f85feed"
+      "id": "0c14fb4a-f256-40e1-b592-eed74f85feed",
+      "newsletter": true
     },
     {
       "filename": "kkb-intro.jpg",
@@ -901,7 +944,8 @@
       "tags": [
         "pop"
       ],
-      "id": "f8459336-e0f8-463e-9336-2be916a20c38"
+      "id": "f8459336-e0f8-463e-9336-2be916a20c38",
+      "newsletter": true
     },
     {
       "filename": "kkb-generation.jpg",
@@ -927,7 +971,8 @@
         "special vibes",
         "pop"
       ],
-      "id": "72668600-901d-42b9-89ef-31df1120dbb6"
+      "id": "72668600-901d-42b9-89ef-31df1120dbb6",
+      "newsletter": true
     },
     {
       "filename": "kkb-time.jpg",
@@ -949,7 +994,8 @@
         "rock",
         "not for everyone"
       ],
-      "id": "1bd191b3-0efd-4b1c-bbf2-0c3eba261edd"
+      "id": "1bd191b3-0efd-4b1c-bbf2-0c3eba261edd",
+      "newsletter": true
     },
     {
       "filename": "kkb-civilisation.jpg",
@@ -970,7 +1016,8 @@
         "special vibes",
         "all time faves"
       ],
-      "id": "d977d681-5cde-44ed-ad02-07e1b5d3e801"
+      "id": "d977d681-5cde-44ed-ad02-07e1b5d3e801",
+      "newsletter": true
     },
     {
       "filename": "norah-come.jpg",
@@ -994,7 +1041,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "cc6ef946-8097-4bd9-bfe6-f6b7473a9a32"
+      "id": "cc6ef946-8097-4bd9-bfe6-f6b7473a9a32",
+      "newsletter": true
     },
     {
       "filename": "norah-feels.jpg",
@@ -1015,7 +1063,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "0f5f04d9-a1c7-4404-9a0e-d4303734c47f"
+      "id": "0f5f04d9-a1c7-4404-9a0e-d4303734c47f",
+      "newsletter": true
     },
     {
       "filename": "norah-not.jpg",
@@ -1037,7 +1086,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "417b6f55-2c4a-4643-98a7-d197c38dc5fd"
+      "id": "417b6f55-2c4a-4643-98a7-d197c38dc5fd",
+      "newsletter": true
     },
     {
       "filename": "norah-fall.jpg",
@@ -1057,7 +1107,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "b1121665-b1e5-4e7e-9a9b-8a41c15ed370"
+      "id": "b1121665-b1e5-4e7e-9a9b-8a41c15ed370",
+      "newsletter": true
     },
     {
       "filename": "norah-hearts.jpg",
@@ -1076,7 +1127,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "50b48661-0d71-44dd-9837-59488f0d7f5a"
+      "id": "50b48661-0d71-44dd-9837-59488f0d7f5a",
+      "newsletter": true
     },
     {
       "filename": "fleet-foxes.webp",
@@ -1102,7 +1154,8 @@
       "tags": [
         "indie"
       ],
-      "id": "4fe3ffee-86fd-4756-bbcc-a99f9ffdddfc"
+      "id": "4fe3ffee-86fd-4756-bbcc-a99f9ffdddfc",
+      "newsletter": true
     },
     {
       "filename": "fleet-helpless.jpg",
@@ -1123,7 +1176,8 @@
         "indie",
         "all time faves"
       ],
-      "id": "70481d3e-8585-471a-99c7-e6ded0ba0163"
+      "id": "70481d3e-8585-471a-99c7-e6ded0ba0163",
+      "newsletter": true
     },
     {
       "filename": "fleet-crack.jpg",
@@ -1141,7 +1195,8 @@
       "tags": [
         "indie"
       ],
-      "id": "4e2cd9d5-1494-4510-a8d9-5aeedb9e1924"
+      "id": "4e2cd9d5-1494-4510-a8d9-5aeedb9e1924",
+      "newsletter": true
     },
     {
       "filename": "timber-timbre.jpg",
@@ -1162,7 +1217,8 @@
         "folky",
         "indie"
       ],
-      "id": "ecca1fb3-7e50-4871-893e-55a145ee47e6"
+      "id": "ecca1fb3-7e50-4871-893e-55a145ee47e6",
+      "newsletter": true
     },
     {
       "filename": "timber-creep.jpg",
@@ -1181,7 +1237,8 @@
         "folky",
         "indie"
       ],
-      "id": "4f32d94c-b284-4d09-838a-d6d256fe3822"
+      "id": "4f32d94c-b284-4d09-838a-d6d256fe3822",
+      "newsletter": true
     },
     {
       "filename": "timber-hot.jpg",
@@ -1202,7 +1259,8 @@
         "folky",
         "indie"
       ],
-      "id": "13201507-cf20-45d1-9913-653d066383f5"
+      "id": "13201507-cf20-45d1-9913-653d066383f5",
+      "newsletter": true
     },
     {
       "filename": "timber-lovage.jpg",
@@ -1222,7 +1280,8 @@
         "folky",
         "indie"
       ],
-      "id": "78fd3e09-64fd-4c2c-8976-3c872361ab6e"
+      "id": "78fd3e09-64fd-4c2c-8976-3c872361ab6e",
+      "newsletter": true
     },
     {
       "filename": "tallest-shallow.jpg",
@@ -1244,7 +1303,8 @@
         "scandinavian",
         "folky"
       ],
-      "id": "dfefa375-fca8-4c77-a7d3-510cc6e0532f"
+      "id": "dfefa375-fca8-4c77-a7d3-510cc6e0532f",
+      "newsletter": true
     },
     {
       "filename": "tallest-wild.jpg",
@@ -1267,7 +1327,8 @@
         "scandinavian",
         "folky"
       ],
-      "id": "a2926adc-3225-4594-b32a-9e223ca05e26"
+      "id": "a2926adc-3225-4594-b32a-9e223ca05e26",
+      "newsletter": true
     },
     {
       "filename": "tallest-leaving.webp",
@@ -1290,7 +1351,8 @@
         "scandinavian",
         "folky"
       ],
-      "id": "c6de8b01-47ba-46cf-a1da-91a75a845e3f"
+      "id": "c6de8b01-47ba-46cf-a1da-91a75a845e3f",
+      "newsletter": true
     },
     {
       "filename": "tallest-dark.jpg",
@@ -1312,7 +1374,8 @@
         "scandinavian",
         "folky"
       ],
-      "id": "4997cb76-654e-48b8-b7e5-48cd366da0ce"
+      "id": "4997cb76-654e-48b8-b7e5-48cd366da0ce",
+      "newsletter": true
     },
     {
       "filename": "kings-quiet.jpg",
@@ -1335,7 +1398,8 @@
         "indie",
         "scandinavian"
       ],
-      "id": "41146573-3279-451a-89d7-bdd7d5d6576d"
+      "id": "41146573-3279-451a-89d7-bdd7d5d6576d",
+      "newsletter": true
     },
     {
       "filename": "kings-riot.jpg",
@@ -1357,7 +1421,8 @@
         "indie",
         "scandinavian"
       ],
-      "id": "3f12aa20-e89a-4566-b484-62e87d87d208"
+      "id": "3f12aa20-e89a-4566-b484-62e87d87d208",
+      "newsletter": true
     },
     {
       "filename": "kings-declaration.jpg",
@@ -1382,7 +1447,8 @@
         "indie",
         "scandinavian"
       ],
-      "id": "b442953f-ed36-486a-8bf3-5230eccb5d85"
+      "id": "b442953f-ed36-486a-8bf3-5230eccb5d85",
+      "newsletter": true
     },
     {
       "filename": "aldous-party.jpg",
@@ -1401,7 +1467,8 @@
         "singer-songwriter",
         "peaceful"
       ],
-      "id": "b6605ba3-2899-4f05-8097-5ebd43e6b2ab"
+      "id": "b6605ba3-2899-4f05-8097-5ebd43e6b2ab",
+      "newsletter": true
     },
     {
       "filename": "aldous-designer.jpg",
@@ -1423,7 +1490,8 @@
         "all time faves",
         "peaceful"
       ],
-      "id": "cdb48d1b-2a18-4a4a-9a5c-4d78980d9786"
+      "id": "cdb48d1b-2a18-4a4a-9a5c-4d78980d9786",
+      "newsletter": true
     },
     {
       "filename": "aldous-warm.webp",
@@ -1439,7 +1507,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "175e6cf6-14f2-494e-bfc5-308dad83b459"
+      "id": "175e6cf6-14f2-494e-bfc5-308dad83b459",
+      "newsletter": true
     },
     {
       "filename": "michael-home.jpg",
@@ -1459,7 +1528,8 @@
         "soul",
         "singer-songwriter"
       ],
-      "id": "df924cfd-33d4-4212-8e54-eb919654ecea"
+      "id": "df924cfd-33d4-4212-8e54-eb919654ecea",
+      "newsletter": true
     },
     {
       "filename": "michael-love.jpg",
@@ -1481,7 +1551,8 @@
         "singer-songwriter",
         "all time faves"
       ],
-      "id": "3e411481-40c3-4f55-bb81-b600f5dace8e"
+      "id": "3e411481-40c3-4f55-bb81-b600f5dace8e",
+      "newsletter": true
     },
     {
       "filename": "michael-kiwanuka.jpg",
@@ -1503,7 +1574,8 @@
         "soul",
         "singer-songwriter"
       ],
-      "id": "678d8a6e-5f64-4bd1-9fcf-2ebc6ff6607f"
+      "id": "678d8a6e-5f64-4bd1-9fcf-2ebc6ff6607f",
+      "newsletter": true
     },
     {
       "filename": "michael-small.jpg",
@@ -1529,7 +1601,8 @@
         "singer-songwriter",
         "peaceful"
       ],
-      "id": "979a6019-ccf5-4205-954b-33e6ae2174b2"
+      "id": "979a6019-ccf5-4205-954b-33e6ae2174b2",
+      "newsletter": true
     },
     {
       "filename": "magdalena-mini-1.jpg",
@@ -1547,7 +1620,8 @@
         "pop",
         "special vibes"
       ],
-      "id": "6fb775dc-3a85-4940-9cc1-f539d3daa9a1"
+      "id": "6fb775dc-3a85-4940-9cc1-f539d3daa9a1",
+      "newsletter": true
     },
     {
       "filename": "magdalena-rhythm.jpg",
@@ -1563,7 +1637,8 @@
       "tags": [
         "pop"
       ],
-      "id": "7da422cc-2f2f-4d73-9977-9e218c9dc4e1"
+      "id": "7da422cc-2f2f-4d73-9977-9e218c9dc4e1",
+      "newsletter": true
     },
     {
       "filename": "magdalena-mini-2.jpg",
@@ -1579,7 +1654,8 @@
       "tags": [
         "pop"
       ],
-      "id": "83e3b9a1-00e5-4730-a839-7d9bce1827ec"
+      "id": "83e3b9a1-00e5-4730-a839-7d9bce1827ec",
+      "newsletter": true
     },
     {
       "filename": "magdalena-mercurial.webp",
@@ -1600,7 +1676,8 @@
         "pop",
         "magical"
       ],
-      "id": "797ff4af-8586-47f1-94f7-c26a93d147e6"
+      "id": "797ff4af-8586-47f1-94f7-c26a93d147e6",
+      "newsletter": true
     },
     {
       "filename": "magdalena-mini-3.jpg",
@@ -1615,7 +1692,8 @@
       "tags": [
         "pop"
       ],
-      "id": "ba05cf9a-53a1-45aa-a87f-91facef0ab3d"
+      "id": "ba05cf9a-53a1-45aa-a87f-91facef0ab3d",
+      "newsletter": true
     },
     {
       "filename": "magdalena-imaginal.jpg",
@@ -1637,7 +1715,8 @@
         "pop",
         "magical"
       ],
-      "id": "9ce2a162-7f51-4f82-8537-973d4f7df46a"
+      "id": "9ce2a162-7f51-4f82-8537-973d4f7df46a",
+      "newsletter": true
     },
     {
       "filename": "khruangbin-todo.jpeg",
@@ -1655,7 +1734,8 @@
       "tags": [
         "chill"
       ],
-      "id": "3f2f2bf6-e85d-4b96-b87e-29154212f44f"
+      "id": "3f2f2bf6-e85d-4b96-b87e-29154212f44f",
+      "newsletter": true
     },
     {
       "filename": "khruangbin-mordechai.jpg",
@@ -1673,7 +1753,8 @@
       "tags": [
         "chill"
       ],
-      "id": "8e5f90cc-be63-48fa-99ce-a4e155b98803"
+      "id": "8e5f90cc-be63-48fa-99ce-a4e155b98803",
+      "newsletter": true
     },
     {
       "filename": "khruangbin-sala.jpg",
@@ -1691,7 +1772,8 @@
       "tags": [
         "chill"
       ],
-      "id": "e4449376-6b0d-4846-884a-667b79336291"
+      "id": "e4449376-6b0d-4846-884a-667b79336291",
+      "newsletter": true
     },
     {
       "filename": "sade-diamond.jpg",
@@ -1711,7 +1793,8 @@
         "chill",
         "classic"
       ],
-      "id": "a02a136c-527a-44b4-8429-b2f35bb1b4c6"
+      "id": "a02a136c-527a-44b4-8429-b2f35bb1b4c6",
+      "newsletter": true
     },
     {
       "filename": "sade-promise.jpg",
@@ -1731,7 +1814,8 @@
         "special vibes",
         "chill"
       ],
-      "id": "1df30dfd-6ac0-4c43-8aa8-0ad4385597e5"
+      "id": "1df30dfd-6ac0-4c43-8aa8-0ad4385597e5",
+      "newsletter": true
     },
     {
       "filename": "sade-stronger.jpg",
@@ -1752,7 +1836,8 @@
         "special vibes",
         "chill"
       ],
-      "id": "9a7aa665-5674-4ba0-99e2-2ab410672336"
+      "id": "9a7aa665-5674-4ba0-99e2-2ab410672336",
+      "newsletter": true
     },
     {
       "filename": "sade-love.jpg",
@@ -1777,7 +1862,8 @@
         "chill",
         "all time faves"
       ],
-      "id": "914c6023-a808-4b96-9eff-26d663521099"
+      "id": "914c6023-a808-4b96-9eff-26d663521099",
+      "newsletter": true
     },
     {
       "filename": "esperanza-emily.jpg",
@@ -1795,7 +1881,8 @@
         "singer-songwriter",
         "not for everyone"
       ],
-      "id": "4c727b26-8335-4555-b2df-736c220c39ab"
+      "id": "4c727b26-8335-4555-b2df-736c220c39ab",
+      "newsletter": true
     },
     {
       "filename": "confidence-tilt.png",
@@ -1815,7 +1902,8 @@
         "pop",
         "cunty"
       ],
-      "id": "7641fdee-4280-45d3-9e09-b815dbf17e30"
+      "id": "7641fdee-4280-45d3-9e09-b815dbf17e30",
+      "newsletter": true
     },
     {
       "filename": "confidence-3am.jpg",
@@ -1834,7 +1922,8 @@
         "pop",
         "cunty"
       ],
-      "id": "c533d383-d6a7-4f68-a039-6502a9f6f1d4"
+      "id": "c533d383-d6a7-4f68-a039-6502a9f6f1d4",
+      "newsletter": true
     },
     {
       "filename": "melody-absence.jpg",
@@ -1854,7 +1943,8 @@
         "peaceful",
         "singer-songwriter"
       ],
-      "id": "9ac0afd4-c8dc-4660-b5d4-ed44eddd5036"
+      "id": "9ac0afd4-c8dc-4660-b5d4-ed44eddd5036",
+      "newsletter": true
     },
     {
       "filename": "vincent-daddy.jpg",
@@ -1874,7 +1964,8 @@
         "chill",
         "singer-songwriter"
       ],
-      "id": "3687773b-fb67-4601-97d0-fa6ed87db369"
+      "id": "3687773b-fb67-4601-97d0-fa6ed87db369",
+      "newsletter": true
     },
     {
       "filename": "miami-illumination.jpg",
@@ -1893,7 +1984,8 @@
       "tags": [
         "indie"
       ],
-      "id": "d8dbc28b-bbcf-49be-8875-bc3a513314c6"
+      "id": "d8dbc28b-bbcf-49be-8875-bc3a513314c6",
+      "newsletter": true
     },
     {
       "filename": "leisure-sleeper.jpg",
@@ -1914,7 +2006,8 @@
         "folky",
         "indie"
       ],
-      "id": "9bd6ed33-02a6-4d02-8e29-2b811fbfb083"
+      "id": "9bd6ed33-02a6-4d02-8e29-2b811fbfb083",
+      "newsletter": true
     },
     {
       "filename": "leisure-murky.jpg",
@@ -1935,7 +2028,8 @@
         "folky",
         "indie"
       ],
-      "id": "cd0ccee4-ba31-4d45-a90f-01bdf133f9e8"
+      "id": "cd0ccee4-ba31-4d45-a90f-01bdf133f9e8",
+      "newsletter": true
     },
     {
       "filename": "weyes-titanic.webp",
@@ -1955,7 +2049,8 @@
         "singer-songwriter",
         "magical"
       ],
-      "id": "b18707f8-6a3e-49ad-b2d9-9b9c662f6bc5"
+      "id": "b18707f8-6a3e-49ad-b2d9-9b9c662f6bc5",
+      "newsletter": true
     },
     {
       "filename": "weyes-darkness.jpg",
@@ -1974,7 +2069,8 @@
         "singer-songwriter",
         "magical"
       ],
-      "id": "6597a1c2-f102-4094-88f5-34e6016c01d2"
+      "id": "6597a1c2-f102-4094-88f5-34e6016c01d2",
+      "newsletter": true
     },
     {
       "filename": "bonobo-black.jpg",
@@ -1995,7 +2091,8 @@
         "chill",
         "electronic"
       ],
-      "id": "b7ffe035-b401-4043-9354-c28b0f88c590"
+      "id": "b7ffe035-b401-4043-9354-c28b0f88c590",
+      "newsletter": true
     },
     {
       "filename": "bonobo-days.jpg",
@@ -2016,7 +2113,8 @@
         "chill",
         "electronic"
       ],
-      "id": "526c6731-4776-4579-89ef-2fe218af13f6"
+      "id": "526c6731-4776-4579-89ef-2fe218af13f6",
+      "newsletter": true
     },
     {
       "filename": "everything-man.jpg",
@@ -2036,7 +2134,8 @@
         "indie",
         "cringe"
       ],
-      "id": "baed5111-7d82-4244-8ab3-9f4040c6df08"
+      "id": "baed5111-7d82-4244-8ab3-9f4040c6df08",
+      "newsletter": true
     },
     {
       "filename": "beyonce-renaissance.png",
@@ -2060,7 +2159,8 @@
         "pop",
         "party"
       ],
-      "id": "7f5c0dd2-fff2-4028-9837-fc9d6d735225"
+      "id": "7f5c0dd2-fff2-4028-9837-fc9d6d735225",
+      "newsletter": true
     },
     {
       "filename": "villagers-awayland.jpg",
@@ -2077,7 +2177,8 @@
       "tags": [
         "indie"
       ],
-      "id": "d78f3667-2a5f-45c3-99a3-e308ecfa4d14"
+      "id": "d78f3667-2a5f-45c3-99a3-e308ecfa4d14",
+      "newsletter": true
     },
     {
       "filename": "bajka-wonderland.jpg",
@@ -2096,7 +2197,8 @@
       "tags": [
         "special vibes"
       ],
-      "id": "0de1102d-8ceb-40b7-9f69-6280b81d4221"
+      "id": "0de1102d-8ceb-40b7-9f69-6280b81d4221",
+      "newsletter": true
     },
     {
       "filename": "madeleine-careless.jpg",
@@ -2115,7 +2217,8 @@
         "peaceful",
         "singer-songwriter"
       ],
-      "id": "3c3e86fe-9bde-4a46-87e6-7f167b0e241b"
+      "id": "3c3e86fe-9bde-4a46-87e6-7f167b0e241b",
+      "newsletter": true
     },
     {
       "filename": "stornoway-beachcomber.jpg",
@@ -2136,7 +2239,8 @@
       "tags": [
         "indie"
       ],
-      "id": "e55ff58f-8036-4336-b47a-99d496fbf68e"
+      "id": "e55ff58f-8036-4336-b47a-99d496fbf68e",
+      "newsletter": true
     },
     {
       "filename": "bon-emma.jpg",
@@ -2155,7 +2259,8 @@
         "peaceful",
         "indie"
       ],
-      "id": "61ba202f-21d3-4fce-9b12-e660e47c6ffa"
+      "id": "61ba202f-21d3-4fce-9b12-e660e47c6ffa",
+      "newsletter": true
     },
     {
       "filename": "django-django.jpg",
@@ -2172,7 +2277,8 @@
       "tags": [
         "indie"
       ],
-      "id": "a0f9e79f-a7f1-4063-b78d-6bcc568759d2"
+      "id": "a0f9e79f-a7f1-4063-b78d-6bcc568759d2",
+      "newsletter": true
     },
     {
       "filename": "broken-bells.jpg",
@@ -2190,7 +2296,8 @@
       "tags": [
         "indie"
       ],
-      "id": "2a53c2ff-4589-4a1f-a034-5e4a19abf862"
+      "id": "2a53c2ff-4589-4a1f-a034-5e4a19abf862",
+      "newsletter": true
     },
     {
       "filename": "lingua-sinner.jpg",
@@ -2212,7 +2319,8 @@
         "not for everyone",
         "wild shit"
       ],
-      "id": "78e0ec82-9775-4935-b360-7332a75be570"
+      "id": "78e0ec82-9775-4935-b360-7332a75be570",
+      "newsletter": true
     },
     {
       "filename": "black-hell.jpg",
@@ -2232,7 +2340,8 @@
         "rock",
         "wild shit"
       ],
-      "id": "dd32da83-87b6-4a1c-b95f-8f49a7eead5f"
+      "id": "dd32da83-87b6-4a1c-b95f-8f49a7eead5f",
+      "newsletter": true
     },
     {
       "filename": "viagra-cave.jpg",
@@ -2252,7 +2361,8 @@
         "rock",
         "concrete themes"
       ],
-      "id": "1fd36eca-5897-4eb5-8fc4-ea04c09cf153"
+      "id": "1fd36eca-5897-4eb5-8fc4-ea04c09cf153",
+      "newsletter": true
     },
     {
       "filename": "ane-seasons.jpg",
@@ -2273,7 +2383,8 @@
         "scandinavian",
         "peaceful"
       ],
-      "id": "cd091e25-d092-4c91-9266-998f4193fcdb"
+      "id": "cd091e25-d092-4c91-9266-998f4193fcdb",
+      "newsletter": true
     },
     {
       "filename": "frank-orange.jpg",
@@ -2294,7 +2405,8 @@
       "tags": [
         "from the heart"
       ],
-      "id": "86d7bf57-c115-40c9-98bc-43bcb27745d0"
+      "id": "86d7bf57-c115-40c9-98bc-43bcb27745d0",
+      "newsletter": true
     },
     {
       "filename": "hiatus-weapon.jpg",
@@ -2314,7 +2426,8 @@
         "wild shit",
         "soul"
       ],
-      "id": "824845cf-ec22-4c25-b887-54941134edd3"
+      "id": "824845cf-ec22-4c25-b887-54941134edd3",
+      "newsletter": true
     },
     {
       "filename": "patrick-close.jpg",
@@ -2336,7 +2449,8 @@
         "peaceful",
         "singer-songwriter"
       ],
-      "id": "8dea2d5f-199e-4d17-bae4-b5d7c8d8bb91"
+      "id": "8dea2d5f-199e-4d17-bae4-b5d7c8d8bb91",
+      "newsletter": true
     },
     {
       "filename": "honne-warm.jpg",
@@ -2358,7 +2472,8 @@
         "pop",
         "cringe"
       ],
-      "id": "e1a89491-4218-456f-903d-fe422bdae9be"
+      "id": "e1a89491-4218-456f-903d-fe422bdae9be",
+      "newsletter": true
     },
     {
       "filename": "kendrick-pimp.webp",
@@ -2380,7 +2495,8 @@
         "hip-hop",
         "classic"
       ],
-      "id": "113050e2-d8f8-43e6-a9f0-c69501aae20b"
+      "id": "113050e2-d8f8-43e6-a9f0-c69501aae20b",
+      "newsletter": true
     },
     {
       "filename": "loney-dear.jpg",
@@ -2398,7 +2514,8 @@
         "scandinavian",
         "indie"
       ],
-      "id": "9e97bd1e-3ccf-4efd-b90a-3376a6be0540"
+      "id": "9e97bd1e-3ccf-4efd-b90a-3376a6be0540",
+      "newsletter": true
     },
     {
       "filename": "loney-hall.webp",
@@ -2419,7 +2536,8 @@
         "scandinavian",
         "indie"
       ],
-      "id": "3c30007d-0993-43b4-9aa8-efecd90c6751"
+      "id": "3c30007d-0993-43b4-9aa8-efecd90c6751",
+      "newsletter": true
     },
     {
       "filename": "björk-debut.jpg",
@@ -2439,7 +2557,8 @@
         "scandinavian",
         "special vibes"
       ],
-      "id": "3e668059-de03-4ccd-873b-a4feff8114b9"
+      "id": "3e668059-de03-4ccd-873b-a4feff8114b9",
+      "newsletter": true
     },
     {
       "filename": "björk-homogenic.jpg",
@@ -2457,7 +2576,8 @@
         "scandinavian",
         "special vibes"
       ],
-      "id": "2061cc27-d81b-4383-a3fc-714c8411785d"
+      "id": "2061cc27-d81b-4383-a3fc-714c8411785d",
+      "newsletter": true
     },
     {
       "filename": "caroline-desire.webp",
@@ -2477,7 +2597,8 @@
         "cunty",
         "magical"
       ],
-      "id": "2ac86819-d558-4c4d-95d4-6a967f174f3d"
+      "id": "2ac86819-d558-4c4d-95d4-6a967f174f3d",
+      "newsletter": true
     },
     {
       "filename": "natalia-flores.jpg",
@@ -2500,7 +2621,8 @@
         "singer-songwriter",
         "devastating"
       ],
-      "id": "8d314c5a-dc73-44cc-9e5e-5a775a571620"
+      "id": "8d314c5a-dc73-44cc-9e5e-5a775a571620",
+      "newsletter": true
     },
     {
       "filename": "school-disconnect.jpg",
@@ -2518,7 +2640,8 @@
         "special vibes",
         "electronic"
       ],
-      "id": "91f897e9-6453-4042-b3fd-a4e9170bb71e"
+      "id": "91f897e9-6453-4042-b3fd-a4e9170bb71e",
+      "newsletter": true
     },
     {
       "filename": "mvula-sing.jpg",
@@ -2540,7 +2663,8 @@
         "singer-songwriter",
         "peaceful"
       ],
-      "id": "21e2baf3-1540-45d8-9362-f5aa63b9c24b"
+      "id": "21e2baf3-1540-45d8-9362-f5aa63b9c24b",
+      "newsletter": true
     },
     {
       "filename": "psychedelic-visceral.jpg",
@@ -2558,7 +2682,8 @@
       "tags": [
         "rock"
       ],
-      "id": "4e63dcf7-85d3-4178-9a73-953cb72b82a3"
+      "id": "4e63dcf7-85d3-4178-9a73-953cb72b82a3",
+      "newsletter": true
     },
     {
       "filename": "madonna-erotica.png",
@@ -2577,7 +2702,8 @@
         "classic",
         "cunty"
       ],
-      "id": "c9c64284-9d96-486d-a9d0-182e4fad4d52"
+      "id": "c9c64284-9d96-486d-a9d0-182e4fad4d52",
+      "newsletter": true
     },
     {
       "filename": "kylie-rhythm.png",
@@ -2597,7 +2723,8 @@
         "pop",
         "cunty"
       ],
-      "id": "bcdc729e-a407-4e59-a024-83915b98a537"
+      "id": "bcdc729e-a407-4e59-a024-83915b98a537",
+      "newsletter": true
     },
     {
       "filename": "kylie-fever.jpg",
@@ -2618,7 +2745,8 @@
         "classic",
         "cunty"
       ],
-      "id": "6b008a40-1478-467f-8dae-7213841d2009"
+      "id": "6b008a40-1478-467f-8dae-7213841d2009",
+      "newsletter": true
     },
     {
       "filename": "dorian-flamboyant.jpg",
@@ -2639,7 +2767,8 @@
         "party",
         "cunty"
       ],
-      "id": "936f57a8-2452-4f45-a4f7-27ed5e719f9a"
+      "id": "936f57a8-2452-4f45-a4f7-27ed5e719f9a",
+      "newsletter": true
     },
     {
       "filename": "dorian-agenda.jpg",
@@ -2662,7 +2791,8 @@
         "not for everyone",
         "wild shit"
       ],
-      "id": "4ea12aa6-51bd-4364-828c-8621707e758b"
+      "id": "4ea12aa6-51bd-4364-828c-8621707e758b",
+      "newsletter": true
     },
     {
       "filename": "beirut-flying.jpg",
@@ -2681,7 +2811,8 @@
         "special vibes",
         "indie"
       ],
-      "id": "b3de9b4b-b9a6-443d-893e-c55827900904"
+      "id": "b3de9b4b-b9a6-443d-893e-c55827900904",
+      "newsletter": true
     },
     {
       "filename": "nelly-folklore.jpg",
@@ -2703,7 +2834,8 @@
       "tags": [
         "pop"
       ],
-      "id": "3a0c8d39-c6f3-4ea8-8ba1-a27fb7cdb785"
+      "id": "3a0c8d39-c6f3-4ea8-8ba1-a27fb7cdb785",
+      "newsletter": true
     },
     {
       "filename": "hot-heads.jpg",
@@ -2723,7 +2855,8 @@
         "party",
         "pop"
       ],
-      "id": "04a8c4de-eedc-4a1b-ab04-f5f5fef16c64"
+      "id": "04a8c4de-eedc-4a1b-ab04-f5f5fef16c64",
+      "newsletter": true
     },
     {
       "filename": "kimbra-echo.webp",
@@ -2746,7 +2879,8 @@
         "not for everyone",
         "pop"
       ],
-      "id": "c4fcfc4b-f4d7-4aad-9591-6269a104af9f"
+      "id": "c4fcfc4b-f4d7-4aad-9591-6269a104af9f",
+      "newsletter": true
     },
     {
       "filename": "miike-snow.jpg",
@@ -2765,7 +2899,8 @@
         "indie",
         "scandinavian"
       ],
-      "id": "5a1b7b96-3864-4aa5-9b0c-3513e2893116"
+      "id": "5a1b7b96-3864-4aa5-9b0c-3513e2893116",
+      "newsletter": true
     },
     {
       "filename": "miike-happy.jpg",
@@ -2787,7 +2922,8 @@
         "indie",
         "scandinavian"
       ],
-      "id": "a5dbf20b-fd02-4897-b8cb-61aaa86bcba4"
+      "id": "a5dbf20b-fd02-4897-b8cb-61aaa86bcba4",
+      "newsletter": true
     },
     {
       "filename": "hard-feelings.jpg",
@@ -2805,7 +2941,8 @@
         "party",
         "cunty"
       ],
-      "id": "91452d03-ce51-496c-9020-bcad009a643b"
+      "id": "91452d03-ce51-496c-9020-bcad009a643b",
+      "newsletter": true
     },
     {
       "filename": "pink-heaven.jpg",
@@ -2822,7 +2959,8 @@
         "pop",
         "special vibes"
       ],
-      "id": "596f6b7a-e6af-4c24-ab33-c6f4e0773e4a"
+      "id": "596f6b7a-e6af-4c24-ab33-c6f4e0773e4a",
+      "newsletter": true
     },
     {
       "filename": "anohni-bird.png",
@@ -2842,7 +2980,8 @@
         "from the heart",
         "singer-songwriter"
       ],
-      "id": "93b36e5d-fc09-437d-bef6-0526a9a6d5be"
+      "id": "93b36e5d-fc09-437d-bef6-0526a9a6d5be",
+      "newsletter": true
     },
     {
       "filename": "anohni-back.png",
@@ -2863,7 +3002,8 @@
         "from the heart",
         "singer-songwriter"
       ],
-      "id": "a79b04dd-13df-4f47-b16e-16a1214055e8"
+      "id": "a79b04dd-13df-4f47-b16e-16a1214055e8",
+      "newsletter": true
     },
     {
       "filename": "sufjan-illinois.jpg",
@@ -2887,7 +3027,8 @@
         "singer-songwriter",
         "indie"
       ],
-      "id": "dc25c5df-d194-4152-8e17-66c22df44aec"
+      "id": "dc25c5df-d194-4152-8e17-66c22df44aec",
+      "newsletter": true
     },
     {
       "filename": "bear-heaven.webp",
@@ -2907,7 +3048,8 @@
         "special vibes",
         "party"
       ],
-      "id": "4c68ea4a-238e-43fc-9445-063fdbe5cfca"
+      "id": "4c68ea4a-238e-43fc-9445-063fdbe5cfca",
+      "newsletter": true
     },
     {
       "filename": "department-ear.jpg",
@@ -2925,7 +3067,8 @@
         "folky",
         "indie"
       ],
-      "id": "47c7b24b-4ab4-4768-9f56-9c7ca527e403"
+      "id": "47c7b24b-4ab4-4768-9f56-9c7ca527e403",
+      "newsletter": true
     },
     {
       "filename": "ultraflex-wellness.jpg",
@@ -2943,7 +3086,8 @@
         "party",
         "cunty"
       ],
-      "id": "8e266a80-a1e6-461d-9689-c95f9049eeca"
+      "id": "8e266a80-a1e6-461d-9689-c95f9049eeca",
+      "newsletter": true
     },
     {
       "filename": "ladyhawke-ladyhawke.jpg",
@@ -2961,7 +3105,8 @@
       "tags": [
         "pop"
       ],
-      "id": "207dcf24-a300-4207-9115-f90ffc984124"
+      "id": "207dcf24-a300-4207-9115-f90ffc984124",
+      "newsletter": true
     },
     {
       "filename": "tkay-year.jpg",
@@ -2980,7 +3125,8 @@
         "party",
         "hip-hop"
       ],
-      "id": "a0543d8e-29a8-467c-a2f2-61f6e4f65f68"
+      "id": "a0543d8e-29a8-467c-a2f2-61f6e4f65f68",
+      "newsletter": true
     },
     {
       "filename": "feist-metals.jpg",
@@ -3001,7 +3147,8 @@
         "singer-songwriter",
         "special vibes"
       ],
-      "id": "5914bb84-95fa-4359-a935-a5cc79adfd56"
+      "id": "5914bb84-95fa-4359-a935-a5cc79adfd56",
+      "newsletter": true
     },
     {
       "filename": "feist-die.jpg",
@@ -3021,7 +3168,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "8dec8dad-1363-41e8-a92d-0e6902b94d51"
+      "id": "8dec8dad-1363-41e8-a92d-0e6902b94d51",
+      "newsletter": true
     },
     {
       "filename": "feist-reminder.jpg",
@@ -3040,7 +3188,8 @@
       "tags": [
         "singer-songwriter"
       ],
-      "id": "9d52750f-5bdb-474e-b823-6c7e0b9bd91c"
+      "id": "9d52750f-5bdb-474e-b823-6c7e0b9bd91c",
+      "newsletter": true
     },
     {
       "filename": "air-moon.jpg",
@@ -3060,7 +3209,8 @@
         "electronic",
         "chill"
       ],
-      "id": "cf3d1a97-e4c1-40c4-ac89-33d690547143"
+      "id": "cf3d1a97-e4c1-40c4-ac89-33d690547143",
+      "newsletter": true
     },
     {
       "filename": "metronomy-love.jpg",
@@ -3079,7 +3229,8 @@
         "cringe",
         "indie"
       ],
-      "id": "8e13db5f-1f8b-4eca-854c-5389b9798711"
+      "id": "8e13db5f-1f8b-4eca-854c-5389b9798711",
+      "newsletter": true
     },
     {
       "filename": "madvillain-madvillainy.jpg",
@@ -3098,7 +3249,8 @@
       "tags": [
         "hip-hop"
       ],
-      "id": "4f2771e4-0794-42d9-bd1c-297bec2fe476"
+      "id": "4f2771e4-0794-42d9-bd1c-297bec2fe476",
+      "newsletter": true
     },
     {
       "filename": "woon-time.webp",
@@ -3118,7 +3270,8 @@
         "chill",
         "singer-songwriter"
       ],
-      "id": "1d0cecf1-6f68-4078-af7c-ed081cb2bcbc"
+      "id": "1d0cecf1-6f68-4078-af7c-ed081cb2bcbc",
+      "newsletter": true
     },
     {
       "filename": "silvana-marchita.jpg",
@@ -3139,7 +3292,8 @@
         "singer-songwriter",
         "peaceful"
       ],
-      "id": "dfe4fca6-b5e5-4102-bc9c-4708ba9285f9"
+      "id": "dfe4fca6-b5e5-4102-bc9c-4708ba9285f9",
+      "newsletter": true
     },
     {
       "filename": "ana-chama.jpg",
@@ -3158,7 +3312,8 @@
         "brazilian",
         "rock"
       ],
-      "id": "234e4853-3ae2-410a-b782-563d4ae364e5"
+      "id": "234e4853-3ae2-410a-b782-563d4ae364e5",
+      "newsletter": true
     },
     {
       "filename": "röyksopp-melody.jpg",
@@ -3177,7 +3332,8 @@
         "electronic",
         "chill"
       ],
-      "id": "775e2e5b-88f6-4da2-8f75-626b4d19da1c"
+      "id": "775e2e5b-88f6-4da2-8f75-626b4d19da1c",
+      "newsletter": true
     },
     {
       "filename": "animal-merriweather.webp",
@@ -3199,7 +3355,8 @@
         "electronic",
         "special vibes"
       ],
-      "id": "e4e2173a-aa8b-4d0a-b274-ed99da0216cc"
+      "id": "e4e2173a-aa8b-4d0a-b274-ed99da0216cc",
+      "newsletter": true
     },
     {
       "filename": "camera-maudlin.jpg",
@@ -3217,7 +3374,8 @@
         "indie",
         "chill"
       ],
-      "id": "67ffa364-0c86-4d80-a00d-791fb6a46859"
+      "id": "67ffa364-0c86-4d80-a00d-791fb6a46859",
+      "newsletter": true
     },
     {
       "filename": "geordie-new.jpg",
@@ -3237,7 +3395,8 @@
         "concrete themes",
         "wild shit"
       ],
-      "id": "622778a1-af0d-475d-81b9-c17b64de258f"
+      "id": "622778a1-af0d-475d-81b9-c17b64de258f",
+      "newsletter": true
     },
     {
       "filename": "perfume-ugly.webp",
@@ -3255,7 +3414,8 @@
         "not for everyone",
         "magical"
       ],
-      "id": "efd8a3ba-7f51-4aff-83ff-ec6b75134727"
+      "id": "efd8a3ba-7f51-4aff-83ff-ec6b75134727",
+      "newsletter": true
     },
     {
       "filename": "simz-thank.jpg",
@@ -3273,7 +3433,8 @@
         "hip-hop",
         "from the heart"
       ],
-      "id": "2342e103-3d08-4693-99c7-09251f441d6c"
+      "id": "2342e103-3d08-4693-99c7-09251f441d6c",
+      "newsletter": true
     },
     {
       "filename": "air-france.jpg",
@@ -3293,7 +3454,8 @@
         "scandinavian",
         "magical"
       ],
-      "id": "1d655560-659c-4eb9-8cb5-9be0c1da8f40"
+      "id": "1d655560-659c-4eb9-8cb5-9be0c1da8f40",
+      "newsletter": true
     },
     {
       "filename": "beach-once.jpg",
@@ -3315,7 +3477,8 @@
         "chill",
         "special vibes"
       ],
-      "id": "40be6b97-ba97-4a2c-9a6e-4b474fde7ef5"
+      "id": "40be6b97-ba97-4a2c-9a6e-4b474fde7ef5",
+      "newsletter": true
     },
     {
       "filename": "grizzly-yellow.webp",
@@ -3335,7 +3498,8 @@
         "chill",
         "special vibes"
       ],
-      "id": "2e918bd4-05db-48f8-8c18-a9d01bace1ed"
+      "id": "2e918bd4-05db-48f8-8c18-a9d01bace1ed",
+      "newsletter": true
     },
     {
       "filename": "coldplay-parachutes.jpg",
@@ -3354,7 +3518,8 @@
       "tags": [
         "cringe"
       ],
-      "id": "9cbc75c4-aef8-4e8d-b449-8ab56b5222ad"
+      "id": "9cbc75c4-aef8-4e8d-b449-8ab56b5222ad",
+      "newsletter": true
     },
     {
       "filename": "coldplay-rush.jpg",
@@ -3373,7 +3538,8 @@
       "tags": [
         "cringe"
       ],
-      "id": "df6ea20e-c4d4-45c6-b2bf-ecef9591a892"
+      "id": "df6ea20e-c4d4-45c6-b2bf-ecef9591a892",
+      "newsletter": true
     },
     {
       "filename": "gorillaz-plastic.jpg",
@@ -3396,7 +3562,8 @@
         "pop",
         "hip-hop"
       ],
-      "id": "f7673b5c-268c-4059-b702-b087704f6fcf"
+      "id": "f7673b5c-268c-4059-b702-b087704f6fcf",
+      "newsletter": true
     },
     {
       "filename": "father-comedy.jpg",
@@ -3416,7 +3583,8 @@
         "singer-songwriter",
         "concrete themes"
       ],
-      "id": "f2fa4153-f032-4891-897d-3a9e1859cc86"
+      "id": "f2fa4153-f032-4891-897d-3a9e1859cc86",
+      "newsletter": true
     },
     {
       "filename": "roisin-machine.jpg",
@@ -3438,7 +3606,8 @@
         "pop",
         "cunty"
       ],
-      "id": "cc5b374a-9841-4fb3-9c87-2ae50f5ab984"
+      "id": "cc5b374a-9841-4fb3-9c87-2ae50f5ab984",
+      "newsletter": true
     },
     {
       "filename": "noname-room.webp",
@@ -3459,7 +3628,8 @@
         "hip-hop",
         "chill"
       ],
-      "id": "c3b8c5d7-938d-4ec8-98ef-10a681c953f8"
+      "id": "c3b8c5d7-938d-4ec8-98ef-10a681c953f8",
+      "newsletter": true
     },
     {
       "filename": "noname-telefone.jpg",
@@ -3478,7 +3648,8 @@
         "hip-hop",
         "chill"
       ],
-      "id": "6106698c-3142-4c3b-802e-900b431954c7"
+      "id": "6106698c-3142-4c3b-802e-900b431954c7",
+      "newsletter": true
     },
     {
       "filename": "fanfarlo-rooms.webp",
@@ -3497,7 +3668,8 @@
         "indie",
         "not for everyone"
       ],
-      "id": "6f08f052-708a-46e5-809d-118d5bcb48e8"
+      "id": "6f08f052-708a-46e5-809d-118d5bcb48e8",
+      "newsletter": true
     },
     {
       "filename": "thievery-saudade.jpg",
@@ -3518,7 +3690,8 @@
         "brazilian",
         "chill"
       ],
-      "id": "7751cf56-c64b-46cc-b777-629c924b46e6"
+      "id": "7751cf56-c64b-46cc-b777-629c924b46e6",
+      "newsletter": true
     },
     {
       "filename": "seal-seal.jpg",
@@ -3537,7 +3710,8 @@
         "soul",
         "classic"
       ],
-      "id": "b55d6b9b-90c1-4d61-ae35-1422beb8a5a4"
+      "id": "b55d6b9b-90c1-4d61-ae35-1422beb8a5a4",
+      "newsletter": true
     },
     {
       "filename": "ginger-shinbangumi.jpg",
@@ -3555,7 +3729,8 @@
         "pop",
         "special vibes"
       ],
-      "id": "8f92c7cc-c843-43e1-8ee4-10e11a772996"
+      "id": "8f92c7cc-c843-43e1-8ee4-10e11a772996",
+      "newsletter": true
     },
     {
       "filename": "avalanches-since.jpg",
@@ -3578,7 +3753,8 @@
         "electronic",
         "classic"
       ],
-      "id": "08048074-592c-4ff4-aebf-edfedd372427"
+      "id": "08048074-592c-4ff4-aebf-edfedd372427",
+      "newsletter": true
     },
     {
       "filename": "avalanches-wildflower.jpg",
@@ -3598,7 +3774,8 @@
       "tags": [
         "electronic"
       ],
-      "id": "441e6dee-d08b-43c1-8d63-1c40858d949c"
+      "id": "441e6dee-d08b-43c1-8d63-1c40858d949c",
+      "newsletter": true
     },
     {
       "filename": "mum-sing.jpg",
@@ -3623,7 +3800,8 @@
         "scandinavian",
         "magical"
       ],
-      "id": "c3bbe9df-ad34-400e-9c06-c82246156551"
+      "id": "c3bbe9df-ad34-400e-9c06-c82246156551",
+      "newsletter": true
     },
     {
       "filename": "badbad-slow.jpg",
@@ -3642,7 +3820,8 @@
         "soul",
         "peaceful"
       ],
-      "id": "8faf3e32-5e6c-4108-bc7d-c91197892dea"
+      "id": "8faf3e32-5e6c-4108-bc7d-c91197892dea",
+      "newsletter": true
     },
     {
       "filename": "beach-surfs.jpg",
@@ -3659,7 +3838,8 @@
       "tags": [
         "chill"
       ],
-      "id": "32c496cd-627d-4256-8157-1436de6b2b88"
+      "id": "32c496cd-627d-4256-8157-1436de6b2b88",
+      "newsletter": true
     },
     {
       "filename": "jessie-that.webp",
@@ -3682,7 +3862,8 @@
         "party",
         "cunty"
       ],
-      "id": "26e1a5e1-903f-404b-91d0-5b46cd8e6a7a"
+      "id": "26e1a5e1-903f-404b-91d0-5b46cd8e6a7a",
+      "newsletter": true
     },
     {
       "filename": "jessie-pleasure.jpg",
@@ -3709,7 +3890,8 @@
         "party",
         "cunty"
       ],
-      "id": "a42978b1-8696-454e-9f4e-eace4c07a28b"
+      "id": "a42978b1-8696-454e-9f4e-eace4c07a28b",
+      "newsletter": true
     },
     {
       "filename": "janet-velvet.jpg",
@@ -3729,7 +3911,8 @@
         "pop",
         "classic"
       ],
-      "id": "4b23db31-fe59-482c-b346-5aaac8121cda"
+      "id": "4b23db31-fe59-482c-b346-5aaac8121cda",
+      "newsletter": true
     },
     {
       "filename": "spellling-turning.jpg",
@@ -3754,7 +3937,8 @@
         "singer-songwriter",
         "magical"
       ],
-      "id": "54bb8fc8-63b7-4348-8dee-ada755d9a41d"
+      "id": "54bb8fc8-63b7-4348-8dee-ada755d9a41d",
+      "newsletter": true
     },
     {
       "filename": "sault-rise.jpg",
@@ -3777,7 +3961,8 @@
         "soul",
         "chill"
       ],
-      "id": "dfb57a23-cd9c-4841-bfa7-ad4deb62722e"
+      "id": "dfb57a23-cd9c-4841-bfa7-ad4deb62722e",
+      "newsletter": true
     },
     {
       "filename": "tribe-thank.jpg",
@@ -3799,7 +3984,8 @@
       "tags": [
         "hip-hop"
       ],
-      "id": "769ba7fa-9305-4dc2-833d-f6a7a9b8dabd"
+      "id": "769ba7fa-9305-4dc2-833d-f6a7a9b8dabd",
+      "newsletter": true
     },
     {
       "filename": "marvin-what.jpg",
@@ -3819,7 +4005,8 @@
         "soul",
         "classic"
       ],
-      "id": "63c3b193-a0cc-4888-9ba0-73f428523364"
+      "id": "63c3b193-a0cc-4888-9ba0-73f428523364",
+      "newsletter": true
     },
     {
       "filename": "lykke-wounded.jpg",
@@ -3840,7 +4027,8 @@
         "pop",
         "from the heart"
       ],
-      "id": "4757e6c2-bc83-4013-b785-ed8391e39d8f"
+      "id": "4757e6c2-bc83-4013-b785-ed8391e39d8f",
+      "newsletter": true
     },
     {
       "filename": "slow-yeah.jpg",
@@ -3860,7 +4048,8 @@
         "indie",
         "chill"
       ],
-      "id": "6d3d92ec-f07a-4bc2-a214-a959ffe9c532"
+      "id": "6d3d92ec-f07a-4bc2-a214-a959ffe9c532",
+      "newsletter": true
     },
     {
       "filename": "marcos-valle.jpg",
@@ -3880,7 +4069,8 @@
         "pop",
         "party"
       ],
-      "id": "06a6fe5c-8ddc-43f0-bb1e-18c773ee0aa4"
+      "id": "06a6fe5c-8ddc-43f0-bb1e-18c773ee0aa4",
+      "newsletter": true
     },
     {
       "filename": "erasmo-carlos.jpg",
@@ -3899,7 +4089,8 @@
         "pop",
         "rock"
       ],
-      "id": "14e040c5-d4ba-467a-b82e-7ea122ba4829"
+      "id": "14e040c5-d4ba-467a-b82e-7ea122ba4829",
+      "newsletter": true
     },
     {
       "filename": "scott-passing.jpg",
@@ -3921,7 +4112,8 @@
         "pop",
         "chill"
       ],
-      "id": "26e6952c-e498-4cd5-a8b8-3a7b84f19dd1"
+      "id": "26e6952c-e498-4cd5-a8b8-3a7b84f19dd1",
+      "newsletter": true
     },
     {
       "filename": "daniel-silent.jpg",
@@ -3940,7 +4132,8 @@
         "folky",
         "indie"
       ],
-      "id": "882adae7-313a-4744-96b2-fd108afd4f19"
+      "id": "882adae7-313a-4744-96b2-fd108afd4f19",
+      "newsletter": true
     },
     {
       "filename": "morning-echo.jpg",
@@ -3958,7 +4151,8 @@
       "tags": [
         "indie"
       ],
-      "id": "fe6b5f11-fa84-4f0d-838c-359dea37cc99"
+      "id": "fe6b5f11-fa84-4f0d-838c-359dea37cc99",
+      "newsletter": true
     },
     {
       "filename": "muse-absolution.jpg",
@@ -3980,7 +4174,8 @@
         "cringe",
         "rock"
       ],
-      "id": "d5ce7046-73a4-40b3-bc8c-2a7c54dacbed"
+      "id": "d5ce7046-73a4-40b3-bc8c-2a7c54dacbed",
+      "newsletter": true
     },
     {
       "filename": "quadron-quadron.jpg",
@@ -4000,7 +4195,8 @@
         "scandinavian",
         "not for everyone"
       ],
-      "id": "86cea954-6b10-4c41-9bda-49122b18c121"
+      "id": "86cea954-6b10-4c41-9bda-49122b18c121",
+      "newsletter": true
     },
     {
       "filename": "zero-garden.jpg",
@@ -4018,7 +4214,8 @@
         "electronic",
         "pop"
       ],
-      "id": "b2573c2a-b3b4-4afd-a38f-86834a2889e1"
+      "id": "b2573c2a-b3b4-4afd-a38f-86834a2889e1",
+      "newsletter": true
     },
     {
       "filename": "massive-heligoland.jpg",
@@ -4040,7 +4237,8 @@
         "electronic",
         "not for everyone"
       ],
-      "id": "a6fbb1db-dbf7-43a6-b5d6-093346643107"
+      "id": "a6fbb1db-dbf7-43a6-b5d6-093346643107",
+      "newsletter": true
     }
   ]
 }

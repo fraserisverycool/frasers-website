@@ -10,6 +10,7 @@ interface Video {
   embedUrl?: SafeResourceUrl;
   rating: number[];
   id: string;
+  newsletter: boolean;
 }
 
 

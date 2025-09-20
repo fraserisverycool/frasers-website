@@ -7,4 +7,5 @@ export interface Durstloescher {
   fraserdescription: string;
   rating: number[];
   id: string;
+  newsletter: boolean;
 }

@@ -12,6 +12,7 @@ export interface Character {
   deco: Decoration[];
   rating: number[];
   id: string;
+  newsletter: boolean;
 }
 
 export interface Decoration {

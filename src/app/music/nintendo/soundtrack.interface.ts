@@ -6,4 +6,5 @@ export interface Soundtrack {
   topTracks: string[];
   rating: number[];
   id: string;
+  newsletter: boolean;
 }
