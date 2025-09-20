@@ -1,6 +1,14 @@
 {
   "films": [
     {
+      "filename": "moonstruck.png",
+      "title": "Moonstruck",
+      "description": "We watched this because it has Cher in it but were horrified when the heart-throb man on the film turned out to be horrible Nicolas Cage. Cher is beautiful but the film aged badly",
+      "year": "2025",
+      "release": "1987",
+      "id": "ee72f745-1cce-4bf9-bba6-a2015aad3474"
+    },
+    {
       "filename": "blue-boy.jpg",
       "title": "Blue Boy",
       "description": "Short film featuring escorts listening to themselves tell stories. It was nice and thought-provoking",

@@ -825,6 +825,14 @@
       "id": "4f3e1a0d-6987-4c20-ae1c-a51936931d66"
     },
     {
+      "artist": "Clipping.",
+      "album": "There Existed an Addiction to Blood",
+      "genre": "Jazz, Soul & Hip-Hop",
+      "description": "Very dark and harrowing hip-hop/noise music",
+      "image": "clipping-existed.jpg",
+      "id": "bb638bf5-c43e-4810-b32b-63b696742f88"
+    },
+    {
       "artist": "Caetano Veloso",
       "album": "Antologia",
       "genre": "Vocal Jazz & Smooth",
@@ -959,6 +967,14 @@
       "description": "Spotted this in a second hand shop in Friedrichshain",
       "image": "edith-non.jpg",
       "id": "645adee3-5de8-4925-b802-f924364f0b7d"
+    },
+    {
+      "artist": "G'Emma",
+      "album": "Wintersadness",
+      "genre": "Vocal Jazz & Smooth",
+      "description": "A friend in Berlin released this EP on CD! Got it at her concert in Kotti",
+      "image": "gemma-winter.jpg",
+      "id": "d24b0a61-0c19-4e12-9d2f-a70cd88310cc"
     },
     {
       "artist": "Garoad",

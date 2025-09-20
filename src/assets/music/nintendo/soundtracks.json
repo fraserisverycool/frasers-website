@@ -1,6 +1,41 @@
 {
   "soundtracks": [
     {
+      "filename": "donkey-kong-bananza.jpg",
+      "name": "Donkey Kong Bananza",
+      "description": "I was so shook when they released this special release of 9 tracks from the game as part of a promotion for the DLC on a Saturday! Talk about unpredictable. I can't help but ask myself why they didn't just release the whole soundtrack! Whatever, I need to move on. This game has some great bops in it. It's not on the level of Tropical Freeze but we do have the incredible Zebra Bananza at least.",
+      "platform": "Switch 2",
+      "topTracks": [
+        "Canyon Layer",
+        "2D Challenge Course 1 (DK Island Swing)",
+        "Zebra Bananza"
+      ],
+      "id": "7de975de-956f-411e-9499-785d023fec09"
+    },
+    {
+      "filename": "super-mario-galaxy-2.png",
+      "name": "Super Mario Galaxy 2",
+      "description": "I didn't truly appreciate until this release that this soundtrack is largely orchestrated! It's a noticeable upgrade from the first game in many ways. Honestly when I was younger I didn't love this game as much as the first and I kinda slept on the soundtrack. Listening to some of Mario Kart World's remixes of these tracks opened my eyes to how great they are. For example, 'Yoshi Star Galaxy' is a huge bop, and you know what it was composed by none other than Koji Kondo! It all makes sense. Also, Digga-Leg is a total sleeper hit. Otherwise this game features a lot of the same kinds of levels as the first one, a new beach level, a new fire/ice level, a new lava, desert level etc, and I'm impressed that they managed to write a different tune with the exact same vibe for them. There are also two secret peaceful tracks which have no right being as lovely as they are, 'World 3' and 'Slimy Spring Galaxy'. Little moments of beauty in the game, love it.",
+      "platform": "Wii",
+      "topTracks": [
+        "Yoshi Star Galaxy",
+        "Digga-Leg",
+        "Wild Glide Galaxy",
+        "Cosmic Cove Galaxy",
+        "World 3",
+        "Freezy Flake Galaxy",
+        "Starshine Beach Galaxy",
+        "Bowser's Lava Lair",
+        "Bowser Jr.'s Fiery Flotilla",
+        "Melty Monster Galaxy",
+        "Throwback Galaxy",
+        "Sweet Mystery Galaxy",
+        "Slimy Spring Galaxy",
+        "Bowser's Galaxy Generator"
+      ],
+      "id": "9b8b09c1-50c2-4851-a36e-7ea8dcd99a48"
+    },
+    {
       "filename": "golden-sun-lost-age.jpg",
       "name": "Golden Sun: The Lost Age",
       "description": "At first I wasn't excited to see another Golden Sun soundtrack on here, having only dabbled with the game as a child and not knowing the music. The GBA soundfont is tinny and a lot of the music blends into itself but I found myself being pleasantly surprised by a number of the tracks in here! I like the general use of 3/4 time in some of the tracks, making a kind of idiosyncratic, off-kilter vibe.",
