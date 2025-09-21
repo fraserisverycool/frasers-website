@@ -86,6 +86,9 @@ export const routes: Routes = [
     path: 'guestbook', loadComponent: () => import('./guestbook/guestbook.component')
   },
   {
-    path: 'newsletter', loadComponent: () => import('./newsletter/newsletter.component')
-  }
+    path: 'newsletter', loadComponent: () => import('./newsletter/newsletters.component')
+  },
+  {
+    path: 'newsletter/:timestamp', loadComponent: () => import('./newsletter/newsletter/newsletter.component')
+  },
 ];

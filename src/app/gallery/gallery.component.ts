@@ -25,7 +25,7 @@ export default class GalleryComponent implements OnInit {
         this.getRatings();
       },
       error: (err) => {
-        console.error('Failed to load albums:', err);
+        console.error('Failed to load photos:', err);
       },
     });
   }

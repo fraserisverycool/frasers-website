@@ -1,0 +1,19 @@
+<div class="container">
+  <div *ngIf="newsletter">
+    <div class="title">{{ newsletter.title }}</div>
+    <div class="timestamp">{{ newsletter.timestamp }}</div>
+    <div *ngFor="let paragraph of newsletter.description">
+      <div class="description">{{ paragraph }}</div>
+    </div>
+    <div *ngFor="let entry of newsletter.entries; let i = index" [ngClass]="['entry', getClass(entry)]">
+      <div [ngClass]="['special-title', getClass(entry)]">{{ getName(entry.type) }}</div>
+      <div class="entry-title">{{ entry.title }}</div>
+      <div class="entry-metadata">{{ entry.metadata }}</div>
+      <div *ngFor="let entryparagraph of entry.description">
+        <div class="description">{{ entryparagraph }}</div>
+      </div>
+      <img [ngSrc]="entry.image" [alt]="entry.title" class="entry-image" width="600" height="600">
+    </div>
+    <app-rating-bar [rating]="{id: newsletter.id, ratings: newsletter.rating}"></app-rating-bar>
+  </div>
+</div>

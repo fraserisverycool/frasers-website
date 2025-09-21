@@ -1,6 +1,36 @@
 {
   "games": [
     {
+      "name": "The Rogue Prince of Persia",
+      "vibes": "3",
+      "gameplay": "5",
+      "review": [
+        "Fab recommended me this game on his Gamepass and I gave it a go. It's a roguelite that's just the same as Dead Cells, which I never really played. I really didn't like the corporate vibe of the game. The music sounds like generic 'middle eastern' music for an epic blockbuster film. I also feel like the animations are a bit off. The artstyle is good though! They had a vision, that's for sure. But something about playing this while playing Silksong makes it feel so clunky and shit in comparison. I'm looking forward to playing Hades 2 later this year though!"
+      ],
+      "image": "rogue-prince.jpg",
+      "platform": "Xbox Gamepass",
+      "year": "2025",
+      "release": "2025",
+      "score": 2,
+      "id": "7dec0035-c866-47d5-82a4-6dcaca5e8ee9",
+      "newsletter": false
+    },
+    {
+      "name": "Donkey Kong '94",
+      "vibes": "5",
+      "gameplay": "7",
+      "review": [
+        "This gameboy game has a lot going for it! I've never seen a gameboy game with this many movement options. You can do cool flips if you change direction right before jumping, and you can jump on your head and hop off higher too. Then there are just a bunch of cool levels, like little puzzles to work through. It's honestly great."
+      ],
+      "image": "donkey-kong-94.png",
+      "platform": "Gameboy",
+      "year": "2025",
+      "release": "1994",
+      "score": 13,
+      "id": "4e0d0cd3-7564-4a7d-9f9d-a4a52ba88c2a",
+      "newsletter": false
+    },
+    {
       "name": "Blue Prince",
       "vibes": "10",
       "gameplay": "10",

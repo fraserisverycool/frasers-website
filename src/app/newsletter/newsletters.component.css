@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(45deg, #573203, #7d3105);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: #cccab6;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-container {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.newsletter-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.newsletter-row a {
+  color: #cccab6;
+}
+
+.newsletter-row:hover {
+  background-color: #aa691d;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}

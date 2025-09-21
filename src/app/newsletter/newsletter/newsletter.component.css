@@ -1,0 +1,197 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(45deg, #f4d0a2, #d39173);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: #32130b;
+  border: 2px solid #32130b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.timestamp {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.description {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.entry {
+  border: 2px solid #32130b;
+  border-radius: 7px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #1f1f1f;
+}
+
+.entry-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.entry-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.entry-metadata {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.entry-image {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.entry.game {
+  background-color: #f8f9b0
+}
+
+.entry.film {
+  background-color: #f6bfc0
+}
+
+.entry.durstloescher {
+  background-color: #717eb5
+}
+
+.entry.book {
+  background-color: #cbfdf8
+}
+
+.entry.gallery {
+  background-color: #f8dcbb
+}
+
+.entry.video {
+  background-color: #fcfddd
+}
+
+.entry.character-deco {
+  background-color: #fdfdfd
+}
+
+.entry.mariokart {
+  background-color: #c1cafd
+}
+
+.entry.stitch {
+  background-color: #fdfdfd
+}
+
+.entry.album {
+  background-color: #dcfde0
+}
+
+.entry.cd {
+  background-color: #cefd9a
+}
+
+.entry.mix {
+  background-color: #c9fd28
+}
+
+.entry.soundtrack {
+  background-color: #cbfa9b
+}
+
+.entry.kk {
+  background-color: #b8e5a4
+}
+
+.special-title {
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-weight: bold;
+}
+
+.special-title.game {
+  color: #c55100
+}
+
+.special-title.film {
+  color: #a10000
+}
+
+.special-title.durstloescher {
+  color: #333333
+}
+
+.special-title.book {
+  color: #1c4670
+}
+
+.special-title.gallery {
+  color: #7e2900
+}
+
+.special-title.video {
+  color: #333333
+}
+
+.special-title.character-deco {
+  color: #28026a
+}
+
+.special-title.mariokart {
+  color: #32026f
+}
+
+.special-title.stitch {
+  color-color: #142879
+}
+
+.special-title.album {
+  color: #333333
+}
+
+.special-title.cd {
+  color: #333333
+}
+
+.special-title.mix {
+  color: #333333
+}
+
+.special-title.soundtrack {
+  color: #333333
+}
+
+.special-title.kk {
+  color: #333333
+}
