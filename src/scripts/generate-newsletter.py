@@ -169,7 +169,7 @@ def main():
     generate_newsletter("My first newsletter",
                         ["Hello visitors to my website, welcome to my new newsletter! By popular demand, I have made available all the changes to the website as they come, you don't have to come and check it yourself every time.",
                          "It's currently September 2025, around 9 months since I started working on the website, so these newsletters won't contain stuff I wrote before then. I think that just means that there is a treasure trove of stuff on here for those who want to go diving. But at least you'll be informed on any new things I'm up to.",
-                         "Working on this website has been such a highlight of the year. It's the first time I've ever actually enjoyed recreational programming! As an added bonus, I learned a ton about web development which is literally useful for my job."
+                         "Working on this website has been such a highlight of the year. It's the first time I've ever actually enjoyed recreational programming! As an added bonus, I learned a ton about web development which is literally useful for my job.",
                          "2025 is making a strong case for being the best year of my life so far, which is very exciting. Getting a boyfriend, having an unforgettable trip to Mexico, and the release of the Nintendo Music App - so much magic has happened this year!",
                          "Anyway, here is a list of new things I've posted to the website recently. I'm not sure how often I will do these newsletters."])
 

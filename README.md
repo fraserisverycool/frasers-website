@@ -5,7 +5,7 @@ Angular project! A place to put all the shit I used to put on Social Media befor
 # How to get it running
 
 ## Connect to the Raspberry Pi
-I currently run this on a raspberry pi but you can obvious put it anywhere. You need to find what IP address your server has, which you can do by opening the terminal of said server and typing: `ifconfig -a`
+I currently run this on a raspberry pi but you can put it anywhere. You need to find what IP address your server has, which you can do by opening the terminal of said server and typing: `ifconfig -a`
 
 Then I recommend you set it up so that you can ssh into your raspberry pi from your normal computer. For example:
 

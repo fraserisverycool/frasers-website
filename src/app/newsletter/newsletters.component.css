@@ -2,7 +2,6 @@
   max-width: 800px;
   margin: auto;
   padding: 20px;
-  background: linear-gradient(45deg, #573203, #7d3105);
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   color: #cccab6;
   border: 2px solid #000000;
@@ -11,6 +10,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url('../../assets/newsletter/chocolatebackground.png');
+  background-repeat: repeat;
 }
 
 .table-container {
