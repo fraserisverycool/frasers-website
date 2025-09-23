@@ -6,7 +6,9 @@
     <div class="platform-icon" [ngClass]="selectedSoundtrack.platform | lowercase">
       {{ selectedSoundtrack.platform }}
     </div>
-    <p>{{ selectedSoundtrack.description }}</p>
+    <div *ngFor="let paragraph of selectedSoundtrack.description">
+      <p>{{ paragraph }}</p>
+    </div>
     <h3>Top Tracks:</h3>
     <ul class="top-tracks">
       <li *ngFor="let track of selectedSoundtrack.topTracks" [style.background-color]="currentRandomColor">{{ track }}</li>

@@ -57,7 +57,7 @@ def mapper_stitches(json_item):
     return None, [json_item["comment"]], "assets/misc/stitch/" + json_item["filename"], None
 
 def mapper_albums(json_item):
-    return json_item["name"], [json_item["description"]], "assets/music/albums/" + json_item["filename"], "Artist: " + json_item["artist"] + ", Release: " + json_item["releaseyear"] + ", for a list of favourite tracks, please visit the albums page!"
+    return json_item["name"], json_item["description"], "assets/music/albums/" + json_item["filename"], "Artist: " + json_item["artist"] + ", Release: " + json_item["releaseyear"] + ", for a list of favourite tracks, please visit the albums page!"
 
 def mapper_cds(json_item):
     return json_item["album"], [json_item["description"]], "assets/music/albums/" + json_item["image"], "Artist: " + json_item["artist"]
@@ -66,7 +66,7 @@ def mapper_mixes(json_item):
     return json_item["name"], [json_item["description"]], None, "For a download link, please visit the video game mixes page!"
 
 def mapper_soundtracks(json_item):
-    return json_item["name"], [json_item["description"]], "assets/music/nintendo/" + json_item["filename"], "Platform: " + json_item["platform"] + ", for a list of favourite tracks, please visit the nintendo soundtracks page!"
+    return json_item["name"], json_item["description"], "assets/music/nintendo/" + json_item["filename"], "Platform: " + json_item["platform"] + ", for a list of favourite tracks, please visit the nintendo soundtracks page!"
 
 def mapper_kk(json_item):
     return json_item["title"], [json_item["description"]], "assets/music/nintendo/kk/" + json_item["filename"], "Tier: " + json_item["tier"]

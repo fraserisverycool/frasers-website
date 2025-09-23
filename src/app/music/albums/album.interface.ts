@@ -3,7 +3,7 @@ export interface Album {
   artist: string;
   name: string;
   releaseyear: string;
-  description: string;
+  description: string[];
   topTracks: string;
   tags: string;
   color: string;

@@ -14,6 +14,13 @@
   <div class="image">
     <img [ngSrc]="randomImage" width="600" height="600">
   </div>
+  <div class="gif">
+    <img src="../../../assets/homepage/whatsnew.gif">
+  </div>
+  <p>I have a newsletter! You can subscribe if you don't want to miss out on all the stuff I'm adding to the website:</p>
+  <button class="fun-button newsletter" (click)="handleClick('/newsletter')">
+    <span class="button-text">Newsletter</span>
+  </button>
   <h3>Updates to the website</h3>
   <div class="changelog-container">
     <app-changelog></app-changelog>

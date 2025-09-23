@@ -1,7 +1,7 @@
 export interface Soundtrack {
   filename: string;
   name: string;
-  description: string;
+  description: string[];
   platform: string;
   topTracks: string[];
   rating: number[];
