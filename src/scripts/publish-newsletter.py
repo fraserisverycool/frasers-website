@@ -1,10 +1,10 @@
-from xml.dom.minidom import parseString
-
-from feedgenerator import Rss201rev2Feed
 import os
 import datetime
 import json
 import glob
+from xml.dom.minidom import parseString
+
+import pytz
 
 RSS_FILENAME = "../assets/newsletter.rss"
 NEWSLETTERS_DIR = "../assets/newsletter"
@@ -15,11 +15,24 @@ def prettify_xml(xml_str):
 
 
 def create_feed_entry(newsletter):
-  description = '\n'.join(newsletter['description'])
+  entries = []
   for entry in newsletter['entries']:
-    description += f"\n{entry['title']}\n{entry.get('metadata', '')}\n{' '.join(entry.get('description', []))}\n{entry.get('image', '')}"
+    description = '<br>'.join(entry.get('description', []))
+    img_tag = f'<img src="https://worldpeace.services/{entry.get("image", "")}" alt="{entry.get("title")}">' if entry.get('image') else ''
+    entries.append(f'''
+            <h2>{entry['title']}</h2>
+            <p><em>{entry.get('metadata', '')}</em></p>
+            <p>{description}</p>
+            {img_tag}
+        ''')
+
+  newsletter_description = '<br>'.join(newsletter.get('description', []))
+
+  description = f'<p>{newsletter_description}</p>' + '\n'.join(entries)
 
   pubdate = datetime.datetime.strptime(newsletter['timestamp'], "%d-%m-%Y")
+
+  description = f"<![CDATA[{description}]]>"
 
   return {
     "title": newsletter['title'],
@@ -44,25 +57,29 @@ def get_newsletters():
 
 
 def generate_rss_file(newsletters):
-  feed = Rss201rev2Feed(
-    title="Fraser's Newsletter",
-    link="https://worldpeace.services/newsletter",
-    description="Welcome to my newsletter! I started making this website at the start of 2025 and I've enjoyed growing it to where it is today. I get that it's hard to constantly check the site for updates, so to make things easier for you guys, I've prepared a newsletter which features all the new content from the website whenever I update it",
-    language="en",
-  )
+  rss_header = '<?xml version="1.0"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel>'
+  rss_header += '<title>Fraser\'s Newsletter</title>'
+  rss_header += '<link>https://worldpeace.services/newsletter</link>'
+  rss_header += '<description>Welcome to my newsletter! I started making this website at the start of 2025 and I\'ve enjoyed growing it to where it is today. I get that it\'s hard to constantly check the site for updates, so to make things easier for you guys, I\'ve prepared a newsletter which features all the new content from the website whenever I update it</description>'
+  rss_header += '<language>en</language>'
+
+  rss_body = ""
+  tz = pytz.timezone('Europe/Berlin')
 
   for newsletter in newsletters:
-    feed.add_item(
-      title=newsletter["title"],
-      link=newsletter["link"],
-      description=newsletter["description"],
-      pubdate=newsletter["pubdate"])
+    rss_body += '<item>'
+    rss_body += f'<title>{newsletter["title"]}</title>'
+    rss_body += f'<link>{newsletter["link"]}</link>'
+    rss_body += f'<description>{newsletter["description"]}</description>'
+    rss_body += f'<pubDate>{newsletter["pubdate"].replace(tzinfo=tz).strftime("%a, %d %b %Y %H:%M:%S %z")}</pubDate>'
+    rss_body += '</item>'
 
-  xml_string = feed.writeString('utf-8')
-  pretty_xml_string = prettify_xml(xml_string)
+  rss_footer = '</channel></rss>'
+
+  rss_feed = rss_header + rss_body + rss_footer
 
   with open(RSS_FILENAME, 'w', encoding='utf-8') as f:
-    f.write(pretty_xml_string)
+    f.write(rss_feed)
 
 
 def main():
