@@ -65,6 +65,22 @@ const Rating = sequelize.define('rating', {
   }
 });
 
+const Anecdote = sequelize.define('answer', {
+  id: {
+    type: DataTypes.STRING,
+    primaryKey: true
+  },
+  answers: {
+    type: DataTypes.STRING,
+  },
+  unmasked: {
+    type: DataTypes.STRING,
+  },
+  anecdote: {
+    type: DataTypes.STRING,
+  }
+});
+
 sequelize.sync();
 
 app.get('/api/feedback', async (req, res) => {
@@ -173,6 +189,45 @@ app.put('/api/ratings/:id', async (req, res) => {
     });
     if (!created) {
       await rating.update({ ratings: stringifiedRatings });
+    }
+    res.status(204).send();
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.post('/api/anecdote', async (req, res) => {
+  const { id: id, answer: answer } = req.body;
+
+  try {
+    const anecdote = await Anecdote.findOne({
+      where: {
+        id: id
+      }
+    });
+
+    if (anecdote.answers.includes(answer.trim().toLowerCase())) {
+      res.json(answer);
+    } else {
+      res.json("no");
+    }
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.put('/api/anecdote/:id', async (req, res) => {
+  const { id } = req.params;
+  const { anecdote: anecdote, answers: answers, unmasked: unmasked } = req.body;
+  const stringifiedAnswers = JSON.stringify(answers);
+  try {
+    const [anecdote, created] = await Anecdote.findOrCreate({
+      where: { id },
+      defaults: { anecdote: anecdote, answers: stringifiedAnswers, unmasked: unmasked }
+    });
+    if (!created) {
+      await anecdote.update({ anecdote: anecdote, answers: stringifiedAnswers, unmasked: unmasked });
     }
     res.status(204).send();
   } catch (err) {
