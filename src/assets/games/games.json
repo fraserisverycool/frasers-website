@@ -13,7 +13,7 @@
       "release": "2025",
       "score": 2,
       "id": "7dec0035-c866-47d5-82a4-6dcaca5e8ee9",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Donkey Kong '94",
@@ -28,7 +28,7 @@
       "release": "1994",
       "score": 13,
       "id": "4e0d0cd3-7564-4a7d-9f9d-a4a52ba88c2a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Blue Prince",
@@ -46,7 +46,7 @@
       "release": "2025",
       "score": 18,
       "id": "085ca94e-8e54-496b-9722-2c014b3ef8a2",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Deltarune: Chapter 4",
@@ -7892,7 +7892,7 @@
       "year": "older",
       "release": "2001",
       "id": "895972bc-fdb4-44b6-b66f-2fcd964cb80d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Desktop Destroyer",
@@ -7906,7 +7906,7 @@
       "year": "older",
       "release": "1999",
       "id": "de4d5d06-2928-4bcb-9143-25c11d7447f1",
-      "newsletter": false
+      "newsletter": true
     }
   ]
 }

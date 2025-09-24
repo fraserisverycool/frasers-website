@@ -65,7 +65,7 @@ const Rating = sequelize.define('rating', {
   }
 });
 
-const Anecdote = sequelize.define('answer', {
+const Anecdote = sequelize.define('anecdote', {
   id: {
     type: DataTypes.STRING,
     primaryKey: true
@@ -201,6 +201,8 @@ app.post('/api/anecdote/:id', async (req, res) => {
   const { id } = req.params;
   const { answer: answer } = req.body;
 
+  console.log("Incoming answer: " + answer);
+
   try {
     const anecdote = await Anecdote.findOne({
       where: {
@@ -208,12 +210,18 @@ app.post('/api/anecdote/:id', async (req, res) => {
       }
     });
 
-    if (anecdote.answers.includes(answer.trim().toLowerCase())) {
+    var answers = JSON.parse(anecdote.answers).map(a => a.trim().toLowerCase())
+    console.log("Checking answers: " + answers);
+
+    if (answers.includes(answer.trim().toLowerCase())) {
       res.json(anecdote);
     } else {
-      res.json("no");
+      console.log("Incorrect answer");
+      res.status(400).json({ error: "Wrong answer" });
     }
   } catch (err) {
+    console.log("Couldn't find anything in the database");
+    console.log(err.message);
     res.status(500).json({ error: err.message });
   }
 });
@@ -234,6 +242,16 @@ app.put('/api/anecdote/:id', async (req, res) => {
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: err.message });
+  }
+});
+
+app.get('/api/anecdote', async (req, res) => {
+  try {
+    const anecdotes = await Anecdote.findAll();
+    console.log(anecdotes);
+    res.json(anecdotes);
+  } catch (error) {
+    res.status(500).json({ error: 'Error retrieving anecdotes' });
   }
 });
 

@@ -57,7 +57,8 @@
           "description": "Some other sticker I found"
         }
       ],
-      "id": "b0741d0d-32a4-44db-a275-7d0c159727bf"
+      "id": "b0741d0d-32a4-44db-a275-7d0c159727bf",
+      "newsletter": true
     },
     {
       "name": "Donkey Kong",
@@ -116,7 +117,8 @@
           "description": "A silly plate I made at the Paint Your Style shop"
         }
       ],
-      "id": "2badc75f-ad92-43ee-aea3-349ab492e9b6"
+      "id": "2badc75f-ad92-43ee-aea3-349ab492e9b6",
+      "newsletter": true
     },
     {
       "name": "Link",
@@ -229,7 +231,8 @@
           "description": "A tiny part of the side of the box of the puzzle"
         }
       ],
-      "id": "51fbd33e-3ed7-4dc1-8934-c06f52a52902"
+      "id": "51fbd33e-3ed7-4dc1-8934-c06f52a52902",
+      "newsletter": true
     },
     {
       "name": "Samus",
@@ -264,7 +267,8 @@
           "description": "Awesome sticker I got from a nintendo booth at a convention"
         }
       ],
-      "id": "88050655-799d-4265-bb86-af767440eb1e"
+      "id": "88050655-799d-4265-bb86-af767440eb1e",
+      "newsletter": true
     },
     {
       "name": "Dark Samus",
@@ -280,7 +284,8 @@
       "understood": true,
       "playedDescription": "I really enjoyed Metroid Prime 2! This character is so creepy and horrible though.",
       "deco": [],
-      "id": "d6b6a6a3-4c9a-4cd2-afe3-c47868d96a49"
+      "id": "d6b6a6a3-4c9a-4cd2-afe3-c47868d96a49",
+      "newsletter": true
     },
     {
       "name": "Yoshi",
@@ -321,7 +326,8 @@
           "description": "A sticker that Marco gave me"
         }
       ],
-      "id": "7c471ba9-c47c-4673-a456-3268aa387171"
+      "id": "7c471ba9-c47c-4673-a456-3268aa387171",
+      "newsletter": true
     },
     {
       "name": "Kirby",
@@ -356,7 +362,8 @@
           "description": "A cool pin that Jack gave me"
         }
       ],
-      "id": "88f34b42-2937-4237-89a8-cdba9ce5b692"
+      "id": "88f34b42-2937-4237-89a8-cdba9ce5b692",
+      "newsletter": true
     },
     {
       "name": "Fox",
@@ -372,7 +379,8 @@
       "understood": true,
       "playedDescription": "Loved Lylat Wars, but never truly got into the rest of the series",
       "deco": [],
-      "id": "3e404fb9-b9cb-40e0-b282-e9396277680c"
+      "id": "3e404fb9-b9cb-40e0-b282-e9396277680c",
+      "newsletter": true
     },
     {
       "name": "Pikachu",
@@ -413,7 +421,8 @@
           "description": "Cute sticker I found"
         }
       ],
-      "id": "b2691607-c790-4598-add1-debfb5d3bca0"
+      "id": "b2691607-c790-4598-add1-debfb5d3bca0",
+      "newsletter": true
     },
     {
       "name": "Luigi",
@@ -448,7 +457,8 @@
           "description": "I found this cool sticker"
         }
       ],
-      "id": "2f4ad144-8f94-40eb-b71a-6b01e565288f"
+      "id": "2f4ad144-8f94-40eb-b71a-6b01e565288f",
+      "newsletter": true
     },
     {
       "name": "Ness",
@@ -471,7 +481,8 @@
           "description": "I cross-stitched this a million years ago"
         }
       ],
-      "id": "a49e562c-dbea-49a3-a959-c7402ac43732"
+      "id": "a49e562c-dbea-49a3-a959-c7402ac43732",
+      "newsletter": true
     },
     {
       "name": "Captain Falcon",
@@ -487,7 +498,8 @@
       "understood": true,
       "playedDescription": "F-Zero X on the N64 was my jam, I actually got good at that. The original and F-Zero 99 also a lot of fun. Let's see about GX though.",
       "deco": [],
-      "id": "4febf021-7131-4451-9c11-c97125daa58d"
+      "id": "4febf021-7131-4451-9c11-c97125daa58d",
+      "newsletter": true
     },
     {
       "name": "Jigglypuff",
@@ -516,7 +528,8 @@
           "description": "Super fun little sticker that Tobias gave me"
         }
       ],
-      "id": "efb1b7cf-c5c5-4c7d-8d8d-fa54ff71f8c9"
+      "id": "efb1b7cf-c5c5-4c7d-8d8d-fa54ff71f8c9",
+      "newsletter": true
     },
     {
       "name": "Peach",
@@ -641,7 +654,8 @@
           "description": "Symon got me this cute Tellerchen!"
         }
       ],
-      "id": "820e9e9a-fd73-426a-99b9-9ab82dbf60a0"
+      "id": "820e9e9a-fd73-426a-99b9-9ab82dbf60a0",
+      "newsletter": true
     },
     {
       "name": "Daisy",
@@ -664,7 +678,8 @@
           "description": "A figurine I got for prizes for side events for tournaments. She's upside down because she's just that kinda gal. I'm a bit nervous that I superglued her to this lamp and now won't be able to sell it if I have to move"
         }
       ],
-      "id": "0e50d953-6b3b-440d-9d45-9171bc8d2118"
+      "id": "0e50d953-6b3b-440d-9d45-9171bc8d2118",
+      "newsletter": true
     },
     {
       "name": "Bowser",
@@ -699,7 +714,8 @@
           "description": "A nice sticker I found"
         }
       ],
-      "id": "fe31c76a-65e7-4b2e-ae50-00f49506988b"
+      "id": "fe31c76a-65e7-4b2e-ae50-00f49506988b",
+      "newsletter": true
     },
     {
       "name": "Ice Climbers",
@@ -722,7 +738,8 @@
           "description": "I painted this!"
         }
       ],
-      "id": "7d10dc1f-23a8-46a4-811e-e54cbebfbb92"
+      "id": "7d10dc1f-23a8-46a4-811e-e54cbebfbb92",
+      "newsletter": true
     },
     {
       "name": "Sheik",
@@ -751,7 +768,8 @@
           "description": "A poster made for our TO team back in like 2023"
         }
       ],
-      "id": "4108cbf7-0f7f-4a56-b817-8c14f0b22722"
+      "id": "4108cbf7-0f7f-4a56-b817-8c14f0b22722",
+      "newsletter": true
     },
     {
       "name": "Zelda",
@@ -780,7 +798,8 @@
           "description": "Not so cute Amiibo"
         }
       ],
-      "id": "c4c3a873-77b2-437c-a7bb-6851b628c327"
+      "id": "c4c3a873-77b2-437c-a7bb-6851b628c327",
+      "newsletter": true
     },
     {
       "name": "Dr. Mario",
@@ -796,7 +815,8 @@
       "understood": true,
       "playedDescription": "I played Dr. Mario 64 and found it to be a pretty weak puzzle game. I beat the story mode by bashing my head against a wall until I won by luck.",
       "deco": [],
-      "id": "e5c70bd1-a2c2-4660-8e17-eb0464b7ea1f"
+      "id": "e5c70bd1-a2c2-4660-8e17-eb0464b7ea1f",
+      "newsletter": true
     },
     {
       "name": "Pichu",
@@ -825,7 +845,8 @@
           "description": "A big keychain I found in Mexico"
         }
       ],
-      "id": "08485eda-b700-4bad-8400-e70f35a4b567"
+      "id": "08485eda-b700-4bad-8400-e70f35a4b567",
+      "newsletter": true
     },
     {
       "name": "Falco",
@@ -848,7 +869,8 @@
           "description": "A poster made for our TO team back in like 2023"
         }
       ],
-      "id": "cd140aa0-7614-4df0-ae4a-d459e4138d3a"
+      "id": "cd140aa0-7614-4df0-ae4a-d459e4138d3a",
+      "newsletter": true
     },
     {
       "name": "Marth",
@@ -864,7 +886,8 @@
       "understood": true,
       "playedDescription": "I played Shadow Dragon on the DS and found it to be a very boring story with plain characters and not much going for it.",
       "deco": [],
-      "id": "0a6d507e-e2d5-40ce-b26b-438659ffa080"
+      "id": "0a6d507e-e2d5-40ce-b26b-438659ffa080",
+      "newsletter": true
     },
     {
       "name": "Lucina",
@@ -887,7 +910,8 @@
           "description": "I made this with hama beads!"
         }
       ],
-      "id": "9489b985-aff0-48ab-b955-3917a76cb5d7"
+      "id": "9489b985-aff0-48ab-b955-3917a76cb5d7",
+      "newsletter": true
     },
     {
       "name": "Young Link",
@@ -910,7 +934,8 @@
           "description": "Awesome official Nintendo poster"
         }
       ],
-      "id": "9c59d5f0-1295-4afc-a9bb-2c5deeb451e4"
+      "id": "9c59d5f0-1295-4afc-a9bb-2c5deeb451e4",
+      "newsletter": true
     },
     {
       "name": "Ganondorf",
@@ -933,7 +958,8 @@
           "description": "Awesome official Nintendo poster"
         }
       ],
-      "id": "a90ba2d9-53d1-48bd-8d18-94c5ccde2c2a"
+      "id": "a90ba2d9-53d1-48bd-8d18-94c5ccde2c2a",
+      "newsletter": true
     },
     {
       "name": "Mewtwo",
@@ -968,7 +994,8 @@
           "description": "Bit of a weak picture of Mewtwo"
         }
       ],
-      "id": "6e2e46fe-2394-4743-9f0d-173eaeb99b7b"
+      "id": "6e2e46fe-2394-4743-9f0d-173eaeb99b7b",
+      "newsletter": true
     },
     {
       "name": "Roy",
@@ -997,7 +1024,8 @@
           "description": "A poster made for our TO team back in like 2023"
         }
       ],
-      "id": "a5d23582-606c-4b78-97dd-0336e0403e5e"
+      "id": "a5d23582-606c-4b78-97dd-0336e0403e5e",
+      "newsletter": true
     },
     {
       "name": "Chrom",
@@ -1020,7 +1048,8 @@
           "description": "I made this with hama beads!"
         }
       ],
-      "id": "09f47b1a-500a-4c24-b748-bdc1d513dfce"
+      "id": "09f47b1a-500a-4c24-b748-bdc1d513dfce",
+      "newsletter": true
     },
     {
       "name": "Mr. Game & Watch",
@@ -1049,7 +1078,8 @@
           "description": "A cool old photo of Oberbaumbrücke that I decided to spruce up with this cool sticker of Game and Watch"
         }
       ],
-      "id": "5e04649d-8470-4285-b76e-0b20cec128f3"
+      "id": "5e04649d-8470-4285-b76e-0b20cec128f3",
+      "newsletter": true
     },
     {
       "name": "Meta Knight",
@@ -1065,7 +1095,8 @@
       "understood": true,
       "playedDescription": "I love Kirby games and I love all the parts with Meta Knight.",
       "deco": [],
-      "id": "f3e1be34-f583-4aad-ac20-3070552ebfcc"
+      "id": "f3e1be34-f583-4aad-ac20-3070552ebfcc",
+      "newsletter": true
     },
     {
       "name": "Pit",
@@ -1081,7 +1112,8 @@
       "understood": true,
       "playedDescription": "I played Kid Icarus uprising and didn't love it. Never played the original.",
       "deco": [],
-      "id": "46fe6f25-6824-4d73-8045-cc5118bdcb7d"
+      "id": "46fe6f25-6824-4d73-8045-cc5118bdcb7d",
+      "newsletter": true
     },
     {
       "name": "Dark Pit",
@@ -1097,7 +1129,8 @@
       "understood": true,
       "playedDescription": "I played Kid Icarus uprising and didn't love it.",
       "deco": [],
-      "id": "88a3a310-191a-49f8-aaf8-896d55431e66"
+      "id": "88a3a310-191a-49f8-aaf8-896d55431e66",
+      "newsletter": true
     },
     {
       "name": "Zero Suit Samus",
@@ -1120,7 +1153,8 @@
           "description": "Super cute drawing of her having a moment with Princess Peach"
         }
       ],
-      "id": "c8a3905a-55fa-41b1-bd8d-ddc9156fb3b1"
+      "id": "c8a3905a-55fa-41b1-bd8d-ddc9156fb3b1",
+      "newsletter": true
     },
     {
       "name": "Wario",
@@ -1155,7 +1189,8 @@
           "description": "Fun sticker I got from some nintendo thing"
         }
       ],
-      "id": "fdbb38e5-e395-4e65-81d9-c96ca9ffb47b"
+      "id": "fdbb38e5-e395-4e65-81d9-c96ca9ffb47b",
+      "newsletter": true
     },
     {
       "name": "Snake",
@@ -1178,7 +1213,8 @@
           "description": "I just printed this out because this artist (hungry_clicker) is so great"
         }
       ],
-      "id": "25819536-808c-4758-bfab-61c8c202aa5a"
+      "id": "25819536-808c-4758-bfab-61c8c202aa5a",
+      "newsletter": true
     },
     {
       "name": "Ike",
@@ -1194,7 +1230,8 @@
       "understood": true,
       "playedDescription": "I loved Radiant Dawn, and eventually later in life played Path of Radiance.",
       "deco": [],
-      "id": "996115e9-acc4-4cfb-8cd6-eca872813586"
+      "id": "996115e9-acc4-4cfb-8cd6-eca872813586",
+      "newsletter": true
     },
     {
       "name": "Pokémon Trainer",
@@ -1223,7 +1260,8 @@
           "description": "Rosie made this with hama beads and gave it to me (in exchange for something I made)"
         }
       ],
-      "id": "6265c9c8-5c31-4701-acef-0cab6700c9dd"
+      "id": "6265c9c8-5c31-4701-acef-0cab6700c9dd",
+      "newsletter": true
     },
     {
       "name": "Diddy Kong",
@@ -1252,7 +1290,8 @@
           "description": "Fun plastic toy I got when I bought some figurines for side event prizes at tournaments"
         }
       ],
-      "id": "33400ecf-0a14-4218-a275-3d5b78482a7a"
+      "id": "33400ecf-0a14-4218-a275-3d5b78482a7a",
+      "newsletter": true
     },
     {
       "name": "Lucas",
@@ -1275,7 +1314,8 @@
           "description": "Beautiful poster that I ordered online"
         }
       ],
-      "id": "3b0e4690-627b-4f4d-be8b-feff48e33a19"
+      "id": "3b0e4690-627b-4f4d-be8b-feff48e33a19",
+      "newsletter": true
     },
     {
       "name": "Sonic",
@@ -1298,7 +1338,8 @@
           "description": "Painting I did as an homage to this really hard-to-understand part of Sonic 3"
         }
       ],
-      "id": "257d7d87-8a84-4ea0-b13e-7c7cc6f5e78c"
+      "id": "257d7d87-8a84-4ea0-b13e-7c7cc6f5e78c",
+      "newsletter": true
     },
     {
       "name": "King Dedede",
@@ -1321,7 +1362,8 @@
           "description": "Dedede features on this cute leaflet"
         }
       ],
-      "id": "cf139543-dbfb-4e79-a1e4-e8201ef67b94"
+      "id": "cf139543-dbfb-4e79-a1e4-e8201ef67b94",
+      "newsletter": true
     },
     {
       "name": "Olimar",
@@ -1374,7 +1416,8 @@
           "description": "Another cute sticker"
         }
       ],
-      "id": "e700e0a9-1e1f-411c-9ce3-97d71cf387db"
+      "id": "e700e0a9-1e1f-411c-9ce3-97d71cf387db",
+      "newsletter": true
     },
     {
       "name": "Lucario",
@@ -1403,7 +1446,8 @@
           "description": "Very mid picture featuring Lucario"
         }
       ],
-      "id": "a06af298-48ea-4a5c-9567-e799502d2b4f"
+      "id": "a06af298-48ea-4a5c-9567-e799502d2b4f",
+      "newsletter": true
     },
     {
       "name": "R.O.B.",
@@ -1432,7 +1476,8 @@
           "description": "Really cool photo of Ostbahnhof that I decided to alter by putting this sticker of ROB on it"
         }
       ],
-      "id": "e9afd3f1-1dff-4d08-bedc-5d86fff261bb"
+      "id": "e9afd3f1-1dff-4d08-bedc-5d86fff261bb",
+      "newsletter": true
     },
     {
       "name": "Toon Link",
@@ -1467,7 +1512,8 @@
           "description": "Awesome depiction of the legend from Wind Waker that I got at a convention"
         }
       ],
-      "id": "e79bd6c2-5b8a-4994-9a68-eecbb68f9673"
+      "id": "e79bd6c2-5b8a-4994-9a68-eecbb68f9673",
+      "newsletter": true
     },
     {
       "name": "Wolf",
@@ -1490,7 +1536,8 @@
           "description": "Great little sticker from this sticker pack that Sirius got me"
         }
       ],
-      "id": "361197be-c2b2-4d22-b560-2cd45cfa194c"
+      "id": "361197be-c2b2-4d22-b560-2cd45cfa194c",
+      "newsletter": true
     },
     {
       "name": "Villager",
@@ -1513,7 +1560,8 @@
           "description": "This was my character in animal crossing for a long time. I followed a youtube tutorial to see how it would be"
         }
       ],
-      "id": "8d1165ff-ade5-4162-bd20-aea4302aea13"
+      "id": "8d1165ff-ade5-4162-bd20-aea4302aea13",
+      "newsletter": true
     },
     {
       "name": "Mega Man",
@@ -1536,7 +1584,8 @@
           "description": "I made this with hama beads!"
         }
       ],
-      "id": "9feb3065-c368-48f7-8c56-bb9c06b0bac2"
+      "id": "9feb3065-c368-48f7-8c56-bb9c06b0bac2",
+      "newsletter": true
     },
     {
       "name": "Wii Fit Trainer",
@@ -1571,7 +1620,8 @@
           "description": "People don't see this painting I made because they have to look up"
         }
       ],
-      "id": "cd4cc90b-276f-40a2-8fe2-bb2b8b25bc4d"
+      "id": "cd4cc90b-276f-40a2-8fe2-bb2b8b25bc4d",
+      "newsletter": true
     },
     {
       "name": "Rosalina & Luma",
@@ -1594,7 +1644,8 @@
           "description": "Cute Amiibo"
         }
       ],
-      "id": "4ca882f5-0834-449a-b88d-5d747b061d04"
+      "id": "4ca882f5-0834-449a-b88d-5d747b061d04",
+      "newsletter": true
     },
     {
       "name": "Little Mac",
@@ -1610,7 +1661,8 @@
       "understood": false,
       "playedDescription": "I really want to get into Punchout because it's genuinely good. But it's hard as balls and I need to actually get good before I can beat it. Maybe I should just play the Wii one.",
       "deco": [],
-      "id": "98e9315b-d95c-4313-89ed-30d34c953e12"
+      "id": "98e9315b-d95c-4313-89ed-30d34c953e12",
+      "newsletter": true
     },
     {
       "name": "Greninja",
@@ -1633,7 +1685,8 @@
           "description": "A fun pokemon card I found in a pack of fake cards from Mexico"
         }
       ],
-      "id": "98186a2b-b750-474d-8d1b-3cb45994fb14"
+      "id": "98186a2b-b750-474d-8d1b-3cb45994fb14",
+      "newsletter": true
     },
     {
       "name": "Mii Brawler",
@@ -1649,7 +1702,8 @@
       "understood": true,
       "playedDescription": "I played Wii Sports to death!",
       "deco": [],
-      "id": "c16e303d-814b-4f11-ab2f-edffe11a2690"
+      "id": "c16e303d-814b-4f11-ab2f-edffe11a2690",
+      "newsletter": true
     },
     {
       "name": "Mii Swordfighter",
@@ -1672,7 +1726,8 @@
           "description": "This Amiibo is where it should be, drowning in pools"
         }
       ],
-      "id": "7d7e0326-34a2-4fab-814f-b6c7557a1b7e"
+      "id": "7d7e0326-34a2-4fab-814f-b6c7557a1b7e",
+      "newsletter": true
     },
     {
       "name": "Mii Gunner",
@@ -1688,7 +1743,8 @@
       "understood": true,
       "playedDescription": "I played Wii Sports to death!",
       "deco": [],
-      "id": "d498b2a8-9921-4556-bc54-44be7874f989"
+      "id": "d498b2a8-9921-4556-bc54-44be7874f989",
+      "newsletter": true
     },
     {
       "name": "Palutena",
@@ -1704,7 +1760,8 @@
       "understood": true,
       "playedDescription": "I played Kid Icarus Uprising but didn't love it. Never played the original.",
       "deco": [],
-      "id": "a34184fb-f7dd-49b9-939c-5d87867a10c2"
+      "id": "a34184fb-f7dd-49b9-939c-5d87867a10c2",
+      "newsletter": true
     },
     {
       "name": "Pac-man",
@@ -1727,7 +1784,8 @@
           "description": "Cool sticker I found"
         }
       ],
-      "id": "9f50dc1a-e9c6-441f-878e-f525e4bb486f"
+      "id": "9f50dc1a-e9c6-441f-878e-f525e4bb486f",
+      "newsletter": true
     },
     {
       "name": "Robin",
@@ -1750,7 +1808,8 @@
           "description": "I made this with hama beads!"
         }
       ],
-      "id": "33f5de7a-47ec-46e0-901e-a9e50a3a3dae"
+      "id": "33f5de7a-47ec-46e0-901e-a9e50a3a3dae",
+      "newsletter": true
     },
     {
       "name": "Shulk",
@@ -1766,7 +1825,8 @@
       "understood": true,
       "playedDescription": "I really enjoyed Xenoblade Chronicles on the Switch. Great game.",
       "deco": [],
-      "id": "1abc9449-c61a-4f88-b059-58c412a676e0"
+      "id": "1abc9449-c61a-4f88-b059-58c412a676e0",
+      "newsletter": true
     },
     {
       "name": "Bowser Jr.",
@@ -1782,7 +1842,8 @@
       "understood": true,
       "playedDescription": "I really like Mario Sunshine!",
       "deco": [],
-      "id": "41ba047c-25fd-4195-999e-5496fa748fa6"
+      "id": "41ba047c-25fd-4195-999e-5496fa748fa6",
+      "newsletter": true
     },
     {
       "name": "Duck Hunt Duo",
@@ -1835,7 +1896,8 @@
           "description": "I drew this for a top 8 picture for BREXIT SUMMIT"
         }
       ],
-      "id": "375f1de7-e410-4e29-9a31-e64b9ae4b186"
+      "id": "375f1de7-e410-4e29-9a31-e64b9ae4b186",
+      "newsletter": true
     },
     {
       "name": "Ryu",
@@ -1858,7 +1920,8 @@
           "description": "This is a kinda boring poster that I saw in the street in Mexico"
         }
       ],
-      "id": "6d07d9ef-3940-4b59-87ad-b7010acaa187"
+      "id": "6d07d9ef-3940-4b59-87ad-b7010acaa187",
+      "newsletter": true
     },
     {
       "name": "Ken",
@@ -1881,7 +1944,8 @@
           "description": "This is a kinda boring poster that I saw in the street in Mexico"
         }
       ],
-      "id": "b0094352-1d8c-44d9-809f-a54a6cc54d90"
+      "id": "b0094352-1d8c-44d9-809f-a54a6cc54d90",
+      "newsletter": true
     },
     {
       "name": "Cloud",
@@ -1897,7 +1961,8 @@
       "understood": true,
       "playedDescription": "I played both the original and the remakes. Great story.",
       "deco": [],
-      "id": "28d97e51-d955-41ee-b683-cba85e072e04"
+      "id": "28d97e51-d955-41ee-b683-cba85e072e04",
+      "newsletter": true
     },
     {
       "name": "Corrin",
@@ -1920,7 +1985,8 @@
           "description": "I painted this, it's what she says when she wins. She really has a way with words."
         }
       ],
-      "id": "6517dcdd-0dbe-400b-ad0e-1c2455e38474"
+      "id": "6517dcdd-0dbe-400b-ad0e-1c2455e38474",
+      "newsletter": true
     },
     {
       "name": "Bayonetta",
@@ -1936,7 +2002,8 @@
       "understood": true,
       "playedDescription": "I played Bayonetta 2 and that's enough for me I think.",
       "deco": [],
-      "id": "f26f912c-69ea-4734-adde-feb891b3fe62"
+      "id": "f26f912c-69ea-4734-adde-feb891b3fe62",
+      "newsletter": true
     },
     {
       "name": "Inkling",
@@ -1959,7 +2026,8 @@
           "description": "Got this sticker from a nintendo booth at a convention"
         }
       ],
-      "id": "c455d77a-7e2b-4dee-8dd6-6ffe6cb69ada"
+      "id": "c455d77a-7e2b-4dee-8dd6-6ffe6cb69ada",
+      "newsletter": true
     },
     {
       "name": "Ridley",
@@ -1982,7 +2050,8 @@
           "description": "Super cool poster that I think Franz got for me"
         }
       ],
-      "id": "534f2d6b-d645-4f62-883c-5e77aeb79631"
+      "id": "534f2d6b-d645-4f62-883c-5e77aeb79631",
+      "newsletter": true
     },
     {
       "name": "Simon",
@@ -1998,7 +2067,8 @@
       "understood": true,
       "playedDescription": "I played Super Castlevania 4, and Castlevania NES. Both required save states but whatever.",
       "deco": [],
-      "id": "5c80d67c-fea3-40cd-9507-6ee7b287f642"
+      "id": "5c80d67c-fea3-40cd-9507-6ee7b287f642",
+      "newsletter": true
     },
     {
       "name": "Richter",
@@ -2014,7 +2084,8 @@
       "understood": true,
       "playedDescription": "I played Rondo of Blood with save states, and genuinely played and loved Symphony of the Night.",
       "deco": [],
-      "id": "0e13aa67-4e81-43c1-9f45-eac930c8f9db"
+      "id": "0e13aa67-4e81-43c1-9f45-eac930c8f9db",
+      "newsletter": true
     },
     {
       "name": "King K. Rool",
@@ -2030,7 +2101,8 @@
       "understood": true,
       "playedDescription": "I love the Donkey Kong series!",
       "deco": [],
-      "id": "78cdd40e-3561-435c-8e2a-0385475b4fcb"
+      "id": "78cdd40e-3561-435c-8e2a-0385475b4fcb",
+      "newsletter": true
     },
     {
       "name": "Isabelle",
@@ -2065,7 +2137,8 @@
           "description": "Cool cushion for the sofa!"
         }
       ],
-      "id": "f66159f8-a83b-4102-bd4f-f1d792daed86"
+      "id": "f66159f8-a83b-4102-bd4f-f1d792daed86",
+      "newsletter": true
     },
     {
       "name": "Incineroar",
@@ -2088,7 +2161,8 @@
           "description": "I got this sticker from a sticker pack that Sirius got me"
         }
       ],
-      "id": "509f5021-02b6-49dc-bb1b-fc9b391b5774"
+      "id": "509f5021-02b6-49dc-bb1b-fc9b391b5774",
+      "newsletter": true
     },
     {
       "name": "Piranha Plant",
@@ -2123,7 +2197,8 @@
           "description": "A fun sticker I found from a Nintendo stand at Comic-Con"
         }
       ],
-      "id": "e8309126-f8ab-4f07-99d1-81582ad5a5e7"
+      "id": "e8309126-f8ab-4f07-99d1-81582ad5a5e7",
+      "newsletter": true
     },
     {
       "name": "Joker",
@@ -2146,7 +2221,8 @@
           "description": "Bought this at a convention"
         }
       ],
-      "id": "635a6a0b-3f95-40c4-b0a9-f2ac9293b0b7"
+      "id": "635a6a0b-3f95-40c4-b0a9-f2ac9293b0b7",
+      "newsletter": true
     },
     {
       "name": "Hero",
@@ -2175,7 +2251,8 @@
           "description": "Another cool sticker from a pack of stickers that Sirius got me"
         }
       ],
-      "id": "18662fa3-2b66-4a5b-b44c-57eeee064f2c"
+      "id": "18662fa3-2b66-4a5b-b44c-57eeee064f2c",
+      "newsletter": true
     },
     {
       "name": "Banjo & Kazooie",
@@ -2191,7 +2268,8 @@
       "understood": true,
       "playedDescription": "I played it later in life but enjoyed it! I think I'll skip Tooie.",
       "deco": [],
-      "id": "39f27323-188b-428e-980c-56beb9854938"
+      "id": "39f27323-188b-428e-980c-56beb9854938",
+      "newsletter": true
     },
     {
       "name": "Terry",
@@ -2220,7 +2298,8 @@
           "description": "Found this in a street market in Mexico. It's stunning!"
         }
       ],
-      "id": "8bd047c9-0c49-461d-ac6a-771159217196"
+      "id": "8bd047c9-0c49-461d-ac6a-771159217196",
+      "newsletter": true
     },
     {
       "name": "Byleth",
@@ -2236,7 +2315,8 @@
       "understood": true,
       "playedDescription": "I played through Claude's route and decided that counts.",
       "deco": [],
-      "id": "93d37d4c-2457-4e51-ba14-30146db3c2b4"
+      "id": "93d37d4c-2457-4e51-ba14-30146db3c2b4",
+      "newsletter": true
     },
     {
       "name": "Min Min",
@@ -2259,7 +2339,8 @@
           "description": "Genuinely the best thing I ever painted"
         }
       ],
-      "id": "2bac3778-731a-4a12-b05c-f3828a48495b"
+      "id": "2bac3778-731a-4a12-b05c-f3828a48495b",
+      "newsletter": true
     },
     {
       "name": "Steve",
@@ -2282,7 +2363,8 @@
           "description": "Stole this from a kid's Minecraft comic book that Veo got for his birthday"
         }
       ],
-      "id": "6bde7508-9910-4849-9853-5319462ba507"
+      "id": "6bde7508-9910-4849-9853-5319462ba507",
+      "newsletter": true
     },
     {
       "name": "Sephiroth",
@@ -2298,7 +2380,8 @@
       "understood": true,
       "playedDescription": "I played Final Fantasy 7 the OG and the remakes.",
       "deco": [],
-      "id": "4d1efbb7-e811-44e3-9b20-cf63e2268e96"
+      "id": "4d1efbb7-e811-44e3-9b20-cf63e2268e96",
+      "newsletter": true
     },
     {
       "name": "Pyra/Mythra",
@@ -2314,7 +2397,8 @@
       "understood": true,
       "playedDescription": "I actually beat Xenoblade Chronicles 2! Couldn't do the DLC, that was too much.",
       "deco": [],
-      "id": "fab9870b-b626-4306-b00c-fffcecaebb16"
+      "id": "fab9870b-b626-4306-b00c-fffcecaebb16",
+      "newsletter": true
     },
     {
       "name": "Kazuya",
@@ -2337,7 +2421,8 @@
           "description": "Whale got me this as a gift"
         }
       ],
-      "id": "60516ec7-ac53-4ba6-933e-0c1726fb27c4"
+      "id": "60516ec7-ac53-4ba6-933e-0c1726fb27c4",
+      "newsletter": true
     },
     {
       "name": "Sora",
@@ -2360,7 +2445,8 @@
           "description": "Bought this at a convention"
         }
       ],
-      "id": "3823a315-5a51-471f-b450-438827d4ae2c"
+      "id": "3823a315-5a51-471f-b450-438827d4ae2c",
+      "newsletter": true
     }
   ]
 }

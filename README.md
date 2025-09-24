@@ -90,6 +90,16 @@ sudo tail -f /var/log/nginx/access.log
 sudo tail -f /var/log/nginx/error.log
 ```
 
+## Scripts
+In the scripts folder you can find some useful python scripts.
+
+- add-ids.py: This goes through all the json files and adds a UUID to any item missing one
+- generate-newsletter.py: This goes through all the items that have 'newsletter: false' and aggregates them into a json file, together with a title and description
+- publish-newsletter.py: This updates the rss feed with all the newsletters in the newsletter directory
+- add-newsletter.py: This updates all the items with 'newsletter: true' to indicate that they have appeared in a previous newsletter
+- prepare-secrets.py: This takes the backend info needed for the gallery page and puts it in the database
+- check-secrets.py: This double checks what gallery info is in the database currently
+
 ## Dev mode for testing
 You can also just run the Angular project locally pretty easily if you want to run it locally on your computer for development:
 

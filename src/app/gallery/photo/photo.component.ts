@@ -3,6 +3,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {FormsModule} from "@angular/forms";
 import {Photo} from "../photo.interface";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
+import {PhotoService} from "./service/photo.service";
 
 @Component({
   selector: 'app-photo',
@@ -18,7 +19,9 @@ export default class PhotoComponent {
     description: "",
     month: "",
     question: "",
-    answer: [""]
+    answer: [""],
+    id: "",
+    rating: [0,0,0,0,0,0]
   });
 
   userAnswer = "";
@@ -26,14 +29,19 @@ export default class PhotoComponent {
 
   modalImage: Photo | null = null;
 
+  constructor(private service: PhotoService) {}
+
   checkAnswer(answer: string) {
-    const userAnswer = answer.trim().toLowerCase();
-    if (this.photo.answer.some(answer => answer.toLowerCase() === userAnswer.toLowerCase())) {
-      this.showText = true;
-    } else {
-      alert('Incorrect answer. Please try again.');
-    }
-    this.userAnswer = '';
+    this.service.postAnswer(this.photo.id, answer).subscribe(
+      (data) => {
+        this.photo.description = data['anecdote'];
+        this.photo.unmasked = data['unmasked'];
+        this.showText = true;
+      },
+      (error) => {
+        alert('Incorrect answer. Please try again.');
+      }
+    );
   }
 
   openModal(item: Photo) {

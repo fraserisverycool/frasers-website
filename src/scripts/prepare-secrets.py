@@ -1,16 +1,27 @@
 import json
+import requests
 
-with open('../assets/gallery/gallery.json', encoding='utf-8') as f:
+def make_api_call(id, anecdote, answers, unmasked):
+  #url = "https://worldpeace.services/api/anecdote{}".format(id)
+  url = "http://localhost:3000/api/anecdote/{}".format(id)
+  headers = {'Content-Type': 'application/json'}
+
+  data = {
+    "anecdote": anecdote,
+    "answers": answers,
+    "unmasked": unmasked
+  }
+
+  response = requests.put(url, headers=headers, json=data)
+
+  if response.status_code == 204:
+    print("Successfully updated anecdote with id: {}".format(id))
+  else:
+    print("Failed to update anecdote with id: {}".format(id))
+
+with open('secrets.json', encoding='utf-8') as f:
   data = json.load(f)
 
-new_data = []
-for picture in data['pictures']:
-  new_data.append({
-    'unmasked': picture['unmasked'],
-    'description': picture['description'],
-    'answer': picture['answer'],
-    'id': picture['id']
-  })
+for picture in data:
+  make_api_call(picture['id'], picture['description'], picture['answer'], picture['unmasked'])
 
-with open('secrets.json', 'w', encoding='utf-8') as f:
-  json.dump(new_data, f, ensure_ascii=False, indent=4)

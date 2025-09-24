@@ -934,7 +934,7 @@
       "description": "Very dark and harrowing hip-hop/noise music",
       "image": "clipping-existed.jpg",
       "id": "bb638bf5-c43e-4810-b32b-63b696742f88",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Caetano Veloso",
@@ -1096,7 +1096,7 @@
       "description": "A friend in Berlin released this EP on CD! Got it at her concert in Kotti",
       "image": "gemma-winter.jpg",
       "id": "d24b0a61-0c19-4e12-9d2f-a70cd88310cc",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Garoad",
