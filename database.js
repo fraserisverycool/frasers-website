@@ -229,6 +229,8 @@ app.post('/api/anecdote/:id', async (req, res) => {
 app.put('/api/anecdote/:id', async (req, res) => {
   const { id } = req.params;
   const { anecdote: anecdote, answers: answers, unmasked: unmasked } = req.body;
+  console.log(anecdote);
+  console.log(JSON.stringify(answers));
   const stringifiedAnswers = JSON.stringify(answers);
   try {
     const [anecdoteModel, created] = await Anecdote.findOrCreate({
