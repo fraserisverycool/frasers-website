@@ -197,8 +197,9 @@ app.put('/api/ratings/:id', async (req, res) => {
   }
 });
 
-app.post('/api/anecdote', async (req, res) => {
-  const { id: id, answer: answer } = req.body;
+app.post('/api/anecdote/:id', async (req, res) => {
+  const { id } = req.params;
+  const { answer: answer } = req.body;
 
   try {
     const anecdote = await Anecdote.findOne({
@@ -208,7 +209,7 @@ app.post('/api/anecdote', async (req, res) => {
     });
 
     if (anecdote.answers.includes(answer.trim().toLowerCase())) {
-      res.json(answer);
+      res.json(anecdote);
     } else {
       res.json("no");
     }
@@ -222,12 +223,12 @@ app.put('/api/anecdote/:id', async (req, res) => {
   const { anecdote: anecdote, answers: answers, unmasked: unmasked } = req.body;
   const stringifiedAnswers = JSON.stringify(answers);
   try {
-    const [anecdote, created] = await Anecdote.findOrCreate({
+    const [anecdoteModel, created] = await Anecdote.findOrCreate({
       where: { id },
       defaults: { anecdote: anecdote, answers: stringifiedAnswers, unmasked: unmasked }
     });
     if (!created) {
-      await anecdote.update({ anecdote: anecdote, answers: stringifiedAnswers, unmasked: unmasked });
+      await anecdoteModel.update({ anecdote: anecdote, answers: stringifiedAnswers, unmasked: unmasked });
     }
     res.status(204).send();
   } catch (err) {
