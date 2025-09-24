@@ -1,8 +1,8 @@
 import requests
 
 def get_anecdotes():
-  url = "https://worldpeace.services/api/anecdote"
-  #url = "http://localhost:3000/api/anecdote"
+  #url = "https://worldpeace.services/api/anecdote"
+  url = "http://localhost:3000/api/anecdote"
 
   response = requests.get(url)
 

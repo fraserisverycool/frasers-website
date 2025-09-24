@@ -2,8 +2,8 @@ import json
 import requests
 
 def make_api_call(id, anecdote, answers, unmasked):
-  url = "https://worldpeace.services/api/anecdote{}".format(id)
-  #url = "http://localhost:3000/api/anecdote/{}".format(id)
+  #url = "https://worldpeace.services/api/anecdote{}".format(id)
+  url = "http://localhost:3000/api/anecdote/{}".format(id)
   headers = {'Content-Type': 'application/json'}
 
   data = {
