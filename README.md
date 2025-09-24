@@ -97,7 +97,7 @@ In the scripts folder you can find some useful python scripts.
 - generate-newsletter.py: This goes through all the items that have 'newsletter: false' and aggregates them into a json file, together with a title and description
 - publish-newsletter.py: This updates the rss feed with all the newsletters in the newsletter directory
 - add-newsletter.py: This updates all the items with 'newsletter: true' to indicate that they have appeared in a previous newsletter
-- prepare-secrets.py: This takes the backend info needed for the gallery page and puts it in the database
+- prepare-secrets.py: This takes the backend info needed for the gallery page and puts it in the database (this needs to be run on the server)
 - check-secrets.py: This double checks what gallery info is in the database currently
 
 ## Dev mode for testing

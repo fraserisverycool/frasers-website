@@ -7,6 +7,32 @@ a {
   color: purple;
 }
 
+@keyframes gradient {
+  0% {background: #ff9a9e;}
+  50% {background: #fecfef;}
+  100% {background: #ff9a9e;}
+}
+
 .links {
   text-align: center;
+  padding: 1em;
+  animation: gradient 5s ease infinite;
+}
+
+.links h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4em;
+  color: #0336ff;
+  text-shadow: 2px 2px #ffb73d;
+}
+
+.links a {
+  color: #0336ff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #ffb73d;
+  transform: rotate(360deg);
+  transition: transform 0.5s;
 }
