@@ -1,6 +1,22 @@
 {
   "pictures": [
     {
+      "filename": "verweile.jpg",
+      "title": "Verweile doch du bist so schön",
+      "month": "September 2025",
+      "question": "Who is singing?",
+      "id": "8077001d-ffa4-441a-9369-4f5379221b4e",
+      "newsletter": false
+    },
+    {
+      "filename": "belch.jpg",
+      "title": "Honouring the sunflower with an appropriate stand",
+      "month": "August 2025",
+      "question": "What's this flower pot thing made out of?",
+      "id": "613617ce-f45b-4628-bced-ab1a9ead9058",
+      "newsletter": false
+    },
+    {
       "filename": "bob2.jpg",
       "title": "Fabulous party idea",
       "month": "July 2025",
