@@ -1,6 +1,22 @@
 {
   "pictures": [
     {
+      "filename": "beach.jpg",
+      "title": "Beach from a postcard",
+      "month": "October 2025",
+      "question": "Where was this photo taken?",
+      "id": "575236a8-781f-47c4-9f28-66ea1e34fbfa",
+      "newsletter": false
+    },
+    {
+      "filename": "marlo2.jpg",
+      "title": "Painting date",
+      "month": "September 2025",
+      "question": "Who is this beauty pictured in this photo?",
+      "id": "da2a1704-98be-4048-a7bd-6e1a456cf94d",
+      "newsletter": false
+    },
+    {
       "filename": "bob2.jpg",
       "title": "Fabulous party idea",
       "month": "July 2025",

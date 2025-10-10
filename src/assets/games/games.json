@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "name": "Hollow Knight: Silksong",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "I can't believe that after 7 years we actually got this game, and that it's as good as it is. Shoutouts to the dev team for ignoring the internet's feverish cries and instead taking their sweet time crafting the best metroidvania ever. They let this cook for as long as they needed - I mean they had all that money from the first game so why not! And the result is, they made a huge and beautiful game. And they sold it for just 20€! Incredible stuff. Defy the markets and do the right thing! I guess it's something you can only do as an indie studio if you make a legendary game like the first Hollow Knight.",
+        "Playing this has been a total pleasure because at the same time I've watched Victor play the first Hollow Knight. Watching him get immersed into the familiar world of Hollow Knight while I simultaneously jump into the brand new world of Silksong has been amazing because we can compare experiences. This game has so many moments of wonder as you discover a brand new area, desperately looking for a bench or a map.",
+        "In the game, you need to climb up what appears to be a mountain, which has a Citadel at the top. You already know there's gonna be a City of Tears-style ruined civilisation in that citadel and this game serves exactly that and SO MUCH MORE! And of course there is an equally rich and dense lore behind all these bugs and insects, just like in the first one. And you get to play as the cute and beautiful Hornet! She feels kinda different and I like it. I also love that she actually speaks! And not only that, but is well spoken. I'm done with silent protagonists. Bring me more protagonists like Hornet, who eloquently talk about smart stuff with NPCs. Yes.",
+        "Just like the original game, this game nails the vibe. There is a deep sadness in all of the caves. An almost dead civilisation dragging themselves towards some kind of inevitable doom. Some of the bugs have lost it already, some are nice but struggling. Some are making things work for them in the hellscape. The music reflects all that! The Bone Bottom music, the place where there is the least hope, is so desperately sad. Then you have the incredible Choral Chambers - wow! I haven't sat down to ask myself what kind of chord sequence that is yet but I am entranced. I also adore the music from Greyhome, and weirdly also the strangely beautiful Bilewater - somewhat unfitting music for such a horrible place.",
+        "This game will stay with me for a long time. It's an absolute gem! Some of the bosses are really hard but even though that Last Judge one really got me going, none of them have really been UNFAIR unfair. At least not yet. I haven't completed it 100% at the time of writing..."
+      ],
+      "image": "silksong.jpg",
+      "platform": "Switch 2",
+      "year": "2025",
+      "release": "2025",
+      "score": 22,
+      "id": "14ce0fca-e78a-4a61-bd24-3179583129af",
+      "newsletter": false
+    },
+    {
       "name": "The Rogue Prince of Persia",
       "vibes": "3",
       "gameplay": "5",
