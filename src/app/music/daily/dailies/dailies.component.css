@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2px solid #023000;
+  background: radial-gradient(circle, #a2f5c3, #abff7a);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-weight: bold;
+  color: #333;
+}
+
+.h3, .p, .a, app-rating-bar {
+  margin: 0;
+}

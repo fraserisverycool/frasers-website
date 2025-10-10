@@ -8,11 +8,12 @@ import {FormsModule} from "@angular/forms";
 import {HomepageColorService} from "./service/homepage-color.service";
 import {catchError, tap} from "rxjs/operators";
 import {of} from "rxjs";
+import {DailyComponent} from "../music/daily/daily.component";
 
 @Component({
   selector: 'app-homepage',
   standalone: true,
-  imports: [NgFor, RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, NgIf],
+  imports: [NgFor, RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, NgIf, DailyComponent],
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css']
 })

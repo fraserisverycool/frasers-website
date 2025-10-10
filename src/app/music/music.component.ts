@@ -5,11 +5,12 @@ import {Album} from "./albums/album.interface";
 import {Soundtrack} from "./nintendo/soundtrack.interface";
 import {CD} from "./cds/cd.interface";
 import {HttpClient} from "@angular/common/http";
+import {DailyComponent} from "./daily/daily.component";
 
 @Component({
   selector: 'app-music',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet, NgOptimizedImage],
+    imports: [CommonModule, RouterLink, RouterOutlet, NgOptimizedImage, DailyComponent],
   templateUrl: './music.component.html',
   styleUrls: ['./music.component.css']
 })

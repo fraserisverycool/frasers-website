@@ -1,0 +1,29 @@
+{
+  "dailysoundtracks": [
+    {
+      "artist": "Yoshito Hirano, Yuka Tsujiyoko",
+      "album": "Paper Mario: The Thousand Year Door",
+      "track": "X-Naut Fortress",
+      "description": "Welcome to the first soundtrack of the day! I'll use this space to recommend you some great music to enjoy every single day! To kick things off, let's celebrate this game's release on the Nintendo Music App with this absolute banger from the Gamecube.",
+      "link": "https://www.youtube.com/watch?v=rfvpEOROQo8",
+      "embed": "https://www.youtube.com/embed/rfvpEOROQo8?si=ta1OOcmr3_ls--nP",
+      "game": true,
+      "day": "11-10-2025",
+      "id": "a1ba4391-ed5a-48db-a32b-894c97f4768b",
+      "newsletter": false
+    },
+    {
+      "artist": "Natalia Lafourcade",
+      "album": "Cancionera",
+      "track": "Cocos en la Playa",
+      "description": "Today I wanna highlight one of my all-time favourite artists Natalia and this song all about fucking off because she's had enough. Say no to screens, likes, annoying real-life shit and just go to the beach, get naked and swim in the sea and chat with the moon. The sigh right before the porrito reveal says it all.",
+      "link": "https://www.youtube.com/watch?v=7a0pq4KYKwQ",
+      "embed": "https://www.youtube.com/embed/7a0pq4KYKwQ?si=SdXgsbo3HvJ4Cq8i",
+      "game": false,
+      "day": "10-10-2025",
+      "id": "1a206338-f0c5-4778-a9d1-533521d6c3be",
+      "newsletter": false
+    }
+  ]
+
+}

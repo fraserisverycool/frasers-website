@@ -44,6 +44,9 @@ export const routes: Routes = [
     path: 'music/cds', loadComponent: () => import('./music/cds/cds.component')
   },
   {
+    path: 'music/daily-soundtracks', loadComponent: () => import('./music/daily/dailies/dailies.component')
+  },
+  {
     path: 'music/worldpeace', loadComponent: () => import('./music/worldpeace/worldpeace.component')
   },
   {

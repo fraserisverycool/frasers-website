@@ -1,0 +1,14 @@
+<div class="daily-soundtrack" *ngIf="today">
+  <div class="overlay"></div>
+  <h2>{{today.track}}</h2>
+  <p *ngIf="!today.game"><strong>Artist:</strong> {{today.artist}}</p>
+  <p *ngIf="today.game"><strong>Composer:</strong> {{today.artist}}</p>
+  <p *ngIf="!today.game"><strong>Album:</strong> {{today.album}}</p>
+  <p *ngIf="today.game"><strong>Game:</strong> {{today.album}}</p>
+  <p><strong>Description:</strong> {{today.description}}</p>
+  <div class="video-container">
+    <iframe [src]="safeLink" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <app-rating-bar [rating]="{id: today.id, ratings: today.rating}"></app-rating-bar>
+  <a routerLink="/music/daily-soundtracks">Here are all the daily soundtracks you missed!</a>
+</div>

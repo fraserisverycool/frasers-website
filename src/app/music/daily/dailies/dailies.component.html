@@ -1,0 +1,22 @@
+<div class="container">
+  <div *ngFor="let track of dailySoundtracks" class="list-item">
+    <div class="date">
+      {{track.day}}
+    </div>
+    <div>
+      <h3 class="h3">{{track.track}}</h3>
+
+      <p class="p" *ngIf="!track.game"><strong>Artist:</strong> {{track.artist}}</p>
+      <p class="p" *ngIf="track.game"><strong>Composer:</strong> {{track.artist}}</p>
+
+      <p class="p" *ngIf="!track.game"><strong>Album:</strong> {{track.album}}</p>
+      <p class="p" *ngIf="track.game"><strong>Game:</strong> {{track.album}}</p>
+
+      <p class="p"><strong>Description:</strong> {{track.description}}</p>
+
+      <a class="a" [href]="track.link">Listen on YouTube</a>
+
+      <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
+    </div>
+  </div>
+</div>

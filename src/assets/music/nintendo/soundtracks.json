@@ -1,6 +1,32 @@
 {
   "soundtracks": [
     {
+      "filename": "paper-mario-ttyd-switch.jpg",
+      "name": "Paper Mario: The Thousand-Year Door",
+      "description": [
+        ""
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        ""
+      ],
+      "id": "42ccf45f-68d9-4560-8641-c15eb866532d",
+      "newsletter": false
+    },
+    {
+      "filename": "paper-mario-ttyd.jpg",
+      "name": "Paper Mario: The Thousand-Year Door",
+      "description": [
+        ""
+      ],
+      "platform": "Gamecube",
+      "topTracks": [
+        ""
+      ],
+      "id": "318afb67-870c-4837-953b-c6748ab65426",
+      "newsletter": false
+    },
+    {
       "filename": "princess-peach-showtime.jpg",
       "name": "Princess Peach: Showtime!",
       "description": [
