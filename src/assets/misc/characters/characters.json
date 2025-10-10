@@ -1960,7 +1960,14 @@
       "completed": true,
       "understood": true,
       "playedDescription": "I played both the original and the remakes. Great story.",
-      "deco": [],
+      "deco": [
+        {
+          "filename": "cloud1.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "I got this at some convention and forgot about it until recently"
+        }
+      ],
       "id": "28d97e51-d955-41ee-b683-cba85e072e04",
       "newsletter": true
     },

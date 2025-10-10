@@ -1,6 +1,20 @@
 {
   "soundtracks": [
     {
+      "filename": "princess-peach-showtime.jpg",
+      "name": "Princess Peach: Showtime!",
+      "description": [
+        "This soundtrack joins Captain Toad as one of Nintendo's newer, generic soundtracks with little to offer. I guess there are too many games for Koji Kondo to preside over, they can't all be huge hits. I never played this game so I don't have any particular connection to its soundtrack. Listening to it makes me thing that it adheres to its relevant tropes without bringing anything special to the table. The wild west music is like stereotypical wild west, to the point where it's boring. This has nothing on Desert Kingdom from Mario Odyssey. That being said, I did really enjoy the spy music from the 'dashing thief' level."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Assassin Disco",
+        "Under the Cover of Night"
+      ],
+      "id": "1c29f9ba-7867-45d0-9cc4-b382f484cd91",
+      "newsletter": false
+    },
+    {
       "filename": "zelda-2.jpg",
       "name": "Zelda II - The Adventure of Link",
       "description": [
