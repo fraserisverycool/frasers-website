@@ -59,6 +59,8 @@ export default class NewsletterComponent implements OnInit {
         return 'soundtrack';
       case NewsletterContent.KK:
         return 'kk';
+      case NewsletterContent.DAILY_SOUNDTRACK:
+        return 'daily-soundtrack';
       default:
         return 'entry';
     }
@@ -67,6 +69,9 @@ export default class NewsletterComponent implements OnInit {
   getName(type: string) {
     if (type === NewsletterContent.CHARACTER_DECO) {
       return "SMASH CHARACTER DECORATION"
+    }
+    if (type === NewsletterContent.DAILY_SOUNDTRACK) {
+      return "SOUNDTRACK OF THE DAY"
     }
     return type;
   }

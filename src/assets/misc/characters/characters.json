@@ -2424,7 +2424,7 @@
         {
           "filename": "kazuya1.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "Whale got me this as a gift"
         }
       ],

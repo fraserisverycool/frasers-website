@@ -132,6 +132,10 @@
   background-color: #b8e5a4
 }
 
+.entry.daily-soundtrack {
+  background-color: #b8e5a4
+}
+
 .special-title {
   font-size: 2em;
   margin-left: auto;
@@ -193,5 +197,9 @@
 }
 
 .special-title.kk {
+  color: #333333
+}
+
+.special-title.daily-soundtrack {
   color: #333333
 }

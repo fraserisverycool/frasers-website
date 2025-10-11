@@ -1,7 +1,8 @@
 import json
-import datetime
 import uuid
+from datetime import datetime
 from enum import Enum
+
 
 class ContentType(Enum):
     GAME = 'games/games.json'
@@ -18,6 +19,7 @@ class ContentType(Enum):
     STITCH = "misc/stitch/stitches.json"
     MIX = "music/mixes/mixes.json"
     KK = "music/nintendo/kk/kk.json"
+    DAILY_SOUNDTRACK = "music/daily/daily-soundtracks.json"
 
 class ContentTypeMapping:
     def __init__(self):
@@ -42,7 +44,7 @@ def mapper_books(json_item):
     return json_item["title"], [json_item["description"]], "assets/books/" + json_item["filename"], "Author: " + json_item["author"] + ", Release: " + json_item["release"] + ", for the spoiler discussion please visit the books page!"
 
 def mapper_gallery(json_item):
-    return json_item["title"], [json_item["description"]], "assets/gallery/" + json_item["filename"], "For anecdotes about the pictures, please visit the gallery page!"
+    return json_item["title"], None, "assets/gallery/" + json_item["filename"], "For anecdotes about the pictures, please visit the gallery page!"
 
 def mapper_videos(json_item):
     return json_item["title"], [json_item["description"]], None, "Link: " + json_item["link"]
@@ -70,6 +72,14 @@ def mapper_soundtracks(json_item):
 
 def mapper_kk(json_item):
     return json_item["title"], [json_item["description"]], "assets/music/nintendo/kk/" + json_item["filename"], "Tier: " + json_item["tier"]
+
+def mapper_daily_soundtracks(json_item):
+  metadata = "Day: " + json_item["day"] + ", Link: " + json_item["link"]
+  if json_item["game"]:
+    metadata = "Composer: " + json_item["artist"] + ", Game: " + json_item["album"] + ", " + metadata
+  else:
+    metadata = "Artist: " + json_item["artist"] + ", Album: " + json_item["album"] + ", " + metadata
+  return json_item["track"], [json_item["description"]], None, metadata
 
 def get_content_data(content_type, content_data):
   if content_type == ContentType.GAME:
@@ -103,6 +113,8 @@ def get_content_data(content_type, content_data):
     for character in content_data['characters']:
       decos.extend(character["deco"])
     return decos
+  elif content_type == ContentType.DAILY_SOUNDTRACK:
+    return content_data['dailysoundtracks']
 
 def write_to_file(newsletter, filename):
     with open('../assets/newsletter/' + filename, 'w') as f:
@@ -118,7 +130,7 @@ def write_to_file(newsletter, filename):
 
 def generate_newsletter(title, description):
     id = str(uuid.uuid4())
-    time = datetime.datetime.now().strftime("%d-%m-%Y")
+    time = datetime.now().strftime("%d-%m-%Y")
     newsletter = {
         "timestamp": time,
         "title": title,
@@ -142,6 +154,7 @@ def generate_newsletter(title, description):
     mappings.register(ContentType.STITCH, mapper_stitches)
     mappings.register(ContentType.MIX, mapper_mixes)
     mappings.register(ContentType.KK, mapper_kk)
+    mappings.register(ContentType.DAILY_SOUNDTRACK, mapper_daily_soundtracks)
 
     for content_type in ContentType:
         with open("../assets/" + content_type.value, 'r', encoding='utf-8', errors='ignore') as f:
@@ -149,7 +162,7 @@ def generate_newsletter(title, description):
         data = get_content_data(content_type, data)
         mapper = mappings.get_mapper(content_type)
         for item in data:
-            if item["newsletter"] is False:
+            if item["newsletter"] is False and no_future_daily_soundtrack(content_type, item):
                 title, description, image, metadata = mapper(item)
                 print(title)
                 entry = {
@@ -164,14 +177,24 @@ def generate_newsletter(title, description):
     filename = "newsletter-" + time + ".json"
     write_to_file(newsletter, filename)
 
+def no_future_daily_soundtrack(content_type, item):
+    if content_type == ContentType.DAILY_SOUNDTRACK:
+        item_date = datetime.strptime(item["day"], '%d-%m-%Y').date()
+        today = datetime.today().date()
+        if item_date > today:
+            return False
+    return True
+
 
 def main():
-    generate_newsletter("My first newsletter",
-                        ["Hello visitors to my website, welcome to my new newsletter! By popular demand, I have made available all the changes to the website as they come, you don't have to come and check it yourself every time.",
-                         "It's currently September 2025, around 9 months since I started working on the website, so these newsletters won't contain stuff I wrote before then. I think that just means that there is a treasure trove of stuff on here for those who want to go diving. But at least you'll be informed on any new things I'm up to.",
-                         "Working on this website has been such a highlight of the year. It's the first time I've ever actually enjoyed recreational programming! As an added bonus, I learned a ton about web development which is literally useful for my job.",
-                         "2025 is making a strong case for being the best year of my life so far, which is very exciting. Getting a boyfriend, having an unforgettable trip to Mexico, and the release of the Nintendo Music App - so much magic has happened this year!",
-                         "Anyway, here is a list of new things I've posted to the website recently. I'm not sure how often I will do these newsletters."])
+    generate_newsletter("Fantasy holiday in Mallorca",
+                        [
+                          "Hello friends and family, welcome to my second newsletter! If you are receiving a notification about this via RSS, do let me know! I'm curious to see if anyone actually subscribed. So far nobody I've spoken to actually wants to do that.",
+                          "First I want to tell you guys about a cool new thing on my website. I've now got a section on the homepage with a daily music recommendation! I wanted to make something that changes every day so visiting the site becomes more interesting. I love music so I figured it would be great to give you guys specific tracks for you to listen to. I already have the very extensive 'Albums' and 'Nintendo Soundtracks' sections for your perusal, but this will focus on individual tracks. If you like them, don't be afraid to react to them with the new reactions feature.",
+                          "My plan is to write them all in advance, and hopefully I'll be able to keep on top of them. If I run out of juice eventually I'll think of something else. As always I love it when you give me feedback about this kind of stuff.",
+                          "What's been happening in my life lately? Victor and I had a beautiful holiday in Mallorca just this past week and it was incredible. If you know me, you know I talk about Mexico a lot, but the Mexican beaches have nothing on these beaches. Victor took me to all his favourite spots and it was stunning - I'm talking Super Mario Odyssey Seaside Kingdom vibes. One thing I struggled with there was presence of Germans on the island. They are causing many problems there and it was hard to admit that I live in Germany and love it there. I felt quite embarrassed for Germany when hanging out with the Mallorcans.",
+                          "Otherwise my busy summer is hopefully coming to an end. I regret that I haven't made time for DJing with Weyes this summer, but I've been confronted with being unable to have it all many times this year. But at least I started a new book (Ursula K Le Guin's Earthsea). I look forward to spending more time this Autumn getting into that, completing Hollow Knight: Silksong, and listening to the crap out of the Paper Mario soundtrack. I've also randomly gotten really into doing the daily crossword on the Guardian news app. I've learned so many new words already!"
+                        ])
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,6 @@
 <div class="container">
+  <h1>Soundtrack of the Day - Archive</h1>
+  <div class="overlay"></div>
   <div *ngFor="let track of dailySoundtracks" class="list-item">
     <div class="date">
       {{track.day}}
@@ -18,5 +20,8 @@
 
       <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
     </div>
+  </div>
+  <div class="gif">
+    <img src="../../../assets/homepage/daily.gif">
   </div>
 </div>

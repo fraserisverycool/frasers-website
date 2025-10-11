@@ -12,7 +12,7 @@
       <div *ngFor="let entryparagraph of entry.description">
         <div class="description">{{ entryparagraph }}</div>
       </div>
-      <img [ngSrc]="entry.image" [alt]="entry.title" class="entry-image" width="600" height="600">
+      <img *ngIf="entry.image" [ngSrc]="entry.image" [alt]="entry.title" class="entry-image" width="600" height="600">
     </div>
     <app-rating-bar [rating]="{id: newsletter.id, ratings: newsletter.rating}"></app-rating-bar>
   </div>

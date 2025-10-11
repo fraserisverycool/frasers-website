@@ -1,6 +1,6 @@
 <div class="color-selection">
   <label for="color">What colour would you like?</label>
-  <input type="text" id="color" [(ngModel)]="color" name="color" placeholder="#ffffff">
+  <input type="text" id="color" [(ngModel)]="color" (input)="selectColor(color)" name="color" placeholder="#ffffff">
   <div class="color-buttons">
     <button type="button" class="color-button" [class.selected]="color === '#ffffff'" (click)="selectColor('#ffffff')" style="background-color: #ffffff;"></button>
     <button type="button" class="color-button" [class.selected]="color === '#3498db'" (click)="selectColor('#3498db')" style="background-color: #3498db;"></button>

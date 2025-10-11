@@ -48,8 +48,8 @@ a {
 }
 
 .image {
-  width: 100%;
-  height: 100%; /* Ensure the container has a defined height */
+  width: auto;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ a {
   max-height: 600px;
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Use 'cover' if you want to fill the container and crop excess */
+  object-fit: contain;
 }
 
 .fun-button {

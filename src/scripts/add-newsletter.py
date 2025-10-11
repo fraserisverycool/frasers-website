@@ -15,7 +15,8 @@ FILES = ["games/games.json",
          "music/albums/cds.json",
          "music/mixes/mixes.json",
          "music/nintendo/soundtracks.json",
-         "music/nintendo/kk/kk.json"]
+         "music/nintendo/kk/kk.json",
+         "music/daily/daily-soundtracks.json"]
 
 def load_json(filename):
   """Load a JSON file, return its content."""

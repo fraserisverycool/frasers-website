@@ -29,5 +29,6 @@ export enum NewsletterContent {
   CD = 'CD',
   MIX = 'MIX',
   SOUNDTRACK = 'SOUNDTRACK',
-  KK = 'KK'
+  KK = 'KK',
+  DAILY_SOUNDTRACK = 'DAILY_SOUNDTRACK'
 }

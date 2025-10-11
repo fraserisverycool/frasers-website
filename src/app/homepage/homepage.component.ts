@@ -19,11 +19,18 @@ import {DailyComponent} from "../music/daily/daily.component";
 })
 export default class HomepageComponent {
   images = [
-    '../../../assets/homepage/fraser.PNG',
-    '../../../assets/homepage/fraser2.jpg',
-    '../../../assets/homepage/fraser3.jpg',
-    '../../../assets/homepage/fraser4.jpg',
-    '../../../assets/homepage/fraser5.jpg',
+    '../../../assets/homepage/random/fraser.PNG',
+    '../../../assets/homepage/random/fraser2.jpg',
+    '../../../assets/homepage/random/fraser3.jpg',
+    '../../../assets/homepage/random/fraser4.jpg',
+    '../../../assets/homepage/random/fraser5.jpg',
+    '../../../assets/homepage/random/hola.jpg',
+    '../../../assets/homepage/random/brock.avif',
+    '../../../assets/homepage/random/bruxish.avif',
+    '../../../assets/homepage/random/lickilicky.webp',
+    '../../../assets/homepage/random/kiff.jpg',
+    '../../../assets/homepage/random/that.PNG',
+    '../../../assets/homepage/random/rocket.jpg',
   ];
   randomImage: string = '../../../assets/homepage/fraser.PNG';
   homepageColor: string = '#ffffff';

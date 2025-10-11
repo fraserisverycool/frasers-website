@@ -17,7 +17,10 @@ def prettify_xml(xml_str):
 def create_feed_entry(newsletter):
   entries = []
   for entry in newsletter['entries']:
-    description = '<br>'.join(entry.get('description', []))
+    if isinstance(entry.get('description', []), list):
+      description = '<br>'.join(entry.get('description', []))
+    else:
+      description = entry.get('description', '')
     img_tag = f'<img src="https://worldpeace.services/{entry.get("image", "")}" alt="{entry.get("title")}">' if entry.get('image') else ''
     entries.append(f'''
             <h2>{entry['title']}</h2>

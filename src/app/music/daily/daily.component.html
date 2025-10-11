@@ -12,3 +12,9 @@
   <app-rating-bar [rating]="{id: today.id, ratings: today.rating}"></app-rating-bar>
   <a routerLink="/music/daily-soundtracks">Here are all the daily soundtracks you missed!</a>
 </div>
+<div class="daily-soundtrack" *ngIf="!today">
+  <div class="overlay"></div>
+  <h2>No soundtrack of the day today!</h2>
+  <p>I write these out in advance, so if you're seeing this, it probably means that enough time has passed that all the recommendations have already been posted. </p>
+  <a routerLink="/music/daily-soundtracks">Here are all the daily soundtracks you missed!</a>
+</div>
