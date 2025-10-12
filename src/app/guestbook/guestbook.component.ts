@@ -26,7 +26,7 @@ export default class GuestbookComponent {
   loadFeedback(): void {
     this.guestbookService.getFeedback().subscribe(
       (data) => {
-        this.feedbacks = data;
+        this.feedbacks = [...data].reverse();
       },
       (error) => {
         console.error('Error fetching feedback:', error);
@@ -38,7 +38,7 @@ export default class GuestbookComponent {
     if (this.newFeedback.comment && this.newFeedback.name) {
       this.guestbookService.postFeedback(this.newFeedback).subscribe(
         (response) => {
-          this.feedbacks.push(response);
+          this.feedbacks.unshift(response);
           this.newFeedback = { comment: '', name: '', color: '#ffffff' };
         },
         (error) => {
