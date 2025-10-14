@@ -1,6 +1,6 @@
 import {Component, HostBinding, OnInit} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, RouterLink} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
 import {Entry, Newsletter, NewsletterContent} from "../newsletter.interface";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
@@ -8,7 +8,7 @@ import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 @Component({
   selector: 'app-newsletter',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+  imports: [CommonModule, NgOptimizedImage, RatingBarComponent, RouterLink],
   templateUrl: './newsletter.component.html',
   styleUrls: ['./newsletter.component.css']
 })
@@ -67,11 +67,50 @@ export default class NewsletterComponent implements OnInit {
   }
 
   getName(type: string) {
+    if (type === NewsletterContent.GAME) {
+      return "Game Review"
+    }
+    if (type === NewsletterContent.FILM) {
+      return "Film Review"
+    }
+    if (type === NewsletterContent.ALBUM) {
+      return "Album Review"
+    }
+    if (type === NewsletterContent.SOUNDTRACK) {
+      return "Nintendo Soundtrack Review"
+    }
+    if (type === NewsletterContent.BOOK) {
+      return "Book Review"
+    }
+    if (type === NewsletterContent.GALLERY) {
+      return "New Photo in the Gallery"
+    }
+    if (type === NewsletterContent.VIDEO) {
+      return "Fun video for your entertainment"
+    }
+    if (type === NewsletterContent.CD) {
+      return "New CD"
+    }
+    if (type === NewsletterContent.DURSTLOESCHER) {
+      return "Durstloescher Review from Anni"
+    }
+    if (type === NewsletterContent.MARIOKART) {
+      return "Mario Kart Track Review"
+    }
+    if (type === NewsletterContent.STITCH) {
+      return "New Cross Stitch"
+    }
+    if (type === NewsletterContent.MIX) {
+      return "New Mix"
+    }
+    if (type === NewsletterContent.KK) {
+      return "KK Song Review"
+    }
     if (type === NewsletterContent.CHARACTER_DECO) {
-      return "SMASH CHARACTER DECORATION"
+      return "Smash character decoration in my house"
     }
     if (type === NewsletterContent.DAILY_SOUNDTRACK) {
-      return "SOUNDTRACK OF THE DAY"
+      return "Soundtrack of the day"
     }
     return type;
   }

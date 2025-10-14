@@ -65,7 +65,7 @@
         "Staff Credits"
       ],
       "id": "42ccf45f-68d9-4560-8641-c15eb866532d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "paper-mario-ttyd.jpg",
@@ -103,7 +103,7 @@
         "Palace of Shadow - Courtyard Tower"
       ],
       "id": "318afb67-870c-4837-953b-c6748ab65426",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "princess-peach-showtime.jpg",
@@ -117,7 +117,7 @@
         "Under the Cover of Night"
       ],
       "id": "1c29f9ba-7867-45d0-9cc4-b382f484cd91",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "zelda-2.jpg",
@@ -131,7 +131,7 @@
         "Great Palace Theme"
       ],
       "id": "0542525c-4566-470a-a919-a5f493fba85b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "donkey-kong-bananza.jpg",

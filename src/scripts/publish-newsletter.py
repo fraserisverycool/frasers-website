@@ -14,24 +14,63 @@ def prettify_xml(xml_str):
   return dom.toprettyxml(indent="  ")
 
 
+def mapTitle(type):
+  if type == "GAME":
+    return "Game Review"
+  elif type == "FILM":
+      return "Film Review"
+  elif type == "ALBUM":
+    return "Album Review"
+  elif type == "SOUNDTRACK":
+    return "Nintendo Soundtrack Review"
+  elif type == "BOOK":
+    return "Book Review"
+  elif type == "GALLERY":
+    return "New Photo in the Gallery"
+  elif type == "VIDEO":
+    return "Fun video for your entertainment"
+  elif type == "CD":
+    return "New CD"
+  elif type == "DURSTLOESCHER":
+    return "Durstloescher Review from Anni"
+  elif type == "MARIOKART":
+    return "Mario Kart Track Review"
+  elif type == "STITCH":
+    return "New Cross Stitch"
+  elif type == "MIX":
+    return "New Mix"
+  elif type == "KK":
+    return "KK Song Review"
+  elif type == "CHARACTER_DECO":
+    return "Smash character decoration in my house"
+  elif type == "DAILY_SOUNDTRACK":
+    return "Soundtrack of the day"
+  else:
+    return type
+
+
 def create_feed_entry(newsletter):
   entries = []
   for entry in newsletter['entries']:
+    type = mapTitle(entry["type"])
+    title = f'<h3>{entry["title"]}</h3>' if entry.get('title') else ''
+    metadata = f'<p><em>{entry.get("metadata")}</em></p>' if entry.get('metadata') else ''
     if isinstance(entry.get('description', []), list):
       description = '<br>'.join(entry.get('description', []))
     else:
       description = entry.get('description', '')
-    img_tag = f'<img src="https://worldpeace.services/{entry.get("image", "")}" alt="{entry.get("title")}">' if entry.get('image') else ''
+    img_tag = f'<img src="https://worldpeace.services/{entry.get("image", "")}">' if entry.get('image') else ''
     entries.append(f'''
-            <h2>{entry['title']}</h2>
-            <p><em>{entry.get('metadata', '')}</em></p>
+            <h2>{type}</h2>
+            {title}
+            {metadata}
             <p>{description}</p>
             {img_tag}
         ''')
 
   newsletter_description = '<br>'.join(newsletter.get('description', []))
 
-  description = f'<p>{newsletter_description}</p>' + '\n'.join(entries)
+  description = f'<p>{newsletter_description}</p>' + '\n'.join(entries) + '\n<h3>And don\'t forget... an archive of "Soundtrack of the Day" updates are on the website!</h3>'
 
   pubdate = datetime.datetime.strptime(newsletter['timestamp'], "%d-%m-%Y")
 

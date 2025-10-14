@@ -6,7 +6,7 @@
       "month": "October 2025",
       "question": "Where was this photo taken?",
       "id": "575236a8-781f-47c4-9f28-66ea1e34fbfa",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "verweile.jpg",
@@ -14,7 +14,7 @@
       "month": "September 2025",
       "question": "Who is singing?",
       "id": "8077001d-ffa4-441a-9369-4f5379221b4e",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "marlo2.jpg",
@@ -22,7 +22,7 @@
       "month": "September 2025",
       "question": "Who is this beauty pictured in this photo?",
       "id": "da2a1704-98be-4048-a7bd-6e1a456cf94d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "belch.jpg",
@@ -30,7 +30,7 @@
       "month": "August 2025",
       "question": "What's this flower pot thing made out of?",
       "id": "613617ce-f45b-4628-bced-ab1a9ead9058",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "bob2.jpg",
@@ -244,7 +244,7 @@
       "filename": "juice2.jpg",
       "title": "The moment I realised fruit juice doesn't have to be like that",
       "month": "March 2023",
-      "question": "Cu\u00c3\u00a1l es la palabra en espa\u00c3\u00b1ol para juice?",
+      "question": "CuÃ¡l es la palabra en espaÃ±ol para juice?",
       "id": "821fd504-7842-49de-9ba7-595b7958266f",
       "newsletter": true
     },

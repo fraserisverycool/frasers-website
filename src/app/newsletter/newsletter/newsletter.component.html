@@ -15,6 +15,6 @@
       </div>
       <img *ngIf="entry.image" [ngSrc]="entry.image" [alt]="entry.title" class="entry-image" width="600" height="600">
     </div>
-    <app-rating-bar [rating]="{id: newsletter.id, ratings: newsletter.rating}"></app-rating-bar>
+    <div class="title">And don't forget... an <a routerLink="/music/daily-soundtracks">archive</a> of "Soundtrack of the Day" updates are on the website!</div>
   </div>
 </div>
