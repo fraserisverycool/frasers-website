@@ -1,10 +1,12 @@
+import {SafeUrl} from "@angular/platform-browser";
+
 export interface DailySoundtrack {
   artist: string;
   album: string;
   track: string;
   description: string;
   link: string;
-  embed: string;
+  embed: SafeUrl;
   day: string;
   game: boolean;
   rating: number[];

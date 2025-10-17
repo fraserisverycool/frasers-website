@@ -35,3 +35,27 @@
   font-weight: bold;
   color: #e74c3c;
 }
+
+.game-review img.completed {
+  float: right;
+  margin-bottom: 5px;
+  margin: 0;
+  max-width: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.summary-text {
+  display: flex;
+  flex-direction: vertical;
+  justify-content: space-between;
+  align-items: flex-start;
+}

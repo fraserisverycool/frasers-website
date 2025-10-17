@@ -29,7 +29,7 @@
   grid-template-columns: 1fr 4fr;
   align-items: center;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   border-top: 1px solid #999;
 }
 
@@ -47,10 +47,14 @@
 .p, .a {
   margin: 0;
   font-size: 0.8em;
+  position: relative;
+  z-index: 2;
 }
 
 app-rating-bar {
   display: block;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  position: relative;
+  z-index: 2;
 }

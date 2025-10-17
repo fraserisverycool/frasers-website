@@ -29,11 +29,14 @@ export class DailyComponent implements OnInit {
   loadDailySoundtracks(): void {
     this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/music/daily/daily-soundtracks.json').subscribe({
       next: (data) => {
-        this.dailySoundtracks = data.dailysoundtracks;
+        this.dailySoundtracks = data.dailysoundtracks.map(dailysoundtrack => ({
+          ...dailysoundtrack,
+          embed: this.sanitizer.bypassSecurityTrustResourceUrl(this.getEmbedUrl(dailysoundtrack.link))
+        }));
         this.getRatings();
         this.today = this.dailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
         if (this.today) {
-          this.safeLink = this.sanitizer.bypassSecurityTrustResourceUrl(this.today.embed);
+          this.safeLink = this.today.embed;
         }
       },
       error: (err) => {
@@ -64,5 +67,10 @@ export class DailyComponent implements OnInit {
           return dailySoundtrack;
         });
       });
+  }
+
+  private getEmbedUrl(link: string): string {
+    const videoId = link.split('v=')[1];
+    return `https://www.youtube.com/embed/${videoId}`;
   }
 }

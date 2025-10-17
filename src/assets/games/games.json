@@ -70,7 +70,7 @@
       "year": "2025",
       "release": "2025",
       "score": 18,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "085ca94e-8e54-496b-9722-2c014b3ef8a2",
       "newsletter": true
@@ -88,7 +88,7 @@
       "year": "2025",
       "release": "2025",
       "score": 17,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2368988d-7bf7-44fa-8923-db869f736607",
       "newsletter": true
@@ -108,7 +108,7 @@
       "year": "2025",
       "release": "2025",
       "score": 19,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "0257df43-ebed-400d-b07a-5440a1795493",
       "newsletter": true
@@ -125,7 +125,7 @@
       "year": "2025",
       "release": "2025",
       "score": 16,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "53af54a0-2b90-4c23-a40f-7d394cfcbe93",
       "newsletter": true
@@ -143,7 +143,7 @@
       "release": "2005",
       "score": 1,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "a5d482c8-4a8e-4660-80d1-29fcc349d799",
       "newsletter": true
     },
@@ -162,8 +162,8 @@
       "year": "2025",
       "release": "2025",
       "score": 20,
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "ab7ce381-e527-46fb-9277-7393351dc20c",
       "newsletter": true
     },
@@ -199,7 +199,7 @@
       "release": "2025",
       "score": 1,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "789ccc76-eb0c-4bdb-a9bc-be219aba28a1",
       "newsletter": true
     },
@@ -271,7 +271,7 @@
       "year": "2025",
       "release": "2001",
       "score": 7,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "455f5eaa-8a71-48a5-9434-25c7a1139a82",
       "newsletter": true
@@ -290,7 +290,7 @@
       "year": "2025",
       "release": "2024",
       "score": 11,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "586f9726-16f4-496f-9644-801f14a66387",
       "newsletter": true
@@ -311,7 +311,7 @@
       "year": "2025",
       "release": "2025",
       "score": 9,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a45d2c1f-b3df-4098-8db1-5260790665fd",
       "newsletter": true
@@ -347,7 +347,7 @@
       "year": "2025",
       "release": "2024",
       "score": 5,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "00bb2dec-cfa2-4145-82b0-c8936be6c0ef",
       "newsletter": true
@@ -365,7 +365,7 @@
       "year": "2025",
       "release": "2022",
       "score": 10,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "e18b08b3-86f9-4c23-85ed-2e89be4a91a7",
       "newsletter": true
@@ -384,7 +384,7 @@
       "year": "2025",
       "release": "2023",
       "score": 12,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "fef97954-6507-4f83-a123-c06cb94d3e80",
       "newsletter": true
@@ -403,7 +403,7 @@
       "year": "2024",
       "release": "2023",
       "score": 18,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "0d9680ff-163b-429a-b6d7-e0c53769612d",
       "newsletter": true
@@ -420,7 +420,7 @@
       "year": "2024",
       "release": "2024",
       "score": 11,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a82f028c-d031-4822-a071-fb7e6045dbb7",
       "newsletter": true
@@ -439,7 +439,7 @@
       "release": "2019",
       "story": true,
       "score": 22,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "39b17a0b-7944-4856-a61a-efb379e465e3",
       "newsletter": true
@@ -460,7 +460,7 @@
       "release": "2024",
       "score": 20,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "06f5d954-ff98-4412-9729-40e6336a94dc",
       "newsletter": true
     },
@@ -499,7 +499,7 @@
       "year": "2024",
       "release": "2024",
       "score": 19,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "59bef18c-6c16-4e2e-8ebb-692a2c8ed993",
       "newsletter": true
@@ -534,7 +534,7 @@
       "release": "2024",
       "score": 5,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "f6212974-44c2-4826-bf3a-f50232ba709a",
       "newsletter": true
     },
@@ -555,7 +555,7 @@
       "year": "2024",
       "release": "2014",
       "score": 2,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "16922f11-449c-4611-b134-ee69291e16c2",
       "newsletter": true
@@ -574,7 +574,7 @@
       "release": "2024",
       "story": true,
       "score": 16,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "88a6ef8f-c8a3-4232-bca6-74464882e685",
       "newsletter": true
@@ -594,7 +594,7 @@
       "release": "2024",
       "story": true,
       "score": 15,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "e77be82c-6553-455d-8b59-23b8e2bd4f08",
       "newsletter": true
@@ -648,7 +648,7 @@
       "year": "2024",
       "release": "1998",
       "score": 8,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b774a642-5dd0-4f99-9de3-fc5a94222097",
       "newsletter": true
@@ -684,7 +684,7 @@
       "year": "2024",
       "release": "2024",
       "score": 6,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "4f78a631-b96a-4084-999d-9fbc6335d19d",
       "newsletter": true
@@ -705,7 +705,7 @@
       "year": "2024",
       "release": "2024",
       "score": 24,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "573de1bc-b2fd-45a9-98af-40a9e63d7d72",
       "newsletter": true
@@ -726,7 +726,7 @@
       "year": "2024",
       "release": "2023",
       "score": 7,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "37917f07-ac56-4f66-afc4-2728610acf2b",
       "newsletter": true
@@ -745,7 +745,7 @@
       "year": "2024",
       "release": "2024",
       "score": 21,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "acfccc13-31b1-43db-86c3-0aa90bbad01d",
       "newsletter": true
@@ -763,8 +763,8 @@
       "year": "2024",
       "release": "2024",
       "score": 25,
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "d32f852c-c54e-49c7-aa98-52635c95386c",
       "newsletter": true
     },
@@ -788,7 +788,7 @@
       "year": "2024",
       "release": "2024",
       "score": 9,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "1fbfc730-043c-40ea-92a2-fd25a62662e1",
       "newsletter": true
@@ -809,7 +809,7 @@
       "year": "2024",
       "release": "2024",
       "score": 17,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "18279720-1721-4ef4-a92f-6cf2fcd290cf",
       "newsletter": true
@@ -828,7 +828,7 @@
       "year": "2024",
       "release": "2002",
       "score": 23,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "dd92da0d-4889-407f-bb86-5dedad921a83",
       "newsletter": true
@@ -869,7 +869,7 @@
       "release": "2024",
       "story": true,
       "score": 4,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "199a92a8-02d3-4213-aa6b-dc011fc1b674",
       "newsletter": true
@@ -891,7 +891,7 @@
       "year": "2024",
       "release": "2023",
       "score": 12,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "8ca82efb-9465-4c48-980d-63b82e382097",
       "newsletter": true
@@ -911,7 +911,7 @@
       "year": "2024",
       "release": "2023",
       "score": 26,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "d7fabb6e-cb83-41ca-9cee-657d6f4335e9",
       "newsletter": true
@@ -930,7 +930,7 @@
       "year": "2023",
       "release": "2001",
       "score": 9,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "31980121-ea47-4d5d-9908-6f45ad6149aa",
       "newsletter": true
@@ -952,7 +952,7 @@
       "year": "2023",
       "release": "2023 ",
       "score": 8,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "50bccc01-f3e1-4d9d-8ec3-e8fb91e5b971",
       "newsletter": true
@@ -973,7 +973,7 @@
       "release": "2013",
       "story": true,
       "score": 1,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "64eaadba-2521-40fd-9c0b-cf236afccd22",
       "newsletter": true
@@ -991,7 +991,7 @@
       "year": "2023",
       "release": "2022",
       "score": 18,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "ee863a4f-5fb0-432a-91bb-a590caf49538",
       "newsletter": true
@@ -1012,7 +1012,7 @@
       "year": "2023",
       "release": "2013",
       "score": 2,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "f153f19e-7bde-44d9-ae27-50cc55551d50",
       "newsletter": true
@@ -1032,7 +1032,7 @@
       "year": "2023",
       "release": "1998",
       "score": 10,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "5777b311-c111-4528-923c-a8c0438e0bf6",
       "newsletter": true
@@ -1049,7 +1049,7 @@
       "year": "2023",
       "release": "2023",
       "score": 29,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "0797b0b6-ed02-4242-8239-38729c5e4ad7",
       "newsletter": true
@@ -1071,7 +1071,7 @@
       "year": "2023",
       "release": "2013 ",
       "score": 3,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "277476eb-946f-46b5-b13d-f3d55293bd44",
       "newsletter": true
@@ -1089,7 +1089,7 @@
       "year": "2023",
       "release": "2023",
       "score": 28,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "6b6e8659-ef86-4c4b-bbfd-960dd1b88239",
       "newsletter": true
@@ -1108,7 +1108,7 @@
       "year": "2023",
       "release": "2019",
       "score": 34,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a693f361-f33a-497f-a0ce-4c54b40d773e",
       "newsletter": true
@@ -1126,7 +1126,7 @@
       "year": "2023",
       "release": "2023",
       "score": 27,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "92af4cd1-78f8-4467-9d0b-afcbf21e72d9",
       "newsletter": true
@@ -1143,7 +1143,7 @@
       "year": "2023",
       "release": "2010",
       "score": 33,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "763e56bb-62aa-4d90-9293-a0ac2710fb9e",
       "newsletter": true
@@ -1162,7 +1162,7 @@
       "year": "2023",
       "release": "2023",
       "score": 24,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "866241db-32dc-46dc-bddc-015d0d74ca7f",
       "newsletter": true
@@ -1180,8 +1180,8 @@
       "year": "2023",
       "release": "2023",
       "score": 25,
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "6ba581da-784f-4d21-b0c1-e60df02a44ac",
       "newsletter": true
     },
@@ -1205,7 +1205,7 @@
       "year": "2023",
       "release": "2023",
       "score": 19,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2fcf402f-11b6-481d-a5d6-55767465aa93",
       "newsletter": true
@@ -1223,7 +1223,7 @@
       "year": "2023",
       "release": "2001",
       "score": 12,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "ad102382-d63d-467a-a43a-94961f6ff7fb",
       "newsletter": true
@@ -1240,7 +1240,7 @@
       "year": "2023",
       "release": "2021",
       "score": 11,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "f877f9c8-2bd0-487f-b754-a255dd1152c1",
       "newsletter": true
@@ -1275,7 +1275,7 @@
       "year": "2023",
       "release": "2022",
       "score": 26,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a34f11d8-bd8b-4e8d-ae02-d688d1e5df4d",
       "newsletter": true
@@ -1294,7 +1294,7 @@
       "year": "2023",
       "release": "1996",
       "score": 30,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a9150e8e-bd91-44e6-84ae-9ec0a1593503",
       "newsletter": true
@@ -1314,7 +1314,7 @@
       "year": "2023",
       "release": "2023",
       "score": 22,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "f7bd7777-7e79-4d6b-9b4b-7c38795bc6f7",
       "newsletter": true
@@ -1340,7 +1340,7 @@
       "year": "2023",
       "release": "2023",
       "score": 32,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "bfc11af8-779c-4506-83dd-f3c532b75aad",
       "newsletter": true
@@ -1358,7 +1358,7 @@
       "year": "2023",
       "release": "1996",
       "score": 21,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "cc3533ca-a92c-440f-81e3-47602e4300a2",
       "newsletter": true
@@ -1395,7 +1395,7 @@
       "release": "2023",
       "score": 20,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "cdf040bf-d5ce-4d38-a8cd-38c13548dbcf",
       "newsletter": true
     },
@@ -1413,7 +1413,7 @@
       "year": "2023",
       "release": "2023",
       "score": 31,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "7db96778-ee81-4f26-b3b3-8f2d5f2c8f88",
       "newsletter": true
@@ -1432,7 +1432,7 @@
       "year": "2023",
       "release": "2023",
       "score": 35,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "25d0c7bd-3644-4b65-800e-866ae7821677",
       "newsletter": true
@@ -1449,7 +1449,7 @@
       "year": "2023",
       "release": "2023",
       "score": 23,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "02008136-43b2-457d-91fb-12522bd26421",
       "newsletter": true
@@ -1484,7 +1484,7 @@
       "year": "2023",
       "release": "2022",
       "score": 15,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "0796cc81-6325-4d9b-bbe3-88ba32d530d4",
       "newsletter": true
@@ -1501,7 +1501,7 @@
       "year": "2023",
       "release": "2022",
       "score": 16,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "08076a62-ceee-4dcd-8dc7-9fa6eaed40f2",
       "newsletter": true
@@ -1518,7 +1518,7 @@
       "year": "2023",
       "release": "2022",
       "score": 14,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "676f533d-3231-4d9c-88c7-20e8d96a5018",
       "newsletter": true
@@ -1573,7 +1573,7 @@
       "year": "2023",
       "release": "2022",
       "score": 13,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2b4ac705-82dd-405f-964a-da315333d2a9",
       "newsletter": true
@@ -1608,7 +1608,7 @@
       "year": "2022",
       "release": "2022",
       "score": 4,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b91c578d-a765-4a1d-8824-d2fd15ef57a1",
       "newsletter": true
@@ -1626,7 +1626,7 @@
       "year": "2022",
       "release": "1997",
       "score": 32,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "78ed7a8b-1b44-4f88-a27c-3214b149156a",
       "newsletter": true
@@ -1643,7 +1643,7 @@
       "year": "2022",
       "release": "2021",
       "score": 20,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "d4ec490a-2105-4dfe-a899-11b79b38d8a7",
       "newsletter": true
@@ -1678,7 +1678,7 @@
       "year": "2022",
       "release": "2021",
       "score": 26,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "8f1d9be1-5847-44d1-a171-5d999ede8bdf",
       "newsletter": true
@@ -1712,7 +1712,7 @@
       "year": "2022",
       "release": "1986",
       "score": 14,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a01ce1e3-658d-418e-9500-303a7a55b589",
       "newsletter": true
@@ -1730,7 +1730,7 @@
       "year": "2022",
       "release": "1991",
       "score": 15,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "9f74e7c3-9cc0-4962-af26-e4e01a2d5d9f",
       "newsletter": true
@@ -1748,7 +1748,7 @@
       "year": "2022",
       "release": "2021",
       "score": 30,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "14355906-5e89-4db3-9c56-95125f205fd8",
       "newsletter": true
@@ -1803,7 +1803,7 @@
       "year": "2022",
       "release": "2022",
       "score": 34,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "d9b6af74-5651-40cf-b787-5fbb3ba148bf",
       "newsletter": true
@@ -1821,7 +1821,7 @@
       "release": "2022",
       "score": 12,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "bb58934f-3b92-4eb0-bb8c-8e26524e8cb6",
       "newsletter": true
     },
@@ -1837,7 +1837,7 @@
       "year": "2022",
       "release": "2021",
       "score": 27,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "4adb98c8-e5b2-4d17-b555-06c6d14bd7ba",
       "newsletter": true
@@ -1855,7 +1855,7 @@
       "year": "2022",
       "release": "2020",
       "score": 31,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "cca03760-2278-42a6-9001-736d904f9fd7",
       "newsletter": true
@@ -1892,7 +1892,7 @@
       "release": "2022",
       "score": 10,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "8ffc43dc-7a18-43b2-a79c-0eacf3df917e",
       "newsletter": true
     },
@@ -1908,7 +1908,7 @@
       "year": "2022",
       "release": "2017",
       "score": 16,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "18850d58-ffe8-4fac-8553-ebcfbc1358ac",
       "newsletter": true
@@ -1925,7 +1925,7 @@
       "year": "2022",
       "release": "2022",
       "score": 23,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b65c8f36-386e-429c-8935-3f95da4b7f4f",
       "newsletter": true
@@ -1943,7 +1943,7 @@
       "year": "2022",
       "release": "2019",
       "score": 21,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "8bba6b44-b969-47b6-ab98-3fa405f8e289",
       "newsletter": true
@@ -1982,7 +1982,7 @@
       "release": "2020",
       "score": 8,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "401f7257-6c8b-4bc4-86b8-045d27753395",
       "newsletter": true
     },
@@ -1999,7 +1999,7 @@
       "year": "2022",
       "release": "2022",
       "score": 25,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "182ce1f8-cdd4-45c2-be6c-dcfd322eafbb",
       "newsletter": true
@@ -2017,7 +2017,7 @@
       "release": "2020",
       "score": 18,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "b25f1d01-a35d-4574-8dc9-443d70b2b6aa",
       "newsletter": true
     },
@@ -2067,7 +2067,7 @@
       "year": "2022",
       "release": "2021",
       "score": 1,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "08169ccd-42fb-4684-92f2-a2604336f9a9",
       "newsletter": true
@@ -2084,7 +2084,7 @@
       "year": "2022",
       "release": "2021",
       "score": 33,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "c844895c-7c0e-4140-8d78-e21517938e25",
       "newsletter": true
@@ -2102,7 +2102,7 @@
       "year": "2022",
       "release": "2021",
       "score": 28,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "4a1bfb46-c2e9-40ed-9307-acd13d3b3a04",
       "newsletter": true
@@ -2139,7 +2139,7 @@
       "release": "2020",
       "story": true,
       "score": 29,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a13c52c0-827f-4afa-9241-27765d1bd34f",
       "newsletter": true
@@ -2156,7 +2156,7 @@
       "year": "2022",
       "release": "2021",
       "score": 17,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "53b3c4d1-ebe0-4c89-ab48-0d330f3f130c",
       "newsletter": true
@@ -2193,7 +2193,7 @@
       "year": "2021",
       "release": "2019",
       "score": 24,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "3743aced-1b5e-47e5-8dcd-5dc2b036b5d3",
       "newsletter": true
@@ -2228,7 +2228,7 @@
       "year": "2021",
       "release": "2018",
       "score": 15,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "1a110b0c-53af-4962-9321-413fee80dd70",
       "newsletter": true
@@ -2265,7 +2265,7 @@
       "year": "2021",
       "release": "2021",
       "score": 5,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "9b77d3d5-497d-4ef7-8a7a-d8d454bcd329",
       "newsletter": true
@@ -2284,7 +2284,7 @@
       "year": "2021",
       "release": "2021",
       "score": 28,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "0df56f65-4d79-424c-96b8-72f98e7d5eed",
       "newsletter": true
@@ -2302,7 +2302,7 @@
       "year": "2021",
       "release": "2021",
       "score": 26,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "473f3cb5-9314-4059-a9ed-2a8ddca23362",
       "newsletter": true
@@ -2337,7 +2337,7 @@
       "year": "2021",
       "release": "2014",
       "score": 9,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2fb92a2b-41ac-42d3-8128-47ee5deaceef",
       "newsletter": true
@@ -2354,7 +2354,7 @@
       "year": "2021",
       "release": "2021",
       "score": 7,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "ae55f894-2179-4fb4-b73f-a3af70e0a8a4",
       "newsletter": true
@@ -2372,7 +2372,7 @@
       "year": "2021",
       "release": "2021",
       "score": 25,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "77551035-52c7-4a8d-9113-55e4cd176dff",
       "newsletter": true
@@ -2389,7 +2389,7 @@
       "year": "2021",
       "release": "2021",
       "score": 23,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "14a1fdee-9049-44a8-8741-d634ed39d2d8",
       "newsletter": true
@@ -2406,7 +2406,7 @@
       "year": "2021",
       "release": "2017",
       "score": 12,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "34f428f7-4285-4122-b2c8-1ad6e15d9e5c",
       "newsletter": true
@@ -2442,7 +2442,7 @@
       "year": "2021",
       "release": "2018",
       "score": 27,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "8b5e4e39-afe2-4940-bd8e-6078902d8a18",
       "newsletter": true
@@ -2460,7 +2460,7 @@
       "release": "2016",
       "story": true,
       "score": 18,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2d19f295-5d9e-4a08-9774-ccc0c81d267a",
       "newsletter": true
@@ -2477,7 +2477,7 @@
       "year": "2021",
       "release": "2020",
       "score": 13,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "512c63cb-a2d3-475f-b8cd-1521827666ff",
       "newsletter": true
@@ -2494,7 +2494,7 @@
       "year": "2021",
       "release": "2020",
       "score": 6,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "df185cd7-f018-4781-a7c0-6586305c34a6",
       "newsletter": true
@@ -2511,7 +2511,7 @@
       "year": "2021",
       "release": "2019",
       "score": 21,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "954f79c6-70cb-4aa7-b875-2499cc3b8966",
       "newsletter": true
@@ -2528,7 +2528,7 @@
       "year": "2021",
       "release": "2016",
       "score": 14,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "c235200c-b92a-4108-b43d-881fbdcbd862",
       "newsletter": true
@@ -2563,7 +2563,7 @@
       "year": "2021",
       "release": "2012",
       "score": 22,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "46d70c05-cc3d-4aa1-979f-7d6f53e4ad79",
       "newsletter": true
@@ -2598,7 +2598,7 @@
       "year": "2021",
       "release": "2020",
       "score": 20,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "977c5eaa-3346-495a-9b6b-6f8ea4454045",
       "newsletter": true
@@ -2616,7 +2616,7 @@
       "year": "2021",
       "release": "2021",
       "score": 17,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "f615c432-ce17-47cd-9c6a-50386dbf0e5f",
       "newsletter": true
@@ -2635,7 +2635,7 @@
       "release": "2015",
       "score": 11,
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "eea9e7c8-bcbb-4032-91a0-85f3aa918d88",
       "newsletter": true
     },
@@ -2668,7 +2668,7 @@
       "year": "2021",
       "release": "2015",
       "score": 19,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "5934e3b6-d491-4da4-b851-f9d8c9b9789f",
       "newsletter": true
@@ -2686,7 +2686,7 @@
       "year": "2020",
       "release": "2020",
       "score": 17,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b49cc4b7-bc09-4a88-a79e-ba89a81501f9",
       "newsletter": true
@@ -2705,7 +2705,7 @@
       "year": "2020",
       "release": "2019",
       "score": 28,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "fa51bcbc-d283-4521-8f7e-8002e7857e29",
       "newsletter": true
@@ -2723,7 +2723,7 @@
       "year": "2020",
       "release": "2020",
       "score": 25,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "adf4064f-6a08-484b-b1bb-0a07dda19d6f",
       "newsletter": true
@@ -2740,7 +2740,7 @@
       "year": "2020",
       "release": "2020",
       "score": 24,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "6959925a-0390-4b7b-94f4-ea518dab225b",
       "newsletter": true
@@ -2776,7 +2776,7 @@
       "year": "2020",
       "release": "2018",
       "score": 26,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "cf64530b-de9e-473e-96b1-3aaf5a5c1817",
       "newsletter": true
@@ -2794,7 +2794,7 @@
       "release": "2012",
       "story": true,
       "score": 5,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "176c4826-26f4-460e-9ad5-0fad8ff4bf71",
       "newsletter": true
@@ -2812,7 +2812,7 @@
       "year": "2020",
       "release": "2019",
       "score": 30,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2ad8c1af-9a4f-4255-b56e-98e258d8099b",
       "newsletter": true
@@ -2846,7 +2846,7 @@
       "year": "2020",
       "release": "2019",
       "score": 9,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "4d3efb87-ab0a-43d6-8bce-8c8218812047",
       "newsletter": true
@@ -2864,7 +2864,7 @@
       "year": "2020",
       "release": "2020",
       "score": 14,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b986d5f7-d490-4d36-8f8c-d770cfe6049e",
       "newsletter": true
@@ -2881,7 +2881,7 @@
       "year": "2020",
       "release": "2018",
       "score": 8,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "98ed8841-b1ae-4ce4-a974-a6126b3f4546",
       "newsletter": true
@@ -2916,7 +2916,7 @@
       "year": "2020",
       "release": "2020",
       "score": 15,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "ce5afcd3-15af-4f7a-879c-238150d080e5",
       "newsletter": true
@@ -2933,7 +2933,7 @@
       "year": "2020",
       "release": "2013",
       "score": 11,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "7f6b670e-a6f2-414b-a570-b543750c8ad3",
       "newsletter": true
@@ -2968,7 +2968,7 @@
       "year": "2020",
       "release": "2020",
       "score": 19,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "84926a44-35cd-460a-bd00-4d8274455664",
       "newsletter": true
@@ -2985,8 +2985,8 @@
       "year": "2020",
       "release": "2013",
       "score": 16,
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "29429900-3a9a-4cb6-b8e3-33910963ac3e",
       "newsletter": true
     },
@@ -3020,7 +3020,7 @@
       "year": "2020",
       "release": "2015",
       "score": 7,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "1c7b1699-0427-444c-95d8-cded00e93923",
       "newsletter": true
@@ -3038,7 +3038,7 @@
       "year": "2020",
       "release": "2017",
       "score": 22,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "9ed4c59d-b62e-4470-8946-8b3bd718b2e7",
       "newsletter": true
@@ -3056,7 +3056,7 @@
       "year": "2020",
       "release": "2020",
       "score": 29,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "25becd81-4b8e-485b-a8bb-67647f633659",
       "newsletter": true
@@ -3073,7 +3073,7 @@
       "year": "2020",
       "release": "2020",
       "score": 23,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "94d75a18-6a99-4602-964d-5bc5755ff6da",
       "newsletter": true
@@ -3091,7 +3091,7 @@
       "release": "2018",
       "story": true,
       "score": 6,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a78be8d9-76a7-4ba3-b6dd-8e1ae45bf0e9",
       "newsletter": true
@@ -3108,7 +3108,7 @@
       "year": "2020",
       "release": "2016",
       "score": 18,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "393fa54d-f6f1-4428-a55e-a146a4af5dbc",
       "newsletter": true
@@ -3128,8 +3128,8 @@
       "year": "2020",
       "release": "2020",
       "score": 27,
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "0bd22846-c276-4eba-b0d4-9e49382bae56",
       "newsletter": true
     },
@@ -3162,7 +3162,7 @@
       "year": "2020",
       "release": "2020",
       "score": 21,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "528b1dc1-9ea0-47ed-9274-0ff2b529fdd4",
       "newsletter": true
@@ -3181,7 +3181,7 @@
       "year": "2020",
       "release": "1997",
       "score": 20,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "d023ca2a-ad00-4386-8c2d-09a6254436ae",
       "newsletter": true
@@ -3199,7 +3199,7 @@
       "release": "2011",
       "story": true,
       "score": 4,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "e901f44a-2552-4f99-adbd-2f45764b8892",
       "newsletter": true
@@ -3232,7 +3232,7 @@
       "year": "older",
       "release": "1979",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "0b7547b0-7efa-4669-a0ad-5b6af1e40627",
       "newsletter": true
     },
@@ -3247,7 +3247,7 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1992",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "99ce8d83-8bf6-4865-9b0e-8791e1f323ad",
       "newsletter": true
@@ -3263,7 +3263,7 @@
       "platform": "PlayStation 3",
       "year": "older",
       "release": "2009",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "5b4007ba-3906-4b7b-bf41-bee2fcd7df54",
       "newsletter": true
@@ -3279,7 +3279,7 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2001",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "186de011-ccbb-418e-aa77-d5858bd45fed",
       "newsletter": true
@@ -3328,7 +3328,7 @@
       "platform": "Xbox",
       "year": "older",
       "release": "2004",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "7bd6b6a4-730e-4f17-a1db-458d0024e4f4",
       "newsletter": true
@@ -3348,8 +3348,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "fa4da187-a071-4224-853c-057bbc852fe6",
       "newsletter": true
     },
@@ -3364,7 +3364,7 @@
       "platform": "3DS",
       "year": "older",
       "release": "2014",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "44419dd9-4acd-4886-a85a-12162bfff0a4",
       "newsletter": true
@@ -3381,7 +3381,7 @@
       "platform": "3DS",
       "year": "older",
       "release": "2013",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "507740f4-34c6-4581-823e-69a249e9075a",
       "newsletter": true
@@ -3397,7 +3397,7 @@
       "platform": "Wii",
       "year": "older",
       "release": "2008",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "7a9cb007-02ce-41b4-9b8b-2871592d56e5",
       "newsletter": true
@@ -3413,7 +3413,7 @@
       "platform": "DS",
       "year": "older",
       "release": "2009",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "5db90ee9-99c8-43ec-b112-ec4cf840f0d2",
       "newsletter": true
@@ -3430,7 +3430,7 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2002",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b20f8d76-2acd-47c6-b5ad-d907cd342c8b",
       "newsletter": true
@@ -3446,7 +3446,7 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2013",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2cb182ce-2242-452a-a873-63cfe7381416",
       "newsletter": true
@@ -3463,7 +3463,7 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "35383057-c500-4329-8517-b480543c16c7",
       "newsletter": true
@@ -3479,7 +3479,7 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "43bdc83d-c1a7-4cbf-aa30-8db081992b5c",
       "newsletter": true
@@ -3495,7 +3495,7 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1989",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "44584464-9694-4fdd-94eb-93de4859b9a6",
       "newsletter": true
@@ -3512,8 +3512,8 @@
       "platform": "SNES",
       "year": "older",
       "release": "1992",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "a9f1d898-2718-4401-986e-218880ba68a2",
       "newsletter": true
     },
@@ -3544,8 +3544,8 @@
       "platform": "Game and Watch",
       "year": "older",
       "release": "1980",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "e9fe92de-1619-4784-8516-c285f31ecc90",
       "newsletter": true
     },
@@ -3560,8 +3560,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2011",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "fd8509ee-e2a2-4e26-8d89-d08381f21248",
       "newsletter": true
     },
@@ -3577,7 +3577,7 @@
       "year": "older",
       "release": "2008",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "1a0bbd16-eadb-4892-821f-326336a7b35b",
       "newsletter": true
     },
@@ -3593,7 +3593,7 @@
       "year": "older",
       "release": "1980",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "3d53a4d5-f207-49c7-8717-3e0486af0e04",
       "newsletter": true
     },
@@ -3608,7 +3608,7 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1994",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "e28fc559-54d9-4c33-969d-b40a0fb51419",
       "newsletter": true
@@ -3624,7 +3624,7 @@
       "platform": "PlayStation 3",
       "year": "older",
       "release": "2011",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "8fbfb42e-42de-49a0-afbe-66ab7f4ad42b",
       "newsletter": true
@@ -3640,7 +3640,7 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2002",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "6935a6b6-c797-4953-8ffc-ce90ee37573b",
       "newsletter": true
@@ -3656,7 +3656,7 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1994",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "0a13b1a5-8e99-49aa-a2fa-6f2b7e71b782",
       "newsletter": true
@@ -3690,7 +3690,7 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "c27b7783-1c12-4c22-bca1-32929127bb49",
       "newsletter": true
@@ -3709,7 +3709,7 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2014",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "cd44c4b5-e0f7-4b28-9ea6-88fc61177d0d",
       "newsletter": true
@@ -3725,7 +3725,7 @@
       "platform": "3DS",
       "year": "older",
       "release": "2013",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "8e401c38-bf07-4358-bf7a-2c5a82040625",
       "newsletter": true
@@ -3742,7 +3742,7 @@
       "platform": "Wii",
       "year": "older",
       "release": "2007",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2c68dc18-f815-48a5-8798-be2ea52f3526",
       "newsletter": true
@@ -3760,7 +3760,7 @@
       "platform": "DS",
       "year": "older",
       "release": "2009",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "52fb1014-fc0b-405e-b7fd-bc668d059937",
       "newsletter": true
@@ -3778,7 +3778,7 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2005",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "11394782-b787-48aa-bc0b-ad6e1c71ab97",
       "newsletter": true
@@ -3794,7 +3794,7 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "a28e950b-2b54-4d83-b0f2-5ab020ad71aa",
       "newsletter": true
@@ -3813,7 +3813,7 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1998",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "c84e66a0-17e9-49ca-bbf3-952f3e40422d",
       "newsletter": true
@@ -3829,7 +3829,7 @@
       "platform": "3DS",
       "year": "older",
       "release": "2011",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2aab1b6a-50ca-4a9f-aeeb-07edc0f02e2f",
       "newsletter": true
@@ -3846,7 +3846,7 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1999",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "24936783-e7b7-4c05-b6b3-01cbed439dfe",
       "newsletter": true
@@ -3862,7 +3862,7 @@
       "platform": "SNES",
       "year": "older",
       "release": "1990",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "908411b2-9b96-45c1-bc95-97d2bfbdc9cd",
       "newsletter": true
@@ -3878,7 +3878,7 @@
       "platform": "NES",
       "year": "older",
       "release": "1989",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "46276119-8cb2-438d-947e-9f80b074e0d7",
       "newsletter": true
@@ -3894,8 +3894,8 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2011",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "b5d3343d-f801-47cf-9c53-052eae198c90",
       "newsletter": true
     },
@@ -3926,7 +3926,7 @@
       "platform": "Sega Mega Drive",
       "year": "older",
       "release": "1994",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "46f4c344-2435-4735-af7b-74098760989a",
       "newsletter": true
@@ -3944,7 +3944,7 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "2004",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "71842255-7730-4efd-802a-a86967a3cd1e",
       "newsletter": true
@@ -3995,7 +3995,7 @@
       "platform": "Switch",
       "year": "older",
       "release": "2018",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "f9700b72-bcca-43e7-835c-24931fa9f6eb",
       "newsletter": true
@@ -4011,7 +4011,7 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2012",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "1ea45243-e16a-49d3-942c-547110621876",
       "newsletter": true
@@ -4030,7 +4030,7 @@
       "platform": "3DS",
       "year": "older",
       "release": "2016",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "ec835a95-7220-48da-b43e-cd6c628b5571",
       "newsletter": true
@@ -4048,7 +4048,7 @@
       "platform": "Wii",
       "year": "older",
       "release": "2009",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "24fd4a48-7d70-47ce-8517-192df98a44da",
       "newsletter": true
@@ -4064,7 +4064,7 @@
       "platform": "DS",
       "year": "older",
       "release": "2006",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "4cacce89-5082-49c5-9425-b37b2bc6f33b",
       "newsletter": true
@@ -4082,7 +4082,7 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2002",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "e4c96876-59ac-42f6-b6ea-2691debf8bfc",
       "newsletter": true
@@ -4099,7 +4099,7 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b6330104-34d1-45cd-95ea-deb4084054b0",
       "newsletter": true
@@ -4116,7 +4116,7 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1996",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "297b54ce-ed6f-4108-9266-407005493dbf",
       "newsletter": true
@@ -4133,7 +4133,7 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1999",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b8a10a3b-b9c2-42ff-b0b0-96e41bc4466f",
       "newsletter": true
@@ -4150,7 +4150,7 @@
       "platform": "SNES",
       "year": "older",
       "release": "1995",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2a4c4db0-0210-4380-9ccc-832f9a9a589a",
       "newsletter": true
@@ -4166,8 +4166,8 @@
       "platform": "NES",
       "year": "older",
       "release": "1984",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "a097e0f3-8f4b-4b09-92a4-3eee302acbd3",
       "newsletter": true
     },
@@ -4182,7 +4182,7 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2010",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "545c9e2a-3063-46dc-bb1b-a054a6da4ca7",
       "newsletter": true
@@ -4215,7 +4215,7 @@
       "year": "older",
       "release": "1997",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "6e737a3d-6602-4f9b-b8c7-2e37ef379282",
       "newsletter": true
     },
@@ -4231,8 +4231,8 @@
       "platform": "PlayStation 2",
       "year": "older",
       "release": "1999",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "28800c49-efcb-4d8d-ba61-c87402f67953",
       "newsletter": true
     },
@@ -4248,7 +4248,7 @@
       "year": "older",
       "release": "1997",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "f74404dd-4b0b-41db-ba46-1fed9026685e",
       "newsletter": true
     },
@@ -4264,7 +4264,7 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "7563268f-0527-483f-8f8a-085c71e57842",
       "newsletter": true
@@ -4284,7 +4284,7 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2014",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "62907b8d-e6a8-4631-aa98-5ddab5949cb5",
       "newsletter": true
@@ -4301,7 +4301,7 @@
       "platform": "3DS",
       "year": "older",
       "release": "2014",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "da94815b-deeb-465d-83cc-83f784bf3f40",
       "newsletter": true
@@ -4318,7 +4318,7 @@
       "year": "older",
       "release": "2009",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "aa8a5949-d755-4eae-8a9d-900c8b5efd1a",
       "newsletter": true
     },
@@ -4367,7 +4367,7 @@
       "platform": "DS",
       "year": "older",
       "release": "2010",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "726f93eb-4d6f-4816-b835-e7a98cb279a0",
       "newsletter": true
@@ -4384,7 +4384,7 @@
       "year": "older",
       "release": "2003",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "9377ef8e-ff00-40b5-8914-27f04c5a6b02",
       "newsletter": true
     },
@@ -4400,7 +4400,7 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2002",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "e4f45fae-68c5-4382-9e85-75936fcf6a6d",
       "newsletter": true
@@ -4418,7 +4418,7 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "8c2304e3-166a-46ad-858f-c80029d8e56c",
       "newsletter": true
@@ -4434,8 +4434,8 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1984",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "684b5d0c-39cb-4a8a-b3e1-a023cd445c01",
       "newsletter": true
     },
@@ -4460,14 +4460,14 @@
       "vibes": "3",
       "gameplay": "5",
       "review": [
-        "I played this at a retro games convention with an actual zapper! It was a lot of fun, and I'm happy that I was able to dick off duck hunt from my list of smash characters whose games I want to play, complete and understand. I got kinda into it, and the technology works super well without any lag. It's genuinely a good game but it gets boring pretty quickly."
+        "I played this at a retro games convention with an actual zapper! It was a lot of fun, and I'm happy that I was able to tick off duck hunt from my list of smash characters whose games I want to play, complete and understand. I got kinda into it, and the technology works super well without any lag. It's genuinely a good game but it gets boring pretty quickly."
       ],
       "image": "duck-hunt.jpg",
       "platform": "NES",
       "year": "older",
       "release": "1984",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "c89b0245-0590-439b-9b13-bcbbbea551e5",
       "newsletter": true
     },
@@ -4482,7 +4482,7 @@
       "platform": "Mobile",
       "year": "older",
       "release": "2009",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "1883e2ce-9836-48fd-b09d-29f2a45b426b",
       "newsletter": true
@@ -4514,7 +4514,7 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "1996",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "bbb3ef27-119b-4993-b4a2-83d5f0a5c70d",
       "newsletter": true
@@ -4532,7 +4532,7 @@
       "platform": "Switch",
       "year": "older",
       "release": "2019",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2048baaa-cc74-4b29-82f0-a12c5c0817f0",
       "newsletter": true
@@ -4548,7 +4548,7 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2012",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "d84d71a4-44b1-4585-bb08-67bd3ed5fe20",
       "newsletter": true
@@ -4564,7 +4564,7 @@
       "platform": "3DS",
       "year": "older",
       "release": "2015",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "4e854365-0f0f-4365-bb25-7e2b2f5a3e04",
       "newsletter": true
@@ -4581,7 +4581,7 @@
       "year": "older",
       "release": "2006",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "3a09d972-767b-421b-82eb-5e475c9eac0e",
       "newsletter": true
     },
@@ -4598,8 +4598,8 @@
       "platform": "DS",
       "year": "older",
       "release": "2005",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "68c179f3-0a50-4cc9-84f8-83643a8c97b7",
       "newsletter": true
     },
@@ -4614,7 +4614,7 @@
       "platform": "Arcade",
       "year": "older",
       "release": "1981",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "3a92819c-9663-4fee-8947-7a445e79a3f6",
       "newsletter": true
@@ -4630,7 +4630,7 @@
       "platform": "Arcade",
       "year": "older",
       "release": "1983",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "364ce85d-0fd2-4387-a81f-c24bf6f10e0b",
       "newsletter": true
@@ -4647,7 +4647,7 @@
       "year": "older",
       "release": "2011",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "40129e3d-459e-4fdd-bb6a-90589d444af8",
       "newsletter": true
     },
@@ -4665,7 +4665,7 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2006",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "c43c4aa7-737f-4b67-843a-1a8fa511b965",
       "newsletter": true
@@ -4681,7 +4681,7 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2003",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "9902fc64-9094-452f-ba5f-b1f6fbcd01ae",
       "newsletter": true
@@ -4697,7 +4697,7 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "2000",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "b8ee37ce-a3fd-4566-abb5-ce6b5e8bd2a9",
       "newsletter": true
@@ -4717,7 +4717,7 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "1993",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "c0abfbcb-2220-443d-a307-1c0ffb6a4a81",
       "newsletter": true
@@ -4734,7 +4734,7 @@
       "year": "older",
       "release": "1995",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "a759b5e6-e9ce-4653-ab29-98c0e645fe1c",
       "newsletter": true
     },
@@ -4750,7 +4750,7 @@
       "year": "older",
       "release": "1984",
       "completed": false,
-      "completable": true,
+      "completable": false,
       "id": "ff197bdc-ede2-4d77-886f-845df56cc312",
       "newsletter": true
     },
@@ -4782,7 +4782,7 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "2007",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "e93192e1-61fe-47b4-bede-ce8c6e5c940a",
       "newsletter": true
@@ -4798,8 +4798,8 @@
       "platform": "Switch",
       "year": "older",
       "release": "2016",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "c215ae2e-9cc4-4816-b8fa-5f6278b3a5cc",
       "newsletter": true
     },
@@ -4815,7 +4815,7 @@
       "platform": "Wii U",
       "year": "older",
       "release": "2015",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "3d420dbc-a2e8-4506-b6a3-9b8a6ed03283",
       "newsletter": true
@@ -4831,7 +4831,7 @@
       "platform": "3DS",
       "year": "older",
       "release": "2015",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "157a8834-16e8-47b4-bb99-33d73c346cd3",
       "newsletter": true
@@ -4850,8 +4850,8 @@
       "platform": "Wii",
       "year": "older",
       "release": "2008",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "bfe24845-32a6-4171-b1a7-304b405319e5",
       "newsletter": true
     },
@@ -4866,7 +4866,7 @@
       "platform": "DS",
       "year": "older",
       "release": "2008",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "9c8340ef-1e6f-4762-b7b5-f5fe6a020746",
       "newsletter": true
@@ -4883,8 +4883,8 @@
       "platform": "Gamecube",
       "year": "older",
       "release": "2003",
-      "completed": false,
-      "completable": true,
+      "completed": true,
+      "completable": false,
       "id": "937816dc-597d-4435-9816-bd0aab8ce4dc",
       "newsletter": true
     },
@@ -4899,7 +4899,7 @@
       "platform": "Gameboy Advance",
       "year": "older",
       "release": "2004",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "d48c29a3-99ba-4fc6-a4f1-9bef6aef2af0",
       "newsletter": true
@@ -4915,7 +4915,7 @@
       "platform": "Nintendo 64",
       "year": "older",
       "release": "1997",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "1a939d9d-3e6f-4f6d-9cf5-f61e5d5f367d",
       "newsletter": true
@@ -4931,7 +4931,7 @@
       "platform": "Gameboy",
       "year": "older",
       "release": "2000",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "84bd8054-6fa1-472c-8123-4a47c126ef0e",
       "newsletter": true
@@ -4947,7 +4947,7 @@
       "platform": "SNES",
       "year": "older",
       "release": "1996",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "1ac24a59-f76a-4ad4-9a1d-50d3d588f299",
       "newsletter": true
@@ -4964,7 +4964,7 @@
       "platform": "PC",
       "year": "older",
       "release": "2017",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "9910e68b-3484-48bc-bd0c-fa512e59b11a",
       "newsletter": true
@@ -4980,7 +4980,7 @@
       "platform": "PlayStation",
       "year": "older",
       "release": "2000",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "74784129-c2fd-45b6-ae5e-cb4c6e4bced8",
       "newsletter": true
@@ -4997,7 +4997,7 @@
       "platform": "Switch",
       "year": "older",
       "release": "2017",
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "34d12e3e-a7b0-427f-9cc8-ed461124c9f8",
       "newsletter": true

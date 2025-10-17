@@ -44,7 +44,6 @@ def create_placeholder_entry(date, existing_ids):
     "track": "",
     "description": "",
     "link": "",
-    "embed": "",
     "game": False,
     "day": date.strftime("%d-%m-%Y"),
     "id": generate_unique_id(existing_ids),

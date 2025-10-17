@@ -10,6 +10,8 @@ export interface Game {
   story: boolean;
   score: number;
   rating: number[];
+  completed: boolean;
+  completable: boolean;
   id: string;
   newsletter: boolean;
 }

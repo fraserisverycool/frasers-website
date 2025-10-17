@@ -1,16 +1,29 @@
 <div class='game-review'>
   <h2>{{ game.name }} ({{ game.platform }})</h2>
-  <p>
-    <span class="vibes">Vibes:</span> {{ game.vibes }}/10 |
-    <span class="gameplay">
-          {{ game.story == true ? 'Story:' : 'Gameplay:' }}
-        </span>
-    {{ game.gameplay }}/10
-  </p>
-  <p>
-    <span class="release-info">Released:</span> {{ game.release }} |
-    <span class="release-info">Played:</span> {{ game.year === 'older' ? 'before 2020' : game.year }}
-  </p>
+  <div class="summary">
+    <div class="text-summary">
+      <p>
+        <span class="vibes">Vibes:</span> {{ game.vibes }}/10 |
+        <span class="gameplay">
+      {{ game.story == true ? 'Story:' : 'Gameplay:' }}
+    </span>
+        {{ game.gameplay }}/10
+      </p>
+      <p>
+        <span class="release-info">Released:</span> {{ game.release }} |
+        <span class="release-info">Played:</span> {{ game.year === 'older' ? 'before 2020' : game.year }}
+      </p>
+    </div>
+    <img
+      *ngIf="game.completed"
+      class="completed"
+      [ngSrc]="'assets/games/' + (game.completable === false ? 'completed2.png' : 'completed.png')"
+      alt="completed"
+      [title]="game.completable === false ? 'As far as this game can actually be completed' : 'I beat the game!'"
+      width="50"
+      height="50"
+    />
+  </div>
   <div *ngFor="let paragraph of game.review">
     <p [innerHTML]="paragraph"></p>
   </div>
