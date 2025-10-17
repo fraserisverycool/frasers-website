@@ -9,7 +9,7 @@
       "game": false,
       "day": "30-11-2025",
       "id": "6eeab3b5-507e-45fa-b5a8-f82036cbe2fc",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -20,7 +20,7 @@
       "game": false,
       "day": "29-11-2025",
       "id": "7d1a104f-432a-4595-8dae-17c9ed176591",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -31,7 +31,7 @@
       "game": false,
       "day": "28-11-2025",
       "id": "0563f0b2-37be-4fea-a962-fa4582851ac9",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -42,7 +42,7 @@
       "game": false,
       "day": "27-11-2025",
       "id": "36d6e838-8246-4ca0-a04f-b50bbf450753",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -53,7 +53,7 @@
       "game": false,
       "day": "26-11-2025",
       "id": "aa821868-34cc-4279-8b02-af9f7c90c977",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -64,7 +64,7 @@
       "game": false,
       "day": "25-11-2025",
       "id": "24a40317-4f06-4e9a-be4b-42fef37f7414",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -75,7 +75,7 @@
       "game": false,
       "day": "24-11-2025",
       "id": "24806f56-7a39-42c8-b14d-1d0a36df06aa",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -86,7 +86,7 @@
       "game": false,
       "day": "23-11-2025",
       "id": "8489b28e-b916-4db6-96c4-4db202b88de7",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -97,7 +97,7 @@
       "game": false,
       "day": "22-11-2025",
       "id": "8a2d058f-b704-4bc2-8bbc-60901c405eb1",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -108,7 +108,7 @@
       "game": false,
       "day": "21-11-2025",
       "id": "ee6671e0-f4d2-486c-b017-95a1067d0d27",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -119,7 +119,7 @@
       "game": false,
       "day": "20-11-2025",
       "id": "fd4eb6ab-d680-441d-bbbb-51f5d30b9a47",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -130,7 +130,7 @@
       "game": false,
       "day": "19-11-2025",
       "id": "3dddcfd1-5bcf-45e3-bef5-f1dd9ad9d0a3",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Konami Kukeiha Club, Motoaki Furukawa",
@@ -141,7 +141,7 @@
       "game": true,
       "day": "18-11-2025",
       "id": "b3576269-a055-4272-8eb2-2f2819db89d8",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Rhye",
@@ -152,7 +152,7 @@
       "game": false,
       "day": "17-11-2025",
       "id": "9e24a25d-659d-4ee5-9da0-5755807d385d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Kazumi Totaka",
@@ -163,7 +163,7 @@
       "game": true,
       "day": "16-11-2025",
       "id": "e05afca2-8bbd-4928-92b3-90df2738c632",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Erasmo Carlos",
@@ -174,7 +174,7 @@
       "game": false,
       "day": "15-11-2025",
       "id": "ffadf66c-c487-4e71-9e1d-b39a6092df5a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Ultraflex",
@@ -185,7 +185,7 @@
       "game": false,
       "day": "14-11-2025",
       "id": "bb87bdbe-3cc1-4108-abaa-c1495dc42b9d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Mystery Nintendo composers",
@@ -196,7 +196,7 @@
       "game": true,
       "day": "13-11-2025",
       "id": "bb82d099-372c-4d3f-a6f7-8e2237c0ed7b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Asuka Ohta, Hajime Wakai",
@@ -207,7 +207,7 @@
       "game": true,
       "day": "12-11-2025",
       "id": "10211e24-65d0-4aad-8f0e-36d8ffbaf5d2",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Confidence Man",
@@ -218,7 +218,7 @@
       "game": false,
       "day": "11-11-2025",
       "id": "334365a7-f0cd-479b-b6ed-819f12c990c7",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Koji Kondo",
@@ -229,7 +229,7 @@
       "game": true,
       "day": "10-11-2025",
       "id": "b1165a1f-d302-401a-9bdc-0ddae3fd5def",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Aretha Franklin",
@@ -240,7 +240,7 @@
       "game": false,
       "day": "09-11-2025",
       "id": "0b104192-238d-4622-a4c2-97dd70c47bb1",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Sade",
@@ -251,7 +251,7 @@
       "game": false,
       "day": "08-11-2025",
       "id": "6c07c1e9-0d60-4ca7-9ec1-4775047bdd1a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Laura Mvula",
@@ -262,7 +262,7 @@
       "game": false,
       "day": "07-11-2025",
       "id": "afd1fd7d-c643-4973-8d35-b80f76f12320",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "SG Lewis, Nile Rodgers",
@@ -273,7 +273,7 @@
       "game": false,
       "day": "06-11-2025",
       "id": "cc3019c6-8624-4fb5-b59a-101822391049",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Shogo Sakai",
@@ -284,7 +284,7 @@
       "game": true,
       "day": "05-11-2025",
       "id": "99985600-100c-4c1d-a92e-3cd40450e709",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Shogo Sakai",
@@ -295,7 +295,7 @@
       "game": true,
       "day": "04-11-2025",
       "id": "d7b94fba-ebd7-4fdf-88fb-5cd858f30c5a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Tomoya Tomita, Misaki Asada",
@@ -306,7 +306,7 @@
       "game": true,
       "day": "03-11-2025",
       "id": "7def7302-f0e0-43cf-9cf5-5c834bad08d3",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Esperanza Spalding",
@@ -317,7 +317,7 @@
       "game": false,
       "day": "02-11-2025",
       "id": "e8d1510a-5078-4bb2-a12f-1b201bdcf741",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "PinkPantheress",
@@ -328,7 +328,7 @@
       "game": false,
       "day": "01-11-2025",
       "id": "f4110a84-0ff9-419c-818f-b5d670856767",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Atsuko Asahi",
@@ -339,7 +339,7 @@
       "game": true,
       "day": "31-10-2025",
       "id": "632d1b28-c157-4a08-a558-b022e66bcaa0",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Lena Raine",
@@ -350,7 +350,7 @@
       "game": true,
       "day": "30-10-2025",
       "id": "044835c6-d94f-427a-8b3a-23355bafa694",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Kylie Minogue",
@@ -361,7 +361,7 @@
       "game": false,
       "day": "29-10-2025",
       "id": "236a6ad4-89f4-4876-8cd0-af1f05fdc592",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Spellling",
@@ -372,7 +372,7 @@
       "game": false,
       "day": "28-10-2025",
       "id": "eb57d648-46a0-4893-9815-e24af8f44cbb",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Paloma San Basilio",
@@ -383,7 +383,7 @@
       "game": false,
       "day": "27-10-2025",
       "id": "35b6e214-e628-453c-80be-e36486d22f00",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Kings of Convenience",
@@ -394,7 +394,7 @@
       "game": false,
       "day": "26-10-2025",
       "id": "5e130b81-0391-49a7-aa61-f75e21960502",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Magdalena Bay",
@@ -405,7 +405,7 @@
       "game": false,
       "day": "25-10-2025",
       "id": "45a38145-53ce-4b6d-96cc-5a87e1a8f62d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Eirik Suhrke",
@@ -416,7 +416,7 @@
       "game": true,
       "day": "24-10-2025",
       "id": "e65a3da2-721c-4d1e-9158-2587fab775fe",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "eebrozgi",
@@ -427,7 +427,7 @@
       "game": true,
       "day": "23-10-2025",
       "id": "f95d415e-ad21-40ae-a375-7ffbfce1f6f0",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Avalanches",
@@ -438,7 +438,7 @@
       "game": false,
       "day": "22-10-2025",
       "id": "6f5f31da-4ed3-4d27-a8ec-69c55d21847a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Röyksopp ft. Susanne Sundfør",
@@ -449,7 +449,7 @@
       "game": false,
       "day": "21-10-2025",
       "id": "c95b4a90-2cb2-48f4-98a7-4f9633d9cf71",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Christopher Larkin",
@@ -460,7 +460,7 @@
       "game": true,
       "day": "20-10-2025",
       "id": "b1c8eca2-d759-4b52-8fab-2635bce95f59",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Atsuko Asahi",
@@ -471,7 +471,7 @@
       "game": false,
       "day": "19-10-2025",
       "id": "d3bdc041-f283-495a-864d-83b0230c985e",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Erykah Badu",
@@ -482,7 +482,7 @@
       "game": false,
       "day": "18-10-2025",
       "id": "f9a318ba-dfcf-4183-b353-e014bd88e663",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Kero Kero Bonito",
@@ -493,7 +493,7 @@
       "game": false,
       "day": "17-10-2025",
       "id": "ec74a455-2714-4f95-8abb-06be65a66993",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Arata Iiyoshi, Keisuke Ito, Hideki Sakamoto",
@@ -504,7 +504,7 @@
       "game": true,
       "day": "16-10-2025",
       "id": "07a4f065-4340-456e-b077-2c146f561f84",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Björk",
@@ -515,7 +515,7 @@
       "game": false,
       "day": "15-10-2025",
       "id": "93539383-4e82-4736-a878-2e656ffdd9fb",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Jens Lekman",
@@ -526,7 +526,7 @@
       "game": false,
       "day": "14-10-2025",
       "id": "2e883d6e-e389-4eee-8dcb-1d15366f2e21",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Atsuko Asahi",
@@ -537,7 +537,7 @@
       "game": true,
       "day": "13-10-2025",
       "id": "48d48a7f-a307-4fbd-b260-12201849aad3",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Khruangbin",
@@ -548,7 +548,7 @@
       "game": false,
       "day": "12-10-2025",
       "id": "800e745d-354b-4225-ae3e-2087c94adde5",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Yoshito Hirano, Yuka Tsujiyoko",
@@ -559,7 +559,7 @@
       "game": true,
       "day": "11-10-2025",
       "id": "a1ba4391-ed5a-48db-a32b-894c97f4768b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Natalia Lafourcade",
@@ -570,7 +570,7 @@
       "game": false,
       "day": "10-10-2025",
       "id": "1a206338-f0c5-4778-a9d1-533521d6c3be",
-      "newsletter": false
+      "newsletter": true
     }
   ]
 }

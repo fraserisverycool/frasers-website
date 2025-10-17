@@ -1964,7 +1964,7 @@
         {
           "filename": "cloud1.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "I got this at some convention and forgot about it until recently"
         }
       ],
