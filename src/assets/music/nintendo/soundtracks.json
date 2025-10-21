@@ -1,6 +1,20 @@
 {
   "soundtracks": [
     {
+      "filename": "metroid-2.jpg",
+      "name": "Metroid II - Return of Samus",
+      "description": [
+        "Wow talk about unlistenable soundtracks on this app. You won't catch me ever listening to 'SR288 Area BGM 2' ever again, that's for sure. The gameboy soundchip really is a catastrophe. Most of the tracks are bleeps and bloops and that is actually what you hear during the game! The one exception is the excellent main theme.",
+        "I'm a little bit sad that they didn't release the 3DS remake as well, which contains some genuinely good tracks. I guess we were spoilt enough last time with Paper Mario and its remake. Another reminder not to feel entitled!"
+      ],
+      "platform": "Gameboy",
+      "topTracks": [
+        "SR388 Main Theme"
+      ],
+      "id": "48382a4a-ebc1-4a02-beec-b759591ec536",
+      "newsletter": false
+    },
+    {
       "filename": "paper-mario-ttyd-switch.avif",
       "name": "Paper Mario: The Thousand-Year Door",
       "description": [

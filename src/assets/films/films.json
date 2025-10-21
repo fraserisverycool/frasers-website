@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "amrum.jpg",
+      "title": "Painted Boats",
+      "description": "A gorgeous-looking film set during the German surrender in WW2 in a teeny-tiny island in north Germany. Fascinating glimpse into a time and place that I've never seen before. Simple/low-key plot but still engaging",
+      "year": "2025",
+      "release": "2025",
+      "id": "abb57eb3-407d-40e1-b16e-590d1d013cdc",
+      "newsletter": false
+    },
+    {
       "filename": "painted-boats.jpg",
       "title": "Painted Boats",
       "description": "Read about it in the Stoke Bruerne narrowboat museum when we had our boating holiday. Cool history lesson about life on canalboats before it became a tourism thing",
