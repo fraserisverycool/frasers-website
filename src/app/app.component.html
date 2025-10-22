@@ -6,23 +6,25 @@
   <title>Fraser's Website</title>
 </head>
 <body>
-
-<div class="links">
-  <h3>
-    <a routerLink="/">Home</a> |
-    <a routerLink="/games">Games</a> |
-    <a routerLink="/films">Films</a> |
-    <a routerLink="/music">Music</a> |
-    <a routerLink="/books">Books</a> |
-    <a routerLink="/gallery">Gallery</a> |
-    <a routerLink="/community">Community</a> |
-    <a routerLink="/misc">Misc</a> |
-    <a routerLink="/newsletter">Newsletter</a> |
-    <a routerLink="/guestbook">Guestbook</a>
-  </h3>
-</div>
-<router-outlet></router-outlet>
-
+  <header>
+    <nav class="links">
+      <h3>
+        <a routerLink="/">Home</a> |
+        <a routerLink="/games">Games</a> |
+        <a routerLink="/films">Films</a> |
+        <a routerLink="/music">Music</a> |
+        <a routerLink="/books">Books</a> |
+        <a routerLink="/gallery">Gallery</a> |
+        <a routerLink="/community">Community</a> |
+        <a routerLink="/misc">Misc</a> |
+        <a routerLink="/newsletter">Newsletter</a> |
+        <a routerLink="/guestbook">Guestbook</a>
+      </h3>
+    </nav>
+  </header>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
