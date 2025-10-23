@@ -27,7 +27,7 @@ export class DailyComponent implements OnInit {
   }
 
   loadDailySoundtracks(): void {
-    this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/music/daily/daily-soundtracks.json').subscribe({
+    this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/data/daily-soundtracks.json').subscribe({
       next: (data) => {
         this.dailySoundtracks = data.dailysoundtracks;
         this.getRatings();

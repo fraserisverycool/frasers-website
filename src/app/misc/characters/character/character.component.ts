@@ -3,11 +3,12 @@ import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {Character, Decoration} from "../character.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
+import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
 
 @Component({
   selector: 'app-character',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent],
+    imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
   templateUrl: './character.component.html',
   styleUrls: ['./character.component.css']
 })

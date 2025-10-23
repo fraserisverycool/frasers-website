@@ -3,11 +3,12 @@ import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {Soundtrack} from "../soundtrack.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
+import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
 
 @Component({
   selector: 'app-soundtrack-modal',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent],
+    imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
   templateUrl: './soundtrack-modal.component.html',
   styleUrls: ['./soundtrack-modal.component.css']
 })

@@ -1,6 +1,6 @@
 <div *ngIf="selectedAlbum" class="modal">
   <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
-    <span class="close" (click)="close.emit()">&times;</span>
+    <app-close-button (click)="close.emit()"/>
     <h2>{{ selectedAlbum.name }}</h2>
     <img [ngSrc]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image" width="600" height="600">
     <div class="releaseyear-icon" [style.background-color]="selectedAlbum.color" [style.color]="selectedAlbum.textColor">

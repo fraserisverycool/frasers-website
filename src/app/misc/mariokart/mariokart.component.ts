@@ -67,7 +67,7 @@ export default class MariokartComponent implements OnInit{
   }
 
   loadTracks(): void {
-    this.http.get<{ tracks: Track[] }>('assets/misc/mariokart/mariokart.json').subscribe({
+    this.http.get<{ tracks: Track[] }>('assets/data/mariokart.json').subscribe({
       next: (data) => {
         this.originalTracks = data.tracks;
         this.getRatings();

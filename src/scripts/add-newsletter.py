@@ -2,21 +2,21 @@ import json
 import os
 
 # Files to process
-FILES = ["games/games.json",
-         "films/films.json",
-         "community/durstloescher/durstloescher.json",
-         "books/books.json",
-         "gallery/gallery.json",
-         "gallery/videos/videos.json",
-         "misc/characters/characters.json",
-         "misc/mariokart/mariokart.json",
-         "misc/stitch/stitches.json",
-         "music/albums/albums.json",
-         "music/albums/cds.json",
-         "music/mixes/mixes.json",
-         "music/nintendo/soundtracks.json",
-         "music/nintendo/kk/kk.json",
-         "music/daily/daily-soundtracks.json"]
+FILES = ["data/games.json",
+         "data/films.json",
+         "data/durstloescher.json",
+         "data/books.json",
+         "data/photos.json",
+         "data/videos.json",
+         "data/characters.json",
+         "data/mariokart.json",
+         "data/stitches.json",
+         "data/albums.json",
+         "data/cds.json",
+         "data/mixes.json",
+         "data/soundtracks.json",
+         "data/kk.json",
+         "data/daily-soundtracks.json"]
 
 def load_json(filename):
   """Load a JSON file, return its content."""

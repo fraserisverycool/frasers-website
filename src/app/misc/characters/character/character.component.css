@@ -29,22 +29,6 @@
   }
 }
 
-.close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background-color: transparent;
-  border: none;
-  font-size: 20px;
-  color: #fff;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.close-btn:hover {
-  color: #ff6b6b;
-}
-
 .played-character {
   background: linear-gradient(45deg, #05025c, #350170);
   border-radius: 12px;

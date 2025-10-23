@@ -1,17 +1,20 @@
-<div class="calendar-container">
-  <div class="calendar-grid">
-    <button *ngFor="let filter of filters" (click)="sortFilms(filter)" class="filter-button">
-      <span>{{ filter }}</span>
-    </button>
-  </div>
-  <div class="search-container">
-    <input type="text" [(ngModel)]="searchTerm" placeholder="Search films...">
-  </div>
-</div>
-
 <div class="container">
   <h1 class="text-center">{{ title }}</h1>
-  <div *ngFor="let film of filteredFilms">
-    <app-film [film]="film"></app-film>
+  <div class="calendar-container">
+    <ul class="calendar-grid">
+      <li *ngFor="let filter of filters">
+        <button (click)="sortFilms(filter)" class="filter-button">
+          <span>{{ filter }}</span>
+        </button>
+      </li>
+    </ul>
+    <div class="search-container">
+      <input type="text" [(ngModel)]="searchTerm" placeholder="Search films...">
+    </div>
   </div>
+  <ul>
+    <li *ngFor="let film of filteredFilms">
+      <app-film [film]="film"></app-film>
+    </li>
+  </ul>
 </div>

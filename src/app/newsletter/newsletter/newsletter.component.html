@@ -1,20 +1,20 @@
 <div class="container">
   <div class="overlay"></div>
   <div *ngIf="newsletter">
-    <div class="title">{{ newsletter.title }}</div>
-    <div class="timestamp">{{ newsletter.timestamp }}</div>
+    <h1 class="title">{{ newsletter.title }}</h1>
+    <p class="timestamp">{{ newsletter.timestamp }}</p>
     <div *ngFor="let paragraph of newsletter.description">
-      <div class="description">{{ paragraph }}</div>
+      <p class="description">{{ paragraph }}</p>
     </div>
     <div *ngFor="let entry of newsletter.entries; let i = index" [ngClass]="['entry', getClass(entry)]">
       <div [ngClass]="['special-title', getClass(entry)]">{{ getName(entry.type) }}</div>
-      <div class="entry-title">{{ entry.title }}</div>
-      <div class="entry-metadata">{{ entry.metadata }}</div>
+      <h2 class="entry-title">{{ entry.title }}</h2>
+      <p class="entry-metadata">{{ entry.metadata }}</p>
       <div *ngFor="let entryparagraph of entry.description">
-        <div class="description">{{ entryparagraph }}</div>
+        <p class="description">{{ entryparagraph }}</p>
       </div>
       <img *ngIf="entry.image" [ngSrc]="entry.image" [alt]="entry.title" class="entry-image" width="600" height="600">
     </div>
-    <div class="title">And don't forget... an <a routerLink="/music/daily-soundtracks">archive</a> of "Soundtrack of the Day" updates are on the website!</div>
+    <p class="title">And don't forget... an <a routerLink="/music/daily-soundtracks">archive</a> of "Soundtrack of the Day" updates are on the website!</p>
   </div>
 </div>

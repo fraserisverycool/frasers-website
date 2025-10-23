@@ -26,10 +26,10 @@ const platformOrder = [
   selector: 'app-nintendo',
   standalone: true,
   imports: [CommonModule, RouterOutlet, RouterLink, FormsModule, NgOptimizedImage, DurstloescherModalComponent, SoundtrackModalComponent],
-  templateUrl: './nintendo.component.html',
-  styleUrls: ['./nintendo.component.css']
+  templateUrl: './soundtracks.component.html',
+  styleUrls: ['./soundtracks.component.css']
 })
-export default class NintendoComponent implements OnInit {
+export default class SoundtracksComponent implements OnInit {
   soundtracks: Soundtrack[] = [];
   originalSoundtracks: Soundtrack[] = [];
   selectedSoundtrack: Soundtrack | null = null;
@@ -47,7 +47,7 @@ export default class NintendoComponent implements OnInit {
   }
 
   loadSoundtracks(): void {
-    this.http.get<{ soundtracks: Soundtrack[] }>('assets/music/nintendo/soundtracks.json').subscribe({
+    this.http.get<{ soundtracks: Soundtrack[] }>('assets/data/soundtracks.json').subscribe({
       next: (data) => {
         this.originalSoundtracks = data.soundtracks;
         this.getRatings();

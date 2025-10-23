@@ -79,7 +79,7 @@ def process_file(filename):
   save_json(filename, data)
 
 def main():
-  process_file("../assets/music/daily/daily-soundtracks.json")
+  process_file("../assets/data/daily-soundtracks.json")
   print(f"Finished processing.")
 
 if __name__ == "__main__":

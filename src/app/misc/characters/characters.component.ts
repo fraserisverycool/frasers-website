@@ -26,7 +26,7 @@ export default class CharactersComponent implements OnInit {
   }
 
   loadCharacters(): void {
-    this.http.get<{ characters: Character[] }>('assets/misc/characters/characters.json').subscribe({
+    this.http.get<{ characters: Character[] }>('assets/data/characters.json').subscribe({
       next: (data) => {
         this.characters = data.characters;
         this.getRatings();

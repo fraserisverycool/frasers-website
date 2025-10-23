@@ -1,6 +1,6 @@
 <div *ngIf="selectedCd" class="modal">
   <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
-    <span class="close" (click)="close.emit()">X</span>
+    <app-close-button (click)="close.emit()"/>
     <h2>{{ selectedCd.album }}</h2>
     <img [ngSrc]="'assets/music/albums/' + selectedCd.image" [alt]="selectedCd.album" class="modal-image" width="600" height="600">
     <p [innerHTML]="selectedCd.description"></p>

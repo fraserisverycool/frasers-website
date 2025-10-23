@@ -6,15 +6,16 @@ import GamesComponent from "../games.component";
   selector: 'app-next',
   standalone: true,
   imports: [CommonModule, GamesComponent],
-  templateUrl: './next.component.html',
-  styleUrls: ['./next.component.css']
+  templateUrl: './next-game.component.html',
+  styleUrls: ['./next-game.component.css']
 })
-export default class NextComponent {
+export default class NextGameComponent {
   playstationgames = [
     'Sable',
     'Tinykin',
     'Hardspace Shipbreaker',
-    'Humanity'
+    'Humanity',
+    'Clair Obscur: Expedition 33'
   ];
   switchgames = [
     'Unsighted',
@@ -46,6 +47,8 @@ export default class NextComponent {
     'The Forgotten City',
     'Stephen\'s Sausage Rolls',
     'The Dark Queen of Mortholme',
-    'Noita'
+    'Noita',
+    'Rimworld',
+    'Consume me'
   ];
 }

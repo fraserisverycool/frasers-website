@@ -10,16 +10,16 @@ import {RatingService} from "../utils/rating-bar/service/rating.service";
   selector: 'app-gallery',
   standalone: true,
   imports: [CommonModule, RouterLink, PhotoComponent],
-  templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.css']
+  templateUrl: './photos.component.html',
+  styleUrls: ['./photos.component.css']
 })
-export default class GalleryComponent implements OnInit {
+export default class PhotosComponent implements OnInit {
   photos: Photo[] = [];
 
   constructor(private http: HttpClient, private ratingService: RatingService) {}
 
   ngOnInit(): void {
-    this.http.get<{ pictures: Photo[] }>('assets/gallery/gallery.json').subscribe({
+    this.http.get<{ pictures: Photo[] }>('assets/data/photos.json').subscribe({
       next: (data) => {
         this.photos = data.pictures;
         this.getRatings();

@@ -22,7 +22,7 @@
     <button (click)="sortCds('genre')">By Genre</button>
   </div>
   <div class="tag-filter-container">
-    <h4>Filter by Genre:</h4>
+    <p class="filter-text">Filter by Genre:</p>
     <div *ngFor="let tag of genreList; let i = index" class="tag-radio">
       <input type="radio" [id]="'tag-' + i" [value]="tag" [name]="'genre-filter'" (change)="toggleTagSelection(tag)" [checked]="selectedTag === tag">
       <label [for]="'tag-' + i" [ngStyle]="{ 'background-color': genres.get(tag) }">{{ tag }}</label>
@@ -34,7 +34,7 @@
       <img src="assets/music/cds/cd-case.png" class="cd-case" />
     </div>
     <div class="cd-info" [style.background-color]="generateGenreColour(cd.genre)">
-      <h3 class="cd-name">{{cd.artist}} - {{ cd.album }}</h3>
+      <h2 class="cd-name">{{cd.artist}} - {{ cd.album }}</h2>
     </div>
   </div>
 </div>

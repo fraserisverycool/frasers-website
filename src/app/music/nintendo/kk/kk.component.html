@@ -7,13 +7,15 @@
   <p>So, for this webpage, I decided to rank them in terms of vibes, how well they represent their given style, if the music is good, and also there are bonus points for great album art. I'll write a few sentences about each one as well with what I learned about the style of music he is emulating. Within the tiers they are not ordered.</p>
 
   <!-- Tier S -->
-  <h1>The Crème de la Crème</h1>
+  <h2>The Crème de la Crème</h2>
   <p>These K.K. tracks are so good. They are worthy of being played in my house, and they have reached some kind of legendary status, at least for me</p>
   <div class="tier-container">
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'S'">
         <div class="kkSong-image-container">
-          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
+          <button style="background: none; border: none;" aria-label="kkSong.title">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+          </button>
         </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -23,14 +25,15 @@
   </div>
 
   <!-- Tier A -->
-  <h1>Great tunes, great vibes</h1>
+  <h2>Great tunes, great vibes</h2>
   <p>These are enjoyable, pretty great tracks from the main man himself. He has a lot of deep cuts which aren't instant classics but definitely worth a listen</p>
   <div class="tier-container">
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'A'">
         <div class="kkSong-image-container">
-          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
-        </div>
+          <button style="background: none; border: none;" aria-label="kkSong.title">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+          </button>        </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
@@ -39,14 +42,15 @@
   </div>
 
   <!-- Tier B -->
-  <h1>Eh they're alright I guess</h1>
+  <h2>Eh they're alright I guess</h2>
   <p>I don't feel too strongly about these tracks. Don't feel obliged to listen to them</p>
   <div class="tier-container">
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'B'">
         <div class="kkSong-image-container">
-          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
-        </div>
+          <button style="background: none; border: none;" aria-label="kkSong.title">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+          </button>        </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
@@ -55,14 +59,15 @@
   </div>
 
   <!-- Tier C -->
-  <h1>Only listen to these for science</h1>
+  <h2>Only listen to these for science</h2>
   <p>A lot of K.K. tracks sound pretty bad or are just boring, this is a dumping ground for those</p>
   <div class="tier-container">
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'C'">
         <div class="kkSong-image-container">
-          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
-        </div>
+          <button style="background: none; border: none;" aria-label="kkSong.title">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+          </button>        </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
@@ -71,14 +76,15 @@
   </div>
 
   <!-- Tier D -->
-  <h1>Farting into the microphone</h1>
+  <h2>Farting into the microphone</h2>
   <p>These are genuinely bad. You should only listen to them with the express purpose of laughing at them</p>
   <div class="tier-container">
     <div *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'D'">
         <div class="kkSong-image-container">
-          <img [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" [alt]="kkSong.title" class="kkSong-image" width="100" height="100">
-        </div>
+          <button style="background: none; border: none;" aria-label="kkSong.title">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+          </button>        </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
@@ -87,12 +93,4 @@
   </div>
 </div>
 
-<div *ngIf="selectedKkSong" class="modal">
-  <div class="modal-content">
-    <span class="close" (click)="closeDescription()">&times;</span>
-    <h2>{{ selectedKkSong.title }}</h2>
-    <p>{{ selectedKkSong.description }}</p>
-    <img [ngSrc]="'assets/music/nintendo/kk/' + selectedKkSong.filename" [alt]="selectedKkSong.title" class="modal-image" width="600" height="600">
-    <app-rating-bar [rating]="{id: selectedKkSong.id, ratings: selectedKkSong.rating}"></app-rating-bar>
-  </div>
-</div>
+<app-kk-modal *ngIf="selectedKkSong" [selectedKkSong]="selectedKkSong" (close)="closeDescription()"/>

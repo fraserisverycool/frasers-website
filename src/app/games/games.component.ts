@@ -64,7 +64,7 @@ export default class GamesComponent implements OnInit {
   }
 
   loadGames(): void {
-    this.http.get<{ games: any[] }>('assets/games/games.json').pipe(
+    this.http.get<{ games: any[] }>('assets/data/games.json').pipe(
       map(data => {
         const parsedGames: Game[] = data.games
         .filter((game: any) => game.review && game.review.length > 0)

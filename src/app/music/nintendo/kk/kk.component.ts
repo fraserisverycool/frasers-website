@@ -3,21 +3,16 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {RatingService} from "../../../utils/rating-bar/service/rating.service";
-
-interface KKSong {
-  filename: string;
-  title: string;
-  tier: string;
-  description: string;
-  rating: number[];
-  id: string;
-  newsletter: boolean;
-}
+import {RouterLink} from "@angular/router";
+import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
+import {KKSong} from "./kk-song.interface";
+import {KkModalComponent} from "./kk-modal/kk-modal.component";
+import {SoundtrackModalComponent} from "../soundtrack-modal/soundtrack-modal.component";
 
 @Component({
   selector: 'app-kk',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+  imports: [CommonModule, NgOptimizedImage, RatingBarComponent, RouterLink, CloseButtonComponent, KkModalComponent, SoundtrackModalComponent],
   templateUrl: './kk.component.html',
   styleUrls: ['./kk.component.css']
 })
@@ -32,7 +27,7 @@ export default class KkComponent implements OnInit {
   }
 
   loadKkSongs(): void {
-    this.http.get<{ kkSongs: KKSong[] }>('assets/music/nintendo/kk/kk.json').subscribe({
+    this.http.get<{ kkSongs: KKSong[] }>('assets/data/kk.json').subscribe({
       next: (data) => {
         this.kkSongs = data.kkSongs;
         this.getRatings();

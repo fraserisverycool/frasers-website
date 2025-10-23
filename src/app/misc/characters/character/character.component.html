@@ -1,5 +1,5 @@
 <div class="character-detail" *ngIf="selectedCharacter" appClickedOutside (clickedOutside)="close.emit()">
-  <button class="close-btn" (click)="close.emit()">X</button>
+  <app-close-button (click)="close.emit()"/>
   <h2>{{ selectedCharacter.name }}</h2>
   <img
     [ngSrc]="'assets/misc/characters/pics/' + selectedCharacter.picture[pictureMode]"

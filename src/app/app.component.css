@@ -13,26 +13,34 @@ a {
   100% {background: #ff9a9e;}
 }
 
-.links {
+nav {
   text-align: center;
-  padding: 1em;
+  padding: 1em 1em 0.1em 1em;
   animation: gradient 5s ease infinite;
 }
 
-.links h3 {
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.4em;
   color: #0336ff;
   text-shadow: 2px 2px #ffb73d;
+  display: inline-block;
+  margin: 0 0.5em;
 }
 
-.links a {
+nav a {
   color: #0336ff;
   text-decoration: none;
 }
 
-.links a:hover {
-  color: #ffb73d;
+nav a:hover {
+  color: #2a073d;
   transform: rotate(360deg);
   transition: transform 0.5s;
 }

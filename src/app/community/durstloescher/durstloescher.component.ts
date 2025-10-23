@@ -26,7 +26,7 @@ export default class DurstloescherComponent implements OnInit {
   }
 
   loadDurstloescher(): void {
-    this.http.get<{ durstloescher: Durstloescher[] }>('assets/community/durstloescher/durstloescher.json').subscribe({
+    this.http.get<{ durstloescher: Durstloescher[] }>('assets/data/durstloescher.json').subscribe({
       next: (data) => {
         this.originalDurstloescher = data.durstloescher;
         this.getRatings();

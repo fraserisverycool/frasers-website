@@ -29,7 +29,7 @@ export default class StitchComponent implements OnInit {
   }
 
   loadStitches(): void {
-    this.http.get<{ stitches: Stitch[] }>('assets/misc/stitch/stitches.json').subscribe({
+    this.http.get<{ stitches: Stitch[] }>('assets/data/stitches.json').subscribe({
       next: (data) => {
         this.stitches = data.stitches;
         this.getRatings();

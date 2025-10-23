@@ -6,18 +6,18 @@
   <p>Welcome to my newsletter! I started making this website at the start of 2025 and I've enjoyed growing it to where it is today.</p>
   <p>I get that it's hard to constantly check the site for updates, so to make things easier for you guys, I've prepared a newsletter which features all the new content from the website whenever I update it. Here is the link:</p>
   <a href="https://worldpeace.services/assets/newsletter.rss">https://worldpeace.services/assets/newsletter.rss</a>
-  <h3>How do I subscribe to an RSS feed?</h3>
+  <h2>How do I subscribe to an RSS feed?</h2>
   <p>An RSS feed is an old internet kind of thing. I'll post new newsletters to the feed and anyone who is listening will get a notification. I can recommend the app 'Feedly', which allows you to put in the RSS link and will give you a little notification if I publish something.</p>
   <p>Another alternative is I let you guys give me your email address and I learn how to send emails from here. I'm not excited about that because I don't want to collect any data (what if an oligarch blackmails me into selling your personal data?) and also because it's a bunch of work. If you really want that, let me know.</p>
-  <h3>What's going into the newsletter?</h3>
+  <h2>What's going into the newsletter?</h2>
   <p>I will aggregate all the new content, so I'm talking films, games, books etc, from the last time I sent a newsletter and put it in the post. I'll also give a short life update for your enjoyment as well. Maybe I'll have some other thoughts about life to share.</p>
   <div class="gif">
     <img src="assets/newsletter/diglett.gif">
   </div>
   <h2>Past Newsletters</h2>
-  <div class="table-container">
-    <div class="newsletter-row" *ngFor="let newsletter of newsletters; let i = index">
+  <ul class="table-container">
+    <li class="newsletter-row" *ngFor="let newsletter of newsletters; let i = index">
       <a [routerLink]="['/newsletter', newsletter.timestamp]">{{ newsletter.timestamp }} | {{ newsletter.title }}</a>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>

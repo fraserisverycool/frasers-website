@@ -23,7 +23,7 @@ export default class BooksComponent implements OnInit {
   }
 
   loadBooks(): void {
-    this.http.get<{ books: Book[] }>('assets/books/books.json').subscribe({
+    this.http.get<{ books: Book[] }>('assets/data/books.json').subscribe({
       next: (data) => {
         this.books = data.books;
         this.getRatings();

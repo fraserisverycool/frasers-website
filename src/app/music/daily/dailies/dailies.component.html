@@ -2,11 +2,8 @@
   <h1>Soundtrack of the Day - Archive</h1>
   <div class="overlay"></div>
   <div *ngFor="let track of dailySoundtracks" class="list-item">
-    <div class="date">
-      {{track.day}}
-    </div>
     <div>
-      <h3 class="h3">{{track.track}}</h3>
+      <h2 class="h3">{{track.track}}</h2>
 
       <p class="p" *ngIf="!track.game"><strong>Artist:</strong> {{track.artist}}</p>
       <p class="p" *ngIf="track.game"><strong>Composer:</strong> {{track.artist}}</p>
@@ -19,6 +16,9 @@
       <a class="a" [href]="track.link">Listen on YouTube</a>
 
       <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
+    </div>
+    <div class="date">
+      {{track.day}}
     </div>
   </div>
   <div class="gif">

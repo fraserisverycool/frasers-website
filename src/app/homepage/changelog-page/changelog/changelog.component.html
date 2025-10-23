@@ -3,6 +3,7 @@
 </div>
 
 <table class="retro-table">
+  <caption>A list of all the various changes I've made to the website</caption>
   <tbody>
   <tr *ngFor="let entry of changelogEntries">
     <td class="nowrap" [class.major]="entry.majorRelease">{{ entry.date }}</td>

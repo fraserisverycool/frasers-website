@@ -28,7 +28,7 @@ export default class FilmsComponent implements OnInit {
   }
 
   loadFilms(): void {
-    this.http.get<{ films: Film[] }>('assets/films/films.json').subscribe({
+    this.http.get<{ films: Film[] }>('assets/data/films.json').subscribe({
       next: (data) => {
         this.originalFilms = data.films;
         this.getRatings();

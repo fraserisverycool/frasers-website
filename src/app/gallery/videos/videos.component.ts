@@ -21,13 +21,13 @@ interface Video {
   templateUrl: './videos.component.html',
   styleUrls: ['./videos.component.css']
 })
-export default class VideoGalleryComponent implements OnInit {
+export default class VideosComponent implements OnInit {
   videos: Video[] = [];
 
   constructor(private http: HttpClient, private sanitizer: DomSanitizer) {}
 
   ngOnInit() {
-    this.http.get<{ videos: Video[] }>('assets/gallery/videos/videos.json').subscribe(
+    this.http.get<{ videos: Video[] }>('assets/data/videos.json').subscribe(
       data => {
         this.videos = data.videos.map(video => ({
           ...video,

@@ -11,6 +11,12 @@
   margin-top: 20px;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   color: #360000;
   font-size: 2.5em;
@@ -27,6 +33,7 @@ h1 {
 
 .calendar-container {
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   padding: 20px;
   background: linear-gradient(135deg, #ff6045, #c40038);

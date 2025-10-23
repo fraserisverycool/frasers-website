@@ -1,6 +1,6 @@
 <div class="container">
   <h1>My favourite albums</h1>
-  <h4>I've written something about all my favourite albums! If you're looking for a recommendation, you can have a little browse here</h4>
+  <p>I've written something about all my favourite albums! If you're looking for a recommendation, you can have a little browse here.</p>
   <div class="search-container">
     <input type="text" [(ngModel)]="searchTerm" placeholder="Search albums...">
   </div>
@@ -11,7 +11,7 @@
     <button (click)="sortAlbums('releaseDate')">By Release Date</button>
   </div>
   <div class="tag-filter-container">
-    <h4>Filter by Tags:</h4>
+    <p class="filter-text">Filter by Tags:</p>
     <div *ngFor="let tag of availableTags; let i = index" class="tag-checkbox">
       <input type="checkbox" [id]="'tag-' + i" [value]="tag" (change)="toggleTagSelection(tag)" [checked]="selectedTags.includes(tag)">
       <label [for]="'tag-' + i">{{ tag }}</label>
@@ -24,7 +24,7 @@
       <img [ngSrc]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image" width="200" height="200">
     </div>
     <div class="album-info" [style.background-color]="album.color" [style.color]="album.textColor">
-      <h3 class="album-name">{{album.artist}} - {{ album.name }}</h3>
+      <h2 class="album-name">{{album.artist}} - {{ album.name }}</h2>
       <span class="album-date" >{{ album.releaseyear }}</span>
     </div>
   </div>

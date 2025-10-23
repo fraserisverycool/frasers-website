@@ -39,7 +39,7 @@ export default class AlbumsComponent implements OnInit {
   }
 
   loadAlbums(): void {
-    this.http.get<{ albums: Album[] }>('assets/music/albums/albums.json').subscribe({
+    this.http.get<{ albums: Album[] }>('assets/data/albums.json').subscribe({
       next: (data) => {
         this.originalAlbums = data.albums;
         this.getRatings();

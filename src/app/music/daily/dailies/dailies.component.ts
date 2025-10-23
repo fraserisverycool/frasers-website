@@ -26,7 +26,7 @@ export default class DailiesComponent implements OnInit {
   }
 
   loadDailySoundtracks(): void {
-    this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/music/daily/daily-soundtracks.json').subscribe({
+    this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/data/daily-soundtracks.json').subscribe({
       next: (data) => {
         const now = new Date();
         this.dailySoundtracks = data.dailysoundtracks.filter(

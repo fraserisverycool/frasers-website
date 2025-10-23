@@ -20,13 +20,6 @@
   overflow-y: auto;
 }
 
-.close {
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
 .modal-image {
   max-width: 100%;
   height: auto;

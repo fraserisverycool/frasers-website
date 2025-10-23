@@ -4,11 +4,12 @@ import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside
 import {Album} from "../album.interface";
 import {AlbumsService} from "../service/albums.service";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
+import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
 
 @Component({
   selector: 'app-album-modal',
   standalone: true,
-    imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, RatingBarComponent],
+    imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, RatingBarComponent, CloseButtonComponent],
   templateUrl: './album-modal.component.html',
   styleUrls: ['./album-modal.component.css']
 })

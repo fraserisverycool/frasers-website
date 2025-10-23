@@ -55,6 +55,18 @@
           "order": 7,
           "newsletter": true,
           "description": "Some other sticker I found"
+        },
+        {
+          "filename": "mario8.jpg",
+          "order": 8,
+          "newsletter": true,
+          "description": "Nice coaster I got from Super Mario Land from a convention"
+        },
+        {
+          "filename": "mario9.jpg",
+          "order": 9,
+          "newsletter": true,
+          "description": "Nice coaster I got from Donkey Kong '94 from a convention"
         }
       ],
       "id": "b0741d0d-32a4-44db-a275-7d0c159727bf",
@@ -115,6 +127,12 @@
           "order": 7,
           "newsletter": true,
           "description": "A silly plate I made at the Paint Your Style shop"
+        },
+        {
+          "filename": "dk8.jpg",
+          "order": 8,
+          "newsletter": false,
+          "description": "A cool coaster I got from a convention featuring this banger Gameboy game Donkey Kong '94"
         }
       ],
       "id": "2badc75f-ad92-43ee-aea3-349ab492e9b6",
@@ -676,6 +694,12 @@
           "order": 1,
           "newsletter": true,
           "description": "A figurine I got for prizes for side events for tournaments. She's upside down because she's just that kinda gal. I'm a bit nervous that I superglued her to this lamp and now won't be able to sell it if I have to move"
+        },
+        {
+          "filename": "daisy2.jpg",
+          "order": 2,
+          "newsletter": false,
+          "description": "A cool coaster I got from a convention with Daisy from her original game, Super Mario Land on the Gameboy"
         }
       ],
       "id": "0e50d953-6b3b-440d-9d45-9171bc8d2118",

@@ -6,13 +6,13 @@ import FilmsComponent from "../films.component";
   selector: 'app-next',
   standalone: true,
   imports: [CommonModule, FilmsComponent],
-  templateUrl: './next.component.html',
-  styleUrls: ['./next.component.css']
+  templateUrl: './next-film.component.html',
+  styleUrls: ['./next-film.component.css']
 })
-export default class NextComponent {
+export default class NextFilmComponent {
   films = [
-    'Lurker', 'Moonstruck', 'Streets of Fire', 'Gladiator',
-    'Black Orpheus', 'Hereditary', 'Where Dragons Live', 'Painted boats',
+    'Lurker', 'Streets of Fire', 'Gladiator',
+    'Black Orpheus', 'Hereditary', 'Where Dragons Live',
     'Labyrinth', 'Playtime', 'Black Christmas', 'Wings', 'The Trial',
     'Mulholland Drive', 'Pink Flamingos', "I'm Still Here",
     'Queer', 'Nickel Boys', 'The Seed of the Sacred Fig', 'Inline Empire',

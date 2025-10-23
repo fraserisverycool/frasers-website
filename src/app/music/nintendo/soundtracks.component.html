@@ -20,17 +20,17 @@
       <img [ngSrc]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image" width="200" height="200">
     </div>
     <div class="soundtrack-info" [ngClass]="soundtrack.platform | lowercase">
-      <h3 class="soundtrack-name">{{ soundtrack.name }}</h3>
+      <h2 class="soundtrack-name">{{ soundtrack.name }}</h2>
       <span class="soundtrack-platform">{{ soundtrack.platform }}</span>
     </div>
   </div>
 
   <div *ngIf="filteredSoundtracks.length === 0">
-    <h4>Oops! There are no soundtracks with that name. Here's a secret bonus for you for trying though:</h4>
+    <h2>Oops! There are no soundtracks with that name. Here's a secret bonus for you for trying though:</h2>
     <div class="center-image">
-      <a routerLink="/music/nintendo/kk">
-        <img [ngSrc]="'assets/music/nintendo/kk/kk-slider-icon.png'" [alt]="'K.K. Slider'" class="kk-image" width="200" height="200">
-      </a>
+      <button style="background: none; border: none;" aria-label="K.K. Slider" routerLink="/music/nintendo/kk">
+        <img alt="K.K. Slider" [ngSrc]="'assets/music/nintendo/kk/kk-slider-icon.png'" width="200" height="200">
+      </button>
     </div>
   </div>
 </div>

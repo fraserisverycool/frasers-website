@@ -5,21 +5,21 @@ from enum import Enum
 
 
 class ContentType(Enum):
-    GAME = 'games/games.json'
-    FILM = 'films/films.json'
-    ALBUM = "music/albums/albums.json"
-    SOUNDTRACK = "music/nintendo/soundtracks.json"
-    BOOK = "books/books.json"
-    GALLERY = "gallery/gallery.json"
-    VIDEO = "gallery/videos/videos.json"
-    CD = "music/albums/cds.json"
-    DURSTLOESCHER = "community/durstloescher/durstloescher.json"
-    CHARACTER_DECO = "misc/characters/characters.json"
-    MARIOKART = "misc/mariokart/mariokart.json"
-    STITCH = "misc/stitch/stitches.json"
-    MIX = "music/mixes/mixes.json"
-    KK = "music/nintendo/kk/kk.json"
-    #DAILY_SOUNDTRACK = "music/daily/daily-soundtracks.json"
+    GAME = 'data/games.json'
+    FILM = 'data/films.json'
+    ALBUM = "data/albums.json"
+    SOUNDTRACK = "data/soundtracks.json"
+    BOOK = "data/books.json"
+    GALLERY = "data/photos.json"
+    VIDEO = "data/videos.json"
+    CD = "data/cds.json"
+    DURSTLOESCHER = "data/durstloescher.json"
+    CHARACTER_DECO = "data/characters.json"
+    MARIOKART = "data/mariokart.json"
+    STITCH = "data/stitches.json"
+    MIX = "data/mixes.json"
+    KK = "data/kk.json"
+    #DAILY_SOUNDTRACK = "data/daily-soundtracks.json"
 
 class ContentTypeMapping:
     def __init__(self):
@@ -119,11 +119,11 @@ def get_content_data(content_type, content_data):
 def write_to_file(newsletter, filename):
     with open('../assets/newsletter/' + filename, 'w') as f:
         json.dump(newsletter, f, indent=4)
-    with open('../assets/newsletter/newsletters.json', 'r') as f:
+    with open('../assets/data/newsletters.json', 'r') as f:
         data = json.load(f)
     if filename not in data['newsletters']:
         data['newsletters'].append(filename)
-        with open('../assets/newsletter/newsletters.json', 'w') as f:
+        with open('../assets/data/newsletters.json', 'w') as f:
             json.dump(data, f, indent=4)
     else:
         print(f"The file '{filename}' is already in the list.")

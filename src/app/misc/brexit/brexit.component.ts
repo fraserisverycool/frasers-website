@@ -21,7 +21,7 @@ export default class BrexitComponent implements OnInit {
   }
 
   loadImages(): void {
-    this.http.get<{ filenames: string[] }>('assets/misc/brexit/filenames.json').subscribe({
+    this.http.get<{ filenames: string[] }>('assets/data/brexitsummits.json').subscribe({
       next: (data) => {
         this.images = data.filenames;
       },

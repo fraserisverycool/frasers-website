@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import {NavigationEnd, Router, RouterLink, RouterOutlet} from '@angular/router';
+import {Title} from "@angular/platform-browser";
+import {filter} from "rxjs";
+import {map} from "rxjs/operators";
 
 @Component({
   selector: 'app-root',
@@ -10,5 +13,27 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-universal-standalone';
+  title = 'Fraser\'s Website';
+
+  constructor(private router: Router, private titleService: Title) {}
+
+  ngOnInit() {
+    this.router.events
+      .pipe(
+        filter((event) => event instanceof NavigationEnd),
+        map(() => {
+          let child = this.router.routerState.snapshot.root;
+          while (child.firstChild) {
+            child = child.firstChild;
+          }
+          return child;
+        }),
+        filter((route) => route.outlet === 'primary')
+      )
+      .subscribe((route) => {
+        if (route.data['title']) {
+          this.titleService.setTitle(route.data['title']);
+        }
+      });
+  }
 }

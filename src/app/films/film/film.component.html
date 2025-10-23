@@ -5,7 +5,7 @@
     <span class="release-info">Watched:</span> {{ film.year }}
   </p>
   <p>{{ film.description }}</p>
-  <img [ngSrc]="'assets/films/' + film.filename" width="600" height="400">
+  <img [ngSrc]="'assets/films/' + film.filename" alt="{{ film.title }}" width="600" height="400">
   <div [ngStyle]="{'padding-bottom': '10px'}"></div>
   <app-rating-bar [rating]="{id: film.id, ratings: film.rating}"></app-rating-bar>
 </div>

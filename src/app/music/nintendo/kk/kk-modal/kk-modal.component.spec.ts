@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NintendoComponent } from './nintendo.component';
+import { KkModalComponent } from './kk-modal.component';
 
-describe('NintendoComponent', () => {
-  let component: NintendoComponent;
-  let fixture: ComponentFixture<NintendoComponent>;
+describe('KkModalComponent', () => {
+  let component: KkModalComponent;
+  let fixture: ComponentFixture<KkModalComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [NintendoComponent]
+      imports: [KkModalComponent]
     });
-    fixture = TestBed.createComponent(NintendoComponent);
+    fixture = TestBed.createComponent(KkModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

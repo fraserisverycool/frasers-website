@@ -17,7 +17,7 @@ h1 {
   width: 100%;
 }
 
-h4 {
+.filter-text {
   text-align: center;
   color: #333;
   width: 100%;
@@ -93,7 +93,7 @@ h4 {
 
 .sorting-buttons button {
   padding: 10px 15px;
-  background-color: #6fa840;
+  background-color: #79a676;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -102,12 +102,12 @@ h4 {
 
 .sorting-buttons button:hover {
   transform: scale(1.1);
-  background-color: #00731e;
+  background-color: #5a7d57;
 }
 
 .sorting-buttons button:active {
   transform: scale(0.9);
-  background-color: #00731e;
+  background-color: #5a7d57;
 }
 
 @media screen and (max-width: 768px) {
@@ -164,12 +164,12 @@ h4 {
 }
 
 .tag-checkbox label {
-  background-color: #6fa840;
+  background-color: #79a676;
   border-radius: 4px;
   padding: 5px 10px;
   cursor: pointer;
 }
 
 .tag-checkbox label:hover {
-  background-color: #00731e;
+  background-color: #5a7d57;
 }

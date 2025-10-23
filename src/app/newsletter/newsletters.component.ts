@@ -18,12 +18,12 @@ export default class NewslettersComponent {
   constructor(private http: HttpClient, private ratingService: RatingService) {}
 
   ngOnInit(): void {
-    this.http.get<{ newsletters: string[] }>('assets/newsletter/newsletters.json').subscribe({
+    this.http.get<{ newsletters: string[] }>('assets/data/newsletters.json').subscribe({
       next: (data) => {
         for (const newsletterFilename of data.newsletters) {
           this.http.get<Newsletter>('assets/newsletter/' + newsletterFilename).subscribe({
             next: (newsletterData) => {
-              this.newsletters.push(newsletterData);
+              this.newsletters.unshift(newsletterData);
               this.getRatings();
             },
             error: (err) => {

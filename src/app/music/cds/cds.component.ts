@@ -45,7 +45,7 @@ export default class CdsComponent implements OnInit {
   }
 
   loadCds(): void {
-    this.http.get<{ cds: CD[] }>('assets/music/albums/cds.json').subscribe({
+    this.http.get<{ cds: CD[] }>('assets/data/cds.json').subscribe({
       next: (data) => {
         this.originalCds = data.cds;
         this.getRatings();
