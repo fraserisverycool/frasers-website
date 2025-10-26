@@ -11,6 +11,12 @@
   margin-top: 20px;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -43,6 +49,10 @@
   margin: 0.5em 0 1em 0;
 }
 
+.card-info .desc {
+  text-align: left;
+}
+
 .card-info .release {
   font-size: 0.8em;
   position: relative;
@@ -53,4 +63,31 @@
 h1 {
   text-align: center;
   color: #004770;
+}
+
+.blue-button {
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3498db;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+
+.blue-button:hover {
+  background-color: #2980b9;
+  color: #ffffff;
+}
+
+.blue-button:active {
+  background-color: #2980b9;
+  box-shadow: 0 5px #2c3e50;
+  transform: translateY(4px);
 }

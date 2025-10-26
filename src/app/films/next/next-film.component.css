@@ -1,4 +1,3 @@
-
 .film-container {
   display: flex;
   flex-wrap: wrap;
@@ -7,21 +6,36 @@
   padding: 20px;
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
   max-width: 800px;
-  margin: 50px auto;
+  margin: 20px auto;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #540d6e;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  margin: 40px 0;
+}
+
 .film-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: white;
   background: repeating-linear-gradient(
     -45deg,
-    #ff6ec4,
-    #ff6ec4 10px,
-    #7873f5 10px,
-    #7873f5 20px
+    #540d6e,
+    #540d6e 10px,
+    #ee4266 10px,
+    #ee4266 20px
   );
   text-shadow: 2px 2px 5px black, -2px -2px 5px white;
   padding: 15px;
@@ -29,6 +43,16 @@
   border-radius: 15px;
   transform: rotate(-5deg);
   animation: bounce 1.5s infinite alternate ease-in-out, spin 3s linear infinite;
+}
+
+.film-section {
+  width: 100%;
+}
+
+.film-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 @keyframes bounce {
   from {

@@ -1,7 +1,7 @@
 <div class="video-gallery-container">
   <h1>My favourite videos</h1>
-  <div class="video-rows">
-    <div *ngFor="let video of videos; let i = index" class="video-row" [ngClass]="{'row-reverse': i % 2 !== 0}">
+  <ul class="video-rows">
+    <li *ngFor="let video of videos; let i = index" class="video-row" [ngClass]="{'row-reverse': i % 2 !== 0}">
       <div class="video-container">
         <iframe [src]="video.embedUrl" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
@@ -10,6 +10,6 @@
         <p class="description">{{ video.description }}</p>
         <a [href]="video.link" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>

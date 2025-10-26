@@ -26,10 +26,10 @@
       </div>
     </form>
   </div>
-  <div class="feedback-list">
-    <div *ngFor="let feedback of feedbacks" class="feedback-item" [style.background-color]="feedback.color" [style.color]="textColor(feedback.color)">
+  <ul class="feedback-list">
+    <li *ngFor="let feedback of feedbacks" class="feedback-item" [style.background-color]="feedback.color" [style.color]="textColor(feedback.color)">
       <p><strong>{{ feedback.name }}</strong> - {{ feedback.timestamp | date:'dd-MM-yyyy' }}</p>
       <p>{{ feedback.comment }}</p>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>

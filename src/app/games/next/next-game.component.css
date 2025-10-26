@@ -12,12 +12,18 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 h2 {
   font-size: 2.5rem;
-  color: #540d6e; /* Matches the game card colors */
+  color: #540d6e;
   text-shadow: 1px 1px 3px black;
-  text-align: center; /* Centers the text */
-  margin: 40px 0; /* Adds margin above and below */
+  text-align: center;
+  margin: 40px 0;
 }
 
 .game-title {
@@ -40,13 +46,13 @@ h2 {
 }
 
 .game-section {
-  width: 100%; /* Ensures sections span full width */
+  width: 100%;
 }
 
 .game-list {
   display: flex;
-  flex-wrap: wrap; /* Allows game cards to wrap */
-  justify-content: center; /* Center-align game cards */
+  flex-wrap: wrap;
+  justify-content: center;
 }
 @keyframes bounce {
   from {

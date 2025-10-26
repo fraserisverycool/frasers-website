@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Choose your fighter!</h1>
-  <div class="character-grid">
-    <div
+  <ul class="character-grid">
+    <li
       class="character.description ? character-item : character-nothing"
       *ngFor="let character of characters"
       (click)="character.main ? selectCharacter(character) : null"
@@ -15,8 +15,8 @@
         width="20"
         height="20"
       />
-    </div>
-  </div>
+    </li>
+  </ul>
 
   <div class="password-input">
     <label for="password">Change the character images with a password:</label>

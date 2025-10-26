@@ -37,19 +37,21 @@
     <p *ngIf="isEmpty(selectedCharacter.deco)">
       I don't have any decoration of {{ selectedCharacter.name }} yet :(((
     </p>
-    <div
-      class="character-decoration"
-      *ngFor="let decoration of selectedCharacter.deco"
-    >
-      <img
-        [ngSrc]="'assets/misc/characters/deco/' + decoration.filename"
-        alt="{{ selectedCharacter.name }}"
-        class="decoration-picture"
-        width="400"
-        height="400"
-      />
-      <p>{{ decoration.description }} </p>
-    </div>
+    <ul>
+      <li
+        class="character-decoration"
+        *ngFor="let decoration of selectedCharacter.deco"
+      >
+        <img
+          [ngSrc]="'assets/misc/characters/deco/' + decoration.filename"
+          alt="{{ selectedCharacter.name }}"
+          class="decoration-picture"
+          width="400"
+          height="400"
+        />
+        <p>{{ decoration.description }} </p>
+      </li>
+    </ul>
   </div>
   <div [ngStyle]="{'padding-bottom': '15px'}"></div>
   <app-rating-bar [rating]="{id: selectedCharacter.id, ratings: selectedCharacter.rating}"></app-rating-bar>
