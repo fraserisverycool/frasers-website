@@ -198,3 +198,43 @@ a {
     opacity: 0;
   }
 }
+
+.colour-text {
+  font-weight: bold;
+  background-size: 200% 100%;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rainbow 8s linear infinite;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0%; }
+  100% { background-position: -200%; }
+}
+
+.colour-button {
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0061d1;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+
+.colour-button:hover {
+  background-color: #2980b9;
+  color: #ffffff;
+}
+
+.colour-button:active {
+  background-color: #2980b9;
+  box-shadow: 0 5px #2c3e50;
+  transform: translateY(4px);
+}

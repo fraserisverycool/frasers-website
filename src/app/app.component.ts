@@ -31,6 +31,7 @@ export class AppComponent {
         filter((route) => route.outlet === 'primary')
       )
       .subscribe((route) => {
+        window.scroll(0, 0);
         if (route.data['title']) {
           this.titleService.setTitle(route.data['title']);
         }

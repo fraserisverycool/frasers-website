@@ -6,7 +6,7 @@
 <body>
 <app-custom-marquee [messages]="['Time is just a vibe 🔥', 'More is more 🔥', 'Never say no to smash 🔥', 'Don\'t (always) fuck your friends 🔥', 'I came here to win and to receive 🔥', 'Ich hab schlecht geworfen, mir geht\'s schlecht, also nein 🔥']"></app-custom-marquee>
 <div class="gif">
-  <img src="../../../assets/homepage/welcome.gif">
+  <img src="../../../assets/homepage/welcome.gif" alt="Welcome gif with a cute fish">
 </div>
 <div class="container" [style.background-color]="this.homepageColor" [style.color]="textColor(this.homepageColor)">
   <h1>Fraser's Website</h1>
@@ -15,14 +15,14 @@
     <img [ngSrc]="randomImage" alt="Welcome Image" width="600" height="600">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/whatsnew.gif">
+    <img src="../../../assets/homepage/whatsnew.gif" alt="Cute gif saying 'what's new?'">
   </div>
   <p>I have a newsletter! You can subscribe if you don't want to miss out on all the stuff I'm adding to the website:</p>
   <button class="fun-button newsletter" (click)="handleClick('/newsletter')">
     <span class="button-text">Newsletter</span>
   </button>
   <div class="gif">
-    <img src="../../../assets/homepage/daily.gif">
+    <img src="../../../assets/homepage/daily.gif" alt="Cute gif saying everyday">
   </div>
   <h2>Soundtrack of the day</h2>
   <app-daily></app-daily>
@@ -32,104 +32,104 @@
   </div>
 <div class="gif-box">
   <div class="gif">
-    <img src="../../../assets/homepage/news.gif">
+    <img src="../../../assets/homepage/news.gif" alt="Cute gif that says 'Want news? Want Reviews? Want Cheats? Want n64? OTW'">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/nes.gif">
+    <img src="../../../assets/homepage/nes.gif" alt="Cute gif of a rotating NES">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/gamecube.gif">
+    <img src="../../../assets/homepage/gamecube.gif" alt="Cute gif saying 'Ya a la venta! Nintendo Gamecube'">
   </div>
 </div>
-  <p>The original thing I used this website for was to give reviews of all the video games I play. There are some long and thought-out impressions of literally every game I've played since 2020. You can check out the lists here:</p>
   <button class="fun-button games" (click)="handleClick('/games')">
     <span class="button-text">Games</span>
   </button>
+  <p>The original thing I used this website for was to give reviews of all the video games I play. There are some long and thought-out impressions of literally every game I've played since 2020.</p>
 <div class="gif-box">
   <div class="gif">
-    <img src="../../../assets/homepage/camera.gif">
+    <img src="../../../assets/homepage/camera.gif" alt="Cute gif of a man with a camera">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/film.gif">
+    <img src="../../../assets/homepage/film.gif" alt="Cute gif of a film reel">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/worm.gif">
+    <img src="../../../assets/homepage/worm.gif" alt="Cute gif of a worm wearing glasses">
   </div>
 </div>
-  <p>I also have some stuff on the films I've watched! Although you have to know that most films I watch are queer arthouse films because I have a Yorck Unlimited card and like to go to "Mongay", their monday showing of gay films.</p>
   <button class="fun-button films" (click)="handleClick('/films')">
     <span class="button-text">Films</span>
   </button>
+  <p>I also have some stuff on the films I've watched! Although you have to know that most films I watch are queer arthouse films because I have a Yorck Unlimited card and like to go to "Mongay", their monday showing of gay films.</p>
 <div class="gif">
-  <img src="../../../assets/homepage/ciber.gif" margin="5px">
+  <img src="../../../assets/homepage/ciber.gif" margin="5px" alt="Cute gif saying 'musica cyber late con la musica y tu que esperas? clic aqui'">
 </div>
-  <p>Also be sure to check out this super extended music section which features loads of cool shit. There is a list of all my favourite albums, some links to Spotify playlists, a full review of all the soundtracks on the Nintendo music app, and even download links to all these wild video game mixes I made!</p>
   <button class="fun-button music" (click)="handleClick('/music')">
     <span class="button-text">Music</span>
   </button>
+  <p>Also be sure to check out this super extended music section which features loads of cool shit. There is a list of all my favourite albums, some links to Spotify playlists, a full review of all the soundtracks on the Nintendo music app, and even download links to all these wild video game mixes I made!</p>
 <div class="gif-box">
   <div class="gif">
-    <img src="../../../assets/homepage/book.gif">
+    <img src="../../../assets/homepage/book.gif" alt="Cute gif of a book">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/book2.gif">
+    <img src="../../../assets/homepage/book2.gif" alt="Cute gif of another book">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/bookmark.gif">
+    <img src="../../../assets/homepage/bookmark.gif" alt="Cute gif saying 'remember to bookmark this site'">
   </div>
 </div>
-  <p>I don't claim to be a big reader but that doesn't mean I haven't read some banger books. If you're looking for your next mind-blowing holiday reading experience, I have some recommendations for you here:</p>
   <button class="fun-button books" (click)="handleClick('/books')">
     <span class="button-text">Books</span>
   </button>
+  <p>I don't claim to be a big reader but that doesn't mean I haven't read some banger books. If you're looking for your next mind-blowing holiday reading experience, I have some recommendations for you!</p>
 <div class="gif">
-  <img src="../../../assets/homepage/eyes.gif" margin="5px">
+  <img src="../../../assets/homepage/eyes.gif" margin="5px" alt="Cute gif of a woman's eyes">
 </div>
-  <p>If you want to see some cool pictures of my life, then you might enjoy the Gallery section. I've got some fun anecdotes over there:</p>
   <button class="fun-button gallery" (click)="handleClick('/gallery')">
     <span class="button-text">Gallery</span>
   </button>
+  <p>If you want to see some cool pictures of my life, then you might enjoy the Gallery section. I've got some fun anecdotes for you there!</p>
 <div class="gif-box">
   <div class="gif">
-    <img src="../../../assets/homepage/fish.gif">
+    <img src="../../../assets/homepage/fish.gif" alt="Cute gif of a fish">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/fish.gif">
+    <img src="../../../assets/homepage/fish.gif" alt="Cute gif of a fish">
   </div>
   <div class="gif">
-    <img src="../../../assets/homepage/fish.gif">
+    <img src="../../../assets/homepage/fish.gif" alt="Cute gif of a fish">
   </div>
 </div>
-  <p>This section contains guest content from members of the community:</p>
   <button class="fun-button community" (click)="handleClick('/community')">
     <span class="button-text">Community</span>
   </button>
+  <p>This section contains guest content from members of the community.</p>
 <div class="gif">
-  <img src="../../../assets/homepage/sungulls.gif" margin="5px">
+  <img src="../../../assets/homepage/sungulls.gif" margin="5px" alt="Cute gif of a sun with some seagulls">
 </div>
-  <p>This section is just a dumping ground for all the other stuff that didn't fit anywhere else! A lot of thoughts about Nintendo stuff:</p>
   <button class="fun-button misc" (click)="handleClick('/misc')">
     <span class="button-text">Misc</span>
   </button>
+  <p>This section is just a dumping ground for all the other stuff that didn't fit anywhere else! A lot of thoughts about Nintendo stuff.</p>
 <div class="gif">
-  <img src="../../../assets/homepage/dinomail.gif" margin="5px">
+  <img src="../../../assets/homepage/dinomail.gif" margin="5px" alt="Cute gif of a dinosaur putting mail in a mailbox">
 </div>
-  <p>I've also made a place for you to leave a little message! If you have something on your heart, you can put it in the guestbook:</p>
   <button class="fun-button guestbook" (click)="handleClick('/guestbook')">
     <span class="button-text">Guestbook</span>
   </button>
-  <p>Wanna change the colour of this homepage? You can change it for everyone. Select a colour or put in a hex code here:</p>
+  <p>I've also made a place for you to leave a little message! If you have something on your heart, you can put it in the guestbook.</p>
+  <p class="colour-text">Wanna change the colour of this homepage? You can change it for everyone. Select a colour or put in a hex code here:</p>
   <div *ngIf="errorMessage" class="error-message">
     {{ errorMessage }}
   </div>
   <form (ngSubmit)="submitColor()">
     <app-color-picker [color]="colorSelection.color" (colorChange)="colorSelection.color = $event"></app-color-picker>
-    <button type="submit">Submit Colour</button>
+    <button type="submit" class="colour-button">Submit Colour</button>
   </form>
   <p class="small-text">Number of times changed so far: {{ this.colorChanges }}</p>
 </div>
 <div class="gif">
-  <img src="../../../assets/homepage/tut.gif">
+  <img src="../../../assets/homepage/tut.gif" alt="Fun gif of a woman tutting at you with a knowing smile">
 </div>
 <div class="footnote">
   <p>Here is the <a routerLink="/changelog">changelog</a> of the website, where you can see everything I updated</p>
