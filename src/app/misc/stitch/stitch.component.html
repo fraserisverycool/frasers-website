@@ -1,8 +1,8 @@
 <div class="container">
   <h1>Cross Stitches</h1>
   <p>This list sadly isn't exhaustive, there are cross stitches lost to time, photos of which I can't find.</p>
-  <div class="stitch-list">
-    <div *ngFor="let stitch of stitches" class="stitch-card">
+  <ul class="stitch-list">
+    <li *ngFor="let stitch of stitches" class="stitch-card">
       <img
         [ngSrc]="'assets/misc/stitch/' + stitch.filename"
         alt="Cross stitch"
@@ -11,6 +11,6 @@
       >
       <p [ngStyle]="{'padding-bottom': '15px'}">{{ stitch.comment }}</p>
       <app-rating-bar [rating]="{id: stitch.id, ratings: stitch.rating}" class="rating"></app-rating-bar>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>

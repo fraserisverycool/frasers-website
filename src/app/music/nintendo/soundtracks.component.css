@@ -11,6 +11,15 @@
   justify-content: center;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 h1 {
   text-align: center;
   color: #333;
@@ -97,7 +106,7 @@ h1 {
 
 .sorting-buttons button {
   padding: 10px 15px;
-  background-color: #ff99cc;
+  background-color: #dfec97;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -106,12 +115,12 @@ h1 {
 
 .sorting-buttons button:hover {
   transform: scale(1.1);
-  background-color: #ff66b3; /* Brighter pink on hover */
+  background-color: #52aa0b; /* Brighter pink on hover */
 }
 
 .sorting-buttons button:active {
   transform: scale(0.9);
-  background-color: #ff99cc; /* Original color on click */
+  background-color: #52aa0b; /* Original color on click */
 }
 
 @media screen and (max-width: 768px) {
@@ -138,7 +147,7 @@ h1 {
   font-size: 18px;
   border-radius: 5px;
   max-width: 300px;
-  background-color: #fbe3ff;
+  background-color: #ffffe3;
 }
 
 .search-container input[type="text"]:focus {

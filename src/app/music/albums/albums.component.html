@@ -12,22 +12,26 @@
   </div>
   <div class="tag-filter-container">
     <p class="filter-text">Filter by Tags:</p>
-    <div *ngFor="let tag of availableTags; let i = index" class="tag-checkbox">
-      <input type="checkbox" [id]="'tag-' + i" [value]="tag" (change)="toggleTagSelection(tag)" [checked]="selectedTags.includes(tag)">
-      <label [for]="'tag-' + i">{{ tag }}</label>
-    </div>
+    <ul>
+      <li *ngFor="let tag of availableTags; let i = index" class="tag-checkbox">
+        <input type="checkbox" [id]="'tag-' + i" [value]="tag" (change)="toggleTagSelection(tag)" [checked]="selectedTags.includes(tag)">
+        <label [for]="'tag-' + i">{{ tag }}</label>
+      </li>
+    </ul>
   </div>
-  <div *ngFor="let album of filteredAlbums" class="album-card" (click)="showDescription(album)">
-    <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
-         [style.border-style]="album.description ? 'none' : 'solid'"
-         [style.border-width]="album.description ? '0' : '2px'">
-      <img [ngSrc]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image" width="200" height="200">
-    </div>
-    <div class="album-info" [style.background-color]="album.color" [style.color]="album.textColor">
-      <h2 class="album-name">{{album.artist}} - {{ album.name }}</h2>
-      <span class="album-date" >{{ album.releaseyear }}</span>
-    </div>
-  </div>
+  <ul>
+    <li *ngFor="let album of filteredAlbums" class="album-card" (click)="showDescription(album)">
+      <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
+           [style.border-style]="album.description ? 'none' : 'solid'"
+           [style.border-width]="album.description ? '0' : '2px'">
+        <img [ngSrc]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image" width="200" height="200">
+      </div>
+      <div class="album-info" [style.background-color]="album.color" [style.color]="album.textColor">
+        <h2 class="album-name">{{album.artist}} - {{ album.name }}</h2>
+        <span class="album-date" >{{ album.releaseyear }}</span>
+      </div>
+    </li>
+  </ul>
 </div>
 
 <app-album-modal *ngIf="selectedAlbum" [selectedAlbum]="selectedAlbum" (close)="closeDescription()"></app-album-modal>

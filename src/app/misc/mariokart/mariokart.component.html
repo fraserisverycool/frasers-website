@@ -14,8 +14,8 @@
     </a>
   </nav>
   <p>{{ gameDescription[currentFilter] }}</p>
-  <div class="track-list">
-    <div *ngFor="let track of tracks" class="track-card">
+  <ul class="track-list">
+    <li *ngFor="let track of tracks" class="track-card">
       <img
         [ngSrc]="'assets/misc/mariokart/' + track.image"
         alt="{{ track.name }} image"
@@ -63,6 +63,6 @@
       </div>
       <div [ngStyle]="{'padding-bottom': '25px'}"></div>
       <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>

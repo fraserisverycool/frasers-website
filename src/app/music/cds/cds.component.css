@@ -11,6 +11,15 @@
   justify-content: center;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 h1 {
   text-align: center;
   color: #333;
@@ -155,12 +164,12 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  max-height: 150px; /* Limits the height of the tag container */
-  overflow-y: auto; /* Adds a scrollbar if the content exceeds the height */
-  border: 1px solid #ccc; /* Adds a border around the container */
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
   padding: 10px;
-  background-color: #d9ffe3; /* Light background for better visibility */
-  border-radius: 8px; /* Rounded corners */
+  background-color: #d9ffe3;
+  border-radius: 8px;
 }
 
 .tag-radio {
@@ -170,7 +179,7 @@ h1 {
 
 .tag-radio input[type="radio"] {
   margin-right: 5px;
-  visibility: hidden; /* Hide the radio button itself */
+  visibility: hidden;
 }
 
 .tag-radio label {
@@ -178,6 +187,7 @@ h1 {
   border-radius: 4px;
   padding: 5px 10px;
   cursor: pointer;
+  margin: 2px;
 }
 
 .tag-radio input[type="radio"]:checked + label {

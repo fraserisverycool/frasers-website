@@ -9,8 +9,8 @@
   <!-- Tier S -->
   <h2>The Crème de la Crème</h2>
   <p>These K.K. tracks are so good. They are worthy of being played in my house, and they have reached some kind of legendary status, at least for me</p>
-  <div class="tier-container">
-    <div *ngFor="let kkSong of kkSongs" >
+  <ul class="tier-container">
+    <li *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'S'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
@@ -21,14 +21,14 @@
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 
   <!-- Tier A -->
   <h2>Great tunes, great vibes</h2>
   <p>These are enjoyable, pretty great tracks from the main man himself. He has a lot of deep cuts which aren't instant classics but definitely worth a listen</p>
-  <div class="tier-container">
-    <div *ngFor="let kkSong of kkSongs" >
+  <ul class="tier-container">
+    <li *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'A'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
@@ -38,14 +38,14 @@
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 
   <!-- Tier B -->
   <h2>Eh they're alright I guess</h2>
   <p>I don't feel too strongly about these tracks. Don't feel obliged to listen to them</p>
-  <div class="tier-container">
-    <div *ngFor="let kkSong of kkSongs" >
+  <ul class="tier-container">
+    <li *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'B'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
@@ -55,14 +55,14 @@
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 
   <!-- Tier C -->
   <h2>Only listen to these for science</h2>
   <p>A lot of K.K. tracks sound pretty bad or are just boring, this is a dumping ground for those</p>
-  <div class="tier-container">
-    <div *ngFor="let kkSong of kkSongs" >
+  <ul class="tier-container">
+    <li *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'C'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
@@ -72,14 +72,14 @@
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 
   <!-- Tier D -->
   <h2>Farting into the microphone</h2>
   <p>These are genuinely bad. You should only listen to them with the express purpose of laughing at them</p>
-  <div class="tier-container">
-    <div *ngFor="let kkSong of kkSongs" >
+  <ul class="tier-container">
+    <li *ngFor="let kkSong of kkSongs" >
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'D'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
@@ -89,8 +89,8 @@
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
         </div>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>
 
 <app-kk-modal *ngIf="selectedKkSong" [selectedKkSong]="selectedKkSong" (close)="closeDescription()"/>

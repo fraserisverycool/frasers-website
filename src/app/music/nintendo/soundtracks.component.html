@@ -15,15 +15,17 @@
     <button (click)="sortSoundtracks('alphabeticalName')">Alphabetical by Game</button>
     <button (click)="sortSoundtracks('platform')">By Platform</button>
   </div>
-  <div *ngFor="let soundtrack of filteredSoundtracks" class="soundtrack-card" (click)="showDescription(soundtrack)">
-    <div class="soundtrack-image-container">
-      <img [ngSrc]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image" width="200" height="200">
-    </div>
-    <div class="soundtrack-info" [ngClass]="soundtrack.platform | lowercase">
-      <h2 class="soundtrack-name">{{ soundtrack.name }}</h2>
-      <span class="soundtrack-platform">{{ soundtrack.platform }}</span>
-    </div>
-  </div>
+  <ul>
+    <li *ngFor="let soundtrack of filteredSoundtracks" class="soundtrack-card" (click)="showDescription(soundtrack)">
+      <div class="soundtrack-image-container">
+        <img [ngSrc]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image" width="200" height="200">
+      </div>
+      <div class="soundtrack-info" [ngClass]="soundtrack.platform | lowercase">
+        <h2 class="soundtrack-name">{{ soundtrack.name }}</h2>
+        <span class="soundtrack-platform">{{ soundtrack.platform }}</span>
+      </div>
+    </li>
+  </ul>
 
   <div *ngIf="filteredSoundtracks.length === 0">
     <h2>Oops! There are no soundtracks with that name. Here's a secret bonus for you for trying though:</h2>
