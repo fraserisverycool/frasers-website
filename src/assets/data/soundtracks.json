@@ -1,6 +1,25 @@
 {
   "soundtracks": [
     {
+      "filename": "new-super-mario-bros.jpg",
+      "name": "New Super Mario Bros",
+      "description": [
+        "At first glance you might think this soundtrack release would be a disappointment, but let me tell you this game has some hidden bangers in it. The credits theme alone is for me an all-time favourite track! It's a huge vibe. Then we were introduced to the timeless main theme with those 'bah!'s. In fact, all the music features the bahs in there and they are and remain iconic, because all the enemies in the game take a moment to pose whenever the sound comes.",
+        "Many tracks from for example the desert or beach levels have a different track to the later new super mario bros games, and I don't think they're better as such... but it's to hear something different. Those other themes did become stale after 3 games."
+      ],
+      "platform": "DS",
+      "topTracks": [
+        "Ground Theme",
+        "Athletic Theme",
+        "World 7",
+        "Castle Theme",
+        "Staff Credits",
+        "Mario Vs. Luigi - Stage BGM 2"
+      ],
+      "id": "b6fe163a-45bb-4370-8a36-bfb61e72270b",
+      "newsletter": false
+    },
+    {
       "filename": "metroid-2.jpg",
       "name": "Metroid II - Return of Samus",
       "description": [
