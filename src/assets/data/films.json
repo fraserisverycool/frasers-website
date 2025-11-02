@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "pink-flamingos.jpg",
+      "title": "Pink Flamingos",
+      "description": "Outrageous camp classic whose main goal is to be gross and horrible. It's hilarious and shocking and I have to say I preferred 'Female Trouble'",
+      "year": "2025",
+      "release": "1972",
+      "id": "55d62c05-4664-4f78-9321-7502862c8267",
+      "newsletter": false
+    },
+    {
       "filename": "amrum.jpg",
       "title": "Amrum",
       "description": "A gorgeous-looking film set during the German surrender in WW2 in a teeny-tiny island in north Germany. Fascinating glimpse into a time and place that I've never seen before. Simple/low-key plot but still engaging",
