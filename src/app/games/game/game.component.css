@@ -55,7 +55,7 @@
 
 .summary-text {
   display: flex;
-  flex-direction: vertical;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }

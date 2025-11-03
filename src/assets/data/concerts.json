@@ -1,0 +1,454 @@
+{
+  "concerts": [
+    {
+      "artist": "Perfume Genius",
+      "date": "3-11-2025",
+      "venue": "Astra, Berlin",
+      "image": "perfume-genius.jpg",
+      "description": "Second time seeing them. Some great moments. They played a deep cut from 'Ugly Season' that I love.",
+      "id": "d192cab6-a9f3-450b-a652-cf4ec74e82b2",
+      "newsletter": true
+    },
+    {
+      "artist": "Cuntine",
+      "date": "17-10-2025",
+      "venue": "Supamolly, Berlin",
+      "image": "cuntine.jpg",
+      "description": "Awesome lesbian punk band from a friend of Tobias. Beaten only by the warm-up band 'PMS Hit Fabrik'. I'll never forget it. Tragically I have no pictures from the event.",
+      "id": "07ebe6f8-56d2-4529-9448-c9f8b36247db",
+      "newsletter": true
+    },
+    {
+      "artist": "clipping.",
+      "date": "16-09-2025",
+      "venue": "Gretchen, Berlin",
+      "image": "clipping.jpg",
+      "description": "Incredible music from this horror/hip-hop genreless band. Shoutouts to their guest singer and also this girl who filmed with her 3DS.",
+      "id": "795b60be-3068-4eef-8de5-ea5b820c4fab",
+      "newsletter": true
+    },
+    {
+      "artist": "G'emma",
+      "date": "10-09-2025",
+      "venue": "Monarch Bar, Berlin",
+      "image": "gemma.jpg",
+      "description": "Susi's sister! This is the second time seeing her and it was great",
+      "id": "7f3bbb9d-646f-4097-aa28-fe34d5f8dfb5",
+      "newsletter": true
+    },
+    {
+      "artist": "Arm",
+      "date": "30-08-2025",
+      "venue": "Teepeeland, Berlin",
+      "image": "arm.jpg",
+      "description": "My mate Rodrigo has a band and this was their first ever concert! It was sick. They play jazz fusion with wild time signatures. Tragically I did not take a picture.",
+      "id": "d9a8a5fb-b49a-4a50-94d2-9c13bd336f66",
+      "newsletter": true
+    },
+    {
+      "artist": "St. Vincent",
+      "date": "05-07-2025",
+      "venue": "Tempodrom, Berlin",
+      "image": "st-vincent.PNG",
+      "description": "Wow I didn't understand what a fun diva she is until this concert! One of the best ever.",
+      "id": "9f988163-fe25-4adf-9d1f-e454949614b9",
+      "newsletter": true
+    },
+    {
+      "artist": "Spellling",
+      "date": "16-06-2025",
+      "venue": "Lido, Berlin",
+      "image": "spellling.PNG",
+      "description": "I love Spellling and seeing her live was great! I also got to meet her at the merch stand and she called me extra for being sassy about them not selling CDs.",
+      "id": "da1b4f0f-e763-49c6-937f-eda445c3ab75",
+      "newsletter": true
+    },
+    {
+      "artist": "Tunng",
+      "date": "09-03-2025",
+      "venue": "Silent Green, Berlin",
+      "image": "tunng.jpeg",
+      "description": "A old band I used to love 15 years ago. It was nice to hear them play all their old tracks and I got to meet the guy.",
+      "id": "dff4e5ad-f5b7-4c2d-a5bc-66758650d17b",
+      "newsletter": true
+    },
+    {
+      "artist": "Confidence Man",
+      "date": "02-18-2025",
+      "venue": "Berghain Kantine, Berlin",
+      "image": "confidence-man.PNG",
+      "description": "A concert-length dance routine from these two. A lot of fun.",
+      "id": "b843f28b-72fe-4396-a432-6431e58ed476",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "298e641b-24ff-4b8d-81dd-b229908f3828",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "29d1c62c-7532-4f58-89cd-35ce77a35e2f",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "5071b47a-7a92-4d1c-9eac-8c09d0be1f68",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "9d082172-eb57-4bca-a7b1-d025bb7f64b4",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "c2ee80c5-1cbe-46db-867f-75578f02de51",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "fa51aa1f-6e1c-49c0-862f-ce67f54374f1",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "4cb4f7a2-9b54-4f6e-8c94-a5c4535d9fab",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "ea7356ec-b6c8-4424-9c72-226baac83a60",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "d186e83d-2949-49ce-b71f-a1bebbb45a46",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "0a006ee8-2d68-4e0e-8c88-79f6c2e39fe9",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "6b7ace7c-af58-4151-8def-ca98b56639f1",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "a1702f5e-263f-4740-b1f8-22297fa55fdc",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "59b3a9fa-7c21-42b1-801b-b6a6a010b3a8",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "c0cda234-94e1-4e3c-91e3-c66da26eafdc",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "8ec85860-0adf-4395-9a49-36132ed3791e",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "a15292bf-0297-41b5-b002-e8939eb78210",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "ea6c09cf-b041-4cc2-ac84-cf464b329063",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "ce25e7fe-349a-4bc9-a012-512cc8023582",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "1a617144-26c2-4eb8-b19d-32405a116b42",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "cfa6cf53-f808-47fa-9712-d11b00e16826",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "858cfdc1-50a6-4234-922a-ca37a0cd14e5",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "cf1deb10-d8a2-47db-9ea9-fb0f54f6bb69",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "f46f762d-b81d-4687-896d-ed59643fedb5",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "83cab167-8cab-40b2-87f9-ba64707614ac",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "9fc26d4d-ccbc-4d31-8162-a9aa65088ffa",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "f0df61d6-a0c7-4929-9a3b-57174fe13a3e",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "7aac8ca2-f301-40e8-8d3d-33d3e89186b1",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "8a0918ab-c5bf-42d2-bbc0-bfbd005ea6b8",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "6417d0c1-3b71-4175-956e-55070edde11f",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "67e759a2-3576-42fc-acb1-6c3b66b081c6",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "91a32ae1-6c0a-46a4-8c15-2dd4e0e9d296",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "b3b303a6-b4c3-4abb-b5d9-20bdb347380f",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "ac7b7c5e-deac-4c6b-9b95-2607df98dc37",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "cb4f7b25-c247-417b-b916-1d2651cd4254",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "d38d094e-42eb-4a6d-87ed-c8b2b5237ed6",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "17621b4d-2761-4168-962c-c68cdba2d4f4",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "5134744a-317d-41f3-83a5-d8e8158d1466",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "47dfa0a1-ed3c-41df-9740-186f1f188725",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "31459d22-287f-4d8b-bbc8-fb78b40a7978",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "6b24c666-aa60-4d36-a497-6cd20594b65b",
+      "newsletter": true
+    },
+    {
+      "artist": "",
+      "date": "",
+      "venue": "",
+      "image": "",
+      "description": "",
+      "id": "19939812-743f-41de-8596-3df5176393be",
+      "newsletter": true
+    }
+  ]
+}

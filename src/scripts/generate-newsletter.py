@@ -9,6 +9,7 @@ class ContentType(Enum):
     FILM = 'data/films.json'
     ALBUM = "data/albums.json"
     SOUNDTRACK = "data/soundtracks.json"
+    CONCERT = "data/concerts.json"
     BOOK = "data/books.json"
     GALLERY = "data/photos.json"
     VIDEO = "data/videos.json"
@@ -36,6 +37,9 @@ def mapper_games(json_item):
 
 def mapper_films(json_item):
     return json_item["title"], [json_item["description"]], "assets/films/" + json_item["filename"], "Release: " + json_item["release"]
+
+def mapper_concerts(json_item):
+    return json_item["artist"], [json_item["description"]], "assets/music/concerts/" + json_item["image"], "Date: " + json_item["date"] + ", Venue: " + json_item["venue"]
 
 def mapper_durstloescher(json_item):
     return json_item["name"], [json_item["description"]], "assets/community/durstloescher/" + json_item["filename"], "Score: " + json_item["score"]
@@ -86,6 +90,8 @@ def get_content_data(content_type, content_data):
     return content_data['games']
   elif content_type == ContentType.FILM:
     return content_data['films']
+  elif content_type == ContentType.CONCERT:
+    return content_data['concert']
   elif content_type == ContentType.DURSTLOESCHER:
     return content_data['durstloescher']
   elif content_type == ContentType.BOOK:
@@ -142,6 +148,7 @@ def generate_newsletter(title, description):
     mappings = ContentTypeMapping()
     mappings.register(ContentType.GAME, mapper_games)
     mappings.register(ContentType.FILM, mapper_films)
+    mappings.register(ContentType.CONCERT, mapper_concerts)
     mappings.register(ContentType.ALBUM, mapper_albums)
     mappings.register(ContentType.SOUNDTRACK, mapper_soundtracks)
     mappings.register(ContentType.BOOK, mapper_books)

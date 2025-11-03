@@ -6,6 +6,7 @@ import {Soundtrack} from "./nintendo/soundtrack.interface";
 import {CD} from "./cds/cd.interface";
 import {HttpClient} from "@angular/common/http";
 import {DailyComponent} from "./daily/daily.component";
+import {Concert} from "./concerts/concert.interface";
 
 @Component({
   selector: 'app-music',
@@ -21,13 +22,15 @@ export default class MusicComponent implements OnInit {
   randomAlbum: Album | null = null;
   randomSoundtrack: Soundtrack | null = null;
   randomCd: CD | null = null;
+  randomConcert: Concert | null = null;
 
   constructor(private http: HttpClient, private router: Router) {}
 
   ngOnInit(): void {
     this.loadRandomAlbum();
     this.loadRandomSoundtrack();
-    this.loadRandomCds();
+    this.loadRandomCd();
+    this.loadRandomConcert();
   }
 
   handleClick(url: string) {
@@ -35,7 +38,7 @@ export default class MusicComponent implements OnInit {
   }
 
   loadRandomAlbum(): void {
-    this.http.get<{ albums: Album[] }>('assets/music/albums/albums.json').subscribe({
+    this.http.get<{ albums: Album[] }>('assets/data/albums.json').subscribe({
       next: (data) => {
       this.randomAlbum = data.albums[Math.floor(Math.random() * data.albums.length)];
       },
@@ -46,7 +49,7 @@ export default class MusicComponent implements OnInit {
   }
 
   loadRandomSoundtrack(): void {
-    this.http.get<{ soundtracks: Soundtrack[] }>('assets/music/nintendo/soundtracks.json').subscribe({
+    this.http.get<{ soundtracks: Soundtrack[] }>('assets/data/soundtracks.json').subscribe({
       next: (data) => {
       this.randomSoundtrack = data.soundtracks[Math.floor(Math.random() * data.soundtracks.length)];
       },
@@ -56,13 +59,25 @@ export default class MusicComponent implements OnInit {
     });
   }
 
-  loadRandomCds(): void {
-    this.http.get<{ cds: CD[] }>('assets/music/albums/cds.json').subscribe({
+  loadRandomCd(): void {
+    this.http.get<{ cds: CD[] }>('assets/data/cds.json').subscribe({
       next: (data) => {
         this.randomCd = data.cds[Math.floor(Math.random() * data.cds.length)];
       },
       error: (err) => {
         console.error('Failed to load CDs:', err);
+      },
+    });
+  }
+
+  loadRandomConcert(): void {
+    this.http.get<{ concerts: Concert[] }>('assets/data/concerts.json').subscribe({
+      next: (data) => {
+        const concerts = data.concerts.filter(concert => concert.artist !== '')
+        this.randomConcert = concerts[Math.floor(Math.random() * concerts.length)];
+      },
+      error: (err) => {
+        console.error('Failed to load concerts:', err);
       },
     });
   }

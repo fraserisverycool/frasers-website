@@ -1,0 +1,65 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(45deg, #0eb6a8, #00674b);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  color: #FFF;
+  border: 3px solid #80ffce;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.concert-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.concert-card {
+  margin: 1em;
+  padding: 1em;
+  background-color: #014525;
+  border: 3px solid #80ffce;
+  border-radius: 5px;
+  min-width: 200px;
+  color: #c5ecdb;
+  transition: transform 0.3s;
+}
+
+.concert-card:hover {
+  transform: scale(1.05);
+}
+
+.concert-card img {
+  width: 100%;
+  height: auto;
+}
+
+.concert-card p {
+  margin: 5px 0;
+  opacity: 0.8;
+}
+
+.concert-card img {
+  border: 3px solid #80ffce;
+}
+
+.rating {
+  padding-top: 15px;
+}
+
+.bold {
+  font-weight: bold;
+  color: #00e6d3;
+}

@@ -29,6 +29,18 @@
            class="image">
     </div>
     <div class="row-item">
+      <button class="fun-button" (click)="handleClick('/music/concerts')">
+        <span class="button-text">Concerts</span>
+      </button>
+      <p>This page is an attempt to track which concerts I've been to! It will be a while before I remember them all but you can peruse what I already have here.</p>
+      <img *ngIf="randomConcert"
+           [ngSrc]="'assets/music/concerts/' + randomConcert.image"
+           [alt]="randomConcert.artist"
+           width="300"
+           height="300"
+           class="image">
+    </div>
+    <div class="row-item">
       <button class="fun-button" (click)="handleClick('/music/cds')">
         <span class="button-text">Current CD collection</span>
       </button>

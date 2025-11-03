@@ -30,6 +30,7 @@ import WritingComponent from "./misc/writing/writing.component";
 import GuestbookComponent from "./guestbook/guestbook.component";
 import NewslettersComponent from "./newsletter/newsletters.component";
 import NewsletterComponent from "./newsletter/newsletter/newsletter.component";
+import ConcertsComponent from "./music/concerts/concerts.component";
 
 export const routes: Routes = [
   {
@@ -67,6 +68,9 @@ export const routes: Routes = [
   },
   {
     path: 'music/nintendo/kk', component: KkComponent, data: { title: 'KK Songs - Fraser\'s Website' }
+  },
+  {
+    path: 'music/concerts', component: ConcertsComponent, data: { title: 'Concerts - Fraser\'s Website' }
   },
   {
     path: 'music/mixes', component: MixesComponent, data: { title: 'Video Game Mixes - Fraser\'s Website' }

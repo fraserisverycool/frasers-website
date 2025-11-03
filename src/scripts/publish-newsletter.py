@@ -23,6 +23,8 @@ def mapTitle(type):
     return "Album Review"
   elif type == "SOUNDTRACK":
     return "Nintendo Soundtrack Review"
+  elif type == "CONCERT":
+    return "Concert"
   elif type == "BOOK":
     return "Book Review"
   elif type == "GALLERY":
