@@ -1,6 +1,43 @@
 {
   "soundtracks": [
     {
+      "filename": "animal-crossing-new-leaf.jpg",
+      "name": "Animal Crossing: New Leaf",
+      "description": [
+        "I'm so delighted, so happy that this soundtrack has made it to the app! New Horizons is great but there is something extra special about this one.",
+        "When talking about Animal Crossing music you have to start with the hourly music that plays as you spend time in the game. This game's is minimal like Wild World, but much more refined and complex. There are more things going on, but it's still unafraid to use silence. Any more and it would sound like New Horizons with its bombastic synths and arguably too-loud hourly music. The combination of single accordion notes, glockenspiel, little bumps from a tuba, minimal piano, I dunno it just sounds dainty and lovely.",
+        "I feel like 1AM is an all-time classic, just a beautiful piano ballad. When you're playing Animal Crossing at 1AM you're almost definitely feeling wistful and this music reflects that. Other highlights for me are the space-y and delicate 7PM, which by the way has a 10/10 remix in smash, and the straight up bossa nova classic 5PM. Love love love.",
+        "Elsewhere in the soundtrack we've got some surprising bangers. I didn't realise that I missed the 'Shampoodle' music so much! I also never appreciated how perfect the 'GracieGrace' track is. And wild to think that all the Animal Crossing games have their own new year music. I really like this selection compared to New Horizons, especially the very peaceful New Year's Day.",
+        "Some tracks were done better in New Horizons (Festivale and Fireworks Show come to mind). I think Katrina's music might not be for everyone but I thoroughly enjoy that it's just a single note, and that this app lets you extend it for as long as you like.",
+        "Finally, special shout-outs to 'Town Tree', the unofficial Credits theme. It's gorgeous."
+      ],
+      "platform": "3DS",
+      "topTracks": [
+        "Opening Theme",
+        "Arrived at the Village",
+        "Tent's All Set",
+        "1:00 AM - Clear",
+        "4:00 AM - Clear",
+        "8:00 AM - Clear",
+        "1:00 PM - Clear",
+        "5:00 PM - Clear",
+        "7:00 PM - Clear",
+        "8:00 PM - Clear",
+        "10:00 PM - Clear",
+        "GracieGrace",
+        "Shampoodle",
+        "Fortune Teller's Shop",
+        "Tortimer Island - Day",
+        "Tortimer Island Tour",
+        "Tortimer Island Night Tour",
+        "Bunny Day",
+        "New Year's Day",
+        "Town Tree"
+      ],
+      "id": "9a3a54c2-aff6-43cb-b470-ae2d6d79b8dd",
+      "newsletter": false
+    },
+    {
       "filename": "new-super-mario-bros.jpg",
       "name": "New Super Mario Bros",
       "description": [
