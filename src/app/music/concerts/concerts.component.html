@@ -4,6 +4,16 @@
   <p>I took most of the pictures. For a couple I had to search youtube videos and social media to find a snap from the event but sometimes that wasn't possible.</p>
   <p>Dear reader, have you ever been to any of these concerts? It would be a great conversation starter the next time we meet.</p>
   <ul class="concert-list">
+    <li class="upcoming-card">
+      <h2>Upcoming: Magdalena Bay</h2>
+      <p>22-02-2026 Columbiahalle</p>
+    </li>
+    <li class="upcoming-card">
+      <h2>Upcoming: Jens Lekman</h2>
+      <p>08-03-2026 Gretchen</p>
+    </li>
+  </ul>
+  <ul class="concert-list">
     <li *ngFor="let concert of concerts" class="concert-card">
       <h2>{{ concert.artist }}</h2>
       <p>

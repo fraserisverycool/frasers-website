@@ -1,6 +1,17 @@
 {
   "dailysoundtracks": [
     {
+      "artist": "Systemabsturz",
+      "album": "Überwachung zum Mitsingen",
+      "track": "Verdächtig",
+      "description": "One of the very few German-language songs I tolerate! A banger!",
+      "link": "https://youtu.be/C55AnGYnoEA?si=R5XXB1jp-HTasfQI",
+      "game": false,
+      "day": "01-12-2025",
+      "id": "ef02379c-e25d-4414-8d1d-26506c0eaa03",
+      "newsletter": true
+    },
+    {
       "artist": "Aldous Harding",
       "album": "Designer",
       "track": "The Barrel",

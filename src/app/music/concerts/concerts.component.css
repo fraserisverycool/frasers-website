@@ -55,6 +55,26 @@ ul {
   border: 3px solid #80ffce;
 }
 
+.upcoming-card {
+  margin: 1em;
+  padding: 1em;
+  background-color: #012645;
+  border: 3px solid #80e8ff;
+  border-radius: 5px;
+  min-width: 200px;
+  color: #c5ecdb;
+  transition: transform 0.3s;
+}
+
+.upcoming-card:hover {
+  transform: scale(1.05);
+}
+
+.upcoming-card p {
+  margin: 5px 0;
+  opacity: 0.8;
+}
+
 .rating {
   padding-top: 15px;
 }
