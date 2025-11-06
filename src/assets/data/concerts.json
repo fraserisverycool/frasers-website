@@ -1,11 +1,20 @@
 {
   "concerts": [
     {
+      "artist": "Ca7riel & Paco Amoroso",
+      "date": "4-11-2025",
+      "venue": "Columbiahalle, Berlin",
+      "image": "ca7riel.jpg",
+      "description": "Went with Victor and we were wowed by their insane energy. It was jam-packed and the crowd went wild for them. They played the Sims music as they came on stage!",
+      "id": "e71dcc9e-2878-42af-9de9-01471d737adc",
+      "newsletter": true
+    },
+    {
       "artist": "Perfume Genius",
       "date": "3-11-2025",
-      "venue": "Astra, Berlin",
+      "venue": "Astra Kulturhaus, Berlin",
       "image": "perfume-genius.jpg",
-      "description": "Second time seeing them. Some great moments. They played a deep cut from 'Ugly Season' that I love.",
+      "description": "Second time seeing them, again with Sam. Some great moments. They played a deep cut from 'Ugly Season' that I love.",
       "id": "d192cab6-a9f3-450b-a652-cf4ec74e82b2",
       "newsletter": true
     },
@@ -23,7 +32,7 @@
       "date": "16-09-2025",
       "venue": "Gretchen, Berlin",
       "image": "clipping.jpg",
-      "description": "Incredible music from this horror/hip-hop genreless band. Shoutouts to their guest singer and also this girl who filmed with her 3DS.",
+      "description": "Went with anni to this incredible music from this horror/hip-hop genreless band. Shoutouts to their guest singer Sharon Stone and also this girl who filmed with her 3DS.",
       "id": "795b60be-3068-4eef-8de5-ea5b820c4fab",
       "newsletter": true
     },
@@ -32,7 +41,7 @@
       "date": "10-09-2025",
       "venue": "Monarch Bar, Berlin",
       "image": "gemma.jpg",
-      "description": "Susi's sister! This is the second time seeing her and it was great",
+      "description": "Susi's sister! This is the second time seeing her and it was great.",
       "id": "7f3bbb9d-646f-4097-aa28-fe34d5f8dfb5",
       "newsletter": true
     },
@@ -50,7 +59,7 @@
       "date": "05-07-2025",
       "venue": "Tempodrom, Berlin",
       "image": "st-vincent.PNG",
-      "description": "Wow I didn't understand what a fun diva she is until this concert! One of the best ever.",
+      "description": "Wow I didn't understand what a fun diva she is until this concert! One of the best ever. Went with Victor.",
       "id": "9f988163-fe25-4adf-9d1f-e454949614b9",
       "newsletter": true
     },
@@ -59,7 +68,7 @@
       "date": "16-06-2025",
       "venue": "Lido, Berlin",
       "image": "spellling.PNG",
-      "description": "I love Spellling and seeing her live was great! I also got to meet her at the merch stand and she called me extra for being sassy about them not selling CDs.",
+      "description": "I love Spellling and seeing her live was great! I also got to meet her at the merch stand and she called me extra for being sassy about them not selling CDs. I went alone but bumped into my old friend Boris there.",
       "id": "da1b4f0f-e763-49c6-937f-eda445c3ab75",
       "newsletter": true
     },
@@ -68,7 +77,7 @@
       "date": "09-03-2025",
       "venue": "Silent Green, Berlin",
       "image": "tunng.jpeg",
-      "description": "A old band I used to love 15 years ago. It was nice to hear them play all their old tracks and I got to meet the guy.",
+      "description": "Solo trip to see an old band I used to love 15 years ago. It was nice to hear them play all their old tracks and I got to meet the guy.",
       "id": "dff4e5ad-f5b7-4c2d-a5bc-66758650d17b",
       "newsletter": true
     },
@@ -77,139 +86,139 @@
       "date": "02-18-2025",
       "venue": "Berghain Kantine, Berlin",
       "image": "confidence-man.PNG",
-      "description": "A concert-length dance routine from these two. A lot of fun.",
+      "description": "A concert-length dance routine from these two. A lot of fun. Only regret was that we queued in the freezing cold for the main Berghain before realising it was Berghain Kantine.",
       "id": "b843f28b-72fe-4396-a432-6431e58ed476",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Magdalena Bay",
+      "date": "09-11-2024",
+      "venue": "Columbia Theater, Berlin",
+      "image": "magdalena-bay.jpg",
+      "description": "I was late to this because I'm an idiot and I'm still kicking myself about it. They played one of my favourite albums 'Imaginal disk' all the way through and it was amazing.",
       "id": "298e641b-24ff-4b8d-81dd-b229908f3828",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Khruangbin",
+      "date": "07-11-2024",
+      "venue": "Tempodrom, Berlin",
+      "image": "khruangbin.jpg",
+      "description": "Great to see these guys live with Victor and Blanca. They played their album 'A la sala' as well as a bunch of classics.",
       "id": "29d1c62c-7532-4f58-89cd-35ce77a35e2f",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Fat Dog",
+      "date": "16-10-2024",
+      "venue": "Urban Spree, Berlin",
+      "image": "fat-dog.jpg",
+      "description": "Only have this image of the warmup band, but they were great. Unpolished rock music with a mosh pit. The electricity went out at some point.",
       "id": "5071b47a-7a92-4d1c-9eac-8c09d0be1f68",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Air",
+      "date": "21-07-2024",
+      "venue": "Zitadelle Spandau, Berlin",
+      "image": "air.jpg",
+      "description": "Fuck this location, we weren't allowed to stand up?? Air played Moon Safari, a classic album, but literally just played the songs as is with no stage banter between.",
       "id": "9d082172-eb57-4bca-a7b1-d025bb7f64b4",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Sessa",
+      "date": "19-07-2024",
+      "venue": "Humboldt Forum, Berlin",
+      "image": "sessa.jpg",
+      "description": "A free concert from this very chill Brazilian artist that I've been following for a bit. Turned out to be a nice activity for a friend who was having a bad day.",
       "id": "c2ee80c5-1cbe-46db-867f-75578f02de51",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Anohni and the Johnsons",
+      "date": "09-07-2024",
+      "venue": "Zitadelle Spandau, Berlin",
+      "image": "anohni.jpg",
+      "description": "Wow, one of the most sublime concerts ever. She gave an amazing political speech during it. The arrangements were stunning. But fuck this venue, we weren't allowed to go near the seats. I went on my own and met a really hot guy there.",
       "id": "fa51aa1f-6e1c-49c0-862f-ce67f54374f1",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Django Django",
+      "date": "21-11-2023",
+      "venue": "Festsaal Kreuzberg, Berlin",
+      "image": "django-django.webp",
+      "description": "Nerdy band from Scotland that I've been a fan of for a while. They played all their old songs, it was great! Bumped into my friend Uzay there.",
       "id": "4cb4f7a2-9b54-4f6e-8c94-a5c4535d9fab",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Timber Timbre",
+      "date": "06-11-2023",
+      "venue": "Festsaal Kreuzberg, Berlin",
+      "image": "timber-timbre.jpg",
+      "description": "The artist asked the audience not to take pictures and video but everyone did it anyway. Weird vibes during the concert! I got this snap at the start.",
       "id": "ea7356ec-b6c8-4424-9c72-226baac83a60",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "G'emma",
+      "date": "13-07-2023",
+      "venue": "Monarch Bar, Berlin",
+      "image": "gemma2.jpg",
+      "description": "Susi's sister! I didn't know her before this but was blown away she is so cool and the concert was great.",
       "id": "d186e83d-2949-49ce-b71f-a1bebbb45a46",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Silvana Estrada",
+      "date": "05-06-2023",
+      "venue": "Hole 44, Berlin",
+      "image": "silvana.PNG",
+      "description": "Bigger concert, don't love the location, but she was amazing. Went with Ort and new friends.",
       "id": "0a006ee8-2d68-4e0e-8c88-79f6c2e39fe9",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "The Tallest Man on Earth",
+      "date": "01-05-2023",
+      "venue": "Metropol, Berlin",
+      "image": "tallest.PNG",
+      "description": "This was really nice as always, although nothing will live up to the previous concert he did which was perfect.",
       "id": "6b7ace7c-af58-4151-8def-ca98b56639f1",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Caroline Polachek",
+      "date": "22-02-2023",
+      "venue": "Huxley's Neue Welt, Berlin",
+      "image": "caroline.PNG",
+      "description": "Best pop concert ever with Sam, Kitty and Ale. Queer crowd and I loved it when she sang my favourite song 'Billions'.",
       "id": "a1702f5e-263f-4740-b1f8-22297fa55fdc",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Weyes Blood",
+      "date": "28-01-2023",
+      "venue": "Astra Kulturhaus, Berlin",
+      "image": "weyes-blood.PNG",
+      "description": "Beautiful, amazing, stunning, I love her. Went on my own and had a moment during 'God turn me into a flower'.",
       "id": "59b3a9fa-7c21-42b1-801b-b6a6a010b3a8",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
-      "image": "",
-      "description": "",
+      "artist": "Kimbra",
+      "date": "22-01-2023",
+      "venue": "Hole 44, Berlin",
+      "image": "kimbra.jpg",
+      "description": "Bit of an awkward concert. She was visibly insecure and her bandmates weren't vibing with her. Venue isn't great.",
       "id": "c0cda234-94e1-4e3c-91e3-c66da26eafdc",
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Jockstrap",
+      "date": "31-10-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -217,8 +226,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Hiatus Kaiyote",
+      "date": "29-09-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -226,8 +235,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Fleet Foxes",
+      "date": "11-09-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -235,8 +244,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Perfume Genius",
+      "date": "16-08-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -244,8 +253,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Silvana Estrada",
+      "date": "06-07-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -253,8 +262,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Magdalena Bay",
+      "date": "14-06-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -262,8 +271,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Kings of Convenience",
+      "date": "08-06-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -271,8 +280,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Dorian Electra",
+      "date": "25-04-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -280,8 +289,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "The Tallest Man on Earth",
+      "date": "20-04-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -289,8 +298,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Khruangbin",
+      "date": "07-04-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -298,8 +307,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Jordan Rakei",
+      "date": "04-04-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -307,8 +316,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Polo & Pan",
+      "date": "23-03-2022",
       "venue": "",
       "image": "",
       "description": "",
@@ -316,8 +325,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Systemabsturz",
+      "date": "12-11-2021",
       "venue": "",
       "image": "",
       "description": "",
@@ -325,8 +334,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Snarky Puppy",
+      "date": "29-10-2019",
       "venue": "",
       "image": "",
       "description": "",
@@ -334,8 +343,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Janelle Monáe",
+      "date": "09-07-2019",
       "venue": "",
       "image": "",
       "description": "",
@@ -343,8 +352,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Erykah Badu",
+      "date": "05-06-2019",
       "venue": "",
       "image": "",
       "description": "",
@@ -352,8 +361,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "L'impératrice",
+      "date": "30-05-2019",
       "venue": "",
       "image": "",
       "description": "",
@@ -361,8 +370,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Noname",
+      "date": "13-04-2019",
       "venue": "",
       "image": "",
       "description": "",
@@ -370,8 +379,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Saba",
+      "date": "05-03-2019",
       "venue": "",
       "image": "",
       "description": "",
@@ -379,8 +388,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Kero Kero Bonito",
+      "date": "28-11-2018",
       "venue": "",
       "image": "",
       "description": "",
@@ -388,8 +397,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Honne",
+      "date": "05-11-2018",
       "venue": "",
       "image": "",
       "description": "",
@@ -397,8 +406,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Olafur Arnalds",
+      "date": "11-10-2018",
       "venue": "",
       "image": "",
       "description": "",
@@ -406,8 +415,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Noname",
+      "date": "14-08-2018",
       "venue": "",
       "image": "",
       "description": "",
@@ -415,8 +424,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Bonobo",
+      "date": "26-05-2018",
       "venue": "",
       "image": "",
       "description": "",
@@ -424,8 +433,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Rhye",
+      "date": "30-03-2018",
       "venue": "",
       "image": "",
       "description": "",
@@ -433,8 +442,8 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
+      "artist": "Snarky Puppy",
+      "date": "20-03-2018",
       "venue": "",
       "image": "",
       "description": "",
@@ -442,9 +451,72 @@
       "newsletter": true
     },
     {
-      "artist": "",
-      "date": "",
-      "venue": "",
+      "artist": "Laura Marling",
+      "date": "04-05-2015",
+      "venue": "Guildhall, Southampton",
+      "image": "",
+      "description": "",
+      "id": "19939812-743f-41de-8596-3df5176393be",
+      "newsletter": true
+    },
+    {
+      "artist": "Stornoway",
+      "date": "21-04-2015",
+      "venue": "Engine Rooms, Southampton",
+      "image": "",
+      "description": "",
+      "id": "19939812-743f-41de-8596-3df5176393be",
+      "newsletter": true
+    },
+    {
+      "artist": "The Tallest Man on Earth",
+      "date": "27-11-2013",
+      "venue": "Fri-Son, Fribourg",
+      "image": "",
+      "description": "",
+      "id": "19939812-743f-41de-8596-3df5176393be",
+      "newsletter": true
+    },
+    {
+      "artist": "Tunng",
+      "date": "14-11-2013",
+      "venue": "Fri-Son, Fribourg",
+      "image": "",
+      "description": "",
+      "id": "19939812-743f-41de-8596-3df5176393be",
+      "newsletter": true
+    },
+    {
+      "artist": "Laura Marling",
+      "date": "14-04-2012",
+      "venue": "Guildhall, Southampton",
+      "image": "",
+      "description": "",
+      "id": "19939812-743f-41de-8596-3df5176393be",
+      "newsletter": true
+    },
+    {
+      "artist": "The Leisure Society",
+      "date": "08-12-2011",
+      "venue": "The Barbican, London",
+      "image": "",
+      "description": "",
+      "id": "19939812-743f-41de-8596-3df5176393be",
+      "newsletter": true
+    },
+    {
+      "artist": "Oxford",
+      "date": "03-09-2011",
+      "venue": "The Regal, Oxford",
+      "image": "",
+      "description": "",
+      "id": "19939812-743f-41de-8596-3df5176393be",
+      "newsletter": true
+    },
+    {
+      "artist": "The Tallest Man on Earth",
+      "date": "15-03-2010",
+      "venue": "Bush Hall, London",
       "image": "",
       "description": "",
       "id": "19939812-743f-41de-8596-3df5176393be",
