@@ -15,7 +15,10 @@ import {isBefore, parse} from "date-fns";
   styleUrls: ['./dailies.component.css']
 })
 export default class DailiesComponent implements OnInit {
+  originalDailySoundtracks: DailySoundtrack[] = [];
   dailySoundtracks: DailySoundtrack[] = [];
+  currentFilter: string = '';
+  filters = ["games", "songs", "all"];
   today: DailySoundtrack | null = null;
 
   constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer) {
@@ -29,9 +32,10 @@ export default class DailiesComponent implements OnInit {
     this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/data/daily-soundtracks.json').subscribe({
       next: (data) => {
         const now = new Date();
-        this.dailySoundtracks = data.dailysoundtracks.filter(
+        this.originalDailySoundtracks = data.dailysoundtracks.filter(
           ds => isBefore(parse(ds.day, 'dd-MM-yyyy', new Date()), now)
         );
+        this.dailySoundtracks = this.originalDailySoundtracks;
         this.dailySoundtracks.forEach(ds => ds.link = this.sanitizer.bypassSecurityTrustResourceUrl(ds.link) as string);
         this.getRatings();
         this.today = this.dailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
@@ -64,5 +68,21 @@ export default class DailiesComponent implements OnInit {
           return dailySoundtrack;
         });
       });
+  }
+
+  filterDailySoundtracks(criteria: string): void {
+    console.log(criteria);
+    this.currentFilter = criteria;
+    switch (criteria) {
+      case 'games':
+        this.dailySoundtracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game == true);
+        break;
+      case 'songs':
+        this.dailySoundtracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game == false);
+        break;
+      default:
+        this.dailySoundtracks = this.originalDailySoundtracks;
+        break;
+    }
   }
 }
