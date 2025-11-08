@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Soundtrack of the Day - Archive</h1>
   <div class="overlay"></div>
-  <ul>
+  <ul class="filter-grid">
     <li *ngFor="let filter of filters">
       <button (click)="filterDailySoundtracks(filter)" class="filter-button" [ngClass]="{ 'active': filter === currentFilter }">
         <span>{{ filter }}</span>

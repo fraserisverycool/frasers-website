@@ -18,7 +18,7 @@ export default class DailiesComponent implements OnInit {
   originalDailySoundtracks: DailySoundtrack[] = [];
   dailySoundtracks: DailySoundtrack[] = [];
   currentFilter: string = '';
-  filters = ["games", "songs", "all"];
+  filters = ["I don't care about video game music!", "Gimme that sweet video game music!", "Show me it all!"];
   today: DailySoundtrack | null = null;
 
   constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer) {
@@ -74,11 +74,11 @@ export default class DailiesComponent implements OnInit {
     console.log(criteria);
     this.currentFilter = criteria;
     switch (criteria) {
-      case 'games':
-        this.dailySoundtracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game == true);
+      case 'Gimme that sweet video game music!':
+        this.dailySoundtracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game);
         break;
-      case 'songs':
-        this.dailySoundtracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game == false);
+      case 'I don\'t care about video game music!':
+        this.dailySoundtracks = this.originalDailySoundtracks.filter(soundtrack => !soundtrack.game);
         break;
       default:
         this.dailySoundtracks = this.originalDailySoundtracks;

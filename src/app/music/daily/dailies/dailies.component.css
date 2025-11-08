@@ -64,3 +64,32 @@ app-rating-bar {
   position: relative;
   z-index: 2;
 }
+
+.filter-grid {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.filter-button {
+  background: #bd10c8;
+  color: #edd9f1;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 9px;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 2;
+}
+
+.filter-button:hover {
+  background: #61025a;
+  transform: scale(1.1);
+}
+
+.filter-button.active {
+  background: #ea31a0;
+}
