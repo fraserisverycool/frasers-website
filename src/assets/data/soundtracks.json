@@ -1,6 +1,43 @@
 {
   "soundtracks": [
     {
+      "filename": "kirby-dream-buffet.jpg",
+      "name": "Kirby's Dream Buffet",
+      "description": [
+        "Totally wild that they went for this Kirby game! There are so many Kirby games and we got this random-ass spinoff?? Anyway, there are over 100 tracks here but it's fine because the majority of them are a jukebox of Kirby classics from other games, just like in Forgotten Land and Star Allies. Kirby soundtracks really do spoil us for throwbacks to old tunes. And through this we get to hear music from Nightmare in Dreamland, Super Star, Kirby's Dreamland 3... I hope they all get released too in their own time.",
+        "If nothing else, you can use this soundtrack as a nice Kirby playlist. The original tracks for the game itself are alright but a bit mid compared to Forgotten Land and Star Allies. There are a couple of surprise arrangements of old tracks which are quite good. Check out 'Revenge of Steel Wings' which reimagines Meta Knight's Revenge!"
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Bounce the Blocks Away",
+        "Dream Buffet Race",
+        "It's So Exciting!",
+        "Dedede's Theme (Dream Buffet Ver.)",
+        "Crunchy Character Treats",
+        "Freely Free Rolling / Menu A",
+        "Love, Love, Alivel",
+        "Revenge of Steel Wings",
+        "Peanut Plains (Kirby Super Star: Memorial Song 1)",
+        "Boarding the Halberd (Kirby Super Star: Memorial Song 2)",
+        "Vs. Marx (Kirby Super Star: Memorial Song 3)",
+        "Ripple Field: Ocean Waves (Kirby's Dream Land 3: Memorial Song 1)",
+        "Rainbow Resort (Kirby: Nightmare in Dreamland: Memorial Song 1)",
+        "Fountain of Dreams (Kirby: Nightmare in Dreamland: Memorial Song 2)",
+        "Air Ride: Sky Sands (Kirby Air Ride: Memorial Song 2)",
+        "Masked Dedede's Theme (Kirby Super Star Ultra: Memorial Song 2)",
+        "Sky Tower (Kirby's Adventure Wii: Memorial Song 2)",
+        "Fatal Blooms in Moonlight (Kirby: Triple Deluxe: Memorial Song 2)",
+        "A Battle of Friends and Bonds 2 (Kirby Star Allies: Memorial Song 1)",
+        "Northeast Frost Street (Kirby and the Forgotten Land: Memorial Song 3)",
+        "Faded Dream of a Psychomeddler (Kirby and the Forgotten Land: Memorial Song 4)",
+        "Winds across Earthfall (Kirby Star Allies: Bonus Song 2)",
+        "Sword of the Surviving Guardian (Kirby and the Forgotten Land: Bonus Song 1)",
+        "Masked and Wild: D.D.D. (Kirby and the Forgotten Land: Bonus Song 2)"
+      ],
+      "id": "7a0d212a-aa5c-4f2a-b1ab-40c33a8f902a",
+      "newsletter": false
+    },
+    {
       "filename": "animal-crossing-new-leaf.jpg",
       "name": "Animal Crossing: New Leaf",
       "description": [

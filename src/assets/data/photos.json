@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "shibari2.jpg",
+      "title": "Trying new things",
+      "month": "October 2025",
+      "question": "What's going on in this photo?",
+      "id": "f2b0e2d6-c8e3-49a7-82e4-19a09ce30807",
+      "newsletter": false
+    },
+    {
       "filename": "beach.jpg",
       "title": "Beach from a postcard",
       "month": "October 2025",

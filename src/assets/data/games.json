@@ -1,6 +1,23 @@
 {
   "games": [
     {
+      "name": "Luigi's Mansion",
+      "vibes": "8",
+      "gameplay": "5",
+      "review": [
+        "It's got a kooky vibe, it's fun! Somehow I thought it would kinda fun gameplay-wise but there's not too much to the gameplay apart from sucking up ghosts. E. Gadd is cute and some of the bosses were quite fun!"
+      ],
+      "image": "luigi-mansion.webp",
+      "platform": "Gamecube",
+      "year": "2025",
+      "release": "2001",
+      "score": 14,
+      "completed": false,
+      "completable": true,
+      "id": "09561072-47d5-4a6b-b184-b7284c32be3a",
+      "newsletter": false
+    },
+    {
       "name": "Hollow Knight: Silksong",
       "vibes": "10",
       "gameplay": "10",
@@ -9,14 +26,14 @@
         "Playing this has been a total pleasure because at the same time I've watched Victor play the first Hollow Knight. Watching him get immersed into the familiar world of Hollow Knight while I simultaneously jump into the brand new world of Silksong has been amazing because we can compare experiences. This game has so many moments of wonder as you discover a brand new area, desperately looking for a bench or a map.",
         "In the game, you need to climb up what appears to be a mountain, which has a Citadel at the top. You already know there's gonna be a City of Tears-style ruined civilisation in that citadel and this game serves exactly that and SO MUCH MORE! And of course there is an equally rich and dense lore behind all these bugs and insects, just like in the first one. And you get to play as the cute and beautiful Hornet! She feels kinda different and I like it. I also love that she actually speaks! And not only that, but is well spoken. I'm done with silent protagonists. Bring me more protagonists like Hornet, who eloquently talk about smart stuff with NPCs. Yes.",
         "Just like the original game, this game nails the vibe. There is a deep sadness in all of the caves. An almost dead civilisation dragging themselves towards some kind of inevitable doom. Some of the bugs have lost it already, some are nice but struggling. Some are making things work for them in the hellscape. The music reflects all that! The Bone Bottom music, the place where there is the least hope, is so desperately sad. Then you have the incredible Choral Chambers - wow! I haven't sat down to ask myself what kind of chord sequence that is yet but I am entranced. I also adore the music from Greyhome, and weirdly also the strangely beautiful Bilewater - somewhat unfitting music for such a horrible place.",
-        "This game will stay with me for a long time. It's an absolute gem! Some of the bosses are really hard but even though that Last Judge one really got me going, none of them have really been UNFAIR unfair. At least not yet. I haven't completed it 100% at the time of writing..."
+        "This game will stay with me for a long time. It's an absolute gem! Some of the bosses are really hard but even though that Last Judge one really got me going, none of them have really been UNFAIR unfair. At least not yet. I haven't completed it 100% at the time of writing... EDIT That bitch in the void took me days and was totally unfair!!"
       ],
       "image": "silksong.jpg",
       "platform": "Switch 2",
       "year": "2025",
       "release": "2025",
       "score": 22,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "14ce0fca-e78a-4a61-bd24-3179583129af",
       "newsletter": true
@@ -8985,7 +9002,7 @@
       "completed": false,
       "completable": true,
       "id": "9a19fbdf-24c2-4ec0-990f-9c9d29b6dab6",
-      "newsletter": false
+      "newsletter": true
     }
   ]
 }

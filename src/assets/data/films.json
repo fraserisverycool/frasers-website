@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "frankenstein.jpg",
+      "title": "Frankenstein",
+      "description": "They decided to make Frankenstein hot and I don't understand why! I thought it was all pretty dumb. I guess it was entertaining",
+      "year": "2025",
+      "release": "2025",
+      "id": "f5ec87df-d2ea-4375-b087-9e42924db7d0",
+      "newsletter": false
+    },
+    {
       "filename": "pink-flamingos.jpg",
       "title": "Pink Flamingos",
       "description": "Outrageous camp classic whose main goal is to be gross and horrible. It's hilarious and shocking and I have to say I preferred 'Female Trouble'",

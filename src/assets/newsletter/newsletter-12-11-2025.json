@@ -1,0 +1,129 @@
+{
+    "timestamp": "12-11-2025",
+    "title": "10 out of 10",
+    "description": [
+        "Hey everyone, it's me again for another newsletter! First of all, thank you to all the people who actually subscribed to the RSS Feed. I don't have a way of knowing who actually did that, but if you did, kudos! You have my respect!",
+        "Recently I've been telling lots of people about my theory that in Germany ratings out of 10 always amount of a 7, and sometimes a 6 if it's bad, or an 8 if it's good. When I say that my food at the Kantine at work is a 2/10, my colleagues are very shocked. Likewise, they don't let me get away with saying the food is a 10/10. They say, it might be good but surely you've had better food than that? Maybe I did, but in this moment, I enjoy the food to the max! So how can it be anything other than a 10?",
+        "I truly feel that rating things 10/10 makes you appreciate the nice things in life more.",
+        "As a little life update I'm still waiting for summer to finish in the sense that I do less shit and have more time to chill at home. I am still doing so much shit that I miss being a teenager when I had no responsibilities. I'm a little anxious about our smash tournament at Games Ground this week and I'm excited for next year when I have holiday days to spend.",
+        "As a little website update, I added a section for concerts! I also spent ages brainstorming all the concerts I've ever been to. I'm missing some, and I didn't include artists I saw at festivals, but it might be a nice resource if you want to compare music tastes. Maybe you were at one of these concerts? I also put the ones in the future that I have tickets to. Let me know if you're going too!",
+        "Finally I am still posting music recommendations each day, and now the list is getting longer. Something tells me I will need to implement more filters on that page soon. Anyway, here is all the new content on my website since the last newsletter, see you next time!"
+    ],
+    "entries": [
+        {
+            "title": "Luigi's Mansion",
+            "description": [
+                "It's got a kooky vibe, it's fun! Somehow I thought it would kinda fun gameplay-wise but there's not too much to the gameplay apart from sucking up ghosts. E. Gadd is cute and some of the bosses were quite fun!"
+            ],
+            "image": "assets/games/luigi-mansion.webp",
+            "metadata": "Vibes: 8, Gameplay: 5, Platform: Gamecube, Release: 2001",
+            "type": "GAME"
+        },
+        {
+            "title": "Frankenstein",
+            "description": [
+                "They decided to make Frankenstein hot and I don't understand why! I thought it was all pretty dumb. I guess it was entertaining"
+            ],
+            "image": "assets/films/frankenstein.jpg",
+            "metadata": "Release: 2025",
+            "type": "FILM"
+        },
+        {
+            "title": "Pink Flamingos",
+            "description": [
+                "Outrageous camp classic whose main goal is to be gross and horrible. It's hilarious and shocking and I have to say I preferred 'Female Trouble'"
+            ],
+            "image": "assets/films/pink-flamingos.jpg",
+            "metadata": "Release: 1972",
+            "type": "FILM"
+        },
+        {
+            "title": "Amrum",
+            "description": [
+                "A gorgeous-looking film set during the German surrender in WW2 in a teeny-tiny island in north Germany. Fascinating glimpse into a time and place that I've never seen before. Simple/low-key plot but still engaging"
+            ],
+            "image": "assets/films/amrum.jpg",
+            "metadata": "Release: 2025",
+            "type": "FILM"
+        },
+        {
+            "title": "Kirby's Dream Buffet",
+            "description": [
+                "Totally wild that they went for this Kirby game! There are so many Kirby games and we got this random-ass spinoff?? Anyway, there are over 100 tracks here but it's fine because the majority of them are a jukebox of Kirby classics from other games, just like in Forgotten Land and Star Allies. Kirby soundtracks really do spoil us for throwbacks to old tunes. And through this we get to hear music from Nightmare in Dreamland, Super Star, Kirby's Dreamland 3... I hope they all get released too in their own time.",
+                "If nothing else, you can use this soundtrack as a nice Kirby playlist. The original tracks for the game itself are alright but a bit mid compared to Forgotten Land and Star Allies. There are a couple of surprise arrangements of old tracks which are quite good. Check out 'Revenge of Steel Wings' which reimagines Meta Knight's Revenge!"
+            ],
+            "image": "assets/music/nintendo/kirby-dream-buffet.jpg",
+            "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Animal Crossing: New Leaf",
+            "description": [
+                "I'm so delighted, so happy that this soundtrack has made it to the app! New Horizons is great but there is something extra special about this one.",
+                "When talking about Animal Crossing music you have to start with the hourly music that plays as you spend time in the game. This game's is minimal like Wild World, but much more refined and complex. There are more things going on, but it's still unafraid to use silence. Any more and it would sound like New Horizons with its bombastic synths and arguably too-loud hourly music. The combination of single accordion notes, glockenspiel, little bumps from a tuba, minimal piano, I dunno it just sounds dainty and lovely.",
+                "I feel like 1AM is an all-time classic, just a beautiful piano ballad. When you're playing Animal Crossing at 1AM you're almost definitely feeling wistful and this music reflects that. Other highlights for me are the space-y and delicate 7PM, which by the way has a 10/10 remix in smash, and the straight up bossa nova classic 5PM. Love love love.",
+                "Elsewhere in the soundtrack we've got some surprising bangers. I didn't realise that I missed the 'Shampoodle' music so much! I also never appreciated how perfect the 'GracieGrace' track is. And wild to think that all the Animal Crossing games have their own new year music. I really like this selection compared to New Horizons, especially the very peaceful New Year's Day.",
+                "Some tracks were done better in New Horizons (Festivale and Fireworks Show come to mind). I think Katrina's music might not be for everyone but I thoroughly enjoy that it's just a single note, and that this app lets you extend it for as long as you like.",
+                "Finally, special shout-outs to 'Town Tree', the unofficial Credits theme. It's gorgeous."
+            ],
+            "image": "assets/music/nintendo/animal-crossing-new-leaf.jpg",
+            "metadata": "Platform: 3DS, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "New Super Mario Bros",
+            "description": [
+                "At first glance you might think this soundtrack release would be a disappointment, but let me tell you this game has some hidden bangers in it. The credits theme alone is for me an all-time favourite track! It's a huge vibe. Then we were introduced to the timeless main theme with those 'bah!'s. In fact, all the music features the bahs in there and they are and remain iconic, because all the enemies in the game take a moment to pose whenever the sound comes.",
+                "Many tracks from for example the desert or beach levels have a different track to the later new super mario bros games, and I don't think they're better as such... but it's to hear something different. Those other themes did become stale after 3 games."
+            ],
+            "image": "assets/music/nintendo/new-super-mario-bros.jpg",
+            "metadata": "Platform: DS, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Metroid II - Return of Samus",
+            "description": [
+                "Wow talk about unlistenable soundtracks on this app. You won't catch me ever listening to 'SR288 Area BGM 2' ever again, that's for sure. The gameboy soundchip really is a catastrophe. Most of the tracks are bleeps and bloops and that is actually what you hear during the game! The one exception is the excellent main theme.",
+                "I'm a little bit sad that they didn't release the 3DS remake as well, which contains some genuinely good tracks. I guess we were spoilt enough last time with Paper Mario and its remake. Another reminder not to feel entitled!"
+            ],
+            "image": "assets/music/nintendo/metroid-2.jpg",
+            "metadata": "Platform: Gameboy, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Trying new things",
+            "description": null,
+            "image": "assets/gallery/shibari2.jpg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        },
+        {
+            "title": "Victreebel scream",
+            "description": [
+                "This is the sound that one of my favourite pokemon Victreebel makes"
+            ],
+            "image": null,
+            "metadata": "Link: https://www.youtube.com/watch?v=yoOg5JYyFmA",
+            "type": "VIDEO"
+        },
+        {
+            "title": null,
+            "description": [
+                "A cool coaster I got from a convention featuring this banger Gameboy game Donkey Kong '94"
+            ],
+            "image": "assets/misc/characters/deco/dk8.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "A cool coaster I got from a convention with Daisy from her original game, Super Mario Land on the Gameboy"
+            ],
+            "image": "assets/misc/characters/deco/daisy2.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        }
+    ],
+    "id": "c32d5f42-d68b-44c8-9576-b7074fe6342d"
+}

@@ -91,7 +91,7 @@ def get_content_data(content_type, content_data):
   elif content_type == ContentType.FILM:
     return content_data['films']
   elif content_type == ContentType.CONCERT:
-    return content_data['concert']
+    return content_data['concerts']
   elif content_type == ContentType.DURSTLOESCHER:
     return content_data['durstloescher']
   elif content_type == ContentType.BOOK:
@@ -194,14 +194,16 @@ def generate_newsletter(title, description):
 
 
 def main():
-    generate_newsletter("Fantasy holiday in Mallorca",
-                        [
-                          "Hello friends and family, welcome to my second newsletter! If you are receiving a notification about this via RSS, do let me know! I'm curious to see if anyone actually subscribed. So far nobody I've spoken to actually wants to do that.",
-                          "First I want to tell you guys about a cool new thing on my website. I've now got a section on the homepage with a daily music recommendation! I wanted to make something that changes every day so visiting the site becomes more interesting. I love music so I figured it would be great to give you guys specific tracks for you to listen to. I already have the very extensive 'Albums' and 'Nintendo Soundtracks' sections for your perusal, but this will focus on individual tracks. If you like them, don't be afraid to react to them with the new reactions feature.",
-                          "My plan is to write them all in advance, and hopefully I'll be able to keep on top of them. If I run out of juice eventually I'll think of something else. As always I love it when you give me feedback about this kind of stuff.",
-                          "What's been happening in my life lately? Victor and I had a beautiful holiday in Mallorca just this past week and it was incredible. If you know me, you know I talk about Mexico a lot, but the Mexican beaches have nothing on these beaches. Victor took me to all his favourite spots and it was stunning - I'm talking Super Mario Odyssey Seaside Kingdom vibes. One thing I struggled with there was presence of Germans on the island. They are causing many problems there and it was hard to admit that I live in Germany and love it there. I felt quite embarrassed for Germany when hanging out with the Mallorcans.",
-                          "Otherwise my busy summer is hopefully coming to an end. I regret that I haven't made time for DJing with Weyes this summer, but I've been confronted with being unable to have it all many times this year. But at least I started a new book (Ursula K Le Guin's Earthsea). I look forward to spending more time this Autumn getting into that, completing Hollow Knight: Silksong, and listening to the crap out of the Paper Mario soundtrack. I've also randomly gotten really into doing the daily crossword on the Guardian news app. I've learned so many new words already!"
-                        ])
+  generate_newsletter("10 out of 10",
+                      [
+                        "Hey everyone, it's me again for another newsletter! First of all, thank you to all the people who actually subscribed to the RSS Feed. I don't have a way of knowing who actually did that, but if you did, kudos! You have my respect!",
+                        "Recently I've been telling lots of people about my theory that in Germany ratings out of 10 always amount of a 7, and sometimes a 6 if it's bad, or an 8 if it's good. When I say that my food at the Kantine at work is a 2/10, my colleagues are very shocked. Likewise, they don't let me get away with saying the food is a 10/10. They say, it might be good but surely you've had better food than that? Maybe I did, but in this moment, I enjoy the food to the max! So how can it be anything other than a 10?",
+                        "I truly feel that rating things 10/10 makes you appreciate the nice things in life more.",
+                        "As a little life update I'm still waiting for summer to finish in the sense that I do less shit and have more time to chill at home. I am still doing so much shit that I miss being a teenager when I had no responsibilities. I'm a little anxious about our smash tournament at Games Ground this week and I'm excited for next year when I have holiday days to spend.",
+                        "As a little website update, I added a section for concerts! I also spent ages brainstorming all the concerts I've ever been to. I'm missing some, and I didn't include artists I saw at festivals, but it might be a nice resource if you want to compare music tastes. Maybe you were at one of these concerts? I also put the ones in the future that I have tickets to. Let me know if you're going too!",
+                        "Finally I am still posting music recommendations each day, and now the list is getting longer. Something tells me I will need to implement more filters on that page soon. Anyway, here is all the new content on my website since the last newsletter, see you next time!"
+
+                      ])
 
 if __name__ == "__main__":
     main()
