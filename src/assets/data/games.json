@@ -1,6 +1,77 @@
 {
   "games": [
     {
+      "name": "Kirby's Dream Land",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "I managed to beat this entire game while Victor took the dog out! It was delightful, although actually a little harder than your usual Kirby game because there were no broken copy abilities. Great to see the origin of so much Kirby stuff. Loved the King Dedede fight in which he used dash attack, up special, f-smash, neutral special. Great. Music is also 10/10."
+      ],
+      "image": "kirby-dream-land.jpg",
+      "platform": "Gameboy",
+      "year": "2025",
+      "release": "1992",
+      "score": 7,
+      "completed": true,
+      "completable": true,
+      "id": "b49f1402-bc3a-4733-9a91-a872ba57adbe",
+      "newsletter": false
+    },
+    {
+      "name": "Ristar",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "I had vaguely heard of this game so I gave it a go on the Nintendo Switch Online and was delighted by the amazing soundtrack. The game itself was quite forgiving for a mega drive game! Although as a platformer it's nothing special. I'm grateful that I now know about its great OST though."
+      ],
+      "image": "ristar.jpg",
+      "platform": "Sega Mega Drive",
+      "year": "2025",
+      "release": "1995",
+      "score": 8,
+      "completed": false,
+      "completable": true,
+      "id": "ca5ef731-f46a-4a09-8c82-5a6eba6dcb8c",
+      "newsletter": false
+    },
+    {
+      "name": "Ecco the Dolphin",
+      "vibes": "9",
+      "gameplay": "4",
+      "review": [
+        "I've been aware of the soundtracks of these games, made by Tim Follin, one of my favourite composers, for a long time. They are baffling, expansive and vibe-heavy games in which you play as a dolphin! Truly a first in the dolphin genre. I also heard that they are hard as balls so I was curious, and indeed, it's hard as balls. It's totally confounding and has no information about where to go or what to do. You just swim around and die to random things all the time. Definitely the kind of game to just listen to the soundtrack to and not actually play."
+      ],
+      "image": "ecco-the-dolphin.jpg",
+      "platform": "Sega Mega Drive",
+      "year": "2025",
+      "release": "1992",
+      "score": 6,
+      "completed": false,
+      "completable": true,
+      "id": "5420dd91-d5cd-4433-b33b-094f468f6565",
+      "newsletter": false
+    },
+    {
+      "name": "Streets of Rage 2",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "Ever since falling in love with Streets of Rage 4, I've been meaning to get into this game as well, and I'm so glad I did! The reason to open up this game on the Nintendo Switch Online is so you can listen to one of the best soundtracks of all time. It's inspired by house and techno music and each track is a fucking banger. I have literally DJ'd some of these tracks before (Go Straight and Dreamer) they are that good. They hold up today!",
+        "The opening music is the biggest vibe ever, although booting up the game I realised you can't actually listen to the whole opening track before the opening ends. Devastating. But it's fine because it gets straight into 'Go Straight', the most incredible first level music ever. Perfect music to beat up goons to. It's a bombastic house anthem that turns into the jazziest remix of itself when you enter the bar halfway through the level. Then in later levels you have 'Slow Moon', 'Dreamer'... just banger after banger.",
+        "The game itself is doable! I got to stage 7 or so using my fundamentals from Streets of Rage 4 which felt great. I quickly realised Blaze's flip move does crazy damage. But the difficulty curve is tough, it doesn't fuck around. I think it's fine because back then these arcade-style games needed to have that replayability, and this really does. You play over and over until you know all the levels back to front, and can beat them with all the characters. Part of me wishes I was into this game as a child.",
+        "It also has a really lovely co-op mode! Victor and I played together for a bit and it was awesome. Super fun to play with a second person."
+      ],
+      "image": "streets-of-rage-2.webp",
+      "platform": "Sega Mega Drive",
+      "year": "2025",
+      "release": "1992",
+      "score": 17,
+      "completed": false,
+      "completable": true,
+      "id": "0a5674f1-cab5-463d-a134-cbd3b4744c3d",
+      "newsletter": false
+    },
+    {
       "name": "Luigi's Mansion",
       "vibes": "8",
       "gameplay": "5",
@@ -12,10 +83,10 @@
       "year": "2025",
       "release": "2001",
       "score": 14,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "09561072-47d5-4a6b-b184-b7284c32be3a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Hollow Knight: Silksong",

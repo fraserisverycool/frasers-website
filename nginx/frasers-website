@@ -22,4 +22,11 @@ server {
     location = /50x.html {
         root /usr/share/nginx/html;
     }
+
+    location /images/ {
+        alias /var/www/images/;
+        autoindex off;
+        expires 30d;
+        add_header Cache-Control "public, max-age=2592000";
+    }
 }

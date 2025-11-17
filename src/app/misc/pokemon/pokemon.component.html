@@ -1,0 +1,41 @@
+<div class="container">
+  <h1>Pokemon Rankings</h1>
+  <img src="https://worldpeace.services/images/misc/pokemon/pokemon-trainer.gif" alt="cool gif with pokemon trainer">
+  <p>I'm tired of all of these terrible opinions about pokemon. On this webpage I have put all 1025 pokemon into a tier list. Criteria is vibes only.</p>
+  <div class="tiers-container">
+    <div *ngFor="let tierKey of orderedTiers">
+      <div class="tier-header" (click)="toggleTier(tierKey)">
+        <span class="tier-name">{{ tierKey }}</span>
+        <span class="tier-description">{{ tierHeadings[tierKey] }}</span>
+        <span class="arrow">{{ collapsed[tierKey] ? "▶" : "▼" }}</span>
+      </div>
+      <div class="tier-content" *ngIf="!collapsed[tierKey]">
+        <div class="pokemon-grid">
+          <div
+            class="pokemon-card"
+            *ngFor="let p of tiers[tierKey]"
+            [title]="p.number + ' – ' + p.name"
+            (click)="openModal(p)"
+          >
+            <img
+              [src]="imagePath(p.image)"
+              loading="lazy"
+              [alt]="p.name">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" *ngIf="selectedPokemon" (click)="closeModal()">
+  <app-close-button (click)="close.emit()"/>
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <h2>#{{ selectedPokemon.number }} – {{ selectedPokemon.name }}</h2>
+    <img
+      class="modal-image"
+      [src]="imagePath(selectedPokemon!.image)"
+      [alt]="selectedPokemon.name">
+    <p>{{ selectedPokemon.description }}</p>
+  </div>
+</div>

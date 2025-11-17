@@ -7,7 +7,7 @@
       "year": "2025",
       "release": "2025",
       "id": "f5ec87df-d2ea-4375-b087-9e42924db7d0",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "pink-flamingos.jpg",
@@ -16,7 +16,7 @@
       "year": "2025",
       "release": "1972",
       "id": "55d62c05-4664-4f78-9321-7502862c8267",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "amrum.jpg",
@@ -25,7 +25,7 @@
       "year": "2025",
       "release": "2025",
       "id": "abb57eb3-407d-40e1-b16e-590d1d013cdc",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "painted-boats.jpg",

@@ -7,130 +7,471 @@
       "description": "",
       "link": "",
       "game": false,
+      "day": "31-01-2026",
+      "id": "951e8ada-f4eb-4c4a-a4b8-24f5aefa75f9",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "30-01-2026",
+      "id": "5f312c75-3bbe-47bf-b4b4-02aa66b62d04",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "29-01-2026",
+      "id": "701c80a0-68ea-46ea-8093-75a1eb8c3065",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "28-01-2026",
+      "id": "41793821-11f7-43b8-a536-5fad346451b6",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "27-01-2026",
+      "id": "1f07410e-8059-4910-9857-f7a84fbbdd3d",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "26-01-2026",
+      "id": "634b2381-d104-475c-a26f-c4cee7e81279",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "25-01-2026",
+      "id": "88c03c01-2f15-4fb8-ad2a-ce32e0f4bc29",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "24-01-2026",
+      "id": "91aa96ee-c54f-4369-a23a-673bddfe41d9",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "23-01-2026",
+      "id": "2e0d588f-3386-47ed-8d4d-ce38a7871bc5",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "22-01-2026",
+      "id": "ac8724e9-7708-4784-a6b9-cdf2a3d4fc5c",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "21-01-2026",
+      "id": "44c00e41-3772-4b94-910c-1faf4cf67f34",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "20-01-2026",
+      "id": "b92e8d1a-1062-47e5-a4e6-d8695e75df41",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "19-01-2026",
+      "id": "437eaa29-0c66-4be7-9a04-9a2957352589",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "18-01-2026",
+      "id": "8500fb4f-2575-47ab-8698-c08f79a2f7e0",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "17-01-2026",
+      "id": "0dabd4a1-f6c0-4af3-8513-8f2a29827fab",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "16-01-2026",
+      "id": "98aaae29-cefc-49fd-bc48-e88a71797a79",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "15-01-2026",
+      "id": "610d2322-05e4-46f9-9083-c758995f5844",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "14-01-2026",
+      "id": "a905b906-6b45-48fc-b6e8-603ad5b18185",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "13-01-2026",
+      "id": "73c8d436-09b5-4ed7-b772-148b8360c8c2",
+      "newsletter": false
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "12-01-2026",
+      "id": "78608b44-06c0-49cf-98ce-0d2c56fa972d",
+      "newsletter": false
+    },
+    {
+      "artist": "Deniz Akbulut",
+      "album": "CrossCode",
+      "track": "Rookie Harbor",
+      "description": "I love this soundtrack so much! This is one of my favourite tracks from it. What makes it special is its chord sequence!",
+      "link": "https://www.youtube.com/watch?v=eXn_werPaDc",
+      "game": true,
+      "day": "11-01-2026",
+      "id": "6fb13f1f-d35c-48a3-8b12-b2c6b4989c33",
+      "newsletter": false
+    },
+    {
+      "artist": "Masafumi Takada",
+      "album": "The Silver Case",
+      "track": "Kill The Past",
+      "description": "The credits theme from an obscure old visual novel. Great vibes.",
+      "link": "https://www.youtube.com/watch?v=EdAzWRGrvAo",
+      "game": true,
+      "day": "10-01-2026",
+      "id": "b7b0b979-cef3-4653-b848-2b1598f4a6db",
+      "newsletter": false
+    },
+    {
+      "artist": "Go Ichinose, Junichi Musada",
+      "album": "Pokemon Diamond/Pearl",
+      "track": "Lake",
+      "description": "Beautiful music from arguably the best Pokemon soundtrack. I love the harmony. It feels like music to ascend to heaven to.",
+      "link": "https://www.youtube.com/watch?v=96qogC-0VjI",
+      "game": true,
+      "day": "09-01-2026",
+      "id": "4e7be40e-e652-471a-a7b4-ce31f5bc79ef",
+      "newsletter": false
+    },
+    {
+      "artist": "Masami Ueda, Hiroshi Yamaguchi, Rei Kondoh, Akari Kaida",
+      "album": "Okami",
+      "track": "Hana Valley",
+      "description": "This music plays after you purify an area and I love it. This soundtrack has traditional Japanese instruments everywhere and is super ethereal and unlike anything else really.",
+      "link": "https://www.youtube.com/watch?v=P7H2cAs_WEo",
+      "game": true,
+      "day": "08-01-2026",
+      "id": "ea5ac74d-b822-48d0-8628-fe10927dd4de",
+      "newsletter": false
+    },
+    {
+      "artist": "Jim Noir",
+      "album": "Tower of Love",
+      "track": "Tower of Love",
+      "description": "I heard a song from this guy on an advert and looked up what it was and found this album. On this album, this one track is particularly nice and I've often come back to it. It kinda reminds me of 'Hana Valley' from Okami.",
+      "link": "https://www.youtube.com/watch?v=-Q_kzgpL-Xc",
+      "game": false,
+      "day": "07-01-2026",
+      "id": "f9f37b4d-0fec-411f-acc9-5a209ab4f49d",
+      "newsletter": false
+    },
+    {
+      "artist": "Toni Braxton",
+      "album": "Secrets",
+      "track": "Un-Break My Heart",
+      "description": "One of the best ever karaoke songs. I love it. Catch me at Monster Ronson's on a monday belting this out.",
+      "link": "https://www.youtube.com/watch?v=p2Rch6WvPJE",
+      "game": false,
+      "day": "06-01-2026",
+      "id": "a9a49d84-0419-430c-88b5-20a739f9d88c",
+      "newsletter": false
+    },
+    {
+      "artist": "Quadron",
+      "album": "Quadron",
+      "track": "Herfra hvor vi står",
+      "description": "Kendrick sampled this band in 'Bitch don't kill my vibe', but I learned that after my deep dive into scandinavian indie music back in like 2010. This is the final track from their first album. I've always loved it even though to this day I've never looked up the translation of the lyrics. It's a cover of some Danish artists called Skousen and Ingemann.",
+      "link": "https://www.youtube.com/watch?v=Fc-Cr1AxHnk",
+      "game": false,
+      "day": "05-01-2026",
+      "id": "405aff8e-c78d-4ee8-8593-86e4ff177efd",
+      "newsletter": false
+    },
+    {
+      "artist": "KING",
+      "album": "We Are KING",
+      "track": "Hey",
+      "description": "Learned about this group because Kendrick sampled this song on Section 80. They have one album and it's fucking great.",
+      "link": "https://www.youtube.com/watch?v=QQlGFyJ2kkk",
+      "game": false,
+      "day": "04-01-2026",
+      "id": "71eefaa3-fe60-4122-a358-a725e64907c0",
+      "newsletter": false
+    },
+    {
+      "artist": "Lesley Duncan",
+      "album": "Lesley Step Lightly: The Gm Recordings Plus 1974-1982",
+      "track": "Love Song",
+      "description": "Found this thanks to a cover by Melody Gardot. It's beautiful and rare.",
+      "link": "https://www.youtube.com/watch?v=SYelRP3MzEw",
+      "game": false,
+      "day": "03-01-2026",
+      "id": "e713d09a-956d-4f27-a270-16764f4b954c",
+      "newsletter": false
+    },
+    {
+      "artist": "Kenta Nagata",
+      "album": "1080° Snowboarding",
+      "track": "Call Me",
+      "description": "This soundtrack just like many N64 and PS1 games of this era had this awesome house/jungle vibe. This track is one of my faves from this game I used to play as a child.",
+      "link": "https://www.youtube.com/watch?v=EsxFn2Av894",
+      "game": true,
+      "day": "02-01-2026",
+      "id": "5f704c9a-2a47-438a-8b94-93162da33e38",
+      "newsletter": false
+    },
+    {
+      "artist": "Hirokazu Ando",
+      "album": "Super Smash Bros.",
+      "track": "Credits",
+      "description": "The unofficial main theme of Smash 64 and huge source of nostalgia for me. It takes me right back to beating classic mode with every character as a child in front of our TV.",
+      "link": "https://www.youtube.com/watch?v=CNJ-gnyMAH8",
+      "game": true,
+      "day": "01-01-2026",
+      "id": "9519c9f2-09bf-4cb5-b705-65dd09e82daa",
+      "newsletter": false
+    },
+    {
+      "artist": "Regina Spektor",
+      "album": "Remember Us To Life",
+      "track": "New Year",
+      "description": "I love how she never sings about sex and relationships. Her songs about so many random things. This one is about new year and even features a countdown!",
+      "link": "https://www.youtube.com/watch?v=fxyzJld9ruc",
+      "game": false,
       "day": "31-12-2025",
       "id": "267b6ea5-3b96-44f0-a089-789043602f96",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Naoko Mitome, Masanobu Matsunaga, Yasuhisa Baba, Kenichi Nishimaki",
+      "album": "WarioWare: Smooth Moves",
+      "track": "Balloon Fight",
+      "description": "I just love this remix of the Balloon Fight music. It's so Nintendo Wii, and makes me just want to smile for photos while holding some juice and playing tennis and shaking hands.",
+      "link": "https://www.youtube.com/watch?v=qfUwZd7OXms",
+      "game": true,
       "day": "30-12-2025",
       "id": "2c3b4174-7f31-4165-802d-2dd6a827d3e9",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Ryoji Yoshitomi, Kyoko Miyamoto",
+      "album": "WarioWare, Inc.: Mega Microgames!",
+      "track": "Drifting Away",
+      "description": "One of the stages in this kooky game has this music instead of the normal music and it's such a vibe. They put a whole-ass song on the GBA with switching styles and everything. I've always loved it.",
+      "link": "https://www.youtube.com/watch?v=-B7_mW-iAU8",
+      "game": true,
       "day": "29-12-2025",
       "id": "cfc3cad3-0c88-4f5b-9500-a9c410d044ea",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Air",
+      "album": "Moon Safari",
+      "track": "Le Voyage De Pénélope",
+      "description": "I always loved this track at the end of this iconic album. It's dirty and seedy and dramatic. Who is Penelope? I bet she's up to no good.",
+      "link": "https://www.youtube.com/watch?v=FEp99DhntDA",
       "game": false,
       "day": "28-12-2025",
       "id": "ec35cba6-baae-497e-b6f4-2b4e87b239bb",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Grant Kirkhope",
+      "album": "Diddy Kong Racing",
+      "track": "Darkmoon Caverns",
+      "description": "This soundtrack is so fucking good and so nostalgic that I made a whole mix of it (available for download on this website) and have regularly listened to it in the gym. I have a secret youtube channel called Darkmooncaverns19 inspired by how good this music is.",
+      "link": "https://www.youtube.com/watch?v=Q8DGFuM9Z3A",
+      "game": true,
       "day": "27-12-2025",
       "id": "ed90fbf4-e9c2-4345-a6dd-b1dbc47aacf9",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Kaytranada ft. PinkPantheress",
+      "album": "Timeless",
+      "track": "Snap My Finger",
+      "description": "Together with their hit Last Christmas, Wham! release 'Everything She Wants', a song with (in my opinion) questionable lyrics complaining ",
+      "link": "https://www.youtube.com/watch?v=vAOzFvVz718",
       "game": false,
       "day": "26-12-2025",
       "id": "1206d4f7-813c-4a74-a999-e25240d216f3",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Wham!",
+      "album": "Everything She Wants",
+      "track": "Last Christmas",
+      "description": "This is the best Christmas song and you cannot convince me otherwise.",
+      "link": "https://www.youtube.com/watch?v=E8gmARGvPlI",
       "game": false,
       "day": "25-12-2025",
       "id": "d915b7f5-ea6b-4412-8605-64132d0635e2",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Stornoway",
+      "album": "Beachcomber's Windowsill",
+      "track": "We Are The Battery Human",
+      "description": "A local band I loved growing up. This is one of my favourite songs from them, all about unplugging yourself and touching grass.",
+      "link": "https://www.youtube.com/watch?v=tj-QXey3gPk",
       "game": false,
       "day": "24-12-2025",
       "id": "c2eed6ec-9f6d-4bac-963b-9a3aef937373",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Laura Marling",
+      "album": "I Speak Because I Can",
+      "track": "Goodbye England (Covered in Snow)",
+      "description": "I've been a fan forever and this was the first song of hers that I heard. This is a lovely recent performance with a live orchestra. What can I say I'm just a fan and I love her.",
+      "link": "https://www.youtube.com/watch?v=2OFZ-rQfGus",
       "game": false,
       "day": "23-12-2025",
       "id": "04d8204f-1f21-4bfd-82ad-fe331fa26bbf",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "David Wise",
+      "album": "Donkey Kong Country 2: Diddy's Kong Quest",
+      "track": "Stickerbush Symphony",
+      "description": "When you make a game about monkeys going through the jungle you don't expect the composer to make the biggest vibes ever and some of the most iconic video game music of all time and yet here we are. Catch me listening to Stickerbush Symphony on the bus, at work, at parties and events. It's timeless.",
+      "link": "https://www.youtube.com/watch?v=lndBgOrTWxo",
+      "game": true,
       "day": "22-12-2025",
       "id": "b4fca0a3-f621-487f-ab91-d816d058ede7",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "David Wise",
+      "album": "Donkey Kong: Tropical Freeze",
+      "track": "Staff Credits",
+      "description": "There are a thousand 10/10 tracks to pick from on this soundtrack but I want to highlight the credits music. There's this smooth saxophone part a couple of minutes in that I love so much. They brought back David Wise one time for this soundtrack and that's why it's legendary. At the tail end there is a remix of Stickerbush Symphony. So good.",
+      "link": "https://www.youtube.com/watch?v=1d1jTRvxZkQ",
+      "game": true,
       "day": "21-12-2025",
       "id": "c9f6d72b-5626-4287-a16f-4e1ea0445eea",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Yuzo Koshiro",
+      "album": "Streets of Rage 2",
+      "track": "Dreamer",
+      "description": "Huge banger from one of the best soundtracks ever. I literally DJ'd this track as is once because it's that good. This whole soundtrack is house bangers and I'm obsessed.",
+      "link": "https://www.youtube.com/watch?v=Xlb8UYuSIp8",
+      "game": true,
       "day": "20-12-2025",
       "id": "c7836f81-4e1b-448b-aaa4-9e9e4fc289db",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Yoko Shimamura",
@@ -141,7 +482,7 @@
       "game": false,
       "day": "19-12-2025",
       "id": "0af5e39c-5303-482b-9149-5b47d98026d6",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Kero Kero Bonito",
@@ -152,7 +493,7 @@
       "game": false,
       "day": "18-12-2025",
       "id": "5122c58a-91dd-46ed-a27e-5f91ea689d63",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Toby Fox",
@@ -163,7 +504,7 @@
       "game": true,
       "day": "17-12-2025",
       "id": "82f7e728-44da-4afd-b086-c66f6acfd57b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Toby Fox",
@@ -174,7 +515,7 @@
       "game": true,
       "day": "16-12-2025",
       "id": "0802baf8-0f64-47fd-b99d-d46d71e156d4",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "John Guscott",
@@ -185,7 +526,7 @@
       "game": true,
       "day": "15-12-2025",
       "id": "cf73d291-f060-444b-bcc9-4a7389123e5f",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Camera Obscura",
@@ -196,7 +537,7 @@
       "game": false,
       "day": "14-12-2025",
       "id": "de788d24-e83c-4050-b423-53cd823b84cb",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Madeleine Peyroux",
@@ -207,7 +548,7 @@
       "game": false,
       "day": "13-12-2025",
       "id": "3ba63d7f-2fb5-4b59-9e62-22ae38bd9e89",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Hirokazu Tanaka",
@@ -218,7 +559,7 @@
       "game": true,
       "day": "12-12-2025",
       "id": "c8296fd4-5099-4504-879a-ee20cb5d7554",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Herbie Hancock",
@@ -229,7 +570,7 @@
       "game": false,
       "day": "11-12-2025",
       "id": "f0dbd0c0-c36f-46d0-919d-667530f9a1c7",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Yellow Magic Orchestra",
@@ -240,7 +581,7 @@
       "game": false,
       "day": "10-12-2025",
       "id": "b8be182f-cd50-41bf-8788-f8bef6965a2a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Patrick Watson",
@@ -251,7 +592,7 @@
       "game": false,
       "day": "09-12-2025",
       "id": "75bcaa77-fde5-46fa-a9bb-fbd1a7377075",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Christopher Larkin",
@@ -262,7 +603,7 @@
       "game": true,
       "day": "08-12-2025",
       "id": "aead8b78-4331-4bb2-8ebd-118bd78ca518",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Muse",
@@ -273,7 +614,7 @@
       "game": false,
       "day": "07-12-2025",
       "id": "44ff89a7-2ec7-4d02-a3fe-3ea7f66bbf98",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Moddi",
@@ -284,7 +625,7 @@
       "game": false,
       "day": "06-12-2025",
       "id": "c38fcc50-2d19-4ab7-839a-15430f169333",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Miike Snow",
@@ -295,7 +636,7 @@
       "game": false,
       "day": "05-12-2025",
       "id": "ac00e52e-cbe7-43d6-a7ef-ec76cf55309d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Yasuhisa Baba, Chika Sekigawa, & Naoko Mitome",
@@ -306,7 +647,7 @@
       "game": true,
       "day": "04-12-2025",
       "id": "3bf6c021-f8ff-43be-a445-c99021d339de",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Atsuko Asahi",
@@ -317,18 +658,18 @@
       "game": true,
       "day": "03-12-2025",
       "id": "c346835a-4a02-4962-b06b-3cc297583733",
-      "newsletter": false
+      "newsletter": true
     },
     {
-      "artist": "Regina Spektor",
-      "album": "Remember Us To Life",
-      "track": "New Year",
-      "description": "I love how she never sings about sex and relationships. Her songs about so many random things. This one is about new year and even features a countdown!",
-      "link": "https://www.youtube.com/watch?v=fxyzJld9ruc",
+      "artist": "Sade",
+      "album": "Stronger Than Pride",
+      "track": "I Never Thought I'd See The Day",
+      "description": "A song for when you are on your own and feeling emotional. Music for gazing at the moon to. Maybe music for when something really bad has just happened.",
+      "link": "https://www.youtube.com/watch?v=HqIwuLX8I5M",
       "game": false,
       "day": "02-12-2025",
       "id": "0db34a08-1a77-4a42-a90b-884e51094a83",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Systemabsturz",

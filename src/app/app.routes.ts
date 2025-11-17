@@ -31,6 +31,7 @@ import GuestbookComponent from "./guestbook/guestbook.component";
 import NewslettersComponent from "./newsletter/newsletters.component";
 import NewsletterComponent from "./newsletter/newsletter/newsletter.component";
 import ConcertsComponent from "./music/concerts/concerts.component";
+import PokemonComponent from "./misc/pokemon/pokemon.component";
 
 export const routes: Routes = [
   {
@@ -119,6 +120,9 @@ export const routes: Routes = [
   },
   {
     path: 'misc/writing', component: WritingComponent, data: { title: 'Old Posts - Fraser\'s Website' }
+  },
+  {
+    path: 'misc/pokemon', component: PokemonComponent, data: { title: 'Pokemon Ranking - Fraser\'s Website' }
   },
   {
     path: 'guestbook', component: GuestbookComponent, data: { title: 'Guestbook - Fraser\'s Website' }

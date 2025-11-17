@@ -43,3 +43,12 @@ Thumbs.db
 
 src/assets/music/mixes/*.mp3
 database.sqlite
+
+assets/*.webp
+assets/*.jpeg
+assets/*.gif
+assets/*.jpg
+assets/*.png
+assets/*.bmp
+assets/*.PNG
+assets/*.avif
