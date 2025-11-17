@@ -41,9 +41,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
-src/assets/music/mixes/*.mp3
+src/assets/music/mixes/*
+src/assets/music
+src/assets/
 database.sqlite
 
-src/assets/
-!/src/assets/data/
-!/src/assets/newsletter/
+
