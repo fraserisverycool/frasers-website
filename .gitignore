@@ -44,6 +44,7 @@ Thumbs.db
 !src/assets/data/
 !src/assets/newsletter
 !src/assets/backgrounds
+!src/assets/community/game-of-life
 src/assets/
 
 database.sqlite
