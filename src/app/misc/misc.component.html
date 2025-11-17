@@ -2,30 +2,30 @@
   <h1>Miscellaneous Crap</h1>
   <p>This page is a dumping ground for all the stuff which doesn't really fit anywhere else!</p>
   <div class="gif">
-    <img src="assets/misc/godzilla.gif" alt="nice gif of godzilla">
+    <img  [src]="imageService.imageUrl('/misc/godzilla.gif')" alt="nice gif of godzilla">
   </div>
   <p>Here you can see all of the Top 8 pictures I made for all of the BREXIT SUMMIT tournaments that I hosted in my apartment between 2019 and 2022:</p>
   <button (click)="handleClick('/misc/brexitsummit')">BREXIT SUMMIT Top 8 Pictures</button>
   <div class="gif">
-    <img src="assets/misc/smash.gif" alt="nice gif of diddy kong and rosalina">
+    <img  [src]="imageService.imageUrl('/misc/smash.gif')" alt="nice gif of diddy kong and rosalina">
   </div>
   <h2>Do you play Super Smash Bros Ultimate? If so...</h2>
   <button (click)="handleClick('/misc/characters')">Let's talk about all the characters!</button>
   <div class="image">
-    <img src="assets/misc/luigi.webp" alt="nice image of luigi giving the death stare">
+    <img  [src]="imageService.imageUrl('/misc/luigi.webp')" alt="nice image of luigi giving the death stare">
   </div>
   <h2>Ranking of every Mario Kart track ever</h2>
   <button (click)="handleClick('/misc/mariokart')">Fraser's Mario Kart Rankings</button>
   <div class="image">
-    <img src="assets/misc/stitch/thug.jpg" alt="nice pic of one of my cross-stitches saying 'the thug life chose me'">
+    <img  [src]="imageService.imageUrl('/misc/stitch/thug.jpg')" alt="nice pic of one of my cross-stitches saying 'the thug life chose me'">
   </div>
   <h2>List of all my cross stitches</h2>
   <button (click)="handleClick('/misc/stitch')">Cross stitches</button>
   <div class="image">
-    <img src="https://worldpeace.services/images/misc/pokemon/omanyte.gif" alt="nice pic of james from pokemon holding an omanyte">
+    <img  [src]="imageService.imageUrl('/misc/pokemon/omanyte.gif')" alt="nice pic of james from pokemon holding an omanyte">
   </div>
   <h2>Ranking of all the Pokemon</h2>
   <button (click)="handleClick('/misc/pokemon')">Pokemon Rankings</button>
-  <img (click)="handleClick('/misc/writing')" src="../../assets/misc/secreta.gif" alt="secreta">
+  <img (click)="handleClick('/misc/writing')" [src]="imageService.imageUrl('/misc/secreta.gif')" alt="secreta">
 </div>
 

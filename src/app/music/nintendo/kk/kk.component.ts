@@ -8,6 +8,7 @@ import {CloseButtonComponent} from "../../../utils/close-button/close-button.com
 import {KKSong} from "./kk-song.interface";
 import {KkModalComponent} from "./kk-modal/kk-modal.component";
 import {SoundtrackModalComponent} from "../soundtrack-modal/soundtrack-modal.component";
+import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
   selector: 'app-kk',
@@ -20,7 +21,7 @@ export default class KkComponent implements OnInit {
   kkSongs: KKSong[] = [];
   selectedKkSong: KKSong | null = null;
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadKkSongs();

@@ -2,6 +2,7 @@ import {Component, Input} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {Game} from "../game.interface";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-game',
@@ -12,4 +13,7 @@ import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 })
 export class GameComponent {
   @Input() game: Game = {} as Game;
+
+  constructor(protected imageService: ImageService) {
+  }
 }

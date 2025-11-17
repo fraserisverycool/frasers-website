@@ -2,6 +2,7 @@ import {Component, Input} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {RatingService} from "./service/rating.service";
 import {Rating} from "./service/rating.interface";
+import {ImageService} from "../services/image.service";
 
 @Component({
   selector: 'app-rating-bar',
@@ -18,7 +19,7 @@ export class RatingBarComponent {
   filenames: string[] = ['reaction-wet.png', 'reaction-poo.png', 'reaction-hurr.png', 'reaction-peace.png', 'reaction-cool.png', 'reaction-science.png'];
   colors: string[] = ['#d5006c', '#7e4b1e', '#38a105', '#ff8900', '#0090ff', '#912efc'];
 
-  constructor(private ratingService: RatingService) {
+  constructor(private ratingService: RatingService, protected imageService: ImageService) {
   }
 
   onSelect(index: number): void {

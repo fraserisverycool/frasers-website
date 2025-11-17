@@ -4,6 +4,7 @@ import {Soundtrack} from "../soundtrack.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
+import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
   selector: 'app-soundtrack-modal',
@@ -17,6 +18,9 @@ export class SoundtrackModalComponent implements OnInit {
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
 
   currentRandomColor: string = "#ffffff";
+
+  constructor(protected imageService: ImageService) {
+  }
 
   ngOnInit() {
     this.getRandomColor();

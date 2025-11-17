@@ -8,6 +8,7 @@ import {DurstloescherModalComponent} from "../../community/durstloescher/durstlo
 import {AlbumModalComponent} from "./album-modal/album-modal.component";
 import {AlbumsService} from "./service/albums.service";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-albums',
@@ -32,7 +33,7 @@ export default class AlbumsComponent implements OnInit {
     'special vibes', 'classic', 'not for everyone', 'cunty', 'devastating', 'wild shit', 'all time faves'
   ];
 
-  constructor(private http: HttpClient, private albumsService: AlbumsService, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private albumsService: AlbumsService, private ratingService: RatingService, protected imageService: ImageService,) {}
 
   ngOnInit(): void {
     this.loadAlbums();

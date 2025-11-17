@@ -6,6 +6,7 @@ import {ClickedOutsideDirective} from "../../utils/directives/clicked-outside.di
 import {Durstloescher} from "./durstloescher.interface";
 import {DurstloescherModalComponent} from "./durstloescher-model/durstloescher-modal.component";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-durstloescher',
@@ -19,7 +20,7 @@ export default class DurstloescherComponent implements OnInit {
   originalDurstloescher: Durstloescher[] = [];
   selectedDurstloescher: Durstloescher | null = null;
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadDurstloescher();

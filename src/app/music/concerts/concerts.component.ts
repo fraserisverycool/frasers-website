@@ -4,6 +4,7 @@ import {Concert} from "./concert.interface";
 import {HttpClient} from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-concerts',
@@ -15,7 +16,7 @@ import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 export default class ConcertsComponent implements OnInit {
   concerts: Concert[] = []
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
       this.loadConcerts();

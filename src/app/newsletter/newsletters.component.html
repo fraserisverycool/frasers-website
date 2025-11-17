@@ -1,6 +1,6 @@
 <div class="container">
   <div class="gif">
-    <img src="assets/newsletter/chocolatewoman.gif" alt="gif that says 'never stand between a woman and her chocolate'">
+    <img [src]="imageService.imageUrl('/newsletter/chocolatewoman.gif')" alt="gif that says 'never stand between a woman and her chocolate'">
   </div>
   <h1>Newsletter</h1>
   <p>Welcome to my newsletter! I started making this website at the start of 2025 and I've enjoyed growing it to where it is today.</p>
@@ -12,7 +12,7 @@
   <h2>What's going into the newsletter?</h2>
   <p>I will aggregate all the new content, so I'm talking films, games, books etc, from the last time I sent a newsletter and put it in the post. I'll also give a short life update for your enjoyment as well. Maybe I'll have some other thoughts about life to share.</p>
   <div class="gif">
-    <img src="assets/newsletter/diglett.gif">
+    <img [src]="imageService.imageUrl('/newsletter/diglett.gif')">
   </div>
   <h2>Past Newsletters</h2>
   <ul class="table-container">

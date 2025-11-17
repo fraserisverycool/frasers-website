@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BrexitComponent } from './brexit.component';
+import BrexitComponent from './brexit.component';
 
 describe('BrexitComponent', () => {
   let component: BrexitComponent;

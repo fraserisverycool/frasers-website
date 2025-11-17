@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { RouterLink, RouterOutlet, Router } from '@angular/router';
+import {ImageService} from "../utils/services/image.service";
 
 @Component({
   selector: 'app-community',
@@ -10,9 +11,5 @@ import { RouterLink, RouterOutlet, Router } from '@angular/router';
   styleUrls: ['./community.component.css']
 })
 export default class CommunityComponent {
-  constructor(private router: Router) {}
-
-  handleClick(url: string) {
-    this.router.navigate([url]);
-  }
+  constructor(protected imageService: ImageService) {}
 }

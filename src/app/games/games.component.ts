@@ -8,6 +8,7 @@ import {FormsModule} from '@angular/forms';
 import {Game} from "./game.interface";
 import {GameComponent} from "./game/game.component";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
+import {ImageService} from "../utils/services/image.service";
 
 @Component({
   selector: 'app-games',

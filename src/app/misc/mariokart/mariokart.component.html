@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Fraser's Mario Kart Rankings</h1>
 
-  <img src="../../../assets/misc/kart.gif" alt="cool gif with all the mario kart characters">
+  <img [src]="imageService.imageUrl('/misc/kart.gif')" alt="cool gif with all the mario kart characters">
 
   <p>{{ pageDescription }}</p>
   <nav class="filter-bar">
@@ -17,7 +17,7 @@
   <ul class="track-list">
     <li *ngFor="let track of tracks" class="track-card">
       <img
-        [ngSrc]="'assets/misc/mariokart/' + track.image"
+        [ngSrc]="imageService.imageUrl('/misc/mariokart/' + track.image)"
         alt="{{ track.name }} image"
         width="600"
         height="400"

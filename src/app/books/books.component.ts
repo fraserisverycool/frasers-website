@@ -4,6 +4,7 @@ import {HttpClient} from "@angular/common/http";
 import {Book} from "./book.interface";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../utils/rating-bar/rating-bar.component";
+import {ImageService} from "../utils/services/image.service";
 
 @Component({
   selector: 'app-books',
@@ -16,7 +17,7 @@ export default class BooksComponent implements OnInit {
   books: Book[] = [];
   title: string = "Book recommendations";
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadBooks();

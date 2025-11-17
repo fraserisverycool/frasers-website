@@ -5,6 +5,7 @@ import StarMessageComponent from "../../../utils/star-message/star-message.compo
 import {Durstloescher} from "../durstloescher.interface";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
+import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
   selector: 'app-durstloescher-modal',
@@ -16,4 +17,7 @@ import {CloseButtonComponent} from "../../../utils/close-button/close-button.com
 export class DurstloescherModalComponent {
   @Input() selectedDurstloescher: Durstloescher | undefined;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
+
+  constructor(protected imageService: ImageService) {
+  }
 }

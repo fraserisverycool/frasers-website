@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-worldpeace',
@@ -9,5 +10,6 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./worldpeace.component.css']
 })
 export default class WorldpeaceComponent {
-
+  constructor(protected imageService: ImageService) {
+  }
 }

@@ -2,7 +2,7 @@
   <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
     <app-close-button (click)="close.emit()"/>
     <h2>{{ selectedAlbum.name }}</h2>
-    <img [ngSrc]="'assets/music/albums/' + selectedAlbum.filename" [alt]="selectedAlbum.name" class="modal-image" width="600" height="600">
+    <img [ngSrc]="imageService.imageUrl('/music/albums/' + selectedAlbum.filename)" [alt]="selectedAlbum.name" class="modal-image" width="600" height="600">
     <div class="releaseyear-icon" [style.background-color]="selectedAlbum.color" [style.color]="selectedAlbum.textColor">
       {{ selectedAlbum.releaseyear }}
     </div>

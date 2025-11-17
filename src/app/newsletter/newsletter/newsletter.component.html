@@ -13,7 +13,7 @@
       <div *ngFor="let entryparagraph of entry.description">
         <p class="description">{{ entryparagraph }}</p>
       </div>
-      <img *ngIf="entry.image" [ngSrc]="entry.image" [alt]="entry.title" class="entry-image" width="600" height="600">
+      <img *ngIf="entry.image" [ngSrc]="imageService.imageUrl(entry.image)" [alt]="entry.title" class="entry-image" width="600" height="600">
     </div>
     <p class="title">And don't forget... an <a routerLink="/music/daily-soundtracks">archive</a> of "Soundtrack of the Day" updates are on the website!</p>
   </div>

@@ -4,6 +4,7 @@ import ColorPickerComponent from "../utils/color-picker/color-picker.component";
 import {GuestbookService} from "./service/guestbook.service";
 import {FormsModule} from "@angular/forms";
 import {Feedback} from "./feedback.interface";
+import {ImageService} from "../utils/services/image.service";
 
 @Component({
   selector: 'app-guestbook',
@@ -17,7 +18,7 @@ export default class GuestbookComponent {
   newFeedback = { comment: '', name: '', color: '#ffffff' };
   errorMessage: string = '';
 
-  constructor(private guestbookService: GuestbookService) { }
+  constructor(private guestbookService: GuestbookService, protected  imageService: ImageService) { }
 
   ngOnInit(): void {
     this.loadFeedback();

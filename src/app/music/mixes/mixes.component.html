@@ -2,7 +2,7 @@
 <div class="mp3-container">
   <h1 class="neon-text">🎵 MP3 Downloads 🎵</h1>
   <div class="gif">
-    <img src="../../../assets/homepage/mp3.gif" margin="5px" alt="nice gif saying 'New MP3s updated'">
+    <img [src]="imageService.imageUrl('/homepage/mp3.gif')" margin="5px" alt="nice gif saying 'New MP3s updated'">
   </div>
   <p>So happy to announce that I finally got these mp3s working! Download them directly from my raspberry pi here! Maybe don't start many downloads at once because the thing only has 2GB RAM.</p>
   <ul class="mp3-list">
@@ -10,7 +10,7 @@
       <div class="mp3-card" [style.background-color]="color">
         <h2>{{ mp3.name }}</h2>
         <p>{{ mp3.description }}</p>
-        <a [href]="'assets/music/mixes/' + mp3.filename" [download]="mp3.filename">
+        <a [href]="imageService.imageUrl('/music/mixes/' + mp3.filename)" [download]="mp3.filename">
           <span class="file-icon">🎧</span>
           Download {{ mp3.filename }}
         </a>

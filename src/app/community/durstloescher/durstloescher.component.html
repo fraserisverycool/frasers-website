@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Anni's Durstlöscher Reviews</h1>
   <p>Anni is a Durstlöscher expert and on this page provides her expert opinion on every flavour released so far.</p>
-  <img [src]="'assets/community/durstloescher/anni2.PNG'" [alt]="'Anni'" class="anni">
+  <img [src]="imageService.imageUrl('/community/durstloescher/anni2.PNG')" [alt]="'Anni'" class="anni">
   <div class="sorting-buttons">
     <button (click)="sortDurstloescher('post')">By Most Recent</button>
     <button (click)="sortDurstloescher('random')">Random Order</button>
@@ -11,7 +11,7 @@
   <ul>
     <li *ngFor="let durst of durstloescher" class="durstloescher-card" (click)="showDescription(durst)">
       <div class="durstloescher-image-container">
-        <img [ngSrc]="'assets/community/durstloescher/' + durst.filename" [alt]="durst.name" class="durstloescher-image" width="600" height="600">
+        <img [ngSrc]="imageService.imageUrl('/community/durstloescher/' + durst.filename)" [alt]="durst.name" class="durstloescher-image" width="600" height="600">
       </div>
       <div class="durstloescher-info">
         <h2 class="durstloescher-name">{{ durst.name }}</h2>

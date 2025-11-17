@@ -21,7 +21,7 @@
         <span class="bold">Venue:</span> {{ concert.venue }}
       </p>
       <img
-        [ngSrc]="'assets/music/concerts/' + concert.image"
+        [ngSrc]="imageService.imageUrl('/music/concerts/' + concert.image)"
         alt="{{ concert.artist }}"
         width="600"
         height="400"

@@ -4,6 +4,7 @@ import {Newsletter} from "./newsletter.interface";
 import {HttpClient} from "@angular/common/http";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
 import {RouterLink} from "@angular/router";
+import {ImageService} from "../utils/services/image.service";
 
 @Component({
   selector: 'app-newsletters',
@@ -15,7 +16,7 @@ import {RouterLink} from "@angular/router";
 export default class NewslettersComponent {
   newsletters: Newsletter[] = [];
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.http.get<{ newsletters: string[] }>('assets/data/newsletters.json').subscribe({

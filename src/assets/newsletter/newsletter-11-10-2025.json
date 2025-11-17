@@ -18,7 +18,7 @@
                 "Just like the original game, this game nails the vibe. There is a deep sadness in all of the caves. An almost dead civilisation dragging themselves towards some kind of inevitable doom. Some of the bugs have lost it already, some are nice but struggling. Some are making things work for them in the hellscape. The music reflects all that! The Bone Bottom music, the place where there is the least hope, is so desperately sad. Then you have the incredible Choral Chambers - wow! I haven't sat down to ask myself what kind of chord sequence that is yet but I am entranced. I also adore the music from Greyhome, and weirdly also the strangely beautiful Bilewater - somewhat unfitting music for such a horrible place.",
                 "This game will stay with me for a long time. It's an absolute gem! Some of the bosses are really hard but even though that Last Judge one really got me going, none of them have really been UNFAIR unfair. At least not yet. I haven't completed it 100% at the time of writing..."
             ],
-            "image": "assets/games/silksong.jpg",
+            "image": "games/silksong.jpg",
             "metadata": "Vibes: 10, Gameplay: 10, Platform: Switch 2, Release: 2025",
             "type": "GAME"
         },
@@ -33,7 +33,7 @@
                 "They also added new themes entirely for the partner characters and they sound just like Origami King. Even very minor characters get new music! New music for everyone! When did Ms. Mowz's theme go so hard?",
                 "There are a few remade tracks which don't live up the original, although it's hard for me to say why in some cases. Rogueport Underground doesn't speak to me so much. The Glitz Pit music has been revamped with an Erhu, this Chinese stringed instrument, giving it an oriental vibe which in opinion doesn't fit at all."
             ],
-            "image": "assets/music/nintendo/paper-mario-ttyd-switch.avif",
+            "image": "music/nintendo/paper-mario-ttyd-switch.avif",
             "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
             "type": "SOUNDTRACK"
         },
@@ -44,7 +44,7 @@
                 "They've done RPGs before but none knock them out of the park quite like this one. For every moment in the game there is new music, resulting in wildly different vibes in different areas. And the games are not your usual Mario levels: desert, beach etc. Chapter 2 launches you into this insane 'Boggly Woods' area which feels more like an acid trip than anything else. The whole section is inspired by pikmin and I'm all for it. Then later you have the very melancholic Chapter 4 with the stunning Twilight Town music. Chapter 6 with its evening on the train vibe is also a 10/10. Then at the very end we are treated to the outstanding 'X-Naut Fortress', which is the biggest of all bops.",
                 "There is so much to enjoy here, and this is just the original Gamecube version! They also released the remake's music, which takes this base and goes to the moon with it. I will some of these original tracks are a little better than their remade counterparts. For example I have a soft spot for the Magnus von Grapple battle music in this version, same with Rogueport Sewers."
             ],
-            "image": "assets/music/nintendo/paper-mario-ttyd.jpg",
+            "image": "music/nintendo/paper-mario-ttyd.jpg",
             "metadata": "Platform: Gamecube, for a list of favourite tracks, please visit the nintendo soundtracks page!",
             "type": "SOUNDTRACK"
         },
@@ -53,7 +53,7 @@
             "description": [
                 "This soundtrack joins Captain Toad as one of Nintendo's newer, generic soundtracks with little to offer. I guess there are too many games for Koji Kondo to preside over, they can't all be huge hits. I never played this game so I don't have any particular connection to its soundtrack. Listening to it makes me thing that it adheres to its relevant tropes without bringing anything special to the table. The wild west music is like stereotypical wild west, to the point where it's boring. This has nothing on Desert Kingdom from Mario Odyssey. That being said, I did really enjoy the spy music from the 'dashing thief' level."
             ],
-            "image": "assets/music/nintendo/princess-peach-showtime.jpg",
+            "image": "music/nintendo/princess-peach-showtime.jpg",
             "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
             "type": "SOUNDTRACK"
         },
@@ -62,35 +62,35 @@
             "description": [
                 "This game would be nothing if it weren't for that palace theme. The remix that made it into Melee's famous Hyrule Temple is timeless and is the sole reason people even know about this game. That song goes so hard it's insane. The Great Palace theme is also great but only half as long."
             ],
-            "image": "assets/music/nintendo/zelda-2.jpg",
+            "image": "music/nintendo/zelda-2.jpg",
             "metadata": "Platform: NES, for a list of favourite tracks, please visit the nintendo soundtracks page!",
             "type": "SOUNDTRACK"
         },
         {
             "title": "Beach from a postcard",
             "description": null,
-            "image": "assets/gallery/beach.jpg",
+            "image": "gallery/beach.jpg",
             "metadata": "For anecdotes about the pictures, please visit the gallery page!",
             "type": "GALLERY"
         },
         {
             "title": "Werd ich zum Augenblicke sagen: Verweile doch, du bist so sch\u00f6n!",
             "description": null,
-            "image": "assets/gallery/verweile.jpg",
+            "image": "gallery/verweile.jpg",
             "metadata": "For anecdotes about the pictures, please visit the gallery page!",
             "type": "GALLERY"
         },
         {
             "title": "Painting date",
             "description": null,
-            "image": "assets/gallery/marlo2.jpg",
+            "image": "gallery/marlo2.jpg",
             "metadata": "For anecdotes about the pictures, please visit the gallery page!",
             "type": "GALLERY"
         },
         {
             "title": "Honouring the sunflower with an appropriate stand",
             "description": null,
-            "image": "assets/gallery/belch.jpg",
+            "image": "gallery/belch.jpg",
             "metadata": "For anecdotes about the pictures, please visit the gallery page!",
             "type": "GALLERY"
         },
@@ -108,7 +108,7 @@
             "description": [
                 "I got this at some convention and forgot about it until recently"
             ],
-            "image": "assets/misc/characters/deco/cloud1.jpg",
+            "image": "misc/characters/deco/cloud1.jpg",
             "metadata": null,
             "type": "CHARACTER_DECO"
         }

@@ -6,6 +6,7 @@ import {CD} from "./cd.interface";
 import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
 import {CdModalComponent} from "./cd-modal/cd-modal.component";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-cds',
@@ -23,7 +24,7 @@ export default class CdsComponent implements OnInit {
   genreList = ["Art Pop", "Pop", "Rock & Electronic", "House & Disco", "Indie & Singer-Songwriter", "Jazz, Soul & Hip-Hop", "Vocal Jazz & Smooth", "Video Game OST", "Classical"];
   selectedTag: string | null = null;
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadGenres();

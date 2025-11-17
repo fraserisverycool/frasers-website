@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-party',
@@ -9,5 +10,6 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
   styleUrls: ['./party.component.css']
 })
 export default class PartyComponent {
-
+  constructor(protected imageService: ImageService) {
+  }
 }

@@ -4,6 +4,7 @@ import {Character, Decoration} from "../character.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
+import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
   selector: 'app-character',
@@ -16,6 +17,9 @@ export class CharacterComponent {
   @Input() selectedCharacter: Character | undefined;
   @Input() pictureMode: number = 0;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
+
+  constructor(protected imageService: ImageService) {
+  }
 
   getBadge(ratingType: string, value: boolean) {
     let badgeText = ratingType + ' ';

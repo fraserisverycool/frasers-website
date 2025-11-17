@@ -1,6 +1,6 @@
 <div class="container">
   <h1>Pokemon Rankings</h1>
-  <img src="https://worldpeace.services/images/misc/pokemon/pokemon-trainer.gif" alt="cool gif with pokemon trainer">
+  <img [src]="imageService.imageUrl('/misc/pokemon/pokemon-trainer.gif')" alt="cool gif with pokemon trainer">
   <p>I'm tired of all of these terrible opinions about pokemon. On this webpage I have put all 1025 pokemon into a tier list. Criteria is vibes only.</p>
   <div class="tiers-container">
     <div *ngFor="let tierKey of orderedTiers">
@@ -18,7 +18,7 @@
             (click)="openModal(p)"
           >
             <img
-              [src]="imagePath(p.image)"
+              [src]="imageService.imageUrl('/misc/pokemon/' + p.image)"
               loading="lazy"
               [alt]="p.name">
           </div>
@@ -34,7 +34,7 @@
     <h2>#{{ selectedPokemon.number }} – {{ selectedPokemon.name }}</h2>
     <img
       class="modal-image"
-      [src]="imagePath(selectedPokemon!.image)"
+      [src]="imageService.imageUrl('/misc/pokemon/' + selectedPokemon.image)"
       [alt]="selectedPokemon.name">
     <p>{{ selectedPokemon.description }}</p>
   </div>

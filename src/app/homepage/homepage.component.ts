@@ -9,6 +9,7 @@ import {HomepageColorService} from "./service/homepage-color.service";
 import {catchError, tap} from "rxjs/operators";
 import {of} from "rxjs";
 import {DailyComponent} from "../music/daily/daily.component";
+import {ImageService} from "../utils/services/image.service";
 
 @Component({
   selector: 'app-homepage',
@@ -19,26 +20,26 @@ import {DailyComponent} from "../music/daily/daily.component";
 })
 export default class HomepageComponent {
   images = [
-    '../../../assets/homepage/random/fraser.PNG',
-    '../../../assets/homepage/random/fraser2.jpg',
-    '../../../assets/homepage/random/fraser3.jpg',
-    '../../../assets/homepage/random/fraser4.jpg',
-    '../../../assets/homepage/random/fraser5.jpg',
-    '../../../assets/homepage/random/hola.jpg',
-    '../../../assets/homepage/random/brock.avif',
-    '../../../assets/homepage/random/bruxish.avif',
-    '../../../assets/homepage/random/lickilicky.webp',
-    '../../../assets/homepage/random/kiff.jpg',
-    '../../../assets/homepage/random/that.PNG',
-    '../../../assets/homepage/random/rocket.jpg',
+    '/homepage/random/fraser.PNG',
+    '/homepage/random/fraser2.jpg',
+    '/homepage/random/fraser3.jpg',
+    '/homepage/random/fraser4.jpg',
+    '/homepage/random/fraser5.jpg',
+    '/homepage/random/hola.jpg',
+    '/homepage/random/brock.avif',
+    '/homepage/random/bruxish.avif',
+    '/homepage/random/lickilicky.webp',
+    '/homepage/random/kiff.jpg',
+    '/homepage/random/that.PNG',
+    '/homepage/random/rocket.jpg',
   ];
-  randomImage: string = '../../../assets/homepage/fraser.PNG';
+  randomImage: string = '/homepage/fraser.PNG';
   homepageColor: string = '#ffffff';
   colorSelection = { color: '#ffffff' };
   colorChanges: number = 0;
   errorMessage: string = '';
 
-  constructor(private router: Router, private homepageColorService: HomepageColorService) {}
+  constructor(private router: Router, private homepageColorService: HomepageColorService, protected imageService: ImageService) {}
 
   handleClick(url: string) {
     this.router.navigate([url]);

@@ -24,7 +24,7 @@
       <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
            [style.border-style]="album.description ? 'none' : 'solid'"
            [style.border-width]="album.description ? '0' : '2px'">
-        <img [ngSrc]="'assets/music/albums/' + album.filename" [alt]="album.name" class="album-image" width="200" height="200">
+        <img [ngSrc]="imageService.imageUrl('/music/albums/' + album.filename)" [alt]="album.name" class="album-image" width="200" height="200">
       </div>
       <div class="album-info" [style.background-color]="album.color" [style.color]="album.textColor">
         <h2 class="album-name">{{album.artist}} - {{ album.name }}</h2>

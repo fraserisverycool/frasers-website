@@ -2,13 +2,13 @@
   <h1>My current CD collection</h1>
   <div class="gif-box">
     <div class="gif">
-      <img src="../../../assets/homepage/cd.gif" alt="CD GIF">
+      <img [src]="imageService.imageUrl('/homepage/cd.gif')" alt="CD GIF">
     </div>
     <div class="gif">
-      <img src="../../../assets/homepage/cd.gif" alt="CD GIF">
+      <img [src]="imageService.imageUrl('/homepage/cd.gif')" alt="CD GIF">
     </div>
     <div class="gif">
-      <img src="../../../assets/homepage/cd.gif" alt="CD GIF">
+      <img [src]="imageService.imageUrl('/homepage/cd.gif')" alt="CD GIF">
     </div>
   </div>
   <p>At home I have a sick CD player that I love, and an ever-growing CD collection! I decided to put a list of all my CDs here on this website for a number of reasons. First, you guys can see what CDs I already have and have a look through if you're interested. You can also click on them and I have left a short comment behind, maybe giving a hint as to the vibes of the CD and whether you should put it on. Maybe you want to get me a CD and you wanted to check if I already have it. Actually the real reason I did this is because two times now I have bought CDs that I already have. So this up-to-date list will be something I can check when I get excited about seeing Amy Winehouse - Frank AGAIN.</p>
@@ -33,8 +33,8 @@
   <ul>
     <div *ngFor="let cd of filteredCds" class="cd-card" (click)="showDescription(cd)">
       <div class="cd-image-container">
-        <img [ngSrc]="'assets/music/albums/' + cd.image" [alt]="cd.album" class="cd-image" width="200" height="200"/>
-        <img src="assets/music/cds/cd-case.png" class="cd-case" />
+        <img [ngSrc]="imageService.imageUrl('/music/albums/' + cd.image)" [alt]="cd.album" class="cd-image" width="200" height="200"/>
+        <img [src]="imageService.imageUrl('/music/cds/cd-case.png')" class="cd-case" />
       </div>
       <div class="cd-info" [style.background-color]="generateGenreColour(cd.genre)">
         <h2 class="cd-name">{{cd.artist}} - {{ cd.album }}</h2>

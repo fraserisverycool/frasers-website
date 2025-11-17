@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Ranked list of all K.K. Slider Songs</h1>
 
-  <img [src]="'assets/music/nintendo/kk/kk-slider.webp'" [alt]="'K.K. Slider'" class="kk-image">
+  <img [src]="imageService.imageUrl('/music/nintendo/kk/kk-slider.webp')" [alt]="'K.K. Slider'" class="kk-image">
 
   <p>One of the best parts of Animal Crossing has always been Saturday night when K.K. Slider comes to town to sing one of his 100+ tracks. When you play the games you inevitably end up with favourites, the tracks you play in your house, but rarely does your average Animal Crossing player sit down and appreciate all of them. I, however, did exactly that and have formed a ranked list of every track that he has ever released. Am I crazy? Yes. But real talk, no other artist comes close to K.K. in terms of range. He has traveled to every country in the world and studied every style of music. His discography is a lesson in world music, and I learned so much from listening to all these styles I didn't know anything about before, and also from reading Nookipedia, which has some pretty good info on where a lot of these tracks draw their inspiration from. That being said, some of them are just objectively shit.</p>
   <p>So, for this webpage, I decided to rank them in terms of vibes, how well they represent their given style, if the music is good, and also there are bonus points for great album art. I'll write a few sentences about each one as well with what I learned about the style of music he is emulating. Within the tiers they are not ordered.</p>
@@ -14,7 +14,7 @@
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'S'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
-            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="imageService.imageUrl('/music/nintendo/kk/' + kkSong.filename)" width="100" height="100">
           </button>
         </div>
         <div class="kkSong-info">
@@ -32,7 +32,7 @@
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'A'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
-            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="imageService.imageUrl('/music/nintendo/kk/' + kkSong.filename)" width="100" height="100">
           </button>        </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -49,7 +49,7 @@
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'B'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
-            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="imageService.imageUrl('/music/nintendo/kk/' + kkSong.filename)" width="100" height="100">
           </button>        </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -66,7 +66,7 @@
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'C'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
-            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="imageService.imageUrl('/music/nintendo/kk/' + kkSong.filename)" width="100" height="100">
           </button>        </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>
@@ -83,7 +83,7 @@
       <div class="kkSong-card" (click)="showDescription(kkSong)" *ngIf="kkSong.tier === 'D'">
         <div class="kkSong-image-container">
           <button style="background: none; border: none;" aria-label="kkSong.title">
-            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="'assets/music/nintendo/kk/' + kkSong.filename" width="100" height="100">
+            <img [alt]="kkSong.title" class="kkSong-image" [ngSrc]="imageService.imageUrl('/music/nintendo/kk/' + kkSong.filename)" width="100" height="100">
           </button>        </div>
         <div class="kkSong-info">
           <h3 class="kkSong-name">{{ kkSong.title }}</h3>

@@ -7,6 +7,7 @@ import {Soundtrack} from "./soundtrack.interface";
 import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
 import {SoundtrackModalComponent} from "./soundtrack-modal/soundtrack-modal.component";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
+import {ImageService} from "../../utils/services/image.service";
 
 const platformOrder = [
   "NES",
@@ -40,7 +41,7 @@ export default class SoundtracksComponent implements OnInit {
     return acc;
   }, {} as Record<string, number>);
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadSoundtracks();

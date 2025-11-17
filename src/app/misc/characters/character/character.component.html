@@ -2,7 +2,7 @@
   <app-close-button (click)="close.emit()"/>
   <h2>{{ selectedCharacter.name }}</h2>
   <img
-    [ngSrc]="'assets/misc/characters/pics/' + selectedCharacter.picture[pictureMode]"
+    [ngSrc]="imageService.imageUrl('/misc/characters/pics/' + selectedCharacter.picture[pictureMode])"
     alt="{{ selectedCharacter.name }}"
     class="character-picture"
     width="600"
@@ -43,7 +43,7 @@
         *ngFor="let decoration of selectedCharacter.deco"
       >
         <img
-          [ngSrc]="'assets/misc/characters/deco/' + decoration.filename"
+          [ngSrc]="imageService.imageUrl('/misc/characters/deco/' + decoration.filename)"
           alt="{{ selectedCharacter.name }}"
           class="decoration-picture"
           width="400"

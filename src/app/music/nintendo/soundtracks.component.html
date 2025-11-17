@@ -18,7 +18,11 @@
   <ul>
     <li *ngFor="let soundtrack of filteredSoundtracks" class="soundtrack-card" (click)="showDescription(soundtrack)">
       <div class="soundtrack-image-container">
-        <img [ngSrc]="'assets/music/nintendo/' + soundtrack.filename" [alt]="soundtrack.name" class="soundtrack-image" width="200" height="200">
+        <img [ngSrc]="imageService.imageUrl('/music/nintendo/' + soundtrack.filename)"
+             [alt]="soundtrack.name"
+             class="soundtrack-image"
+             width="200"
+             height="200">
       </div>
       <div class="soundtrack-info" [ngClass]="soundtrack.platform | lowercase">
         <h2 class="soundtrack-name">{{ soundtrack.name }}</h2>
@@ -31,7 +35,7 @@
     <h2>Oops! There are no soundtracks with that name. Here's a secret bonus for you for trying though:</h2>
     <div class="center-image">
       <button style="background: none; border: none;" aria-label="K.K. Slider" routerLink="/music/nintendo/kk">
-        <img alt="K.K. Slider" [ngSrc]="'assets/music/nintendo/kk/kk-slider-icon.png'" width="200" height="200">
+        <img alt="K.K. Slider" [ngSrc]="imageService.imageUrl('/music/nintendo/kk/kk-slider-icon.png')" width="200" height="200">
       </button>
     </div>
   </div>

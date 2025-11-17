@@ -3,6 +3,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {HttpClient} from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
+import {ImageService} from "../../utils/services/image.service";
 
 interface Stitch {
     filename: string;
@@ -22,7 +23,7 @@ interface Stitch {
 export default class StitchComponent implements OnInit {
   stitches: Stitch[] = [];
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadStitches();

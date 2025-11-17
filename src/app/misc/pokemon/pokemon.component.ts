@@ -4,6 +4,7 @@ import {HttpClient} from "@angular/common/http";
 import {Pokemon, TierData} from "./pokemon.interface";
 import {CloseButtonComponent} from "../../utils/close-button/close-button.component";
 import { environment } from '../../../environments/environment';
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-pokemon',
@@ -31,7 +32,7 @@ export default class PokemonComponent  implements OnInit {
   collapsed: { [tier: string]: boolean } = {};
   selectedPokemon: Pokemon | null = null;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.http.get<TierData>('assets/data/pokemon.json')
@@ -46,10 +47,6 @@ export default class PokemonComponent  implements OnInit {
 
   toggleTier(tier: string) {
     this.collapsed[tier] = !this.collapsed[tier];
-  }
-
-  imagePath(filename: string) {
-    return environment.imageBaseUrl + `/misc/pokemon/${filename}`;
   }
 
   openModal(pokemon: Pokemon) {

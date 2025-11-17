@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Time to listen to some great music</h1>
   <div class="gif">
-    <img src="../../../assets/homepage/notes.gif" alt="nice gif of some music notes">
+    <img [src]="imageService.imageUrl('/homepage/notes.gif')" alt="nice gif of some music notes">
   </div>
   <div class="row-layout">
     <div class="row-item">
@@ -10,7 +10,7 @@
       </button>
       <p>Here are some of my favourite albums. I've already put like 200 albums on here, and I've written a bunch of stuff about all of them. You can pick up some recommendations here!</p>
       <img *ngIf="randomAlbum"
-           [ngSrc]="'assets/music/albums/' + randomAlbum.filename"
+           [ngSrc]="imageService.imageUrl('/music/albums/' + randomAlbum.filename)"
            [alt]="randomAlbum.artist + ' - ' + randomAlbum.name"
            width="300"
            height="300"
@@ -22,7 +22,7 @@
       </button>
       <p>Have you heard about the Nintendo music app? It's so good! Yeah there isn't a huge selection of soundtracks on there just yet, they're dropping new ones every week and I'm so hooked. I'm writing a review for each one they release.</p>
       <img *ngIf="randomSoundtrack"
-           [ngSrc]="'assets/music/nintendo/' + randomSoundtrack.filename"
+           [ngSrc]="imageService.imageUrl('/music/nintendo/' + randomSoundtrack.filename)"
            [alt]="randomSoundtrack.name"
            width="300"
            height="300"
@@ -34,7 +34,7 @@
       </button>
       <p>This page is an attempt to track which concerts I've been to! It will be a while before I remember them all but you can peruse what I already have here.</p>
       <img *ngIf="randomConcert"
-           [ngSrc]="'assets/music/concerts/' + randomConcert.image"
+           [ngSrc]="imageService.imageUrl('/music/concerts/' + randomConcert.image)"
            [alt]="randomConcert.artist"
            width="300"
            height="300"
@@ -46,7 +46,11 @@
       </button>
       <p>Here is a list of all the CDs I currently own so that I don't forget which ones I already own when I'm out and about.</p>
       <div *ngIf="randomCd" class="cd-image-container">
-        <img [ngSrc]="'assets/music/albums/' + randomCd.image" [alt]="randomCd.artist + ' - ' + randomCd.album" class="cd-image" width="200" height="200"/>
+        <img [ngSrc]="imageService.imageUrl('/music/albums/' + randomCd.image)"
+             [alt]="randomCd.artist + ' - ' + randomCd.album"
+             class="cd-image"
+             width="200"
+             height="200"/>
         <img src="assets/music/cds/cd-case.png" class="cd-case" />
       </div>
     </div>
@@ -63,7 +67,7 @@
       <p>Here are some links to some of my favourite spotify playlists.</p>
     </div>
     <div class="gif">
-      <img src="../../../assets/homepage/daily.gif" alt="nice gif saying everyday">
+      <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="nice gif saying everyday">
     </div>
     <h3>Soundtrack of the day</h3>
     <app-daily></app-daily>
@@ -72,6 +76,6 @@
 
 <div class="secret">
   <button style="background: none; border: none;" aria-label="DJ World Peace" routerLink="/music/worldpeace">
-    <img alt="World Peace Music" src="../../assets/music/worldpeace/worldpeace.gif">
+    <img alt="World Peace Music" [src]="imageService.imageUrl('/music/worldpeace/worldpeace.gif')">
   </button>
 </div>

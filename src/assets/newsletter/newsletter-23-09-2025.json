@@ -14,7 +14,7 @@
             "description": [
                 "Fab recommended me this game on his Gamepass and I gave it a go. It's a roguelite that's just the same as Dead Cells, which I never really played. I really didn't like the corporate vibe of the game. The music sounds like generic 'middle eastern' music for an epic blockbuster film. I also feel like the animations are a bit off. The artstyle is good though! They had a vision, that's for sure. But something about playing this while playing Silksong makes it feel so clunky and shit in comparison. I'm looking forward to playing Hades 2 later this year though!"
             ],
-            "image": "assets/games/rogue-prince.jpg",
+            "image": "games/rogue-prince.jpg",
             "metadata": "Vibes: 3, Gameplay: 5, Platform: Xbox Gamepass, Release: 2025",
             "type": "GAME"
         },
@@ -23,7 +23,7 @@
             "description": [
                 "This gameboy game has a lot going for it! I've never seen a gameboy game with this many movement options. You can do cool flips if you change direction right before jumping, and you can jump on your head and hop off higher too. Then there are just a bunch of cool levels, like little puzzles to work through. It's honestly great."
             ],
-            "image": "assets/games/donkey-kong-94.png",
+            "image": "games/donkey-kong-94.png",
             "metadata": "Vibes: 5, Gameplay: 7, Platform: Gameboy, Release: 1994",
             "type": "GAME"
         },
@@ -35,7 +35,7 @@
                 "Anyway shout-outs to this game. So many highlights. I loved the logic puzzles, Alzara, the Aquarium puzzle, the computer system, the excitement of going to a brand new room. So much to enjoy!",
                 "I highly recommend this puzzle game! Puzzle games are the best!"
             ],
-            "image": "assets/games/blue-prince.jpg",
+            "image": "games/blue-prince.jpg",
             "metadata": "Vibes: 10, Gameplay: 10, Platform: Playstation 5, Release: 2025",
             "type": "GAME"
         },
@@ -44,7 +44,7 @@
             "description": [
                 "I randomly remembered this old Tony Hawk's rip off that I played at some point when I was younger. I was so impressed that you could skateboard with a hoverboard! I thought it was a revolutionary idea. Looking back, it's literally just a normal skateboarding game."
             ],
-            "image": "assets/games/airblade.jpg",
+            "image": "games/airblade.jpg",
             "metadata": "Vibes: 5, Gameplay: 3, Platform: PlayStation 2, Release: 2001",
             "type": "GAME"
         },
@@ -53,7 +53,7 @@
             "description": [
                 "I saw an image of the hammer from this game and I was launched back into the past, kinda like when you smell something from your childhood and you have this moment where you are suddenly transported back. I used to love destroying my desktop with termites, flamethrowers and chainsaws and was endlessly entertained by it. It's a real blast from the past."
             ],
-            "image": "assets/games/desktop-destroyer.jpg",
+            "image": "games/desktop-destroyer.jpg",
             "metadata": "Vibes: 9, Gameplay: 1, Platform: PC, Release: 1999",
             "type": "GAME"
         },
@@ -62,7 +62,7 @@
             "description": [
                 "Read about it in the Stoke Bruerne narrowboat museum when we had our boating holiday. Cool history lesson about life on canalboats before it became a tourism thing"
             ],
-            "image": "assets/films/painted-boats.jpg",
+            "image": "films/painted-boats.jpg",
             "metadata": "Release: 1945",
             "type": "FILM"
         },
@@ -71,7 +71,7 @@
             "description": [
                 "We watched this because it has Cher in it but were horrified when the heart-throb man on the film turned out to be horrible Nicolas Cage. Cher is beautiful but the film aged badly"
             ],
-            "image": "assets/films/moonstruck.png",
+            "image": "films/moonstruck.png",
             "metadata": "Release: 1987",
             "type": "FILM"
         },
@@ -95,7 +95,7 @@
                 "Luna Creciente - 'borracha de amar' over the amazing 3 time guitar parts from Hermanos Gutierrez.",
                 "Lagrimas Cancionera - calm down with a lengthy orchestral piece, love when the voice comes in."
             ],
-            "image": "assets/music/albums/natalia-cancionera.jpg",
+            "image": "music/albums/natalia-cancionera.jpg",
             "metadata": "Artist: Natalia Lafourcade, Release: 2025, for a list of favourite tracks, please visit the albums page!",
             "type": "ALBUM"
         },
@@ -104,7 +104,7 @@
             "description": [
                 "I was so shook when they released this special release of 9 tracks from the game as part of a promotion for the DLC on a Saturday! Talk about unpredictable. I can't help but ask myself why they didn't just release the whole soundtrack! Whatever, I need to move on. This game has some great bops in it. It's not on the level of Tropical Freeze but we do have the incredible Zebra Bananza at least."
             ],
-            "image": "assets/music/nintendo/donkey-kong-bananza.jpg",
+            "image": "music/nintendo/donkey-kong-bananza.jpg",
             "metadata": "Platform: Switch 2, for a list of favourite tracks, please visit the nintendo soundtracks page!",
             "type": "SOUNDTRACK"
         },
@@ -114,7 +114,7 @@
                 "I didn't truly appreciate until this release that this soundtrack is largely orchestrated! It's a noticeable upgrade from the first game in many ways. Honestly when I was younger I didn't love this game as much as the first and I kinda slept on the soundtrack. Listening to some of Mario Kart World's remixes of these tracks opened my eyes to how great they are. For example, 'Yoshi Star Galaxy' is a huge bop, and you know what it was composed by none other than Koji Kondo! It all makes sense. Also, Digga-Leg is a total sleeper hit.",
                 "Otherwise this game features a lot of the same kinds of levels as the first one, a new beach level, a new fire/ice level, a new lava, desert level etc, and I'm impressed that they managed to write a different tune with the exact same vibe for them. There are also two secret peaceful tracks which have no right being as lovely as they are, 'World 3' and 'Slimy Spring Galaxy'. Little moments of beauty in the game, love it."
             ],
-            "image": "assets/music/nintendo/super-mario-galaxy-2.png",
+            "image": "music/nintendo/super-mario-galaxy-2.png",
             "metadata": "Platform: Wii, for a list of favourite tracks, please visit the nintendo soundtracks page!",
             "type": "SOUNDTRACK"
         },
@@ -123,7 +123,7 @@
             "description": [
                 "This book is a gripping tale of two seemingly unrelated people living in a world where things don't quite seem right. Illogical things start happening, like a second moon appearing in the sky. What are you supposed to do when that happens and nobody is saying anything about it? From there the books descends into conceptual madness. There is some weird sex stuff but by the end you get used to it and realise it's part of the whole vibe. The characters are so extreme and the concepts so wild (I mean just look at the word 'Air Crysalis') that it's kinda hard to put down. It's all quite abstract and I'm honestly still trying to piece together what exactly it was about. I still really recommend it though, if nothing else but for the mental images it produces as you read it."
             ],
-            "image": "assets/books/1q84.jpg",
+            "image": "books/1q84.jpg",
             "metadata": "Author: Haruki Murakami, Release: 2009, for the spoiler discussion please visit the books page!",
             "type": "BOOK"
         },
@@ -132,7 +132,7 @@
             "description": [
                 "Very dark and harrowing hip-hop/noise music"
             ],
-            "image": "assets/music/albums/clipping-existed.jpg",
+            "image": "music/albums/clipping-existed.jpg",
             "metadata": "Artist: Clipping.",
             "type": "CD"
         },
@@ -141,7 +141,7 @@
             "description": [
                 "A friend in Berlin released this EP on CD! Got it at her concert in Kotti"
             ],
-            "image": "assets/music/albums/gemma-winter.jpg",
+            "image": "music/albums/gemma-winter.jpg",
             "metadata": "Artist: G'Emma",
             "type": "CD"
         },
@@ -150,7 +150,7 @@
             "description": [
                 "Whale got me this as a gift"
             ],
-            "image": "assets/misc/characters/deco/kazuya1.jpg",
+            "image": "misc/characters/deco/kazuya1.jpg",
             "metadata": null,
             "type": "CHARACTER_DECO"
         }

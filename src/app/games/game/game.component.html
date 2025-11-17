@@ -5,7 +5,7 @@
       <p>
         <span class="vibes">Vibes:</span> {{ game.vibes }}/10 |
         <span class="gameplay">
-      {{ game.story == true ? 'Story:' : 'Gameplay:' }}
+      {{ game.story ? 'Story:' : 'Gameplay:' }}
     </span>
         {{ game.gameplay }}/10
       </p>
@@ -17,9 +17,9 @@
     <img
       *ngIf="game.completed"
       class="completed"
-      [ngSrc]="'assets/games/' + (game.completable === false ? 'completed2.png' : 'completed.png')"
+      [ngSrc]="imageService.imageUrl('/games/' + (!game.completable ? 'completed2.png' : 'completed.png'))"
       alt="completed"
-      [title]="game.completable === false ? 'As far as this game can actually be completed' : 'I beat the game!'"
+      [title]="!game.completable ? 'As far as this game can actually be completed' : 'I beat the game!'"
       width="50"
       height="50"
     />
@@ -27,7 +27,7 @@
   <div *ngFor="let paragraph of game.review">
     <p [innerHTML]="paragraph"></p>
   </div>
-  <img [ngSrc]="'assets/games/' + game.image" alt="{{ game.name }}" width="600" height="400">
+  <img [ngSrc]="imageService.imageUrl('/games/' + game.image)" alt="{{ game.name }}" width="600" height="400">
   <div [ngStyle]="{'padding-bottom': '10px'}"></div>
   <app-rating-bar [rating]="{id: game.id, ratings: game.rating}"></app-rating-bar>
 </div>

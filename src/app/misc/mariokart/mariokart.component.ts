@@ -3,6 +3,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {HttpClient} from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
+import {ImageService} from "../../utils/services/image.service";
 
 interface Track {
   trackId: number;
@@ -60,7 +61,7 @@ export default class MariokartComponent implements OnInit{
 
   pageDescription = "Welcome to my ranking of every Mario Kart track ever. This is an exhaustive list featuring everything because I love it when lists are complete. What's that, I hear you say? Mario Kart Tour and Mario Kart Arcade GP aren't represented? Fuck you! Those aren't real games. If it means that Piranha Plant Pipeline gets forgotten to history, so be it! A quick note about these rankings, you might notice that the order doesn't correspond with the number of stars I give to each track. That's fine. These rankings come from the heart, and won't necessarily follow the rules. You've been warned!"
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadTracks();

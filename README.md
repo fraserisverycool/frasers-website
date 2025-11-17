@@ -94,11 +94,34 @@ sudo tail -f /var/log/nginx/error.log
 In the scripts folder you can find some useful python scripts.
 
 - add-ids.py: This goes through all the json files and adds a UUID to any item missing one
-- generate-newsletter.py: This goes through all the items that have 'newsletter: false' and aggregates them into a json file, together with a title and description
-- publish-newsletter.py: This updates the rss feed with all the newsletters in the newsletter directory
-- add-newsletter.py: This updates all the items with 'newsletter: true' to indicate that they have appeared in a previous newsletter
-- prepare-secrets.py: This takes the backend info needed for the gallery page and puts it in the database (this needs to be run on the server)
-- check-secrets.py: This double checks what gallery info is in the database currently
+- add-daily-soundtracks.py: This generates empty entries for the next month
+- newsletter/generate-newsletter.py: This goes through all the items that have 'newsletter: false' and aggregates them into a json file, together with a title and description
+- newsletter/publish-newsletter.py: This updates the rss feed with all the newsletters in the newsletter directory
+- newsletter/add-newsletter.py: This updates all the items with 'newsletter: true' to indicate that they have appeared in a previous newsletter
+- gallery/prepare-secrets.py: This takes the backend info needed for the gallery page and puts it in the database (this needs to be run on the server)
+- gallery/check-secrets.py: This double checks what gallery info is in the database currently
+- pokemon/download-pokemon.py: This downloads images of every pokemon from Bulbapedia
+- pokemon/pokemon-app.py: This is a web server which helped me organise the pokemon into tiers
+- pokemon/pokemon-json.py: This organised image data into a convenient json file
+
+## Assets
+At some point I decided to put all my assets separately on the server and not part of the Angular assets. This was because this website has thousands of images and all those mp3s on the music page, and it takes like 10 minutes to build. Also it didn't feel right to put all that stuff on git.
+
+So you need to have a directory on the server called:
+```
+/var/www/images/
+```
+And be sure to set permissions:
+```
+sudo chown -R $USER:www-data /var/www/images
+sudo find /var/www/images -type d -exec chmod 755 {} \;
+```
+Next, you can access all the assets here: https://drive.google.com/drive/folders/14ECYzrYdB_VG0d3Wpk0Ts9urgCPhK1gV?usp=sharing - I'll update this occasionally.
+
+These assets go in the repository folder "src/assets". Some things are already checked in there but you can fill it up. Then, you can sync it with the server using this script:
+- sync-assets.py
+
+The app will check your local assets folder when you run it with npm run start, and when running on production will check the folder on the server instead (it's in the nginx settings).
 
 ## Dev mode for testing
 You can also just run the Angular project locally pretty easily if you want to run it locally on your computer for development:

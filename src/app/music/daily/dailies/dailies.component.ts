@@ -6,6 +6,7 @@ import {HttpClient} from "@angular/common/http";
 import {RatingService} from "../../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {isBefore, parse} from "date-fns";
+import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
   selector: 'app-dailies',
@@ -21,7 +22,7 @@ export default class DailiesComponent implements OnInit {
   filters = ["I don't care about video game music!", "Gimme that sweet video game music!", "Show me it all!"];
   today: DailySoundtrack | null = null;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer) {
+  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService) {
   }
 
   ngOnInit(): void {

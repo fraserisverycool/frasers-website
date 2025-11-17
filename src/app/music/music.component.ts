@@ -7,6 +7,7 @@ import {CD} from "./cds/cd.interface";
 import {HttpClient} from "@angular/common/http";
 import {DailyComponent} from "./daily/daily.component";
 import {Concert} from "./concerts/concert.interface";
+import {ImageService} from "../utils/services/image.service";
 
 @Component({
   selector: 'app-music',
@@ -24,7 +25,7 @@ export default class MusicComponent implements OnInit {
   randomCd: CD | null = null;
   randomConcert: Concert | null = null;
 
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private http: HttpClient, private router: Router, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadRandomAlbum();

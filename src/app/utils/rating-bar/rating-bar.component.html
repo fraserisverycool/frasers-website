@@ -1,6 +1,6 @@
 <div class="rating-bar">
   <button (click)="onSelect(0)" class="button">
-    <img [ngSrc]="'assets/utils/reaction-wet.png'"
+    <img [ngSrc]="imageService.imageUrl('/utils/reaction-wet.png')"
          [alt]="'wet for her'"
          width="35"
          height="35"
@@ -11,7 +11,7 @@
     <div class="hover-text" [ngStyle]="{'color': colors[0]}">wet for her</div>
   </button>
   <button (click)="onSelect(1)" class="button">
-    <img [ngSrc]="'assets/utils/reaction-poo.png'"
+    <img [ngSrc]="imageService.imageUrl('/utils/reaction-poo.png')"
          [alt]="'poop poop fart'"
          width="35"
          height="35"
@@ -22,7 +22,7 @@
     <div class="hover-text" [ngStyle]="{'color': colors[1]}">poop poop fart</div>
   </button>
   <button (click)="onSelect(2)" class="button">
-    <img [ngSrc]="'assets/utils/reaction-hurr.png'"
+    <img [ngSrc]="imageService.imageUrl('/utils/reaction-hurr.png')"
          [alt]="'hurr hurr'"
          width="35"
          height="35"
@@ -33,7 +33,7 @@
     <div class="hover-text" [ngStyle]="{'color': colors[2]}">hurr hurr</div>
   </button>
   <button (click)="onSelect(3)" class="button">
-    <img [ngSrc]="'assets/utils/reaction-peace.png'"
+    <img [ngSrc]="imageService.imageUrl('/utils/reaction-peace.png')"
          [alt]="'useful'"
          width="35"
          height="35"
@@ -44,7 +44,7 @@
     <div class="hover-text" [ngStyle]="{'color': colors[3]}">useful!</div>
   </button>
   <button (click)="onSelect(4)" class="button">
-    <img [ngSrc]="'assets/utils/reaction-cool.png'"
+    <img [ngSrc]="imageService.imageUrl('/utils/reaction-cool.png')"
          [alt]="'cool'"
          width="35"
          height="35"
@@ -55,7 +55,7 @@
     <div class="hover-text" [ngStyle]="{'color': colors[4]}">cool</div>
   </button>
   <button (click)="onSelect(5)" class="button">
-    <img [ngSrc]="'assets/utils/reaction-science.png'"
+    <img [ngSrc]="imageService.imageUrl('/utils/reaction-science.png')"
          [alt]="'science'"
          width="35"
          height="35"

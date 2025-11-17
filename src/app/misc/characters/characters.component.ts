@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import {Character} from "./character.interface";
 import {CharacterComponent} from "./character/character.component";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-characters',
@@ -19,7 +20,7 @@ export default class CharactersComponent implements OnInit {
   password: string = '';
   pictureMode: number = 0;
 
-  constructor(private http: HttpClient, private ratingService: RatingService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadCharacters();

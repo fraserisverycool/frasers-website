@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgOptimizedImage } from '@angular/common';
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
   selector: 'app-brexit',
@@ -14,14 +15,14 @@ export default class BrexitComponent implements OnInit {
   images: string[] = [];
   selectedImage: string | null = null;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadImages();
   }
 
   loadImages(): void {
-    this.http.get<{ filenames: string[] }>('assets/data/brexitsummits.json').subscribe({
+    this.http.get<{ filenames: string[] }>('assets/data/brexit-summits.json').subscribe({
       next: (data) => {
         this.images = data.filenames;
       },

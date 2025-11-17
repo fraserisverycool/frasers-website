@@ -5,6 +5,7 @@ import {Album} from "../album.interface";
 import {AlbumsService} from "../service/albums.service";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
+import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
   selector: 'app-album-modal',
@@ -18,7 +19,7 @@ export class AlbumModalComponent implements OnInit{
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
   currentRandomColor: string = "#ffffff";
 
-  constructor(private albumsService: AlbumsService) {
+  constructor(private albumsService: AlbumsService, protected imageService: ImageService) {
   }
 
   ngOnInit() {
