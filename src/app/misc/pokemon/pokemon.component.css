@@ -118,3 +118,30 @@
     transform: scale(1);
   }
 }
+
+.sorting-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sorting-buttons button {
+  padding: 5px 10px;
+  background-color: #fcdfff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sorting-buttons button:hover {
+  transform: scale(1.1);
+  background-color: #f67a97;
+}
+
+.sorting-buttons button:active {
+  transform: scale(0.9);
+  background-color: #f344dc;
+}

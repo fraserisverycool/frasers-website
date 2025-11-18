@@ -1,7 +1,19 @@
 <div class="container">
   <h1>Pokemon Rankings</h1>
   <img [src]="imageService.imageUrl('/misc/pokemon/pokemon-trainer.gif')" alt="cool gif with pokemon trainer">
-  <p>I'm tired of all of these terrible opinions about pokemon. On this webpage I have put all 1025 pokemon into a tier list. Criteria is vibes only.</p>
+  <p>I'm tired of all of these terrible opinions about pokemon. On this webpage I have put all 1025 pokemon into a tier list. Criteria is vibes only. No ordering within the tiers (yet).</p>
+  <div class="sorting-buttons">
+    <button (click)="filterPokemon(0)">All</button>
+    <button (click)="filterPokemon(1)">Gen 1</button>
+    <button (click)="filterPokemon(2)">Gen 2</button>
+    <button (click)="filterPokemon(3)">Gen 3</button>
+    <button (click)="filterPokemon(4)">Gen 4</button>
+    <button (click)="filterPokemon(5)">Gen 5</button>
+    <button (click)="filterPokemon(6)">Gen 6</button>
+    <button (click)="filterPokemon(7)">Gen 7</button>
+    <button (click)="filterPokemon(8)">Gen 8</button>
+    <button (click)="filterPokemon(9)">Gen 9</button>
+  </div>
   <div class="tiers-container">
     <div *ngFor="let tierKey of orderedTiers">
       <div class="tier-header" (click)="toggleTier(tierKey)">
