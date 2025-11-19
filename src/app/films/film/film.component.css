@@ -34,4 +34,28 @@
 .release-info {
   font-weight: bold;
   color: #e74c3c;
+  display: inline;
+}
+
+.tv-info {
+  font-weight: bold;
+  color: #b73ce7;
+  display: inline;
+}
+
+.tv-review {
+  background-color: #dac2ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tv-review h2 {
+  color: #6800ad;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #70008f;
+  padding-bottom: 10px;
 }

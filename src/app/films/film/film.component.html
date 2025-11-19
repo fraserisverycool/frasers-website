@@ -1,9 +1,7 @@
-<div class='film-review'>
+<div [ngClass]="{'film-review': !film.tv, 'tv-review': film.tv}">
   <h2>{{ film.title }}</h2>
-  <p>
-    <span class="release-info">Released:</span> {{ film.release }} |
-    <span class="release-info">Watched:</span> {{ film.year }}
-  </p>
+  <span [ngClass]="{'release-info': !film.tv, 'tv-info': film.tv}">Released:</span> {{ film.release }} |
+  <span [ngClass]="{'release-info': !film.tv, 'tv-info': film.tv}">Watched:</span> {{ film.year }}
   <p>{{ film.description }}</p>
   <img [ngSrc]="imageService.imageUrl('/films/' + film.filename)" alt="{{ film.title }}" width="600" height="400">
   <div [ngStyle]="{'padding-bottom': '10px'}"></div>

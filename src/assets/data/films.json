@@ -3,11 +3,22 @@
     {
       "filename": "frankenstein.jpg",
       "title": "Frankenstein",
-      "description": "They decided to make Frankenstein hot and I don't understand why! I thought it was all pretty dumb. I guess it was entertaining",
+      "description": "They decided to make the monster hot and I don't understand why! I thought it was all pretty dumb. I guess it was entertaining",
       "year": "2025",
       "release": "2025",
       "id": "f5ec87df-d2ea-4375-b087-9e42924db7d0",
       "newsletter": true
+    },
+    {
+      "filename": "abfab.jpg",
+      "title": "Absolutely Fabulous",
+      "description": "Love love love this show. Patsy is everything. It's so outrageous and camp and funny and I'm obsessed. Some stuff has aged very badly but it's worth it.",
+      "year": "2025",
+      "release": "1992-2004",
+      "tv": true,
+      "seasons": [1,2],
+      "id": "f3286557-2b48-408b-8834-f81c84acaf43",
+      "newsletter": false
     },
     {
       "filename": "pink-flamingos.jpg",
@@ -334,6 +345,17 @@
       "newsletter": true
     },
     {
+      "filename": "severance.webp",
+      "title": "Severance",
+      "description": "I enjoyed this show but the story is so wild that you have to take a step back and just appreciate it for its vibes. The whole thing is so unrealistic! All the characters are bat-shit insane and the whole cult aspect makes me facepalm. Still I can't deny this show has great moments.",
+      "year": "2025",
+      "release": "2022-2025",
+      "tv": true,
+      "seasons": [1,2],
+      "id": "25521864-5bf6-4431-ba83-5e1f26f51c7d",
+      "newsletter": true
+    },
+    {
       "filename": "lesbian.webp",
       "title": "Lesbian Space Princess",
       "description": "Mongay always do a showing of the winner of the Teddy Award and this year it was this wacky animated film about lesbians in space. At parts it's hilarious but I did roll my eyes a few times",
@@ -511,6 +533,17 @@
       "year": "2024",
       "release": "2023 ",
       "id": "5b3d8674-4345-4f09-ba35-56bba0b16590",
+      "newsletter": true
+    },
+    {
+      "filename": "boys.jpg",
+      "title": "The Boys",
+      "description": "Great show, great take on a ridiculous concept: superheroes. It correctly identifies capitalism as the problem. So many horrible moments and this main character Homelander makes me want to throw up.",
+      "year": "2024",
+      "release": "2019-2024",
+      "tv": true,
+      "seasons": [1,2,3,4],
+      "id": "3edce4d1-afa8-4020-81f4-816ccc1d5875",
       "newsletter": true
     },
     {

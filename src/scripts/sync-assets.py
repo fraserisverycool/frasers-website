@@ -34,26 +34,15 @@ def ensure_remote_dir(remote_dir):
 
 
 def upload_file(local_path, remote_path):
-  """Upload a file if it's new or changed."""
+  """Upload the file only if it does NOT already exist on the server."""
   try:
-    remote_attr = sftp.stat(remote_path)
-    local_size = os.path.getsize(local_path)
-    local_mtime = os.path.getmtime(local_path)
-    remote_mtime = remote_attr.st_mtime
-    remote_size = remote_attr.st_size
-
-    if (
-      local_size == remote_size and
-      abs(local_mtime - remote_mtime) < 300
-    ):
-      return False
+    sftp.stat(remote_path)
+    return False
   except FileNotFoundError:
     pass
 
   sftp.put(local_path, remote_path)
-  sftp.utime(remote_path, (os.path.getatime(local_path), os.path.getmtime(local_path)))
   return True
-
 
 def get_remote_files(remote_folder):
   """Get all files on remote recursively."""

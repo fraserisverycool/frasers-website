@@ -77,7 +77,7 @@ To build the Angular project you can use this command:
 
 ```ng build --configuration production```
 
-This will put the built project in the the 'dist/frasers-website' folder. This is where nginx should look.
+This will put the built project in the 'dist/frasers-website' folder. This is where nginx should look.
 
 Finally, you can start nginx just like you do with cloudflared:
 

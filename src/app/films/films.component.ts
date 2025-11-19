@@ -18,7 +18,7 @@ export default class FilmsComponent implements OnInit {
   films: Film[] = [];
   originalFilms: Film[] = [];
   title: string = "Films Fraser has watched since 2013";
-  filters = ["all", "2025", "2024", "2023", "random", "alphabetical", "release", "next"];
+  filters = ["all", "2025", "2024", "2023", "random", "alphabetical", "release", "tv shows", "next"];
   searchTerm: string = '';
 
   constructor(private http: HttpClient, private router: Router, private ratingService: RatingService) {}
@@ -98,6 +98,10 @@ export default class FilmsComponent implements OnInit {
       case 'release':
         this.films = [...this.originalFilms].sort((a, b) => a.release - b.release);
         this.title = "Films Fraser has watched since 2023 ordered by release date";
+        break;
+      case 'tv shows':
+        this.films = this.originalFilms.filter(film => film.tv);
+        this.title = "TV shows Fraser has watched since 2023";
         break;
       default:
         console.error('Invalid sorting criteria');
