@@ -1,6 +1,37 @@
 {
   "soundtracks": [
     {
+      "filename": "wii-fit.jpg",
+      "name": "Wii Fit",
+      "description": [
+        "At first I rolled my eyes at this release but then I remembered that the Wii Fit soundtrack slaps. Of all the Wii-era Nintendo 'frutiger aero' music there is, this soundtrack is one of the most quintessential. Some of these tracks evoke the Nintendo Wii so hard it hurts. When I have those days when I just want to soak myself in that nostalgia, I know I can just turn on the top tracks from this soundtrack and be warped back to 2008.",
+        "Some of these tracks are so outrageously Wii-era that it hurts. The best example is 'Tilt City', this track blew me away. It sounds like what Windows Vista looked like. Then there's 'Rhythm Parade (Advanced)' - the beginning I don't love but then it just keeps developing and changing throughout its almost 4 minute runtime. It's so good. And what is going on with 'Bird's-Eye Bull's-Eye' and why does it sound like that? Why is it so good? That track sounds like it could be from Pikmin 3. Also, the original credits theme so weird and hypnotic, almost creepy. I can't get enough of it.",
+        "Some of the not amazing but still quite good ones like 'Hoop Dance' and 'Skateboard Arena (Free Mode)' got banger remixes in Smash. They really outdid themselves for those, you should go listen. We should all be selecting more Wii Fit music when playing on Small Battlefield.",
+        "I need to express my dismay at one small thing though. Arguably the biggest banger of the soundtrack, 'Advanced Step' got shafted in this release by being the in-game version. It's slow as fuck and speeds up half way through. PLEASE do yourselves a favour and listen to the proper one: https://www.youtube.com/watch?v=4_Ir6zA10w0. This is the version they included in smash. It's a huge hit!"
+      ],
+      "platform": "Wii",
+      "topTracks": [
+        "Main Menu",
+        "Training Menu",
+        "Yoga",
+        "Strength Training",
+        "Locker Room",
+        "My Routine (Yoga)",
+        "My Routine (Strength Training)",
+        "Hoop Dance",
+        "Aerobics/Balance Results (Failed)",
+        "Driving Range (Swing Analysis)",
+        "Bird's-Eye Bull's-Eye",
+        "Tilt City",
+        "Rhythm Parade (Advanced)",
+        "Skateboard Arena (Free Mode)",
+        "Staff Credits (Wii Fit)",
+        "Staff Credits (Wii Fit Plus)"
+      ],
+      "id": "cea785ed-34bf-480f-9891-620352ca2db8",
+      "newsletter": false
+    },
+    {
       "filename": "kirby-dream-buffet.jpg",
       "name": "Kirby's Dream Buffet",
       "description": [

@@ -75,7 +75,7 @@ In the nginx directory of this repo you will find an example config that you can
 
 To build the Angular project you can use this command:
 
-```ng build --configuration=production```
+```ng build --configuration production```
 
 This will put the built project in the the 'dist/frasers-website' folder. This is where nginx should look.
 

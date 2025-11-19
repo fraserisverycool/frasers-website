@@ -1,6 +1,42 @@
 {
   "games": [
     {
+      "name": "Kirby's Dream Land 2",
+      "vibes": "7",
+      "gameplay": "5",
+      "review": [
+        "This is the kirby game with the 3 animal friends. You spend most of the game riding them and honestly I think it detracts from the experience a bit."
+      ],
+      "image": "kirby-dream-land-2.jpg",
+      "platform": "Gameboy",
+      "year": "2025",
+      "release": "1992",
+      "score": 4,
+      "completed": false,
+      "completable": true,
+      "id": "20c5560f-6f79-407f-9b75-ef89dad91016",
+      "newsletter": false
+    },
+    {
+      "name": "Survival Kids",
+      "vibes": "7",
+      "gameplay": "4",
+      "review": [
+        "I saw that they realised a newer Survival Kids game, but only on the Nintendo Switch Online did I see that it's a long series with a Gameboy release in 1999! Turns out, this game might be the first ever survival-type game. Probably the reason why games like 'Don't Starve' exist. So for science I booted it up and gave it a good try.",
+        "First, I was pleasantly surprised by the banger music. Always a great sign when the OST ist good. I was looking for materials while grooving to the max. It's almost as if the child that I'm playing as hasn't been stranded alone on an island! Considering it's a game about not dying, it's surprisingly peppy and fun. The intro story was funny, it said the child and their dad were the only crew on the boat when it was shipwrecked, and then it shows just a massive cruise ship sinking. No wonder it sank - there were only two people on board!",
+        "I didn't make it far in the game, regrettably. It hit me that there's a reason that I didn't enjoy 'Don't Starve'. At any moment, my hunger or thirst could drop to zero and then bam, I have to start the whole game again! That is so stressful. And the game really doesn't do any signposting at all. I don't think it's possible to actually complete it without some kind of guide."
+      ],
+      "image": "survival-kids.jpg",
+      "platform": "Gameboy",
+      "year": "2025",
+      "release": "1999",
+      "score": 2,
+      "completed": false,
+      "completable": true,
+      "id": "4bcab06c-93c1-4dd9-9560-d97b2d545f55",
+      "newsletter": false
+    },
+    {
       "name": "Kirby's Dream Land",
       "vibes": "8",
       "gameplay": "6",
@@ -138,7 +174,7 @@
       "year": "2025",
       "release": "1994",
       "score": 13,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "4e0d0cd3-7564-4a7d-9f9d-a4a52ba88c2a",
       "newsletter": true
