@@ -33,49 +33,49 @@ class ContentTypeMapping:
         return self.map[content_type]
 
 def mapper_games(json_item):
-    return json_item["name"], json_item["review"], "assets/games/" + json_item["image"], "Vibes: " + json_item["vibes"] + ", Gameplay: " + json_item["gameplay"] + ", Platform: " + json_item["platform"] + ", Release: " + json_item["release"]
+    return json_item["name"], json_item["review"], "games/" + json_item["image"], "Vibes: " + json_item["vibes"] + ", Gameplay: " + json_item["gameplay"] + ", Platform: " + json_item["platform"] + ", Release: " + json_item["release"]
 
 def mapper_films(json_item):
-    return json_item["title"], [json_item["description"]], "assets/films/" + json_item["filename"], "Release: " + json_item["release"]
+    return json_item["title"], [json_item["description"]], "films/" + json_item["filename"], "Release: " + json_item["release"]
 
 def mapper_concerts(json_item):
-    return json_item["artist"], [json_item["description"]], "assets/music/concerts/" + json_item["image"], "Date: " + json_item["date"] + ", Venue: " + json_item["venue"]
+    return json_item["artist"], [json_item["description"]], "music/concerts/" + json_item["image"], "Date: " + json_item["date"] + ", Venue: " + json_item["venue"]
 
 def mapper_durstloescher(json_item):
-    return json_item["name"], [json_item["description"]], "assets/community/durstloescher/" + json_item["filename"], "Score: " + json_item["score"]
+    return json_item["name"], [json_item["description"]], "community/durstloescher/" + json_item["filename"], "Score: " + json_item["score"]
 
 def mapper_books(json_item):
-    return json_item["title"], [json_item["description"]], "assets/books/" + json_item["filename"], "Author: " + json_item["author"] + ", Release: " + json_item["release"] + ", for the spoiler discussion please visit the books page!"
+    return json_item["title"], [json_item["description"]], "books/" + json_item["filename"], "Author: " + json_item["author"] + ", Release: " + json_item["release"] + ", for the spoiler discussion please visit the books page!"
 
 def mapper_gallery(json_item):
-    return json_item["title"], None, "assets/gallery/" + json_item["filename"], "For anecdotes about the pictures, please visit the gallery page!"
+    return json_item["title"], None, "gallery/" + json_item["filename"], "For anecdotes about the pictures, please visit the gallery page!"
 
 def mapper_videos(json_item):
     return json_item["title"], [json_item["description"]], None, "Link: " + json_item["link"]
 
 def mapper_character_deco(json_item):
-    return None, [json_item["description"]], "assets/misc/characters/deco/" + json_item["filename"], None
+    return None, [json_item["description"]], "misc/characters/deco/" + json_item["filename"], None
 
 def mapper_mariokart(json_item):
-    return json_item["name"], [json_item["description"]], "assets/misc/mariokart/" + json_item["image"], "Game: " + json_item["game"] + ", First Appearance: " + json_item["original"] + ", Fraser's ranking - music/vibes/track: " + json_item["music"] + "/" + json_item["vibes"] + "/" + json_item["track"]
+    return json_item["name"], [json_item["description"]], "misc/mariokart/" + json_item["image"], "Game: " + json_item["game"] + ", First Appearance: " + json_item["original"] + ", Fraser's ranking - music/vibes/track: " + json_item["music"] + "/" + json_item["vibes"] + "/" + json_item["track"]
 
 def mapper_stitches(json_item):
-    return None, [json_item["comment"]], "assets/misc/stitch/" + json_item["filename"], None
+    return None, [json_item["comment"]], "misc/stitch/" + json_item["filename"], None
 
 def mapper_albums(json_item):
-    return json_item["name"], json_item["description"], "assets/music/albums/" + json_item["filename"], "Artist: " + json_item["artist"] + ", Release: " + json_item["releaseyear"] + ", for a list of favourite tracks, please visit the albums page!"
+    return json_item["name"], json_item["description"], "music/albums/" + json_item["filename"], "Artist: " + json_item["artist"] + ", Release: " + json_item["releaseyear"] + ", for a list of favourite tracks, please visit the albums page!"
 
 def mapper_cds(json_item):
-    return json_item["album"], [json_item["description"]], "assets/music/albums/" + json_item["image"], "Artist: " + json_item["artist"]
+    return json_item["album"], [json_item["description"]], "music/albums/" + json_item["image"], "Artist: " + json_item["artist"]
 
 def mapper_mixes(json_item):
     return json_item["name"], [json_item["description"]], None, "For a download link, please visit the video game mixes page!"
 
 def mapper_soundtracks(json_item):
-    return json_item["name"], json_item["description"], "assets/music/nintendo/" + json_item["filename"], "Platform: " + json_item["platform"] + ", for a list of favourite tracks, please visit the nintendo soundtracks page!"
+    return json_item["name"], json_item["description"], "music/nintendo/" + json_item["filename"], "Platform: " + json_item["platform"] + ", for a list of favourite tracks, please visit the nintendo soundtracks page!"
 
 def mapper_kk(json_item):
-    return json_item["title"], [json_item["description"]], "assets/music/nintendo/kk/" + json_item["filename"], "Tier: " + json_item["tier"]
+    return json_item["title"], [json_item["description"]], "music/nintendo/kk/" + json_item["filename"], "Tier: " + json_item["tier"]
 
 # def mapper_daily_soundtracks(json_item):
 #   metadata = "Day: " + json_item["day"] + ", Link: " + json_item["link"]
@@ -123,7 +123,7 @@ def get_content_data(content_type, content_data):
   #   return content_data['dailysoundtracks']
 
 def write_to_file(newsletter, filename):
-    with open('../assets/newsletter/' + filename, 'w') as f:
+    with open('../../assets/newsletter/' + filename, 'w') as f:
         json.dump(newsletter, f, indent=4)
     with open('../../assets/data/newsletters.json', 'r') as f:
         data = json.load(f)
@@ -194,15 +194,17 @@ def generate_newsletter(title, description):
 
 
 def main():
-  generate_newsletter("10 out of 10",
+  generate_newsletter("Entitled to Nintendo Music",
                       [
-                        "Hey everyone, it's me again for another newsletter! First of all, thank you to all the people who actually subscribed to the RSS Feed. I don't have a way of knowing who actually did that, but if you did, kudos! You have my respect!",
-                        "Recently I've been telling lots of people about my theory that in Germany ratings out of 10 always amount of a 7, and sometimes a 6 if it's bad, or an 8 if it's good. When I say that my food at the Kantine at work is a 2/10, my colleagues are very shocked. Likewise, they don't let me get away with saying the food is a 10/10. They say, it might be good but surely you've had better food than that? Maybe I did, but in this moment, I enjoy the food to the max! So how can it be anything other than a 10?",
-                        "I truly feel that rating things 10/10 makes you appreciate the nice things in life more.",
-                        "As a little life update I'm still waiting for summer to finish in the sense that I do less shit and have more time to chill at home. I am still doing so much shit that I miss being a teenager when I had no responsibilities. I'm a little anxious about our smash tournament at Games Ground this week and I'm excited for next year when I have holiday days to spend.",
-                        "As a little website update, I added a section for concerts! I also spent ages brainstorming all the concerts I've ever been to. I'm missing some, and I didn't include artists I saw at festivals, but it might be a nice resource if you want to compare music tastes. Maybe you were at one of these concerts? I also put the ones in the future that I have tickets to. Let me know if you're going too!",
-                        "Finally I am still posting music recommendations each day, and now the list is getting longer. Something tells me I will need to implement more filters on that page soon. Anyway, here is all the new content on my website since the last newsletter, see you next time!"
-
+                        "Hey everyone, it's me again. Quick update about the website: I added some TV shows to the Films section. I also made a tierlist of every pokemon! It was a lot of fun and it took me a whole morning. I'm thinking about slowly ranking the pokemon within the tiers later, but we'll see. Interestingly, for that page I added over 1000 images to the website and it hit me that this website in total has around 3000 images, and a bunch of mp3s on the music page. I then spent an entire afternoon and evening reorganising my images and assets and now the website is lightweight again! Even myself I feel a little spring in my step, like a burden has been lifted from my shoulders. Anyway, on to today's main topic...",
+                        "As regular visitors of this site might know, my year has been drastically improved by the appearance of the new Nintendo Music App. One of the biggest parts of this site is my weekly reviews of each new release. I love it so much, I've even started observing a strange kind of mysticism in which the kind of soundtrack released on a Tuesday dictates what kind of week I'm going to have. As somebody who doesn't tolerate astrology I know that it's bullshit but I can't help but think about it whenever I am delighted or disappointed by a particular release.",
+                        "It's a very niche interest. Not many people I know love Nintendo music to the extent that I do. It means it's a struggle to find people to be enthusiastic about the release on Tuesday with. That's why I'm eternally grateful to my two mates from home, Oscar and Andrew who are actually willing to discuss and rate each soundtrack when it comes! We have a little Whatsapp group for it and I honestly love it so much. As I write this, I'm listening to the Wii Fit soundtrack, which is full of surprising bangers, thinking that my week has the potential to be 'surprisingly good' and in general appreciating this era of Nintendo music vibes. It's so good.",
+                        "Recently I found myself wondering if anyone else out there is living their lives week to week like me, just waiting for the next release. Surely there are others who have spend the last decades lamenting the lack of official releases of these classic soundtracks? Surely other people are as excited as me by having a full on feature-rich app with a bunch of these OSTs on them, having them drip-fed to us? So I went onto reddit.com.",
+                        "I've been on reddit.com a couple of times and I almost always have a bad time. I get that it has real people on there, one of the few places left that does. But everytime I visit I'm reminded how they're all Americans there, and they're all Negative Nancies. They just complain! I found a subreddit r/nintendomusic where there is a bunch of spam, and then each week a thread about the week's release in the app. Excited I clicked on Wii Fit's release and all I see are a bunch of sarky comments about they don't get a real soundtrack like Mario or Zelda, how shit the app is, etc. etc.",
+                        "This bothers me so much because a) the app comes free with the already insanely cheap Nintendo Switch Online subscription. They were paying for this thing already and then bam, free music app to go with it. Then with each release, they go onto reddit.com and complain! They feel entitled to more. Why not release the app with all the soundtracks on it already? How dare they release Wii Fit when Majora's Mask isn't even on there yet? These keyboard warriors need to calm down, do some deep breathing and just enjoy the Wii Fit soundtrack.",
+                        "I mean I too have been disappointed by the initial catalog and certain releases (looking at you OOT 3D and Metroid 2) but I've learned to appreciate what I'm given. Occassionally there is an amazing release (Paper Mario, TOTK) which catapults me into two weeks of reliving those games and I love it so much. If they gave us everything from the beginning for free, I don't think I would be as hooked on the app as I am. Also, I have to say that as an app developer myself I get it. Making features takes ages and writing content takes ages. These soundtracks all have screenshots as artwork, playlists associated with each track, and all the work behind getting the soundtracks themselves. It's a bunch of work and I get it.",
+                        "Maybe people feel entitled to this music because it's all available on Youtube for free already. That's fair enough, and to be fair, only on this one subreddit I actually found any discussion on it. I think most people completely ignore this app. Anyway, at least on this website you can read largely positive reviews of each soundtrack. This isn't social media so I'm allowed to say nice things!",
+                        "Here's hoping that it continues, becoming an exhaustive bank of great music over the coming years. I'll be there every step of the way. Love live the Nintendo Music App!"
                       ])
 
 if __name__ == "__main__":

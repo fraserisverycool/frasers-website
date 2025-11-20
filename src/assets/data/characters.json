@@ -131,7 +131,7 @@
         {
           "filename": "dk8.jpg",
           "order": 8,
-          "newsletter": false,
+          "newsletter": true,
           "description": "A cool coaster I got from a convention featuring this banger Gameboy game Donkey Kong '94"
         }
       ],
@@ -698,7 +698,7 @@
         {
           "filename": "daisy2.jpg",
           "order": 2,
-          "newsletter": false,
+          "newsletter": true,
           "description": "A cool coaster I got from a convention with Daisy from her original game, Super Mario Land on the Gameboy"
         }
       ],
