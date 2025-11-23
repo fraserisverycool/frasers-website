@@ -49,13 +49,17 @@ pm2 delete 0
 pm2 logs
 ```
 
-It's good to set up a cronjob for backups
+It's good to set up a cronjob for backups. Please install gzip on your server!
 
 ```crontab -e```
 
 Put this in the file:
 
-```0 2 * * * /home/fraserbowen/Documents/frasers-website/backup.sh```
+```0 2 * * * /home/fraserbowen/Documents/frasers-website/backup.sh >> /home/fraserbowen/Documents/frasers-website/backup.log 2>&1```
+
+Both this command and the absolute paths within backup.sh you should change to whatever path you have the repo installed on your server.
+
+Also part of this script is "rclone" which uploads the backups to Google Drive. You can install rclone on your server and do the same, although you have to go through a set up process with your Google account.
 
 ## Nginx
 In order to run our Angular project in production mode, it's really good to use nginx, a useful way of serving built projects. It can do a bunch of stuff!
@@ -95,6 +99,8 @@ In the scripts folder you can find some useful python scripts.
 
 - add-ids.py: This goes through all the json files and adds a UUID to any item missing one
 - add-daily-soundtracks.py: This generates empty entries for the next month
+- sync-assets-to-server.py: This takes all the images and assets in your assets folder and plomps them on the server (because they're not checked into git)
+- sync-assets-from-server.py: This takes all the images and assets currently plomped on the server and downloads them to your local machine
 - newsletter/generate-newsletter.py: This goes through all the items that have 'newsletter: false' and aggregates them into a json file, together with a title and description
 - newsletter/publish-newsletter.py: This updates the rss feed with all the newsletters in the newsletter directory
 - newsletter/add-newsletter.py: This updates all the items with 'newsletter: true' to indicate that they have appeared in a previous newsletter
@@ -119,7 +125,10 @@ sudo find /var/www/images -type d -exec chmod 755 {} \;
 Next, you can access all the assets here: https://drive.google.com/drive/folders/14ECYzrYdB_VG0d3Wpk0Ts9urgCPhK1gV?usp=sharing - I'll update this occasionally.
 
 These assets go in the repository folder "src/assets". Some things are already checked in there but you can fill it up. Then, you can sync it with the server using this script:
-- sync-assets.py
+- sync-assets-to-server.py
+
+If you would like to pull any new assets from the server to your local machine (if you are developing from multiple devices) you can do so with this script:
+- sync-assets-from-server.py
 
 The app will check your local assets folder when you run it with npm run start, and when running on production will check the folder on the server instead (it's in the nginx settings).
 
