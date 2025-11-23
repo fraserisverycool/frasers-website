@@ -59,7 +59,7 @@ Put this in the file:
 
 Both this command and the absolute paths within backup.sh you should change to whatever path you have the repo installed on your server.
 
-Also part of this script is "rclone" which uploads the backups to Google Drive. You can install rclone on your server and do the same, although you have to go through a set up process with your Google account.
+Also part of this script is "rclone" which uploads the backups to Google Drive. You can install rclone on your server and do the same, although you have to go through a set up process with your Google account. The link to my Google Drive is here: https://drive.google.com/drive/folders/1nkGY0eDPV38OAJspq_25Vfc5BQnejXb6?usp=sharing
 
 ## Nginx
 In order to run our Angular project in production mode, it's really good to use nginx, a useful way of serving built projects. It can do a bunch of stuff!

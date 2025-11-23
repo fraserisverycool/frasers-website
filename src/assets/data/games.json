@@ -1,6 +1,23 @@
 {
   "games": [
     {
+      "name": "CloverPit",
+      "vibes": "9",
+      "gameplay": "8",
+      "review": [
+        "A cool vibe from a hellish gambling game where it's not actually about gambling, it's about optimising and finding bottlenecks and scaling numbers. It's actually just Balatro. It's Balatro all over again with a slot machine instead of poker hands. Fab and I got a really good run on our first run because we got some great synergies with diamonds. I'm interested to keep playing to know if it's possible to leave the room but something tells me it's not. Cool game, just would have been better if it were released BEFORE Balatro..."
+      ],
+      "image": "cloverpit.jpg",
+      "platform": "Xbox Gamepass",
+      "year": "2025",
+      "release": "2025",
+      "score": 9,
+      "completed": false,
+      "completable": true,
+      "id": "0c76851c-5dc5-45cb-a5d5-14c2eaee7c70",
+      "newsletter": false
+    },
+    {
       "name": "Kirby's Dream Land 2",
       "vibes": "7",
       "gameplay": "5",
@@ -12,7 +29,7 @@
       "year": "2025",
       "release": "1992",
       "score": 4,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "20c5560f-6f79-407f-9b75-ef89dad91016",
       "newsletter": false
