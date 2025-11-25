@@ -1,6 +1,26 @@
 {
   "soundtracks": [
     {
+      "filename": "jamboree.jpg",
+      "name": "Super Mario Party Jamboree",
+      "description": [
+        "Wow this soundtrack really is the definition of 'All Filler No Killer'. I make the time to listen to each soundtrack beginning to end but this is the first time since Splatoon or Sword/Shield I'm thinking about skipping out on that duty - because it's over 6 hours!",
+        "Who am I kidding I'm spending all of this Tuesday evening listening to it. The music isn't memorable but there are some gems amongst all the dirt."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Rainbow Galleria 1",
+        "Rainbow Galleria 2",
+        "Koopa Troopa Shop",
+        "Rhythm Kitchen",
+        "Revisited Rhythm",
+        "Bowser Kaboom Squad Preparations",
+        "Minigame Bay"
+      ],
+      "id": "855a69a4-f0f7-4f2b-b49d-9ef1fe5c5df1",
+      "newsletter": true
+    },
+    {
       "filename": "wii-fit.jpg",
       "name": "Wii Fit",
       "description": [
@@ -29,7 +49,7 @@
         "Staff Credits (Wii Fit Plus)"
       ],
       "id": "cea785ed-34bf-480f-9891-620352ca2db8",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "kirby-dream-buffet.jpg",

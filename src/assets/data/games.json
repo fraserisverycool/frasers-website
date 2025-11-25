@@ -15,7 +15,7 @@
       "completed": false,
       "completable": true,
       "id": "0c76851c-5dc5-45cb-a5d5-14c2eaee7c70",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Kirby's Dream Land 2",
@@ -32,7 +32,7 @@
       "completed": true,
       "completable": true,
       "id": "20c5560f-6f79-407f-9b75-ef89dad91016",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Survival Kids",
@@ -51,7 +51,7 @@
       "completed": false,
       "completable": true,
       "id": "4bcab06c-93c1-4dd9-9560-d97b2d545f55",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Kirby's Dream Land",
@@ -68,7 +68,7 @@
       "completed": true,
       "completable": true,
       "id": "b49f1402-bc3a-4733-9a91-a872ba57adbe",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Ristar",
@@ -85,7 +85,7 @@
       "completed": false,
       "completable": true,
       "id": "ca5ef731-f46a-4a09-8c82-5a6eba6dcb8c",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Ecco the Dolphin",
@@ -102,7 +102,7 @@
       "completed": false,
       "completable": true,
       "id": "5420dd91-d5cd-4433-b33b-094f468f6565",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Streets of Rage 2",
@@ -122,7 +122,7 @@
       "completed": false,
       "completable": true,
       "id": "0a5674f1-cab5-463d-a134-cbd3b4744c3d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Luigi's Mansion",

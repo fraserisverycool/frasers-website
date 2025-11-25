@@ -9,7 +9,7 @@
       "game": false,
       "day": "31-01-2026",
       "id": "951e8ada-f4eb-4c4a-a4b8-24f5aefa75f9",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -20,7 +20,7 @@
       "game": false,
       "day": "30-01-2026",
       "id": "5f312c75-3bbe-47bf-b4b4-02aa66b62d04",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -31,7 +31,7 @@
       "game": false,
       "day": "29-01-2026",
       "id": "701c80a0-68ea-46ea-8093-75a1eb8c3065",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -42,7 +42,7 @@
       "game": false,
       "day": "28-01-2026",
       "id": "41793821-11f7-43b8-a536-5fad346451b6",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -53,7 +53,7 @@
       "game": false,
       "day": "27-01-2026",
       "id": "1f07410e-8059-4910-9857-f7a84fbbdd3d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -64,7 +64,7 @@
       "game": false,
       "day": "26-01-2026",
       "id": "634b2381-d104-475c-a26f-c4cee7e81279",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -75,7 +75,7 @@
       "game": false,
       "day": "25-01-2026",
       "id": "88c03c01-2f15-4fb8-ad2a-ce32e0f4bc29",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -86,7 +86,7 @@
       "game": false,
       "day": "24-01-2026",
       "id": "91aa96ee-c54f-4369-a23a-673bddfe41d9",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -97,7 +97,7 @@
       "game": false,
       "day": "23-01-2026",
       "id": "2e0d588f-3386-47ed-8d4d-ce38a7871bc5",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -108,7 +108,7 @@
       "game": false,
       "day": "22-01-2026",
       "id": "ac8724e9-7708-4784-a6b9-cdf2a3d4fc5c",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -119,7 +119,7 @@
       "game": false,
       "day": "21-01-2026",
       "id": "44c00e41-3772-4b94-910c-1faf4cf67f34",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -130,7 +130,7 @@
       "game": false,
       "day": "20-01-2026",
       "id": "b92e8d1a-1062-47e5-a4e6-d8695e75df41",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -141,7 +141,7 @@
       "game": false,
       "day": "19-01-2026",
       "id": "437eaa29-0c66-4be7-9a04-9a2957352589",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -152,7 +152,7 @@
       "game": false,
       "day": "18-01-2026",
       "id": "8500fb4f-2575-47ab-8698-c08f79a2f7e0",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -163,7 +163,7 @@
       "game": false,
       "day": "17-01-2026",
       "id": "0dabd4a1-f6c0-4af3-8513-8f2a29827fab",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -174,7 +174,7 @@
       "game": false,
       "day": "16-01-2026",
       "id": "98aaae29-cefc-49fd-bc48-e88a71797a79",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -185,7 +185,7 @@
       "game": false,
       "day": "15-01-2026",
       "id": "610d2322-05e4-46f9-9083-c758995f5844",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -196,7 +196,7 @@
       "game": false,
       "day": "14-01-2026",
       "id": "a905b906-6b45-48fc-b6e8-603ad5b18185",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -207,7 +207,7 @@
       "game": false,
       "day": "13-01-2026",
       "id": "73c8d436-09b5-4ed7-b772-148b8360c8c2",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "",
@@ -218,7 +218,7 @@
       "game": false,
       "day": "12-01-2026",
       "id": "78608b44-06c0-49cf-98ce-0d2c56fa972d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Deniz Akbulut",
@@ -229,7 +229,7 @@
       "game": true,
       "day": "11-01-2026",
       "id": "6fb13f1f-d35c-48a3-8b12-b2c6b4989c33",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Masafumi Takada",
@@ -240,7 +240,7 @@
       "game": true,
       "day": "10-01-2026",
       "id": "b7b0b979-cef3-4653-b848-2b1598f4a6db",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Go Ichinose, Junichi Musada",
@@ -251,7 +251,7 @@
       "game": true,
       "day": "09-01-2026",
       "id": "4e7be40e-e652-471a-a7b4-ce31f5bc79ef",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Masami Ueda, Hiroshi Yamaguchi, Rei Kondoh, Akari Kaida",
@@ -262,7 +262,7 @@
       "game": true,
       "day": "08-01-2026",
       "id": "ea5ac74d-b822-48d0-8628-fe10927dd4de",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Jim Noir",
@@ -273,7 +273,7 @@
       "game": false,
       "day": "07-01-2026",
       "id": "f9f37b4d-0fec-411f-acc9-5a209ab4f49d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Toni Braxton",
@@ -284,7 +284,7 @@
       "game": false,
       "day": "06-01-2026",
       "id": "a9a49d84-0419-430c-88b5-20a739f9d88c",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Quadron",
@@ -295,7 +295,7 @@
       "game": false,
       "day": "05-01-2026",
       "id": "405aff8e-c78d-4ee8-8593-86e4ff177efd",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "KING",
@@ -306,7 +306,7 @@
       "game": false,
       "day": "04-01-2026",
       "id": "71eefaa3-fe60-4122-a358-a725e64907c0",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Lesley Duncan",
@@ -317,7 +317,7 @@
       "game": false,
       "day": "03-01-2026",
       "id": "e713d09a-956d-4f27-a270-16764f4b954c",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Kenta Nagata",
@@ -328,7 +328,7 @@
       "game": true,
       "day": "02-01-2026",
       "id": "5f704c9a-2a47-438a-8b94-93162da33e38",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Hirokazu Ando",
@@ -339,7 +339,7 @@
       "game": true,
       "day": "01-01-2026",
       "id": "9519c9f2-09bf-4cb5-b705-65dd09e82daa",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Regina Spektor",

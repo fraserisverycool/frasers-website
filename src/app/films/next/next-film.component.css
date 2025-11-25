@@ -6,7 +6,8 @@
   padding: 20px;
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
   max-width: 800px;
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-top: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

@@ -3,6 +3,7 @@
   max-width: 800px;
   padding: 20px;
   margin: 0 auto;
+  margin-top: 20px;
   border: 2px solid #023000;
   border-radius: 8px;
   background: radial-gradient(circle, #ff9d00, #ff9e4a);

@@ -19,24 +19,46 @@ export default class NewslettersComponent {
   constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
-    this.http.get<{ newsletters: string[] }>('assets/data/newsletters.json').subscribe({
-      next: (data) => {
-        for (const newsletterFilename of data.newsletters) {
-          this.http.get<Newsletter>('assets/newsletter/' + newsletterFilename).subscribe({
-            next: (newsletterData) => {
-              this.newsletters.unshift(newsletterData);
-              this.getRatings();
-            },
-            error: (err) => {
-              console.error('Failed to load newsletter:', err);
-            },
-          });
-        }
-      },
-      error: (err) => {
-        console.error('Failed to load newsletters list:', err);
-      },
-    });
+    this.http
+      .get<{ newsletters: string[] }>('assets/data/newsletters.json')
+      .subscribe({
+        next: (data) => {
+          const loaded: Newsletter[] = [];
+          const total = data.newsletters.length;
+          let count = 0;
+
+          for (const filename of data.newsletters) {
+            this.http
+              .get<Newsletter>('assets/newsletter/' + filename)
+              .subscribe({
+                next: (newsletterData: Newsletter) => {
+                  loaded.push(newsletterData);
+                  count++;
+
+                  // When all newsletters are loaded, sort & assign
+                  if (count === total) {
+                    loaded.sort((a, b) => {
+                      const parse = (s: string) => {
+                        const [d, m, y] = s.split('-').map(Number);
+                        return new Date(y, m - 1, d);
+                      };
+                      return parse(b.timestamp).getTime() - parse(a.timestamp).getTime();
+                    });
+
+                    this.newsletters = loaded;
+                    this.getRatings();
+                  }
+                },
+                error: (err: unknown) => {
+                  console.error('Failed to load newsletter:', err);
+                },
+              });
+          }
+        },
+        error: (err: unknown) => {
+          console.error('Failed to load newsletters list:', err);
+        },
+      });
   }
 
   getRatings(): void {

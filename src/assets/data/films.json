@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "onebattle.jpg",
+      "title": "One Battle After Another",
+      "description": "Such a great film. Thriller that takes you places! So many amazing moments and great characters. I'm going to chuckling about Christmas Adventurers for a while now.",
+      "year": "2025",
+      "release": "2025",
+      "id": "d11c833b-7b94-4be5-9326-ffd16bba2bcc",
+      "newsletter": true
+    },
+    {
       "filename": "frankenstein.jpg",
       "title": "Frankenstein",
       "description": "They decided to make the monster hot and I don't understand why! I thought it was all pretty dumb. I guess it was entertaining",
@@ -16,14 +25,17 @@
       "year": "2025",
       "release": "1992-2004",
       "tv": true,
-      "seasons": [1,2],
+      "seasons": [
+        1,
+        2
+      ],
       "id": "f3286557-2b48-408b-8834-f81c84acaf43",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "pink-flamingos.jpg",
       "title": "Pink Flamingos",
-      "description": "Outrageous camp classic whose main goal is to be gross and horrible. It's hilarious and shocking and I have to say I preferred 'Female Trouble'",
+      "description": "Outrageous camp classic whose main goal is to be gross and horrible. It's hilarious and shocking and I have to say I preferred 'Female Trouble'. As time as passed I keep thinking about when she gives her politicals. Iconic.",
       "year": "2025",
       "release": "1972",
       "id": "55d62c05-4664-4f78-9321-7502862c8267",
@@ -351,7 +363,10 @@
       "year": "2025",
       "release": "2022-2025",
       "tv": true,
-      "seasons": [1,2],
+      "seasons": [
+        1,
+        2
+      ],
       "id": "25521864-5bf6-4431-ba83-5e1f26f51c7d",
       "newsletter": true
     },
@@ -542,7 +557,12 @@
       "year": "2024",
       "release": "2019-2024",
       "tv": true,
-      "seasons": [1,2,3,4],
+      "seasons": [
+        1,
+        2,
+        3,
+        4
+      ],
       "id": "3edce4d1-afa8-4020-81f4-816ccc1d5875",
       "newsletter": true
     },
