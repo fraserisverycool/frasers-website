@@ -9127,6 +9127,22 @@
       "completable": true,
       "id": "9a19fbdf-24c2-4ec0-990f-9c9d29b6dab6",
       "newsletter": true
+    },
+    {
+      "name": "SkiFree",
+      "vibes": "5",
+      "gameplay": "1",
+      "review": [
+        "Saw a screenshot of this and was transported back to our old Windows 95 or whatever. Wild game because no matter what happens, after skiing for 2 kilometers, a yeti comes and eats you."
+      ],
+      "image": "skifree.jpg",
+      "platform": "PC",
+      "year": "older",
+      "release": "1991",
+      "completed": false,
+      "completable": false,
+      "id": "a94005bf-afca-434e-a6b2-61f6af7949b0",
+      "newsletter": true
     }
   ]
 }
