@@ -61,7 +61,7 @@ def create_feed_entry(newsletter):
       description = '<br>'.join(entry.get('description', []))
     else:
       description = entry.get('description', '')
-    img_tag = f'<img src="https://worldpeace.services/{entry.get("image", "")}">' if entry.get('image') else ''
+    img_tag = f'<img src="https://worldpeace.services/images/{entry.get("image", "")}">' if entry.get('image') else ''
     entries.append(f'''
             <h2>{type}</h2>
             {title}
