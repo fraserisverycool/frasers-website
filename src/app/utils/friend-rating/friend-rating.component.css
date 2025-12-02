@@ -4,12 +4,9 @@
   gap: 1.25rem;
 }
 
-/* Adds a nice border and spacing */
+/* Border around each item */
 .friend-rating-item {
-  padding: 1rem;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  background: #fafafa;
+  padding: 0.5rem;
 }
 
 .friend-row {
@@ -18,14 +15,20 @@
   gap: 1rem;
 }
 
+/* Natural aspect ratio, max height 60px */
 .friend-image {
-  max-height: 60px;
+  max-height: 70px;
   width: auto;
   height: auto;
 }
 
+.friend-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .friend-name {
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.35rem 0;
 }
 
 .friend-text {
