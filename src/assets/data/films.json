@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "bugonia.jpg",
+      "title": "Bugonia",
+      "description": "Oh my god I loved this film so much. It was wild and hugely entertaining. Conspiracy theorist meets powerful CEO and the dialog between them is just perfect. Best ending ever",
+      "year": "2025",
+      "release": "2025",
+      "id": "bd335759-e505-4f95-91dd-b150d8442361",
+      "newsletter": false
+    },
+    {
       "filename": "onebattle.jpg",
       "title": "One Battle After Another",
       "description": "Such a great film. Thriller that takes you places! So many amazing moments and great characters. I'm going to chuckling about Christmas Adventurers for a while now.",

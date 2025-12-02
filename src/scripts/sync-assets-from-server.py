@@ -76,20 +76,6 @@ for remote_path in remote_files:
 
 print(f"Downloaded {downloaded_count} new files.")
 
-
-# Delete local files that do not exist remotely
-deleted_count = 0
-for root, dirs, files in os.walk(LOCAL_FOLDER):
-  for f in files:
-    local_path = os.path.join(root, f)
-    normalized = local_path.replace("\\", "/")
-    if normalized not in remote_files_set:
-      os.remove(local_path)
-      print(f"Deleted local file: {local_path}")
-      deleted_count += 1
-
-print(f"Deleted {deleted_count} local files not present on server.")
-
 sftp.close()
 ssh.close()
 

@@ -1,0 +1,33 @@
+.friend-rating-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Adds a nice border and spacing */
+.friend-rating-item {
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.friend-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.friend-image {
+  max-height: 60px;
+  width: auto;
+  height: auto;
+}
+
+.friend-name {
+  margin: 0 0 0.5rem 0;
+}
+
+.friend-text {
+  margin: 0;
+}

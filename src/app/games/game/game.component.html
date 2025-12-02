@@ -28,6 +28,7 @@
     <p [innerHTML]="paragraph"></p>
   </div>
   <img [ngSrc]="imageService.imageUrl('/games/' + game.image)" alt="{{ game.name }}" width="600" height="400">
+  <app-friend-rating [currentId]="game.id"></app-friend-rating>
   <div [ngStyle]="{'padding-bottom': '10px'}"></div>
   <app-rating-bar [rating]="{id: game.id, ratings: game.rating}"></app-rating-bar>
 </div>

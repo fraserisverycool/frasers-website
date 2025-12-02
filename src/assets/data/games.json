@@ -1,6 +1,24 @@
 {
   "games": [
     {
+      "name": "Kirby Air Riders",
+      "vibes": "9",
+      "gameplay": "8",
+      "review": [
+        "So delightful to play another Sakurai game! The smash vibes are very strong in this game. The soundtrack is pretty good, with an absolute banger of a menu theme, and the levels you race on are crazy cool. You can play as Rick the hamster, which is amazing, but I'm a little broken-hearted that you can't play as Kine the fish.",
+        "Controlling is kinda hard! This isn't baby mode like Mario Kart World (which I loved), you have to get a feel for it. Having both sucking in enemies and drifting being the same button is kinda confusing though. Also, there's an attack you can do if you wiggle the stick, which confuses me quite a lot. I really connected with the Road Trip mode, which in effect taught me the game. Thanks to that I tried out all the machines and got a hang of the drifting. I think my favourite is the Rocket one where you have to charge to the max each time. It's extreme but satisfying!"
+      ],
+      "image": "kirby-air-riders.jpg",
+      "platform": "Switch 2",
+      "year": "2025",
+      "release": "2025",
+      "score": 13,
+      "completed": false,
+      "completable": true,
+      "id": "3d87e789-7d17-4ab5-97cd-b909a2967dd9",
+      "newsletter": false
+    },
+    {
       "name": "CloverPit",
       "vibes": "9",
       "gameplay": "8",
@@ -7364,11 +7382,12 @@
     {
       "name": "Okami",
       "vibes": "10",
-      "gameplay": "10",
+      "gameplay": "9",
       "review": [
         "Absolutely wild that a game as stunning as this game out as early as 2006! Talk about being carried by an artstyle. This japanese-style cel-shaded goodness still looks perfect today, and that's because this game is timeless. It's epic and it's a classic! In the story you play as the sun god Amaterasu who is reincarnated as an awesome magical wolf, which on its own is sick (twilight princess eat your heart out this came out first!), but then you're taken down this wild rabbit hole of a story based on Japanese folklore.",
         "There are so many points in the game that I love. When you dramatically run with Kimiko's body to the shrine, when you beat Orochi and realise this game is far from over, those awesome Owl bosses, the snow area in general, shrinking down inside the city, the jiggly boob lady who turns out to not be who you think she is, the gender ambiguous villain character, the final boss. so much to enjoy.",
-        "The music is amazing, it's full on traditional Japanese music and it's sooooo beautiful. <a href=\"https://www.youtube.com/watch?v=8yKG-Qu4WvM&ab_channel=VulgusBangaa\">Shinshu field</a> alone should be enough to convince you to play this classic game."
+        "The music is amazing, it's full on traditional Japanese music and it's sooooo beautiful. <a href=\"https://www.youtube.com/watch?v=8yKG-Qu4WvM&ab_channel=VulgusBangaa\">Shinshu field</a> alone should be enough to convince you to play this classic game.",
+        "I will say that a lot of the dialogue hasn't aged well! The game's approach to sex is very questionable."
       ],
       "image": "okami.jpg",
       "platform": "Wii",

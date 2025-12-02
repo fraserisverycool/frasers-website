@@ -1,0 +1,23 @@
+<div class="friend-rating-list">
+  <div class="friend-rating-item" *ngFor="let rating of friendRatings">
+
+    <!-- Title -->
+    <h3 class="friend-name">
+      {{ rating.friend }}'s opinion
+    </h3>
+
+    <!-- Row with image + text -->
+    <div class="friend-row">
+      <img
+        class="friend-image"
+        [src]="imageService.imageUrl(friendImages[rating.friend])"
+        [alt]="rating.friend"
+      />
+
+      <p class="friend-text">
+        {{ rating.rating }}
+      </p>
+    </div>
+
+  </div>
+</div>
