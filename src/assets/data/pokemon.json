@@ -13,22 +13,34 @@
             "description": "Drag queen fish. I painted two pictures of her."
         },
         {
+          "name": "Lickilicky",
+          "number": "0463",
+          "image": "250px-0463Lickilicky.png",
+          "description": "I'm so fascinated by Lickilicky, I can't help but love it. Why does it have a Wifi symbol?"
+        },
+        {
             "name": "Piloswine",
             "number": "0221",
             "image": "250px-0221Piloswine.png",
             "description": "Old favourite."
         },
+      {
+        "name": "Omanyte",
+        "number": "0138",
+        "image": "250px-0138Omanyte.png",
+        "description": "Old favourite."
+      },
+      {
+        "name": "Glalie",
+        "number": "0362",
+        "image": "250px-0362Glalie.png",
+        "description": "Huge floating head, hilarious."
+      },
         {
             "name": "Victreebel",
             "number": "0071",
             "image": "250px-0071Victreebel.png",
             "description": "Why does she look like that. Incredible."
-        },
-        {
-            "name": "Glalie",
-            "number": "0362",
-            "image": "250px-0362Glalie.png",
-            "description": "Huge floating head, hilarious."
         },
         {
             "name": "Starmie",
@@ -37,37 +49,140 @@
             "description": "Genuinely beautiful. I want to make a Starmie out of stained glass."
         },
         {
-            "name": "Lickilicky",
-            "number": "0463",
-            "image": "250px-0463Lickilicky.png",
-            "description": "I'm so fascinated by Lickilicky, I can't help but love it. Why does it have a Wifi symbol?"
-        },
-        {
             "name": "Qwilfish",
             "number": "0211",
             "image": "250px-0211Qwilfish.png",
             "description": "Great."
         },
-        {
-            "name": "Omanyte",
-            "number": "0138",
-            "image": "250px-0138Omanyte.png",
-            "description": "Old favourite."
-        }
+      {
+        "name": "Wailord",
+        "number": "0321",
+        "image": "250px-0321Wailord.png",
+        "description": "Big."
+      }
     ],
     "S": [
-        {
-            "name": "Finneon",
-            "number": "0456",
-            "image": "250px-0456Finneon.png",
-            "description": ""
-        },
-        {
-            "name": "Poliwhirl",
-            "number": "0061",
-            "image": "250px-0061Poliwhirl.png",
-            "description": "What a guy."
-        },
+      {
+        "name": "Vileplume",
+        "number": "0045",
+        "image": "250px-0045Vileplume.png",
+        "description": "Was my favourite pokemon for a long time."
+      },
+      {
+        "name": "Cloyster",
+        "number": "0091",
+        "image": "250px-0091Cloyster.png",
+        "description": "Vagina Pokemon."
+      },
+      {
+        "name": "Walrein",
+        "number": "0365",
+        "image": "250px-0365Walrein.png",
+        "description": ""
+      },
+
+      {
+        "name": "Lickitung",
+        "number": "0108",
+        "image": "250px-0108Lickitung.png",
+        "description": ""
+      },
+      {
+        "name": "Krabby",
+        "number": "0098",
+        "image": "250px-0098Krabby.png",
+        "description": ""
+      },
+      {
+        "name": "Stunfisk",
+        "number": "0618",
+        "image": "250px-0618Stunfisk.png",
+        "description": ""
+      },
+      {
+        "name": "Seaking",
+        "number": "0119",
+        "image": "250px-0119Seaking.png",
+        "description": ""
+      },
+      {
+        "name": "Weepinbell",
+        "number": "0070",
+        "image": "250px-0070Weepinbell.png",
+        "description": ""
+      },
+      {
+        "name": "Poliwhirl",
+        "number": "0061",
+        "image": "250px-0061Poliwhirl.png",
+        "description": "What a guy."
+      },
+      {
+        "name": "Avalugg",
+        "number": "0713",
+        "image": "250px-0713Avalugg.png",
+        "description": "Table."
+      },
+      {
+        "name": "Eiscue",
+        "number": "0875",
+        "image": "250px-0875Eiscue.png",
+        "description": "Stunning."
+      },
+      {
+        "name": "Nosepass",
+        "number": "0299",
+        "image": "250px-0299Nosepass.png",
+        "description": ""
+      },
+      {
+        "name": "Forretress",
+        "number": "0205",
+        "image": "250px-0205Forretress.png",
+        "description": ""
+      },
+      {
+        "name": "Staryu",
+        "number": "0120",
+        "image": "250px-0120Staryu.png",
+        "description": ""
+      },
+      {
+        "name": "Yanma",
+        "number": "0193",
+        "image": "250px-0193Yanma.png",
+        "description": ""
+      },
+      {
+        "name": "Ivysaur",
+        "number": "0002",
+        "image": "250px-0002Ivysaur.png",
+        "description": ""
+      },
+      {
+        "name": "Sinistea",
+        "number": "0854",
+        "image": "250px-0854Sinistea.png",
+        "description": ""
+      },
+      {
+        "name": "Dugtrio (Alolan)",
+        "number": "0051",
+        "image": "0051Diglett-Alola.png",
+        "description": ""
+      },
+      {
+        "name": "Charjabug",
+        "number": "0737",
+        "image": "250px-0737Charjabug.png",
+        "description": "Battery bus bug."
+      },
+      {
+        "name": "Doduo",
+        "number": "0084",
+        "image": "250px-0084Doduo.png",
+        "description": ""
+      },
         {
             "name": "Venusaur",
             "number": "0003",
@@ -80,36 +195,32 @@
             "image": "250px-0011Metapod.png",
             "description": ""
         },
-        {
-            "name": "Forretress",
-            "number": "0205",
-            "image": "250px-0205Forretress.png",
-            "description": ""
-        },
-        {
-            "name": "Nosepass",
-            "number": "0299",
-            "image": "250px-0299Nosepass.png",
-            "description": ""
-        },
+
+      {
+        "name": "Bellsprout",
+        "number": "0069",
+        "image": "250px-0069Bellsprout.png",
+        "description": ""
+      },
+      {
+        "name": "Stonjourner",
+        "number": "0874",
+        "image": "250px-0874Stonjourner.png",
+        "description": ""
+      },
+      {
+        "name": "Gloom",
+        "number": "0044",
+        "image": "250px-0044Gloom.png",
+        "description": ""
+      },
         {
             "name": "Mr. Mime",
             "number": "0122",
             "image": "250px-0122Mr._Mime.png",
             "description": ""
         },
-        {
-            "name": "Yanma",
-            "number": "0193",
-            "image": "250px-0193Yanma.png",
-            "description": ""
-        },
-        {
-            "name": "Ivysaur",
-            "number": "0002",
-            "image": "250px-0002Ivysaur.png",
-            "description": ""
-        },
+
         {
             "name": "Purugly",
             "number": "0432",
@@ -140,128 +251,46 @@
             "image": "250px-0756Shiinotic.png",
             "description": "It's giving drugs."
         },
-        {
-            "name": "Staryu",
-            "number": "0120",
-            "image": "250px-0120Staryu.png",
-            "description": ""
-        },
-        {
-            "name": "Sinistea",
-            "number": "0854",
-            "image": "250px-0854Sinistea.png",
-            "description": ""
-        },
-        {
-            "name": "Charjabug",
-            "number": "0737",
-            "image": "250px-0737Charjabug.png",
-            "description": "Battery bus bug."
-        },
-        {
-            "name": "Vileplume",
-            "number": "0045",
-            "image": "250px-0045Vileplume.png",
-            "description": "Was my favourite pokemon for a long time."
-        },
+
+      {
+        "name": "Exeggcute",
+        "number": "0102",
+        "image": "250px-0102Exeggcute.png",
+        "description": ""
+      },
         {
             "name": "Swinub",
             "number": "0220",
             "image": "250px-0220Swinub.png",
             "description": ""
         },
-        {
-            "name": "Weepinbell",
-            "number": "0070",
-            "image": "250px-0070Weepinbell.png",
-            "description": ""
-        },
-        {
-            "name": "Avalugg",
-            "number": "0713",
-            "image": "250px-0713Avalugg.png",
-            "description": "Table."
-        },
-        {
-            "name": "Cloyster",
-            "number": "0091",
-            "image": "250px-0091Cloyster.png",
-            "description": "Vagina Pokemon."
-        },
-        {
-            "name": "Walrein",
-            "number": "0365",
-            "image": "250px-0365Walrein.png",
-            "description": ""
-        },
-        {
-            "name": "Krabby",
-            "number": "0098",
-            "image": "250px-0098Krabby.png",
-            "description": ""
-        },
+      {
+        "name": "Exeggutor",
+        "number": "0103",
+        "image": "250px-0103Exeggutor.png",
+        "description": ""
+      },
+      {
+        "name": "Diglett (Alolan)",
+        "number": "0050",
+        "image": "0050Diglett-Alola.png",
+        "description": ""
+      },
         {
             "name": "Octillery",
             "number": "0224",
             "image": "250px-0224Octillery.png",
             "description": ""
-        },
-        {
-            "name": "Wailord",
-            "number": "0321",
-            "image": "250px-0321Wailord.png",
-            "description": "Big."
-        },
-        {
-            "name": "Lickitung",
-            "number": "0108",
-            "image": "250px-0108Lickitung.png",
-            "description": ""
-        },
-        {
-            "name": "Doduo",
-            "number": "0084",
-            "image": "250px-0084Doduo.png",
-            "description": ""
-        },
-        {
-            "name": "Bellsprout",
-            "number": "0069",
-            "image": "250px-0069Bellsprout.png",
-            "description": ""
-        },
-        {
-            "name": "Stonjourner",
-            "number": "0874",
-            "image": "250px-0874Stonjourner.png",
-            "description": ""
-        },
-        {
-            "name": "Gloom",
-            "number": "0044",
-            "image": "250px-0044Gloom.png",
-            "description": ""
-        },
-        {
-            "name": "Eiscue",
-            "number": "0875",
-            "image": "250px-0875Eiscue.png",
-            "description": "Stunning."
-        },
-        {
-            "name": "Seaking",
-            "number": "0119",
-            "image": "250px-0119Seaking.png",
-            "description": ""
-        },
-        {
-            "name": "Stunfisk",
-            "number": "0618",
-            "image": "250px-0618Stunfisk.png",
-          "description": ""
         }
+
     ],
     "A": [
+      {
+        "name": "Finneon",
+        "number": "0456",
+        "image": "250px-0456Finneon.png",
+        "description": ""
+      },
         {
             "name": "Sunkern",
             "number": "0191",
@@ -800,12 +829,6 @@
             "name": "Lumineon",
             "number": "0457",
             "image": "250px-0457Lumineon.png",
-            "description": ""
-        },
-        {
-            "name": "Exeggcute",
-            "number": "0102",
-            "image": "250px-0102Exeggcute.png",
             "description": ""
         },
         {
@@ -1626,6 +1649,12 @@
             "image": "250px-0947Brambleghast.png",
             "description": ""
         },
+      {
+        "name": "Farfetch'd (Galarian)",
+        "number": "0083",
+        "image": "0083Farfetch'd-Galar.png",
+        "description": ""
+      },
         {
             "name": "Blacephalon",
             "number": "0806",
@@ -2576,6 +2605,12 @@
             "image": "250px-0176Togetic.png",
             "description": ""
         },
+      {
+        "name": "Ponyta (Galarian)",
+        "number": "0077",
+        "image": "0077Ponyta-Galar.png",
+        "description": ""
+      },
         {
             "name": "Chingling",
             "number": "0433",
@@ -2654,6 +2689,12 @@
             "image": "250px-0824Blipbug.png",
             "description": ""
         },
+      {
+        "name": "Rapidash (Galarian)",
+        "number": "0078",
+        "image": "0078Rapidash-Galar.png",
+        "description": ""
+      },
         {
             "name": "Houndoom",
             "number": "0229",
@@ -2834,6 +2875,12 @@
             "image": "250px-0236Tyrogue.png",
             "description": ""
         },
+      {
+        "name": "Qwilfish (Hisuian)",
+        "number": "0211",
+        "image": "0211Qwilfish-Hisui.png",
+        "description": ""
+      },
         {
             "name": "Spinarak",
             "number": "0167",
@@ -3470,6 +3517,12 @@
             "image": "250px-0225Delibird.png",
             "description": ""
         },
+      {
+        "name": "Golem (Alolan)",
+        "number": "0076",
+        "image": "0076Golem-Alola.png",
+        "description": ""
+      },
         {
             "name": "Sableye",
             "number": "0302",
@@ -3662,6 +3715,18 @@
             "image": "250px-0067Machoke.png",
             "description": ""
         },
+      {
+        "name": "Geodude (Alolan)",
+        "number": "0074",
+        "image": "0074Geodude-Alola.png",
+        "description": ""
+      },
+      {
+        "name": "Graveler (Alolan)",
+        "number": "0075",
+        "image": "0075Graveler-Alola.png",
+        "description": ""
+      },
         {
             "name": "Gyarados",
             "number": "0130",
@@ -3956,6 +4021,12 @@
             "image": "250px-0687Malamar.png",
             "description": ""
         },
+      {
+        "name": "Tauros (Paldean)",
+        "number": "0128",
+        "image": "0128Tauros-Paldea_Combat.png",
+        "description": ""
+      },
         {
             "name": "Roselia",
             "number": "0315",
@@ -4257,6 +4328,12 @@
             "image": "250px-0487Giratina.png",
             "description": ""
         },
+      {
+        "name": "Arcanine (Hisuian)",
+        "number": "0059",
+        "image": "0059Arcanine-Hisui.png",
+        "description": ""
+      },
         {
             "name": "Pumpkaboo",
             "number": "0710",
@@ -4371,6 +4448,12 @@
             "image": "250px-0396Starly.png",
             "description": ""
         },
+      {
+        "name": "Sneasel (Hisuian)",
+        "number": "0215",
+        "image": "0215Sneasel-Hisui.png",
+        "description": ""
+      },
         {
             "name": "Dusclops",
             "number": "0356",
@@ -4749,6 +4832,18 @@
             "image": "250px-0675Pangoro.png",
             "description": ""
         },
+      {
+        "name": "Ponyta (Hisuian)",
+        "number": "0101",
+        "image": "0101Electrode-Hisui.png",
+        "description": "Like what is this"
+      },
+      {
+        "name": "Mr. Mime (Galarian)",
+        "number": "0122",
+        "image": "0122Mr._Mime-Galar.png",
+        "description": ""
+      },
         {
             "name": "Reshiram",
             "number": "0643",
@@ -4785,6 +4880,12 @@
             "image": "250px-0574Gothita.png",
             "description": ""
         },
+      {
+        "name": "Typhlosion (Hisuian)",
+        "number": "0157",
+        "image": "0157Typhlosion-Hisui.png",
+        "description": ""
+      },
         {
             "name": "Croconaw",
             "number": "0159",
@@ -5831,6 +5932,12 @@
             "image": "250px-0671Florges.png",
             "description": ""
         },
+      {
+        "name": "Meowth (Galarian)",
+        "number": "0052",
+        "image": "0052Meowth-Galar.png",
+        "description": ""
+      },
         {
             "name": "Kingambit",
             "number": "0983",
@@ -5977,12 +6084,18 @@
         }
     ],
     "F": [
-        {
-            "name": "Pecharunt",
-            "number": "1025",
-            "image": "250px-1025Pecharunt.png",
-            "description": ""
-        },
+      {
+        "name": "Salazzle",
+        "number": "0758",
+        "image": "250px-0758Salazzle.png",
+        "description": ""
+      },
+      {
+        "name": "Aromatisse",
+        "number": "0683",
+        "image": "250px-0683Aromatisse.png",
+        "description": ""
+      },
         {
             "name": "Gallade",
             "number": "0475",
@@ -6043,84 +6156,42 @@
             "image": "250px-0649Genesect.png",
             "description": ""
         },
-        {
-            "name": "Zacian",
-            "number": "0888",
-            "image": "250px-0888Zacian-Hero.png",
-            "description": ""
-        },
-        {
-            "name": "Calyrex",
-            "number": "0898",
-            "image": "250px-0898Calyrex.png",
-            "description": ""
-        },
+
         {
             "name": "Chesnaught",
             "number": "0652",
             "image": "250px-0652Chesnaught.png",
             "description": ""
         },
-        {
-            "name": "Lopunny",
-            "number": "0428",
-            "image": "250px-0428Lopunny.png",
-            "description": ""
-        },
+
         {
             "name": "Iron Bundle",
             "number": "0991",
             "image": "250px-0991Iron_Bundle.png",
             "description": ""
         },
-        {
-            "name": "Miraidon",
-            "number": "1008",
-            "image": "250px-1008Miraidon.png",
-            "description": ""
-        },
+
         {
             "name": "Iron Jugulis",
             "number": "0993",
             "image": "250px-0993Iron_Jugulis.png",
             "description": ""
         },
-        {
-            "name": "Sneasler",
-            "number": "0903",
-            "image": "250px-0903Sneasler.png",
-            "description": ""
-        },
-        {
-            "name": "Aromatisse",
-            "number": "0683",
-            "image": "250px-0683Aromatisse.png",
-            "description": ""
-        },
-        {
-            "name": "Koraidon",
-            "number": "1007",
-            "image": "250px-1007Koraidon.png",
-            "description": ""
-        },
-        {
-            "name": "Zamazenta",
-            "number": "0889",
-            "image": "250px-0889Zamazenta-Hero.png",
-            "description": ""
-        },
+
+
+
         {
             "name": "Iron Thorns",
             "number": "0995",
             "image": "250px-0995Iron_Thorns.png",
             "description": ""
         },
-        {
-            "name": "Grimmsnarl",
-            "number": "0861",
-            "image": "250px-0861Grimmsnarl.png",
-            "description": ""
-        },
+      {
+        "name": "Sneasler",
+        "number": "0903",
+        "image": "250px-0903Sneasler.png",
+        "description": ""
+      },
         {
             "name": "Necrozma",
             "number": "0800",
@@ -6133,12 +6204,55 @@
             "image": "250px-0905Enamorus.png",
             "description": ""
         },
-        {
-            "name": "Salazzle",
-            "number": "0758",
-            "image": "250px-0758Salazzle.png",
-            "description": ""
-        },
+      {
+        "name": "Koraidon",
+        "number": "1007",
+        "image": "250px-1007Koraidon.png",
+        "description": ""
+      },
+      {
+        "name": "Miraidon",
+        "number": "1008",
+        "image": "250px-1008Miraidon.png",
+        "description": ""
+      },
+      {
+        "name": "Zacian",
+        "number": "0888",
+        "image": "250px-0888Zacian-Hero.png",
+        "description": ""
+      },
+
+      {
+        "name": "Zamazenta",
+        "number": "0889",
+        "image": "250px-0889Zamazenta-Hero.png",
+        "description": ""
+      },
+      {
+        "name": "Calyrex",
+        "number": "0898",
+        "image": "250px-0898Calyrex.png",
+        "description": ""
+      },
+      {
+        "name": "Lopunny",
+        "number": "0428",
+        "image": "250px-0428Lopunny.png",
+        "description": ""
+      },
+      {
+        "name": "Grimmsnarl",
+        "number": "0861",
+        "image": "250px-0861Grimmsnarl.png",
+        "description": ""
+      },
+      {
+        "name": "Pecharunt",
+        "number": "1025",
+        "image": "250px-1025Pecharunt.png",
+        "description": ""
+      },
         {
             "name": "Eternatus",
             "number": "0890",
