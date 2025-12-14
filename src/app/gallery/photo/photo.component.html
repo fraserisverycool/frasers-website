@@ -24,5 +24,13 @@
 </div>
 
 <div *ngIf="modalImage" class="modal" (click)="closeModal()">
-  <img [ngSrc]="imageService.imageUrl('/gallery/' + modalImage.filename)" [alt]="modalImage.title" class="modal-image" width="600" height="600">
+  <img
+    [ngSrc]="imageService.imageUrl(
+    '/gallery/' + (showText ? modalImage.unmasked : modalImage.filename)
+  )"
+    [alt]="modalImage.title"
+    class="modal-image"
+    width="600"
+    height="600"
+  />
 </div>

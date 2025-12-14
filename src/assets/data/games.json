@@ -9162,6 +9162,22 @@
       "completable": false,
       "id": "a94005bf-afca-434e-a6b2-61f6af7949b0",
       "newsletter": true
+    },
+    {
+      "name": "Mario Tennis Aces",
+      "vibes": "8",
+      "gameplay": "9",
+      "review": [
+        "Genuinely an excellent tennis game that I swear is just as deep as a fighting game. It's fun to get good at it! Excellent, excellent cast of characters. Loved playing as the chain chomp."
+      ],
+      "image": "mario-tennis-aces.jpg",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018",
+      "completed": false,
+      "completable": true,
+      "id": "78e43431-6c1e-4bd2-b6bc-78f4aa592784",
+      "newsletter": true
     }
   ]
 }
