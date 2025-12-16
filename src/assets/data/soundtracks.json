@@ -1,6 +1,24 @@
 {
   "soundtracks": [
     {
+      "filename": "super-mario-land.jpg",
+      "name": "Super Mario Land",
+      "description": [
+        "This gameboy soundtrack actually has some classic bangers. It has inspired me to make a 'best bleeps and bloops' playlist. Birabuto is the classic but I am loving Muda Kingdom!"
+      ],
+      "platform": "Gameboy",
+      "topTracks": [
+        "Birabuto Kingdom BGM",
+        "Muda Kingdom BGM",
+        "Easton Kingdom BGM",
+        "Shooting Area BGM",
+        "Princess Daisy Rescued",
+        "Ending"
+      ],
+      "id": "a1444f5d-f5cc-4181-89b6-33ea1c1f7f0b",
+      "newsletter": false
+    },
+    {
       "filename": "yoshis-crafted-world.jpg",
       "name": "Yoshi's Crafted World",
       "description": [
