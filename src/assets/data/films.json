@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "secret-agent.jpg",
+      "title": "The Secret Agent",
+      "description": "Vibes-heavy Brazilian thriller featuring (truly) the best female characters and the worst male characters. I struggled to keep up with the plot and the events towards the end felt a bit random.",
+      "year": "2025",
+      "release": "2025",
+      "id": "f287182c-97e4-4b1f-a2af-6f5d3be0a7b5",
+      "newsletter": false
+    },
+    {
       "filename": "bugonia.jpg",
       "title": "Bugonia",
       "description": "Oh my god I loved this film so much. It was wild and hugely entertaining. Conspiracy theorist meets powerful CEO and the dialog between them is just perfect. Best ending ever",

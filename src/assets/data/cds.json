@@ -442,6 +442,15 @@
       "newsletter": true
     },
     {
+      "artist": "Divine",
+      "album": "Shoot Your Shot Anthology",
+      "genre": "House & Disco",
+      "description": "Victor got me this amazing CD of cunty pop tracks from the legendary Divine! Perfect for pre-drinks for the party",
+      "image": "divine-shoot.jpeg",
+      "id": "61e14abf-49a6-42b8-be8c-5fe69e556dea",
+      "newsletter": false
+    },
+    {
       "artist": "Earth, Wind and Fire",
       "album": "Greatest Hits",
       "genre": "House & Disco",

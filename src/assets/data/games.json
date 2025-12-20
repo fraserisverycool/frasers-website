@@ -1,6 +1,44 @@
 {
   "games": [
     {
+      "name": "Metroid Prime 4: Beyond",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "This game is a true continuation of the excellent Metroid Prime series! Music and atmosphere is 100% there. As I write this I'm only half-way through the game so take this with a grain of salt for now, but it's great so far.",
+        "I really appreciate that it takes place on the planet where the architecture is so yonic! Yonic is a fun word that means 'relating to vaginas and stuff' (as opposed to phallic). Every door, switch, building looks like a vagina. Samus is going around controlling clits with her new psychic powers and you can't convince me otherwise. The game features some weak men who speak at you with American accents, but Samus doesn't even bother replying, which I really appreciate.",
+        "I also enjoy how so much random-ass shit happens in this game. When you beat one of the yonic bosses and then this pedestal appears which transports Samus to a dream realm where she grabs a magic key and then curls into a ball and learns how to boost up halfpipes. All that happens within like 2 minutes of each other.",
+        "There's also a desert area where you drive around on a motorbike, a bit of a departure from the series, and it's fine, I guess. I actually appreciate how it makes it a bit more feasible to have these different climates (jungle, icy mountain, volcano) all in the same place. In Metroid Prime 1 you just hop between these biomes in a couple of seconds. That always bothered me! Anyway, I'm excited to see how this game develops, for now I'm excited to keep playing over Christmas."
+      ],
+      "image": "metroid-prime-4.jpg",
+      "platform": "Switch 2",
+      "year": "2025",
+      "release": "2025",
+      "score": 18,
+      "completed": false,
+      "completable": true,
+      "id": "319edfc6-a307-4b28-a742-bde60ca751ed",
+      "newsletter": false
+    },
+    {
+      "name": "Keeper",
+      "vibes": "9",
+      "gameplay": "4",
+      "review": [
+        "This game is like concept art come to life. It's got that Gris/Ori vibe of being beautiful for the sake of being beautiful. You play as a sentient lighthouse, which is a great premise, but ultimately it's another walking simulator with light puzzle elements. This one is different from other ones because it has amazing colours and psychedelic visuals. But ultimately, it's more of this same stuff. It makes me think that we really have enough indie games these days. Devs really have to stretch the imagination to think of new premises for new beautiful walking simulators these days.",
+        "I think it would be good to play this while on mushrooms."
+      ],
+      "image": "keeper.jpg",
+      "platform": "Xbox Gamepass",
+      "year": "2025",
+      "release": "2025",
+      "score": 4,
+      "completed": false,
+      "completable": true,
+      "id": "81d50353-366e-4d69-91c1-cd7f2f6d34e5",
+      "newsletter": false
+    },
+    {
       "name": "Kirby Air Riders",
       "vibes": "9",
       "gameplay": "8",
@@ -469,7 +507,7 @@
       "platform": "Switch",
       "year": "2025",
       "release": "2025",
-      "score": 13,
+      "score": 16,
       "completed": true,
       "completable": true,
       "id": "a45d2c1f-b3df-4098-8db1-5260790665fd",
@@ -542,7 +580,7 @@
       "platform": "Switch",
       "year": "2025",
       "release": "2023",
-      "score": 15,
+      "score": 19,
       "completed": true,
       "completable": true,
       "id": "fef97954-6507-4f83-a123-c06cb94d3e80",
