@@ -1,13 +1,40 @@
 {
   "films": [
     {
+      "filename": "great-escape.jpg",
+      "title": "The Great Escape",
+      "description": "The family has this on the TV at Christmas quite a lot. It was alright. Got me thinking if the Germans have some kind of equivalent.",
+      "year": "2025",
+      "release": "1963",
+      "id": "546d5403-d1aa-48c5-a7a8-794025773d6f",
+      "newsletter": false
+    },
+    {
+      "filename": "aftersun.jpg",
+      "title": "Aftersun",
+      "description": "Story of a dad taking his 11 daughter on holiday, trying to keep it together. I felt a real connection to him because he's my age. It all felt very real.",
+      "year": "2025",
+      "release": "2022",
+      "id": "d199f2be-1966-4daf-97cb-933c3671ac70",
+      "newsletter": false
+    },
+    {
+      "filename": "nickel-boys.jpg",
+      "title": "Nickel Boys",
+      "description": "Very upsetting film about a segregated youth detention centre where horrible shit went down. POV camera the whole time makes it all feel like it's happening to you.",
+      "year": "2025",
+      "release": "2025",
+      "id": "cb1cb705-1834-4df2-adb3-1bc5b3103640",
+      "newsletter": false
+    },
+    {
       "filename": "secret-agent.jpg",
       "title": "The Secret Agent",
       "description": "Vibes-heavy Brazilian thriller featuring (truly) the best female characters and the worst male characters. I struggled to keep up with the plot and the events towards the end felt a bit random.",
       "year": "2025",
       "release": "2025",
       "id": "f287182c-97e4-4b1f-a2af-6f5d3be0a7b5",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "bugonia.jpg",
@@ -16,7 +43,7 @@
       "year": "2025",
       "release": "2025",
       "id": "bd335759-e505-4f95-91dd-b150d8442361",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "onebattle.jpg",
@@ -327,6 +354,19 @@
       "year": "2025",
       "release": "1987",
       "id": "ac847806-28eb-408e-80a3-ea46c9f55858",
+      "newsletter": true
+    },
+    {
+      "filename": "adolescence.jpg",
+      "title": "Adolescence",
+      "description": "Very topical and very well done short drama about a young boy radicalised by the misogynist right. Made me very emotional. I'm grateful it became so popular so more people know about what's happening on our phones.",
+      "year": "2025",
+      "release": "2025",
+      "tv": true,
+      "seasons": [
+        1
+      ],
+      "id": "5d1623c3-042f-4a5e-a264-1d4733c39c67",
       "newsletter": true
     },
     {

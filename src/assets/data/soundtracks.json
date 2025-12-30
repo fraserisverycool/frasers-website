@@ -1,6 +1,27 @@
 {
   "soundtracks": [
     {
+      "filename": "wii-party.jpg",
+      "name": "Wii Party",
+      "description": [
+        "We are treated to some more obscure Wii-era vibes with this game that probably nobody played. Deep breaths, there's no point being upset about it, I'm sure the actual good game soundtracks will all come in 2026. This one is a bit of a slog, similar to Mario Party, but there are some gems in there. Some of these tracks like 'Garden Gridlock' really evoke 2007 hard."
+      ],
+      "platform": "Wii",
+      "topTracks": [
+        "Title Screen",
+        "Menu Screen",
+        "Swap Meet",
+        "Swap Meet (One to Go!)",
+        "Party Games: Results Time",
+        "Match-Up",
+        "Channel Changers",
+        "Garden Gridlock",
+        "Rankings"
+      ],
+      "id": "df1cb3f3-fde5-40fb-b046-8c688ed7990f",
+      "newsletter": false
+    },
+    {
       "filename": "super-mario-land.jpg",
       "name": "Super Mario Land",
       "description": [
@@ -16,7 +37,7 @@
         "Ending"
       ],
       "id": "a1444f5d-f5cc-4181-89b6-33ea1c1f7f0b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "yoshis-crafted-world.jpg",
@@ -31,7 +52,7 @@
         "Round and Round"
       ],
       "id": "8b70cb6f-dbb6-475f-8bd5-8208f2d48781",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "metroid-prime-4.jpeg",
@@ -44,7 +65,7 @@
         "Fury Green"
       ],
       "id": "7ba19301-c2a5-455b-ac06-6cdd7893dcfd",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "jamboree.jpg",

@@ -6,7 +6,7 @@
       "month": "December 2025",
       "question": "Name one of these dogs",
       "id": "9a33dd2d-d248-4987-99b4-6e6056627d59",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "duckhunt2.jpg",
@@ -14,7 +14,7 @@
       "month": "December 2025",
       "question": "What ties all these players together?",
       "id": "6f044da1-6128-47f1-a7d4-cfa9589b3056",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "shibari2.jpg",

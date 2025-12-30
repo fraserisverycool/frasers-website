@@ -1,21 +1,77 @@
 {
   "games": [
     {
-      "name": "Metroid Prime 4: Beyond",
-      "vibes": "10",
-      "gameplay": "9",
+      "name": "Ball X Pit",
+      "vibes": "6",
+      "gameplay": "10",
       "review": [
-        "This game is a true continuation of the excellent Metroid Prime series! Music and atmosphere is 100% there. As I write this I'm only half-way through the game so take this with a grain of salt for now, but it's great so far.",
-        "I really appreciate that it takes place on the planet where the architecture is so yonic! Yonic is a fun word that means 'relating to vaginas and stuff' (as opposed to phallic). Every door, switch, building looks like a vagina. Samus is going around controlling clits with her new psychic powers and you can't convince me otherwise. The game features some weak men who speak at you with American accents, but Samus doesn't even bother replying, which I really appreciate.",
+        "This is so so so addicting, just like Vampire Survivors. Loved getting absolutely absorbed by it this Christmas. The ball part has some great risk/reward or push/pull and feels great. The city building part is a bit intimidating but actually alright in the end. I don't love the overall vibe and design of it, nor do I love the music. It's kinda gruesome and unpleasant."
+      ],
+      "image": "ball-x-pit.jpg",
+      "platform": "Switch 2",
+      "year": "2025",
+      "release": "2025",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "3bb85b3b-8de6-469d-90c3-f121d1a51f43",
+      "newsletter": false
+    },
+    {
+      "name": "The Legend of Zelda: Four Swords",
+      "vibes": "6",
+      "gameplay": "7",
+      "review": [
+        "Always wanted to play the multiplayer Zelda games and was finally able to when Oscar Andrew and I connected out Switch 2s on the NSO app and played local multiplayer. It was awesome and we blazed through the game in one sitting! It was consistently funny to bump into each other going through little corridors and hitting each other and we loved the whole thing. There were a couple of head-scratching moments and we weren't a fan of the mysterious Rupee Wraith. We just played it through once but it turns out that there's a true ending if you play it through on harder modes two more times. I feel like there's a lot of fun to be had here! The levels are even procedurally generated before that was cool. There's also a fun competitive element where the person who got the most rupees wins, Super Mario 3D World style. Loved that! Loved the game to be honest. Great."
+      ],
+      "image": "zelda-four-swords.jpg",
+      "platform": "Gameboy Advance",
+      "year": "2025",
+      "release": "2002",
+      "score": 12,
+      "completed": true,
+      "completable": true,
+      "id": "a24c4a6b-ea65-4403-980f-298145f30b6b",
+      "newsletter": false
+    },
+    {
+      "name": "Super Mario Land 2: 6 Golden Coins",
+      "vibes": "6",
+      "gameplay": "6",
+      "review": [
+        "I enjoyed this game on the Nintendo Switch Online! Not as fun as other Mario games because of the small screen but glad to have played this one that I always missed. Cool that this is the first appearance of Wario!"
+      ],
+      "image": "super-mario-land-2.jpg",
+      "platform": "Gameboy",
+      "year": "2025",
+      "release": "1992",
+      "score": 9,
+      "completed": true,
+      "completable": true,
+      "id": "135a38d6-fa63-4982-ab83-bd52c7ed931c",
+      "newsletter": false
+    },
+    {
+      "name": "Metroid Prime 4: Beyond",
+      "vibes": "9",
+      "gameplay": "6",
+      "review": [
+        "This game started off so strong but by the end I decided that it isn't a true continuation of the excellent Metroid Prime series. Music and atmosphere is definitely great, although the only really memorable music is the first area, Fury Green. I feel like the game could benefit from more music tracks as actually most of the game is spent with just ambient noise.",
+        "The thing that I appreciate the most is that it takes place on a planet where the architecture is so yonic! Yonic is a fun word that means 'relating to vaginas and stuff' (as opposed to phallic). Every door, switch, building looks like female genitalia. Samus is going around controlling clits with her new psychic powers and you can't convince me otherwise. There is some pretty strong lesbian energy.",
         "I also enjoy how so much random-ass shit happens in this game. When you beat one of the yonic bosses and then this pedestal appears which transports Samus to a dream realm where she grabs a magic key and then curls into a ball and learns how to boost up halfpipes. All that happens within like 2 minutes of each other.",
-        "There's also a desert area where you drive around on a motorbike, a bit of a departure from the series, and it's fine, I guess. I actually appreciate how it makes it a bit more feasible to have these different climates (jungle, icy mountain, volcano) all in the same place. In Metroid Prime 1 you just hop between these biomes in a couple of seconds. That always bothered me! Anyway, I'm excited to see how this game develops, for now I'm excited to keep playing over Christmas."
+        "Samus is a badass lone hunter who really doesn't need anyone else, but they introduce some annoying American characters who are stranded there anyway. I appreciate that they speak to Samus like she is a divine legend, and that Samus doesn't dignify them with any response, but ultimately they have been added as plot devices to try to add emotional weight to the story. It feels fake as fuck. It's just typical tropes like sacrificing yourself (and then turning up later), and has been totally shoehorned in. Would have been better if she was just on her own as usual. The best Metroid atmosphere is the feeling of loneliness. I don't want to get a cool new item and then immediately get a call from an American man saying where I should go next.",
+        "There's also a desert area where you drive around on a motorbike, a bit of a departure from the series, and it's fine, I guess. I actually appreciate how it makes it a bit more feasible to have these different climates (jungle, icy mountain, volcano) all in the same place. In Metroid Prime 1 you just hop between these biomes in a couple of seconds. That always bothered me!",
+        "Well, it would have been fine, except that at the end of the game, you have to drive around the desert and collect a bunch of these green crystals in order to progress to the end of the game. When it dawned on me that I only had half the crystals necessary, my heart sank. I then spent like an hour driving in this empty ass, shitty desert crashing into crystals over and over, just for the privilege of watching the ending? Bullshit. Hated it. Felt like work!",
+        "Then the ending, you don't even learn what Sylux’s whole deal is, unless you go for 100% (fuck that). I watched the secret cut scene on YouTube and well yeah that is a ridiculous backstory.",
+        "The gameplay itself was just the same as Metroid prime 1. I think they could have done more backtracking in a good way. The backtracking felt quite forced (American man tells you where to go), and how come we never return to the best place, Fury Green?",
+        "All in all, I'm pretty disappointed in this game and wouldn't recommend it. Play Metroid Prime 1 remastered instead!"
       ],
       "image": "metroid-prime-4.jpg",
       "platform": "Switch 2",
       "year": "2025",
       "release": "2025",
-      "score": 18,
-      "completed": false,
+      "score": 12,
+      "completed": true,
       "completable": true,
       "id": "319edfc6-a307-4b28-a742-bde60ca751ed",
       "newsletter": false
@@ -36,7 +92,7 @@
       "completed": false,
       "completable": true,
       "id": "81d50353-366e-4d69-91c1-cd7f2f6d34e5",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Kirby Air Riders",
@@ -54,7 +110,7 @@
       "completed": false,
       "completable": true,
       "id": "3d87e789-7d17-4ab5-97cd-b909a2967dd9",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "CloverPit",
@@ -9215,6 +9271,22 @@
       "completed": false,
       "completable": true,
       "id": "78e43431-6c1e-4bd2-b6bc-78f4aa592784",
+      "newsletter": true
+    },
+    {
+      "name": "Kirby's Dream Course",
+      "vibes": "6",
+      "gameplay": "5",
+      "review": [
+        "It's an alright little golf game! I had a nice time with it. I imagine this might be fun to play with friends on the Switch online."
+      ],
+      "image": "kirby-dream-course.jpg",
+      "platform": "SNES",
+      "year": "older",
+      "release": "1994",
+      "completed": false,
+      "completable": true,
+      "id": "846dabee-9355-4fbe-b384-51e6b9dfca0d",
       "newsletter": true
     }
   ]
