@@ -4,11 +4,12 @@ import {Game} from "../game.interface";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {FriendRatingComponent} from "../../utils/friend-rating/friend-rating.component";
 import {ImageService} from "../../utils/services/image.service";
+import {ReadMoreComponent} from "../../utils/read-more/read-more.component";
 
 @Component({
   selector: 'app-game',
   standalone: true,
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, FriendRatingComponent],
+  imports: [CommonModule, NgOptimizedImage, RatingBarComponent, FriendRatingComponent, ReadMoreComponent],
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.css']
 })

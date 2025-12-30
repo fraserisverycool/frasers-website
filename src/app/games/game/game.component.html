@@ -24,9 +24,7 @@
       height="50"
     />
   </div>
-  <div *ngFor="let paragraph of game.review">
-    <p [innerHTML]="paragraph"></p>
-  </div>
+  <app-read-more [paragraphs]="game.review"></app-read-more>
   <img [ngSrc]="imageService.imageUrl('/games/' + game.image)" alt="{{ game.name }}" width="600" height="400">
   <app-friend-rating [currentId]="game.id"></app-friend-rating>
   <div [ngStyle]="{'padding-bottom': '10px'}"></div>
