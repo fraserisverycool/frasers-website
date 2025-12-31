@@ -2,19 +2,23 @@
   <h1 class="text-center">{{ title }}</h1>
   <div class="calendar-container">
     <ul class="calendar-grid">
-      <li *ngFor="let filter of filters">
-        <button (click)="sortFilms(filter)" class="filter-button">
-          <span>{{ filter }}</span>
-        </button>
-      </li>
+      @for (filter of filters; track filter) {
+        <li>
+          <button (click)="sortFilms(filter)" class="filter-button">
+            <span>{{ filter }}</span>
+          </button>
+        </li>
+      }
     </ul>
     <div class="search-container">
       <input type="text" [(ngModel)]="searchTerm" placeholder="Search films...">
     </div>
   </div>
   <ul>
-    <li *ngFor="let film of filteredFilms">
-      <app-film [film]="film"></app-film>
-    </li>
+    @for (film of filteredFilms; track film) {
+      <li>
+        <app-film [film]="film"></app-film>
+      </li>
+    }
   </ul>
 </div>

@@ -1,16 +1,20 @@
-<div *ngIf="selectedDurstloescher" class="modal">
-  <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
-    <app-close-button (click)="close.emit()"/>
-    <h2>{{ selectedDurstloescher.name }}</h2>
-    <p>{{ selectedDurstloescher.description }}</p>
-    <img [ngSrc]="imageService.imageUrl('/community/durstloescher/' + selectedDurstloescher.filename)" [alt]="selectedDurstloescher.name" class="modal-image" width="600" height="600">
-    <div *ngIf="selectedDurstloescher.fraserscore" class="star">
-      <app-star-message
-        [score]="selectedDurstloescher.fraserscore"
-        [description]="selectedDurstloescher.fraserdescription">
-      </app-star-message>
+@if (selectedDurstloescher) {
+  <div class="modal">
+    <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
+      <app-close-button (click)="close.emit()"/>
+      <h2>{{ selectedDurstloescher.name }}</h2>
+      <p>{{ selectedDurstloescher.description }}</p>
+      <img [ngSrc]="imageService.imageUrl('/community/durstloescher/' + selectedDurstloescher.filename)" [alt]="selectedDurstloescher.name" class="modal-image" width="600" height="600">
+      @if (selectedDurstloescher.fraserscore) {
+        <div class="star">
+          <app-star-message
+            [score]="selectedDurstloescher.fraserscore"
+            [description]="selectedDurstloescher.fraserdescription">
+          </app-star-message>
+        </div>
+      }
+      <div [ngStyle]="{'padding-bottom': '30px'}"></div>
+      <app-rating-bar [rating]="{id: selectedDurstloescher.id, ratings: selectedDurstloescher.rating}"></app-rating-bar>
     </div>
-    <div [ngStyle]="{'padding-bottom': '30px'}"></div>
-    <app-rating-bar [rating]="{id: selectedDurstloescher.id, ratings: selectedDurstloescher.rating}"></app-rating-bar>
   </div>
-</div>
+}

@@ -8,27 +8,33 @@
   <div class="game-section">
     <h2>Switch Games</h2>
     <ul class="game-list">
-      <li *ngFor="let game of switchgames" class="game-title">
-        {{ game }}
-      </li>
+      @for (game of switchgames; track game) {
+        <li class="game-title">
+          {{ game }}
+        </li>
+      }
     </ul>
   </div>
 
   <div class="game-section">
     <h2>Playstation Games</h2>
     <ul class="game-list">
-      <li *ngFor="let game of playstationgames" class="game-title">
-        {{ game }}
-      </li>
+      @for (game of playstationgames; track game) {
+        <li class="game-title">
+          {{ game }}
+        </li>
+      }
     </ul>
   </div>
 
   <div class="game-section">
     <h2>PC Games</h2>
     <ul class="game-list">
-      <li *ngFor="let game of pcgames" class="game-title">
-        {{ game }}
-      </li>
+      @for (game of pcgames; track game) {
+        <li class="game-title">
+          {{ game }}
+        </li>
+      }
     </ul>
   </div>
 </div>

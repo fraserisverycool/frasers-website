@@ -22,14 +22,15 @@
   </div>
 
   <div class="sorting-buttons types">
-    <button
-      *ngFor="let type of pokemonTypes"
-      (click)="toggleType(type)"
-      class="type-button"
-      [ngClass]="type.toLowerCase()"
-      [class.selected]="activeTypes.has(type)">
-      {{ type | titlecase }}
-    </button>
+    @for (type of pokemonTypes; track type) {
+      <button
+        (click)="toggleType(type)"
+        class="type-button"
+        [ngClass]="type.toLowerCase()"
+        [class.selected]="activeTypes.has(type)">
+        {{ type | titlecase }}
+      </button>
+    }
   </div>
 
   <div class="sorting-buttons misc">
@@ -40,39 +41,46 @@
   </div>
 
   <div class="tiers-container">
-    <div *ngFor="let tierKey of orderedTiers">
-      <div class="tier-header" (click)="toggleTier(tierKey)">
-        <span class="tier-name">{{ tierKey }}</span>
-        <span class="tier-description">{{ tierHeadings[tierKey] }}</span>
-        <span class="arrow">{{ collapsed[tierKey] ? "▶" : "▼" }}</span>
-      </div>
-      <div class="tier-content" *ngIf="!collapsed[tierKey]">
-        <div class="pokemon-grid">
-          <div
-            class="pokemon-card"
-            *ngFor="let p of tiers[tierKey]"
-            [title]="p.number + ' – ' + p.name"
-            (click)="openModal(p)"
-          >
-            <img
-              [src]="imageService.imageUrl('/misc/pokemon/' + p.image)"
-              loading="lazy"
-              [alt]="p.name">
-          </div>
+    @for (tierKey of orderedTiers; track tierKey) {
+      <div>
+        <div class="tier-header" (click)="toggleTier(tierKey)">
+          <span class="tier-name">{{ tierKey }}</span>
+          <span class="tier-description">{{ tierHeadings[tierKey] }}</span>
+          <span class="arrow">{{ collapsed[tierKey] ? "▶" : "▼" }}</span>
         </div>
-      </div>
+        @if (!collapsed[tierKey]) {
+          <div class="tier-content">
+            <div class="pokemon-grid">
+              @for (p of tiers[tierKey]; track p) {
+                <div
+                  class="pokemon-card"
+                  [title]="p.number + ' – ' + p.name"
+                  (click)="openModal(p)"
+                  >
+                  <img
+                    [src]="imageService.imageUrl('/misc/pokemon/' + p.image)"
+                    loading="lazy"
+                    [alt]="p.name">
+                  </div>
+                }
+              </div>
+            </div>
+          }
+        </div>
+      }
     </div>
   </div>
-</div>
 
-<div class="modal" *ngIf="selectedPokemon" (click)="closeModal()">
-  <app-close-button (click)="close.emit()"/>
-  <div class="modal-content" (click)="$event.stopPropagation()">
-    <h2>#{{ selectedPokemon.number }} – {{ selectedPokemon.name }}</h2>
-    <img
-      class="modal-image"
-      [src]="imageService.imageUrl('/misc/pokemon/' + selectedPokemon.image)"
-      [alt]="selectedPokemon.name">
-    <p>{{ selectedPokemon.description }}</p>
-  </div>
-</div>
+  @if (selectedPokemon) {
+    <div class="modal" (click)="closeModal()">
+      <app-close-button (click)="close.emit()"/>
+      <div class="modal-content" (click)="$event.stopPropagation()">
+        <h2>#{{ selectedPokemon.number }} – {{ selectedPokemon.name }}</h2>
+        <img
+          class="modal-image"
+          [src]="imageService.imageUrl('/misc/pokemon/' + selectedPokemon.image)"
+          [alt]="selectedPokemon.name">
+          <p>{{ selectedPokemon.description }}</p>
+        </div>
+      </div>
+    }

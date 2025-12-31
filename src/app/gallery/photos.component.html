@@ -1,9 +1,11 @@
 <div class="container">
   <h1>Photos!</h1>
   <ul class="gallery-rows">
-    <li *ngFor="let photo of photos; let i = index" class="gallery-row">
-      <app-photo [photo]=photo></app-photo>
-    </li>
+    @for (photo of photos; track photo; let i = $index) {
+      <li class="gallery-row">
+        <app-photo [photo]=photo></app-photo>
+      </li>
+    }
   </ul>
   <h4>I'm happy you made it to the end! Here's a <a routerLink="/gallery/videos">secret webpage</a> for you</h4>
 </div>

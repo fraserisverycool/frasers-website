@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import GamesComponent from "../games.component";
 
 @Component({
     selector: 'app-next',
-    imports: [CommonModule, GamesComponent],
+    imports: [GamesComponent],
     templateUrl: './next-game.component.html',
     styleUrls: ['./next-game.component.css']
 })

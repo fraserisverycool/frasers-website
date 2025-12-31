@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {RatingService} from "../../../utils/rating-bar/service/rating.service";
@@ -12,7 +12,7 @@ import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
     selector: 'app-kk',
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, RouterLink, CloseButtonComponent, KkModalComponent, SoundtrackModalComponent],
+    imports: [NgOptimizedImage, RatingBarComponent, RouterLink, CloseButtonComponent, KkModalComponent, SoundtrackModalComponent],
     templateUrl: './kk.component.html',
     styleUrls: ['./kk.component.css']
 })

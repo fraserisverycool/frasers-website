@@ -1,18 +1,24 @@
-<div *ngIf="selectedAlbum" class="modal">
-  <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
-    <app-close-button (click)="close.emit()"/>
-    <h2>{{ selectedAlbum.name }}</h2>
-    <img [ngSrc]="imageService.imageUrl('/music/albums/' + selectedAlbum.filename)" [alt]="selectedAlbum.name" class="modal-image" width="600" height="600">
-    <div class="releaseyear-icon" [style.background-color]="selectedAlbum.color" [style.color]="selectedAlbum.textColor">
-      {{ selectedAlbum.releaseyear }}
+@if (selectedAlbum) {
+  <div class="modal">
+    <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
+      <app-close-button (click)="close.emit()"/>
+      <h2>{{ selectedAlbum.name }}</h2>
+      <img [ngSrc]="imageService.imageUrl('/music/albums/' + selectedAlbum.filename)" [alt]="selectedAlbum.name" class="modal-image" width="600" height="600">
+      <div class="releaseyear-icon" [style.background-color]="selectedAlbum.color" [style.color]="selectedAlbum.textColor">
+        {{ selectedAlbum.releaseyear }}
+      </div>
+      @for (paragraph of selectedAlbum.description; track paragraph) {
+        <div>
+          <p>{{ paragraph }}</p>
+        </div>
+      }
+      <h3>Top Tracks:</h3>
+      <ul class="top-tracks">
+        @for (track of selectedAlbum.topTracks; track track) {
+          <li [style.background-color]="currentRandomColor">{{ track }}</li>
+        }
+      </ul>
+      <app-rating-bar [rating]="{id: selectedAlbum.id, ratings: selectedAlbum.rating}"></app-rating-bar>
     </div>
-    <div *ngFor="let paragraph of selectedAlbum.description">
-      <p>{{ paragraph }}</p>
-    </div>
-    <h3>Top Tracks:</h3>
-    <ul class="top-tracks">
-      <li *ngFor="let track of selectedAlbum.topTracks" [style.background-color]="currentRandomColor">{{ track }}</li>
-    </ul>
-    <app-rating-bar [rating]="{id: selectedAlbum.id, ratings: selectedAlbum.rating}"></app-rating-bar>
   </div>
-</div>
+}

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import {NavigationEnd, Router, RouterLink, RouterOutlet} from '@angular/router';
 import {Title} from "@angular/platform-browser";
 import {filter} from "rxjs";
@@ -7,7 +7,7 @@ import {map} from "rxjs/operators";
 
 @Component({
     selector: 'app-root',
-    imports: [CommonModule, RouterOutlet, RouterLink],
+    imports: [RouterOutlet, RouterLink],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
 })

@@ -21,15 +21,19 @@
       </div>
       <app-color-picker [color]="newFeedback.color" (colorChange)="newFeedback.color = $event"></app-color-picker>
       <button type="submit">Submit Feedback</button>
-      <div *ngIf="errorMessage" class="error-message">
-        {{ errorMessage }}
-      </div>
+      @if (errorMessage) {
+        <div class="error-message">
+          {{ errorMessage }}
+        </div>
+      }
     </form>
   </div>
   <ul class="feedback-list">
-    <li *ngFor="let feedback of feedbacks" class="feedback-item" [style.background-color]="feedback.color" [style.color]="textColor(feedback.color)">
-      <p><strong>{{ feedback.name }}</strong> - {{ feedback.timestamp | date:'dd-MM-yyyy' }}</p>
-      <p>{{ feedback.comment }}</p>
-    </li>
+    @for (feedback of feedbacks; track feedback) {
+      <li class="feedback-item" [style.background-color]="feedback.color" [style.color]="textColor(feedback.color)">
+        <p><strong>{{ feedback.name }}</strong> - {{ feedback.timestamp | date:'dd-MM-yyyy' }}</p>
+        <p>{{ feedback.comment }}</p>
+      </li>
+    }
   </ul>
 </div>

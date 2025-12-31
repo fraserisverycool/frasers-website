@@ -1,12 +1,11 @@
 <div class="image-details">
   <h2>{{ photo.title }}</h2>
   <div class="image-container" (click)="openModal(photo)">
-    <ng-container *ngIf="showText; else normalImage">
+    @if (showText) {
       <img [ngSrc]="imageService.imageUrl('/gallery/' + photo.unmasked)" [alt]="photo.title" class="gallery-image" width="600" height="600">
-    </ng-container>
-    <ng-template #normalImage>
+    } @else {
       <img [ngSrc]="imageService.imageUrl('/gallery/' + photo.filename)" [alt]="photo.title" class="gallery-image" width="600" height="600">
-    </ng-template>
+    }
   </div>
   <div class="description-container">
     <p>To unlock the anecdote behind this photo, please answer this question:</p>
@@ -15,22 +14,26 @@
       <input [(ngModel)]="userAnswer" (keyup.enter)="checkAnswer(userAnswer)" placeholder="Your answer here">
       <button (click)="checkAnswer(userAnswer)">Submit</button>
     </div>
-    <div *ngIf="showText">
-      <p>{{ photo.description }}</p>
-    </div>
+    @if (showText) {
+      <div>
+        <p>{{ photo.description }}</p>
+      </div>
+    }
   </div>
   <p class="date" [ngStyle]="{'padding-bottom': '10px'}">{{ photo.month }}</p>
   <app-rating-bar [rating]="{id: photo.id, ratings: photo.rating}"></app-rating-bar>
 </div>
 
-<div *ngIf="modalImage" class="modal" (click)="closeModal()">
-  <img
+@if (modalImage) {
+  <div class="modal" (click)="closeModal()">
+    <img
     [ngSrc]="imageService.imageUrl(
     '/gallery/' + (showText ? modalImage.unmasked : modalImage.filename)
   )"
-    [alt]="modalImage.title"
-    class="modal-image"
-    width="600"
-    height="600"
-  />
-</div>
+      [alt]="modalImage.title"
+      class="modal-image"
+      width="600"
+      height="600"
+      />
+    </div>
+  }

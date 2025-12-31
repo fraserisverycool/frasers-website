@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { HttpClient } from "@angular/common/http";
 import {RouterLink} from "@angular/router";
 import PhotoComponent from "./photo/photo.component";
@@ -8,7 +8,7 @@ import {RatingService} from "../utils/rating-bar/service/rating.service";
 
 @Component({
     selector: 'app-gallery',
-    imports: [CommonModule, RouterLink, PhotoComponent],
+    imports: [RouterLink, PhotoComponent],
     templateUrl: './photos.component.html',
     styleUrls: ['./photos.component.css']
 })

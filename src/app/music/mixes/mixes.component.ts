@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {CommonModule} from '@angular/common';
+
 import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
@@ -16,7 +16,7 @@ interface Mp3Info {
 
 @Component({
     selector: 'app-mixes',
-    imports: [CommonModule, RatingBarComponent],
+    imports: [RatingBarComponent],
     templateUrl: './mixes.component.html',
     styleUrls: ['./mixes.component.css']
 })

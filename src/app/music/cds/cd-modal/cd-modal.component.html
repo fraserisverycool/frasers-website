@@ -1,9 +1,11 @@
-<div *ngIf="selectedCd" class="modal">
-  <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
-    <app-close-button (click)="close.emit()"/>
-    <h2>{{ selectedCd.album }}</h2>
-    <img [ngSrc]="imageService.imageUrl('/music/albums/' + selectedCd.image)" [alt]="selectedCd.album" class="modal-image" width="600" height="600">
-    <p [innerHTML]="selectedCd.description"></p>
-    <app-rating-bar [rating]="{id: selectedCd.id, ratings: selectedCd.rating}"></app-rating-bar>
+@if (selectedCd) {
+  <div class="modal">
+    <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
+      <app-close-button (click)="close.emit()"/>
+      <h2>{{ selectedCd.album }}</h2>
+      <img [ngSrc]="imageService.imageUrl('/music/albums/' + selectedCd.image)" [alt]="selectedCd.album" class="modal-image" width="600" height="600">
+      <p [innerHTML]="selectedCd.description"></p>
+      <app-rating-bar [rating]="{id: selectedCd.id, ratings: selectedCd.rating}"></app-rating-bar>
+    </div>
   </div>
-</div>
+}

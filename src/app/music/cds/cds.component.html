@@ -24,23 +24,29 @@
   <div class="tag-filter-container">
     <p class="filter-text">Filter by Genre:</p>
     <ul>
-      <li *ngFor="let tag of genreList; let i = index" class="tag-radio">
-        <input type="radio" [id]="'tag-' + i" [value]="tag" [name]="'genre-filter'" (change)="toggleTagSelection(tag)" [checked]="selectedTag === tag">
-        <label [for]="'tag-' + i" [ngStyle]="{ 'background-color': genres.get(tag) }">{{ tag }}</label>
-      </li>
+      @for (tag of genreList; track tag; let i = $index) {
+        <li class="tag-radio">
+          <input type="radio" [id]="'tag-' + i" [value]="tag" [name]="'genre-filter'" (change)="toggleTagSelection(tag)" [checked]="selectedTag === tag">
+          <label [for]="'tag-' + i" [ngStyle]="{ 'background-color': genres.get(tag) }">{{ tag }}</label>
+        </li>
+      }
     </ul>
   </div>
   <ul>
-    <div *ngFor="let cd of filteredCds" class="cd-card" (click)="showDescription(cd)">
-      <div class="cd-image-container">
-        <img [ngSrc]="imageService.imageUrl('/music/albums/' + cd.image)" [alt]="cd.album" class="cd-image" width="200" height="200"/>
-        <img [src]="imageService.imageUrl('/music/cds/cd-case.png')" class="cd-case" />
+    @for (cd of filteredCds; track cd) {
+      <div class="cd-card" (click)="showDescription(cd)">
+        <div class="cd-image-container">
+          <img [ngSrc]="imageService.imageUrl('/music/albums/' + cd.image)" [alt]="cd.album" class="cd-image" width="200" height="200"/>
+          <img [src]="imageService.imageUrl('/music/cds/cd-case.png')" class="cd-case" />
+        </div>
+        <div class="cd-info" [style.background-color]="generateGenreColour(cd.genre)">
+          <h2 class="cd-name">{{cd.artist}} - {{ cd.album }}</h2>
+        </div>
       </div>
-      <div class="cd-info" [style.background-color]="generateGenreColour(cd.genre)">
-        <h2 class="cd-name">{{cd.artist}} - {{ cd.album }}</h2>
-      </div>
-    </div>
+    }
   </ul>
 </div>
 
-<app-cd-modal *ngIf="selectedCd" [selectedCd]="selectedCd" (close)="closeDescription()"></app-cd-modal>
+@if (selectedCd) {
+  <app-cd-modal [selectedCd]="selectedCd" (close)="closeDescription()"></app-cd-modal>
+}

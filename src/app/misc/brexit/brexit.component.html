@@ -1,10 +1,14 @@
 
 <div class="image-grid">
-  <div class="image-container" *ngFor="let image of images">
-    <img [ngSrc]="imageService.imageUrl('/misc/brexit/' + image)" alt="Brexit Summit Top 8 Image" (click)="openImage(image)" width="100" height="200"/>
-  </div>
+  @for (image of images; track image) {
+    <div class="image-container">
+      <img [ngSrc]="imageService.imageUrl('/misc/brexit/' + image)" alt="Brexit Summit Top 8 Image" (click)="openImage(image)" width="100" height="200"/>
+    </div>
+  }
 </div>
 
-<div class="overlay" *ngIf="selectedImage" (click)="closeImage()">
-  <img ngSrc="selectedImage" alt="Brexit Summit Top 8 Image" class="enlarged" width="600" height="800"/>
-</div>
+@if (selectedImage) {
+  <div class="overlay" (click)="closeImage()">
+    <img ngSrc="selectedImage" alt="Brexit Summit Top 8 Image" class="enlarged" width="600" height="800"/>
+  </div>
+}

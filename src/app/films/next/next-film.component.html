@@ -2,9 +2,11 @@
   <div class="film-section">
     <h1>Films I would like to see</h1>
     <ul class="film-list">
-      <li *ngFor="let film of films" class="film-title">
-        {{ film }}
-      </li>
+      @for (film of films; track film) {
+        <li class="film-title">
+          {{ film }}
+        </li>
+      }
     </ul>
   </div>
 </div>

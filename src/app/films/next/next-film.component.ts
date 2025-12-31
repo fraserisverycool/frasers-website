@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import FilmsComponent from "../films.component";
 
 @Component({
     selector: 'app-next',
-    imports: [CommonModule, FilmsComponent],
+    imports: [FilmsComponent],
     templateUrl: './next-film.component.html',
     styleUrls: ['./next-film.component.css']
 })

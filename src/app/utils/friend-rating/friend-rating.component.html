@@ -1,25 +1,23 @@
 <div class="friend-rating-list">
-  <div class="friend-rating-item" *ngFor="let rating of friendRatings">
-
-    <div class="friend-row">
-      <!-- Image on the left -->
-      <img
-        class="friend-image"
-        [src]="imageService.imageUrl(friendImages[rating.friend])"
-        [alt]="rating.friend"
-      />
-
-      <!-- Title above text on the right -->
-      <div class="friend-content">
-        <h3 class="friend-name">
-          {{ rating.friend }}'s opinion
-        </h3>
-
-        <p class="friend-text">
-          {{ rating.rating }}
-        </p>
+  @for (rating of friendRatings; track rating) {
+    <div class="friend-rating-item">
+      <div class="friend-row">
+        <!-- Image on the left -->
+        <img
+          class="friend-image"
+          [src]="imageService.imageUrl(friendImages[rating.friend])"
+          [alt]="rating.friend"
+          />
+        <!-- Title above text on the right -->
+        <div class="friend-content">
+          <h3 class="friend-name">
+            {{ rating.friend }}'s opinion
+          </h3>
+          <p class="friend-text">
+            {{ rating.rating }}
+          </p>
+        </div>
       </div>
     </div>
-
-  </div>
+  }
 </div>

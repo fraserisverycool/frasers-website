@@ -1,18 +1,24 @@
-<div *ngIf="selectedSoundtrack" class="modal">
-  <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
-    <app-close-button (click)="close.emit()"/>
-    <h2>{{ selectedSoundtrack.name }}</h2>
-    <img [ngSrc]="imageService.imageUrl('/music/nintendo/' + selectedSoundtrack.filename)" [alt]="selectedSoundtrack.name" class="modal-image" width="600" height="600">
-    <div class="platform-icon" [ngClass]="selectedSoundtrack.platform | lowercase">
-      {{ selectedSoundtrack.platform }}
+@if (selectedSoundtrack) {
+  <div class="modal">
+    <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
+      <app-close-button (click)="close.emit()"/>
+      <h2>{{ selectedSoundtrack.name }}</h2>
+      <img [ngSrc]="imageService.imageUrl('/music/nintendo/' + selectedSoundtrack.filename)" [alt]="selectedSoundtrack.name" class="modal-image" width="600" height="600">
+      <div class="platform-icon" [ngClass]="selectedSoundtrack.platform | lowercase">
+        {{ selectedSoundtrack.platform }}
+      </div>
+      @for (paragraph of selectedSoundtrack.description; track paragraph) {
+        <div>
+          <p>{{ paragraph }}</p>
+        </div>
+      }
+      <h3>Top Tracks:</h3>
+      <ul class="top-tracks">
+        @for (track of selectedSoundtrack.topTracks; track track) {
+          <li [style.background-color]="currentRandomColor">{{ track }}</li>
+        }
+      </ul>
+      <app-rating-bar [rating]="{id: selectedSoundtrack.id, ratings: selectedSoundtrack.rating}"></app-rating-bar>
     </div>
-    <div *ngFor="let paragraph of selectedSoundtrack.description">
-      <p>{{ paragraph }}</p>
-    </div>
-    <h3>Top Tracks:</h3>
-    <ul class="top-tracks">
-      <li *ngFor="let track of selectedSoundtrack.topTracks" [style.background-color]="currentRandomColor">{{ track }}</li>
-    </ul>
-    <app-rating-bar [rating]="{id: selectedSoundtrack.id, ratings: selectedSoundtrack.rating}"></app-rating-bar>
   </div>
-</div>
+}

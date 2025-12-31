@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {Router, RouterLink, RouterOutlet} from '@angular/router';
 import {FormsModule} from '@angular/forms';
@@ -9,7 +9,7 @@ import {RatingService} from "../utils/rating-bar/service/rating.service";
 
 @Component({
     selector: 'app-films',
-    imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, FilmComponent],
+    imports: [RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, FilmComponent],
     templateUrl: './films.component.html',
     styleUrls: ['./films.component.css']
 })

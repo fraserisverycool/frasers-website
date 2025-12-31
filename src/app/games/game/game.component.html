@@ -5,8 +5,8 @@
       <p>
         <span class="vibes">Vibes:</span> {{ game.vibes }}/10 |
         <span class="gameplay">
-      {{ game.story ? 'Story:' : 'Gameplay:' }}
-    </span>
+          {{ game.story ? 'Story:' : 'Gameplay:' }}
+        </span>
         {{ game.gameplay }}/10
       </p>
       <p>
@@ -14,15 +14,16 @@
         <span class="release-info">Played:</span> {{ game.year === 'older' ? 'before 2020' : game.year }}
       </p>
     </div>
-    <img
-      *ngIf="game.completed"
-      class="completed"
-      [ngSrc]="imageService.imageUrl('/games/' + (!game.completable ? 'completed2.png' : 'completed.png'))"
-      alt="completed"
-      [title]="!game.completable ? 'As far as this game can actually be completed' : 'I beat the game!'"
-      width="50"
-      height="50"
-    />
+    @if (game.completed) {
+      <img
+        class="completed"
+        [ngSrc]="imageService.imageUrl('/games/' + (!game.completable ? 'completed2.png' : 'completed.png'))"
+        alt="completed"
+        [title]="!game.completable ? 'As far as this game can actually be completed' : 'I beat the game!'"
+        width="50"
+        height="50"
+        />
+    }
   </div>
   <app-read-more [paragraphs]="game.review"></app-read-more>
   <img [ngSrc]="imageService.imageUrl('/games/' + game.image)" alt="{{ game.name }}" width="600" height="400">

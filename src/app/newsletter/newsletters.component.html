@@ -16,8 +16,10 @@
   </div>
   <h2>Past Newsletters</h2>
   <ul class="table-container">
-    <li class="newsletter-row" *ngFor="let newsletter of newsletters; let i = index">
-      <a [routerLink]="['/newsletter', newsletter.timestamp]">{{ newsletter.timestamp }} | {{ newsletter.title }}</a>
-    </li>
+    @for (newsletter of newsletters; track newsletter; let i = $index) {
+      <li class="newsletter-row">
+        <a [routerLink]="['/newsletter', newsletter.timestamp]">{{ newsletter.timestamp }} | {{ newsletter.title }}</a>
+      </li>
+    }
   </ul>
 </div>

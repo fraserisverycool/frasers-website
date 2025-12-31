@@ -1,9 +1,9 @@
 import {Component, Input, OnInit} from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
     selector: 'app-custom-marquee',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './custom-marquee.component.html',
     styleUrls: ['./custom-marquee.component.css']
 })

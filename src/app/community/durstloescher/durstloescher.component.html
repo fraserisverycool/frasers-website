@@ -9,16 +9,20 @@
     <button (click)="sortDurstloescher('score')">By score</button>
   </div>
   <ul>
-    <li *ngFor="let durst of durstloescher" class="durstloescher-card" (click)="showDescription(durst)">
-      <div class="durstloescher-image-container">
-        <img [ngSrc]="imageService.imageUrl('/community/durstloescher/' + durst.filename)" [alt]="durst.name" class="durstloescher-image" width="600" height="600">
-      </div>
-      <div class="durstloescher-info">
-        <h2 class="durstloescher-name">{{ durst.name }}</h2>
-        <span class="durstloescher-score">{{ durst.score }}</span>
-      </div>
-    </li>
+    @for (durst of durstloescher; track durst) {
+      <li class="durstloescher-card" (click)="showDescription(durst)">
+        <div class="durstloescher-image-container">
+          <img [ngSrc]="imageService.imageUrl('/community/durstloescher/' + durst.filename)" [alt]="durst.name" class="durstloescher-image" width="600" height="600">
+        </div>
+        <div class="durstloescher-info">
+          <h2 class="durstloescher-name">{{ durst.name }}</h2>
+          <span class="durstloescher-score">{{ durst.score }}</span>
+        </div>
+      </li>
+    }
   </ul>
 </div>
 
-<app-durstloescher-modal *ngIf="selectedDurstloescher" [selectedDurstloescher]="selectedDurstloescher" (close)="closeDescription()"></app-durstloescher-modal>
+@if (selectedDurstloescher) {
+  <app-durstloescher-modal [selectedDurstloescher]="selectedDurstloescher" (close)="closeDescription()"></app-durstloescher-modal>
+}

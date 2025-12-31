@@ -1,9 +1,9 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
     selector: 'app-star-message',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './star-message.component.html',
     styleUrls: ['./star-message.component.css']
 })

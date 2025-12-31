@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-party',
-    imports: [CommonModule, NgOptimizedImage],
+    imports: [NgOptimizedImage],
     templateUrl: './party.component.html',
     styleUrls: ['./party.component.css']
 })

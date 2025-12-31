@@ -1,20 +1,30 @@
 <div class="container">
   <div class="overlay"></div>
-  <div *ngIf="newsletter">
-    <h1 class="title">{{ newsletter.title }}</h1>
-    <p class="timestamp">{{ newsletter.timestamp }}</p>
-    <div *ngFor="let paragraph of newsletter.description">
-      <p class="description">{{ paragraph }}</p>
+  @if (newsletter) {
+    <div>
+      <h1 class="title">{{ newsletter.title }}</h1>
+      <p class="timestamp">{{ newsletter.timestamp }}</p>
+      @for (paragraph of newsletter.description; track paragraph) {
+        <div>
+          <p class="description">{{ paragraph }}</p>
+        </div>
+      }
+      @for (entry of newsletter.entries; track entry; let i = $index) {
+        <div [ngClass]="['entry', getClass(entry)]">
+          <div [ngClass]="['special-title', getClass(entry)]">{{ getName(entry.type) }}</div>
+          <h2 class="entry-title">{{ entry.title }}</h2>
+          <p class="entry-metadata">{{ entry.metadata }}</p>
+          @for (entryparagraph of entry.description; track entryparagraph) {
+            <div>
+              <p class="description">{{ entryparagraph }}</p>
+            </div>
+          }
+          @if (entry.image) {
+            <img [ngSrc]="imageService.imageUrl(entry.image)" [alt]="entry.title" class="entry-image" width="600" height="600">
+          }
+        </div>
+      }
+      <p class="title">And don't forget... an <a routerLink="/music/daily-soundtracks">archive</a> of "Soundtrack of the Day" updates are on the website!</p>
     </div>
-    <div *ngFor="let entry of newsletter.entries; let i = index" [ngClass]="['entry', getClass(entry)]">
-      <div [ngClass]="['special-title', getClass(entry)]">{{ getName(entry.type) }}</div>
-      <h2 class="entry-title">{{ entry.title }}</h2>
-      <p class="entry-metadata">{{ entry.metadata }}</p>
-      <div *ngFor="let entryparagraph of entry.description">
-        <p class="description">{{ entryparagraph }}</p>
-      </div>
-      <img *ngIf="entry.image" [ngSrc]="imageService.imageUrl(entry.image)" [alt]="entry.title" class="entry-image" width="600" height="600">
-    </div>
-    <p class="title">And don't forget... an <a routerLink="/music/daily-soundtracks">archive</a> of "Soundtrack of the Day" updates are on the website!</p>
-  </div>
+  }
 </div>

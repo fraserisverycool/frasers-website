@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {NgFor, NgIf, NgOptimizedImage} from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import {Router, RouterLink} from "@angular/router";
 import {CustomMarqueeComponent} from "./custom-marquee/custom-marquee.component";
 import {ChangelogComponent} from "./changelog-page/changelog/changelog.component";
@@ -13,7 +13,7 @@ import {ImageService} from "../utils/services/image.service";
 
 @Component({
     selector: 'app-homepage',
-    imports: [NgFor, RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, NgIf, DailyComponent],
+    imports: [RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, DailyComponent],
     templateUrl: './homepage.component.html',
     styleUrls: ['./homepage.component.css']
 })

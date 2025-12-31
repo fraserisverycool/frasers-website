@@ -1,20 +1,32 @@
-<div class="daily-soundtrack" *ngIf="today">
-  <div class="overlay"></div>
-  <h2>{{today.track}}</h2>
-  <p *ngIf="!today.game"><strong>Artist:</strong> {{today.artist}}</p>
-  <p *ngIf="today.game"><strong>Composer:</strong> {{today.artist}}</p>
-  <p *ngIf="!today.game"><strong>Album:</strong> {{today.album}}</p>
-  <p *ngIf="today.game"><strong>Game:</strong> {{today.album}}</p>
-  <p><strong>Description:</strong> {{today.description}}</p>
-  <div class="video-container">
-    <iframe [src]="safeLink" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+@if (today) {
+  <div class="daily-soundtrack">
+    <div class="overlay"></div>
+    <h2>{{today.track}}</h2>
+    @if (!today.game) {
+      <p><strong>Artist:</strong> {{today.artist}}</p>
+    }
+    @if (today.game) {
+      <p><strong>Composer:</strong> {{today.artist}}</p>
+    }
+    @if (!today.game) {
+      <p><strong>Album:</strong> {{today.album}}</p>
+    }
+    @if (today.game) {
+      <p><strong>Game:</strong> {{today.album}}</p>
+    }
+    <p><strong>Description:</strong> {{today.description}}</p>
+    <div class="video-container">
+      <iframe [src]="safeLink" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <app-rating-bar [rating]="{id: today.id, ratings: today.rating}"></app-rating-bar>
+    <a routerLink="/music/daily-soundtracks">Here are all the daily soundtracks you missed!</a>
   </div>
-  <app-rating-bar [rating]="{id: today.id, ratings: today.rating}"></app-rating-bar>
-  <a routerLink="/music/daily-soundtracks">Here are all the daily soundtracks you missed!</a>
-</div>
-<div class="daily-soundtrack" *ngIf="!today">
-  <div class="overlay"></div>
-  <h2>No soundtrack of the day today!</h2>
-  <p>I write these out in advance, so if you're seeing this, it probably means that enough time has passed that all the recommendations have already been posted. </p>
-  <a routerLink="/music/daily-soundtracks">Here are all the daily soundtracks you missed!</a>
-</div>
+}
+@if (!today) {
+  <div class="daily-soundtrack">
+    <div class="overlay"></div>
+    <h2>No soundtrack of the day today!</h2>
+    <p>I write these out in advance, so if you're seeing this, it probably means that enough time has passed that all the recommendations have already been posted. </p>
+    <a routerLink="/music/daily-soundtracks">Here are all the daily soundtracks you missed!</a>
+  </div>
+}

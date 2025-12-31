@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import {CloseButtonComponent} from "../../../../utils/close-button/close-button.component";
 import {RatingBarComponent} from "../../../../utils/rating-bar/rating-bar.component";
 import {KKSong} from "../kk-song.interface";
@@ -7,7 +7,7 @@ import {ImageService} from "../../../../utils/services/image.service";
 
 @Component({
     selector: 'app-kk-modal',
-    imports: [CommonModule, CloseButtonComponent, NgOptimizedImage, RatingBarComponent],
+    imports: [CloseButtonComponent, NgOptimizedImage, RatingBarComponent],
     templateUrl: './kk-modal.component.html',
     styleUrls: ['./kk-modal.component.css']
 })

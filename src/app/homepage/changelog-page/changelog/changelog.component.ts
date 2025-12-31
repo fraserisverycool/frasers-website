@@ -1,11 +1,11 @@
 import {Component, OnInit} from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import {ChangelogEntry} from "../changelog-entry.interface";
 import { HttpClient } from "@angular/common/http";
 
 @Component({
     selector: 'app-changelog',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './changelog.component.html',
     styleUrls: ['./changelog.component.css']
 })

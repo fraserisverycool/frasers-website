@@ -1,9 +1,9 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
     selector: 'app-divider',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './divider.component.html',
     styleUrls: ['./divider.component.css']
 })

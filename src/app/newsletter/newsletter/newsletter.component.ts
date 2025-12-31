@@ -1,5 +1,5 @@
 import {Component, HostBinding, OnInit} from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {ActivatedRoute, RouterLink} from "@angular/router";
 import { HttpClient } from "@angular/common/http";
 import {Entry, Newsletter, NewsletterContent} from "../newsletter.interface";

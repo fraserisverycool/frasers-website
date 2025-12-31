@@ -1,5 +1,11 @@
-<div *ngFor="let p of paragraphs; let i = index">
-  <p *ngIf="i < 2 || showAll">{{ p }}</p>
-</div>
+@for (p of paragraphs; track p; let i = $index) {
+  <div>
+    @if (i < 2 || showAll) {
+      <p>{{ p }}</p>
+    }
+  </div>
+}
 
-<button *ngIf="paragraphs.length > 2 && !showAll" (click)="toggleShowAll()">Read more...</button>
+@if (paragraphs.length > 2 && !showAll) {
+  <button (click)="toggleShowAll()">Read more...</button>
+}

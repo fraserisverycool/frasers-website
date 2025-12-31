@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-writing',
-    imports: [CommonModule, NgOptimizedImage],
+    imports: [NgOptimizedImage],
     templateUrl: './writing.component.html',
     styleUrls: ['./writing.component.css']
 })

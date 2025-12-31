@@ -1,12 +1,12 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { HttpClient } from '@angular/common/http';
 import {FriendRating} from "./friend-rating.interface";
 import {ImageService} from "../services/image.service";
 
 @Component({
     selector: 'app-friend-rating',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './friend-rating.component.html',
     styleUrls: ['./friend-rating.component.css']
 })

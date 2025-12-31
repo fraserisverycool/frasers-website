@@ -2,31 +2,39 @@
   <h1>Soundtrack of the Day - Archive</h1>
   <div class="overlay"></div>
   <ul class="filter-grid">
-    <li *ngFor="let filter of filters">
-      <button (click)="filterDailySoundtracks(filter)" class="filter-button" [ngClass]="{ 'active': filter === currentFilter }">
-        <span>{{ filter }}</span>
-      </button>
-    </li>
+    @for (filter of filters; track filter) {
+      <li>
+        <button (click)="filterDailySoundtracks(filter)" class="filter-button" [ngClass]="{ 'active': filter === currentFilter }">
+          <span>{{ filter }}</span>
+        </button>
+      </li>
+    }
   </ul>
   <ul>
-    <li *ngFor="let track of dailySoundtracks" class="list-item">
-      <div>
-        <h2 class="h3" *ngIf="!track.game">{{track.artist}} - {{track.track}}</h2>
-        <h2 class="h3" *ngIf="track.game">{{track.album}} - {{track.track}}</h2>
-
-        <p class="p" *ngIf="!track.game"><strong>Album:</strong> {{track.album}}</p>
-        <p class="p" *ngIf="track.game"><strong>Composer:</strong> {{track.artist}}</p>
-
-        <p class="p"><strong>Description:</strong> {{track.description}}</p>
-
-        <a class="a" [href]="track.link">Listen on YouTube</a>
-
-        <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
-      </div>
-      <div class="date">
-        {{track.day}}
-      </div>
-    </li>
+    @for (track of dailySoundtracks; track track) {
+      <li class="list-item">
+        <div>
+          @if (!track.game) {
+            <h2 class="h3">{{track.artist}} - {{track.track}}</h2>
+          }
+          @if (track.game) {
+            <h2 class="h3">{{track.album}} - {{track.track}}</h2>
+          }
+          @if (!track.game) {
+            <p class="p"><strong>Album:</strong> {{track.album}}</p>
+          }
+          @if (track.game) {
+            <p class="p"><strong>Composer:</strong> {{track.artist}}</p>
+          }
+          <p class="p"><strong>Description:</strong> {{track.description}}</p>
+          <a class="a" [href]="track.link">Listen on YouTube</a>
+          <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
+        </div>
+        <div class="date">
+          {{track.day}}
+        </div>
+      </li>
+    }
   </ul>
   <div class="gif">
     <img [src]="imageService.imageUrl('/homepage/daily.gif')">

@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { HttpClient } from '@angular/common/http';
 import { NgOptimizedImage } from '@angular/common';
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-brexit',
-    imports: [CommonModule, NgOptimizedImage],
+    imports: [NgOptimizedImage],
     templateUrl: './brexit.component.html',
     styleUrls: ['./brexit.component.css']
 })

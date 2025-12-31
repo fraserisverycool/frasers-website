@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {CommonModule} from '@angular/common';
+
 import {Newsletter} from "./newsletter.interface";
 import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
@@ -8,7 +8,7 @@ import {ImageService} from "../utils/services/image.service";
 
 @Component({
     selector: 'app-newsletters',
-    imports: [CommonModule, RouterLink],
+    imports: [RouterLink],
     templateUrl: './newsletters.component.html',
     styleUrls: ['./newsletters.component.css']
 })

@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {Album} from "../album.interface";
 import {AlbumsService} from "../service/albums.service";
@@ -9,7 +9,7 @@ import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
     selector: 'app-album-modal',
-    imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, RatingBarComponent, CloseButtonComponent],
+    imports: [ClickedOutsideDirective, NgOptimizedImage, RatingBarComponent, CloseButtonComponent],
     templateUrl: './album-modal.component.html',
     styleUrls: ['./album-modal.component.css']
 })

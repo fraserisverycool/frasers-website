@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-worldpeace',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './worldpeace.component.html',
     styleUrls: ['./worldpeace.component.css']
 })

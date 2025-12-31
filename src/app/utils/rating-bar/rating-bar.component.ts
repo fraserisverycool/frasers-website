@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {RatingService} from "./service/rating.service";
 import {Rating} from "./service/rating.interface";
 import {ImageService} from "../services/image.service";

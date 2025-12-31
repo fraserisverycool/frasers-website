@@ -5,64 +5,77 @@
 
   <p>{{ pageDescription }}</p>
   <nav class="filter-bar">
-    <a
-      class="filter-button"
-      [ngClass]="{ 'selected': currentFilter === game.key }"
-      *ngFor="let game of gameMap | keyvalue:orderUnchanged"
-      (click)="filterTracks(game.key)">
-      {{ game.value }}
-    </a>
+    @for (game of gameMap | keyvalue:orderUnchanged; track game) {
+      <a
+        class="filter-button"
+        [ngClass]="{ 'selected': currentFilter === game.key }"
+        (click)="filterTracks(game.key)">
+        {{ game.value }}
+      </a>
+    }
   </nav>
   <p>{{ gameDescription[currentFilter] }}</p>
   <ul class="track-list">
-    <li *ngFor="let track of tracks" class="track-card">
-      <img
-        [ngSrc]="imageService.imageUrl('/misc/mariokart/' + track.image)"
-        alt="{{ track.name }} image"
-        width="600"
-        height="400"
-      >
-      <div class="track-header">
-        <h2>{{ track.name }}</h2>
-        <h3>{{ getKeyByValue(gameMap, track.original) }}</h3>
-      </div>
-      <p>{{ track.description }}</p>
-      <div class="star-bar">
-        <p>Music:
-          <span class="star" *ngFor="let i of ' '.repeat(track.music).split('')">
-            <img src="../../../assets/misc/mariokart/spinningstar.gif">
-          </span>
-        </p>
-        <p>Vibes:
-          <span class="star" *ngFor="let i of ' '.repeat(track.vibes).split('')">
-            <img src="../../../assets/misc/mariokart/spinningstar.gif">
-          </span>
-        </p>
-        <p>Track:
-          <span class="star" *ngFor="let i of ' '.repeat(track.track).split('')">
-            <img src="../../../assets/misc/mariokart/spinningstar.gif">
-          </span>
-        </p>
-      </div>
-      <div *ngIf="hasDuplicates(track)" class="navigation">
-        <button
-          *ngIf="track.previousGame"
-          (click)="navigateToTrack(track.previousGame, track.game, track.trackId)"
-          class="nav-button"
-        >
-          <span>&#8592;</span> Prev
-        </button>
-        <h4>Compare with other versions! Current Game: {{ track.game }}</h4>
-        <button
-          *ngIf="track.nextGame"
-          (click)="navigateToTrack(track.nextGame, track.game, track.trackId)"
-          class="nav-button"
-        >
-          Next <span>&#8594;</span>
-        </button>
-      </div>
-      <div [ngStyle]="{'padding-bottom': '25px'}"></div>
-      <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
-    </li>
-  </ul>
-</div>
+    @for (track of tracks; track track) {
+      <li class="track-card">
+        <img
+          [ngSrc]="imageService.imageUrl('/misc/mariokart/' + track.image)"
+          alt="{{ track.name }} image"
+          width="600"
+          height="400"
+          >
+          <div class="track-header">
+            <h2>{{ track.name }}</h2>
+            <h3>{{ getKeyByValue(gameMap, track.original) }}</h3>
+          </div>
+          <p>{{ track.description }}</p>
+          <div class="star-bar">
+            <p>Music:
+              @for (i of ' '.repeat(track.music).split(''); track i) {
+                <span class="star">
+                  <img src="../../../assets/misc/mariokart/spinningstar.gif">
+                </span>
+              }
+            </p>
+            <p>Vibes:
+              @for (i of ' '.repeat(track.vibes).split(''); track i) {
+                <span class="star">
+                  <img src="../../../assets/misc/mariokart/spinningstar.gif">
+                </span>
+              }
+            </p>
+            <p>Track:
+              @for (i of ' '.repeat(track.track).split(''); track i) {
+                <span class="star">
+                  <img src="../../../assets/misc/mariokart/spinningstar.gif">
+                </span>
+              }
+            </p>
+          </div>
+          @if (hasDuplicates(track)) {
+            <div class="navigation">
+              @if (track.previousGame) {
+                <button
+                  (click)="navigateToTrack(track.previousGame, track.game, track.trackId)"
+                  class="nav-button"
+                  >
+                  <span>&#8592;</span> Prev
+                </button>
+              }
+              <h4>Compare with other versions! Current Game: {{ track.game }}</h4>
+              @if (track.nextGame) {
+                <button
+                  (click)="navigateToTrack(track.nextGame, track.game, track.trackId)"
+                  class="nav-button"
+                  >
+                  Next <span>&#8594;</span>
+                </button>
+              }
+            </div>
+          }
+          <div [ngStyle]="{'padding-bottom': '25px'}"></div>
+          <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
+        </li>
+      }
+    </ul>
+  </div>

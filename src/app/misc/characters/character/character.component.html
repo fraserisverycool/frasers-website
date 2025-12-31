@@ -1,59 +1,65 @@
-<div class="character-detail" *ngIf="selectedCharacter" appClickedOutside (clickedOutside)="close.emit()">
-  <app-close-button (click)="close.emit()"/>
-  <h2>{{ selectedCharacter.name }}</h2>
-  <img
-    [ngSrc]="imageService.imageUrl('/misc/characters/pics/' + selectedCharacter.picture[pictureMode])"
-    alt="{{ selectedCharacter.name }}"
-    class="character-picture"
-    width="600"
-    height="600"
-  />
-  <div class="played-character" [style.box-shadow]="getBorder(selectedCharacter.color)">
-    <h3>Has Fraser played, completed and truly understood the game(s) {{ selectedCharacter.name }} is from?</h3>
-    <p>{{ selectedCharacter.playedDescription }}</p>
-    <div class="played-ratings">
-      <div class="played-ratings">
-        <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.played)" [style.border]="getColorBorder(selectedCharacter.played)">
-          {{ getBadge('Played', selectedCharacter.played) }}
-        </p>
-        <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.completed)" [style.border]="getColorBorder(selectedCharacter.completed)">
-          {{ getBadge('Completed', selectedCharacter.completed) }}
-        </p>
-        <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.understood)" [style.border]="getColorBorder(selectedCharacter.understood)">
-          {{ getBadge('Understood', selectedCharacter.understood) }}
-        </p>
+@if (selectedCharacter) {
+  <div class="character-detail" appClickedOutside (clickedOutside)="close.emit()">
+    <app-close-button (click)="close.emit()"/>
+    <h2>{{ selectedCharacter.name }}</h2>
+    <img
+      [ngSrc]="imageService.imageUrl('/misc/characters/pics/' + selectedCharacter.picture[pictureMode])"
+      alt="{{ selectedCharacter.name }}"
+      class="character-picture"
+      width="600"
+      height="600"
+      />
+      <div class="played-character" [style.box-shadow]="getBorder(selectedCharacter.color)">
+        <h3>Has Fraser played, completed and truly understood the game(s) {{ selectedCharacter.name }} is from?</h3>
+        <p>{{ selectedCharacter.playedDescription }}</p>
+        <div class="played-ratings">
+          <div class="played-ratings">
+            <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.played)" [style.border]="getColorBorder(selectedCharacter.played)">
+              {{ getBadge('Played', selectedCharacter.played) }}
+            </p>
+            <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.completed)" [style.border]="getColorBorder(selectedCharacter.completed)">
+              {{ getBadge('Completed', selectedCharacter.completed) }}
+            </p>
+            <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.understood)" [style.border]="getColorBorder(selectedCharacter.understood)">
+              {{ getBadge('Understood', selectedCharacter.understood) }}
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="main-character">
-    <h3>Do you main this character? What does that say about you?</h3>
-    <button (click)="selectedCharacter.showMain = !selectedCharacter.showMain">
-      {{ getButtonText(selectedCharacter) }}
-    </button>
-    <p *ngIf="selectedCharacter.showMain">{{selectedCharacter.main}}</p>
-  </div>
-  <div class="deco-character">
-    <h3>What decoration of {{ selectedCharacter.name }} does Fraser have at home?</h3>
-    <p *ngIf="isEmpty(selectedCharacter.deco)">
-      I don't have any decoration of {{ selectedCharacter.name }} yet :(((
-    </p>
-    <ul>
-      <li
-        class="character-decoration"
-        *ngFor="let decoration of selectedCharacter.deco"
-      >
-        <img
-          [ngSrc]="imageService.imageUrl('/misc/characters/deco/' + decoration.filename)"
-          alt="{{ selectedCharacter.name }}"
-          class="decoration-picture"
-          width="400"
-          height="400"
-        />
-        <p>{{ decoration.description }} </p>
-      </li>
-    </ul>
-  </div>
-  <div [ngStyle]="{'padding-bottom': '15px'}"></div>
-  <app-rating-bar [rating]="{id: selectedCharacter.id, ratings: selectedCharacter.rating}"></app-rating-bar>
-
-</div>
+      <div class="main-character">
+        <h3>Do you main this character? What does that say about you?</h3>
+        <button (click)="selectedCharacter.showMain = !selectedCharacter.showMain">
+          {{ getButtonText(selectedCharacter) }}
+        </button>
+        @if (selectedCharacter.showMain) {
+          <p>{{selectedCharacter.main}}</p>
+        }
+      </div>
+      <div class="deco-character">
+        <h3>What decoration of {{ selectedCharacter.name }} does Fraser have at home?</h3>
+        @if (isEmpty(selectedCharacter.deco)) {
+          <p>
+            I don't have any decoration of {{ selectedCharacter.name }} yet :(((
+          </p>
+        }
+        <ul>
+          @for (decoration of selectedCharacter.deco; track decoration) {
+            <li
+              class="character-decoration"
+              >
+              <img
+                [ngSrc]="imageService.imageUrl('/misc/characters/deco/' + decoration.filename)"
+                alt="{{ selectedCharacter.name }}"
+                class="decoration-picture"
+                width="400"
+                height="400"
+                />
+                <p>{{ decoration.description }} </p>
+              </li>
+            }
+          </ul>
+        </div>
+        <div [ngStyle]="{'padding-bottom': '15px'}"></div>
+        <app-rating-bar [rating]="{id: selectedCharacter.id, ratings: selectedCharacter.rating}"></app-rating-bar>
+      </div>
+    }

@@ -9,73 +9,81 @@
         <span class="button-text">Albums</span>
       </button>
       <p>Here are some of my favourite albums. I've already put like 200 albums on here, and I've written a bunch of stuff about all of them. You can pick up some recommendations here!</p>
-      <img *ngIf="randomAlbum"
-           [ngSrc]="imageService.imageUrl('/music/albums/' + randomAlbum.filename)"
-           [alt]="randomAlbum.artist + ' - ' + randomAlbum.name"
-           width="300"
-           height="300"
-           class="image">
+      @if (randomAlbum) {
+        <img
+          [ngSrc]="imageService.imageUrl('/music/albums/' + randomAlbum.filename)"
+          [alt]="randomAlbum.artist + ' - ' + randomAlbum.name"
+          width="300"
+          height="300"
+          class="image">
+      }
     </div>
     <div class="row-item">
       <button class="fun-button" (click)="handleClick('/music/nintendo')">
         <span class="button-text">Nintendo Soundtracks</span>
       </button>
       <p>Have you heard about the Nintendo music app? It's so good! Yeah there isn't a huge selection of soundtracks on there just yet, they're dropping new ones every week and I'm so hooked. I'm writing a review for each one they release.</p>
-      <img *ngIf="randomSoundtrack"
-           [ngSrc]="imageService.imageUrl('/music/nintendo/' + randomSoundtrack.filename)"
-           [alt]="randomSoundtrack.name"
-           width="300"
-           height="300"
-           class="image">
+      @if (randomSoundtrack) {
+        <img
+          [ngSrc]="imageService.imageUrl('/music/nintendo/' + randomSoundtrack.filename)"
+          [alt]="randomSoundtrack.name"
+          width="300"
+          height="300"
+          class="image">
+      }
     </div>
     <div class="row-item">
       <button class="fun-button" (click)="handleClick('/music/concerts')">
         <span class="button-text">Concerts</span>
       </button>
       <p>This page is an attempt to track which concerts I've been to! It will be a while before I remember them all but you can peruse what I already have here.</p>
-      <img *ngIf="randomConcert"
-           [ngSrc]="imageService.imageUrl('/music/concerts/' + randomConcert.image)"
-           [alt]="randomConcert.artist"
-           width="300"
-           height="300"
-           class="image">
+      @if (randomConcert) {
+        <img
+          [ngSrc]="imageService.imageUrl('/music/concerts/' + randomConcert.image)"
+          [alt]="randomConcert.artist"
+          width="300"
+          height="300"
+          class="image">
+      }
     </div>
     <div class="row-item">
       <button class="fun-button" (click)="handleClick('/music/cds')">
         <span class="button-text">Current CD collection</span>
       </button>
       <p>Here is a list of all the CDs I currently own so that I don't forget which ones I already own when I'm out and about.</p>
-      <div *ngIf="randomCd" class="cd-image-container">
-        <img [ngSrc]="imageService.imageUrl('/music/albums/' + randomCd.image)"
-             [alt]="randomCd.artist + ' - ' + randomCd.album"
-             class="cd-image"
-             width="200"
-             height="200"/>
-        <img [src]="imageService.imageUrl('/music/cds/cd-case.png')" class="cd-case" />
+      @if (randomCd) {
+        <div class="cd-image-container">
+          <img [ngSrc]="imageService.imageUrl('/music/albums/' + randomCd.image)"
+            [alt]="randomCd.artist + ' - ' + randomCd.album"
+            class="cd-image"
+            width="200"
+            height="200"/>
+            <img [src]="imageService.imageUrl('/music/cds/cd-case.png')" class="cd-case" />
+          </div>
+        }
       </div>
+      <div class="row-item">
+        <button class="fun-button" (click)="handleClick('/music/mixes')">
+          <span class="button-text">Video Game Mixes</span>
+        </button>
+        <p>Talking about video game music, over the years I made a bunch of mixes of my favourite tracks. They are finally available for download! It took me a lot of time to figure out how to do that.</p>
+      </div>
+      <div class="row-item">
+        <button class="fun-button" (click)="handleClick('/music/spotify')">
+          <span class="button-text">Spotify Playlists</span>
+        </button>
+        <p>Here are some links to some of my favourite spotify playlists.</p>
+      </div>
+      <div class="gif">
+        <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="nice gif saying everyday">
+      </div>
+      <h3>Soundtrack of the day</h3>
+      <app-daily></app-daily>
     </div>
-    <div class="row-item">
-      <button class="fun-button" (click)="handleClick('/music/mixes')">
-        <span class="button-text">Video Game Mixes</span>
-      </button>
-      <p>Talking about video game music, over the years I made a bunch of mixes of my favourite tracks. They are finally available for download! It took me a lot of time to figure out how to do that.</p>
-    </div>
-    <div class="row-item">
-      <button class="fun-button" (click)="handleClick('/music/spotify')">
-        <span class="button-text">Spotify Playlists</span>
-      </button>
-      <p>Here are some links to some of my favourite spotify playlists.</p>
-    </div>
-    <div class="gif">
-      <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="nice gif saying everyday">
-    </div>
-    <h3>Soundtrack of the day</h3>
-    <app-daily></app-daily>
   </div>
-</div>
 
-<div class="secret">
-  <button style="background: none; border: none;" aria-label="DJ World Peace" routerLink="/music/worldpeace">
-    <img alt="World Peace Music" [src]="imageService.imageUrl('/music/worldpeace/worldpeace.gif')">
-  </button>
-</div>
+  <div class="secret">
+    <button style="background: none; border: none;" aria-label="DJ World Peace" routerLink="/music/worldpeace">
+      <img alt="World Peace Music" [src]="imageService.imageUrl('/music/worldpeace/worldpeace.gif')">
+    </button>
+  </div>

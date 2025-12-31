@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
 import {ClickedOutsideDirective} from "../../utils/directives/clicked-outside.directive";
@@ -12,7 +12,7 @@ import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-albums',
-    imports: [CommonModule, FormsModule, NgOptimizedImage, ClickedOutsideDirective, DurstloescherModalComponent, AlbumModalComponent],
+    imports: [FormsModule, NgOptimizedImage, ClickedOutsideDirective, DurstloescherModalComponent, AlbumModalComponent],
     templateUrl: './albums.component.html',
     styleUrls: ['./albums.component.css']
 })

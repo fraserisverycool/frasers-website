@@ -2,26 +2,34 @@
   <h1 class="text-center">{{ title }}</h1>
   <div class="calendar-container">
     <ul class="calendar-grid">
-      <li *ngFor="let filter of filters">
-        <button (click)="sortGames(filter)" class="filter-button" [ngClass]="{ 'active': filter === currentFilter }">
-          <span>{{ filter }}</span>
-        </button>
-      </li>
+      @for (filter of filters; track filter) {
+        <li>
+          <button (click)="sortGames(filter)" class="filter-button" [ngClass]="{ 'active': filter === currentFilter }">
+            <span>{{ filter }}</span>
+          </button>
+        </li>
+      }
     </ul>
     <div class="search-container">
       <input type="text" [(ngModel)]="searchTerm" placeholder="Search games...">
     </div>
   </div>
-  <div *ngIf="isPlatformSelected" class="calendar-container-mini">
-    <ul class="calendar-grid-mini">
-      <li *ngFor="let platform of platformOrder">
-        <button (click)="sortGames(platform)" class="filter-button-mini" [ngClass]="{ 'active': platform === currentFilter }">
-          <span>{{ platform }}</span>
-        </button>
-      </li>
-    </ul>
-  </div>
-  <div *ngFor="let game of filteredGames">
-    <app-game [game]="game"></app-game>
-  </div>
+  @if (isPlatformSelected) {
+    <div class="calendar-container-mini">
+      <ul class="calendar-grid-mini">
+        @for (platform of platformOrder; track platform) {
+          <li>
+            <button (click)="sortGames(platform)" class="filter-button-mini" [ngClass]="{ 'active': platform === currentFilter }">
+              <span>{{ platform }}</span>
+            </button>
+          </li>
+        }
+      </ul>
+    </div>
+  }
+  @for (game of filteredGames; track game) {
+    <div>
+      <app-game [game]="game"></app-game>
+    </div>
+  }
 </div>

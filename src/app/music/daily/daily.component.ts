@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {CommonModule} from '@angular/common';
+
 import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {DailySoundtrack} from "./daily-soundtrack.interface";
@@ -9,7 +9,7 @@ import {RouterLink} from "@angular/router";
 
 @Component({
     selector: 'app-daily',
-    imports: [CommonModule, RatingBarComponent, RouterLink],
+    imports: [RatingBarComponent, RouterLink],
     templateUrl: './daily.component.html',
     styleUrls: ['./daily.component.css']
 })

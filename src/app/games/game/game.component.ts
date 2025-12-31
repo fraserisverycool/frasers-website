@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {Game} from "../game.interface";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {FriendRatingComponent} from "../../utils/friend-rating/friend-rating.component";

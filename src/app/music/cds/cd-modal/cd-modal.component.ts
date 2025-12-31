@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import {CD} from "../cd.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
@@ -8,7 +8,7 @@ import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
     selector: 'app-cd-modal',
-    imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
+    imports: [NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
     templateUrl: './cd-modal.component.html',
     styleUrls: ['./cd-modal.component.css']
 })
