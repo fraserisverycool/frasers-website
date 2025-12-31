@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {DailySoundtrack} from "../daily-soundtrack.interface";
 import {DomSanitizer} from "@angular/platform-browser";
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {isBefore, parse} from "date-fns";

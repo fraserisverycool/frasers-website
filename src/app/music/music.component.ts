@@ -4,7 +4,7 @@ import { RouterLink, RouterOutlet, Router } from '@angular/router';
 import {Album} from "./albums/album.interface";
 import {Soundtrack} from "./nintendo/soundtrack.interface";
 import {CD} from "./cds/cd.interface";
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {DailyComponent} from "./daily/daily.component";
 import {Concert} from "./concerts/concert.interface";
 import {ImageService} from "../utils/services/image.service";

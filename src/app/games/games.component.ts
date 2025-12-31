@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {of} from 'rxjs';
 import {catchError, map} from 'rxjs/operators';
 import {Router, RouterLink, RouterOutlet} from '@angular/router';

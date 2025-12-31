@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {Newsletter} from "./newsletter.interface";
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
 import {RouterLink} from "@angular/router";
 import {ImageService} from "../utils/services/image.service";

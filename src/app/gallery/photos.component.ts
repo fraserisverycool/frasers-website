@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {RouterLink} from "@angular/router";
 import PhotoComponent from "./photo/photo.component";
 import {Photo} from "./photo.interface";

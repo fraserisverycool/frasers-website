@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
 import {ClickedOutsideDirective} from "../../utils/directives/clicked-outside.directive";
 import {Album} from "./album.interface";

@@ -1,6 +1,6 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {Pokemon, TierData} from "./pokemon.interface";
 import {CloseButtonComponent} from "../../utils/close-button/close-button.component";
 import {ImageService} from "../../utils/services/image.service";

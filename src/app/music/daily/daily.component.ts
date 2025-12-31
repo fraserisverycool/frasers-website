@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {DailySoundtrack} from "./daily-soundtrack.interface";
 import {DomSanitizer, SafeResourceUrl, SafeUrl} from "@angular/platform-browser";

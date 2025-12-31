@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {ImageService} from "../../utils/services/image.service";
