@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
-import { RouterLink, RouterOutlet, Router } from '@angular/router';
+import { RouterLink, Router } from '@angular/router';
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
     selector: 'app-community',
-    imports: [RouterLink, RouterOutlet, NgOptimizedImage],
+    imports: [RouterLink, NgOptimizedImage],
     templateUrl: './community.component.html',
     styleUrls: ['./community.component.css']
 })

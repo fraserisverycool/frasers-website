@@ -2,9 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
-import {ClickedOutsideDirective} from "../../utils/directives/clicked-outside.directive";
 import {Album} from "./album.interface";
-import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
 import {AlbumModalComponent} from "./album-modal/album-modal.component";
 import {AlbumsService} from "./service/albums.service";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
@@ -12,7 +10,7 @@ import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-albums',
-    imports: [FormsModule, NgOptimizedImage, ClickedOutsideDirective, DurstloescherModalComponent, AlbumModalComponent],
+    imports: [FormsModule, NgOptimizedImage, AlbumModalComponent],
     templateUrl: './albums.component.html',
     styleUrls: ['./albums.component.css']
 })

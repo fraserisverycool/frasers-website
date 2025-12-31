@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
-import StarMessageComponent from "../../utils/star-message/star-message.component";
-import {ClickedOutsideDirective} from "../../utils/directives/clicked-outside.directive";
 import {Durstloescher} from "./durstloescher.interface";
 import {DurstloescherModalComponent} from "./durstloescher-model/durstloescher-modal.component";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
@@ -10,7 +8,7 @@ import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-durstloescher',
-    imports: [NgOptimizedImage, StarMessageComponent, ClickedOutsideDirective, DurstloescherModalComponent],
+    imports: [NgOptimizedImage, DurstloescherModalComponent],
     templateUrl: './durstloescher.component.html',
     styleUrls: ['./durstloescher.component.css']
 })

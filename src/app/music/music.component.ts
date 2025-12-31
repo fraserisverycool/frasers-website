@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
-import { RouterLink, RouterOutlet, Router } from '@angular/router';
+import { RouterLink, Router } from '@angular/router';
 import {Album} from "./albums/album.interface";
 import {Soundtrack} from "./nintendo/soundtrack.interface";
 import {CD} from "./cds/cd.interface";
@@ -11,7 +11,7 @@ import {ImageService} from "../utils/services/image.service";
 
 @Component({
     selector: 'app-music',
-    imports: [RouterLink, RouterOutlet, NgOptimizedImage, DailyComponent],
+    imports: [RouterLink, NgOptimizedImage, DailyComponent],
     templateUrl: './music.component.html',
     styleUrls: ['./music.component.css']
 })

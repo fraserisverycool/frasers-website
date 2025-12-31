@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 import {Router} from "@angular/router";
-import CharactersComponent from "./characters/characters.component";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
     selector: 'app-misc',
-    imports: [CharactersComponent],
+    imports: [],
     templateUrl: './misc.component.html',
     styleUrls: ['./misc.component.css']
 })

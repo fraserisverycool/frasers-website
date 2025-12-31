@@ -1,18 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
-import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {RatingService} from "../../../utils/rating-bar/service/rating.service";
-import {RouterLink} from "@angular/router";
-import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
 import {KKSong} from "./kk-song.interface";
 import {KkModalComponent} from "./kk-modal/kk-modal.component";
-import {SoundtrackModalComponent} from "../soundtrack-modal/soundtrack-modal.component";
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
     selector: 'app-kk',
-    imports: [NgOptimizedImage, RatingBarComponent, RouterLink, CloseButtonComponent, KkModalComponent, SoundtrackModalComponent],
+    imports: [NgOptimizedImage, KkModalComponent],
     templateUrl: './kk.component.html',
     styleUrls: ['./kk.component.css']
 })

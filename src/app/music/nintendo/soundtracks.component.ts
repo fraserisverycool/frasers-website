@@ -1,10 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
-import {RouterLink, RouterOutlet} from '@angular/router';
+import {RouterLink} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {Soundtrack} from "./soundtrack.interface";
-import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
 import {SoundtrackModalComponent} from "./soundtrack-modal/soundtrack-modal.component";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {ImageService} from "../../utils/services/image.service";
@@ -25,7 +24,7 @@ const platformOrder = [
 
 @Component({
     selector: 'app-nintendo',
-    imports: [CommonModule, RouterOutlet, RouterLink, FormsModule, NgOptimizedImage, DurstloescherModalComponent, SoundtrackModalComponent],
+    imports: [CommonModule, RouterLink, FormsModule, NgOptimizedImage, SoundtrackModalComponent],
     templateUrl: './soundtracks.component.html',
     styleUrls: ['./soundtracks.component.css']
 })

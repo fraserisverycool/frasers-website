@@ -3,12 +3,11 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {ActivatedRoute, RouterLink} from "@angular/router";
 import { HttpClient } from "@angular/common/http";
 import {Entry, Newsletter, NewsletterContent} from "../newsletter.interface";
-import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-newsletter',
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, RouterLink],
+    imports: [CommonModule, NgOptimizedImage, RouterLink],
     templateUrl: './newsletter.component.html',
     styleUrls: ['./newsletter.component.css']
 })

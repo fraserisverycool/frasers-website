@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 
-import GamesComponent from "../games.component";
-
 @Component({
     selector: 'app-next',
-    imports: [GamesComponent],
+    imports: [],
     templateUrl: './next-game.component.html',
     styleUrls: ['./next-game.component.css']
 })

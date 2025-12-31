@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {of} from 'rxjs';
 import {catchError, map} from 'rxjs/operators';
-import {Router, RouterLink, RouterOutlet} from '@angular/router';
+import {Router} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {Game} from "./game.interface";
 import {GameComponent} from "./game/game.component";
@@ -12,7 +12,7 @@ import {ImageService} from "../utils/services/image.service";
 
 @Component({
     selector: 'app-games',
-    imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, GameComponent],
+    imports: [CommonModule, GameComponent, FormsModule],
     templateUrl: './games.component.html',
     styleUrls: ['./games.component.css']
 })

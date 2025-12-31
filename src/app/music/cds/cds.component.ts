@@ -3,14 +3,13 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
 import {CD} from "./cd.interface";
-import {DurstloescherModalComponent} from "../../community/durstloescher/durstloescher-model/durstloescher-modal.component";
 import {CdModalComponent} from "./cd-modal/cd-modal.component";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-cds',
-    imports: [CommonModule, FormsModule, NgOptimizedImage, DurstloescherModalComponent, CdModalComponent],
+    imports: [CommonModule, FormsModule, NgOptimizedImage, CdModalComponent],
     templateUrl: './cds.component.html',
     styleUrls: ['./cds.component.css']
 })
