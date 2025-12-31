@@ -2,7 +2,7 @@ server {
     listen 80;
     server_name worldpeace.services;
 
-    root /home/fraserbowen/Documents/frasers-website/dist/frasers-website;
+    root /home/fraserbowen/Documents/frasers-website/dist/frasers-website/browser;
     index index.html;
 
     location / {
