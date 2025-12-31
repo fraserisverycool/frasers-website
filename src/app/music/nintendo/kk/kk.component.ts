@@ -11,11 +11,10 @@ import {SoundtrackModalComponent} from "../soundtrack-modal/soundtrack-modal.com
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
-  selector: 'app-kk',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent, RouterLink, CloseButtonComponent, KkModalComponent, SoundtrackModalComponent],
-  templateUrl: './kk.component.html',
-  styleUrls: ['./kk.component.css']
+    selector: 'app-kk',
+    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, RouterLink, CloseButtonComponent, KkModalComponent, SoundtrackModalComponent],
+    templateUrl: './kk.component.html',
+    styleUrls: ['./kk.component.css']
 })
 export default class KkComponent implements OnInit {
   kkSongs: KKSong[] = [];

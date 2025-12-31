@@ -6,11 +6,10 @@ import {CloseButtonComponent} from "../../utils/close-button/close-button.compon
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-  selector: 'app-pokemon',
-  standalone: true,
-  imports: [CommonModule, CloseButtonComponent],
-  templateUrl: './pokemon.component.html',
-  styleUrls: ['./pokemon.component.css']
+    selector: 'app-pokemon',
+    imports: [CommonModule, CloseButtonComponent],
+    templateUrl: './pokemon.component.html',
+    styleUrls: ['./pokemon.component.css']
 })
 export default class PokemonComponent  implements OnInit {
   @Output() close: EventEmitter<void> = new EventEmitter<void>();

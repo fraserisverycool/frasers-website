@@ -8,11 +8,10 @@ import {CloseButtonComponent} from "../../../utils/close-button/close-button.com
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
-  selector: 'app-durstloescher-modal',
-  standalone: true,
+    selector: 'app-durstloescher-modal',
     imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, StarMessageComponent, RatingBarComponent, CloseButtonComponent],
-  templateUrl: './durstloescher-modal.component.html',
-  styleUrls: ['./durstloescher-modal.component.css']
+    templateUrl: './durstloescher-modal.component.html',
+    styleUrls: ['./durstloescher-modal.component.css']
 })
 export class DurstloescherModalComponent {
   @Input() selectedDurstloescher: Durstloescher | undefined;

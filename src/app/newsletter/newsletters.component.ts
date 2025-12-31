@@ -7,11 +7,10 @@ import {RouterLink} from "@angular/router";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
-  selector: 'app-newsletters',
-  standalone: true,
-  imports: [CommonModule, RouterLink],
-  templateUrl: './newsletters.component.html',
-  styleUrls: ['./newsletters.component.css']
+    selector: 'app-newsletters',
+    imports: [CommonModule, RouterLink],
+    templateUrl: './newsletters.component.html',
+    styleUrls: ['./newsletters.component.css']
 })
 export default class NewslettersComponent {
   newsletters: Newsletter[] = [];

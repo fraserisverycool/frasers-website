@@ -8,11 +8,10 @@ import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {RouterLink} from "@angular/router";
 
 @Component({
-  selector: 'app-daily',
-  standalone: true,
-  imports: [CommonModule, RatingBarComponent, RouterLink],
-  templateUrl: './daily.component.html',
-  styleUrls: ['./daily.component.css']
+    selector: 'app-daily',
+    imports: [CommonModule, RatingBarComponent, RouterLink],
+    templateUrl: './daily.component.html',
+    styleUrls: ['./daily.component.css']
 })
 export class DailyComponent implements OnInit {
   dailySoundtracks: DailySoundtrack[] = [];

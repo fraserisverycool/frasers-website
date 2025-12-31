@@ -11,11 +11,10 @@ import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-  selector: 'app-albums',
-  standalone: true,
-  imports: [CommonModule, FormsModule, NgOptimizedImage, ClickedOutsideDirective, DurstloescherModalComponent, AlbumModalComponent],
-  templateUrl: './albums.component.html',
-  styleUrls: ['./albums.component.css']
+    selector: 'app-albums',
+    imports: [CommonModule, FormsModule, NgOptimizedImage, ClickedOutsideDirective, DurstloescherModalComponent, AlbumModalComponent],
+    templateUrl: './albums.component.html',
+    styleUrls: ['./albums.component.css']
 })
 export default class AlbumsComponent implements OnInit {
   albums: Album[] = [];

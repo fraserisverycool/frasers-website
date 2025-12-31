@@ -7,11 +7,10 @@ import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-  selector: 'app-newsletter',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent, RouterLink],
-  templateUrl: './newsletter.component.html',
-  styleUrls: ['./newsletter.component.css']
+    selector: 'app-newsletter',
+    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, RouterLink],
+    templateUrl: './newsletter.component.html',
+    styleUrls: ['./newsletter.component.css']
 })
 export default class NewsletterComponent implements OnInit {
   @HostBinding('class') classes = 'brown-background';

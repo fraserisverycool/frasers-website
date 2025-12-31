@@ -7,11 +7,10 @@ import {ImageService} from "../../utils/services/image.service";
 import {ReadMoreComponent} from "../../utils/read-more/read-more.component";
 
 @Component({
-  selector: 'app-game',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent, FriendRatingComponent, ReadMoreComponent],
-  templateUrl: './game.component.html',
-  styleUrls: ['./game.component.css']
+    selector: 'app-game',
+    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, FriendRatingComponent, ReadMoreComponent],
+    templateUrl: './game.component.html',
+    styleUrls: ['./game.component.css']
 })
 export class GameComponent {
   @Input() game: Game = {} as Game;

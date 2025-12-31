@@ -12,11 +12,10 @@ import {DailyComponent} from "../music/daily/daily.component";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
-  selector: 'app-homepage',
-  standalone: true,
-  imports: [NgFor, RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, NgIf, DailyComponent],
-  templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.css']
+    selector: 'app-homepage',
+    imports: [NgFor, RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, NgIf, DailyComponent],
+    templateUrl: './homepage.component.html',
+    styleUrls: ['./homepage.component.css']
 })
 export default class HomepageComponent {
   images = [

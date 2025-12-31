@@ -9,11 +9,10 @@ import {isBefore, parse} from "date-fns";
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
-  selector: 'app-dailies',
-  standalone: true,
-  imports: [CommonModule, RatingBarComponent],
-  templateUrl: './dailies.component.html',
-  styleUrls: ['./dailies.component.css']
+    selector: 'app-dailies',
+    imports: [CommonModule, RatingBarComponent],
+    templateUrl: './dailies.component.html',
+    styleUrls: ['./dailies.component.css']
 })
 export default class DailiesComponent implements OnInit {
   originalDailySoundtracks: DailySoundtrack[] = [];

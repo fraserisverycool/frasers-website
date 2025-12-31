@@ -2,11 +2,10 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-color-picker',
-  standalone: true,
-  imports: [FormsModule],
-  templateUrl: './color-picker.component.html',
-  styleUrls: ['./color-picker.component.css']
+    selector: 'app-color-picker',
+    imports: [FormsModule],
+    templateUrl: './color-picker.component.html',
+    styleUrls: ['./color-picker.component.css']
 })
 export default class ColorPickerComponent {
   @Input() color: string = '';

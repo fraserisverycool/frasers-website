@@ -15,11 +15,10 @@ interface Video {
 
 
 @Component({
-  selector: 'app-videos',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './videos.component.html',
-  styleUrls: ['./videos.component.css']
+    selector: 'app-videos',
+    imports: [CommonModule],
+    templateUrl: './videos.component.html',
+    styleUrls: ['./videos.component.css']
 })
 export default class VideosComponent implements OnInit {
   videos: Video[] = [];

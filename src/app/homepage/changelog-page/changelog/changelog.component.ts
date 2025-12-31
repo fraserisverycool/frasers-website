@@ -4,11 +4,10 @@ import {ChangelogEntry} from "../changelog-entry.interface";
 import { HttpClient } from "@angular/common/http";
 
 @Component({
-  selector: 'app-changelog',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './changelog.component.html',
-  styleUrls: ['./changelog.component.css']
+    selector: 'app-changelog',
+    imports: [CommonModule],
+    templateUrl: './changelog.component.html',
+    styleUrls: ['./changelog.component.css']
 })
 export class ChangelogComponent implements OnInit {
   changelogEntries: ChangelogEntry[] = [];

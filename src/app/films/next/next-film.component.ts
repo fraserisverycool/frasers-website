@@ -3,11 +3,10 @@ import { CommonModule } from '@angular/common';
 import FilmsComponent from "../films.component";
 
 @Component({
-  selector: 'app-next',
-  standalone: true,
-  imports: [CommonModule, FilmsComponent],
-  templateUrl: './next-film.component.html',
-  styleUrls: ['./next-film.component.css']
+    selector: 'app-next',
+    imports: [CommonModule, FilmsComponent],
+    templateUrl: './next-film.component.html',
+    styleUrls: ['./next-film.component.css']
 })
 export default class NextFilmComponent {
   films = [

@@ -24,11 +24,10 @@ const platformOrder = [
 ];
 
 @Component({
-  selector: 'app-nintendo',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, FormsModule, NgOptimizedImage, DurstloescherModalComponent, SoundtrackModalComponent],
-  templateUrl: './soundtracks.component.html',
-  styleUrls: ['./soundtracks.component.css']
+    selector: 'app-nintendo',
+    imports: [CommonModule, RouterOutlet, RouterLink, FormsModule, NgOptimizedImage, DurstloescherModalComponent, SoundtrackModalComponent],
+    templateUrl: './soundtracks.component.html',
+    styleUrls: ['./soundtracks.component.css']
 })
 export default class SoundtracksComponent implements OnInit {
   soundtracks: Soundtrack[] = [];

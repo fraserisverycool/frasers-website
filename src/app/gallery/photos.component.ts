@@ -7,11 +7,10 @@ import {Photo} from "./photo.interface";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
 
 @Component({
-  selector: 'app-gallery',
-  standalone: true,
-  imports: [CommonModule, RouterLink, PhotoComponent],
-  templateUrl: './photos.component.html',
-  styleUrls: ['./photos.component.css']
+    selector: 'app-gallery',
+    imports: [CommonModule, RouterLink, PhotoComponent],
+    templateUrl: './photos.component.html',
+    styleUrls: ['./photos.component.css']
 })
 export default class PhotosComponent implements OnInit {
   photos: Photo[] = [];

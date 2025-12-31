@@ -11,11 +11,10 @@ import {RatingService} from "../utils/rating-bar/service/rating.service";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
-  selector: 'app-games',
-  standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, GameComponent],
-  templateUrl: './games.component.html',
-  styleUrls: ['./games.component.css']
+    selector: 'app-games',
+    imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, GameComponent],
+    templateUrl: './games.component.html',
+    styleUrls: ['./games.component.css']
 })
 export default class GamesComponent implements OnInit {
   games: Game[] = [];

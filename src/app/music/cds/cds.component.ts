@@ -9,11 +9,10 @@ import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-  selector: 'app-cds',
-  standalone: true,
-  imports: [CommonModule, FormsModule, NgOptimizedImage, DurstloescherModalComponent, CdModalComponent],
-  templateUrl: './cds.component.html',
-  styleUrls: ['./cds.component.css']
+    selector: 'app-cds',
+    imports: [CommonModule, FormsModule, NgOptimizedImage, DurstloescherModalComponent, CdModalComponent],
+    templateUrl: './cds.component.html',
+    styleUrls: ['./cds.component.css']
 })
 export default class CdsComponent implements OnInit {
   cds: CD[] = [];

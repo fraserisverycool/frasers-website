@@ -6,11 +6,10 @@ import {KKSong} from "../kk-song.interface";
 import {ImageService} from "../../../../utils/services/image.service";
 
 @Component({
-  selector: 'app-kk-modal',
-  standalone: true,
+    selector: 'app-kk-modal',
     imports: [CommonModule, CloseButtonComponent, NgOptimizedImage, RatingBarComponent],
-  templateUrl: './kk-modal.component.html',
-  styleUrls: ['./kk-modal.component.css']
+    templateUrl: './kk-modal.component.html',
+    styleUrls: ['./kk-modal.component.css']
 })
 export class KkModalComponent {
   @Input() selectedKkSong: KKSong | undefined;

@@ -5,11 +5,10 @@ import { NgOptimizedImage } from '@angular/common';
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-  selector: 'app-brexit',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage],
-  templateUrl: './brexit.component.html',
-  styleUrls: ['./brexit.component.css']
+    selector: 'app-brexit',
+    imports: [CommonModule, NgOptimizedImage],
+    templateUrl: './brexit.component.html',
+    styleUrls: ['./brexit.component.css']
 })
 export default class BrexitComponent implements OnInit {
   images: string[] = [];

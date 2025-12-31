@@ -24,11 +24,10 @@ interface Track {
 }
 
 @Component({
-  selector: 'app-mariokart',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
-  templateUrl: './mariokart.component.html',
-  styleUrls: ['./mariokart.component.css']
+    selector: 'app-mariokart',
+    imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+    templateUrl: './mariokart.component.html',
+    styleUrls: ['./mariokart.component.css']
 })
 export default class MariokartComponent implements OnInit{
   tracks: Track[] = [];

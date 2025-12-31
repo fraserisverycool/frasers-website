@@ -7,11 +7,10 @@ import {CloseButtonComponent} from "../../../utils/close-button/close-button.com
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
-  selector: 'app-soundtrack-modal',
-  standalone: true,
+    selector: 'app-soundtrack-modal',
     imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
-  templateUrl: './soundtrack-modal.component.html',
-  styleUrls: ['./soundtrack-modal.component.css']
+    templateUrl: './soundtrack-modal.component.html',
+    styleUrls: ['./soundtrack-modal.component.css']
 })
 export class SoundtrackModalComponent implements OnInit {
   @Input() selectedSoundtrack: Soundtrack | undefined;

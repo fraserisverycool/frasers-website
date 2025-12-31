@@ -2,11 +2,10 @@ import {Component, Input, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-custom-marquee',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './custom-marquee.component.html',
-  styleUrls: ['./custom-marquee.component.css']
+    selector: 'app-custom-marquee',
+    imports: [CommonModule],
+    templateUrl: './custom-marquee.component.html',
+    styleUrls: ['./custom-marquee.component.css']
 })
 export class CustomMarqueeComponent implements OnInit {
   @Input() messages: string[] = [];

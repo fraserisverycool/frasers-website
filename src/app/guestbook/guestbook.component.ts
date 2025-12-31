@@ -7,11 +7,10 @@ import {Feedback} from "./feedback.interface";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
-  selector: 'app-guestbook',
-  standalone: true,
-  imports: [CommonModule, FormsModule, ColorPickerComponent],
-  templateUrl: './guestbook.component.html',
-  styleUrls: ['./guestbook.component.css']
+    selector: 'app-guestbook',
+    imports: [CommonModule, FormsModule, ColorPickerComponent],
+    templateUrl: './guestbook.component.html',
+    styleUrls: ['./guestbook.component.css']
 })
 export default class GuestbookComponent {
   feedbacks: Feedback[] = [];

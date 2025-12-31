@@ -14,11 +14,10 @@ interface Stitch {
 }
 
 @Component({
-  selector: 'app-stitch',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
-  templateUrl: './stitch.component.html',
-  styleUrls: ['./stitch.component.css']
+    selector: 'app-stitch',
+    imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+    templateUrl: './stitch.component.html',
+    styleUrls: ['./stitch.component.css']
 })
 export default class StitchComponent implements OnInit {
   stitches: Stitch[] = [];

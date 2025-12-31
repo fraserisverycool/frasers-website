@@ -8,11 +8,10 @@ import {CloseButtonComponent} from "../../../utils/close-button/close-button.com
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
-  selector: 'app-album-modal',
-  standalone: true,
+    selector: 'app-album-modal',
     imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, RatingBarComponent, CloseButtonComponent],
-  templateUrl: './album-modal.component.html',
-  styleUrls: ['./album-modal.component.css']
+    templateUrl: './album-modal.component.html',
+    styleUrls: ['./album-modal.component.css']
 })
 export class AlbumModalComponent implements OnInit{
   @Input() selectedAlbum: Album | undefined;

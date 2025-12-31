@@ -8,11 +8,10 @@ import {FilmComponent} from "./film/film.component";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
 
 @Component({
-  selector: 'app-films',
-  standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, FilmComponent],
-  templateUrl: './films.component.html',
-  styleUrls: ['./films.component.css']
+    selector: 'app-films',
+    imports: [CommonModule, RouterLink, RouterOutlet, FormsModule, NgOptimizedImage, FilmComponent],
+    templateUrl: './films.component.html',
+    styleUrls: ['./films.component.css']
 })
 export default class FilmsComponent implements OnInit {
   films: Film[] = [];

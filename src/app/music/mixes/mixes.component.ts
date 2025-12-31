@@ -15,11 +15,10 @@ interface Mp3Info {
 }
 
 @Component({
-  selector: 'app-mixes',
-  standalone: true,
-  imports: [CommonModule, RatingBarComponent],
-  templateUrl: './mixes.component.html',
-  styleUrls: ['./mixes.component.css']
+    selector: 'app-mixes',
+    imports: [CommonModule, RatingBarComponent],
+    templateUrl: './mixes.component.html',
+    styleUrls: ['./mixes.component.css']
 })
 export default class MixesComponent implements OnInit {
   mp3Files: Mp3Info[] = [];

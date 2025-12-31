@@ -10,11 +10,10 @@ import {Concert} from "./concerts/concert.interface";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
-  selector: 'app-music',
-  standalone: true,
+    selector: 'app-music',
     imports: [CommonModule, RouterLink, RouterOutlet, NgOptimizedImage, DailyComponent],
-  templateUrl: './music.component.html',
-  styleUrls: ['./music.component.css']
+    templateUrl: './music.component.html',
+    styleUrls: ['./music.component.css']
 })
 export default class MusicComponent implements OnInit {
   albums: Album[] = [];

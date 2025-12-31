@@ -9,11 +9,10 @@ import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-  selector: 'app-durstloescher',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage, StarMessageComponent, ClickedOutsideDirective, DurstloescherModalComponent],
-  templateUrl: './durstloescher.component.html',
-  styleUrls: ['./durstloescher.component.css']
+    selector: 'app-durstloescher',
+    imports: [CommonModule, NgOptimizedImage, StarMessageComponent, ClickedOutsideDirective, DurstloescherModalComponent],
+    templateUrl: './durstloescher.component.html',
+    styleUrls: ['./durstloescher.component.css']
 })
 export default class DurstloescherComponent implements OnInit {
   durstloescher: Durstloescher[] = [];

@@ -7,11 +7,10 @@ import {RatingBarComponent} from "../utils/rating-bar/rating-bar.component";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
-  selector: 'app-books',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
-  templateUrl: './books.component.html',
-  styleUrls: ['./books.component.css']
+    selector: 'app-books',
+    imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+    templateUrl: './books.component.html',
+    styleUrls: ['./books.component.css']
 })
 export default class BooksComponent implements OnInit {
   books: Book[] = [];

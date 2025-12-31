@@ -7,11 +7,10 @@ import {CloseButtonComponent} from "../../../utils/close-button/close-button.com
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
-  selector: 'app-character',
-  standalone: true,
+    selector: 'app-character',
     imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
-  templateUrl: './character.component.html',
-  styleUrls: ['./character.component.css']
+    templateUrl: './character.component.html',
+    styleUrls: ['./character.component.css']
 })
 export class CharacterComponent {
   @Input() selectedCharacter: Character | undefined;

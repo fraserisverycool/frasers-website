@@ -8,11 +8,10 @@ import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-  selector: 'app-characters',
-  standalone: true,
-  imports: [CommonModule, NgOptimizedImage, FormsModule, CharacterComponent],
-  templateUrl: './characters.component.html',
-  styleUrls: ['./characters.component.css'],
+    selector: 'app-characters',
+    imports: [CommonModule, NgOptimizedImage, FormsModule, CharacterComponent],
+    templateUrl: './characters.component.html',
+    styleUrls: ['./characters.component.css']
 })
 export default class CharactersComponent implements OnInit {
   characters: Character[] = [];

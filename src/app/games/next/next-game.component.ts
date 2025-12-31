@@ -3,11 +3,10 @@ import { CommonModule } from '@angular/common';
 import GamesComponent from "../games.component";
 
 @Component({
-  selector: 'app-next',
-  standalone: true,
-  imports: [CommonModule, GamesComponent],
-  templateUrl: './next-game.component.html',
-  styleUrls: ['./next-game.component.css']
+    selector: 'app-next',
+    imports: [CommonModule, GamesComponent],
+    templateUrl: './next-game.component.html',
+    styleUrls: ['./next-game.component.css']
 })
 export default class NextGameComponent {
   playstationgames = [

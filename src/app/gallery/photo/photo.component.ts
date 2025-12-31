@@ -7,11 +7,10 @@ import {PhotoService} from "./service/photo.service";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-  selector: 'app-photo',
-  standalone: true,
+    selector: 'app-photo',
     imports: [CommonModule, FormsModule, NgOptimizedImage, RatingBarComponent],
-  templateUrl: './photo.component.html',
-  styleUrls: ['./photo.component.css']
+    templateUrl: './photo.component.html',
+    styleUrls: ['./photo.component.css']
 })
 export default class PhotoComponent {
   @Input() photo: Photo = <Photo>({

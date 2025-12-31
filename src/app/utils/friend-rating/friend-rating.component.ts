@@ -5,11 +5,10 @@ import {FriendRating} from "./friend-rating.interface";
 import {ImageService} from "../services/image.service";
 
 @Component({
-  selector: 'app-friend-rating',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './friend-rating.component.html',
-  styleUrls: ['./friend-rating.component.css']
+    selector: 'app-friend-rating',
+    imports: [CommonModule],
+    templateUrl: './friend-rating.component.html',
+    styleUrls: ['./friend-rating.component.css']
 })
 export class FriendRatingComponent implements OnInit {
   @Input() currentId: string = "";
