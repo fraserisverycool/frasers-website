@@ -1,7 +1,7 @@
 <div class="container">
   <h1>{{title}}</h1>
   <ul>
-    @for (book of books; track book) {
+    @for (book of books.slice(0, itemsToShow); track book) {
       <li class="card">
         <img [ngSrc]="imageService.imageUrl('/books/' + book.filename)" alt="{{ book.title }}" width="600" height="400">
         <div class="card-info">
@@ -21,6 +21,7 @@
       </li>
     }
   </ul>
+  <div #scrollAnchor class="scroll-anchor"></div>
 </div>
 
 

@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
 
 import { HttpClient } from "@angular/common/http";
 import {RouterLink} from "@angular/router";
@@ -12,8 +12,12 @@ import {RatingService} from "../utils/rating-bar/service/rating.service";
     templateUrl: './photos.component.html',
     styleUrls: ['./photos.component.css']
 })
-export default class PhotosComponent implements OnInit {
+export default class PhotosComponent implements OnInit, AfterViewInit, OnDestroy {
   photos: Photo[] = [];
+  pageSize = 5;
+  itemsToShow = 5;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
 
   constructor(private http: HttpClient, private ratingService: RatingService) {}
 
@@ -27,6 +31,36 @@ export default class PhotosComponent implements OnInit {
         console.error('Failed to load photos:', err);
       },
     });
+  }
+
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  }
+
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.loadMore();
+      }
+    }, {
+      rootMargin: '100px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  loadMore(): void {
+    if (this.itemsToShow < this.photos.length) {
+      this.itemsToShow += this.pageSize;
+    }
   }
 
   getRatings(): void {

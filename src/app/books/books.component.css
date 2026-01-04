@@ -91,3 +91,7 @@ h1 {
   box-shadow: 0 5px #2c3e50;
   transform: translateY(4px);
 }
+
+.scroll-anchor {
+  height: 10px;
+}

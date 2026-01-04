@@ -15,10 +15,11 @@
     </div>
   </div>
   <ul>
-    @for (film of filteredFilms; track film) {
+    @for (film of filteredFilms.slice(0, itemsToShow); track film) {
       <li>
         <app-film [film]="film"></app-film>
       </li>
     }
   </ul>
+  <div #scrollAnchor class="scroll-anchor"></div>
 </div>

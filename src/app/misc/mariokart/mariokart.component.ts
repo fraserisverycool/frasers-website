@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
@@ -29,7 +29,7 @@ interface Track {
     templateUrl: './mariokart.component.html',
     styleUrls: ['./mariokart.component.css']
 })
-export default class MariokartComponent implements OnInit{
+export default class MariokartComponent implements OnInit, AfterViewInit, OnDestroy {
   tracks: Track[] = [];
   originalTracks: Track[] = [];
   currentFilter: string = "";
@@ -60,10 +60,49 @@ export default class MariokartComponent implements OnInit{
 
   pageDescription = "Welcome to my ranking of every Mario Kart track ever. This is an exhaustive list featuring everything because I love it when lists are complete. What's that, I hear you say? Mario Kart Tour and Mario Kart Arcade GP aren't represented? Fuck you! Those aren't real games. If it means that Piranha Plant Pipeline gets forgotten to history, so be it! A quick note about these rankings, you might notice that the order doesn't correspond with the number of stars I give to each track. That's fine. These rankings come from the heart, and won't necessarily follow the rules. You've been warned!"
 
+  pageSize = 5;
+  itemsToShow = 5;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
+
   constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadTracks();
+  }
+
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  }
+
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.loadMore();
+      }
+    }, {
+      rootMargin: '100px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  loadMore(): void {
+    if (this.itemsToShow < this.tracks.length) {
+      this.itemsToShow += this.pageSize;
+    }
+  }
+
+  resetInfiniteScroll(): void {
+    this.itemsToShow = this.pageSize;
   }
 
   loadTracks(): void {
@@ -100,6 +139,7 @@ export default class MariokartComponent implements OnInit{
   }
 
   filterTracks(criteria: string): void {
+    this.resetInfiniteScroll();
     let gameName = this.gameMap[criteria as keyof typeof this.gameMap];
     if (gameName) {
       this.tracks = [...this.originalTracks]

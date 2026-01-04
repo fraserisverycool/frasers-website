@@ -2,7 +2,7 @@
   <h1>Cross Stitches</h1>
   <p>This list sadly isn't exhaustive, there are cross stitches lost to time, photos of which I can't find.</p>
   <ul class="stitch-list">
-    @for (stitch of stitches; track stitch) {
+    @for (stitch of stitches.slice(0, itemsToShow); track stitch) {
       <li class="stitch-card">
         <img
           [ngSrc]="imageService.imageUrl('/misc/stitch/' + stitch.filename)"
@@ -15,4 +15,5 @@
         </li>
       }
     </ul>
+    <div #scrollAnchor class="scroll-anchor"></div>
   </div>

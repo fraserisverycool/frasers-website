@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {Book} from "./book.interface";
@@ -12,14 +12,49 @@ import {ImageService} from "../utils/services/image.service";
     templateUrl: './books.component.html',
     styleUrls: ['./books.component.css']
 })
-export default class BooksComponent implements OnInit {
+export default class BooksComponent implements OnInit, AfterViewInit, OnDestroy {
   books: Book[] = [];
   title: string = "Book recommendations";
+
+  pageSize = 5;
+  itemsToShow = 5;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
 
   constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadBooks();
+  }
+
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  }
+
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.loadMore();
+      }
+    }, {
+      rootMargin: '100px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  loadMore(): void {
+    if (this.itemsToShow < this.books.length) {
+      this.itemsToShow += this.pageSize;
+    }
   }
 
   loadBooks(): void {

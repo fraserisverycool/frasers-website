@@ -1,11 +1,12 @@
 <div class="container">
   <h1>Photos!</h1>
   <ul class="gallery-rows">
-    @for (photo of photos; track photo; let i = $index) {
+    @for (photo of photos.slice(0, itemsToShow); track photo; let i = $index) {
       <li class="gallery-row">
         <app-photo [photo]=photo></app-photo>
       </li>
     }
   </ul>
+  <div #scrollAnchor class="scroll-anchor"></div>
   <h4>I'm happy you made it to the end! Here's a <a routerLink="/gallery/videos">secret webpage</a> for you</h4>
 </div>

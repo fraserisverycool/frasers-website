@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {of} from 'rxjs';
@@ -8,7 +8,6 @@ import {FormsModule} from '@angular/forms';
 import {Game} from "./game.interface";
 import {GameComponent} from "./game/game.component";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
-import {ImageService} from "../utils/services/image.service";
 
 @Component({
     selector: 'app-games',
@@ -16,7 +15,7 @@ import {ImageService} from "../utils/services/image.service";
     templateUrl: './games.component.html',
     styleUrls: ['./games.component.css']
 })
-export default class GamesComponent implements OnInit {
+export default class GamesComponent implements OnInit, AfterViewInit, OnDestroy {
   games: Game[] = [];
   originalGames: Game[] = [];
   title: string = "Games Fraser has played since 2020";
@@ -49,7 +48,16 @@ export default class GamesComponent implements OnInit {
     "Sega Mega Drive",
     "Mobile"
   ];
-  searchTerm: string = '';
+
+  private _searchTerm: string = '';
+  get searchTerm(): string {
+    return this._searchTerm;
+  }
+  set searchTerm(value: string) {
+    this._searchTerm = value;
+    this.resetInfiniteScroll();
+  }
+
   currentFilter: string = '';
   isPlatformSelected: boolean = false;
   platformRank: Record<string, number> = this.platformOrder.reduce((acc, platform, index) => {
@@ -57,10 +65,49 @@ export default class GamesComponent implements OnInit {
     return acc;
   }, {} as Record<string, number>);
 
+  pageSize = 10;
+  itemsToShow = 10;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
+
   constructor(private http: HttpClient, private router: Router, private ratingService: RatingService) {}
 
   ngOnInit(): void {
     this.loadGames();
+  }
+
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  }
+
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.loadMore();
+      }
+    }, {
+      rootMargin: '100px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  loadMore(): void {
+    if (this.itemsToShow < this.filteredGames.length) {
+      this.itemsToShow += this.pageSize;
+    }
+  }
+
+  resetInfiniteScroll(): void {
+    this.itemsToShow = this.pageSize;
   }
 
   loadGames(): void {
@@ -119,6 +166,7 @@ export default class GamesComponent implements OnInit {
   }
 
   sortGames(criteria: string): void {
+    this.resetInfiniteScroll();
     this.currentFilter = criteria;
     switch (criteria) {
       case 'next':

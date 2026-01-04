@@ -176,3 +176,7 @@ ul {
 .navigation h4 {
   font-size: 1em;
 }
+
+.scroll-anchor {
+  height: 10px;
+}
