@@ -109,6 +109,10 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
+.scroll-anchor {
+  height: 10px;
+}
+
 .sorting-buttons button:hover {
   transform: scale(1.1);
   background-color: #5a7d57;

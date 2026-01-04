@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
 
 import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
@@ -20,15 +20,50 @@ interface Mp3Info {
     templateUrl: './mixes.component.html',
     styleUrls: ['./mixes.component.css']
 })
-export default class MixesComponent implements OnInit {
+export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy {
   mp3Files: Mp3Info[] = [];
   color: String = "#000000"
+
+  pageSize = 5;
+  itemsToShow = 5;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
 
   constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
     this.loadMixes();
     this.color = this.getRandomColor();
+  }
+
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  }
+
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.loadMore();
+      }
+    }, {
+      rootMargin: '100px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  loadMore(): void {
+    if (this.itemsToShow < this.mp3Files.length) {
+      this.itemsToShow += this.pageSize;
+    }
   }
 
   loadMixes(): void {

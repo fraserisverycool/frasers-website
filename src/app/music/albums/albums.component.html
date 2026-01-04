@@ -22,7 +22,7 @@
     </ul>
   </div>
   <ul>
-    @for (album of filteredAlbums; track album) {
+    @for (album of filteredAlbums.slice(0, itemsToShow); track album) {
       <li class="album-card" (click)="showDescription(album)">
         <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
           [style.border-style]="album.description ? 'none' : 'solid'"
@@ -36,6 +36,7 @@
       </li>
     }
   </ul>
+  <div #scrollAnchor class="scroll-anchor"></div>
 </div>
 
 @if (selectedAlbum) {

@@ -16,7 +16,7 @@
     <button (click)="sortSoundtracks('platform')">By Platform</button>
   </div>
   <ul>
-    @for (soundtrack of filteredSoundtracks; track soundtrack) {
+    @for (soundtrack of filteredSoundtracks.slice(0, itemsToShow); track soundtrack) {
       <li class="soundtrack-card" (click)="showDescription(soundtrack)">
         <div class="soundtrack-image-container">
           <img [ngSrc]="imageService.imageUrl('/music/nintendo/' + soundtrack.filename)"
@@ -32,6 +32,7 @@
         </li>
       }
     </ul>
+    <div #scrollAnchor class="scroll-anchor"></div>
 
     @if (filteredSoundtracks.length === 0) {
       <div>
