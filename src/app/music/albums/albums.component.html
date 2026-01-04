@@ -12,7 +12,7 @@
   </div>
   <div class="tag-filter-container">
     <p class="filter-text">Filter by Tags:</p>
-    <ul>
+    <ul class="tag-list">
       @for (tag of availableTags; track tag; let i = $index) {
         <li class="tag-checkbox">
           <input type="checkbox" [id]="'tag-' + i" [value]="tag" (change)="toggleTagSelection(tag)" [checked]="selectedTags.includes(tag)">
