@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import {CD} from "../cd.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
@@ -12,10 +12,25 @@ import {ImageService} from "../../../utils/services/image.service";
     templateUrl: './cd-modal.component.html',
     styleUrls: ['./cd-modal.component.css']
 })
-export class CdModalComponent {
+export class CdModalComponent implements OnInit, OnDestroy {
   @Input() selectedCd: CD | undefined;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
 
   constructor(protected imageService: ImageService) {
+  }
+
+  ngOnInit() {
+    history.pushState({ modal: true }, '');
+  }
+
+  @HostListener('window:popstate')
+  onPopState() {
+    this.close.emit();
+  }
+
+  ngOnDestroy() {
+    if (window.history.state?.modal) {
+      history.back();
+    }
   }
 }

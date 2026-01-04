@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {Soundtrack} from "../soundtrack.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
@@ -12,7 +12,7 @@ import {ImageService} from "../../../utils/services/image.service";
     templateUrl: './soundtrack-modal.component.html',
     styleUrls: ['./soundtrack-modal.component.css']
 })
-export class SoundtrackModalComponent implements OnInit {
+export class SoundtrackModalComponent implements OnInit, OnDestroy {
   @Input() selectedSoundtrack: Soundtrack | undefined;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
 
@@ -23,6 +23,18 @@ export class SoundtrackModalComponent implements OnInit {
 
   ngOnInit() {
     this.getRandomColor();
+    history.pushState({ modal: true }, '');
+  }
+
+  @HostListener('window:popstate')
+  onPopState() {
+    this.close.emit();
+  }
+
+  ngOnDestroy() {
+    if (window.history.state?.modal) {
+      history.back();
+    }
   }
 
   getRandomColor() {

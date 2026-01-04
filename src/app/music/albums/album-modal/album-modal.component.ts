@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {Album} from "../album.interface";
@@ -13,7 +13,7 @@ import {ImageService} from "../../../utils/services/image.service";
     templateUrl: './album-modal.component.html',
     styleUrls: ['./album-modal.component.css']
 })
-export class AlbumModalComponent implements OnInit{
+export class AlbumModalComponent implements OnInit, OnDestroy {
   @Input() selectedAlbum: Album | undefined;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
   currentRandomColor: string = "#ffffff";
@@ -23,6 +23,18 @@ export class AlbumModalComponent implements OnInit{
 
   ngOnInit() {
     this.getRandomColor();
+    history.pushState({ modal: true }, '');
+  }
+
+  @HostListener('window:popstate')
+  onPopState() {
+    this.close.emit();
+  }
+
+  ngOnDestroy() {
+    if (window.history.state?.modal) {
+      history.back();
+    }
   }
 
   getRandomColor() {

@@ -1,4 +1,4 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, HostListener, OnInit, Output} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {Pokemon, TierData} from "./pokemon.interface";
@@ -69,6 +69,13 @@ export default class PokemonComponent  implements OnInit {
       });
   }
 
+  @HostListener('window:popstate')
+  onPopState() {
+    if (this.selectedPokemon) {
+      this.closeModal();
+    }
+  }
+
   toggleTier(tier: string) {
     this.collapsed[tier] = !this.collapsed[tier];
   }
@@ -87,10 +94,14 @@ export default class PokemonComponent  implements OnInit {
 
   openModal(pokemon: Pokemon) {
     this.selectedPokemon = pokemon;
+    history.pushState({ modal: true }, '');
   }
 
   closeModal() {
     this.selectedPokemon = null;
+    if (window.history.state?.modal) {
+      history.back();
+    }
   }
 
   private regionFilters: Record<string, { keyword: string; extras: string[] }> = {
