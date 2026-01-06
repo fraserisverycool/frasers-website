@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {Concert} from "./concert.interface";
 import { HttpClient } from "@angular/common/http";
@@ -12,13 +12,48 @@ import {ImageService} from "../../utils/services/image.service";
     templateUrl: './concerts.component.html',
     styleUrls: ['./concerts.component.css']
 })
-export default class ConcertsComponent implements OnInit {
+export default class ConcertsComponent implements OnInit, AfterViewInit, OnDestroy {
   concerts: Concert[] = []
+
+  pageSize = 5;
+  itemsToShow = 5;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
 
   constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
 
   ngOnInit(): void {
       this.loadConcerts();
+  }
+
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  }
+
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.loadMore();
+      }
+    }, {
+      rootMargin: '100px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  loadMore(): void {
+    if (this.itemsToShow < this.concerts.length) {
+      this.itemsToShow += this.pageSize;
+    }
   }
 
   loadConcerts(): void {

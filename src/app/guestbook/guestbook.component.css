@@ -124,3 +124,7 @@ button:hover {
   gap: 10px;
   margin: 10px;
 }
+
+.scroll-anchor {
+  height: 10px;
+}

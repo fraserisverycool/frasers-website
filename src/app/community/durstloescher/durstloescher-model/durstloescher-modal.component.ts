@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import StarMessageComponent from "../../../utils/star-message/star-message.component";
@@ -13,10 +13,25 @@ import {ImageService} from "../../../utils/services/image.service";
     templateUrl: './durstloescher-modal.component.html',
     styleUrls: ['./durstloescher-modal.component.css']
 })
-export class DurstloescherModalComponent {
+export class DurstloescherModalComponent implements OnInit, OnDestroy {
   @Input() selectedDurstloescher: Durstloescher | undefined;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
 
   constructor(protected imageService: ImageService) {
+  }
+
+  ngOnInit() {
+    history.pushState({ modal: true }, '');
+  }
+
+  @HostListener('window:popstate')
+  onPopState() {
+    this.close.emit();
+  }
+
+  ngOnDestroy() {
+    if (window.history.state?.modal) {
+      history.back();
+    }
   }
 }

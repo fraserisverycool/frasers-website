@@ -17,7 +17,14 @@ ul {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.tag-list {
+  width: auto;
+  gap: 0px;
 }
 
 h1 {
@@ -30,12 +37,10 @@ h1 {
   text-align: center;
   color: #333;
   width: 100%;
-  max-width: 800px;
 }
 
 .album-card {
-  width: calc(33.33% - 20px);
-  margin: 10px;
+  width: calc(33.333% - 13.34px);
   cursor: pointer;
   transition: transform 0.3s ease;
   display: flex;
@@ -44,13 +49,13 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .album-card {
-    width: calc(50% - 20px); /* Two cards per row on mobile */
+    width: calc(50% - 10px); /* Two cards per row on mobile */
   }
 }
 
 @media screen and (max-width: 480px) {
   .album-card {
-    width: calc(100% - 20px); /* One card per row on very small screens */
+    width: 100%; /* One card per row on very small screens */
   }
 }
 
@@ -109,6 +114,10 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
+.scroll-anchor {
+  height: 10px;
+}
+
 .sorting-buttons button:hover {
   transform: scale(1.1);
   background-color: #5a7d57;
@@ -161,6 +170,7 @@ h1 {
   padding: 10px;
   background-color: #d9ffe3;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .tag-checkbox {

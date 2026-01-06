@@ -1,5 +1,5 @@
 @if (selectedKkSong) {
-  <div class="modal">
+  <div class="modal" (clickedOutside)="close.emit()" appClickedOutside>
     <div class="modal-content">
       <app-close-button (click)="close.emit()"/>
       <h2>{{ selectedKkSong.title }}</h2>

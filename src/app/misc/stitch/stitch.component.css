@@ -58,3 +58,7 @@ ul {
 .rating {
   padding-top: 15px;
 }
+
+.scroll-anchor {
+  height: 10px;
+}

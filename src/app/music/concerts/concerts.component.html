@@ -14,7 +14,7 @@
     </li>
   </ul>
   <ul class="concert-list">
-    @for (concert of concerts; track concert) {
+    @for (concert of concerts.slice(0, itemsToShow); track concert) {
       <li class="concert-card">
         <h2>{{ concert.artist }}</h2>
         <p>
@@ -32,4 +32,5 @@
         </li>
       }
     </ul>
+    <div #scrollAnchor class="scroll-anchor"></div>
   </div>

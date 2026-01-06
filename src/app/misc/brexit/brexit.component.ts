@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 import { HttpClient } from '@angular/common/http';
 import { NgOptimizedImage } from '@angular/common';
@@ -33,9 +33,20 @@ export default class BrexitComponent implements OnInit {
 
   openImage(image: string): void {
     this.selectedImage = image;
+    history.pushState({ modal: true }, '');
+  }
+
+  @HostListener('window:popstate')
+  onPopState() {
+    if (this.selectedImage) {
+      this.selectedImage = null;
+    }
   }
 
   closeImage(): void {
     this.selectedImage = null;
+    if (window.history.state?.modal) {
+      history.back();
+    }
   }
 }

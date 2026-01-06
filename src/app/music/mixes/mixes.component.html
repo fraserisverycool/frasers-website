@@ -6,7 +6,7 @@
     </div>
     <p>So happy to announce that I finally got these mp3s working! Download them directly from my raspberry pi here! Maybe don't start many downloads at once because the thing only has 2GB RAM.</p>
     <ul class="mp3-list">
-      @for (mp3 of mp3Files; track mp3; let i = $index) {
+      @for (mp3 of mp3Files.slice(0, itemsToShow); track mp3; let i = $index) {
         <li [style.animation-delay]="i * 0.1 + 's'">
           <div class="mp3-card" [style.background-color]="color">
             <h2>{{ mp3.name }}</h2>
@@ -20,5 +20,6 @@
         </li>
       }
     </ul>
+    <div #scrollAnchor class="scroll-anchor"></div>
   </div>
 </div>

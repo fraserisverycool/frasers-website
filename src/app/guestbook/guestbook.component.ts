@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import ColorPickerComponent from "../utils/color-picker/color-picker.component";
 import {GuestbookService} from "./service/guestbook.service";
@@ -12,15 +12,50 @@ import {ImageService} from "../utils/services/image.service";
     templateUrl: './guestbook.component.html',
     styleUrls: ['./guestbook.component.css']
 })
-export default class GuestbookComponent {
+export default class GuestbookComponent implements OnInit, AfterViewInit, OnDestroy {
   feedbacks: Feedback[] = [];
   newFeedback = { comment: '', name: '', color: '#ffffff' };
   errorMessage: string = '';
+
+  pageSize = 10;
+  itemsToShow = 10;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
 
   constructor(private guestbookService: GuestbookService, protected  imageService: ImageService) { }
 
   ngOnInit(): void {
     this.loadFeedback();
+  }
+
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  }
+
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.loadMore();
+      }
+    }, {
+      rootMargin: '100px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  loadMore(): void {
+    if (this.itemsToShow < this.feedbacks.length) {
+      this.itemsToShow += this.pageSize;
+    }
   }
 
   loadFeedback(): void {

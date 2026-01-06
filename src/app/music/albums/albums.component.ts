@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
@@ -14,12 +14,20 @@ import {ImageService} from "../../utils/services/image.service";
     templateUrl: './albums.component.html',
     styleUrls: ['./albums.component.css']
 })
-export default class AlbumsComponent implements OnInit {
+export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy {
   albums: Album[] = [];
   originalAlbums: Album[] = [];
   selectedAlbum: Album | null = null;
 
-  searchTerm: string = '';
+  private _searchTerm: string = '';
+  get searchTerm(): string {
+    return this._searchTerm;
+  }
+  set searchTerm(value: string) {
+    this._searchTerm = value;
+    this.resetInfiniteScroll();
+  }
+
   selectedTags: string[] = [];
 
   availableTags: string[] = [
@@ -30,10 +38,49 @@ export default class AlbumsComponent implements OnInit {
     'special vibes', 'classic', 'not for everyone', 'cunty', 'devastating', 'wild shit', 'all time faves'
   ];
 
+  pageSize = 10;
+  itemsToShow = 10;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
+
   constructor(private http: HttpClient, private albumsService: AlbumsService, private ratingService: RatingService, protected imageService: ImageService,) {}
 
   ngOnInit(): void {
     this.loadAlbums();
+  }
+
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
+  ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  }
+
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.loadMore();
+      }
+    }, {
+      rootMargin: '100px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  loadMore(): void {
+    if (this.itemsToShow < this.filteredAlbums.length) {
+      this.itemsToShow += this.pageSize;
+    }
+  }
+
+  resetInfiniteScroll(): void {
+    this.itemsToShow = this.pageSize;
   }
 
   loadAlbums(): void {
@@ -96,6 +143,7 @@ export default class AlbumsComponent implements OnInit {
   }
 
   sortAlbums(criteria: 'random' | 'alphabeticalName' | 'alphabeticalArtist' | 'releaseDate'): void {
+    this.resetInfiniteScroll();
     switch (criteria) {
       case 'random':
         this.albums = [...this.originalAlbums].sort(() => Math.random() - 0.5);
@@ -115,6 +163,7 @@ export default class AlbumsComponent implements OnInit {
   }
 
   toggleTagSelection(tag: string): void {
+    this.resetInfiniteScroll();
     if (this.selectedTags.includes(tag)) {
       this.selectedTags = this.selectedTags.filter(t => t !== tag);
     } else {

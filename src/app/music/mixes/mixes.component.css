@@ -80,6 +80,10 @@
   margin-right: 5px;
 }
 
+.scroll-anchor {
+  height: 10px;
+}
+
 .gif {
   display: flex;
   justify-content: center;

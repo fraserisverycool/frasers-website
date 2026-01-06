@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {Character, Decoration} from "../character.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
@@ -12,12 +12,27 @@ import {ImageService} from "../../../utils/services/image.service";
     templateUrl: './character.component.html',
     styleUrls: ['./character.component.css']
 })
-export class CharacterComponent {
+export class CharacterComponent implements OnInit, OnDestroy {
   @Input() selectedCharacter: Character | undefined;
   @Input() pictureMode: number = 0;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
 
   constructor(protected imageService: ImageService) {
+  }
+
+  ngOnInit() {
+    history.pushState({ modal: true }, '');
+  }
+
+  @HostListener('window:popstate')
+  onPopState() {
+    this.close.emit();
+  }
+
+  ngOnDestroy() {
+    if (window.history.state?.modal) {
+      history.back();
+    }
   }
 
   getBadge(ratingType: string, value: boolean) {

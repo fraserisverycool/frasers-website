@@ -17,7 +17,9 @@ ul {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
 }
 
 h1 {
@@ -30,12 +32,10 @@ h1 {
   text-align: center;
   color: #333;
   width: 100%;
-  max-width: 800px;
 }
 
 .cd-card {
-  width: calc(33.33% - 20px);
-  margin: 10px;
+  width: calc(33.333% - 13.34px);
   cursor: pointer;
   transition: transform 0.3s ease;
   display: flex;
@@ -44,13 +44,13 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .cd-card {
-    width: calc(50% - 20px); /* Two cards per row on mobile */
+    width: calc(50% - 10px); /* Two cards per row on mobile */
   }
 }
 
 @media screen and (max-width: 480px) {
   .cd-card {
-    width: calc(100% - 20px); /* One card per row on very small screens */
+    width: 100%; /* One card per row on very small screens */
   }
 }
 
@@ -116,6 +116,10 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+.scroll-anchor {
+  height: 10px;
 }
 
 .sorting-buttons button:hover {

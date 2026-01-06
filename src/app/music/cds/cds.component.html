@@ -33,7 +33,7 @@
     </ul>
   </div>
   <ul>
-    @for (cd of filteredCds; track cd) {
+    @for (cd of filteredCds.slice(0, itemsToShow); track cd) {
       <div class="cd-card" (click)="showDescription(cd)">
         <div class="cd-image-container">
           <img [ngSrc]="imageService.imageUrl('/music/albums/' + cd.image)" [alt]="cd.album" class="cd-image" width="200" height="200"/>
@@ -45,6 +45,7 @@
       </div>
     }
   </ul>
+  <div #scrollAnchor class="scroll-anchor"></div>
 </div>
 
 @if (selectedCd) {

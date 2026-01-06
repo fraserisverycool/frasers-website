@@ -16,7 +16,7 @@
   </nav>
   <p>{{ gameDescription[currentFilter] }}</p>
   <ul class="track-list">
-    @for (track of tracks; track track) {
+    @for (track of tracks.slice(0, itemsToShow); track track) {
       <li class="track-card">
         <img
           [ngSrc]="imageService.imageUrl('/misc/mariokart/' + track.image)"
@@ -78,4 +78,5 @@
         </li>
       }
     </ul>
+    <div #scrollAnchor class="scroll-anchor"></div>
   </div>

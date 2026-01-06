@@ -29,11 +29,12 @@
     </form>
   </div>
   <ul class="feedback-list">
-    @for (feedback of feedbacks; track feedback) {
+    @for (feedback of feedbacks.slice(0, itemsToShow); track feedback) {
       <li class="feedback-item" [style.background-color]="feedback.color" [style.color]="textColor(feedback.color)">
         <p><strong>{{ feedback.name }}</strong> - {{ feedback.timestamp | date:'dd-MM-yyyy' }}</p>
         <p>{{ feedback.comment }}</p>
       </li>
     }
   </ul>
+  <div #scrollAnchor class="scroll-anchor"></div>
 </div>

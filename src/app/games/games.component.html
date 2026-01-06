@@ -27,9 +27,10 @@
       </ul>
     </div>
   }
-  @for (game of filteredGames; track game) {
+  @for (game of filteredGames.slice(0, itemsToShow); track game) {
     <div>
       <app-game [game]="game"></app-game>
     </div>
   }
+  <div #scrollAnchor class="scroll-anchor"></div>
 </div>

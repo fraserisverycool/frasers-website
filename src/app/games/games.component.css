@@ -140,3 +140,7 @@ h1 {
   border-color: #290d06;
   color: #fff;
 }
+
+.scroll-anchor {
+  height: 10px;
+}

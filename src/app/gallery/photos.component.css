@@ -33,3 +33,7 @@ h1 {
   align-items: center;
   gap: 20px;
 }
+
+.scroll-anchor {
+  height: 10px;
+}
