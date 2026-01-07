@@ -6,6 +6,7 @@ import {DailySoundtrack} from "./daily-soundtrack.interface";
 import {DomSanitizer, SafeResourceUrl, SafeUrl} from "@angular/platform-browser";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {RouterLink} from "@angular/router";
+import {ImageService} from "../../utils/services/image.service";
 
 @Component({
     selector: 'app-daily',
@@ -19,7 +20,7 @@ export class DailyComponent implements OnInit {
   safeLink: SafeUrl | null = null;
   audioPath: string = '/music/dailysoundtracks/';
 
-  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer) {
+  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService) {
   }
 
   ngOnInit(): void {

@@ -29,7 +29,7 @@
           <p class="p"><strong>Description:</strong> {{track.description}}</p>
 <!--          @if (track.filename) {-->
 <!--            <div class="mini-audio-player">-->
-<!--              <audio controls [src]="audioPath + track.filename">-->
+<!--              <audio controls [src]="imageService.imageUrl(audioPath + track.filename)">-->
 <!--                Normally there is an audio player here but mate your browser can't handle it-->
 <!--              </audio>-->
 <!--            </div>-->
