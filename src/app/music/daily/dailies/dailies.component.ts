@@ -20,7 +20,7 @@ export default class DailiesComponent implements OnInit {
   currentFilter: string = '';
   filters = ["I don't care about video game music!", "Gimme that sweet video game music!", "Show me it all!"];
   today: DailySoundtrack | null = null;
-  audioPath: string = 'assets/music/dailysoundtracks/';
+  audioPath: string = '/music/dailysoundtracks/';
 
   constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService) {
   }
