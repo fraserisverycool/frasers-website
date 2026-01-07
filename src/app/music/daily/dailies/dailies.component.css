@@ -28,6 +28,7 @@ ul {
   background: url('../../../../assets/backgrounds/silver-background.jpg') repeat;
   opacity: 0.1;
   z-index: 1;
+  pointer-events: none;
 }
 
 .list-item {
@@ -36,7 +37,18 @@ ul {
   align-items: center;
   gap: 10px;
   margin-bottom: 5px;
-  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  position: relative;
+}
+
+.mini-audio-player {
+  margin: 10px 0;
+  max-width: 300px;
+}
+
+.mini-audio-player audio {
+  height: 30px;
+  width: 100%;
 }
 
 .date {
@@ -45,24 +57,20 @@ ul {
   font-size: 0.9em;
 }
 
-.h3 {
+.h2 {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .p, .a {
   margin: 0;
   font-size: 0.8em;
-  position: relative;
-  z-index: 2;
 }
 
 app-rating-bar {
   display: block;
   padding-top: 20px;
   padding-bottom: 5px;
-  position: relative;
-  z-index: 2;
 }
 
 .filter-grid {
@@ -81,8 +89,6 @@ app-rating-bar {
   cursor: pointer;
   border-radius: 9px;
   transition: all 0.2s ease-in-out;
-  position: relative;
-  z-index: 2;
 }
 
 .filter-button:hover {

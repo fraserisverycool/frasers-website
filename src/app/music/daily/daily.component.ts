@@ -17,6 +17,7 @@ export class DailyComponent implements OnInit {
   dailySoundtracks: DailySoundtrack[] = [];
   today: DailySoundtrack | null = null;
   safeLink: SafeUrl | null = null;
+  audioPath: string = 'assets/music/dailysoundtracks/';
 
   constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer) {
   }

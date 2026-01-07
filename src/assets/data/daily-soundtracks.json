@@ -9,7 +9,8 @@
       "game": false,
       "day": "28-02-2026",
       "id": "e066ee51-b95c-4e08-b0f3-428dadc82b9e",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "the-melting-of-the-sun.mp3"
     },
     {
       "artist": "David Byrne, Brian Eno",
@@ -20,7 +21,8 @@
       "game": false,
       "day": "27-02-2026",
       "id": "993bcef3-b351-431f-9cf3-f823d7baa153",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "strange-overtones.mp3"
     },
     {
       "artist": "Arata Iiyoshi, Atsuhiro Ishizuna",
@@ -31,7 +33,8 @@
       "game": true,
       "day": "26-02-2026",
       "id": "2c3fd08d-05a0-431e-85e9-05096550683d",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "sky-tower.mp3"
     },
     {
       "artist": "Spellling",
@@ -42,7 +45,8 @@
       "game": false,
       "day": "25-02-2026",
       "id": "a5611540-4469-40a5-b5dd-a9a4daab9257",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "boys-at-school.mp3"
     },
     {
       "artist": "School of Seven Bells",
@@ -53,7 +57,8 @@
       "game": false,
       "day": "24-02-2026",
       "id": "9d484bc5-33d8-4329-8b1b-f60a89027727",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "bye-bye-bye.mp3"
     },
     {
       "artist": "Massive Attack",
@@ -64,7 +69,8 @@
       "game": false,
       "day": "23-02-2026",
       "id": "97cd9088-6457-4a9e-8b0e-5efc78b6c68f",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "teardrop.mp3"
     },
     {
       "artist": "Kazumi Totaka",
@@ -75,7 +81,8 @@
       "game": true,
       "day": "22-02-2026",
       "id": "542e97e5-c7f4-470c-b541-ea5570a49f32",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "k-k-house-club-version.mp3"
     },
     {
       "artist": "Asuka Ito",
@@ -86,7 +93,8 @@
       "game": true,
       "day": "21-02-2026",
       "id": "13900efd-0cb5-4a1f-a7e1-e95517cacd09",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "glider.mp3"
     },
     {
       "artist": "Atsuko Asahi",
@@ -97,7 +105,8 @@
       "game": true,
       "day": "20-02-2026",
       "id": "79c10426-5ce8-4b58-8722-652b2d7f3510",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "sydney-sprint.mp3"
     },
     {
       "artist": "David Wise",
@@ -108,7 +117,8 @@
       "game": true,
       "day": "19-02-2026",
       "id": "2934f5f5-ea90-48c2-81fa-31a0af759fb2",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "fear-factory.mp3"
     },
     {
       "artist": "Madonna",
@@ -119,7 +129,8 @@
       "game": false,
       "day": "18-02-2026",
       "id": "511b5d3a-0616-4024-9c49-65e9c72bd8dc",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "deeper-and-deeper.mp3"
     },
     {
       "artist": "Nelly Furtado",
@@ -130,7 +141,8 @@
       "game": false,
       "day": "17-02-2026",
       "id": "c3370aae-0126-46bf-b14c-caa272b1cce5",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "im-like-a-bird.mp3"
     },
     {
       "artist": "Kumi Tanioka",
@@ -141,7 +153,8 @@
       "game": true,
       "day": "16-02-2026",
       "id": "2465662d-50fb-4338-9b2b-cc9296377481",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "molgera.mp3"
     },
     {
       "artist": "Koji Kondo",
@@ -152,7 +165,8 @@
       "game": true,
       "day": "15-02-2026",
       "id": "5202b2bd-5172-499a-9210-42862d18e5f9",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "castle-bgm.mp3"
     },
     {
       "artist": "Róisín Murphy",
@@ -163,7 +177,8 @@
       "game": false,
       "day": "14-02-2026",
       "id": "8746ec93-5599-4b69-90d5-33c3d4d421ff",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "narcissus.mp3"
     },
     {
       "artist": "Tim Follin",
@@ -174,7 +189,8 @@
       "game": true,
       "day": "13-02-2026",
       "id": "f0b7e4a4-9763-42e8-8f16-281a54d9c100",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "title-screen-pictionary.mp3"
     },
     {
       "artist": "New Radicals",
@@ -185,7 +201,8 @@
       "game": false,
       "day": "12-02-2026",
       "id": "0e84dd0f-9eaa-4d44-8584-01aacd1b37a3",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "you-get-what-you-give.mp3"
     },
     {
       "artist": "Tim Follin, Geoff Follin",
@@ -196,7 +213,8 @@
       "game": true,
       "day": "11-02-2026",
       "id": "072bf345-8c22-4d3a-b9cf-09f8ab5f0921",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "gambit.mp3"
     },
     {
       "artist": "Keiichi Suzuki, Hirokazu Tanaka",
@@ -207,18 +225,20 @@
       "game": true,
       "day": "10-02-2026",
       "id": "030674ae-409f-45fd-a965-c6f49d710d52",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "sanctuary-guardians.mp3"
     },
     {
       "artist": "Alcazar",
       "album": "Casino",
-      "track": "Crying At The Discotheque",
+      "track": "Crying At The Discoteque",
       "description": "Huge disco track that I have DJ'd many times. I am obsessed with the music video though. The outfits, the close ups, the guy (he's hot), the animals, is there a storyline?",
       "link": "https://www.youtube.com/watch?v=7CiOWcUVGJM",
       "game": false,
       "day": "09-02-2026",
       "id": "06eabe9c-6a49-4121-b093-6145bb25a452",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "crying-at-the-discoteque.mp3"
     },
     {
       "artist": "Sophie Ellis-Bextor",
@@ -229,7 +249,8 @@
       "game": false,
       "day": "08-02-2026",
       "id": "73132b6d-be45-4285-81a2-f2c04fc750e0",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "murder-on-the-dancefloor.mp3"
     },
     {
       "artist": "Koji Kondo",
@@ -240,7 +261,8 @@
       "game": true,
       "day": "07-02-2026",
       "id": "1d2c1bca-0377-4b89-8080-79a6e6c6aaae",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "staff-roll-super-mario-64.mp3"
     },
     {
       "artist": "Scissor Sisters",
@@ -251,7 +273,8 @@
       "game": false,
       "day": "06-02-2026",
       "id": "99a071f5-618b-4b82-8ad7-dbf45cb767d9",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "i-dont-feel-like-dancin.mp3"
     },
     {
       "artist": "Kazumi Totaka",
@@ -262,7 +285,8 @@
       "game": true,
       "day": "05-02-2026",
       "id": "1c2c3f9a-38d1-4f78-a1d5-6ee4e94619f5",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "drake-lake.mp3"
     },
     {
       "artist": "Kazumi Totaka",
@@ -273,7 +297,8 @@
       "game": true,
       "day": "04-02-2026",
       "id": "21f0b7e3-0b80-4a7c-ac79-caa0a9b3a550",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "yoshis-tale.mp3"
     },
     {
       "artist": "The Ting Tings",
@@ -284,7 +309,8 @@
       "game": false,
       "day": "03-02-2026",
       "id": "6620d004-83fb-4f0a-a6f5-2637d9ec25c8",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "thats-not-my-name.mp3"
     },
     {
       "artist": "Hajime Wakai",
@@ -295,7 +321,8 @@
       "game": true,
       "day": "02-02-2026",
       "id": "5c522fbf-e9be-47f3-bc0c-63cc2bf5b9d5",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "lanayru-sand-sea.mp3"
     },
     {
       "artist": "Sugababes",
@@ -306,7 +333,8 @@
       "game": false,
       "day": "01-02-2026",
       "id": "4a053a8c-3a75-46e2-a9d2-87206c491a29",
-      "newsletter": false
+      "newsletter": false,
+      "filename": "overload.mp3"
     },
     {
       "artist": "Jamiroquai",
@@ -317,7 +345,8 @@
       "game": false,
       "day": "31-01-2026",
       "id": "951e8ada-f4eb-4c4a-a4b8-24f5aefa75f9",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "runaway.mp3"
     },
     {
       "artist": "Lily Allen",
@@ -328,7 +357,8 @@
       "game": false,
       "day": "30-01-2026",
       "id": "5f312c75-3bbe-47bf-b4b4-02aa66b62d04",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "pussy-palace.mp3"
     },
     {
       "artist": "Kazumi Totaka",
@@ -339,7 +369,8 @@
       "game": true,
       "day": "29-01-2026",
       "id": "701c80a0-68ea-46ea-8093-75a1eb8c3065",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "bunny-day.mp3"
     },
     {
       "artist": "Pond",
@@ -350,7 +381,8 @@
       "game": false,
       "day": "28-01-2026",
       "id": "41793821-11f7-43b8-a536-5fad346451b6",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "americas-cup.mp3"
     },
     {
       "artist": "Metronomy",
@@ -361,7 +393,8 @@
       "game": false,
       "day": "27-01-2026",
       "id": "1f07410e-8059-4910-9857-f7a84fbbdd3d",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "the-upsetter.mp3"
     },
     {
       "artist": "Tame Impala",
@@ -372,7 +405,8 @@
       "game": false,
       "day": "26-01-2026",
       "id": "634b2381-d104-475c-a26f-c4cee7e81279",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "elephant.mp3"
     },
     {
       "artist": "Pedro Silva",
@@ -383,7 +417,8 @@
       "game": true,
       "day": "25-01-2026",
       "id": "88c03c01-2f15-4fb8-ad2a-ce32e0f4bc29",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "by-your-side.mp3"
     },
     {
       "artist": "The Maccabees",
@@ -394,7 +429,8 @@
       "game": false,
       "day": "24-01-2026",
       "id": "91aa96ee-c54f-4369-a23a-673bddfe41d9",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "pelican.mp3"
     },
     {
       "artist": "John Baker",
@@ -405,7 +441,8 @@
       "game": true,
       "day": "23-01-2026",
       "id": "2e0d588f-3386-47ed-8d4d-ce38a7871bc5",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "western-station.mp3"
     },
     {
       "artist": "Mr. Sauceman, ClascyJitto, POST ELVIS",
@@ -416,7 +453,8 @@
       "game": true,
       "day": "22-01-2026",
       "id": "ac8724e9-7708-4784-a6b9-cdf2a3d4fc5c",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "tropical-crust.mp3"
     },
     {
       "artist": "Ryoji Yoshitomi",
@@ -427,7 +465,8 @@
       "game": true,
       "day": "21-01-2026",
       "id": "44c00e41-3772-4b94-910c-1faf4cf67f34",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "crescent-moon-village.mp3"
     },
     {
       "artist": "Saint Motel",
@@ -438,7 +477,8 @@
       "game": false,
       "day": "20-01-2026",
       "id": "b92e8d1a-1062-47e5-a4e6-d8695e75df41",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "my-type.mp3"
     },
     {
       "artist": "Broken Bells",
@@ -449,7 +489,8 @@
       "game": false,
       "day": "19-01-2026",
       "id": "437eaa29-0c66-4be7-9a04-9a2957352589",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "mongrel-heart.mp3"
     },
     {
       "artist": "Lena Raine",
@@ -460,7 +501,8 @@
       "game": true,
       "day": "18-01-2026",
       "id": "8500fb4f-2575-47ab-8698-c08f79a2f7e0",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "first-steps.mp3"
     },
     {
       "artist": "Janelle Monáe",
@@ -471,7 +513,8 @@
       "game": false,
       "day": "17-01-2026",
       "id": "0dabd4a1-f6c0-4af3-8513-8f2a29827fab",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "sincerely-jane.mp3"
     },
     {
       "artist": "SAULT",
@@ -482,7 +525,8 @@
       "game": false,
       "day": "16-01-2026",
       "id": "98aaae29-cefc-49fd-bc48-e88a71797a79",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "you-from-london.mp3"
     },
     {
       "artist": "Magdalena Bay",
@@ -493,7 +537,8 @@
       "game": false,
       "day": "15-01-2026",
       "id": "610d2322-05e4-46f9-9083-c758995f5844",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "secrets-your-fire.mp3"
     },
     {
       "artist": "Erykah Badu",
@@ -504,7 +549,8 @@
       "game": false,
       "day": "14-01-2026",
       "id": "a905b906-6b45-48fc-b6e8-603ad5b18185",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "soldier.mp3"
     },
     {
       "artist": "Fleet Foxes",
@@ -515,7 +561,8 @@
       "game": false,
       "day": "13-01-2026",
       "id": "73c8d436-09b5-4ed7-b772-148b8360c8c2",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "silver-dagger.mp3"
     },
     {
       "artist": "Koji Kondo",
@@ -526,7 +573,8 @@
       "game": true,
       "day": "12-01-2026",
       "id": "78608b44-06c0-49cf-98ce-0d2c56fa972d",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "astral-observatory.mp3"
     },
     {
       "artist": "Deniz Akbulut",
@@ -537,7 +585,8 @@
       "game": true,
       "day": "11-01-2026",
       "id": "6fb13f1f-d35c-48a3-8b12-b2c6b4989c33",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "rookie-harbor.mp3"
     },
     {
       "artist": "Masafumi Takada",
@@ -548,18 +597,20 @@
       "game": true,
       "day": "10-01-2026",
       "id": "b7b0b979-cef3-4653-b848-2b1598f4a6db",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "kill-the-past.mp3"
     },
     {
       "artist": "Go Ichinose, Junichi Musada",
       "album": "Pokemon Diamond/Pearl",
       "track": "Lake",
       "description": "Beautiful music from arguably the best Pokemon soundtrack. I love the harmony. It feels like music to ascend to heaven to.",
-      "link": "https://www.youtube.com/watch?v=96qogC-0VjI",
+      "link": "https://www.youtube.com/watch?v=2X1oNw7se1c",
       "game": true,
       "day": "09-01-2026",
       "id": "4e7be40e-e652-471a-a7b4-ce31f5bc79ef",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "lake.mp3"
     },
     {
       "artist": "Masami Ueda, Hiroshi Yamaguchi, Rei Kondoh, Akari Kaida",
@@ -570,7 +621,8 @@
       "game": true,
       "day": "08-01-2026",
       "id": "ea5ac74d-b822-48d0-8628-fe10927dd4de",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "hana-valley.mp3"
     },
     {
       "artist": "Jim Noir",
@@ -581,7 +633,8 @@
       "game": false,
       "day": "07-01-2026",
       "id": "f9f37b4d-0fec-411f-acc9-5a209ab4f49d",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "tower-of-love.mp3"
     },
     {
       "artist": "Toni Braxton",
@@ -592,7 +645,8 @@
       "game": false,
       "day": "06-01-2026",
       "id": "a9a49d84-0419-430c-88b5-20a739f9d88c",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "un-break-my-heart.mp3"
     },
     {
       "artist": "Quadron",
@@ -603,7 +657,8 @@
       "game": false,
       "day": "05-01-2026",
       "id": "405aff8e-c78d-4ee8-8593-86e4ff177efd",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "herfra-hvor-vi-står.mp3"
     },
     {
       "artist": "KING",
@@ -614,7 +669,8 @@
       "game": false,
       "day": "04-01-2026",
       "id": "71eefaa3-fe60-4122-a358-a725e64907c0",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "hey.mp3"
     },
     {
       "artist": "Lesley Duncan",
@@ -625,7 +681,8 @@
       "game": false,
       "day": "03-01-2026",
       "id": "e713d09a-956d-4f27-a270-16764f4b954c",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "love-song.mp3"
     },
     {
       "artist": "Kenta Nagata",
@@ -636,7 +693,8 @@
       "game": true,
       "day": "02-01-2026",
       "id": "5f704c9a-2a47-438a-8b94-93162da33e38",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "call-me.mp3"
     },
     {
       "artist": "Hirokazu Ando",
@@ -647,7 +705,8 @@
       "game": true,
       "day": "01-01-2026",
       "id": "9519c9f2-09bf-4cb5-b705-65dd09e82daa",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "credits.mp3"
     },
     {
       "artist": "Regina Spektor",
@@ -658,7 +717,8 @@
       "game": false,
       "day": "31-12-2025",
       "id": "267b6ea5-3b96-44f0-a089-789043602f96",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "new-year.mp3"
     },
     {
       "artist": "Naoko Mitome, Masanobu Matsunaga, Yasuhisa Baba, Kenichi Nishimaki",
@@ -669,7 +729,8 @@
       "game": true,
       "day": "30-12-2025",
       "id": "2c3b4174-7f31-4165-802d-2dd6a827d3e9",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "balloon-fight.mp3"
     },
     {
       "artist": "Ryoji Yoshitomi, Kyoko Miyamoto",
@@ -680,7 +741,8 @@
       "game": true,
       "day": "29-12-2025",
       "id": "cfc3cad3-0c88-4f5b-9500-a9c410d044ea",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "drifting-away.mp3"
     },
     {
       "artist": "Air",
@@ -691,7 +753,8 @@
       "game": false,
       "day": "28-12-2025",
       "id": "ec35cba6-baae-497e-b6f4-2b4e87b239bb",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "le-voyage-de-pénélope.mp3"
     },
     {
       "artist": "Grant Kirkhope",
@@ -702,7 +765,8 @@
       "game": true,
       "day": "27-12-2025",
       "id": "ed90fbf4-e9c2-4345-a6dd-b1dbc47aacf9",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "darkmoon-caverns.mp3"
     },
     {
       "artist": "Kaytranada ft. PinkPantheress",
@@ -713,7 +777,8 @@
       "game": false,
       "day": "26-12-2025",
       "id": "1206d4f7-813c-4a74-a999-e25240d216f3",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "snap-my-finger.mp3"
     },
     {
       "artist": "Wham!",
@@ -724,7 +789,8 @@
       "game": false,
       "day": "25-12-2025",
       "id": "d915b7f5-ea6b-4412-8605-64132d0635e2",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "last-christmas.mp3"
     },
     {
       "artist": "Stornoway",
@@ -735,7 +801,8 @@
       "game": false,
       "day": "24-12-2025",
       "id": "c2eed6ec-9f6d-4bac-963b-9a3aef937373",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "we-are-the-battery-human.mp3"
     },
     {
       "artist": "Laura Marling",
@@ -746,7 +813,8 @@
       "game": false,
       "day": "23-12-2025",
       "id": "04d8204f-1f21-4bfd-82ad-fe331fa26bbf",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "goodbye-england-covered-in-snow.mp3"
     },
     {
       "artist": "David Wise",
@@ -757,7 +825,8 @@
       "game": true,
       "day": "22-12-2025",
       "id": "b4fca0a3-f621-487f-ab91-d816d058ede7",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "stickerbush-symphony.mp3"
     },
     {
       "artist": "David Wise",
@@ -768,7 +837,8 @@
       "game": true,
       "day": "21-12-2025",
       "id": "c9f6d72b-5626-4287-a16f-4e1ea0445eea",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "staff-credits.mp3"
     },
     {
       "artist": "Yuzo Koshiro",
@@ -779,7 +849,8 @@
       "game": true,
       "day": "20-12-2025",
       "id": "c7836f81-4e1b-448b-aaa4-9e9e4fc289db",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "dreamer.mp3"
     },
     {
       "artist": "Yoko Shimamura",
@@ -790,7 +861,8 @@
       "game": false,
       "day": "19-12-2025",
       "id": "0af5e39c-5303-482b-9149-5b47d98026d6",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "magicant-eight-melodies-mother.mp3"
     },
     {
       "artist": "Kero Kero Bonito",
@@ -801,7 +873,8 @@
       "game": false,
       "day": "18-12-2025",
       "id": "5122c58a-91dd-46ed-a27e-5f91ea689d63",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "battle-lines.mp3"
     },
     {
       "artist": "Toby Fox",
@@ -812,7 +885,8 @@
       "game": true,
       "day": "17-12-2025",
       "id": "82f7e728-44da-4afd-b086-c66f6acfd57b",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "another-medium.mp3"
     },
     {
       "artist": "Toby Fox",
@@ -823,7 +897,8 @@
       "game": true,
       "day": "16-12-2025",
       "id": "0802baf8-0f64-47fd-b99d-d46d71e156d4",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "dark-sanctuary.mp3"
     },
     {
       "artist": "John Guscott",
@@ -834,7 +909,8 @@
       "game": true,
       "day": "15-12-2025",
       "id": "cf73d291-f060-444b-bcc9-4a7389123e5f",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "blissful.mp3"
     },
     {
       "artist": "Camera Obscura",
@@ -845,7 +921,8 @@
       "game": false,
       "day": "14-12-2025",
       "id": "de788d24-e83c-4050-b423-53cd823b84cb",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "careless-love.mp3"
     },
     {
       "artist": "Madeleine Peyroux",
@@ -856,7 +933,8 @@
       "game": false,
       "day": "13-12-2025",
       "id": "3ba63d7f-2fb5-4b59-9e62-22ae38bd9e89",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "you-re-gonna-make-me-lonesome-when-you-go.mp3"
     },
     {
       "artist": "Hirokazu Tanaka",
@@ -867,7 +945,8 @@
       "game": true,
       "day": "12-12-2025",
       "id": "c8296fd4-5099-4504-879a-ee20cb5d7554",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "fallin-love-and.mp3"
     },
     {
       "artist": "Herbie Hancock",
@@ -878,7 +957,8 @@
       "game": false,
       "day": "11-12-2025",
       "id": "f0dbd0c0-c36f-46d0-919d-667530f9a1c7",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "textures.mp3"
     },
     {
       "artist": "Yellow Magic Orchestra",
@@ -889,7 +969,8 @@
       "game": false,
       "day": "10-12-2025",
       "id": "b8be182f-cd50-41bf-8788-f8bef6965a2a",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "yellow-magic-tong-poo.mp3"
     },
     {
       "artist": "Patrick Watson",
@@ -900,7 +981,8 @@
       "game": false,
       "day": "09-12-2025",
       "id": "75bcaa77-fde5-46fa-a9bb-fbd1a7377075",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "the-great-escape.mp3"
     },
     {
       "artist": "Christopher Larkin",
@@ -911,7 +993,8 @@
       "game": true,
       "day": "08-12-2025",
       "id": "aead8b78-4331-4bb2-8ebd-118bd78ca518",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "resting-grounds.mp3"
     },
     {
       "artist": "Muse",
@@ -922,7 +1005,8 @@
       "game": false,
       "day": "07-12-2025",
       "id": "44ff89a7-2ec7-4d02-a3fe-3ea7f66bbf98",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "hyper-music.mp3"
     },
     {
       "artist": "Moddi",
@@ -933,7 +1017,8 @@
       "game": false,
       "day": "06-12-2025",
       "id": "c38fcc50-2d19-4ab7-839a-15430f169333",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "krokstav-emne.mp3"
     },
     {
       "artist": "Miike Snow",
@@ -944,7 +1029,8 @@
       "game": false,
       "day": "05-12-2025",
       "id": "ac00e52e-cbe7-43d6-a7ef-ec76cf55309d",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "black-tin-box-feat-lykke-li.mp3"
     },
     {
       "artist": "Yasuhisa Baba, Chika Sekigawa, & Naoko Mitome",
@@ -955,7 +1041,8 @@
       "game": true,
       "day": "04-12-2025",
       "id": "3bf6c021-f8ff-43be-a445-c99021d339de",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "floro-sapiens-caverns.mp3"
     },
     {
       "artist": "Atsuko Asahi",
@@ -966,7 +1053,8 @@
       "game": true,
       "day": "03-12-2025",
       "id": "c346835a-4a02-4962-b06b-3cc297583733",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "digga-leg-super-mario-galaxy-2.mp3"
     },
     {
       "artist": "Sade",
@@ -977,7 +1065,8 @@
       "game": false,
       "day": "02-12-2025",
       "id": "0db34a08-1a77-4a42-a90b-884e51094a83",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "i-never-thought-i-d-see-the-day.mp3"
     },
     {
       "artist": "Systemabsturz",
@@ -988,7 +1077,8 @@
       "game": false,
       "day": "01-12-2025",
       "id": "ef02379c-e25d-4414-8d1d-26506c0eaa03",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "verdächtig.mp3"
     },
     {
       "artist": "Aldous Harding",
@@ -999,7 +1089,8 @@
       "game": false,
       "day": "30-11-2025",
       "id": "6eeab3b5-507e-45fa-b5a8-f82036cbe2fc",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "the-barrel.mp3"
     },
     {
       "artist": "Naoto Kubo",
@@ -1010,7 +1101,8 @@
       "game": true,
       "day": "29-11-2025",
       "id": "7d1a104f-432a-4595-8dae-17c9ed176591",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "bubblaine.mp3"
     },
     {
       "artist": "Weyes Blood",
@@ -1021,7 +1113,8 @@
       "game": false,
       "day": "28-11-2025",
       "id": "0563f0b2-37be-4fea-a962-fa4582851ac9",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "god-turn-me-into-a-flower.mp3"
     },
     {
       "artist": "Manaka Kataoka, Maasa Miyoshi, Masato Ohashi, Tsukasa Usui",
@@ -1032,7 +1125,8 @@
       "game": true,
       "day": "27-11-2025",
       "id": "36d6e838-8246-4ca0-a04f-b50bbf450753",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "lookout-landing-the-four-sages-gather.mp3"
     },
     {
       "artist": "Norah Jones",
@@ -1043,7 +1137,8 @@
       "game": false,
       "day": "26-11-2025",
       "id": "aa821868-34cc-4279-8b02-af9f7c90c977",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "miriam.mp3"
     },
     {
       "artist": "Tunng",
@@ -1054,7 +1149,8 @@
       "game": false,
       "day": "25-11-2025",
       "id": "24a40317-4f06-4e9a-be4b-42fef37f7414",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "cans.mp3"
     },
     {
       "artist": "Hajime Wakai, Kazumi Totaka",
@@ -1065,7 +1161,8 @@
       "game": true,
       "day": "24-11-2025",
       "id": "24806f56-7a39-42c8-b14d-1d0a36df06aa",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "piklopedia.mp3"
     },
     {
       "artist": "Hiroki Morishita, Yuka Tsujiyoko",
@@ -1076,7 +1173,8 @@
       "game": true,
       "day": "23-11-2025",
       "id": "8489b28e-b916-4db6-96c4-4db202b88de7",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "land-below.mp3"
     },
     {
       "artist": "The Tallest Man on Earth",
@@ -1087,7 +1185,8 @@
       "game": false,
       "day": "22-11-2025",
       "id": "8a2d058f-b704-4bc2-8bbc-60901c405eb1",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "every-little-heart.mp3"
     },
     {
       "artist": "Michael Kiwanuka",
@@ -1098,7 +1197,8 @@
       "game": false,
       "day": "21-11-2025",
       "id": "ee6671e0-f4d2-486c-b017-95a1067d0d27",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "you-ve-got-nothing-to-lose.mp3"
     },
     {
       "artist": "Little Simz",
@@ -1109,7 +1209,8 @@
       "game": false,
       "day": "20-11-2025",
       "id": "fd4eb6ab-d680-441d-bbbb-51f5d30b9a47",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "gorilla.mp3"
     },
     {
       "artist": "Daisuke Matsuoka",
@@ -1120,7 +1221,8 @@
       "game": true,
       "day": "19-11-2025",
       "id": "3dddcfd1-5bcf-45e3-bef5-f1dd9ad9d0a3",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "lower-brinstar.mp3"
     },
     {
       "artist": "Konami Kukeiha Club, Motoaki Furukawa",
@@ -1131,7 +1233,8 @@
       "game": true,
       "day": "18-11-2025",
       "id": "b3576269-a055-4272-8eb2-2f2819db89d8",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "girls.mp3"
     },
     {
       "artist": "Rhye",
@@ -1142,7 +1245,8 @@
       "game": false,
       "day": "17-11-2025",
       "id": "9e24a25d-659d-4ee5-9da0-5755807d385d",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "the-fall.mp3"
     },
     {
       "artist": "Kazumi Totaka",
@@ -1153,7 +1257,8 @@
       "game": true,
       "day": "16-11-2025",
       "id": "e05afca2-8bbd-4928-92b3-90df2738c632",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "7pm.mp3"
     },
     {
       "artist": "Erasmo Carlos",
@@ -1164,7 +1269,8 @@
       "game": false,
       "day": "15-11-2025",
       "id": "ffadf66c-c487-4e71-9e1d-b39a6092df5a",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "é-preciso-dar-um-jeito-meu-amigo.mp3"
     },
     {
       "artist": "Ultraflex",
@@ -1175,7 +1281,8 @@
       "game": false,
       "day": "14-11-2025",
       "id": "bb87bdbe-3cc1-4108-abaa-c1495dc42b9d",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "relax.mp3"
     },
     {
       "artist": "Mystery Nintendo composers",
@@ -1186,7 +1293,8 @@
       "game": true,
       "day": "13-11-2025",
       "id": "bb82d099-372c-4d3f-a6f7-8e2237c0ed7b",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "wii-u-eshop-music-july-2014.mp3"
     },
     {
       "artist": "Asuka Ohta, Hajime Wakai",
@@ -1197,7 +1305,8 @@
       "game": true,
       "day": "12-11-2025",
       "id": "10211e24-65d0-4aad-8f0e-36d8ffbaf5d2",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "staff-credits.mp3"
     },
     {
       "artist": "Confidence Man",
@@ -1208,7 +1317,8 @@
       "game": false,
       "day": "11-11-2025",
       "id": "334365a7-f0cd-479b-b6ed-819f12c990c7",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "luvin-u-is-easy.mp3"
     },
     {
       "artist": "Koji Kondo",
@@ -1219,7 +1329,8 @@
       "game": true,
       "day": "10-11-2025",
       "id": "b1165a1f-d302-401a-9bdc-0ddae3fd5def",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "forest-temple.mp3"
     },
     {
       "artist": "Aretha Franklin",
@@ -1230,7 +1341,8 @@
       "game": false,
       "day": "09-11-2025",
       "id": "0b104192-238d-4622-a4c2-97dd70c47bb1",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "nessun-dorma.mp3"
     },
     {
       "artist": "Sade",
@@ -1241,7 +1353,8 @@
       "game": false,
       "day": "08-11-2025",
       "id": "6c07c1e9-0d60-4ca7-9ec1-4775047bdd1a",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "like-a-tattoo.mp3"
     },
     {
       "artist": "Laura Mvula",
@@ -1252,7 +1365,8 @@
       "game": false,
       "day": "07-11-2025",
       "id": "afd1fd7d-c643-4973-8d35-b80f76f12320",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "can-t-live-with-the-world.mp3"
     },
     {
       "artist": "SG Lewis, Nile Rodgers",
@@ -1263,7 +1377,8 @@
       "game": false,
       "day": "06-11-2025",
       "id": "cc3019c6-8624-4fb5-b59a-101822391049",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "one-more.mp3"
     },
     {
       "artist": "Shogo Sakai",
@@ -1274,7 +1389,8 @@
       "game": true,
       "day": "05-11-2025",
       "id": "99985600-100c-4c1d-a92e-3cd40450e709",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "and-el-mariachi.mp3"
     },
     {
       "artist": "Shogo Sakai",
@@ -1285,7 +1401,8 @@
       "game": true,
       "day": "04-11-2025",
       "id": "d7b94fba-ebd7-4fdf-88fb-5cd858f30c5a",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "brinstar-depths.mp3"
     },
     {
       "artist": "Tomoya Tomita, Misaki Asada",
@@ -1296,7 +1413,8 @@
       "game": true,
       "day": "03-11-2025",
       "id": "7def7302-f0e0-43cf-9cf5-5c834bad08d3",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "king-bowser-s-castle-2.mp3"
     },
     {
       "artist": "Esperanza Spalding",
@@ -1307,7 +1425,8 @@
       "game": false,
       "day": "02-11-2025",
       "id": "e8d1510a-5078-4bb2-a12f-1b201bdcf741",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "good-lava.mp3"
     },
     {
       "artist": "PinkPantheress",
@@ -1318,7 +1437,8 @@
       "game": false,
       "day": "01-11-2025",
       "id": "f4110a84-0ff9-419c-818f-b5d670856767",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "illegal.mp3"
     },
     {
       "artist": "Atsuko Asahi",
@@ -1329,7 +1449,8 @@
       "game": true,
       "day": "31-10-2025",
       "id": "632d1b28-c157-4a08-a558-b022e66bcaa0",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "boo-lake-mario-kart-super-circuit.mp3"
     },
     {
       "artist": "Lena Raine",
@@ -1340,7 +1461,8 @@
       "game": true,
       "day": "30-10-2025",
       "id": "044835c6-d94f-427a-8b3a-23355bafa694",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "final-defiance.mp3"
     },
     {
       "artist": "Kylie Minogue",
@@ -1351,7 +1473,8 @@
       "game": false,
       "day": "29-10-2025",
       "id": "236a6ad4-89f4-4876-8cd0-af1f05fdc592",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "better-the-devil-you-know.mp3"
     },
     {
       "artist": "Spellling",
@@ -1362,7 +1485,8 @@
       "game": false,
       "day": "28-10-2025",
       "id": "eb57d648-46a0-4893-9815-e24af8f44cbb",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "destiny-arrives.mp3"
     },
     {
       "artist": "Paloma San Basilio",
@@ -1373,7 +1497,8 @@
       "game": false,
       "day": "27-10-2025",
       "id": "35b6e214-e628-453c-80be-e36486d22f00",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "contigo.mp3"
     },
     {
       "artist": "Kings of Convenience",
@@ -1384,7 +1509,8 @@
       "game": false,
       "day": "26-10-2025",
       "id": "5e130b81-0391-49a7-aa61-f75e21960502",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "failure.mp3"
     },
     {
       "artist": "Magdalena Bay",
@@ -1395,7 +1521,8 @@
       "game": false,
       "day": "25-10-2025",
       "id": "45a38145-53ce-4b6d-96cc-5a87e1a8f62d",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "u-wanna-dance.mp3"
     },
     {
       "artist": "Eirik Suhrke",
@@ -1406,7 +1533,8 @@
       "game": true,
       "day": "24-10-2025",
       "id": "e65a3da2-721c-4d1e-9158-2587fab775fe",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "block-koala-gameplay.mp3"
     },
     {
       "artist": "eebrozgi",
@@ -1417,7 +1545,8 @@
       "game": true,
       "day": "23-10-2025",
       "id": "f95d415e-ad21-40ae-a375-7ffbfce1f6f0",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "void-symphony.mp3"
     },
     {
       "artist": "Avalanches",
@@ -1428,7 +1557,8 @@
       "game": false,
       "day": "22-10-2025",
       "id": "6f5f31da-4ed3-4d27-a8ec-69c55d21847a",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "frontier-psychiatrist.mp3"
     },
     {
       "artist": "Röyksopp ft. Susanne Sundfør",
@@ -1439,7 +1569,8 @@
       "game": false,
       "day": "21-10-2025",
       "id": "c95b4a90-2cb2-48f4-98a7-4f9633d9cf71",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "ice-machine.mp3"
     },
     {
       "artist": "Christopher Larkin",
@@ -1450,7 +1581,8 @@
       "game": true,
       "day": "20-10-2025",
       "id": "b1c8eca2-d759-4b52-8fab-2635bce95f59",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "choral-chambers.mp3"
     },
     {
       "artist": "Atsuko Asahi",
@@ -1461,7 +1593,8 @@
       "game": false,
       "day": "19-10-2025",
       "id": "d3bdc041-f283-495a-864d-83b0230c985e",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "cheep-cheep-beach-mario-kart-ds.mp3"
     },
     {
       "artist": "Erykah Badu",
@@ -1472,7 +1605,8 @@
       "game": false,
       "day": "18-10-2025",
       "id": "f9a318ba-dfcf-4183-b353-e014bd88e663",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "orange-moon.mp3"
     },
     {
       "artist": "Kero Kero Bonito",
@@ -1483,7 +1617,8 @@
       "game": false,
       "day": "17-10-2025",
       "id": "ec74a455-2714-4f95-8abb-06be65a66993",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "only-acting.mp3"
     },
     {
       "artist": "Arata Iiyoshi, Keisuke Ito, Hideki Sakamoto",
@@ -1494,7 +1629,8 @@
       "game": true,
       "day": "16-10-2025",
       "id": "07a4f065-4340-456e-b077-2c146f561f84",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "temporal-tower.mp3"
     },
     {
       "artist": "Björk",
@@ -1505,7 +1641,8 @@
       "game": false,
       "day": "15-10-2025",
       "id": "93539383-4e82-4736-a878-2e656ffdd9fb",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "play-dead.mp3"
     },
     {
       "artist": "Jens Lekman",
@@ -1516,7 +1653,8 @@
       "game": false,
       "day": "14-10-2025",
       "id": "2e883d6e-e389-4eee-8dcb-1d15366f2e21",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "a-postcard-to-nina.mp3"
     },
     {
       "artist": "Atsuko Asahi",
@@ -1527,7 +1665,8 @@
       "game": true,
       "day": "13-10-2025",
       "id": "48d48a7f-a307-4fbd-b260-12201849aad3",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "bowser-s-castle-mario-kart-8.mp3"
     },
     {
       "artist": "Khruangbin",
@@ -1538,7 +1677,8 @@
       "game": false,
       "day": "12-10-2025",
       "id": "800e745d-354b-4225-ae3e-2087c94adde5",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "so-we-don-t-forget.mp3"
     },
     {
       "artist": "Yoshito Hirano, Yuka Tsujiyoko",
@@ -1549,7 +1689,8 @@
       "game": true,
       "day": "11-10-2025",
       "id": "a1ba4391-ed5a-48db-a32b-894c97f4768b",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "x-naut-fortress.mp3"
     },
     {
       "artist": "Natalia Lafourcade",
@@ -1560,7 +1701,8 @@
       "game": false,
       "day": "10-10-2025",
       "id": "1a206338-f0c5-4778-a9d1-533521d6c3be",
-      "newsletter": true
+      "newsletter": true,
+      "filename": "cocos-en-la-playa.mp3"
     }
   ]
 }
