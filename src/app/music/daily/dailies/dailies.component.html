@@ -27,13 +27,13 @@
             <p class="p"><strong>Composer:</strong> {{track.artist}}</p>
           }
           <p class="p">{{track.description}}</p>
-<!--          @if (track.filename) {-->
-<!--            <div class="mini-audio-player">-->
-<!--              <audio controls [src]="imageService.imageUrl(audioPath + track.filename)">-->
-<!--                Normally there is an audio player here but mate your browser can't handle it-->
-<!--              </audio>-->
-<!--            </div>-->
-<!--          }-->
+          @if (track.filename) {
+            <div class="mini-audio-player">
+              <audio controls [src]="imageService.imageUrl(audioPath + track.filename)">
+                Normally there is an audio player here but mate your browser can't handle it
+              </audio>
+            </div>
+          }
           <a class="a" [href]="track.link">Listen on YouTube</a>
           <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
         </div>
