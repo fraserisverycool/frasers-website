@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, ElementRef, HostListener, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {DailySoundtrack} from "../daily-soundtrack.interface";
 import {DomSanitizer} from "@angular/platform-browser";
@@ -23,12 +23,41 @@ export default class DailiesComponent implements OnInit {
   originalDailySoundtracks: DailySoundtrack[] = [];
   groupedDailySoundtracks: GroupedDailySoundtracks[] = [];
   currentFilter: string = '';
+  selectedMonth: string | null = null;
   isRandomSort: boolean = false;
+  isCalendarOpen: boolean = false;
+  isFilterDropdownOpen: boolean = false;
   filters = ["I don't care about video game music!", "Gimme that sweet video game music!", "Show me it all!"];
   today: DailySoundtrack | null = null;
   audioPath: string = '/music/dailysoundtracks/';
+  currentTrack: DailySoundtrack | null = null;
+  playlist: DailySoundtrack[] = [];
 
-  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService) {
+  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService, private eRef: ElementRef) {
+  }
+
+  @HostListener('document:click', ['$event'])
+  clickout(event: any) {
+    // If the click is outside the entire component, close all dropdowns
+    if (!this.eRef.nativeElement.contains(event.target)) {
+      this.isCalendarOpen = false;
+      this.isFilterDropdownOpen = false;
+    } else {
+      // If the click is inside the component, we check if it was on a toggle button
+      // or inside a dropdown. If it was neither, we might want to close them too.
+      // But typically, clicking elsewhere in the same component should also close them
+      // if it's not the button that toggles them.
+
+      const clickedInsideCalendar = event.target.closest('.calendar-container');
+      const clickedInsideFilter = event.target.closest('.filter-container');
+
+      if (!clickedInsideCalendar) {
+        this.isCalendarOpen = false;
+      }
+      if (!clickedInsideFilter) {
+        this.isFilterDropdownOpen = false;
+      }
+    }
   }
 
   ngOnInit(): void {
@@ -45,7 +74,7 @@ export default class DailiesComponent implements OnInit {
         this.originalDailySoundtracks.forEach(ds => ds.link = this.sanitizer.bypassSecurityTrustResourceUrl(ds.link) as string);
         this.getRatings();
         this.today = this.originalDailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
-        this.groupSoundtracks(this.originalDailySoundtracks);
+        this.filterDailySoundtracks(this.currentFilter);
       },
       error: (err) => {
         console.error('Failed to load daily Soundtracks:', err);
@@ -62,6 +91,19 @@ export default class DailiesComponent implements OnInit {
     return `${day}-${month}-${year}`;
   }
 
+  get availableMonths(): string[] {
+    const months = new Set<string>();
+    this.originalDailySoundtracks.forEach(track => {
+      const date = parse(track.day, 'dd-MM-yyyy', new Date());
+      months.add(format(date, 'MMMM yyyy'));
+    });
+    return Array.from(months).sort((a, b) => {
+      const dateA = parse(a, 'MMMM yyyy', new Date());
+      const dateB = parse(b, 'MMMM yyyy', new Date());
+      return dateB.getTime() - dateA.getTime();
+    });
+  }
+
   getRatings(): void {
     this.ratingService.getRatingsById(this.originalDailySoundtracks.map(dailySoundtrack => dailySoundtrack.id))
       .subscribe(dailySoundtrackRatings => {
@@ -74,47 +116,92 @@ export default class DailiesComponent implements OnInit {
           }
           return dailySoundtrack;
         });
-        this.groupSoundtracks(this.originalDailySoundtracks);
+        this.filterDailySoundtracks(this.currentFilter);
       });
   }
 
   groupSoundtracks(tracks: DailySoundtrack[]): void {
+    let filteredByMonth = tracks;
+    if (this.selectedMonth) {
+      filteredByMonth = tracks.filter(track => {
+        const date = parse(track.day, 'dd-MM-yyyy', new Date());
+        return format(date, 'MMMM yyyy') === this.selectedMonth;
+      });
+    }
+
     if (this.isRandomSort) {
       this.groupedDailySoundtracks = [{
         month: 'Random',
-        tracks: [...tracks].sort(() => Math.random() - 0.5)
+        tracks: [...filteredByMonth].sort(() => Math.random() - 0.5)
       }];
-      return;
+    } else {
+      const groups: { [key: string]: DailySoundtrack[] } = {};
+      const sortedTracks = [...filteredByMonth].sort((a, b) => {
+        const dateA = parse(a.day, 'dd-MM-yyyy', new Date());
+        const dateB = parse(b.day, 'dd-MM-yyyy', new Date());
+        return dateB.getTime() - dateA.getTime();
+      });
+
+      const monthOrder: string[] = [];
+
+      sortedTracks.forEach(track => {
+        const date = parse(track.day, 'dd-MM-yyyy', new Date());
+        const monthYear = format(date, 'MMMM yyyy');
+        if (!groups[monthYear]) {
+          groups[monthYear] = [];
+          monthOrder.push(monthYear);
+        }
+        groups[monthYear].push(track);
+      });
+
+      this.groupedDailySoundtracks = monthOrder.map(month => ({
+        month,
+        tracks: groups[month]
+      }));
     }
 
-    const groups: { [key: string]: DailySoundtrack[] } = {};
-    const sortedTracks = [...tracks].sort((a, b) => {
-      const dateA = parse(a.day, 'dd-MM-yyyy', new Date());
-      const dateB = parse(b.day, 'dd-MM-yyyy', new Date());
-      return dateB.getTime() - dateA.getTime();
-    });
+    this.updatePlaylist();
+  }
 
-    const monthOrder: string[] = [];
+  updatePlaylist(): void {
+    this.playlist = this.groupedDailySoundtracks.flatMap(group => group.tracks).filter(track => track.filename);
+  }
 
-    sortedTracks.forEach(track => {
-      const date = parse(track.day, 'dd-MM-yyyy', new Date());
-      const monthYear = format(date, 'MMMM yyyy');
-      if (!groups[monthYear]) {
-        groups[monthYear] = [];
-        monthOrder.push(monthYear);
-      }
-      groups[monthYear].push(track);
-    });
+  playAll(): void {
+    if (this.playlist.length > 0) {
+      this.playTrack(this.playlist[0]);
+    }
+  }
 
-    this.groupedDailySoundtracks = monthOrder.map(month => ({
-      month,
-      tracks: groups[month]
-    }));
+  playTrack(track: DailySoundtrack): void {
+    this.currentTrack = track;
+  }
+
+  nextTrack(): void {
+    if (!this.currentTrack) return;
+    const currentIndex = this.playlist.findIndex(t => t.id === this.currentTrack?.id);
+    if (currentIndex !== -1 && currentIndex < this.playlist.length - 1) {
+      this.playTrack(this.playlist[currentIndex + 1]);
+    } else {
+      this.currentTrack = null; // End of playlist
+    }
+  }
+
+  previousTrack(): void {
+    if (!this.currentTrack) return;
+    const currentIndex = this.playlist.findIndex(t => t.id === this.currentTrack?.id);
+    if (currentIndex > 0) {
+      this.playTrack(this.playlist[currentIndex - 1]);
+    }
+  }
+
+  onTrackEnded(): void {
+    this.nextTrack();
   }
 
   filterDailySoundtracks(criteria: string): void {
-    console.log(criteria);
     this.currentFilter = criteria;
+    this.isFilterDropdownOpen = false;
     let filteredTracks = this.originalDailySoundtracks;
     switch (criteria) {
       case 'Gimme that sweet video game music!':
@@ -128,6 +215,22 @@ export default class DailiesComponent implements OnInit {
         break;
     }
     this.groupSoundtracks(filteredTracks);
+  }
+
+  selectMonth(month: string | null): void {
+    this.selectedMonth = month;
+    this.isCalendarOpen = false;
+    this.filterDailySoundtracks(this.currentFilter);
+  }
+
+  toggleCalendar(): void {
+    this.isCalendarOpen = !this.isCalendarOpen;
+    if (this.isCalendarOpen) this.isFilterDropdownOpen = false;
+  }
+
+  toggleFilterDropdown(): void {
+    this.isFilterDropdownOpen = !this.isFilterDropdownOpen;
+    if (this.isFilterDropdownOpen) this.isCalendarOpen = false;
   }
 
   randomize(): void {

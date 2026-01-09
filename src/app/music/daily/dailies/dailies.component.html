@@ -1,19 +1,66 @@
 <div class="container">
   <h1>Soundtrack of the Day - Archive</h1>
   <div class="overlay"></div>
-  <ul class="filter-grid">
-    @for (filter of filters; track filter) {
-      <li>
-        <button (click)="filterDailySoundtracks(filter)" class="filter-button" [ngClass]="{ 'active': filter === currentFilter }">
-          <span>{{ filter }}</span>
+  <div class="button-rows">
+    <div class="row-1">
+      <div class="calendar-container">
+        <button (click)="toggleCalendar()" class="filter-button calendar-button" [ngClass]="{ 'active': selectedMonth !== null }">
+          {{ selectedMonth ? selectedMonth : 'Filter by month' }}
         </button>
-      </li>
-    }
-  </ul>
-  <div class="sort-buttons">
-    <button (click)="randomize()" class="filter-button" [ngClass]="{ 'active': isRandomSort }">Randomize</button>
-    <button (click)="chronological()" class="filter-button" [ngClass]="{ 'active': !isRandomSort }">Chronological</button>
+        @if (isCalendarOpen) {
+          <div class="dropdown-menu">
+            <button (click)="selectMonth(null)" class="option" [class.active]="selectedMonth === null">All Months</button>
+            @for (month of availableMonths; track month) {
+              <button (click)="selectMonth(month)" class="option" [class.active]="selectedMonth === month">{{ month }}</button>
+            }
+          </div>
+        }
+      </div>
+
+      <div class="filter-container">
+        <button (click)="toggleFilterDropdown()" class="filter-button dropdown-button" [ngClass]="{ 'active': currentFilter !== '' && currentFilter !== 'Show me it all!' }">
+          {{ currentFilter ? currentFilter : "Filter video game music"}}
+        </button>
+        @if (isFilterDropdownOpen) {
+          <div class="dropdown-menu">
+            @for (filter of filters; track filter) {
+              <button (click)="filterDailySoundtracks(filter)" class="option" [ngClass]="{ 'active': filter === currentFilter }">
+                {{ filter }}
+              </button>
+            }
+          </div>
+        }
+      </div>
+    </div>
+
+    <div class="row-2">
+      <button (click)="randomize()" class="filter-button" [ngClass]="{ 'active': isRandomSort }">Randomize</button>
+      <button (click)="chronological()" class="filter-button" [ngClass]="{ 'active': !isRandomSort }">Chronological</button>
+    </div>
+
+    <div class="row-3">
+      <button (click)="playAll()" class="filter-button" [disabled]="playlist.length === 0">Play All</button>
+    </div>
   </div>
+  @if (currentTrack) {
+    <div class="global-player">
+      <div class="current-track-info">
+        @if (!currentTrack.game) {
+          <span>Now Playing: {{currentTrack.artist}} - {{currentTrack.track}}</span>
+        }
+        @if (currentTrack.game) {
+          <span>Now Playing: {{currentTrack.album}} - {{currentTrack.track}}</span>
+        }
+      </div>
+      <div class="player-controls">
+        <button (click)="previousTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === 0">⏮</button>
+        <audio controls autoplay [src]="imageService.imageUrl(audioPath + currentTrack.filename)" (ended)="onTrackEnded()">
+          Normally there is an audio player here but mate your browser can't handle it
+        </audio>
+        <button (click)="nextTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === playlist.length - 1">⏭</button>
+      </div>
+    </div>
+  }
   @for (group of groupedDailySoundtracks; track group.month) {
     @if (!isRandomSort) {
       <h3 class="month-heading">{{ group.month }}</h3>
@@ -42,6 +89,7 @@
                     Normally there is an audio player here but mate your browser can't handle it
                   </audio>
                 </div>
+                <button (click)="playTrack(track)" class="play-button" title="Start Playlist from here">▶</button>
               }
               <a class="a" [href]="track.link">Listen on YouTube</a>
             </div>

@@ -88,17 +88,7 @@ app-rating-bar {
   padding-bottom: 5px;
 }
 
-.filter-grid {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-
 .filter-button {
-  background: #bd10c8;
-  color: #edd9f1;
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
@@ -107,21 +97,205 @@ app-rating-bar {
 }
 
 .filter-button:hover {
+  transform: scale(1.1);
+}
+
+.button-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.row-1, .row-2, .row-3 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Row 1: Top row - Shades of pink */
+.row-1 .filter-button {
+  background: #ff85a2; /* Light Pink */
+  color: #fff;
+  padding: 5px 15px;
+}
+.row-1 .filter-button:hover {
+  background: #ff5c8a;
+}
+.row-1 .filter-button.active {
+  background: #ff0054;
+}
+
+/* Row 2: Middle row - Slightly different pink */
+.row-2 .filter-button {
+  background: #f06292; /* Medium Pink */
+  color: #fff;
+  padding: 5px 15px;
+}
+.row-2 .filter-button:hover {
+  background: #e91e63;
+}
+.row-2 .filter-button.active {
+  background: #c2185b;
+}
+
+/* Row 3: Bottom row - Another shade of pink */
+.row-3 .filter-button {
+  background: #ec407a; /* Deep Pink */
+  color: #fff;
+  padding: 5px 15px;
+}
+.row-3 .filter-button:hover {
+  background: #d81b60;
+}
+.row-3 .filter-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.calendar-container, .filter-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid #023000;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  min-width: 200px;
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.option {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: background 0.2s;
+}
+
+.option:hover {
+  background: #f0f0f0;
+}
+
+.option.active {
+  background: #ea31a0;
+  color: white;
+}
+
+.month-option {
+  background: none;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+}
+
+.month-option:hover {
+  background: #f0f0f0;
+}
+
+.month-option.active {
+  background: #bd10c8;
+  color: white;
+}
+
+.global-player {
+  background: #f0f0f0;
+  border: 2px solid #023000;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: sticky;
+  top: 10px;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.current-track-info {
+  font-weight: bold;
+  color: #023000;
+  text-align: center;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.player-controls audio {
+  height: 35px;
+  flex: 1;
+  max-width: 400px;
+}
+
+.nav-button {
+  background: #bd10c8;
+  color: #edd9f1;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.nav-button:hover:not(:disabled) {
   background: #61025a;
   transform: scale(1.1);
 }
 
-.filter-button.active {
-  background: #ea31a0;
+.nav-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
 }
 
-.sort-buttons {
+.play-button {
+  background: #023000;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
+  font-size: 14px;
+  transition: transform 0.2s;
 }
 
-.sort-buttons .filter-button {
-  padding: 5px 15px;
+.play-button:hover {
+  transform: scale(1.2);
+  background: #045c00;
 }
