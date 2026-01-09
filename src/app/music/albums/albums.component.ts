@@ -1,4 +1,4 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZone} from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
@@ -17,6 +17,7 @@ import {ImageService} from "../../utils/services/image.service";
 export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy {
   albums: Album[] = [];
   originalAlbums: Album[] = [];
+  filteredAlbums: Album[] = [];
   selectedAlbum: Album | null = null;
 
   private _searchTerm: string = '';
@@ -25,7 +26,7 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
   }
   set searchTerm(value: string) {
     this._searchTerm = value;
-    this.resetInfiniteScroll();
+    this.applyFilters();
   }
 
   selectedTags: string[] = [];
@@ -43,7 +44,7 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
   @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
   private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private albumsService: AlbumsService, private ratingService: RatingService, protected imageService: ImageService,) {}
+  constructor(private http: HttpClient, private albumsService: AlbumsService, private ratingService: RatingService, protected imageService: ImageService, private ngZone: NgZone) {}
 
   ngOnInit(): void {
     this.loadAlbums();
@@ -62,7 +63,9 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
   setupIntersectionObserver(): void {
     this.observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
-        this.loadMore();
+        this.ngZone.run(() => {
+          this.loadMore();
+        });
       }
     }, {
       rootMargin: '100px'
@@ -76,6 +79,17 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
   loadMore(): void {
     if (this.itemsToShow < this.filteredAlbums.length) {
       this.itemsToShow += this.pageSize;
+      // After adding more items, if the anchor is still intersecting, load even more
+      setTimeout(() => this.checkAndLoadMore(), 100);
+    }
+  }
+
+  private checkAndLoadMore(): void {
+    if (this.scrollAnchor) {
+      const rect = this.scrollAnchor.nativeElement.getBoundingClientRect();
+      if (rect.top < window.innerHeight + 100) { // Using the same 100px rootMargin
+        this.loadMore();
+      }
     }
   }
 
@@ -90,6 +104,7 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
         this.getRatings();
         this.sortAlbums('random');
         this.generateColours();
+        this.applyFilters();
       },
       error: (err) => {
         console.error('Failed to load albums:', err);
@@ -112,8 +127,9 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
       });
   }
 
-  get filteredAlbums(): Album[] {
-    let filtered = this.albums;
+  applyFilters(): void {
+    this.resetInfiniteScroll();
+    let filtered = [...this.albums];
 
     if (this.searchTerm) {
       const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
@@ -129,7 +145,9 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
       );
     }
 
-    return filtered;
+    this.filteredAlbums = filtered;
+    // After filtering, we might need to load more if the results are already visible
+    setTimeout(() => this.checkAndLoadMore(), 100);
   }
 
   showDescription(album: Album): void {
@@ -143,7 +161,6 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
   }
 
   sortAlbums(criteria: 'random' | 'alphabeticalName' | 'alphabeticalArtist' | 'releaseDate'): void {
-    this.resetInfiniteScroll();
     switch (criteria) {
       case 'random':
         this.albums = [...this.originalAlbums].sort(() => Math.random() - 0.5);
@@ -160,15 +177,16 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
       default:
         console.error('Invalid sorting criteria');
     }
+    this.applyFilters();
   }
 
   toggleTagSelection(tag: string): void {
-    this.resetInfiniteScroll();
     if (this.selectedTags.includes(tag)) {
       this.selectedTags = this.selectedTags.filter(t => t !== tag);
     } else {
       this.selectedTags.push(tag);
     }
+    this.applyFilters();
   }
 
   generateColours(): void {

@@ -10,7 +10,8 @@
       "day": "28-02-2026",
       "id": "e066ee51-b95c-4e08-b0f3-428dadc82b9e",
       "newsletter": false,
-      "filename": "the-melting-of-the-sun.mp3"
+      "filename": "the-melting-of-the-sun.mp3",
+      "tags": ["chill", "indie", "singers-songwriter"]
     },
     {
       "artist": "David Byrne, Brian Eno",
@@ -22,7 +23,8 @@
       "day": "27-02-2026",
       "id": "993bcef3-b351-431f-9cf3-f823d7baa153",
       "newsletter": false,
-      "filename": "strange-overtones.mp3"
+      "filename": "strange-overtones.mp3",
+      "tags": ["indie", "singer-songwriter", "concrete themes", "from the heart"]
     },
     {
       "artist": "Arata Iiyoshi, Atsuhiro Ishizuna",
@@ -34,7 +36,8 @@
       "day": "26-02-2026",
       "id": "2c3fd08d-05a0-431e-85e9-05096550683d",
       "newsletter": false,
-      "filename": "sky-tower.mp3"
+      "filename": "sky-tower.mp3",
+      "tags": ["chill", "magical", "special vibes", "pokemon"]
     },
     {
       "artist": "Spellling",
@@ -46,7 +49,8 @@
       "day": "25-02-2026",
       "id": "a5611540-4469-40a5-b5dd-a9a4daab9257",
       "newsletter": false,
-      "filename": "boys-at-school.mp3"
+      "filename": "boys-at-school.mp3",
+      "tags": ["singer-songwriter", "magical"]
     },
     {
       "artist": "School of Seven Bells",
@@ -58,7 +62,8 @@
       "day": "24-02-2026",
       "id": "9d484bc5-33d8-4329-8b1b-f60a89027727",
       "newsletter": false,
-      "filename": "bye-bye-bye.mp3"
+      "filename": "bye-bye-bye.mp3",
+      "tags": ["electronic"]
     },
     {
       "artist": "Massive Attack",
@@ -70,7 +75,8 @@
       "day": "23-02-2026",
       "id": "97cd9088-6457-4a9e-8b0e-5efc78b6c68f",
       "newsletter": false,
-      "filename": "teardrop.mp3"
+      "filename": "teardrop.mp3",
+      "tags": ["chill", "peaceful", "magical", "classic", "sad songs"]
     },
     {
       "artist": "Kazumi Totaka",
@@ -82,7 +88,8 @@
       "day": "22-02-2026",
       "id": "542e97e5-c7f4-470c-b541-ea5570a49f32",
       "newsletter": false,
-      "filename": "k-k-house-club-version.mp3"
+      "filename": "k-k-house-club-version.mp3",
+      "tags": ["party", "animal crossing"]
     },
     {
       "artist": "Asuka Ito",
@@ -94,7 +101,8 @@
       "day": "21-02-2026",
       "id": "13900efd-0cb5-4a1f-a7e1-e95517cacd09",
       "newsletter": false,
-      "filename": "glider.mp3"
+      "filename": "glider.mp3",
+      "tags": ["chill", "special vibes", "other"]
     },
     {
       "artist": "Atsuko Asahi",
@@ -106,7 +114,8 @@
       "day": "20-02-2026",
       "id": "79c10426-5ce8-4b58-8722-652b2d7f3510",
       "newsletter": false,
-      "filename": "sydney-sprint.mp3"
+      "filename": "sydney-sprint.mp3",
+      "tags": ["mario", "party"]
     },
     {
       "artist": "David Wise",
@@ -118,7 +127,8 @@
       "day": "19-02-2026",
       "id": "2934f5f5-ea90-48c2-81fa-31a0af759fb2",
       "newsletter": false,
-      "filename": "fear-factory.mp3"
+      "filename": "fear-factory.mp3",
+      "tags": ["intense", "donkey kong"]
     },
     {
       "artist": "Madonna",
@@ -130,7 +140,8 @@
       "day": "18-02-2026",
       "id": "511b5d3a-0616-4024-9c49-65e9c72bd8dc",
       "newsletter": false,
-      "filename": "deeper-and-deeper.mp3"
+      "filename": "deeper-and-deeper.mp3",
+      "tags": ["cunty", "party"]
     },
     {
       "artist": "Nelly Furtado",
@@ -142,7 +153,8 @@
       "day": "17-02-2026",
       "id": "c3370aae-0126-46bf-b14c-caa272b1cce5",
       "newsletter": false,
-      "filename": "im-like-a-bird.mp3"
+      "filename": "im-like-a-bird.mp3",
+      "tags": ["pop", "classic"]
     },
     {
       "artist": "Kumi Tanioka",
@@ -154,7 +166,8 @@
       "day": "16-02-2026",
       "id": "2465662d-50fb-4338-9b2b-cc9296377481",
       "newsletter": false,
-      "filename": "molgera.mp3"
+      "filename": "molgera.mp3",
+      "tags": ["intense", "zelda", "smash"]
     },
     {
       "artist": "Koji Kondo",
@@ -166,7 +179,8 @@
       "day": "15-02-2026",
       "id": "5202b2bd-5172-499a-9210-42862d18e5f9",
       "newsletter": false,
-      "filename": "castle-bgm.mp3"
+      "filename": "castle-bgm.mp3",
+      "tags": ["intense", "mario"]
     },
     {
       "artist": "Róisín Murphy",
@@ -178,7 +192,8 @@
       "day": "14-02-2026",
       "id": "8746ec93-5599-4b69-90d5-33c3d4d421ff",
       "newsletter": false,
-      "filename": "narcissus.mp3"
+      "filename": "narcissus.mp3",
+      "tags": ["party", "cunty"]
     },
     {
       "artist": "Tim Follin",
@@ -190,7 +205,8 @@
       "day": "13-02-2026",
       "id": "f0b7e4a4-9763-42e8-8f16-281a54d9c100",
       "newsletter": false,
-      "filename": "title-screen-pictionary.mp3"
+      "filename": "title-screen-pictionary.mp3",
+      "tags": ["party", "other"]
     },
     {
       "artist": "New Radicals",
@@ -202,7 +218,8 @@
       "day": "12-02-2026",
       "id": "0e84dd0f-9eaa-4d44-8584-01aacd1b37a3",
       "newsletter": false,
-      "filename": "you-get-what-you-give.mp3"
+      "filename": "you-get-what-you-give.mp3",
+      "tags": ["pop", "classic"]
     },
     {
       "artist": "Tim Follin, Geoff Follin",
@@ -214,7 +231,8 @@
       "day": "11-02-2026",
       "id": "072bf345-8c22-4d3a-b9cf-09f8ab5f0921",
       "newsletter": false,
-      "filename": "gambit.mp3"
+      "filename": "gambit.mp3",
+      "tags": ["party", "other"]
     },
     {
       "artist": "Keiichi Suzuki, Hirokazu Tanaka",
@@ -226,7 +244,8 @@
       "day": "10-02-2026",
       "id": "030674ae-409f-45fd-a965-c6f49d710d52",
       "newsletter": false,
-      "filename": "sanctuary-guardians.mp3"
+      "filename": "sanctuary-guardians.mp3",
+      "tags": ["intense", "mother"]
     },
     {
       "artist": "Alcazar",
@@ -238,7 +257,8 @@
       "day": "09-02-2026",
       "id": "06eabe9c-6a49-4121-b093-6145bb25a452",
       "newsletter": false,
-      "filename": "crying-at-the-discoteque.mp3"
+      "filename": "crying-at-the-discoteque.mp3",
+      "tags": ["party", "pop", "classic", "cunty"]
     },
     {
       "artist": "Sophie Ellis-Bextor",
@@ -250,7 +270,8 @@
       "day": "08-02-2026",
       "id": "73132b6d-be45-4285-81a2-f2c04fc750e0",
       "newsletter": false,
-      "filename": "murder-on-the-dancefloor.mp3"
+      "filename": "murder-on-the-dancefloor.mp3",
+      "tags": ["party", "pop", "classic", "cunty"]
     },
     {
       "artist": "Koji Kondo",
@@ -262,7 +283,8 @@
       "day": "07-02-2026",
       "id": "1d2c1bca-0377-4b89-8080-79a6e6c6aaae",
       "newsletter": false,
-      "filename": "staff-roll-super-mario-64.mp3"
+      "filename": "staff-roll-super-mario-64.mp3",
+      "tags": ["tears", "mario"]
     },
     {
       "artist": "Scissor Sisters",
@@ -274,7 +296,8 @@
       "day": "06-02-2026",
       "id": "99a071f5-618b-4b82-8ad7-dbf45cb767d9",
       "newsletter": false,
-      "filename": "i-dont-feel-like-dancin.mp3"
+      "filename": "i-dont-feel-like-dancin.mp3",
+      "tags": ["party", "pop", "cunty", "classic"]
     },
     {
       "artist": "Kazumi Totaka",
@@ -286,7 +309,8 @@
       "day": "05-02-2026",
       "id": "1c2c3f9a-38d1-4f78-a1d5-6ee4e94619f5",
       "newsletter": false,
-      "filename": "drake-lake.mp3"
+      "filename": "drake-lake.mp3",
+      "tags": ["chill", "other"]
     },
     {
       "artist": "Kazumi Totaka",
@@ -298,7 +322,8 @@
       "day": "04-02-2026",
       "id": "21f0b7e3-0b80-4a7c-ac79-caa0a9b3a550",
       "newsletter": false,
-      "filename": "yoshis-tale.mp3"
+      "filename": "yoshis-tale.mp3",
+      "tags": ["tears", "yoshi", "not for everyone"]
     },
     {
       "artist": "The Ting Tings",
@@ -310,7 +335,8 @@
       "day": "03-02-2026",
       "id": "6620d004-83fb-4f0a-a6f5-2637d9ec25c8",
       "newsletter": false,
-      "filename": "thats-not-my-name.mp3"
+      "filename": "thats-not-my-name.mp3",
+      "tags": ["pop", "classic"]
     },
     {
       "artist": "Hajime Wakai",
@@ -322,7 +348,8 @@
       "day": "02-02-2026",
       "id": "5c522fbf-e9be-47f3-bc0c-63cc2bf5b9d5",
       "newsletter": false,
-      "filename": "lanayru-sand-sea.mp3"
+      "filename": "lanayru-sand-sea.mp3",
+      "tags": ["chill", "zelda"]
     },
     {
       "artist": "Sugababes",
@@ -334,7 +361,8 @@
       "day": "01-02-2026",
       "id": "4a053a8c-3a75-46e2-a9d2-87206c491a29",
       "newsletter": false,
-      "filename": "overload.mp3"
+      "filename": "overload.mp3",
+      "tags": ["cunty", "pop"]
     },
     {
       "artist": "Jamiroquai",
@@ -346,7 +374,8 @@
       "day": "31-01-2026",
       "id": "951e8ada-f4eb-4c4a-a4b8-24f5aefa75f9",
       "newsletter": true,
-      "filename": "runaway.mp3"
+      "filename": "runaway.mp3",
+      "tags": ["party", "pop"]
     },
     {
       "artist": "Lily Allen",
@@ -358,7 +387,8 @@
       "day": "30-01-2026",
       "id": "5f312c75-3bbe-47bf-b4b4-02aa66b62d04",
       "newsletter": true,
-      "filename": "pussy-palace.mp3"
+      "filename": "pussy-palace.mp3",
+      "tags": ["pop", "concrete themes", "cunty"]
     },
     {
       "artist": "Kazumi Totaka",
@@ -370,7 +400,8 @@
       "day": "29-01-2026",
       "id": "701c80a0-68ea-46ea-8093-75a1eb8c3065",
       "newsletter": true,
-      "filename": "bunny-day.mp3"
+      "filename": "bunny-day.mp3",
+      "tags": ["chill", "animal crossing"]
     },
     {
       "artist": "Pond",
@@ -382,7 +413,8 @@
       "day": "28-01-2026",
       "id": "41793821-11f7-43b8-a536-5fad346451b6",
       "newsletter": true,
-      "filename": "americas-cup.mp3"
+      "filename": "americas-cup.mp3",
+      "tags": ["rock", "special vibes"]
     },
     {
       "artist": "Metronomy",
@@ -394,7 +426,8 @@
       "day": "27-01-2026",
       "id": "1f07410e-8059-4910-9857-f7a84fbbdd3d",
       "newsletter": true,
-      "filename": "the-upsetter.mp3"
+      "filename": "the-upsetter.mp3",
+      "tags": ["indie", "chill", "sad songs"]
     },
     {
       "artist": "Tame Impala",
@@ -406,7 +439,8 @@
       "day": "26-01-2026",
       "id": "634b2381-d104-475c-a26f-c4cee7e81279",
       "newsletter": true,
-      "filename": "elephant.mp3"
+      "filename": "elephant.mp3",
+      "tags": ["rock"]
     },
     {
       "artist": "Pedro Silva",
@@ -418,7 +452,8 @@
       "day": "25-01-2026",
       "id": "88c03c01-2f15-4fb8-ad2a-ce32e0f4bc29",
       "newsletter": true,
-      "filename": "by-your-side.mp3"
+      "filename": "by-your-side.mp3",
+      "tags": ["tears", "chill", "indie"]
     },
     {
       "artist": "The Maccabees",
@@ -430,7 +465,8 @@
       "day": "24-01-2026",
       "id": "91aa96ee-c54f-4369-a23a-673bddfe41d9",
       "newsletter": true,
-      "filename": "pelican.mp3"
+      "filename": "pelican.mp3",
+      "tags": ["rock", "pop"]
     },
     {
       "artist": "John Baker",
@@ -442,7 +478,8 @@
       "day": "23-01-2026",
       "id": "2e0d588f-3386-47ed-8d4d-ce38a7871bc5",
       "newsletter": true,
-      "filename": "western-station.mp3"
+      "filename": "western-station.mp3",
+      "tags": ["chill", "funky", "other"]
     },
     {
       "artist": "Mr. Sauceman, ClascyJitto, POST ELVIS",
@@ -454,7 +491,8 @@
       "day": "22-01-2026",
       "id": "ac8724e9-7708-4784-a6b9-cdf2a3d4fc5c",
       "newsletter": true,
-      "filename": "tropical-crust.mp3"
+      "filename": "tropical-crust.mp3",
+      "tags": ["party", "indie"]
     },
     {
       "artist": "Ryoji Yoshitomi",
@@ -466,7 +504,8 @@
       "day": "21-01-2026",
       "id": "44c00e41-3772-4b94-910c-1faf4cf67f34",
       "newsletter": true,
-      "filename": "crescent-moon-village.mp3"
+      "filename": "crescent-moon-village.mp3",
+      "tags": ["funky", "other"]
     },
     {
       "artist": "Saint Motel",
@@ -478,7 +517,8 @@
       "day": "20-01-2026",
       "id": "b92e8d1a-1062-47e5-a4e6-d8695e75df41",
       "newsletter": true,
-      "filename": "my-type.mp3"
+      "filename": "my-type.mp3",
+      "tags": ["pop"]
     },
     {
       "artist": "Broken Bells",
@@ -490,7 +530,8 @@
       "day": "19-01-2026",
       "id": "437eaa29-0c66-4be7-9a04-9a2957352589",
       "newsletter": true,
-      "filename": "mongrel-heart.mp3"
+      "filename": "mongrel-heart.mp3",
+      "tags": ["indie"]
     },
     {
       "artist": "Lena Raine",
@@ -502,7 +543,8 @@
       "day": "18-01-2026",
       "id": "8500fb4f-2575-47ab-8698-c08f79a2f7e0",
       "newsletter": true,
-      "filename": "first-steps.mp3"
+      "filename": "first-steps.mp3",
+      "tags": ["chill", "indie"]
     },
     {
       "artist": "Janelle Monáe",
@@ -514,7 +556,8 @@
       "day": "17-01-2026",
       "id": "0dabd4a1-f6c0-4af3-8513-8f2a29827fab",
       "newsletter": true,
-      "filename": "sincerely-jane.mp3"
+      "filename": "sincerely-jane.mp3",
+      "tags": ["pop", "magical", "special vibes"]
     },
     {
       "artist": "SAULT",
@@ -526,7 +569,8 @@
       "day": "16-01-2026",
       "id": "98aaae29-cefc-49fd-bc48-e88a71797a79",
       "newsletter": true,
-      "filename": "you-from-london.mp3"
+      "filename": "you-from-london.mp3",
+      "tags": ["hip-hop", "soul", "concrete themes", "chill"]
     },
     {
       "artist": "Magdalena Bay",
@@ -538,7 +582,8 @@
       "day": "15-01-2026",
       "id": "610d2322-05e4-46f9-9083-c758995f5844",
       "newsletter": true,
-      "filename": "secrets-your-fire.mp3"
+      "filename": "secrets-your-fire.mp3",
+      "tags": ["pop", "special vibes"]
     },
     {
       "artist": "Erykah Badu",
@@ -550,7 +595,8 @@
       "day": "14-01-2026",
       "id": "a905b906-6b45-48fc-b6e8-603ad5b18185",
       "newsletter": true,
-      "filename": "soldier.mp3"
+      "filename": "soldier.mp3",
+      "tags": ["soul", "from the heart", "chill"]
     },
     {
       "artist": "Fleet Foxes",
@@ -562,7 +608,8 @@
       "day": "13-01-2026",
       "id": "73c8d436-09b5-4ed7-b772-148b8360c8c2",
       "newsletter": true,
-      "filename": "silver-dagger.mp3"
+      "filename": "silver-dagger.mp3",
+      "tags": ["indie", "special vibes", "chill", "sad songs"]
     },
     {
       "artist": "Koji Kondo",
@@ -574,7 +621,8 @@
       "day": "12-01-2026",
       "id": "78608b44-06c0-49cf-98ce-0d2c56fa972d",
       "newsletter": true,
-      "filename": "astral-observatory.mp3"
+      "filename": "astral-observatory.mp3",
+      "tags": ["tears", "zelda", "chill"]
     },
     {
       "artist": "Deniz Akbulut",
@@ -586,7 +634,8 @@
       "day": "11-01-2026",
       "id": "6fb13f1f-d35c-48a3-8b12-b2c6b4989c33",
       "newsletter": true,
-      "filename": "rookie-harbor.mp3"
+      "filename": "rookie-harbor.mp3",
+      "tags": ["chill", "indie"]
     },
     {
       "artist": "Masafumi Takada",
@@ -598,7 +647,8 @@
       "day": "10-01-2026",
       "id": "b7b0b979-cef3-4653-b848-2b1598f4a6db",
       "newsletter": true,
-      "filename": "kill-the-past.mp3"
+      "filename": "kill-the-past.mp3",
+      "tags": ["funky", "other"]
     },
     {
       "artist": "Go Ichinose, Junichi Musada",
@@ -610,7 +660,8 @@
       "day": "09-01-2026",
       "id": "4e7be40e-e652-471a-a7b4-ce31f5bc79ef",
       "newsletter": true,
-      "filename": "lake.mp3"
+      "filename": "lake.mp3",
+      "tags": ["chill", "pokemon"]
     },
     {
       "artist": "Masami Ueda, Hiroshi Yamaguchi, Rei Kondoh, Akari Kaida",
@@ -622,7 +673,8 @@
       "day": "08-01-2026",
       "id": "ea5ac74d-b822-48d0-8628-fe10927dd4de",
       "newsletter": true,
-      "filename": "hana-valley.mp3"
+      "filename": "hana-valley.mp3",
+      "tags": ["chill", "other"]
     },
     {
       "artist": "Jim Noir",
@@ -634,7 +686,8 @@
       "day": "07-01-2026",
       "id": "f9f37b4d-0fec-411f-acc9-5a209ab4f49d",
       "newsletter": true,
-      "filename": "tower-of-love.mp3"
+      "filename": "tower-of-love.mp3",
+      "tags": ["singer-songwriter", "indie", "magical"]
     },
     {
       "artist": "Toni Braxton",
@@ -646,7 +699,8 @@
       "day": "06-01-2026",
       "id": "a9a49d84-0419-430c-88b5-20a739f9d88c",
       "newsletter": true,
-      "filename": "un-break-my-heart.mp3"
+      "filename": "un-break-my-heart.mp3",
+      "tags": ["pop", "classic", "chill", "sad songs", "from the heart"]
     },
     {
       "artist": "Quadron",
@@ -658,7 +712,8 @@
       "day": "05-01-2026",
       "id": "405aff8e-c78d-4ee8-8593-86e4ff177efd",
       "newsletter": true,
-      "filename": "herfra-hvor-vi-star.mp3"
+      "filename": "herfra-hvor-vi-star.mp3",
+      "tags": ["sad songs", "singer-songwriter", "scandinavian", "indie", "from the heart"]
     },
     {
       "artist": "KING",
@@ -670,7 +725,8 @@
       "day": "04-01-2026",
       "id": "71eefaa3-fe60-4122-a358-a725e64907c0",
       "newsletter": true,
-      "filename": "hey.mp3"
+      "filename": "hey.mp3",
+      "tags": ["soul", "chill"]
     },
     {
       "artist": "Lesley Duncan",
@@ -682,7 +738,8 @@
       "day": "03-01-2026",
       "id": "e713d09a-956d-4f27-a270-16764f4b954c",
       "newsletter": true,
-      "filename": "love-song.mp3"
+      "filename": "love-song.mp3",
+      "tags": ["chill", "indie", "from the heart"]
     },
     {
       "artist": "Kenta Nagata",
@@ -694,7 +751,8 @@
       "day": "02-01-2026",
       "id": "5f704c9a-2a47-438a-8b94-93162da33e38",
       "newsletter": true,
-      "filename": "call-me.mp3"
+      "filename": "call-me.mp3",
+      "tags": ["party", "other"]
     },
     {
       "artist": "Hirokazu Ando",
@@ -706,7 +764,8 @@
       "day": "01-01-2026",
       "id": "9519c9f2-09bf-4cb5-b705-65dd09e82daa",
       "newsletter": true,
-      "filename": "credits.mp3"
+      "filename": "credits.mp3",
+      "tags": ["party", "smash"]
     },
     {
       "artist": "Regina Spektor",
@@ -718,7 +777,8 @@
       "day": "31-12-2025",
       "id": "267b6ea5-3b96-44f0-a089-789043602f96",
       "newsletter": true,
-      "filename": "new-year.mp3"
+      "filename": "new-year.mp3",
+      "tags": ["sad songs", "singer-songwriter", "concrete themes", "chill"]
     },
     {
       "artist": "Naoko Mitome, Masanobu Matsunaga, Yasuhisa Baba, Kenichi Nishimaki",
@@ -730,7 +790,8 @@
       "day": "30-12-2025",
       "id": "2c3b4174-7f31-4165-802d-2dd6a827d3e9",
       "newsletter": true,
-      "filename": "balloon-fight.mp3"
+      "filename": "balloon-fight.mp3",
+      "tags": ["chill", "other"]
     },
     {
       "artist": "Ryoji Yoshitomi, Kyoko Miyamoto",
@@ -742,7 +803,8 @@
       "day": "29-12-2025",
       "id": "cfc3cad3-0c88-4f5b-9500-a9c410d044ea",
       "newsletter": true,
-      "filename": "drifting-away.mp3"
+      "filename": "drifting-away.mp3",
+      "tags": ["chill", "other"]
     },
     {
       "artist": "Air",
@@ -754,7 +816,8 @@
       "day": "28-12-2025",
       "id": "ec35cba6-baae-497e-b6f4-2b4e87b239bb",
       "newsletter": true,
-      "filename": "le-voyage-de-penelope.mp3"
+      "filename": "le-voyage-de-penelope.mp3",
+      "tags": ["special vibes", "electronic"]
     },
     {
       "artist": "Grant Kirkhope",
@@ -766,7 +829,8 @@
       "day": "27-12-2025",
       "id": "ed90fbf4-e9c2-4345-a6dd-b1dbc47aacf9",
       "newsletter": true,
-      "filename": "darkmoon-caverns.mp3"
+      "filename": "darkmoon-caverns.mp3",
+      "tags": ["party", "donkey kong"]
     },
     {
       "artist": "Kaytranada ft. PinkPantheress",
@@ -778,7 +842,8 @@
       "day": "26-12-2025",
       "id": "1206d4f7-813c-4a74-a999-e25240d216f3",
       "newsletter": true,
-      "filename": "snap-my-finger.mp3"
+      "filename": "snap-my-finger.mp3",
+      "tags": ["electronic", "pop", "cunty"]
     },
     {
       "artist": "Wham!",
@@ -790,7 +855,8 @@
       "day": "25-12-2025",
       "id": "d915b7f5-ea6b-4412-8605-64132d0635e2",
       "newsletter": true,
-      "filename": "last-christmas.mp3"
+      "filename": "last-christmas.mp3",
+      "tags": ["classic", "pop"]
     },
     {
       "artist": "Stornoway",
@@ -802,7 +868,8 @@
       "day": "24-12-2025",
       "id": "c2eed6ec-9f6d-4bac-963b-9a3aef937373",
       "newsletter": true,
-      "filename": "we-are-the-battery-human.mp3"
+      "filename": "we-are-the-battery-human.mp3",
+      "tags": ["indie"]
     },
     {
       "artist": "Laura Marling",
@@ -814,7 +881,8 @@
       "day": "23-12-2025",
       "id": "04d8204f-1f21-4bfd-82ad-fe331fa26bbf",
       "newsletter": true,
-      "filename": "goodbye-england-covered-in-snow.mp3"
+      "filename": "goodbye-england-covered-in-snow.mp3",
+      "tags": ["singer-songwriter", "chill"]
     },
     {
       "artist": "David Wise",
@@ -826,7 +894,8 @@
       "day": "22-12-2025",
       "id": "b4fca0a3-f621-487f-ab91-d816d058ede7",
       "newsletter": true,
-      "filename": "stickerbush-symphony.mp3"
+      "filename": "stickerbush-symphony.mp3",
+      "tags": ["chill", "donkey kong"]
     },
     {
       "artist": "David Wise",
@@ -838,7 +907,8 @@
       "day": "21-12-2025",
       "id": "c9f6d72b-5626-4287-a16f-4e1ea0445eea",
       "newsletter": true,
-      "filename": "staff-credits.mp3"
+      "filename": "staff-credits.mp3",
+      "tags": ["party", "donkey kong"]
     },
     {
       "artist": "Yuzo Koshiro",
@@ -850,7 +920,8 @@
       "day": "20-12-2025",
       "id": "c7836f81-4e1b-448b-aaa4-9e9e4fc289db",
       "newsletter": true,
-      "filename": "dreamer.mp3"
+      "filename": "dreamer.mp3",
+      "tags": ["party", "other"]
     },
     {
       "artist": "Yoko Shimamura",
@@ -862,7 +933,8 @@
       "day": "19-12-2025",
       "id": "0af5e39c-5303-482b-9149-5b47d98026d6",
       "newsletter": true,
-      "filename": "magicant-eight-melodies.mp3"
+      "filename": "magicant-eight-melodies.mp3",
+      "tags": ["chill", "mother", "smash"]
     },
     {
       "artist": "Kero Kero Bonito",
@@ -874,7 +946,8 @@
       "day": "18-12-2025",
       "id": "5122c58a-91dd-46ed-a27e-5f91ea689d63",
       "newsletter": true,
-      "filename": "battle-lines.mp3"
+      "filename": "battle-lines.mp3",
+      "tags": ["electronic", "pop", "special vibes"]
     },
     {
       "artist": "Toby Fox",
@@ -886,7 +959,8 @@
       "day": "17-12-2025",
       "id": "82f7e728-44da-4afd-b086-c66f6acfd57b",
       "newsletter": true,
-      "filename": "another-medium.mp3"
+      "filename": "another-medium.mp3",
+      "tags": ["party", "indie"]
     },
     {
       "artist": "Toby Fox",
@@ -898,7 +972,8 @@
       "day": "16-12-2025",
       "id": "0802baf8-0f64-47fd-b99d-d46d71e156d4",
       "newsletter": true,
-      "filename": "dark-sanctuary.mp3"
+      "filename": "dark-sanctuary.mp3",
+      "tags": ["intense", "indie"]
     },
     {
       "artist": "John Guscott",
@@ -910,7 +985,8 @@
       "day": "15-12-2025",
       "id": "cf73d291-f060-444b-bcc9-4a7389123e5f",
       "newsletter": true,
-      "filename": "blissful.mp3"
+      "filename": "blissful.mp3",
+      "tags": ["party", "other"]
     },
     {
       "artist": "Camera Obscura",
@@ -922,7 +998,8 @@
       "day": "14-12-2025",
       "id": "de788d24-e83c-4050-b423-53cd823b84cb",
       "newsletter": true,
-      "filename": "careless-love.mp3"
+      "filename": "careless-love.mp3",
+      "tags": ["chill", "pop"]
     },
     {
       "artist": "Madeleine Peyroux",
@@ -934,7 +1011,8 @@
       "day": "13-12-2025",
       "id": "3ba63d7f-2fb5-4b59-9e62-22ae38bd9e89",
       "newsletter": true,
-      "filename": "youre-gonna-make-me-lonesome-when-you-go.mp3"
+      "filename": "youre-gonna-make-me-lonesome-when-you-go.mp3",
+      "tags": ["singer-songwriter", "chill"]
     },
     {
       "artist": "Hirokazu Tanaka",
@@ -946,7 +1024,8 @@
       "day": "12-12-2025",
       "id": "c8296fd4-5099-4504-879a-ee20cb5d7554",
       "newsletter": true,
-      "filename": "fallin-love-and.mp3"
+      "filename": "fallin-love-and.mp3",
+      "tags": ["chill", "mother"]
     },
     {
       "artist": "Herbie Hancock",
@@ -958,7 +1037,8 @@
       "day": "11-12-2025",
       "id": "f0dbd0c0-c36f-46d0-919d-667530f9a1c7",
       "newsletter": true,
-      "filename": "textures.mp3"
+      "filename": "textures.mp3",
+      "tags": ["electronic", "chill", "special vibes"]
     },
     {
       "artist": "Yellow Magic Orchestra",
@@ -970,7 +1050,8 @@
       "day": "10-12-2025",
       "id": "b8be182f-cd50-41bf-8788-f8bef6965a2a",
       "newsletter": true,
-      "filename": "yellow-magic-tong-poo.mp3"
+      "filename": "yellow-magic-tong-poo.mp3",
+      "tags": ["electronic", "not for everyone"]
     },
     {
       "artist": "Patrick Watson",
@@ -982,7 +1063,8 @@
       "day": "09-12-2025",
       "id": "75bcaa77-fde5-46fa-a9bb-fbd1a7377075",
       "newsletter": true,
-      "filename": "the-great-escape.mp3"
+      "filename": "the-great-escape.mp3",
+      "tags": ["chill", "sad songs", "singer-songwriter", "indie"]
     },
     {
       "artist": "Christopher Larkin",
@@ -994,7 +1076,8 @@
       "day": "08-12-2025",
       "id": "aead8b78-4331-4bb2-8ebd-118bd78ca518",
       "newsletter": true,
-      "filename": "resting-grounds.mp3"
+      "filename": "resting-grounds.mp3",
+      "tags": ["tears", "chill", "indie"]
     },
     {
       "artist": "Muse",
@@ -1006,7 +1089,8 @@
       "day": "07-12-2025",
       "id": "44ff89a7-2ec7-4d02-a3fe-3ea7f66bbf98",
       "newsletter": true,
-      "filename": "hyper-music.mp3"
+      "filename": "hyper-music.mp3",
+      "tags": ["rock"]
     },
     {
       "artist": "Moddi",
@@ -1018,7 +1102,8 @@
       "day": "06-12-2025",
       "id": "c38fcc50-2d19-4ab7-839a-15430f169333",
       "newsletter": true,
-      "filename": "krokstav-emne.mp3"
+      "filename": "krokstav-emne.mp3",
+      "tags": ["chill", "indie", "scandinavian"]
     },
     {
       "artist": "Miike Snow",
@@ -1030,7 +1115,8 @@
       "day": "05-12-2025",
       "id": "ac00e52e-cbe7-43d6-a7ef-ec76cf55309d",
       "newsletter": true,
-      "filename": "black-tin-box-feat-lykke-li.mp3"
+      "filename": "black-tin-box-feat-lykke-li.mp3",
+      "tags": ["indie", "pop"]
     },
     {
       "artist": "Yasuhisa Baba, Chika Sekigawa, & Naoko Mitome",
@@ -1042,7 +1128,8 @@
       "day": "04-12-2025",
       "id": "3bf6c021-f8ff-43be-a445-c99021d339de",
       "newsletter": true,
-      "filename": "floro-sapiens-caverns.mp3"
+      "filename": "floro-sapiens-caverns.mp3",
+      "tags": ["intense", "mario"]
     },
     {
       "artist": "Atsuko Asahi",
@@ -1054,7 +1141,8 @@
       "day": "03-12-2025",
       "id": "c346835a-4a02-4962-b06b-3cc297583733",
       "newsletter": true,
-      "filename": "digga-leg.mp3"
+      "filename": "digga-leg.mp3",
+      "tags": ["funky", "party", "mario"]
     },
     {
       "artist": "Sade",
@@ -1066,7 +1154,8 @@
       "day": "02-12-2025",
       "id": "0db34a08-1a77-4a42-a90b-884e51094a83",
       "newsletter": true,
-      "filename": "i-never-thought-id-see-the-day.mp3"
+      "filename": "i-never-thought-id-see-the-day.mp3",
+      "tags": ["chill", "sad songs", "devastating", "peaceful"]
     },
     {
       "artist": "Systemabsturz",
@@ -1078,7 +1167,8 @@
       "day": "01-12-2025",
       "id": "ef02379c-e25d-4414-8d1d-26506c0eaa03",
       "newsletter": true,
-      "filename": "verdaechtig.mp3"
+      "filename": "verdaechtig.mp3",
+      "tags": ["party", "pop"]
     },
     {
       "artist": "Aldous Harding",
@@ -1090,7 +1180,8 @@
       "day": "30-11-2025",
       "id": "6eeab3b5-507e-45fa-b5a8-f82036cbe2fc",
       "newsletter": true,
-      "filename": "the-barrel.mp3"
+      "filename": "the-barrel.mp3",
+      "tags": []
     },
     {
       "artist": "Naoto Kubo",
@@ -1102,7 +1193,8 @@
       "day": "29-11-2025",
       "id": "7d1a104f-432a-4595-8dae-17c9ed176591",
       "newsletter": true,
-      "filename": "bubblaine.mp3"
+      "filename": "bubblaine.mp3",
+      "tags": []
     },
     {
       "artist": "Weyes Blood",
@@ -1114,7 +1206,8 @@
       "day": "28-11-2025",
       "id": "0563f0b2-37be-4fea-a962-fa4582851ac9",
       "newsletter": true,
-      "filename": "god-turn-me-into-a-flower.mp3"
+      "filename": "god-turn-me-into-a-flower.mp3",
+      "tags": []
     },
     {
       "artist": "Manaka Kataoka, Maasa Miyoshi, Masato Ohashi, Tsukasa Usui",
@@ -1126,7 +1219,8 @@
       "day": "27-11-2025",
       "id": "36d6e838-8246-4ca0-a04f-b50bbf450753",
       "newsletter": true,
-      "filename": "lookout-landing-the-four-sages-gather.mp3"
+      "filename": "lookout-landing-the-four-sages-gather.mp3",
+      "tags": []
     },
     {
       "artist": "Norah Jones",
@@ -1138,7 +1232,8 @@
       "day": "26-11-2025",
       "id": "aa821868-34cc-4279-8b02-af9f7c90c977",
       "newsletter": true,
-      "filename": "miriam.mp3"
+      "filename": "miriam.mp3",
+      "tags": []
     },
     {
       "artist": "Tunng",
@@ -1150,7 +1245,8 @@
       "day": "25-11-2025",
       "id": "24a40317-4f06-4e9a-be4b-42fef37f7414",
       "newsletter": true,
-      "filename": "cans.mp3"
+      "filename": "cans.mp3",
+      "tags": []
     },
     {
       "artist": "Hajime Wakai, Kazumi Totaka",
@@ -1162,7 +1258,8 @@
       "day": "24-11-2025",
       "id": "24806f56-7a39-42c8-b14d-1d0a36df06aa",
       "newsletter": true,
-      "filename": "piklopedia.mp3"
+      "filename": "piklopedia.mp3",
+      "tags": []
     },
     {
       "artist": "Hiroki Morishita, Yuka Tsujiyoko",
@@ -1174,7 +1271,8 @@
       "day": "23-11-2025",
       "id": "8489b28e-b916-4db6-96c4-4db202b88de7",
       "newsletter": true,
-      "filename": "land-below.mp3"
+      "filename": "land-below.mp3",
+      "tags": []
     },
     {
       "artist": "The Tallest Man on Earth",
@@ -1186,7 +1284,8 @@
       "day": "22-11-2025",
       "id": "8a2d058f-b704-4bc2-8bbc-60901c405eb1",
       "newsletter": true,
-      "filename": "every-little-heart.mp3"
+      "filename": "every-little-heart.mp3",
+      "tags": []
     },
     {
       "artist": "Michael Kiwanuka",
@@ -1198,7 +1297,8 @@
       "day": "21-11-2025",
       "id": "ee6671e0-f4d2-486c-b017-95a1067d0d27",
       "newsletter": true,
-      "filename": "youve-got-nothing-to-lose.mp3"
+      "filename": "youve-got-nothing-to-lose.mp3",
+      "tags": []
     },
     {
       "artist": "Little Simz",
@@ -1210,7 +1310,8 @@
       "day": "20-11-2025",
       "id": "fd4eb6ab-d680-441d-bbbb-51f5d30b9a47",
       "newsletter": true,
-      "filename": "gorilla.mp3"
+      "filename": "gorilla.mp3",
+      "tags": []
     },
     {
       "artist": "Daisuke Matsuoka",
@@ -1222,7 +1323,8 @@
       "day": "19-11-2025",
       "id": "3dddcfd1-5bcf-45e3-bef5-f1dd9ad9d0a3",
       "newsletter": true,
-      "filename": "lower-brinstar.mp3"
+      "filename": "lower-brinstar.mp3",
+      "tags": []
     },
     {
       "artist": "Konami Kukeiha Club, Motoaki Furukawa",
@@ -1234,7 +1336,8 @@
       "day": "18-11-2025",
       "id": "b3576269-a055-4272-8eb2-2f2819db89d8",
       "newsletter": true,
-      "filename": "girls.mp3"
+      "filename": "girls.mp3",
+      "tags": []
     },
     {
       "artist": "Rhye",
@@ -1246,7 +1349,8 @@
       "day": "17-11-2025",
       "id": "9e24a25d-659d-4ee5-9da0-5755807d385d",
       "newsletter": true,
-      "filename": "the-fall.mp3"
+      "filename": "the-fall.mp3",
+      "tags": []
     },
     {
       "artist": "Kazumi Totaka",
@@ -1258,7 +1362,8 @@
       "day": "16-11-2025",
       "id": "e05afca2-8bbd-4928-92b3-90df2738c632",
       "newsletter": true,
-      "filename": "7pm.mp3"
+      "filename": "7pm.mp3",
+      "tags": []
     },
     {
       "artist": "Erasmo Carlos",
@@ -1270,7 +1375,8 @@
       "day": "15-11-2025",
       "id": "ffadf66c-c487-4e71-9e1d-b39a6092df5a",
       "newsletter": true,
-      "filename": "e-preciso-dar-um-jeito-meu-amigo.mp3"
+      "filename": "e-preciso-dar-um-jeito-meu-amigo.mp3",
+      "tags": []
     },
     {
       "artist": "Ultraflex",
@@ -1282,7 +1388,8 @@
       "day": "14-11-2025",
       "id": "bb87bdbe-3cc1-4108-abaa-c1495dc42b9d",
       "newsletter": true,
-      "filename": "relax.mp3"
+      "filename": "relax.mp3",
+      "tags": []
     },
     {
       "artist": "Mystery Nintendo composers",
@@ -1294,7 +1401,8 @@
       "day": "13-11-2025",
       "id": "bb82d099-372c-4d3f-a6f7-8e2237c0ed7b",
       "newsletter": true,
-      "filename": "wii-u-eshop-music-july-2014.mp3"
+      "filename": "wii-u-eshop-music-july-2014.mp3",
+      "tags": []
     },
     {
       "artist": "Asuka Ohta, Hajime Wakai",
@@ -1306,7 +1414,8 @@
       "day": "12-11-2025",
       "id": "10211e24-65d0-4aad-8f0e-36d8ffbaf5d2",
       "newsletter": true,
-      "filename": "staff-credits.mp3"
+      "filename": "staff-credits.mp3",
+      "tags": []
     },
     {
       "artist": "Confidence Man",
@@ -1318,7 +1427,8 @@
       "day": "11-11-2025",
       "id": "334365a7-f0cd-479b-b6ed-819f12c990c7",
       "newsletter": true,
-      "filename": "luvin-u-is-easy.mp3"
+      "filename": "luvin-u-is-easy.mp3",
+      "tags": []
     },
     {
       "artist": "Koji Kondo",
@@ -1330,7 +1440,8 @@
       "day": "10-11-2025",
       "id": "b1165a1f-d302-401a-9bdc-0ddae3fd5def",
       "newsletter": true,
-      "filename": "forest-temple.mp3"
+      "filename": "forest-temple.mp3",
+      "tags": []
     },
     {
       "artist": "Aretha Franklin",
@@ -1342,7 +1453,8 @@
       "day": "09-11-2025",
       "id": "0b104192-238d-4622-a4c2-97dd70c47bb1",
       "newsletter": true,
-      "filename": "nessun-dorma.mp3"
+      "filename": "nessun-dorma.mp3",
+      "tags": []
     },
     {
       "artist": "Sade",
@@ -1354,7 +1466,8 @@
       "day": "08-11-2025",
       "id": "6c07c1e9-0d60-4ca7-9ec1-4775047bdd1a",
       "newsletter": true,
-      "filename": "like-a-tattoo.mp3"
+      "filename": "like-a-tattoo.mp3",
+      "tags": []
     },
     {
       "artist": "Laura Mvula",
@@ -1366,7 +1479,8 @@
       "day": "07-11-2025",
       "id": "afd1fd7d-c643-4973-8d35-b80f76f12320",
       "newsletter": true,
-      "filename": "cant-live-with-the-world.mp3"
+      "filename": "cant-live-with-the-world.mp3",
+      "tags": []
     },
     {
       "artist": "SG Lewis, Nile Rodgers",
@@ -1378,7 +1492,8 @@
       "day": "06-11-2025",
       "id": "cc3019c6-8624-4fb5-b59a-101822391049",
       "newsletter": true,
-      "filename": "one-more.mp3"
+      "filename": "one-more.mp3",
+      "tags": []
     },
     {
       "artist": "Shogo Sakai",
@@ -1390,7 +1505,8 @@
       "day": "05-11-2025",
       "id": "99985600-100c-4c1d-a92e-3cd40450e709",
       "newsletter": true,
-      "filename": "and-el-mariachi.mp3"
+      "filename": "and-el-mariachi.mp3",
+      "tags": []
     },
     {
       "artist": "Shogo Sakai",
@@ -1402,7 +1518,8 @@
       "day": "04-11-2025",
       "id": "d7b94fba-ebd7-4fdf-88fb-5cd858f30c5a",
       "newsletter": true,
-      "filename": "brinstar-depths.mp3"
+      "filename": "brinstar-depths.mp3",
+      "tags": []
     },
     {
       "artist": "Tomoya Tomita, Misaki Asada",
@@ -1414,7 +1531,8 @@
       "day": "03-11-2025",
       "id": "7def7302-f0e0-43cf-9cf5-5c834bad08d3",
       "newsletter": true,
-      "filename": "king-bowsers-castle-2.mp3"
+      "filename": "king-bowsers-castle-2.mp3",
+      "tags": []
     },
     {
       "artist": "Esperanza Spalding",
@@ -1426,7 +1544,8 @@
       "day": "02-11-2025",
       "id": "e8d1510a-5078-4bb2-a12f-1b201bdcf741",
       "newsletter": true,
-      "filename": "good-lava.mp3"
+      "filename": "good-lava.mp3",
+      "tags": []
     },
     {
       "artist": "PinkPantheress",
@@ -1438,7 +1557,8 @@
       "day": "01-11-2025",
       "id": "f4110a84-0ff9-419c-818f-b5d670856767",
       "newsletter": true,
-      "filename": "illegal.mp3"
+      "filename": "illegal.mp3",
+      "tags": []
     },
     {
       "artist": "Atsuko Asahi",
@@ -1450,7 +1570,8 @@
       "day": "31-10-2025",
       "id": "632d1b28-c157-4a08-a558-b022e66bcaa0",
       "newsletter": true,
-      "filename": "boo-lake-mario-kart-super-circuit.mp3"
+      "filename": "boo-lake-mario-kart-super-circuit.mp3",
+      "tags": []
     },
     {
       "artist": "Lena Raine",
@@ -1462,7 +1583,8 @@
       "day": "30-10-2025",
       "id": "044835c6-d94f-427a-8b3a-23355bafa694",
       "newsletter": true,
-      "filename": "final-defiance.mp3"
+      "filename": "final-defiance.mp3",
+      "tags": []
     },
     {
       "artist": "Kylie Minogue",
@@ -1474,7 +1596,8 @@
       "day": "29-10-2025",
       "id": "236a6ad4-89f4-4876-8cd0-af1f05fdc592",
       "newsletter": true,
-      "filename": "better-the-devil-you-know.mp3"
+      "filename": "better-the-devil-you-know.mp3",
+      "tags": []
     },
     {
       "artist": "Spellling",
@@ -1486,7 +1609,8 @@
       "day": "28-10-2025",
       "id": "eb57d648-46a0-4893-9815-e24af8f44cbb",
       "newsletter": true,
-      "filename": "destiny-arrives.mp3"
+      "filename": "destiny-arrives.mp3",
+      "tags": []
     },
     {
       "artist": "Paloma San Basilio",
@@ -1498,7 +1622,8 @@
       "day": "27-10-2025",
       "id": "35b6e214-e628-453c-80be-e36486d22f00",
       "newsletter": true,
-      "filename": "contigo.mp3"
+      "filename": "contigo.mp3",
+      "tags": []
     },
     {
       "artist": "Kings of Convenience",
@@ -1510,7 +1635,8 @@
       "day": "26-10-2025",
       "id": "5e130b81-0391-49a7-aa61-f75e21960502",
       "newsletter": true,
-      "filename": "failure.mp3"
+      "filename": "failure.mp3",
+      "tags": []
     },
     {
       "artist": "Magdalena Bay",
@@ -1522,7 +1648,8 @@
       "day": "25-10-2025",
       "id": "45a38145-53ce-4b6d-96cc-5a87e1a8f62d",
       "newsletter": true,
-      "filename": "u-wanna-dance.mp3"
+      "filename": "u-wanna-dance.mp3",
+      "tags": []
     },
     {
       "artist": "Eirik Suhrke",
@@ -1534,7 +1661,8 @@
       "day": "24-10-2025",
       "id": "e65a3da2-721c-4d1e-9158-2587fab775fe",
       "newsletter": true,
-      "filename": "block-koala-gameplay.mp3"
+      "filename": "block-koala-gameplay.mp3",
+      "tags": []
     },
     {
       "artist": "eebrozgi",
@@ -1546,7 +1674,8 @@
       "day": "23-10-2025",
       "id": "f95d415e-ad21-40ae-a375-7ffbfce1f6f0",
       "newsletter": true,
-      "filename": "void-symphony.mp3"
+      "filename": "void-symphony.mp3",
+      "tags": []
     },
     {
       "artist": "Avalanches",
@@ -1558,7 +1687,8 @@
       "day": "22-10-2025",
       "id": "6f5f31da-4ed3-4d27-a8ec-69c55d21847a",
       "newsletter": true,
-      "filename": "frontier-psychiatrist.mp3"
+      "filename": "frontier-psychiatrist.mp3",
+      "tags": []
     },
     {
       "artist": "Röyksopp ft. Susanne Sundfør",
@@ -1570,7 +1700,8 @@
       "day": "21-10-2025",
       "id": "c95b4a90-2cb2-48f4-98a7-4f9633d9cf71",
       "newsletter": true,
-      "filename": "ice-machine.mp3"
+      "filename": "ice-machine.mp3",
+      "tags": []
     },
     {
       "artist": "Christopher Larkin",
@@ -1582,7 +1713,8 @@
       "day": "20-10-2025",
       "id": "b1c8eca2-d759-4b52-8fab-2635bce95f59",
       "newsletter": true,
-      "filename": "choral-chambers.mp3"
+      "filename": "choral-chambers.mp3",
+      "tags": []
     },
     {
       "artist": "Atsuko Asahi",
@@ -1594,7 +1726,8 @@
       "day": "19-10-2025",
       "id": "d3bdc041-f283-495a-864d-83b0230c985e",
       "newsletter": true,
-      "filename": "cheep-cheep-beach-mario-kart-ds.mp3"
+      "filename": "cheep-cheep-beach-mario-kart-ds.mp3",
+      "tags": []
     },
     {
       "artist": "Erykah Badu",
@@ -1606,7 +1739,8 @@
       "day": "18-10-2025",
       "id": "f9a318ba-dfcf-4183-b353-e014bd88e663",
       "newsletter": true,
-      "filename": "orange-moon.mp3"
+      "filename": "orange-moon.mp3",
+      "tags": []
     },
     {
       "artist": "Kero Kero Bonito",
@@ -1618,7 +1752,8 @@
       "day": "17-10-2025",
       "id": "ec74a455-2714-4f95-8abb-06be65a66993",
       "newsletter": true,
-      "filename": "only-acting.mp3"
+      "filename": "only-acting.mp3",
+      "tags": []
     },
     {
       "artist": "Arata Iiyoshi, Keisuke Ito, Hideki Sakamoto",
@@ -1630,7 +1765,8 @@
       "day": "16-10-2025",
       "id": "07a4f065-4340-456e-b077-2c146f561f84",
       "newsletter": true,
-      "filename": "temporal-tower.mp3"
+      "filename": "temporal-tower.mp3",
+      "tags": []
     },
     {
       "artist": "Björk",
@@ -1642,7 +1778,8 @@
       "day": "15-10-2025",
       "id": "93539383-4e82-4736-a878-2e656ffdd9fb",
       "newsletter": true,
-      "filename": "play-dead.mp3"
+      "filename": "play-dead.mp3",
+      "tags": []
     },
     {
       "artist": "Jens Lekman",
@@ -1654,7 +1791,8 @@
       "day": "14-10-2025",
       "id": "2e883d6e-e389-4eee-8dcb-1d15366f2e21",
       "newsletter": true,
-      "filename": "a-postcard-to-nina.mp3"
+      "filename": "a-postcard-to-nina.mp3",
+      "tags": []
     },
     {
       "artist": "Atsuko Asahi",
@@ -1666,7 +1804,8 @@
       "day": "13-10-2025",
       "id": "48d48a7f-a307-4fbd-b260-12201849aad3",
       "newsletter": true,
-      "filename": "bowsers-castle-mario-kart-8.mp3"
+      "filename": "bowsers-castle-mario-kart-8.mp3",
+      "tags": []
     },
     {
       "artist": "Khruangbin",
@@ -1678,7 +1817,8 @@
       "day": "12-10-2025",
       "id": "800e745d-354b-4225-ae3e-2087c94adde5",
       "newsletter": true,
-      "filename": "so-we-wont-forget.mp3"
+      "filename": "so-we-wont-forget.mp3",
+      "tags": []
     },
     {
       "artist": "Yoshito Hirano, Yuka Tsujiyoko",
@@ -1690,7 +1830,8 @@
       "day": "11-10-2025",
       "id": "a1ba4391-ed5a-48db-a32b-894c97f4768b",
       "newsletter": true,
-      "filename": "x-naut-fortress.mp3"
+      "filename": "x-naut-fortress.mp3",
+      "tags": []
     },
     {
       "artist": "Natalia Lafourcade",
