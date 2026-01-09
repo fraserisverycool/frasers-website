@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DailiesComponent } from './dailies.component';
+import DailiesComponent from './dailies.component';
 
 describe('DailiesComponent', () => {
   let component: DailiesComponent;

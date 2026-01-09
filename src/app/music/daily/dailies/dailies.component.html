@@ -10,39 +10,50 @@
       </li>
     }
   </ul>
-  <ul>
-    @for (track of dailySoundtracks; track track) {
-      <li class="list-item">
-        <div>
-          @if (!track.game) {
-            <h2 class="h2">{{track.artist}} - {{track.track}}</h2>
-          }
-          @if (track.game) {
-            <h2 class="h2">{{track.album}} - {{track.track}}</h2>
-          }
-          @if (!track.game) {
-            <p class="p"><strong>Album:</strong> {{track.album}}</p>
-          }
-          @if (track.game) {
-            <p class="p"><strong>Composer:</strong> {{track.artist}}</p>
-          }
-          <p class="p">{{track.description}}</p>
-          @if (track.filename) {
-            <div class="mini-audio-player">
-              <audio controls [src]="imageService.imageUrl(audioPath + track.filename)">
-                Normally there is an audio player here but mate your browser can't handle it
-              </audio>
-            </div>
-          }
-          <a class="a" [href]="track.link">Listen on YouTube</a>
-          <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
-        </div>
-        <div class="date">
-          {{track.day}}
-        </div>
-      </li>
+  <div class="sort-buttons">
+    <button (click)="randomize()" class="filter-button" [ngClass]="{ 'active': isRandomSort }">Randomize</button>
+    <button (click)="chronological()" class="filter-button" [ngClass]="{ 'active': !isRandomSort }">Chronological</button>
+  </div>
+  @for (group of groupedDailySoundtracks; track group.month) {
+    @if (!isRandomSort) {
+      <h3 class="month-heading">{{ group.month }}</h3>
     }
-  </ul>
+    <ul>
+      @for (track of group.tracks; track track.id) {
+        <li class="list-item">
+          <div>
+            @if (!track.game) {
+              <h2 class="h2">{{track.artist}} - {{track.track}}</h2>
+            }
+            @if (track.game) {
+              <h2 class="h2">{{track.album}} - {{track.track}}</h2>
+            }
+            @if (!track.game) {
+              <p class="p"><strong>Album:</strong> {{track.album}}</p>
+            }
+            @if (track.game) {
+              <p class="p"><strong>Composer:</strong> {{track.artist}}</p>
+            }
+            <p class="p">{{track.description}}</p>
+            <div class="player-link-container">
+              @if (track.filename) {
+                <div class="mini-audio-player">
+                  <audio controls [src]="imageService.imageUrl(audioPath + track.filename)">
+                    Normally there is an audio player here but mate your browser can't handle it
+                  </audio>
+                </div>
+              }
+              <a class="a" [href]="track.link">Listen on YouTube</a>
+            </div>
+            <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
+          </div>
+          <div class="date">
+            {{track.day}}
+          </div>
+        </li>
+      }
+    </ul>
+  }
   <div class="gif">
     <img [src]="imageService.imageUrl('/homepage/daily.gif')">
   </div>

@@ -5,8 +5,13 @@ import {DomSanitizer} from "@angular/platform-browser";
 import { HttpClient } from "@angular/common/http";
 import {RatingService} from "../../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
-import {isBefore, parse} from "date-fns";
+import {isBefore, parse, format} from "date-fns";
 import {ImageService} from "../../../utils/services/image.service";
+
+interface GroupedDailySoundtracks {
+  month: string;
+  tracks: DailySoundtrack[];
+}
 
 @Component({
     selector: 'app-dailies',
@@ -16,8 +21,9 @@ import {ImageService} from "../../../utils/services/image.service";
 })
 export default class DailiesComponent implements OnInit {
   originalDailySoundtracks: DailySoundtrack[] = [];
-  dailySoundtracks: DailySoundtrack[] = [];
+  groupedDailySoundtracks: GroupedDailySoundtracks[] = [];
   currentFilter: string = '';
+  isRandomSort: boolean = false;
   filters = ["I don't care about video game music!", "Gimme that sweet video game music!", "Show me it all!"];
   today: DailySoundtrack | null = null;
   audioPath: string = '/music/dailysoundtracks/';
@@ -36,10 +42,10 @@ export default class DailiesComponent implements OnInit {
         this.originalDailySoundtracks = data.dailysoundtracks.filter(
           ds => isBefore(parse(ds.day, 'dd-MM-yyyy', new Date()), now)
         );
-        this.dailySoundtracks = this.originalDailySoundtracks;
-        this.dailySoundtracks.forEach(ds => ds.link = this.sanitizer.bypassSecurityTrustResourceUrl(ds.link) as string);
+        this.originalDailySoundtracks.forEach(ds => ds.link = this.sanitizer.bypassSecurityTrustResourceUrl(ds.link) as string);
         this.getRatings();
-        this.today = this.dailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
+        this.today = this.originalDailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
+        this.groupSoundtracks(this.originalDailySoundtracks);
       },
       error: (err) => {
         console.error('Failed to load daily Soundtracks:', err);
@@ -57,9 +63,9 @@ export default class DailiesComponent implements OnInit {
   }
 
   getRatings(): void {
-    this.ratingService.getRatingsById(this.dailySoundtracks.map(dailySoundtrack => dailySoundtrack.id))
+    this.ratingService.getRatingsById(this.originalDailySoundtracks.map(dailySoundtrack => dailySoundtrack.id))
       .subscribe(dailySoundtrackRatings => {
-        this.dailySoundtracks = this.dailySoundtracks.map(dailySoundtrack => {
+        this.originalDailySoundtracks = this.originalDailySoundtracks.map(dailySoundtrack => {
           const ratingData = dailySoundtrackRatings.find(rating => rating.id === dailySoundtrack.id);
           if (ratingData) {
             dailySoundtrack.rating = ratingData.ratings;
@@ -68,22 +74,69 @@ export default class DailiesComponent implements OnInit {
           }
           return dailySoundtrack;
         });
+        this.groupSoundtracks(this.originalDailySoundtracks);
       });
+  }
+
+  groupSoundtracks(tracks: DailySoundtrack[]): void {
+    if (this.isRandomSort) {
+      this.groupedDailySoundtracks = [{
+        month: 'Random',
+        tracks: [...tracks].sort(() => Math.random() - 0.5)
+      }];
+      return;
+    }
+
+    const groups: { [key: string]: DailySoundtrack[] } = {};
+    const sortedTracks = [...tracks].sort((a, b) => {
+      const dateA = parse(a.day, 'dd-MM-yyyy', new Date());
+      const dateB = parse(b.day, 'dd-MM-yyyy', new Date());
+      return dateB.getTime() - dateA.getTime();
+    });
+
+    const monthOrder: string[] = [];
+
+    sortedTracks.forEach(track => {
+      const date = parse(track.day, 'dd-MM-yyyy', new Date());
+      const monthYear = format(date, 'MMMM yyyy');
+      if (!groups[monthYear]) {
+        groups[monthYear] = [];
+        monthOrder.push(monthYear);
+      }
+      groups[monthYear].push(track);
+    });
+
+    this.groupedDailySoundtracks = monthOrder.map(month => ({
+      month,
+      tracks: groups[month]
+    }));
   }
 
   filterDailySoundtracks(criteria: string): void {
     console.log(criteria);
     this.currentFilter = criteria;
+    let filteredTracks = this.originalDailySoundtracks;
     switch (criteria) {
       case 'Gimme that sweet video game music!':
-        this.dailySoundtracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game);
+        filteredTracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game);
         break;
       case 'I don\'t care about video game music!':
-        this.dailySoundtracks = this.originalDailySoundtracks.filter(soundtrack => !soundtrack.game);
+        filteredTracks = this.originalDailySoundtracks.filter(soundtrack => !soundtrack.game);
         break;
       default:
-        this.dailySoundtracks = this.originalDailySoundtracks;
+        filteredTracks = this.originalDailySoundtracks;
         break;
     }
+    this.groupSoundtracks(filteredTracks);
+  }
+
+  randomize(): void {
+    this.isRandomSort = true;
+    this.filterDailySoundtracks(this.currentFilter);
+  }
+
+  chronological(): void {
+    this.isRandomSort = false;
+    this.filterDailySoundtracks(this.currentFilter);
   }
 }
