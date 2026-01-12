@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "carrie.webp",
+      "title": "Carrie",
+      "description": "The first half of this classic film was unbearable to watch, but from the iconic moment at the school prom onwards we were just screaming 'Yeeees fuck em up!! Burn it all down!'. If only this is what happened when people treated women so badly in real life.",
+      "year": "2026",
+      "release": "1976",
+      "id": "ea25eeae-2f8b-43f6-872c-ff91893cb9f7",
+      "newsletter": false
+    },
+    {
       "filename": "great-escape.jpg",
       "title": "The Great Escape",
       "description": "The family has this on the TV at Christmas quite a lot. It was alright. Got me thinking if the Germans have some kind of equivalent.",

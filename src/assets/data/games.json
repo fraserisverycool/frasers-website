@@ -1,18 +1,56 @@
 {
   "games": [
     {
-      "name": "Ball X Pit",
-      "vibes": "6",
+      "name": "Clair Obscur: Expedition 33",
+      "vibes": "10",
       "gameplay": "10",
       "review": [
-        "This is so so so addicting, just like Vampire Survivors. Loved getting absolutely absorbed by it this Christmas. The ball part has some great risk/reward or push/pull and feels great. The city building part is a bit intimidating but actually alright in the end. I don't love the overall vibe and design of it, nor do I love the music. It's kinda gruesome and unpleasant."
+        "Wow! I have not played a game with such good art direction as this! Whoever they hired to design the outfits needs a raise. This game is so aggressively French and I'm so here for it. It's got berets, famous landmarks, and I just went ahead and played it in French for the full experience. Loved it. And the environments look so gorgeous and detailed and have amazing lighting and yeah this game just looks amazing.",
+        "And sounds amazing! Excellent, expansive soundtrack, unafraid to use accordion.",
+        "I think the best thing about the game though is the writing. It features characters who have actual empathy for one another! And when some crazy shit happens, they take a moment to talk about it. The characters are all distinct, flawed but likeable, and have their own reactions to everything. I love that Lune just wants to ask questions about everything because the story is so wild, she's just like me. And then Sciel is like the adult in the room, aware that the world around her is bigger than what she understands and decides to be chill about the whole thing. Maelle has a moment where she was like, this is not at all what I expected and I dunno I just thought it was so real, even if her scenes were a little hard to take seriously because I gave her a ridiculous haircut.",
+        "The gameplay is also good. It took me a long time to get into the parrying but towards the end of the game I started getting good at it. What's nice is that there are ways to play where you don't bother with the parrying at all. It meant I didn't feel like a total noob as I was starting the game. I will say that there is some optional content where you have to do platforming and it's totally bullshit. It was worth it to get the outfit of Verso just in his trunks though."
+      ],
+      "image": "clair-obscur.jpg",
+      "platform": "Playstation 5",
+      "year": "2026",
+      "release": "2025",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "cd5726ec-26a3-4501-91f5-7c3ff50e05bd",
+      "newsletter": false
+    },
+    {
+      "name": "Wario Land 3",
+      "vibes": "6",
+      "gameplay": "8",
+      "review": [
+        "Playing this game was so refreshing, it was familiar because I played and loved Wario Land 4, but also quite different to that game, and so different to your average platformer. In this game you can't die! It's more of a puzzle game - 'how do I get to this treasure chest?' rather than 'can I get to this treasure chest?'. I like all the transformations and the role they play in the puzzles. The game even has metroidvania elements the way you get new power-ups and revisit old levels.",
+        "The animations are also a lot of fun. It's such a goofy game. Delightful and recommended gem on the Nintendo Switch Online!"
+      ],
+      "image": "warioland-3.png",
+      "platform": "Gameboy",
+      "year": "2026",
+      "release": "2000",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "035c05b8-3d3c-4bbe-a5fb-10a1d9074a63",
+      "newsletter": false
+    },
+    {
+      "name": "Ball X Pit",
+      "vibes": "6",
+      "gameplay": "8",
+      "review": [
+        "This is so so so addicting, just like Vampire Survivors. Loved getting absolutely absorbed by it this Christmas. The ball part has some great risk/reward or push/pull and feels great. The city building part is a bit intimidating but actually alright in the end. I don't love the overall vibe and design of it, nor do I love the music. It's kinda gruesome and unpleasant. Honestly by the end I was happy I rolled the credits and I could stop."
       ],
       "image": "ball-x-pit.webp",
       "platform": "Switch 2",
       "year": "2025",
       "release": "2025",
       "score": 15,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "3bb85b3b-8de6-469d-90c3-f121d1a51f43",
       "newsletter": false

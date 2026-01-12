@@ -1,6 +1,30 @@
 {
   "soundtracks": [
     {
+      "filename": "fire-emblem-path-of-radiance.jpg",
+      "name": "Fire Emblem: Path of Radiance",
+      "description": [
+        "I have always felt like this and Radiant Dawn's soundtrack sound a bit cheap and tinny thanks to their choice of orchestra sounds. Maybe it would slap more with a real orchestra but alas the game came out in 2005. Although all my actual favourites are on the Radiant Dawn soundtrack, there are still a whole bunch of great tracks here too. And even though a lot of the music sounds the same, there is some very special music here.",
+        "Some of the battle music is very lengthy and epic and multi-phased (thinking about the amazing 'Crimea Attacks' - which features in the Subspace Emissary!). Then you've got 'Against the Black Knight' which is so fucking good and perfect music for fighting an unbeatable foe. And there's this horrible character called Oliver who has his theme played on the harpsichord which is such a vibe. It's giving Castlevania and I love that."
+      ],
+      "platform": "Gamecube",
+      "topTracks": [
+        "The First Fight",
+        "Crimea Attacks",
+        "Against the Black Knight",
+        "Power-Hungry Fool",
+        "With Us!",
+        "Quiet Days",
+        "Dreaming of Home",
+        "Painful Wish",
+        "Rising Morale",
+        "Young Warriors",
+        "Eternal Glory"
+      ],
+      "id": "237ec51f-78b1-4b07-84a6-6bf7ece63f6a",
+      "newsletter": false
+    },
+    {
       "filename": "wii-party.jpg",
       "name": "Wii Party",
       "description": [
