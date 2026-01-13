@@ -1,14 +1,14 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RatingbarComponent } from './rating-bar.component';
+import { RatingBarComponent } from './rating-bar.component';
 
 describe('RatingbarComponent', () => {
-  let component: RatingbarComponent;
+  let component: RatingBarComponent;
   let fixture: ComponentFixture<RatingBarComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [RatingbarComponent]
+      imports: [RatingBarComponent]
     });
     fixture = TestBed.createComponent(RatingBarComponent);
     component = fixture.componentInstance;

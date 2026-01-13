@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChangelogPageComponent } from './changelog-page.component';
+import ChangelogPageComponent from './changelog-page.component';
 
-describe('ChangelogComponent', () => {
-  let component: ChangelogComponent;
-  let fixture: ComponentFixture<ChangelogComponent>;
+describe('ChangelogPageComponent', () => {
+  let component: ChangelogPageComponent;
+  let fixture: ComponentFixture<ChangelogPageComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [ChangelogComponent]
+      imports: [ChangelogPageComponent]
     });
-    fixture = TestBed.createComponent(ChangelogComponent);
+    fixture = TestBed.createComponent(ChangelogPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

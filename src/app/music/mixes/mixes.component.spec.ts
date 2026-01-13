@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MixesComponent } from './mixes.component';
+import MixesComponent from './mixes.component';
 
 describe('MixesComponent', () => {
   let component: MixesComponent;

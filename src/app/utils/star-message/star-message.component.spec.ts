@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StarmessageComponent } from './starmessage.component';
+import StarmessageComponent from './star-message.component';
 
 describe('StarmessageComponent', () => {
   let component: StarmessageComponent;

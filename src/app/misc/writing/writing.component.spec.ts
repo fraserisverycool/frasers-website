@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WritingComponent } from './writing.component';
+import WritingComponent from './writing.component';
 
 describe('WritingComponent', () => {
   let component: WritingComponent;

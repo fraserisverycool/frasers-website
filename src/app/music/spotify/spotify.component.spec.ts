@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SpotifyComponent } from './spotify.component';
+import SpotifyComponent from './spotify.component';
 
 describe('SpotifyComponent', () => {
   let component: SpotifyComponent;

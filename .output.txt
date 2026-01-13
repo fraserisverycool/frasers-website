@@ -1,0 +1,562 @@
+
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     14:11                books
+d-----        04/01/2026     13:04                community
+d-----        04/01/2026     14:11                films
+d-----        04/01/2026     14:12                gallery
+d-----        04/01/2026     14:00                games
+d-----        04/01/2026     14:34                guestbook
+d-----        04/01/2026     13:04                homepage
+d-----        04/01/2026     13:04                misc
+d-----        04/01/2026     13:04                music
+d-----        04/01/2026     13:04                newsletter
+d-----        31/12/2025     00:17                utils
+-a----        27/10/2025     15:59            933 app.component.css
+-a----        04/01/2026     13:04            832 app.component.html
+-a----        09/02/2025     14:42            981 app.component.spec.ts
+-a----        04/01/2026     13:04           1128 app.component.ts
+-a----        04/01/2026     13:04            399 app.config.ts
+-a----        17/11/2025     17:24           6160 app.routes.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\books
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/09/2025     11:37            236 book.interface.ts
+-a----        04/01/2026     14:11           1614 books.component.css
+-a----        04/01/2026     14:11           1031 books.component.html
+-a----        26/05/2025     18:05            547 books.component.spec.ts
+-a----        04/01/2026     14:11           2542 books.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\community
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                durstloescher
+d-----        04/01/2026     13:04                game-of-life
+-a----        26/11/2025     16:54           1076 community.component.css
+-a----        17/11/2025     21:18           2316 community.component.html
+-a----        02/05/2025     21:37            592 community.component.spec.ts
+-a----        04/01/2026     13:04            509 community.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\commun
+    ity\durstloescher
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     14:21                durstloescher-model
+-a----        26/11/2025     16:54           3580 durstloescher.component.css
+-a----        04/01/2026     13:04           1402 durstloescher.component.html
+-a----        02/05/2025     21:37            620 durstloescher.component.spec.
+                                                  ts
+-a----        04/01/2026     13:04           3180 durstloescher.component.ts
+-a----        21/09/2025     11:37            231 durstloescher.interface.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\commun
+    ity\durstloescher\durstloescher-model
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        23/10/2025     15:29            635 durstloescher-modal.component
+                                                  .css
+-a----        04/01/2026     13:04            971 durstloescher-modal.component
+                                                  .html
+-a----        08/05/2025     11:50            639 durstloescher-modal.component
+                                                  .spec.ts
+-a----        04/01/2026     14:21           1484 durstloescher-modal.component
+                                                  .ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\commun
+    ity\game-of-life
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/11/2025     16:54            801 game-of-life.component.css
+-a----        15/05/2025     10:40            400 game-of-life.component.html
+-a----        05/05/2025     09:34            605 game-of-life.component.spec.t
+                                                  s
+-a----        04/01/2026     13:04            268 game-of-life.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\films
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                film
+d-----        04/01/2026     13:04                next
+-a----        19/11/2025     22:27            226 film.interface.ts
+-a----        04/01/2026     14:11           1935 films.component.css
+-a----        04/01/2026     14:10            727 films.component.html
+-a----        09/02/2025     21:15            547 films.component.spec.ts
+-a----        04/01/2026     14:10           4943 films.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\films\film
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        30/12/2025     23:55           1312 film.component.css
+-a----        04/01/2026     13:04            855 film.component.html
+-a----        08/05/2025     13:34            540 film.component.spec.ts
+-a----        04/01/2026     13:04            635 film.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\films\next
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/11/2025     16:54           1360 next-film.component.css
+-a----        04/01/2026     13:04            278 next-film.component.html
+-a----        23/10/2025     11:31            549 next-film.component.spec.ts
+-a----        04/01/2026     13:04           1364 next-film.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\gallery
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                photo
+d-----        04/01/2026     13:04                videos
+-a----        21/09/2025     11:37            234 photo.interface.ts
+-a----        04/01/2026     14:12            637 photos.component.css
+-a----        04/01/2026     14:11            436 photos.component.html
+-a----        23/10/2025     12:35            559 photos.component.spec.ts
+-a----        04/01/2026     14:11           2303 photos.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\gallery\photo
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        24/09/2025     23:09                service
+-a----        23/10/2025     13:57           2003 photo.component.css
+-a----        04/01/2026     13:04           1431 photo.component.html
+-a----        04/03/2025     09:10            568 photo.component.spec.ts
+-a----        04/01/2026     13:04           1504 photo.component.ts
+-a----        24/09/2025     22:54            106 secret.interface.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\galler
+    y\photo\service
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        24/09/2025     23:09            571 photo.service.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\gallery\videos
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/11/2025     16:54            989 videos.component.css
+-a----        04/01/2026     13:04            688 videos.component.html
+-a----        23/10/2025     12:42            550 videos.component.spec.ts
+-a----        04/01/2026     13:04           1292 videos.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\games
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:23                game
+d-----        04/01/2026     13:04                next
+-a----        21/10/2025     15:34            326 game.interface.ts
+-a----        04/01/2026     13:57           2857 games.component.css
+-a----        04/01/2026     13:57           1197 games.component.html
+-a----        04/01/2026     14:00            547 games.component.spec.ts
+-a----        04/01/2026     13:57           9136 games.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\games\game
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        03/11/2025     23:03           1115 game.component.css
+-a----        04/01/2026     13:04           1339 game.component.html
+-a----        08/05/2025     13:43            540 game.component.spec.ts
+-a----        04/01/2026     13:23            837 game.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\games\next
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/11/2025     16:54           1360 next-game.component.css
+-a----        04/01/2026     13:04           1071 next-game.component.html
+-a----        23/10/2025     11:31            561 next-game.component.spec.ts
+-a----        04/01/2026     13:04           1134 next-game.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\guestbook
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        12/09/2025     00:38                service
+-a----        08/05/2025     13:46            124 feedback.interface.ts
+-a----        04/01/2026     14:34           2210 guestbook.component.css
+-a----        04/01/2026     14:34           1854 guestbook.component.html
+-a----        13/03/2025     13:44            575 guestbook.component.spec.ts
+-a----        04/01/2026     14:34           3553 guestbook.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\guestbook\service
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        14/03/2025     20:40            372 guestbook.service.spec.ts
+-a----        12/09/2025     00:38            697 guestbook.service.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\homepage
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                changelog-page
+d-----        04/01/2026     13:04                custom-marquee
+d-----        04/01/2026     13:04                party
+d-----        04/01/2026     13:04                service
+-a----        01/06/2025     23:33             69 color.interface.ts
+-a----        17/11/2025     18:19           4570 homepage.component.css
+-a----        04/01/2026     13:04           7831 homepage.component.html
+-a----        02/05/2025     20:33            564 homepage.component.spec.ts
+-a----        04/01/2026     13:04           3945 homepage.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\homepa
+    ge\changelog-page
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                changelog
+-a----        08/05/2025     14:01            101 changelog-entry.interface.ts
+-a----        26/11/2025     16:54            291 changelog-page.component.css
+-a----        09/12/2025     18:48            659 changelog-page.component.html
+-a----        08/05/2025     14:03            605 changelog-page.component.spec
+                                                  .ts
+-a----        04/01/2026     13:04            358 changelog-page.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\homepa
+    ge\changelog-page\changelog
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        08/05/2025     14:09           1484 changelog.component.css
+-a----        04/01/2026     13:04            678 changelog.component.html
+-a----        08/05/2025     14:05            575 changelog.component.spec.ts
+-a----        04/01/2026     13:04           1360 changelog.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\homepa
+    ge\custom-marquee
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        16/02/2025     16:41            407 custom-marquee.component.css
+-a----        16/02/2025     16:41             65 custom-marquee.component.html
+-a----        16/02/2025     16:40            604 custom-marquee.component.spec
+                                                  .ts
+-a----        04/01/2026     13:04            677 custom-marquee.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\homepage\party
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/11/2025     16:54           2400 party.component.css
+-a----        17/11/2025     21:06           3838 party.component.html
+-a----        02/05/2025     20:33            564 party.component.spec.ts
+-a----        04/01/2026     13:04            433 party.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\homepage\service
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        01/06/2025     23:33            409 homepage-color.service.spec.t
+                                                  s
+-a----        04/01/2026     13:04           1451 homepage-color.service.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\misc
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     14:22                brexit
+d-----        04/01/2026     13:04                characters
+d-----        04/01/2026     14:12                mariokart
+d-----        04/01/2026     14:23                pokemon
+d-----        04/01/2026     14:12                stitch
+d-----        04/01/2026     13:04                writing
+-a----        26/11/2025     16:54           1038 misc.component.css
+-a----        17/11/2025     19:42           1789 misc.component.html
+-a----        02/05/2025     19:47            557 misc.component.spec.ts
+-a----        04/01/2026     13:04            501 misc.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\misc\brexit
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        04/01/2026     14:14            787 brexit.component.css
+-a----        04/01/2026     14:14            478 brexit.component.html
+-a----        17/11/2025     19:55            571 brexit.component.spec.ts
+-a----        04/01/2026     14:22           1365 brexit.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\misc\characters
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     14:22                character
+-a----        21/09/2025     11:37            425 character.interface.ts
+-a----        26/11/2025     16:54           1192 characters.component.css
+-a----        04/01/2026     13:04           1183 characters.component.html
+-a----        02/05/2025     21:07            599 characters.component.spec.ts
+-a----        04/01/2026     13:04           3100 characters.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\misc\c
+    haracters\character
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/10/2025     17:21           1611 character.component.css
+-a----        04/01/2026     13:04           3040 character.component.html
+-a----        08/05/2025     13:51            575 character.component.spec.ts
+-a----        04/01/2026     14:22           2041 character.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\misc\mariokart
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        04/01/2026     14:12           4154 mariokart.component.css
+-a----        04/01/2026     14:12           2993 mariokart.component.html
+-a----        02/05/2025     19:47            575 mariokart.component.spec.ts
+-a----        04/01/2026     14:12          11174 mariokart.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\misc\pokemon
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        30/12/2025     23:55           4313 pokemon.component.css
+-a----        04/01/2026     13:04           4059 pokemon.component.html
+-a----        17/11/2025     11:07            561 pokemon.component.spec.ts
+-a----        04/01/2026     14:23           9111 pokemon.component.ts
+-a----        30/12/2025     23:55            193 pokemon.interface.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\misc\stitch
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        04/01/2026     14:12           1036 stitch.component.css
+-a----        04/01/2026     14:12            763 stitch.component.html
+-a----        23/07/2025     10:08            575 stitch.component.spec.ts
+-a----        04/01/2026     14:12           2657 stitch.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\misc\writing
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/11/2025     16:54            387 writing.component.css
+-a----        17/11/2025     19:44           9075 writing.component.html
+-a----        23/07/2025     10:08            582 writing.component.spec.ts
+-a----        04/01/2026     13:04            441 writing.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\music
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        09/01/2026     13:01                albums
+d-----        04/01/2026     14:41                cds
+d-----        04/01/2026     14:33                concerts
+d-----        12/01/2026     20:49                daily
+d-----        04/01/2026     14:34                mixes
+d-----        04/01/2026     14:41                nintendo
+d-----        04/01/2026     13:04                spotify
+d-----        04/01/2026     13:04                worldpeace
+-a----        26/11/2025     16:54           1967 music.component.css
+-a----        04/01/2026     13:04           4099 music.component.html
+-a----        16/02/2025     15:22            547 music.component.spec.ts
+-a----        04/01/2026     13:04           2807 music.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\albums
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     14:21                album-modal
+d-----        12/09/2025     01:07                service
+-a----        23/09/2025     21:02            275 album.interface.ts
+-a----        04/01/2026     14:45           3573 albums.component.css
+-a----        04/01/2026     14:44           2162 albums.component.html
+-a----        16/02/2025     15:40            554 albums.component.spec.ts
+-a----        09/01/2026     13:01           6291 albums.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\
+    albums\album-modal
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        23/10/2025     15:26            992 album-modal.component.css
+-a----        04/01/2026     13:04           1062 album-modal.component.html
+-a----        08/05/2025     12:44            583 album-modal.component.spec.ts
+-a----        04/01/2026     14:21           1546 album-modal.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\
+    albums\service
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        08/05/2025     12:49            357 albums.service.spec.ts
+-a----        12/09/2025     01:07           3217 albums.service.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\cds
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     14:21                cd-modal
+-a----        21/09/2025     11:37            183 cd.interface.ts
+-a----        04/01/2026     14:41           3713 cds.component.css
+-a----        04/01/2026     14:33           2877 cds.component.html
+-a----        15/04/2025     18:02            554 cds.component.spec.ts
+-a----        04/01/2026     14:33           5600 cds.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\cds\cd-modal
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        23/10/2025     15:26            385 cd-modal.component.css
+-a----        04/01/2026     13:04            544 cd-modal.component.html
+-a----        08/05/2025     13:14            562 cd-modal.component.spec.ts
+-a----        04/01/2026     14:21           1258 cd-modal.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\concerts
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        03/11/2025     22:42            187 concert.interface.ts
+-a----        04/01/2026     14:33           1423 concerts.component.css
+-a----        04/01/2026     14:33           1690 concerts.component.html
+-a----        03/11/2025     22:33            568 concerts.component.spec.ts
+-a----        04/01/2026     14:33           2630 concerts.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\daily
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2026     19:44                dailies
+-a----        12/01/2026     20:49            269 daily-soundtrack.interface.ts
+-a----        08/01/2026     00:27           1278 daily.component.css
+-a----        08/01/2026     00:23           1698 daily.component.html
+-a----        10/10/2025     16:01            547 daily.component.spec.ts
+-a----        08/01/2026     00:23           3573 daily.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\daily\dailies
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        13/01/2026     19:44           5277 dailies.component.css
+-a----        13/01/2026     19:42           7112 dailies.component.html
+-a----        09/01/2026     11:39            557 dailies.component.spec.ts
+-a----        13/01/2026     19:15          11938 dailies.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\mixes
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        04/01/2026     14:34           1851 mixes.component.css
+-a----        04/01/2026     14:34           1211 mixes.component.html
+-a----        16/02/2025     15:23            547 mixes.component.spec.ts
+-a----        04/01/2026     14:33           2925 mixes.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\nintendo
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                kk
+d-----        04/01/2026     14:21                soundtrack-modal
+-a----        23/09/2025     21:02            203 soundtrack.interface.ts
+-a----        04/01/2026     14:41           3167 soundtracks.component.css
+-a----        04/01/2026     14:32           3420 soundtracks.component.html
+-a----        23/10/2025     12:42            574 soundtracks.component.spec.ts
+-a----        04/01/2026     14:32           5062 soundtracks.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\nintendo\kk
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     14:22                kk-modal
+-a----        23/10/2025     15:24            170 kk-song.interface.ts
+-a----        26/11/2025     16:54           1258 kk.component.css
+-a----        04/01/2026     13:04           6446 kk.component.html
+-a----        10/03/2025     08:44            547 kk.component.spec.ts
+-a----        04/01/2026     13:04           1920 kk.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\
+    nintendo\kk\kk-modal
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        23/10/2025     15:27            554 kk-modal.component.css
+-a----        04/01/2026     14:22            571 kk-modal.component.html
+-a----        23/10/2025     15:07            562 kk-modal.component.spec.ts
+-a----        04/01/2026     14:22           1287 kk-modal.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\
+    nintendo\soundtrack-modal
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        23/10/2025     15:28           1550 soundtrack-modal.component.cs
+                                                  s
+-a----        04/01/2026     13:04           1068 soundtrack-modal.component.ht
+                                                  ml
+-a----        08/05/2025     13:23            618 soundtrack-modal.component.sp
+                                                  ec.ts
+-a----        04/01/2026     14:21           1734 soundtrack-modal.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\spotify
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                divider
+-a----        26/11/2025     16:54            306 spotify.component.css
+-a----        23/10/2025     15:55           4880 spotify.component.html
+-a----        16/02/2025     15:40            561 spotify.component.spec.ts
+-a----        04/01/2026     13:04            330 spotify.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\
+    spotify\divider
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        01/06/2025     23:33            553 divider.component.css
+-a----        03/03/2025     17:38             96 divider.component.html
+-a----        03/03/2025     17:38            582 divider.component.spec.ts
+-a----        04/01/2026     13:04            280 divider.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\music\worldpeace
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/11/2025     16:54            783 worldpeace.component.css
+-a----        17/11/2025     20:13           1968 worldpeace.component.html
+-a----        10/03/2025     08:44            603 worldpeace.component.spec.ts
+-a----        04/01/2026     13:04            386 worldpeace.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\newsletter
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                newsletter
+-a----        11/10/2025     15:25            692 newsletter.interface.ts
+-a----        26/11/2025     16:54            839 newsletters.component.css
+-a----        04/01/2026     13:04           2114 newsletters.component.html
+-a----        21/09/2025     19:24            606 newsletters.component.spec.ts
+-a----        04/01/2026     13:04           2752 newsletters.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\newsle
+    tter\newsletter
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        26/11/2025     16:54           3575 newsletter.component.css
+-a----        04/01/2026     13:04           1281 newsletter.component.html
+-a----        21/09/2025     19:32            582 newsletter.component.spec.ts
+-a----        04/01/2026     13:04           3620 newsletter.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                close-button
+d-----        04/01/2026     13:04                color-picker
+d-----        04/01/2026     14:22                directives
+d-----        04/01/2026     13:04                friend-rating
+d-----        04/01/2026     13:04                rating-bar
+d-----        04/01/2026     13:04                read-more
+d-----        17/11/2025     19:30                services
+d-----        04/01/2026     13:04                star-message
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\close-button
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        23/10/2025     15:03            187 close-button.component.css
+-a----        23/10/2025     15:03            105 close-button.component.html
+-a----        23/10/2025     15:02            590 close-button.component.spec.t
+                                                  s
+-a----        04/01/2026     13:04            261 close-button.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\color-picker
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        01/06/2025     23:33            643 color-picker.component.css
+-a----        23/10/2025     15:47           3404 color-picker.component.html
+-a----        01/06/2025     23:33            611 color-picker.component.spec.t
+                                                  s
+-a----        04/01/2026     13:04            544 color-picker.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\directives
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        08/05/2025     10:47            257 clicked-outside.directive.spe
+                                                  c.ts
+-a----        04/01/2026     14:22            707 clicked-outside.directive.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\friend-rating
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        09/12/2025     18:48            519 friend-rating.component.css
+-a----        04/01/2026     13:04            674 friend-rating.component.html
+-a----        09/12/2025     18:48            618 friend-rating.component.spec.
+                                                  ts
+-a----        04/01/2026     13:04           1312 friend-rating.component.ts
+-a----        09/12/2025     18:48             89 friend-rating.interface.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\rating-bar
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04/01/2026     13:04                service
+-a----        11/09/2025     23:56            843 rating-bar.component.css
+-a----        17/11/2025     19:59           2503 rating-bar.component.html
+-a----        08/09/2025     10:06            597 rating-bar.component.spec.ts
+-a----        04/01/2026     13:04           1124 rating-bar.component.ts
+    Verzeichnis: C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\
+    rating-bar\service
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/09/2025     00:38             67 rating.interface.ts
+-a----        12/09/2025     00:39            357 rating.service.spec.ts
+-a----        04/01/2026     13:04            688 rating.service.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\read-more
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        31/12/2025     00:39            151 read-more.component.css
+-a----        04/01/2026     13:04            239 read-more.component.html
+-a----        31/12/2025     00:17            569 read-more.component.spec.ts
+-a----        04/01/2026     13:04            383 read-more.component.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\services
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        17/11/2025     19:27            352 image.service.spec.ts
+-a----        17/11/2025     19:30            340 image.service.ts
+    Verzeichnis:
+    C:\Users\FBowen\Documents\repos\frasers-website\src\app\utils\star-message
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        29/04/2025     12:02           3324 star-message.component.css
+-a----        23/10/2025     16:03            333 star-message.component.html
+-a----        29/04/2025     12:02            610 star-message.component.spec.t
+                                                  s
+-a----        04/01/2026     13:04            344 star-message.component.ts

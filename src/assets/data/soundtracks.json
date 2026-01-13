@@ -1,6 +1,29 @@
 {
   "soundtracks": [
     {
+      "filename": "mario-luigi-brothership.jpg",
+      "name": "Mario & Luigi: Brothership",
+      "description": [
+        ""
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Lighthouse of Rumbla Island",
+        "What's Gonna Happen?!",
+        "Attack Combos!",
+        "Twistee Island Twist",
+        "A Battle of Logic",
+        "Kindness and Regret",
+        "The Four Great Lighthouses",
+        "Great Lighthouse - Stolen Light",
+        "Carrie Lights the Lighthouses",
+        "Rescue Operation",
+        "An Afternoon on an Islet"
+      ],
+      "id": "3a7adc5b-4533-4a6f-98d8-69f1fd1d6021",
+      "newsletter": false
+    },
+    {
       "filename": "fire-emblem-path-of-radiance.jpg",
       "name": "Fire Emblem: Path of Radiance",
       "description": [

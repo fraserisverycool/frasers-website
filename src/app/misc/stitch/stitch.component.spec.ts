@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StitchComponent } from './stitch.component';
+import StitchComponent from './stitch.component';
 
 describe('StitchComponent', () => {
   let component: StitchComponent;
