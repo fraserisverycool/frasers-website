@@ -47,7 +47,9 @@ def create_placeholder_entry(date, existing_ids):
     "game": False,
     "day": date.strftime("%d-%m-%Y"),
     "id": generate_unique_id(existing_ids),
-    "newsletter": False
+    "newsletter": False,
+    "filename": "",
+    "tags": "[]"
   }
 
 def process_file(filename):

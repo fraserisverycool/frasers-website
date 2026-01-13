@@ -142,3 +142,9 @@ This will put the website on ```http://localhost:4200``` which you can access in
 Alternatively with pm2:
 
 ```pm2 --name FrasersWebsite start npm -- start```
+
+You can also run the tests with coverage using:
+
+```ng test --no-watch --code-coverage --browsers=ChromeHeadless```
+
+Although I haven't written many tests, because that's just fucking boring work.
