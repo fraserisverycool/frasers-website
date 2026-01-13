@@ -50,7 +50,7 @@
       "id": "a5611540-4469-40a5-b5dd-a9a4daab9257",
       "newsletter": false,
       "filename": "boys-at-school.mp3",
-      "tags": ["singer-songwriter", "magical"]
+      "tags": ["singer-songwriter", "magical", "intense"]
     },
     {
       "artist": "School of Seven Bells",
@@ -63,7 +63,7 @@
       "id": "9d484bc5-33d8-4329-8b1b-f60a89027727",
       "newsletter": false,
       "filename": "bye-bye-bye.mp3",
-      "tags": ["electronic"]
+      "tags": ["electronic", "intense"]
     },
     {
       "artist": "Massive Attack",
@@ -232,7 +232,7 @@
       "id": "072bf345-8c22-4d3a-b9cf-09f8ab5f0921",
       "newsletter": false,
       "filename": "gambit.mp3",
-      "tags": ["party", "other"]
+      "tags": ["party", "other", "intense"]
     },
     {
       "artist": "Keiichi Suzuki, Hirokazu Tanaka",
@@ -258,7 +258,7 @@
       "id": "06eabe9c-6a49-4121-b093-6145bb25a452",
       "newsletter": false,
       "filename": "crying-at-the-discoteque.mp3",
-      "tags": ["party", "pop", "classic", "cunty"]
+      "tags": ["party", "pop", "classic", "cunty", "video"]
     },
     {
       "artist": "Sophie Ellis-Bextor",
@@ -284,7 +284,7 @@
       "id": "1d2c1bca-0377-4b89-8080-79a6e6c6aaae",
       "newsletter": false,
       "filename": "staff-roll-super-mario-64.mp3",
-      "tags": ["tears", "mario"]
+      "tags": ["chill", "mario"]
     },
     {
       "artist": "Scissor Sisters",
@@ -297,7 +297,7 @@
       "id": "99a071f5-618b-4b82-8ad7-dbf45cb767d9",
       "newsletter": false,
       "filename": "i-dont-feel-like-dancin.mp3",
-      "tags": ["party", "pop", "cunty", "classic"]
+      "tags": ["party", "pop", "cunty", "classic", "video"]
     },
     {
       "artist": "Kazumi Totaka",
@@ -323,7 +323,7 @@
       "id": "21f0b7e3-0b80-4a7c-ac79-caa0a9b3a550",
       "newsletter": false,
       "filename": "yoshis-tale.mp3",
-      "tags": ["tears", "yoshi", "not for everyone"]
+      "tags": ["yoshi", "not for everyone"]
     },
     {
       "artist": "The Ting Tings",
@@ -375,7 +375,7 @@
       "id": "951e8ada-f4eb-4c4a-a4b8-24f5aefa75f9",
       "newsletter": true,
       "filename": "runaway.mp3",
-      "tags": ["party", "pop"]
+      "tags": ["party", "pop", "funky"]
     },
     {
       "artist": "Lily Allen",
@@ -414,7 +414,7 @@
       "id": "41793821-11f7-43b8-a536-5fad346451b6",
       "newsletter": true,
       "filename": "americas-cup.mp3",
-      "tags": ["rock", "special vibes"]
+      "tags": ["rock", "special vibes", "video"]
     },
     {
       "artist": "Metronomy",
@@ -453,7 +453,7 @@
       "id": "88c03c01-2f15-4fb8-ad2a-ce32e0f4bc29",
       "newsletter": true,
       "filename": "by-your-side.mp3",
-      "tags": ["tears", "chill", "indie"]
+      "tags": ["chill", "indie"]
     },
     {
       "artist": "The Maccabees",
@@ -557,7 +557,7 @@
       "id": "0dabd4a1-f6c0-4af3-8513-8f2a29827fab",
       "newsletter": true,
       "filename": "sincerely-jane.mp3",
-      "tags": ["pop", "magical", "special vibes"]
+      "tags": ["pop", "magical", "special vibes", "soul"]
     },
     {
       "artist": "SAULT",
@@ -583,7 +583,7 @@
       "id": "610d2322-05e4-46f9-9083-c758995f5844",
       "newsletter": true,
       "filename": "secrets-your-fire.mp3",
-      "tags": ["pop", "special vibes"]
+      "tags": ["pop", "special vibes", "video", "funky"]
     },
     {
       "artist": "Erykah Badu",
@@ -596,7 +596,7 @@
       "id": "a905b906-6b45-48fc-b6e8-603ad5b18185",
       "newsletter": true,
       "filename": "soldier.mp3",
-      "tags": ["soul", "from the heart", "chill"]
+      "tags": ["soul", "from the heart", "chill", "funky"]
     },
     {
       "artist": "Fleet Foxes",
@@ -622,7 +622,7 @@
       "id": "78608b44-06c0-49cf-98ce-0d2c56fa972d",
       "newsletter": true,
       "filename": "astral-observatory.mp3",
-      "tags": ["tears", "zelda", "chill"]
+      "tags": ["zelda", "chill"]
     },
     {
       "artist": "Deniz Akbulut",
@@ -687,7 +687,7 @@
       "id": "f9f37b4d-0fec-411f-acc9-5a209ab4f49d",
       "newsletter": true,
       "filename": "tower-of-love.mp3",
-      "tags": ["singer-songwriter", "indie", "magical"]
+      "tags": ["singer-songwriter", "indie", "magical", "chill"]
     },
     {
       "artist": "Toni Braxton",
@@ -1077,7 +1077,7 @@
       "id": "aead8b78-4331-4bb2-8ebd-118bd78ca518",
       "newsletter": true,
       "filename": "resting-grounds.mp3",
-      "tags": ["tears", "chill", "indie"]
+      "tags": ["chill", "indie"]
     },
     {
       "artist": "Muse",
@@ -1090,7 +1090,7 @@
       "id": "44ff89a7-2ec7-4d02-a3fe-3ea7f66bbf98",
       "newsletter": true,
       "filename": "hyper-music.mp3",
-      "tags": ["rock"]
+      "tags": ["rock", "intense"]
     },
     {
       "artist": "Moddi",
@@ -1116,7 +1116,7 @@
       "id": "ac00e52e-cbe7-43d6-a7ef-ec76cf55309d",
       "newsletter": true,
       "filename": "black-tin-box-feat-lykke-li.mp3",
-      "tags": ["indie", "pop"]
+      "tags": ["indie", "pop", "intense"]
     },
     {
       "artist": "Yasuhisa Baba, Chika Sekigawa, & Naoko Mitome",
@@ -1181,7 +1181,7 @@
       "id": "6eeab3b5-507e-45fa-b5a8-f82036cbe2fc",
       "newsletter": true,
       "filename": "the-barrel.mp3",
-      "tags": []
+      "tags": ["chill", "singer-songwriter", "video"]
     },
     {
       "artist": "Naoto Kubo",
@@ -1194,7 +1194,7 @@
       "id": "7d1a104f-432a-4595-8dae-17c9ed176591",
       "newsletter": true,
       "filename": "bubblaine.mp3",
-      "tags": []
+      "tags": ["chill", "mario", "bossa nova"]
     },
     {
       "artist": "Weyes Blood",
@@ -1207,7 +1207,7 @@
       "id": "0563f0b2-37be-4fea-a962-fa4582851ac9",
       "newsletter": true,
       "filename": "god-turn-me-into-a-flower.mp3",
-      "tags": []
+      "tags": ["peaceful", "from the heart", "devastating", "singer-songwriter", "video"]
     },
     {
       "artist": "Manaka Kataoka, Maasa Miyoshi, Masato Ohashi, Tsukasa Usui",
@@ -1220,7 +1220,7 @@
       "id": "36d6e838-8246-4ca0-a04f-b50bbf450753",
       "newsletter": true,
       "filename": "lookout-landing-the-four-sages-gather.mp3",
-      "tags": []
+      "tags": ["chill", "zelda"]
     },
     {
       "artist": "Norah Jones",
@@ -1233,7 +1233,7 @@
       "id": "aa821868-34cc-4279-8b02-af9f7c90c977",
       "newsletter": true,
       "filename": "miriam.mp3",
-      "tags": []
+      "tags": ["concrete themes", "singer-songwriter", "intense"]
     },
     {
       "artist": "Tunng",
@@ -1246,7 +1246,7 @@
       "id": "24a40317-4f06-4e9a-be4b-42fef37f7414",
       "newsletter": true,
       "filename": "cans.mp3",
-      "tags": []
+      "tags": ["indie", "chill"]
     },
     {
       "artist": "Hajime Wakai, Kazumi Totaka",
@@ -1259,7 +1259,7 @@
       "id": "24806f56-7a39-42c8-b14d-1d0a36df06aa",
       "newsletter": true,
       "filename": "piklopedia.mp3",
-      "tags": []
+      "tags": ["chill", "other"]
     },
     {
       "artist": "Hiroki Morishita, Yuka Tsujiyoko",
@@ -1272,7 +1272,7 @@
       "id": "8489b28e-b916-4db6-96c4-4db202b88de7",
       "newsletter": true,
       "filename": "land-below.mp3",
-      "tags": []
+      "tags": ["intense", "other"]
     },
     {
       "artist": "The Tallest Man on Earth",
@@ -1285,7 +1285,7 @@
       "id": "8a2d058f-b704-4bc2-8bbc-60901c405eb1",
       "newsletter": true,
       "filename": "every-little-heart.mp3",
-      "tags": []
+      "tags": ["indie", "singer-songwriter", "scandinavian"]
     },
     {
       "artist": "Michael Kiwanuka",
@@ -1298,7 +1298,7 @@
       "id": "ee6671e0-f4d2-486c-b017-95a1067d0d27",
       "newsletter": true,
       "filename": "youve-got-nothing-to-lose.mp3",
-      "tags": []
+      "tags": ["soul", "video", "sad songs"]
     },
     {
       "artist": "Little Simz",
@@ -1311,7 +1311,7 @@
       "id": "fd4eb6ab-d680-441d-bbbb-51f5d30b9a47",
       "newsletter": true,
       "filename": "gorilla.mp3",
-      "tags": []
+      "tags": ["hip hop", "video"]
     },
     {
       "artist": "Daisuke Matsuoka",
@@ -1324,7 +1324,7 @@
       "id": "3dddcfd1-5bcf-45e3-bef5-f1dd9ad9d0a3",
       "newsletter": true,
       "filename": "lower-brinstar.mp3",
-      "tags": []
+      "tags": ["chill", "metroid"]
     },
     {
       "artist": "Konami Kukeiha Club, Motoaki Furukawa",
@@ -1337,7 +1337,7 @@
       "id": "b3576269-a055-4272-8eb2-2f2819db89d8",
       "newsletter": true,
       "filename": "girls.mp3",
-      "tags": []
+      "tags": ["party", "other"]
     },
     {
       "artist": "Rhye",
@@ -1350,7 +1350,7 @@
       "id": "9e24a25d-659d-4ee5-9da0-5755807d385d",
       "newsletter": true,
       "filename": "the-fall.mp3",
-      "tags": []
+      "tags": ["chill", "from the heart"]
     },
     {
       "artist": "Kazumi Totaka",
@@ -1363,7 +1363,7 @@
       "id": "e05afca2-8bbd-4928-92b3-90df2738c632",
       "newsletter": true,
       "filename": "7pm.mp3",
-      "tags": []
+      "tags": ["chill", "animal crossing"]
     },
     {
       "artist": "Erasmo Carlos",
@@ -1376,7 +1376,7 @@
       "id": "ffadf66c-c487-4e71-9e1d-b39a6092df5a",
       "newsletter": true,
       "filename": "e-preciso-dar-um-jeito-meu-amigo.mp3",
-      "tags": []
+      "tags": ["chill", "brazilian", "rock"]
     },
     {
       "artist": "Ultraflex",
@@ -1389,7 +1389,7 @@
       "id": "bb87bdbe-3cc1-4108-abaa-c1495dc42b9d",
       "newsletter": true,
       "filename": "relax.mp3",
-      "tags": []
+      "tags": ["chill", "special vibes", "video", "scandinavian"]
     },
     {
       "artist": "Mystery Nintendo composers",
@@ -1402,7 +1402,7 @@
       "id": "bb82d099-372c-4d3f-a6f7-8e2237c0ed7b",
       "newsletter": true,
       "filename": "wii-u-eshop-music-july-2014.mp3",
-      "tags": []
+      "tags": ["party", "other"]
     },
     {
       "artist": "Asuka Ohta, Hajime Wakai",
@@ -1415,7 +1415,7 @@
       "id": "10211e24-65d0-4aad-8f0e-36d8ffbaf5d2",
       "newsletter": true,
       "filename": "staff-credits.mp3",
-      "tags": []
+      "tags": ["funky", "mario"]
     },
     {
       "artist": "Confidence Man",
@@ -1428,7 +1428,7 @@
       "id": "334365a7-f0cd-479b-b6ed-819f12c990c7",
       "newsletter": true,
       "filename": "luvin-u-is-easy.mp3",
-      "tags": []
+      "tags": ["party", "pop", "cunty"]
     },
     {
       "artist": "Koji Kondo",
@@ -1441,7 +1441,7 @@
       "id": "b1165a1f-d302-401a-9bdc-0ddae3fd5def",
       "newsletter": true,
       "filename": "forest-temple.mp3",
-      "tags": []
+      "tags": ["chill", "zelda"]
     },
     {
       "artist": "Aretha Franklin",
@@ -1454,7 +1454,7 @@
       "id": "0b104192-238d-4622-a4c2-97dd70c47bb1",
       "newsletter": true,
       "filename": "nessun-dorma.mp3",
-      "tags": []
+      "tags": ["soul", "from the heart", "video"]
     },
     {
       "artist": "Sade",
@@ -1467,7 +1467,7 @@
       "id": "6c07c1e9-0d60-4ca7-9ec1-4775047bdd1a",
       "newsletter": true,
       "filename": "like-a-tattoo.mp3",
-      "tags": []
+      "tags": ["soul", "chill", "from the heart", "peaceful"]
     },
     {
       "artist": "Laura Mvula",
@@ -1480,7 +1480,7 @@
       "id": "afd1fd7d-c643-4973-8d35-b80f76f12320",
       "newsletter": true,
       "filename": "cant-live-with-the-world.mp3",
-      "tags": []
+      "tags": ["singer-songwriter", "chill", "peaceful"]
     },
     {
       "artist": "SG Lewis, Nile Rodgers",
@@ -1493,7 +1493,7 @@
       "id": "cc3019c6-8624-4fb5-b59a-101822391049",
       "newsletter": true,
       "filename": "one-more.mp3",
-      "tags": []
+      "tags": ["party", "pop"]
     },
     {
       "artist": "Shogo Sakai",
@@ -1506,7 +1506,7 @@
       "id": "99985600-100c-4c1d-a92e-3cd40450e709",
       "newsletter": true,
       "filename": "and-el-mariachi.mp3",
-      "tags": []
+      "tags": ["party", "mother"]
     },
     {
       "artist": "Shogo Sakai",
@@ -1519,7 +1519,7 @@
       "id": "d7b94fba-ebd7-4fdf-88fb-5cd858f30c5a",
       "newsletter": true,
       "filename": "brinstar-depths.mp3",
-      "tags": []
+      "tags": ["intense", "smash", "metroid"]
     },
     {
       "artist": "Tomoya Tomita, Misaki Asada",
@@ -1532,7 +1532,7 @@
       "id": "7def7302-f0e0-43cf-9cf5-5c834bad08d3",
       "newsletter": true,
       "filename": "king-bowsers-castle-2.mp3",
-      "tags": []
+      "tags": ["chill", "yoshi"]
     },
     {
       "artist": "Esperanza Spalding",
@@ -1545,7 +1545,7 @@
       "id": "e8d1510a-5078-4bb2-a12f-1b201bdcf741",
       "newsletter": true,
       "filename": "good-lava.mp3",
-      "tags": []
+      "tags": ["not for everyone", "soul", "intense"]
     },
     {
       "artist": "PinkPantheress",
@@ -1558,7 +1558,7 @@
       "id": "f4110a84-0ff9-419c-818f-b5d670856767",
       "newsletter": true,
       "filename": "illegal.mp3",
-      "tags": []
+      "tags": ["party", "pop", "video"]
     },
     {
       "artist": "Atsuko Asahi",
@@ -1571,7 +1571,7 @@
       "id": "632d1b28-c157-4a08-a558-b022e66bcaa0",
       "newsletter": true,
       "filename": "boo-lake-mario-kart-super-circuit.mp3",
-      "tags": []
+      "tags": ["intense", "mario"]
     },
     {
       "artist": "Lena Raine",
@@ -1584,7 +1584,7 @@
       "id": "044835c6-d94f-427a-8b3a-23355bafa694",
       "newsletter": true,
       "filename": "final-defiance.mp3",
-      "tags": []
+      "tags": ["intense", "indie"]
     },
     {
       "artist": "Kylie Minogue",
@@ -1597,7 +1597,7 @@
       "id": "236a6ad4-89f4-4876-8cd0-af1f05fdc592",
       "newsletter": true,
       "filename": "better-the-devil-you-know.mp3",
-      "tags": []
+      "tags": ["party", "pop", "cunty"]
     },
     {
       "artist": "Spellling",
@@ -1610,7 +1610,7 @@
       "id": "eb57d648-46a0-4893-9815-e24af8f44cbb",
       "newsletter": true,
       "filename": "destiny-arrives.mp3",
-      "tags": []
+      "tags": ["magical", "video", "pop"]
     },
     {
       "artist": "Paloma San Basilio",
@@ -1623,7 +1623,7 @@
       "id": "35b6e214-e628-453c-80be-e36486d22f00",
       "newsletter": true,
       "filename": "contigo.mp3",
-      "tags": []
+      "tags": ["pop", "from the heart", "spanish language"]
     },
     {
       "artist": "Kings of Convenience",
@@ -1636,7 +1636,7 @@
       "id": "5e130b81-0391-49a7-aa61-f75e21960502",
       "newsletter": true,
       "filename": "failure.mp3",
-      "tags": []
+      "tags": ["chill", "scandinavian", "singer-songwriter"]
     },
     {
       "artist": "Magdalena Bay",
@@ -1649,7 +1649,7 @@
       "id": "45a38145-53ce-4b6d-96cc-5a87e1a8f62d",
       "newsletter": true,
       "filename": "u-wanna-dance.mp3",
-      "tags": []
+      "tags": ["party", "pop", "cunty", "video"]
     },
     {
       "artist": "Eirik Suhrke",
@@ -1662,7 +1662,7 @@
       "id": "e65a3da2-721c-4d1e-9158-2587fab775fe",
       "newsletter": true,
       "filename": "block-koala-gameplay.mp3",
-      "tags": []
+      "tags": ["not for everyone", "indie"]
     },
     {
       "artist": "eebrozgi",
@@ -1675,7 +1675,7 @@
       "id": "f95d415e-ad21-40ae-a375-7ffbfce1f6f0",
       "newsletter": true,
       "filename": "void-symphony.mp3",
-      "tags": []
+      "tags": ["intense", "indie"]
     },
     {
       "artist": "Avalanches",
@@ -1688,7 +1688,7 @@
       "id": "6f5f31da-4ed3-4d27-a8ec-69c55d21847a",
       "newsletter": true,
       "filename": "frontier-psychiatrist.mp3",
-      "tags": []
+      "tags": ["wild shit", "video", "electronic"]
     },
     {
       "artist": "Röyksopp ft. Susanne Sundfør",
@@ -1701,7 +1701,7 @@
       "id": "c95b4a90-2cb2-48f4-98a7-4f9633d9cf71",
       "newsletter": true,
       "filename": "ice-machine.mp3",
-      "tags": []
+      "tags": ["electronic", "pop", "scandinavian", "intense"]
     },
     {
       "artist": "Christopher Larkin",
@@ -1714,7 +1714,7 @@
       "id": "b1c8eca2-d759-4b52-8fab-2635bce95f59",
       "newsletter": true,
       "filename": "choral-chambers.mp3",
-      "tags": []
+      "tags": ["chill", "indie"]
     },
     {
       "artist": "Atsuko Asahi",
@@ -1727,7 +1727,7 @@
       "id": "d3bdc041-f283-495a-864d-83b0230c985e",
       "newsletter": true,
       "filename": "cheep-cheep-beach-mario-kart-ds.mp3",
-      "tags": []
+      "tags": ["mario", "bossa nova", "chill"]
     },
     {
       "artist": "Erykah Badu",
@@ -1740,7 +1740,7 @@
       "id": "f9a318ba-dfcf-4183-b353-e014bd88e663",
       "newsletter": true,
       "filename": "orange-moon.mp3",
-      "tags": []
+      "tags": ["soul", "peaceful", "from the heart"]
     },
     {
       "artist": "Kero Kero Bonito",
@@ -1753,7 +1753,7 @@
       "id": "ec74a455-2714-4f95-8abb-06be65a66993",
       "newsletter": true,
       "filename": "only-acting.mp3",
-      "tags": []
+      "tags": ["pop", "rock", "indie", "video", "intense"]
     },
     {
       "artist": "Arata Iiyoshi, Keisuke Ito, Hideki Sakamoto",
@@ -1766,7 +1766,7 @@
       "id": "07a4f065-4340-456e-b077-2c146f561f84",
       "newsletter": true,
       "filename": "temporal-tower.mp3",
-      "tags": []
+      "tags": ["chill", "pokemon"]
     },
     {
       "artist": "Björk",
@@ -1779,7 +1779,7 @@
       "id": "93539383-4e82-4736-a878-2e656ffdd9fb",
       "newsletter": true,
       "filename": "play-dead.mp3",
-      "tags": []
+      "tags": ["pop", "scandinavian", "intense"]
     },
     {
       "artist": "Jens Lekman",
@@ -1792,7 +1792,7 @@
       "id": "2e883d6e-e389-4eee-8dcb-1d15366f2e21",
       "newsletter": true,
       "filename": "a-postcard-to-nina.mp3",
-      "tags": []
+      "tags": ["concrete themes", "singer-songwriter", "scandinavian"]
     },
     {
       "artist": "Atsuko Asahi",
@@ -1805,7 +1805,7 @@
       "id": "48d48a7f-a307-4fbd-b260-12201849aad3",
       "newsletter": true,
       "filename": "bowsers-castle-mario-kart-8.mp3",
-      "tags": []
+      "tags": ["intense", "mario"]
     },
     {
       "artist": "Khruangbin",
@@ -1818,7 +1818,7 @@
       "id": "800e745d-354b-4225-ae3e-2087c94adde5",
       "newsletter": true,
       "filename": "so-we-wont-forget.mp3",
-      "tags": []
+      "tags": ["chill", "sad songs"]
     },
     {
       "artist": "Yoshito Hirano, Yuka Tsujiyoko",
@@ -1831,7 +1831,7 @@
       "id": "a1ba4391-ed5a-48db-a32b-894c97f4768b",
       "newsletter": true,
       "filename": "x-naut-fortress.mp3",
-      "tags": []
+      "tags": ["party", "mario"]
     },
     {
       "artist": "Natalia Lafourcade",
@@ -1843,7 +1843,8 @@
       "day": "10-10-2025",
       "id": "1a206338-f0c5-4778-a9d1-533521d6c3be",
       "newsletter": true,
-      "filename": "cocos-en-la-playa.mp3"
+      "filename": "cocos-en-la-playa.mp3",
+      "tags": ["singer-songwriter", "spanish language"]
     }
   ]
 }

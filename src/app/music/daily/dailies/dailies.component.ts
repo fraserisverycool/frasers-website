@@ -24,10 +24,19 @@ export default class DailiesComponent implements OnInit {
   groupedDailySoundtracks: GroupedDailySoundtracks[] = [];
   currentFilter: string = '';
   selectedMonth: string | null = null;
+  selectedTag: string | null = null;
+  selectedFranchise: string | null = null;
+  selectedGenre: string | null = null;
   isRandomSort: boolean = false;
   isCalendarOpen: boolean = false;
   isFilterDropdownOpen: boolean = false;
+  isTagDropdownOpen: boolean = false;
+  isFranchiseDropdownOpen: boolean = false;
+  isGenreDropdownOpen: boolean = false;
   filters = ["I don't care about video game music!", "Gimme that sweet video game music!", "Show me it all!"];
+  tags = ["chill", "party", "intense", "funky"];
+  franchises = ["mario", "zelda", "donkey kong", "yoshi", "pokemon", "animal crossing", "metroid", "indie", "other"];
+  genres = ["singer-songwriter", "pop", "soul", "rock", "indie", "sad songs", "from the heart"];
   today: DailySoundtrack | null = null;
   audioPath: string = '/music/dailysoundtracks/';
   currentTrack: DailySoundtrack | null = null;
@@ -38,24 +47,33 @@ export default class DailiesComponent implements OnInit {
 
   @HostListener('document:click', ['$event'])
   clickout(event: any) {
-    // If the click is outside the entire component, close all dropdowns
     if (!this.eRef.nativeElement.contains(event.target)) {
       this.isCalendarOpen = false;
       this.isFilterDropdownOpen = false;
+      this.isTagDropdownOpen = false;
+      this.isFranchiseDropdownOpen = false;
+      this.isGenreDropdownOpen = false;
     } else {
-      // If the click is inside the component, we check if it was on a toggle button
-      // or inside a dropdown. If it was neither, we might want to close them too.
-      // But typically, clicking elsewhere in the same component should also close them
-      // if it's not the button that toggles them.
-
       const clickedInsideCalendar = event.target.closest('.calendar-container');
       const clickedInsideFilter = event.target.closest('.filter-container');
+      const clickedInsideTag = event.target.closest('.tag-container');
+      const clickedInsideFranchise = event.target.closest('.franchise-container');
+      const clickedInsideGenre = event.target.closest('.genre-container');
 
       if (!clickedInsideCalendar) {
         this.isCalendarOpen = false;
       }
       if (!clickedInsideFilter) {
         this.isFilterDropdownOpen = false;
+      }
+      if (!clickedInsideTag) {
+        this.isTagDropdownOpen = false;
+      }
+      if (!clickedInsideFranchise) {
+        this.isFranchiseDropdownOpen = false;
+      }
+      if (!clickedInsideGenre) {
+        this.isGenreDropdownOpen = false;
       }
     }
   }
@@ -121,22 +139,34 @@ export default class DailiesComponent implements OnInit {
   }
 
   groupSoundtracks(tracks: DailySoundtrack[]): void {
-    let filteredByMonth = tracks;
+    let filteredTracks = tracks;
     if (this.selectedMonth) {
-      filteredByMonth = tracks.filter(track => {
+      filteredTracks = filteredTracks.filter(track => {
         const date = parse(track.day, 'dd-MM-yyyy', new Date());
         return format(date, 'MMMM yyyy') === this.selectedMonth;
       });
     }
 
+    if (this.selectedTag) {
+      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(this.selectedTag!));
+    }
+
+    if (this.selectedFranchise) {
+      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(this.selectedFranchise!));
+    }
+
+    if (this.selectedGenre) {
+      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(this.selectedGenre!));
+    }
+
     if (this.isRandomSort) {
       this.groupedDailySoundtracks = [{
         month: 'Random',
-        tracks: [...filteredByMonth].sort(() => Math.random() - 0.5)
+        tracks: [...filteredTracks].sort(() => Math.random() - 0.5)
       }];
     } else {
       const groups: { [key: string]: DailySoundtrack[] } = {};
-      const sortedTracks = [...filteredByMonth].sort((a, b) => {
+      const sortedTracks = [...filteredTracks].sort((a, b) => {
         const dateA = parse(a.day, 'dd-MM-yyyy', new Date());
         const dateB = parse(b.day, 'dd-MM-yyyy', new Date());
         return dateB.getTime() - dateA.getTime();
@@ -202,12 +232,21 @@ export default class DailiesComponent implements OnInit {
   filterDailySoundtracks(criteria: string): void {
     this.currentFilter = criteria;
     this.isFilterDropdownOpen = false;
+
+    if (criteria !== 'Gimme that sweet video game music!') {
+      this.selectedFranchise = null;
+    }
+
+    if (criteria !== "I don't care about video game music!") {
+      this.selectedGenre = null;
+    }
+
     let filteredTracks = this.originalDailySoundtracks;
     switch (criteria) {
       case 'Gimme that sweet video game music!':
         filteredTracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game);
         break;
-      case 'I don\'t care about video game music!':
+      case "I don't care about video game music!":
         filteredTracks = this.originalDailySoundtracks.filter(soundtrack => !soundtrack.game);
         break;
       default:
@@ -223,14 +262,72 @@ export default class DailiesComponent implements OnInit {
     this.filterDailySoundtracks(this.currentFilter);
   }
 
+  selectTag(tag: string | null): void {
+    this.selectedTag = tag;
+    this.isTagDropdownOpen = false;
+    this.filterDailySoundtracks(this.currentFilter);
+  }
+
+  selectFranchise(franchise: string | null): void {
+    this.selectedFranchise = franchise;
+    this.isFranchiseDropdownOpen = false;
+    this.filterDailySoundtracks(this.currentFilter);
+  }
+
+  selectGenre(genre: string | null): void {
+    this.selectedGenre = genre;
+    this.isGenreDropdownOpen = false;
+    this.filterDailySoundtracks(this.currentFilter);
+  }
+
   toggleCalendar(): void {
     this.isCalendarOpen = !this.isCalendarOpen;
-    if (this.isCalendarOpen) this.isFilterDropdownOpen = false;
+    if (this.isCalendarOpen) {
+      this.isFilterDropdownOpen = false;
+      this.isTagDropdownOpen = false;
+      this.isFranchiseDropdownOpen = false;
+      this.isGenreDropdownOpen = false;
+    }
   }
 
   toggleFilterDropdown(): void {
     this.isFilterDropdownOpen = !this.isFilterDropdownOpen;
-    if (this.isFilterDropdownOpen) this.isCalendarOpen = false;
+    if (this.isFilterDropdownOpen) {
+      this.isCalendarOpen = false;
+      this.isTagDropdownOpen = false;
+      this.isFranchiseDropdownOpen = false;
+      this.isGenreDropdownOpen = false;
+    }
+  }
+
+  toggleTagDropdown(): void {
+    this.isTagDropdownOpen = !this.isTagDropdownOpen;
+    if (this.isTagDropdownOpen) {
+      this.isCalendarOpen = false;
+      this.isFilterDropdownOpen = false;
+      this.isFranchiseDropdownOpen = false;
+      this.isGenreDropdownOpen = false;
+    }
+  }
+
+  toggleFranchiseDropdown(): void {
+    this.isFranchiseDropdownOpen = !this.isFranchiseDropdownOpen;
+    if (this.isFranchiseDropdownOpen) {
+      this.isCalendarOpen = false;
+      this.isFilterDropdownOpen = false;
+      this.isTagDropdownOpen = false;
+      this.isGenreDropdownOpen = false;
+    }
+  }
+
+  toggleGenreDropdown(): void {
+    this.isGenreDropdownOpen = !this.isGenreDropdownOpen;
+    if (this.isGenreDropdownOpen) {
+      this.isCalendarOpen = false;
+      this.isFilterDropdownOpen = false;
+      this.isTagDropdownOpen = false;
+      this.isFranchiseDropdownOpen = false;
+    }
   }
 
   randomize(): void {

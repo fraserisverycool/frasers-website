@@ -7,6 +7,7 @@ export interface DailySoundtrack {
   filename: string;
   day: string;
   game: boolean;
+  tags: string[];
   rating: number[];
   id: string;
   newsletter: boolean;

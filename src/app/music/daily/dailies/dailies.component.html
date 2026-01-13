@@ -1,5 +1,5 @@
 <div class="container">
-  <h1>Soundtrack of the Day - Archive</h1>
+  <h1 class="heading">Soundtrack of the Day - Archive</h1>
   <div class="overlay"></div>
   <div class="button-rows">
     <div class="row-1">
@@ -31,6 +31,52 @@
           </div>
         }
       </div>
+
+      <div class="tag-container">
+        <button (click)="toggleTagDropdown()" class="filter-button dropdown-button" [ngClass]="{ 'active': selectedTag !== null }">
+          {{ selectedTag ? (selectedTag | titlecase ) : 'Filter by vibe' }}
+        </button>
+        @if (isTagDropdownOpen) {
+          <div class="dropdown-menu">
+            <button (click)="selectTag(null)" class="option" [class.active]="selectedTag === null">All Tags</button>
+            @for (tag of tags; track tag) {
+              <button (click)="selectTag(tag)" class="option" [class.active]="selectedTag === tag">{{ tag | titlecase }}</button>
+            }
+          </div>
+        }
+      </div>
+
+      @if (currentFilter === 'Gimme that sweet video game music!') {
+        <div class="franchise-container">
+          <button (click)="toggleFranchiseDropdown()" class="filter-button dropdown-button" [ngClass]="{ 'active': selectedFranchise !== null }">
+            {{ selectedFranchise ? (selectedFranchise | titlecase) : 'Filter by franchise' }}
+          </button>
+          @if (isFranchiseDropdownOpen) {
+            <div class="dropdown-menu">
+              <button (click)="selectFranchise(null)" class="option" [class.active]="selectedFranchise === null">All Franchises</button>
+              @for (franchise of franchises; track franchise) {
+                <button (click)="selectFranchise(franchise)" class="option" [class.active]="selectedFranchise === franchise">{{ franchise | titlecase }}</button>
+              }
+            </div>
+          }
+        </div>
+      }
+
+      @if (currentFilter === 'I don\'t care about video game music!') {
+        <div class="genre-container">
+          <button (click)="toggleGenreDropdown()" class="filter-button dropdown-button" [ngClass]="{ 'active': selectedGenre !== null }">
+            {{ selectedGenre ? (selectedGenre | titlecase) : 'Filter by genre' }}
+          </button>
+          @if (isGenreDropdownOpen) {
+            <div class="dropdown-menu">
+              <button (click)="selectGenre(null)" class="option" [class.active]="selectedGenre === null">All Genres</button>
+              @for (genre of genres; track genre) {
+                <button (click)="selectGenre(genre)" class="option" [class.active]="selectedGenre === genre">{{ genre | titlecase }}</button>
+              }
+            </div>
+          }
+        </div>
+      }
     </div>
 
     <div class="row-2">
@@ -39,7 +85,7 @@
     </div>
 
     <div class="row-3">
-      <button (click)="playAll()" class="filter-button" [disabled]="playlist.length === 0">Play All</button>
+      <button (click)="playAll()" class="filter-button" [disabled]="playlist.length === 0">Start Playlist</button>
     </div>
   </div>
   @if (currentTrack) {
