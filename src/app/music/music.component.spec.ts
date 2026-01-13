@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { provideRouter } from '@angular/router';
 import MusicComponent from './music.component';
 
 describe('MusicComponent', () => {
@@ -8,7 +8,8 @@ describe('MusicComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [MusicComponent]
+      imports: [MusicComponent],
+      providers: [provideRouter([])]
     });
     fixture = TestBed.createComponent(MusicComponent);
     component = fixture.componentInstance;

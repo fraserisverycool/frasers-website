@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
+import { provideRouter } from '@angular/router';
 import PhotosComponent from './photos.component';
 
 describe('PhotosComponent', () => {
@@ -8,7 +10,12 @@ describe('PhotosComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [PhotosComponent]
+      imports: [PhotosComponent],
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting(),
+        provideRouter([])
+      ]
     });
     fixture = TestBed.createComponent(PhotosComponent);
     component = fixture.componentInstance;

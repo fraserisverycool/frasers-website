@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { provideRouter } from '@angular/router';
 import CommunityComponent from './community.component';
 
 describe('CommunityComponent', () => {
@@ -8,7 +8,8 @@ describe('CommunityComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [CommunityComponent]
+      imports: [CommunityComponent],
+      providers: [provideRouter([])]
     });
     fixture = TestBed.createComponent(CommunityComponent);
     component = fixture.componentInstance;

@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
+import { provideRouter } from '@angular/router';
 import SoundtracksComponent from './soundtracks.component';
 
 describe('SoundtracksComponent', () => {
@@ -8,7 +10,12 @@ describe('SoundtracksComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [SoundtracksComponent]
+      imports: [SoundtracksComponent],
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting(),
+        provideRouter([])
+      ]
     });
     fixture = TestBed.createComponent(SoundtracksComponent);
     component = fixture.componentInstance;
