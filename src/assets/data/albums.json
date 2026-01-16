@@ -1,6 +1,28 @@
 {
   "albums": [
     {
+      "filename": "tears-chair.jpg",
+      "artist": "Tears For Fears",
+      "name": "Songs From The Big Chair",
+      "releaseyear": "1985",
+      "description": [
+        "I've been loving this classic album from Tears for Fears! There are the famous songs like 'Shout' and 'Everybody Wants To Rule The World' and they're great but it's all about the album tracks. My favourite is 'The Working Hour' with its amazing saxophone. It's such a great vibe. You've also got the amazing 'Head Over Heels' which has such an amazing ending, followed by a very ambient and cerebral final track. It's such a great album for the end of the evening."
+      ],
+      "topTracks": [
+        "The Working Hour",
+        "Everybody Wants To Rule The World",
+        "Broken",
+        "Head Over Heels",
+        "Listen"
+      ],
+      "tags": [
+        "pop",
+        "classic"
+      ],
+      "id": "d90227a7-1c08-463c-898d-b7c46b3e6645",
+      "newsletter": false
+    },
+    {
       "filename": "natalia-cancionera.jpg",
       "artist": "Natalia Lafourcade",
       "name": "Cancionera",

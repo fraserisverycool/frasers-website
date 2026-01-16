@@ -49,7 +49,7 @@ def create_placeholder_entry(date, existing_ids):
     "id": generate_unique_id(existing_ids),
     "newsletter": False,
     "filename": "",
-    "tags": "[]"
+    "tags": []
   }
 
 def process_file(filename):
@@ -81,7 +81,7 @@ def process_file(filename):
   save_json(filename, data)
 
 def main():
-  process_file("../assets/data/daily-soundtracks.json")
+  process_file("../../assets/data/daily-soundtracks.json")
   print(f"Finished processing.")
 
 if __name__ == "__main__":
