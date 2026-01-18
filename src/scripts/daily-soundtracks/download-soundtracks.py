@@ -11,12 +11,13 @@ except ImportError:
 # Define paths relative to the script location
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
-DATA_FILE = os.path.join(PROJECT_ROOT, 'src', 'assets', 'data', 'daily-soundtracks.json')
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'src', 'assets', 'music', 'dailysoundtracks')
+DATA_FILE = os.path.join(PROJECT_ROOT, 'assets', 'data', 'daily-soundtracks.json')
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'assets', 'music', 'dailysoundtracks')
 
 # If ffmpeg is not in your PATH, you can specify its location here
 # Example: FFMPEG_LOCATION = r'C:\ffmpeg\bin'
-FFMPEG_LOCATION = r'C:\Users\FBowen\Documents\ffmpeg-2026-01-07-git-af6a1dd0b2-essentials_build\bin'
+# Work computer: C:\Users\FBowen\Documents\ffmpeg-2026-01-07-git-af6a1dd0b2-essentials_build\bin
+FFMPEG_LOCATION = r'C:\Users\Brexit\Documents\ffmpeg-2026-01-14-git-6c878f8b82-essentials_build\bin'
 
 def download_and_convert(url, filename):
     # Output path without extension, yt-dlp will add .mp3
