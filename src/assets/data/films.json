@@ -1,13 +1,22 @@
 {
   "films": [
     {
+      "filename": "flash-gordon.jpg",
+      "title": "Flash Gordon",
+      "description": "Terrible film but it was fun to laugh at it for an evening. There were some great costumes. America was America-ing hard on this one.",
+      "year": "2026",
+      "release": "1980",
+      "id": "ea25eeae-2f8b-43f6-872c-ff91893cb9f7",
+      "newsletter": true
+    },
+    {
       "filename": "carrie.webp",
       "title": "Carrie",
       "description": "The first half of this classic film was unbearable to watch, but from the iconic moment at the school prom onwards we were just screaming 'Yeeees fuck em up!! Burn it all down!'. If only this is what happened when people treated women so badly in real life.",
       "year": "2026",
       "release": "1976",
       "id": "ea25eeae-2f8b-43f6-872c-ff91893cb9f7",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "great-escape.jpg",
@@ -16,7 +25,7 @@
       "year": "2025",
       "release": "1963",
       "id": "546d5403-d1aa-48c5-a7a8-794025773d6f",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "aftersun.jpg",
@@ -25,7 +34,7 @@
       "year": "2025",
       "release": "2022",
       "id": "d199f2be-1966-4daf-97cb-933c3671ac70",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "nickel-boys.jpg",
@@ -34,7 +43,7 @@
       "year": "2025",
       "release": "2025",
       "id": "cb1cb705-1834-4df2-adb3-1bc5b3103640",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "secret-agent.jpg",

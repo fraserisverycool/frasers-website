@@ -26,7 +26,7 @@
         "The Mushroom Kingdom?"
       ],
       "id": "3a7adc5b-4533-4a6f-98d8-69f1fd1d6021",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "fire-emblem-path-of-radiance.jpg",
@@ -50,7 +50,7 @@
         "Eternal Glory"
       ],
       "id": "237ec51f-78b1-4b07-84a6-6bf7ece63f6a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "wii-party.jpg",
@@ -71,7 +71,7 @@
         "Rankings"
       ],
       "id": "df1cb3f3-fde5-40fb-b046-8c688ed7990f",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "super-mario-land.jpg",

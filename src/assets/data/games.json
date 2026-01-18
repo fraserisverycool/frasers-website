@@ -15,10 +15,10 @@
       "year": "2026",
       "release": "2025",
       "score": 15,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "cd5726ec-26a3-4501-91f5-7c3ff50e05bd",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Wario Land 3",
@@ -36,7 +36,7 @@
       "completed": false,
       "completable": true,
       "id": "035c05b8-3d3c-4bbe-a5fb-10a1d9074a63",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Ball X Pit",
@@ -53,7 +53,7 @@
       "completed": true,
       "completable": true,
       "id": "3bb85b3b-8de6-469d-90c3-f121d1a51f43",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "The Legend of Zelda: Four Swords",
@@ -70,7 +70,7 @@
       "completed": true,
       "completable": true,
       "id": "a24c4a6b-ea65-4403-980f-298145f30b6b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Super Mario Land 2: 6 Golden Coins",
@@ -87,7 +87,7 @@
       "completed": true,
       "completable": true,
       "id": "135a38d6-fa63-4982-ab83-bd52c7ed931c",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Metroid Prime 4: Beyond",
@@ -112,7 +112,7 @@
       "completed": true,
       "completable": true,
       "id": "319edfc6-a307-4b28-a742-bde60ca751ed",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Keeper",

@@ -1766,7 +1766,14 @@
       "completed": true,
       "understood": true,
       "playedDescription": "I played Wii Sports to death!",
-      "deco": [],
+      "deco": [
+        {
+          "filename": "miigunner1.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "Marta had these cool pens that you can use to decorate plates and now I have this gormless-looking Mii Gunner plate"
+        }
+      ],
       "id": "d498b2a8-9921-4556-bc54-44be7874f989",
       "newsletter": true
     },

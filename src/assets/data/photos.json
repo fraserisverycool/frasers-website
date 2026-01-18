@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "treeresa.jpg",
+      "title": "Handling power tools",
+      "month": "January 2026",
+      "question": "What am I making?",
+      "id": "b2e97489-6cc7-49db-8ab5-c955c8c81361",
+      "newsletter": false
+    },
+    {
       "filename": "lake.jpg",
       "title": "Visit to Müritz",
       "month": "December 2025",
@@ -10,7 +18,7 @@
     },
     {
       "filename": "duckhunt2.jpg",
-      "title": "Smash Tournament in Frankfurt",
+      "title": "Smash tournament in Frankfurt",
       "month": "December 2025",
       "question": "What ties all these players together?",
       "id": "6f044da1-6128-47f1-a7d4-cfa9589b3056",
