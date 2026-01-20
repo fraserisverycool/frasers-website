@@ -235,147 +235,181 @@
       "tags": []
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "U.S. Girls",
+      "album": "Bless This Mess",
+      "track": "So Typically Now",
+      "description": "The song is great but the real star is the music video. It's so random, it's like stock footage and if you know me you know I love stock footage. A very certain vibe that I totally subscribe to. Honestly it's giving AI generated, even though it was before all that.",
+      "link": "https://www.youtube.com/watch?v=S4O_dChJKII",
       "game": false,
       "day": "12-04-2026",
       "id": "760e9a45-ceab-4276-ba4d-f9ea9bb56944",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "so-typically-now.mp3",
+      "tags": [
+        "pop"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Electric Light Orchestra",
+      "album": "Out of the Blue",
+      "track": "The Whale",
+      "description": "Awesome sci-fi music that I learned about from a playlist that Magdalena Bay made of their influences.",
+      "link": "https://www.youtube.com/watch?v=5nWulNjTR2U",
       "game": false,
       "day": "11-04-2026",
       "id": "f3031460-7b24-41e7-b1ca-06b13250b6f9",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "the-whale.mp3",
+      "tags": [
+        "chill",
+        "electronic"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Men I Trust",
+      "album": "Equus Asinus",
+      "track": "Girl",
+      "description": "This band make the silkiest smoothest music ever, normally with the singer's breathy girl voice, but this song has a deep-voiced man all of a sudden and wow. Fuerte",
+      "link": "https://www.youtube.com/watch?v=c7T_6S0Qr0s",
       "game": false,
       "day": "10-04-2026",
       "id": "9990a9f2-955d-4ab8-a1dc-41439aeacfed",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "girl.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Lorien Testard",
+      "album": "Clair Obscur: Expedition 33",
+      "track": "Alicia",
+      "description": "Lots of beautiful music from this soundtrack to enjoy, but Alicia's theme (also the main theme) stuck with me the most",
+      "link": "https://www.youtube.com/watch?v=3Hv8mOIuhWg",
+      "game": true,
       "day": "09-04-2026",
       "id": "a01d1642-f215-449a-ae06-bf3a35500e44",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "alicia.mp3",
+      "tags": [
+        "peaceful",
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Toru Minegishi, Manaka Kataoka, Shiho Fujii",
+      "album": "Wii Fit",
+      "track": "Advanced Step",
+      "description": "This music doesn't sound like this in game, it's a special mix for the soundtrack and it's a huge banger. I can already picture the crowd cheering me as I step on and off the balance board to this music.",
+      "link": "https://www.youtube.com/watch?v=4_Ir6zA10w0",
+      "game": true,
       "day": "08-04-2026",
       "id": "dc73b047-d76e-42f8-9140-f54cab43db48",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "advanced-step.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Miss Kittin & The Hacker",
+      "album": "Third Album",
+      "track": "19",
+      "description": "My friend sent me a cool video of 'how to dance in Berghain' and this was the background music. I ended up watching the clip loads of times because I loved how she said 'anything can happen at 19:00!'",
+      "link": "https://www.youtube.com/watch?v=OBvKtcZqk-8",
       "game": false,
       "day": "07-04-2026",
       "id": "d86704d2-0b2c-4b80-916d-491b72a9120a",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "19.mp3",
+      "tags": [
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Bullion",
+      "album": "Loop the Loop",
+      "track": "Never Is The Change",
+      "description": "Super fun and funky track! It's also a bit weird I guess but I find it super optimistic and lovely",
+      "link": "https://www.youtube.com/watch?v=0Nc5ZsZzMVI",
       "game": false,
       "day": "06-04-2026",
       "id": "226af0ea-71a6-451e-8de7-1f7ec474cd7d",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "never-is-the-change.mp3",
+      "tags": [
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Glen Campbell",
+      "album": "Wichita Lineman",
+      "track": "Wichita Lineman",
+      "description": "Incredible music to bring a tear to your eye. Contains the lyric 'I need you more than want you, and I want you for all time'. Stunning song",
+      "link": "https://www.youtube.com/watch?v=-HFCuBLAjXo",
       "game": false,
       "day": "05-04-2026",
       "id": "bbf84b5f-a982-4044-accc-61789579df6c",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "wichita-lineman.mp3",
+      "tags": [
+        "peaceful",
+        "chill",
+        "magical",
+        "from the heart",
+        "classic"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Tee Lopes",
+      "album": "Sonic Mania",
+      "track": "Blossom Haze (Press Garden Act 2)",
+      "description": "One of my favourite soundtracks ever! This is potentially the ultimate ice level music. It's impossibly groovy and has this insane synth solo. This game truly lives up to the original Sonic games I love it so much.",
+      "link": "https://www.youtube.com/watch?v=63Jmd0yX6AI",
+      "game": true,
       "day": "04-04-2026",
       "id": "919674be-ad3e-4807-9015-4e1e817dcf8e",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "blossom-haze.mp3",
+      "tags": [
+        "funky",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "This Is The Kit",
+      "album": "Moonshine Freeze",
+      "track": "Bulletproof",
+      "description": "This band seem so cool, local Brits who I feel like I would get on well with. I love when she refers to herself by name in the song.",
+      "link": "https://www.youtube.com/watch?v=vgp5KJRTOkg",
       "game": false,
       "day": "03-04-2026",
       "id": "221ee748-10de-42c1-89fe-d5146211b3b5",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "bulletproof.mp3",
+      "tags": [
+        "chill",
+        "indie",
+        "singer-songwriter"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Nana Adjoa",
+      "album": "Down at the Root (pt. 1)",
+      "track": "The Resolution",
+      "description": "Beautiful little track that I keep finding myself coming back to",
+      "link": "https://www.youtube.com/watch?v=gSS9HjlOil0",
       "game": false,
       "day": "02-04-2026",
       "id": "2da14ec1-c3db-4a6a-883f-120def7c580f",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "the-resolution.mp3",
+      "tags": [
+        "chill",
+        "singer-songwriter"
+      ]
     },
     {
       "artist": "King Gizzard & The Lizard Wizard",
