@@ -183,56 +183,68 @@
       "tags": []
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Kelsey Lu",
+      "album": "Blood",
+      "track": "Poor Fake",
+      "description": "A song about learning that things are fake. There's this great moment when she screams: 'what do we have here?? could this be a forgery?!'",
+      "link": "https://www.youtube.com/watch?v=TRG6dDrpj0s",
       "game": false,
       "day": "16-04-2026",
       "id": "bbda463f-5bc5-4855-98a4-9d1e53ce9719",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "poor-fake.mp3",
+      "tags": [
+        "indie",
+        "singer-songwriter",
+        "funky"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Django Django",
+      "album": "Django Django",
+      "track": "Silver Rays",
+      "description": "Couldn't tell you what this song is about but it's a bop and when I saw them in concert not too long ago I was so happy when this played this song from a million years ago",
+      "link": "https://www.youtube.com/watch?v=gOm6B-ZV4Qk",
       "game": false,
       "day": "15-04-2026",
       "id": "20c4df97-4854-40a5-9d4a-286d1375282a",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "silver-rays.mp3",
+      "tags": [
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Junichi Masuda",
+      "album": "Pokemon Sun & Moon",
+      "track": "Apparel Shop",
+      "description": "This generation has tons of amazing music but for me the standout is this absolute bop when you go to change your outfit in the game",
+      "link": "https://www.youtube.com/watch?v=5kEbFQ7iF6k",
+      "game": true,
       "day": "14-04-2026",
       "id": "ac77bb3d-c97b-41cc-9cbf-47024908eeb9",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "apparel-shop.mp3",
+      "tags": [
+        "pokemon",
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Koji Kondo, Shinobu Tanaka",
+      "album": "Super Mario Sunshine",
+      "track": "Casino Delfino",
+      "description": "Music arguably more famously used in the minigames of new super mario bros on the DS, this Luigi casino music is fucking great",
+      "link": "https://www.youtube.com/watch?v=6u2nrmzXn74",
+      "game": true,
       "day": "13-04-2026",
       "id": "a06cdae7-21e8-4be3-b99b-4c8c408b816e",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "casino-delfino.mp3",
+      "tags": [
+        "mario",
+        "funky"
+      ]
     },
     {
       "artist": "U.S. Girls",
@@ -340,7 +352,8 @@
       "newsletter": true,
       "filename": "never-is-the-change.mp3",
       "tags": [
-        "indie"
+        "indie",
+        "funky"
       ]
     },
     {
@@ -424,7 +437,8 @@
       "filename": "ice-v.mp3",
       "tags": [
         "rock",
-        "video"
+        "video",
+        "funky"
       ]
     },
     {
