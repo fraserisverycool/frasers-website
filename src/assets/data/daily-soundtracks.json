@@ -131,56 +131,68 @@
       "tags": []
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Madonna",
+      "album": "Music",
+      "track": "Don't Tell Me",
+      "description": "Is it country music? Maybe. We forgive though because of the strings during the ending",
+      "link": "https://www.youtube.com/watch?v=gLFWRDsx5AI",
       "game": false,
       "day": "20-04-2026",
       "id": "53d3cf1f-287a-403e-bc78-294fa4463f04",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "dont-tell-me.mp3",
+      "tags": [
+        "chill",
+        "pop"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Junichi Masuda, Go Ichinose, Morikazu Aoki",
+      "album": "Pokemon Heart Gold & Soul Silver",
+      "track": "National Park",
+      "description": "A classic. The intro... the build up to the drums... this meant everything to me as a child",
+      "link": "https://www.youtube.com/watch?v=4VIq430Y6ys",
+      "game": true,
       "day": "19-04-2026",
       "id": "dac00092-fccb-48aa-a8b5-fbe081b7684f",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "national-park.mp3",
+      "tags": [
+        "pokemon",
+        "chill"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Prefab Sprout",
+      "album": "Steve McQueen",
+      "track": "Bonny",
+      "description": "I don't know much about this band but this song really does it for me. It feels like driving music",
+      "link": "https://www.youtube.com/watch?v=VhwbiwR0VMk",
       "game": false,
       "day": "18-04-2026",
       "id": "9cf02a8d-262a-4337-8551-55054e926c4b",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "bonny.mp3",
+      "tags": [
+        "chill",
+        "classic"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Toru Minegishi",
+      "album": "The Legend of Zelda: Twilight Princess",
+      "track": "Faron Woods",
+      "description": "Haunting and gorgeous music from the beginning of the game. It's chill but it has an edge to it.",
+      "link": "https://www.youtube.com/watch?v=IqlJ-vKyBuY",
+      "game": true,
       "day": "17-04-2026",
       "id": "4a8c3ef3-a803-45f4-b9fc-127f72f5d40d",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "faron-woods.mp3",
+      "tags": [
+        "chill",
+        "zelda"
+      ]
     },
     {
       "artist": "Kelsey Lu",
