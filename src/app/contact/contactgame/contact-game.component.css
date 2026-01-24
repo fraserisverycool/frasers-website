@@ -1,0 +1,175 @@
+:host {
+  display: block;
+  margin-top: 24px;
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+  color: #f2fbff;
+}
+
+.flash-frame {
+  position: relative;
+  background: linear-gradient(135deg, #ffb347, #ff6f61);
+  border: 4px solid #7a1f06;
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.marquee {
+  background: #2e0b06;
+  color: #ffe9c0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px 16px;
+  border-radius: 12px;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 14px;
+}
+
+.game-screen {
+  background: linear-gradient(180deg, #8fd3ff 0%, #bce7ff 45%, #e6f7ff 100%);
+  border: 3px solid #7fbfff;
+  border-radius: 12px;
+  padding: 16px;
+  position: relative;
+  min-height: 240px;
+}
+
+.game-area {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  text-align: center;
+}
+
+.prompt {
+  margin: 0;
+  font-size: 1rem;
+  color: #0e37c9;
+}
+
+.game-canvas {
+  width: min(520px, 100%);
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid #7fbfff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  background-image: url("/assets/homepage/contact/sky.jpg");
+  background-size: 128px 128px;
+  background-repeat: repeat;
+}
+
+.game-canvas canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.reset-button {
+  background: linear-gradient(180deg, #74c0fc, #228be6);
+  border: 2px solid #0b3d91;
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #e7f5ff;
+  box-shadow: 0 6px 0 #0b3d91;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.reset-button:active {
+  transform: translateY(3px);
+  box-shadow: 0 3px 0 #0b3d91;
+}
+
+.reward {
+  display: grid;
+  gap: 6px;
+  justify-items: center;
+  margin-top: 6px;
+}
+
+.reward-backdrop {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(5, 7, 15, 0.72);
+  backdrop-filter: blur(2px);
+  animation: fade-in 0.3s ease-out;
+}
+
+.reward-popup {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  padding: 18px 22px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  border: 2px solid #f6f0ff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+  animation: pop-in 0.45s ease-out;
+}
+
+.reward img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.reward-note {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #9fdcff;
+}
+
+.scanlines {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: screen;
+  opacity: 0.35;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.75) translateY(12px);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.05) translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .marquee {
+    text-align: center;
+  }
+}

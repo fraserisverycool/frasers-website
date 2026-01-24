@@ -32,6 +32,7 @@ import NewslettersComponent from "./newsletter/newsletters.component";
 import NewsletterComponent from "./newsletter/newsletter/newsletter.component";
 import ConcertsComponent from "./music/concerts/concerts.component";
 import PokemonComponent from "./misc/pokemon/pokemon.component";
+import ContactComponent from "./contact/contact.component";
 
 export const routes: Routes = [
   {
@@ -132,5 +133,8 @@ export const routes: Routes = [
   },
   {
     path: 'newsletter/:timestamp', component: NewsletterComponent, data: { title: 'Newsletter - Fraser\'s Website' }
+  },
+  {
+    path: 'contact', component: ContactComponent, data: { title: 'Contact - Fraser\'s Website' }
   },
 ];

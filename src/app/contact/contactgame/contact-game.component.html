@@ -1,0 +1,29 @@
+
+  <div class="game-screen">
+    <div class="game-area">
+      <div class="game-canvas" #gameContainer role="application" aria-label="Maze drag game"></div>
+      @if (hasWon) {
+        <p class="prompt">Congratulations!</p>
+      } @else {
+        <p class="prompt">Move the sun to the tree without touching clouds!</p>
+      }
+      @if (hasWon) {
+        <div class="reward-backdrop" role="presentation">
+          <div class="reward-popup">
+            <div class="reward">
+              <img [src]="emailImageSrc" alt="Email address reward" />
+            </div>
+            <button class="reset-button" type="button" (click)="resetGame()">Play Again</button>
+          </div>
+        </div>
+      }
+      @if (hasFailed) {
+        <div class="reward-backdrop" role="presentation">
+          <div class="reward-popup">
+            <p class="reward-note">Failure. Hit reset to try again.</p>
+            <button class="reset-button" type="button" (click)="resetGame()">Reset Game</button>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
