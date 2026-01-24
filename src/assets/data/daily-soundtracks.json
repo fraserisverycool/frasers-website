@@ -1,134 +1,166 @@
 {
   "dailysoundtracks": [
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Kuniyuki Takahashi",
+      "album": "NieR: Automata",
+      "track": "Memories of Dust",
+      "description": "Arguably some of the best desert music ever. My jaw dropped when I heard it in game.",
+      "link": "https://www.youtube.com/watch?v=aGTI8MKn7A0",
+      "game": true,
       "day": "30-04-2026",
       "id": "0d987e95-3850-436a-a4bb-9d7dff1146fd",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "memories-of-dust.mp3",
+      "tags": [
+        "intense",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Sea Power",
+      "album": "Disco Elysium",
+      "track": "Burn Baby Burn",
+      "description": "This music plays at the end of the game and it's at that point I realised the soundtrack was done by this old band I used to like called 'British Sea Power' (now renamed to just 'Sea Power'). The little piano part...",
+      "link": "https://www.youtube.com/watch?v=HuONWv9O588",
+      "game": true,
       "day": "29-04-2026",
       "id": "0d811907-7296-4708-b258-bc26bb906c74",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "burn-baby-burn.mp3",
+      "tags": [
+        "indie",
+        "sad songs",
+        "devastating"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Noname",
+      "album": "Room 25",
+      "track": "Prayer Song",
+      "description": "This song from Noname has grown on me the most of all her songs. When I heard to play it live and heard how intense it really is, I was honestly a bit blown away.",
+      "link": "https://www.youtube.com/watch?v=uuXPDKcyyAg",
       "game": false,
       "day": "28-04-2026",
       "id": "e0452f73-df2e-42b1-9bb5-28472d264964",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "prayer-song.mp3",
+      "tags": [
+        "hip-hop",
+        "soul",
+        "intense"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "A Tribe Called Quest",
+      "album": "We got it from Here... Thank You 4 Your Service",
+      "track": "Dis Generation (feat. Busta Rhymes)",
+      "description": "I really love this super fun and chill hip-hop album and this might be favourite track on it. Super cool how different rappers drift in and out",
+      "link": "https://www.youtube.com/watch?v=kQaSDJYwdh4",
       "game": false,
       "day": "27-04-2026",
       "id": "f64e24c7-2c4b-40e3-943e-19b7f254a27e",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "dis-generation.mp3",
+      "tags": [
+        "hip-hop"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Danger Mouse & Black Thought",
+      "album": "Cheat Codes",
+      "track": "Aquamarine (feat. Michael Kiwanuka)",
+      "description": "I like rap music especially when the production is warm, beautiful, soulful, melancholic like this",
+      "link": "https://www.youtube.com/watch?v=MHvNapx5PFo",
       "game": false,
       "day": "26-04-2026",
       "id": "7af9c244-aa26-4057-bb21-2d10610988f6",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "aquamarine.mp3",
+      "tags": [
+        "chill",
+        "hip-hop",
+        "soul"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Hideki Okugawa",
+      "album": "Street Fighter III: 3rd Strike",
+      "track": "Jazzy NYC 99",
+      "description": "Huge track from this lesser known Street Fighter game. Saxophones are going hard and I can't wait to play this in a DJ set",
+      "link": "https://www.youtube.com/watch?v=wZwOXG-oWHI",
+      "game": true,
       "day": "25-04-2026",
       "id": "14b34095-cf21-4f84-a602-2a7147c85bb4",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "jazzy-nyc-99.mp3",
+      "tags": [
+        "other",
+        "party",
+        "funky"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Mac DeMarco & Ryan Paris",
+      "album": "-",
+      "track": "Simply Paradise",
+      "description": "Obsessed with this song of two dudes enjoying their holidays on the beach, talking nonsense about girls. The video is great, how he doesn't even play the guitar. The little banter at the end of the song.",
+      "link": "https://www.youtube.com/watch?v=AD8IVVV7ERo",
       "game": false,
       "day": "24-04-2026",
       "id": "7d0db72b-cb86-4d56-ad20-0b5fb4156a89",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "simply-paradise.mp3",
+      "tags": [
+        "chill",
+        "video"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Hiroshi Sato (feat. Wendy Matthews)",
+      "album": "Awakening (覚醒)",
+      "track": "Blue And Moody Music (Wendy's Version)",
+      "description": "I fantasise about singing this song in my house while pensively thinking about life",
+      "link": "https://www.youtube.com/watch?v=k7IogfysEfo",
       "game": false,
       "day": "23-04-2026",
       "id": "e492f3c3-894d-4ad1-8fef-f58b675b7a57",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "blue-and-moody-music.mp3",
+      "tags": [
+        "chill"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Dan Hess",
+      "album": "Pilotwings 64",
+      "track": "Birdman",
+      "description": "Absolutely outrageous silky smooth song that is so delicious that it could be by the band Sade. Incredible that it was on this obscure Nintendo 64 game.",
+      "link": "https://www.youtube.com/watch?v=1JEueGdQ5yQ",
+      "game": true,
       "day": "22-04-2026",
       "id": "c78cbd81-abcb-4e26-9fa0-30a63d47d581",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "birdman.mp3",
+      "tags": [
+        "chill",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "TV Girl",
+      "album": "Who Really Cares",
+      "track": "Loving Machine",
+      "description": "This is a song about a woman and her vibrator. It's great",
+      "link": "https://www.youtube.com/watch?v=8A2yXZ9mY_A",
       "game": false,
       "day": "21-04-2026",
       "id": "a4b8c3b8-2b5b-4de1-9ab9-c3027c276b16",
       "newsletter": true,
-      "filename": "",
-      "tags": []
+      "filename": "loving-machine.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
     },
     {
       "artist": "Madonna",
@@ -650,7 +682,8 @@
       "tags": [
         "fire emblem",
         "chill",
-        "other"
+        "other",
+        "devastating"
       ]
     },
     {
@@ -2844,7 +2877,8 @@
         "soul",
         "chill",
         "from the heart",
-        "peaceful"
+        "peaceful",
+        "devastating"
       ]
     },
     {

@@ -78,6 +78,10 @@
         <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="nice gif saying everyday">
       </div>
       <h3>Soundtrack of the day</h3>
+      <p>The daily soundtracks that appear on the website's homepage have been going for a long time now! I turned the archive of them into a fun little page where you can sort and play the music. Maybe you can discover some nice new music by giving it a listen!</p>
+      <button class="fun-button" (click)="handleClick('/music/daily-soundtracks')">
+        <span class="button-text">Soundtrack Archive</span>
+      </button>
       <app-daily></app-daily>
     </div>
   </div>

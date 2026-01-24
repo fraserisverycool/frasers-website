@@ -1,13 +1,35 @@
 {
   "films": [
     {
+      "filename": "it-was-just-an-accident.webp",
+      "title": "It Was Just an Accident",
+      "description": "Really great film with a horrible premise (it's about torture) but it's full of good people and a really thrilling story.",
+      "year": "2026",
+      "release": "2025",
+      "id": "f7c9d051-577a-4cbf-865b-ed250bb2bbbf",
+      "newsletter": false
+    },
+    {
+      "filename": "heated-rivalry.avif",
+      "title": "Heated Rivalry",
+      "description": "This outrageous show about gay ice hockey players features so much hot gay sex between muscular men that it's practically porn. I totally understand why this show is so popular with women! What I loved about it was that there was no major trauma.",
+      "year": "2026",
+      "release": "2025",
+      "tv": true,
+      "seasons": [
+        1
+      ],
+      "id": "cc6062eb-60f3-45d1-90f7-087e355c993c",
+      "newsletter": false
+    },
+    {
       "filename": "flash-gordon.jpg",
       "title": "Flash Gordon",
       "description": "Terrible film but it was fun to laugh at it for an evening. There were some great costumes. America was America-ing hard on this one.",
       "year": "2026",
       "release": "1980",
       "id": "ea25eeae-2f8b-43f6-872c-ff91893cb9f7",
-      "newsletter": true
+      "newsletter": false
     },
     {
       "filename": "carrie.webp",

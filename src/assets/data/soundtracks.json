@@ -1,6 +1,24 @@
 {
   "soundtracks": [
     {
+      "filename": "zelda-phantom-hourglass.jpg",
+      "name": "The Legend of Zelda: Phantom Hourglass",
+      "description": [
+        "The tinny DS soundfont is back to serve bass-less budget versions of Wind Waker music! I have to say even though I have fond memories of the game, the music really leaves a lot to be desired. The main offender is the dungeon music, a 30 second loop that is played for all 6 dungeons. It's terrible and an affront to Zelda music.",
+        "In an effort to be at least a little bit positive, Linebeck's theme slaps!"
+      ],
+      "platform": "DS",
+      "topTracks": [
+        "Title Theme (Great Sea)",
+        "South Mercay Island",
+        "Oshus's Theme",
+        "Linebeck's Theme",
+        "Ciela's Awakening"
+      ],
+      "id": "1c117e1f-ab2c-42a2-b8bc-fea63ffc0175",
+      "newsletter": false
+    },
+    {
       "filename": "mario-luigi-brothership.jpg",
       "name": "Mario & Luigi: Brothership",
       "description": [
