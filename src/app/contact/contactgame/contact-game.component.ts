@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, NgZone, OnDestroy, ViewChild } from '@angular/core';
-import Phaser from 'phaser';
+import type PhaserType from 'phaser';
 
 @Component({
   selector: 'app-contactgame',
@@ -16,25 +16,27 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
   emailImageSrc = '';
   score = 0;
   lives = 3;
-  private game?: Phaser.Game;
+  private game?: PhaserType.Game;
   private readonly sceneKey = 'contact-maze';
 
   constructor(private ngZone: NgZone) {}
 
   ngAfterViewInit(): void {
-    this.initGame();
+    void this.initGame();
   }
 
   ngOnDestroy(): void {
     this.destroyGame();
   }
 
-  private initGame(): void {
+  private async initGame(): Promise<void> {
     if (this.game || !this.gameContainer) {
       return;
     }
 
-    const scene = this.createScene();
+    const phaserModule = await import('phaser');
+    const Phaser = (phaserModule.default ?? phaserModule) as PhaserType;
+    const scene = this.createScene(Phaser);
     this.ngZone.runOutsideAngular(() => {
       this.game = new Phaser.Game({
         type: Phaser.AUTO,
@@ -105,7 +107,7 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
     this.score = 0;
   }
 
-  private createScene(): Phaser.Scene {
+  private createScene(Phaser: PhaserType): PhaserType.Scene {
     const component = this;
     const start = { x: 60, y: 460 };
     const goal = { x: 460, y: 60 };
