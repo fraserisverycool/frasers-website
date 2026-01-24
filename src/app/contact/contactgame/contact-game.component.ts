@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, NgZone, OnDestroy, ViewChild } from '@angular/core';
+import {environment} from "../../../environments/environment";
 
 type PhaserType = typeof import('phaser');
 
@@ -17,6 +18,7 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
   emailImageSrc = '';
   score = 0;
   lives = 3;
+  imagepath: string = `${environment.imageBaseUrl}/homepage/contact`;
   private game?: InstanceType<PhaserType['Game']>;
   private readonly sceneKey = 'contact-maze';
 
@@ -112,6 +114,7 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
     const component = this;
     const start = { x: 60, y: 460 };
     const goal = { x: 460, y: 60 };
+    const imagepath = this.imagepath
 
     return new (class extends Phaser.Scene {
       private ended = false;
@@ -121,9 +124,9 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
       }
 
       preload(): void {
-        this.load.image('orb', 'assets/homepage/contact/sun-again.png');
-        this.load.image('cloud', 'assets/homepage/contact/cloud2.png');
-        this.load.image('goal', 'assets/homepage/contact/tree.png');
+        this.load.image('orb', imagepath + '/sun2.png');
+        this.load.image('cloud', imagepath + '/cloud2.png');
+        this.load.image('goal', imagepath + '/tree2.png');
       }
 
       create(): void {
