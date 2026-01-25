@@ -27,6 +27,7 @@ import CharactersComponent from "./misc/characters/characters.component";
 import MariokartComponent from "./misc/mariokart/mariokart.component";
 import StitchComponent from "./misc/stitch/stitch.component";
 import WritingComponent from "./misc/writing/writing.component";
+import BrightwellComponent from "./misc/brightwell/brightwell.component";
 import GuestbookComponent from "./guestbook/guestbook.component";
 import NewslettersComponent from "./newsletter/newsletters.component";
 import NewsletterComponent from "./newsletter/newsletter/newsletter.component";
@@ -124,6 +125,9 @@ export const routes: Routes = [
   },
   {
     path: 'misc/pokemon', component: PokemonComponent, data: { title: 'Pokemon Ranking - Fraser\'s Website' }
+  },
+  {
+    path: 'misc/back-to-brightwell', component: BrightwellComponent, data: { title: 'Back to Brightwell - Fraser\'s Website' }
   },
   {
     path: 'guestbook', component: GuestbookComponent, data: { title: 'Guestbook - Fraser\'s Website' }
