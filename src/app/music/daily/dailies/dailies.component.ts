@@ -20,6 +20,7 @@ interface GroupedDailySoundtracks {
     styleUrls: ['./dailies.component.css']
 })
 export default class DailiesComponent implements OnInit {
+  allDailySoundtracks: DailySoundtrack[] = [];
   originalDailySoundtracks: DailySoundtrack[] = [];
   groupedDailySoundtracks: GroupedDailySoundtracks[] = [];
   currentFilter: string = '';
@@ -27,6 +28,7 @@ export default class DailiesComponent implements OnInit {
   selectedTag: string | null = null;
   selectedFranchise: string | null = null;
   selectedGenre: string | null = null;
+  showFuture: boolean = false;
   isRandomSort: boolean = false;
   isCalendarOpen: boolean = false;
   isFilterDropdownOpen: boolean = false;
@@ -85,19 +87,37 @@ export default class DailiesComponent implements OnInit {
   loadDailySoundtracks(): void {
     this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/data/daily-soundtracks.json').subscribe({
       next: (data) => {
-        const now = new Date();
-        this.originalDailySoundtracks = data.dailysoundtracks.filter(
-          ds => isBefore(parse(ds.day, 'dd-MM-yyyy', new Date()), now)
-        );
-        this.originalDailySoundtracks.forEach(ds => ds.link = this.sanitizer.bypassSecurityTrustResourceUrl(ds.link) as string);
+        this.allDailySoundtracks = data.dailysoundtracks;
+        this.allDailySoundtracks.forEach(ds => {
+          if (typeof ds.link === 'string') {
+            ds.link = this.sanitizer.bypassSecurityTrustResourceUrl(ds.link) as string;
+          }
+        });
+        this.applyDateFilter();
         this.getRatings();
-        this.today = this.originalDailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
-        this.filterDailySoundtracks(this.currentFilter);
+        this.today = this.allDailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
       },
       error: (err) => {
         console.error('Failed to load daily Soundtracks:', err);
       },
     });
+  }
+
+  applyDateFilter(): void {
+    const now = new Date();
+    if (this.showFuture) {
+      this.originalDailySoundtracks = [...this.allDailySoundtracks];
+    } else {
+      this.originalDailySoundtracks = this.allDailySoundtracks.filter(
+        ds => isBefore(parse(ds.day, 'dd-MM-yyyy', new Date()), now)
+      );
+    }
+    this.filterDailySoundtracks(this.currentFilter);
+  }
+
+  toggleFuture(): void {
+    this.showFuture = !this.showFuture;
+    this.applyDateFilter();
   }
 
   todaysDate(): string {
@@ -123,9 +143,9 @@ export default class DailiesComponent implements OnInit {
   }
 
   getRatings(): void {
-    this.ratingService.getRatingsById(this.originalDailySoundtracks.map(dailySoundtrack => dailySoundtrack.id))
+    this.ratingService.getRatingsById(this.allDailySoundtracks.map(dailySoundtrack => dailySoundtrack.id))
       .subscribe(dailySoundtrackRatings => {
-        this.originalDailySoundtracks = this.originalDailySoundtracks.map(dailySoundtrack => {
+        this.allDailySoundtracks = this.allDailySoundtracks.map(dailySoundtrack => {
           const ratingData = dailySoundtrackRatings.find(rating => rating.id === dailySoundtrack.id);
           if (ratingData) {
             dailySoundtrack.rating = ratingData.ratings;
@@ -134,7 +154,7 @@ export default class DailiesComponent implements OnInit {
           }
           return dailySoundtrack;
         });
-        this.filterDailySoundtracks(this.currentFilter);
+        this.applyDateFilter();
       });
   }
 
