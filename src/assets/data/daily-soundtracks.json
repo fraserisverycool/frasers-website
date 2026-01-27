@@ -1,6 +1,463 @@
 {
   "dailysoundtracks": [
     {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "31-05-2026",
+      "id": "e3973e89-204b-467c-9989-422e6f8a19f3",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "30-05-2026",
+      "id": "17bc630d-d5dd-47b3-8ed0-14777e3d8f2f",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "29-05-2026",
+      "id": "be2b2c36-5690-4b53-b213-7ff3e7dbca55",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "28-05-2026",
+      "id": "479b6d31-b081-43b3-8f4a-0b2f31efffef",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "27-05-2026",
+      "id": "94792134-530e-47c9-b5e5-58a403424138",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "26-05-2026",
+      "id": "2d026a8c-b3e2-4380-a6c3-3d3a73e660a3",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "25-05-2026",
+      "id": "f73de390-fb46-4efd-bcc1-a9ac889c827e",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "24-05-2026",
+      "id": "7e76ab1f-174a-4abb-b3df-ece66e7c9f32",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "23-05-2026",
+      "id": "133bed21-053e-4121-9f16-bfc56cf2e62d",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "22-05-2026",
+      "id": "c67e78e7-7c63-428f-bde3-f3601dda5b81",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "21-05-2026",
+      "id": "5a49c51e-5109-4439-b578-21655ac1a209",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "20-05-2026",
+      "id": "132dd0fa-e294-404e-9954-9c74eb208bfb",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "19-05-2026",
+      "id": "2a9376d4-2448-45c2-89f8-4d74de7b152f",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "18-05-2026",
+      "id": "e1ccaffc-6a8f-4317-9aa3-71950a3c4851",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "Jerry Martin",
+      "album": "The Sims",
+      "track": "Mall Rat",
+      "description": "I mean it's a classic. You'll know it instantly. Funnily enough, Ca7riel & Paco Amoroso played this at their concert",
+      "link": "https://www.youtube.com/watch?v=4rFmI0hK4d4",
+      "game": true,
+      "day": "17-05-2026",
+      "id": "2ce3774f-affc-4b0e-9db2-9cd6c650e68a",
+      "newsletter": false,
+      "filename": "mall-rat.mp3",
+      "tags": [
+        "chill",
+        "other"
+      ]
+    },
+    {
+      "artist": "Disasterpeace",
+      "album": "Hyper Light Drifter",
+      "track": "Panacea",
+      "description": "This soundtrack is very harsh, right up until the very end when you get a beautiful piece of piano music",
+      "link": "https://www.youtube.com/watch?v=NTxZjhgIvrY",
+      "game": true,
+      "day": "16-05-2026",
+      "id": "d1f57bd8-0f5a-4bc8-8da1-ef26b1909ce2",
+      "newsletter": false,
+      "filename": "panacea.mp3",
+      "tags": [
+        "chill",
+        "indie",
+        "peaceful"
+      ]
+    },
+    {
+      "artist": "Christine and the Queens (feat. Dâm-Funk)",
+      "album": "Chris",
+      "track": "Girlfriend",
+      "description": "Just love the voice that says 'Chris' at the start of this song. And it's a bop",
+      "link": "https://www.youtube.com/watch?v=S0NMTuz9Duo",
+      "game": false,
+      "day": "15-05-2026",
+      "id": "4baa27e1-e97c-4d23-813c-bd3b1697dd3d",
+      "newsletter": false,
+      "filename": "girlfriend.mp3",
+      "tags": [
+        "pop",
+        "funky"
+      ]
+    },
+    {
+      "artist": "Pascal Michael Stiefel",
+      "album": "A Hat in Time",
+      "track": "Scootin' Through Mafia Town",
+      "description": "This indie game had no business going so hard on the soundtrack. I love all the music from the opening area 'Mafia Town' because it sounds like Windfall Island and also has these beautiful chord sequences. This is the scootin' variant which plays when you ride your scooter.",
+      "link": "https://www.youtube.com/watch?v=T8xvrjck3pk",
+      "game": true,
+      "day": "14-05-2026",
+      "id": "b6d71f96-40c0-40ab-91bb-5f7206f6ae15",
+      "newsletter": false,
+      "filename": "scootin-through-mafia-town.mp3",
+      "tags": [
+        "indie",
+        "funky"
+      ]
+    },
+    {
+      "artist": "Shane Mesa",
+      "album": "Mother 4",
+      "track": "Battle Against a Serious Opponent",
+      "description": "This fan game never happened because of a cease and desist from Nintendo, but that didn't stop the composer releasing an entire soundtrack from it and it fucking slaps. This track is so intense and captivating, and I can only imagine what kind of battle must have been planned for it.",
+      "link": "https://www.youtube.com/watch?v=KDilLFHL85Q",
+      "game": true,
+      "day": "13-05-2026",
+      "id": "61fff85c-f702-4439-aa28-d64835d78b15",
+      "newsletter": false,
+      "filename": "battle-against-a-serious-opponent.mp3",
+      "tags": [
+        "mother",
+        "indie",
+        "intense"
+      ]
+    },
+    {
+      "artist": "Clean Bandit",
+      "album": "-",
+      "track": "UK Shanty",
+      "description": "This band became a weird normie pop thing but their early music was pretty wacky and I was into it",
+      "link": "https://www.youtube.com/watch?v=9-TO4943ThQ",
+      "game": false,
+      "day": "12-05-2026",
+      "id": "6c970b78-c6db-4848-b5f2-c38f3cb57e99",
+      "newsletter": false,
+      "filename": "uk-shanty.mp3",
+      "tags": [
+        "electronic",
+        "pop"
+      ]
+    },
+    {
+      "artist": "Yeah Yeah Yeahs",
+      "album": "Mosquito",
+      "track": "Sacrilege",
+      "description": "Such an intense song and one of the best music videos ever",
+      "link": "https://www.youtube.com/watch?v=jmRI3Ew4BvA",
+      "game": false,
+      "day": "11-05-2026",
+      "id": "9ecf6658-d126-4262-a1e9-cc096c50d482",
+      "newsletter": false,
+      "filename": "sacrilege.mp3",
+      "tags": [
+        "intense",
+        "rock"
+      ]
+    },
+    {
+      "artist": "Melody Gardot (feat. Heitor Pereira)",
+      "album": "The Absence",
+      "track": "Se Voce Me Ama",
+      "description": "Gorgeous music. I love the 'sayonara' at the end",
+      "link": "https://www.youtube.com/watch?v=9_--VfgMZps",
+      "game": false,
+      "day": "10-05-2026",
+      "id": "746d49b9-0853-4fd0-a097-592ff779b2f9",
+      "newsletter": false,
+      "filename": "se-voce-me-ama.mp3",
+      "tags": [
+        "peaceful",
+        "brazilian"
+      ]
+    },
+    {
+      "artist": "The Tallest Man on Earth",
+      "album": "-",
+      "track": "Rivers",
+      "description": "Gorgeous track from one of my favourite artists. The part with the whistling at the end is everything",
+      "link": "https://www.youtube.com/watch?v=vV40UKVNSuk",
+      "game": false,
+      "day": "09-05-2026",
+      "id": "090bc193-d40a-4228-8ea9-971a5151e967",
+      "newsletter": false,
+      "filename": "rivers.mp3",
+      "tags": [
+        "peaceful",
+        "indie",
+        "singer-songwriter",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Nobuo Uematsu",
+      "album": "Final Fantasy VII",
+      "track": "You can Hear the Cry of the Planet",
+      "description": "Wow, what a moment in this Final Fantasy when you get to the Forgotten City and you hear this mysterious synth sound. So ominous",
+      "link": "https://www.youtube.com/watch?v=7zl8m_z7Ptc",
+      "game": true,
+      "day": "08-05-2026",
+      "id": "5991b98d-46ce-4901-934c-734c066919e9",
+      "newsletter": false,
+      "filename": "cry-of-the-planet.mp3",
+      "tags": [
+        "intense",
+        "other"
+      ]
+    },
+    {
+      "artist": "Yuzo Koshiro",
+      "album": "Streets of Rage 4",
+      "track": "Main Theme",
+      "description": "The Streets of Rage 4 soundtrack is fucking sublime. This is just the opener! And it's this epic!",
+      "link": "https://www.youtube.com/watch?v=zUNFgEGVDqo",
+      "game": true,
+      "day": "07-05-2026",
+      "id": "c038143d-4d61-43d7-aebd-c36f4f004b79",
+      "newsletter": false,
+      "filename": "streets-of-rage-4.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Honne",
+      "album": "Warm on a Cold Night",
+      "track": "Coastal Love",
+      "description": "I had a big phase of absolutely loving this band back in university. Turns out they got huge in asia since then, good for them",
+      "link": "https://www.youtube.com/watch?v=gb7Cf9CfP90",
+      "game": false,
+      "day": "06-05-2026",
+      "id": "66794cf8-390e-433d-8905-9fb3b38e5a99",
+      "newsletter": false,
+      "filename": "coastal-love.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Tom Misch",
+      "album": "Geography",
+      "track": "Movie",
+      "description": "I had my Tom Misch phase. I really like his voice. I listened to this song a lot in 2019",
+      "link": "https://www.youtube.com/watch?v=DUzEYcR2VtM",
+      "game": false,
+      "day": "05-05-2026",
+      "id": "0e316261-00ee-4226-8f7d-96c6d383ff7a",
+      "newsletter": false,
+      "filename": "movie.mp3",
+      "tags": [
+        "chill"
+      ]
+    },
+    {
+      "artist": "Andrew Prahlow",
+      "album": "Outer Wilds: Echoes of the Eye",
+      "track": "Echoes of the Eye",
+      "description": "This plays at the very end of one of my all time favourite games. I've listened to it countless times. If you know, you know",
+      "link": "https://www.youtube.com/watch?v=H_WrhBeFikw",
+      "game": true,
+      "day": "04-05-2026",
+      "id": "dd915f09-8a41-4ff0-aa30-e592fbee0bd8",
+      "newsletter": false,
+      "filename": "echoes-of-the-eye.mp3",
+      "tags": [
+        "indie",
+        "intense"
+      ]
+    },
+    {
+      "artist": "Phony Ppl",
+      "album": "Yesterday's Tomorrow",
+      "track": "Somehow.",
+      "description": "When I first heard this song I thought it was a woman from London singing but no it's an American dude. I quite like the band but this song in particular means a lot to me",
+      "link": "https://www.youtube.com/watch?v=F8s_Z7ZaL4U",
+      "game": false,
+      "day": "03-05-2026",
+      "id": "e147e9bb-2210-471b-bdff-54d4af120b79",
+      "newsletter": false,
+      "filename": "somehow.mp3",
+      "tags": [
+        "soul",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Masakazu Sugimori, Akemi Kimura",
+      "album": "Phoenix Wright: Ace Attorney",
+      "track": "Trial",
+      "description": "The chillest and grooviest music you could ever imagine for going to court. Makes me wanna go to court. If I was a lawyer I would play this at parties",
+      "link": "https://www.youtube.com/watch?v=UEGVxLs6Sr0",
+      "game": true,
+      "day": "02-05-2026",
+      "id": "11975846-9afe-4ed1-84ec-fb12cb008afd",
+      "newsletter": false,
+      "filename": "trial.mp3",
+      "tags": [
+        "chill",
+        "other"
+      ]
+    },
+    {
+      "artist": "Jake Kaufman",
+      "album": "Shantae: Half-Genie Hero",
+      "track": "High Above Tassel Town (The Sky Bridge)",
+      "description": "Incredible desert music from Shantae. I especially love that opening section",
+      "link": "https://www.youtube.com/watch?v=D-6KpPDNgxk",
+      "game": true,
+      "day": "01-05-2026",
+      "id": "7615d3d2-3dcb-464f-aa3c-c7384a71593d",
+      "newsletter": false,
+      "filename": "the-sky-bridge.mp3",
+      "tags": [
+        "party",
+        "intense",
+        "indie"
+      ]
+    },
+    {
       "artist": "Kuniyuki Takahashi",
       "album": "NieR: Automata",
       "track": "Memories of Dust",
