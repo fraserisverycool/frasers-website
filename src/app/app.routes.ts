@@ -34,6 +34,7 @@ import NewsletterComponent from "./newsletter/newsletter/newsletter.component";
 import ConcertsComponent from "./music/concerts/concerts.component";
 import PokemonComponent from "./misc/pokemon/pokemon.component";
 import ContactComponent from "./contact/contact.component";
+import BrightwellStatsComponent from "./misc/brightwell/brightwell-stats/brightwell-stats.component";
 
 export const routes: Routes = [
   {
@@ -128,6 +129,9 @@ export const routes: Routes = [
   },
   {
     path: 'misc/back-to-brightwell', component: BrightwellComponent, data: { title: 'Back to Brightwell - Fraser\'s Website' }
+  },
+  {
+    path: 'misc/back-to-brightwell/stats', component: BrightwellStatsComponent, data: { title: 'Back to Brightwell Stats - Fraser\'s Website' }
   },
   {
     path: 'guestbook', component: GuestbookComponent, data: { title: 'Guestbook - Fraser\'s Website' }

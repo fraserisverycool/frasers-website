@@ -1,0 +1,15 @@
+<div class="container">
+@if (stats && stats.length > 0){
+  <div class="stats-container">
+    <h3>Ending Statistics</h3>
+    <div class="stats-grid">
+      @for (stat of stats; track stat) {
+        <div class="stat-item">
+          <span class="ending-name">{{ getEndingTitle(stat.ending) }}: </span>
+          <span class="ending-count">{{ stat.count }}</span>
+        </div>
+      }
+    </div>
+  </div>
+}
+</div>
