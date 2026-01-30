@@ -2432,19 +2432,20 @@
       ]
     },
     {
-      "artist": "Hajime Wakai",
-      "album": "The Legend of Zelda: Skyward Sword",
-      "track": "Lanayru Sand Sea",
-      "description": "This music is such a vibe. They really nailed the feeling of an ocean-turned-desert with this one. Love the chord progression.",
-      "link": "https://www.youtube.com/watch?v=bX5FRFm_MRA",
+      "artist": "Arata Iiyoshi",
+      "album": "Super Smash Bros. Brawl (The Legend of Zelda: A Link to the Past)",
+      "track": "The Dark World",
+      "description": "A unique take on a classic from Link to the Past, which has ultimately become iconic thanks to the majesty of the Subspace Emissary",
+      "link": "https://www.youtube.com/watch?v=tYh1BTNFPcY",
       "game": true,
       "day": "02-02-2026",
       "id": "5c522fbf-e9be-47f3-bc0c-63cc2bf5b9d5",
       "newsletter": true,
-      "filename": "lanayru-sand-sea.mp3",
+      "filename": "the-dark-world.mp3",
       "tags": [
         "chill",
-        "zelda"
+        "zelda",
+        "smash"
       ]
     },
     {
