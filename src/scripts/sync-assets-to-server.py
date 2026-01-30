@@ -4,7 +4,7 @@ import stat
 
 LOCAL_FOLDER = "../assets/"
 REMOTE_FOLDER = "/var/www/images"
-PI_HOST = "192.168.2.153"  # Replace with your IP Address
+PI_HOST = "192.168.2.217"  # Replace with your IP Address
 PI_USER = "fraserbowen"  # Replace with your username
 PI_PASSWORD = "BigCheeseForever1!"  # Replace with your password
 PI_KEY_PATH = None
