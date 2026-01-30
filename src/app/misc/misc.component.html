@@ -4,10 +4,10 @@
   <div class="gif">
     <img  [src]="imageService.imageUrl('/misc/godzilla.gif')" alt="nice gif of godzilla">
   </div>
-  <p>Here you can see all of the Top 8 pictures I made for all of the BREXIT SUMMIT tournaments that I hosted in my apartment between 2019 and 2022:</p>
-  <button (click)="handleClick('/misc/brexitsummit')">BREXIT SUMMIT Top 8 Pictures</button>
+  <p>I wrote an interactive story! It's a text-based adventure and you can read it here:</p>
+  <button (click)="handleClick('/misc/back-to-brightwell')">Back To Brightwell</button>
   <div class="gif">
-    <img  [src]="imageService.imageUrl('/misc/smash.gif')" alt="nice gif of diddy kong and rosalina">
+    <img  [src]="imageService.imageUrl('/misc/brightwell/literature.gif')" alt="nice gif saying art, culture and literature">
   </div>
   <h2>Do you play Super Smash Bros Ultimate? If so...</h2>
   <button (click)="handleClick('/misc/characters')">Let's talk about all the characters!</button>
@@ -26,6 +26,11 @@
   </div>
   <h2>Ranking of all the Pokemon</h2>
   <button (click)="handleClick('/misc/pokemon')">Pokemon Rankings</button>
+  <p>Here you can see all of the Top 8 pictures I made for all of the BREXIT SUMMIT tournaments that I hosted in my apartment between 2019 and 2022:</p>
+  <button (click)="handleClick('/misc/brexitsummit')">BREXIT SUMMIT Top 8 Pictures</button>
+  <div class="gif">
+    <img  [src]="imageService.imageUrl('/misc/smash.gif')" alt="nice gif of diddy kong and rosalina">
+  </div>
   <img (click)="handleClick('/misc/writing')" [src]="imageService.imageUrl('/misc/secreta.gif')" alt="secreta">
 </div>
 

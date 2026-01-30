@@ -9,7 +9,9 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Back to Brightwell.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Back to Brightwell" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="72F719C9-47CE-4E1A-AC7A-D461046BB856" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar { display: none; }</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="600,200" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[(text-colour:yellow)[&#39;&#39;Back to Brightwell&#39;&#39;]]
+<tw-storydata name="Back to Brightwell" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="72F719C9-47CE-4E1A-AC7A-D461046BB856" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar { 
+  display: none; 
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="600,200" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))$brightwell[&#39;&#39;Back to Brightwell&#39;&#39;]
 
 There&#39;s a horrible squawk from some seagulls, and this real sickly sweet smell sticking to your nose.
 
@@ -23,12 +25,7 @@ You have washed up on a beach. The tides have deposited you here and pretty soon
 
 [[Lie down a little longer]]
 
-[[Attempt to stand up]]
-
-(set: $pouch to &quot;false&quot;)
-(set: $hungry to &quot;true&quot;)
-(set: $purple to 0)
-(set: $ending to &quot;0&quot;)</tw-passagedata><tw-passagedata pid="2" name="Stretch a little bit" tags="" position="600,350" size="100,100">You give your body a little stretch. It&#39;s nice!
+[[Attempt to stand up]](set: $pouch to &quot;false&quot;)(set: $hungry to &quot;true&quot;)(set: $purple to 0)(set: $ending to &quot;0&quot;)(set: $badimpression to 0)(set: $murielhungry to &quot;true&quot;)(set:$gender to &quot;nonbinary&quot;)</tw-passagedata><tw-passagedata pid="2" name="Stretch a little bit" tags="" position="600,350" size="100,100">You give your body a little stretch. It&#39;s nice!
 
 Having sand in your mouth isn&#39;t though.
 
@@ -61,7 +58,7 @@ On the horizon there is nothing, the sea just stretches out forever.
 Gazing at the driftwood, your memory starts coming back to you.
 
 You were on a ship... there were explosions... and at some point you were thrown into the open ocean. Oof.
-(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))
+
 One thing you know for sure is that you have to get $brightwell[back to Brightwell]!
 
 Your stomach rumbles. You absent-mindedly reach for your pouch and suddenly realise that it&#39;s missing. Uh oh! That pouch had all your money and all your snacks &amp; water that you packed for the journey.
@@ -72,13 +69,9 @@ You smell a sickly sweet scent coming from the trees.
 
 [[Search the debris on the beach -&gt; Beach]]
 
-[[Have a look at the jungle -&gt; Jungle]]
-
-(set: $jungle to &quot;false&quot;)</tw-passagedata><tw-passagedata pid="7" name=" Jungle" tags="" position="500,650" size="100,100">The main thing you notice as you approach the jungly forest is the stench. There is this very sweet smell thick in the air, enough to make you crinkle your nose.
+[[Have a look at the jungle -&gt; Jungle]]</tw-passagedata><tw-passagedata pid="7" name=" Jungle" tags="" position="500,650" size="100,100">The main thing you notice as you approach the jungly forest is the stench. There is this very sweet smell thick in the air, enough to make you crinkle your nose.
 
 You enter the cover of the trees and spot the source of the stench: some big fat juicy purple fruit!
-
-&lt;img src=&quot;/var/www/images/misc/brightwell/purplefruit.PNG&quot;&gt;
 
 There are bushes of it everywhere. Very ripe looking, and very appetising. (if: $hungry is &quot;true&quot;)[This looks exactly like the thing you need to survive on this island, and they look super delicious as well](else:)[You&#39;ve just eaten, so maybe trying out this random fruit is a bad idea. It looks delicious though.]
 
@@ -96,8 +89,7 @@ Happy days! You managed to keep it close to you during the shipwreck. Your chanc
 
 Having a peer inside, you spot some fruit and nuts. You also find your water and some other stuff.
 
-[[Time to eat!]]
-</tw-passagedata><tw-passagedata pid="9" name="Time to eat!" tags="" position="650,800" size="100,100">You take a seat, and open up a pouch of fruit. Inside you find an apple and hold it up to the sun.
+[[Time to eat!]]</tw-passagedata><tw-passagedata pid="9" name="Time to eat!" tags="" position="650,800" size="100,100">You take a seat, and open up a pouch of fruit. Inside you find an apple and hold it up to the sun.
 
 That apple isn&#39;t in the best shape. It&#39;s definitely been in the water. Eating this probably wont be the most enjoyable experience.
 
@@ -127,7 +119,7 @@ You hear a rustling in the bushes ahead.
 
 ]You spot a shadow between the trees.
 
-[[Try to make out what it is]]</tw-passagedata><tw-passagedata pid="13" name="Try to make out what it is" tags="" position="600,1100" size="100,100">(set: $badimpression to 0)(set: $murielhungry to &quot;true&quot;)Attempting to be subtle, but failing immediately, you stumble into a small clearing where two women turn to you, startled. One screams and the other shouts:
+[[Try to make out what it is]]</tw-passagedata><tw-passagedata pid="13" name="Try to make out what it is" tags="" position="600,1100" size="100,100">Attempting to be subtle, but failing immediately, you stumble into a small clearing where two women turn to you, startled. One screams and the other shouts:
 
 &quot;Who the fuck are you!?&quot;
 
@@ -174,11 +166,7 @@ You also stop screaming. The vibes in the clearing become a little less tense.
 
 &quot;Now one more time, who the fuck are you?&quot; She says.
 
-(if: $hungry is &quot;true&quot;)[
-[[&quot;I was shipwrecked and now I&#39;m really hungry!&quot; -&gt; Plea for help]]
-] (else:) [
-[[&quot;I was shipwrecked!&quot; -&gt; Plea for help]]
-]</tw-passagedata><tw-passagedata pid="18" name=" Introduction" tags="" position="600,1400" size="100,100">(if:$name is &quot;Dipshit&quot;)[
+(if: $hungry is &quot;true&quot;)[[[&quot;I was shipwrecked and now I&#39;m really hungry!&quot; -&gt; Plea for help]]](else:)[[[&quot;I was shipwrecked!&quot; -&gt; Plea for help]]]</tw-passagedata><tw-passagedata pid="18" name=" Introduction" tags="" position="600,1400" size="100,100">(if:$name is &quot;Dipshit&quot;)[
 &quot;Wow! $name? That&#39;s not a normal thing to say. Did you come up with that yourself?&quot; says Muriel.
 
 &quot;This person is fucking with us Muriel. We should just go.&quot; says Simone.
@@ -201,22 +189,19 @@ Simone raises her eyebrows.
 
 [[&quot;I have some food in this pouch, we can share that!&quot; -&gt; Share food]]
 
-][[&quot;I lost all my food in the shipwreck!&quot; -&gt; No food]]
-</tw-passagedata><tw-passagedata pid="20" name="She/Her" tags="" position="450,1550" size="100,100">(set:$gender to &quot;female&quot;)&quot;Alright. Next important question. Do you have any food?&quot;
+][[&quot;I lost all my food in the shipwreck!&quot; -&gt; No food]]</tw-passagedata><tw-passagedata pid="20" name="She/Her" tags="" position="450,1550" size="100,100">(set:$gender to &quot;female&quot;)&quot;Alright. Next important question. Do you have any food?&quot;
 
 (if:$pouch is &quot;true&quot;)[You have your pouch with some food in it. Will you offer it?
 
 [[&quot;I have some food in this pouch, we can share that!&quot; -&gt; Share food]]
 
-][[&quot;I lost all my food in the shipwreck!&quot; -&gt; No food]]
-</tw-passagedata><tw-passagedata pid="21" name="They/Them" tags="" position="750,1550" size="100,100">(set:$gender to &quot;nonbinary&quot;)&quot;Alright. Next important question. Do you have any food?&quot;
+][[&quot;I lost all my food in the shipwreck!&quot; -&gt; No food]]</tw-passagedata><tw-passagedata pid="21" name="They/Them" tags="" position="750,1550" size="100,100">(set:$gender to &quot;nonbinary&quot;)&quot;Alright. Next important question. Do you have any food?&quot;
 
 (if:$pouch is &quot;true&quot;)[You have your pouch with some food in it. Will you offer it?
 
 [[&quot;I have some food in this pouch, we can share that!&quot; -&gt; Share food]]
 
-][[&quot;I lost all my food in the shipwreck!&quot; -&gt; No food]]
-</tw-passagedata><tw-passagedata pid="22" name=" No food" tags="" position="500,1750" size="100,100">(if:$badimpression is 1)[&quot;Ugh. You are useless. Scary and useless.](else:)[Fuck. That&#39;s a real shame.] We&#39;re going to have to forage for food.&quot;
+][[&quot;I lost all my food in the shipwreck!&quot; -&gt; No food]]</tw-passagedata><tw-passagedata pid="22" name=" No food" tags="" position="500,1750" size="100,100">(if:$badimpression is 1)[&quot;Ugh. You are useless. Scary and useless.](else:)[Fuck. That&#39;s a real shame.] We&#39;re going to have to forage for food.&quot;
 
 &quot;We&#39;ll be fine!&quot; suggests Simone lazily. Muriel shoots her a look.
 
@@ -228,7 +213,7 @@ Muriel bites into an apple and hands the pouch to Simone. She refuses and says &
 
 Muriel shoots her a look.
 
-[[&quot;Aren&#39;t you hungry, Simone?&quot; -&gt; Simone&#39;s Deal]] </tw-passagedata><tw-passagedata pid="24" name=" Simone&#39;s Deal" tags="" position="600,1900" size="100,100">&quot;Take a look around! This island is covered in delicious fruit! I&#39;ve already eaten three. We&#39;ll never go hungry here!&quot; Simone declares with a toothy grin. (if: $purple is 1)[
+[[&quot;Aren&#39;t you hungry, Simone?&quot; -&gt; Simone&#39;s Deal]]</tw-passagedata><tw-passagedata pid="24" name=" Simone&#39;s Deal" tags="" position="600,1900" size="100,100">&quot;Take a look around! This island is covered in delicious fruit! I&#39;ve already eaten three. We&#39;ll never go hungry here!&quot; Simone declares with a toothy grin. (if: $purple is 1)[
 
 Simone is right. You can see the purple fruits everywhere and they are looking extra plump and delicious right now.]
 
@@ -288,7 +273,7 @@ Muriel rolls her eyes at you. &quot;You&#39;re just as bad as Simone. Jesus Chri
 
 &quot;Stop being so boring!&quot; Simone retorts.
 
-[[&quot;Alright guys, stop arguing!&quot; -&gt; Stop Arguing]]</tw-passagedata><tw-passagedata pid="31" name=" Stop Arguing" tags="" position="600,2400" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))&quot;You&#39;re right. We need to start thinking about solutions. How can we get $brightwell[back to Brightwell]?&quot; says Muriel, sensibly.
+[[&quot;Alright guys, stop arguing!&quot; -&gt; Stop Arguing]]</tw-passagedata><tw-passagedata pid="31" name=" Stop Arguing" tags="" position="600,2400" size="100,100">&quot;You&#39;re right. We need to start thinking about solutions. How can we get $brightwell[back to Brightwell]?&quot; says Muriel, sensibly.
 
 Right, this chat has been great and all but let&#39;s not forget the main goal here: to get off this island!
 
@@ -308,9 +293,7 @@ Right, this chat has been great and all but let&#39;s not forget the main goal h
 
 [[&quot;Yeah Muriel, stop being a wimp!&quot; -&gt; Rude to Muriel]]
 
-[[&quot;Do those zombies have boats?&quot; -&gt; Boats]]
-
-</tw-passagedata><tw-passagedata pid="33" name=" Rude to Muriel" tags="" position="450,2600" size="100,100">(set:$badimpression to $badimpression + 1)Simone bursts out laughing.
+[[&quot;Do those zombies have boats?&quot; -&gt; Boats]]</tw-passagedata><tw-passagedata pid="33" name=" Rude to Muriel" tags="" position="450,2600" size="100,100">(set:$badimpression to $badimpression + 1)Simone bursts out laughing.
 
 &quot;(if: $gender is &quot;male&quot;)[What the fuck, man](else-if: $gender is &quot;female&quot;)[Girl what the fuck](else:)[What the fuck]&quot; Muriel is angry.
 
@@ -348,8 +331,7 @@ She&#39;s not wrong. The only food around here appears to be the juicy, smelly, 
 
 ][[&quot;How about we steal a boat from the zombies?&quot; -&gt; Take the boat]]
 
-[[&quot;How about we befriend one of the zombies?&quot; -&gt; Befriend a zombie]] 
-</tw-passagedata><tw-passagedata pid="38" name="Keep walking" tags="" position="600,3200" size="100,100">After some time, Simone says: &quot;Hey Muzzy check this out&quot;.
+[[&quot;How about we befriend one of the zombies?&quot; -&gt; Befriend a zombie]]</tw-passagedata><tw-passagedata pid="38" name="Keep walking" tags="" position="600,3200" size="100,100">After some time, Simone says: &quot;Hey Muzzy check this out&quot;.
 
 In this moment you aren&#39;t looking and you hear Muriel shriek.
 
@@ -379,8 +361,7 @@ As you go, Simone is snacking on purple fruit. (if: $purple &gt; 1)[You absent-m
 
 [[&quot;How about we steal a boat from the zombies?&quot; -&gt; Take the boat]]
 
-[[&quot;How about we befriend one of the zombies?&quot; -&gt; Befriend a zombie]] 
-</tw-passagedata><tw-passagedata pid="41" name=" Eat it" tags="" position="750,3150" size="100,100">(set: $hungry to &quot;false&quot;)(set:$purple to $purple + 1)It&#39;s fucking delicious. So good. Juicy and succulent. Amazing.
+[[&quot;How about we befriend one of the zombies?&quot; -&gt; Befriend a zombie]] </tw-passagedata><tw-passagedata pid="41" name=" Eat it" tags="" position="750,3150" size="100,100">(set: $hungry to &quot;false&quot;)(set:$purple to $purple + 1)It&#39;s fucking delicious. So good. Juicy and succulent. Amazing.
 
 [[Keep walking]]</tw-passagedata><tw-passagedata pid="42" name=" Serious" tags="" position="600,3350" size="100,100">&quot;It&#39;s totally fine! I don&#39;t mind a bit of nonsense like this. My body standards are low&quot; replies Simone.
 
@@ -418,7 +399,7 @@ It immediately recoils, but it occurs to you that it&#39;s not possible to tell 
 
 [[Dive to the side!]] 
 
-[[Run away and abandon the girls]] </tw-passagedata><tw-passagedata pid="46" name="Dive to the side!" tags="" position="700,3800" size="100,100">The zombie throws itself at you, but you jump out of the way just in time!
+[[Run away and abandon the girls]]</tw-passagedata><tw-passagedata pid="46" name="Dive to the side!" tags="" position="700,3800" size="100,100">The zombie throws itself at you, but you jump out of the way just in time!
 
 You are lying on the ground, briefly incapacited. The zombie lurches towards you again.
 
@@ -494,7 +475,7 @@ Simone comes up next to you with a grin. &quot;I like how you think, $name&quot;
 
 &quot;Ugh! I&#39;m going to the village!&quot; Muriel storms off.
 
-[[Follow Muriel -&gt; Let&#39;s go]]</tw-passagedata><tw-passagedata pid="57" name=" Let&#39;s go" tags="" position="700,4250" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))You and the team make your way further through the jungle. Muriel and Simone are bickering along the way.
+[[Follow Muriel -&gt; Let&#39;s go]]</tw-passagedata><tw-passagedata pid="57" name=" Let&#39;s go" tags="" position="700,4250" size="100,100">You and the team make your way further through the jungle. Muriel and Simone are bickering along the way.
 
 &quot;Simone we need to focus on our goal. We need to get $brightwell[back to Brightwell]. You can&#39;t keep eating these horrible fruits. Can&#39;t you see how the zombie there was covered in purple juice?&quot;
 
@@ -520,7 +501,7 @@ Muriel rolls her eyes and walks towards the village. &quot;I&#39;m off!&quot;
 
 [[Turn left -&gt;Double Lost]]
 
-[[Turn right -&gt;Double Lost]]</tw-passagedata><tw-passagedata pid="60" name="Double Lost" tags="" position="200,4250" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))You really have no idea where you are now. You&#39;ve been walking for 15 minutes now. You can&#39;t hear any others. The dream of getting $brightwell[back to Brightwell] might well be lost.
+[[Turn right -&gt;Double Lost]]</tw-passagedata><tw-passagedata pid="60" name="Double Lost" tags="" position="200,4250" size="100,100">You really have no idea where you are now. You&#39;ve been walking for 15 minutes now. You can&#39;t hear any others. The dream of getting $brightwell[back to Brightwell] might well be lost.
 
 You decide to keep going in any direction, until something happens.
 
@@ -566,7 +547,12 @@ A different zombie stumbles over you and decides to vomit purple sludge all over
 
 Your tongue immediately recognises the incredible, sweet, delicious taste. You realise there is no hope now. Once you&#39;ve tasted the fruit, there&#39;s no going back.
 
-[[Accept your fate -&gt;No choice]]</tw-passagedata><tw-passagedata pid="65" name="Keep eating..." tags="" position="200,5300" size="100,100">(set: $ending to &quot;3&quot;)You keep eating more and more, and eventually your stomach is so full that you can&#39;t physically eat any more. You feel a wave of nausea overcome you.
+[[Accept your fate -&gt;No choice]]</tw-passagedata><tw-passagedata pid="65" name="Keep eating..." tags="" position="200,5300" size="100,100">(set: $ending to &quot;3&quot;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending3&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You keep eating more and more, and eventually your stomach is so full that you can&#39;t physically eat any more. You feel a wave of nausea overcome you.
 
 Still bound by the zombie who grabbed you, you slump, unable to conjure up any more energy. You must have eaten 5 or 6 of the things.
 
@@ -640,14 +626,13 @@ Two more zombies approach where they are on the beach. Muriel splashes up to the
 
 A zombie vomits purple sludge at Muriels feet, and she shrieks, retreating back into the water. Realising that they were not following her into the water, she treads water, looking to Simone, who was overrun with zombies. &quot;No...&quot; she whimpers.
 
-[[&quot;You have to save yourself!&quot;]]
-</tw-passagedata><tw-passagedata pid="72" name="&quot;You have to save yourself!&quot;" tags="" position="700,4850" size="100,100">Muriel shoots you an angry look. Then she reluctantly returns to the boat, tears mixing with seawater.
+[[&quot;You have to save yourself!&quot;]]</tw-passagedata><tw-passagedata pid="72" name="&quot;You have to save yourself!&quot;" tags="" position="700,4850" size="100,100">Muriel shoots you an angry look. Then she reluctantly returns to the boat, tears mixing with seawater.
 
 &quot;Let&#39;s just get out of here&quot; she manages to say.
 
 The two of you grab two big oars and begin rowing away. The boat also has a sail, but for now you just want to get out of there. You don&#39;t look back.
 
-[[Row for a bit]]</tw-passagedata><tw-passagedata pid="73" name="Row for a bit" tags="" position="700,5000" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))The two of you silently bring the boat a couple of hundred metres away from the shore, safely away from the zombies and the trauma of leaving Simone behind.
+[[Row for a bit]]</tw-passagedata><tw-passagedata pid="73" name="Row for a bit" tags="" position="700,5000" size="100,100">The two of you silently bring the boat a couple of hundred metres away from the shore, safely away from the zombies and the trauma of leaving Simone behind.
 
 Muriel soberly turns to you and says. &quot;We&#39;re not talking about what happened ever again, alright?&quot;
 
@@ -673,8 +658,7 @@ You breathe a sigh of relief. Thank god you bumped into this resourceful lady!
 
 A flash of purple catches your eye. Underneath a wooden board you spot nothing other than some of the purple fruit wrapped in a cloth.
 
-(if: $purple &gt; 0)[[[Reach for the fruit -&gt; Reach for fruit]]](else:)[[[Tell Muriel about the fruit -&gt; Tell Muriel]]]
-</tw-passagedata><tw-passagedata pid="75" name=" Muriel Hungry" tags="" position="900,5000" size="100,100">&quot;Yes, I&#39;m starving, and I don&#39;t know how I&#39;m going to make it to land, considering there&#39;s no food on this boat. We need to sail for at least a day.&quot;
+(if: $purple &gt; 0)[[[Reach for the fruit -&gt; Reach for fruit]]](else:)[[[Tell Muriel about the fruit -&gt; Tell Muriel]]]</tw-passagedata><tw-passagedata pid="75" name=" Muriel Hungry" tags="" position="900,5000" size="100,100">&quot;Yes, I&#39;m starving, and I don&#39;t know how I&#39;m going to make it to land, considering there&#39;s no food on this boat. We need to sail for at least a day.&quot;
 
 (if: $badimpression &gt; 2)[&quot;And you&#39;ve been a total dick to me, $name. You&#39;ve been useless. I&#39;m not feeling great about you being here.&quot; She adds icily.
 
@@ -682,7 +666,12 @@ A flash of purple catches your eye. Underneath a wooden board you spot nothing o
 
 Suddenly your eye catches something purple.
 
-[[Check it out]]]</tw-passagedata><tw-passagedata pid="76" name="Sail on" tags="" position="250,5750" size="100,100">(set: $ending to &quot;1&quot;)(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))You and Muriel set up the sail and before long you are on the open sea, heading east. You don&#39;t say goodbye to the island, nor do you look back. The two of you speak very little, because you see that Muriel is mourning.
+[[Check it out]]]</tw-passagedata><tw-passagedata pid="76" name="Sail on" tags="" position="250,5750" size="100,100">(set: $ending to &quot;1&quot;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending1&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You and Muriel set up the sail and before long you are on the open sea, heading east. You don&#39;t say goodbye to the island, nor do you look back. The two of you speak very little, because you see that Muriel is mourning.
 
 On the second day, a huge storm rocks the boat. The two of you, without breakfast, struggle to find the energy to keep the boat moving forward. Huge waves rock the boat, and when you notice lightning starting to strike, you take down the sail and hunker down, praying for it to be over soon.
 
@@ -704,9 +693,9 @@ You frown and say &quot;Hey!&quot;
 
 Realising that you have a vested interest in the fruits, she quickly scrambles to the end of the boat and dangles them over the edge. Your heart skips a beat.
 
-[[&quot;Don&#39;t you dare!&quot;]]
+[[&quot;Don&#39;t you dare!&quot;]](if: $purple &lt; 3)[
 
-(if: $purple &lt; 3)[[[&quot;Wait, let&#39;s talk about this!&quot;-&gt; Let&#39;s talk about this]]]</tw-passagedata><tw-passagedata pid="79" name="&quot;Don&#39;t you dare!&quot;" tags="" position="550,5450" size="100,100">&quot;Bitch! You&#39;re addicted to these things, I see it in your eyes!&quot; She glares at you with intensity.
+[[&quot;Wait, let&#39;s talk about this!&quot;-&gt; Let&#39;s talk about this]]]</tw-passagedata><tw-passagedata pid="79" name="&quot;Don&#39;t you dare!&quot;" tags="" position="550,5450" size="100,100">&quot;Bitch! You&#39;re addicted to these things, I see it in your eyes!&quot; She glares at you with intensity.
 
 She is right. You can&#39;t help but think about eating the fruit. One thing is for sure, it would be devastating if she threw the fruit over.
 
@@ -722,7 +711,12 @@ She is right. You can&#39;t help but think about eating the fruit. One thing is 
 
 She has a point, you did enjoy eating the fruit.
 
-[[&quot;We can keep them for science!&quot;]]</tw-passagedata><tw-passagedata pid="81" name="Kick her" tags="" position="650,5600" size="100,100">(set: $ending to &#39;4&#39;)It&#39;s now or never, you kick Muriel square in the gut and lunge for the fruit. Predictably the fruit falls into the water. You are devastated.
+[[&quot;We can keep them for science!&quot;]]</tw-passagedata><tw-passagedata pid="81" name="Kick her" tags="" position="650,5600" size="100,100">(set: $ending to &#39;4&#39;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending4&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;It&#39;s now or never, you kick Muriel square in the gut and lunge for the fruit. Predictably the fruit falls into the water. You are devastated.
 
 Muriel shrieks in fury and immediately turns to you. She grabs and oar and hits you in the back with it, while you desperately grab a fruit bobbing on the water. It hurts a lot.
 
@@ -738,7 +732,7 @@ You know what, it&#39;s fine. This tastes so fucking good. It&#39;ll be OK to ju
 
 The waves wash over you. You decide that your destiny is here on the island.
 
-(t8n-depart: &quot;blur&quot;)[[Swim back to the island]]</tw-passagedata><tw-passagedata pid="82" name="Beg" tags="" position="500,5600" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))You get on your knees.
+(t8n-depart: &quot;blur&quot;)[[Swim back to the island]]</tw-passagedata><tw-passagedata pid="82" name="Beg" tags="" position="500,5600" size="100,100">You get on your knees.
 
 &quot;Please Muriel. I haven&#39;t known you for long, but I see that you&#39;re a responsible person. Look after me. I&#39;m an addict and I need care. Please don&#39;t throw away the fruit. You can wean me off it. We can get $brightwell[back to Brightwell] and research it.&quot;
 
@@ -764,7 +758,12 @@ She visibly considers it.
 
 You realise that you narrowly avoided a grim fate. It would be best to stay in Muriel&#39;s good graces from now on.
 
-[[Sail on -&gt; Sail on bad]]</tw-passagedata><tw-passagedata pid="84" name=" Sail on bad" tags="" position="400,5750" size="100,100">(set: $ending to &quot;2&quot;)(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))You and Muriel set up the sail and before long you are on the open sea, heading east. You don&#39;t say goodbye to the island, nor do you look back. The two of you speak very little, because you see that Muriel is mourning.
+[[Sail on -&gt; Sail on bad]]</tw-passagedata><tw-passagedata pid="84" name=" Sail on bad" tags="" position="400,5750" size="100,100">(set: $ending to &quot;2&quot;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending2&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You and Muriel set up the sail and before long you are on the open sea, heading east. You don&#39;t say goodbye to the island, nor do you look back. The two of you speak very little, because you see that Muriel is mourning.
 
 As time passes, you realise that the addiction to the fruit is real and you are craving more. In the night, when you take a stop to sleep, you steal one from Muriel as she sleeps and guiltily eat it. As long as there some left for research, and for planting more, then it should be fine, right?
 
@@ -794,7 +793,12 @@ She snaps and shouts, &quot;These fucking things took Simone away from me! We wi
 
 (if: $purple &lt; 3)[Wait, wait, maybe you should [[try to de-escalate the situation-&gt;De-escalate]]](if: $purple = 0)[&quot;Alright, I&#39;m sorry!&quot;, you protest. Those fruits are indeed dangerous. It&#39;s lucky that you never tried one.
 
-[[Assess the situation]]]</tw-passagedata><tw-passagedata pid="87" name="Grab some fruit before they drift away" tags="" position="850,5350" size="100,100">(set: $ending to &#39;5&#39;)You pick up one or two pieces of fruit, but you have to lean far overboard to reach.
+[[Assess the situation]]]</tw-passagedata><tw-passagedata pid="87" name="Grab some fruit before they drift away" tags="" position="850,5350" size="100,100">(set: $ending to &#39;5&#39;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending5&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You pick up one or two pieces of fruit, but you have to lean far overboard to reach.
 
 Meanwhile, Muriel has come up behind you. She hisses, &quot;You cannot be trusted!&quot;, and before you know it, your legs have been hoisted up over the edge.
 
@@ -804,7 +808,7 @@ You, meanwhile, have been left with only the fruits bobbing on the water near yo
 
 It&#39;s fucking delicious. At least, even after all this, there is something to live for. These fruits, and this island. It&#39;ll be worth it.
 
-(t8n-depart: &quot;blur&quot;)[[Swim back to the island]] </tw-passagedata><tw-passagedata pid="88" name="Assess the situation" tags="" position="1150,5150" size="100,100">(if: $hungry is &quot;true&quot;)[&quot;So neither of us has eaten, and you&#39;ve just thrown our only food overboard&quot;, you say to Muriel.
+(t8n-depart: &quot;blur&quot;)[[Swim back to the island]]</tw-passagedata><tw-passagedata pid="88" name="Assess the situation" tags="" position="1150,5150" size="100,100">(if: $hungry is &quot;true&quot;)[&quot;So neither of us has eaten, and you&#39;ve just thrown our only food overboard&quot;, you say to Muriel.
 
 &quot;I&#39;m not even sorry about that&quot;, she says with certainty.
 
@@ -820,7 +824,7 @@ She snaps and shouts, &quot;These fucking things took Simone away from me! We wi
 
 [[Grab some fruit before they drift away]]](else:)[&quot;Alright, I&#39;m sorry!&quot;, you protest. Those fruits are indeed dangerous. It&#39;s lucky that you never tried one.
 
-[[Assess the situation]]]</tw-passagedata><tw-passagedata pid="90" name="Check it out" tags="" position="1100,5000" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))Underneath a wooden board you spot nothing other than some of the purple fruit wrapped in a cloth.
+[[Assess the situation]]]</tw-passagedata><tw-passagedata pid="90" name="Check it out" tags="" position="1100,5000" size="100,100">Underneath a wooden board you spot nothing other than some of the purple fruit wrapped in a cloth.
 
 &quot;I don&#39;t want to alarm you, Muriel, but there is some of that fruit here on the boat&quot;, you say cautiously.
 
@@ -854,7 +858,12 @@ In your mind you are relieved that you don&#39;t throw away the fruit. You make 
 
 [[&quot;We have to make a hard choice&quot;]]](else:)[You actually ate something earlier on the beach, and reckon you have it in you to bring you both to your destination.
 
-[[&quot;I can make sure you get back safely&quot;]]]</tw-passagedata><tw-passagedata pid="93" name="&quot;I can make sure you get back safely&quot;" tags="" position="1150,5450" size="100,100">(set: $ending to &#39;1&#39;)(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))&quot;You really think so?&quot; she responds skeptically.
+[[&quot;I can make sure you get back safely&quot;]]]</tw-passagedata><tw-passagedata pid="93" name="&quot;I can make sure you get back safely&quot;" tags="" position="1150,5450" size="100,100">(set: $ending to &#39;1&#39;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending1&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;&quot;You really think so?&quot; she responds skeptically.
 
 &quot;Yes, I&#39;m not as hungry as you are. I can make sure you get there safely&quot;, you respond.
 
@@ -864,7 +873,12 @@ On the second day, a huge storm rocks the boat. The two of you, without breakfas
 
 Eventually, the storm passes. Muriel knows enough about sailing to make it work, even though she is desperately hungry and unable to help you with it after a day. After another of doing the sailing work on your own, a huge landmass appears on the horizon, and you realise that you have made it $brightwell[back to Brightwell]!
 
-[[The end.]]</tw-passagedata><tw-passagedata pid="94" name="&quot;Let&#39;s see how far we get then&quot;" tags="" position="1000,5500" size="100,100">(set: $ending to &#39;6&#39;)You make it quite far. You keep sailing east through the night, but you&#39;re both exhausted, and very hungry. You keep going, knowing that at some point your hunger will get really bad, and the sooner you see the land on the horizon, the better.
+[[The end.]]</tw-passagedata><tw-passagedata pid="94" name="&quot;Let&#39;s see how far we get then&quot;" tags="" position="1000,5500" size="100,100">(set: $ending to &#39;6&#39;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending6&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You make it quite far. You keep sailing east through the night, but you&#39;re both exhausted, and very hungry. You keep going, knowing that at some point your hunger will get really bad, and the sooner you see the land on the horizon, the better.
 
 A whole day passes, and the sun of the next day beats down strongly. Having sailed through the night, you are both unable to keep your eyes open. You put down the sail for now and rest your eyes.
 
@@ -902,7 +916,7 @@ You glance towards the purple fruit. It&#39;s your final chance.
 
 [[Eat the fruit-&gt;Final Fruit]]
 
-[[Die at sea]]</tw-passagedata><tw-passagedata pid="97" name="The end." tags="" position="700,6100" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))Thanks for reading $brightwell[Back to Brightwell]!
+[[Die at sea]]</tw-passagedata><tw-passagedata pid="97" name="The end." tags="" position="700,6100" size="100,100">Thanks for reading $brightwell[Back to Brightwell]!
 
 (if: $ending is &#39;1&#39;)[You and Muriel made it, and neither of you ate the incredible purple fruit. The island remains only a memory. But who knows what became of Simone?
 
@@ -918,7 +932,12 @@ You glance towards the purple fruit. It&#39;s your final chance.
 
 ](if: $ending is &#39;7&#39;)[You and Muriel made it, and even though you ate the incredible purple fruit, you manage to leave its delicious addiction behind on the island. But who knows what became of simone?
 
-]</tw-passagedata><tw-passagedata pid="98" name="Final Fruit" tags="" position="1200,5600" size="100,100">(set: $ending to &#39;2&#39;)You finally give in, knowing that this fruit is addictive and probably turns people into zombies. You have no choice now. You bite into one, and it is sickly sweet. Honestly it&#39;s delicious. And right in this moment, when you are so very hungry, it hits. It&#39;s so good.
+]</tw-passagedata><tw-passagedata pid="98" name="Final Fruit" tags="" position="1200,5600" size="100,100">(set: $ending to &#39;2&#39;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending2&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You finally give in, knowing that this fruit is addictive and probably turns people into zombies. You have no choice now. You bite into one, and it is sickly sweet. Honestly it&#39;s delicious. And right in this moment, when you are so very hungry, it hits. It&#39;s so good.
 
 You keep eating. You gorge on as many as you can. You make sure to leave a few for later. Who knows, maybe they can be used for research.
 
@@ -930,13 +949,23 @@ You nod. &quot;Don&#39;t worry Muriel, I&#39;ll take us both home.&quot;
 
 She is too weak to protest.
 
-[[Keep rowing]]</tw-passagedata><tw-passagedata pid="99" name="Die at sea" tags="" position="1300,5750" size="100,100">(set: $ending to &#39;6&#39;)You put down the oars, you close your eyes and you imagine how sweet that fruit must taste.
+[[Keep rowing]]</tw-passagedata><tw-passagedata pid="99" name="Die at sea" tags="" position="1300,5750" size="100,100">(set: $ending to &#39;6&#39;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending6&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You put down the oars, you close your eyes and you imagine how sweet that fruit must taste.
 
-[[The end.]]</tw-passagedata><tw-passagedata pid="100" name="Keep rowing" tags="" position="1050,5700" size="100,100">(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))It&#39;s the toughest challenge of your life, but later that day, you finally spot a huge landmass covering the eastern horizon. From that point on, everything changes as you suddenly have your destination in sight. With renewed vigour and a couple more fruits, you row for your life.
+[[The end.]]</tw-passagedata><tw-passagedata pid="100" name="Keep rowing" tags="" position="1050,5700" size="100,100">It&#39;s the toughest challenge of your life, but later that day, you finally spot a huge landmass covering the eastern horizon. From that point on, everything changes as you suddenly have your destination in sight. With renewed vigour and a couple more fruits, you row for your life.
 
 You row for your life all the way $brightwell[back to Brightwell]!
 
-[[The end.]]</tw-passagedata><tw-passagedata pid="101" name="Final Voyage" tags="" position="1600,5800" size="100,100">(set: $ending to &#39;2&#39;)(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))You and Muriel set up the sail and before long you are on the open sea, heading east. You don&#39;t say goodbye to the island, nor do you look back. The two of you speak very little, because you see that Muriel is mourning.
+[[The end.]]</tw-passagedata><tw-passagedata pid="101" name="Final Voyage" tags="" position="1600,5800" size="100,100">(set: $ending to &#39;2&#39;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending2&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You and Muriel set up the sail and before long you are on the open sea, heading east. You don&#39;t say goodbye to the island, nor do you look back. The two of you speak very little, because you see that Muriel is mourning.
 
 On the second day, a huge storm rocks the boat. The two of you struggle to find the energy to keep the boat moving forward. Huge waves rock the boat, and when you notice lightning starting to strike, you take down the sail and avoid the mast.
 
@@ -952,7 +981,12 @@ She realises that you&#39;re right, and that she&#39;s in a predicament, and tha
 
 It finally dawns on you that you are actually addicted to these fruits even though you barely had any. Now it&#39;s clear that you won&#39;t have an opportunity to eat any more, you feel a pain inside. It&#39;s going to be tough. Also, are you going to turn into a zombie?
 
-[[Begin sailing]]</tw-passagedata><tw-passagedata pid="103" name="Begin sailing" tags="" position="850,5550" size="100,100">(set: $ending to &#39;7&#39;)(set: $brightwell to (font:&#39;Times New Roman&#39;) + (color:&#39;yellow&#39;) + (text-style:&#39;smear&#39;))You and Muriel set up the sail and before long you are on the open sea, heading east. You don&#39;t say goodbye to the island, nor do you look back. The two of you speak very little, because you see that Muriel is mourning.
+[[Begin sailing]]</tw-passagedata><tw-passagedata pid="103" name="Begin sailing" tags="" position="850,5550" size="100,100">(set: $ending to &#39;7&#39;)&lt;script&gt;
+  window.parent.postMessage(
+    { type: &#39;TWINE_EVENT&#39;, event: &#39;ending7&#39; },
+    &#39;*&#39;
+  );
+&lt;/script&gt;You and Muriel set up the sail and before long you are on the open sea, heading east. You don&#39;t say goodbye to the island, nor do you look back. The two of you speak very little, because you see that Muriel is mourning.
 
 On the second day, a huge storm rocks the boat. The two of you, without breakfast, struggle to find the energy to keep the boat moving forward. Huge waves rock the boat, and when you notice lightning starting to strike, you take down the sail and hunker down, praying for it to be over soon.
 
@@ -960,7 +994,16 @@ As time draws on, your body starts experience horrible withdrawal symptoms. You 
 
 Eventually, the storm passes. Muriel knows enough about sailing to make it work, even though she is desperately hungry and unable to help you with it after a day. The withdrawal symptoms, although still present, fade a little, allowing you to focus on another day of sailing. Both you and Muriel are at the end of your tethers when the landmass finally appears on the horizon. It doesn&#39;t matter though, because you realise that you have finally made it $brightwell[back to Brightwell]!
 
-[[The end.]]</tw-passagedata></tw-storydata>
+[[The end.]]</tw-passagedata><tw-passagedata pid="104" name="footer" tags="footer" position="925,350" size="100,100">
+
+
+
+
+(text-colour:(hsl:300,0.8039,0.5,0.4))[(text-style:&quot;subscript&quot;)[(link: &quot;Restart the story&quot;)[
+  (if: (confirm: &quot;Start over? Your progress will be lost.&quot;))[
+    (restart:)
+  ]
+]]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim

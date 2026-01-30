@@ -20,3 +20,9 @@
   border: none;
   background: black;
 }
+
+img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 20px;
+}
