@@ -131,7 +131,7 @@
             <div class="player-link-container">
               @if (track.filename) {
                 <div class="mini-audio-player">
-                  <audio controls [src]="imageService.imageUrl(audioPath + track.filename)">
+                  <audio controls preload="none" [src]="imageService.imageUrl(audioPath + track.filename)">
                     Normally there is an audio player here but mate your browser can't handle it
                   </audio>
                 </div>
