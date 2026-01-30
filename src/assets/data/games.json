@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "name": "Hades 2",
+      "vibes": "9",
+      "gameplay": "9",
+      "review": [
+        "I'm enjoying the hypnotic loop for this game! It's hard to deny that Hades is one of the very best roguelikes out there, in a world saturated with roguelikes. It's polished, it's satisfying, and it really makes you want to keep playing.",
+        "The story and world-building is nice. I like that they made all the Greek gods and characters from mythology just insanely hot. I like that a frog can follow me around now, and it's cool that you can go up as well as down.",
+        "Part of me feels like I'm just going through the motions playing this. Hard to describe why."
+      ],
+      "image": "hades-2.jpg",
+      "platform": "Switch 2",
+      "year": "2026",
+      "release": "2025",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "bc8092a5-bfab-42d5-a7ba-a101aed97f4e",
+      "newsletter": false
+    },
+    {
       "name": "Clair Obscur: Expedition 33",
       "vibes": "10",
       "gameplay": "10",

@@ -35,6 +35,8 @@ export default class NewsletterComponent implements OnInit {
         return 'game';
       case NewsletterContent.FILM:
         return 'film';
+      case NewsletterContent.TVSHOW:
+        return 'tvshow';
       case NewsletterContent.DURSTLOESCHER:
         return 'durstloescher';
       case NewsletterContent.BOOK:
@@ -72,6 +74,9 @@ export default class NewsletterComponent implements OnInit {
     }
     if (type === NewsletterContent.FILM) {
       return "Film Review"
+    }
+    if (type === NewsletterContent.TVSHOW) {
+      return "TV Show Review"
     }
     if (type === NewsletterContent.ALBUM) {
       return "Album Review"
