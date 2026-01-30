@@ -1,173 +1,221 @@
 {
+  "other ideas": [
+    "frank turner",
+    "dionna warwick"
+  ],
   "dailysoundtracks": [
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Dire Straits",
+      "album": "On Every Street",
+      "track": "Calling Elvis",
+      "description": "This song has such an amazing build up. Great drums. Love the guitar riffs. Makes you want to shake your shoulders",
+      "link": "https://www.youtube.com/watch?v=BUavFsfbFv8",
       "game": false,
       "day": "30-06-2026",
       "id": "011d3df1-f9d0-45df-ab57-6de626112e1f",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "calling-elvis.mp3",
+      "tags": [
+        "rock",
+        "chill",
+        "classic"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Smerz",
+      "album": "Big City Life",
+      "track": "You got time and I got money",
+      "description": "It's the most romantic song of the year. It's such a vibe. She doesn't even sing in key and it's totally fine. She probably recorded this at 4am",
+      "link": "https://www.youtube.com/watch?v=LzEzE3cpuvg",
       "game": false,
       "day": "29-06-2026",
       "id": "f2ea58d5-3f2f-494e-b197-e7d8db1b06c7",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "you-got-time-and-i-got-money.mp3",
+      "tags": [
+        "chill",
+        "singer-songwriter",
+        "scandinavian"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Asuka Hayazaki, Atsuko Asahi, Hajime Wakai",
+      "album": "Pikmin 3",
+      "track": "Twilight River",
+      "description": "Beautiful track from in my opinion the most beautiful Pikmin game. Love the bassoon",
+      "link": "https://www.youtube.com/watch?v=VtTbUMtOxqM",
+      "game": true,
       "day": "28-06-2026",
       "id": "9810f5a7-6a61-4f24-9c15-df4c04785760",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "twilight-river.mp3",
+      "tags": [
+        "chill",
+        "pikmin",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "The Stranglers",
+      "album": "La Folie",
+      "track": "Golden Brown",
+      "description": "It's a 70s rock band except they made harpsichord music. The 'golden brown' refers to heroin",
+      "link": "https://www.youtube.com/watch?v=7KIHvuMl4Kk",
       "game": false,
       "day": "27-06-2026",
       "id": "056d1cec-55a6-47bf-8b6c-0c54f84245cf",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "golden-brown.mp3",
+      "tags": [
+        "classic"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Kazumi Totaka",
+      "album": "Animal Crossing: Let's Go To The City",
+      "track": "2pm",
+      "description": "Nothing transports me back to childhood more than these hourly themes from the early Animal Crossing games. God damn.",
+      "link": "https://www.youtube.com/watch?v=le9F6h2b-AI",
+      "game": true,
       "day": "26-06-2026",
       "id": "7d6026ef-85d9-4236-9211-14111f745c2e",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "2pm.mp3",
+      "tags": [
+        "chill",
+        "animal crossing"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Erlend Oye & La Comitiva",
+      "album": "La Comitiva",
+      "track": "For The Time Being",
+      "description": "Shoutouts to Erlend Oye, who after being trapped in Italy for the pandemic, started a band. This is a cover of an old electronic song that he was once featured on",
+      "link": "https://www.youtube.com/watch?v=skfg3VajoBs",
       "game": false,
       "day": "25-06-2026",
       "id": "b07c3444-849a-4ff4-a3ac-0a968f652078",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "for-the-time-being.mp3",
+      "tags": [
+        "chill",
+        "singer-songwriter"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Simon and Garfunkel",
+      "album": "Old Friends",
+      "track": "America",
+      "description": "I used to love Simon & Garfunkel when I was a teenager and listening to songs like this takes me back to that time. I associate it with the books I was reading at that time",
+      "link": "https://www.youtube.com/watch?v=Eo2ZsAOlvEM",
       "game": false,
       "day": "24-06-2026",
       "id": "aaed2d75-b328-45ae-aa5f-d2c8f50dcb90",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "america.mp3",
+      "tags": [
+        "singer-songwriter",
+        "classic"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Shogo Sakai",
+      "album": "Mother 3",
+      "track": "Sunflowers and Illusions & Mother?!",
+      "description": "I found this video which combines two tracks from this soundtrack which plays during the part of the game where you are visiting by the ghost of your mother in a field of sunflowers. A poster of this moment hangs in my living room",
+      "link": "https://www.youtube.com/watch?v=CxOARyEMxLE",
+      "game": true,
       "day": "23-06-2026",
       "id": "994b55f8-c621-4577-b702-59d4b701c7c9",
       "newsletter": false,
       "filename": "",
-      "tags": []
+      "tags": [
+        "sad songs",
+        "mother"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Loney Dear",
+      "album": "Hall Music",
+      "track": "What Have I Become?",
+      "description": "A Swedish artist that I've followed for a long time and saw live once. This song, to me, is about giving up",
+      "link": "https://www.youtube.com/watch?v=ZozVurAhmiY",
       "game": false,
       "day": "22-06-2026",
       "id": "91f6db5e-8f15-4d14-96fd-4d306e0e06bd",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "what-have-i-become.mp3",
+      "tags": [
+        "singer-songwriter",
+        "scandinavian"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Kings of Convenience",
+      "album": "Declaration of Dependence",
+      "track": "Riot On An Empty Street",
+      "description": "This album immediately makes me calm down, and although this song might be the simplest of all the songs, somehow it's the one I come back to most",
+      "link": "https://www.youtube.com/watch?v=JBQN0CBbidg",
       "game": false,
       "day": "21-06-2026",
       "id": "f6446396-1c65-4267-89fc-2c7e65c50c65",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "riot-on-an-empty-street.mp3",
+      "tags": [
+        "peaceful",
+        "sad songs",
+        "singer-songwriter",
+        "scandinavian"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Jens Lekman",
+      "album": "I Know What Love Isn't",
+      "track": "The World Moves On",
+      "description": "This song is an encapsulation of Jens's time in Australia and I love it. The song feels like watching a film about his life",
+      "link": "https://www.youtube.com/watch?v=sB_y0KeN7Ns",
       "game": false,
       "day": "20-06-2026",
       "id": "689f8043-8da9-4448-ba4f-0da8fdaabf75",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "the-world-moves-on.mp3",
+      "tags": [
+        "concrete themes",
+        "singer-songwriter"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Khruangbin",
+      "album": "A LA SALA",
+      "track": "May Ninth",
+      "description": "It's a beautiful, positive, peaceful song about expected a baby!",
+      "link": "https://www.youtube.com/watch?v=sTcHbELHYCk",
       "game": false,
       "day": "19-06-2026",
       "id": "c4ce8534-2e35-4477-8424-0705dc7cc082",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "may-ninth.mp3",
+      "tags": [
+        "chill",
+        "peaceful"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Hiroki Morishita, Yuka Tsujiyoko",
+      "album": "Fire Emblem: Fates",
+      "track": "Dark Wastes",
+      "description": "Love this soundtrack so much. This is a map theme from Nohr near the beginning. It's brooding and forboding",
+      "link": "https://www.youtube.com/watch?v=sP9ITbE3ShI",
+      "game": true,
       "day": "18-06-2026",
       "id": "30633244-f1db-4e79-94e7-361dcca2d014",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "dark-wastes.mp3",
+      "tags": [
+        "intense",
+        "fire emblem",
+        "other"
+      ]
     },
     {
       "artist": "Dean Evans",
@@ -606,19 +654,19 @@
     },
     {
       "artist": "Shogo Sakai",
-      "album": "Super Smash Bros. Melee (Metroid)",
-      "track": "Brinstar Depths",
-      "description": "This arrangement of a creepy NES song is so legendary it hurts. I feel like this remix so perfectly encapsulates the vibe of Metroid. And I love the beat drop half way though. It's just so epic",
-      "link": "https://www.youtube.com/watch?v=24gvjYBD7oM",
+      "album": "Super Smash Bros. Brawl (Fire Emblem: Gaiden)",
+      "track": "With Mila's Divine Protection",
+      "description": "Obscure song from a Japanese-only game which became an iconic moment in the Subspace Emissary when you go through the desert with Marth. It still slaps all these years later",
+      "link": "https://www.youtube.com/watch?v=dL-7opxus3Q",
       "game": true,
       "day": "21-05-2026",
       "id": "5a49c51e-5109-4439-b578-21655ac1a209",
       "newsletter": false,
-      "filename": "brinstar-depths.mp3",
+      "filename": "with-milas-divine-protection.mp3",
       "tags": [
         "intense",
         "smash",
-        "metroid"
+        "fire emblem"
       ]
     },
     {
@@ -3557,7 +3605,8 @@
       "filename": "piklopedia.mp3",
       "tags": [
         "chill",
-        "other"
+        "other",
+        "pikmin"
       ]
     },
     {
@@ -4251,7 +4300,7 @@
       "artist": "Atsuko Asahi",
       "album": "Mario Kart World",
       "track": "Bowser's Castle (Mario Kart 8)",
-      "description": "Expect a lot of Mario Kart World recommendations folks because this soundtrack is out of control. This is a remix of a pretty forgettable track from the Wii U but they made it slap so hard! Also, it's a rare track: it doesn't play on free roam, only on transitions between lava levels.",
+      "description": "This is a remix of a pretty forgettable track from Mario Kart 8 but they made it slap so hard! Also, it's a rare track: it doesn't play on free roam, only on transitions between lava levels.",
       "link": "https://www.youtube.com/watch?v=Vn5gi62SqJ0",
       "game": true,
       "day": "13-10-2025",
@@ -4283,7 +4332,7 @@
       "artist": "Yoshito Hirano, Yuka Tsujiyoko",
       "album": "Paper Mario: The Thousand Year Door",
       "track": "X-Naut Fortress",
-      "description": "Today I'm celebrating this game's release on the Nintendo Music App with this absolute banger from the Gamecube. It's one of Nintendo's only dance bangers and who knows maybe it will find itself in a DJ World Peace set one day.",
+      "description": "What an absolute banger from the Gamecube. It's one of Nintendo's only dance bangers and who knows maybe it will find itself in a DJ World Peace set one day.",
       "link": "https://www.youtube.com/watch?v=rfvpEOROQo8",
       "game": true,
       "day": "11-10-2025",
@@ -4299,7 +4348,7 @@
       "artist": "Natalia Lafourcade",
       "album": "Cancionera",
       "track": "Cocos en la Playa",
-      "description": "Welcome to the first soundtrack of the day! I'll use this space to recommend you some great music to enjoy every single day! Today I wanna highlight one of my all-time favourite artists Natalia and this song all about fucking off because she's had enough. Say no to screens, likes, annoying real-life shit and just go to the beach, get naked and swim in the sea and chat with the moon. The sigh right before the porrito reveal says it all.",
+      "description": "This song is all about fucking off because she's had enough. Say no to screens, likes, annoying real-life shit and just go to the beach, get naked and swim in the sea and chat with the moon. The sigh right before the porrito reveal says it all.",
       "link": "https://www.youtube.com/watch?v=7a0pq4KYKwQ",
       "game": false,
       "day": "10-10-2025",

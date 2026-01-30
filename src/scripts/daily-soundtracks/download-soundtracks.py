@@ -17,7 +17,8 @@ OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'assets', 'music', 'dailysoundtracks')
 # If ffmpeg is not in your PATH, you can specify its location here
 # Example: FFMPEG_LOCATION = r'C:\ffmpeg\bin'
 # Work computer: C:\Users\FBowen\Documents\ffmpeg-2026-01-07-git-af6a1dd0b2-essentials_build\bin
-FFMPEG_LOCATION = r'C:\Users\FBowen\Documents\ffmpeg-2026-01-07-git-af6a1dd0b2-essentials_build\bin'
+# Home computer: C:\Users\Brexit\Documents\ffmpeg-2026-01-14-git-6c878f8b82-essentials_build\bin
+FFMPEG_LOCATION = r'C:\Users\Brexit\Documents\ffmpeg-2026-01-14-git-6c878f8b82-essentials_build\bin'
 
 def download_and_convert(url, filename):
     # Output path without extension, yt-dlp will add .mp3
