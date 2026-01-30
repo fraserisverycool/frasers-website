@@ -1770,7 +1770,7 @@
         {
           "filename": "miigunner1.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "Marta had these cool pens that you can use to decorate plates and now I have this gormless-looking Mii Gunner plate"
         }
       ],

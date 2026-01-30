@@ -7,7 +7,7 @@
       "year": "2026",
       "release": "2025",
       "id": "f7c9d051-577a-4cbf-865b-ed250bb2bbbf",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "heated-rivalry.avif",
@@ -20,7 +20,7 @@
         1
       ],
       "id": "cc6062eb-60f3-45d1-90f7-087e355c993c",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "flash-gordon.jpg",
@@ -29,7 +29,7 @@
       "year": "2026",
       "release": "1980",
       "id": "ea25eeae-2f8b-43f6-872c-ff91893cb9f7",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "carrie.webp",
