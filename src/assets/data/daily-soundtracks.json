@@ -1,30 +1,485 @@
 {
   "other ideas": [
-    "frank turner",
-    "dionna warwick",
-    "ane brun",
-    "Ending: The Truth (Wild NSide) | Contact",
     "pokemon diamond route 216",
-    "pokemon snap cave",
-    "tee lopes starlight zone https://www.youtube.com/watch?v=7qKh-5msybk",
-    "sonic cd tidal tempest https://www.youtube.com/watch?v=AOKUK3RcJI8&list=PLvNp0Boas7205K42TtDtdUCCrtkD-X0id&index=12",
-    "everhood victory https://www.youtube.com/watch?v=dpj9oyCiSeI&list=PLASaIFJLhHizEz1tpn5EPO2vlQtrvn_XN&index=17",
     "d'angelo how does it feel",
     "roberta flack feel like makin love",
     "pokemon ruby sapphire desert",
-    "mag bay new stuff",
     "mag bay head over heels https://www.youtube.com/watch?v=T8WDr5fkwCw",
-    "confidence man sicko",
     "confidence man who knows what you'll find",
-    "kylie in your eyes",
     "kylie shocked",
-    "beach boys kokomo",
     "starsailor",
-    "miami horror",
-    "caroline polachek",
-    "jockstrap"
+    "villagers",
+    "this is the kit"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "31-07-2026",
+      "id": "a58cbeb0-7659-4537-a90d-841564dce38f",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "30-07-2026",
+      "id": "cd38ba28-f3a9-4955-8e04-b5e3e445ba4a",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "29-07-2026",
+      "id": "14dfff88-596f-484d-a3c2-390dab4bf908",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "28-07-2026",
+      "id": "d2d5e369-d3ea-4184-8bfe-552c3a622fd0",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "27-07-2026",
+      "id": "35a0d95e-ced2-47ec-b605-737a4759d7b8",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "26-07-2026",
+      "id": "07153ca9-43b7-4019-8553-a7fe6fc02156",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "25-07-2026",
+      "id": "fa82e3a0-d206-4532-add6-4bd4b83cbd18",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "24-07-2026",
+      "id": "aba0605e-eeed-4eed-a516-63cd9ff8fadd",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "23-07-2026",
+      "id": "117f64f6-def6-45a9-ae22-58511648f79b",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "22-07-2026",
+      "id": "9678f693-9e23-4caa-82b8-4825051e0d52",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "21-07-2026",
+      "id": "86e08c52-babb-4387-b631-5af37e519628",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "20-07-2026",
+      "id": "31e8cb05-8707-45ae-b190-0520ce8e9516",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "Caroline Polachek",
+      "album": "Desire, I Want To Turn Into You",
+      "track": "Billions",
+      "description": "Her most ethereal and gorgeous song. She does all kinds of arty music but this I love the most.",
+      "link": "https://www.youtube.com/watch?v=4zEQJrggKgk",
+      "game": false,
+      "day": "19-07-2026",
+      "id": "83d7ab7a-5b61-4037-bede-df990b69b9aa",
+      "newsletter": false,
+      "filename": "billions.mp3",
+      "tags": [
+        "pop",
+        "magical"
+      ]
+    },
+    {
+      "artist": "Jamie Woon",
+      "album": "Making Time",
+      "track": "Dedication",
+      "description": "Beautiful, meditative song. I especially love the second part half way through with the thick chords",
+      "link": "https://www.youtube.com/watch?v=wr6g0R2zk_Y",
+      "game": false,
+      "day": "18-07-2026",
+      "id": "2f16dd1c-40a8-4ac4-9705-bb256e95eaef",
+      "newsletter": false,
+      "filename": "dedication.mp3",
+      "tags": [
+        "peaceful",
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Yasunori Mitsuda",
+      "album": "Xenoblade Chronicles",
+      "track": "Valak Mountain (Night)",
+      "description": "For me a standout track on this soundtrack. The piano sounds positively icy.",
+      "link": "https://www.youtube.com/watch?v=kBdO6uKdMl4",
+      "game": true,
+      "day": "17-07-2026",
+      "id": "b146999f-6f35-41db-b1fc-69105f901a45",
+      "newsletter": false,
+      "filename": "valak-mountain.mp3",
+      "tags": [
+        "chill",
+        "other"
+      ]
+    },
+    {
+      "artist": "Frank Turner",
+      "album": "Love, Ire and Song",
+      "track": "Long Live The Queen",
+      "description": "I've been a long time fan of this local punk singer from Southampton. This is his best song, about his mate who died.",
+      "link": "https://www.youtube.com/watch?v=_RbNdwY4ujw",
+      "game": false,
+      "day": "16-07-2026",
+      "id": "0d57e6ed-3aad-463e-9f11-88e31425d749",
+      "newsletter": false,
+      "filename": "long-live-the-queen.mp3",
+      "tags": [
+        "rock",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "The Beach Boys",
+      "album": "Still Cruisin'",
+      "track": "Kokomo",
+      "description": "Childhood song! I misheard many of these lyrics back then. This song contributes heavily to the sunset beach palm tree vibe that I love in my fashion",
+      "link": "https://www.youtube.com/watch?v=fJWmbLS2_ec",
+      "game": false,
+      "day": "15-07-2026",
+      "id": "f26c9313-7cfe-44e8-abd6-a21b80df6eea",
+      "newsletter": false,
+      "filename": "kokomo.mp3",
+      "tags": [
+        "classic",
+        "pop",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Dionne Warwick",
+      "album": "Make Way for Dionne Warwick",
+      "track": "Walk On By",
+      "description": "Dionne collaborated with Burt Bacharach many times in her career. His songs are complex and interesting and she's also great. This song is so melancholic and I've been a fan ever since listening to the Stranglers cover of it.",
+      "link": "https://www.youtube.com/watch?v=vsGsCvJWEo8",
+      "game": false,
+      "day": "14-07-2026",
+      "id": "7c515fee-cc3e-4a84-8407-d46bd74e5e17",
+      "newsletter": false,
+      "filename": "walk-on-by.mp3",
+      "tags": [
+        "chill",
+        "sad songs",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Kohta Takahashi, Hiroshi Okubo, Asuka Sakai",
+      "album": "Ridge Racer Type 4",
+      "track": "Ridge Racer -one more win-",
+      "description": "Banging classic house track from this PS1 game. This era of playstation had some incredible dance music. When I'm feeling strong I will DJ this track",
+      "link": "https://www.youtube.com/watch?v=1fef0Eg6Q-I",
+      "game": true,
+      "day": "13-07-2026",
+      "id": "2fa55e92-ab87-4b96-8373-da7450fec5ab",
+      "newsletter": false,
+      "filename": "ridge-racer.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
+    },
+    {
+      "artist": "Masafumi Takada, Jun Fukuda",
+      "album": "Contact",
+      "track": "Ending: The Truth (Wild NSide)",
+      "description": "Great house-inspired credits music from this obscure DS game. Can't remember how this crept onto my playlist, I definitely haven't played it. Worth your time though",
+      "link": "https://www.youtube.com/watch?v=OY2neaGljcE",
+      "game": true,
+      "day": "12-07-2026",
+      "id": "d6cb8d99-b997-4a57-8c00-b2114d995a5a",
+      "newsletter": false,
+      "filename": "ending-the-truth.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
+    },
+    {
+      "artist": "Miami Horror (feat. Kimbra)",
+      "album": "Illumination",
+      "track": "I Look To You",
+      "description": "What a catchy track. I've put this on party playlists ever since it came out",
+      "link": "https://www.youtube.com/watch?v=jna2r56EXTg",
+      "game": false,
+      "day": "11-07-2026",
+      "id": "076cfbaa-b779-419a-8390-fd87a4d717cb",
+      "newsletter": false,
+      "filename": "i-look-to-you.mp3",
+      "tags": [
+        "party",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Kylie Minogue",
+      "album": "Fever",
+      "track": "In Your Eyes",
+      "description": "A perfect pop song from one of my favourite divas. I love this rhythmic synth line, I don't know how to describe it but it's kinda hypnotic.",
+      "link": "https://www.youtube.com/watch?v=OjETibEMbJY",
+      "game": false,
+      "day": "10-07-2026",
+      "id": "40278257-106a-4fb0-877c-6b1247a165ea",
+      "newsletter": false,
+      "filename": "in-your-eyes.mp3",
+      "tags": [
+        "pop",
+        "party",
+        "classic"
+      ]
+    },
+    {
+      "artist": "KM_EXP",
+      "album": "Everhood",
+      "track": "Victory Song",
+      "description": "An insane introduction to this parody of a stereotypical victory song. It's so Mario Kart Wii coded that it hurts. I'm obsessed with it. I used it for multiple trailers that I made for smash tournaments.",
+      "link": "https://www.youtube.com/watch?v=dpj9oyCiSeI",
+      "game": true,
+      "day": "09-07-2026",
+      "id": "6d1d5772-b184-430b-86d0-78b319889fca",
+      "newsletter": false,
+      "filename": "victory-song.mp3",
+      "tags": [
+        "party",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Ikuko Mimori",
+      "album": "Pokemon Snap",
+      "track": "Cave",
+      "description": "Standout track from this game, what a magical and mysterious vibe!",
+      "link": "https://www.youtube.com/watch?v=U2DRXx8Kbqc",
+      "game": true,
+      "day": "08-07-2026",
+      "id": "2b474df4-544b-44e9-9f85-0f99897fdc90",
+      "newsletter": false,
+      "filename": "cave.mp3",
+      "tags": [
+        "pokemon",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Confidence Man",
+      "album": "3AM (LA LA LA)",
+      "track": "Sicko",
+      "description": "Moody song from this band that doesn't normally make this kind of music. The video is captivating, even if I don't find the guy hot. I actually think the girl is insanely sexy in this video. The shot circling her with her wet hair near the beginning... incredible",
+      "link": "https://www.youtube.com/watch?v=StDbL0IY4OE",
+      "game": false,
+      "day": "07-07-2026",
+      "id": "a3d9da31-7617-4f6b-94b2-e2c1966bf5ef",
+      "newsletter": false,
+      "filename": "sicko.mp3",
+      "tags": [
+        "intense",
+        "video",
+        "special vibes"
+      ]
+    },
+    {
+      "artist": "Magdalena Bay",
+      "album": "-",
+      "track": "Paint Me A Picture",
+      "description": "One of my favourite bands came out with some new singles and they are so moody and great. This one is an obsession of mine just because of the bassline alone.",
+      "link": "https://www.youtube.com/watch?v=31tRTNwdHyQ",
+      "game": false,
+      "day": "06-07-2026",
+      "id": "46655a40-6ae8-4da9-9cee-b4efc67e79df",
+      "newsletter": false,
+      "filename": "paint-me-a-picture.mp3",
+      "tags": [
+        "chill",
+        "pop",
+        "magical"
+      ]
+    },
+    {
+      "artist": "Jockstrap",
+      "album": "I Love You Jennifer B",
+      "track": "Greatest Hits",
+      "description": "Great track about a lady finally having good sex with a man. The video is awesome.",
+      "link": "https://www.youtube.com/watch?v=_1-x1GWu96o",
+      "game": false,
+      "day": "05-07-2026",
+      "id": "2f18f5ea-8a1d-4e1c-9080-7983990e7536",
+      "newsletter": false,
+      "filename": "greatest-hits.mp3",
+      "tags": [
+        "video",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Naofumi Hataya, Masafumi Ogata",
+      "album": "Sonic CD",
+      "track": "Tidal Tempest (Present)",
+      "description": "The Japanese/EU version of this soundtrack might be obscure but it actually inspired a million other soundtracks. Music like this can be heard in Deltarune for example. It's a specific kind of Japanese fusion music, kinda hard to describe.",
+      "link": "https://www.youtube.com/watch?v=AOKUK3RcJI8",
+      "game": true,
+      "day": "04-07-2026",
+      "id": "4590089d-0166-41dd-92e1-0676ebf56fa7",
+      "newsletter": false,
+      "filename": "tidal-tempest.mp3",
+      "tags": [
+        "party",
+        "sonic",
+        "other"
+      ]
+    },
+    {
+      "artist": "Lingua Ignota",
+      "album": "Sinner Get Ready",
+      "track": "Pennsylvania Furnace",
+      "description": "Music from an incredible artist that I only listen to when I'm feeling devastated. It's devastating music. The whole album is exclusively for particularly bad events. This particular song is about a feeling of acute loneliness.",
+      "link": "https://www.youtube.com/watch?v=7YRMV7ffPpY",
+      "game": false,
+      "day": "03-07-2026",
+      "id": "9014fa5e-085f-4c10-a2b8-3523f8c4bc86",
+      "newsletter": false,
+      "filename": "pennsylvania-furnace.mp3",
+      "tags": [
+        "sad songs",
+        "devastating"
+      ]
+    },
+    {
+      "artist": "Ane Brun",
+      "album": "Changing of the Seasons",
+      "track": "Gillian",
+      "description": "Lovely song about feeling sad and lonely, and listening to a song by Gillian Welch and feeling better. I also feel way better after listening to music. Especially heartwarming music like this",
+      "link": "https://www.youtube.com/watch?v=DvVV-etNeCQ",
+      "game": false,
+      "day": "02-07-2026",
+      "id": "a9c7a195-b68f-4d4e-ba87-bfc0df5ffda8",
+      "newsletter": false,
+      "filename": "gillian.mp3",
+      "tags": [
+        "scandinavian",
+        "singer-songwriter",
+        "peaceful"
+      ]
+    },
+    {
+      "artist": "Masato Nakamura",
+      "album": "Sonic the Hedgehog",
+      "track": "Starlight Zone (Tee Lopes Remix)",
+      "description": "I had a real Tee Lopes moment when I realised that this guy who uploaded remixes of old Sonic songs made the incredible official Sonic Mania soundtrack! His remixes from Sonic 1 and 2 are so good, and this is one of my favourites.",
+      "link": "https://www.youtube.com/watch?v=7qKh-5msybk",
+      "game": true,
+      "day": "01-07-2026",
+      "id": "f93039e5-1483-4d99-8521-0ffbbf8e59c9",
+      "newsletter": false,
+      "filename": "starlight-zone.mp3",
+      "tags": [
+        "sonic",
+        "other"
+      ]
+    },
     {
       "artist": "Dire Straits",
       "album": "On Every Street",
