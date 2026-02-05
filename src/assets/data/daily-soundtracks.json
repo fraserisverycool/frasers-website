@@ -1,172 +1,209 @@
 {
   "other ideas": [
     "pokemon diamond route 216",
-    "d'angelo how does it feel",
-    "roberta flack feel like makin love",
     "pokemon ruby sapphire desert",
     "mag bay head over heels https://www.youtube.com/watch?v=T8WDr5fkwCw",
     "confidence man who knows what you'll find",
-    "kylie shocked",
-    "starsailor",
-    "villagers",
-    "this is the kit"
+    "kylie shocked"
   ],
   "dailysoundtracks": [
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "David Wise",
+      "album": "Donkey Kong Country: Tropical Freeze",
+      "track": "Big Top Bop",
+      "description": "I lift weights in the gym to Big Top Bop. It's simply doesn't get more hardcore than Big Top motherfucking Bop and yes it's the boss theme of a cartoon seal. No other boss music in the game comes even close to this, the boss of world 1. Big Top Bop forever.",
+      "link": "https://www.youtube.com/watch?v=301s-GDML5w",
+      "game": true,
       "day": "31-07-2026",
       "id": "a58cbeb0-7659-4537-a90d-841564dce38f",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "big-top-bop.mp3",
+      "tags": [
+        "rock",
+        "intense"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Hot Chip",
+      "album": "In Our Heads",
+      "track": "Let Me Be Him",
+      "description": "One of my first ever Hot Chip tracks before I became a fan. Love the warmth. Love the sunset ending",
+      "link": "https://www.youtube.com/watch?v=OcmCKWIU1q8",
       "game": false,
       "day": "30-07-2026",
       "id": "cd38ba28-f3a9-4955-8e04-b5e3e445ba4a",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "let-me-be-him.mp3",
+      "tags": [
+        "chill",
+        "electronic",
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Doves",
+      "album": "Last Broadcast",
+      "track": "Last Broadcast",
+      "description": "Great track from a great album. This one takes me to a very specific place",
+      "link": "https://www.youtube.com/watch?v=qHJfFYWul1c",
       "game": false,
       "day": "29-07-2026",
       "id": "14dfff88-596f-484d-a3c2-390dab4bf908",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "https://www.youtube.com/watch?v=qHJfFYWul1c",
+      "tags": [
+        "intense",
+        "chill",
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "The Coral",
+      "album": "The Coral",
+      "track": "Dreaming Of You",
+      "description": "Fun song from this britpop band",
+      "link": "https://www.youtube.com/watch?v=QXt723fN1ss",
       "game": false,
       "day": "28-07-2026",
       "id": "d2d5e369-d3ea-4184-8bfe-552c3a622fd0",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "dreaming-of-you.mp3",
+      "tags": [
+        "rock"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Starsailor",
+      "album": "Love Is Here",
+      "track": "Tie Up My Hands",
+      "description": "Childhood British band. Their album is very slow and sad but I listened to it a lot. This first track is super ominous",
+      "link": "https://www.youtube.com/watch?v=O-0wfd6jCyw",
       "game": false,
       "day": "27-07-2026",
       "id": "35a0d95e-ced2-47ec-b605-737a4759d7b8",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "tie-up-my-hands.mp3",
+      "tags": [
+        "chill",
+        "sad songs",
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Chris Isaak",
+      "album": "Heart Shaped World",
+      "track": "Wicked Games",
+      "description": "It's a classic. It's catchy and great for karaoke",
+      "link": "https://www.youtube.com/watch?v=oadhHk2xs6c",
       "game": false,
       "day": "26-07-2026",
       "id": "07153ca9-43b7-4019-8553-a7fe6fc02156",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "wicked-games.mp3",
+      "tags": [
+        "sad songs",
+        "chill",
+        "singer-songwriter"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Roberta Flack",
+      "album": "Feel Like Makin' Love",
+      "track": "Feel Like Makin' Love",
+      "description": "Gorgeous, sensuous, stunning music. Babymaking music.",
+      "link": "https://www.youtube.com/watch?v=S_JeuGdXl5o",
       "game": false,
       "day": "25-07-2026",
       "id": "fa82e3a0-d206-4532-add6-4bd4b83cbd18",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "feel-like-makin-love.mp3",
+      "tags": [
+        "chill",
+        "soul"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "D'Angelo",
+      "album": "Voodoo",
+      "track": "Untitled (How Does It Feel)",
+      "description": "Wow, possibly one of the sexiest songs out there. And the video is WORTH YOUR TIME! The way this song ends is wild to me. The way he looks in the camera right at the end. What's really going on?",
+      "link": "https://www.youtube.com/watch?v=SxVNOnPyvIU",
       "game": false,
       "day": "24-07-2026",
       "id": "aba0605e-eeed-4eed-a516-63cd9ff8fadd",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "how-does-it-feel.mp3",
+      "tags": [
+        "video",
+        "soul"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Hirokazu Ando, Jun Ishikawa, Yuuta Ogasawara, Yuki Shimooka",
+      "album": "Kirby and the Forgotten Land",
+      "track": "Abandoned Beach",
+      "description": "I love modern kirby soundtracks for their frenetic and harmonic vibes. They often have very juicy chord progressions and you love them like me, go check out the B section of this track!",
+      "link": "https://www.youtube.com/watch?v=UIPEZ0YPtWE",
+      "game": true,
       "day": "23-07-2026",
       "id": "117f64f6-def6-45a9-ae22-58511648f79b",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "abandoned-beach.mp3",
+      "tags": [
+        "chill",
+        "kirby",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Kenta Nagata",
+      "album": "Mario Kart 64",
+      "track": "Toad's Turnpike",
+      "description": "Huge vibe! Hypnotic, almost.",
+      "link": "https://www.youtube.com/watch?v=7gwdPCs9Q8w",
+      "game": true,
       "day": "22-07-2026",
       "id": "9678f693-9e23-4caa-82b8-4825051e0d52",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "toads-turnpike.mp3",
+      "tags": [
+        "mario",
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "El Perro Del Mar",
+      "album": "El Perro Del Mar",
+      "track": "Dog",
+      "description": "The lyrics in this song consist of two repeated lines: 'all the feelings you've got for me, it's like for a dog'. She just repeats it over and over. It makes me think about how dogs can't really communicate, like she's actually putting herself in the shoes of a dog. And she sounds so upset!",
+      "link": "https://www.youtube.com/watch?v=EOclg_Y9HMA",
       "game": false,
       "day": "21-07-2026",
       "id": "86e08c52-babb-4387-b631-5af37e519628",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "dog.mp3",
+      "tags": [
+        "sad songs",
+        "indie",
+        "scandinavian"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Villagers",
+      "album": "Fever Dreams",
+      "track": "Restless Endeavour",
+      "description": "This artist is known for cool, very audible lyrics in his songs, but this song is just repeating the same thing over and over again. It's got a great build up and release.",
+      "link": "https://www.youtube.com/watch?v=3L-eMg8dr0I",
       "game": false,
       "day": "20-07-2026",
       "id": "31e8cb05-8707-45ae-b190-0520ce8e9516",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "restless-endeavour.mp3",
+      "tags": [
+        "chill",
+        "magical",
+        "indie"
+      ]
     },
     {
       "artist": "Caroline Polachek",
