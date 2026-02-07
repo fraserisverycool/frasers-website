@@ -4,7 +4,7 @@ import stat
 
 LOCAL_FOLDER = "../assets/"      # Where files will be stored locally
 REMOTE_FOLDER = "/var/www/images"  # Folder on your server
-PI_HOST = "192.168.2.217"  # Replace with your IP Address
+PI_HOST = "raspberrypi.local"  # Replace with your IP Address
 PI_USER = "fraserbowen"  # Replace with your username
 PI_PASSWORD = "BigCheeseForever1!"  # Replace with your password
 PI_KEY_PATH = None  # Path to private key if using key auth
