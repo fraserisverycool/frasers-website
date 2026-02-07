@@ -342,6 +342,12 @@
           "order": 4,
           "newsletter": true,
           "description": "A sticker that Marco gave me"
+        },
+        {
+          "filename": "yoshi5.jpg",
+          "order": 5,
+          "newsletter": true,
+          "description": "A snippet from an old Nintendo Power Magazine"
         }
       ],
       "id": "7c471ba9-c47c-4673-a456-3268aa387171",
@@ -378,6 +384,12 @@
           "order": 3,
           "newsletter": true,
           "description": "A cool pin that Jack gave me"
+        },
+        {
+          "filename": "kirby4.jpg",
+          "order": 4,
+          "newsletter": false,
+          "description": "A snippet from an old Nintendo Power Magazine"
         }
       ],
       "id": "88f34b42-2937-4237-89a8-cdba9ce5b692",
@@ -497,6 +509,12 @@
           "order": 1,
           "newsletter": true,
           "description": "I cross-stitched this a million years ago"
+        },
+        {
+          "filename": "ness2.jpg",
+          "order": 2,
+          "newsletter": false,
+          "description": "I have always felt that Ness is creepy so I leaned into that when I realised I needed to draw two of them for the Power Ranking"
         }
       ],
       "id": "a49e562c-dbea-49a3-a959-c7402ac43732",
@@ -1013,9 +1031,15 @@
         },
         {
           "filename": "mewtwo3.jpg",
-          "order": 3,
+          "order": 4,
           "newsletter": true,
           "description": "Bit of a weak picture of Mewtwo"
+        },
+        {
+          "filename": "mewtwo4.jpg",
+          "order": 3,
+          "newsletter": false,
+          "description": "Bit of a weird tadpole-Mewtwo that I drew"
         }
       ],
       "id": "6e2e46fe-2394-4743-9f0d-173eaeb99b7b",
@@ -1070,6 +1094,12 @@
           "order": 1,
           "newsletter": true,
           "description": "I made this with hama beads!"
+        },
+        {
+          "filename": "chrom2.jpg",
+          "order": 2,
+          "newsletter": false,
+          "description": "I drew Chrom as a duck"
         }
       ],
       "id": "09f47b1a-500a-4c24-b748-bdc1d513dfce",
@@ -1100,6 +1130,12 @@
           "order": 1,
           "newsletter": true,
           "description": "A cool old photo of Oberbaumbrücke that I decided to spruce up with this cool sticker of Game and Watch"
+        },
+        {
+          "filename": "gnw3.jpg",
+          "order": 3,
+          "newsletter": false,
+          "description": "A snippet from an old Nintendo Power Magazine"
         }
       ],
       "id": "5e04649d-8470-4285-b76e-0b20cec128f3",
@@ -1273,15 +1309,45 @@
       "deco": [
         {
           "filename": "pokemontrainer1.jpg",
-          "order": 1,
+          "order": 2,
           "newsletter": true,
           "description": "The weird uncomfortably shaped sudowoodo as a cross stitch. Made it ages ago"
         },
         {
           "filename": "pokemontrainer2.jpg",
-          "order": 2,
+          "order": 3,
           "newsletter": true,
           "description": "Rosie made this with hama beads and gave it to me (in exchange for something I made)"
+        },
+        {
+          "filename": "pokemontrainer3.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "The three pokemon as sardines"
+        },
+        {
+          "filename": "squirtle1.jpg",
+          "order": 4,
+          "newsletter": true,
+          "description": "Cool card that I stole from Jack"
+        },
+        {
+          "filename": "squirtle2.jpg",
+          "order": 5,
+          "newsletter": true,
+          "description": "Refreshing artwork from an anime convention"
+        },
+        {
+          "filename": "ivysaur1.jpg",
+          "order": 6,
+          "newsletter": true,
+          "description": "Little plushie that I bought in the Friki Plaza for 400 pesos"
+        },
+        {
+          "filename": "charizard1.jpg",
+          "order": 7,
+          "newsletter": true,
+          "description": "Fun poster I got at an anime convention a long time ago"
         }
       ],
       "id": "6265c9c8-5c31-4701-acef-0cab6700c9dd",
@@ -1489,15 +1555,21 @@
       "deco": [
         {
           "filename": "rob1.jpg",
-          "order": 2,
+          "order": 3,
           "newsletter": true,
           "description": "Cute doodle on a goodbye card"
         },
         {
           "filename": "rob2.jpg",
-          "order": 1,
+          "order": 2,
           "newsletter": true,
           "description": "Really cool photo of Ostbahnhof that I decided to alter by putting this sticker of ROB on it"
+        },
+        {
+          "filename": "rob3.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "Surprised myself by making an ultra-cute ROB-themed dragonfly"
         }
       ],
       "id": "e9afd3f1-1dff-4d08-bedc-5d86fff261bb",
@@ -1684,7 +1756,14 @@
       "completed": false,
       "understood": false,
       "playedDescription": "I really want to get into Punchout because it's genuinely good. But it's hard as balls and I need to actually get good before I can beat it. Maybe I should just play the Wii one.",
-      "deco": [],
+      "deco": [
+        {
+          "filename": "littlemac1.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "It's meant to be Little Mac doing a pose on top of a pondskater"
+        }
+      ],
       "id": "98e9315b-d95c-4313-89ed-30d34c953e12",
       "newsletter": true
     },
@@ -1892,7 +1971,7 @@
       "deco": [
         {
           "filename": "duckhunt1.jpg",
-          "order": 5,
+          "order": 6,
           "newsletter": true,
           "description": "A poster made for our TO team back in like 2023"
         },
@@ -1910,7 +1989,7 @@
         },
         {
           "filename": "duckhunt4.jpg",
-          "order": 6,
+          "order": 7,
           "newsletter": true,
           "description": "Cute Amiibo"
         },
@@ -1925,6 +2004,12 @@
           "order": 4,
           "newsletter": true,
           "description": "I drew this for a top 8 picture for BREXIT SUMMIT"
+        },
+        {
+          "filename": "duckhunt6.jpg",
+          "order": 5,
+          "newsletter": false,
+          "description": "I was inspired by Duck Hunt's swimming animation where the dog struggles and the duck just swims"
         }
       ],
       "id": "375f1de7-e410-4e29-9a31-e64b9ae4b186",
@@ -2039,7 +2124,14 @@
       "completed": true,
       "understood": true,
       "playedDescription": "I played Bayonetta 2 and that's enough for me I think.",
-      "deco": [],
+      "deco": [
+        {
+          "filename": "bayonetta1.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "I drew the beautiful wings then made her a tiny butterfly and now it looks kinda weird"
+        }
+      ],
       "id": "f26f912c-69ea-4734-adde-feb891b3fe62",
       "newsletter": true
     },
@@ -2257,6 +2349,18 @@
           "order": 1,
           "newsletter": true,
           "description": "Bought this at a convention"
+        },
+        {
+          "filename": "joker2.jpg",
+          "order": 2,
+          "newsletter": false,
+          "description": "Drew Joker as a fish for a power ranking"
+        },
+        {
+          "filename": "joker3.jpg",
+          "order": 3,
+          "newsletter": false,
+          "description": "Drew Joker as a fish for a power ranking"
         }
       ],
       "id": "635a6a0b-3f95-40c4-b0a9-f2ac9293b0b7",
@@ -2399,6 +2503,12 @@
           "order": 2,
           "newsletter": true,
           "description": "Stole this from a kid's Minecraft comic book that Veo got for his birthday"
+        },
+        {
+          "filename": "steve2.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "Drew this steve who is drowning"
         }
       ],
       "id": "6bde7508-9910-4849-9853-5319462ba507",
@@ -2454,9 +2564,15 @@
       "deco": [
         {
           "filename": "kazuya1.jpg",
-          "order": 1,
+          "order": 2,
           "newsletter": true,
           "description": "Whale got me this as a gift"
+        },
+        {
+          "filename": "kazuya2.jpg",
+          "order": 1,
+          "newsletter": false,
+          "description": "I drew Kazuya as a woodpecker"
         }
       ],
       "id": "60516ec7-ac53-4ba6-933e-0c1726fb27c4",
