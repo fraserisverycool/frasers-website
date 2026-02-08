@@ -1,8 +1,9 @@
 [
   {
-    "id": "fb7897b2-c7c5-4077-bd3d-abcb873d4431",
+    "id": "424adc9b-b535-484a-b8d4-39fc03f84227",
     "filename": "01. PAC-MAN.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\01. PAC-MAN.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\01. PAC-MAN.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 246,
@@ -17,9 +18,10 @@
     "release": "2014"
   },
   {
-    "id": "9f2083d9-65e0-4a47-bd74-afc94a5d9608",
+    "id": "60347e77-feb8-402f-ba0f-73ca83139994",
     "filename": "02. PAC-MAN (Club Mix).mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\02. PAC-MAN (Club Mix).mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\02. PAC-MAN (Club Mix).mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 237,
@@ -34,9 +36,10 @@
     "release": "2014"
   },
   {
-    "id": "77c79d9b-87ca-4943-87db-7e1fe25de412",
+    "id": "6f80fd6a-4a80-4ecb-951b-cb22cb104221",
     "filename": "03. PAC-MAN'S PARK & BLOCK TOWN.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\03. PAC-MAN'S PARK & BLOCK TOWN.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\03. PAC-MAN'S PARK & BLOCK TOWN.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 234,
@@ -51,9 +54,10 @@
     "release": "2014"
   },
   {
-    "id": "d1d0c131-1fbb-4cd2-875e-706c32dafc54",
+    "id": "9f960f9d-c38b-489c-a3d4-175838799314",
     "filename": "04. Galaga Medley.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\04. Galaga Medley.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\04. Galaga Medley.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 298,
@@ -68,9 +72,10 @@
     "release": "2018"
   },
   {
-    "id": "d1ce87bd-abc1-4d95-a232-3b72ab0dc426",
+    "id": "5426b714-d53f-4bf5-8e92-040e4891e193",
     "filename": "05. Mappy Medley.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\05. Mappy Medley.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\05. Mappy Medley.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 299,
@@ -85,9 +90,10 @@
     "release": "2018"
   },
   {
-    "id": "3f1cde94-a91d-42b3-b2a0-e3ecebf7d065",
+    "id": "c8f205d8-8e08-4749-8875-ed4e609651f1",
     "filename": "06. Libble Rabble Retro Medley.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\06. Libble Rabble Retro Medley.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\06. Libble Rabble Retro Medley.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 298,
@@ -102,9 +108,10 @@
     "release": "1983"
   },
   {
-    "id": "df2f7f73-33c6-47b4-a8da-270740b3519d",
+    "id": "450f0021-e78e-4532-8c5c-824df9943067",
     "filename": "07. Metro-Cross Retro Medley.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\07. Metro-Cross Retro Medley.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\07. Metro-Cross Retro Medley.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 274,
@@ -119,9 +126,10 @@
     "release": "1985"
   },
   {
-    "id": "31f4381b-87ae-4ad6-a783-70d7a641fe07",
+    "id": "e60289a2-4c96-4b8f-b9b7-1c69af74de8a",
     "filename": "08. Sky Kid Retro Medley.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\08. Sky Kid Retro Medley.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\08. Sky Kid Retro Medley.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 248,
@@ -136,9 +144,10 @@
     "release": "1985"
   },
   {
-    "id": "da156026-3fbc-4b56-bf1b-e88f4e076565",
+    "id": "6ab73fcf-eb98-4952-8033-2c44b57650b6",
     "filename": "09. Yokai Dochuki Retro Medley.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\09. Yokai Dochuki Retro Medley.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\09. Yokai Dochuki Retro Medley.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 226,
@@ -153,9 +162,10 @@
     "release": "1987"
   },
   {
-    "id": "0995786c-1352-4d19-823e-4d30634265ed",
+    "id": "41c7c93f-2089-4f85-be7e-e7e22135e67c",
     "filename": "10. Bravoman Retro Medley.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\10. Bravoman Retro Medley.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\10. Bravoman Retro Medley.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 232,
@@ -170,9 +180,10 @@
     "release": "1988"
   },
   {
-    "id": "27e7c890-993f-473b-8760-370a115bc7dd",
+    "id": "dc43ee7b-1aa1-4827-bc00-90663c263928",
     "filename": "11. Area 1 - Dragon Spirit.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\11. Area 1 - Dragon Spirit.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\11. Area 1 - Dragon Spirit.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 311,
@@ -187,9 +198,10 @@
     "release": "2018"
   },
   {
-    "id": "0913e3d6-b041-4c14-aabd-d8d56304ad95",
+    "id": "6093628d-4b76-44a5-af72-8970ac975ae8",
     "filename": "12. Namco Arcade '80s Retro Medley 1.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\12. Namco Arcade '80s Retro Medley 1.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\12. Namco Arcade '80s Retro Medley 1.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 263,
@@ -204,9 +216,10 @@
     "release": "1984"
   },
   {
-    "id": "4e70b221-e894-4f52-aa13-b110cefba9c5",
+    "id": "644f4481-e540-4b00-b30b-c7b824e9420d",
     "filename": "13. Namco Arcade '80s Retro Medley 2.mp3",
-    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\13. Namco Arcade '80s Retro Medley 2.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)\\13. Namco Arcade '80s Retro Medley 2.mp3",
+    "image": "",
     "description": "",
     "stars": "",
     "duration": 275,

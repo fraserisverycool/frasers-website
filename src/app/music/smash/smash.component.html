@@ -1,3 +1,76 @@
 <div class="container">
   <h1>Super Smash Bros. Soundtrack</h1>
+
+  @if (loading) {
+    <div class="loading">
+      Loading soundtrack data...
+    </div>
+  }
+
+  @if (!loading) {
+    @for (volume of volumes; track volume) {
+      <div class="volume-section">
+        <h2 (click)="toggleVolume(volume)" class="volume-title">
+          <span class="arrow" [class.expanded]="volume.expanded">▶</span>
+          {{ volume.title }}
+        </h2>
+
+        @if (volume.expanded) {
+          <div class="track-list">
+            @if (volume.notes) {
+              <div class="volume-notes">
+                {{ volume.notes }}
+              </div>
+            }
+            @for (track of volume.tracks; track track) {
+              <div class="track-item">
+                <h3 class="track-title">
+                  @if (getFranchiseIcon(track.comment); as icon) {
+                    <img [src]="imageService.imageUrl('music/smash/franchise-icons/' + icon)" class="franchise-icon" alt="">
+                  }
+                  {{ track.title }}
+                  @if (track['original-game']) {
+                    <span class="original-game"> - {{ track['original-game'] }}</span>
+                  }
+                  @if (track.comment?.includes('Remix')) {
+                    <span class="remix-label">REMIX</span>
+                  }
+                  @if (track.removed) {
+                    <span class="removed-label">REMOVED IN ULTIMATE</span>
+                  }
+                </h3>
+                <div class="track-details">
+                  @if (track.image) {
+                    <img [src]="imageService.imageUrl('music/smash/album-art/' + track.image)" [alt]="track.title" class="track-image">
+                  }
+                  <div class="track-info">
+                    <div class="track-meta">
+                      <span class="composer-info">
+                        @if (track.composers) {
+                          <strong>Composed by:</strong> {{ track.composers }}
+                        }
+                        @if (track.contributors && !track.comment?.includes('Original')) {
+                          <span class="contributor-info"><strong>Arranged by:</strong> {{ track.contributors }}</span>
+                        }
+                      </span>
+                      @if (track.release) {
+                        <span class="release-date">{{ track.release }}</span>
+                      }
+                    </div>
+                    @if (track.description) {
+                      <p class="track-description">{{ track.description }}</p>
+                    }
+                    <audio controls preload="none" [src]="imageService.imageUrl(track.path)">
+                      Mate your browser cannot handle this audio player.
+                    </audio>
+                  </div>
+                </div>
+              </div>
+            }
+          </div>
+        }
+      </div>
+    }
+  }
+
 </div>

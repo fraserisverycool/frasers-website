@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { SmashComponent } from './smash.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import SmashComponent from './smash.component';
 
 describe('SmashComponent', () => {
   let component: SmashComponent;
@@ -8,7 +8,7 @@ describe('SmashComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SmashComponent]
+      imports: [SmashComponent, HttpClientTestingModule]
     })
     .compileComponents();
 

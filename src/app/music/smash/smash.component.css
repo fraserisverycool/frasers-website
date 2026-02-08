@@ -1,12 +1,165 @@
 .container {
-  background-color: #f5d698;
+  background-color: #fff9f0;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   padding: 30px;
-  margin: 0 auto;
+  margin: 20px auto;
   box-sizing: border-box;
   border: 2px solid #e6a23c;
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-  margin-top: 20px;
+}
+
+.volume-section {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.volume-title {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.volume-title:hover {
+  background-color: #e9ecef;
+}
+
+.arrow {
+  display: inline-block;
+  margin-right: 10px;
+  transition: transform 0.2s;
+  font-size: 0.8rem;
+}
+
+.arrow.expanded {
+  transform: rotate(90deg);
+}
+
+.track-list {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.volume-notes {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #fff4e6;
+  border-left: 4px solid #e6a23c;
+  font-style: italic;
+  line-height: 1.5;
+  color: #555;
+  border-radius: 0 4px 4px 0;
+}
+
+.track-item {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.track-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.track-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.franchise-icon {
+  height: 24px;
+  width: auto;
+}
+
+.original-game {
+  font-size: 0.85em;
+  font-weight: normal;
+  color: #666;
+}
+
+.track-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.track-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.track-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.track-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.contributor-info {
+  margin-left: 2em;
+}
+
+.track-description {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.remix-label {
+  color: #911411;
+  font-weight: bold;
+  margin-left: 2em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.removed-label {
+  color: #281191;
+  font-weight: bold;
+  margin-left: 2em;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+audio {
+  width: 100%;
+  max-width: 500px;
+  height: 32px;
+  margin-top: 15px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-style: italic;
+  color: #888;
 }

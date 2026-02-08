@@ -11,7 +11,6 @@ ROOT_MUSIC_DIR = "../assets/music/smash"
 OUTPUT_DIR = "../assets/data/smash"
 
 PATH_PREFIX_TO_STRIP = "../assets/"
-PATH_PREFIX_TO_ADD = "music/"
 
 # --------------------------------------------------
 # ID3 → clean schema mapping
@@ -71,7 +70,7 @@ def process_series(series_dir):
       # Rewrite path exactly as requested
       path = full_path
       if path.startswith(PATH_PREFIX_TO_STRIP):
-        path = PATH_PREFIX_TO_ADD + path[len(PATH_PREFIX_TO_STRIP):]
+        path = path[len(PATH_PREFIX_TO_STRIP):]
 
       audio = File(full_path, easy=False)
       if audio is None or audio.tags is None:
@@ -87,6 +86,7 @@ def process_series(series_dir):
         "id": str(uuid.uuid4()),
         "filename": file,
         "path": path,
+        "image": "",
         "description": "",
         "stars": "",
         "duration": None,
