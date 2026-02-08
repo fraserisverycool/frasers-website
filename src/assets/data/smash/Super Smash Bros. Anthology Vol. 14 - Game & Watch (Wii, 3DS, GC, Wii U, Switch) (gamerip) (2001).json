@@ -1,0 +1,36 @@
+[
+  {
+    "id": "da0819e6-a5fb-451f-adda-4e98d0c39707",
+    "filename": "01. Flat Zone.mp3",
+    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 14 - Game & Watch (Wii, 3DS, GC, Wii U, Switch) (gamerip) (2001)\\01. Flat Zone.mp3",
+    "description": "",
+    "stars": "",
+    "duration": 216,
+    "track": "1",
+    "title": "Flat Zone",
+    "composers": "Shogo Sakai",
+    "contributors": "Hirokazu Ando",
+    "album": "Super Smash Bros. Anthology - Vol. 14: Game & Watch",
+    "original-game": "Game & Watch",
+    "comment": "Melee Remix",
+    "volume": "14",
+    "release": "2001"
+  },
+  {
+    "id": "c9b0ba28-b7b0-42ff-97c3-6fe0f2c8dff8",
+    "filename": "02. Flat Zone 2.mp3",
+    "path": "music/music/smash\\Super Smash Bros. Anthology Vol. 14 - Game & Watch (Wii, 3DS, GC, Wii U, Switch) (gamerip) (2001)\\02. Flat Zone 2.mp3",
+    "description": "",
+    "stars": "",
+    "duration": 227,
+    "track": "2",
+    "title": "Flat Zone 2",
+    "composers": "Kenichi Okuma",
+    "contributors": "Kenichi Okuma",
+    "album": "Super Smash Bros. Anthology - Vol. 14: Game & Watch",
+    "original-game": "Game & Watch",
+    "comment": "Brawl Remix",
+    "volume": "14",
+    "release": "2008"
+  }
+]

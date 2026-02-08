@@ -15,6 +15,7 @@ import MixesComponent from "./music/mixes/mixes.component";
 import CdsComponent from "./music/cds/cds.component";
 import DailiesComponent from "./music/daily/dailies/dailies.component";
 import WorldpeaceComponent from "./music/worldpeace/worldpeace.component";
+import SmashComponent from "./music/smash/smash.component";
 import BooksComponent from "./books/books.component";
 import PhotosComponent from "./gallery/photos.component";
 import VideosComponent from "./gallery/videos/videos.component";
@@ -87,6 +88,9 @@ export const routes: Routes = [
   },
   {
     path: 'music/worldpeace', component: WorldpeaceComponent, data: { title: 'DJ World Peace - Fraser\'s Website' }
+  },
+  {
+    path: 'music/smash', component: SmashComponent, data: { title: 'Super Smash Bros. Soundtrack - Fraser\'s Website' }
   },
   {
     path: 'books', component: BooksComponent, data: { title: 'Books - Fraser\'s Website' }
