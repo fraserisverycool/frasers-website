@@ -1,6 +1,58 @@
 {
   "soundtracks": [
     {
+      "filename": "paper-mario-origami-king.jpg",
+      "name": "Paper Mario: The Origami King",
+      "description": [
+        "What an absolute delight! Not only do they treat us with the Thousand Year Door, but also Origami King! This soundtrack is on the same level as TTYD for sure, those composers at Intelligent Systems know what they're doing. They always go above and beyond. In these games they're making pieces of music for every little thing. Sometimes you just hear these tracks just once for a few seconds! The result is an 11-hour soundtrack. By the end you might be fed up of this kind of music but not me, I think it's all quality.",
+        "Where to start? The incredible 10/10 battle music. Each area has its own variation of it, and they all fucking slap. The Red Streamer Battle is the original and I have to say the best, it's just so good. Yellow Streamer, Purple Streamer, Vellumental Battle and Autumn Mountain Battle are also favourites of mine. The battles themselves in the game were arguably the weakest part of the game (imagine how could this game could have been if it had Thousand Year Door battle mechanics...) but that didn't stop them having the best music ever.",
+        "In this game, the main antagonists are stationary items like scissors, rubber bands etc, which I find hilarious. When you fight the hole punch, you have to lure it out of its cave with some dance music, because it's actually a dancing hole punch (they animated that really well). You get a choice of four tracks and I remember playing the game trying the first three thinking 'these are all shit', then BAM, the fourth one is just an absolutely incredible disco banger! It's called 'Thrills at Night' and it's the only one to get the holepunch out. It's so fucking good I swear I'm going to DJ it.",
+        "There's also plenty of just great piano music, like the museum variation of Toad Town, or the excellent Coffee Break music. And 'Tranquil Pipes Teahouse' is literally just Maple Treeway! Wow!",
+        "Other highlights: Snif City! What a bop!"
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Event Battle",
+        "Super Star",
+        "Red Streamer Battle",
+        "Olivia's Bench",
+        "Picnic Road",
+        "Overlook Mountain",
+        "Game Over",
+        "Vellumental Battle",
+        "Musée Champignon",
+        "Battle Lab - Ring Trainer",
+        "Autumn Mountain",
+        "Autumn Mountain Battle",
+        "Exploring Autumn Mountain",
+        "Coffee Break",
+        "Blue Streamer Battle",
+        "Space Warrior Mask",
+        "Tranquil Pipes Teahouse",
+        "Enter Birdo",
+        "The Princess Peach",
+        "Yellow Streamer Battle",
+        "Snif City",
+        "Snif City Royal Hotel",
+        "Temple of Shrooms Disco",
+        "Exploring the Temple of Shrooms",
+        "Thrills at Night",
+        "Shroom City",
+        "Purple Streamer Battle",
+        "The Princess Peach - Restoration Party!",
+        "Shangri-Spa",
+        "Exploring Shangri-Spa",
+        "Dog-Eared Fight",
+        "Origami Castle",
+        "Olivia's Last Bench",
+        "Battle with King Olly",
+        "The Final Battle",
+        "King Olly, Origami Overlord"
+      ],
+      "id": "e0a6c9e3-19c5-4d8d-b09b-dbeb3d8b8b48",
+      "newsletter": false
+    },
+    {
       "filename": "tomodachi-life.jpg",
       "name": "Tomodachi Life",
       "description": [
