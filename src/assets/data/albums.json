@@ -1,6 +1,27 @@
 {
   "albums": [
     {
+      "filename": "cmat-euro.jpg",
+      "artist": "CMAT",
+      "name": "EURO-COUNTRY",
+      "releaseyear": "2025",
+      "description": [
+        "This lady is so fun and full of excellent vibes. She's loud and funny and I want to be her friend. The album is loosely about the 2008 financial crisis and the weird place it put Ireland in, and I love songs about politics. And she's got all these great songs! My absolute favourite is 'The Jamie Oliver Petrol Station', which is a meditation on hatred. She just hates Jamie Oliver and the song is about kicking herself for it because there's no point wasting time seething. It's such an anthem. Then there's 'Take a Sexy Picture of Me' which has the best chorus ever. It's got me singing along in my house 'I've been having a horrible time'! And the line about taking a picture to make her look 16? Oof! She's been there. And the song about the Tesla? Oof. Damn."
+      ],
+      "topTracks": [
+        "EURO-COUNTRY",
+        "The Jamie Oliver Petrol Station",
+        "Take a Sexy Picture of Me",
+        "Lord, Let That Tesla Crash",
+        "Janis Joplining"
+      ],
+      "tags": [
+        "pop"
+      ],
+      "id": "7eee60e1-9084-4cde-950b-f631b8bd1327",
+      "newsletter": false
+    },
+    {
       "filename": "tears-songs.jpg",
       "artist": "Tears For Fears",
       "name": "Songs From The Big Chair",

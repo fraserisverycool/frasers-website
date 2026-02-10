@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "drunken-noodles.jpg",
+      "title": "Drunken Noodles",
+      "description": "I was a rolling my eyes a little at the supernatural aspects of this film. But it featured a great romantic moment between this guy and a man in his 70s.",
+      "year": "2026",
+      "release": "2025",
+      "id": "44163f86-e974-4afd-a4c6-49cd3fa7e422",
+      "newsletter": false
+    },
+    {
       "filename": "it-was-just-an-accident.webp",
       "title": "It Was Just an Accident",
       "description": "Really great film with a horrible premise (it's about torture) but it's full of good people and a really thrilling story.",
