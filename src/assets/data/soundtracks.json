@@ -35,7 +35,7 @@
         "Battle! (Deoxys)"
       ],
       "id": "39c03671-72ec-4d6a-a640-6984e23c1c7d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "paper-mario-origami-king.jpg",
@@ -87,7 +87,7 @@
         "King Olly, Origami Overlord"
       ],
       "id": "e0a6c9e3-19c5-4d8d-b09b-dbeb3d8b8b48",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "tomodachi-life.jpg",
@@ -122,7 +122,7 @@
         "Port: Guest Book"
       ],
       "id": "153f3ea7-2913-4299-beef-831c25815986",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "warioware.jpg",

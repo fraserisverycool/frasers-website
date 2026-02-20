@@ -1,0 +1,218 @@
+{
+    "timestamp": "20-02-2026",
+    "title": "New goal: remove big tech companies from my life",
+    "description": [
+        "Hey everyone and welcome to another newsletter. I've recently made a resolution for the second half of this decade, and that's to slowly but surely remove big tech from my life. First and foremost that means not adding any more big tech, like new subscriptions etc. From here on out, it's going to be less and less. I know that it's gonna be hard, I also can't imagine a life without Google Maps, but I'm gonna take it step by step.",
+        "Why go through the trouble? Because I'm acutely aware of the capabilities of the Palantir software that is being used all over the world. It can store data on people from all sorts of sources, and it's used for surveillance. It means that if the US does this thing where it demands to check your phone if you visit, my data will land in a centralised database that is used by ICE and stuff like that. When companies have your data, that data can be seized by authoritarian regimes! The world does appear to be going to shit, and who knows, maybe AfD will win big in Germany. I don't want super personal data like my location being saved anywhere.",
+        "So the goal is to use self-hosting. I've already learned a lot about it by making this website (hosted on a Raspberry Pi in my house!). Next step is to invest in a NAS (Network Attached Storage) and back up all my files and photos there instead of with Google. Further down the line I want to use OpenNAS to stream music too. I'm also interested in getting a dumbphone, and investing in a cute digital camera for taking photos. I've got lots of ideas! But I'm aware it will take a long time, so I'm giving myself 5 years to do it.",
+        "In other news, I've just gotten back from a beautiful trip to Troms\u00f8, Norway with the family. It reminded me that travelling is awesome! I got on a plane and suddenly I was in a winter wonderland. I'm inspired to take many such trips this year as a solo traveller. I'd be lying if I said the trip was perfect though: Victor was meant to come and I really felt his absence. I'm excited to be back though - I have lots of fun plans for Fraser projects to attend to!",
+        "On the site there haven't been updates because I've been working on a webpage which lets you listen to the whole Smash Ultimate soundtrack. It's an insanely huge project which is taking lots of time (and I'm loving it)."
+    ],
+    "entries": [
+        {
+            "title": "Wake Up Dead Man: A Knives Out Mystery",
+            "description": [
+                "Watched with this with the family but I wasn't blown away by it. Devout Christians are just too weird for me, like the parts where Josh O'Connor is being a 'good priest'. It was an appropriate film to watch with the family on holiday."
+            ],
+            "image": "films/knives-out-3.png",
+            "metadata": "Release: 2025",
+            "type": "FILM"
+        },
+        {
+            "title": "Only Rebels Win",
+            "description": [
+                "Saw this at the opening of the Berlinale, there was a red carpet and stars wearing designer outfits and everything. The film was great. A reminder that it's great to not be a normie. Really loved it."
+            ],
+            "image": "films/only-rebels-win.jpg",
+            "metadata": "Release: 2026",
+            "type": "FILM"
+        },
+        {
+            "title": "Drunken Noodles",
+            "description": [
+                "I was a rolling my eyes a little at the supernatural aspects of this film. But it featured a great romantic moment between this guy and a man in his 70s."
+            ],
+            "image": "films/drunken-noodles.jpg",
+            "metadata": "Release: 2025",
+            "type": "FILM"
+        },
+        {
+            "title": "EURO-COUNTRY",
+            "description": [
+                "This lady is so fun and full of excellent vibes. She's loud and funny and I want to be her friend. The album is loosely about the 2008 financial crisis and the weird place it put Ireland in, and I love songs about politics. And she's got all these great songs! My absolute favourite is 'The Jamie Oliver Petrol Station', which is a meditation on hatred. She just hates Jamie Oliver and the song is about kicking herself for it because there's no point wasting time seething. It's such an anthem. Then there's 'Take a Sexy Picture of Me' which has the best chorus ever. It's got me singing along in my house 'I've been having a horrible time'! And the line about taking a picture to make her look 16? Oof! She's been there. And the song about the Tesla? Oof. Damn."
+            ],
+            "image": "music/albums/cmat-euro.jpg",
+            "metadata": "Artist: CMAT, Release: 2025, for a list of favourite tracks, please visit the albums page!",
+            "type": "ALBUM"
+        },
+        {
+            "title": "Pok\u00e9mon FireRed Version and Pok\u00e9mon LeafGreen Version",
+            "description": [
+                "Happy days! I never believed they would do it! The app went this long without any classic Pokemon games and I was sure it was because of weird copyright holder reasons, but here we are - this classic OST finally has an official release! I really hope this signals the beginning of a new age of Pokemon and we get all the other generations on here, it would be a dream.",
+                "They remastered this! So many of these classic tracks sound even better than ever before. Just take a listen to the Trainer Battle music, which has cool panning and just sounds modern and nostalgic at the same time. Ah, I'm gushing. I really forgot how good that theme is, maybe because I've just heard it so much in my life.",
+                "I love the route themes, the battle themes, and I'm willing to admit it's the nostalgia speaking. But come on, it's gen 1. Gen 1 is everything. Rocket Hideout is right there.",
+                "Also!! Gen 2 is represented! We've got Azalea Town and a couple of others on the Sevii Islands music. Hell yes."
+            ],
+            "image": "music/nintendo/pokemon-firered.jpg",
+            "metadata": "Platform: GBA, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Paper Mario: The Origami King",
+            "description": [
+                "What an absolute delight! Not only do they treat us with the Thousand Year Door, but also Origami King! This soundtrack is on the same level as TTYD for sure, those composers at Intelligent Systems know what they're doing. They always go above and beyond. In these games they're making pieces of music for every little thing. Sometimes you just hear these tracks just once for a few seconds! The result is an 11-hour soundtrack. By the end you might be fed up of this kind of music but not me, I think it's all quality.",
+                "Where to start? The incredible 10/10 battle music. Each area has its own variation of it, and they all fucking slap. The Red Streamer Battle is the original and I have to say the best, it's just so good. Yellow Streamer, Purple Streamer, Vellumental Battle and Autumn Mountain Battle are also favourites of mine. The battles themselves in the game were arguably the weakest part of the game (imagine how could this game could have been if it had Thousand Year Door battle mechanics...) but that didn't stop them having the best music ever.",
+                "In this game, the main antagonists are stationary items like scissors, rubber bands etc, which I find hilarious. When you fight the hole punch, you have to lure it out of its cave with some dance music, because it's actually a dancing hole punch (they animated that really well). You get a choice of four tracks and I remember playing the game trying the first three thinking 'these are all shit', then BAM, the fourth one is just an absolutely incredible disco banger! It's called 'Thrills at Night' and it's the only one to get the holepunch out. It's so fucking good I swear I'm going to DJ it.",
+                "There's also plenty of just great piano music, like the museum variation of Toad Town, or the excellent Coffee Break music. And 'Tranquil Pipes Teahouse' is literally just Maple Treeway! Wow!",
+                "Other highlights: Snif City! What a bop!"
+            ],
+            "image": "music/nintendo/paper-mario-origami-king.jpg",
+            "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Tomodachi Life",
+            "description": [
+                "At this point the Nintendo Music App is just a machine spewing out Mii games. There are just so many! They did just release a bunch of info about the new Tomodachi Life game but still, wow. I went into this with very low expectations (Tomodachi Collection before this was pretty shit), but actually there are some hidden bops here. 'Rankings Board: Girl Charm' is just Madonna's Vogue. The 'Precious Memories' trilogy has some really out-there vocals!",
+                "The listening experience as a whole is very mixed. You've got the huge selection of Compatibility Tester songs, first a bunch of piano songs, then the same music again but in band form, then both sets of music AGAIN but for romantic relationships."
+            ],
+            "image": "music/nintendo/tomodachi-life.jpg",
+            "metadata": "Platform: 3DS, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "The North Pole",
+            "description": null,
+            "image": "gallery/tromso.jpg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        },
+        {
+            "title": null,
+            "description": [
+                "A snippet from an old Nintendo Power Magazine"
+            ],
+            "image": "misc/characters/deco/kirby4.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "I have always felt that Ness is creepy so I leaned into that when I realised I needed to draw two of them for the Power Ranking"
+            ],
+            "image": "misc/characters/deco/ness2.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "Bit of a weird tadpole-Mewtwo that I drew"
+            ],
+            "image": "misc/characters/deco/mewtwo4.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "I drew Chrom as a duck"
+            ],
+            "image": "misc/characters/deco/chrom2.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "A snippet from an old Nintendo Power Magazine"
+            ],
+            "image": "misc/characters/deco/gnw3.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "The three pokemon as sardines"
+            ],
+            "image": "misc/characters/deco/pokemontrainer3.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "Surprised myself by making an ultra-cute ROB-themed dragonfly"
+            ],
+            "image": "misc/characters/deco/rob3.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "It's meant to be Little Mac doing a pose on top of a pondskater"
+            ],
+            "image": "misc/characters/deco/littlemac1.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "I was inspired by Duck Hunt's swimming animation where the dog struggles and the duck just swims"
+            ],
+            "image": "misc/characters/deco/duckhunt6.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "I drew the beautiful wings then made her a tiny butterfly and now it looks kinda weird"
+            ],
+            "image": "misc/characters/deco/bayonetta1.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "Drew Joker as a fish for a power ranking"
+            ],
+            "image": "misc/characters/deco/joker2.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "Drew Joker as a fish for a power ranking"
+            ],
+            "image": "misc/characters/deco/joker3.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "Drew this steve who is drowning"
+            ],
+            "image": "misc/characters/deco/steve2.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        },
+        {
+            "title": null,
+            "description": [
+                "I drew Kazuya as a woodpecker"
+            ],
+            "image": "misc/characters/deco/kazuya2.jpg",
+            "metadata": null,
+            "type": "CHARACTER_DECO"
+        }
+    ],
+    "id": "46efeb9f-43d5-4a37-8bc1-31199846faf6"
+}

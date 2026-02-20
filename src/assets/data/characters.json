@@ -388,7 +388,7 @@
         {
           "filename": "kirby4.jpg",
           "order": 4,
-          "newsletter": false,
+          "newsletter": true,
           "description": "A snippet from an old Nintendo Power Magazine"
         }
       ],
@@ -513,7 +513,7 @@
         {
           "filename": "ness2.jpg",
           "order": 2,
-          "newsletter": false,
+          "newsletter": true,
           "description": "I have always felt that Ness is creepy so I leaned into that when I realised I needed to draw two of them for the Power Ranking"
         }
       ],
@@ -1038,7 +1038,7 @@
         {
           "filename": "mewtwo4.jpg",
           "order": 3,
-          "newsletter": false,
+          "newsletter": true,
           "description": "Bit of a weird tadpole-Mewtwo that I drew"
         }
       ],
@@ -1098,7 +1098,7 @@
         {
           "filename": "chrom2.jpg",
           "order": 2,
-          "newsletter": false,
+          "newsletter": true,
           "description": "I drew Chrom as a duck"
         }
       ],
@@ -1134,7 +1134,7 @@
         {
           "filename": "gnw3.jpg",
           "order": 3,
-          "newsletter": false,
+          "newsletter": true,
           "description": "A snippet from an old Nintendo Power Magazine"
         }
       ],
@@ -1322,7 +1322,7 @@
         {
           "filename": "pokemontrainer3.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "The three pokemon as sardines"
         },
         {
@@ -1568,7 +1568,7 @@
         {
           "filename": "rob3.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "Surprised myself by making an ultra-cute ROB-themed dragonfly"
         }
       ],
@@ -1760,7 +1760,7 @@
         {
           "filename": "littlemac1.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "It's meant to be Little Mac doing a pose on top of a pondskater"
         }
       ],
@@ -2008,7 +2008,7 @@
         {
           "filename": "duckhunt6.jpg",
           "order": 5,
-          "newsletter": false,
+          "newsletter": true,
           "description": "I was inspired by Duck Hunt's swimming animation where the dog struggles and the duck just swims"
         }
       ],
@@ -2128,7 +2128,7 @@
         {
           "filename": "bayonetta1.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "I drew the beautiful wings then made her a tiny butterfly and now it looks kinda weird"
         }
       ],
@@ -2353,13 +2353,13 @@
         {
           "filename": "joker2.jpg",
           "order": 2,
-          "newsletter": false,
+          "newsletter": true,
           "description": "Drew Joker as a fish for a power ranking"
         },
         {
           "filename": "joker3.jpg",
           "order": 3,
-          "newsletter": false,
+          "newsletter": true,
           "description": "Drew Joker as a fish for a power ranking"
         }
       ],
@@ -2507,7 +2507,7 @@
         {
           "filename": "steve2.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "Drew this steve who is drowning"
         }
       ],
@@ -2571,7 +2571,7 @@
         {
           "filename": "kazuya2.jpg",
           "order": 1,
-          "newsletter": false,
+          "newsletter": true,
           "description": "I drew Kazuya as a woodpecker"
         }
       ],
