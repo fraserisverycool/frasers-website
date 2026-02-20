@@ -1,12 +1,524 @@
 {
   "other ideas": [
     "pokemon diamond route 216",
-    "pokemon ruby sapphire desert",
+    "babymaking as a playlist",
+    "jazz as a playlist",
     "mag bay head over heels https://www.youtube.com/watch?v=T8WDr5fkwCw",
     "confidence man who knows what you'll find",
-    "kylie shocked"
+    "kylie shocked",
+    "bon iver re stacks",
+    "bonobo break apart"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "Kazumi Totaka",
+      "album": "Animal Crossing: New Leaf",
+      "track": "7pm",
+      "description": "Something about 7pm, it's so melancholic. Definitely the best hourly theme from this game.",
+      "link": "https://www.youtube.com/watch?v=xYNjxk6iIL0",
+      "game": true,
+      "day": "31-08-2026",
+      "id": "b7f731aa-d39d-4ba6-a70f-2cb7c5e7ae75",
+      "newsletter": false,
+      "filename": "7pm-new-leaf.mp3",
+      "tags": [
+        "chill",
+        "animal crossing"
+      ]
+    },
+    {
+      "artist": "Willie Gonzalez",
+      "album": "Grandes Exitos",
+      "track": "Quiero Morir En Tu Piel",
+      "description": "This is my go-to salsa song! There are many that I like but I often come back to this.",
+      "link": "https://www.youtube.com/watch?v=IXvWenVMYH4",
+      "game": false,
+      "day": "30-08-2026",
+      "id": "1eee0e27-4d89-4056-bcb6-85fe88c8d130",
+      "newsletter": false,
+      "filename": "quiero-morir-en-tu-piel.mp3",
+      "tags": [
+        "spanish language",
+        "party"
+      ]
+    },
+    {
+      "artist": "Marvin Gaye",
+      "album": "What's Going On",
+      "track": "What's Going On",
+      "description": "This song, just like the whole album, is so breezy and light and lush and soulful. It's about the state of the world when it was released in the 70s. The whole album is wildly relevant today.",
+      "link": "https://www.youtube.com/watch?v=ApthDWoPMFQ",
+      "game": false,
+      "day": "29-08-2026",
+      "id": "3e4e05f3-fbb2-4d02-be17-f4d3d23a8e9c",
+      "newsletter": false,
+      "filename": "whats-going-on.mp3",
+      "tags": [
+        "soul",
+        "classic"
+      ]
+    },
+    {
+      "artist": "George Michael",
+      "album": "-",
+      "track": "Outside",
+      "description": "He recorded this after he was arrested for cruising in public toilets. It's the best comeback after a scandal ever, he really just said fuck you, fuck police, I just wanna fuck guys. The video is great.",
+      "link": "https://www.youtube.com/watch?v=gwZAYdHcDtU",
+      "game": false,
+      "day": "28-08-2026",
+      "id": "3b86f64c-e5ca-4472-853d-16faabbda28d",
+      "newsletter": false,
+      "filename": "outside.mp3",
+      "tags": [
+        "pop",
+        "party",
+        "video"
+      ]
+    },
+    {
+      "artist": "Donna Summer",
+      "album": "Summer: The Original Hits",
+      "track": "MacArthur Park",
+      "description": "A dancefloor classic. I first knew about it thanks to Horsemeat Disco. Now I DJ it all the time because it's the perfect disco song.",
+      "link": "https://www.youtube.com/watch?v=0lPYUGTAVmA",
+      "game": false,
+      "day": "27-08-2026",
+      "id": "32b643ef-8356-44f4-9906-330539d348c1",
+      "newsletter": false,
+      "filename": "macarthur-park.mp3",
+      "tags": [
+        "pop",
+        "party",
+        "classic"
+      ]
+    },
+    {
+      "artist": "Chaka Khan",
+      "album": "Stompin' at the Savoy",
+      "track": "Ain't Nobody",
+      "description": "A total classic. Everyone loves it. The kinda music to get everyone singing on the dancefloor.",
+      "link": "https://www.youtube.com/watch?v=BNirQXe8HOA",
+      "game": false,
+      "day": "26-08-2026",
+      "id": "1365cf0b-bdc6-4842-bd8a-3a598291b39d",
+      "newsletter": false,
+      "filename": "aint-nobody.mp3",
+      "tags": [
+        "pop",
+        "party",
+        "classic"
+      ]
+    },
+    {
+      "artist": "Diana Ross",
+      "album": "Eaten Alive",
+      "track": "Chain Reaction",
+      "description": "This song is so unlike normal pop songs, especially in terms of key changes. I like it though. Just constant key changes! It's secretly a Bee Gees song.",
+      "link": "https://www.youtube.com/watch?v=PcMD2Gs9fwU",
+      "game": false,
+      "day": "25-08-2026",
+      "id": "31ab77bb-095b-4d6e-a62b-d3136879d420",
+      "newsletter": false,
+      "filename": "chain-reaction.mp3",
+      "tags": [
+        "pop",
+        "classic",
+        "party"
+      ]
+    },
+    {
+      "artist": "Honey Dijon (feat. Dave Giles II, Cor.Ece & Mike Dunn)",
+      "album": "Black Girl Magic",
+      "track": "Work",
+      "description": "Amazing track for the dancefloor. Everyone loves it.",
+      "link": "https://www.youtube.com/watch?v=hjGE5a3hz9U",
+      "game": false,
+      "day": "24-08-2026",
+      "id": "b938a116-67c6-4fd9-9070-b24e4200428d",
+      "newsletter": false,
+      "filename": "work.mp3",
+      "tags": [
+        "party",
+        "electronic"
+      ]
+    },
+    {
+      "artist": "Jessie Ware",
+      "album": "What's Your Pleasure?",
+      "track": "Save A Kiss",
+      "description": "The queen of disco is here. I love her and I love this album. This song is my favourite, I love the strings.",
+      "link": "https://www.youtube.com/watch?v=cLIESvLSDKA",
+      "game": false,
+      "day": "23-08-2026",
+      "id": "cb14ae51-1bc9-4f6f-ba31-79618412e42d",
+      "newsletter": false,
+      "filename": "save-a-kiss.mp3",
+      "tags": [
+        "party",
+        "pop"
+      ]
+    },
+    {
+      "artist": "Nack Hakim",
+      "album": "Will This Make Me Good",
+      "track": "QADIR",
+      "description": "Sad song. Really sad song about someone passing.",
+      "link": "https://www.youtube.com/watch?v=PqzFi6PwTGA",
+      "game": false,
+      "day": "22-08-2026",
+      "id": "c243376c-728a-42ab-bba6-e0bde040bebb",
+      "newsletter": false,
+      "filename": "qadir.mp3",
+      "tags": [
+        "sad songs",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Hiroshi Yamaguchi",
+      "album": "Bayonetta",
+      "track": "Let's Dance Boys!",
+      "description": "The song is good but we have to talk about the absolute insanity which is the ending credits to Bayonetta when this plays, and she does a whole 3-minute ridiculous choreography to it. Slay queening constantly for no particular audience apart from the camera. It is totally unhinged, inexplicable how it came to be, and I've watched it like 20 times.",
+      "link": "https://www.youtube.com/watch?v=lPHr9ghVyNU",
+      "game": true,
+      "day": "21-08-2026",
+      "id": "6a22097e-b79c-40a5-9c9a-0490b0acc4ef",
+      "newsletter": false,
+      "filename": "lets-dance-boys.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
+    },
+    {
+      "artist": "Yoshito Sekigawa, Shoh Murakami, Yoshiaki Kimura, Hiroki Morishita, Fumihiro Isobe",
+      "album": "Paper Mario: The Origami King",
+      "track": "Red Streamer Battle",
+      "description": "Absolute banger of a battle theme. Pumps me up so much. This game has many variations of this song (all great) but this is the best one.",
+      "link": "https://www.youtube.com/watch?v=BIHCjBmDSg8",
+      "game": true,
+      "day": "20-08-2026",
+      "id": "81ec0770-d96a-4cf9-aecb-096a345753a1",
+      "newsletter": false,
+      "filename": "red-streamer-battle.mp3",
+      "tags": [
+        "party",
+        "mario"
+      ]
+    },
+    {
+      "artist": "The War On Drugs",
+      "album": "Lost In The Dream",
+      "track": "Disappearing",
+      "description": "This song will always make me think of Victor. It reminds me of another song that I can't put my finger on. Very melancholic. To be enjoyed on special occasions only.",
+      "link": "https://www.youtube.com/watch?v=hvoMww-dkyw",
+      "game": false,
+      "day": "19-08-2026",
+      "id": "8282d70d-3ca7-47b4-a3da-ea48add6afae",
+      "newsletter": false,
+      "filename": "disappearing.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Alabama Shakes",
+      "album": "Sound & Color",
+      "track": "Sound & Color",
+      "description": "Beautiful and tragic song. Music video is even more tragic.",
+      "link": "https://www.youtube.com/watch?v=faG8RiaANek",
+      "game": false,
+      "day": "18-08-2026",
+      "id": "3b019c53-f69a-4d19-8f54-84c11254b8f0",
+      "newsletter": false,
+      "filename": "sound-and-colour.mp3",
+      "tags": [
+        "sad songs",
+        "indie",
+        "pop"
+      ]
+    },
+    {
+      "artist": "Brittany Howard",
+      "album": "What Now",
+      "track": "Red Flags",
+      "description": "Such a moody song! Love her voice and love the lyrics.",
+      "link": "https://www.youtube.com/watch?v=_bCO09FbQdE",
+      "game": false,
+      "day": "17-08-2026",
+      "id": "6ceae9b7-2b5b-4e68-8fe0-400f1e941973",
+      "newsletter": false,
+      "filename": "red-flags.mp3",
+      "tags": [
+        "pop",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Tim Follin",
+      "album": "Ecco the Dolphin: Defender of the Future",
+      "track": "Aquamarine Bay",
+      "description": "Ecco the Dolphin has excellent soundtracks. It's honestly incredible that these games exist. You are just a dolphin swimming round, it's insanely hard and there is no information. And there are aliens and stuff. And Tim Follin is out here making the best music ever for it. Sit back and enjoy these 10 minutes, they will fly by.",
+      "link": "https://www.youtube.com/watch?v=I2sS51m1s3k",
+      "game": true,
+      "day": "16-08-2026",
+      "id": "2d87493b-dc9b-48fd-8d3b-0fcefc7f9770",
+      "newsletter": false,
+      "filename": "aquamarine-bay.mp3",
+      "tags": [
+        "chill",
+        "other"
+      ]
+    },
+    {
+      "artist": "Hajime Wakai, Mahito Yokota, Shiho Fujii, Takeshi Hama",
+      "album": "The Legend of Zelda: Skyward Sword",
+      "track": "Lanayru Sand Sea",
+      "description": "The most beautiful desert music out there, and I'm a real fan of desert music. It has no right to be this hard-hitting. This version contains both present and past versions and it's one of my most listened to tracks from the Nintendo Music app.",
+      "link": "https://www.youtube.com/watch?v=ryVaVvv6GRE",
+      "game": true,
+      "day": "15-08-2026",
+      "id": "df3aee3e-ea85-4d00-82db-e27ead28cebe",
+      "newsletter": false,
+      "filename": "lanayru-sand-sea.mp3",
+      "tags": [
+        "chill",
+        "zelda"
+      ]
+    },
+    {
+      "artist": "Koji Kondo",
+      "album": "The Legend of Zelda: Majora's Mask",
+      "track": "The Indigo-go's",
+      "description": "Beautiful excerpt of the ending music, when you can hear this song that you practice with the band in full. It's great! It's a smooth jam, but it's also very melancholic.",
+      "link": "https://www.youtube.com/watch?v=Y0IaHQBA0e4",
+      "game": true,
+      "day": "14-08-2026",
+      "id": "07db66d3-ded9-41a1-b092-fd25eed7a3f5",
+      "newsletter": false,
+      "filename": "indigo-gos.mp3",
+      "tags": [
+        "jazz",
+        "chill",
+        "zelda"
+      ]
+    },
+    {
+      "artist": "Jazz Kamikaze",
+      "album": "The Return of Jazz Kamikaze",
+      "track": "Mitsuhirato",
+      "description": "Great track from a band I used to listen to. This is so intense and the climax at the end is just so heavenly. Looking at their youtube presence it doesn't look like they made it big - I'm not sure how I found them",
+      "link": "https://www.youtube.com/watch?v=VVgsAKmwE-w",
+      "game": false,
+      "day": "13-08-2026",
+      "id": "727e8b58-cb4b-4f2e-98f2-7520af9a7995",
+      "newsletter": false,
+      "filename": "hitsuhirato.mp3",
+      "tags": [
+        "jazz",
+        "rock",
+        "intense"
+      ]
+    },
+    {
+      "artist": "Jaga Jazzist",
+      "album": "Pyramid Remix",
+      "track": "The Shrine (Petter Eldh Remix)",
+      "description": "This band is really great, they do excellent jazz fusion stuff, and the original of this track is also amazing. But I don't know what this remixer was smoking but this track is so mind-bendingly insane and good.",
+      "link": "https://www.youtube.com/watch?v=7pyjIW5H1d4",
+      "game": false,
+      "day": "12-08-2026",
+      "id": "48d2a76e-f44b-4798-98b8-87b6e74a5e73",
+      "newsletter": false,
+      "filename": "the-shrine.mp3",
+      "tags": [
+        "electronic",
+        "jazz"
+      ]
+    },
+    {
+      "artist": "Nohelani Cypriano",
+      "album": "Home Grown II",
+      "track": "Lihue",
+      "description": "Such a gorgeous song, perfect for sunsets on the beach with silhouettes of palm trees. I also really enjoy the ancient video of her performing the song.",
+      "link": "https://www.youtube.com/watch?v=x0-llKUi2kM",
+      "game": false,
+      "day": "11-08-2026",
+      "id": "c0e0a6a3-c1d7-4d98-aa06-34f5c3cf807e",
+      "newsletter": false,
+      "filename": "lihue.mp3",
+      "tags": [
+        "chill"
+      ]
+    },
+    {
+      "artist": "Swing Out Sister",
+      "album": "Beautiful Mess",
+      "track": "Out There",
+      "description": "This song sits firmly on my babymaking playlist. If the whispered 'come on' doesn't do it for you then I don't know what to tell you. This is the best sounding porn music ever.",
+      "link": "https://www.youtube.com/watch?v=EZAtTDLd7xg",
+      "game": false,
+      "day": "10-08-2026",
+      "id": "5a702c2c-8c63-4ce7-8b1e-e1f23c9364cd",
+      "newsletter": false,
+      "filename": "out-there.mp3",
+      "tags": [
+        "chill"
+      ]
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "album": "English Rose",
+      "track": "Albatross",
+      "description": "It's a classic from Fleetwood Mac but I'm unafraid to admit that I only know this song from the M&S adverts from when I was a teenager.",
+      "link": "https://www.youtube.com/watch?v=fXeKi6ZkbOw",
+      "game": false,
+      "day": "09-08-2026",
+      "id": "4a359678-5c4d-4547-a1a7-df45d2d3938b",
+      "newsletter": false,
+      "filename": "albatross.mp3",
+      "tags": [
+        "chill",
+        "peaceful",
+        "classic"
+      ]
+    },
+    {
+      "artist": "Junichi Masuda",
+      "album": "Pokemon Ruby/Sapphire",
+      "track": "Route 111",
+      "description": "It's the desert music from Pokemon! It's so fun.",
+      "link": "https://www.youtube.com/watch?v=n9x1KWP9Apc",
+      "game": true,
+      "day": "08-08-2026",
+      "id": "eaf5e693-98be-48c5-a778-98179c6b1e1d",
+      "newsletter": false,
+      "filename": "route-111.mp3",
+      "tags": [
+        "party",
+        "pokemon"
+      ]
+    },
+    {
+      "artist": "Bajka",
+      "album": "Bajka in Wonderland",
+      "track": "The Bellman's Speech",
+      "description": "This music is from an album in which she puts Lewis Carroll's long poem 'The Hunting of the Snark, an Agony in Eight Fits' into music. She takes the best bits and turns them literally into lyrics over this string-heavy soul music. The whole album is great.",
+      "link": "https://www.youtube.com/watch?v=88DndvgqrQA",
+      "game": false,
+      "day": "07-08-2026",
+      "id": "31b07fc4-10bd-49e7-aa78-bebd5d7c0850",
+      "newsletter": false,
+      "filename": "the-bellmans-speech.mp3",
+      "tags": [
+        "chill",
+        "soul"
+      ]
+    },
+    {
+      "artist": "Bonobo (feat. Bajka)",
+      "album": "Days to Come",
+      "track": "Nightlite",
+      "description": "One of my first Bonobo tracks back when I was becoming a Bonobo fan. What a vibe this song is! So intense and chill at the same time. I love love love the strings at the end of the song. And Bajka is great.",
+      "link": "https://www.youtube.com/watch?v=CsLkmyPg8bs",
+      "game": false,
+      "day": "06-08-2026",
+      "id": "547465b5-1f7e-4186-a291-db44d8ca2b60",
+      "newsletter": false,
+      "filename": "nightlite.mp3",
+      "tags": [
+        "electronic",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Bon Iver",
+      "album": "Bon Iver",
+      "track": "Towers",
+      "description": "Early Bon Iver really takes me back. This whole album is such a particular winter vibe that I just love and often come back to.",
+      "link": "https://www.youtube.com/watch?v=gv3Gtf94o6w",
+      "game": false,
+      "day": "05-08-2026",
+      "id": "e1b737c9-bbd5-4218-aa9b-2a0e9657f5e3",
+      "newsletter": false,
+      "filename": "towers.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Dusty Springfield",
+      "album": "Dusty in Memphis",
+      "track": "Windmills Of Your Mind",
+      "description": "Gorgeous rendition of this song featuring an amazing circle of fifths chord progression. The build up? Insane. I love the drama of this song.",
+      "link": "https://www.youtube.com/watch?v=qKV9bK-CBXo",
+      "game": false,
+      "day": "04-08-2026",
+      "id": "1145440c-af16-4b8d-9abe-2d8d1d0f0021",
+      "newsletter": false,
+      "filename": "windmills-of-your-mind.mp3",
+      "tags": [
+        "devastating",
+        "chill",
+        "from the heart",
+        "singer-songwriter",
+        "classic",
+        "sad songs",
+        "intense"
+      ]
+    },
+    {
+      "artist": "Feist",
+      "album": "The Reminder",
+      "track": "The Park",
+      "description": "Heartbreaking song. It's about thinking you saw the person you were thinking about in the park, but of course not, because they wouldn't know where in London to find you.",
+      "link": "https://www.youtube.com/watch?v=wdTUvfOcG8c",
+      "game": false,
+      "day": "03-08-2026",
+      "id": "501c65be-f556-4bf4-8497-4249eeac1c20",
+      "newsletter": false,
+      "filename": "the-park.mp3",
+      "tags": [
+        "devastating",
+        "peaceful",
+        "singer-songwriter",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Fujiya & Miyagi",
+      "album": "Ventrilloquizzing",
+      "track": "Minestrone",
+      "description": "This band is great, it's some brits making hypnotic electronic music with silly lyrics. This one has a funny story to it.",
+      "link": "https://www.youtube.com/watch?v=HOJe06SQPOk",
+      "game": false,
+      "day": "02-08-2026",
+      "id": "df3578ac-ea1f-45d4-9efc-c112fa95d9d1",
+      "newsletter": false,
+      "filename": "minestrone.mp3",
+      "tags": [
+        "concrete themes",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Timber Timbre",
+      "album": "Timber Timbre",
+      "track": "No Bold Villain",
+      "description": "I feel almost nervous about featuring this band on my website because so much of there music is positively creepy. But I've listened to their albums so many times and this song too. It's for when I'm in a particular kind of mood. If you like the song, check out the rest of the album.",
+      "link": "https://www.youtube.com/watch?v=oXw1NKCmFaU",
+      "game": false,
+      "day": "01-08-2026",
+      "id": "10c97426-0431-4290-bb6a-7005f33d258f",
+      "newsletter": false,
+      "filename": "no-bold-villain.mp3",
+      "tags": [
+        "peaceful",
+        "indie"
+      ]
+    },
     {
       "artist": "David Wise",
       "album": "Donkey Kong Country: Tropical Freeze",
@@ -2651,7 +3163,7 @@
       "album": "Mario Kart 8 Deluxe",
       "track": "Sydney Sprint",
       "description": "Who'd have thought that motherfucking Sydney Sprint would end up being my favourite Mario Kart music from this game. The saxophone goes so crazy and I am obsessed.",
-      "link": "https://www.youtube.com/watch?v=drjOp2o6esg",
+      "link": "https://www.youtube.com/watch?v=1xJ3hVhsQEI",
       "game": true,
       "day": "20-02-2026",
       "id": "79c10426-5ce8-4b58-8722-652b2d7f3510",
