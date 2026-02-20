@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "tromso.jpg",
+      "title": "The North Pole",
+      "month": "February 2026",
+      "question": "Where are we?",
+      "id": "3a93ddbe-a593-4db7-a0ca-0e690eb617fc",
+      "newsletter": false
+    },
+    {
       "filename": "treeresa.jpg",
       "title": "Handling power tools",
       "month": "January 2026",

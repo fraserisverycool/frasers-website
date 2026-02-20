@@ -1,6 +1,43 @@
 {
   "soundtracks": [
     {
+      "filename": "pokemon-firered.jpg",
+      "name": "Pokémon FireRed Version and Pokémon LeafGreen Version",
+      "description": [
+        "Happy days! I never believed they would do it! The app went this long without any classic Pokemon games and I was sure it was because of weird copyright holder reasons, but here we are - this classic OST finally has an official release! I really hope this signals the beginning of a new age of Pokemon and we get all the other generations on here, it would be a dream.",
+        "They remastered this! So many of these classic tracks sound even better than ever before. Just take a listen to the Trainer Battle music, which has cool panning and just sounds modern and nostalgic at the same time. Ah, I'm gushing. I really forgot how good that theme is, maybe because I've just heard it so much in my life.",
+        "I love the route themes, the battle themes, and I'm willing to admit it's the nostalgia speaking. But come on, it's gen 1. Gen 1 is everything. Rocket Hideout is right there.",
+        "Also!! Gen 2 is represented! We've got Azalea Town and a couple of others on the Sevii Islands music. Hell yes."
+      ],
+      "platform": "GBA",
+      "topTracks": [
+        "Pallet Town",
+        "Battle! (Trainer Battle)",
+        "Pewter City Theme",
+        "Viridian Forest",
+        "Battle! (Wild Pokémon)",
+        "Pokémon Gym",
+        "Battle! (Gym Leader Battle)",
+        "Road to Cerulean City: Leaving Mt. Moon",
+        "Caves of Mt. Moon",
+        "The S.S. Anne",
+        "Lavender Town Theme",
+        "Rocket Game Corner",
+        "Rocket Hideout",
+        "Road to Fuchsia City: Leaving Lavender Town",
+        "Fuchsia City Theme",
+        "Sevii Islands: Four & Five Islands",
+        "Sevii Islands",
+        "Sevii Islands: Six & Seven Islands",
+        "Final Battle! (Rival)",
+        "Hall of Fame",
+        "Ending Theme",
+        "Battle! (Deoxys)"
+      ],
+      "id": "39c03671-72ec-4d6a-a640-6984e23c1c7d",
+      "newsletter": false
+    },
+    {
       "filename": "paper-mario-origami-king.jpg",
       "name": "Paper Mario: The Origami King",
       "description": [

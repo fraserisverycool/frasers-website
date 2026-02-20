@@ -1,6 +1,24 @@
 {
   "films": [
     {
+      "filename": "knives-out-3.png",
+      "title": "Wake Up Dead Man: A Knives Out Mystery",
+      "description": "Watched with this with the family but I wasn't blown away by it. Devout Christians are just too weird for me, like the parts where Josh O'Connor is being a 'good priest'. It was an appropriate film to watch with the family on holiday.",
+      "year": "2026",
+      "release": "2025",
+      "id": "e7b640e7-c795-405a-8064-06ba13802566",
+      "newsletter": false
+    },
+    {
+      "filename": "only-rebels-win.jpg",
+      "title": "Only Rebels Win",
+      "description": "Saw this at the opening of the Berlinale, there was a red carpet and stars wearing designer outfits and everything. The film was great. A reminder that it's great to not be a normie. Really loved it.",
+      "year": "2026",
+      "release": "2026",
+      "id": "0f25e3d6-2b4f-4747-bd80-dc2d06d24592",
+      "newsletter": false
+    },
+    {
       "filename": "drunken-noodles.jpg",
       "title": "Drunken Noodles",
       "description": "I was a rolling my eyes a little at the supernatural aspects of this film. But it featured a great romantic moment between this guy and a man in his 70s.",

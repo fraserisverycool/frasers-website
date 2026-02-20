@@ -32,7 +32,7 @@
                   @if (track['original-game']) {
                     <span class="original-game"> - {{ track['original-game'] }}</span>
                   }
-                  @if (track.comment?.includes('Remix')) {
+                  @if (track.comment.includes('Remix')) {
                     <span class="remix-label">REMIX</span>
                   }
                   @if (track.removed) {
