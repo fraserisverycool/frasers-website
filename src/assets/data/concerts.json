@@ -1,6 +1,15 @@
 {
   "concerts": [
     {
+      "artist": "Magdalena Bay",
+      "date": "23-02-2026",
+      "venue": "Columbiahalle, Berlin",
+      "image": "magdalena-bay3.jpg",
+      "description": "Went with Anni to see them for a third time! No regrets! Loved it. Was especially in the zone and especially delighted when they played some of their new songs.",
+      "id": "412af960-675e-4501-b7ec-32bc7c235e9f",
+      "newsletter": false
+    },
+    {
       "artist": "Ca7riel & Paco Amoroso",
       "date": "4-11-2025",
       "venue": "Columbiahalle, Berlin",
