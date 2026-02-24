@@ -1,8 +1,4 @@
 {
-  "Super Smash Bros. Anthology Vol. 01 - Super Smash Bros. (3DS, GC, N64, Switch, Wii, Wii U) (gamerip) (1999)": {
-    "count": 180,
-    "file": "Super Smash Bros. Anthology Vol. 01 - Super Smash Bros. (3DS, GC, N64, Switch, Wii, Wii U) (gamerip) (1999).json"
-  },
   "Super Smash Bros. Anthology Vol. 02 - Super Mario (3DS, GC, N64, Switch, Wii, Wii U) (gamerip) (1999)": {
     "count": 113,
     "file": "Super Smash Bros. Anthology Vol. 02 - Super Mario (3DS, GC, N64, Switch, Wii, Wii U) (gamerip) (1999).json",
@@ -10,7 +6,8 @@
   },
   "Super Smash Bros. Anthology Vol. 03 - Mario Kart (Wii, 3DS, Wii U, Switch) (gamerip) (2008)": {
     "count": 15,
-    "file": "Super Smash Bros. Anthology Vol. 03 - Mario Kart (Wii, 3DS, Wii U, Switch) (gamerip) (2008).json"
+    "file": "Super Smash Bros. Anthology Vol. 03 - Mario Kart (Wii, 3DS, Wii U, Switch) (gamerip) (2008).json",
+    "notes": "Mario Kart music truly is the best and although I'm delighted by the slim pickings that are here, they could have done so many banger remixes of some old tracks!! Instead they have a bunch of the worst songs from Mario Kart 8. I wish they had done more than literally one song from Super, 64, Super Circuit, Double Dash, DS, Wii..."
   },
   "Super Smash Bros. Anthology Vol. 04 - Donkey Kong (3DS, GC, N64, Switch, Wii, Wii U) (gamerip) (1999)": {
     "count": 34,
@@ -116,10 +113,6 @@
     "count": 34,
     "file": "Super Smash Bros. Anthology Vol. 30 - Castlevania (Switch) (gamerip) (2018).json"
   },
-  "Super Smash Bros. Anthology Vol. 31 - Other (3DS, GC, Switch, Wii, Wii U) (gamerip) (2001)": {
-    "count": 116,
-    "file": "Super Smash Bros. Anthology Vol. 31 - Other (3DS, GC, Switch, Wii, Wii U) (gamerip) (2001).json"
-  },
   "Super Smash Bros. Anthology Vol. 32 - Persona (Switch) (gamerip) (2019)": {
     "count": 13,
     "file": "Super Smash Bros. Anthology Vol. 32 - Persona (Switch) (gamerip) (2019).json"
@@ -153,5 +146,14 @@
   "Super Smash Bros. Anthology Vol. 39 - Kingdom Hearts (Switch) (gamerip) (2021)": {
     "count": 11,
     "file": "Super Smash Bros. Anthology Vol. 39 - Kingdom Hearts (Switch) (gamerip) (2021).json"
+  },
+  "Super Smash Bros. Anthology Vol. 31 - Other (3DS, GC, Switch, Wii, Wii U) (gamerip) (2001)": {
+    "count": 116,
+    "file": "Super Smash Bros. Anthology Vol. 31 - Other (3DS, GC, Switch, Wii, Wii U) (gamerip) (2001).json"
+  },
+  "Super Smash Bros. Anthology Vol. 01 - Super Smash Bros. (3DS, GC, N64, Switch, Wii, Wii U) (gamerip) (1999)": {
+    "count": 180,
+    "file": "Super Smash Bros. Anthology Vol. 01 - Super Smash Bros. (3DS, GC, N64, Switch, Wii, Wii U) (gamerip) (1999).json",
+    "notes": "Wow I totally underestimated just how many original smash tracks there are. It took me so long to listen to all these, and many of them sound the same. That being said, shout-outs to smash for having the most iconic main themes ever. All 5 of them knock it out of the park honestly. I removed a lot of the jingles and stuff."
   }
 }

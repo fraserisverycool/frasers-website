@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "ivan-hadoum.jpg",
+      "title": "Iván & Hadoum",
+      "description": "I won tickets to see the Teddy Award winner at Mongay! Kitty and I went and it was lovely. A romantic story about a trans man in Andalucia. So great to see what it's like being a trans man, something I know not very much about.",
+      "year": "2026",
+      "release": "2026",
+      "id": "44cbcc73-885c-47a4-901b-807f1751e377",
+      "newsletter": false
+    },
+    {
       "filename": "knives-out-3.png",
       "title": "Wake Up Dead Man: A Knives Out Mystery",
       "description": "Watched with this with the family but I wasn't blown away by it. Devout Christians are just too weird for me, like the parts where Josh O'Connor is being a 'good priest'. It was an appropriate film to watch with the family on holiday.",
