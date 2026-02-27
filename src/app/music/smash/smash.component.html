@@ -1,6 +1,7 @@
 <div class="container">
   <h1>Super Smash Bros. Soundtrack</h1>
   <p>Work in progress!</p>
+
   @if (loading) {
     <div class="loading">
       Loading soundtrack data...
@@ -8,82 +9,150 @@
   }
 
   @if (!loading) {
-    @for (volume of volumes; track volume) {
-      <div class="volume-section">
-        <h2 (click)="toggleVolume(volume)" class="volume-title">
-          <span class="arrow" [class.expanded]="volume.expanded">▶</span>
-          {{ volume.title }}
-        </h2>
-
-        @if (volume.expanded) {
-          <div class="track-list">
-            @if (volume.notes) {
-              <div class="volume-notes">
-                {{ volume.notes }}
-              </div>
-            }
-            @for (track of volume.tracks; track track) {
-              <div class="track-item" [ngClass]="getTrackClass(track.comment)">
-                <h3 class="track-title">
-                  <div class="track-title-main">
-                    @if (getFranchiseIcon(track.comment); as icon) {
-                      <img [src]="imageService.imageUrl('music/smash/franchise-icons/' + icon)" class="franchise-icon" alt="">
-                    }
-                    {{ track.title }}
-                    @if (track['original-game']) {
-                      <span class="original-game"> - {{ track['original-game'] }}</span>
-                    }
-                  </div>
-                  <div class="track-labels">
-                    @if (track.comment.includes('Remix')) {
-                      <span class="remix-label">REMIX</span>
-                    }
-                    @if (track.removed) {
-                      <span class="removed-label">REMOVED IN ULTIMATE</span>
-                    }
-                  </div>
-                </h3>
-                <div class="track-details">
-                  @if (track.image) {
-                    <img [src]="imageService.imageUrl('music/smash/album-art/' + track.image)" [alt]="track.title" class="track-image">
-                  }
-                  <div class="track-info">
-                    <div class="track-meta">
-                      <span class="composer-info">
-                        @if (track.composers) {
-                          <strong>Composed by:</strong> {{ track.composers }}
-                        }
-                        @if (track.contributors && !track.comment.includes('Original')) {
-                          <span class="contributor-info"><strong>Arranged by:</strong> {{ track.contributors }}</span>
-                        }
-                      </span>
-                      @if (track.release) {
-                        <span class="release-date">{{ track.release }}</span>
-                      }
-                    </div>
-                    @if (track.description) {
-                      <p class="track-description">{{ track.description }}</p>
-                    }
-                    <div class="audio-container">
-                      <div class="audio-player-wrapper">
-                        <audio controls preload="metadata" [src]="imageService.imageUrl(track.path)">
-                          Mate your browser cannot handle this audio player.
-                        </audio>
-                      </div>
-                      <div class="star-rating">
-                        @for (i of getStars(track.stars); track i) {
-                          <img [src]="imageService.imageUrl('misc/mariokart/spinningstar.gif')" class="star-icon" alt="star">
-                        }
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <div class="controls-section">
+      <div class="filter-container">
+        <button (click)="toggleFilterDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedCategory !== null }">
+          {{ selectedCategory ? selectedCategory : 'Filter by franchise' }}
+        </button>
+        @if (isFilterDropdownOpen) {
+          <div class="dropdown-menu">
+            <button (click)="selectCategory(null)" class="option" [ngClass]="{ 'active': selectedCategory === null }">All Categories</button>
+            @for (category of categories; track category) {
+              <button (click)="selectCategory(category)" class="option" [ngClass]="{ 'active': selectedCategory === category }">{{ category }}</button>
             }
           </div>
         }
       </div>
-    }
-  }
 
+      <div class="filter-container">
+        <button (click)="toggleGameDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedGame !== null }">
+          {{ selectedGame ? selectedGame : 'Filter by smash game' }}
+        </button>
+        @if (isGameDropdownOpen) {
+          <div class="dropdown-menu">
+            <button (click)="selectGame(null)" class="option" [ngClass]="{ 'active': selectedGame === null }">All Games</button>
+            @for (game of games; track game) {
+              <button (click)="selectGame(game)" class="option" [ngClass]="{ 'active': selectedGame === game }">{{ game }}</button>
+            }
+          </div>
+        }
+      </div>
+
+      <div class="filter-container">
+        <button (click)="toggleStarsDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedStars !== null }">
+          {{ selectedStars !== null ? selectedStars + (selectedStars === 1 ? ' Star' : ' Stars') : 'Filter by stars' }}
+        </button>
+        @if (isStarsDropdownOpen) {
+          <div class="dropdown-menu">
+            <button (click)="selectStars(null)" class="option" [ngClass]="{ 'active': selectedStars === null }">All Ratings</button>
+            @for (star of stars; track star) {
+              <button (click)="selectStars(star)" class="option" [ngClass]="{ 'active': selectedStars === star }">{{ star }} Stars</button>
+            }
+          </div>
+        }
+      </div>
+
+      <div class="filter-container">
+        <button (click)="toggleComposerDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedComposer !== null }">
+          {{ selectedComposer ? selectedComposer : 'Filter by composer' }}
+        </button>
+        @if (isComposerDropdownOpen) {
+          <div class="dropdown-menu">
+            <button (click)="selectComposer(null)" class="option" [ngClass]="{ 'active': selectedComposer === null }">All Composers</button>
+            @for (composer of composersList; track composer) {
+              <button (click)="selectComposer(composer)" class="option" [ngClass]="{ 'active': selectedComposer === composer }">{{ composer }}</button>
+            }
+          </div>
+        }
+      </div>
+
+      <div class="toggle-group">
+        <button (click)="selectType(null)" class="toggle-button" [ngClass]="{ 'active': selectedType === null }">All</button>
+        <button (click)="selectType('Remix')" class="toggle-button" [ngClass]="{ 'active': selectedType === 'Remix' }">Remix</button>
+        <button (click)="selectType('Original')" class="toggle-button" [ngClass]="{ 'active': selectedType === 'Original' }">Original</button>
+      </div>
+
+      <button (click)="playAll()" class="filter-button play-all-button" [disabled]="filteredTracks.length === 0">
+        Start Playlist
+      </button>
+    </div>
+
+    @if (currentTrack) {
+      <div class="global-player">
+        <div class="current-track-info">
+          <span>Now Playing: {{ currentTrack.title }}</span>
+        </div>
+        <div class="player-controls">
+          <button (click)="previousTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === 0">⏮</button>
+          <audio controls autoplay [src]="imageService.imageUrl(currentTrack.path)" (ended)="onTrackEnded()">
+            Mate your browser cannot handle this audio player.
+          </audio>
+          <button (click)="nextTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === playlist.length - 1">⏭</button>
+        </div>
+      </div>
+    }
+
+    <div class="track-list flat-list">
+      @for (track of filteredTracks.slice(0, itemsToShow); track track.id) {
+        <div class="track-item" [ngClass]="getTrackClass(track.comment)">
+          <h3 class="track-title">
+            <div class="track-title-main">
+              @if (getFranchiseIcon(track.comment); as icon) {
+                <img [src]="imageService.imageUrl('music/smash/franchise-icons/' + icon)" class="franchise-icon" alt="">
+              }
+              {{ track.title }}
+              @if (track['original-game']) {
+                <span class="original-game"> - {{ track['original-game'] }}</span>
+              }
+            </div>
+            <div class="track-labels">
+              @if (track.comment?.includes('Remix')) {
+                <span class="remix-label">REMIX</span>
+              }
+              @if (track.removed) {
+                <span class="removed-label">REMOVED IN ULTIMATE</span>
+              }
+            </div>
+          </h3>
+          <div class="track-details">
+            @if (track.image) {
+              <img [src]="imageService.imageUrl('music/smash/album-art/' + track.image)" [alt]="track.title" class="track-image">
+            }
+            <div class="track-info">
+              <div class="track-meta">
+                <span class="composer-info">
+                  @if (track.composers) {
+                    <strong>Composed by:</strong> {{ track.composers }}
+                  }
+                  @if (track.contributors && !(track.comment?.includes('Original'))) {
+                    <span class="contributor-info"><strong>Arranged by:</strong> {{ track.contributors }}</span>
+                  }
+                </span>
+                @if (track.release) {
+                  <span class="release-date">{{ track.release }}</span>
+                }
+              </div>
+              @if (track.description) {
+                <p class="track-description">{{ track.description }}</p>
+              }
+              <div class="audio-container">
+                <div class="audio-player-wrapper">
+                  <audio controls preload="none" [src]="imageService.imageUrl(track.path)">
+                    Mate your browser cannot handle this audio player.
+                  </audio>
+                </div>
+                <button (click)="playTrack(track)" class="play-button" title="Start Playlist from here">▶</button>
+                <div class="star-rating">
+                  @for (i of getStars(track.stars); track $index) {
+                    <img [src]="imageService.imageUrl('misc/mariokart/spinningstar.gif')" class="star-icon" alt="star">
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+    <div #scrollAnchor class="scroll-anchor" style="height: 10px; margin-top: 10px;"></div>
+  }
 </div>

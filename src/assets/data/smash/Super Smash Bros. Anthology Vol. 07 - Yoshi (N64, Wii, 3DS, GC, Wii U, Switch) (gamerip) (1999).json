@@ -62,7 +62,7 @@
     "stars": "3",
     "duration": 262,
     "track": "4",
-    "title": "Obstacle Course - Yoshi's Island",
+    "title": "Obstacle Course",
     "composers": "Koji Kondo",
     "contributors": "Shota Kageyama",
     "album": "Super Smash Bros. Anthology - Vol. 07: Yoshi",
@@ -162,24 +162,6 @@
     "release": "2008"
   },
   {
-    "id": "8faf1ea9-eba5-4054-b950-95d271ad8bec",
-    "filename": "12. Main Theme - Yoshi's New Island.mp3",
-    "path": "music/smash\\Super Smash Bros. Anthology Vol. 07 - Yoshi (N64, Wii, 3DS, GC, Wii U, Switch) (gamerip) (1999)\\12. Main Theme - Yoshi's New Island.mp3",
-    "image": "yoshi_ssbu.png",
-    "description": "Yoshi's New Island was really bad but they did manage to come up with a great main theme, and this remixer has done a great job of making it sound even better. I really like it.",
-    "stars": "4",
-    "duration": 317,
-    "track": "12",
-    "title": "Main Theme",
-    "composers": "Masayoshi Ishi",
-    "contributors": "Shota Kageyama",
-    "album": "Super Smash Bros. Anthology - Vol. 07: Yoshi",
-    "original-game": "Yoshi's New Island",
-    "comment": "Ultimate Remix",
-    "volume": "07",
-    "release": "2018"
-  },
-  {
     "id": "0ae221e2-370d-4609-a4d4-342f75b27c14",
     "filename": "13. Main Theme - Yoshi's New Island.mp3",
     "path": "music/smash\\Super Smash Bros. Anthology Vol. 07 - Yoshi (N64, Wii, 3DS, GC, Wii U, Switch) (gamerip) (1999)\\13. Main Theme - Yoshi's New Island.mp3",
@@ -196,6 +178,24 @@
     "comment": "Smash 4 Original",
     "volume": "07",
     "release": "2014"
+  },
+  {
+    "id": "8faf1ea9-eba5-4054-b950-95d271ad8bec",
+    "filename": "12. Main Theme - Yoshi's New Island.mp3",
+    "path": "music/smash\\Super Smash Bros. Anthology Vol. 07 - Yoshi (N64, Wii, 3DS, GC, Wii U, Switch) (gamerip) (1999)\\12. Main Theme - Yoshi's New Island.mp3",
+    "image": "yoshi_ssbu.png",
+    "description": "Yoshi's New Island was really bad but they did manage to come up with a great main theme, and this remixer has done a great job of making it sound even better. I really like it.",
+    "stars": "4",
+    "duration": 317,
+    "track": "12",
+    "title": "Main Theme",
+    "composers": "Masayoshi Ishi",
+    "contributors": "Shota Kageyama",
+    "album": "Super Smash Bros. Anthology - Vol. 07: Yoshi",
+    "original-game": "Yoshi's New Island",
+    "comment": "Ultimate Remix",
+    "volume": "07",
+    "release": "2018"
   },
   {
     "id": "09856c93-b636-4d20-b756-47c81fa2ce6f",
