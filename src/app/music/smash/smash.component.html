@@ -23,21 +23,25 @@
               </div>
             }
             @for (track of volume.tracks; track track) {
-              <div class="track-item">
+              <div class="track-item" [ngClass]="getTrackClass(track.comment)">
                 <h3 class="track-title">
-                  @if (getFranchiseIcon(track.comment); as icon) {
-                    <img [src]="imageService.imageUrl('music/smash/franchise-icons/' + icon)" class="franchise-icon" alt="">
-                  }
-                  {{ track.title }}
-                  @if (track['original-game']) {
-                    <span class="original-game"> - {{ track['original-game'] }}</span>
-                  }
-                  @if (track.comment.includes('Remix')) {
-                    <span class="remix-label">REMIX</span>
-                  }
-                  @if (track.removed) {
-                    <span class="removed-label">REMOVED IN ULTIMATE</span>
-                  }
+                  <div class="track-title-main">
+                    @if (getFranchiseIcon(track.comment); as icon) {
+                      <img [src]="imageService.imageUrl('music/smash/franchise-icons/' + icon)" class="franchise-icon" alt="">
+                    }
+                    {{ track.title }}
+                    @if (track['original-game']) {
+                      <span class="original-game"> - {{ track['original-game'] }}</span>
+                    }
+                  </div>
+                  <div class="track-labels">
+                    @if (track.comment.includes('Remix')) {
+                      <span class="remix-label">REMIX</span>
+                    }
+                    @if (track.removed) {
+                      <span class="removed-label">REMOVED IN ULTIMATE</span>
+                    }
+                  </div>
                 </h3>
                 <div class="track-details">
                   @if (track.image) {
@@ -60,9 +64,18 @@
                     @if (track.description) {
                       <p class="track-description">{{ track.description }}</p>
                     }
-                    <audio controls preload="none" [src]="imageService.imageUrl(track.path)">
-                      Mate your browser cannot handle this audio player.
-                    </audio>
+                    <div class="audio-container">
+                      <div class="audio-player-wrapper">
+                        <audio controls preload="metadata" [src]="imageService.imageUrl(track.path)">
+                          Mate your browser cannot handle this audio player.
+                        </audio>
+                      </div>
+                      <div class="star-rating">
+                        @for (i of getStars(track.stars); track i) {
+                          <img [src]="imageService.imageUrl('misc/mariokart/spinningstar.gif')" class="star-icon" alt="star">
+                        }
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
