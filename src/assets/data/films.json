@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "crouching-tiger.webp",
+      "title": "Crouching Tiger, Hidden Dragon",
+      "description": "Got super stoned and watched this at home and loved it. Best martial arts ever. Excellent female characters.",
+      "year": "2026",
+      "release": "2000",
+      "id": "c651ee7d-356c-4358-a0a9-4a2d1156a691",
+      "newsletter": false
+    },
+    {
       "filename": "ivan-hadoum.jpg",
       "title": "Iván & Hadoum",
       "description": "I won tickets to see the Teddy Award winner at Mongay! Kitty and I went and it was lovely. A romantic story about a trans man in Andalucia. So great to see what it's like being a trans man, something I know not very much about.",

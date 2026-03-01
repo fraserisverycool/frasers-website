@@ -297,7 +297,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
       // Game filter (comment field)
       if (this.selectedGame) {
-        if (!track.comment?.includes(this.selectedGame)) return false;
+        if (!track.comment.includes(this.selectedGame)) return false;
       }
 
       // Stars filter
@@ -308,13 +308,13 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
       // Remix/Original filter (type)
       if (this.selectedType) {
-        if (!track.comment?.includes(this.selectedType)) return false;
+        if (!track.comment.includes(this.selectedType)) return false;
       }
 
       // Composer/Contributor filter
       if (this.selectedComposer) {
-        const inContributors = track.contributors?.includes(this.selectedComposer);
-        const inComposers = track.composers?.includes(this.selectedComposer);
+        const inContributors = track.contributors.includes(this.selectedComposer);
+        const inComposers = track.composers.includes(this.selectedComposer);
         if (!inContributors && !inComposers) return false;
       }
 
@@ -369,6 +369,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (comment.includes('64')) return 'bg-64';
     if (comment.includes('Melee')) return 'bg-melee';
     if (comment.includes('Brawl')) return 'bg-brawl';
+    if (comment.includes('3DS')) return 'bg-3ds';
     if (comment.includes('Smash 4')) return 'bg-smash4';
     if (comment.includes('Ultimate')) return 'bg-ultimate';
     return '';

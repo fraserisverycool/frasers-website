@@ -106,7 +106,7 @@
               }
             </div>
             <div class="track-labels">
-              @if (track.comment?.includes('Remix')) {
+              @if (track.comment.includes('Remix')) {
                 <span class="remix-label">REMIX</span>
               }
               @if (track.removed) {
@@ -124,7 +124,7 @@
                   @if (track.composers) {
                     <strong>Composed by:</strong> {{ track.composers }}
                   }
-                  @if (track.contributors && !(track.comment?.includes('Original'))) {
+                  @if (track.contributors && !(track.comment.includes('Original'))) {
                     <span class="contributor-info"><strong>Arranged by:</strong> {{ track.contributors }}</span>
                   }
                 </span>

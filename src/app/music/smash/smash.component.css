@@ -232,11 +232,12 @@
   margin-left: auto;
 }
 
-.bg-64 { background-color: #fffae1 !important; border-color: #e0823a !important; } /* Yellow */
-.bg-melee { background-color: #e9d8ec !important; border-color: #bb5dcd !important; } /* Light Purple */
-.bg-brawl { background-color: #f6d9dd !important; border-color: #ed6a6a !important; } /* Faint Red */
-.bg-smash4 { background-color: #bedced !important; border-color: #3392df !important; } /* Blue */
-.bg-ultimate { background-color: #ffffff !important; border-color: #616161 !important; } /* White */
+.bg-64 { background-color: #fffae1 !important; border-color: #e0823a !important; }
+.bg-melee { background-color: #e9d8ec !important; border-color: #bb5dcd !important; }
+.bg-brawl { background-color: #FFCFCF !important; border-color: #FF4040 !important; }
+.bg-3ds { background-color: #FFDFD9 !important; border-color: #EB6A3D !important; }
+.bg-smash4 { background-color: #bedced !important; border-color: #3392df !important; }
+.bg-ultimate { background-color: #ffffff !important; border-color: #616161 !important; }
 
 .franchise-icon {
   height: 24px;
