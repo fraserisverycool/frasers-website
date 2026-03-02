@@ -53,11 +53,11 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   allTracks: Track[] = [];
   filteredTracks: Track[] = [];
   categories: string[] = [];
-  selectedCategory: string | null = null;
-  selectedGame: string | null = null;
-  selectedStars: number | null = null;
+  selectedCategories: string[] = [];
+  selectedGames: string[] = [];
+  selectedStars: number[] = [];
   selectedType: string | null = null; // 'Remix' | 'Original' | null
-  selectedComposer: string | null = null;
+  selectedComposers: string[] = [];
   isFilterDropdownOpen = false;
   isGameDropdownOpen = false;
   isStarsDropdownOpen = false;
@@ -96,6 +96,12 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       this.isComposerDropdownOpen = false;
       this.cdr.detectChanges();
     }
+  }
+
+  private getIndividualComposers(composerString: string | undefined): string[] {
+    if (!composerString) return [];
+
+    return composerString.split(',').map(c => c.trim()).filter(c => c);
   }
 
   ngOnInit(): void {
@@ -139,20 +145,21 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
           }
 
           if (track.contributors) {
-            const individualContributors = track.contributors.split(',').map(c => c.trim());
-            individualContributors.forEach(c => {
-              if (c) composerSet.add(c);
-            });
-          }
+            const individualContributors = this.getIndividualComposers(track.contributors);
+            const individualComposers = this.getIndividualComposers(track.composers);
+            const isRemix = track.comment && track.comment.includes('Remix');
 
-          if (track.composers) {
-            const individualComposers = track.composers.split(',').map(c => c.trim());
-            individualComposers.forEach(c => {
-              if (c) composerSet.add(c);
+            individualContributors.forEach(c => {
+              if (c) {
+                const isDifferentFromComposers = !individualComposers.includes(c);
+                if (isRemix || isDifferentFromComposers) {
+                  composerSet.add(c);
+                }
+              }
             });
           }
         });
-        this.categories = Array.from(categorySet).sort();
+        this.categories = Array.from(categorySet);
         this.composersList = Array.from(composerSet).sort();
 
         this.filteredTracks = [...this.allTracks];
@@ -244,24 +251,48 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   selectCategory(category: string | null): void {
-    this.selectedCategory = category;
-    this.isFilterDropdownOpen = false;
+    if (category === null) {
+      this.selectedCategories = [];
+    } else {
+      const index = this.selectedCategories.indexOf(category);
+      if (index > -1) {
+        this.selectedCategories.splice(index, 1);
+      } else {
+        this.selectedCategories.push(category);
+      }
+    }
     this.resetInfiniteScroll();
     this.applyFilter();
     this.cdr.detectChanges();
   }
 
   selectGame(game: string | null): void {
-    this.selectedGame = game;
-    this.isGameDropdownOpen = false;
+    if (game === null) {
+      this.selectedGames = [];
+    } else {
+      const index = this.selectedGames.indexOf(game);
+      if (index > -1) {
+        this.selectedGames.splice(index, 1);
+      } else {
+        this.selectedGames.push(game);
+      }
+    }
     this.resetInfiniteScroll();
     this.applyFilter();
     this.cdr.detectChanges();
   }
 
   selectStars(star: number | null): void {
-    this.selectedStars = star;
-    this.isStarsDropdownOpen = false;
+    if (star === null) {
+      this.selectedStars = [];
+    } else {
+      const index = this.selectedStars.indexOf(star);
+      if (index > -1) {
+        this.selectedStars.splice(index, 1);
+      } else {
+        this.selectedStars.push(star);
+      }
+    }
     this.resetInfiniteScroll();
     this.applyFilter();
     this.cdr.detectChanges();
@@ -275,35 +306,59 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   selectComposer(composer: string | null): void {
-    this.selectedComposer = composer;
-    this.isComposerDropdownOpen = false;
+    if (composer === null) {
+      this.selectedComposers = [];
+    } else {
+      const index = this.selectedComposers.indexOf(composer);
+      if (index > -1) {
+        this.selectedComposers.splice(index, 1);
+      } else {
+        this.selectedComposers.push(composer);
+      }
+    }
     this.resetInfiniteScroll();
     this.applyFilter();
     this.cdr.detectChanges();
   }
 
+  shuffleTracks(): void {
+    if (this.filteredTracks.length === 0) return;
+
+    // Fisher-Yates shuffle algorithm
+    const tracks = [...this.filteredTracks];
+    for (let i = tracks.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [tracks[i], tracks[j]] = [tracks[j], tracks[i]];
+    }
+    this.filteredTracks = tracks;
+    this.playlist = [...this.filteredTracks];
+    this.resetInfiniteScroll();
+    this.cdr.detectChanges();
+  }
+
   applyFilter(): void {
     this.filteredTracks = this.allTracks.filter(track => {
-      // Category filter
-      if (this.selectedCategory) {
+      // Category filter (OR logic within categories)
+      if (this.selectedCategories.length > 0) {
         let category: string;
         if (track.album && track.album.includes(': ')) {
           category = track.album.split(': ')[1].trim();
         } else {
           category = track.volume;
         }
-        if (category !== this.selectedCategory) return false;
+        if (!this.selectedCategories.includes(category)) return false;
       }
 
       // Game filter (comment field)
-      if (this.selectedGame) {
-        if (!track.comment.includes(this.selectedGame)) return false;
+      if (this.selectedGames.length > 0) {
+        const matchesAnyGame = this.selectedGames.some(game => track.comment.includes(game));
+        if (!matchesAnyGame) return false;
       }
 
       // Stars filter
-      if (this.selectedStars !== null) {
+      if (this.selectedStars.length > 0) {
         const trackStars = parseInt(track.stars, 10);
-        if (trackStars !== this.selectedStars) return false;
+        if (!this.selectedStars.includes(trackStars)) return false;
       }
 
       // Remix/Original filter (type)
@@ -312,10 +367,13 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       }
 
       // Composer/Contributor filter
-      if (this.selectedComposer) {
-        const inContributors = track.contributors.includes(this.selectedComposer);
-        const inComposers = track.composers.includes(this.selectedComposer);
-        if (!inContributors && !inComposers) return false;
+      if (this.selectedComposers.length > 0) {
+        const matchesAnyComposer = this.selectedComposers.some(composer => {
+          const trackContributors = this.getIndividualComposers(track.contributors);
+          const trackComposers = this.getIndividualComposers(track.composers);
+          return trackContributors.includes(composer) || trackComposers.includes(composer);
+        });
+        if (!matchesAnyComposer) return false;
       }
 
       return true;

@@ -11,56 +11,56 @@
   @if (!loading) {
     <div class="controls-section">
       <div class="filter-container">
-        <button (click)="toggleFilterDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedCategory !== null }">
-          {{ selectedCategory ? selectedCategory : 'Filter by franchise' }}
+        <button (click)="toggleFilterDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedCategories.length > 0 }">
+          {{ selectedCategories.length > 0 ? (selectedCategories.length === 1 ? selectedCategories[0] : 'Franchise (' + selectedCategories.length + ')') : 'Filter by franchise' }}
         </button>
         @if (isFilterDropdownOpen) {
           <div class="dropdown-menu">
-            <button (click)="selectCategory(null)" class="option" [ngClass]="{ 'active': selectedCategory === null }">All Categories</button>
+            <button (click)="selectCategory(null)" class="option" [ngClass]="{ 'active': selectedCategories.length === 0 }">All Categories</button>
             @for (category of categories; track category) {
-              <button (click)="selectCategory(category)" class="option" [ngClass]="{ 'active': selectedCategory === category }">{{ category }}</button>
+              <button (click)="selectCategory(category)" class="option" [ngClass]="{ 'active': selectedCategories.includes(category) }">{{ category }}</button>
             }
           </div>
         }
       </div>
 
       <div class="filter-container">
-        <button (click)="toggleGameDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedGame !== null }">
-          {{ selectedGame ? selectedGame : 'Filter by smash game' }}
+        <button (click)="toggleGameDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedGames.length > 0 }">
+          {{ selectedGames.length > 0 ? (selectedGames.length === 1 ? selectedGames[0] : 'Smash Game (' + selectedGames.length + ')') : 'Filter by smash game' }}
         </button>
         @if (isGameDropdownOpen) {
           <div class="dropdown-menu">
-            <button (click)="selectGame(null)" class="option" [ngClass]="{ 'active': selectedGame === null }">All Games</button>
+            <button (click)="selectGame(null)" class="option" [ngClass]="{ 'active': selectedGames.length === 0 }">All Games</button>
             @for (game of games; track game) {
-              <button (click)="selectGame(game)" class="option" [ngClass]="{ 'active': selectedGame === game }">{{ game }}</button>
+              <button (click)="selectGame(game)" class="option" [ngClass]="{ 'active': selectedGames.includes(game) }">{{ game }}</button>
             }
           </div>
         }
       </div>
 
       <div class="filter-container">
-        <button (click)="toggleStarsDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedStars !== null }">
-          {{ selectedStars !== null ? selectedStars + (selectedStars === 1 ? ' Star' : ' Stars') : 'Filter by stars' }}
+        <button (click)="toggleStarsDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedStars.length > 0 }">
+          {{ selectedStars.length > 0 ? (selectedStars.length === 1 ? selectedStars[0] + ' Stars' : 'Ratings (' + selectedStars.length + ')') : 'Filter by rating' }}
         </button>
         @if (isStarsDropdownOpen) {
           <div class="dropdown-menu">
-            <button (click)="selectStars(null)" class="option" [ngClass]="{ 'active': selectedStars === null }">All Ratings</button>
+            <button (click)="selectStars(null)" class="option" [ngClass]="{ 'active': selectedStars.length === 0 }">All Ratings</button>
             @for (star of stars; track star) {
-              <button (click)="selectStars(star)" class="option" [ngClass]="{ 'active': selectedStars === star }">{{ star }} Stars</button>
+              <button (click)="selectStars(star)" class="option" [ngClass]="{ 'active': selectedStars.includes(star) }">{{ star }} Stars</button>
             }
           </div>
         }
       </div>
 
       <div class="filter-container">
-        <button (click)="toggleComposerDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedComposer !== null }">
-          {{ selectedComposer ? selectedComposer : 'Filter by composer' }}
+        <button (click)="toggleComposerDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedComposers.length > 0 }">
+          {{ selectedComposers.length > 0 ? (selectedComposers.length === 1 ? selectedComposers[0] : 'Composer (' + selectedComposers.length + ')') : 'Filter by composer' }}
         </button>
         @if (isComposerDropdownOpen) {
           <div class="dropdown-menu">
-            <button (click)="selectComposer(null)" class="option" [ngClass]="{ 'active': selectedComposer === null }">All Composers</button>
+            <button (click)="selectComposer(null)" class="option" [ngClass]="{ 'active': selectedComposers.length === 0 }">All Composers</button>
             @for (composer of composersList; track composer) {
-              <button (click)="selectComposer(composer)" class="option" [ngClass]="{ 'active': selectedComposer === composer }">{{ composer }}</button>
+              <button (click)="selectComposer(composer)" class="option" [ngClass]="{ 'active': selectedComposers.includes(composer) }">{{ composer }}</button>
             }
           </div>
         }
@@ -71,9 +71,14 @@
         <button (click)="selectType('Remix')" class="toggle-button" [ngClass]="{ 'active': selectedType === 'Remix' }">Remix</button>
         <button (click)="selectType('Original')" class="toggle-button" [ngClass]="{ 'active': selectedType === 'Original' }">Original</button>
       </div>
+    </div>
 
-      <button (click)="playAll()" class="filter-button play-all-button" [disabled]="filteredTracks.length === 0">
+    <div class="playlist-actions">
+      <button (click)="playAll()" class="playlist-button start-button" [disabled]="filteredTracks.length === 0">
         Start Playlist
+      </button>
+      <button (click)="shuffleTracks()" class="playlist-button shuffle-button" [disabled]="filteredTracks.length === 0">
+        Randomise
       </button>
     </div>
 
@@ -124,7 +129,7 @@
                   @if (track.composers) {
                     <strong>Composed by:</strong> {{ track.composers }}
                   }
-                  @if (track.contributors && !(track.comment.includes('Original'))) {
+                  @if (track.contributors && (track.contributors !== track.composers || track.comment.includes('Remix'))) {
                     <span class="contributor-info"><strong>Arranged by:</strong> {{ track.contributors }}</span>
                   }
                 </span>

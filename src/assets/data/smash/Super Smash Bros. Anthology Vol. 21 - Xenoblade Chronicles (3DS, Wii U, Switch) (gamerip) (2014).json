@@ -249,8 +249,8 @@
     "duration": 316,
     "track": "15/27",
     "title": "Gormott",
-    "composers": "ACE (TOMOri Kudo",
-    "contributors": "ACE (TOMOri Kudo",
+    "composers": "ACE (TOMOri Kudo / CHiCO)",
+    "contributors": "ACE (TOMOri Kudo / CHiCO)",
     "album": "Super Smash Bros. Anthology - Vol. 21: Xenoblade Chronicles",
     "volume": "21",
     "release": "2021"
@@ -299,8 +299,8 @@
     "duration": 203,
     "track": "18/27",
     "title": "Death Match with Torna",
-    "composers": "ACE (TOMOri Kudo",
-    "contributors": "ACE (TOMOri Kudo",
+    "composers": "ACE (TOMOri Kudo / CHiCO)",
+    "contributors": "ACE (TOMOri Kudo / CHiCO)",
     "album": "Super Smash Bros. Anthology - Vol. 21: Xenoblade Chronicles",
     "volume": "21",
     "release": "2021"
@@ -336,6 +336,8 @@
     "composers": "Kenji Hiramatsu",
     "contributors": "Nobuko Toda",
     "album": "Super Smash Bros. Anthology - Vol. 21: Xenoblade Chronicles",
+    "original-game": "Xenoblade Chronicles 2",
+    "comment": "Ultimate Remix",
     "volume": "21",
     "release": "2021"
   },
