@@ -89,7 +89,16 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent): void {
     const target = event.target as HTMLElement;
-    if ((this.isFilterDropdownOpen || this.isGameDropdownOpen || this.isStarsDropdownOpen || this.isComposerDropdownOpen) && !this.eRef.nativeElement.contains(target)) {
+    const filterContainers = this.eRef.nativeElement.querySelectorAll('.filter-container');
+    let isInsideAnyFilter = false;
+
+    filterContainers.forEach((container: HTMLElement) => {
+      if (container.contains(target)) {
+        isInsideAnyFilter = true;
+      }
+    });
+
+    if (!isInsideAnyFilter && (this.isFilterDropdownOpen || this.isGameDropdownOpen || this.isStarsDropdownOpen || this.isComposerDropdownOpen)) {
       this.isFilterDropdownOpen = false;
       this.isGameDropdownOpen = false;
       this.isStarsDropdownOpen = false;
@@ -100,6 +109,14 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
   private getIndividualComposers(composerString: string | undefined): string[] {
     if (!composerString) return [];
+
+    // Special case for ACE (TOMOri Kudo / CHiCO)
+    const specialComposer = "ACE (TOMOri Kudo / CHiCO)";
+    if (composerString.includes(specialComposer)) {
+      const parts = composerString.split(specialComposer);
+      const others = parts.flatMap(part => part.split(',').map(c => c.trim()).filter(c => c));
+      return [specialComposer, ...others];
+    }
 
     return composerString.split(',').map(c => c.trim()).filter(c => c);
   }
