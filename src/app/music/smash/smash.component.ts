@@ -412,6 +412,11 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   playTrack(track: Track): void {
     this.currentTrack = track;
     this.updateMediaSession(track);
+    this.cdr.detectChanges();
+    if (this.audioPlayer) {
+      this.audioPlayer.nativeElement.load();
+      this.audioPlayer.nativeElement.play().catch(e => console.error('Error playing track', e));
+    }
   }
 
   updateMediaSession(track: Track): void {
@@ -427,6 +432,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
       // @ts-ignore
       navigator.mediaSession.metadata = new MediaMetadata(metadata);
+      navigator.mediaSession.playbackState = 'playing';
     }
   }
 
@@ -435,11 +441,13 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       navigator.mediaSession.setActionHandler('play', () => {
         if (this.audioPlayer) {
           this.audioPlayer.nativeElement.play();
+          navigator.mediaSession.playbackState = 'playing';
         }
       });
       navigator.mediaSession.setActionHandler('pause', () => {
         if (this.audioPlayer) {
           this.audioPlayer.nativeElement.pause();
+          navigator.mediaSession.playbackState = 'paused';
         }
       });
       navigator.mediaSession.setActionHandler('previoustrack', () => this.previousTrack());
@@ -453,6 +461,11 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (index < this.playlist.length - 1) {
       this.currentTrack = this.playlist[index + 1];
       this.updateMediaSession(this.currentTrack);
+      this.cdr.detectChanges();
+      if (this.audioPlayer) {
+        this.audioPlayer.nativeElement.load();
+        this.audioPlayer.nativeElement.play().catch(e => console.error('Error playing next track', e));
+      }
     }
   }
 
@@ -462,6 +475,11 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (index > 0) {
       this.currentTrack = this.playlist[index - 1];
       this.updateMediaSession(this.currentTrack);
+      this.cdr.detectChanges();
+      if (this.audioPlayer) {
+        this.audioPlayer.nativeElement.load();
+        this.audioPlayer.nativeElement.play().catch(e => console.error('Error playing previous track', e));
+      }
     }
   }
 
