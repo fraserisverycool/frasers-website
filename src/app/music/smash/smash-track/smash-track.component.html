@@ -1,0 +1,57 @@
+<div class="track-item" [ngClass]="getTrackClass(track.comment)">
+  <h3 class="track-title">
+    <div class="track-title-main">
+      @if (getFranchiseIcon(track.comment); as icon) {
+        <img [src]="imageService.imageUrl('music/smash/franchise-icons/' + icon)" class="franchise-icon" alt="">
+      }
+      {{ track.title }}
+      @if (track['original-game']) {
+        <span class="original-game">{{ track['original-game'] }}</span>
+      }
+    </div>
+    <div class="track-labels">
+      @if (track.comment.includes('Remix')) {
+        <span class="remix-label">REMIX</span>
+      }
+      @if (track.removed) {
+        <span class="removed-label">REMOVED IN ULTIMATE</span>
+      }
+    </div>
+  </h3>
+  <div class="track-details">
+    @if (track.image) {
+      <img [src]="imageService.imageUrl('music/smash/album-art/' + track.image)" [alt]="track.title" class="track-image">
+    }
+    <div class="track-info">
+      <div class="track-meta">
+        <span class="composer-info">
+          @if (track.composers) {
+            <strong>Composed by:</strong> {{ track.composers }}
+          }
+          @if (track.contributors && (track.contributors !== track.composers || track.comment.includes('Remix'))) {
+            <span class="contributor-info"><strong>Arranged by:</strong> {{ track.contributors }}</span>
+          }
+        </span>
+        @if (track.release) {
+          <span class="release-date">{{ track.release }}</span>
+        }
+      </div>
+      @if (track.description) {
+        <p class="track-description">{{ track.description }}</p>
+      }
+      <div class="audio-container">
+        <div class="audio-player-wrapper">
+          <audio controls preload="none" [src]="imageService.imageUrl(track.path)">
+            Mate your browser cannot handle this audio player.
+          </audio>
+        </div>
+        <button (click)="onPlay()" class="play-button" title="Start Playlist from here">▶</button>
+        <div class="star-rating">
+          @for (i of getStars(track.stars); track $index) {
+            <img [src]="imageService.imageUrl('misc/mariokart/spinningstar.gif')" class="star-icon" alt="star">
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

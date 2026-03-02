@@ -4,6 +4,8 @@ import { CommonModule, NgClass } from '@angular/common';
 import { forkJoin, map, switchMap } from 'rxjs';
 import { ImageService } from '../../utils/services/image.service';
 
+import { SmashTrackComponent } from './smash-track/smash-track.component';
+
 interface Track {
   id: string;
   filename: string;
@@ -44,7 +46,7 @@ interface Volume {
 @Component({
   selector: 'app-smash',
   standalone: true,
-  imports: [CommonModule, NgClass],
+  imports: [CommonModule, NgClass, SmashTrackComponent],
   templateUrl: './smash.component.html',
   styleUrl: './smash.component.css',
 })
@@ -427,31 +429,5 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
   onTrackEnded(): void {
     this.nextTrack();
-  }
-
-  getFranchiseIcon(comment: string): string | null {
-    if (!comment) return null;
-    if (comment.includes('64')) return 'ssb.png';
-    if (comment.includes('Melee')) return 'ssbm.png';
-    if (comment.includes('Brawl')) return 'ssbb.png';
-    if (comment.includes('Smash 4')) return 'ssb4.png';
-    if (comment.includes('Ultimate')) return 'ssbu.png';
-    return null;
-  }
-
-  getTrackClass(comment: string): string {
-    if (!comment) return '';
-    if (comment.includes('64')) return 'bg-64';
-    if (comment.includes('Melee')) return 'bg-melee';
-    if (comment.includes('Brawl')) return 'bg-brawl';
-    if (comment.includes('3DS')) return 'bg-3ds';
-    if (comment.includes('Smash 4')) return 'bg-smash4';
-    if (comment.includes('Ultimate')) return 'bg-ultimate';
-    return '';
-  }
-
-  getStars(stars: string): number[] {
-    const count = parseInt(stars, 10);
-    return isNaN(count) ? [] : Array(count).fill(0);
   }
 }
