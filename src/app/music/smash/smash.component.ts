@@ -412,11 +412,6 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   playTrack(track: Track): void {
     this.currentTrack = track;
     this.updateMediaSession(track);
-    this.cdr.detectChanges();
-    if (this.audioPlayer) {
-      this.audioPlayer.nativeElement.load();
-      this.audioPlayer.nativeElement.play().catch(e => console.error('Error playing track', e));
-    }
   }
 
   updateMediaSession(track: Track): void {
@@ -459,13 +454,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (!this.currentTrack) return;
     const index = this.playlist.indexOf(this.currentTrack);
     if (index < this.playlist.length - 1) {
-      this.currentTrack = this.playlist[index + 1];
-      this.updateMediaSession(this.currentTrack);
-      this.cdr.detectChanges();
-      if (this.audioPlayer) {
-        this.audioPlayer.nativeElement.load();
-        this.audioPlayer.nativeElement.play().catch(e => console.error('Error playing next track', e));
-      }
+      this.playTrack(this.playlist[index + 1]);
     }
   }
 
@@ -473,13 +462,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (!this.currentTrack) return;
     const index = this.playlist.indexOf(this.currentTrack);
     if (index > 0) {
-      this.currentTrack = this.playlist[index - 1];
-      this.updateMediaSession(this.currentTrack);
-      this.cdr.detectChanges();
-      if (this.audioPlayer) {
-        this.audioPlayer.nativeElement.load();
-        this.audioPlayer.nativeElement.play().catch(e => console.error('Error playing previous track', e));
-      }
+      this.playTrack(this.playlist[index - 1]);
     }
   }
 
