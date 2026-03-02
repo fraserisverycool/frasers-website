@@ -85,6 +85,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   private observer: IntersectionObserver | null = null;
+  @ViewChild('audioPlayer') audioPlayer!: ElementRef<HTMLAudioElement>;
 
   constructor(private http: HttpClient, protected imageService: ImageService, private cdr: ChangeDetectorRef, private eRef: ElementRef) {}
 
@@ -124,6 +125,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   ngOnInit(): void {
+    this.setupMediaSessionHandlers();
     this.http.get<IndexData>('assets/data/smash/index.json').pipe(
       switchMap(indexData => {
         const volumeRequests = Object.keys(indexData).map(fullTitle => {
@@ -409,6 +411,40 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
   playTrack(track: Track): void {
     this.currentTrack = track;
+    this.updateMediaSession(track);
+  }
+
+  updateMediaSession(track: Track): void {
+    if ('mediaSession' in navigator) {
+      const metadata: any = {
+        title: track.title,
+        artist: track.contributors || track.composers,
+        album: track.album || track.volume,
+        artwork: [
+          { src: this.imageService.imageUrl('music/smash/album-art/' + (track.image || 'default.png')), sizes: '512x512', type: 'image/png' }
+        ]
+      };
+
+      // @ts-ignore
+      navigator.mediaSession.metadata = new MediaMetadata(metadata);
+    }
+  }
+
+  setupMediaSessionHandlers(): void {
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.setActionHandler('play', () => {
+        if (this.audioPlayer) {
+          this.audioPlayer.nativeElement.play();
+        }
+      });
+      navigator.mediaSession.setActionHandler('pause', () => {
+        if (this.audioPlayer) {
+          this.audioPlayer.nativeElement.pause();
+        }
+      });
+      navigator.mediaSession.setActionHandler('previoustrack', () => this.previousTrack());
+      navigator.mediaSession.setActionHandler('nexttrack', () => this.nextTrack());
+    }
   }
 
   nextTrack(): void {
@@ -416,6 +452,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     const index = this.playlist.indexOf(this.currentTrack);
     if (index < this.playlist.length - 1) {
       this.currentTrack = this.playlist[index + 1];
+      this.updateMediaSession(this.currentTrack);
     }
   }
 
@@ -424,6 +461,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     const index = this.playlist.indexOf(this.currentTrack);
     if (index > 0) {
       this.currentTrack = this.playlist[index - 1];
+      this.updateMediaSession(this.currentTrack);
     }
   }
 
