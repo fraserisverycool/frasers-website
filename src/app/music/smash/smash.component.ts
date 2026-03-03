@@ -113,14 +113,6 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   private getIndividualComposers(composerString: string | undefined): string[] {
     if (!composerString) return [];
 
-    // Special case for ACE (TOMOri Kudo / CHiCO)
-    const specialComposer = "ACE (TOMOri Kudo / CHiCO)";
-    if (composerString.includes(specialComposer)) {
-      const parts = composerString.split(specialComposer);
-      const others = parts.flatMap(part => part.split(',').map(c => c.trim()).filter(c => c));
-      return [specialComposer, ...others];
-    }
-
     return composerString.split(',').map(c => c.trim()).filter(c => c);
   }
 
@@ -203,6 +195,16 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   ngOnDestroy(): void {
     if (this.observer) {
       this.observer.disconnect();
+    }
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.setActionHandler('play', null);
+      navigator.mediaSession.setActionHandler('pause', null);
+      navigator.mediaSession.setActionHandler('previoustrack', null);
+      navigator.mediaSession.setActionHandler('nexttrack', null);
+      try {
+        // @ts-ignore
+        navigator.mediaSession.setActionHandler('seekto', null);
+      } catch (e) {}
     }
   }
 
@@ -418,7 +420,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if ('mediaSession' in navigator) {
       const metadata: any = {
         title: track.title,
-        artist: track.contributors || track.composers,
+        artist: (track.contributors || track.composers || '').replace(/,\s*/g, ' & '),
         album: track.album || track.volume,
         artwork: [
           { src: this.imageService.imageUrl('music/smash/album-art/' + (track.image || 'default.png')), sizes: '512x512', type: 'image/png' }
@@ -428,6 +430,15 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       // @ts-ignore
       navigator.mediaSession.metadata = new MediaMetadata(metadata);
       navigator.mediaSession.playbackState = 'playing';
+
+      // Update position state for better background handling
+      if ('setPositionState' in navigator.mediaSession) {
+        navigator.mediaSession.setPositionState({
+          duration: 0,
+          playbackRate: 1,
+          position: 0
+        });
+      }
     }
   }
 
@@ -446,16 +457,21 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
         }
       });
       navigator.mediaSession.setActionHandler('previoustrack', () => this.previousTrack());
-      navigator.mediaSession.setActionHandler('nexttrack', () => this.nextTrack());
+      navigator.mediaSession.setActionHandler('nexttrack', () => this.onTrackEnded());
+      // Handle seek for lock screen/notification bar if possible
+      try {
+        // @ts-ignore
+        navigator.mediaSession.setActionHandler('seekto', (details) => {
+          if (this.audioPlayer && details.seekTime) {
+            this.audioPlayer.nativeElement.currentTime = details.seekTime;
+          }
+        });
+      } catch (e) {}
     }
   }
 
   nextTrack(): void {
-    if (!this.currentTrack) return;
-    const index = this.playlist.indexOf(this.currentTrack);
-    if (index < this.playlist.length - 1) {
-      this.playTrack(this.playlist[index + 1]);
-    }
+    this.onTrackEnded();
   }
 
   previousTrack(): void {
@@ -467,6 +483,18 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   onTrackEnded(): void {
-    this.nextTrack();
+    if (!this.currentTrack) return;
+    const nextIndex = this.playlist.indexOf(this.currentTrack) + 1;
+    if (nextIndex < this.playlist.length) {
+      this.playTrack(this.playlist[nextIndex]);
+      // Explicitly call play() after a short delay to ensure it starts even if backgrounded
+      setTimeout(() => {
+        if (this.audioPlayer) {
+          this.audioPlayer.nativeElement.play().catch(err => {
+            console.error('[DEBUG_LOG] Error playing next track on mobile background:', err);
+          });
+        }
+      }, 100);
+    }
   }
 }
