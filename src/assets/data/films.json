@@ -1,6 +1,15 @@
 {
   "films": [
     {
+      "filename": "marty-supreme.jpg",
+      "title": "Marty Supreme",
+      "description": "Enjoyed returning to Kino International with Marf to watch this, although it's so intense from start to finish. I would be lying if I said I wasn't entertained, but god the main character is so insufferable. People like that make my skin crawl.",
+      "year": "2026",
+      "release": "2025",
+      "id": "4f224608-43ba-4d08-aaf2-997c7666c51a",
+      "newsletter": false
+    },
+    {
       "filename": "crouching-tiger.webp",
       "title": "Crouching Tiger, Hidden Dragon",
       "description": "Got super stoned and watched this at home and loved it. Best martial arts ever. Excellent female characters.",
