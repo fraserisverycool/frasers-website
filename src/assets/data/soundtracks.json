@@ -1,6 +1,49 @@
 {
   "soundtracks": [
     {
+      "filename": "kirby-air-riders.png",
+      "name": "Kirby Air Riders",
+      "description": [
+        "After two 'special releases' of this soundtrack, I am so delighted to see this first Switch 2 soundtrack make it onto the app! Now we have full unfettered access to the new generation of frenetic and maximalist Kirby music. Happy days! I will say I don't care for all these vocal songs that Sakurai likes to put in his games these days, but apart from that there is a lot to enjoy here. The highlight for me is lowkey the menu theme, which slaps so hard. Maybe it's because it reminds me of smash so much.",
+        "Otherwise this soundtrack continues the Kirby tradition of honouring past soundtracks with a wealth of returning music. A delight, as usual. Also, the entire original Air Ride soundtrack is here, and that music is pretty wild! Have a listen to 'Machine Passage' - is this Tekken?"
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Menu",
+        "Waveflow Waters",
+        "Crystalline Fissure",
+        "Steamgust Forge",
+        "Cavernous Corners",
+        "Cyberion Highway",
+        "Mount Amberfalls",
+        "Galactic Nova",
+        "Celestial Valley",
+        "Frozen Hillside",
+        "Sky Sands",
+        "Magma Flows",
+        "Machine Passage",
+        "Floria Fields (Alt)",
+        "Waveflow Waters (Alt)",
+        "Crystalline Fissure (Alt)",
+        "Cavernous Corners (Alt)",
+        "Cyberion Highway (Alt)",
+        "Galactic Nova (Alt)",
+        "Celestial Valley (Alt)",
+        "Frozen Hillside (Alt)",
+        "Checker Knights (Alt)",
+        "Cyber (Alt)",
+        "Mountain (Alt)",
+        "The Mysterious Bird Dyna Blade",
+        "VS. Zero Two",
+        "Gourmet Race",
+        "Meta Knight's Revenge (Super Smash Bros. Brawl)",
+        "Light",
+        "Staff Credits (Kirby Super Star)"
+      ],
+      "id": "fcf16469-155a-4633-ba2b-d31435e7bc0e",
+      "newsletter": false
+    },
+    {
       "filename": "pokemon-firered.jpg",
       "name": "Pokémon FireRed Version and Pokémon LeafGreen Version",
       "description": [
@@ -669,21 +712,6 @@
         "Id (Purpose)"
       ],
       "id": "b2e0351c-b1c0-4c08-814f-384dd3a85c86",
-      "newsletter": true
-    },
-    {
-      "filename": "kirby-air-riders.png",
-      "name": "Kirby Air Riders",
-      "description": [
-        "I certainly didn't expect this little teaser taster of an unreleased game! I was so upset that there was no new soundtrack then like an angel, Sakurai appeared an blessed us with this little gift. On first listen the music sounds pretty generic and not like normal Kirby music but I can totally see myself getting into it. It sounds a lot like the original soundtrack, which I'm excited about, and during Sakurai's presentation I heard some remixes of Kirby classics too, so I think this soundtrack is going to have a lot to give. I will say I don't care for these main themes with singing in them. This also confirms that a Switch 2 soundtrack will be heading to the app eventually! Awesome!"
-      ],
-      "platform": "Switch 2",
-      "topTracks": [
-        "Waveflow Waters",
-        "Steamgust Forge",
-        "Mount Amberfalls"
-      ],
-      "id": "fcf16469-155a-4633-ba2b-d31435e7bc0e",
       "newsletter": true
     },
     {
