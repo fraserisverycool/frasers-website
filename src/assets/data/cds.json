@@ -598,10 +598,37 @@
       "artist": "Jens Lekman",
       "album": "Night Over Kortedala",
       "genre": "Indie & Singer-Songwriter",
-      "description": "Maybe not for everyone but for me an absolute favourite. Crucially on streaming services is a newer (worse) version of this album so you have the original on my CD player. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
+      "description": "Maybe not for everyone but for me an absolute favourite. Crucially on streaming services is a newer (worse) version of this album so you have the original on my CD player. You can read about it in the albums section.",
       "image": "jens-night.jpg",
       "id": "be4e970e-b6be-44bc-9648-dc0acd318f72",
       "newsletter": true
+    },
+    {
+      "artist": "Jens Lekman",
+      "album": "When I Said I Wanted To Be Your Dog",
+      "genre": "Indie & Singer-Songwriter",
+      "description": "Picked this up at his concert. His oldest album. I love it.",
+      "image": "jens-dog.webp",
+      "id": "ff1efb3c-7bf1-4965-b676-3495ecaff1cf",
+      "newsletter": false
+    },
+    {
+      "artist": "Jens Lekman",
+      "album": "I Know What Love Isn't",
+      "genre": "Indie & Singer-Songwriter",
+      "description": "Picked this up at his concert. Special album with a special vibe.",
+      "image": "jens-love.webp",
+      "id": "ed635f0d-fd4e-4e31-a684-62771599e462",
+      "newsletter": false
+    },
+    {
+      "artist": "Jens Lekman",
+      "album": "Life Will See You Now",
+      "genre": "Indie & Singer-Songwriter",
+      "description": "Picked this up at his concert. Wacky album that was recorded in Berlin.",
+      "image": "jens-life.jpg",
+      "id": "c354b75c-0262-4a91-b4a2-de312d9ee52f",
+      "newsletter": false
     },
     {
       "artist": "The Leisure Society",

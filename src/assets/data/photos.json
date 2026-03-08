@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "protest.jpg",
+      "title": "Imperialism is back baby",
+      "month": "March 2026",
+      "question": "Name a country that I will never ever visit.",
+      "id": "3a93ddbe-a593-4db7-a0ca-0e690eb617fc",
+      "newsletter": false
+    },
+    {
       "filename": "tromso.jpg",
       "title": "The North Pole",
       "month": "February 2026",

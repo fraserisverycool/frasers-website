@@ -1,6 +1,15 @@
 {
   "concerts": [
     {
+      "artist": "Jens Lekman",
+      "date": "08-03-2026",
+      "venue": "Gretchen, Berlin",
+      "image": "jens.jpg",
+      "description": "I've always been a huge fan and finally I get to see him! He was touring his album about being a wedding singer, but the most delightful part was when he played a bunch of his old songs. Hearing 'Postcard to Nina' live in Berlin was everything.",
+      "id": "a03778f1-d30d-4136-974d-6d9067f2e9b5",
+      "newsletter": false
+    },
+    {
       "artist": "Magdalena Bay",
       "date": "23-02-2026",
       "venue": "Columbiahalle, Berlin",

@@ -1,6 +1,41 @@
 {
   "games": [
     {
+      "name": "Morsels",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "Squelching flesh-themed game where you play as disgusting little creatures battling other icky creations. They went all in on the weird organic matter aesthetic and it works! The music is great. We played it at Jack's while testing out new edibles."
+      ],
+      "image": "morsels.jpg",
+      "platform": "Switch",
+      "year": "2026",
+      "release": "2025",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "8f78598f-e999-443d-a372-a993ebc3ae1d",
+      "newsletter": false
+    },
+    {
+      "name": "Minishoot' Adventures",
+      "vibes": "7",
+      "gameplay": "7",
+      "review": [
+        "Enjoyed trying this out on Fab's gamepass, it had some nice vibes and some very slick controls. We beat the first boss together but I don't think I will invest time and money into this.",
+        "Why on earth though does the name have an apostrophe in it."
+      ],
+      "image": "minishoot-adventures.jpg",
+      "platform": "Xbox Gamepass",
+      "year": "2026",
+      "release": "2024",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "56017aec-5dbc-482e-8807-2060b9323644",
+      "newsletter": false
+    },
+    {
       "name": "Hades 2",
       "vibes": "9",
       "gameplay": "9",
