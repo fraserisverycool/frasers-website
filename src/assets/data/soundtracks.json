@@ -1,6 +1,29 @@
 {
   "soundtracks": [
     {
+      "filename": "mario-3d-world.jpg",
+      "name": "Super Mario 3D World + Bowser's Fury",
+      "description": [
+        "I do feel like the 3D World soundtrack is pretty mid, listening to it has reminded me of listening to the Captain Toad soundtrack some months ago for this website. But it is a bit more special than that at least. Mario Kart World's soundtrack introduced me to some nice tracks which has made me appreciate it more."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Super Bell Hill",
+        "Chainlink Charge",
+        "World 3",
+        "Hisstocrat",
+        "Beep Block Skyway",
+        "Footlight Lane",
+        "Conkdor Canyon",
+        "Sunshine Seaside",
+        "Simmering Lava Lake",
+        "Lake Lapcat",
+        "Riding Plessie"
+      ],
+      "id": "7a424e50-043d-49c8-919b-801838b41829",
+      "newsletter": false
+    },
+    {
       "filename": "kirby-air-riders.png",
       "name": "Kirby Air Riders",
       "description": [
