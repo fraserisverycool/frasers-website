@@ -53,6 +53,8 @@ export default class NewsletterComponent implements OnInit {
         return 'stitch';
       case NewsletterContent.ALBUM:
         return 'album';
+      case NewsletterContent.CONCERT:
+        return 'concert';
       case NewsletterContent.CD:
         return 'cd';
       case NewsletterContent.MIX:
@@ -107,6 +109,9 @@ export default class NewsletterComponent implements OnInit {
     }
     if (type === NewsletterContent.MIX) {
       return "New Mix"
+    }
+    if (type === NewsletterContent.CONCERT) {
+      return "Concert Review"
     }
     if (type === NewsletterContent.KK) {
       return "KK Song Review"

@@ -27,6 +27,7 @@ export enum NewsletterContent {
   MARIOKART = 'MARIOKART',
   STITCH = 'STITCH',
   ALBUM = 'ALBUM',
+  CONCERT = 'CONCERT',
   CD = 'CD',
   MIX = 'MIX',
   SOUNDTRACK = 'SOUNDTRACK',

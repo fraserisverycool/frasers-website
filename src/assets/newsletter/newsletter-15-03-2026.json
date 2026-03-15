@@ -1,0 +1,131 @@
+{
+    "timestamp": "15-03-2026",
+    "title": "Burnout from listening to too many smash remixes",
+    "description": [
+        "Well there haven't been any major updates on the website for like a month because I spent the whole time making an insane webpage which lets you listen to all the Smash Bros soundtracks. I was inspired by how much I've been enjoying listening to my own favourite songs on the daily soundtracks page, and by how I want to make my own music streaming situation. In the greater context of removing big tech from my life, how about that?",
+        "Well it was way more work than I anticipated! Smash Ultimate alone has over 1000 tracks and I sat down and listened to them all, because for whatever reason I took the opportunity to rate them all. I just figured, since I'm going through all the metadata anyway and making it perfect, and making little character pictures for each track, why not also just drop my opinions as well. Isn't that what this website is for?",
+        "Well I found myself blocking out hours of my free time to go through and form opinions on all of these franchises. For my favourites it was a total pleasure, but by the end I was really feeling like all those Castlevania remixes are blending into each other. And then just the insane amount of Fatal Fury, Tekken tracks for example, I was struggling. The real killer was the the original Smash tracks. Just repetitions of the same melody over and over. I was starting to go crazy. I started to think to myself, is this music all actually kinda shit? Like I love Nintendo music but I don't feel like this when I listen to normal music.",
+        "Well maybe it was all a bit much. And it's not like I have to do it again. Now, I can choose my favourites and just listen to those. And the work was still oddly satisfying so fuck it, I think it was worth it. I was able to play Slay the Spire 2 while working on it so that's cool. Slay the Spire 2 is gonna be game of the year by the way. Holy moly.",
+        "Well anyway my life has been trundling on since the last newsletter, nothing too much to report there. I hope some of you can enjoy the new smash soundtrack page, but if not, that's fine because I made it for me."
+    ],
+    "entries": [
+        {
+            "title": "Morsels",
+            "description": [
+                "Squelching flesh-themed game where you play as disgusting little creatures battling other icky creations. They went all in on the weird organic matter aesthetic and it works! The music is great. We played it at Jack's while testing out new edibles."
+            ],
+            "image": "games/morsels.jpg",
+            "metadata": "Vibes: 10, Gameplay: 8, Platform: Switch, Release: 2025",
+            "type": "GAME"
+        },
+        {
+            "title": "Minishoot' Adventures",
+            "description": [
+                "Enjoyed trying this out on Fab's gamepass, it had some nice vibes and some very slick controls. We beat the first boss together but I don't think I will invest time and money into this.",
+                "Why on earth though does the name have an apostrophe in it."
+            ],
+            "image": "games/minishoot-adventures.jpg",
+            "metadata": "Vibes: 7, Gameplay: 7, Platform: Xbox Gamepass, Release: 2024",
+            "type": "GAME"
+        },
+        {
+            "title": "Marty Supreme",
+            "description": [
+                "Enjoyed returning to Kino International with Marf to watch this, although it's so intense from start to finish. I would be lying if I said I wasn't entertained, but god the main character is so insufferable. People like that make my skin crawl."
+            ],
+            "image": "films/marty-supreme.jpg",
+            "metadata": "Release: 2025",
+            "type": "FILM"
+        },
+        {
+            "title": "Crouching Tiger, Hidden Dragon",
+            "description": [
+                "Got super stoned and watched this at home and loved it. Best martial arts ever. Excellent female characters."
+            ],
+            "image": "films/crouching-tiger.webp",
+            "metadata": "Release: 2000",
+            "type": "FILM"
+        },
+        {
+            "title": "Iv\u00e1n & Hadoum",
+            "description": [
+                "I won tickets to see the Teddy Award winner at Mongay! Kitty and I went and it was lovely. A romantic story about a trans man in Andalucia. So great to see what it's like being a trans man, something I know not very much about."
+            ],
+            "image": "films/ivan-hadoum.jpg",
+            "metadata": "Release: 2026",
+            "type": "FILM"
+        },
+        {
+            "title": "Super Mario 3D World + Bowser's Fury",
+            "description": [
+                "I do feel like the 3D World soundtrack is pretty mid, listening to it has reminded me of listening to the Captain Toad soundtrack some months ago for this website. But it is a bit more special than that at least. Mario Kart World's soundtrack introduced me to some nice tracks which has made me appreciate it more."
+            ],
+            "image": "music/nintendo/mario-3d-world.jpg",
+            "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Kirby Air Riders",
+            "description": [
+                "After two 'special releases' of this soundtrack, I am so delighted to see this first Switch 2 soundtrack make it onto the app! Now we have full unfettered access to the new generation of frenetic and maximalist Kirby music. Happy days! I will say I don't care for all these vocal songs that Sakurai likes to put in his games these days, but apart from that there is a lot to enjoy here. The highlight for me is lowkey the menu theme, which slaps so hard. Maybe it's because it reminds me of smash so much.",
+                "Otherwise this soundtrack continues the Kirby tradition of honouring past soundtracks with a wealth of returning music. A delight, as usual. Also, the entire original Air Ride soundtrack is here, and that music is pretty wild! Have a listen to 'Machine Passage' - is this Tekken?"
+            ],
+            "image": "music/nintendo/kirby-air-riders.png",
+            "metadata": "Platform: Switch 2, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Jens Lekman",
+            "description": [
+                "I've always been a huge fan and finally I get to see him! He was touring his album about being a wedding singer, but the most delightful part was when he played a bunch of his old songs. Hearing 'Postcard to Nina' live in Berlin was everything."
+            ],
+            "image": "music/concerts/jens.jpg",
+            "metadata": "Date: 08-03-2026, Venue: Gretchen, Berlin",
+            "type": "CONCERT"
+        },
+        {
+            "title": "Magdalena Bay",
+            "description": [
+                "Went with Anni to see them for a third time! No regrets! Loved it. Was especially in the zone and especially delighted when they played some of their new songs."
+            ],
+            "image": "music/concerts/magdalena-bay3.jpg",
+            "metadata": "Date: 23-02-2026, Venue: Columbiahalle, Berlin",
+            "type": "CONCERT"
+        },
+        {
+            "title": "Imperialism is back baby",
+            "description": null,
+            "image": "gallery/protest.jpg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        },
+        {
+            "title": "When I Said I Wanted To Be Your Dog",
+            "description": [
+                "Picked this up at his concert. His oldest album. I love it."
+            ],
+            "image": "music/albums/jens-dog.webp",
+            "metadata": "Artist: Jens Lekman",
+            "type": "CD"
+        },
+        {
+            "title": "I Know What Love Isn't",
+            "description": [
+                "Picked this up at his concert. Special album with a special vibe."
+            ],
+            "image": "music/albums/jens-love.webp",
+            "metadata": "Artist: Jens Lekman",
+            "type": "CD"
+        },
+        {
+            "title": "Life Will See You Now",
+            "description": [
+                "Picked this up at his concert. Wacky album that was recorded in Berlin."
+            ],
+            "image": "music/albums/jens-life.jpg",
+            "metadata": "Artist: Jens Lekman",
+            "type": "CD"
+        }
+    ],
+    "id": "eaf25d9b-8627-4aac-b5ea-0da634b6f847"
+}
