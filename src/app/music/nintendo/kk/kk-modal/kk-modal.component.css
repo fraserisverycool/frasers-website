@@ -28,3 +28,12 @@
   border-radius: 10px;
   padding-bottom: 25px;
 }
+
+.audio-player-wrapper {
+  margin-bottom: 15px;
+}
+
+.audio-player-wrapper audio {
+  width: 100%;
+  height: 35px;
+}

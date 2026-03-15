@@ -60,6 +60,15 @@
   margin-bottom: 15px;
 }
 
+.audio-player-wrapper {
+  margin-bottom: 15px;
+}
+
+.audio-player-wrapper audio {
+  width: 100%;
+  height: 35px;
+}
+
 .mp3-card a {
   display: inline-block;
   padding: 8px 15px;

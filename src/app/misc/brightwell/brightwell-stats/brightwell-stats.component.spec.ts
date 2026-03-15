@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BrightwellStatsComponent } from './brightwell-stats.component';
+import BrightwellStatsComponent from './brightwell-stats.component';
 
 describe('BrightwellStatsComponent', () => {
   let component: BrightwellStatsComponent;

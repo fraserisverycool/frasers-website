@@ -1,9 +1,16 @@
 @if (selectedKkSong) {
   <div class="modal" (clickedOutside)="close.emit()" appClickedOutside>
-    <div class="modal-content">
+    <div class="modal-content" (click)="$event.stopPropagation()">
       <app-close-button (click)="close.emit()"/>
       <h2>{{ selectedKkSong.title }}</h2>
       <p>{{ selectedKkSong.description }}</p>
+      @if (getAudioUrl(); as audioUrl) {
+        <div class="audio-player-wrapper">
+          <audio controls preload="none" [src]="audioUrl">
+            Mate your browser cannot handle this audio player.
+          </audio>
+        </div>
+      }
       <img [ngSrc]="imageService.imageUrl('/music/nintendo/kk/' + selectedKkSong.filename)" [alt]="selectedKkSong.title" class="modal-image" width="600" height="600">
       <app-rating-bar [rating]="{id: selectedKkSong.id, ratings: selectedKkSong.rating}"></app-rating-bar>
     </div>

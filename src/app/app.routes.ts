@@ -36,6 +36,7 @@ import ConcertsComponent from "./music/concerts/concerts.component";
 import PokemonComponent from "./misc/pokemon/pokemon.component";
 import ContactComponent from "./contact/contact.component";
 import BrightwellStatsComponent from "./misc/brightwell/brightwell-stats/brightwell-stats.component";
+import AboutComponent from "./music/smash/about/about.component";
 
 export const routes: Routes = [
   {
@@ -91,6 +92,9 @@ export const routes: Routes = [
   },
   {
     path: 'music/smash', component: SmashComponent, data: { title: 'Super Smash Bros. Soundtrack - Fraser\'s Website' }
+  },
+  {
+    path: 'music/smash/about', component: AboutComponent, data: { title: 'Super Smash Bros. Soundtrack - Fraser\'s Website' }
   },
   {
     path: 'books', component: BooksComponent, data: { title: 'Books - Fraser\'s Website' }

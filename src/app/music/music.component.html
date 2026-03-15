@@ -58,36 +58,50 @@
             class="cd-image"
             width="200"
             height="200"/>
-            <img [src]="imageService.imageUrl('/music/cds/cd-case.png')" class="cd-case" />
-          </div>
-        }
-      </div>
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/mixes')">
-          <span class="button-text">Video Game Mixes</span>
-        </button>
-        <p>Talking about video game music, over the years I made a bunch of mixes of my favourite tracks. They are finally available for download! It took me a lot of time to figure out how to do that.</p>
-      </div>
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/spotify')">
-          <span class="button-text">Spotify Playlists</span>
-        </button>
-        <p>Here are some links to some of my favourite spotify playlists.</p>
-      </div>
-      <div class="gif">
-        <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="nice gif saying everyday">
-      </div>
-      <h3>Soundtrack of the day</h3>
-      <p>The daily soundtracks that appear on the website's homepage have been going for a long time now! I turned the archive of them into a fun little page where you can sort and play the music. Maybe you can discover some nice new music by giving it a listen!</p>
-      <button class="fun-button" (click)="handleClick('/music/daily-soundtracks')">
-        <span class="button-text">Soundtrack Archive</span>
-      </button>
-      <app-daily></app-daily>
+          <img [src]="imageService.imageUrl('/music/cds/cd-case.png')" class="cd-case" />
+        </div>
+      }
     </div>
-  </div>
-
-  <div class="secret">
-    <button style="background: none; border: none;" aria-label="DJ World Peace" routerLink="/music/worldpeace">
-      <img alt="World Peace Music" [src]="imageService.imageUrl('/music/worldpeace/worldpeace.gif')">
+    <div class="row-item">
+      <button class="fun-button" (click)="handleClick('/music/smash')">
+        <span class="button-text">Smash Bros. Soundtrack</span>
+      </button>
+      <p>I embarked on an insane project to host every single song that was ever in Smash on this website. You can listen here!</p>
+      @if (randomSmashImage) {
+        <img
+          [ngSrc]="imageService.imageUrl('/music/smash/album-art/' + randomSmashImage)"
+          [alt]="'Smash Bros. - ' + randomSmashImage"
+          width="300"
+          height="300"
+          class="image">
+      }
+    </div>
+    <div class="row-item">
+      <button class="fun-button" (click)="handleClick('/music/mixes')">
+        <span class="button-text">Video Game Mixes</span>
+      </button>
+      <p>Talking about video game music, over the years I made a bunch of mixes of my favourite tracks. They are finally available for download! It took me a lot of time to figure out how to do that.</p>
+    </div>
+    <div class="row-item">
+      <button class="fun-button" (click)="handleClick('/music/spotify')">
+        <span class="button-text">Spotify Playlists</span>
+      </button>
+      <p>Here are some links to some of my favourite spotify playlists. I've stopped using Spotify myself but if you still have it, here you go.</p>
+    </div>
+    <div class="gif">
+      <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="nice gif saying everyday">
+    </div>
+    <h3>Soundtrack of the day</h3>
+    <p>The daily soundtracks that appear on the website's homepage have been going for a long time now! I turned the archive of them into a fun little page where you can sort and play the music. Maybe you can discover some nice new music by giving it a listen!</p>
+    <button class="fun-button" (click)="handleClick('/music/daily-soundtracks')">
+      <span class="button-text">Soundtrack Archive</span>
     </button>
+    <app-daily></app-daily>
   </div>
+</div>
+
+<div class="secret">
+  <button style="background: none; border: none;" aria-label="DJ World Peace" routerLink="/music/worldpeace">
+    <img alt="World Peace Music" [src]="imageService.imageUrl('/music/worldpeace/worldpeace.gif')">
+  </button>
+</div>

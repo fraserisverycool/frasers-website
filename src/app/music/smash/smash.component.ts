@@ -5,6 +5,7 @@ import { forkJoin, map, switchMap } from 'rxjs';
 import { ImageService } from '../../utils/services/image.service';
 
 import { SmashTrackComponent } from './smash-track/smash-track.component';
+import {RouterLink} from "@angular/router";
 
 interface Track {
   id: string;
@@ -46,7 +47,7 @@ interface Volume {
 @Component({
   selector: 'app-smash',
   standalone: true,
-  imports: [CommonModule, NgClass, SmashTrackComponent],
+  imports: [CommonModule, NgClass, SmashTrackComponent, RouterLink],
   templateUrl: './smash.component.html',
   styleUrl: './smash.component.css',
 })

@@ -19,4 +19,8 @@ describe('MusicComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should pick a random smash image on init', () => {
+    expect(component.randomSmashImage).toBeTruthy();
+  });
 });
