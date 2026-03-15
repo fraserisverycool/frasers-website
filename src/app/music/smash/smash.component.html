@@ -89,7 +89,8 @@
         </div>
         <div class="player-controls">
           <button (click)="previousTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === 0">⏮</button>
-          <audio #audioPlayer controls autoplay [src]="imageService.imageUrl(currentTrack.path)" (ended)="onTrackEnded()">
+          <audio #audioPlayer controls autoplay [src]="imageService.imageUrl(currentTrack.path)"
+                 (ended)="onTrackEnded()" (play)="onPlay()" (pause)="onPause()" (timeupdate)="onTimeUpdate()">
             Mate your browser cannot handle this audio player.
           </audio>
           <button (click)="nextTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === playlist.length - 1">⏭</button>

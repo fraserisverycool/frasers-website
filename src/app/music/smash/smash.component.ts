@@ -87,6 +87,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
   private observer: IntersectionObserver | null = null;
   @ViewChild('audioPlayer') audioPlayer!: ElementRef<HTMLAudioElement>;
+  private _lastUpdateSec: number = -1;
 
   constructor(private http: HttpClient, protected imageService: ImageService, private cdr: ChangeDetectorRef, private eRef: ElementRef) {}
 
@@ -433,11 +434,12 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       navigator.mediaSession.playbackState = 'playing';
 
       // Update position state for better background handling
-      if ('setPositionState' in navigator.mediaSession) {
+      if (this.audioPlayer && 'setPositionState' in navigator.mediaSession) {
+        const audio = this.audioPlayer.nativeElement;
         navigator.mediaSession.setPositionState({
-          duration: 0,
-          playbackRate: 1,
-          position: 0
+          duration: isFinite(audio.duration) ? audio.duration : 0,
+          playbackRate: audio.playbackRate || 1,
+          position: audio.currentTime || 0
         });
       }
     }
@@ -447,24 +449,42 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if ('mediaSession' in navigator) {
       navigator.mediaSession.setActionHandler('play', () => {
         if (this.audioPlayer) {
-          this.audioPlayer.nativeElement.play();
-          navigator.mediaSession.playbackState = 'playing';
+          this.audioPlayer.nativeElement.play().catch(err => {
+            console.error('[DEBUG_LOG] MediaSession play error:', err);
+          });
         }
       });
       navigator.mediaSession.setActionHandler('pause', () => {
         if (this.audioPlayer) {
           this.audioPlayer.nativeElement.pause();
-          navigator.mediaSession.playbackState = 'paused';
         }
       });
       navigator.mediaSession.setActionHandler('previoustrack', () => this.previousTrack());
-      navigator.mediaSession.setActionHandler('nexttrack', () => this.onTrackEnded());
-      // Handle seek for lock screen/notification bar if possible
+      navigator.mediaSession.setActionHandler('nexttrack', () => this.nextTrack());
+
       try {
         // @ts-ignore
         navigator.mediaSession.setActionHandler('seekto', (details) => {
-          if (this.audioPlayer && details.seekTime) {
+          if (this.audioPlayer && details.seekTime !== undefined) {
             this.audioPlayer.nativeElement.currentTime = details.seekTime;
+          }
+        });
+      } catch (e) {}
+
+      try {
+        navigator.mediaSession.setActionHandler('seekbackward', (details) => {
+          if (this.audioPlayer) {
+            const skipTime = details.seekOffset || 10;
+            this.audioPlayer.nativeElement.currentTime = Math.max(this.audioPlayer.nativeElement.currentTime - skipTime, 0);
+          }
+        });
+      } catch (e) {}
+
+      try {
+        navigator.mediaSession.setActionHandler('seekforward', (details) => {
+          if (this.audioPlayer) {
+            const skipTime = details.seekOffset || 10;
+            this.audioPlayer.nativeElement.currentTime = Math.min(this.audioPlayer.nativeElement.currentTime + skipTime, this.audioPlayer.nativeElement.duration);
           }
         });
       } catch (e) {}
@@ -472,7 +492,11 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   nextTrack(): void {
-    this.onTrackEnded();
+    if (!this.currentTrack) return;
+    const nextIndex = this.playlist.indexOf(this.currentTrack) + 1;
+    if (nextIndex < this.playlist.length) {
+      this.playTrack(this.playlist[nextIndex]);
+    }
   }
 
   previousTrack(): void {
@@ -484,18 +508,34 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   onTrackEnded(): void {
-    if (!this.currentTrack) return;
-    const nextIndex = this.playlist.indexOf(this.currentTrack) + 1;
-    if (nextIndex < this.playlist.length) {
-      this.playTrack(this.playlist[nextIndex]);
-      // Explicitly call play() after a short delay to ensure it starts even if backgrounded
-      setTimeout(() => {
-        if (this.audioPlayer) {
-          this.audioPlayer.nativeElement.play().catch(err => {
-            console.error('[DEBUG_LOG] Error playing next track on mobile background:', err);
-          });
-        }
-      }, 100);
+    this.nextTrack();
+  }
+
+  onPlay(): void {
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'playing';
+    }
+  }
+
+  onPause(): void {
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'paused';
+    }
+  }
+
+  onTimeUpdate(): void {
+    if (this.currentTrack && 'mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
+      const audio = this.audioPlayer.nativeElement;
+      // Use the actual time to throttle to approximately once per second
+      const currentSec = Math.floor(audio.currentTime);
+      if (this._lastUpdateSec !== currentSec) {
+        this._lastUpdateSec = currentSec;
+        navigator.mediaSession.setPositionState({
+          duration: isFinite(audio.duration) ? audio.duration : 0,
+          playbackRate: audio.playbackRate || 1,
+          position: audio.currentTime || 0
+        });
+      }
     }
   }
 }
