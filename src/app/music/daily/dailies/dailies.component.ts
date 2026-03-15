@@ -47,6 +47,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   @ViewChild('audioPlayer') audioPlayer!: ElementRef<HTMLAudioElement>;
   private _lastUpdateSec: number = -1;
   private isAutoAdvancing = false;
+  isFirstLoad = true;
 
   constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService, private eRef: ElementRef, private cdr: ChangeDetectorRef) {
   }
@@ -289,12 +290,14 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   }
 
   playAll(): void {
+    this.isFirstLoad = false;
     if (this.playlist.length > 0) {
       this.playTrack(this.playlist[0]);
     }
   }
 
   playTrack(track: DailySoundtrack): void {
+    this.isFirstLoad = false;
     this.isAutoAdvancing = false;
     this.currentTrack = track;
     this.updateMediaSession(track);
@@ -382,11 +385,11 @@ export default class DailiesComponent implements OnInit, OnDestroy {
     if (!this.currentTrack) return;
     const currentIndex = this.playlist.findIndex(t => t.id === this.currentTrack?.id);
     if (currentIndex !== -1 && currentIndex < this.playlist.length - 1) {
+      this.isFirstLoad = false;
       this.isAutoAdvancing = true;
       this.playTrack(this.playlist[currentIndex + 1]);
     } else {
       this.isAutoAdvancing = false;
-      this.currentTrack = null; // End of playlist
     }
   }
 
@@ -394,6 +397,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
     if (!this.currentTrack) return;
     const currentIndex = this.playlist.findIndex(t => t.id === this.currentTrack?.id);
     if (currentIndex > 0) {
+      this.isFirstLoad = false;
       this.playTrack(this.playlist[currentIndex - 1]);
     }
   }

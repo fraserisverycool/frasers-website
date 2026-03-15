@@ -102,7 +102,7 @@
       </div>
       <div class="player-controls">
         <button (click)="previousTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === 0">⏮</button>
-        <audio #audioPlayer controls autoplay preload="auto" [src]="imageService.imageUrl(audioPath + currentTrack.filename)"
+        <audio #audioPlayer controls [autoplay]="!isFirstLoad" preload="auto" [src]="imageService.imageUrl(audioPath + currentTrack.filename)"
                (ended)="onTrackEnded()" (play)="onPlay()" (pause)="onPause()" (timeupdate)="onTimeUpdate()"
                (error)="onAudioError($event)">
           Normally there is an audio player here but mate your browser can't handle it

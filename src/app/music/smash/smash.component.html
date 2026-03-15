@@ -55,13 +55,13 @@
 
       <div class="filter-container">
         <button (click)="toggleComposerDropdown($event)" class="filter-button" [ngClass]="{ 'active': selectedComposers.length > 0 }">
-          {{ selectedComposers.length > 0 ? (selectedComposers.length === 1 ? selectedComposers[0] : 'Composer (' + selectedComposers.length + ')') : 'Filter by composer' }}
+          {{ selectedComposers.length > 0 ? selectedComposers[0] : 'Filter by composer' }}
         </button>
         @if (isComposerDropdownOpen) {
           <div class="dropdown-menu">
             <button (click)="selectComposer(null)" class="option" [ngClass]="{ 'active': selectedComposers.length === 0 }">All Composers</button>
             @for (composer of composersList; track composer) {
-              <button (click)="selectComposer(composer)" class="option" [ngClass]="{ 'active': selectedComposers.includes(composer) }">{{ composer }}</button>
+              <button (click)="selectComposer(composer)" class="option" [ngClass]="{ 'active': selectedComposers[0] === composer }">{{ composer }}</button>
             }
           </div>
         }
@@ -90,7 +90,7 @@
         </div>
         <div class="player-controls">
           <button (click)="previousTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === 0">⏮</button>
-          <audio #audioPlayer controls autoplay preload="auto" [src]="imageService.imageUrl(currentTrack.path)"
+          <audio #audioPlayer controls [autoplay]="!isFirstLoad" preload="auto" [src]="imageService.imageUrl(currentTrack.path)"
                  (ended)="onTrackEnded()" (play)="onPlay()" (pause)="onPause()" (timeupdate)="onTimeUpdate()"
                  (error)="onAudioError($event)">
             Mate your browser cannot handle this audio player.
@@ -103,6 +103,16 @@
     @if (selectedFranchiseNotes) {
       <div class="franchise-notes">
         <p>{{ selectedFranchiseNotes }}</p>
+      </div>
+    }
+
+    @if (selectedComposerInfo && !composerImageFailed) {
+      <div class="composer-info">
+        <img [src]="imageService.imageUrl(selectedComposerInfo.image)" [alt]="selectedComposerInfo.name" (error)="onComposerImageError()">
+        <div class="composer-details">
+          <h3>{{ selectedComposerInfo.name }}</h3>
+          <p>{{ selectedComposerInfo.notes }}</p>
+        </div>
       </div>
     }
 

@@ -53,6 +53,7 @@ interface Volume {
 })
 export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy {
   volumes: Volume[] = [];
+  composersMetadata: { [key: string]: { image: string, source: string, notes: string } } = {};
   allTracks: Track[] = [];
   filteredTracks: Track[] = [];
   categories: string[] = [];
@@ -65,6 +66,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   isGameDropdownOpen = false;
   isStarsDropdownOpen = false;
   isComposerDropdownOpen = false;
+  composerImageFailed = false;
   currentTrack: Track | null = null;
   playlist: Track[] = [];
   loading = true;
@@ -89,6 +91,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   @ViewChild('audioPlayer') audioPlayer!: ElementRef<HTMLAudioElement>;
   private _lastUpdateSec: number = -1;
   private isAutoAdvancing = false;
+  isFirstLoad = true;
 
   constructor(private http: HttpClient, protected imageService: ImageService, private cdr: ChangeDetectorRef, private eRef: ElementRef) {}
 
@@ -167,12 +170,18 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
   ngOnInit(): void {
     this.setupMediaSessionHandlers();
+
+    // Load composer metadata
+    this.http.get<{ [key: string]: { image: string, source: string, notes: string } }>('assets/data/smash/composers.json').subscribe({
+      next: (data) => this.composersMetadata = data,
+      error: () => console.log('No composer metadata found')
+    });
+
     this.http.get<IndexData>('assets/data/smash/index.json').pipe(
       switchMap(indexData => {
         const volumeRequests = Object.keys(indexData).map(fullTitle => {
           const info = indexData[fullTitle];
           const file = info.file;
-          // Extract series name: "Super Smash Bros. Anthology Vol. 17 - Pikmin (Wii...)" -> "Pikmin"
           const titleParts = fullTitle.split(' - ');
           let displayTitle = fullTitle;
           if (titleParts.length > 1) {
@@ -396,12 +405,18 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       if (index > -1) {
         this.selectedComposers.splice(index, 1);
       } else {
-        this.selectedComposers.push(composer);
+        this.selectedComposers = [composer];
       }
     }
+    this.composerImageFailed = false;
     this.resetInfiniteScroll();
     this.applyFilter();
     this.saveState();
+    this.cdr.detectChanges();
+  }
+
+  onComposerImageError(): void {
+    this.composerImageFailed = true;
     this.cdr.detectChanges();
   }
 
@@ -427,6 +442,22 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     });
 
     return volume?.notes || null;
+  }
+
+  get selectedComposerInfo(): { name: string, image: string, notes: string } | null {
+    if (this.selectedComposers.length !== 1) {
+      return null;
+    }
+    const name = this.selectedComposers[0];
+    const metadata = this.composersMetadata[name];
+    if (metadata) {
+      return {
+        name: name,
+        image: `music/smash/composers/${metadata.image}`,
+        notes: metadata.notes
+      };
+    }
+    return null;
   }
 
   shuffleTracks(): void {
@@ -505,12 +536,14 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   playAll(): void {
+    this.isFirstLoad = false;
     if (this.filteredTracks.length > 0) {
       this.playTrack(this.filteredTracks[0]);
     }
   }
 
   playTrack(track: Track): void {
+    this.isFirstLoad = false;
     this.isAutoAdvancing = false;
     this.currentTrack = track;
     this.updateMediaSession(track);
@@ -600,6 +633,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (!this.currentTrack) return;
     const nextIndex = this.playlist.indexOf(this.currentTrack) + 1;
     if (nextIndex < this.playlist.length) {
+      this.isFirstLoad = false;
       this.isAutoAdvancing = true;
       this.playTrack(this.playlist[nextIndex]);
     } else {
@@ -611,6 +645,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (!this.currentTrack) return;
     const index = this.playlist.indexOf(this.currentTrack);
     if (index > 0) {
+      this.isFirstLoad = false;
       this.playTrack(this.playlist[index - 1]);
     }
   }
