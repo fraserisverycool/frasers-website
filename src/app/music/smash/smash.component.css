@@ -216,6 +216,22 @@
   cursor: not-allowed;
 }
 
+.franchise-notes {
+  background-color: #fff4e6;
+  border-left: 5px solid #e6a23c;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  border-radius: 4px 12px 12px 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-style: italic;
+  color: #555;
+  line-height: 1.6;
+}
+
+.franchise-notes p {
+  margin: 0;
+}
+
 .flat-list {
   padding: 0;
 }

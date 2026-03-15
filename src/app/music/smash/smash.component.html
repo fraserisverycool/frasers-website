@@ -1,6 +1,7 @@
 <div class="container">
   <h1>Super Smash Bros. Soundtrack</h1>
   <p>You can listen to any music that has ever been in a smash game here! If you want to read the story behind this page: <a routerLink="/music/smash/about">click here!</a></p>
+  <p>Note: I can't figure out how to make the playlist play in the background of locked phones using the mobile browser. If any talented mobile developers want to teach me how to do that, please text me!</p>
 
   @if (loading) {
     <div class="loading">
@@ -89,12 +90,19 @@
         </div>
         <div class="player-controls">
           <button (click)="previousTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === 0">⏮</button>
-          <audio #audioPlayer controls autoplay [src]="imageService.imageUrl(currentTrack.path)"
-                 (ended)="onTrackEnded()" (play)="onPlay()" (pause)="onPause()" (timeupdate)="onTimeUpdate()">
+          <audio #audioPlayer controls autoplay preload="auto" [src]="imageService.imageUrl(currentTrack.path)"
+                 (ended)="onTrackEnded()" (play)="onPlay()" (pause)="onPause()" (timeupdate)="onTimeUpdate()"
+                 (error)="onAudioError($event)">
             Mate your browser cannot handle this audio player.
           </audio>
           <button (click)="nextTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === playlist.length - 1">⏭</button>
         </div>
+      </div>
+    }
+
+    @if (selectedFranchiseNotes) {
+      <div class="franchise-notes">
+        <p>{{ selectedFranchiseNotes }}</p>
       </div>
     }
 

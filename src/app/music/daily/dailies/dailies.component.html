@@ -1,5 +1,7 @@
 <div class="container">
   <h1 class="heading">Soundtrack of the Day - Archive</h1>
+  <p>This is a site where you can listen to all these music recommendations I've put up! You can even put some filters and start a playlist for your enjoyment.</p>
+  <p>Note: I can't figure out how to make the playlist play in the background of locked phones using the mobile browser. If any talented mobile developers want to teach me how to do that, please text me!</p>
   <div class="overlay"></div>
   <div class="button-rows">
     <div class="row-1">
@@ -100,7 +102,9 @@
       </div>
       <div class="player-controls">
         <button (click)="previousTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === 0">⏮</button>
-        <audio controls autoplay [src]="imageService.imageUrl(audioPath + currentTrack.filename)" (ended)="onTrackEnded()">
+        <audio #audioPlayer controls autoplay preload="auto" [src]="imageService.imageUrl(audioPath + currentTrack.filename)"
+               (ended)="onTrackEnded()" (play)="onPlay()" (pause)="onPause()" (timeupdate)="onTimeUpdate()"
+               (error)="onAudioError($event)">
           Normally there is an audio player here but mate your browser can't handle it
         </audio>
         <button (click)="nextTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === playlist.length - 1">⏭</button>

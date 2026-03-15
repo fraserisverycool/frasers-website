@@ -84,26 +84,6 @@
     "file": "Super Smash Bros. Anthology Vol. 18 - Animal Crossing (Wii, 3DS, Wii U, Switch) (gamerip) (2008).json",
     "notes": "I love Animal Crossing with all my heart and I think these remixes are excellent, but sitting down and listening to them for this project hurt because I've heard some of these literally thousands of times over the years. There should be studies on how all these competitive smash players are being exposed to Animal Crossing music so much. Imagine if it was the Game and Watch stage instead!"
   },
-  "Super Smash Bros. Anthology Vol. 19 - Wii Fit (3DS, Wii U, Switch) (gamerip) (2014)": {
-    "count": 10,
-    "file": "Super Smash Bros. Anthology Vol. 19 - Wii Fit (3DS, Wii U, Switch) (gamerip) (2014).json",
-    "notes": "You'd never think this would happen but they really went above and beyond for Wii Fit. I wouldn't have known how much the original soundtrack slaps if it weren't for some of these excellent remixes. I got so excited by how good they are, I put them together in a small mix which can you download on this very website! The arrangers really did a great job with capturing the Nintendo Wii vibe and making them fast-paced for battle. Same goes for Wii Sports."
-  },
-  "Super Smash Bros. Anthology Vol. 20 - Punch-Out!! (3DS, Wii U, Switch) (gamerip) (2014)": {
-    "count": 5,
-    "file": "Super Smash Bros. Anthology Vol. 20 - Punch-Out!! (3DS, Wii U, Switch) (gamerip) (2014).json",
-    "notes": "Smash Ultimate really did Punch Out dirty by not putting in any new music. These measly 5 tracks all sound the same and are super plain. I'm not saying that Punch Out is a wealth of great source material but they could have made more of an effort. Maybe even put in some original NES music, this is all from the Wii game."
-  },
-  "Super Smash Bros. Anthology Vol. 21 - Xenoblade Chronicles (3DS, Wii U, Switch) (gamerip) (2014)": {
-    "count": 27,
-    "file": "Super Smash Bros. Anthology Vol. 21 - Xenoblade Chronicles (3DS, Wii U, Switch) (gamerip) (2014).json",
-    "notes": "Xenoblade music is overrated in my opinion. It all blends into each other. It goes for this epic orchestral style which just isn't for me. I get that it's done by the composers who did a bunch of remixes for smash that I love, but something about the vibe of the game doesn't do it for me. That being said, there are some classics in there. Gaur Plain is great."
-  },
-  "Super Smash Bros. Anthology Vol. 22 - Splatoon (Switch) (gamerip) (2018)": {
-    "count": 32,
-    "file": "Super Smash Bros. Anthology Vol. 22 - Splatoon (Switch) (gamerip) (2018).json",
-    "notes": "I fucking can't stand Splatoon music. Truly it is the weakest link in Nintendo's repertoire. It's going for a 'cool' punk rock vibe and combining it with this Jpop style with the squid sisters singing on top of it. The singing is so horrible to listen to. And on top of that, it's often so dissonant that it just sounds like shit. It was a struggle to listen to all of these just once."
-  },
   "Super Smash Bros. Anthology Vol. 23 - Metal Gear (Switch, Wii) (gamerip) (2008)": {
     "count": 12,
     "file": "Super Smash Bros. Anthology Vol. 23 - Metal Gear (Switch, Wii) (gamerip) (2008).json",
@@ -119,10 +99,25 @@
     "file": "Super Smash Bros. Anthology Vol. 25 - Mega Man (3DS, Wii U, Switch) (gamerip) (2014).json",
     "notes": "So many different people remixed tracks from Mega Man, it's insane. I think I get it though, the Mega Man tracks are pretty simple and it's easy to turn them into punk rock tracks. And that's what everyone did - all these remixes low-key sound super similar. There are some really good ones in there though."
   },
+  "Super Smash Bros. Anthology Vol. 19 - Wii Fit (3DS, Wii U, Switch) (gamerip) (2014)": {
+    "count": 10,
+    "file": "Super Smash Bros. Anthology Vol. 19 - Wii Fit (3DS, Wii U, Switch) (gamerip) (2014).json",
+    "notes": "You'd never think this would happen but they really went above and beyond for Wii Fit. I wouldn't have known how much the original soundtrack slaps if it weren't for some of these excellent remixes. I got so excited by how good they are, I put them together in a small mix which can you download on this very website! The arrangers really did a great job with capturing the Nintendo Wii vibe and making them fast-paced for battle. Same goes for Wii Sports."
+  },
+  "Super Smash Bros. Anthology Vol. 20 - Punch-Out!! (3DS, Wii U, Switch) (gamerip) (2014)": {
+    "count": 5,
+    "file": "Super Smash Bros. Anthology Vol. 20 - Punch-Out!! (3DS, Wii U, Switch) (gamerip) (2014).json",
+    "notes": "Smash Ultimate really did Punch Out dirty by not putting in any new music. These measly 5 tracks all sound the same and are super plain. I'm not saying that Punch Out is a wealth of great source material but they could have made more of an effort. Maybe even put in some original NES music, this is all from the Wii game."
+  },
   "Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014)": {
     "count": 13,
     "file": "Super Smash Bros. Anthology Vol. 26 - PAC-MAN (3DS, Wii U, Switch) (gamerip) (2014).json",
     "notes": "For shitty arcade music, there is a surprisingly good selection of remixes here! I hadn't truly appreciated how great they were until more recently. There are also a bunch of medleys of old games but I don't think they're very nice to listen to."
+  },
+  "Super Smash Bros. Anthology Vol. 21 - Xenoblade Chronicles (3DS, Wii U, Switch) (gamerip) (2014)": {
+    "count": 27,
+    "file": "Super Smash Bros. Anthology Vol. 21 - Xenoblade Chronicles (3DS, Wii U, Switch) (gamerip) (2014).json",
+    "notes": "Xenoblade music is overrated in my opinion. It all blends into each other. It goes for this epic orchestral style which just isn't for me. I get that it's done by the composers who did a bunch of remixes for smash that I love, but something about the vibe of the game doesn't do it for me. That being said, there are some classics in there. Gaur Plain is great."
   },
   "Super Smash Bros. Anthology Vol. 27 - Street Fighter (3DS, Wii U, Switch) (gamerip) (2015)": {
     "count": 70,
@@ -138,6 +133,11 @@
     "count": 11,
     "file": "Super Smash Bros. Anthology Vol. 29 - Bayonetta (3DS, Wii U, Switch) (gamerip) (2016).json",
     "notes": "Bayonetta music is something special. It sounds like nothing else. It really captures the sexy over the top vibes of the game perfectly and I'm honestly so impressed. In smash they have a good selection of original tracks, and two remixes which only really swap out vocals because I guess they couldn't get the rights to the singer. It's fine, this music really doesn't need much remixing, they already carry the full weight of Bayonetta's drama and class with them. I'm obsessed. And I'm pissed that they added literally nothing new in Ultimate!"
+  },
+  "Super Smash Bros. Anthology Vol. 22 - Splatoon (Switch) (gamerip) (2018)": {
+    "count": 32,
+    "file": "Super Smash Bros. Anthology Vol. 22 - Splatoon (Switch) (gamerip) (2018).json",
+    "notes": "I fucking can't stand Splatoon music. Truly it is the weakest link in Nintendo's repertoire. It's going for a 'cool' punk rock vibe and combining it with this Jpop style with the squid sisters singing on top of it. The singing is so horrible to listen to. And on top of that, it's often so dissonant that it just sounds like shit. It was a struggle to listen to all of these just once."
   },
   "Super Smash Bros. Anthology Vol. 30 - Castlevania (Switch) (gamerip) (2018)": {
     "count": 34,

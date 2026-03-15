@@ -1,5 +1,5 @@
-import {Component, ElementRef, HostListener, OnInit} from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {Component, ElementRef, HostListener, OnInit, ViewChild, OnDestroy, ChangeDetectorRef} from '@angular/core';
+import { CommonModule, TitleCasePipe } from '@angular/common';
 import {DailySoundtrack} from "../daily-soundtrack.interface";
 import {DomSanitizer} from "@angular/platform-browser";
 import { HttpClient } from "@angular/common/http";
@@ -19,7 +19,7 @@ interface GroupedDailySoundtracks {
     templateUrl: './dailies.component.html',
     styleUrls: ['./dailies.component.css']
 })
-export default class DailiesComponent implements OnInit {
+export default class DailiesComponent implements OnInit, OnDestroy {
   allDailySoundtracks: DailySoundtrack[] = [];
   originalDailySoundtracks: DailySoundtrack[] = [];
   groupedDailySoundtracks: GroupedDailySoundtracks[] = [];
@@ -44,7 +44,11 @@ export default class DailiesComponent implements OnInit {
   currentTrack: DailySoundtrack | null = null;
   playlist: DailySoundtrack[] = [];
 
-  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService, private eRef: ElementRef) {
+  @ViewChild('audioPlayer') audioPlayer!: ElementRef<HTMLAudioElement>;
+  private _lastUpdateSec: number = -1;
+  private isAutoAdvancing = false;
+
+  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService, private eRef: ElementRef, private cdr: ChangeDetectorRef) {
   }
 
   @HostListener('document:click', ['$event'])
@@ -80,8 +84,71 @@ export default class DailiesComponent implements OnInit {
     }
   }
 
+  private saveState(): void {
+    const state = {
+      currentFilter: this.currentFilter,
+      selectedMonth: this.selectedMonth,
+      selectedTag: this.selectedTag,
+      selectedFranchise: this.selectedFranchise,
+      selectedGenre: this.selectedGenre,
+      showFuture: this.showFuture,
+      isRandomSort: this.isRandomSort,
+      currentTrackId: this.currentTrack?.id,
+      playlistIds: this.playlist.map(t => t.id)
+    };
+    localStorage.setItem('dailies_player_state', JSON.stringify(state));
+  }
+
+  private loadState(): void {
+    const saved = localStorage.getItem('dailies_player_state');
+    if (!saved) return;
+
+    try {
+      const state = JSON.parse(saved);
+      this.currentFilter = state.currentFilter || '';
+      this.selectedMonth = state.selectedMonth || null;
+      this.selectedTag = state.selectedTag || null;
+      this.selectedFranchise = state.selectedFranchise || null;
+      this.selectedGenre = state.selectedGenre || null;
+      this.showFuture = state.showFuture || false;
+      this.isRandomSort = state.isRandomSort || false;
+
+      // Re-apply filters based on the restored state
+      this.applyDateFilter();
+
+      if (state.playlistIds && state.playlistIds.length > 0) {
+        const trackMap = new Map(this.allDailySoundtracks.map(t => [t.id, t]));
+        this.playlist = state.playlistIds.map((id: string) => trackMap.get(id)).filter((t: any) => t) as DailySoundtrack[];
+      }
+
+      if (state.currentTrackId) {
+        const track = this.allDailySoundtracks.find(t => t.id === state.currentTrackId);
+        if (track) {
+          this.currentTrack = track;
+          this.updateMediaSession(track);
+        }
+      }
+    } catch (e) {
+      console.error('Error loading saved state', e);
+    }
+  }
+
   ngOnInit(): void {
+    this.setupMediaSessionHandlers();
     this.loadDailySoundtracks();
+  }
+
+  ngOnDestroy(): void {
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.setActionHandler('play', null);
+      navigator.mediaSession.setActionHandler('pause', null);
+      navigator.mediaSession.setActionHandler('previoustrack', null);
+      navigator.mediaSession.setActionHandler('nexttrack', null);
+      try {
+        // @ts-ignore
+        navigator.mediaSession.setActionHandler('seekto', null);
+      } catch (e) {}
+    }
   }
 
   loadDailySoundtracks(): void {
@@ -96,6 +163,9 @@ export default class DailiesComponent implements OnInit {
         this.applyDateFilter();
         this.getRatings();
         this.today = this.allDailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
+
+        // Restore state if available
+        this.loadState();
       },
       error: (err) => {
         console.error('Failed to load daily Soundtracks:', err);
@@ -118,6 +188,7 @@ export default class DailiesComponent implements OnInit {
   toggleFuture(): void {
     this.showFuture = !this.showFuture;
     this.applyDateFilter();
+    this.saveState();
   }
 
   todaysDate(): string {
@@ -224,15 +295,97 @@ export default class DailiesComponent implements OnInit {
   }
 
   playTrack(track: DailySoundtrack): void {
+    this.isAutoAdvancing = false;
     this.currentTrack = track;
+    this.updateMediaSession(track);
+    this.saveState();
+    if (this.audioPlayer) {
+      this.audioPlayer.nativeElement.play().catch(err => {
+        console.error('[DEBUG_LOG] playTrack error:', err);
+      });
+    }
+  }
+
+  updateMediaSession(track: DailySoundtrack): void {
+    if ('mediaSession' in navigator) {
+      const metadata: any = {
+        title: track.track,
+        artist: track.artist,
+        album: track.album,
+        artwork: [
+          { src: this.imageService.imageUrl('homepage/daily.gif'), sizes: '512x512', type: 'image/gif' }
+        ]
+      };
+
+      // @ts-ignore
+      navigator.mediaSession.metadata = new MediaMetadata(metadata);
+      navigator.mediaSession.playbackState = 'playing';
+
+      if (this.audioPlayer && 'setPositionState' in navigator.mediaSession) {
+        const audio = this.audioPlayer.nativeElement;
+        navigator.mediaSession.setPositionState({
+          duration: isFinite(audio.duration) ? audio.duration : 0,
+          playbackRate: audio.playbackRate || 1,
+          position: audio.currentTime || 0
+        });
+      }
+    }
+  }
+
+  setupMediaSessionHandlers(): void {
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.setActionHandler('play', () => {
+        if (this.audioPlayer) {
+          this.audioPlayer.nativeElement.play().catch(err => {
+            console.error('[DEBUG_LOG] MediaSession play error:', err);
+          });
+        }
+      });
+      navigator.mediaSession.setActionHandler('pause', () => {
+        if (this.audioPlayer) {
+          this.audioPlayer.nativeElement.pause();
+        }
+      });
+      navigator.mediaSession.setActionHandler('previoustrack', () => this.previousTrack());
+      navigator.mediaSession.setActionHandler('nexttrack', () => this.nextTrack());
+
+      try {
+        // @ts-ignore
+        navigator.mediaSession.setActionHandler('seekto', (details) => {
+          if (this.audioPlayer && details.seekTime !== undefined) {
+            this.audioPlayer.nativeElement.currentTime = details.seekTime;
+          }
+        });
+      } catch (e) {}
+
+      try {
+        navigator.mediaSession.setActionHandler('seekbackward', (details) => {
+          if (this.audioPlayer) {
+            const skipTime = details.seekOffset || 10;
+            this.audioPlayer.nativeElement.currentTime = Math.max(this.audioPlayer.nativeElement.currentTime - skipTime, 0);
+          }
+        });
+      } catch (e) {}
+
+      try {
+        navigator.mediaSession.setActionHandler('seekforward', (details) => {
+          if (this.audioPlayer) {
+            const skipTime = details.seekOffset || 10;
+            this.audioPlayer.nativeElement.currentTime = Math.min(this.audioPlayer.nativeElement.currentTime + skipTime, this.audioPlayer.nativeElement.duration);
+          }
+        });
+      } catch (e) {}
+    }
   }
 
   nextTrack(): void {
     if (!this.currentTrack) return;
     const currentIndex = this.playlist.findIndex(t => t.id === this.currentTrack?.id);
     if (currentIndex !== -1 && currentIndex < this.playlist.length - 1) {
+      this.isAutoAdvancing = true;
       this.playTrack(this.playlist[currentIndex + 1]);
     } else {
+      this.isAutoAdvancing = false;
       this.currentTrack = null; // End of playlist
     }
   }
@@ -246,7 +399,52 @@ export default class DailiesComponent implements OnInit {
   }
 
   onTrackEnded(): void {
+    this.isAutoAdvancing = true;
     this.nextTrack();
+  }
+
+  onPlay(): void {
+    this.isAutoAdvancing = false;
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'playing';
+    }
+  }
+
+  onPause(): void {
+    if ('mediaSession' in navigator) {
+      if (!this.isAutoAdvancing) {
+        navigator.mediaSession.playbackState = 'paused';
+      }
+    }
+  }
+
+  onTimeUpdate(): void {
+    if (this.currentTrack && 'mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
+      const audio = this.audioPlayer.nativeElement;
+      const currentSec = Math.floor(audio.currentTime);
+      if (this._lastUpdateSec !== currentSec) {
+        this._lastUpdateSec = currentSec;
+        navigator.mediaSession.setPositionState({
+          duration: isFinite(audio.duration) ? audio.duration : 0,
+          playbackRate: audio.playbackRate || 1,
+          position: audio.currentTime || 0
+        });
+      }
+    }
+  }
+
+  onAudioError(event: any): void {
+    const error = this.audioPlayer.nativeElement.error;
+    console.error('[DEBUG_LOG] Audio element error:', error, event);
+
+    if (this.currentTrack && (error?.code === 2 || error?.code === 3 || error?.code === 4)) {
+      console.warn('[DEBUG_LOG] Attempting to recover from audio error...');
+      setTimeout(() => {
+        if (this.currentTrack) {
+          this.playTrack(this.currentTrack);
+        }
+      }, 2000);
+    }
   }
 
   filterDailySoundtracks(criteria: string): void {
@@ -274,30 +472,35 @@ export default class DailiesComponent implements OnInit {
         break;
     }
     this.groupSoundtracks(filteredTracks);
+    this.saveState();
   }
 
   selectMonth(month: string | null): void {
     this.selectedMonth = month;
     this.isCalendarOpen = false;
     this.filterDailySoundtracks(this.currentFilter);
+    this.saveState();
   }
 
   selectTag(tag: string | null): void {
     this.selectedTag = tag;
     this.isTagDropdownOpen = false;
     this.filterDailySoundtracks(this.currentFilter);
+    this.saveState();
   }
 
   selectFranchise(franchise: string | null): void {
     this.selectedFranchise = franchise;
     this.isFranchiseDropdownOpen = false;
     this.filterDailySoundtracks(this.currentFilter);
+    this.saveState();
   }
 
   selectGenre(genre: string | null): void {
     this.selectedGenre = genre;
     this.isGenreDropdownOpen = false;
     this.filterDailySoundtracks(this.currentFilter);
+    this.saveState();
   }
 
   toggleCalendar(): void {
@@ -353,10 +556,12 @@ export default class DailiesComponent implements OnInit {
   randomize(): void {
     this.isRandomSort = true;
     this.filterDailySoundtracks(this.currentFilter);
+    this.saveState();
   }
 
   chronological(): void {
     this.isRandomSort = false;
     this.filterDailySoundtracks(this.currentFilter);
+    this.saveState();
   }
 }

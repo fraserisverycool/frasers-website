@@ -88,6 +88,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   private observer: IntersectionObserver | null = null;
   @ViewChild('audioPlayer') audioPlayer!: ElementRef<HTMLAudioElement>;
   private _lastUpdateSec: number = -1;
+  private isAutoAdvancing = false;
 
   constructor(private http: HttpClient, protected imageService: ImageService, private cdr: ChangeDetectorRef, private eRef: ElementRef) {}
 
@@ -116,6 +117,52 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (!composerString) return [];
 
     return composerString.split(',').map(c => c.trim()).filter(c => c);
+  }
+
+  private saveState(): void {
+    const state = {
+      selectedCategories: this.selectedCategories,
+      selectedGames: this.selectedGames,
+      selectedStars: this.selectedStars,
+      selectedType: this.selectedType,
+      selectedComposers: this.selectedComposers,
+      currentTrackId: this.currentTrack?.id,
+      playlistIds: this.playlist.map(t => t.id)
+    };
+    localStorage.setItem('smash_player_state', JSON.stringify(state));
+  }
+
+  private loadState(): void {
+    const saved = localStorage.getItem('smash_player_state');
+    if (!saved) return;
+
+    try {
+      const state = JSON.parse(saved);
+      this.selectedCategories = state.selectedCategories || [];
+      this.selectedGames = state.selectedGames || [];
+      this.selectedStars = state.selectedStars || [];
+      this.selectedType = state.selectedType || null;
+      this.selectedComposers = state.selectedComposers || [];
+
+      this.applyFilter();
+
+      if (state.playlistIds && state.playlistIds.length > 0) {
+        // Map saved IDs back to track objects
+        const trackMap = new Map(this.allTracks.map(t => [t.id, t]));
+        this.playlist = state.playlistIds.map((id: string) => trackMap.get(id)).filter((t: any) => t) as Track[];
+      }
+
+      if (state.currentTrackId) {
+        const track = this.allTracks.find(t => t.id === state.currentTrackId);
+        if (track) {
+          this.currentTrack = track;
+          // Don't auto-play on load, just restore the info
+          this.updateMediaSession(track);
+        }
+      }
+    } catch (e) {
+      console.error('Error loading saved state', e);
+    }
   }
 
   ngOnInit(): void {
@@ -177,8 +224,15 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
         this.categories = Array.from(categorySet);
         this.composersList = Array.from(composerSet).sort();
 
-        this.filteredTracks = [...this.allTracks];
-        this.playlist = [...this.filteredTracks];
+        // Restore state if available
+        this.loadState();
+
+        // If no state was loaded, use defaults
+        if (this.filteredTracks.length === 0 && this.allTracks.length > 0 && this.selectedCategories.length === 0 && this.selectedGames.length === 0 && this.selectedStars.length === 0 && this.selectedType === null && this.selectedComposers.length === 0) {
+          this.filteredTracks = [...this.allTracks];
+          this.playlist = [...this.filteredTracks];
+        }
+
         this.loading = false;
         this.cdr.detectChanges();
       },
@@ -288,6 +342,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     }
     this.resetInfiniteScroll();
     this.applyFilter();
+    this.saveState();
     this.cdr.detectChanges();
   }
 
@@ -304,6 +359,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     }
     this.resetInfiniteScroll();
     this.applyFilter();
+    this.saveState();
     this.cdr.detectChanges();
   }
 
@@ -320,6 +376,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     }
     this.resetInfiniteScroll();
     this.applyFilter();
+    this.saveState();
     this.cdr.detectChanges();
   }
 
@@ -327,6 +384,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     this.selectedType = type;
     this.resetInfiniteScroll();
     this.applyFilter();
+    this.saveState();
     this.cdr.detectChanges();
   }
 
@@ -343,7 +401,32 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     }
     this.resetInfiniteScroll();
     this.applyFilter();
+    this.saveState();
     this.cdr.detectChanges();
+  }
+
+  get selectedFranchiseNotes(): string | null {
+    if (this.selectedCategories.length !== 1) {
+      return null;
+    }
+
+    const selectedCategory = this.selectedCategories[0];
+    const volume = this.volumes.find(v => {
+      // Check if volume title matches selected category
+      if (v.title === selectedCategory) return true;
+      // Or check if any track in the volume belongs to this category
+      return v.tracks.some(t => {
+        let category: string;
+        if (t.album && t.album.includes(': ')) {
+          category = t.album.split(': ')[1].trim();
+        } else {
+          category = t.volume;
+        }
+        return category === selectedCategory;
+      });
+    });
+
+    return volume?.notes || null;
   }
 
   shuffleTracks(): void {
@@ -357,6 +440,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     }
     this.filteredTracks = tracks;
     this.playlist = [...this.filteredTracks];
+    this.saveState();
     this.resetInfiniteScroll();
     this.cdr.detectChanges();
   }
@@ -391,12 +475,25 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
         if (!track.comment.includes(this.selectedType)) return false;
       }
 
+      // Special case for "Original" to exclude "Remix" in comment
+      if (this.selectedType === 'Original' && track.comment.includes('Remix')) {
+        return false;
+      }
+
       // Composer/Contributor filter
       if (this.selectedComposers.length > 0) {
         const matchesAnyComposer = this.selectedComposers.some(composer => {
           const trackContributors = this.getIndividualComposers(track.contributors);
           const trackComposers = this.getIndividualComposers(track.composers);
-          return trackContributors.includes(composer) || trackComposers.includes(composer);
+
+          if (this.selectedType === 'Remix') {
+            return trackContributors.includes(composer);
+          } else if (this.selectedType === 'Original') {
+            return trackComposers.includes(composer);
+          } else {
+            // "All" is selected or selectedType is null
+            return trackContributors.includes(composer) || trackComposers.includes(composer);
+          }
         });
         if (!matchesAnyComposer) return false;
       }
@@ -414,8 +511,16 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   playTrack(track: Track): void {
+    this.isAutoAdvancing = false;
     this.currentTrack = track;
     this.updateMediaSession(track);
+    this.saveState();
+    // Explicitly play in case this was called from a non-gesture (though usually it is)
+    if (this.audioPlayer) {
+      this.audioPlayer.nativeElement.play().catch(err => {
+        console.error('[DEBUG_LOG] playTrack error:', err);
+      });
+    }
   }
 
   updateMediaSession(track: Track): void {
@@ -495,7 +600,10 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     if (!this.currentTrack) return;
     const nextIndex = this.playlist.indexOf(this.currentTrack) + 1;
     if (nextIndex < this.playlist.length) {
+      this.isAutoAdvancing = true;
       this.playTrack(this.playlist[nextIndex]);
+    } else {
+      this.isAutoAdvancing = false;
     }
   }
 
@@ -508,10 +616,13 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   onTrackEnded(): void {
+    console.log('[DEBUG_LOG] Track ended, advancing...');
+    this.isAutoAdvancing = true;
     this.nextTrack();
   }
 
   onPlay(): void {
+    this.isAutoAdvancing = false;
     if ('mediaSession' in navigator) {
       navigator.mediaSession.playbackState = 'playing';
     }
@@ -519,7 +630,25 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
 
   onPause(): void {
     if ('mediaSession' in navigator) {
-      navigator.mediaSession.playbackState = 'paused';
+      // Avoid setting 'paused' if we are just transitioning between tracks
+      if (!this.isAutoAdvancing) {
+        navigator.mediaSession.playbackState = 'paused';
+      }
+    }
+  }
+
+  onAudioError(event: any): void {
+    const error = this.audioPlayer.nativeElement.error;
+    console.error('[DEBUG_LOG] Audio element error:', error, event);
+
+    // If it's a transient error, try to recover
+    if (this.currentTrack && (error?.code === 2 || error?.code === 3 || error?.code === 4)) {
+      console.warn('[DEBUG_LOG] Attempting to recover from audio error...');
+      setTimeout(() => {
+        if (this.currentTrack) {
+          this.playTrack(this.currentTrack);
+        }
+      }, 2000);
     }
   }
 
