@@ -1,13 +1,22 @@
 {
   "films": [
     {
+      "filename": "no-other-choice.jpg",
+      "title": "No Other Choice",
+      "description": "Had a solo trip to the cinema (Delphi Lux) while I was already feeling sad and upset and this just made it worse. It's an excellent film but wow, the plot really is upsetting for so many reasons.",
+      "year": "2026",
+      "release": "2025",
+      "id": "d74c1e28-14a1-4c9d-b818-bd07af901e07",
+      "newsletter": false
+    },
+    {
       "filename": "marty-supreme.jpg",
       "title": "Marty Supreme",
       "description": "Enjoyed returning to Kino International with Marf to watch this, although it's so intense from start to finish. I would be lying if I said I wasn't entertained, but god the main character is so insufferable. People like that make my skin crawl.",
       "year": "2026",
       "release": "2025",
       "id": "4f224608-43ba-4d08-aaf2-997c7666c51a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "crouching-tiger.webp",
@@ -16,7 +25,7 @@
       "year": "2026",
       "release": "2000",
       "id": "c651ee7d-356c-4358-a0a9-4a2d1156a691",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "ivan-hadoum.jpg",
@@ -25,7 +34,7 @@
       "year": "2026",
       "release": "2026",
       "id": "44cbcc73-885c-47a4-901b-807f1751e377",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "knives-out-3.png",

@@ -15,7 +15,7 @@
       "completed": false,
       "completable": true,
       "id": "8f78598f-e999-443d-a372-a993ebc3ae1d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Minishoot' Adventures",
@@ -33,7 +33,7 @@
       "completed": false,
       "completable": true,
       "id": "56017aec-5dbc-482e-8807-2060b9323644",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Hades 2",

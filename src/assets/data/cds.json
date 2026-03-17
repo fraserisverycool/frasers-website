@@ -610,7 +610,7 @@
       "description": "Picked this up at his concert. His oldest album. I love it.",
       "image": "jens-dog.webp",
       "id": "ff1efb3c-7bf1-4965-b676-3495ecaff1cf",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Jens Lekman",
@@ -619,7 +619,7 @@
       "description": "Picked this up at his concert. Special album with a special vibe.",
       "image": "jens-love.webp",
       "id": "ed635f0d-fd4e-4e31-a684-62771599e462",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Jens Lekman",
@@ -628,7 +628,7 @@
       "description": "Picked this up at his concert. Wacky album that was recorded in Berlin.",
       "image": "jens-life.jpg",
       "id": "c354b75c-0262-4a91-b4a2-de312d9ee52f",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "The Leisure Society",

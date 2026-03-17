@@ -3,13 +3,499 @@
     "pokemon diamond route 216",
     "babymaking as a playlist",
     "jazz as a playlist",
-    "mag bay head over heels https://www.youtube.com/watch?v=T8WDr5fkwCw",
     "confidence man who knows what you'll find",
     "kylie shocked",
     "bon iver re stacks",
-    "bonobo break apart"
+    "bonobo break apart",
+    "zero 7 destiny"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "Dungen",
+      "album": "Skit I Allt",
+      "track": "Blandband",
+      "description": "Music that to me sounds like deer running through woodland. From a cool Swedish band that do this kind of atmospheric music.",
+      "link": "https://www.youtube.com/watch?v=d09yIN1cNh8",
+      "game": false,
+      "day": "30-09-2026",
+      "id": "bd5167ac-711d-42cc-93b4-11d552a78c9e",
+      "newsletter": false,
+      "filename": "blandband.mp3",
+      "tags": [
+        "indie",
+        "scandinavian"
+      ]
+    },
+    {
+      "artist": "OSHUN",
+      "album": "Sango",
+      "track": "Sango",
+      "description": "Beautiful song about navigating your feelings, relationships and sexuality as a young woman. Really gorgeous. Side note, I love that these two always wear glorious yellow.",
+      "link": "https://www.youtube.com/watch?v=ITKWAG3_c4s",
+      "game": false,
+      "day": "29-09-2026",
+      "id": "c3bf7dbd-b331-4af9-9142-c56d91a5abb9",
+      "newsletter": false,
+      "filename": "",
+      "tags": [
+        "soul",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "THEESatisfaction",
+      "album": "EarthEE",
+      "track": "Blandland",
+      "description": "I think was algorithmically recommended to me during my Spotify years and something about it really resonated with me.",
+      "link": "https://www.youtube.com/watch?v=Mebq12dLBuc",
+      "game": false,
+      "day": "28-09-2026",
+      "id": "c6e26631-7cd1-4426-bc6d-def2bcac83c2",
+      "newsletter": false,
+      "filename": "blandland.mp3",
+      "tags": [
+        "hip-hop",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Beach House",
+      "album": "Once Twice Melody",
+      "track": "Superstar",
+      "description": "I had a phase of going crazy for this album. Loved this song especially. It's a slow burn.",
+      "link": "https://www.youtube.com/watch?v=T84FZgvvr6I",
+      "game": false,
+      "day": "27-09-2026",
+      "id": "3898e5a0-3c68-4736-a1c8-ecd235e40547",
+      "newsletter": false,
+      "filename": "superstar.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Shota Kageyama, Go Ichinose",
+      "album": "Pokémon Black/White",
+      "track": "Battle! (Vs. Zekrom/Reshiram)",
+      "description": "I always enjoyed this super intense track. Love the beat.",
+      "link": "https://www.youtube.com/watch?v=JtNEzM486NE",
+      "game": true,
+      "day": "26-09-2026",
+      "id": "6e3a2323-a725-43d0-875a-0de66fc9d4b4",
+      "newsletter": false,
+      "filename": "battle-zekrom-reshiram.mp3",
+      "tags": [
+        "intense",
+        "pokemon"
+      ]
+    },
+    {
+      "artist": "Perfume Genius",
+      "album": "Ugly Season",
+      "track": "Photograph",
+      "description": "Love this song. I mean this in a nice way but its giving swamp creature vibes. There's this one part towards the end where it modulates and it's just sooooo gorgeous.",
+      "link": "https://www.youtube.com/watch?v=3fswPQ9iS3U",
+      "game": false,
+      "day": "25-09-2026",
+      "id": "6ef279bb-7555-407e-8b8b-23333897dac6",
+      "newsletter": false,
+      "filename": "photograph.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Frank Ocean",
+      "album": "Blonde",
+      "track": "Pink + White",
+      "description": "Heavenly music. Cool that he got motherfucking Beyoncé to do the backing vocals.",
+      "link": "https://www.youtube.com/watch?v=uzS3WG6__G4",
+      "game": false,
+      "day": "24-09-2026",
+      "id": "c37b58a5-bd2c-443e-832d-4d3cbf83c8bb",
+      "newsletter": false,
+      "filename": "pink-white.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Tunng",
+      "album": "Turbines",
+      "track": "Embers",
+      "description": "An intense song from local folktronica band Tunng. I associate this with living in Switzerland and discovering the Fire Emblem games.",
+      "link": "https://www.youtube.com/watch?v=iBCCMrIlltE",
+      "game": false,
+      "day": "23-09-2026",
+      "id": "328682df-cbeb-4407-b1af-1f1d3e9e032a",
+      "newsletter": false,
+      "filename": "embers.mp3",
+      "tags": [
+        "intense",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Thievery Corporation (feat. LouLou Ghelichkhani)",
+      "album": "Saudade",
+      "track": "Bateau Rouge",
+      "description": "This band made a bossa nova/brazilian lounge album and I fucking love it. This song is in French, it's a bit cheesy, and I love it.",
+      "link": "https://www.youtube.com/watch?v=1ew4zanSoGE",
+      "game": false,
+      "day": "22-09-2026",
+      "id": "58bf2ac7-2762-48c4-9c52-dc2c136e1277",
+      "newsletter": false,
+      "filename": "bateau-rouge.mp3",
+      "tags": [
+        "bossa nova",
+        "french"
+      ]
+    },
+    {
+      "artist": "Regina Spektor",
+      "album": "Soviet Kitsch",
+      "track": "Somedays",
+      "description": "Shoutouts to Regina for not singing songs about sex and relationships. She sings about literally anything else. This song is about more than just having a bad day, but that hasn't stopped me playing it and singing at the piano on days when I'm feeling emotional.",
+      "link": "https://www.youtube.com/watch?v=Tl1wWvGOfJs",
+      "game": false,
+      "day": "21-09-2026",
+      "id": "e0a18cfa-091a-4fbe-a143-28206c93811e",
+      "newsletter": false,
+      "filename": "somedays.mp3",
+      "tags": [
+        "sad songs",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Michael Kiwanuka",
+      "album": "Small Changes",
+      "track": "Lowdown (parts i and ii)",
+      "description": "God, the part two of this song... wow. Amazing chords and strings. Music for when you're struggling.",
+      "link": "https://www.youtube.com/watch?v=agx-kVgC3sg",
+      "game": false,
+      "day": "20-09-2026",
+      "id": "896bb491-bd6d-4e3b-8b84-49319b0847ee",
+      "newsletter": false,
+      "filename": "lowdown.mp3",
+      "tags": [
+        "sad songs",
+        "devastating",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Fleet Foxes",
+      "album": "Helplessness Blues",
+      "track": "Montezuma",
+      "description": "Always loved this track and this album.",
+      "link": "https://www.youtube.com/watch?v=g3iHU2oWZbg",
+      "game": false,
+      "day": "19-09-2026",
+      "id": "89887751-35ae-4cdf-9976-6f093c070b7f",
+      "newsletter": false,
+      "filename": "montezuma.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Lykke Li",
+      "album": "I Never Learn",
+      "track": "I Never Learn",
+      "description": "Beautiful song about sadness and frustration. Especially love the strings at the end.",
+      "link": "https://www.youtube.com/watch?v=bJW4F5rh9q4",
+      "game": false,
+      "day": "18-09-2026",
+      "id": "ba58456c-e242-4f2b-84d4-653d6065b61c",
+      "newsletter": false,
+      "filename": "i-never-learn.mp3",
+      "tags": [
+        "devastating",
+        "sad songs",
+        "singer-songwriter",
+        "scandinavian"
+      ]
+    },
+    {
+      "artist": "Ladyhawke",
+      "album": "Ladyhawke",
+      "track": "Paris Is Burning",
+      "description": "Love this track. Reminds me of the time when I used to play World of Warcraft. Love the disco chorus.",
+      "link": "https://www.youtube.com/watch?v=vqWzfH71Bww",
+      "game": false,
+      "day": "17-09-2026",
+      "id": "c2aabdf5-30c8-4bc1-8ef5-249444f457eb",
+      "newsletter": false,
+      "filename": "paris-is-burning.mp3",
+      "tags": [
+        "pop"
+      ]
+    },
+    {
+      "artist": "Yutaka Minobe, Masayoshi Ishi",
+      "album": "Yoshi's Island DS",
+      "track": "Yoshi's Island",
+      "description": "This is the title screen from the game. It starts with 1 minute of beach ambience and then goes into a lovely peaceful track. Love it, have always loved it. This game was my shit.",
+      "link": "https://www.youtube.com/watch?v=q5kN9P5RAJQ",
+      "game": true,
+      "day": "16-09-2026",
+      "id": "9ecf396e-2144-403e-9500-81a94f8144fd",
+      "newsletter": false,
+      "filename": "yoshis-island.mp3",
+      "tags": [
+        "chill",
+        "yoshi"
+      ]
+    },
+    {
+      "artist": "Jessie Ware",
+      "album": "Superbloom",
+      "track": "Ride",
+      "description": "This track from Jessie........ I rolled my eyes the first time but I keep coming back to it. Steamy diva pop version of the good, the bad and the ugly.... it's a yes from me.",
+      "link": "https://www.youtube.com/watch?v=B-NjEx6v-tk",
+      "game": false,
+      "day": "15-09-2026",
+      "id": "7aa3f069-0ff6-4844-9cd5-d86791e35144",
+      "newsletter": false,
+      "filename": "ride.mp3",
+      "tags": [
+        "pop",
+        "party"
+      ]
+    },
+    {
+      "artist": "Nia Archives, CLIPZ",
+      "album": "-",
+      "track": "Maia Maia",
+      "description": "Some sick UK garage music. Love the music video",
+      "link": "https://www.youtube.com/watch?v=UDmQW7cD_-k",
+      "game": false,
+      "day": "14-09-2026",
+      "id": "586d43bb-2bf9-45fb-824e-46bbf5bc9dbd",
+      "newsletter": false,
+      "filename": "maia-maia.mp3",
+      "tags": [
+        "party",
+        "video"
+      ]
+    },
+    {
+      "artist": "Magdalena Bay",
+      "album": "-",
+      "track": "Only If You Want It",
+      "description": "I'm obsessed with this song and video. Super problematic lyrics in verses and then the chorus is just asking for consent. Great. And the video is very inspiring. This very website is inspired by this band - specifically their songs like this before they started dropping real albums.",
+      "link": "https://www.youtube.com/watch?v=qBl2EaWA0N4",
+      "game": false,
+      "day": "13-09-2026",
+      "id": "180de610-38ba-4f56-8407-b056d886a2f1",
+      "newsletter": false,
+      "filename": "only-if-want-it.mp3",
+      "tags": [
+        "pop",
+        "video"
+      ]
+    },
+    {
+      "artist": "Tears For Fears",
+      "album": "Songs From The Big Chair",
+      "track": "Head Over Heels",
+      "description": "I really love this. Such a great hook and I love the ending. Have to say I just watched the music video and it really is weird and bad.",
+      "link": "https://www.youtube.com/watch?v=CsHiG-43Fzg",
+      "game": false,
+      "day": "12-09-2026",
+      "id": "d432ad3a-1cc0-4ac1-a100-07cc2eab6767",
+      "newsletter": false,
+      "filename": "head-over-heels.mp3",
+      "tags": [
+        "pop",
+        "classic"
+      ]
+    },
+    {
+      "artist": "Zero 7 (feat. Sia)",
+      "album": "The Garden",
+      "track": "You're My Flame",
+      "description": "Such a great little pop track! I love the backing vocals. I love the lyrics too.",
+      "link": "https://www.youtube.com/watch?v=qEeIsHU3Zmc",
+      "game": false,
+      "day": "11-09-2026",
+      "id": "57f03700-732a-4124-8131-35e93fccc925",
+      "newsletter": false,
+      "filename": "youre-my-flame.mp3",
+      "tags": [
+        "pop"
+      ]
+    },
+    {
+      "artist": "4hero (feat. Jill Scott)",
+      "album": "Creating Patterns",
+      "track": "Another Day",
+      "description": "'I don't wanna go to work today I want to stay home and play video games' - this is a mantra I've carried with me for many years now. This song often comes into my head on a monday morning. Jill Scott understands. This was actually my introduction to her!",
+      "link": "https://www.youtube.com/watch?v=SzP8bVMaRCs",
+      "game": false,
+      "day": "10-09-2026",
+      "id": "804985af-223c-4d50-ac19-a6a0645b529e",
+      "newsletter": false,
+      "filename": "another-day.mp3",
+      "tags": [
+        "chill",
+        "concrete themes",
+        "soul"
+      ]
+    },
+    {
+      "artist": "Janelle Monáe (feat. Esperanza Spalding)",
+      "album": "The Electric Lady",
+      "track": "Dorothy Dandridge Eyes",
+      "description": "I'm obsessed with this chord sequence. And I love Esperanza's verse. I love the little monologue at the end. I once made a piece of artwork with those lyrics on it and my friend Lydia said, 'you do like to be extra about everything don't you', and she's right.",
+      "link": "https://www.youtube.com/watch?v=3-o4HuOQjfg",
+      "game": false,
+      "day": "09-09-2026",
+      "id": "dbd0aa32-9b32-4d4d-b18a-152d15743aeb",
+      "newsletter": false,
+      "filename": "dorothy-dandridge-eyes.mp3",
+      "tags": [
+        "chill",
+        "soul"
+      ]
+    },
+    {
+      "artist": "BADBADNOTGOOD (feat. Charlotte Day Wilson)",
+      "album": "IV",
+      "track": "In Your Eyes",
+      "description": "I've listened to this countless times. There's something about it. It sounds so classy, and I love it when she sings 'just rid yourself of him and come get it'",
+      "link": "https://www.youtube.com/watch?v=-PCauQozne0",
+      "game": false,
+      "day": "08-09-2026",
+      "id": "a3703df1-83bf-433d-96e5-9f15fe4823ce",
+      "newsletter": false,
+      "filename": "in-your-eyes.mp3",
+      "tags": [
+        "chill",
+        "soul"
+      ]
+    },
+    {
+      "artist": "L'Impératrice",
+      "album": "-",
+      "track": "Sonate Pacifique",
+      "description": "I love a chill song with a drum machine like this. This one is hypnotic with the singing in harmony. My favourite part is the little synth lead that comes in between the singing.",
+      "link": "https://www.youtube.com/watch?v=jiRUH9b33dA",
+      "game": false,
+      "day": "07-09-2026",
+      "id": "37953f53-09be-4432-be21-761a63746aaf",
+      "newsletter": false,
+      "filename": "sonate-pacifique.mp3",
+      "tags": [
+        "chill",
+        "french",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Yasunori Mitsuda",
+      "album": "Chrono Trigger",
+      "track": "Secret of the Forest",
+      "description": "Beautiful and gorgeous music from the SNES. I could listen to this forever. I love that it doesn't really have a key and I especially love the last part with the piano chords.",
+      "link": "https://www.youtube.com/watch?v=fKex3QoPc8A",
+      "game": true,
+      "day": "06-09-2026",
+      "id": "e499ee43-a330-4c06-8354-524f6bbfcefd",
+      "newsletter": false,
+      "filename": "secret-of-the-forest.mp3",
+      "tags": [
+        "other",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Nubya Garcia (feat. Esperanza Spalding)",
+      "album": "Odyssey",
+      "track": "Dawn",
+      "description": "As an Esperanza Spalding enjoyer I of course love this track with her singing this gorgeous melody of those windy chords.",
+      "link": "https://www.youtube.com/watch?v=c9KHzOWRHPI",
+      "game": false,
+      "day": "05-09-2026",
+      "id": "b6e8fe77-5d13-44bb-bf26-c793d35ebbdf",
+      "newsletter": false,
+      "filename": "dawn.mp3",
+      "tags": [
+        "peaceful",
+        "jazz"
+      ]
+    },
+    {
+      "artist": "Moses Sumney",
+      "album": "Aromanticism",
+      "track": "Plastic",
+      "description": "This song touched me. In it, he reveals that his wings are made of plastic.",
+      "link": "https://www.youtube.com/watch?v=YpvBlhdrqz8",
+      "game": false,
+      "day": "04-09-2026",
+      "id": "08b5d7ce-901c-4394-956d-c284ab464995",
+      "newsletter": false,
+      "filename": "plastic.mp3",
+      "tags": [
+        "peaceful",
+        "sad songs",
+        "devastating"
+      ]
+    },
+    {
+      "artist": "Paradis",
+      "album": "Recto Verso",
+      "track": "Toi Et Moi",
+      "description": "I love love love this song and I know all the words. I'm also obsessed with the beautiful twink in the video, the way he looks into my soul.",
+      "link": "https://www.youtube.com/watch?v=5H4ekRWiW6U",
+      "game": false,
+      "day": "03-09-2026",
+      "id": "c8d4b743-92dd-4812-9293-2ad5b4073cea",
+      "newsletter": false,
+      "filename": "toi-et-moi.mp3",
+      "tags": [
+        "french",
+        "pop",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Timmy Thomas",
+      "album": "Why Can't We Live Together",
+      "track": "Why Can't We Live Together",
+      "description": "I learned about this from Sade who covered this. But the original, wow. It's just a guy with a drum machine & a little organ in 1972 and it's this stark and soulful. Also, it's the sample from Drake's smash hit Hotline Bling!",
+      "link": "https://www.youtube.com/watch?v=zJ38KmkQPik",
+      "game": false,
+      "day": "02-09-2026",
+      "id": "f4a36478-e1da-4e1a-9aa0-ff53e0f5bb3d",
+      "newsletter": false,
+      "filename": "why-cant-we-live-together.mp3",
+      "tags": [
+        "chill",
+        "devastating",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Bleu Toucan",
+      "album": "Origami",
+      "track": "Hanoï Café",
+      "description": "Found out about this song during my phase of listening to French electropop. Love the video.",
+      "link": "https://www.youtube.com/watch?v=ILP3KAVfKLs",
+      "game": false,
+      "day": "01-09-2026",
+      "id": "6fb89eec-ddfd-48aa-85d5-6137717e7f37",
+      "newsletter": false,
+      "filename": "hanoi-cafe.mp3",
+      "tags": [
+        "french",
+        "pop",
+        "chill",
+        "video"
+      ]
+    },
     {
       "artist": "Kazumi Totaka",
       "album": "Animal Crossing: New Leaf",

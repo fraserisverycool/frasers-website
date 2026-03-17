@@ -1,6 +1,27 @@
 {
   "soundtracks": [
     {
+      "filename": "super-metroid.jpg",
+      "name": "Super Metroid",
+      "description": [
+        "This soundtrack is full of classics. It truly is the very best Metroid soundtrack and one of the best on the SNES. Personal favourites are the two Brinstar tracks. The first one is a groove and a bop, and the second is the ultimate unsettling chillout. Also shout-outs to the most insane boss music ever with Mother Brain. Wow."
+      ],
+      "platform": "SNES",
+      "topTracks": [
+        "Title Screen",
+        "Theme of Super Metroid",
+        "Brinstar: Heavy Foliage Area",
+        "Brinstar: Red-Soil Area",
+        "Maridia: Rocky Underground Water Area",
+        "Norfair: Ancient-Ruins Area",
+        "Boss Battle BGM (Ridley/Draygon)",
+        "Mother Brain",
+        "Ending"
+      ],
+      "id": "a002f772-918d-4367-91e2-72975b7766e5",
+      "newsletter": false
+    },
+    {
       "filename": "mario-3d-world.jpg",
       "name": "Super Mario 3D World + Bowser's Fury",
       "description": [
@@ -21,7 +42,7 @@
         "Riding Plessie"
       ],
       "id": "7a424e50-043d-49c8-919b-801838b41829",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "kirby-air-riders.png",
@@ -64,7 +85,7 @@
         "Staff Credits (Kirby Super Star)"
       ],
       "id": "fcf16469-155a-4633-ba2b-d31435e7bc0e",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "pokemon-firered.jpg",
