@@ -15,6 +15,7 @@
   </p>
 }
 <p>{{ film.description }}</p>
+<app-spoiler-discussion [spoiler]="film.spoiler || ''"></app-spoiler-discussion>
 <img [ngSrc]="imageService.imageUrl('/films/' + film.filename)" alt="{{ film.title }}" width="600" height="400">
 <div [ngStyle]="{'padding-bottom': '10px'}"></div>
 <app-rating-bar [rating]="{id: film.id, ratings: film.rating}"></app-rating-bar>

@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "name": "Slay the Spire 2",
+      "vibes": "7",
+      "gameplay": "11",
+      "review": [
+        "Oh god here we go again. The first Slay the Spire kept me going for years, and I finally managed to spend the last year in peace having beaten A20 heart with all the characters. Now we've been served a whole-ass sequel with twice as much content. It's so over! I'll see you guys on the other side!!",
+        "I'm so excited to play this game in Early Access! The first time I've done that. I'm going to be there for each and every patch and it's going to be delicious. I've already identified the most broken cards and I look forward to the nerfs!",
+        "Also, I love the multiplayer! It works so good. So nice to bond with friends like this."
+      ],
+      "image": "slay-the-spire-2.avif",
+      "platform": "PC",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": false,
+      "completable": false,
+      "id": "96b75cfa-3bb5-462c-98cd-977d02c8d960",
+      "newsletter": false
+    },
+    {
       "name": "Morsels",
       "vibes": "10",
       "gameplay": "8",

@@ -1,9 +1,20 @@
 {
   "films": [
     {
+      "filename": "pillion.jpg",
+      "title": "Pillion",
+      "description": "Wow, this is a steaming hot film about getting dommed by sexy biker man Alexander Skarsgård. It handles the topic excellently, is super funny, and I highly recommend it. Managed to get a free T-shirt from the Mongay preview!",
+      "spoiler": "I loved the part where Colin throws a tantrum and you think he's gonna get fucking murdered by Ray, but instead Ray actually tries to do the 'day off' thing. You see his attempts to do something different, because he knows it's not good to just go full in on the sub-dom stuff when you actually end up with someone for a long time, when you fall in love with them. He makes an attempt, and of course he panics (that moment was hard to watch), and you get the feeling that Ray is going to need like 3 more failed relationships before he gets it. For Colin it was also a learning experience, he goes into his next relationship with a non-negotiable day-off every week and that my friends is growth. Fucking love it. It's a film about different kinds of relationships and the lessons you can learn from them.",
+      "year": "2026",
+      "release": "2026",
+      "id": "c238ab26-d50a-4f70-aa28-3b7835fc191b",
+      "newsletter": false
+    },
+    {
       "filename": "no-other-choice.jpg",
       "title": "No Other Choice",
       "description": "Had a solo trip to the cinema (Delphi Lux) while I was already feeling sad and upset and this just made it worse. It's an excellent film but wow, the plot really is upsetting for so many reasons.",
+      "spoiler": "The way he convinced himself that the only way to keep his way of living is by murdering three people with this little mantra was so scary. The film makes you think about... what if everyone did that. If we all convinced ourselves to make 'evil' decisions. He even gets served up snapshots of other people's lives, the other applicants have so many of the same problems as him, and he still goes through with it. Incredible. At the end we get a picture of his happy ending. So many people laid off anyway. It's like, it's what he wanted, great for him, but what kind of picture does it paint for humanity, yknow. I left the cinema despairing for humanity.",
       "year": "2026",
       "release": "2025",
       "id": "d74c1e28-14a1-4c9d-b818-bd07af901e07",
@@ -67,6 +78,7 @@
       "filename": "it-was-just-an-accident.webp",
       "title": "It Was Just an Accident",
       "description": "Really great film with a horrible premise (it's about torture) but it's full of good people and a really thrilling story.",
+      "spoiler": "I keep coming back to that final scene with the sound of the leg. At first I was like, oh no they should have killed him, now he's gonna get shot or something, but I guess actually it must just be his imagination. If I were him I would be haunted by the knowledge that he's still out there and I would be hearing that sound constantly. It's like a special kind of trauma.",
       "year": "2026",
       "release": "2025",
       "id": "f7c9d051-577a-4cbf-865b-ed250bb2bbbf",
@@ -115,7 +127,8 @@
     {
       "filename": "aftersun.jpg",
       "title": "Aftersun",
-      "description": "Story of a dad taking his 11 daughter on holiday, trying to keep it together. I felt a real connection to him because he's my age. It all felt very real.",
+      "description": "Story of a dad taking his 11 year old daughter on holiday, trying to keep it together. I felt a real connection to him because he's my age. It all felt very real.",
+      "spoiler": "The part when he didn't sing karaoke with her was so horrible. He was so stubborn. He will regret that for the rest of his life, I am so sure of it. In that horrible part where it just cuts to him crying in the hotel with his back to the camera, I feel like that's what he's doing, he's just kicking himself.",
       "year": "2025",
       "release": "2022",
       "id": "d199f2be-1966-4daf-97cb-933c3671ac70",
@@ -142,7 +155,8 @@
     {
       "filename": "bugonia.jpg",
       "title": "Bugonia",
-      "description": "Oh my god I loved this film so much. It was wild and hugely entertaining. Conspiracy theorist meets powerful CEO and the dialog between them is just perfect. Best ending ever",
+      "description": "Oh my god I loved this film so much. It was wild and hugely entertaining. Conspiracy theorist meets powerful CEO and the dialog between them is just perfect. Best ending ever.",
+      "spoiler": "The part when she gets out of the car and goes back to the office. I was like, oh hell yes. Hell yes. I love that she was just like yeah fuck this. This planet is lost, let's just kill the humans.",
       "year": "2025",
       "release": "2025",
       "id": "bd335759-e505-4f95-91dd-b150d8442361",
@@ -160,7 +174,7 @@
     {
       "filename": "frankenstein.jpg",
       "title": "Frankenstein",
-      "description": "They decided to make the monster hot and I don't understand why! I thought it was all pretty dumb. I guess it was entertaining",
+      "description": "They decided to make the monster hot and I don't understand why! I thought it was all pretty dumb. I guess it was entertaining.",
       "year": "2025",
       "release": "2025",
       "id": "f5ec87df-d2ea-4375-b087-9e42924db7d0",
@@ -183,7 +197,8 @@
     {
       "filename": "pink-flamingos.jpg",
       "title": "Pink Flamingos",
-      "description": "Outrageous camp classic whose main goal is to be gross and horrible. It's hilarious and shocking and I have to say I preferred 'Female Trouble'. As time has passed I keep thinking about when she gives her politicals. Iconic.",
+      "description": "Outrageous camp classic whose main goal is to be gross and horrible. It's hilarious and shocking and I have to say I preferred 'Female Trouble'. As time has passed I keep thinking about when she gives her political views. Iconic.",
+      "spoiler": "Kill! Everyone! Now! Condone first degree murder! Advocate cannibalism! Eat SHIT!",
       "year": "2025",
       "release": "1972",
       "id": "55d62c05-4664-4f78-9321-7502862c8267",
@@ -192,7 +207,7 @@
     {
       "filename": "amrum.jpg",
       "title": "Amrum",
-      "description": "A gorgeous-looking film set during the German surrender in WW2 in a teeny-tiny island in north Germany. Fascinating glimpse into a time and place that I've never seen before. Simple/low-key plot but still engaging",
+      "description": "A gorgeous-looking film set during the German surrender in WW2 in a teeny-tiny island in north Germany. Fascinating glimpse into a time and place that I've never seen before. Simple/low-key plot but still engaging.",
       "year": "2025",
       "release": "2025",
       "id": "abb57eb3-407d-40e1-b16e-590d1d013cdc",
@@ -201,7 +216,7 @@
     {
       "filename": "painted-boats.jpg",
       "title": "Painted Boats",
-      "description": "Read about it in the Stoke Bruerne narrowboat museum when we had our boating holiday. Cool history lesson about life on canalboats before it became a tourism thing",
+      "description": "Read about it in the Stoke Bruerne narrowboat museum when we had our boating holiday. Cool history lesson about life on canalboats before it became a tourism thing.",
       "year": "2025",
       "release": "1945",
       "id": "ee72f745-1cce-4bf9-bba6-a2015aad3474",
@@ -210,7 +225,7 @@
     {
       "filename": "moonstruck.png",
       "title": "Moonstruck",
-      "description": "We watched this because it has Cher in it but were horrified when the heart-throb man on the film turned out to be horrible Nicolas Cage. Cher is beautiful but the film aged badly",
+      "description": "We watched this because it has Cher in it but were horrified when the heart-throb man on the film turned out to be horrible Nicolas Cage. Cher is beautiful but the film aged badly.",
       "year": "2025",
       "release": "1987",
       "id": "ee72f745-1cce-4bf9-bba6-a2015aad3474",
@@ -219,7 +234,7 @@
     {
       "filename": "blue-boy.jpg",
       "title": "Blue Boy",
-      "description": "Short film featuring escorts listening to themselves tell stories. It was nice and thought-provoking",
+      "description": "Short film featuring escorts listening to themselves tell stories. It was nice and thought-provoking.",
       "year": "2025",
       "release": "2019",
       "id": "c74b23a0-b451-4034-ba01-2da10cc7b689",
@@ -237,7 +252,7 @@
     {
       "filename": "ciure.png",
       "title": "Ciurè",
-      "description": "ARGH this film really pissed me off. They went way too far with the straight guy. I disliked so many of his scenes, and how Ciurè just dealt with his bullshit at great cost for no reason. She was portrayed as a flawless human, but real people aren't like that. I liked that she looks like Amy Winehouse though",
+      "description": "ARGH this film really pissed me off. They went way too far with the straight guy. I disliked so many of his scenes, and how Ciurè just dealt with his bullshit at great cost for no reason. She was portrayed as a flawless human, but real people aren't like that. I liked that she looks like Amy Winehouse though.",
       "year": "2025",
       "release": "2022",
       "id": "757b46be-03f3-4e9e-a13d-0e6ad0a4f24b",
@@ -246,7 +261,7 @@
     {
       "filename": "volver.jpg",
       "title": "Volver",
-      "description": "Very tragic film. Classic Almodovar in the sense that it's about women looking beautiful and suffering. I love how competent and beautiful Penelope Cruz is despite her suffering",
+      "description": "Very tragic film. Classic Almodovar in the sense that it's about women looking beautiful and suffering. I love how competent and beautiful Penelope Cruz is despite her suffering.",
       "year": "2025",
       "release": "2006",
       "id": "8397ab59-1b0e-4861-973f-d7b9f7495018",
@@ -255,7 +270,7 @@
     {
       "filename": "mothers.webp",
       "title": "Four Mothers",
-      "description": "Delightful and hilarious film about a gay man looking after a bunch of old irish ladies. So fun and light-hearted. I enjoyed that queerness just simply isn't an issue in the film",
+      "description": "Delightful and hilarious film about a gay man looking after a bunch of old irish ladies. So fun and light-hearted. I enjoyed that queerness just simply isn't an issue in the film.",
       "year": "2025",
       "release": "2024",
       "id": "c0650c2b-40c6-4611-94d5-74b6be961bec",
@@ -264,7 +279,7 @@
     {
       "filename": "portrait.jpg",
       "title": "Portrait of a Lady on Fire",
-      "description": "A lesbian longing film, featuring this actress just staring at the camera for most of it. I thought it was boring. Like surely in those times people didn't talk with extended silences like that",
+      "description": "A lesbian longing film, featuring this actress just staring at the camera for most of it. I thought it was boring. Like surely in those times people didn't talk with extended silences like that.",
       "year": "2025",
       "release": "2019",
       "id": "2af16787-426e-443a-afb3-390ce2909c8a",
@@ -273,7 +288,7 @@
     {
       "filename": "all-we-imagine.jpg",
       "title": "All We Imagine As Light",
-      "description": "Imagine you have an arranged marriage then your husband fucks off leaving you in Mumbai to live and work alone your whole life. This lady with bags under her eyes has accepted her fate and this film really hones in on that. A slow burner and a look into a different world",
+      "description": "Imagine you have an arranged marriage then your husband fucks off leaving you in Mumbai to live and work alone your whole life. This lady with bags under her eyes has accepted her fate and this film really hones in on that. A slow burner and a look into a different world.",
       "year": "2025",
       "release": "2024",
       "id": "51011575-cc5f-4a96-8c7f-fe09b4819036",
@@ -282,7 +297,7 @@
     {
       "filename": "if-i-die.jpg",
       "title": "If I Die, It'll Be Of Joy",
-      "description": "Very cute film about an awkward topic: old age. It follows three fantastic old queer people and makes me both fearful and hopeful for old age",
+      "description": "Very cute film about an awkward topic: old age. It follows three fantastic old queer people and makes me both fearful and hopeful for old age.",
       "year": "2025",
       "release": "2024",
       "id": "03221ceb-2873-466c-b1af-d5bb701126ac",
@@ -291,7 +306,7 @@
     {
       "filename": "tchindas.jpg",
       "title": "Tchindas",
-      "description": "Beautiful and positive film about the preparations for the carnival in Cape Verde. It follows a community of queer people not just living their best lives but being the centre of attention with no problems and no homophobia. Delightful",
+      "description": "Beautiful and positive film about the preparations for the carnival in Cape Verde. It follows a community of queer people not just living their best lives but being the centre of attention with no problems and no homophobia. Delightful.",
       "year": "2025",
       "release": "2015",
       "id": "74d4a4f2-88d0-4e85-94f4-db612397ec1d",
@@ -300,7 +315,7 @@
     {
       "filename": "i-am-a-flower.jpg",
       "title": "I am a Flower",
-      "description": "A cute and fun animated short about a flower man who is asking his mum if she's gonna be there for his transformation tomorrow. Heartbreaking story about parents who will just never understand. I cried at this one, and when the director gave a Q&A right after he cried too",
+      "description": "A cute and fun animated short about a flower man who is asking his mum if she's gonna be there for his transformation tomorrow. Heartbreaking story about parents who will just never understand. I cried at this one, and when the director gave a Q&A right after he cried too.",
       "year": "2025",
       "release": "2024",
       "id": "d7673190-bb0c-4f21-8819-64e9b6bb83ca",
@@ -309,7 +324,7 @@
     {
       "filename": "speaking-flowers.jpg",
       "title": "Speaking Flowers",
-      "description": "Hilarious short film with lots of shots of plants and toy animals and occasionally this beautiful flower lady. I would like to purchase this film so I can consume it at a later date with friends while taking mushrooms",
+      "description": "Hilarious short film with lots of shots of plants and toy animals and occasionally this beautiful flower lady. I would like to purchase this film so I can consume it at a later date with friends while taking mushrooms.",
       "year": "2025",
       "release": "2025",
       "id": "e11f9219-a624-4e3d-8b42-fd2e35c4e29a",
@@ -318,7 +333,7 @@
     {
       "filename": "filament-fortune.jpg",
       "title": "Filament Fortune",
-      "description": "Short film about three people living with HIV and how they deal with it. Some interesting thoughts, and it features this song by Jill Scott 'He loves me' which I really like",
+      "description": "Short film about three people living with HIV and how they deal with it. Some interesting thoughts, and it features this song by Jill Scott 'He loves me' which I really like.",
       "year": "2025",
       "release": "2025",
       "id": "be2106d5-7f5e-4bff-9055-550e2b19bc46",
@@ -327,7 +342,7 @@
     {
       "filename": "flowers.png",
       "title": "The Flowers Stand Silently, Witnessing",
-      "description": "Blown away by this old colour footage of white people picking flowers in Palestine in the early 20th century. The film-maker's rage and grief is palpable as they desperately look at the barely 2 minutes of footage containing Palestinian arabs. Heartbreaking and shocking and it really is just footage of flowers",
+      "description": "Blown away by this old colour footage of white people picking flowers in Palestine in the early 20th century. The film-maker's rage and grief is palpable as they desperately look at the barely 2 minutes of footage containing Palestinian arabs. Heartbreaking and shocking and it really is just footage of flowers.",
       "year": "2025",
       "release": "2024",
       "id": "ba5c2171-eafa-4eac-9676-594d21e484f3",
@@ -345,7 +360,7 @@
     {
       "filename": "westler.jpg",
       "title": "Westler",
-      "description": "Secretly filmed in the DDR all about a romance between these blue eyed very gay-looking boys. It was cool because of the historical aspect but also a huge snoozefest. The director was there at the cinema and wouldn't stop talking",
+      "description": "Secretly filmed in the DDR all about a romance between these blue eyed very gay-looking boys. It was cool because of the historical aspect but also a huge snoozefest. The director was there at the cinema and wouldn't stop talking.",
       "year": "2025",
       "release": "1985",
       "id": "002cde7e-7896-42b2-870a-8b6fa13b2c1f",
@@ -354,7 +369,8 @@
     {
       "filename": "oslo-sehnsucht.jpeg",
       "title": "Oslo Stories: Sex",
-      "description": "Third film in this trilogy of Oslo films and I'm so glad I got to see them all. This one has equally as many vibes as the other two, has a beautiful premise and is funnier than the others. Highly recommend",
+      "description": "Third film in this trilogy of Oslo films and I'm so glad I got to see them all. This one has equally as many vibes as the other two, has a beautiful premise and is funnier than the others. Highly recommend.",
+      "spoiler": "What is going on with that weird dance sequence at the end though!",
       "year": "2025",
       "release": "2025",
       "id": "c05e03a6-45ac-4de7-b947-d1cd6c114da0",
@@ -363,7 +379,7 @@
     {
       "filename": "model-destino.jpg",
       "title": "Motel Destino",
-      "description": "Spent the whole film ogling at the beautiful Brazilian man. Thrilling and quite silly, it features an actual queer mafia, and loads of strong coloured lighting. Very steamy film",
+      "description": "Spent the whole film ogling at the beautiful Brazilian man. Thrilling and quite silly, it features an actual queer mafia, and loads of strong coloured lighting. Very steamy film.",
       "year": "2025",
       "release": "2024",
       "id": "e087c70f-4a72-4b07-9c74-7ee263ffface",
@@ -372,7 +388,7 @@
     {
       "filename": "mujeres.jpg",
       "title": "Mujeres al Borde de un Ataque de Nervios",
-      "description": "A classic Almodóvar film. I loved it! These camp, hilarious Spanish films know exactly how to tickle me. The outfits in particular are great. Highlight was when she hijacked a motorbike and walked through the airport with her hair in a huge mess to kill her ex husband",
+      "description": "A classic Almodóvar film. I loved it! These camp, hilarious Spanish films know exactly how to tickle me. The outfits in particular are great. Highlight was when she hijacked a motorbike and walked through the airport with her hair in a huge mess to kill her ex husband.",
       "year": "2025",
       "release": "1988",
       "id": "fa22f8b2-2672-416f-8349-1a5d05e4a25f",
@@ -381,7 +397,7 @@
     {
       "filename": "oslo-traume.webp",
       "title": "Oslo Stories: Dreams",
-      "description": "Beautiful film about a girl who falls in love with a teacher, writes about it, and shares it with both her mother and grandmother, who have varying and changing perspectives on it. It's so raw and beautiful. And it links to Oslo Stores: Love as well, which I also loved",
+      "description": "Beautiful film about a girl who falls in love with a teacher, writes about it, and shares it with both her mother and grandmother, who have varying and changing perspectives on it. It's so raw and beautiful. And it links to Oslo Stores: Love as well, which I also loved.",
       "year": "2025",
       "release": "2025",
       "id": "44e4aec9-6dc3-4298-87dd-73623d8c33db",
@@ -390,7 +406,7 @@
     {
       "filename": "reines-du-drame.jpg",
       "title": "Les Reines du Drame",
-      "description": "Extremely camp lesbian dramady which is hugely entertaining and hilarious. For me it would have been a perfect score if it weren't for the songs, I don't think I will ever like musicals. But the film is still so good",
+      "description": "Extremely camp lesbian dramady which is hugely entertaining and hilarious. For me it would have been a perfect score if it weren't for the songs, I don't think I will ever like musicals. But the film is still so good.",
       "year": "2025",
       "release": "2024",
       "id": "8430dcd3-e962-4f7f-837e-87762be8bafe",
@@ -399,7 +415,7 @@
     {
       "filename": "hump2.png",
       "title": "Dan Savage's Hump Porn Film Festival 2025 Part 1",
-      "description": "A collection of porn films 5 minutes or less, for a second time! I can't deny that it's excellent. A couple of them truly horrified me. One of them super piqued my interest",
+      "description": "A collection of porn films 5 minutes or less, for a second time! I can't deny that it's excellent. A couple of them truly horrified me. One of them super piqued my interest.",
       "year": "2025",
       "release": "2025",
       "id": "eaf43a72-fa59-4a0e-ae44-3f7b25d99f56",
@@ -408,7 +424,7 @@
     {
       "filename": "sebastian.jpg",
       "title": "Sebastian",
-      "description": "A mongay about a gay escort who writes himself into his own book with a pseudonym. He constantly looks like he's about to start crying throughout the film. I found it to be quite predictable and not all that impactful",
+      "description": "A mongay about a gay escort who writes himself into his own book with a pseudonym. He constantly looks like he's about to start crying throughout the film. I found it to be quite predictable and not all that impactful.",
       "year": "2025",
       "release": "2024",
       "id": "7b739434-6f41-4836-abee-d16c3e86ed1d",
@@ -426,7 +442,7 @@
     {
       "filename": "oslo-liebe.webp",
       "title": "Oslo Stories: Love",
-      "description": "Beautiful soundtrack and stunning vistas of Oslo. Great vibe in this film. Very cosy and heartwarming. Some interesting ideas around relationships and the main female character is so beautiful. I really loved it",
+      "description": "Beautiful soundtrack and stunning vistas of Oslo. Great vibe in this film. Very cosy and heartwarming. Some interesting ideas around relationships and the main female character is so beautiful. I really loved it.",
       "year": "2025",
       "release": "2024",
       "id": "f266a117-2d02-49b6-82c2-06f4cbb6c730",
@@ -435,7 +451,7 @@
     {
       "filename": "suspiria.webp",
       "title": "Suspiria",
-      "description": "Funny horror film with a witchy vibe. I really enjoyed it. One remarkable thing about it was the huge of these brightly coloured lights. Highly recommend",
+      "description": "Funny horror film with a witchy vibe. I really enjoyed it. One remarkable thing about it was the huge of these brightly coloured lights. Highly recommend.",
       "year": "2025",
       "release": "1977",
       "id": "bfda60c9-ad8a-448d-a3f3-dced571908f3",
@@ -444,7 +460,8 @@
     {
       "filename": "valley.gif",
       "title": "Beyond the Valley of the Dolls",
-      "description": "Wow I loved this film so much. It's a masterpiece. It's also a total clusterfuck of insane editing, quotable moments, wild group acting, very upsetting topics, comedy, queer nonsense, camp and a genuinely great all-female rock and roll band. Iconic film, can't wait to watch it again",
+      "description": "Wow I loved this film so much. It's a masterpiece. It's also a total clusterfuck of insane editing, quotable moments, wild group acting, very upsetting topics, comedy, queer nonsense, camp and a genuinely great all-female rock and roll band. Iconic film, can't wait to watch it again.",
+      "spoiler": "I will say the imagery of the gun in the mouth was kinda upsetting",
       "year": "2025",
       "release": "1970",
       "id": "7d10e921-3ab4-4fa5-a9d1-9dd2d97c0d61",
@@ -453,7 +470,7 @@
     {
       "filename": "ley.webp",
       "title": "La Ley Del Deseo",
-      "description": "Such a delightful Spanish film from the 80s full of gay sex, a young and hot Antonio Banderas, and the most amazing trans character ever. This film is so fun and so wild, with great music",
+      "description": "Such a delightful Spanish film from the 80s full of gay sex, a young and hot Antonio Banderas, and the most amazing trans character ever. This film is so fun and so wild, with great music.",
       "year": "2025",
       "release": "1987",
       "id": "ac847806-28eb-408e-80a3-ea46c9f55858",
@@ -463,6 +480,7 @@
       "filename": "adolescence.webp",
       "title": "Adolescence",
       "description": "Very topical and very well done short drama about a young boy radicalised by the misogynist right. Made me very emotional. I'm grateful it became so popular so more people know about what's happening on our phones.",
+      "spoiler": "The scene with the therapist when you see what's really going on in his head, horrible. I genuinely think this shit is real and happening in real time right now with all these kids who have phones. The currently generation of kids really are fucked. I don't think all the parents of the world are teaching them about echo chambers and misinformation online. The parents are getting radicalised just as well! Well, at least the show is successful and it started some important conversations in Britain.",
       "year": "2025",
       "release": "2025",
       "tv": true,
@@ -475,7 +493,7 @@
     {
       "filename": "baby.webp",
       "title": "Baby",
-      "description": "A mongay film about sex workers in Sao Paolo which was kinda entertaining and had really beautiful 'chosen family' moments",
+      "description": "A mongay film about sex workers in Sao Paolo which was kinda entertaining and had really beautiful 'chosen family' moments.",
       "year": "2025",
       "release": "2024",
       "id": "16c8a77c-500c-49a2-8b8d-38a4cbf3cf59",
@@ -484,7 +502,7 @@
     {
       "filename": "flow.jpg",
       "title": "Flow",
-      "description": "It's totally unrealistic for these animals to have this human-like reasoning and deduction!! But I forced myself not to think about that stuff because it's not actually about that. It's about the vibe. This film has no words in it and that is a vibe",
+      "description": "It's totally unrealistic for these animals to have this human-like reasoning and deduction!! But I forced myself not to think about that stuff because it's not actually about that. It's about the vibe. This film has no words in it and that is a vibe.",
       "year": "2025",
       "release": "2025",
       "id": "5fbce333-0ace-4b30-8d8e-7c3b585b550e",
@@ -493,7 +511,7 @@
     {
       "filename": "dear-kelly.jpg",
       "title": "Dear Kelly",
-      "description": "As a fan of Channel 5, a top class youtube channel, I decided to check out their feature film about this right-winger and how he came to be so lost. It's pretty good",
+      "description": "As a fan of Channel 5, a top class youtube channel, I decided to check out their feature film about this right-winger and how he came to be so lost. It's pretty good.",
       "year": "2025",
       "release": "2025",
       "id": "7bf80d74-7340-46d8-b987-fbb7fed794bf",
@@ -502,7 +520,7 @@
     {
       "filename": "nosferatu.png",
       "title": "Nosferatu",
-      "description": "Hilarious film, one of the OG horror films where a bunch of tropes come from. I love how Count Orlok travels across Europe in a coffin via raft just so he can suck a German lady's blood. Also this vampire stuff is so sexually charged it's insane",
+      "description": "Hilarious film, one of the OG horror films where a bunch of tropes come from. I love how Count Orlok travels across Europe in a coffin via raft just so he can suck a German lady's blood. Also this vampire stuff is so sexually charged it's insane.",
       "year": "2025",
       "release": "1922",
       "id": "ffdb6f75-255b-40e3-8f94-e261064ec77d",
@@ -511,7 +529,7 @@
     {
       "filename": "female.jpg",
       "title": "Female Trouble",
-      "description": "Absolutely insane film, there are no words to describe it. It goes way too far and is hugely inappropriate and very disgusting. I loved it and was hugely entertained for the entire thing",
+      "description": "Absolutely insane film, there are no words to describe it. It goes way too far and is hugely inappropriate and very disgusting. I loved it and was hugely entertained for the entire thing.",
       "year": "2025",
       "release": "1974",
       "id": "4f2aed4c-97c8-4cd6-955c-60cd3798a1f1",
@@ -534,7 +552,7 @@
     {
       "filename": "lesbian.webp",
       "title": "Lesbian Space Princess",
-      "description": "Mongay always do a showing of the winner of the Teddy Award and this year it was this wacky animated film about lesbians in space. At parts it's hilarious but I did roll my eyes a few times",
+      "description": "Mongay always do a showing of the winner of the Teddy Award and this year it was this wacky animated film about lesbians in space. At parts it's hilarious but I did roll my eyes a few times.",
       "year": "2025",
       "release": "2024",
       "id": "46cab83d-ed6e-408b-ac85-d644f3391083",
@@ -543,7 +561,7 @@
     {
       "filename": "ato.png",
       "title": "Ato Noturno",
-      "description": "Gripping, amazing film about public figures exploring their kink of sex in public. Cheesy film noir soundtrack makes it so funny and enjoyable to watch. I watched it at the Berlinale and I loved it",
+      "description": "Gripping, amazing film about public figures exploring their kink of sex in public. Cheesy film noir soundtrack makes it so funny and enjoyable to watch. I watched it at the Berlinale and I loved it.",
       "year": "2025",
       "release": "2025",
       "id": "235afaa4-5597-44dd-b3d5-b8c883dcffcd",
@@ -552,7 +570,7 @@
     {
       "filename": "neosagradxs.PNG",
       "title": "Neosagradxs",
-      "description": "My friends Clarer and Miiel made this film!! And I'm in it!! I have two lines speaking in spanish and they are terrible, I am a terrible actor. My apologies to the directors and the viewers",
+      "description": "My friends Clarer and Miiel made this film!! And I'm in it!! I have two lines speaking in spanish and they are terrible, I am a terrible actor. My apologies to the directors and the viewers.",
       "year": "2025",
       "release": "2025",
       "id": "c01d10fa-5a18-46cb-8515-d9706809f2b4",
@@ -561,7 +579,7 @@
     {
       "filename": "boy.jpg",
       "title": "B.O.Y.",
-      "description": "I was so nervous during all of this film because it's so tense but the ending was so beautiful. A Danish queer coming of age film, not an easy watch",
+      "description": "I was so nervous during all of this film because it's so tense but the ending was so beautiful. A Danish queer coming of age film, not an easy watch.",
       "year": "2025",
       "release": "2023",
       "id": "071157c4-bfba-41c0-9038-3f389f14bf40",
@@ -570,7 +588,7 @@
     {
       "filename": "substance.jpg",
       "title": "The Substance",
-      "description": "So good. Also the most horrible film I've ever watched. I'm not good with body horror so I'm not sure what I was doing watching this",
+      "description": "So good. Also the most horrible film I've ever watched. I'm not good with body horror so I'm not sure what I was doing watching this.",
       "year": "2025",
       "release": "2024",
       "id": "ee797bcd-aa8e-4ede-aa12-386c50b7ce77",
@@ -588,7 +606,7 @@
     {
       "filename": "summer.jpg",
       "title": "Summer of 85",
-      "description": "Standard gay film, was pissed off by one of them randomly acting like a dickhead at the end with no warning",
+      "description": "Standard gay film, was pissed off by one of them randomly acting like a dickhead at the end with no warning. Also the British girl is just ridiculous.",
       "year": "2025",
       "release": "2020",
       "id": "a1d18ca8-75a9-4642-a952-1ab22c7d0416",
@@ -597,7 +615,7 @@
     {
       "filename": "coco.jpeg",
       "title": "Coco",
-      "description": "Rewatched this delightful film with Mexicans asking if it's all real and they were like yep. Actually a delightful film",
+      "description": "Rewatched this delightful film with Mexicans asking if it's all real and they were like yep. Actually a delightful film.",
       "year": "2025",
       "release": "2017",
       "id": "0c766582-8723-4dac-aced-00cee80a5fbb",
@@ -615,7 +633,7 @@
     {
       "filename": "pretty-woman.avif",
       "title": "Pretty Woman",
-      "description": "Rewatched this banger film. Great soundtrack and great vibes. I would also sell my body for Richard Gere",
+      "description": "Rewatched this banger film. Great soundtrack and great vibes. I would also sell my body for Richard Gere.",
       "year": "2024",
       "release": "1990",
       "id": "39b69d31-151b-4982-8932-4521df5fb6e1",
@@ -624,7 +642,7 @@
     {
       "filename": "wallace-and-gromit.jpg",
       "title": "Wallace and Gromit: Vengeance Most Fowl",
-      "description": "Delightful kids film with lots of funny tropes and references",
+      "description": "Delightful kids film with lots of funny tropes and references. The narrowboat scene was great.",
       "year": "2024",
       "release": "2024",
       "id": "982c92c3-fdf2-4f23-83b0-8af704614418",
@@ -642,7 +660,7 @@
     {
       "filename": "senador.jpg",
       "title": "El Senador",
-      "description": "Hilariously bad film set in Brazil, watched at Mongay. Acting so bad it's good. Great moment when the cinema audience gasped at the twist",
+      "description": "Hilariously bad film set in Brazil, watched at Mongay. Acting so bad it's good. Great moment when the cinema audience gasped at the twist.",
       "year": "2024",
       "release": "2024",
       "id": "2cac7cd2-90f6-40ac-90f3-0890e9eafc72",
@@ -660,7 +678,7 @@
     {
       "filename": "blair-witch.jpg",
       "title": "The Blair Witch Project",
-      "description": "Watched this while taking mushrooms thinking it would be scary but it was actually mainly suspenseful and fun. Too many Americans ",
+      "description": "Watched this while taking mushrooms thinking it would be scary but it was actually mainly suspenseful and fun. Too many Americans, I didn't really enjoy it.",
       "year": "2024",
       "release": "1999",
       "id": "c905c6de-dadf-4d19-969d-1570c56100c1",
@@ -669,7 +687,7 @@
     {
       "filename": "anora.jpeg",
       "title": "Anora",
-      "description": "Fascinating, thrilling film about a sex worker. I was on the edge of my seat the whole time, highly recommend",
+      "description": "Fascinating, thrilling film about a sex worker. I was on the edge of my seat the whole time, highly recommend.",
       "year": "2024",
       "release": "2024",
       "id": "74638291-9afc-4488-8acd-63dc854b3b14",
@@ -678,7 +696,7 @@
     {
       "filename": "sunflower.jpg",
       "title": "Sunflower",
-      "description": "At Mongay, I love sunflowers but this is just trope-y bullshit with cuts to a sunflower field. Very plain",
+      "description": "At Mongay, I love sunflowers but this is just trope-y bullshit with cuts to a sunflower field. Very plain.",
       "year": "2024",
       "release": "2023",
       "id": "32ea856c-13e1-4f00-9a58-bbde4c24ca37",
@@ -687,7 +705,7 @@
     {
       "filename": "mamantula.webp",
       "title": "Mamantula",
-      "description": "Horror film about a man-spider who eats people after sucking their dicks. Investigation by Spanish speaking lesbian detectives in Berlin. So good for so many reasons, loved it so much",
+      "description": "Horror film about a man-spider who eats people after sucking their dicks. Investigation by Spanish speaking lesbian detectives in Berlin. So good for so many reasons, loved it so much.",
       "year": "2024",
       "release": "2023",
       "id": "f9d211eb-f5f3-4a89-b077-f6cb6ba3ccc6",
@@ -696,7 +714,7 @@
     {
       "filename": "deep-queer.jpeg",
       "title": "The Deep Queer Massacre",
-      "description": "Hilarious horror film with a bunch of gays getting picked off one by one in the countryside by an evil trans lady. Loved it",
+      "description": "Hilarious horror film with a bunch of gays getting picked off one by one in the countryside by an evil trans lady. Loved it.",
       "year": "2024",
       "release": "2023",
       "id": "b099616c-4073-40da-bcf2-c9aa4aa8383c",
@@ -705,7 +723,7 @@
     {
       "filename": "garcons.jpg",
       "title": "Des Garçons de Province",
-      "description": "Pretty plain gay film at Mongay but I enjoyed the different vibe to your standard gay film ",
+      "description": "Pretty plain gay film at Mongay but I enjoyed the different vibe to your standard gay film.",
       "year": "2024",
       "release": "2023 ",
       "id": "5b3d8674-4345-4f09-ba35-56bba0b16590",
@@ -730,7 +748,7 @@
     {
       "filename": "smiley-face.webp",
       "title": "Smiley Face",
-      "description": "Hilarious stoner comedy, a bit on the nose but great to watch someone just being so utterly distressed by events. Loved it",
+      "description": "Hilarious stoner comedy, a bit on the nose but great to watch someone just being so utterly distressed by events. Loved it.",
       "year": "2024",
       "release": "2007",
       "id": "2eb4d8b8-e996-442e-a668-47789948aa89",
@@ -739,7 +757,7 @@
     {
       "filename": "oldboy.jpg",
       "title": "Oldboy",
-      "description": "Pretty wild film about being imprisoned for many years and finally getting out. Pretty grim, also pretty silly ",
+      "description": "Pretty wild film about being imprisoned for many years and finally getting out. Pretty grim, also pretty silly.",
       "year": "2024",
       "release": "2003",
       "id": "e4b8384e-0264-4ebe-864f-95bea6f69ef6",
@@ -748,7 +766,7 @@
     {
       "filename": "hump.png",
       "title": "Dan Savage's Hump Porn Film Festival 2024",
-      "description": "A collection of 25 porn films 5 minutes or less. Fantastic, changed my whole outlook on sex. Life changing",
+      "description": "A collection of 25 porn films 5 minutes or less. Fantastic, changed my whole outlook on sex. Life changing.",
       "year": "2024",
       "release": "2024",
       "id": "b1065b96-019e-4dae-b8ea-4bba5c0b48d9",
@@ -757,7 +775,7 @@
     {
       "filename": "milk-serial.webp",
       "title": "Milk and Serial",
-      "description": "Very unpleasant watch, about youtube pranksters, a topic I struggle with",
+      "description": "Very unpleasant watch, about youtube pranksters, a topic I struggle with.",
       "year": "2024",
       "release": "2024",
       "id": "8dfc1ae6-43f8-4c20-8d84-d2cc8d353e33",
@@ -766,7 +784,7 @@
     {
       "filename": "danced.jpg",
       "title": "And Then We Danced",
-      "description": "What’s it like to be gay as a Georgian traditional dancer? All the usual tropes",
+      "description": "What’s it like to be gay as a Georgian traditional dancer? All the usual tropes.",
       "year": "2024",
       "release": "2019",
       "id": "5159b9e7-3d09-45d7-a957-67528217ab1b",
@@ -784,7 +802,7 @@
     {
       "filename": "love-lies-bleeding.jpg",
       "title": "Love Lies Bleeding",
-      "description": "Watching this with a cinema full of lesbians was hilarious. It's brutal and hilarious",
+      "description": "Watching this with a cinema full of lesbians was hilarious. It's brutal and hilarious.",
       "year": "2024",
       "release": "2024",
       "id": "e230e6ca-4d49-48fa-8484-391c5a3e83be",
@@ -793,7 +811,7 @@
     {
       "filename": "crossing.jpg",
       "title": "Crossing",
-      "description": "Amazing and eye opening story about a Georgian women meeting a community of trans women in Istanbul. Highly recommend",
+      "description": "Amazing and eye opening story about a Georgian women meeting a community of trans women in Istanbul. Highly recommend.",
       "year": "2024",
       "release": "2024",
       "id": "67485ca2-b8db-4343-a348-422f5879b208",
@@ -802,7 +820,7 @@
     {
       "filename": "problemista.jpg",
       "title": "Problemista",
-      "description": "Silly film about a difficult person and how hard it is to emigrate to the US. Light hearted and easy to watch. A pleasure",
+      "description": "Silly film about a difficult person and how hard it is to emigrate to the US. Light hearted and easy to watch. A pleasure.",
       "year": "2024",
       "release": "2023",
       "id": "df409fb0-c869-4387-be43-c25f126ed743",
@@ -811,7 +829,7 @@
     {
       "filename": "lose-your-head.jpg",
       "title": "Lose Your Head",
-      "description": "Set in Berlin! Wasn't too bad. About gays and murder",
+      "description": "Set in Berlin! Wasn't too bad. About gays and murder.",
       "year": "2024",
       "release": "2020",
       "id": "615be2ed-8007-44d0-99a8-96d11f296436",
@@ -820,7 +838,7 @@
     {
       "filename": "wedding-banquet.jpg",
       "title": "The Wedding Banquet",
-      "description": "Hilarious, wild film about a man in a gay relationship marrying a woman for a green card",
+      "description": "Hilarious, wild film about a man in a gay relationship marrying a woman for a green card.",
       "year": "2024",
       "release": "1993",
       "id": "719b5fd1-b11e-4362-bed9-7442064fe334",
@@ -829,7 +847,7 @@
     {
       "filename": "women.jpg",
       "title": "The Women",
-      "description": "Old film about women fawning around, it was pretty entertaining",
+      "description": "Old film about women fawning around, it was pretty entertaining.",
       "year": "2024",
       "release": "1939",
       "id": "41fed7ec-6ce5-4981-a1ed-a007e892c223",
@@ -838,7 +856,7 @@
     {
       "filename": "challengers.jpg",
       "title": "Challengers",
-      "description": "Very sexually charged film about tennis. I found it a bit cringe but it had its moments",
+      "description": "Very sexually charged film about tennis. I found it a bit cringe but it had its moments.",
       "year": "2024",
       "release": "2024",
       "id": "dcb4b8d6-3149-43f6-b80f-add609885147",
@@ -847,7 +865,7 @@
     {
       "filename": "like-it-is.jpg",
       "title": "Like it is",
-      "description": "Interesting older gay film with some brutal scenes. Pretty forgettable",
+      "description": "Interesting older gay film with some brutal scenes. Pretty forgettable.",
       "year": "2024",
       "release": "1998",
       "id": "a7faf69a-c152-42aa-8615-011cca15f16d",
@@ -856,7 +874,7 @@
     {
       "filename": "paradis.jpg",
       "title": "Le Paradis",
-      "description": "Pretty boring gay film about a youth detention centre in France. One cool part where he freestyle rapped but even that felt out of place",
+      "description": "Pretty boring gay film about a youth detention centre in France. One cool part where he freestyle rapped but even that felt out of place.",
       "year": "2024",
       "release": "2023",
       "id": "526c9d69-be35-4908-8c06-fbaf37872895",
@@ -865,7 +883,7 @@
     {
       "filename": "liuben.jpg",
       "title": "Liuben",
-      "description": "A sad gay film about Roma people in Bulgaria. Eye opening",
+      "description": "A sad gay film about Roma people in Bulgaria. Eye opening.",
       "year": "2024",
       "release": "2023",
       "id": "94bf5b26-13a4-4105-bb49-8e08ce7199ee",
@@ -874,7 +892,7 @@
     {
       "filename": "love-is-the-devil.jpg",
       "title": "Love is the Devil",
-      "description": "Film about Francis Bacon, hated it and hate him",
+      "description": "Film about Francis Bacon, hated it and hate him.",
       "year": "2024",
       "release": "1998",
       "id": "63494fae-755a-4496-9c12-388d9e8b397b",
@@ -883,7 +901,7 @@
     {
       "filename": "strange-way.jpg",
       "title": "A Strange Way of Life",
-      "description": "Short film about gay cowboys. Pedro Pascal's in it and it's fucking great",
+      "description": "Short film about gay cowboys. Pedro Pascal's in it and it's fucking great.",
       "year": "2024",
       "release": "2023",
       "id": "e8bd7e04-4b69-44d5-a617-c04d807ba4a1",
@@ -892,7 +910,7 @@
     {
       "filename": "human-voice.jpg",
       "title": "The Human Voice",
-      "description": "Short film with Tilda Swinton being dramatic on the phone. It's so good",
+      "description": "Short film with Tilda Swinton being dramatic on the phone. It's so good.",
       "year": "2024",
       "release": "2020",
       "id": "3918e8c6-a152-43b8-af18-802e11fcd718",
@@ -901,7 +919,7 @@
     {
       "filename": "anatomy.jpg",
       "title": "Anatomy of a Fall",
-      "description": "Thrilling, gripping film about a murder trial in France. Insane",
+      "description": "Thrilling, gripping film about a murder trial in France. Insane.",
       "year": "2024",
       "release": "2023",
       "id": "c368e78b-470a-4715-97c9-3fb2de6eaf0c",
@@ -910,7 +928,7 @@
     {
       "filename": "huella.webp",
       "title": "La Huella de unos Labios",
-      "description": "Sexy Mexican film about an alternative covid pandemic reality. Interesting but also pretty random",
+      "description": "Sexy Mexican film about an alternative covid pandemic reality. Interesting but also pretty random.",
       "year": "2024",
       "release": "2023",
       "id": "c2fccc35-ec66-438c-a8d1-a9f87d9a7a5e",
@@ -919,7 +937,7 @@
     {
       "filename": "all-shall.jpg",
       "title": "All Shall be Well",
-      "description": "Stunning film about older lesbians in Hong Kong. I cried and cried",
+      "description": "Stunning film about older lesbians in Hong Kong. I cried and cried. I saw this because it won the Teddy Award prize at the Berlinale but it never fucking got distributed so I can't even recommend it to friends.",
       "year": "2024",
       "release": "2024",
       "id": "bfea84c9-06c5-44c0-ba1c-5dab0ff7add1",
@@ -928,7 +946,7 @@
     {
       "filename": "wikiriders.jpg",
       "title": "Wikiriders",
-      "description": "Arty film about looking for rich guys in Mexico. The film feels unfinished because they apparently met him but couldn't show it for some reason",
+      "description": "Arty film about looking for rich guys in Mexico. The film feels unfinished because they apparently met him but couldn't show it for some reason.",
       "year": "2024",
       "release": "2023",
       "id": "b6eef264-8717-4221-a27a-4caa5387bb7b",
@@ -937,7 +955,7 @@
     {
       "filename": "millers.jpg",
       "title": "Miller's Girl",
-      "description": "Bad film about an older guy and how he fancies a minor. So icky and horrible",
+      "description": "Bad film about an older guy and how he fancies a minor. So icky and horrible.",
       "year": "2024",
       "release": "2024",
       "id": "b63727f0-5e65-43b6-91c2-5d3cfd7cd632",
@@ -946,7 +964,8 @@
     {
       "filename": "all-of-us-strangers.webp",
       "title": "All of Us Strangers",
-      "description": "Loved this film so much. A gay man's hot new relationship with Paul Mescal and his old relationship with his suspiciously young parents. Love love love ",
+      "description": "Loved this film so much. A gay man's hot new relationship with Paul Mescal and his old relationship with his suspiciously young parents. Love love love.",
+      "spoiler": "The reveal! The way that you spend the whole film trying to figure out why the parents are so young and what the hell is going on. And then when he starts doing it with the new bf as well. Wow. One of the best twists ever. I still think about this.",
       "year": "2024",
       "release": "2023",
       "id": "4b230788-e00d-4b42-985b-9b993068d633",
@@ -964,7 +983,7 @@
     {
       "filename": "in-bed.jpg",
       "title": "In Bed",
-      "description": "Really good film set almost entirely in a bedroom during a dramatic time about a hot gay guy who spirals downwards",
+      "description": "Really good film set almost entirely in a bedroom during a dramatic time about a hot gay guy who spirals downwards.",
       "year": "2023",
       "release": "2022",
       "id": "68a47261-02dd-4c31-9d13-7db88e042a18",
@@ -973,7 +992,7 @@
     {
       "filename": "horseplay.jpg",
       "title": "Horseplay",
-      "description": "Deeply harrowing film about lads on holiday. Explains the deep rooted homophobia in Argentina",
+      "description": "Deeply harrowing film about lads on holiday. Explains the deep rooted homophobia in Argentina.",
       "year": "2023",
       "release": "2022",
       "id": "0179db54-c076-49e9-9b17-9ad8db3dd858",
@@ -982,7 +1001,7 @@
     {
       "filename": "unsterblich.jpg",
       "title": "Wir Werden Unsterblich Sein",
-      "description": "Hilariously bad film from Saarland. A gay thriller with terrible acting and editing",
+      "description": "Hilariously bad film from Saarland. A gay thriller with terrible acting and editing.",
       "year": "2023",
       "release": "2022",
       "id": "c9ad5897-8d88-4e9c-9c0c-612b4883614f",
@@ -991,7 +1010,7 @@
     {
       "filename": "arrete.jpg",
       "title": "Arrête Avec tes Mensonges",
-      "description": "Boring film about an old french famous person who used to love a man",
+      "description": "Boring film about an old french famous person who used to love a man.",
       "year": "2023",
       "release": "2022",
       "id": "73c78523-5d3f-4ea8-a1e6-ba40bfbd5970",
@@ -1000,7 +1019,7 @@
     {
       "filename": "golden-delicious.jpg",
       "title": "Golden Delicious",
-      "description": "Cheesy American gay film nonsense",
+      "description": "Cheesy American gay film nonsense.",
       "year": "2023",
       "release": "2022",
       "id": "f021fbf5-2164-4494-8ec3-d2eb96b6fc34",
@@ -1009,7 +1028,7 @@
     {
       "filename": "where-butterflies.webp",
       "title": "Where Butterflies Don't Fly",
-      "description": "Gay schoolteacher and pupil trapped in a cave together. Really well handled and suspenseful, enjoyable film",
+      "description": "Gay schoolteacher and pupil trapped in a cave together. Really well handled and suspenseful, enjoyable film.",
       "year": "2023",
       "release": "2022",
       "id": "762279c9-be9c-4257-956d-f4b0ac930870",
@@ -1018,7 +1037,7 @@
     {
       "filename": "beast-in-the-jungle.webp",
       "title": "The Beast in the Jungle",
-      "description": "Cool view into a Paris nightclub over the years but didn't take away much else from this film",
+      "description": "Cool view into a Paris nightclub over the years but didn't take away much else from this film.",
       "year": "2023",
       "release": "2023",
       "id": "2b116104-6aee-4103-aa3f-1f1e40a4c234",
@@ -1027,7 +1046,7 @@
     {
       "filename": "burning-days.png",
       "title": "Burning Days",
-      "description": "Small town Turkey with a pretty interesting plot. I enjoyed it. Gay themes",
+      "description": "Small town Turkey with a pretty interesting plot. I enjoyed it. Gay themes.",
       "year": "2023",
       "release": "2022",
       "id": "950bfe4c-fd13-4256-bcd1-53231ac46af9",
@@ -1036,7 +1055,7 @@
     {
       "filename": "fallen-leaves.jpg",
       "title": "Fallen Leaves",
-      "description": "Beautiful film about poverty in Finland. Has a heavy 60s/70s vibe but is in the present day",
+      "description": "Beautiful film about poverty in Finland. Has a heavy 60s/70s vibe but is in the present day.",
       "year": "2023",
       "release": "2023",
       "id": "89f856b6-6787-4ce9-adb0-e3709e419ce5",
@@ -1045,7 +1064,8 @@
     {
       "filename": "rotting.webp",
       "title": "Rotting in the Sun",
-      "description": "Film about gay expats in Mexico, definitely saw myself in it. It was hilarious and wild. Loses tension a bit in the second half",
+      "description": "Film about gay expats in Mexico, definitely saw myself in it. It was hilarious and wild. Loses tension a bit in the second half.",
+      "spoiler": "I watched this literally right after visiting Zipolite and CDMX myself and let me tell you I felt called out!!! They really nailed it. My guilt of being a rich white boy in Mexico transformed into a film.",
       "year": "2023",
       "release": "2023",
       "id": "a6026952-5740-4009-b7ec-f3ceca7d1513",
@@ -1054,7 +1074,7 @@
     {
       "filename": "passages.avif",
       "title": "Passages",
-      "description": "Like it's good, but I didn't enjoy it. Something about films with unlikeable main characters",
+      "description": "Like it's good, but I didn't enjoy it. Something about films with unlikeable main characters.",
       "year": "2023",
       "release": "2023",
       "id": "629b97fa-03ad-4548-a0ed-641e42cd53ec",
@@ -1063,7 +1083,8 @@
     {
       "filename": "drifter.jpg",
       "title": "Drifter",
-      "description": "This is about a boring countryside gay man becoming a Berlin queer. I really saw myself in him",
+      "description": "This is about a boring countryside gay man becoming a Berlin queer. I really saw myself in him.",
+      "spoiler": "It's a film about going from masc-for-masc gay of the Kleinstadt to the queer gay of Berlin. The before him is the gay that doesn't have female friends and the after him is the gay that listens to trans people. Show this film to people who don't understand what the word 'queer' means.",
       "year": "2023",
       "release": "2023",
       "id": "0d91668d-03ce-4073-ae2e-80e0c4ac20ce",
@@ -1072,7 +1093,7 @@
     {
       "filename": "heartbeats.png",
       "title": "Heartbeats",
-      "description": "Film about a gay guy and a girl falling in love with the same hot guy. Some hilarious moments, highly enjoyable ",
+      "description": "Film about a gay guy and a girl falling in love with the same hot guy. Some hilarious moments, highly enjoyable.",
       "year": "2023",
       "release": "2010",
       "id": "82465cd1-567a-4556-9378-ac4415d0eb44",
@@ -1081,7 +1102,7 @@
     {
       "filename": "concerned-citizen.jpg",
       "title": "Concerned Citizen",
-      "description": "A film about gay men gentrifying a poor neighbourhood in Israel which hit me hard because I feel strongly about this topic",
+      "description": "A film about gay men gentrifying a poor neighbourhood in Israel which hit me hard because I feel strongly about this topic.",
       "year": "2023",
       "release": "2022",
       "id": "f2dcb8b8-b41e-419a-b212-6610fb48bd7b",
@@ -1099,7 +1120,7 @@
     {
       "filename": "asteroid-city.jpg",
       "title": "Asteroid City",
-      "description": "Silly film leaning heavily into the vibes but was actually kinda boring to watch",
+      "description": "Silly film leaning heavily into the vibes but was actually kinda boring to watch.",
       "year": "2023",
       "release": "2023",
       "id": "6bddb355-e6bf-485e-92f5-46f25482e8b2",
@@ -1108,7 +1129,7 @@
     {
       "filename": "mon-crime.jpg",
       "title": "Mon Crime",
-      "description": "Fantastic lesbian nonsense! Delicious french film about women being successful",
+      "description": "Fantastic lesbian nonsense! Delicious french film about women being successful.",
       "year": "2023",
       "release": "2023",
       "id": "da4c3f6b-385f-44ff-b5ca-f67ecaf89a59",
@@ -1117,7 +1138,7 @@
     {
       "filename": "bis-ans-ende.webp",
       "title": "Bis ans Ende der Nacht",
-      "description": "Cool film about a trans woman and an interesting plot. Also quite forgettable",
+      "description": "Cool film about a trans woman and an interesting plot. Also quite forgettable.",
       "year": "2023",
       "release": "2023",
       "id": "905da0d6-bd92-4a4c-956d-9aba0ecc19c1",
@@ -1126,7 +1147,7 @@
     {
       "filename": "grosse-freiheit.webp",
       "title": "Große Freiheit",
-      "description": "This film totally stayed with me, even though the Austrian characters were hard to understand without subtitles. At the end when he goes cruising is very hard hitting",
+      "description": "This film totally stayed with me, even though the Austrian characters were hard to understand without subtitles. At the end when he goes cruising is very hard hitting.",
       "year": "2023",
       "release": "2021",
       "id": "c0ab85b9-7a97-4cc2-aa9f-3543ce563286",
@@ -1135,7 +1156,7 @@
     {
       "filename": "swimmer.jpg",
       "title": "The Swimmer",
-      "description": "What's it like being gay in an Israeli swimming team? Not that inspiring",
+      "description": "What's it like being gay in an Israeli swimming team? Not that inspiring.",
       "year": "2023",
       "release": "2021",
       "id": "e17d905a-ebdc-441b-97da-b2c361ca25a7",
@@ -1144,7 +1165,7 @@
     {
       "filename": "el-houb.jpg",
       "title": "El Houb",
-      "description": "Devastating esposé on homophobic Arabic culture in Morocco. A strong willed man is determined to make his family understand that gay is fine ",
+      "description": "Devastating esposé on homophobic Arabic culture in Morocco. A strong willed man is determined to make his family understand that gay is fine.",
       "year": "2023",
       "release": "2022",
       "id": "f267a53d-8046-4a77-82e6-573bd8afcc9b",
@@ -1153,7 +1174,7 @@
     {
       "filename": "super-mario.webp",
       "title": "The Super Mario Movie",
-      "description": "Loved it. As a Nintendo fan this was a must watch. Why the fuck did they have licensed music in it",
+      "description": "Loved it. As a Nintendo fan this was a must watch. Why the fuck did they have licensed music in it.",
       "year": "2023",
       "release": "2023",
       "id": "1ef21f97-eb7c-4d27-be59-1d0b8bbb6a3e",
@@ -1162,7 +1183,7 @@
     {
       "filename": "roter-himmel.jpg",
       "title": "Roter Himmel",
-      "description": "Mongay film where the main dude is so unlikeable and so rude to the other characters that it affects the enjoyment of the film ",
+      "description": "Mongay film where the main dude is so unlikeable and so rude to the other characters that it affects the enjoyment of the film.",
       "year": "2023",
       "release": "2023",
       "id": "06ece15d-9bcc-4101-80d0-59b05c9bcdd3",
@@ -1171,7 +1192,7 @@
     {
       "filename": "the-whale.png",
       "title": "The Whale",
-      "description": "Devastating film. Ugly sobbing in the aeroplane. Watching him shovel in the food in such a self destructive way as a response to his self hatred is so painful ",
+      "description": "Devastating film. Ugly sobbing in the aeroplane. Watching him shovel in the food in such a self destructive way as a response to his self hatred is so painful.",
       "year": "2023",
       "release": "2022",
       "id": "3ab5f948-7069-43d3-af39-f50c325e0b89",
@@ -1189,7 +1210,7 @@
     {
       "filename": "lucky-strike.jpg",
       "title": "Beasts Clawing at Straws",
-      "description": "Korean thriller, it was good but I was sleepy on a plane watching it. Not very memorable",
+      "description": "Korean thriller, it was good but I was sleepy on a plane watching it. Not very memorable.",
       "year": "2023",
       "release": "2020",
       "id": "0a65e295-823f-4821-8d45-2ebc820e7441",
@@ -1198,7 +1219,7 @@
     {
       "filename": "tar.jpg",
       "title": "Tár",
-      "description": "Great music, compelling story. Weird and uncomfortable world of conducting orchestras. The film is way too long",
+      "description": "Great music, compelling story. Weird and uncomfortable world of conducting orchestras. The film is way too long.",
       "year": "2023",
       "release": "2022",
       "id": "457d72c3-59d6-4a9f-bb9d-fa7557f1efe5",
@@ -1207,7 +1228,7 @@
     {
       "filename": "orlando.jpg",
       "title": "Orlando, My Political Biography",
-      "description": "So boring, a theatre type film about Virginia Woolf and trans people",
+      "description": "So boring, a theatre type film about Virginia Woolf and trans people.",
       "year": "2023",
       "release": "2023",
       "id": "a7696b5d-f70f-41de-8481-419b47086a6a",
@@ -1216,7 +1237,7 @@
     {
       "filename": "dipped-in-black.jpg",
       "title": "Dipped in Black",
-      "description": "Kinda boring depiction of transness in native American communities",
+      "description": "Kinda boring depiction of transness in native American communities.",
       "year": "2023",
       "release": "2023",
       "id": "3f255b4a-284a-4693-bd6d-c82ca64159fd",
@@ -1225,7 +1246,7 @@
     {
       "filename": "past-lives.jpg",
       "title": "Past Lives",
-      "description": "Great opening scene. Loved humanising the American ‘villain’ character. Memorable film",
+      "description": "Great opening scene. Loved humanising the American ‘villain’ character. Memorable film.",
       "year": "2023",
       "release": "2023",
       "id": "2ddca2ce-1642-460c-9083-482add7aac5e",
@@ -1234,7 +1255,7 @@
     {
       "filename": "futur-drei.jpg",
       "title": "Futur Drei",
-      "description": "Delightful film about second generation Iranian kids in Germany. Eye opening",
+      "description": "Delightful film about second generation Iranian kids in Germany. Eye opening.",
       "year": "2023",
       "release": "2020",
       "id": "539346a3-c993-4d4b-9f13-ff6200b98312",
@@ -1243,7 +1264,7 @@
     {
       "filename": "blue-caftan.webp",
       "title": "The Blue Caftan",
-      "description": "Lovely film set in Morocco about embroidery. Just lovely. Quite long",
+      "description": "Lovely film set in Morocco about embroidery. Just lovely. Quite long.",
       "year": "2023",
       "release": "2022",
       "id": "fd0f906e-6ad0-43bb-acbf-dfbea58fbc79",
@@ -1252,7 +1273,7 @@
     {
       "filename": "the-menu.jpg",
       "title": "The Menu",
-      "description": "Didn't understand the point of this film. Why did she order a burger and why was it such a big deal",
+      "description": "Didn't understand the point of this film. Why did she order a burger and why was it such a big deal.",
       "year": "2023",
       "release": "2022",
       "id": "ee8a1ecf-4b0d-4f12-adc5-b724e94dd2e8",
@@ -1261,7 +1282,8 @@
     {
       "filename": "banshees.webp",
       "title": "The Banshees of Inisherin",
-      "description": "Deeply upsetting film about depression in rural Ireland. Very beautiful",
+      "description": "Deeply upsetting film about depression in rural Ireland. Very beautiful.",
+      "spoiler": "When the finger went off I lost it.",
       "year": "2023",
       "release": "2022",
       "id": "8cc1b836-a270-4c27-8c95-0096011b91f3",
@@ -1270,7 +1292,7 @@
     {
       "filename": "lonesome.jpeg",
       "title": "Lonesome",
-      "description": "A bit over the top gay film set in Australia. This was my second ever Kino-cumshot",
+      "description": "A bit over the top gay film set in Australia. This was my second ever Kino-cumshot.",
       "year": "2023",
       "release": "2022",
       "id": "6e7b1eb4-abef-436c-9701-88f1477a6b8d",
@@ -1279,7 +1301,7 @@
     {
       "filename": "in-from-the-side.jpg",
       "title": "In from the Side",
-      "description": "Fun film about a gay rugby team, but which featured absolutely no homophobia. It gets a high score from me because the main dude is so hot",
+      "description": "Fun film about a gay rugby team, but which featured absolutely no homophobia. It gets a high score from me because the main dude is so hot.",
       "year": "2023",
       "release": "2022",
       "id": "87095ad4-e24b-4972-94f5-d27149b96164",

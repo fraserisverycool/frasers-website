@@ -1,0 +1,8 @@
+@if (spoiler) {
+  <button (click)="toggleSpoiler()" class="spoiler-button">
+    {{showSpoiler ? 'Hide Spoiler Discussion' : 'Display Spoiler Discussion'}}
+  </button>
+  @if (showSpoiler) {
+    <p class="desc">{{spoiler}}</p>
+  }
+}
