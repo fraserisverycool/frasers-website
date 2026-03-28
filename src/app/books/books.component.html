@@ -9,12 +9,7 @@
           <p>{{book.author}}</p>
           <p class="release">{{book.release}}</p>
           <p class="desc">{{book.description}}</p>
-          <button (click)="book.showSpoiler = !book.showSpoiler" class="blue-button">
-            {{book.showSpoiler ? 'Hide Spoiler Discussion' : 'Display Spoiler Discussion'}}
-          </button>
-          @if (book.showSpoiler) {
-            <p class="desc">{{book.spoiler}}</p>
-          }
+          <app-spoiler-discussion [spoiler]="book.spoiler"></app-spoiler-discussion>
           <div [ngStyle]="{'padding-bottom': '25px'}"></div>
           <app-rating-bar [rating]="{id: book.id, ratings: book.rating}"></app-rating-bar>
         </div>

@@ -1,0 +1,27 @@
+.spoiler-button {
+  display: inline-block;
+  font-size: 12px;
+  margin: 20px 2px;
+  padding: 6px 14px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #8e44ad;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+.spoiler-button:hover {
+  background-color: #6c3483;
+  color: #ffffff;
+}
+.spoiler-button:active {
+  background-color: #6c3483;
+  box-shadow: 0 5px #2c3e50;
+  transform: translateY(4px);
+}
+.desc {
+  text-align: left;
+}

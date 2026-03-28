@@ -4,11 +4,12 @@ import { HttpClient } from "@angular/common/http";
 import {Book} from "./book.interface";
 import {RatingService} from "../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../utils/rating-bar/rating-bar.component";
+import {SpoilerDiscussionComponent} from "../utils/spoiler-discussion/spoiler-discussion.component";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
     selector: 'app-books',
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, SpoilerDiscussionComponent],
     templateUrl: './books.component.html',
     styleUrls: ['./books.component.css']
 })
