@@ -7,9 +7,502 @@
     "kylie shocked",
     "bon iver re stacks",
     "bonobo break apart",
-    "zero 7 destiny"
+    "zero 7 destiny",
+    "psychedelic porn crumpets weird world awoke",
+    "kings of convenience the build up also kimbra",
+    "jeanette oye mama oye papa",
+    "anohni drone bomb me / it must change"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "CMAT",
+      "album": "If My Wife New I'd Be Dead",
+      "track": "I Wanna Be A Cowboy, Baby!",
+      "description": "A song inspired by frustration of being a woman, and I guess also that vine. It's so catchy and real and I love CMAT so much. I got a T-shirt with this on it and I love it.",
+      "link": "https://www.youtube.com/watch?v=FcER7I-r8ww",
+      "game": false,
+      "day": "31-10-2026",
+      "id": "08ac6782-7759-4814-89c2-1363a505894a",
+      "newsletter": false,
+      "filename": "i-wanna-be-a-cowboy-baby.mp3",
+      "tags": [
+        "country",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Goldfrapp",
+      "album": "Tales of Us",
+      "track": "Drew",
+      "description": "Lovely, warm track. Feels like a breeze.",
+      "link": "https://www.youtube.com/watch?v=wCzoTQqEoFg",
+      "game": false,
+      "day": "30-10-2026",
+      "id": "2e1f98bb-fd17-459e-8928-59542a954def",
+      "newsletter": false,
+      "filename": "drew.mp3",
+      "tags": [
+        "magical",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Ana Frango Elétrico",
+      "album": "Me Chama De Gato Que Eu Sou Sua",
+      "track": "Insista em Mim",
+      "description": "Gorgeous track from this artist that I love. I watched her play in Berlin and it was fucking great. Also love the vibes of the video.",
+      "link": "https://www.youtube.com/watch?v=ISl88_PqUlk",
+      "game": false,
+      "day": "29-10-2026",
+      "id": "ba92a179-e21b-40ec-bea2-808b6c427e25",
+      "newsletter": false,
+      "filename": "insista-em-mim.mp3",
+      "tags": [
+        "brazilian"
+      ]
+    },
+    {
+      "artist": "",
+      "album": "",
+      "track": "",
+      "description": "",
+      "link": "",
+      "game": false,
+      "day": "28-10-2026",
+      "id": "c8b86f30-1863-49ea-acea-0858b9db8dea",
+      "newsletter": false,
+      "filename": "",
+      "tags": []
+    },
+    {
+      "artist": "ANOHNI and the Johnsons",
+      "album": "My Back Was A Bridge For You To Cross",
+      "track": "Why Am I Alive Now?",
+      "description": "This most devastating song. It's about the environment. How is it we have so few songs about the collapse of our environment? This song is just so gorgeous, with the breezy guitar and strings. I've listened to it countless times.",
+      "link": "https://www.youtube.com/watch?v=5NLyFXWEN0c",
+      "game": false,
+      "day": "27-10-2026",
+      "id": "2f0ebb6e-bc97-47b2-bf7e-9533ab972a8f",
+      "newsletter": false,
+      "filename": "why-am-i-alive-now.mp3",
+      "tags": [
+        "devastating",
+        "sad songs",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Scott Matthews",
+      "album": "Passing Stranger",
+      "track": "Elusive",
+      "description": "Lovely song from a lovely album. For me this song is very nostalgic.",
+      "link": "https://www.youtube.com/watch?v=3U51q8zD53E",
+      "game": false,
+      "day": "26-10-2026",
+      "id": "845176c6-e561-4dee-9dea-a82c46369a12",
+      "newsletter": false,
+      "filename": "elusive.mp3",
+      "tags": [
+        "sad songs",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Solange",
+      "album": "A Seat at the Table",
+      "track": "Cranes in the Sky",
+      "description": "Beautiful track consisting of a hypnotic string loop with Solange singing over it explaining how she tries to cope.",
+      "link": "https://www.youtube.com/watch?v=S0qrinhNnOM",
+      "game": false,
+      "day": "25-10-2026",
+      "id": "2a0ac073-d884-423b-a33d-fe96a9907fc6",
+      "newsletter": false,
+      "filename": "cranes-in-the-sky.mp3",
+      "tags": [
+        "soul",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Tkay Maidza",
+      "album": "Last Year Was Weird Vol. 2",
+      "track": "24k",
+      "description": "Super cool hip house track. It's classy and groovy!",
+      "link": "https://www.youtube.com/watch?v=vuK5UUokdFs",
+      "game": false,
+      "day": "24-10-2026",
+      "id": "486d3028-716d-4ddf-8e22-e6d5b80e72f7",
+      "newsletter": false,
+      "filename": "24k.mp3",
+      "tags": [
+        "hip-hop"
+      ]
+    },
+    {
+      "artist": "Jeanette",
+      "album": "Lo Mejor de Jeanette",
+      "track": "Amanecer",
+      "description": "Can't remember how I learned about this song but I love it. It's so gorgeous. That chord progression! The singer is British but she moved to Spain and became a pop star there in the 70s. Cool!",
+      "link": "https://www.youtube.com/watch?v=_G4MNblzKB4",
+      "game": false,
+      "day": "23-10-2026",
+      "id": "e3c94582-962f-4340-9492-b28890cf6aed",
+      "newsletter": false,
+      "filename": "amanecer.mp3",
+      "tags": [
+        "classic",
+        "magical"
+      ]
+    },
+    {
+      "artist": "Father John Misty",
+      "album": "Pure Comedy",
+      "track": "Pure Comedy",
+      "description": "I do like Father John Misty and yes this song is a bit on the nose and maybe not very coherent. But like, it's not wrong. A blistering criticism on organised religion.",
+      "link": "https://www.youtube.com/watch?v=wKrSYgirAhc",
+      "game": false,
+      "day": "22-10-2026",
+      "id": "4c20c79b-0845-4b46-b596-854a1fb7a5af",
+      "newsletter": false,
+      "filename": "pure-comedy.mp3",
+      "tags": [
+        "indie",
+        "concrete themes"
+      ]
+    },
+    {
+      "artist": "Nelly Furtado",
+      "album": "Folklore",
+      "track": "Picture Perfect",
+      "description": "Beautiful track about being a rockstar's girlfriend. She's singing saying 'please bring me along' but she's the real rockstar. When I was a 11 year old gay boy I thought this was everything.",
+      "link": "https://www.youtube.com/watch?v=OTh7k6UVA2k",
+      "game": false,
+      "day": "21-10-2026",
+      "id": "6f5a468a-e364-46b6-80b8-5381ffdb18af",
+      "newsletter": false,
+      "filename": "picture-perfect.mp3",
+      "tags": [
+        "pop",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Kimbra",
+      "album": "Vows",
+      "track": "Wandering Limbs",
+      "description": "Shoutouts to Kimbra, man. She has so many great songs. This is a deep cut from a deluxe edition of her first album and it's so gorgeous and otherworldly.",
+      "link": "https://www.youtube.com/watch?v=yWyJ8hZI-1E",
+      "game": false,
+      "day": "20-10-2026",
+      "id": "6071daf9-c5bc-40ef-9076-47b4bba24d9b",
+      "newsletter": false,
+      "filename": "wandering-limbs.mp3",
+      "tags": [
+        "magical",
+        "pop",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Insaneintherainmusic",
+      "album": "Animal Crossing: New Horizons",
+      "track": "5 P.M.",
+      "description": "Shoutouts to Carlos Eiene who is this youtuber who for a long time made excellent jazz fusion remixes of all the best vgm tracks. For me this is his Magnum Opus. It sounds a bit off because he uses percussion from in game but that just adds to the charm. The best part is the saxophone reveal towards the end. Absolutely inspired.",
+      "link": "https://www.youtube.com/watch?v=8xZjb4k7xcE",
+      "game": true,
+      "day": "19-10-2026",
+      "id": "cf63951e-dfbd-4bb2-9a76-520d4c308234",
+      "newsletter": false,
+      "filename": "5pm.mp3",
+      "tags": [
+        "funky",
+        "animal crossing"
+      ]
+    },
+    {
+      "artist": "Yoshie Arawaka, Yoshi Takayanagi, Nobuyoshi Sano",
+      "album": "Tekken 2",
+      "track": "Silent Assassin",
+      "description": "The early Tekken games have amazing soundtracks. This is a highlight, the theme of my fave Tekken character Nina.",
+      "link": "https://www.youtube.com/watch?v=zqS1IEEbH6I",
+      "game": true,
+      "day": "18-10-2026",
+      "id": "07f9ce7c-54d1-4b5c-b1b0-712cc474c4c2",
+      "newsletter": false,
+      "filename": "silent-assassin.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
+    },
+    {
+      "artist": "Nick Drake",
+      "album": "Five Leaves Left",
+      "track": "River Man",
+      "description": "Beautiful and tragic ",
+      "link": "https://www.youtube.com/watch?v=fv49xKB8xUI",
+      "game": false,
+      "day": "17-10-2026",
+      "id": "bd556ad5-2105-41f4-838f-b164cbb132f8",
+      "newsletter": false,
+      "filename": "river-man.mp3",
+      "tags": [
+        "sad songs",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Devandra Banhart",
+      "album": "Cripple Crow",
+      "track": "Now That I Know",
+      "description": "This song is very warm. No idea what it's about but I love it.",
+      "link": "https://www.youtube.com/watch?v=2C2K0gFuK2g",
+      "game": false,
+      "day": "16-10-2026",
+      "id": "cbe9e383-70c6-4040-a1fd-36868b3f169b",
+      "newsletter": false,
+      "filename": "now-that-i-know.mp3",
+      "tags": [
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Van Morrison",
+      "album": "Astral Weeks",
+      "track": "Sweet Thing",
+      "description": "Super cute song that reminds me of springtime.",
+      "link": "https://www.youtube.com/watch?v=JFAp3aRJ2vA",
+      "game": false,
+      "day": "15-10-2026",
+      "id": "f55447ce-dceb-4a18-96e5-bca6c61f5d82",
+      "newsletter": false,
+      "filename": "sweet-thing.mp3",
+      "tags": [
+        "singer-songwriter",
+        "classic"
+      ]
+    },
+    {
+      "artist": "Ibeyi",
+      "album": "Spell 31",
+      "track": "Sister 2 Sister",
+      "description": "Just a super cute song about twin sisters. I like it when they explain how to pronounce their name in the song.",
+      "link": "https://www.youtube.com/watch?v=t-tQz0T87UA",
+      "game": false,
+      "day": "14-10-2026",
+      "id": "02c32329-0949-48f8-81f1-9cb1264aee59",
+      "newsletter": false,
+      "filename": "sister-2-sister.mp3",
+      "tags": [
+        "soul"
+      ]
+    },
+    {
+      "artist": "The Lemon Twigs",
+      "album": "Everything Harmony",
+      "track": "Corner Of My Eye",
+      "description": "This band really make me laugh, two matching twinks doing their best to sound like the Beatles. This song did charm me though, especially with the vibraphone sound in the chorus.",
+      "link": "https://www.youtube.com/watch?v=B2w4moS3oFU",
+      "game": false,
+      "day": "13-10-2026",
+      "id": "2af7a493-d807-4319-9f1f-18e8d5b06e05",
+      "newsletter": false,
+      "filename": "corner-of-my-eye.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Udo Jürgens",
+      "album": "Udo '80",
+      "track": "Ich Weiß, Was Ich Will",
+      "description": "I know GEFÄHRLICH to recommend a song so closely related to Schlager but this German Disco track from 1979 is actually great. One of the few German-language songs I tolerate.",
+      "link": "https://www.youtube.com/watch?v=1oVAPlEq4Ow",
+      "game": false,
+      "day": "12-10-2026",
+      "id": "b74f6274-412d-4b1d-9472-f7ecb9734310",
+      "newsletter": false,
+      "filename": "ich-weiss-was-ich-will.mp3",
+      "tags": [
+        "german",
+        "party",
+        "classic"
+      ]
+    },
+    {
+      "artist": "G'emma",
+      "album": "Resigned",
+      "track": "Pause",
+      "description": "This is a friend of mine! She played this at Monarch Bar and it was great.",
+      "link": "https://www.youtube.com/watch?v=c1-6NbGZ0r8",
+      "game": false,
+      "day": "11-10-2026",
+      "id": "5e3b8317-c311-43f3-921b-2ab66bc62966",
+      "newsletter": false,
+      "filename": "pause.mp3",
+      "tags": [
+        "soul"
+      ]
+    },
+    {
+      "artist": "Psychedelic Porn Crumpets",
+      "album": "High Visceral Vol. 1",
+      "track": "Cornflake",
+      "description": "This is my go-to home workout album and this is the first track. I love that it's this simple guitar riff but by the end they've harmonised it with this epic chord sequence.",
+      "link": "https://www.youtube.com/watch?v=f60kHMYRsq8",
+      "game": false,
+      "day": "10-10-2026",
+      "id": "917275e4-407d-439c-9029-29162dd0283b",
+      "newsletter": false,
+      "filename": "cornflake.mp3",
+      "tags": [
+        "rock",
+        "intense",
+        "video"
+      ]
+    },
+    {
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "track": "Reality In Motion",
+      "description": "This is my favourite from this (excellent) album. Love the bright synth chords in the chorus.",
+      "link": "https://www.youtube.com/watch?v=hQN3RH_xWJg",
+      "game": false,
+      "day": "09-10-2026",
+      "id": "1b152a23-075f-4f81-bc57-2a2dbe958c87",
+      "newsletter": false,
+      "filename": "reality-in-motion.mp3",
+      "tags": [
+        "rock",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Hiroshi Yamaguchi",
+      "album": "Star Fox Zero",
+      "track": "Training Mode",
+      "description": "I never played this game but for some reason I made a mix of its soundtrack, largely because I really enjoyed this one particular track. It's just so epic.",
+      "link": "https://www.youtube.com/watch?v=lZrpDcTV_Lw",
+      "game": true,
+      "day": "08-10-2026",
+      "id": "4c655edb-0829-4833-9e37-f0153219d228",
+      "newsletter": false,
+      "filename": "training.mp3",
+      "tags": [
+        "epic",
+        "other"
+      ]
+    },
+    {
+      "artist": "anaiis",
+      "album": "before zero",
+      "track": "nina",
+      "description": "Nina Simone said that she finally found freedom when she moved to Liberia. Anaiis thought about freedom meant to Nina and what it means to her and that's how we got this beautiful song.",
+      "link": "https://www.youtube.com/watch?v=Zlo936iqhoE",
+      "game": false,
+      "day": "07-10-2026",
+      "id": "d8b1c1d4-d612-47e4-b2ad-d1491588e386",
+      "newsletter": false,
+      "filename": "nina.mp3",
+      "tags": [
+        "soul"
+      ]
+    },
+    {
+      "artist": "George Gershwin",
+      "album": "-",
+      "track": "Rhapsode in Blue",
+      "description": "This was a groundbreaking moment in 1924 when Gershwin made orchestra music inspired by jazz. It's great. I associate it with my childhood! I especially love the final part because for whatever reason I had just the last 5 minutes of this on my mp3 player.",
+      "link": "https://www.youtube.com/watch?v=cH2PH0auTUU",
+      "game": false,
+      "day": "06-10-2026",
+      "id": "bec72d47-fd44-4916-978d-eea391b4fae8",
+      "newsletter": false,
+      "filename": "rhapsode-in-blue.mp3",
+      "tags": [
+        "classical",
+        "jazz"
+      ]
+    },
+    {
+      "artist": "Rimsky Korsakov",
+      "album": "-",
+      "track": "Scheherazade: The Young Prince and the Princess",
+      "description": "This is my favourite symphony! And my favourite part of my favourite symphony is part 3: the prince and princess. I original heard this when playing Civilisation 4 and loved it. Then my friend at the time Tim played it with his orchestra! It's stuck with me ever since. It's so gorgeous!",
+      "link": "https://www.youtube.com/watch?v=G6KUFbRfK30",
+      "game": false,
+      "day": "05-10-2026",
+      "id": "487d9c36-6943-4d85-956d-04ec85262b27",
+      "newsletter": false,
+      "filename": "prince-and-princess.mp3",
+      "tags": [
+        "classical"
+      ]
+    },
+    {
+      "artist": "Santa Esmeralda (feat. Leroy Gomez)",
+      "album": "-",
+      "track": "Don't Let Me Be Misunderstood",
+      "description": "Learned about this banger disco version of the Nina classic from the final scene in Kill Bill! So epic. Also highly recommend the 16 minute extended version.",
+      "link": "https://www.youtube.com/watch?v=ko0TKElx_Bk",
+      "game": false,
+      "day": "04-10-2026",
+      "id": "a2e04523-cc32-4e8b-bac3-c6566dd43afb",
+      "newsletter": false,
+      "filename": "misunderstood.mp3",
+      "tags": [
+        "party",
+        "classic"
+      ]
+    },
+    {
+      "artist": "Frankie Cosmos",
+      "album": "Abigail",
+      "track": "Abigail (Kero Kero Bonito Remix)",
+      "description": "This remix sounds nothing like the original track but that's totally fine. I love KKB house, especially when it has piano chords like this. It's got a really cute verse about looking at photographs as well that I really enjoy.",
+      "link": "https://www.youtube.com/watch?v=VMKvTYvBX5g",
+      "game": false,
+      "day": "03-10-2026",
+      "id": "29a2541c-04c2-4c56-847c-6391b9bb717c",
+      "newsletter": false,
+      "filename": "abigail.mp3",
+      "tags": [
+        "pop",
+        "party"
+      ]
+    },
+    {
+      "artist": "Touchdown Jesus",
+      "album": "It's All Feast Or Famine",
+      "track": "I Love My Wife",
+      "description": "I'm not normally listening to rock music but this one is so great. And I love the lyrics 'I love to come home because I love my wife!'",
+      "link": "https://www.youtube.com/watch?v=IM-NPydIM70",
+      "game": false,
+      "day": "02-10-2026",
+      "id": "3577ff1c-0076-4d89-bee5-de69c0051e66",
+      "newsletter": false,
+      "filename": "i-love-my-wife.mp3",
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "artist": "Pet Shop Boys",
+      "album": "Please",
+      "track": "West End Girls",
+      "description": "This song is such a vibe, oh my lord. I feel really in my element when I sing this at karaoke. I also really enjoy the video how the second guy just sits nearby and vibes.",
+      "link": "https://www.youtube.com/watch?v=p3j2NYZ8FKs&rco=1",
+      "game": false,
+      "day": "01-10-2026",
+      "id": "f4d9f6fd-21fd-48b5-8cac-cee3f4f3b460",
+      "newsletter": false,
+      "filename": "west-end-girls.mp3",
+      "tags": [
+        "pop",
+        "classic",
+        "intense"
+      ]
+    },
     {
       "artist": "Dungen",
       "album": "Skit I Allt",

@@ -1,6 +1,22 @@
 {
   "soundtracks": [
     {
+      "filename": "mario-wonder.jpg",
+      "name": "Super Mario Bros. Wonder",
+      "description": [
+        "This game is really fun to play, but the music is ass. I had high hopes because I actually love the New Super Mario Bros music, but there's nothing good here really. I was excited by the trailer in the music because of the funny voice, but they only used it for like one track, such a disappointment.",
+        "In 2026 they added the Switch 2 version with Bellabel Park and honestly there's not much there. For a game so visually vibey, the music just doesn't reflect the vibes."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Grassland Theme",
+        "Chasing the Koopalings 1",
+        "Chasing the Koopalings 2"
+      ],
+      "id": "37b0ca8a-32dd-40fd-9a3b-55a6fcbd9d22",
+      "newsletter": true
+    },
+    {
       "filename": "super-metroid.jpg",
       "name": "Super Metroid",
       "description": [
@@ -1863,19 +1879,6 @@
         "Crocodile Cacophony"
       ],
       "id": "4f691f1d-cc8f-459a-b84e-2bfe3d9b951e",
-      "newsletter": true
-    },
-    {
-      "filename": "mario-wonder.jpg",
-      "name": "Super Mario Bros. Wonder",
-      "description": [
-        "This game is really fun to play, but the music is ass. I had high hopes because I actually love the New Super Mario Bros music, but there's nothing good here really. I was excited by the trailer in the music because of the funny voice, but they only used it for like one track, such a disappointment"
-      ],
-      "platform": "Switch",
-      "topTracks": [
-        "Grassland Theme"
-      ],
-      "id": "37b0ca8a-32dd-40fd-9a3b-55a6fcbd9d22",
       "newsletter": true
     },
     {
