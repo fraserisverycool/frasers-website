@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, ChangeDetectorRef, HostListener } from '@angular/core';
+import { Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, ChangeDetectorRef, HostListener, NgZone } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule, NgClass } from '@angular/common';
 import { forkJoin, map, switchMap } from 'rxjs';
@@ -88,12 +88,27 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   private observer: IntersectionObserver | null = null;
-  @ViewChild('audioPlayer') audioPlayer!: ElementRef<HTMLAudioElement>;
-  private _lastUpdateSec: number = -1;
   private isAutoAdvancing = false;
   isFirstLoad = true;
 
-  constructor(private http: HttpClient, protected imageService: ImageService, private cdr: ChangeDetectorRef, private eRef: ElementRef) {}
+  // Web Audio API
+  private audioCtx: AudioContext | null = null;
+  private currentSource: AudioBufferSourceNode | null = null;
+  private gainNode: GainNode | null = null;
+  private bufferCache = new Map<string, AudioBuffer>();
+  private scheduledTracks: { track: Track; source: AudioBufferSourceNode; startTime: number; duration: number }[] = [];
+  private readonly PRELOAD_AHEAD = 5;
+
+  // Custom player state
+  isPlaying = false;
+  currentTime = 0;
+  duration = 0;
+  private playbackStartWallTime = 0;
+  private playbackStartOffset = 0;
+  private progressInterval: any = null;
+  volume = 1;
+
+  constructor(private http: HttpClient, protected imageService: ImageService, private cdr: ChangeDetectorRef, private eRef: ElementRef, private ngZone: NgZone) {}
 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent): void {
@@ -122,6 +137,13 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     return composerString.split(',').map(c => c.trim()).filter(c => c);
   }
 
+  setVolume(value: number | string): void {
+    this.volume = +value;
+    if (this.gainNode) {
+      this.gainNode.gain.value = this.volume;
+    }
+  }
+
   private saveState(): void {
     const state = {
       selectedCategories: this.selectedCategories,
@@ -130,7 +152,8 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       selectedType: this.selectedType,
       selectedComposers: this.selectedComposers,
       currentTrackId: this.currentTrack?.id,
-      playlistIds: this.playlist.map(t => t.id)
+      playlistIds: this.playlist.map(t => t.id),
+      playbackPosition: this.currentTime
     };
     localStorage.setItem('smash_player_state', JSON.stringify(state));
   }
@@ -159,6 +182,10 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
         const track = this.allTracks.find(t => t.id === state.currentTrackId);
         if (track) {
           this.currentTrack = track;
+          if (state.playbackPosition) {
+            this.playbackStartOffset = state.playbackPosition;
+            this.currentTime = state.playbackPosition;
+          }
           // Don't auto-play on load, just restore the info
           this.updateMediaSession(track);
         }
@@ -260,6 +287,12 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   ngOnDestroy(): void {
     if (this.observer) {
       this.observer.disconnect();
+    }
+    this.stopProgressTracking();
+    this.stopCurrentSource();
+    if (this.audioCtx) {
+      this.audioCtx.close();
+      this.audioCtx = null;
     }
     if ('mediaSession' in navigator) {
       navigator.mediaSession.setActionHandler('play', null);
@@ -546,14 +579,50 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     this.isFirstLoad = false;
     this.isAutoAdvancing = false;
     this.currentTrack = track;
+    this.currentTime = 0;
+    this.duration = 0;
+    this.playbackStartOffset = 0;
     this.updateMediaSession(track);
     this.saveState();
-    // Explicitly play in case this was called from a non-gesture (though usually it is)
-    if (this.audioPlayer) {
-      this.audioPlayer.nativeElement.play().catch(err => {
-        console.error('[DEBUG_LOG] playTrack error:', err);
-      });
-    }
+    this.cdr.detectChanges();
+
+    this.stopCurrentSource();
+    this.stopProgressTracking();
+
+    const ctx = this.ensureAudioContext();
+    // Resume context if suspended (required after user gesture on mobile)
+    const startPlayback = (buffer: AudioBuffer) => {
+      this.stopCurrentSource();
+      this.duration = buffer.duration;
+      const source = ctx.createBufferSource();
+      source.buffer = buffer;
+      source.connect(this.gainNode!);
+      this.playbackStartWallTime = performance.now();
+      this.playbackStartOffset = 0;
+      source.start(0);
+      this.currentSource = source;
+      this.isPlaying = true;
+      source.onended = () => this.onSourceEnded(track);
+      this.startProgressTracking();
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = 'playing';
+      }
+      // Pre-load next tracks
+      const index = this.playlist.indexOf(track);
+      this.preloadAhead(index);
+      this.cdr.detectChanges();
+    };
+
+    const resume = ctx.state === 'suspended' ? ctx.resume() : Promise.resolve();
+    resume.then(() =>
+      this.fetchAndDecodeBuffer(track)
+        .then(buffer => startPlayback(buffer))
+        .catch(err => {
+          console.error('[DEBUG_LOG] playTrack error:', err);
+          this.isPlaying = false;
+          this.cdr.detectChanges();
+        })
+    );
   }
 
   updateMediaSession(track: Track): void {
@@ -572,61 +641,233 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       navigator.mediaSession.playbackState = 'playing';
 
       // Update position state for better background handling
-      if (this.audioPlayer && 'setPositionState' in navigator.mediaSession) {
-        const audio = this.audioPlayer.nativeElement;
-        navigator.mediaSession.setPositionState({
-          duration: isFinite(audio.duration) ? audio.duration : 0,
-          playbackRate: audio.playbackRate || 1,
-          position: audio.currentTime || 0
-        });
+      if ('setPositionState' in navigator.mediaSession) {
+        try {
+          navigator.mediaSession.setPositionState({
+            duration: isFinite(this.duration) ? this.duration : 0,
+            playbackRate: 1,
+            position: Math.min(this.currentTime, this.duration || 0)
+          });
+        } catch (e) {}
       }
     }
   }
 
   setupMediaSessionHandlers(): void {
     if ('mediaSession' in navigator) {
-      navigator.mediaSession.setActionHandler('play', () => {
-        if (this.audioPlayer) {
-          this.audioPlayer.nativeElement.play().catch(err => {
-            console.error('[DEBUG_LOG] MediaSession play error:', err);
-          });
-        }
-      });
-      navigator.mediaSession.setActionHandler('pause', () => {
-        if (this.audioPlayer) {
-          this.audioPlayer.nativeElement.pause();
-        }
-      });
+      navigator.mediaSession.setActionHandler('play', () => this.resumePlayback());
+      navigator.mediaSession.setActionHandler('pause', () => this.pausePlayback());
       navigator.mediaSession.setActionHandler('previoustrack', () => this.previousTrack());
       navigator.mediaSession.setActionHandler('nexttrack', () => this.nextTrack());
 
       try {
         // @ts-ignore
         navigator.mediaSession.setActionHandler('seekto', (details) => {
-          if (this.audioPlayer && details.seekTime !== undefined) {
-            this.audioPlayer.nativeElement.currentTime = details.seekTime;
+          if (details.seekTime !== undefined) {
+            this.seekTo(details.seekTime);
           }
         });
       } catch (e) {}
 
       try {
         navigator.mediaSession.setActionHandler('seekbackward', (details) => {
-          if (this.audioPlayer) {
-            const skipTime = details.seekOffset || 10;
-            this.audioPlayer.nativeElement.currentTime = Math.max(this.audioPlayer.nativeElement.currentTime - skipTime, 0);
-          }
+          const skipTime = details.seekOffset || 10;
+          this.seekTo(Math.max(this.currentTime - skipTime, 0));
         });
       } catch (e) {}
 
       try {
         navigator.mediaSession.setActionHandler('seekforward', (details) => {
-          if (this.audioPlayer) {
-            const skipTime = details.seekOffset || 10;
-            this.audioPlayer.nativeElement.currentTime = Math.min(this.audioPlayer.nativeElement.currentTime + skipTime, this.audioPlayer.nativeElement.duration);
-          }
+          const skipTime = details.seekOffset || 10;
+          this.seekTo(Math.min(this.currentTime + skipTime, this.duration));
         });
       } catch (e) {}
     }
+  }
+
+  private ensureAudioContext(): AudioContext {
+    if (!this.audioCtx || this.audioCtx.state === 'closed') {
+      this.audioCtx = new AudioContext();
+      this.gainNode = this.audioCtx.createGain();
+      this.gainNode.connect(this.audioCtx.destination);
+    }
+    return this.audioCtx;
+  }
+
+  private async fetchAndDecodeBuffer(track: Track): Promise<AudioBuffer> {
+    const url = this.imageService.imageUrl(track.path);
+    if (this.bufferCache.has(url)) {
+      return this.bufferCache.get(url)!;
+    }
+    const ctx = this.ensureAudioContext();
+    const response = await fetch(url);
+    const arrayBuffer = await response.arrayBuffer();
+    const audioBuffer = await ctx.decodeAudioData(arrayBuffer);
+    this.bufferCache.set(url, audioBuffer);
+    return audioBuffer;
+  }
+
+  private preloadAhead(fromIndex: number): void {
+    const end = Math.min(fromIndex + this.PRELOAD_AHEAD, this.playlist.length);
+    for (let i = fromIndex + 1; i < end; i++) {
+      const track = this.playlist[i];
+      const url = this.imageService.imageUrl(track.path);
+      if (!this.bufferCache.has(url)) {
+        this.fetchAndDecodeBuffer(track).catch(err =>
+          console.error('[DEBUG_LOG] Preload error for', track.title, err)
+        );
+      }
+    }
+  }
+
+  private stopCurrentSource(): void {
+    if (this.currentSource) {
+      try { this.currentSource.onended = null; this.currentSource.stop(); } catch (e) {}
+      this.currentSource = null;
+    }
+    this.scheduledTracks = [];
+  }
+
+  private startProgressTracking(): void {
+    this.stopProgressTracking();
+    this.ngZone.runOutsideAngular(() => {
+      this.progressInterval = setInterval(() => {
+        if (this.isPlaying) {
+          const elapsed = (performance.now() - this.playbackStartWallTime) / 1000;
+          const newTime = Math.min(this.playbackStartOffset + elapsed, this.duration);
+          this.ngZone.run(() => {
+            this.currentTime = newTime;
+            this.saveState();
+            this.updateMediaSessionPosition();
+            this.cdr.detectChanges();
+          });
+        }
+      }, 500);
+    });
+  }
+
+  private stopProgressTracking(): void {
+    if (this.progressInterval) {
+      clearInterval(this.progressInterval);
+      this.progressInterval = null;
+    }
+  }
+
+  private updateMediaSessionPosition(): void {
+    if ('mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
+      try {
+        navigator.mediaSession.setPositionState({
+          duration: isFinite(this.duration) ? this.duration : 0,
+          playbackRate: 1,
+          position: Math.min(this.currentTime, this.duration || 0)
+        });
+      } catch (e) {}
+    }
+  }
+
+  seekTo(time: number): void {
+    if (!this.currentTrack) return;
+    this.stopCurrentSource();
+    this.stopProgressTracking();
+    this.playbackStartOffset = time;
+    this.currentTime = time;
+    const ctx = this.ensureAudioContext();
+    const url = this.imageService.imageUrl(this.currentTrack.path);
+    const buffer = this.bufferCache.get(url);
+    if (!buffer) return;
+    const source = ctx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(this.gainNode!);
+    this.playbackStartWallTime = performance.now();
+    source.start(0, time);
+    this.currentSource = source;
+    this.isPlaying = true;
+    source.onended = () => this.onSourceEnded(this.currentTrack!);
+    this.startProgressTracking();
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'playing';
+    }
+  }
+
+  pausePlayback(): void {
+    if (!this.audioCtx || !this.isPlaying) return;
+    this.playbackStartOffset = this.currentTime;
+    this.stopCurrentSource();
+    this.stopProgressTracking();
+    this.audioCtx.suspend();
+    this.isPlaying = false;
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'paused';
+    }
+    this.cdr.detectChanges();
+  }
+
+  resumePlayback(): void {
+    if (!this.currentTrack) return;
+    const ctx = this.ensureAudioContext();
+    const resume = ctx.state === 'suspended' ? ctx.resume() : Promise.resolve();
+    resume.then(() => {
+      const url = this.imageService.imageUrl(this.currentTrack!.path);
+      const buffer = this.bufferCache.get(url);
+      if (buffer) {
+        // Buffer already in cache — start from saved offset
+        const source = ctx.createBufferSource();
+        source.buffer = buffer;
+        source.connect(this.gainNode!);
+        this.playbackStartWallTime = performance.now();
+        source.start(0, this.playbackStartOffset);
+        this.currentSource = source;
+        this.isPlaying = true;
+        source.onended = () => this.onSourceEnded(this.currentTrack!);
+        this.startProgressTracking();
+        if ('mediaSession' in navigator) {
+          navigator.mediaSession.playbackState = 'playing';
+        }
+        this.cdr.detectChanges();
+      } else {
+        // Buffer was not loaded (e.g. mobile browser suspended before preload finished)
+        // Fetch and decode it now, then start playback from the saved offset
+        this.fetchAndDecodeBuffer(this.currentTrack!).then(fetchedBuffer => {
+          const source = ctx.createBufferSource();
+          source.buffer = fetchedBuffer;
+          source.connect(this.gainNode!);
+          this.playbackStartWallTime = performance.now();
+          source.start(0, this.playbackStartOffset);
+          this.currentSource = source;
+          this.isPlaying = true;
+          source.onended = () => this.onSourceEnded(this.currentTrack!);
+          this.startProgressTracking();
+          if ('mediaSession' in navigator) {
+            navigator.mediaSession.playbackState = 'playing';
+          }
+          // Also kick off preloading for upcoming tracks
+          const index = this.playlist.indexOf(this.currentTrack!);
+          this.preloadAhead(index);
+          this.cdr.detectChanges();
+        }).catch(err => {
+          console.error('[DEBUG_LOG] resumePlayback fetch error:', err);
+          this.isPlaying = false;
+          this.cdr.detectChanges();
+        });
+      }
+    });
+  }
+
+  togglePlayPause(): void {
+    if (this.isPlaying) {
+      this.pausePlayback();
+    } else {
+      this.resumePlayback();
+    }
+  }
+
+  private onSourceEnded(track: Track): void {
+    // Only advance if this ended naturally (not stopped manually)
+    if (!this.isPlaying) return;
+    this.ngZone.run(() => {
+      this.isAutoAdvancing = true;
+      this.nextTrack();
+    });
   }
 
   nextTrack(): void {
@@ -638,6 +879,9 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
       this.playTrack(this.playlist[nextIndex]);
     } else {
       this.isAutoAdvancing = false;
+      this.isPlaying = false;
+      this.stopProgressTracking();
+      this.cdr.detectChanges();
     }
   }
 
@@ -650,56 +894,29 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     }
   }
 
-  onTrackEnded(): void {
-    console.log('[DEBUG_LOG] Track ended, advancing...');
-    this.isAutoAdvancing = true;
-    this.nextTrack();
+  get progressPercent(): number {
+    if (!this.duration) return 0;
+    return (this.currentTime / this.duration) * 100;
   }
 
-  onPlay(): void {
-    this.isAutoAdvancing = false;
-    if ('mediaSession' in navigator) {
-      navigator.mediaSession.playbackState = 'playing';
-    }
+  get currentTimeFormatted(): string {
+    return this.formatTime(this.currentTime);
   }
 
-  onPause(): void {
-    if ('mediaSession' in navigator) {
-      // Avoid setting 'paused' if we are just transitioning between tracks
-      if (!this.isAutoAdvancing) {
-        navigator.mediaSession.playbackState = 'paused';
-      }
-    }
+  get durationFormatted(): string {
+    return this.formatTime(this.duration);
   }
 
-  onAudioError(event: any): void {
-    const error = this.audioPlayer.nativeElement.error;
-    console.error('[DEBUG_LOG] Audio element error:', error, event);
-
-    // If it's a transient error, try to recover
-    if (this.currentTrack && (error?.code === 2 || error?.code === 3 || error?.code === 4)) {
-      console.warn('[DEBUG_LOG] Attempting to recover from audio error...');
-      setTimeout(() => {
-        if (this.currentTrack) {
-          this.playTrack(this.currentTrack);
-        }
-      }, 2000);
-    }
+  private formatTime(seconds: number): string {
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
   }
 
-  onTimeUpdate(): void {
-    if (this.currentTrack && 'mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
-      const audio = this.audioPlayer.nativeElement;
-      // Use the actual time to throttle to approximately once per second
-      const currentSec = Math.floor(audio.currentTime);
-      if (this._lastUpdateSec !== currentSec) {
-        this._lastUpdateSec = currentSec;
-        navigator.mediaSession.setPositionState({
-          duration: isFinite(audio.duration) ? audio.duration : 0,
-          playbackRate: audio.playbackRate || 1,
-          position: audio.currentTime || 0
-        });
-      }
-    }
+  onProgressClick(event: MouseEvent): void {
+    const bar = event.currentTarget as HTMLElement;
+    const rect = bar.getBoundingClientRect();
+    const ratio = (event.clientX - rect.left) / rect.width;
+    this.seekTo(ratio * this.duration);
   }
 }

@@ -252,10 +252,68 @@ app-rating-bar {
   justify-content: center;
 }
 
-.player-controls audio {
-  height: 35px;
+.play-pause-button {
+  background: #ec407a;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 42px;
+  height: 42px;
+}
+
+.play-pause-button:hover:not(:disabled) {
+  background: #c2185b;
+}
+
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.time-label {
+  font-size: 0.8rem;
+  color: #666;
+  white-space: nowrap;
+  min-width: 36px;
+  text-align: center;
+}
+
+.progress-bar {
   flex: 1;
-  max-width: 400px;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #ec407a;
+  border-radius: 3px;
+  transition: width 0.5s linear;
+  pointer-events: none;
+}
+
+.volume-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.volume-icon {
+  font-size: 0.9rem;
+}
+
+.volume-slider {
+  width: 100%;
+  max-width: 200px;
+  accent-color: #ec407a;
+  cursor: pointer;
 }
 
 .nav-button {

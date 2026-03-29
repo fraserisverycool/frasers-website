@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Super Smash Bros. Soundtrack</h1>
   <p>You can listen to any music that has ever been in a smash game here! If you want to read the story behind this page: <a routerLink="/music/smash/about">click here!</a></p>
-  <p>Note: I can't figure out how to make the playlist play in the background of locked phones using the mobile browser. If any talented mobile developers want to teach me how to do that, please text me!</p>
+  <p>Note: When listening on your phone's mobile browser, you might need to revisit the website to buffer more tracks, because mobile browsers often suppress audio playing in the background.</p>
 
   @if (loading) {
     <div class="loading">
@@ -90,12 +90,21 @@
         </div>
         <div class="player-controls">
           <button (click)="previousTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === 0">⏮</button>
-          <audio #audioPlayer controls [autoplay]="!isFirstLoad" preload="auto" [src]="imageService.imageUrl(currentTrack.path)"
-                 (ended)="onTrackEnded()" (play)="onPlay()" (pause)="onPause()" (timeupdate)="onTimeUpdate()"
-                 (error)="onAudioError($event)">
-            Mate your browser cannot handle this audio player.
-          </audio>
+          <button (click)="togglePlayPause()" class="nav-button play-pause-button">{{ isPlaying ? '⏸' : '▶' }}</button>
           <button (click)="nextTrack()" class="nav-button" [disabled]="playlist.indexOf(currentTrack) === playlist.length - 1">⏭</button>
+        </div>
+        <div class="progress-row">
+          <span class="time-label">{{ currentTimeFormatted }}</span>
+          <div class="progress-bar" (click)="onProgressClick($event)">
+            <div class="progress-fill" [style.width.%]="progressPercent"></div>
+          </div>
+          <span class="time-label">{{ durationFormatted }}</span>
+        </div>
+        <div class="volume-row">
+          <span class="volume-icon">🔈</span>
+          <input type="range" class="volume-slider" min="0" max="1" step="0.01"
+            [value]="volume" (input)="setVolume($any($event.target).value)">
+          <span class="volume-icon">🔊</span>
         </div>
       </div>
     }
