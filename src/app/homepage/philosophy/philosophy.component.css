@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid #0aff00;
+  background: radial-gradient(circle, #00ffd7, #ff37ee);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}

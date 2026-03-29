@@ -37,6 +37,7 @@ import PokemonComponent from "./misc/pokemon/pokemon.component";
 import ContactComponent from "./contact/contact.component";
 import BrightwellStatsComponent from "./misc/brightwell/brightwell-stats/brightwell-stats.component";
 import AboutComponent from "./music/smash/about/about.component";
+import PhilosophyComponent from "./homepage/philosophy/philosophy.component";
 
 export const routes: Routes = [
   {
@@ -47,6 +48,9 @@ export const routes: Routes = [
   },
   {
     path: 'changelog', component: ChangelogPageComponent, data: { title: 'Changelog - Fraser\'s Website' }
+  },
+  {
+    path: 'philosophy', component: PhilosophyComponent, data: { title: 'Philosophy - Fraser\'s Website' }
   },
   {
     path: 'games', component: GamesComponent, data: { title: 'Games - Fraser\'s Website' }
