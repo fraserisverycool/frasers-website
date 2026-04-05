@@ -1,36 +1,55 @@
-<div class="container">
-  <h1>Miscellaneous Crap</h1>
-  <p>This page is a dumping ground for all the stuff which doesn't really fit anywhere else!</p>
-  <div class="gif">
-    <img  [src]="imageService.imageUrl('/misc/godzilla.gif')" alt="nice gif of godzilla">
-  </div>
-  <p>I wrote an interactive story! It's a text-based adventure and you can read it here:</p>
-  <button (click)="handleClick('/misc/back-to-brightwell')">Back To Brightwell</button>
-  <div class="gif">
-    <img  [src]="imageService.imageUrl('/misc/brightwell/literature.gif')" alt="nice gif saying art, culture and literature">
-  </div>
-  <h2>Do you play Super Smash Bros Ultimate? If so...</h2>
-  <button (click)="handleClick('/misc/characters')">Let's talk about all the characters!</button>
-  <div class="image">
-    <img  [src]="imageService.imageUrl('/misc/luigi.webp')" alt="nice image of luigi giving the death stare">
-  </div>
-  <h2>Ranking of every Mario Kart track ever</h2>
-  <button (click)="handleClick('/misc/mariokart')">Fraser's Mario Kart Rankings</button>
-  <div class="image">
-    <img  [src]="imageService.imageUrl('/misc/stitch/thug.jpg')" alt="nice pic of one of my cross-stitches saying 'the thug life chose me'">
-  </div>
-  <h2>List of all my cross stitches</h2>
-  <button (click)="handleClick('/misc/stitch')">Cross stitches</button>
-  <div class="image">
-    <img  [src]="imageService.imageUrl('/misc/pokemon/omanyte.gif')" alt="nice pic of james from pokemon holding an omanyte">
-  </div>
-  <h2>Ranking of all the Pokemon</h2>
-  <button (click)="handleClick('/misc/pokemon')">Pokemon Rankings</button>
-  <p>Here you can see all of the Top 8 pictures I made for all of the BREXIT SUMMIT tournaments that I hosted in my apartment between 2019 and 2022:</p>
-  <button (click)="handleClick('/misc/brexitsummit')">BREXIT SUMMIT Top 8 Pictures</button>
-  <div class="gif">
-    <img  [src]="imageService.imageUrl('/misc/smash.gif')" alt="nice gif of diddy kong and rosalina">
-  </div>
-  <img (click)="handleClick('/misc/writing')" [src]="imageService.imageUrl('/misc/secreta.gif')" alt="secreta">
-</div>
+<div class="space-bg">
+  <h1 class="title">Miscellaneous Crap</h1>
 
+  <div class="floating-item" [style.top]="positions[0].top" [style.left]="positions[0].left">
+    <button class="btn-chaos btn-1" (click)="handleClick('/misc/back-to-brightwell')">Back To Brightwell</button>
+  </div>
+
+  <div class="floating-item" [style.top]="positions[1].top" [style.left]="positions[1].left">
+    <img class="chaos-img img-sm" [src]="imageService.imageUrl('/misc/godzilla.gif')" alt="godzilla">
+  </div>
+
+  <div class="floating-item" [style.top]="positions[2].top" [style.left]="positions[2].left">
+    <button class="btn-chaos btn-2" (click)="handleClick('/misc/characters')">Smash Bros Characters!</button>
+  </div>
+
+  <div class="floating-item" [style.top]="positions[3].top" [style.left]="positions[3].left">
+    <img class="chaos-img img-md" [src]="imageService.imageUrl('/misc/space2.gif')" alt="literature gif">
+  </div>
+
+  <div class="floating-item" [style.top]="positions[4].top" [style.left]="positions[4].left">
+    <img class="chaos-img img-lg" [src]="imageService.imageUrl('/misc/luigi.webp')" alt="luigi">
+  </div>
+
+  <div class="floating-item" [style.top]="positions[5].top" [style.left]="positions[5].left">
+    <button class="btn-chaos btn-3" (click)="handleClick('/misc/mariokart')">Mario Kart Rankings</button>
+  </div>
+
+  <div class="floating-item" [style.top]="positions[6].top" [style.left]="positions[6].left">
+    <img class="chaos-img img-md" [src]="imageService.imageUrl('/misc/stitch/thug.jpg')" alt="thug stitch">
+  </div>
+
+  <div class="floating-item" [style.top]="positions[7].top" [style.left]="positions[7].left">
+    <button class="btn-chaos btn-4" (click)="handleClick('/misc/stitch')">Cross Stitches</button>
+  </div>
+
+  <div class="floating-item" [style.top]="positions[8].top" [style.left]="positions[8].left">
+    <button class="btn-chaos btn-5" (click)="handleClick('/misc/pokemon')">Pokemon Rankings</button>
+  </div>
+
+  <div class="floating-item" [style.top]="positions[9].top" [style.left]="positions[9].left">
+    <img class="chaos-img img-md" [src]="imageService.imageUrl('/misc/pokemon/omanyte.gif')" alt="omanyte">
+  </div>
+
+  <div class="floating-item" [style.top]="positions[10].top" [style.left]="positions[10].left">
+    <button class="btn-chaos btn-6" (click)="handleClick('/misc/brexitsummit')">BREXIT SUMMIT</button>
+  </div>
+
+  <div class="floating-item" [style.top]="positions[11].top" [style.left]="positions[11].left">
+    <img class="chaos-img img-sm" [src]="imageService.imageUrl('/misc/samus.gif')" alt="smash gif">
+  </div>
+
+  <div class="floating-item" [style.top]="positions[12].top" [style.left]="positions[12].left">
+    <img class="chaos-img img-sm clickable" (click)="handleClick('/misc/writing')" [src]="imageService.imageUrl('/misc/secreta.gif')" alt="secreta">
+  </div>
+</div>

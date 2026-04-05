@@ -2049,8 +2049,8 @@
       ],
       "main": "Choosing to play Ken is wild, since he is one of the ugliest things I've ever seen. To think that he is cool means to be blind. Therefore I surmise that the average Ken main is blind",
       "played": true,
-      "completed": true,
-      "understood": true,
+      "completed": false,
+      "understood": false,
       "playedDescription": "I played Street Fighter 6 but I haven't understood the game yet. I need to get good. I was thinking about the playing Street Fighter 2 instead.",
       "deco": [
         {

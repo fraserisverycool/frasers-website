@@ -62,17 +62,20 @@
       ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Herb Albert, Andy Armer",
+      "album": "Rise",
+      "track": "Rise",
+      "description": "Huge vibe that I learned about because Andy Armer used to make classic video game music.",
+      "link": "https://www.youtube.com/watch?v=q7O3eYJptTc",
       "game": false,
       "day": "28-10-2026",
       "id": "c8b86f30-1863-49ea-acea-0858b9db8dea",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "rise.mp3",
+      "tags": [
+        "funky",
+        "chill"
+      ]
     },
     {
       "artist": "ANOHNI and the Johnsons",
