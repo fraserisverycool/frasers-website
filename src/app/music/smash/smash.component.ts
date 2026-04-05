@@ -97,7 +97,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   private gainNode: GainNode | null = null;
   private bufferCache = new Map<string, AudioBuffer>();
   private scheduledTracks: { track: Track; source: AudioBufferSourceNode; startTime: number; duration: number }[] = [];
-  private readonly PRELOAD_AHEAD = 5;
+  private readonly PRELOAD_AHEAD = 3;
 
   // Custom player state
   isPlaying = false;

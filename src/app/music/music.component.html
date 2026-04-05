@@ -33,7 +33,7 @@
       <button class="fun-button" (click)="handleClick('/music/nintendo')">
         <span class="button-text">Nintendo Soundtracks</span>
       </button>
-      <p>Have you heard about the Nintendo music app? It's so good! Yeah there isn't a huge selection of soundtracks on there just yet, they're dropping new ones every week and I'm so hooked. I'm writing a review for each one they release.</p>
+      <p>Have you heard about the Nintendo music app? It's so good! There's a growing selection of soundtracks on there - they're dropping new ones every week and I'm so hooked. I'm writing a review for each one they release.</p>
       @if (randomSoundtrack) {
         <img
           [ngSrc]="imageService.imageUrl('/music/nintendo/' + randomSoundtrack.filename)"

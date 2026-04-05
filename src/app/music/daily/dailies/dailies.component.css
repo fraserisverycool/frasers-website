@@ -40,8 +40,19 @@ ul {
   align-items: center;
   gap: 10px;
   margin-bottom: 5px;
-  border-bottom: 1px solid #999;
+  background-color: #e8f0e8;
+  border: 2px solid #023000;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(2, 48, 0, 0.3);
+  padding: 4px 8px;
   position: relative;
+  z-index: 2;
+}
+
+.list-item.today {
+  background-color: #c8dcc8;
+  border: 3px solid #023000;
+  box-shadow: 0 0 16px rgba(2, 48, 0, 0.6);
 }
 
 .mini-audio-player {

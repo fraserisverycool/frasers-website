@@ -126,7 +126,7 @@
     }
     <ul>
       @for (track of group.tracks; track track.id) {
-        <li class="list-item">
+        <li class="list-item" [ngClass]="{ 'today': track.day === todaysDate() }">
           <div>
             @if (!track.game) {
               <h2 class="h2">{{track.artist}} - {{track.track}}</h2>

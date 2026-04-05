@@ -52,7 +52,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   private currentSource: AudioBufferSourceNode | null = null;
   private gainNode: GainNode | null = null;
   private bufferCache = new Map<string, AudioBuffer>();
-  private readonly PRELOAD_AHEAD = 5;
+  private readonly PRELOAD_AHEAD = 3;
 
   // Custom player state
   isPlaying = false;
