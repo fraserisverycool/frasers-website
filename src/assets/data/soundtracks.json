@@ -1,6 +1,42 @@
 {
   "soundtracks": [
     {
+      "filename": "animal-crossing-new-horizons.jpg",
+      "name": "Animal Crossing: New Horizons",
+      "description": [
+        "Where do I even begin. There is so much to discuss! Animal Crossing approaches video game music so differently to any other game and must be treated with the utmost respect. The composers of this game, just like the games before it, created chill vibes for each and every hour of the day, and all of them match the time of day perfectly. What a pleasure and honour it is to be able to listen to them in the Nintendo Music App. I think my absolute favourite is 7pm.",
+        "Then there are all the other events music, like the Tourney Competing track. I love it so much!!! And THEN! K.K. Slider's whole discography is available, including all the newer tracks from the 2.0 update. We can talk about classics like K.K. Cruisin' and K.K. Bossa but mate the newer tracks are also fire. Check out K.K. Break it's so good.",
+        "They updated this in 2026 with the Nintendo Switch 2 version which was a disappointing update in terms of content, but actually Slumber Island is great."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "12:00 AM - Clear",
+        "2:00 AM - Clear",
+        "5:00 AM - Clear",
+        "12:00 PM - Clear",
+        "5:00 PM - Clear",
+        "7:00 PM - Clear",
+        "Island Life Orientation 7 - Clear",
+        "Construction-Complete Ceremony",
+        "The Roost",
+        "Tourney - Competing",
+        "Fireworks Show",
+        "Festivale",
+        "K.K. Cruisin' (Instrumental)",
+        "K.K. Soul (Instrumental)",
+        "K.K. Milonga (Instrumental)",
+        "K.K. House (Instrumental)",
+        "K.K. Break (Instrumental)",
+        "K.K. Bossa (Instrumental)",
+        "K.K. Moody (Instrumental)",
+        "Drivin' (Instrumental)",
+        "K.K. D&B (Instrumental)",
+        "Slumber Island - Clear Afternoon"
+      ],
+      "id": "17310804-2539-4e72-9f5a-dc7ca0289bfd",
+      "newsletter": true
+    },
+    {
       "filename": "mario-wonder.jpg",
       "name": "Super Mario Bros. Wonder",
       "description": [
@@ -1919,40 +1955,6 @@
       "platform": "Switch",
       "topTracks": [],
       "id": "f4c36fa2-7cef-4303-ba13-18887d76f3e5",
-      "newsletter": true
-    },
-    {
-      "filename": "animal-crossing-new-horizons.jpg",
-      "name": "Animal Crossing: New Horizons",
-      "description": [
-        "Where do I even begin. There is so much to discuss! Animal Crossing approaches video game music so differently to any other game and must be treated with the utmost respect. The composers of this game, just like the games before it, created chill vibes for each and every hour of the day, and all of them match the time of day perfectly. What a pleasure and honour it is to be able to listen to them in the Nintendo Music App. I think my absolute favourite is 7pm.",
-        "Then there are all the other events music, like the Tourney Competing track. I love it so much!!! And THEN! K.K. Slider's whole discography is available, including all the newer tracks from the 2.0 update. We can talk about classics like K.K. Cruisin' and K.K. Bossa but mate the newer tracks are also fire. Check out K.K. Break it's so good"
-      ],
-      "platform": "Switch",
-      "topTracks": [
-        "12:00 AM - Clear",
-        "2:00 AM - Clear",
-        "5:00 AM - Clear",
-        "12:00 PM - Clear",
-        "5:00 PM - Clear",
-        "7:00 PM - Clear",
-        "Island Life Orientation 7 - Clear",
-        "Construction-Complete Ceremony",
-        "The Roost",
-        "Tourney - Competing",
-        "Fireworks Show",
-        "Festivale",
-        "K.K. Cruisin' (Instrumental)",
-        "K.K. Soul (Instrumental)",
-        "K.K. Milonga (Instrumental)",
-        "K.K. House (Instrumental)",
-        "K.K. Break (Instrumental)",
-        "K.K. Bossa (Instrumental)",
-        "K.K. Moody (Instrumental)",
-        "Drivin' (Instrumental)",
-        "K.K. D&B (Instrumental)"
-      ],
-      "id": "17310804-2539-4e72-9f5a-dc7ca0289bfd",
       "newsletter": true
     },
     {

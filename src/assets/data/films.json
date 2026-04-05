@@ -1,6 +1,26 @@
 {
   "films": [
     {
+      "filename": "pulp-fiction.jpg",
+      "title": "Pulp Fiction",
+      "description": "A super masc, violent set of random stories with no real moral to the story. I watched it at home on my own for my education but didn't enjoy it.",
+      "spoiler": "Honestly this film is so vacuous, it's about nothing. When I watch stuff like this I just think about the all the dudes who have seen this thinking that the characters are cool and want to be like them. I was reading about it on the Wikipedia page and apparently it's just a huge collection of references to other movies, which explains a lot.",
+      "year": "2026",
+      "release": "1994",
+      "id": "997caae5-c72a-4e2b-9d2f-503c667f3c7b",
+      "newsletter": false
+    },
+    {
+      "filename": "mario-galaxy-movie.png",
+      "title": "The Mario Galaxy Movie",
+      "description": "As a Nintendo fan I was contractually obliged to watch this, but it really is mainstream nonsense. It's a series of happenings and references with no real meaning. I did get every reference though, which was satisfying.",
+      "spoiler": "As I sat in the huge, fancy Cinestar, looking at this huge, fancy film making all these references to all this Nintendo stuff that I loved, I asked myself, 'is this cool now?' This niche that I've enjoyed my whole life blown up on the big screen like this. Franz told me it was great because he felt like a child again and I see where he's coming from but I also feel like Nintendo has become big enough where all these nostalgia points are now marketable moments which can be converted into capital. The whole thing made me feel uneasy. Also, although they didn't use (much) licensed music, the generic-ass 'epic' orchestra renditions of mario music felt AI-generated. The whole film was kinda giving AI-generated.",
+      "year": "2026",
+      "release": "2026",
+      "id": "20e706c9-902f-4094-b9db-9d1781957f9b",
+      "newsletter": false
+    },
+    {
       "filename": "pillion.jpg",
       "title": "Pillion",
       "description": "Wow, this is a steaming hot film about getting dommed by sexy biker man Alexander Skarsgård. It handles the topic excellently, is super funny, and I highly recommend it. Managed to get a free T-shirt from the Mongay preview!",
@@ -1174,7 +1194,7 @@
     {
       "filename": "super-mario.webp",
       "title": "The Super Mario Movie",
-      "description": "Loved it. As a Nintendo fan this was a must watch. Why the fuck did they have licensed music in it.",
+      "description": "Loved it. As a Nintendo fan this was a must watch. I mean, it's a bad film, yes. Why the fuck did they have licensed music in it. But come on it's mario.",
       "year": "2023",
       "release": "2023",
       "id": "1ef21f97-eb7c-4d27-be59-1d0b8bbb6a3e",
