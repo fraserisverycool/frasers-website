@@ -1,6 +1,16 @@
 {
   "films": [
     {
+      "filename": "history-of-sound.jpg",
+      "title": "The History of Sound",
+      "description": "I was setting myself to not enjoy this because *rolls eyes* the power of music. But actually I got totally swept away by it. Loved it. Beautiful.",
+      "spoiler": "I already knew about the song 'Silver Dagger' from a Fleet Foxes cover that I adore. Then I heard the Tallest Man on Earth do a cover and say it's actually a traditional folk tune, popularised by Joan Baez. I was shook when they sang it at the start of the film, a song about saying no to men, better to die alone. And then when it came back at the very end of the film, I admit it I was sobbing uncontrollably in the cinema.",
+      "year": "2026",
+      "release": "2025",
+      "id": "6b1653ab-f00f-4727-9dbe-ca12e22603b7",
+      "newsletter": false
+    },
+    {
       "filename": "pulp-fiction.jpg",
       "title": "Pulp Fiction",
       "description": "A super masc, violent set of random stories with no real moral to the story. I watched it at home on my own for my education but didn't enjoy it.",
