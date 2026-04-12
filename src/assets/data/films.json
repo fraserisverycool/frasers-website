@@ -1,14 +1,54 @@
 {
   "films": [
     {
-      "filename": "history-of-sound.jpg",
+      "filename": "sirat.jpg",
+      "title": "Sirat",
+      "description": "I will never forget this film. Watching it feels like a nightmare.",
+      "spoiler": "I was sobbing in the cinema. It wasn't just me, people were crying all around me because it's just so fucking horrifying. The sheer shock and escalation is just astonishing. In the final moments I had my eyes closed and my fingers in my ears because I couldn't deal with the explosions. I sat in the seat long after the film ended and it took me a very long time to finally get on my bike to go home because I just felt so hollowed out and devastated. I will never forget the scene with the handbrake.",
+      "year": "2026",
+      "release": "2025",
+      "id": "92182124-3b9e-4281-bd6c-0b0846920772",
+      "newsletter": true
+    },
+    {
+      "filename": "world-not-ours.jpg",
+      "title": "A World Not Ours",
+      "description": "A film about Ein el-Helweh, a refugee camp in Lebanon filled with Palestinians. Fascinating. For me it was a reminder how fucked it is that refugees can't work. In this camp they are trapped there and they don't do any proper work because they don't have the papers. All over the world it's the same story, asylum seekers twiddle their thumbs in places like the UK when they could be working, and they want to work. It's fucked.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2012",
+      "id": "a5641ccd-e330-40ed-9445-172faf2367c5",
+      "newsletter": true
+    },
+    {
+      "filename": "mar-mama.jpg",
+      "title": "Mar Mama",
+      "description": "Upsetting short film about settler violence in the West Bank. Things like this are happening right now in Palestine. These horrible settlers are horrible and fuck the Israeli security in the region who support the settlers.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2023",
+      "id": "decab3ea-bbb7-4410-8971-1bc7ac1a6de7",
+      "newsletter": true
+    },
+    {
+      "filename": "vibrations.png",
+      "title": "Vibrations from Gaza",
+      "description": "Upsetting short film about deaf kids in Gaza pre-October 7. There's a school of deaf kids there and I was just asking myself, has it been bombed now?",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2024",
+      "id": "0df6ae7a-5fe9-43f9-bd7f-4d1ecbfa465f",
+      "newsletter": true
+    },
+    {
+      "filename": "history-of-sound.webp",
       "title": "The History of Sound",
       "description": "I was setting myself to not enjoy this because *rolls eyes* the power of music. But actually I got totally swept away by it. Loved it. Beautiful.",
       "spoiler": "I already knew about the song 'Silver Dagger' from a Fleet Foxes cover that I adore. Then I heard the Tallest Man on Earth do a cover and say it's actually a traditional folk tune, popularised by Joan Baez. I was shook when they sang it at the start of the film, a song about saying no to men, better to die alone. And then when it came back at the very end of the film, I admit it I was sobbing uncontrollably in the cinema.",
       "year": "2026",
       "release": "2025",
       "id": "6b1653ab-f00f-4727-9dbe-ca12e22603b7",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "pulp-fiction.jpg",
@@ -18,7 +58,7 @@
       "year": "2026",
       "release": "1994",
       "id": "997caae5-c72a-4e2b-9d2f-503c667f3c7b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "mario-galaxy-movie.png",
@@ -28,7 +68,7 @@
       "year": "2026",
       "release": "2026",
       "id": "20e706c9-902f-4094-b9db-9d1781957f9b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "pillion.jpg",
@@ -38,7 +78,7 @@
       "year": "2026",
       "release": "2026",
       "id": "c238ab26-d50a-4f70-aa28-3b7835fc191b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "no-other-choice.jpg",
@@ -48,7 +88,7 @@
       "year": "2026",
       "release": "2025",
       "id": "d74c1e28-14a1-4c9d-b818-bd07af901e07",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "marty-supreme.jpg",

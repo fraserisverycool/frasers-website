@@ -1,6 +1,28 @@
 {
   "albums": [
     {
+      "filename": "cmat-wife.jpg",
+      "artist": "CMAT",
+      "name": "If My Wife New I'd Be Dead",
+      "releaseyear": "2022",
+      "description": [
+        "Having seen CMAT live and been absolutely blown away, I have been absolutely peaking on my CMAT obsession. This is her first album and it's full of the most real music. It's very country and western which is not normally something I'm into but hell yeah. It's all about 'I Wanna Be a Cowboy, Baby!' which sounds like it's from that vine (which it is), but it's actually a song about frustration with being a woman (among other things). It's great and I love it. She's also unafraid to get dark - 'Nashville' references this person who spent 8 months telling everyone they're moving away and after saying their goodbyes they killed themselves. Knowing that completely transforms the listening experience of that song for sure."
+      ],
+      "topTracks": [
+        "Nashville",
+        "Peter Bogdanovich",
+        "No More Virgos",
+        "Geography Teacher",
+        "I Wanna Be a Cowboy, Baby!"
+      ],
+      "tags": [
+        "pop",
+        "country"
+      ],
+      "id": "ecf6e2dc-55fa-422c-9f2d-d1a4e3015f4e",
+      "newsletter": true
+    },
+    {
       "filename": "cmat-euro.jpg",
       "artist": "CMAT",
       "name": "EURO-COUNTRY",
@@ -16,7 +38,8 @@
         "Janis Joplining"
       ],
       "tags": [
-        "pop"
+        "pop",
+        "country"
       ],
       "id": "7eee60e1-9084-4cde-950b-f631b8bd1327",
       "newsletter": true

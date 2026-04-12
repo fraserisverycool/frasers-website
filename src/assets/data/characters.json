@@ -1653,7 +1653,13 @@
           "filename": "villager1.jpg",
           "order": 1,
           "newsletter": true,
-          "description": "This was my character in animal crossing for a long time. I followed a youtube tutorial to see how it would be"
+          "description": "This was my character in animal crossing for a long time. I followed a youtube tutorial to see how it would be."
+        },
+        {
+          "filename": "villager2.jpg",
+          "order": 2,
+          "newsletter": true,
+          "description": "Marco gave me this cute (official!) Nintendo merch."
         }
       ],
       "id": "8d1165ff-ade5-4162-bd20-aea4302aea13",
@@ -2265,6 +2271,12 @@
           "order": 2,
           "newsletter": true,
           "description": "Cool cushion for the sofa!"
+        },
+        {
+          "filename": "villager2.jpg",
+          "order": 4,
+          "newsletter": true,
+          "description": "Marco got me this cute (official!) Nintendo merch."
         }
       ],
       "id": "f66159f8-a83b-4102-bd4f-f1d792daed86",

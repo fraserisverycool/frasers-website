@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "name": "Promise Mascot Agency",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "I was a huge fan of the vibe-heavy Paradise Killer, and the devs of that made a new game so I gave it a go, but the music isn't as good. I didn't realise before buying that they have a new composer and yeah it's just not the same. Also, the vibe of the game is quite düster and grey/brown visually, and I don't love it.",
+        "The premise of the game is fucking wild. Whoever came up with this is insane. It's about a yakuza who owes millions and is banished to a cursed town to start a 'Mascot Agency'. In Japan there is a big culture of mascots, people wearing silly outfits to promote events, and in this game mascots are real, horrible monsters. You have to run the business with a massive finger called Pinky☆.",
+        "I don't think I'll complete this game. In the end it's a management sim and when the mascots need help on their events you have to do this little minigame which always has the same music and quickly gets boring. It constantly interrupts the normal gameplay, which is driving around in an indestructible truck. It's actually not a chill game at all."
+      ],
+      "image": "promise.jpg",
+      "platform": "Switch 2",
+      "year": "2026",
+      "release": "2025",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "5f2c10e5-fd69-46f9-a3eb-afc71dfd658a",
+      "newsletter": true
+    },
+    {
       "name": "Slay the Spire 2",
       "vibes": "7",
       "gameplay": "11",
@@ -17,7 +36,7 @@
       "completed": false,
       "completable": false,
       "id": "96b75cfa-3bb5-462c-98cd-977d02c8d960",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Morsels",

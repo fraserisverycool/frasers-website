@@ -442,6 +442,15 @@
       "newsletter": true
     },
     {
+      "artist": "Janis Joplin",
+      "album": "Greatest Hits",
+      "genre": "Rock & Electronic",
+      "description": "Picked this up at the Boxi market after having lunch with Kitty",
+      "image": "janis-greatest.jpg",
+      "id": "74c8d2cc-28b3-437c-bf63-34c1127ca169",
+      "newsletter": true
+    },
+    {
       "artist": "Divine",
       "album": "Shoot Your Shot Anthology",
       "genre": "House & Disco",

@@ -36,7 +36,10 @@ def mapper_games(json_item):
     return json_item["name"], json_item["review"], "games/" + json_item["image"], "Vibes: " + json_item["vibes"] + ", Gameplay: " + json_item["gameplay"] + ", Platform: " + json_item["platform"] + ", Release: " + json_item["release"]
 
 def mapper_films(json_item):
-    return json_item["title"], [json_item["description"]], "films/" + json_item["filename"], "Release: " + json_item["release"]
+    spoiler = ""
+    if json_item["spoiler"]:
+        spoiler = ", for the spoiler discussion please visit the films page!"
+    return json_item["title"], [json_item["description"]], "films/" + json_item["filename"], "Release: " + json_item["release"] + spoiler
 
 def mapper_concerts(json_item):
     return json_item["artist"], [json_item["description"]], "music/concerts/" + json_item["image"], "Date: " + json_item["date"] + ", Venue: " + json_item["venue"]
@@ -194,13 +197,14 @@ def generate_newsletter(title, description):
 
 
 def main():
-  generate_newsletter("Burnout from listening to too many smash remixes",
+  generate_newsletter("A different kind of party world",
                       [
-                        "Well there haven't been any major updates on the website for like a month because I spent the whole time making an insane webpage which lets you listen to all the Smash Bros soundtracks. I was inspired by how much I've been enjoying listening to my own favourite songs on the daily soundtracks page, and by how I want to make my own music streaming situation. In the greater context of removing big tech from my life, how about that?",
-                        "Well it was way more work than I anticipated! Smash Ultimate alone has over 1000 tracks and I sat down and listened to them all, because for whatever reason I took the opportunity to rate them all. I just figured, since I'm going through all the metadata anyway and making it perfect, and making little character pictures for each track, why not also just drop my opinions as well. Isn't that what this website is for?",
-                        "Well I found myself blocking out hours of my free time to go through and form opinions on all of these franchises. For my favourites it was a total pleasure, but by the end I was really feeling like all those Castlevania remixes are blending into each other. And then just the insane amount of Fatal Fury, Tekken tracks for example, I was struggling. The real killer was the the original Smash tracks. Just repetitions of the same melody over and over. I was starting to go crazy. I started to think to myself, is this music all actually kinda shit? Like I love Nintendo music but I don't feel like this when I listen to normal music.",
-                        "Well maybe it was all a bit much. And it's not like I have to do it again. Now, I can choose my favourites and just listen to those. And the work was still oddly satisfying so fuck it, I think it was worth it. I was able to play Slay the Spire 2 while working on it so that's cool. Slay the Spire 2 is gonna be game of the year by the way. Holy moly.",
-                        "Well anyway my life has been trundling on since the last newsletter, nothing too much to report there. I hope some of you can enjoy the new smash soundtrack page, but if not, that's fine because I made it for me."
+                        "Recently I was scammed out of 400€, partly because of my own negligence, and partly because prepaidmobilerecharge.com is a fucking scam. About a year ago I got a grip on my finances and made a spreadsheet with all my monthly payments, and it seemed fine. About a month later I topped up 15€ on a prepaid mobile sim card. I did it in a hurry because I needed it very quick, and the normal Telekom service was taking ages. The money never even arrived in the end but whatever, eventually the normal service kicked in and I forgot about it.",
+                        "Turns out, this third-party website I used secretly signed me up for a 50€ monthly subscription. I didn't check my bank's outgoing payments for many months and before I knew it, I lost a bunch of money. I managed to get some back, but I wasn't seeing that 400€ again unless I went to court or something. So dear readers, my advice to you is to turn on notifications from your bank app so you have a good overview of what money goes in and out of your account.",
+                        "Anyway, around this time, my friend Ort asked me if I wanted to DJ at a disco party that his new company is putting on, and I decided to give it a go because a) it would be a fun experience being a professional DJ, b) always good to try new things and c) his company would pay me 400€ for it. Bam! I can solve this problem with the power of disco music. Perfect.",
+                        "The party happened yesterday and it really was a fascinating look a different world. It went from 6pm until 9pm and was marketed as 'Gimme Gimme Disco - an ABBA-inspired Disco party'. It was marketed at like 50+ year olds and that was indeed the crowd. They were all there on the dot, mostly older women, either in groups of girlfriends or dragging their husbands along, and to be fair they all had great sparkly outfits. They also had the best time ever. I had a very easy time on the DJ decks pleasing them because I just had to play pop songs and they would go crazy. There was even a scripted moment where there were balloons when Dancing Queen came on half way through.",
+                        "The whole thing was giving Kleinstadt-Deutschland. I wouldn't be surprised if they all went home to Brandenburg after the event. These are the kinds of events you see advertised on posters around town, and they sell out! It was 20€ a pop for the ticket so fair enough to Ort's company for making good buck from it. I think past me would have judged someone for going to a 6pm ABBA party but now I realise that they were happy and who am I to judge them. I was the DJ and I'm not about to judge myself for it.",
+                        "Anyway that is this week's story time, I hope you enjoyed it. On the website I redesigned the 'Misc' page to be even less usable. Maybe the stuff on there is not meant to be actually clicked on, yknow. I've also been watching lots of films. As I write this I am still emotionally recovering from the most devastating film ever, Sirat. Honestly, I can't recommend it because it's that nightmarish. Go check your finances instead. See you next time."
                       ])
 
 if __name__ == "__main__":
