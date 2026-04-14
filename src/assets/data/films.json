@@ -1,10 +1,20 @@
 {
   "films": [
     {
+      "filename": "only-good-things.jpg",
+      "title": "Only Good Things",
+      "description": "Watched this at mongay. It has a vibes heavy first half that I really enjoyed, but I wasn't really on board with the tone shift in the second half.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2025",
+      "id": "b8a37bca-a598-4102-8490-41bd98957b23",
+      "newsletter": false
+    },
+    {
       "filename": "sirat.jpg",
       "title": "Sirat",
       "description": "I will never forget this film. Watching it feels like a nightmare.",
-      "spoiler": "I was sobbing in the cinema. It wasn't just me, people were crying all around me because it's just so fucking horrifying. The sheer shock and escalation is just astonishing. In the final moments I had my eyes closed and my fingers in my ears because I couldn't deal with the explosions. I sat in the seat long after the film ended and it took me a very long time to finally get on my bike to go home because I just felt so hollowed out and devastated. I will never forget the scene with the handbrake.",
+      "spoiler": "I was sobbing in the cinema. It wasn't just me, people were crying all around me because it's just so fucking horrifying. The sheer shock and escalation is just astonishing. In the final moments I had my eyes closed and my fingers in my ears because I couldn't deal with the explosions. I sat in the seat long after the film ended and it took me a very long time to finally get on my bike to go home because I just felt so hollowed out and devastated. I will never forget the scene with the handbrake. As time has gone on, I've realised that there's more to this film that just the horrible things that happen. There's a lot of symbolism and meaning behind the horror.",
       "year": "2026",
       "release": "2025",
       "id": "92182124-3b9e-4281-bd6c-0b0846920772",
