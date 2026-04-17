@@ -1,6 +1,44 @@
 {
   "soundtracks": [
     {
+      "filename": "tomodachi-life-living.jpg",
+      "name": "Tomodachi Life: Living the Dream",
+      "description": [
+        "If there's one thing that Nintendo love putting on this app, it's every single Mii-themed game. So you just know that the new Tomodachi Life is coming on here frame 1. I'm not wowed by the music so far if I'm honest. The previous game had some good deep cuts but these tracks here aren't doing it for me."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Afternoon on the Island"
+      ],
+      "id": "e9b869dc-b86d-4c90-8a9c-04440657ae91",
+      "newsletter": false
+    },
+    {
+      "filename": "animal-crossing.jpg",
+      "name": "Animal Crossing",
+      "description": [
+        "This soundtrack is very kooky indeed. It makes me appreciate how Animal Crossing is a series which took a fair few games of perfecting the formula. This is pretty rough, but almost all of this is also in New Horizons because its foundations are so solid. The hourly themes vary quite a lot, some resembling newer hourly themes, and others way more out there. Some of them (looking at you, 11pm and 3pm) are borderline unlistenable.",
+        "Also, I want to shout out this beautiful little chord sequence buried deep in the new year tracks. Specifically the 10 minutes before midnight music is super gorgeous. And 'Meteor Shower' and 'Wishing Well' are beautiful and never came back in future iterations!"
+      ],
+      "platform": "Gamecube",
+      "topTracks": [
+        "Opening Theme",
+        "It's Your Village",
+        "7:00 AM - Clear",
+        "2:00 PM - Clear",
+        "5:00 PM - Clear",
+        "9:00 PM - Clear",
+        "Rainy Day",
+        "Animal Island",
+        "Groundhog Day",
+        "Meteor Shower",
+        "Countdown - 11:50 PM",
+        "Wishing Well"
+      ],
+      "id": "c8d74269-e6e8-4e27-bedd-db45bc04a4e5",
+      "newsletter": false
+    },
+    {
       "filename": "splatoon-3.jpg",
       "name": "Splatoon 3",
       "description": [

@@ -1,25 +1,16 @@
 {
   "other ideas": [
-    "pokemon diamond route 216",
     "babymaking as a playlist",
     "jazz as a playlist",
-    "confidence man who knows what you'll find",
-    "kylie shocked",
-    "bon iver re stacks",
-    "bonobo break apart",
-    "zero 7 destiny",
-    "psychedelic porn crumpets weird world awoke",
-    "kings of convenience the build up also kimbra",
-    "jeanette oye mama oye papa",
+    "kimbra",
     "anohni drone bomb me / it must change",
     "björk bachelorette",
     "kkb waking up",
     "james blake",
     "dorian electra",
-    "baddy on the floor",
-    "jj",
     "jamie xx girl",
-    "air france"
+    "jessie ware begin again",
+    "coldplay violet hill"
   ],
   "dailysoundtracks": [
     {
@@ -62,368 +53,453 @@
       "tags": []
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Yozu Koshiro",
+      "album": "Streets of Rage 2",
+      "track": "Go Straight",
+      "description": "The first level from this legendary game. The soundtrack is house-inspired and a huge bop front to back.",
+      "link": "https://www.youtube.com/watch?v=E5g-QHq925o",
+      "game": true,
       "day": "28-12-2026",
       "id": "f1aea660-8410-4de5-97d0-dec225695c1c",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "go-straight.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "David Wise",
+      "album": "Donkey Kong Country 2: Diddy's Kong Quest",
+      "track": "Hot-Head Bop",
+      "description": "https://www.youtube.com/watch?v=flAFuldeRV8",
+      "link": "This is hands down the best lava level music out there.",
+      "game": true,
       "day": "27-12-2026",
       "id": "d410c6cb-44e3-41ef-984d-5891d36514cf",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "hot-head-bop.mp3",
+      "tags": [
+        "intense",
+        "funky",
+        "donkey kong"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Laura Marling",
+      "album": "Semper Femina",
+      "track": "Nouel",
+      "description": "Beautiful song from Laura. She's singing about women!",
+      "link": "https://www.youtube.com/watch?v=uHq4U1r_Q4I",
       "game": false,
       "day": "26-12-2026",
       "id": "5fa89d2f-eebf-4868-8178-97c57bbce647",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "nouel.mp3",
+      "tags": [
+        "singer-songwriter",
+        "sad songs"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Go Ichinose, Junichi Masuda, Hitomi Sato, Morikazu Aoki",
+      "album": "Pokemon Diamond/Pearl",
+      "track": "Route 216",
+      "description": "What an intro! I loved this as a child so much. So jazzy and unlike any other snow/ice theme.",
+      "link": "https://www.youtube.com/watch?v=w2jQPkMTxkc",
+      "game": true,
       "day": "25-12-2026",
       "id": "5dc32bda-d294-4c3a-b872-6f94a4f7e84d",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "route-216.mp3",
+      "tags": [
+        "funky",
+        "pokemon"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Grant Kirkhope",
+      "album": "Diddy Kong Racing",
+      "track": "Pirate Lagoon",
+      "description": "Huge bop from the N64. So much to enjoy about this positive party vibe. Brings back great memories of this game.",
+      "link": "https://www.youtube.com/watch?v=JeMyiHfz-xM",
+      "game": true,
       "day": "24-12-2026",
       "id": "b4495289-d10c-4f3b-a933-809ef4bff1d7",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "pirate-lagoon.mp3",
+      "tags": [
+        "party",
+        "donkey kong"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Coldplay",
+      "album": "Parachutes",
+      "track": "High Speed",
+      "description": "This song really reminds me of playing World of Warcraft at the age of 16. The first couple of Coldplay albums are really great and I've learned that this song is one of the very first songs they ever made.",
+      "link": "https://www.youtube.com/watch?v=JXmyDJpZhAw",
       "game": false,
       "day": "23-12-2026",
       "id": "c0c70ec7-bebb-44a5-82fa-1188c74dbcab",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "high-speed.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Keane",
+      "album": "Hopes and Fears",
+      "track": "Bedshaped",
+      "description": "I used to be a fan of this in primary school! I think that's when I must have had my phase of 'adult contemporary' music. Listening to it again now, this chorus is great.",
+      "link": "https://www.youtube.com/watch?v=JugGmkvhsKQ",
       "game": false,
       "day": "22-12-2026",
       "id": "c030e3ea-df1d-44a0-a435-a08391c95441",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "bedshaped.mp3",
+      "tags": [
+        "sad songs",
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Kings of Convenience (feat. Feist)",
+      "album": "Riot On An Empty Street",
+      "track": "The Build Up",
+      "description": "A very peaceful song. A little bit haunting. There is indeed a small build up to Feist's amazing ending to the song.",
+      "link": "https://www.youtube.com/watch?v=HTB02lBKlyY",
       "game": false,
       "day": "21-12-2026",
       "id": "1e4a48f3-1485-404e-ab18-9120ac78d597",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "the-build-up.mp3",
+      "tags": [
+        "peaceful",
+        "sad songs",
+        "singer-songwriter"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Elbow",
+      "album": "The Seldom Seen Kid",
+      "track": "The Loneliness of a Tower Crane Driver",
+      "description": "I'm just gonna say it I actually enjoy a lot of Elbow songs. I don't think tower crane drivers are particularly lonely and this song feels over the top but I can't help but be moved by the key change at the end.",
+      "link": "https://www.youtube.com/watch?v=znucYJTAig8",
       "game": false,
       "day": "20-12-2026",
       "id": "3172031b-6eef-4554-8fc3-0d4432f54187",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "loneliness-of-a-tower-crane-driver.mp3",
+      "tags": [
+        "indie",
+        "sad songs"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Bon Iver",
+      "album": "For Emma, Forever Ago",
+      "track": "Re: Stacks",
+      "description": "Beautiful track that I have listened to countless times over the years. No idea what it's about.",
+      "link": "https://www.youtube.com/watch?v=3w68krri0bw",
       "game": false,
       "day": "19-12-2026",
       "id": "0a8e5eb5-a391-4ebf-96de-e1aa7c2bf8f8",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "re-stacks.mp3",
+      "tags": [
+        "sad songs",
+        "indie",
+        "chill"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Bonobo (feat. Rhye)",
+      "album": "Migration",
+      "track": "Break Apart",
+      "description": "A sad song. He got on Rhye because he knew he's writing a sad song. A real match made in heaven.",
+      "link": "https://www.youtube.com/watch?v=vhhkk69CxXc",
       "game": false,
       "day": "18-12-2026",
       "id": "522f29cd-320a-4188-a738-bb99332bd2da",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "break-apart.mp3",
+      "tags": [
+        "sad songs",
+        "chill"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Zero 7 (feat. Sia, Sophie Barker)",
+      "album": "Simple Things",
+      "track": "Destiny",
+      "description": "Such a great, sexy groove. Love the line about watching porn in the hotel room.",
+      "link": "https://www.youtube.com/watch?v=U_OKigBRqBI",
       "game": false,
       "day": "17-12-2026",
       "id": "8ce3cfad-d398-4e6a-8c3f-46b137b9c11b",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "destiny.mp3",
+      "tags": [
+        "chill",
+        "babymaking"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Psychedelic Porn Crumpets",
+      "album": "Carpe Diem, Moonman",
+      "track": "Weird World Awoke",
+      "description": "Love it when he says 'let him have it!'. Love the harmonic shift in the bridge.",
+      "link": "https://www.youtube.com/watch?v=3ubr6PnwsL8",
       "game": false,
       "day": "16-12-2026",
       "id": "035bc216-17a7-4470-9445-4fe11cfff15f",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "weird-world-awoke.mp3",
+      "tags": [
+        "rock"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Kylie Minogue",
+      "album": "Rhythm of Love",
+      "track": "Shocked",
+      "description": "The best thing about this song is the minute and a half long intro. Such a build up. Love it.",
+      "link": "https://www.youtube.com/watch?v=F8MZiRi9l20",
       "game": false,
       "day": "15-12-2026",
       "id": "0883e5f9-f561-4ffa-9abf-0000f1ace826",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "shocked.mp3",
+      "tags": [
+        "pop",
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Troye Sivan",
+      "album": "Something To Give Each Other",
+      "track": "Rush",
+      "description": "Banger track, so fun and so gay and the video especially is amazing. It actually captures the Berlin party vibe! There are so many great shots in it. Watching it makes me want to take drugs and party right now.",
+      "link": "https://www.youtube.com/watch?v=b53QJYP-lqY",
       "game": false,
       "day": "14-12-2026",
       "id": "7d7e57c9-8ccf-43cd-92a7-d49380cb360a",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "rush.mp3",
+      "tags": [
+        "party",
+        "pop"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Jamie xx (feat. Honey Dijon)",
+      "album": "In Waves",
+      "track": "Baddy On The Floor",
+      "description": "Huge house track. Song of the summer.",
+      "link": "https://www.youtube.com/watch?v=xeKSdJqFM6o",
       "game": false,
       "day": "13-12-2026",
       "id": "caf86884-ce30-421b-92f8-cdb1f4638998",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "baddy-on-the-floor.mp3",
+      "tags": [
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Jeanette",
+      "album": "Porque Te Vas",
+      "track": "Oye Papá, Oye Mamá",
+      "description": "Catchy song that I really enjoy, even if it's a bit cringe maybe.",
+      "link": "https://www.youtube.com/watch?v=p60HbRLapmI",
       "game": false,
       "day": "12-12-2026",
       "id": "b5c7b633-d7a7-4751-8121-b8995df8f11b",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "oye-papa-oye-mama.mp3",
+      "tags": [
+        "chill",
+        "singer-songwriter",
+        "spanish language"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Air France",
+      "album": "On Trade Winds",
+      "track": "Karibien",
+      "description": "Ultra intense track from this band evoking a strange combination of vibes, 'emergency at sea' and 'beach holiday'",
+      "link": "https://www.youtube.com/watch?v=VjGZqnBobEA",
       "game": false,
       "day": "11-12-2026",
       "id": "6a8c21a1-0a34-4296-bac7-38a01cfb9b6a",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "karibien.mp3",
+      "tags": [
+        "party",
+        "intense"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Masami Ueda",
+      "album": "Super Smash Bros. Ultimate (Metal Gear 2: Solid Snake)",
+      "track": "Theme of Solid Snake",
+      "description": "Such a great, intense af track, with this super nice guitar riff at the climax of the track.",
+      "link": "https://www.youtube.com/watch?v=cti4MYBDf5U",
+      "game": true,
       "day": "10-12-2026",
       "id": "20126dd4-ef7c-4e69-9b43-6535daef0984",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "theme-of-solid-snake.mp3",
+      "tags": [
+        "intense",
+        "smash",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Sade",
+      "album": "Love Deluxe",
+      "track": "No Ordinary Love",
+      "description": "So moody, so sexy, so gorgeous. This is the song that got me into them because I was entranced by this classy, sensual vibe.",
+      "link": "https://www.youtube.com/watch?v=_WcWHZc8s2I",
       "game": false,
       "day": "09-12-2026",
       "id": "873353e6-f722-45dc-b192-7c619af7f648",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "no-ordinary-love.mp3",
+      "tags": [
+        "chill",
+        "classic"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Kenta Nagata, Hajime Wakai, Toru Minegishi, Koji Kondo",
+      "album": "The Legend of Zelda: The Wind Waker",
+      "track": "Windfall Island",
+      "description": "This track is so catchy and nostalgic. I think the original Kakariko theme is great but this takes it to new heights.",
+      "link": "https://www.youtube.com/watch?v=TAUDsoy8OM0",
       "game": false,
       "day": "08-12-2026",
       "id": "ef8f3802-6052-4c3b-8505-d58aaf77dc7e",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "windfall-island.mp3",
+      "tags": [
+        "chill",
+        "zelda"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Confidence Man",
+      "album": "3AM (LA LA LA)",
+      "track": "Who Knows What You'll Find?",
+      "description": "Absolutely obsessed and loving the Kylie vibes on this one. The song just sounds so cheeky and fun. Love it.",
+      "link": "https://www.youtube.com/watch?v=W4_lXFe8URk",
       "game": false,
       "day": "07-12-2026",
       "id": "d105770d-06ab-482e-80ef-9150f6c092a7",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "who-knows-what-youll-find.mp3",
+      "tags": [
+        "pop",
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Ultraflex (feat. Kuntessa)",
+      "album": "Infinite Wellness",
+      "track": "Mi Vuoi",
+      "description": "Huge track. Love it. Have DJ'd it multiple times! I even saw them play it live in a bar in Prenzlauer Berg, and even Kuntessa herself was there.",
+      "link": "https://www.youtube.com/watch?v=mAcW8waJSXE",
       "game": false,
       "day": "06-12-2026",
       "id": "cb331feb-56ed-4f58-8cd5-0e3c97955ca3",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "mi-vuoi.mp3",
+      "tags": [
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Kazumi Totaka",
+      "album": "Animal Crossing: New Horizons",
+      "track": "K. K. Moody",
+      "description": "One of my all-time favourite K.K. tracks, and I think an underrated one. This one is a bolero, so romantic and gorgeous. Can you imagine me getting a boyfriend where I could unironically put this on?",
+      "link": "https://www.youtube.com/watch?v=_yn5lWrjoH4",
+      "game": true,
       "day": "05-12-2026",
       "id": "8daa8961-a301-40ad-9c0f-1e1a93383a95",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "k-k-moody.mp3",
+      "tags": [
+        "chill",
+        "animal crossing"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Alt-J",
+      "album": "An Awesome Wave",
+      "track": "Taro",
+      "description": "This album was huge when it came out. I also really enjoyed it, and this is the best song from it. I'm kinda blown away though that this video has 100 million views.",
+      "link": "https://www.youtube.com/watch?v=S3fTw_D3l10",
       "game": false,
       "day": "04-12-2026",
       "id": "4c3620c6-b1ed-4c90-a410-abf7d82ff4d5",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "taro.mp3",
+      "tags": [
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "jj",
+      "album": "jj N. 2",
+      "track": "Ecstasy",
+      "description": "An ethereal song about being on ecstasy. I listened to it so many times when I was a teenager and I straight up didn't know what ecstasy was back then.",
+      "link": "https://www.youtube.com/watch?v=YHVw3LQEFl0",
       "game": false,
       "day": "03-12-2026",
       "id": "a0566d83-fc20-4793-a21c-a01010f2515b",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "ecstasy.mp3",
+      "tags": [
+        "magical",
+        "chill"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Mr. T with Motoaki.F",
+      "album": "Dance Dance Revolution",
+      "track": "Burning Heat!",
+      "description": "Unlocked a core memory hearing this. Turns out this is a DDR remix of the first level more Gradius 2! That's why there's that chiptune part. Man I loved this so much when I was like 16.",
+      "link": "https://www.youtube.com/watch?v=dTt8-z27Fd4",
+      "game": true,
       "day": "02-12-2026",
       "id": "79238454-449a-427d-a04c-db7291e4f574",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "burning-heat.mp3",
+      "tags": [
+        "other",
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Jessie Ware",
+      "album": "What's Your Pleasure? (The Platinum Edition)",
+      "track": "Overtime",
+      "description": "I'm in it for the hypnotic drums and bassline. It's classic house goodness.",
+      "link": "https://www.youtube.com/watch?v=9K5d1jtZ9hc",
       "game": false,
       "day": "01-12-2026",
       "id": "65c32c7f-0957-44c1-b673-9f5e58b06dfb",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "overtime.mp3",
+      "tags": [
+        "party",
+        "pop"
+      ]
     },
     {
       "artist": "Rhye",
@@ -459,16 +535,19 @@
     },
     {
       "artist": "Caroline Polachek",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "album": "Desire, I Want To Turn Into You",
+      "track": "Blood and Butter",
+      "description": "This is such a lovely, warm song. I like the bagpipes.",
+      "link": "https://www.youtube.com/watch?v=l0iqFWx4H04",
       "game": false,
       "day": "28-11-2026",
       "id": "ae2d35a1-1361-40c2-958d-b178b6ba1b25",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "blood-and-butter.mp3",
+      "tags": [
+        "pop",
+        "magical"
+      ]
     },
     {
       "artist": "MARINA",
