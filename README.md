@@ -63,10 +63,10 @@ Also part of this script is "rclone" which uploads the backups to Google Drive. 
 
 ## Showing stuff on a connected screen
 
-The welcome image feature displays uploaded images on a connected screen using `fbi` (for static images) and `ffmpeg` (for animated GIFs). If you're running this on a home server with a screen, install these:
+The welcome image feature displays uploaded images on a connected screen using `fbi`. If you're running this on a home server with a screen, install these:
 
 ```
-sudo apt install fbi ffmpeg
+sudo apt install fbi
 chmod +x display-image.sh
 ```
 

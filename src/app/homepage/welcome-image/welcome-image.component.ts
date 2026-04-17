@@ -37,7 +37,14 @@ export class WelcomeImageComponent implements OnInit {
   onFileSelected(event: Event): void {
     const input = event.target as HTMLInputElement;
     if (input.files && input.files.length > 0) {
-      this.selectedFile = input.files[0];
+      const file = input.files[0];
+      if (file.type === 'image/gif') {
+        this.uploadError = 'GIF files are not supported. Please upload a static image (JPG, PNG, WEBP, etc.).';
+        this.selectedFile = null;
+        input.value = '';
+        return;
+      }
+      this.selectedFile = file;
       this.uploadSuccess = false;
       this.uploadError = null;
     }
@@ -59,8 +66,8 @@ export class WelcomeImageComponent implements OnInit {
         this.selectedFile = null;
         this.loadLatestImage();
       },
-      error: () => {
-        this.uploadError = 'Upload failed. Please try again.';
+      error: (err) => {
+        this.uploadError = err?.error?.error || 'Upload failed. Please try again.';
         this.isUploading = false;
       }
     });

@@ -5,7 +5,7 @@ const { body, validationResult } = require('express-validator');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
-const { execSync, spawn } = require('child_process');
+const { spawn } = require('child_process');
 
 const isProduction = process.env.NODE_ENV === 'production';
 const uploadDir = isProduction
@@ -22,7 +22,15 @@ const storage = multer.diskStorage({
     cb(null, `welcome-image-${Date.now()}${ext}`);
   }
 });
-const upload = multer({ storage });
+const upload = multer({
+  storage,
+  fileFilter: (req, file, cb) => {
+    if (file.mimetype === 'image/gif') {
+      return cb(new Error('GIF files are not supported'));
+    }
+    cb(null, true);
+  }
+});
 const app = express();
 const port = 3000;
 
@@ -341,7 +349,16 @@ app.get('/api/upload/welcome-image/latest', (req, res) => {
   }
 });
 
-app.post('/api/upload/welcome-image', upload.single('image'), (req, res) => {
+app.post('/api/upload/welcome-image', (req, res) => {
+  upload.single('image')(req, res, (err) => {
+    if (err) {
+      return res.status(400).json({ error: err.message });
+    }
+    handleWelcomeImageUpload(req, res);
+  });
+});
+
+function handleWelcomeImageUpload(req, res) {
   if (!req.file) {
     return res.status(400).json({ error: 'No file uploaded' });
   }
@@ -362,7 +379,7 @@ app.post('/api/upload/welcome-image', upload.single('image'), (req, res) => {
   }
 
   res.status(200).json({ message: 'Image uploaded successfully', filename: req.file.filename });
-});
+}
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);

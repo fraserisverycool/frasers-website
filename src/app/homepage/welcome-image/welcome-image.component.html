@@ -1,14 +1,14 @@
 <h2>Welcome Image</h2>
 @if (latestImageUrl) {
   <div class="latest-image">
-    <p>I connected a little screen to the raspberry pi that this website is running on. Currently on display:</p>
+    <p>I connected a little screen to the raspberry pi that this website is running on. Tragically, animated gifs are not (yet) supported. Currently on display:</p>
     <img [src]="latestImageUrl" alt="Latest welcome image" />
   </div>
 }
 <div class="upload-form">
   <label class="file-select-btn">
     Choose file
-    <input type="file" accept="image/*" (change)="onFileSelected($event)" />
+    <input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/bmp,image/tiff" (change)="onFileSelected($event)" />
   </label>
   <span class="file-name">{{ selectedFile ? selectedFile.name : 'No file chosen' }}</span>
   <button class="upload-btn" (click)="onUpload()" [disabled]="isUploading">
