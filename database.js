@@ -351,23 +351,11 @@ app.post('/api/upload/welcome-image', upload.single('image'), (req, res) => {
 
   try {
     fs.copyFileSync(req.file.path, currentDisplayPath);
-    try { execSync('killall fbi', { stdio: 'ignore' }); } catch (_) {}
-    try { execSync('killall mpv', { stdio: 'ignore' }); } catch (_) {}
-
-    const isGif = ext.toLowerCase() === '.gif';
-    let displayProcess;
-    if (isGif) {
-      // mpv handles animated GIFs; --loop makes it repeat, --vo=drm uses the framebuffer
-      displayProcess = spawn('sudo', ['mpv', '--loop', '--vo=drm', '--vf=rotate=PI', currentDisplayPath], {
-        detached: true,
-        stdio: 'ignore'
-      });
-    } else {
-      displayProcess = spawn('sudo', ['fbi', '-T', '1', '-a', '--rotate', '180', currentDisplayPath], {
-        detached: true,
-        stdio: 'ignore'
-      });
-    }
+    const scriptPath = path.join(__dirname, 'display-image.sh');
+    const displayProcess = spawn('sudo', ['bash', scriptPath, currentDisplayPath], {
+      detached: true,
+      stdio: 'ignore'
+    });
     displayProcess.unref();
   } catch (err) {
     console.error('Display update error:', err.message);

@@ -61,6 +61,15 @@ Both this command and the absolute paths within backup.sh you should change to w
 
 Also part of this script is "rclone" which uploads the backups to Google Drive. You can install rclone on your server and do the same, although you have to go through a set up process with your Google account. The link to my Google Drive is here: https://drive.google.com/drive/folders/1nkGY0eDPV38OAJspq_25Vfc5BQnejXb6?usp=sharing
 
+## Showing stuff on a connected screen
+
+The welcome image feature displays uploaded images on a connected screen using `fbi` (for static images) and `ffmpeg` (for animated GIFs). If you're running this on a home server with a screen, install these:
+
+```
+sudo apt install fbi ffmpeg
+chmod +x display-image.sh
+```
+
 ## Nginx
 In order to run our Angular project in production mode, it's really good to use nginx, a useful way of serving built projects. It can do a bunch of stuff!
 
