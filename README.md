@@ -43,7 +43,7 @@ This project has a database running in a cute little express server. The volume 
 
 You can run this in the background using `pm2` a useful library for running things in the background: https://pm2.io/docs/runtime/guide/installation/
 ```
-pm2 --name FrasersDatabase start database.js
+pm2 start ecosystem.config.js --env production
 pm2 ps
 pm2 delete 0
 pm2 logs
