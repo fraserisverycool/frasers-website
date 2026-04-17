@@ -2,6 +2,24 @@ const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 const cors = require('cors');
 const { body, validationResult } = require('express-validator');
+const multer = require('multer');
+const path = require('path');
+const fs = require('fs');
+const { execSync } = require('child_process');
+
+const uploadDir = path.join(__dirname, 'uploads', 'welcome-image');
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
+}
+
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => cb(null, uploadDir),
+  filename: (req, file, cb) => {
+    const ext = path.extname(file.originalname);
+    cb(null, `welcome-image-${Date.now()}${ext}`);
+  }
+});
+const upload = multer({ storage });
 const app = express();
 const port = 3000;
 
@@ -300,6 +318,43 @@ app.get('/api/brightwell/stats', async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: 'Error retrieving ending stats' });
   }
+});
+
+app.use('/uploads/welcome-image', express.static(uploadDir));
+
+app.get('/api/upload/welcome-image/latest', (req, res) => {
+  try {
+    const files = fs.readdirSync(uploadDir);
+    if (files.length === 0) {
+      return res.status(404).json({ error: 'No images found' });
+    }
+    const latest = files
+      .filter(f => !f.startsWith('current_display'))
+      .map(f => ({ name: f, time: fs.statSync(path.join(uploadDir, f)).mtimeMs }))
+      .sort((a, b) => b.time - a.time)[0];
+    res.json({ filename: latest.name });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.post('/api/upload/welcome-image', upload.single('image'), (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ error: 'No file uploaded' });
+  }
+
+  const ext = path.extname(req.file.filename);
+  const currentDisplayPath = path.join(uploadDir, `current_display${ext}`);
+
+  try {
+    fs.copyFileSync(req.file.path, currentDisplayPath);
+    execSync('killall fbi', { stdio: 'ignore' });
+    execSync(`sudo fbi -T 1 -a ${currentDisplayPath}`, { stdio: 'ignore' });
+  } catch (err) {
+    console.error('Display update error:', err.message);
+  }
+
+  res.status(200).json({ message: 'Image uploaded successfully', filename: req.file.filename });
 });
 
 app.listen(port, () => {

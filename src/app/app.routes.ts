@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import {Routes} from '@angular/router';
 import HomepageComponent from "./homepage/homepage.component";
 import PartyComponent from "./homepage/party/party.component";
 import ChangelogPageComponent from "./homepage/changelog-page/changelog-page.component";
@@ -50,7 +50,7 @@ export const routes: Routes = [
     path: 'changelog', component: ChangelogPageComponent, data: { title: 'Changelog - Fraser\'s Website' }
   },
   {
-    path: 'philosophy', component: PhilosophyComponent, data: { title: 'Philosophy - Fraser\'s Website' }
+    path: 'philosophy', component: PhilosophyComponent, data: {title: 'Philosophy - Fraser\'s Website'}
   },
   {
     path: 'games', component: GamesComponent, data: { title: 'Games - Fraser\'s Website' }

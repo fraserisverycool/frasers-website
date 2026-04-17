@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import { NgOptimizedImage } from '@angular/common';
+import {NgOptimizedImage} from '@angular/common';
 import {Router, RouterLink} from "@angular/router";
 import {CustomMarqueeComponent} from "./custom-marquee/custom-marquee.component";
 import {ChangelogComponent} from "./changelog-page/changelog/changelog.component";
@@ -10,10 +10,11 @@ import {catchError, tap} from "rxjs/operators";
 import {of} from "rxjs";
 import {DailyComponent} from "../music/daily/daily.component";
 import {ImageService} from "../utils/services/image.service";
+import { WelcomeImageComponent } from "./welcome-image/welcome-image.component";
 
 @Component({
     selector: 'app-homepage',
-    imports: [RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, DailyComponent],
+  imports: [RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, DailyComponent, WelcomeImageComponent],
     templateUrl: './homepage.component.html',
     styleUrls: ['./homepage.component.css']
 })
