@@ -10,6 +10,7 @@ import { environment } from '../../../environments/environment';
 })
 export class WelcomeImageComponent implements OnInit {
   private apiUrl = environment.apiUrl;
+  private uploadBaseUrl = environment.uploadBaseUrl;
   selectedFile: File | null = null;
   uploadSuccess: boolean = false;
   uploadError: string | null = null;
@@ -25,7 +26,7 @@ export class WelcomeImageComponent implements OnInit {
   loadLatestImage(): void {
     this.http.get<{ filename: string }>(`${this.apiUrl}/upload/welcome-image/latest`).subscribe({
       next: (res) => {
-        this.latestImageUrl = `${this.apiUrl.replace('/api', '')}/uploads/welcome-image/${res.filename}`;
+        this.latestImageUrl = `${this.uploadBaseUrl}/welcome-image/${res.filename}`;
       },
       error: () => {
         this.latestImageUrl = null;

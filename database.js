@@ -7,7 +7,10 @@ const path = require('path');
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-const uploadDir = path.join(__dirname, 'uploads', 'welcome-image');
+const isProduction = process.env.NODE_ENV === 'production';
+const uploadDir = isProduction
+  ? '/var/www/images/welcome-image'
+  : path.join(__dirname, 'uploads', 'welcome-image');
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true });
 }
