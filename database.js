@@ -5,7 +5,7 @@ const { body, validationResult } = require('express-validator');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
-const { execSync } = require('child_process');
+const { execSync, spawn } = require('child_process');
 
 const isProduction = process.env.NODE_ENV === 'production';
 const uploadDir = isProduction
@@ -351,8 +351,12 @@ app.post('/api/upload/welcome-image', upload.single('image'), (req, res) => {
 
   try {
     fs.copyFileSync(req.file.path, currentDisplayPath);
-    execSync('killall fbi', { stdio: 'ignore' });
-    execSync(`sudo fbi -T 1 -a ${currentDisplayPath}`, { stdio: 'ignore' });
+    try { execSync('killall fbi', { stdio: 'ignore' }); } catch (_) {}
+    const fbi = spawn('sudo', ['fbi', '-T', '1', '-a', currentDisplayPath], {
+      detached: true,
+      stdio: 'ignore'
+    });
+    fbi.unref();
   } catch (err) {
     console.error('Display update error:', err.message);
   }
