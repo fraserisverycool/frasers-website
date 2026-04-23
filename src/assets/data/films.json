@@ -1,6 +1,26 @@
 {
   "films": [
     {
+      "filename": "scherbenland.jpg",
+      "title": "Scherbenland",
+      "description": "An interesting glimpse of punk Berlin! It focused on a 70s punk band (great), a female singer-songwriter (great) and a group of three local lads who are doing Deutschrap (not great). The lads were cute because they are best mates, but they can't answer interview questions for shit and aren't exactly carrying the punk politics torch.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2026",
+      "id": "83c95e55-2552-4f1a-aebc-08aa536ff237",
+      "newsletter": false
+    },
+    {
+      "filename": "the-drama.jpg",
+      "title": "The Drama",
+      "description": "An absolutely excruciating film in terms of second-hand embarrassment. All these rich Americans are deplorable.",
+      "spoiler": "The twist is good. Loved all the references to 'shooting' really nailing how fucking awkward it all is. I think in his position I would call it off because Misha's right, it's psychopath behaviour. Insane position to be in though. The 'friend', Rachel, is the worst friend ever. And why does everyone immediately resort to alcohol whenever anything bad happens?",
+      "year": "2026",
+      "release": "2026",
+      "id": "7cd1b7a3-8514-42d1-b4e8-2f4e6a87bb24",
+      "newsletter": false
+    },
+    {
       "filename": "only-good-things.jpg",
       "title": "Only Good Things",
       "description": "Watched this at mongay. It has a vibes heavy first half that I really enjoyed, but I wasn't really on board with the tone shift in the second half.",

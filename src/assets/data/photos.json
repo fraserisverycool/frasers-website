@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "bowling2.jpg",
+      "title": "Bowling for success",
+      "month": "April 2026",
+      "question": "Where did I go to visit lovely Michal?",
+      "id": "f77e8fef-abc4-49e3-80fd-b1d5b0a829e3",
+      "newsletter": false
+    },
+    {
       "filename": "protest.jpg",
       "title": "Imperialism is back baby",
       "month": "March 2026",

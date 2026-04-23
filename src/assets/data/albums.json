@@ -1,6 +1,29 @@
 {
   "albums": [
     {
+      "filename": "cmat-crazymad.webp",
+      "artist": "CMAT",
+      "name": "Crazymad, For Me",
+      "releaseyear": "2023",
+      "description": [
+        "I keep coming back to this album, mainly thanks to the huge banger that is 'Stay For Something'. I love that she made the climax of the song admitting that she can't bring herself to hate her ex. I'm also obsessed with the special vibe of 'I hate who I am when I'm horny', which explains her complicated feelings about failed experiences. That's a theme of CMAT's music, making songs which showcases the wide range of strange emotions she is feeling."
+      ],
+      "topTracks": [
+        "California",
+        "Rent",
+        "Where Are You Kids Tonight?",
+        "I... Hate Who I Am When I'm Horny",
+        "Stay For Something",
+        "Have Fun!"
+      ],
+      "tags": [
+        "pop",
+        "country"
+      ],
+      "id": "69120030-391f-44e9-99de-ee336fe018cc",
+      "newsletter": false
+    },
+    {
       "filename": "cmat-wife.jpg",
       "artist": "CMAT",
       "name": "If My Wife New I'd Be Dead",

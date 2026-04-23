@@ -14,43 +14,53 @@
   ],
   "dailysoundtracks": [
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Jun Chikuma",
+      "album": "Mega Bomberman",
+      "track": "Final Area",
+      "description": "Love this super intense track from the final (super difficult) level of the only bomberman game I really got into.",
+      "link": "https://www.youtube.com/watch?v=F4UrQ0jzRcA",
+      "game": true,
       "day": "31-12-2026",
       "id": "5ccbf785-4e27-40c0-abe8-62939657b90c",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "final-area.mp3",
+      "tags": [
+        "other",
+        "intense"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Fat White Family",
+      "album": "Serfs Up!",
+      "track": "Tastes Good With The Money",
+      "description": "I don't know too much about this band but I really enjoy the bridge of this song with the voiceover. Video is fun.",
+      "link": "https://www.youtube.com/watch?v=VLTWNfyMS5Y",
       "game": false,
       "day": "30-12-2026",
       "id": "7f6131ae-e249-4fc2-b22e-917cb4422347",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "tastes-good-with-the-money.mp3",
+      "tags": [
+        "indie",
+        "video"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Masato Nakamura",
+      "album": "Sonic the Hedgehog 2",
+      "track": "Hilltop Zone",
+      "description": "A super fun track from my childhood. Banger.",
+      "link": "https://www.youtube.com/watch?v=_Eg7ZWnYKHE",
+      "game": true,
       "day": "29-12-2026",
       "id": "86a209d6-aa53-48b6-91ae-122945c871e9",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "hilltop-zone.mp3",
+      "tags": [
+        "sonic",
+        "funky",
+        "other"
+      ]
     },
     {
       "artist": "Yozu Koshiro",
