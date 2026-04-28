@@ -1,6 +1,19 @@
 {
   "soundtracks": [
     {
+      "filename": "mario-tennis-aces.jpg",
+      "name": "Mario Tennis Aces",
+      "description": [
+        "This really is a pile of steaming shit and not worth your attention. The Bowser's Road remix is alright I guess."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Final Battle"
+      ],
+      "id": "7e82c5a8-7980-4225-8ea9-cae0973d38ef",
+      "newsletter": false
+    },
+    {
       "filename": "tomodachi-life-living.jpg",
       "name": "Tomodachi Life: Living the Dream",
       "description": [
