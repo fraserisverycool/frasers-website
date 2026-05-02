@@ -3944,29 +3944,13 @@
       ]
     },
     {
-      "artist": "Masakazu Sugimori, Akemi Kimura",
-      "album": "Phoenix Wright: Ace Attorney",
-      "track": "Trial",
-      "description": "The chillest and grooviest music you could ever imagine for going to court. Makes me wanna go to court. If I was a lawyer I would play this at parties",
-      "link": "https://www.youtube.com/watch?v=UEGVxLs6Sr0",
-      "game": true,
-      "day": "02-05-2026",
-      "id": "11975846-9afe-4ed1-84ec-fb12cb008afd",
-      "newsletter": false,
-      "filename": "trial.mp3",
-      "tags": [
-        "chill",
-        "other"
-      ]
-    },
-    {
       "artist": "Yeah Yeah Yeahs",
       "album": "Mosquito",
       "track": "Sacrilege",
       "description": "Such an intense song and one of the best music videos ever",
       "link": "https://www.youtube.com/watch?v=jmRI3Ew4BvA",
       "game": false,
-      "day": "01-05-2026",
+      "day": "02-05-2026",
       "id": "9ecf6658-d126-4262-a1e9-cc096c50d482",
       "newsletter": false,
       "filename": "sacrilege.mp3",
@@ -3974,6 +3958,22 @@
         "intense",
         "rock",
         "video"
+      ]
+    },
+    {
+      "artist": "Masakazu Sugimori, Akemi Kimura",
+      "album": "Phoenix Wright: Ace Attorney",
+      "track": "Trial",
+      "description": "The chillest and grooviest music you could ever imagine for going to court. Makes me wanna go to court. If I was a lawyer I would play this at parties",
+      "link": "https://www.youtube.com/watch?v=UEGVxLs6Sr0",
+      "game": true,
+      "day": "01-05-2026",
+      "id": "11975846-9afe-4ed1-84ec-fb12cb008afd",
+      "newsletter": false,
+      "filename": "trial.mp3",
+      "tags": [
+        "chill",
+        "other"
       ]
     },
     {
