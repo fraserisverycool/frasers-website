@@ -10,9 +10,514 @@
     "dorian electra",
     "jamie xx girl",
     "jessie ware begin again",
-    "coldplay violet hill"
+    "coldplay violet hill",
+    "patrick watson daydreamer",
+    "vulfpeck conscious club",
+    "jamiroquai little l",
+    "pond sweep me off my feet"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "Genesis Uwusu",
+      "album": "Smiling With No Teeth",
+      "track": "Same Thing",
+      "description": "A fun, funky track. I love his accent when he sings/raps.",
+      "link": "https://www.youtube.com/watch?v=G9ReQ_mEFrQ",
+      "game": false,
+      "day": "31-01-2027",
+      "id": "a6b71448-8d68-40a0-9353-0742dcb823b8",
+      "newsletter": false,
+      "filename": "same-thing.mp3",
+      "tags": [
+        "funky",
+        "hip-hop"
+      ]
+    },
+    {
+      "artist": "ENNY",
+      "album": "Under Twenty Five",
+      "track": "I Want",
+      "description": "This is a fun track. I love the first part when she says 'I'm good, I'm calm'. Very in my lane and moisturised vibes.",
+      "link": "https://www.youtube.com/watch?v=qUX_jE2pzJk",
+      "game": false,
+      "day": "30-01-2027",
+      "id": "5a879e19-6d12-4a39-9b93-b16f757394dc",
+      "newsletter": false,
+      "filename": "i-want.mp3",
+      "tags": [
+        "hip-hop"
+      ]
+    },
+    {
+      "artist": "HARD FEELINGS",
+      "album": "HARD FEELINGS",
+      "track": "Dangerous",
+      "description": "Disco magic from the producer from Hot Chip. This song is extra special because of the last two minutes when the vibes hit. It's like when the drugs kick in.",
+      "link": "https://www.youtube.com/watch?v=8pKXJRQXags",
+      "game": false,
+      "day": "29-01-2027",
+      "id": "754bac05-04be-4880-afa7-6487be079e10",
+      "newsletter": false,
+      "filename": "dangerous.mp3",
+      "tags": [
+        "pop",
+        "party"
+      ]
+    },
+    {
+      "artist": "Broken Bells",
+      "album": "Into The Blue",
+      "track": "Love On The Run",
+      "description": "Sometimes it's nice to have a slow burner like this. Great music for cycling.",
+      "link": "https://www.youtube.com/watch?v=uLUzTbZcxG8",
+      "game": false,
+      "day": "28-01-2027",
+      "id": "fe235965-0d0e-4e83-8e75-36077e9c8536",
+      "newsletter": false,
+      "filename": "love-on-the-run.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Grace Jones",
+      "album": "Slave to the Rhythm",
+      "track": "Slave to the Rhythm",
+      "description": "Absolutely incredible song that I love and adore. So ahead of its time. Magical music. The video is insane and truly a 10/10.",
+      "link": "https://www.youtube.com/watch?v=Z0XLzIswI2s",
+      "game": false,
+      "day": "27-01-2027",
+      "id": "927612ef-2d37-4ff1-ba8e-ef3321224cc0",
+      "newsletter": false,
+      "filename": "slave-to-the-rhythm.mp3",
+      "tags": [
+        "magical",
+        "pop",
+        "video"
+      ]
+    },
+    {
+      "artist": "Isbells",
+      "album": "Isbells",
+      "track": "As Long As It Takes",
+      "description": "I listened to this song for like 20 years but only now as I write this and watch the video do I realise it's a song about climate change. I love the vibraphone part.",
+      "link": "https://www.youtube.com/watch?v=6qaDZytsJPc",
+      "game": false,
+      "day": "26-01-2027",
+      "id": "0007fd49-751a-4851-b4ec-10225e29b7e6",
+      "newsletter": false,
+      "filename": "as-long-as-it-takes.mp3",
+      "tags": [
+        "sad songs",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Janelle Monáe",
+      "album": "The ArchAndroid",
+      "track": "Mushrooms & Roses",
+      "description": "A slower deep cut from Janelle's seminal sci-fi album the ArchAndroid. This song is about many things but I interpret it as that feeling of finding a place of safety where you can love without fear. I love the part when she describes her encounter with the lady with long grey hair. When she performed this song live she would paint a picture of the 'electric lady', which would go on to inspire her next album.",
+      "link": "https://www.youtube.com/watch?v=jLSEYYazmKc",
+      "game": false,
+      "day": "25-01-2027",
+      "id": "48ce329b-133b-4266-911f-d1b0ed55aa5d",
+      "newsletter": false,
+      "filename": "mushrooms-and-roses.mp3",
+      "tags": [
+        "magical",
+        "chill",
+        "soul"
+      ]
+    },
+    {
+      "artist": "Mr. Sauceman, ClascyJitto, POST ELVIS",
+      "album": "Pizza Tower",
+      "track": "Extraterrestrial Wahwahs",
+      "description": "Banger music from the UFO level. It just keeps going. It keeps evolving. So much to enjoy!",
+      "link": "https://www.youtube.com/watch?v=GHooySzFkHI",
+      "game": true,
+      "day": "24-01-2027",
+      "id": "97a7d077-2de6-4900-9468-4f064aac88bf",
+      "newsletter": false,
+      "filename": "extraterrestrial-wahwahs.mp3",
+      "tags": [
+        "indie",
+        "intense"
+      ]
+    },
+    {
+      "artist": "Pond",
+      "album": "The Weather",
+      "track": "Paint Me Silver",
+      "description": "This music is so fun. Real alien music, exemplified beautifully by the trippy, alien-filled music video. Obsessed.",
+      "link": "https://www.youtube.com/watch?v=wHFt3ncGSiw",
+      "game": false,
+      "day": "23-01-2027",
+      "id": "ce6d1493-b0a4-42f6-a1fa-804f94465dd9",
+      "newsletter": false,
+      "filename": "paint-me-silver.mp3",
+      "tags": [
+        "magical",
+        "special vibes",
+        "video"
+      ]
+    },
+    {
+      "artist": "Lily Allen",
+      "album": "It's Not Me, It's You",
+      "track": "Not Fair",
+      "description": "Shoutouts to Lily Allen for making a song about a guy who's bad in bed. I love the video, specifically this one point towards the end when the guitarist mouths 'what?' as he realises what the song's about.",
+      "link": "https://www.youtube.com/watch?v=fUYaosyR4bE",
+      "game": false,
+      "day": "22-01-2027",
+      "id": "4e521bcc-dcbe-42b9-b2e2-7b3a58e71b2e",
+      "newsletter": false,
+      "filename": "not-fair.mp3",
+      "tags": [
+        "country",
+        "pop",
+        "concrete themes",
+        "video"
+      ]
+    },
+    {
+      "artist": "Jamiroquai",
+      "album": "Driving Songs",
+      "track": "Love Foolosophy",
+      "description": "This song was huge back then and for good reason, it's a banger. That bassline!",
+      "link": "https://www.youtube.com/watch?v=-7Tyd3oHaJQ",
+      "game": false,
+      "day": "21-01-2027",
+      "id": "65478eed-20da-40b5-be78-985d228765f2",
+      "newsletter": false,
+      "filename": "love-foolosophy.mp3",
+      "tags": [
+        "funky",
+        "pop"
+      ]
+    },
+    {
+      "artist": "Todd Terje",
+      "album": "It's Album Time",
+      "track": "Leisure Suit Preben",
+      "description": "This whole album is full of great tracks but I especially love this chill one. I love the gentle harpsichord and piano combo into the section with the strings. Gorgeous.",
+      "link": "https://www.youtube.com/watch?v=XnMAc1Nns7E",
+      "game": false,
+      "day": "20-01-2027",
+      "id": "a2c426c7-cc26-4fac-ad5b-0684e30d9c99",
+      "newsletter": false,
+      "filename": "leisure-suit-preben.mp3",
+      "tags": [
+        "chill",
+        "electronic",
+        "magical"
+      ]
+    },
+    {
+      "artist": "Brittany Howard",
+      "album": "Jaime",
+      "track": "13th Century Metal",
+      "description": "A very rousing song from Brittany! Love the keyboards and synths.",
+      "link": "https://www.youtube.com/watch?v=gUuuFGFpBlU",
+      "game": false,
+      "day": "19-01-2027",
+      "id": "f7f7b10f-c055-4ee9-aeea-5362ae46d7dd",
+      "newsletter": false,
+      "filename": "13th-century-metal.mp3",
+      "tags": [
+        "intense",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Raphael Saadiq",
+      "album": "Jimmy Lee",
+      "track": "This World is Drunk",
+      "description": "Making a chorus out of 'this world is drunk and the people are mad' is a vibe. It's like a song about hopeless frustration.",
+      "link": "https://www.youtube.com/watch?v=kgmqne_zVD4",
+      "game": false,
+      "day": "18-01-2027",
+      "id": "d3bd4fd3-845d-4b56-813a-00fda9002f82",
+      "newsletter": false,
+      "filename": "this-world-is-drunk.mp3",
+      "tags": [
+        "soul",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Hildegard Knef",
+      "album": "Knef",
+      "track": "Im 80. Stockwerk",
+      "description": "I learned about this song when it played during the ending of a visual novel called Harold Halibut. It may be German-language but it's a great, chill vibe with mysterious lyrics.",
+      "link": "https://www.youtube.com/watch?v=kkmFT_HhAr0",
+      "game": false,
+      "day": "17-01-2027",
+      "id": "9c464e86-897e-4486-8174-dab4cf0ab8e8",
+      "newsletter": false,
+      "filename": "im-80-stockwerk.mp3",
+      "tags": [
+        "chill",
+        "german language"
+      ]
+    },
+    {
+      "artist": "Bullion",
+      "album": "Loop The Loop",
+      "track": "My Lar",
+      "description": "I don't know much about this band but I think the algorithm gave me this in recommendation some years ago. It's such a chill vibe, and I later learned that Kero Kero Bonito have them down as an inspiration!",
+      "link": "https://www.youtube.com/watch?v=6zQMqN7qF7o",
+      "game": false,
+      "day": "16-01-2027",
+      "id": "94c48c31-58fd-432b-9ba1-9e51aad513af",
+      "newsletter": false,
+      "filename": "my-lar.mp3",
+      "tags": [
+        "chill",
+        "indie",
+        "magical"
+      ]
+    },
+    {
+      "artist": "Karen O & Danger Mouse",
+      "album": "Lux Prima",
+      "track": "Leopard's Tongue",
+      "description": "Just a nice track I've always enjoyed. Karen O is from the Yeah Yeah Yeah's but I originally knew her from the 'Where the wild things are' soundtrack and I've been a fan since.",
+      "link": "https://www.youtube.com/watch?v=Ulk2yiCsdh8",
+      "game": false,
+      "day": "15-01-2027",
+      "id": "e91fbebf-e516-454d-ba50-c5fc0d9b207b",
+      "newsletter": false,
+      "filename": "leopards-tongue.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Jaco Pastorius",
+      "album": "Jaco Pastorius",
+      "track": "Portrait of Tracy",
+      "description": "This is a bass guitar song made with harmonics. It's a bit of a ride. Definitely not for everyone. Very ethereal.",
+      "link": "https://www.youtube.com/watch?v=nsZ_1mPOuyk",
+      "game": false,
+      "day": "14-01-2027",
+      "id": "8d32208b-b6ba-49f2-97b8-14fa0c1c729e",
+      "newsletter": false,
+      "filename": "portrait-of-tracy.mp3",
+      "tags": [
+        "not for everyone",
+        "wild shit",
+        "special vibes"
+      ]
+    },
+    {
+      "artist": "Vulfpeck",
+      "album": "The Beautiful Game",
+      "track": "Dean Town",
+      "description": "This is, as far as I'm concerned THE bass guitar song. It's funky as hell.",
+      "link": "https://www.youtube.com/watch?v=le0BLAEO93g",
+      "game": false,
+      "day": "13-01-2027",
+      "id": "71ce195e-3a8d-482b-931f-2531465f715e",
+      "newsletter": false,
+      "filename": "dean-town.mp3",
+      "tags": [
+        "funky"
+      ]
+    },
+    {
+      "artist": "Little Dragon",
+      "album": "New Me, Same Us",
+      "track": "Paris",
+      "description": "It's a catchy song about Paris, Texas!",
+      "link": "https://www.youtube.com/watch?v=EFEyHkW5MCs",
+      "game": false,
+      "day": "12-01-2027",
+      "id": "09b8a1d5-aa33-4ff3-bd4f-41969cc1f2a8",
+      "newsletter": false,
+      "filename": "paris.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Gorillaz (feat. Little Dragon)",
+      "album": "Plastic Beach",
+      "track": "Empire Ants",
+      "description": "This Gorillaz album is great. This is one of my favourites from it. It's all about the big washout in the second half of the song.",
+      "link": "https://www.youtube.com/watch?v=5XZGVcHysNk",
+      "game": false,
+      "day": "11-01-2027",
+      "id": "5ff9d5f0-3f50-4352-b590-1b85f68deff5",
+      "newsletter": false,
+      "filename": "empire-ants.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "MGMT",
+      "album": "Little Dark Age",
+      "track": "Me and Michael",
+      "description": "I heard that this song was meant to be originally 'me and my girl' but it was misheard. I like it, and the video is great.",
+      "link": "https://www.youtube.com/watch?v=OTHHeIAYfuU",
+      "game": false,
+      "day": "10-01-2027",
+      "id": "74cf4a39-5f4c-4737-8fdd-2c9e0439294f",
+      "newsletter": false,
+      "filename": "me-and-michael.mp3",
+      "tags": [
+        "indie",
+        "video"
+      ]
+    },
+    {
+      "artist": "Unknown Mortal Orchestra",
+      "album": "Multi-Love",
+      "track": "Mecessary Evil",
+      "description": "I really like the chill chorus of this song. Trippy video too.",
+      "link": "https://www.youtube.com/watch?v=XqjWidsMhvM",
+      "game": false,
+      "day": "09-01-2027",
+      "id": "7e55d1c1-4341-4074-b8f3-f92dfe9d9246",
+      "newsletter": false,
+      "filename": "necessary-evil.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "BADBADNOTGOOD (feat. Time Bernardes)",
+      "album": "-",
+      "track": "Poeira Cosmica",
+      "description": "Gorgeous Brazilian soul. Wow.",
+      "link": "https://www.youtube.com/watch?v=QcQyeugF07c",
+      "game": false,
+      "day": "08-01-2027",
+      "id": "3229f0ee-e51e-4a3f-9075-3e203d8a57c3",
+      "newsletter": false,
+      "filename": "poeira-cosmica.mp3",
+      "tags": [
+        "brazilian",
+        "soul",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Baby Rose & BADBADNOTGOOD",
+      "album": "Slow Burn",
+      "track": "Weekness",
+      "description": "This little EP is amazing, her voice is super nice, and I love the classic soul vibe. What I love the most about this song is the part at the end when she's really wailing.",
+      "link": "https://www.youtube.com/watch?v=0_DyHd5hegg",
+      "game": false,
+      "day": "07-01-2027",
+      "id": "e0744cc7-2cbd-40b0-b37b-ac8754f86242",
+      "newsletter": false,
+      "filename": "weekness.mp3",
+      "tags": [
+        "soul",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Yasuhisa Baba, Chika Sekigawa, Naoko Mitome",
+      "album": "Super Paper Mario",
+      "track": "Castle Bleck",
+      "description": "Great final level music from one of my favourite childhood games.",
+      "link": "https://www.youtube.com/watch?v=HGn8iTCjpkc",
+      "game": true,
+      "day": "06-01-2027",
+      "id": "84799d85-cd10-4b8e-b097-d4cbfa119a3e",
+      "newsletter": false,
+      "filename": "castle-bleck.mp3",
+      "tags": [
+        "intense",
+        "mario"
+      ]
+    },
+    {
+      "artist": "Patrick Watson",
+      "album": "Wooden Arms",
+      "track": "Man Like You",
+      "description": "No idea what this song is about but it's just so lovely.",
+      "link": "https://www.youtube.com/watch?v=dihv5RFTZSk",
+      "game": false,
+      "day": "05-01-2027",
+      "id": "24ef2a21-5ee2-414f-b5bc-0961a36308ef",
+      "newsletter": false,
+      "filename": "man-like-you.mp3",
+      "tags": [
+        "peaceful",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Beirut",
+      "album": "The Flying Club Cup",
+      "track": "In The Mausoleum",
+      "description": "Great track from a great album. I love how sinister this sounds. I especially like that there's a bit of singing at the beginning, but then it's just this intense instrumental.",
+      "link": "https://www.youtube.com/watch?v=e58oBmFeG4w",
+      "game": false,
+      "day": "04-01-2027",
+      "id": "306bb832-0c0d-4468-9ffa-49c574340fd8",
+      "newsletter": false,
+      "filename": "in-the-mausoleum.mp3",
+      "tags": [
+        "intense",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Camera Obscura",
+      "album": "My Maudlin Career",
+      "track": "Honey In The Sun",
+      "description": "A very positive, summery song that I've enjoyed for many summers.",
+      "link": "https://www.youtube.com/watch?v=ZfDg7Vz8Ow4",
+      "game": false,
+      "day": "03-01-2027",
+      "id": "ed066524-27ef-4a55-b334-d1f79b0cf14b",
+      "newsletter": false,
+      "filename": "honey-in-the-sun.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Toby Fox",
+      "album": "Deltarune (Chapter 1)",
+      "track": "Hip Shop",
+      "description": "Huge vibe. I remember hearing this for the first time and realising that it instantly became the best shop music from a video game ever. I feel like it's inspired by Sonic CD Tidal Tempest.",
+      "link": "https://www.youtube.com/watch?v=D83BxptHcRc",
+      "game": true,
+      "day": "02-01-2027",
+      "id": "8b5f8dbf-5455-4cd8-ba6a-92405884f122",
+      "newsletter": false,
+      "filename": "hip-shop.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Joan Baez",
+      "album": "Joan Baez",
+      "track": "All My Trials",
+      "description": "Came for the chord sequence, stayed for the voice and the lyrics. She's amazing.",
+      "link": "https://www.youtube.com/watch?v=fofsNJqfYjg",
+      "game": false,
+      "day": "01-01-2027",
+      "id": "f1367a5f-4a61-445a-bc92-cf6b3ff1ef8a",
+      "newsletter": false,
+      "filename": "all-my-trials.mp3",
+      "tags": [
+        "sad songs",
+        "singer-songwriter",
+        "peaceful"
+      ]
+    },
     {
       "artist": "Jun Chikuma",
       "album": "Mega Bomberman",
@@ -1302,7 +1807,7 @@
       "newsletter": false,
       "filename": "ich-weiss-was-ich-will.mp3",
       "tags": [
-        "german",
+        "german language",
         "party",
         "classic"
       ]
@@ -6407,7 +6912,7 @@
       ]
     },
     {
-      "artist": "Yasuhisa Baba, Chika Sekigawa, & Naoko Mitome",
+      "artist": "Yasuhisa Baba, Chika Sekigawa, Naoko Mitome",
       "album": "Super Paper Mario",
       "track": "Floro Sapiens Caverns",
       "description": "I love this soundtrack so much. This is a super mellow track considering it's played in a cave full of mind-controlling flower people.",
