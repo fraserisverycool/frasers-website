@@ -84,7 +84,7 @@ And also set up this symlink:
 ```sudo ln -s /etc/nginx/sites-available/frasers-website /etc/nginx/sites-enabled/frasers-website```
 
 This means that nginx will automatically run any project that has been built. It makes life a lot easier.
-In the nginx directory of this repo you will find an example config that you can use. Make sure the 'root' points to where you bulid your project, and also make sure it points to port 80.
+In the nginx directory of this repo you will find an example config that you can use. Make sure the 'root' points to where you build your project, and also make sure it points to port 80.
 
 To build the Angular project you can use this command:
 
