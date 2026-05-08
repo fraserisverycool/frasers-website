@@ -15,7 +15,7 @@
         "Mission Accomplished"
       ],
       "id": "c4b3b546-dfe0-46af-9d73-88f4662cb37c",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "mario-tennis-aces.jpg",
@@ -28,7 +28,7 @@
         "Final Battle"
       ],
       "id": "7e82c5a8-7980-4225-8ea9-cae0973d38ef",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "tomodachi-life-living.jpg",
@@ -41,7 +41,7 @@
         "Afternoon on the Island"
       ],
       "id": "e9b869dc-b86d-4c90-8a9c-04440657ae91",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "animal-crossing.jpg",
@@ -66,7 +66,7 @@
         "Wishing Well"
       ],
       "id": "c8d74269-e6e8-4e27-bedd-db45bc04a4e5",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "splatoon-3.jpg",

@@ -8,7 +8,7 @@
       "year": "2026",
       "release": "2026",
       "id": "83c95e55-2552-4f1a-aebc-08aa536ff237",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "the-drama.jpg",
@@ -18,7 +18,7 @@
       "year": "2026",
       "release": "2026",
       "id": "7cd1b7a3-8514-42d1-b4e8-2f4e6a87bb24",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "only-good-things.jpg",
@@ -28,7 +28,7 @@
       "year": "2026",
       "release": "2025",
       "id": "b8a37bca-a598-4102-8490-41bd98957b23",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "sirat.jpg",

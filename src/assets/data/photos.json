@@ -6,7 +6,7 @@
       "month": "May 2026",
       "question": "Name any Weyes DJ.",
       "id": "0e65fad7-fa0d-45f3-9b70-b8345d6f341f",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "shallow.jpg",
@@ -14,7 +14,7 @@
       "month": "April 2026",
       "question": "What's the name of our clan in smash? Alternatively, what's the name of our opponents on this crew battle?",
       "id": "a88ba457-58e4-4a55-b889-b7292b8012bd",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "bowling2.jpg",
@@ -22,7 +22,7 @@
       "month": "April 2026",
       "question": "Where did I go to visit lovely Michal?",
       "id": "f77e8fef-abc4-49e3-80fd-b1d5b0a829e3",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "protest.jpg",
