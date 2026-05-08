@@ -1,6 +1,23 @@
 {
   "soundtracks": [
     {
+      "filename": "starfox.jpg",
+      "name": "Starfox",
+      "description": [
+        "Hard to believe they're remaking Lylat Wars for the fourth time but here we are. At least that game had some great tracks on the soundtrack! Here we have some bombastic, orchestral versions of the old tracks. I'm not sure if it does anything for me. Starfox Zero had some real great music so maybe they can pull it out the bag."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Opening Theme",
+        "Star Map",
+        "Area 6",
+        "Main Menu",
+        "Mission Accomplished"
+      ],
+      "id": "c4b3b546-dfe0-46af-9d73-88f4662cb37c",
+      "newsletter": false
+    },
+    {
       "filename": "mario-tennis-aces.jpg",
       "name": "Mario Tennis Aces",
       "description": [

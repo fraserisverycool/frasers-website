@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "name": "Tomodachi Life: Living the Dream",
+      "vibes": "10",
+      "gameplay": "4",
+      "review": [
+        "This game is not worth the price because the gameplay is interesting for 10 minutes at a time. But I have to give it to this series for being genuinely funny. It's so absurd and the comedic timing is just a little off, and I love it. It's so funny. And it's only possible thanks to the ability to make the Miis say whatever you want. My Mii's favourite hobby? Cock and ball torture. Favourite food? Pile of steaming shit. What do the Miis bond over most? Domming.",
+        "I was showing this game to Jack and Anni when two Miis had a baby and gave it a video of porn (that I drew) as its first childhood toy. Out of context it was actually outrageous and I understand why Nintendo don't let you upload screenshots from this game, because there are absolutely no limits or filters on the user input. Super funny.",
+        "Anyway, the game itself really doesn't have much going for it. It gets boring when you start seeing the same cutscenes over and over again."
+      ],
+      "image": "tomodachi-life-living.jpg",
+      "platform": "Switch 2",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": false,
+      "completable": false,
+      "id": "e64d5a83-933e-4adc-9dcd-807f4c642bee",
+      "newsletter": false
+    },
+    {
       "name": "Promise Mascot Agency",
       "vibes": "8",
       "gameplay": "6",

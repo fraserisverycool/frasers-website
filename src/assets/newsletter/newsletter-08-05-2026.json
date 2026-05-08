@@ -1,0 +1,138 @@
+{
+    "timestamp": "08-05-2026",
+    "title": "Making my own music and video library",
+    "description": [
+        "Recently I had a super stressful time in my life where I didn't make time for me, so I took the week off work! Not only did I get all the shit on my to-do list done, but I also finally had some time for some Fraser projects. This time that meant taking some steps on my journey of de-teching my life. I made my own music and movie streaming platform on the raspberry pi in my house!",
+        "I already had the pi set up with cloudflare and nginx for this website, so it was pretty easy to install some open source music streaming software (navidrome) and video streaming software (jellyfin). I connected two SSDs to the pi and made a nice network-attached storage out it! That part was a learning experience. I've had to learn about voltage and self-hosting stuff and let's just say I'm happy it works now.",
+        "Movie streaming is available at watch.worldpeace.services. I downloaded a bunch of films that I've been meaning to watch and now no matter where I am, I can log in and stream them! If any readers of this website want in, let me know and I'll make you a login.",
+        "Likewise, music streaming is available at music.worldpeace.services, but here I'm at a crossroads in terms of how I set up my library. I started by putting all my CDs on there, but it doesn't feel right illegally downloading the music, when one of the reasons I want to stop using other streaming services is because they barely pay the artists. On the other hand, I'm daunted by the idea of buying all my favourite albums. There are a lot.",
+        "Also, I'm still going to need a streaming service so I can listen to new music before I commit to downloading it and putting on the pi. So honestly, I'm not sure what to do about music streaming. I can build up a banger library over time, but it's not a satisfying solution. Anyway if you want to listen to the CDs I have at home, let me know and I'll give you a login here too.",
+        "Anyway, I wish you guys well if you're also on a de-teching journey, and I wish you all a lovely time! Let's go into the summer with free calendars!"
+    ],
+    "entries": [
+        {
+            "title": "Tomodachi Life: Living the Dream",
+            "description": [
+                "This game is not worth the price because the gameplay is interesting for 10 minutes at a time. But I have to give it to this series for being genuinely funny. It's so absurd and the comedic timing is just a little off, and I love it. It's so funny. And it's only possible thanks to the ability to make the Miis say whatever you want. My Mii's favourite hobby? Cock and ball torture. Favourite food? Pile of steaming shit. What do the Miis bond over most? Domming.",
+                "I was showing this game to Jack and Anni when two Miis had a baby and gave it a video of porn (that I drew) as its first childhood toy. Out of context it was actually outrageous and I understand why Nintendo don't let you upload screenshots from this game, because there are absolutely no limits or filters on the user input. Super funny.",
+                "Anyway, the game itself really doesn't have much going for it. It gets boring when you start seeing the same cutscenes over and over again."
+            ],
+            "image": "games/tomodachi-life-living.jpg",
+            "metadata": "Vibes: 10, Gameplay: 4, Platform: Switch 2, Release: 2026",
+            "type": "GAME"
+        },
+        {
+            "title": "Scherbenland",
+            "description": [
+                "An interesting glimpse of punk Berlin! It focused on a 70s punk band (great), a female singer-songwriter (great) and a group of three local lads who are doing Deutschrap (not great). The lads were cute because they are best mates, but they can't answer interview questions for shit and aren't exactly carrying the punk politics torch."
+            ],
+            "image": "films/scherbenland.jpg",
+            "metadata": "Release: 2026",
+            "type": "FILM"
+        },
+        {
+            "title": "The Drama",
+            "description": [
+                "An absolutely excruciating film in terms of second-hand embarrassment. All these rich Americans are deplorable."
+            ],
+            "image": "films/the-drama.jpg",
+            "metadata": "Release: 2026, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "Only Good Things",
+            "description": [
+                "Watched this at mongay. It has a vibes heavy first half that I really enjoyed, but I wasn't really on board with the tone shift in the second half."
+            ],
+            "image": "films/only-good-things.jpg",
+            "metadata": "Release: 2025",
+            "type": "FILM"
+        },
+        {
+            "title": "Crazymad, For Me",
+            "description": [
+                "I keep coming back to this album, mainly thanks to the huge banger that is 'Stay For Something'. I love that she made the climax of the song admitting that she can't bring herself to hate her ex. I'm also obsessed with the special vibe of 'I hate who I am when I'm horny', which explains her complicated feelings about failed experiences. That's a theme of CMAT's music, making songs which showcases the wide range of strange emotions she is feeling."
+            ],
+            "image": "music/albums/cmat-crazymad.webp",
+            "metadata": "Artist: CMAT, Release: 2023, for a list of favourite tracks, please visit the albums page!",
+            "type": "ALBUM"
+        },
+        {
+            "title": "Starfox",
+            "description": [
+                "Hard to believe they're remaking Lylat Wars for the fourth time but here we are. At least that game had some great tracks on the soundtrack! Here we have some bombastic, orchestral versions of the old tracks. I'm not sure if it does anything for me. Starfox Zero had some real great music so maybe they can pull it out the bag."
+            ],
+            "image": "music/nintendo/starfox.jpg",
+            "metadata": "Platform: Switch 2, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Mario Tennis Aces",
+            "description": [
+                "This really is a pile of steaming shit and not worth your attention. The Bowser's Road remix is alright I guess."
+            ],
+            "image": "music/nintendo/mario-tennis-aces.jpg",
+            "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Tomodachi Life: Living the Dream",
+            "description": [
+                "If there's one thing that Nintendo love putting on this app, it's every single Mii-themed game. So you just know that the new Tomodachi Life is coming on here frame 1. I'm not wowed by the music so far if I'm honest. The previous game had some good deep cuts but these tracks here aren't doing it for me."
+            ],
+            "image": "music/nintendo/tomodachi-life-living.jpg",
+            "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Animal Crossing",
+            "description": [
+                "This soundtrack is very kooky indeed. It makes me appreciate how Animal Crossing is a series which took a fair few games of perfecting the formula. This is pretty rough, but almost all of this is also in New Horizons because its foundations are so solid. The hourly themes vary quite a lot, some resembling newer hourly themes, and others way more out there. Some of them (looking at you, 11pm and 3pm) are borderline unlistenable.",
+                "Also, I want to shout out this beautiful little chord sequence buried deep in the new year tracks. Specifically the 10 minutes before midnight music is super gorgeous. And 'Meteor Shower' and 'Wishing Well' are beautiful and never came back in future iterations!"
+            ],
+            "image": "music/nintendo/animal-crossing.jpg",
+            "metadata": "Platform: Gamecube, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Biggest 1. Mai yet",
+            "description": null,
+            "image": "gallery/weyes.jpg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        },
+        {
+            "title": "Crew Battle for the ages",
+            "description": null,
+            "image": "gallery/shallow.jpg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        },
+        {
+            "title": "Bowling for success",
+            "description": null,
+            "image": "gallery/bowling2.jpg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        },
+        {
+            "title": "Little smirk",
+            "description": [
+                "It's all about that first tiny smirk. Obsessed."
+            ],
+            "image": null,
+            "metadata": "Link: https://www.youtube.com/shorts/lMjCvQB7uyY",
+            "type": "VIDEO"
+        },
+        {
+            "title": "Nobody",
+            "description": [
+                "Love everything about this, especially the grand exit at the end."
+            ],
+            "image": null,
+            "metadata": "Link: https://www.youtube.com/shorts/wkeCoNhTgp0",
+            "type": "VIDEO"
+        }
+    ],
+    "id": "348d593f-a37c-449f-bfc4-b9d7b1aa5425"
+}

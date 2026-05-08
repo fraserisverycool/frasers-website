@@ -1,6 +1,13 @@
 {
   "videos": [
     {
+      "link": "https://www.youtube.com/shorts/lMjCvQB7uyY",
+      "title": "Little smirk",
+      "description": "It's all about that first tiny smirk. Obsessed.",
+      "id": "34771623-a94b-4a6c-9bc0-74650b6ab1ca",
+      "newsletter": false
+    },
+    {
       "link": "https://www.youtube.com/shorts/wkeCoNhTgp0",
       "title": "Nobody",
       "description": "Love everything about this, especially the grand exit at the end.",
@@ -8,7 +15,7 @@
       "newsletter": false
     },
     {
-      "link",: "https://www.youtube.com/watch?v=ykz_dbpYRPU",
+      "link": "https://www.youtube.com/watch?v=ykz_dbpYRPU",
       "title": "Weather lady glitch",
       "description": "I hope I see something like this live one day.",
       "id": "f98ffae2-0dae-4cd1-8189-e06cbfcc8b51",

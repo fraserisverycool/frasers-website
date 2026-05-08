@@ -1,9 +1,8 @@
 .container {
   width: 100%;
   max-width: 800px;
-  padding: 20px;
   margin: 0 auto;
-  box-sizing: border-box;
+  margin-top: 20px;
   background: linear-gradient(45deg, #e89bd6, #f4bdff);
   border: 2px solid #ee30ff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);

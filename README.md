@@ -103,6 +103,8 @@ sudo tail -f /var/log/nginx/access.log
 sudo tail -f /var/log/nginx/error.log
 ```
 
+Note: The provided nginx file also contains configuration for the music and video streaming services I installed on my pi. That's kinda a different thing that I don't fancy explaining here. You can ignore it.
+
 ## Scripts
 In the scripts folder you can find some useful python scripts.
 
