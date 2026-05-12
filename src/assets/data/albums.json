@@ -1,6 +1,49 @@
 {
   "albums": [
     {
+      "filename": "silvana-vendran.jpg",
+      "artist": "Silvana Estrada",
+      "name": "Vendrán Suaves Lluvias",
+      "releaseyear": "2025",
+      "description": [
+        ""
+      ],
+      "topTracks": [
+        "Lila Alelí",
+        "Flores",
+        "Como Un Pájaro",
+        "El Alma Mia"
+      ],
+      "tags": [
+        "singer-songwriter",
+        "spanish language",
+        "from the heart"
+      ],
+      "id": "d10c4a5e-70db-4a34-8cee-97c947dc3ede",
+      "newsletter": false
+    },
+    {
+      "filename": "jessie-superbloom.jpg",
+      "artist": "Jessie Ware",
+      "name": "Superbloom",
+      "releaseyear": "2026",
+      "description": [
+        "Well guys she did it again! Jessie is back for round 3 of heavenly disco-infused pop magic. She's taken the breezy string arrangements from 'Remember Where You Are' and 'Hey Love' and turned them into a whole album, and because of that it sounds like angelic heaven music. It feels like a warm breeze. When I first heard 'Ride' I thought it was cheesy but after like 3 listens I became a fan. I just love Ennio Morricone that much. Also, shoutouts to my favourite track 'Don't You Know Who I Am?'. I can just pictured the woman scorned on the dancefloor now her planned hook up failed. Iconic song."
+      ],
+      "topTracks": [
+        "Automatic",
+        "Ride",
+        "Don't You Know Who I Am?",
+        "Mon Amour"
+      ],
+      "tags": [
+        "pop",
+        "party"
+      ],
+      "id": "5aa2955c-8470-46ac-be10-41e5d6874c56",
+      "newsletter": false
+    },
+    {
       "filename": "cmat-crazymad.webp",
       "artist": "CMAT",
       "name": "Crazymad, For Me",

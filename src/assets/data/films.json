@@ -1,6 +1,16 @@
 {
   "films": [
     {
+      "filename": "pink-narcissus.jpg",
+      "title": "Pink Narcissus",
+      "description": "A vibes-heavy 70's film about homoerotic imagery and sex fantasies without any dialogue. It's got great colours but I was really tired in the cinema and just wanted to go home.",
+      "spoiler": "The scene with the dancer dancing with a fully erect cock was great. They really let that go on for a long time.",
+      "year": "2026",
+      "release": "1971",
+      "id": "509abeb0-f79f-47ed-a23d-48e350bb89c3",
+      "newsletter": false
+    },
+    {
       "filename": "scherbenland.jpg",
       "title": "Scherbenland",
       "description": "An interesting glimpse of punk Berlin! It focused on a 70s punk band (great), a female singer-songwriter (great) and a group of three local lads who are doing Deutschrap (not great). The lads were cute because they are best mates, but they can't answer interview questions for shit and aren't exactly carrying the punk politics torch.",

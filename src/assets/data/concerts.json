@@ -1,6 +1,15 @@
 {
   "concerts": [
     {
+      "artist": "Silvana Estrada",
+      "date": "10-05-2026",
+      "venue": "Heimathafen, Berlin",
+      "image": "silvana3.jpg",
+      "description": "Deeply emotional performance from Silvana. Great to see her now three times in Berlin, each time she's bigger and better. For the final song we all sang 'El Alma Mia' together without microphones and I loved it. Great venue, also.",
+      "id": "6763a059-800d-4372-9105-3aa37d90f6d6",
+      "newsletter": false
+    },
+    {
       "artist": "CMAT",
       "date": "26-03-2026",
       "venue": "Tempodrom, Berlin",

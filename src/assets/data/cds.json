@@ -550,6 +550,24 @@
       "newsletter": true
     },
     {
+      "artist": "Silvana Estrada",
+      "album": "Vendrán Suaves Lluvias",
+      "genre": "Indie & Singer-Songwriter",
+      "description": "Peaceful, gorgeous music from Mexico. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
+      "image": "silvana-vendran.jpg",
+      "id": "5d51b88a-6ce3-4bdf-8015-8f3b5b140362",
+      "newsletter": false
+    },
+    {
+      "artist": "Silvana Estrada",
+      "album": "Marchita",
+      "genre": "Indie & Singer-Songwriter",
+      "description": "Peaceful, beautiful music from Mexico. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
+      "image": "silvana-marchita.jpg",
+      "id": "bdd4fc6d-a4a2-44e2-9bd8-d1c260b2bb5f",
+      "newsletter": false
+    },
+    {
       "artist": "Beirut",
       "album": "The Flying Club Cup",
       "genre": "Indie & Singer-Songwriter",
