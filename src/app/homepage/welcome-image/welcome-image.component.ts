@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-welcome-image',
-  imports: [],
+  standalone: true,
+  imports: [FormsModule],
   templateUrl: './welcome-image.component.html',
   styleUrls: ['./welcome-image.component.css']
 })
@@ -16,6 +18,7 @@ export class WelcomeImageComponent implements OnInit {
   uploadError: string | null = null;
   isUploading: boolean = false;
   latestImageUrl: string | null = null;
+  password: string = '';
 
   constructor(private http: HttpClient) {}
 
@@ -59,11 +62,13 @@ export class WelcomeImageComponent implements OnInit {
     this.uploadError = null;
     const formData = new FormData();
     formData.append('image', this.selectedFile);
+    formData.append('password', this.password);
     this.http.post(`${this.apiUrl}/upload/welcome-image`, formData).subscribe({
       next: () => {
         this.uploadSuccess = true;
         this.isUploading = false;
         this.selectedFile = null;
+        this.password = '';
         this.loadLatestImage();
       },
       error: (err) => {

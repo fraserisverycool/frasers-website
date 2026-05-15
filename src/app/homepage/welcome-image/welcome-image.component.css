@@ -68,6 +68,20 @@
   margin-top: 1rem;
 }
 
+.password-input {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 150px;
+}
+
+.password-input:focus {
+  border-color: #f857a6;
+}
+
 .latest-image {
   margin-top: 2rem;
 }

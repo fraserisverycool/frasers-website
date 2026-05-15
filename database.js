@@ -354,6 +354,14 @@ app.post('/api/upload/welcome-image', (req, res) => {
     if (err) {
       return res.status(400).json({ error: err.message });
     }
+
+    if (req.body.password !== 'princesspeach') {
+      if (req.file) {
+        fs.unlinkSync(req.file.path);
+      }
+      return res.status(403).json({ error: 'Incorrect password' });
+    }
+
     handleWelcomeImageUpload(req, res);
   });
 });
