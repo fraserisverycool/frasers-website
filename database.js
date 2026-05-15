@@ -19,7 +19,9 @@ const storage = multer.diskStorage({
   destination: (req, file, cb) => cb(null, uploadDir),
   filename: (req, file, cb) => {
     const ext = path.extname(file.originalname);
-    cb(null, `welcome-image-${Date.now()}${ext}`);
+    const now = new Date();
+    const timestamp = now.toISOString().replace(/T/, '_').replace(/:/g, '-').split('.')[0];
+    cb(null, `welcome-image-${timestamp}${ext}`);
   }
 });
 const upload = multer({

@@ -1,10 +1,13 @@
 <h2>Welcome Image</h2>
+<p>I connected a little screen to the raspberry pi that this website is running on. Tragically, animated gifs are not (yet) supported. Currently on display:</p>
 @if (latestImageUrl) {
   <div class="latest-image">
-    <p>I connected a little screen to the raspberry pi that this website is running on. Tragically, animated gifs are not (yet) supported. Currently on display:</p>
     <img [src]="latestImageUrl" alt="Latest welcome image" />
   </div>
+} @else {
+  <p>Oh, actually there's no image for some reason...</p>
 }
+<p>You can upload a different image here, but you'll need a password. (hint: it's my wifi password)</p>
 <div class="upload-form">
   <label class="file-select-btn">
     Choose file
