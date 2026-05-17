@@ -1,6 +1,32 @@
 {
   "soundtracks": [
     {
+      "filename": "yoshi-gb.jpg",
+      "name": "Yoshi",
+      "description": [
+        "It's not very good. Don't spend any time on this."
+      ],
+      "platform": "Gameboy",
+      "topTracks": [
+        ""
+      ],
+      "id": "4b8ffa04-288b-4f53-bdb1-2ba1d129c4a2",
+      "newsletter": false
+    },
+    {
+      "filename": "yoshi.jpg",
+      "name": "Yoshi",
+      "description": [
+        "I don't think there's much to enjoy here. 'Vs. Menu' is positively horrible."
+      ],
+      "platform": "NES",
+      "topTracks": [
+        ""
+      ],
+      "id": "ae8faf3e-7a96-4811-b939-f889be8c6ae7",
+      "newsletter": false
+    },
+    {
       "filename": "starfox.jpg",
       "name": "Starfox",
       "description": [
