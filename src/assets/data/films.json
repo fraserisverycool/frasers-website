@@ -1,6 +1,26 @@
 {
   "films": [
     {
+      "filename": "nightbreed.jpg",
+      "title": "Nightbreed",
+      "description": "A very sexually charged and homoerotic horror action film where the money is invested more into the costumes and sets than the writing. Really funny.",
+      "spoiler": "When she says 'I'll always stay with you!' then immediately screams and runs when she sees him. Hilarious.",
+      "year": "2026",
+      "release": "1990",
+      "id": "fc3a1037-0d35-4750-a5ee-fbe551e6f437",
+      "newsletter": false
+    },
+    {
+      "filename": "brazil.jpg",
+      "title": "Brazil",
+      "description": "A dystopian 1984-type film which had some great characters and funny moments, but I honestly got a bit bored and started playing pokemon leaf green during the last hour or so.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "1985",
+      "id": "0aab51f9-750f-47df-b3a0-12f009ba92d3",
+      "newsletter": false
+    },
+    {
       "filename": "baby-jane.jpg",
       "title": "What Ever Happened To Baby Jane?",
       "description": "A camp black and white film about a sour old lady who terrorises everyone around her. It's very entertaining and honestly quite shocking.",

@@ -1,6 +1,25 @@
 {
   "soundtracks": [
     {
+      "filename": "zelda-link-between-worlds.jpg",
+      "name": "The Legend of Zelda: A Link Between Worlds",
+      "description": [
+        "Because this leans so heavily on a Link to the Past's soundtrack, I feel like it doesn't have too much of its own identity. I do think it's good though. Specifically the 'Three Dungeons of Hyrule' theme is so moody and excellent. And the brand new 'Lorule Castle' is one of the all-time greats."
+      ],
+      "platform": "3DS",
+      "topTracks": [
+        "At the Santuary",
+        "Kakariko Village",
+        "The Three Dungeons of Hyrule",
+        "StreetPass Battle Theme",
+        "Hyrule Theme 2",
+        "Lorule Theme",
+        "Lorule Castle"
+      ],
+      "id": "7b53804e-9293-4b06-9ccb-0bb0d4c8621c",
+      "newsletter": false
+    },
+    {
       "filename": "yoshi-gb.jpg",
       "name": "Yoshi",
       "description": [
