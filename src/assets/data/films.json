@@ -1,6 +1,16 @@
 {
   "films": [
     {
+      "filename": "invisible-man.jpg",
+      "title": "The Invisible Man",
+      "description": "An old film about a man who turns himself invisible. Super entertaining. Lots to enjoy here. I'm loving classic films like this.",
+      "spoiler": "I'm obsessed with how much of a diva this invisible man is!! And of course he goes around murdering people because he's finally free to take off his clothes, let his dick dangle and just be his gay self out in the open. It's like a gay fantasy. I explained to the group I was with that this is a gay film and when we looked up the director afterwards, yep he's gay. I didn't expect it but this is a camp classic.",
+      "year": "2026",
+      "release": "1933",
+      "id": "90b12f71-0019-456c-9e8a-1b01625e8626",
+      "newsletter": false
+    },
+    {
       "filename": "nightbreed.jpg",
       "title": "Nightbreed",
       "description": "A very sexually charged and homoerotic horror action film where the money is invested more into the costumes and sets than the writing. Really funny.",
