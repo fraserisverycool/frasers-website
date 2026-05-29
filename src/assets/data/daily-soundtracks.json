@@ -3,7 +3,7 @@
     "babymaking as a playlist",
     "jazz as a playlist",
     "kimbra",
-    "anohni drone bomb me / it must change",
+    "anohni it must change",
     "björk bachelorette",
     "kkb waking up",
     "james blake",
@@ -17,6 +17,452 @@
     "pond sweep me off my feet"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "ANOHNI",
+      "album": "HOPELESSNESS",
+      "track": "Drone Bomb Me",
+      "description": "Devastating track from Anohni. 'I have a glint in my eye... I think I wanna die'. I mean just imagine death by drone. Drones these soulless, humanless killing machines. And gosh the video.",
+      "link": "https://www.youtube.com/watch?v=aUEoic7ro_o",
+      "game": false,
+      "day": "28-02-2027",
+      "id": "664ce213-e891-445d-9e3f-aa63ec71415e",
+      "newsletter": false,
+      "filename": "drone-bomb-me.mp3",
+      "tags": [
+        "devastating"
+      ]
+    },
+    {
+      "artist": "Supergrass",
+      "album": "Supergrass",
+      "track": "Mama And Papa",
+      "description": "A sad song I used to listen to a lot. Really nice.",
+      "link": "https://www.youtube.com/watch?v=Sge5NoyT6Tw",
+      "game": false,
+      "day": "27-02-2027",
+      "id": "22615a1a-a466-4754-90eb-6e457d426189",
+      "newsletter": false,
+      "filename": "mama-and-papa.mp3",
+      "tags": [
+        "sad songs",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Eels",
+      "album": "Beautiful Freak",
+      "track": "Susan's House",
+      "description": "Listened to this as a teenager. I don't know who Susan is because I like that piano part.",
+      "link": "https://www.youtube.com/watch?v=lC3MH-U6yDk",
+      "game": false,
+      "day": "26-02-2027",
+      "id": "8fd10d3a-eb7c-4b7e-8c86-acd94a022e9b",
+      "newsletter": false,
+      "filename": "susans-house.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Nourished By Time",
+      "album": "The Passionate Ones",
+      "track": "Crazy People",
+      "description": "This is a bop, it's a bit all over the place and the vocals I was unsure about at first. But it's great!",
+      "link": "https://www.youtube.com/watch?v=S8uQLYb8yio",
+      "game": false,
+      "day": "25-02-2027",
+      "id": "cd844b2e-a116-4f6d-8a44-b6d6aba6f5b0",
+      "newsletter": false,
+      "filename": "crazy-people.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Fat White Family",
+      "album": "Serfs Up!",
+      "track": "Tastes Good With The Money",
+      "description": "This is a very chaotic band and I'm not on board with a lot of their stuff but I do really like this song, especially the spoken word part in the middle. Turns out Róisín Murphy directed the surreal music video!",
+      "link": "https://www.youtube.com/watch?v=VLTWNfyMS5Y",
+      "game": false,
+      "day": "24-02-2027",
+      "id": "de3277d5-505a-49eb-9498-f5e5036131d4",
+      "newsletter": false,
+      "filename": "tastes-good-with-the-money.mp3",
+      "tags": [
+        "video",
+        "rock",
+        "indie"
+      ]
+    },
+    {
+      "artist": "corto.alto",
+      "album": "Bad With Names",
+      "track": "Slope",
+      "description": "I'm in it for the bassline and the section with the piano and strings. Gorgeous.",
+      "link": "https://www.youtube.com/watch?v=m7sGGKSjTsk",
+      "game": false,
+      "day": "23-02-2027",
+      "id": "c721a719-f36c-404c-a641-f6bde0b03a2c",
+      "newsletter": false,
+      "filename": "slope.mp3",
+      "tags": [
+        "funky",
+        "jazz"
+      ]
+    },
+    {
+      "artist": "Labi Siffre",
+      "album": "Crying, Laughing, Loving, Lying",
+      "track": "Cannock Chase",
+      "description": "Gorgeous 70s folky song, reminiscent of Glen Campbell. You can almost feel the wind against your skin when you listen to this.",
+      "link": "https://www.youtube.com/watch?v=aavxo3n8-xE",
+      "game": false,
+      "day": "22-02-2027",
+      "id": "9e05dcfa-e6b1-48b6-9afd-93a5b22628bb",
+      "newsletter": false,
+      "filename": "cannock-chase.mp3",
+      "tags": [
+        "classic",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Breakbot",
+      "album": "Still Water",
+      "track": "Back For More",
+      "description": "I was a Breakbot fan before they got a viral hit! This is my favourite track from them. I love to DJ it. Love the vocals.",
+      "link": "https://www.youtube.com/watch?v=RZi-5tSZH34",
+      "game": false,
+      "day": "21-02-2027",
+      "id": "64be82f5-e6dc-49c9-8e30-3fa78217c03b",
+      "newsletter": false,
+      "filename": "back-for-more.mp3",
+      "tags": [
+        "party",
+        "electronic"
+      ]
+    },
+    {
+      "artist": "Luke Levenson (feat. Yebba)",
+      "album": "-",
+      "track": "Smoke",
+      "description": "A fun little duet! Love it. Great singing from both of them.",
+      "link": "https://www.youtube.com/watch?v=VNUVMIXz67k",
+      "game": false,
+      "day": "20-02-2027",
+      "id": "4809ac22-4f0d-4e50-a386-3a825affae59",
+      "newsletter": false,
+      "filename": "smoke.mp3",
+      "tags": [
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Shura",
+      "album": "forevher",
+      "track": "skyline, be mine",
+      "description": "Great, smooth, vibey and epic. Music to enjoy on a warm evening on your bicycle.",
+      "link": "https://www.youtube.com/watch?v=jNYT0noKcSg",
+      "game": false,
+      "day": "19-02-2027",
+      "id": "7612a8aa-ae4b-4d1b-903b-963ed5078dda",
+      "newsletter": false,
+      "filename": "skyline-be-mine.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Maribou State (feat. Holly Walker)",
+      "album": "Portraits",
+      "track": "Steal",
+      "description": "Heavy vibes and great bass. Nice little voice sample which I really enjoy.",
+      "link": "https://www.youtube.com/watch?v=PZkdmtbDUnY",
+      "game": false,
+      "day": "18-02-2027",
+      "id": "635f0fa5-f63b-4aa6-bb61-a74acafb4e6e",
+      "newsletter": false,
+      "filename": "steal.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Madonna",
+      "album": "Ray of Light",
+      "track": "Ray of Light",
+      "description": "This song is such a specific kind of vibe that I love. 90s electronica goodness. Love Madonna for pivoting to this for album n.7! Leo told me that this video is what he thought taking drugs for the first time would be like.",
+      "link": "https://www.youtube.com/watch?v=x3ov9USxVxY",
+      "game": false,
+      "day": "17-02-2027",
+      "id": "5fad80c4-eae3-4636-9739-4d360727df8c",
+      "newsletter": false,
+      "filename": "ray-of-light.mp3",
+      "tags": [
+        "electronic",
+        "pop"
+      ]
+    },
+    {
+      "artist": "Róisín Murphy",
+      "album": "Overpowered",
+      "track": "Let Me Know",
+      "description": "Just a perfect pop song from Róisín. She's great.",
+      "link": "https://www.youtube.com/watch?v=qj1BNgz5Muk",
+      "game": false,
+      "day": "16-02-2027",
+      "id": "277e6a0b-8960-442a-bd39-2beb47e72680",
+      "newsletter": false,
+      "filename": "let-me-know.mp3",
+      "tags": [
+        "pop",
+        "party"
+      ]
+    },
+    {
+      "artist": "Basement Jaxx",
+      "album": "Remedy",
+      "track": "Red Alert",
+      "description": "Love that bassline. So funky. A huge hit!",
+      "link": "https://www.youtube.com/watch?v=SJyhZ-3Z8A8",
+      "game": false,
+      "day": "15-02-2027",
+      "id": "02539148-3c6d-484c-84d1-d4f19b76e1b3",
+      "newsletter": false,
+      "filename": "red-alert.mp3",
+      "tags": [
+        "funky",
+        "electronic",
+        "party"
+      ]
+    },
+    {
+      "artist": "SOPHIE",
+      "album": "Oil Of Every Pearl's Un-Insides",
+      "track": "It's Okay To Cry",
+      "description": "Beautiful little track from icon Sophie. Love it when she says 'ahhh is that a teardrop in your eye?' so coyly.",
+      "link": "https://www.youtube.com/watch?v=m_S0qCeA-pc",
+      "game": false,
+      "day": "14-02-2027",
+      "id": "8ca7c02f-5659-4e42-b5ba-d232e69402c7",
+      "newsletter": false,
+      "filename": "its-okay-to-cry.mp3",
+      "tags": [
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Ekkah",
+      "album": "Last Chance To Dance",
+      "track": "Last Chance To Dance",
+      "description": "Groovy track about when the club's about to close. It's a bop.",
+      "link": "https://www.youtube.com/watch?v=gvM1a72Dcqw",
+      "game": false,
+      "day": "13-02-2027",
+      "id": "c9ba3dd3-98c4-4aa0-89c9-88209fe4d476",
+      "newsletter": false,
+      "filename": "last-chance-to-dance.mp3",
+      "tags": [
+        "pop",
+        "party"
+      ]
+    },
+    {
+      "artist": "Kenji Yamamoto",
+      "album": "Donkey Kong Country Returns",
+      "track": "Sunset Shore",
+      "description": "Groovy remake of the Jungle Japes theme for that gorgeous sunset silhouette level. So fun!",
+      "link": "https://www.youtube.com/watch?v=mr_mWHcZPho",
+      "game": true,
+      "day": "12-02-2027",
+      "id": "c3cd9b71-8566-4a0a-be51-0079d4a6c0f4",
+      "newsletter": false,
+      "filename": "sunset-shore.mp3",
+      "tags": [
+        "chill",
+        "funky",
+        "donkey kong"
+      ]
+    },
+    {
+      "artist": "Atsuki Asahi",
+      "album": "Mario Kart World (New Super Mario Bros. Wii)",
+      "track": "Desert BGM",
+      "description": "Insane glow-up to THE iconic desert track from 2D Mario. So fun. I love desert music so much.",
+      "link": "https://www.youtube.com/watch?v=sP8OkBEo7f4",
+      "game": true,
+      "day": "11-02-2027",
+      "id": "9a6e8e62-5384-4c61-8cdd-262cb077bf9a",
+      "newsletter": false,
+      "filename": "desert-bgm.mp3",
+      "tags": [
+        "mario",
+        "funky"
+      ]
+    },
+    {
+      "artist": "Sam Dew",
+      "album": "Damn Sue",
+      "track": "Lie",
+      "description": "The spotify algorithm gave me this one some years back and I really like it. Intense.",
+      "link": "https://www.youtube.com/watch?v=sou8zn3pDqk",
+      "game": false,
+      "day": "10-02-2027",
+      "id": "c0071ad0-c69c-465e-b991-f08d91f2fcdc",
+      "newsletter": false,
+      "filename": "lie.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Bear In Heaven",
+      "album": "I Love You, It's Cool",
+      "track": "Sinful Nature",
+      "description": "This is a mega moody and vibey track from a mega moody and vibey album that I constantly find myself coming back to. The video is a bit disconcerting though.",
+      "link": "https://www.youtube.com/watch?v=ITaMHcTWXOU",
+      "game": false,
+      "day": "09-02-2027",
+      "id": "1567fa32-2ee8-43f7-9031-4704176af349",
+      "newsletter": false,
+      "filename": "sinful-nature.mp3",
+      "tags": [
+        "intense",
+        "electronic"
+      ]
+    },
+    {
+      "artist": "Shinobu Tanaka",
+      "album": "Mario Kart DS",
+      "track": "Main Menu",
+      "description": "Just a great groove from the DS era. Takes me back.",
+      "link": "https://www.youtube.com/watch?v=nbyY9xV1t8k",
+      "game": true,
+      "day": "08-02-2027",
+      "id": "5784e94f-c06c-483c-9da7-2917c57467fe",
+      "newsletter": false,
+      "filename": "main-menu-mkds.mp3",
+      "tags": [
+        "chill",
+        "mario"
+      ]
+    },
+    {
+      "artist": "Koji Kondo",
+      "album": "Pilotwings",
+      "track": "Helicopter",
+      "description": "At the end of the original Pilotwings there is a sudden tone shift as you have to rescue some allies who have been captured at war. It's the final mission of the game and you fly a helicopter. It's suddenly very intense! For this one track, Koji Kondo, the legend himself, actually did the song. He tended to supervise the newer composers and do just one track on each soundtrack!",
+      "link": "https://www.youtube.com/watch?v=wM9OBj_bE-c",
+      "game": true,
+      "day": "07-02-2027",
+      "id": "a2b9613a-78cb-4bb8-800f-68e6b043fdd2",
+      "newsletter": false,
+      "filename": "helicopter.mp3",
+      "tags": [
+        "intense",
+        "other"
+      ]
+    },
+    {
+      "artist": "Animal Collective",
+      "album": "Merriweather Post Pavilion",
+      "track": "Brother Sport",
+      "description": "Cool, psychedelic track from an excellent album that I loved when I was a teenager. I associate this music with playing World of Warcraft! I was put onto it by friends I made on the internet back then. The climax in the middle of the song is one for the ages. It sounds like how it feels after you cum.",
+      "link": "https://www.youtube.com/watch?v=MGQjyGT1-mc",
+      "game": false,
+      "day": "06-02-2027",
+      "id": "d435cff6-9a09-450c-b316-ffa6610dd576",
+      "newsletter": false,
+      "filename": "brother-sport.mp3",
+      "tags": [
+        "electronic",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Frightened Rabbit",
+      "album": "The Midnight Organ Fight",
+      "track": "Poke",
+      "description": "Beautiful, sad song from this great Scottish band. The singer tragically died early, and now this song has taken on a new meaning.",
+      "link": "https://www.youtube.com/watch?v=BPhVzHbetfc",
+      "game": false,
+      "day": "05-02-2027",
+      "id": "5d686392-82a9-4f4f-abe6-213fa935bb1b",
+      "newsletter": false,
+      "filename": "poke.mp3",
+      "tags": [
+        "sad songs",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Tutankhamun",
+      "album": "Tutankhamun",
+      "track": "Coltrane",
+      "description": "Peaceful and vibey track with nice vocals. Music to enjoy the sunset to.",
+      "link": "https://www.youtube.com/watch?v=2kpgKmDgw5Y",
+      "game": false,
+      "day": "04-02-2027",
+      "id": "1a329f0e-46b3-4962-82d6-dc78b43f940d",
+      "newsletter": false,
+      "filename": "coltrane.mp3",
+      "tags": [
+        "chill",
+        "electronic",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Kazumi Totaka",
+      "album": "Pikmin",
+      "track": "Today's Results",
+      "description": "Gorgeous little peaceful music with a great chord sequence, there to greet you at the end of each day in Pikmin when you fly into space.",
+      "link": "https://www.youtube.com/watch?v=TjTMmlj9nPM",
+      "game": true,
+      "day": "03-02-2027",
+      "id": "c9494283-b6b6-431a-bfa8-7bc39668f432",
+      "newsletter": false,
+      "filename": "pikmin.mp3",
+      "tags": [
+        "pikmin",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Spellling",
+      "album": "Mazy Fly",
+      "track": "Under The Sun",
+      "description": "This is such a fun, spooky little cheeky track. It's early Spellling, before she got access to the whole live band, and it's fucking great. It's like music for driving your toy spaceship through space.",
+      "link": "https://www.youtube.com/watch?v=Dz2Fzs9po9Q",
+      "game": false,
+      "day": "02-02-2027",
+      "id": "3030cbe7-9cce-4255-a5d3-7cb24340752a",
+      "newsletter": false,
+      "filename": "under-the-sun.mp3",
+      "tags": [
+        "magical",
+        "pop"
+      ]
+    },
+    {
+      "artist": "St. Vincent",
+      "album": "All Born Screaming",
+      "track": "Flea",
+      "description": "I'm in it for that awesome guitar riff in the second half of the song. It's a sexy song.",
+      "link": "https://www.youtube.com/watch?v=H3ka8mb1h7I",
+      "game": false,
+      "day": "01-02-2027",
+      "id": "19be4fbe-2801-4ca3-97bc-a784e2b83ad5",
+      "newsletter": false,
+      "filename": "flea.mp3",
+      "tags": [
+        "pop",
+        "rock"
+      ]
+    },
     {
       "artist": "Genesis Uwusu",
       "album": "Smiling With No Teeth",

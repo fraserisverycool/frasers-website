@@ -8,7 +8,7 @@
       "year": "2026",
       "release": "1933",
       "id": "90b12f71-0019-456c-9e8a-1b01625e8626",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "nightbreed.jpg",
@@ -18,7 +18,7 @@
       "year": "2026",
       "release": "1990",
       "id": "fc3a1037-0d35-4750-a5ee-fbe551e6f437",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "brazil.jpg",
@@ -28,7 +28,7 @@
       "year": "2026",
       "release": "1985",
       "id": "0aab51f9-750f-47df-b3a0-12f009ba92d3",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "baby-jane.jpg",
@@ -38,7 +38,7 @@
       "year": "2026",
       "release": "1962",
       "id": "774f4387-d0a6-492e-83f5-1845b3ac889a",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "pink-narcissus.jpg",
@@ -48,7 +48,7 @@
       "year": "2026",
       "release": "1971",
       "id": "509abeb0-f79f-47ed-a23d-48e350bb89c3",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "scherbenland.jpg",

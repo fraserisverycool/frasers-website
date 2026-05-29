@@ -1,0 +1,179 @@
+{
+    "timestamp": "29-05-2026",
+    "title": "Landlords",
+    "description": [
+        "Hello and welcome to another newsletter, this time it's landlord edition. I've been struggling to get my head around how some people in a place like Germany have enough money to buy property, and yes, even though you spend your whole life paying off a mortgage, you own that property and can rent it out, or live there and pay no rent yourself.",
+        "If you're one of those lucky people, and you choose to rent out your flat, then someone is paying you hundreds of euros a month, simply because you own the thing. You're not even providing a service to that person, it's just because you own it and they don't. Sure, rents these days consist of many things, and lots of Nebenkosten are involved, but ultimately, the Kaltmiete that is being transferred is only happening because someone else got to that point where they could buy the flat.",
+        "I reckon most homeowners are just privileged motherfuckers who aren't inherently better than renters. I reckon we've reached such a point in capitalism in western Europe that this is mainly old money that is buying property. It's not the case that people who work the hardest get to own property. Also, once you pay off your mortgage, then suddenly you have passive income and can just work less! It doesn't seem fair. And that's because it isn't, because capitalism.",
+        "Anyway, I've decided to become a landlord. The last 8 years of working as a software developer as well as living pretty frugally has led to enough Eigenkapital to put down a down payment for a 2 room flat. I've decided to do it as a 'Kapitalanlage', somewhere safe to put my money, and hopefully the value of the property will appreciate and resist the inevitable inflation nonsense that will hit when various world crises happen. It was either this or speculate on stocks and shares, something which I'm fundamentally struggling with. Like, do I have do that?",
+        "A friend of mine is moving into the flat, and I'll stay in my cheap rental flat. I think it's best money-wise this way, and it means I don't have to leave my lovely flat. All I have to do is concentrate really hard and not be a dickhead landlord. It turns out it's really easy to do that: you just follow the rules and do Mietspiegel price and give an unlimited contract. I will start receiving passive income from the tenant, but I will also be paying off the mortgage for like 20 years so I'm not going to feel like a true capitalist for a while, I don't think.",
+        "In other news, I added a fun feature to the website's homepage. You can upload an image there, and it will display in my house! I attached a tiny monitor to the raspberry pi that this website is running on. I think it could lead to some fun shenanigans. All you need is my wifi password (you can just ask me for that)."
+    ],
+    "entries": [
+        {
+            "title": "Minecraft Dungeons",
+            "description": [
+                "I enjoyed getting super stoned and playing this with Anni and May, although I quickly realised they were a lot better at it that me. Turns out this game has a roguelike mode! On our second attempt we almost made it to the top of the tower which is pretty good going.",
+                "I got the hang of it, but it's honestly not better than for example a Hades. And the general vibes of the game isn't there if you ask me. The music is positively terrible. I'm told there's much more in the game outside of the roguelite mode to explore and maybe that's a bit better."
+            ],
+            "image": "games/minecraft-dungeons.png",
+            "metadata": "Vibes: 2, Gameplay: 6, Platform: Playstation 5, Release: 2020",
+            "type": "GAME"
+        },
+        {
+            "title": "The Invisible Man",
+            "description": [
+                "An old film about a man who turns himself invisible. Super entertaining. Lots to enjoy here. I'm loving classic films like this."
+            ],
+            "image": "films/invisible-man.jpg",
+            "metadata": "Release: 1933, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "Nightbreed",
+            "description": [
+                "A very sexually charged and homoerotic horror action film where the money is invested more into the costumes and sets than the writing. Really funny."
+            ],
+            "image": "films/nightbreed.jpg",
+            "metadata": "Release: 1990, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "Brazil",
+            "description": [
+                "A dystopian 1984-type film which had some great characters and funny moments, but I honestly got a bit bored and started playing pokemon leaf green during the last hour or so."
+            ],
+            "image": "films/brazil.jpg",
+            "metadata": "Release: 1985",
+            "type": "FILM"
+        },
+        {
+            "title": "What Ever Happened To Baby Jane?",
+            "description": [
+                "A camp black and white film about a sour old lady who terrorises everyone around her. It's very entertaining and honestly quite shocking."
+            ],
+            "image": "films/baby-jane.jpg",
+            "metadata": "Release: 1962",
+            "type": "FILM"
+        },
+        {
+            "title": "Pink Narcissus",
+            "description": [
+                "A vibes-heavy 70's film about homoerotic imagery and sex fantasies without any dialogue. It's got great colours but I was really tired in the cinema and just wanted to go home."
+            ],
+            "image": "films/pink-narcissus.jpg",
+            "metadata": "Release: 1971, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "Vendr\u00e1n Suaves Lluvias",
+            "description": [
+                "Gorgeous new release from Silvana. She continues to stun with her amazing voice. This one has a higher production value than previous albums, especially when it comes to the strings. Love the strings specifically in the song 'Flores', and the final song 'El Alma Mia' is just plain gorgeous. Something about ending an albums with humming like that, even though the song is so upsetting in topic."
+            ],
+            "image": "music/albums/silvana-vendran.jpg",
+            "metadata": "Artist: Silvana Estrada, Release: 2025, for a list of favourite tracks, please visit the albums page!",
+            "type": "ALBUM"
+        },
+        {
+            "title": "Superbloom",
+            "description": [
+                "Well guys she did it again! Jessie is back for round 3 of heavenly disco-infused pop magic. She's taken the breezy string arrangements from 'Remember Where You Are' and 'Hey Love' and turned them into a whole album, and because of that it sounds like angelic heaven music. It feels like a warm breeze. When I first heard 'Ride' I thought it was cheesy but after like 3 listens I became a fan. I just love Ennio Morricone that much. Also, shoutouts to my favourite track 'Don't You Know Who I Am?'. I can just pictured the woman scorned on the dancefloor now her planned hook up failed. Iconic song."
+            ],
+            "image": "music/albums/jessie-superbloom.jpg",
+            "metadata": "Artist: Jessie Ware, Release: 2026, for a list of favourite tracks, please visit the albums page!",
+            "type": "ALBUM"
+        },
+        {
+            "title": "Pikmin",
+            "description": [
+                "There are no words to describe my love for the Pikmin soundtrack. The original Pikmin is where it all began. All this idiosyncratic, loopy-doopy music somehow making it into a mainline Nintendo game is just wild. It's honestly all over the place and I love it. Just listen to 'The Impact Site' which exemplifies the series pretty well, I think. Although I will say the decision to include not just the normal area themes but also the battle and sunset variants (and sunset + battle) in the tracks, making them 6+ minutes does kinda ruin the listening experience a bit. That being said, some of the sunset music is genuinely great (like Forest Navel).",
+                "Favourites in this soundtrack include the beautiful and peaceful 'Forest of Hope', the stunning 'Distant Spring' (although the battle version ruins the track a bit), and the magical 'Today's Report'. I remember playing that on the piano constantly. I think back that it open my eyes to this particular chord sequence."
+            ],
+            "image": "music/nintendo/pikmin.jpg",
+            "metadata": "Platform: Gamecube, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "The Legend of Zelda: A Link Between Worlds",
+            "description": [
+                "Because this leans so heavily on a Link to the Past's soundtrack, I feel like it doesn't have too much of its own identity. I do think it's good though. Specifically the 'Three Dungeons of Hyrule' theme is so moody and excellent. And the brand new 'Lorule Castle' is one of the all-time greats."
+            ],
+            "image": "music/nintendo/zelda-link-between-worlds.jpg",
+            "metadata": "Platform: 3DS, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Yoshi",
+            "description": [
+                "It's not very good. Don't spend any time on this."
+            ],
+            "image": "music/nintendo/yoshi-gb.jpg",
+            "metadata": "Platform: Gameboy, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Yoshi",
+            "description": [
+                "I don't think there's much to enjoy here. 'Vs. Menu' is positively horrible."
+            ],
+            "image": "music/nintendo/yoshi.jpg",
+            "metadata": "Platform: NES, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Silvana Estrada",
+            "description": [
+                "Deeply emotional performance from Silvana. Great to see her now three times in Berlin, each time she's bigger and better. For the final song we all sang 'El Alma Mia' together without microphones and I loved it. Great venue, also."
+            ],
+            "image": "music/concerts/silvana3.jpg",
+            "metadata": "Date: 10-05-2026, Venue: Heimathafen, Berlin",
+            "type": "CONCERT"
+        },
+        {
+            "title": "At last, I am free",
+            "description": [
+                "This one gets me pissing myself with laughter every time."
+            ],
+            "image": null,
+            "metadata": "Link: https://www.youtube.com/watch?v=GzgavGowD_A",
+            "type": "VIDEO"
+        },
+        {
+            "title": "Name a yellow fruit",
+            "description": [
+                "We've all been there."
+            ],
+            "image": null,
+            "metadata": "Link: https://www.youtube.com/watch?v=SBeYzoQPbu8",
+            "type": "VIDEO"
+        },
+        {
+            "title": "Inferno",
+            "description": [
+                "Got this at a release party that I went to at Rough Trade with Leo."
+            ],
+            "image": "music/albums/boards-inferno.jpg",
+            "metadata": "Artist: Boards of Canada",
+            "type": "CD"
+        },
+        {
+            "title": "Vendr\u00e1n Suaves Lluvias",
+            "description": [
+                "Peaceful, gorgeous music from Mexico. You can read about it in the albums section."
+            ],
+            "image": "music/albums/silvana-vendran.jpg",
+            "metadata": "Artist: Silvana Estrada",
+            "type": "CD"
+        },
+        {
+            "title": "Marchita",
+            "description": [
+                "Peaceful, beautiful music from Mexico. You can read about it in the albums section."
+            ],
+            "image": "music/albums/silvana-marchita.jpg",
+            "metadata": "Artist: Silvana Estrada",
+            "type": "CD"
+        }
+    ],
+    "id": "5d21d73f-5318-446a-968a-f32aa5c0558a"
+}

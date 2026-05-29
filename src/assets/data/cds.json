@@ -451,6 +451,15 @@
       "newsletter": true
     },
     {
+      "artist": "Boards of Canada",
+      "album": "Inferno",
+      "genre": "Rock & Electronic",
+      "description": "Got this at a release party that I went to at Rough Trade with Leo.",
+      "image": "boards-inferno.jpg",
+      "id": "2c03ca6b-15bc-4f89-81eb-5e85b2ebb960",
+      "newsletter": true
+    },
+    {
       "artist": "Divine",
       "album": "Shoot Your Shot Anthology",
       "genre": "House & Disco",
@@ -556,7 +565,7 @@
       "description": "Peaceful, gorgeous music from Mexico. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
       "image": "silvana-vendran.jpg",
       "id": "5d51b88a-6ce3-4bdf-8015-8f3b5b140362",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Silvana Estrada",
@@ -565,7 +574,7 @@
       "description": "Peaceful, beautiful music from Mexico. You can read about it in the <a href=\"https://worldpeace.services/music/albums\">albums</a> section.",
       "image": "silvana-marchita.jpg",
       "id": "bdd4fc6d-a4a2-44e2-9bd8-d1c260b2bb5f",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "artist": "Beirut",

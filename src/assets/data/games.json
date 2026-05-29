@@ -1,6 +1,24 @@
 {
   "games": [
     {
+      "name": "Minecraft Dungeons",
+      "vibes": "2",
+      "gameplay": "6",
+      "review": [
+        "I enjoyed getting super stoned and playing this with Anni and May, although I quickly realised they were a lot better at it that me. Turns out this game has a roguelike mode! On our second attempt we almost made it to the top of the tower which is pretty good going.",
+        "I got the hang of it, but it's honestly not better than for example a Hades. And the general vibes of the game isn't there if you ask me. The music is positively terrible. I'm told there's much more in the game outside of the roguelite mode to explore and maybe that's a bit better."
+      ],
+      "image": "minecraft-dungeons.png",
+      "platform": "Playstation 5",
+      "year": "2026",
+      "release": "2020",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "1b821b3c-9436-42c4-8633-079235b14326",
+      "newsletter": true
+    },
+    {
       "name": "Tomodachi Life: Living the Dream",
       "vibes": "10",
       "gameplay": "4",

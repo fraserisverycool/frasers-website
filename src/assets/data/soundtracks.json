@@ -1,6 +1,31 @@
 {
   "soundtracks": [
     {
+      "filename": "pikmin.jpg",
+      "name": "Pikmin",
+      "description": [
+        "There are no words to describe my love for the Pikmin soundtrack. The original Pikmin is where it all began. All this idiosyncratic, loopy-doopy music somehow making it into a mainline Nintendo game is just wild. It's honestly all over the place and I love it. Just listen to 'The Impact Site' which exemplifies the series pretty well, I think. Although I will say the decision to include not just the normal area themes but also the battle and sunset variants (and sunset + battle) in the tracks, making them 6+ minutes does kinda ruin the listening experience a bit. That being said, some of the sunset music is genuinely great (like Forest Navel).",
+        "Favourites in this soundtrack include the beautiful and peaceful 'Forest of Hope', the stunning 'Distant Spring' (although the battle version ruins the track a bit), and the magical 'Today's Report'. I remember playing that on the piano constantly. I think back that it open my eyes to this particular chord sequence."
+      ],
+      "platform": "Gamecube",
+      "topTracks": [
+        "They Carry, Fight, Multiply and Get Eaten",
+        "The Impact Site",
+        "Today's Report",
+        "Bird's-Eye View",
+        "The Forest of Hope",
+        "The Forest Navel",
+        "The Distant Spring",
+        "The Final Trial",
+        "Complete Shipwreck Records",
+        "Staff Credits",
+        "Creature Records",
+        "Take on the Challenge"
+      ],
+      "id": "fb128a60-ecf2-42f9-9d5e-eb7104287634",
+      "newsletter": true
+    },
+    {
       "filename": "zelda-link-between-worlds.jpg",
       "name": "The Legend of Zelda: A Link Between Worlds",
       "description": [
@@ -20,7 +45,7 @@
         "Lorule Castle"
       ],
       "id": "7b53804e-9293-4b06-9ccb-0bb0d4c8621c",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "yoshi-gb.jpg",
@@ -33,7 +58,7 @@
         ""
       ],
       "id": "4b8ffa04-288b-4f53-bdb1-2ba1d129c4a2",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "yoshi.jpg",
@@ -46,7 +71,7 @@
         ""
       ],
       "id": "ae8faf3e-7a96-4811-b939-f889be8c6ae7",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "starfox.jpg",
