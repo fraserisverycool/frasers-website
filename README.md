@@ -21,7 +21,9 @@ https://nodejs.org/en/download
 ```npm install```
 
 ## Set up a Cloudflare tunnel
-Cloudflare is awesome. It's a free service that does your DNS for you! In order to set it up, you need to log into whatever service provides your domain name (in my case it was GoDaddy.com) and give them access to your Cloudflare account. There's are plenty of nice tutorials for how to do this online.
+Cloudflare is convenient. It's a free service that does your DNS for you! In order to set it up, you need to log into whatever service provides your domain name (in my case it was GoDaddy.com) and give them access to your Cloudflare account. There's are plenty of nice tutorials for how to do this online.
+
+I regret that I'm using it because it's an American tech company. The thing is, doing this DNS work myself would be really difficult. It requires having a second server outside of my house (to protect my home network from attacks) and also regularly updating it to keep it protected. I'll do it once civilisation collapses and Cloudflare isn't working anymore.
 
 After you've done that, you can install cloudflared locally on your raspberry pi and set up a tunnel. The config for it will be in this file:
 

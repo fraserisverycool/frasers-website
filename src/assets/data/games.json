@@ -1,6 +1,24 @@
 {
   "games": [
     {
+      "name": "Street Fighter III: 3rd Strike",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "My colleague Rüdiger set up a retro gaming console with tons of arcade games at the office and I've been spending my lunch breaks playing this game, allegedly one of the best fighting games ever. I was attracted to it thanks to its incredible soundtrack which I've already been enjoying for years.",
+        "The one thing stopping me from getting into fighting games was time, but now I have some, 20 minutes each day at work. At the time of writing, I've already learned how to input most of Chun-Li's moves! I'm just about beating my colleagues and have a long journey ahead of me but I really want to beat at least the arcade mode."
+      ],
+      "image": "street-fighter-3.mp3",
+      "platform": "Arcade",
+      "year": "2026",
+      "release": "1999",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "1c54aa15-bc67-4153-bb6a-f942e9390707",
+      "newsletter": false
+    },
+    {
       "name": "Minecraft Dungeons",
       "vibes": "2",
       "gameplay": "6",
@@ -9455,6 +9473,22 @@
       "completed": false,
       "completable": true,
       "id": "846dabee-9355-4fbe-b384-51e6b9dfca0d",
+      "newsletter": true
+    },
+    {
+      "name": "Sushi Striker",
+      "vibes": "6",
+      "gameplay": "5",
+      "review": [
+        "I played this demo naively thinking it was multiplayer but it wasn't. Maybe it's good, I don't know."
+      ],
+      "image": "sushi-striker.jpg",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2018",
+      "completed": false,
+      "completable": true,
+      "id": "4f6edd03-e524-4d96-a812-96a9f9655f57",
       "newsletter": true
     }
   ]

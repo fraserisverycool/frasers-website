@@ -1740,8 +1740,14 @@
       "playedDescription": "Mario Galaxy 1 and 2 both great!",
       "deco": [
         {
-          "filename": "rosalina1.jpg",
+          "filename": "rosalina2.jpg",
           "order": 1,
+          "newsletter": false,
+          "description": "Painting day with Wolf. She looks kinda weird with the elongated neck and she didn't even appear in Mario Kart 64 but whatever"
+        },
+        {
+          "filename": "rosalina1.jpg",
+          "order": 2,
           "newsletter": true,
           "description": "Cute Amiibo"
         }

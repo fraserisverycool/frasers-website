@@ -1,6 +1,33 @@
 {
   "films": [
     {
+      "filename": "frankenstein-og.jpg",
+      "title": "Frankenstein",
+      "description": "So fun to watch these old horror films. Apparently back then they were scary as fuck! I love how the director is clearly gay because he made Frankenstein hot and smoulder into the camera a lot. The monster is great.",
+      "spoiler": "I feel like the story is pretty different to what I knew. Note to self, read the original book.",
+      "year": "2026",
+      "release": "1931",
+      "id": "67c0cf84-3370-45c1-94ec-d638aba37734",
+      "newsletter": false
+    },
+    {
+      "filename": "boys.jpg",
+      "title": "The Boys",
+      "description": "Great show, great take on a ridiculous concept: superheroes. It correctly identifies capitalism as the problem. So many horrible moments and this main character Homelander makes me want to throw up. Having finally reached the end of season 5 I do have to say that I'm glad it's over. It's so on the nose and the dialogue often pretty shit.",
+      "year": "2024",
+      "release": "2019-2024",
+      "tv": true,
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "id": "3edce4d1-afa8-4020-81f4-816ccc1d5875",
+      "newsletter": true
+    },
+    {
       "filename": "invisible-man.jpg",
       "title": "The Invisible Man",
       "description": "An old film about a man who turns himself invisible. Super entertaining. Lots to enjoy here. I'm loving classic films like this.",

@@ -1,6 +1,52 @@
 {
   "soundtracks": [
     {
+      "filename": "mario-kart-world.jpg",
+      "name": "Mario Kart World",
+      "description": [
+        "Oh damn!!! This is what this app was made for! Finally they have started to release music from this incredible soundtrack.",
+        "For those of you who don't know, this soundtrack consists of 300+ incredible jazz fusion arrangements of all your favourite music from across mario and mario kart history. The amount of work and love that went into it is insane. Driving around free roam and just being bombarded with new remixes of nostalgic bangers is just a total joy. The first time hearing some of these got me so excited. There's a lot to say about this soundtrack so buckle up!",
+        "In this first batch of tracks we get all the music from the main 30 racetracks, half of which are brand new. Listening to them here (without SFX from youtube videos which record from gameplay!!) has given me a new appreciation for some of the ones that didn't stick out at first, like 'Dry Bones Burnout', 'Crown City', 'Salty Salty Speedway' and 'Dandelion Depths'. Then there's the retro tracks that they saved, like 'Sky-High Sundae' and 'Wario's Galleon' which sound much much nicer now. You've got the bombastic 'Toad's Factory', the salsa-flavoured 'Mario Circuit' (love it) and of course the legendary 'Peach Beach' is back. I just love this song and they finally did it justice after the horrible Mario Kart 8 Deluxe version. I do feel like 'Koopa Troopa Beach' in comparison ain't great though.",
+        "They also give us the intro music as you approach the racetrack, and most make the listening experience not great, but I will shoutout the amazing build up to 'Dino Dino Jungle', and I also enjoy the intense 'Airship Fortress' one. The incoming salsa of 'Mario Circuit' is also iconic. They really leaned into the latin roots of the Super Mario Kart!",
+        "We also need to talk about Rainbow Road. I honestly think, despite being so ambitious, it's a bit much. It does have that Rainbow Road magic but it feels a bit like they're trying too hard. I think it sounds kinda cheesy, especially that space station part. That being said, the best part of the track by far is the build up in the 'To Rainbow Road' section. Holy shit that gets me so hyped up. The first time playing it? Huge.",
+        "But the real magic of this game is the free roam music. There's so much of it and it plays at random in the game, so these tracks are rare. Having them all laid out in the app like this is a dream. Especially since there are super rare tracks which don't appear in free roam, and only in the normal races between tracks. I can't wait to hear them all without SFX! They say they will update this over time. But at least for now they've served the tracks from Super Mario Kart, which incidentally are some of my all-time favourites.",
+        "I died when I heard SNES Rainbow Road for the first time. It's a bona fide disco remix of my favourite Rainbow Road and you know I got so excited about it that I made an extended dance mix that I DJ'd in Kitkat!! One of my greatest life achievements. That track goes so hard.",
+        "We've also got some great remixes which pay respects to the latin flavour of the original mario kart with the Brazilian style 'Choco Island' or 'Koopa Beach', or 'Donut Plains', there is so much to enjoy. That silky smooth 'Vanilla Lake' mix? Damn.",
+        "I am so excited about this. I can't wait for more to be released. I can't wait to make a million playlists."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Crown City",
+        "Shy Guy Bazaar",
+        "Wario Stadium",
+        "Airship Fortress (Intro)",
+        "Airship Fortress",
+        "Peach Beach",
+        "Salty Salty Speedway",
+        "Dino Dino Jungle",
+        "Dandelion Depths",
+        "Boo Cinema",
+        "Boo Cinema (Inside the Screen)",
+        "Dry Bones Burnout",
+        "Toad's Factory",
+        "Mario Circuit (Intro)",
+        "Mario Circuit",
+        "To Rainbow Road",
+        "Rainbow Road (On the Water)",
+        "Battle Course (Super Mario Kart)",
+        "Spectating",
+        "Staff Credits",
+        "Title Screen (Fusion) (Super Mario Kart)",
+        "Title Screen (Latin Jazz) (Super Mario Kart)",
+        "Donut Plains (Super Mario Kart)",
+        "Choco Island (Samba) (Super Mario Kart)",
+        "Choco Island (Bossa Nova) (Super Mario Kart)",
+        "Koopa Beach (Super Mario Kart)"
+      ],
+      "id": "7d66a902-6f8e-4f5a-af9e-a66552ea45fb",
+      "newsletter": false
+    },
+    {
       "filename": "pikmin.jpg",
       "name": "Pikmin",
       "description": [
