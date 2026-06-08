@@ -1,6 +1,15 @@
 {
   "concerts": [
     {
+      "artist": "PinkPantheress",
+      "date": "02-06-2026",
+      "venue": "Tempodrom, Berlin",
+      "image": "pinkpantheress.jpg",
+      "description": "I've never seen this many people holding up phones for a concert! Lots of gen Z. It felt a little bit like watching TV with all the production and screens and choreography. More dancers than bandmembers like a real popstar! All in all though, I really enjoyed it because I love her songs.",
+      "id": "1d9d2846-3d27-414f-93b0-72b34f2f5e45",
+      "newsletter": false
+    },
+    {
       "artist": "Silvana Estrada",
       "date": "10-05-2026",
       "venue": "Heimathafen, Berlin",
