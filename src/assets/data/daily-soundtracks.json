@@ -14,9 +14,510 @@
     "patrick watson daydreamer",
     "vulfpeck conscious club",
     "jamiroquai little l",
-    "pond sweep me off my feet"
+    "pond sweep me off my feet",
+    "norah jones the nearness of you"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "Black Midi",
+      "album": "Hellfire",
+      "track": "Sugar/Tsu",
+      "description": "This is a really cool kind of jazz rock which I enjoy. It's pretty intense. The video is great.",
+      "link": "https://www.youtube.com/watch?v=8D3TrpQ_nFo",
+      "game": false,
+      "day": "31-03-2027",
+      "id": "c8c036df-bd6d-4053-ad12-091bd35d4b8f",
+      "newsletter": false,
+      "filename": "sugar-tsu.mp3",
+      "tags": [
+        "intense",
+        "rock",
+        "video"
+      ]
+    },
+    {
+      "artist": "Dusty Springfield",
+      "album": "Dusty in Memphis",
+      "track": "Windmills Of Your Mind",
+      "description": "Stunning song, I think a cover, which cycles through fifths like classical music. I love how melodramatic it is. 'Are the sounds of distant drumming just the fingers of your hand?'",
+      "link": "https://www.youtube.com/watch?v=qKV9bK-CBXo",
+      "game": false,
+      "day": "30-03-2027",
+      "id": "beba0b05-266d-4d8c-bf7f-8f5f8ac9abbf",
+      "newsletter": false,
+      "filename": "windmills-of-your-mind.mp3",
+      "tags": [
+        "singer-songwriter",
+        "sad songs",
+        "devastating"
+      ]
+    },
+    {
+      "artist": "Hideki Okugawa",
+      "album": "Street Fighter III: 2nd Impact",
+      "track": "Leave Alone",
+      "description": "Music from Dudley's stage in this edition of Street Fighter. Dudley is a british butler and boxer and everyone agrees is very cool. His theme is pure, classic house!",
+      "link": "https://www.youtube.com/watch?v=Qy0vWeEP3JQ",
+      "game": true,
+      "day": "29-03-2027",
+      "id": "f182136a-7ffb-4249-8855-0756e72d4178",
+      "newsletter": false,
+      "filename": "leave-alone.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
+    },
+    {
+      "artist": "The Beach Boys",
+      "album": "Friends",
+      "track": "Passing By",
+      "description": "A great, cute little instrumental track from a later Beach Boys album. I'm a fan.",
+      "link": "https://www.youtube.com/watch?v=wSWgl6Pj8f4",
+      "game": false,
+      "day": "28-03-2027",
+      "id": "c9e9bc63-8fbf-4bbf-bd60-8e27351a6d90",
+      "newsletter": false,
+      "filename": "passing-by.mp3",
+      "tags": [
+        "chill"
+      ]
+    },
+    {
+      "artist": "Ryo Nagamatsu",
+      "album": "The Legend of Zelda: Link's Awakening",
+      "track": "Link & Marin at the Beach",
+      "description": "One of the most iconic scenes in the original game has these two on the beach speculating about if there is a world beyond the sea. The remake handled it perfectly by having the sparse instruments just like the original, and then coming in with lovely warm strings for a second round. I just love it.",
+      "link": "https://www.youtube.com/watch?v=Gn4IKpLEXhU",
+      "game": true,
+      "day": "27-03-2027",
+      "id": "26bb018c-e8e6-4df2-b17b-9429f951647e",
+      "newsletter": false,
+      "filename": "link-marin-at-the-beach.mp3",
+      "tags": [
+        "chill",
+        "zelda"
+      ]
+    },
+    {
+      "artist": "Norah Jones",
+      "album": "Feels Like Home",
+      "track": "I Turned Your Picture To The Wall",
+      "description": "A bonus track from this album which for many years didn't have a name on my mp3 player. I always liked it.",
+      "link": "https://www.youtube.com/watch?v=JO3iB-831jk",
+      "game": false,
+      "day": "26-03-2027",
+      "id": "b46a3b64-5750-4f31-a483-d14e0cf5f0b1",
+      "newsletter": false,
+      "filename": "i-turned-your-picture-to-the-wall.mp3",
+      "tags": [
+        "singer-songwriter",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Macy Gray",
+      "album": "On How Life Is",
+      "track": "I Try",
+      "description": "One of my all-time favourite karaoke tracks.",
+      "link": "https://www.youtube.com/watch?v=WEQ0l_m3Xm0",
+      "game": false,
+      "day": "25-03-2027",
+      "id": "c5af7f0e-a4a9-475d-b50f-ec600166df95",
+      "newsletter": false,
+      "filename": "i-try.mp3",
+      "tags": [
+        "pop",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Nina Simone",
+      "album": "Let It All Out",
+      "track": "Mood Indigo",
+      "description": "I spent many years enjoying and dancing to this song before I realised it's about depression!",
+      "link": "https://www.youtube.com/watch?v=W9krIaV5_v8",
+      "game": false,
+      "day": "24-03-2027",
+      "id": "a8ce3975-0e32-475f-b160-3a9321ff69be",
+      "newsletter": false,
+      "filename": "mood-indigo.mp3",
+      "tags": [
+        "jazz",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "The Leisure Society",
+      "album": "The Sleeper",
+      "track": "The Last Of The Melting Snow",
+      "description": "A favourite of 15 year old Fraser's. I still come back to this band.",
+      "link": "https://www.youtube.com/watch?v=9MhHXAIGhQQ",
+      "game": false,
+      "day": "23-03-2027",
+      "id": "91f693fe-272b-4b36-86c1-a5b12c984f40",
+      "newsletter": false,
+      "filename": "the-last-of-the-melting-snow.mp3",
+      "tags": [
+        "indie",
+        "sad songs",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Angus and Julia Stone",
+      "album": "A Book Like This",
+      "track": "Wasted",
+      "description": "What I like about this song is they slow down during the chorus and it sounds like it feels when you are that miserable. It's one of those songs that you can lean into your sadness with.",
+      "link": "https://www.youtube.com/watch?v=twnqSCKAsqE",
+      "game": false,
+      "day": "22-03-2027",
+      "id": "168312a5-38bb-4da2-a6ff-5a663fbd5fc1",
+      "newsletter": false,
+      "filename": "wasted.mp3",
+      "tags": [
+        "sad songs",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Andrew Prahlow",
+      "album": "Outer Wilds",
+      "track": "Timber Hearth",
+      "description": "The absolute vibes from the first area of this incredible game are just so good. Love everything about it.",
+      "link": "https://www.youtube.com/watch?v=SPa8bPqQfmo",
+      "game": true,
+      "day": "21-03-2027",
+      "id": "e320ae71-e2c6-4467-96d4-007ccbed426f",
+      "newsletter": false,
+      "filename": "timber-hearth.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Mapache",
+      "album": "Swinging Stars",
+      "track": "Sentir",
+      "description": "A great song I listened to a lot in 2025. Something about that melody and chord sequence really resonates. The band is US American even but I associate it with my trips to Mexico.",
+      "link": "https://www.youtube.com/watch?v=XUohEx1Wdvo",
+      "game": false,
+      "day": "20-03-2027",
+      "id": "fbbc89cd-d678-4d5f-aa86-412b25fc1b8f",
+      "newsletter": false,
+      "filename": "sentir.mp3",
+      "tags": [
+        "chill",
+        "spanish language"
+      ]
+    },
+    {
+      "artist": "King Creosote",
+      "album": "Flick the Vs",
+      "track": "Nothing Rings True",
+      "description": "Many years ago my friend Elly recommended me this album from obscure Scottish indie artist King Creosote. This album track is what stuck with me the most.",
+      "link": "https://www.youtube.com/watch?v=seO4BxgxVfM",
+      "game": false,
+      "day": "19-03-2027",
+      "id": "3ca18fa2-6a99-46a1-b74c-2f426c4eb9c0",
+      "newsletter": false,
+      "filename": "nothing-rings-true.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Atsuki Asahi",
+      "album": "Mario Kart World (Super Mario Kart)",
+      "track": "SNES Rainbow Road",
+      "description": "The most incredible remix from this whole soundtrack. I freaked out when I heard they took my favourite Rainbow Road music and turned it into a disco track! I got so excited that I made a remix of it and played it in a DJ set at KitKat (one of my greatest achievements in life).",
+      "link": "https://www.youtube.com/watch?v=-NczaYB7ttk",
+      "game": true,
+      "day": "18-03-2027",
+      "id": "c7e00980-ccd6-4733-9b39-302a548994b5",
+      "newsletter": false,
+      "filename": "snes-rainbow-road.mp3",
+      "tags": [
+        "party",
+        "mario"
+      ]
+    },
+    {
+      "artist": "Amy Winehouse",
+      "album": "Back To Black",
+      "track": "Addicted",
+      "description": "Obsessed with this track from Amy where she complains about her mate's boyfriend coming over and smoking all her weed. She just doesn't give a fuck.",
+      "link": "https://www.youtube.com/watch?v=cJITJRgNv9w",
+      "game": false,
+      "day": "17-03-2027",
+      "id": "583a2f14-054e-4ce5-99a7-c5eed65c53c0",
+      "newsletter": false,
+      "filename": "addicted.mp3",
+      "tags": [
+        "chill",
+        "concrete themes"
+      ]
+    },
+    {
+      "artist": "Tilly and the Wall",
+      "album": "Bottoms of Barrels",
+      "track": "The Freest Man",
+      "description": "Listened to this song on repeat when I was a teenager. I don't know anything about this indie band but somehow they ended up on my ipod.",
+      "link": "https://www.youtube.com/watch?v=UAzZRtCpgPM",
+      "game": false,
+      "day": "16-03-2027",
+      "id": "2ef8e229-41be-4561-8081-31b3d3620598",
+      "newsletter": false,
+      "filename": "the-freest-man.mp3",
+      "tags": [
+        "pop",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Pacific!",
+      "album": "Break Your Social System",
+      "track": "Runway to Elsewhere",
+      "description": "This for me was when I realised that music can embody super particular vibes. For me this one really embodied the image of pilots and air hostesses walking with purpose through the airport and flying to their destinations. It's classy. They have places to be. I even remember making a playlist of exactly this vibe, consisting largely of these scandinavian electro-pop bands.",
+      "link": "https://www.youtube.com/watch?v=95XAdJVcmco",
+      "game": false,
+      "day": "15-03-2027",
+      "id": "f66527b4-926c-4806-948d-23d3ddaef483",
+      "newsletter": false,
+      "filename": "runway-to-elsewhere.mp3",
+      "tags": [
+        "party",
+        "electronic"
+      ]
+    },
+    {
+      "artist": "Fiona Apple",
+      "album": "Fetch the Bolt Cutters",
+      "track": "Ladies",
+      "description": "I don't claim to be a huge Fiona fan but this song I really enjoy.",
+      "link": "https://www.youtube.com/watch?v=n46e8m2pOAw",
+      "game": false,
+      "day": "14-03-2027",
+      "id": "906eef28-0d0e-4af3-bd1e-cdb71cf46760",
+      "newsletter": false,
+      "filename": "ladies.mp3",
+      "tags": [
+        "singer-songwriter",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Robyn with Kleerup",
+      "album": "Robyn",
+      "track": "With Every Heartbeat",
+      "description": "This is my favourite Robyn song. Love that is has two halves. Also love the video.",
+      "link": "https://www.youtube.com/watch?v=-ojHWQrm4UM",
+      "game": false,
+      "day": "13-03-2027",
+      "id": "f1d03592-9d70-42c8-9c1a-e00c123e200d",
+      "newsletter": false,
+      "filename": "with-every-heartbeat.mp3",
+      "tags": [
+        "video",
+        "electronic",
+        "pop",
+        "party"
+      ]
+    },
+    {
+      "artist": "CMAT",
+      "album": "Crazymad, For Me",
+      "track": "Stay For Something",
+      "description": "A banger song about reflecting on a relationship where she just allowed all this annoying shit to happen and kicking herself for it, but still not finding it in her to actually hate them.",
+      "link": "https://www.youtube.com/watch?v=Msm7B15G0hY",
+      "game": false,
+      "day": "12-03-2027",
+      "id": "2e2acf8f-050f-4523-a06a-6b8d1629aa35",
+      "newsletter": false,
+      "filename": "stay-for-something.mp3",
+      "tags": [
+        "pop",
+        "country",
+        "video"
+      ]
+    },
+    {
+      "artist": "Marcos Valle",
+      "album": "Contrasts",
+      "track": "Parabéns",
+      "description": "Love this huge vibe of a track. Maybe you can put this on when you're driving in a car and the conversation and run dry.",
+      "link": "https://www.youtube.com/watch?v=1JLVbkHieaM",
+      "game": false,
+      "day": "11-03-2027",
+      "id": "08c9ed6f-a8ac-4ab1-8f18-884184f38c8a",
+      "newsletter": false,
+      "filename": "parabens.mp3",
+      "tags": [
+        "brazilian",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Henry Mancini",
+      "album": "As Time Goes By",
+      "track": "That Old Black Magic",
+      "description": "Now this is a deep cut. It's just a great chill, vibe. Almost definitely used for a love scene in an old film. Maybe you can put it on when seducing your lover.",
+      "link": "https://www.youtube.com/watch?v=lBXbXRPfQt0",
+      "game": false,
+      "day": "10-03-2027",
+      "id": "48fbb9b3-a8c6-49b7-b10c-02c1c4d9e420",
+      "newsletter": false,
+      "filename": "that-old-black-magic.mp3",
+      "tags": [
+        "chill",
+        "babymaking",
+        "jazz"
+      ]
+    },
+    {
+      "artist": "Fanfarlo",
+      "album": "Room Filled With Lights",
+      "track": "Replicate",
+      "description": "I really enjoy this indie band from ages ago. This album I associate with narrowboats.",
+      "link": "https://www.youtube.com/watch?v=iZT2M3YM3PA",
+      "game": false,
+      "day": "09-03-2027",
+      "id": "4bc24e74-8650-4fcf-8d6a-828a3beff619",
+      "newsletter": false,
+      "filename": "replicate.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Cessna",
+      "album": "Terminus",
+      "track": "Encore Toujours",
+      "description": "Representing Finland over here, we have some singing in French and a super vibes-heavy track. Something about a man with a deep voice speaking in French just does something to me.",
+      "link": "https://www.youtube.com/watch?v=uklFCr7w_-M",
+      "game": false,
+      "day": "08-03-2027",
+      "id": "eb1fa1f1-eb02-4e14-ad2f-600321ba807b",
+      "newsletter": false,
+      "filename": "encore-toujours.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Röyksopp",
+      "album": "Melody A.M.",
+      "track": "Poor Leno",
+      "description": "This song is inextricably linked with SSX 3, where this is one of the songs on the radio station. That's how I learned about Röyksopp! It's the perfect music for skiing and snowboarding. Don't tell anyone because I know it's dangerous but once I put in earphones and listened to this while skiing down a mountain on a family holiday.",
+      "link": "https://www.youtube.com/watch?v=sPG6OQy2iwI",
+      "game": false,
+      "day": "07-03-2027",
+      "id": "0e78ee1c-6979-4742-9f21-4e9caf0239a1",
+      "newsletter": false,
+      "filename": "poor-leno.mp3",
+      "tags": [
+        "electronic",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Anna Ternheim",
+      "album": "Leaving On A Mayday",
+      "track": "That's Life",
+      "description": "This Swedish singer-songwriter did a few Frank Sinatra covers and it's genuinely how I learned about some of his famous songs.",
+      "link": "https://www.youtube.com/watch?v=0TQsuA-9IPY",
+      "game": false,
+      "day": "06-03-2027",
+      "id": "1992c54b-5c13-4f80-8686-83cd0d43224c",
+      "newsletter": false,
+      "filename": "thats-life.mp3",
+      "tags": [
+        "singer-songwriter",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Of Montreal",
+      "album": "Aldhils Arboretum",
+      "track": "Kissing in the Grass",
+      "description": "Love this one specifically for the clarinet. The band kinda annoy me, ever since they made that one bad song on Janelle Monáe's otherwise perfect album.",
+      "link": "https://www.youtube.com/watch?v=mJTOuBqvo0g",
+      "game": false,
+      "day": "05-03-2027",
+      "id": "283f402d-ecc6-4fda-9772-70af63e421af",
+      "newsletter": false,
+      "filename": "kissing-in-the-grass.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Jessie Ware",
+      "album": "Devotion",
+      "track": "Imagine Is Was Us",
+      "description": "This song is the blueprint for her reinvention as a disco queen. I don't think the What's Your Pleasure revolution would have happened if it weren't for this song. It's so good!",
+      "link": "https://www.youtube.com/watch?v=u03f5Wnwff0",
+      "game": false,
+      "day": "04-03-2027",
+      "id": "b5e87854-3d85-4ea0-8d81-5d8b163356b3",
+      "newsletter": false,
+      "filename": "imagine-it-was-us.mp3",
+      "tags": [
+        "party",
+        "pop"
+      ]
+    },
+    {
+      "artist": "Caribou",
+      "album": "Swim",
+      "track": "Kaili",
+      "description": "Some experimental electronic music that was popular back then. I always enjoyed this album track.",
+      "link": "https://www.youtube.com/watch?v=2T60xLOPN2M",
+      "game": false,
+      "day": "03-03-2027",
+      "id": "cd932121-b9a9-4d15-aaf4-a158f28eba7f",
+      "newsletter": false,
+      "filename": "kaili.mp3",
+      "tags": [
+        "electronic"
+      ]
+    },
+    {
+      "artist": "Yuna (feat. Little Simz)",
+      "album": "Rouge",
+      "track": "Pink Youth",
+      "description": "Shout-outs to Malaysian singer Yuna for collaborating with Little Simz for this track. It's great. And I just love the music video.",
+      "link": "https://www.youtube.com/watch?v=e8DeOwfmba8",
+      "game": false,
+      "day": "02-03-2027",
+      "id": "704bb455-f8b7-44bf-94c2-c7ebbad24d4e",
+      "newsletter": false,
+      "filename": "pink-youth.mp3",
+      "tags": [
+        "pop",
+        "video"
+      ]
+    },
+    {
+      "artist": "Portishead",
+      "album": "Dummy",
+      "track": "Sour Times",
+      "description": "Is there is a band who makes better music for spy films than Portishead? Such an incredible, specific vibe. This song is also part of an EP which scores their own little spy film 'To Kill A Dead Man', which I really enjoy.",
+      "link": "https://www.youtube.com/watch?v=un8EW82GwKc",
+      "game": false,
+      "day": "01-03-2027",
+      "id": "b1d09891-56a6-40d6-b181-2c5879c1106e",
+      "newsletter": false,
+      "filename": "sour-times.mp3",
+      "tags": [
+        "classic",
+        "special vibes"
+      ]
+    },
     {
       "artist": "ANOHNI",
       "album": "HOPELESSNESS",
