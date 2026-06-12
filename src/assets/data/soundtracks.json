@@ -1,6 +1,30 @@
 {
   "soundtracks": [
     {
+      "filename": "wii-sports-resort.jpg",
+      "name": "Wii Sports Resort",
+      "description": [
+        "Nintendo are continuing to prioritise soundtracks with a Mii theme and honestly fair enough, I'm not tired of it. This continues the mid-00s frutiger aero vibe that I enjoy so much so bring it on. That Title theme alone, great. That being said, this soundtrack doesn't make for a great listening experience on its own. You can add a few of these tracks to your playlists and that's honestly enough."
+      ],
+      "platform": "Wii",
+      "topTracks": [
+        "Title Theme",
+        "Settings Screen",
+        "Mii Settings",
+        "Stage Select",
+        "Wakeboarding: Opening Theme",
+        "Golf: Opening Theme",
+        "Golf: Results",
+        "Bowling: Results",
+        "Cycling (Road Race): During a Race",
+        "Cycling (Vs.): During a Race",
+        "Skydiving: On the Plane",
+        "Island Flyover: Cabana Lagoon (Day)"
+      ],
+      "id": "c6ec922c-62db-412a-aafd-68b9534536c5",
+      "newsletter": false
+    },
+    {
       "filename": "mario-kart-world.jpg",
       "name": "Mario Kart World",
       "description": [
@@ -12,7 +36,7 @@
         "But the real magic of this game is the free roam music. There's so much of it and it plays at random in the game, so these tracks are rare. Having them all laid out in the app like this is a dream. Especially since there are super rare tracks which don't appear in free roam, and only in the normal races between tracks. I can't wait to hear them all without SFX! They say they will update this over time. But at least for now they've served the tracks from Super Mario Kart, which incidentally are some of my all-time favourites.",
         "I died when I heard SNES Rainbow Road for the first time. It's a bona fide disco remix of my favourite Rainbow Road and you know I got so excited about it that I made an extended dance mix that I DJ'd in Kitkat!! One of my greatest life achievements. That track goes so hard.",
         "We've also got some great remixes which pay respects to the latin flavour of the original mario kart with the Brazilian style 'Choco Island' or 'Koopa Beach', or 'Donut Plains', there is so much to enjoy. That silky smooth 'Vanilla Lake' mix? Damn.",
-        "I am so excited about this. I can't wait for more to be released. I can't wait to make a million playlists."
+        "In an update they released the free roam tracks for Mario Galaxy, and there are some fucking bangers in there. 'Purple Comet Galaxy', already a favourite of mine, has been elevated to new heights. It's so good. Also loving 'Yoshi Star Galaxy' and 'Digga-Leg', two tracks which I only truly started appreciating when this soundtrack came out."
       ],
       "platform": "Switch 2",
       "topTracks": [
@@ -42,7 +66,14 @@
         "Choco Island (Samba) (Super Mario Kart)",
         "Choco Island (Bossa Nova) (Super Mario Kart)",
         "Koopa Beach (Super Mario Kart)",
-        "Staff Credits (Super Mario Kart)"
+        "Staff Credits (Super Mario Kart)",
+        "Space Junk Road (Super Mario Galaxy)",
+        "Gusty Garden Galaxy (Super Mario Galaxy)",
+        "Purple Comet (Super Mario Galaxy)",
+        "Yoshi Star Galaxy (Super Mario Galaxy 2)",
+        "Starship Mario 1 (Super Mario Galaxy 2)",
+        "Digga-Leg (Super Mario Galaxy 2)",
+        "Wild Glide Galaxy (Super Mario Galaxy 2)"
       ],
       "id": "7d66a902-6f8e-4f5a-af9e-a66552ea45fb",
       "newsletter": false

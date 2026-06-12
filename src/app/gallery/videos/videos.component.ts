@@ -40,7 +40,27 @@ export default class VideosComponent implements OnInit {
   }
 
   private getEmbedUrl(link: string): string {
-    const videoId = link.split('v=')[1];
-    return `https://www.youtube.com/embed/${videoId}`;
+    try {
+      const url = new URL(link);
+      let videoId: string | null = null;
+
+      if (url.hostname === 'youtu.be') {
+        // Short URL
+        videoId = url.pathname.substring(1);
+      } else if (url.pathname.startsWith('/shorts/')) {
+        // YouTube Shorts
+        videoId = url.pathname.split('/')[2];
+      } else {
+        // Regular watch URL
+        videoId = url.searchParams.get('v');
+      }
+
+      return videoId
+        ? `https://www.youtube.com/embed/${videoId}`
+        : '';
+    } catch (error) {
+      console.error('Invalid YouTube URL:', link);
+      return '';
+    }
   }
 }

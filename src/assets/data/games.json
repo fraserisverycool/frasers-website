@@ -9490,6 +9490,22 @@
       "completable": true,
       "id": "4f6edd03-e524-4d96-a812-96a9f9655f57",
       "newsletter": true
+    },
+    {
+      "name": "Crazy Taxi",
+      "vibes": "8",
+      "gameplay": "6",
+      "review": [
+        "Enjoyed playing this on an arcade at the Computerspielmuseum. Sadly never played it as a child."
+      ],
+      "image": "crazy-taxi.jpg",
+      "platform": "Arcade",
+      "year": "older",
+      "release": "1999",
+      "completed": false,
+      "completable": true,
+      "id": "922257cd-2252-4633-9197-53813e317497",
+      "newsletter": true
     }
   ]
 }
