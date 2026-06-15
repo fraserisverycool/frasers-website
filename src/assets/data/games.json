@@ -1,6 +1,27 @@
 {
   "games": [
     {
+      "name": "Angeline Era",
+      "vibes": "9",
+      "gameplay": "9",
+      "review": [
+        "I really enjoyed playing this very artsy little action game. In the game you can fight by just walking into monsters which is actually surprisingly deep, gameplay-wise. How to proceed to the next area involves some puzzle solving and tactics, and each area is nice and bite-sized and there's always a nice reward. It's a lot of fun! There are great boss battles, and it never really gets boring.",
+        "It's got the same PS1-era graphics as Anodyne 2 (this developer's previous game which I also really loved) and honestly I love it. It's such a vibe. We are living in the time period where these graphics are cool again, like we had 10 years ago with pixel art. Great. The vibes in general are excellent, and made better by another excellent soundtrack.",
+        "The story is very high-concept, with a lot of floaty dialogue about religion and magic realism that is honestly impossible to follow. By the end I was skipping text because honestly I had no clue what was going on. And the ending is just completely baffling, to the point where I was happy when it finally ended. But I did make peace with the story. I decided to just enjoy the vibe of the writing rather than the content and that worked pretty well.",
+        "In the game, you have this button which searches the area you're in for secrets, which means that there is a general sense of there being a million things to find! To the game's credit, it's always clear where to look for secrets, but I did feel quite aimless when exploring the world. Only about halfway through when I found a map which told me how to finish the game that I stopped feeling this sense of being overwhelmed. I spent a lot of time just randomly finding levels and completing them, feeling like I was missing important content (I didn't find the blacksmith until right at the end).",
+        "I did really enjoy this game and I do really recommend it."
+      ],
+      "image": "angeline-era.jpg",
+      "platform": "PC",
+      "year": "2026",
+      "release": "2025",
+      "score": 15,
+      "completed": true,
+      "completable": true,
+      "id": "20875d34-0feb-45ab-a941-1adce0d8e9de",
+      "newsletter": false
+    },
+    {
       "name": "Street Fighter III: 3rd Strike",
       "vibes": "10",
       "gameplay": "9",
