@@ -1,6 +1,26 @@
 {
   "films": [
     {
+      "filename": "dracula.jpg",
+      "title": "Dracula",
+      "description": "The close up shots of his face are hilarious. It's great. I really enjoy the female characters too. Definitely worth a watch but I preferred Nosferatu.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "1931",
+      "id": "b3f77437-6b48-47a2-866a-b852fe9b1d03",
+      "newsletter": false
+    },
+    {
+      "filename": "gay-propaganda.jpg",
+      "title": "Gay Propaganda 4.0 + Sissy Smut",
+      "description": "A collection of 18 short gay films at Freiluftkino Kreuzberg. I don't think the hundreds of queer party people were expecting to watch so much video art! Bleach featured in like 3 of them, which for me is a bit much.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2026",
+      "id": "1188a922-49f5-4c76-9eb0-150e0976d159",
+      "newsletter": false
+    },
+    {
       "filename": "twilight.jpg",
       "title": "Twilight",
       "description": "Leo and I watched this for science, and thoroughly enjoyed it. It is genuinely hilarious. Edward Cullen is so widerlich in every way but whatever we were still cheering for Bella. Incredible to think how this influenced so many straight women back then.",

@@ -1,6 +1,30 @@
 {
   "albums": [
     {
+      "filename": "madonna-ray.jpg",
+      "artist": "Madonna",
+      "name": "Ray of Light",
+      "releaseyear": "1998",
+      "description": [
+        "Really enjoyed discovering this classic album from Madonna. It's so great that she has so much material that I can just get back into her music at different points in my life whenever I need. I love this album's positive vibe, and I love its 90's electronica sound. I also feel like the album is a big day-night cycle. You've got the daytime songs like 'Ray of Light', the sunset song 'Sky Fits Heaven', the night time song 'Frozen' and the dawn song 'Mer Girl. All are great in different ways."
+      ],
+      "topTracks": [
+        "Drowned World / Substitute for Love",
+        "Swim",
+        "Ray of Light",
+        "Skin",
+        "Sky Fits Heaven",
+        "Frozen",
+        "Mer Girl"
+      ],
+      "tags": [
+        "pop",
+        "special vibes"
+      ],
+      "id": "7c1e8af1-964b-40e3-94e3-49ab8aa615b5",
+      "newsletter": false
+    },
+    {
       "filename": "silvana-vendran.jpg",
       "artist": "Silvana Estrada",
       "name": "Vendrán Suaves Lluvias",

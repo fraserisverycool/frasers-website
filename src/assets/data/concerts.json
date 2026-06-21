@@ -1,6 +1,15 @@
 {
   "concerts": [
     {
+      "artist": "Aldous Harding",
+      "date": "21-06-2026",
+      "venue": "Huxley's Neue Welt, Berlin",
+      "image": "aldous-harding.jpeg",
+      "description": "By many measures this was a bad concert: no stage banter, just played the songs like the record, and the merch was shit. But there's something special about her.",
+      "id": "e3e47e8b-65b5-4f64-a726-7deb63a32554",
+      "newsletter": false
+    },
+    {
       "artist": "PinkPantheress",
       "date": "02-06-2026",
       "venue": "Tempodrom, Berlin",
