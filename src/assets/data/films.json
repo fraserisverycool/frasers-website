@@ -8,7 +8,7 @@
       "year": "2026",
       "release": "1931",
       "id": "b3f77437-6b48-47a2-866a-b852fe9b1d03",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "gay-propaganda.jpg",
@@ -18,7 +18,7 @@
       "year": "2026",
       "release": "2026",
       "id": "1188a922-49f5-4c76-9eb0-150e0976d159",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "twilight.jpg",
@@ -28,7 +28,7 @@
       "year": "2026",
       "release": "2008",
       "id": "2532e4a9-f1f4-4754-99af-510e3de3c2cf",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "frankenstein-og.jpg",
@@ -38,7 +38,7 @@
       "year": "2026",
       "release": "1931",
       "id": "67c0cf84-3370-45c1-94ec-d638aba37734",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "boys.jpg",

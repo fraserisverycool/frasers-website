@@ -19,7 +19,7 @@
       "completed": true,
       "completable": true,
       "id": "20875d34-0feb-45ab-a941-1adce0d8e9de",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Street Fighter III: 3rd Strike",
@@ -37,7 +37,7 @@
       "completed": false,
       "completable": true,
       "id": "1c54aa15-bc67-4153-bb6a-f942e9390707",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "name": "Minecraft Dungeons",

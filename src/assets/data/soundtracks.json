@@ -22,7 +22,7 @@
         "Island Flyover: Cabana Lagoon (Day)"
       ],
       "id": "c6ec922c-62db-412a-aafd-68b9534536c5",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "mario-kart-world.jpg",
@@ -77,10 +77,11 @@
         "Wild Glide Galaxy (Super Mario Galaxy 2)",
         "Underground BGM (Jazz Fusion) (Super Mario Bros.)",
         "Underground BGM (Acoustic) (Super Mario Bros.)",
-        "Overworld Medley (Super Mario Bros. 3)"
+        "Overworld Medley (Super Mario Bros. 3)",
+        "Ending (Super Mario Bros. 3)"
       ],
       "id": "7d66a902-6f8e-4f5a-af9e-a66552ea45fb",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "pikmin.jpg",
