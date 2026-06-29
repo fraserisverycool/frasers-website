@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "sportfest2.jpeg",
+      "title": "Regen beim Sportfest",
+      "month": "June 2026",
+      "question": "Name a sport I'm doing at my Sportverein",
+      "id": "f04f1b7d-dee9-422b-8d00-bf4bfe8fb868",
+      "newsletter": true
+    },
+    {
       "filename": "weyes.jpg",
       "title": "Biggest 1. Mai yet",
       "month": "May 2026",

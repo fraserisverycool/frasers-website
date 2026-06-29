@@ -1,30 +1,6 @@
 {
   "soundtracks": [
     {
-      "filename": "wii-sports-resort.jpg",
-      "name": "Wii Sports Resort",
-      "description": [
-        "Nintendo are continuing to prioritise soundtracks with a Mii theme and honestly fair enough, I'm not tired of it. This continues the mid-00s frutiger aero vibe that I enjoy so much so bring it on. That Title theme alone, great. That being said, this soundtrack doesn't make for a great listening experience on its own. You can add a few of these tracks to your playlists and that's honestly enough."
-      ],
-      "platform": "Wii",
-      "topTracks": [
-        "Title Theme",
-        "Settings Screen",
-        "Mii Settings",
-        "Stage Select",
-        "Wakeboarding: Opening Theme",
-        "Golf: Opening Theme",
-        "Golf: Results",
-        "Bowling: Results",
-        "Cycling (Road Race): During a Race",
-        "Cycling (Vs.): During a Race",
-        "Skydiving: On the Plane",
-        "Island Flyover: Cabana Lagoon (Day)"
-      ],
-      "id": "c6ec922c-62db-412a-aafd-68b9534536c5",
-      "newsletter": true
-    },
-    {
       "filename": "mario-kart-world.jpg",
       "name": "Mario Kart World",
       "description": [
@@ -37,7 +13,8 @@
         "I died when I heard SNES Rainbow Road for the first time. It's a bona fide disco remix of my favourite Rainbow Road and you know I got so excited about it that I made an extended dance mix that I DJ'd in Kitkat!! One of my greatest life achievements. That track goes so hard.",
         "We've also got some great remixes which pay respects to the latin flavour of the original mario kart with the Brazilian style 'Choco Island' or 'Koopa Beach', or 'Donut Plains', there is so much to enjoy. That silky smooth 'Vanilla Lake' mix? Damn.",
         "In an update they released the free roam tracks for Mario Galaxy, and there are some fucking bangers in there. 'Purple Comet Galaxy', already a favourite of mine, has been elevated to new heights. It's so good. Also loving 'Yoshi Star Galaxy' and 'Digga-Leg', two tracks which I only truly started appreciating when this soundtrack came out.",
-        "Next was Super Mario Bros 1,2 and 3. The map theme medley is by far away the best. It's perfect. Love how it switches between the areas. Love the strings."
+        "Next was Super Mario Bros 1,2 and 3. The map theme medley is by far away the best. It's perfect. Love how it switches between the areas. Love the strings.",
+        "Then came the Nintendo 64 tracks. Absolute highlights for me are the beautiful 'Yoshi's Tale', the insane 11/8 time signature of 'Winning Results' faithfully recreated with the secret melody from the glitched original, and Super Mario 64's 'Staff Roll' which sounds like a cheesy sitcom theme tune. Also shoutouts to 'DK's Jungle Parkway', originally a 15-second drum loop, now reimagined as a fast paced jazz fusion piece with the weird pitched midi drums transformed into a guitar melody. Fucking great."
       ],
       "platform": "Switch 2",
       "topTracks": [
@@ -78,9 +55,109 @@
         "Underground BGM (Jazz Fusion) (Super Mario Bros.)",
         "Underground BGM (Acoustic) (Super Mario Bros.)",
         "Overworld Medley (Super Mario Bros. 3)",
-        "Ending (Super Mario Bros. 3)"
+        "Ending (Super Mario Bros. 3)",
+        "Yoshi's Tale (Yoshi's Story)",
+        "Title Screen (Mario Kart 64)",
+        "Toad's Turnpike (Mario Kart 64)",
+        "DK's Jungle Parkway (Mario Kart 64)",
+        "Results Screen (Mario Kart 64)",
+        "Rainbow Road (Mario Kart 64)",
+        "File Select (Super Mario 64)",
+        "Title Theme (Latin) (Super Mario 64)",
+        "Dire, Dire Docks (Super Mario 64)",
+        "Bowser's Road (Super Mario 64)",
+        "Staff Roll (Super Mario 64)"
       ],
       "id": "7d66a902-6f8e-4f5a-af9e-a66552ea45fb",
+      "newsletter": true
+    },
+    {
+      "filename": "animal-crossing-new-horizons.jpg",
+      "name": "Animal Crossing: New Horizons",
+      "description": [
+        "Where do I even begin. There is so much to discuss! Animal Crossing approaches video game music so differently to any other game and must be treated with the utmost respect. The composers of this game, just like the games before it, created chill vibes for each and every hour of the day, and all of them match the time of day perfectly. What a pleasure and honour it is to be able to listen to them in the Nintendo Music App. I think my absolute favourite is 7pm.",
+        "Then there are all the other events music, like the Tourney Competing track. I love it so much!!! And THEN! K.K. Slider's whole discography is available, including all the newer tracks from the 2.0 update. We can talk about classics like K.K. Cruisin' and K.K. Bossa but mate the newer tracks are also fire. Check out K.K. Break it's so good.",
+        "They updated this in 2026 with the Nintendo Switch 2 version, and a second time later with Happy Home Paradise, which were maybe disappointing updates in terms of content, but actually had some great little tracks like 'Slumber Island'."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "12:00 AM - Clear",
+        "2:00 AM - Clear",
+        "5:00 AM - Clear",
+        "12:00 PM - Clear",
+        "5:00 PM - Clear",
+        "7:00 PM - Clear",
+        "Island Life Orientation 7 - Clear",
+        "Construction-Complete Ceremony",
+        "The Roost",
+        "Tourney - Competing",
+        "Fireworks Show",
+        "Festivale",
+        "K.K. Cruisin' (Instrumental)",
+        "K.K. Soul (Instrumental)",
+        "K.K. Milonga (Instrumental)",
+        "K.K. House (Instrumental)",
+        "K.K. Break (Instrumental)",
+        "K.K. Bossa (Instrumental)",
+        "K.K. Moody (Instrumental)",
+        "Drivin' (Instrumental)",
+        "K.K. D&B (Instrumental)",
+        "Slumber Island - Clear Afternoon",
+        "Opening Theme (Happy Home Paradise)",
+        "Resort (Day)",
+        "Resort (Night)",
+        "Paradise Planning"
+      ],
+      "id": "17310804-2539-4e72-9f5a-dc7ca0289bfd",
+      "newsletter": true
+    },
+    {
+      "filename": "hyrule-warriors-age-of-imprisonment.jpg",
+      "name": "Hyrule Warriors: Age of Imprisonment",
+      "description": [
+        "I don't know too much about this game, but I'm told it's quite good. Listening to the soundtrack I can see that it takes you through all the locales from the main game and provides high energy interpretations of Tears of the Kingdom's music.",
+        "I learned that the team behind NieR: Automata's excellent soundtrack made this one! I think they did a pretty excellent job in recreating that BOTW vibe, I would have thought it was from the original composers. The highlights for me are the battle themes, and specifically the remixes of the various areas like Korok Forest, Zora's Domain etc, because I'm just a bitch for remixes of old, recognisable songs. But there's definitely an entire, excellent, vibes-heavy but still energetic soundtrack here for us all to enjoy."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "The Unknown Abyss",
+        "Repose",
+        "The Traveling Korok",
+        "The Blood Moon Rises",
+        "Battle for the Snowfield",
+        "Battle for the Wetlands",
+        "Struggle for the Crater",
+        "Battle for the Volcano",
+        "Battle for the Forest",
+        "Those Bold of Heart",
+        "Overpowered",
+        "The Stormwind Ark"
+      ],
+      "id": "4b62ef78-f298-474b-a2a0-dcaf4aeea8b0",
+      "newsletter": false
+    },
+    {
+      "filename": "wii-sports-resort.jpg",
+      "name": "Wii Sports Resort",
+      "description": [
+        "Nintendo are continuing to prioritise soundtracks with a Mii theme and honestly fair enough, I'm not tired of it. This continues the mid-00s frutiger aero vibe that I enjoy so much so bring it on. That Title theme alone, great. That being said, this soundtrack doesn't make for a great listening experience on its own. You can add a few of these tracks to your playlists and that's honestly enough."
+      ],
+      "platform": "Wii",
+      "topTracks": [
+        "Title Theme",
+        "Settings Screen",
+        "Mii Settings",
+        "Stage Select",
+        "Wakeboarding: Opening Theme",
+        "Golf: Opening Theme",
+        "Golf: Results",
+        "Bowling: Results",
+        "Cycling (Road Race): During a Race",
+        "Cycling (Vs.): During a Race",
+        "Skydiving: On the Plane",
+        "Island Flyover: Cabana Lagoon (Day)"
+      ],
+      "id": "c6ec922c-62db-412a-aafd-68b9534536c5",
       "newsletter": true
     },
     {

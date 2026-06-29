@@ -1,6 +1,36 @@
 {
   "films": [
     {
+      "filename": "berlin-metropolis.jpg",
+      "title": "Berlin: Symphony of a Metropolis",
+      "description": "I went to this at Fusion festival thinking it would be Fritz Lang's Metropolis also released in 1927, but no it's this 'portrait of a city'-type silent film, which was honestly also great, although I admit I took a really strong gummy for the viewing. There were two DJs playing music along with the film which was honestly great and added hugely to the vibe. Really enjoyed it.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "1927",
+      "id": "99197f00-4e95-4202-a9cc-a667f355ee73",
+      "newsletter": false
+    },
+    {
+      "filename": "try-it.PNG",
+      "title": "Try it - A FLINTA* Skate Documentary",
+      "description": "Watched this at Fusion festival because it was 40 degrees outside and the cinema was cool. It's about how it's tough for flinta to get into skating because its male dominated. Entertainment value was like a 3/10 but I did see some parallels with girls in the smash community. You can watch it here: https://www.youtube.com/watch?v=cyBMTS9jkOU",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2026",
+      "id": "dc359021-1752-4a87-8d5b-8346c9596e5f",
+      "newsletter": false
+    },
+    {
+      "filename": "activist.jpg",
+      "title": "The Activist",
+      "description": "Watched this for Mongay and I was on board for a little while but then there was this ridiculous workout montage and then I couldn't take it seriously any more.",
+      "spoiler": "The portrayal of the nazis was just ridiculous. The way they just said all that stuff unprompted. And then they weren't even the killers in the end? Like what's the point. Also what the fuck was that lesbian doing there 'at least they don't push me around' and then they immediately proceed to push her around.",
+      "year": "2026",
+      "release": "2025",
+      "id": "5c52cdb2-c3ab-4af2-9c20-2191f290639e",
+      "newsletter": false
+    },
+    {
       "filename": "dracula.jpg",
       "title": "Dracula",
       "description": "The close up shots of his face are hilarious. It's great. I really enjoy the female characters too. Definitely worth a watch but I preferred Nosferatu.",
