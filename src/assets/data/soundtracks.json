@@ -1,6 +1,17 @@
 {
   "soundtracks": [
     {
+      "filename": "rhythm-paradise-groove.webp",
+      "name": "Rhythm Paradise Groove",
+      "description": [
+        "I'm excited to play this game, but I don't know about these music tracks. They're pretty bad. But the magic comes from playing the game and tapping to the beat, I guess."
+      ],
+      "platform": "Switch",
+      "topTracks": [],
+      "id": "086706ec-524e-4bd7-85a8-3f174e7ac2ab",
+      "newsletter": false
+    },
+    {
       "filename": "mario-kart-world.jpg",
       "name": "Mario Kart World",
       "description": [
