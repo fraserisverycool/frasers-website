@@ -1,6 +1,25 @@
 {
   "games": [
     {
+      "name": "Her Story",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "Wow, this game really blew my mind! Fab and I played it together and loved it. It's a detective game where you have to figure out what's going on, and you do so by watching video clips from an old, bugged out database. By searching keywords you can slowly but surely extract information and piece together an insane story about this lady. Everytime there is a little revelation, it's amazing. It's just written so well!",
+        "And her acting is great. And it's British! I was worried going into this that I would have to listen to an American accent the whole time but no she's in Portsmouth, it's great. Vibes of the game are great too, it all takes place in 1994.",
+        "If you have also played this, let's have a chat about it, I wanna know what you think about the MPD theory because I am skeptical."
+      ],
+      "image": "her-story.jpg",
+      "platform": "PC",
+      "year": "2026",
+      "release": "2015",
+      "score": 15,
+      "completed": true,
+      "completable": true,
+      "id": "54bf6291-45dd-4d33-b991-411218f8d315",
+      "newsletter": false
+    },
+    {
       "name": "Angeline Era",
       "vibes": "9",
       "gameplay": "9",

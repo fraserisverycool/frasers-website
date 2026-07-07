@@ -1,6 +1,16 @@
 {
   "films": [
     {
+      "filename": "metropolis.jpg",
+      "title": "Metropolis",
+      "description": "Decided to watch this at home on my own for my education and it was a lot better than all these other silent films I've been watching because it has a lot of substance and nice imagery. It's long but honestly, lots to enjoy.",
+      "spoiler": "I love the idea of the robot lady immediately becoming a deity-like figure. Just the image of her doing that insane naked dance was wild. Also, it's a film about class struggles but it hardly handles the topic gracefully. The entire working class is portrayed as a stupid blob of people who all think the same. If some lady tells them to fight the power, they will all unanimously do it, leaving behind their children. But whatever, this is a vibes film more than anything else I guess.",
+      "year": "2026",
+      "release": "1927",
+      "id": "43002724-cf0d-4ecc-8751-41824783a8a6",
+      "newsletter": false
+    },
+    {
       "filename": "berlin-metropolis.jpg",
       "title": "Berlin: Symphony of a Metropolis",
       "description": "I went to this at Fusion festival thinking it would be Fritz Lang's Metropolis also released in 1927, but no it's this 'portrait of a city'-type silent film, which was honestly also great, although I admit I took a really strong gummy for the viewing. There were two DJs playing music along with the film which was honestly great and added hugely to the vibe. Really enjoyed it.",
