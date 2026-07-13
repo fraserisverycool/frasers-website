@@ -24,6 +24,7 @@ export default class MusicComponent implements OnInit {
   randomCd: CD | null = null;
   randomConcert: Concert | null = null;
   randomSmashImage: string | null = null;
+  randomMixImage: string | null = null;
 
   constructor(private http: HttpClient, private router: Router, protected imageService: ImageService) {}
 
@@ -33,6 +34,7 @@ export default class MusicComponent implements OnInit {
     this.loadRandomCd();
     this.loadRandomConcert();
     this.loadRandomSmashImage();
+    this.loadRandomMix();
   }
 
   handleClick(url: string) {
@@ -139,5 +141,19 @@ export default class MusicComponent implements OnInit {
       'zss_ssbu.png'
     ];
     this.randomSmashImage = smashImages[Math.floor(Math.random() * smashImages.length)];
+  }
+
+  loadRandomMix(): void {
+    this.http.get<{ mixes: any[] }>('assets/data/mixes.json').subscribe({
+      next: (data) => {
+        const mixesWithImages = data.mixes.filter(mix => mix.image);
+        if (mixesWithImages.length > 0) {
+          this.randomMixImage = mixesWithImages[Math.floor(Math.random() * mixesWithImages.length)].image;
+        }
+      },
+      error: (err) => {
+        console.error('Failed to load mixes:', err);
+      },
+    });
   }
 }

@@ -92,6 +92,14 @@
         <span class="button-text">Video Game Mixes</span>
       </button>
       <p>Talking about video game music, over the years I made a bunch of mixes of my favourite tracks. They are finally available for download! It took me a lot of time to figure out how to do that.</p>
+      @if (randomMixImage) {
+        <img
+          [ngSrc]="imageService.imageUrl('/music/mixes/art/' + randomMixImage)"
+          [alt]="'Video Game Mixes'"
+          width="300"
+          height="300"
+          class="image">
+      }
     </div>
     <div class="row-item">
       <button class="fun-button" (click)="handleClick('/music/spotify')">
