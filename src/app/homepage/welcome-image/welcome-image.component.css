@@ -31,9 +31,13 @@
 }
 
 .file-name {
-  font-style: italic;
-  color: #666;
-  font-size: 0.9rem;
+  font-weight: bold;
+  color: #222;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 4px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
 }
 
 .upload-btn {
@@ -92,4 +96,20 @@
   height: auto;
   display: block;
   margin: 0.5rem auto 0;
+}
+
+.progress-bar-container {
+  width: 100%;
+  max-width: 400px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 1rem auto;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  transition: width 0.3s ease;
 }

@@ -11,14 +11,21 @@
 <div class="upload-form">
   <label class="file-select-btn">
     Choose file
-    <input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/bmp,image/tiff" (change)="onFileSelected($event)" />
+    <input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/bmp,image/tiff,image/heic,image/heif" (change)="onFileSelected($event)" />
   </label>
-  <span class="file-name">{{ selectedFile ? selectedFile.name : 'No file chosen' }}</span>
+  <span class="file-name">
+  {{ selectedFile ? selectedFile.name : 'No file selected yet' }}
+</span>
   <input type="password" placeholder="Password" [(ngModel)]="password" class="password-input" />
   <button class="upload-btn" (click)="onUpload()" [disabled]="isUploading">
-    {{ isUploading ? 'Uploading...' : 'Upload' }}
+    {{ isUploading ? 'Uploading (' + uploadProgress + '%)...' : 'Upload' }}
   </button>
 </div>
+@if (isUploading && uploadProgress > 0) {
+  <div class="progress-bar-container">
+    <div class="progress-bar" [style.width.%]="uploadProgress"></div>
+  </div>
+}
 @if (uploadSuccess) {
   <p class="success">Image uploaded successfully!</p>
 }

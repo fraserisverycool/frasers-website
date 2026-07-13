@@ -26,9 +26,17 @@ const storage = multer.diskStorage({
 });
 const upload = multer({
   storage,
+  limits: {
+    fileSize: 10 * 1024 * 1024 // 10MB limit
+  },
   fileFilter: (req, file, cb) => {
     if (file.mimetype === 'image/gif') {
       return cb(new Error('GIF files are not supported'));
+    }
+    // Accept standard images and common mobile formats
+    const allowedMimes = ['image/jpeg', 'image/png', 'image/webp', 'image/avif', 'image/bmp', 'image/tiff', 'image/heic', 'image/heif'];
+    if (!allowedMimes.includes(file.mimetype) && !file.originalname.match(/\.(jpg|jpeg|png|webp|avif|bmp|tiff|heic|heif)$/i)) {
+      return cb(new Error('Unsupported file type'));
     }
     cb(null, true);
   }
@@ -39,7 +47,7 @@ const port = 3000;
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://127.0.0.1:80', 'http://127.0.0.1', 'http://localhost:4200', 'https://worldpeace.services', 'http://worldpeace.services'],
+  origin: ['http://127.0.0.1:80', 'http://127.0.0.1', 'http://localhost:4200', 'https://worldpeace.services', 'http://worldpeace.services', 'http://192.168.2.209:4200'],
   methods: ['GET', 'POST', 'PUT', 'OPTIONS'],
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept']
 }));

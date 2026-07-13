@@ -152,6 +152,12 @@ You can also just run the Angular project locally pretty easily if you want to r
 
 This will put the website on ```http://localhost:4200``` which you can access in your browser.
 
+You can also debug things on mobile by running:
+
+```ng serve --host YOUR_IP_ADDRESS```
+
+For this you also have to update environment.development.ts to use this IP address instead of localhost, and make sure the IP in the cors whitelist (database.js) is also updated. Then you'll be able to put http:YOUR_IP_ADDRESS:4200 into your mobile browser if you're on the same wifi.
+
 Alternatively with pm2:
 
 ```pm2 --name FrasersWebsite start npm -- start```
