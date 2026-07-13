@@ -4,14 +4,14 @@
     <div class="gif">
       <img [src]="imageService.imageUrl('/homepage/mp3.gif')" margin="5px" alt="nice gif saying 'New MP3s updated'">
     </div>
-    <p>So happy to announce that I finally got these mp3s working! Download them directly from my raspberry pi here! Maybe don't start many downloads at once because the thing only has 2GB RAM.</p>
+    <p>Over the years I have made a bunch of little mixes from all my favourite video game music. There are a lot of them so don't be afraid to keep scrolling!</p>
     <ul class="mp3-list">
       @for (mp3 of mp3Files.slice(0, itemsToShow); track mp3; let i = $index) {
         <li [style.animation-delay]="i * 0.1 + 's'">
           <div class="mp3-card" [style.background-color]="color">
             <h2>{{ mp3.name }}</h2>
             <div class="mix-image">
-              <img [src]="imageService.imageUrl('/music/mixes/' + mp3.image)" [alt]="mp3.name">
+              <img [src]="imageService.imageUrl('/music/mixes/art/' + mp3.image)" [alt]="mp3.name">
             </div>
             <p>{{ mp3.description }}</p>
             <div class="audio-player-wrapper">

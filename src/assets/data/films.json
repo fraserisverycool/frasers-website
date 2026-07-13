@@ -1,6 +1,16 @@
 {
   "films": [
     {
+      "filename": "chun-li.jpg",
+      "title": "Street Fighter II: The Animated Movie",
+      "description": "My colleague Erik sent me a dailymotion link to this at work and it just started autoplaying in the chat. Before I knew it I was watching this whole ass film while at work. Despite just having it on in the background I found it very entertaining, although I feel like they did Chun-Li dirty, man. They didn't need to have that shower scene and her be almost naked for her fight scene. At least she won the fight with spinning bird kick!",
+      "spoiler": "",
+      "year": "2026",
+      "release": "1994",
+      "id": "7ec6d3ab-ecb2-468f-a41f-a1ca814f3f36",
+      "newsletter": true
+    },
+    {
       "filename": "metropolis.webp",
       "title": "Metropolis",
       "description": "Decided to watch this at home on my own for my education and it was a lot better than all these other silent films I've been watching because it has a lot of substance and nice imagery. It's long but honestly, lots to enjoy.",
@@ -8,7 +18,7 @@
       "year": "2026",
       "release": "1927",
       "id": "43002724-cf0d-4ecc-8751-41824783a8a6",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "berlin-metropolis.jpg",
@@ -18,7 +28,7 @@
       "year": "2026",
       "release": "1927",
       "id": "99197f00-4e95-4202-a9cc-a667f355ee73",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "try-it.PNG",
@@ -28,7 +38,7 @@
       "year": "2026",
       "release": "2026",
       "id": "dc359021-1752-4a87-8d5b-8346c9596e5f",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "activist.jpg",
@@ -38,7 +48,7 @@
       "year": "2026",
       "release": "2025",
       "id": "5c52cdb2-c3ab-4af2-9c20-2191f290639e",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "dracula.jpg",

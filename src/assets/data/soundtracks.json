@@ -1,7 +1,24 @@
 {
   "soundtracks": [
     {
-      "filename": "rhythm-paradise-groove.webp",
+      "filename": "f-zero-99.jpg",
+      "name": "F-Zero 99",
+      "description": [
+        "An extension to the SNES soundtrack! It is actually super cool that they created brand new SNES music for this game, although they only really made new versions of the same old tunes. The '??? Remixes' are a bit special because they combine two tracks, so the Mute City Remix is actually a mash up of Mute City and Fire Field. It's fun, but honestly they don't make for nice listening."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Mute City",
+        "Big Blue",
+        "Silence",
+        "White Land I",
+        "Fire Field"
+      ],
+      "id": "58989046-bcb6-4797-84f5-d3d71ef730af",
+      "newsletter": true
+    },
+    {
+      "filename": "rhythm-heaven-groove.webp",
       "name": "Rhythm Paradise Groove",
       "description": [
         "I'm excited to play this game, but I don't know about these music tracks. They're pretty bad. But the magic comes from playing the game and tapping to the beat, I guess."
@@ -9,7 +26,7 @@
       "platform": "Switch",
       "topTracks": [],
       "id": "086706ec-524e-4bd7-85a8-3f174e7ac2ab",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "mario-kart-world.jpg",
@@ -166,7 +183,7 @@
         "The Stormwind Ark"
       ],
       "id": "4b62ef78-f298-474b-a2a0-dcaf4aeea8b0",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "wii-sports-resort.jpg",
@@ -602,13 +619,13 @@
         "Rankings Board: Girl Charm",
         "Rankings Board: Splurge",
         "Compatibility Tester: Compatibility Forecast",
-        "Compatibility Tester: World Match EVER! (Japanese Ver.)",
+        "Compatibility Tester: Worst Match EVER! (Japanese Ver.)",
         "Compatibility Tester: Rarely Reconciled! (Japanese Ver.)",
         "Compatibility Tester: Cutest Couple! (International Ver.)",
         "Age-o-matic: Life as a Grown-Up",
         "Vacation: France",
         "Vacation: Kyoto/Japan",
-        "Vacation: Lelu (Korean Ver.)",
+        "Vacation: Jeju (Korean Ver.)",
         "Precious Memories 1",
         "Precious Memories 2",
         "Precious Memories 3",

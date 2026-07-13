@@ -72,7 +72,7 @@ def mapper_cds(json_item):
     return json_item["album"], [json_item["description"]], "music/albums/" + json_item["image"], "Artist: " + json_item["artist"]
 
 def mapper_mixes(json_item):
-    return json_item["name"], [json_item["description"]], None, "For a download link, please visit the video game mixes page!"
+    return json_item["name"], [json_item["description"]], "music/mixes/art/" + json_item["image"], "For a download link, please visit the video game mixes page!"
 
 def mapper_soundtracks(json_item):
     return json_item["name"], json_item["description"], "music/nintendo/" + json_item["filename"], "Platform: " + json_item["platform"] + ", for a list of favourite tracks, please visit the nintendo soundtracks page!"
@@ -110,7 +110,7 @@ def get_content_data(content_type, content_data):
   elif content_type == ContentType.CD:
     return content_data['cds']
   elif content_type == ContentType.MIX:
-    return content_data['mixes'][0],
+    return content_data['mixes']
   elif content_type == ContentType.SOUNDTRACK:
     return content_data['soundtracks']
   elif content_type == ContentType.KK:
@@ -197,13 +197,15 @@ def generate_newsletter(title, description):
 
 
 def main():
-  generate_newsletter("Illness",
+  generate_newsletter("40 Celcius at Fusion Festival",
                       [
-                        "Hello lovely readers of this newsletter, I hope you're as excited as me for Berlin's summer! There's always so much to do, so many fun events, so many people to see. My weekends are always booked out completely and I end up riding this social high where I've got all these hobbies and cool shit going on and it feels amazing.",
-                        "Except when it doesn't! I, like all other people, get sick sometimes. I caught a cold and stayed at home for two days recovering from it. But then I just decided I was fine. This is because it was the weekend and I had plans! So I went up and met with two groups of friends and promptly spread the germs onto my friends and got them sick too.",
-                        "I'm a fucking idiot! This was totally foreseeable. I may have had energy and it wasn't that bad at all, but I was coughing and worst of all, my voice sounded different because of the congestion. So everyone knew. This has happened before and I still haven't learned my lesson. The next days I spent living in guilt because I spread the cold and in order to atone for my sins and hopefully make myself better, I am laying out this story on my website for everyone to see.",
-                        "Dear reader, just know that I'll not do this again. All I have to do is defeat FOMO. If I'm able to stay at home and play video games (something I actively want to do) instead of not letting down a friend and doing some social engagement, then I have won. I'm hoping that as I get older, defeating FOMO will get easier.",
-                        "In website news, people have started using the upload image feature on the homepage. I've moved it to the very top in order to encourage more! Recently I walked through my hallway and saw just a random baby on the screen. I wonder who it is."
+                        "It's come to my attention that at least 3 (!) people have set up notifications for this RSS feed so shoutouts to you guys! You've earned yourselves a new newsletter and an update on what I've been up to! I write this for me but it's a bonus if my friends read it too.",
+                        "Two weeks ago there was an insane 40 degrees heatwave across all of Europe and I think it was a wake-up call for everyone about the new normal when it comes to extreme weather. We're living in a time of change and it won't be long before our lives will truly and regularly be disrupted by weather like this.",
+                        "I happened to have spent that weekend at Fusion festival, the largest festival I've ever been too. I decided to go because after years of FOMO and so many of my mates going this year, I thought it would be nice to check it out. I heard that it's almost like its own separate country, a fantasy land that you can retreat to for a long weekend.",
+                        "Tragically, bad luck meant that we had to wait for hours to get in (there was a forest fire and an evacuation), and then it became insufferably hot. My tent was an oven, and unlike many people around me, I was simply unable to get more than 3 hours sleep, which ultimately meant that I couldn't enjoy the weekend. Without sleep I'm not able to do anything with the enthusiasm that I normally carry with me.",
+                        "It's a real shame because I do recognise that it is cool there. It really does have everything. The Kino was great, and I saw this one outstanding disco band. But I also feel like some things don't need to grow this big. You never saw the same people twice, and although I knew lots of people there, I didn't get to know anyone new. I also felt overwhelmed by the choice of activities. As a sufferer of FOMO, it was really hard to decide what to do.",
+                        "The next time I go to a festival, it will be a small one where I stay for maximum 2 nights, and if there is a heatwave, I will simply not go. I don't wanna be in survival mode and also pretend I'm having fun.",
+                        "In website news, I've started working on an exciting new project - making music mixes! I already have a ton of mixes that I made over the years for video game music, and as preparation for the new project, I decided to make some fun album art for all of those. I totally underestimated how many I have (I made 65!! wtf!) so it took ages, but I learned a lot doing it. Graphic design really is my passion. I also found an unfinished one that I finished off!"
                       ])
 
 if __name__ == "__main__":
