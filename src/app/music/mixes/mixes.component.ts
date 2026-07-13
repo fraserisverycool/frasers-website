@@ -9,6 +9,7 @@ interface Mp3Info {
   filename: string;
   name: string;
   description: string;
+  image: string;
   rating: number[];
   id: string;
   newsletter: boolean;

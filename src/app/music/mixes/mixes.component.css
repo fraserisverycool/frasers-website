@@ -55,6 +55,14 @@
   font-size: 1.2em;
 }
 
+.mix-image img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
 .mp3-card p {
   font-size: 0.9em;
   margin-bottom: 15px;

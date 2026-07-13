@@ -10,6 +10,9 @@
         <li [style.animation-delay]="i * 0.1 + 's'">
           <div class="mp3-card" [style.background-color]="color">
             <h2>{{ mp3.name }}</h2>
+            <div class="mix-image">
+              <img [src]="imageService.imageUrl('/music/mixes/' + mp3.image)" [alt]="mp3.name">
+            </div>
             <p>{{ mp3.description }}</p>
             <div class="audio-player-wrapper">
               <audio controls preload="none" [src]="imageService.imageUrl('/music/mixes/' + mp3.filename)">

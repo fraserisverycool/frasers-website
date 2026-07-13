@@ -21,7 +21,7 @@ describe('MixesComponent', () => {
 
   it('should render audio players for each mix', () => {
     component.mp3Files = [
-      { id: '1', name: 'Mix 1', description: 'Desc 1', filename: 'mix1.mp3', rating: [5,5,5,5,5,5], newsletter: false }
+      { id: '1', name: 'Mix 1', description: 'Desc 1', filename: 'mix1.mp3', image: 'placeholder.jpg', rating: [5,5,5,5,5,5], newsletter: false }
     ];
     fixture.detectChanges();
     const audioElements = fixture.nativeElement.querySelectorAll('audio');
