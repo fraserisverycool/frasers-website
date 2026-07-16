@@ -12,6 +12,7 @@ import SpotifyComponent from "./music/spotify/spotify.component";
 import SoundtracksComponent from "./music/nintendo/soundtracks.component";
 import KkComponent from "./music/nintendo/kk/kk.component";
 import MixesComponent from "./music/mixes/mixes.component";
+import PlaylistsComponent from "./music/playlists/playlists.component";
 import CdsComponent from "./music/cds/cds.component";
 import DailiesComponent from "./music/daily/dailies/dailies.component";
 import WorldpeaceComponent from "./music/worldpeace/worldpeace.component";
@@ -84,6 +85,9 @@ export const routes: Routes = [
   },
   {
     path: 'music/mixes', component: MixesComponent, data: { title: 'Video Game Mixes - Fraser\'s Website' }
+  },
+  {
+    path: 'music/playlists', component: PlaylistsComponent, data: { title: 'Playlists - Fraser\'s Website' }
   },
   {
     path: 'music/cds', component: CdsComponent, data: { title: 'CDs - Fraser\'s Website' }

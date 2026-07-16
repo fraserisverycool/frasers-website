@@ -88,6 +88,20 @@
       }
     </div>
     <div class="row-item">
+      <button class="fun-button" (click)="handleClick('/music/playlists')">
+        <span class="button-text">Music Playlists</span>
+      </button>
+      <p>I also make large MP3s of music that aren't for video games. You can find them all here on this page!</p>
+      @if (randomPlaylistImage) {
+        <img
+          [ngSrc]="imageService.imageUrl('/music/playlists/art/' + randomPlaylistImage)"
+          [alt]="'Music Playlists'"
+          width="300"
+          height="300"
+          class="image">
+      }
+    </div>
+    <div class="row-item">
       <button class="fun-button" (click)="handleClick('/music/mixes')">
         <span class="button-text">Video Game Mixes</span>
       </button>

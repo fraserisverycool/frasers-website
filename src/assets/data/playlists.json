@@ -1,0 +1,17 @@
+{
+  "playlists": [
+    {
+      "filename": "sexy-steamy-smooth.mp3",
+      "name": "Sexy, Steamy and Smooth",
+      "description": "I made this steamy playlist, great for when you're getting it on with your lover. It's got that 90's electronica vibe, but it's chill. You could say it's stereotypical porn music and I would agree with you. Some of the songs are a little on the nose - you could maybe describe this mix as somewhat cheesy, but you have to just embrace it. It's camp, I swear.",
+      "id": "66884a1e-b5d5-4301-abbb-c021094d2169",
+      "newsletter": false,
+      "image": "sexy-steamy-smooth.png",
+      "tracklist": [
+        "Track 1 - Artist A",
+        "Track 2 - Artist B",
+        "Track 3 - Artist C"
+      ]
+    }
+  ]
+}

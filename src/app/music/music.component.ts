@@ -25,6 +25,7 @@ export default class MusicComponent implements OnInit {
   randomConcert: Concert | null = null;
   randomSmashImage: string | null = null;
   randomMixImage: string | null = null;
+  randomPlaylistImage: string | null = null;
 
   constructor(private http: HttpClient, private router: Router, protected imageService: ImageService) {}
 
@@ -35,6 +36,7 @@ export default class MusicComponent implements OnInit {
     this.loadRandomConcert();
     this.loadRandomSmashImage();
     this.loadRandomMix();
+    this.loadRandomPlaylist();
   }
 
   handleClick(url: string) {
@@ -153,6 +155,20 @@ export default class MusicComponent implements OnInit {
       },
       error: (err) => {
         console.error('Failed to load mixes:', err);
+      },
+    });
+  }
+
+  loadRandomPlaylist(): void {
+    this.http.get<{ playlists: any[] }>('assets/data/playlists.json').subscribe({
+      next: (data) => {
+        const playlistsWithImages = data.playlists.filter(playlist => playlist.image);
+        if (playlistsWithImages.length > 0) {
+          this.randomPlaylistImage = playlistsWithImages[Math.floor(Math.random() * playlistsWithImages.length)].image;
+        }
+      },
+      error: (err) => {
+        console.error('Failed to load playlists:', err);
       },
     });
   }

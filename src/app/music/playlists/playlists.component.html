@@ -1,0 +1,43 @@
+<div class="page-container">
+  <div class="mp3-container">
+    <h1 class="neon-text">🎵 Fraser's Music Mixes 🎵</h1>
+    <div class="gif">
+      <img [src]="imageService.imageUrl('/homepage/mp3.gif')" margin="5px" alt="nice gif saying 'New MP3s updated'">
+    </div>
+    <p>Here's a fun project: I've started making little mixes of my favourite music. They're available for you to enjoy as a single, continuous mp3 with transitions!</p>
+    <ul class="mp3-list">
+      @for (mp3 of mp3Files.slice(0, itemsToShow); track mp3; let i = $index) {
+        <li [style.animation-delay]="i * 0.1 + 's'">
+          <div class="mp3-card" [style.background-color]="color">
+            <h2>{{ mp3.name }}</h2>
+            <div class="mix-image">
+              <img [src]="imageService.imageUrl('/music/playlists/art/' + mp3.image)" [alt]="mp3.name">
+            </div>
+            <p>{{ mp3.description }}</p>
+            <div class="audio-player-wrapper">
+              <audio controls preload="none" [src]="imageService.imageUrl('/music/playlists/' + mp3.filename)">
+                Mate your browser cannot handle this audio player.
+              </audio>
+            </div>
+            @if (mp3.tracklist && mp3.tracklist.length > 0) {
+              <div class="tracklist-container">
+                <h3>Tracklist</h3>
+                <ul class="tracklist">
+                  @for (track of mp3.tracklist; track track) {
+                    <li>{{ track }}</li>
+                  }
+                </ul>
+              </div>
+            }
+            <a [href]="imageService.imageUrl('/music/playlists/' + mp3.filename)" [download]="mp3.filename">
+              <span class="file-icon">🎧</span>
+              Download {{ mp3.filename }}
+            </a>
+            <app-rating-bar [rating]="{id: mp3.id, ratings: mp3.rating}"></app-rating-bar>
+          </div>
+        </li>
+      }
+    </ul>
+    <div #scrollAnchor class="scroll-anchor"></div>
+  </div>
+</div>
