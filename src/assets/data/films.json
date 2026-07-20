@@ -1,6 +1,16 @@
 {
   "films": [
     {
+      "filename": "birth-of-house.jpg",
+      "title": "Move Ya Body: The Birth of House",
+      "description": "Honestly a pretty plain history of the first major Chicago house DJs. Had pacing issues and didn't even talk about the music itself, which I thought was lame. Featured a spicy part with Rachel the Rock n' Roll villain which was fun.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2025",
+      "id": "b151cea6-5233-4b4c-9559-c68c0044fdb5",
+      "newsletter": false
+    },
+    {
       "filename": "obsession.webp",
       "title": "Obsession",
       "description": "Oh my GOD I was suffering in the cinema. If you're looking for a horror film that makes you feel absolute dread, here you go! Highly recommended but only if actually enjoying feeling like that.",
@@ -8,7 +18,7 @@
       "year": "2026",
       "release": "2026",
       "id": "4015772c-01b8-4fad-a4c8-678d4621643d",
-      "newsletter": true
+      "newsletter": false
     },
     {
       "filename": "chun-li.jpg",
