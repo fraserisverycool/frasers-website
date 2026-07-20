@@ -18,7 +18,7 @@
 </span>
   <input type="password" placeholder="Password" [(ngModel)]="password" class="password-input" />
   <button class="upload-btn" (click)="onUpload()" [disabled]="isUploading">
-    {{ isUploading ? 'Uploading (' + uploadProgress + '%)...' : 'Upload' }}
+    {{ isCompressing ? 'Compressing...' : (isUploading ? 'Uploading (' + uploadProgress + '%)...' : 'Upload') }}
   </button>
 </div>
 @if (isUploading && uploadProgress > 0) {

@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { environment } from '../../../environments/environment';
 import { catchError, timeout } from 'rxjs/operators';
 import { of, throwError } from 'rxjs';
+import { ImageCompressionService } from './service/image-compression.service';
 
 @Component({
   selector: 'app-welcome-image',
@@ -22,8 +23,9 @@ export class WelcomeImageComponent implements OnInit {
   latestImageUrl: string | null = null;
   password: string = '';
   uploadProgress: number = 0;
+  isCompressing: boolean = false;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private compressionService: ImageCompressionService) {}
 
   ngOnInit(): void {
     this.loadLatestImage();
@@ -53,24 +55,16 @@ export class WelcomeImageComponent implements OnInit {
 
       // Check for GIF
       if (file.type === 'image/gif' || file.name.toLowerCase().endsWith('.gif')) {
-        this.uploadError = 'GIF files are not supported. Please upload a static image (JPG, PNG, WEBP, etc.).';
+        this.uploadError = 'Tragically, GIF files are not supported. Please upload a static image (JPG, PNG, WEBP, etc.).';
         this.selectedFile = null;
         input.value = '';
         return;
       }
 
-      // Check for common mobile format HEIC/HEIF
-      if (file.name.toLowerCase().endsWith('.heic') || file.name.toLowerCase().endsWith('.heif')) {
-        this.uploadError = 'HEIC/HEIF images from iPhones are currently not supported by the display. Maybe you can screenshot the image instead.';
-        this.selectedFile = null;
-        input.value = '';
-        return;
-      }
-
-      // Check file size (e.g., limit to 10MB)
-      const maxSize = 10 * 1024 * 1024;
+      // Check file size (e.g., limit to 20MB for initial selection, compression will shrink it)
+      const maxSize = 20 * 1024 * 1024;
       if (file.size > maxSize) {
-        this.uploadError = `File is too large (${(file.size / 1024 / 1024).toFixed(1)}MB). Max size is 10MB.`;
+        this.uploadError = `Mate this picture is simply too big: (${(file.size / 1024 / 1024).toFixed(1)}MB). Max size is 20MB.`;
         this.selectedFile = null;
         input.value = '';
         return;
@@ -82,31 +76,42 @@ export class WelcomeImageComponent implements OnInit {
     }
   }
 
-  onUpload(): void {
+  async onUpload(): Promise<void> {
     if (!this.selectedFile) {
       this.uploadError = 'Please select an image first.';
       return;
     }
     if (!this.password) {
-      this.uploadError = 'Please enter the password.';
+      this.uploadError = 'You have to enter the password.';
       return;
     }
 
     this.isUploading = true;
+    this.isCompressing = true;
     this.uploadError = null;
     this.uploadProgress = 0;
 
+    let fileToUpload = this.selectedFile;
+
+    try {
+      fileToUpload = await this.compressionService.compressImage(this.selectedFile);
+    } catch (err) {
+      console.error("I tried to compress your image but it didn't work:", err);
+    } finally {
+      this.isCompressing = false;
+    }
+
     const formData = new FormData();
-    formData.append('image', this.selectedFile);
+    formData.append('image', fileToUpload);
     formData.append('password', this.password);
 
-    console.log(`Starting upload for ${this.selectedFile.name} (${this.selectedFile.size} bytes)`);
+    console.log(`Starting upload for ${fileToUpload.name} (${fileToUpload.size} bytes)`);
 
     this.http.post(`${this.apiUrl}/upload/welcome-image`, formData, {
       reportProgress: true,
       observe: 'events'
     }).pipe(
-      timeout(4000),
+      timeout(60000),
       catchError((err: any) => {
         console.error('Upload error details:', err);
         let errorMessage = 'Upload failed.';
