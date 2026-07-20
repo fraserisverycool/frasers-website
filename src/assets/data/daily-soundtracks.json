@@ -4,7 +4,6 @@
     "jazz as a playlist",
     "kimbra",
     "anohni it must change",
-    "björk bachelorette",
     "kkb waking up",
     "james blake",
     "dorian electra",
@@ -18,6 +17,480 @@
     "norah jones the nearness of you"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "Tori Amos",
+      "album": "Under The Pink",
+      "track": "The Waitress",
+      "description": "Tori sings about how she wants to kill this bitch but she believes in peace and will control her impulses. In this performance she goes off on a massive ad-lib and it's just so great.",
+      "link": "https://www.youtube.com/watch?v=AFmv3h_ic_w",
+      "game": false,
+      "day": "30-04-2027",
+      "id": "09cd4862-17e1-4a80-8dc1-da07dda9c191",
+      "newsletter": false,
+      "filename": "the-waitress.mp3",
+      "tags": [
+        "intense",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "King Gizzard And The Lizard Wizard",
+      "album": "KG",
+      "track": "Ontology",
+      "description": "This song has so much going on. The little microtonal riff at the start sounds like they're going for ancient Egypt, but then there's this bluegrass break. It's a lot of fun!",
+      "link": "https://www.youtube.com/watch?v=D5q5OEho8II",
+      "game": false,
+      "day": "29-04-2027",
+      "id": "39f410ff-afc6-4e72-817e-2da38f7b1df5",
+      "newsletter": false,
+      "filename": "ontology.mp3",
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "artist": "This Is The Kit",
+      "album": "Off Off On",
+      "track": "Keep Going",
+      "description": "Beautiful, peaceful album finisher. Great for when you're at the acceptance stage of your grief.",
+      "link": "https://www.youtube.com/watch?v=ArZTeT-Bh_c",
+      "game": false,
+      "day": "28-04-2027",
+      "id": "9e7ef08d-0f41-4c80-bf19-66e443bdd544",
+      "newsletter": false,
+      "filename": "keep-going.mp3",
+      "tags": [
+        "chill",
+        "indie",
+        "peaceful"
+      ]
+    },
+    {
+      "artist": "Disasterpeace",
+      "album": "Hyper Light Drifter",
+      "track": "The Last General",
+      "description": "Very memorable and impactful music from the game's first boss. The whole soundtrack has this gritty saw-wave sound. It just sounds so devastating.",
+      "link": "https://www.youtube.com/watch?v=bD0851zso08",
+      "game": false,
+      "day": "27-04-2027",
+      "id": "adf55314-e75e-495b-818d-c07b9696a711",
+      "newsletter": false,
+      "filename": "the-last-general.mp3",
+      "tags": [
+        "indie",
+        "intense",
+        "devastating"
+      ]
+    },
+    {
+      "artist": "Bon Voyage Organisation",
+      "album": "Xīngyè",
+      "track": "Shēnzhèn 5",
+      "description": "Such a fun disco track with Chinese vibes. Love DJing this one.",
+      "link": "https://www.youtube.com/watch?v=bM9XvjLZvnA",
+      "game": false,
+      "day": "26-04-2027",
+      "id": "f0882070-728c-46a2-a579-40f7e63bde41",
+      "newsletter": false,
+      "filename": "shenzhen-5.mp3",
+      "tags": [
+        "party"
+      ]
+    },
+    {
+      "artist": "Tee Lopes",
+      "album": "Sonic Mania",
+      "track": "Mirage Saloon Act 2",
+      "description": "Banger western desert disco level music. So addicting.",
+      "link": "https://www.youtube.com/watch?v=Zb1mSGhyido",
+      "game": true,
+      "day": "25-04-2027",
+      "id": "e944adeb-0f42-4f82-878b-ee9dcb36cd4b",
+      "newsletter": false,
+      "filename": "mirage-saloon.mp3",
+      "tags": [
+        "party",
+        "sonic"
+      ]
+    },
+    {
+      "artist": "Björk",
+      "album": "Homogenic",
+      "track": "Bachelorette",
+      "description": "This is an insane masterpiece from Björk which sounds like it could be in a Bond film. So intense and so good.",
+      "link": "https://www.youtube.com/watch?v=JNJv-Ebi67I",
+      "game": false,
+      "day": "24-04-2027",
+      "id": "6cdb397a-ee21-412f-8f32-d2f19b1aeb40",
+      "newsletter": false,
+      "filename": "bachelorette.mp3",
+      "tags": [
+        "intense"
+      ]
+    },
+    {
+      "artist": "Bullion",
+      "album": "Loop The Loop",
+      "track": "My Lar",
+      "description": "It's a pretty out-there chill track. Hard to pin a genre on this one, but it's a vibe.",
+      "link": "https://www.youtube.com/watch?v=Yi9PEn0-8iE",
+      "game": false,
+      "day": "23-04-2027",
+      "id": "a88e1e43-ec9e-42c8-8a65-513e744e6616",
+      "newsletter": false,
+      "filename": "my-lar.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "JMSN",
+      "album": "Heals Me",
+      "track": "Love 2 U",
+      "description": "An intense sexy song. 'I wanna make love to you darling, and deal with the mess we made in the morning'. This one is FIRMLY on the babymaking playlist.",
+      "link": "https://www.youtube.com/watch?v=RuyvLzcnSeI",
+      "game": false,
+      "day": "22-04-2027",
+      "id": "09046429-b33d-41db-9f82-c3802dca4fc6",
+      "newsletter": false,
+      "filename": "love-2-u.mp3",
+      "tags": [
+        "babymaking",
+        "chill",
+        "soul"
+      ]
+    },
+    {
+      "artist": "U.S. Girls",
+      "album": "Bless This Mess",
+      "track": "Bless This Mess",
+      "description": "Had a moment with this song.",
+      "link": "https://www.youtube.com/watch?v=i-mmfWC5-d4",
+      "game": false,
+      "day": "21-04-2027",
+      "id": "438d430d-264e-4a2c-a29c-c228d473a3f3",
+      "newsletter": false,
+      "filename": "bless-this-mess.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Django Django",
+      "album": "Off Planet",
+      "track": "Gazelle",
+      "description": "Love the beginning of this song with the piano, and then it just turns into this super cool western-style bop.",
+      "link": "https://www.youtube.com/watch?v=BK54ovp__1I",
+      "game": false,
+      "day": "20-04-2027",
+      "id": "84b745d2-54e7-4b3f-ac2f-4e64d2e77a88",
+      "newsletter": false,
+      "filename": "gazelle.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Prefab Sprout",
+      "album": "Steve McQueen",
+      "track": "Faron Young",
+      "description": "Some fun rock music from the 80s with some sensitive songwriting.",
+      "link": "https://www.youtube.com/watch?v=VAVER-QBEyI",
+      "game": false,
+      "day": "19-04-2027",
+      "id": "0d51fec5-7823-419a-ae85-3f8ea138aa61",
+      "newsletter": false,
+      "filename": "faron-young.mp3",
+      "tags": [
+        "classic",
+        "rock"
+      ]
+    },
+    {
+      "artist": "Kelsey Lu",
+      "album": "So Help Me God",
+      "track": "Comfort",
+      "description": "This song inspired me to make a playlist of songs which evoke the feeling of the wind blowing through your hair. The part where the tempo slows down? Sublime.",
+      "link": "https://www.youtube.com/watch?v=7A4ckK8GPAU",
+      "game": false,
+      "day": "18-04-2027",
+      "id": "48867d53-5b80-4c2d-8c58-066d015999d8",
+      "newsletter": false,
+      "filename": "comfort.mp3",
+      "tags": [
+        "indie",
+        "chill",
+        "magical"
+      ]
+    },
+    {
+      "artist": "Lyall Moloney (feat. Phillabusta)",
+      "album": "The Architect",
+      "track": "Black Dog",
+      "description": "Such a feel-good gem that I found thanks to the algorithm many years ago.",
+      "link": "https://www.youtube.com/watch?v=I6J2rFjJ60E",
+      "game": false,
+      "day": "17-04-2027",
+      "id": "02c19dcc-b318-4b37-a712-77a8519b13f4",
+      "newsletter": false,
+      "filename": "black-dog.mp3",
+      "tags": [
+        "chill"
+      ]
+    },
+    {
+      "artist": "Aqualung (feat. Lianne La Havas)",
+      "album": "10 Futures",
+      "track": "Eggshells",
+      "description": "Lianne coming in and just sounding so gorgeous on this track... stunning.",
+      "link": "https://www.youtube.com/watch?v=2J9F8tXTUlc",
+      "game": false,
+      "day": "16-04-2027",
+      "id": "2e681e21-aac6-44c7-89bf-a1a1d01ce434",
+      "newsletter": false,
+      "filename": "eggshells.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Lianne La Havas",
+      "album": "Lianne La Havas",
+      "track": "Weird Fishes",
+      "description": "She covers Radiohead for this one and it's so great. It's how I got to know about the Radiohead song if I'm honest.",
+      "link": "https://www.youtube.com/watch?v=AHeW8McMBS8",
+      "game": false,
+      "day": "15-04-2027",
+      "id": "9f285642-c31f-415e-997b-bf870f4b4fc1",
+      "newsletter": false,
+      "filename": "wierd-fishes.mp3",
+      "tags": [
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "Rosie Lowe",
+      "album": "Control",
+      "track": "Who's That Girl",
+      "description": "Such an intense vibe for such a slow song. Love it.",
+      "link": "https://www.youtube.com/watch?v=QYcWnrHUQv8",
+      "game": false,
+      "day": "14-04-2027",
+      "id": "1e19c427-d5c4-44ec-bb7d-29db80030e2c",
+      "newsletter": false,
+      "filename": "whos-that-girl.mp3",
+      "tags": [
+        "intense",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Shamir",
+      "album": "Ratchet",
+      "track": "On The Regular",
+      "description": "This song is so fun! I didn't know about it back then but Shamir is a queer icon. I like how the synth sounds like Mega Bomberman.",
+      "link": "https://www.youtube.com/watch?v=Lp9GgdCgMXk",
+      "game": false,
+      "day": "13-04-2027",
+      "id": "59ec350e-eefb-4f95-8889-cf1c64c2b263",
+      "newsletter": false,
+      "filename": "on-the-regular.mp3",
+      "tags": [
+        "party"
+      ]
+    },
+    {
+      "artist": "Moodymann (feat. Andrés)",
+      "album": "Moodymann",
+      "track": "Lyk U Used 2",
+      "description": "Fast-paced but still chill music. Might be good if you're taking uppers at home",
+      "link": "https://www.youtube.com/watch?v=z_trFeBXW5c",
+      "game": false,
+      "day": "12-04-2027",
+      "id": "1913c581-acce-492b-9e65-bef2e6944c68",
+      "newsletter": false,
+      "filename": "lyk-u-used-2.mp3",
+      "tags": [
+        "soul"
+      ]
+    },
+    {
+      "artist": "Coldplay",
+      "album": "Ghost Sotires",
+      "track": "Magic",
+      "description": "I know I know it's not cool to like Coldplay songs but for whatever reason I really like this one. I like it when he says 'of course I do'",
+      "link": "https://www.youtube.com/watch?v=Qtb11P1FWnc",
+      "game": false,
+      "day": "11-04-2027",
+      "id": "f9d506f4-bbcb-4fba-bb33-ceb4ac60e3d8",
+      "newsletter": false,
+      "filename": "magic-coldplay.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Toru Minegishi",
+      "album": "The Legend of Zelda: Twilight Princess",
+      "track": "Kakariko Village",
+      "description": "I slept on this originally but now I recognise it for one of the best little town tunes in Zelda history. It's so chill and I love it.",
+      "link": "https://www.youtube.com/watch?v=EwmUPNgs_x8",
+      "game": true,
+      "day": "10-04-2027",
+      "id": "77d15a4e-ee84-405d-b651-558a4c606c43",
+      "newsletter": false,
+      "filename": "kakariko-village-tp.mp3",
+      "tags": [
+        "zelda",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Massive Attack (feat. Martina Topley Bird)",
+      "album": "Heligoland",
+      "track": "Psyche",
+      "description": "Wow I didn't know about this music video until just now. Yes, this song sounds exactly like swarms of insects. It's creepy and amazing.",
+      "link": "https://www.youtube.com/watch?v=gU-gz06cJCc",
+      "game": false,
+      "day": "09-04-2027",
+      "id": "667a3b7e-6d35-4c13-883e-eef1267d89cf",
+      "newsletter": false,
+      "filename": "psyche.mp3",
+      "tags": [
+        "not for everyone",
+        "intense",
+        "video"
+      ]
+    },
+    {
+      "artist": "The Lovin' Spoonful",
+      "album": "You're a Big Boy Now",
+      "track": "Darling Be Home Soon",
+      "description": "Some 60's music. Love how the melody stays the same over the changing harmony.",
+      "link": "https://www.youtube.com/watch?v=pAur4CWJIPw",
+      "game": false,
+      "day": "08-04-2027",
+      "id": "2924fc9a-206a-4a58-8fa8-dd058ff404d0",
+      "newsletter": false,
+      "filename": "darling-be-home-soon.mp3",
+      "tags": [
+        "classic",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Erykah Badu & James Poyser",
+      "album": "-",
+      "track": "Tempted",
+      "description": "Erykah released this one off track and I just love it. Love the guitar twang and the chord sequence.",
+      "link": "https://www.youtube.com/watch?v=Yw25IFZaNxI",
+      "game": false,
+      "day": "07-04-2027",
+      "id": "e4740fc8-2caf-4b06-9e61-82ae5dc3356c",
+      "newsletter": false,
+      "filename": "tempted.mp3",
+      "tags": [
+        "soul",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Frank Ocean",
+      "album": "Channel Orange",
+      "track": "Bad Religion",
+      "description": "Devastating song about unrequited love",
+      "link": "https://www.youtube.com/watch?v=f9Fbnp4Kilk",
+      "game": false,
+      "day": "06-04-2027",
+      "id": "456acdc9-7f43-4e3a-8a95-fb1b3c4b0912",
+      "newsletter": false,
+      "filename": "bad-religion.mp3",
+      "tags": [
+        "devastating",
+        "sad songs",
+        "soul"
+      ]
+    },
+    {
+      "artist": "James Fauntleroy",
+      "album": "Leading By Example",
+      "track": "Fertilizer",
+      "description": "This is that beautiful song that Frank Ocean briefly covers on Channel Orange. It's nice!",
+      "link": "https://www.youtube.com/watch?v=phQ02mUCECc",
+      "game": false,
+      "day": "05-04-2027",
+      "id": "5f51adb2-79db-403d-80bb-44f237bb3bd0",
+      "newsletter": false,
+      "filename": "fertilizer.mp3",
+      "tags": [
+        "soul"
+      ]
+    },
+    {
+      "artist": "Noname (feat. Smino, Phoelix & Saba)",
+      "album": "Telefone",
+      "track": "Shadow Man",
+      "description": "Sad song from Noname. She sounds like she's gonna cry.",
+      "link": "https://www.youtube.com/watch?v=IplnMYMp2Mw",
+      "game": false,
+      "day": "04-04-2027",
+      "id": "1e016e1f-d58b-494c-9c6b-5d3ca42f7eb6",
+      "newsletter": false,
+      "filename": "shadow-man.mp3",
+      "tags": [
+        "hip-hop"
+      ]
+    },
+    {
+      "artist": "Villagers",
+      "album": "Becoming a Jackal",
+      "track": "Set The Tigers Free",
+      "description": "What I love about this song most is the part when the snare drum comes in on an off-beat at the very end of the song.",
+      "link": "https://www.youtube.com/watch?v=8AP1xzLecoY",
+      "game": false,
+      "day": "03-04-2027",
+      "id": "1e7a1c62-1d5b-42f8-9fc8-b6190e993978",
+      "newsletter": false,
+      "filename": "set-the-tigers-free.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Wild Cub",
+      "album": "Youth",
+      "track": "Thunder Clatter",
+      "description": "I literally heard this song on an advert and looked it up, and ended up listening to the album a bunch when I was doing a workaway in Germany. It's a pretty standard feel-good song but I like it.",
+      "link": "https://www.youtube.com/watch?v=PHy4n4cpuGs",
+      "game": false,
+      "day": "02-04-2027",
+      "id": "aea649a6-6e34-4d85-a9ee-8868b6787fe4",
+      "newsletter": false,
+      "filename": "thunder-clatter.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Kuniyuki Takahashi",
+      "album": "NieR: Automata",
+      "track": "Peaceful Sleep",
+      "description": "Gorgeous music for the camp area. I like the choice of instruments and the very warm vibe.",
+      "link": "https://www.youtube.com/watch?v=5sN6hsuMH5Q",
+      "game": true,
+      "day": "01-04-2027",
+      "id": "5dba8c6f-935d-4174-a6de-06b2d567eca1",
+      "newsletter": false,
+      "filename": "peaceful-sleep.mp3",
+      "tags": [
+        "chill",
+        "other"
+      ]
+    },
     {
       "artist": "Black Midi",
       "album": "Hellfire",
