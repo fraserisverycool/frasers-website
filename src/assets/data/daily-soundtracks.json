@@ -3,20 +3,511 @@
     "babymaking as a playlist",
     "jazz as a playlist",
     "kimbra",
-    "anohni it must change",
     "kkb waking up",
     "james blake",
-    "dorian electra",
-    "jamie xx girl",
     "jessie ware begin again",
     "coldplay violet hill",
     "patrick watson daydreamer",
-    "vulfpeck conscious club",
     "jamiroquai little l",
-    "pond sweep me off my feet",
     "norah jones the nearness of you"
   ],
   "dailysoundtracks": [
+    {
+      "artist": "Vulfpeck",
+      "album": "The Beautiful Game",
+      "track": "Conscious Club",
+      "description": "A fun song about arriving in Berlin to go dancing at the Conscious Club, where they are conscious and full of love. It's a lot of fun!",
+      "link": "https://www.youtube.com/watch?v=7pMQBQxf9dE",
+      "game": false,
+      "day": "31-05-2027",
+      "id": "f6665f44-be60-4e2c-a0cb-9a92128bc439",
+      "newsletter": false,
+      "filename": "conscious-club.mp3",
+      "tags": [
+        "party",
+        "funky"
+      ]
+    },
+    {
+      "artist": "Pond",
+      "album": "The Weather",
+      "track": "Sweep Me Off My Feet",
+      "description": "This music video really is a love letter to stock video, and I love it. It shows off the masculine ideal in all these hilarious ways and then cuts in clips of the gayest singer crying in the shower. I love it.",
+      "link": "https://www.youtube.com/watch?v=iHXPvBsXCAc",
+      "game": false,
+      "day": "30-05-2027",
+      "id": "c5de5746-6716-4c40-805c-ce5eeaab4cce",
+      "newsletter": false,
+      "filename": "sweep-me-off-my-feet.mp3",
+      "tags": [
+        "indie",
+        "rock"
+      ]
+    },
+    {
+      "artist": "Passion Pit",
+      "album": "Gossamer",
+      "track": "Take a Walk",
+      "description": "Listened to this as a teenager during my indie phase, but you know I never really understood the lyrics until thinking about it right now.",
+      "link": "https://www.youtube.com/watch?v=dZX6Q-Bj_xg",
+      "game": false,
+      "day": "29-05-2027",
+      "id": "70261a40-456c-4cca-ba11-51714c7da99f",
+      "newsletter": false,
+      "filename": "take-a-walk.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "ANOHNI and the Johnsons",
+      "album": "My Back Was A Bridge For You To Cross",
+      "track": "It Must Change",
+      "description": "I love this song. For me, this song is about Mother Earth (embodied in the video by a black trans woman) warning us about what's about to happen.",
+      "link": "https://www.youtube.com/watch?v=F2cF9o7FuU4",
+      "game": false,
+      "day": "28-05-2027",
+      "id": "34c1254f-82ff-4bea-a729-dd2068a32021",
+      "newsletter": false,
+      "filename": "it-must-change.mp3",
+      "tags": [
+        "devastating",
+        "sad songs",
+        "video"
+      ]
+    },
+    {
+      "artist": "Charly Garcia",
+      "album": "Clics Modernos",
+      "track": "No Soy Un Extraño",
+      "description": "Such a moody vibe. Love the synth and the little guitar riffs.",
+      "link": "https://www.youtube.com/watch?v=81FUY_H9vzU",
+      "game": false,
+      "day": "27-05-2027",
+      "id": "939a5d11-7afd-457f-9d71-dff99d46bc3f",
+      "newsletter": false,
+      "filename": "no-soy-un-extrano.mp3",
+      "tags": [
+        "spanish language",
+        "classic"
+      ]
+    },
+    {
+      "artist": "Jamie xx",
+      "album": "In Colour",
+      "track": "Girl",
+      "description": "Super deep, chill track. One for headphones.",
+      "link": "https://www.youtube.com/watch?v=r7gmVWgEpRc",
+      "game": false,
+      "day": "26-05-2027",
+      "id": "4d490d53-5323-4ea8-851d-ab65f1e2b0c7",
+      "newsletter": false,
+      "filename": "girl-jxx.mp3",
+      "tags": [
+        "electronic",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Dorian Electra",
+      "album": "My Agenda",
+      "track": "Gentleman / M'Lady",
+      "description": "Dorian really takes the image of the fedora-wearing, sword-swinging world of warcraft players living in their basements and turns it into high art. I'm just super impressed.",
+      "link": "https://www.youtube.com/watch?v=JM1Of_OBUjw",
+      "game": false,
+      "day": "25-05-2027",
+      "id": "4454b2b3-b4f8-4ecd-b17d-cc1aa2855357",
+      "newsletter": false,
+      "filename": "gentleman.mp3",
+      "tags": [
+        "video"
+      ]
+    },
+    {
+      "artist": "Alex Cameron",
+      "album": "Oxy Music",
+      "track": "K Hole",
+      "description": "This song is about more than being a K Hole! But that does feature, yes.",
+      "link": "https://www.youtube.com/watch?v=U_nNUgIGjZw",
+      "game": false,
+      "day": "24-05-2027",
+      "id": "31607ec3-3195-4f8e-a648-647ae686b4c3",
+      "newsletter": false,
+      "filename": "k-hole.mp3",
+      "tags": [
+        "indie"
+      ]
+    },
+    {
+      "artist": "Portishead",
+      "album": "To Kill A Dead Man",
+      "track": "Theme from 'To Kill A Dead Man'",
+      "description": "This band made a spy film and this is the film music they made for it. It's perfect.",
+      "link": "https://www.youtube.com/watch?v=SWtgr_13VQI",
+      "game": false,
+      "day": "23-05-2027",
+      "id": "50e15f5c-33fe-4d1c-bebe-8f00e5872475",
+      "newsletter": false,
+      "filename": "to-kill-a-dead-man.mp3",
+      "tags": [
+        "devastating"
+      ]
+    },
+    {
+      "artist": "CupcakKe",
+      "album": "Audacious",
+      "track": "LGBT",
+      "description": "She's known for hilarious rap songs with explicit lyrics, and this isn't up there with her other stuff in terms of ridiculousness (check out Squidward Nose) but it just goes so hard on vibes alone. She's rolling with the LGBT and she wants that to be clear.",
+      "link": "https://www.youtube.com/watch?v=hu_XwnAiMXg",
+      "game": false,
+      "day": "22-05-2027",
+      "id": "5b351c3c-0e10-4061-83ea-d22adcf761c8",
+      "newsletter": false,
+      "filename": "lgbt.mp3",
+      "tags": [
+        "hip-hop",
+        "party"
+      ]
+    },
+    {
+      "artist": "L'Rain",
+      "album": "Fatigue",
+      "track": "Two Face",
+      "description": "Super trippy song.",
+      "link": "https://www.youtube.com/watch?v=LWmN7vXnnCo",
+      "game": false,
+      "day": "21-05-2027",
+      "id": "8999f18a-3479-4cce-bea4-54c5923004f5",
+      "newsletter": false,
+      "filename": "two-face.mp3",
+      "tags": [
+        "singer-songwriter",
+        "soul"
+      ]
+    },
+    {
+      "artist": "The Isley Brothers",
+      "album": "3+3",
+      "track": "Summer Breeze",
+      "description": "The ultimate song for cruising in a top-down car. I don't ever intend to do that but it's nice to fantasise.",
+      "link": "https://www.youtube.com/watch?v=SGCaDB2hwRs",
+      "game": false,
+      "day": "20-05-2027",
+      "id": "57c70b44-bf51-4bcc-aafe-c72586a0ae29",
+      "newsletter": false,
+      "filename": "summer-breeze.mp3",
+      "tags": [
+        "soul",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Oliver Deriviere",
+      "album": "Streets of Rage 4",
+      "track": "An Exhibition",
+      "description": "Huge dance track from this incredible soundtrack.",
+      "link": "https://www.youtube.com/watch?v=ZZCsGJwwUF8",
+      "game": true,
+      "day": "19-05-2027",
+      "id": "3ec0964b-f48b-4c6b-a02c-4f959faf3221",
+      "newsletter": false,
+      "filename": "an-exhibition.mp3",
+      "tags": [
+        "party",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Jake Kaufman",
+      "album": "Shantae and the Pirate's Curse",
+      "track": "We Love Burning Town",
+      "description": "This song has been in almost every Shantae game and each time it gets reinvented. This is my personal favourite because of its decidedly disco flair.",
+      "link": "https://www.youtube.com/watch?v=FINmfZhhSsY",
+      "game": true,
+      "day": "18-05-2027",
+      "id": "68c50c01-1978-49db-956f-c826ac73a93b",
+      "newsletter": false,
+      "filename": "we-love-burning-town.mp3",
+      "tags": [
+        "party",
+        "indie"
+      ]
+    },
+    {
+      "artist": "The Weather Station",
+      "album": "Ignorance",
+      "track": "The Robber",
+      "description": "Love the hopeful chords. Love how she kinda admits 'no I never believed in the Robber'. The video is really good too.",
+      "link": "https://www.youtube.com/watch?v=OJ9SYLVaIUI",
+      "game": false,
+      "day": "17-05-2027",
+      "id": "00ed5499-41bf-4e14-addc-5a831cefb3a8",
+      "newsletter": false,
+      "filename": "the-robber.mp3",
+      "tags": [
+        "video",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Keiichi Suzuki, Hirokazu Tanaka",
+      "album": "Earthbound",
+      "track": "You've Come Far, Ness",
+      "description": "This is the music that plays during the pep talk that you get halfway through the game as you enjoy a coffee break. It's cheesy but why the fuck not.",
+      "link": "https://www.youtube.com/watch?v=I6LZ1GqSrEE",
+      "game": true,
+      "day": "16-05-2027",
+      "id": "cdcd2a29-52ad-4571-90a8-4bd89a9a0454",
+      "newsletter": false,
+      "filename": "youve-come-far-ness.mp3",
+      "tags": [
+        "chill",
+        "mother"
+      ]
+    },
+    {
+      "artist": "Pascal Michael Stiefel",
+      "album": "A Hat In Time",
+      "track": "Scootin' Through Subcon Forest",
+      "description": "The creepy level in this game has such amazing 'creepy' music, which almost feels more chill than creepy. It's a whole-ass 4-minute loop which is super rare. This is the 'scootin' version where it turns into a synthwave bop when you break out the scooter because it's objectively better.",
+      "link": "https://www.youtube.com/watch?v=-gEDZLI28I0",
+      "game": true,
+      "day": "15-05-2027",
+      "id": "1d8a3eac-1dc4-42e0-9d96-d5ad338780dd",
+      "newsletter": false,
+      "filename": "scootin-through-subcon-forest.mp3",
+      "tags": [
+        "party",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Young Gun Silver Fox",
+      "album": "Ticket to Shangri-La",
+      "track": "Sierra Nights",
+      "description": "Great music for watching the sunset on a warm summer's evening.",
+      "link": "https://www.youtube.com/watch?v=ZfvTTFJd8mE",
+      "game": false,
+      "day": "14-05-2027",
+      "id": "9f3da0a2-e9ed-40c7-935c-9551e57a7470",
+      "newsletter": false,
+      "filename": "sierra-nights.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Masafumi Takada",
+      "album": "Super Smash Bros. Brawl (Chōsōjū Mecha MG)",
+      "track": "Marionation Gear",
+      "description": "This is such an intense, almost creepy but also classy piano-based track. It's from an obscure Japan-only DS game and it fucking slaps.",
+      "link": "https://www.youtube.com/watch?v=OI2tlV88PQs",
+      "game": true,
+      "day": "13-05-2027",
+      "id": "8aeb889a-15b1-4f37-8401-428fd219a1b1",
+      "newsletter": false,
+      "filename": "marionation-gear.mp3",
+      "tags": [
+        "smash",
+        "other",
+        "intense"
+      ]
+    },
+    {
+      "artist": "Lush",
+      "album": "Spooky",
+      "track": "Fantasy",
+      "description": "Some great shoegaze music! I remember getting into this post-break up in 2020",
+      "link": "https://www.youtube.com/watch?v=pjIopPwb700",
+      "game": false,
+      "day": "12-05-2027",
+      "id": "660b0120-8a36-4b16-b9fc-e1e50bdf9a4e",
+      "newsletter": false,
+      "filename": "fantasy-lush.mp3",
+      "tags": [
+        "chill",
+        "indie"
+      ]
+    },
+    {
+      "artist": "Aldous Harding",
+      "album": "Party",
+      "track": "Horizon",
+      "description": "Very upsetting song, and an unsettling video.",
+      "link": "https://www.youtube.com/watch?v=m4dVkoOMjLo",
+      "game": false,
+      "day": "11-05-2027",
+      "id": "5dcacc64-07d4-4725-bc57-0948e9c6c06f",
+      "newsletter": false,
+      "filename": "horizon.mp3",
+      "tags": [
+        "video",
+        "devastating",
+        "sad songs",
+        "singer-songwriter"
+      ]
+    },
+    {
+      "artist": "RJD2 (feat. Phonte Coleman)",
+      "album": "More Is Than Isn't",
+      "track": "Temperamental",
+      "description": "Cool track from an honestly cool album. I listened to this a lot when I was living in Saarland.",
+      "link": "https://www.youtube.com/watch?v=IM5Z5MymfYs",
+      "game": false,
+      "day": "10-05-2027",
+      "id": "409f33eb-4fcd-4bd8-bbfb-3892486f8524",
+      "newsletter": false,
+      "filename": "temperamental.mp3",
+      "tags": [
+        "soul"
+      ]
+    },
+    {
+      "artist": "Yoshito Sekigawa, Shoh Murakami, Yoshiaki Kimura, Hiroki Morishita, Fumihiro Isobe",
+      "album": "Paper Mario: The Origami King",
+      "track": "Thrills at Night",
+      "description": "This is the music that plays when you convince the hole punch to stop punching holes in everyone and instead dance with Mario in the pyramid's disco. You get a choice of 4 tracks to play and this one is far and away the hugest banger.",
+      "link": "https://www.youtube.com/watch?v=9GzHkRyealo",
+      "game": true,
+      "day": "09-05-2027",
+      "id": "add6b40c-3b20-48f7-b1f9-134908d2e9ab",
+      "newsletter": false,
+      "filename": "thrills-at-night.mp3",
+      "tags": [
+        "party",
+        "mario"
+      ]
+    },
+    {
+      "artist": "Garoad",
+      "album": "VA-11 Hall-A",
+      "track": "A. Rene",
+      "description": "Huge vaporwave vibes from this amazing soundtrack. This one is particularly 80s.",
+      "link": "https://www.youtube.com/watch?v=G01GIs8GJ-A",
+      "game": true,
+      "day": "08-05-2027",
+      "id": "48decac3-3c46-4c09-a19a-81b30fd399f5",
+      "newsletter": false,
+      "filename": "a-rene.mp3",
+      "tags": [
+        "indie",
+        "party"
+      ]
+    },
+    {
+      "artist": "Nina Simone",
+      "album": "Here Comes The Sun",
+      "track": "My Way",
+      "description": "Learned about this song during the tear-inducing ending to 'Les Petits Mouchoirs' and loved it so much. That bongo player goes crazy. The recorded version has amazing strings, but the live version just has some special magic.",
+      "link": "https://www.youtube.com/watch?v=E5slKnOULnU",
+      "game": false,
+      "day": "07-05-2027",
+      "id": "59b427ce-8c55-4296-a637-cc54694e3a1e",
+      "newsletter": false,
+      "filename": "my-way.mp3",
+      "tags": [
+        "soul",
+        "magical"
+      ]
+    },
+    {
+      "artist": "Funkadelic",
+      "album": "Louie Vega Starring...XXVIII",
+      "track": "Ain't That Funkin' Kinda Hard On You (Louie Vega Remix)",
+      "description": "Funkadelic made this amazing funk track and then Louie Vega turns it into a dancefloor banger. It's great. I've found this extra long version which is also great.",
+      "link": "https://www.youtube.com/watch?v=XFYsjHepMO0",
+      "game": false,
+      "day": "06-05-2027",
+      "id": "2fb0398e-4e7c-49f5-a7fe-8dd24c0e299c",
+      "newsletter": false,
+      "filename": "aint-that-funkin.mp3",
+      "tags": [
+        "funky",
+        "party"
+      ]
+    },
+    {
+      "artist": "Aivi & Surasshu",
+      "album": "Steven Universe Soundtrack",
+      "track": "Dad Museum",
+      "description": "I love the Steven Universe soundtrack, mainly because of the heavy Animal Crossing vibes done by the composers. This is an instrumental track that plays on episode 2 and listening to it always gets me devouring my whole playlist of best instrumentals from the series. So cute and delightful.",
+      "link": "https://www.youtube.com/watch?v=JDhLrB0hMJ4",
+      "game": false,
+      "day": "05-05-2027",
+      "id": "4a8592f5-6d22-46fc-8d2c-c36100a6905c",
+      "newsletter": false,
+      "filename": "dad-museum.mp3",
+      "tags": [
+        "chill"
+      ]
+    },
+    {
+      "artist": "Whitney",
+      "album": "Light Upon The Lake",
+      "track": "No Woman",
+      "description": "Cute song from this indie band I like.",
+      "link": "https://www.youtube.com/watch?v=CGKN6qiDqnk",
+      "game": false,
+      "day": "04-05-2027",
+      "id": "ed1c0c1d-7d8c-4acd-8867-19799a04b008",
+      "newsletter": false,
+      "filename": "no-woman.mp3",
+      "tags": [
+        "indie",
+        "chill"
+      ]
+    },
+    {
+      "artist": "Epoch",
+      "album": "Paradise Killer",
+      "track": "Paradise (Stay Forever)",
+      "description": "The title track to this great vibes-heavy vaporwave game. In game it's instrumental but then this vocal version hits when the credits roll once you're figured out who the killer might be. It's a great moment.",
+      "link": "https://www.youtube.com/watch?v=aBZmjaTVm_A",
+      "game": true,
+      "day": "03-05-2027",
+      "id": "ca782b03-df89-469a-96a3-975a76e97da4",
+      "newsletter": false,
+      "filename": "paradise-stay-forever.mp3",
+      "tags": [
+        "indie",
+        "funky"
+      ]
+    },
+    {
+      "artist": "The Lemon Twigs",
+      "album": "Everything Harmony",
+      "track": "Every Day Is The Worst Day Of My Life",
+      "description": "This song is just them singing the title of the song over and over and honestly it's a vibe. Sometimes I feel like that.",
+      "link": "https://www.youtube.com/watch?v=cdzDRhTTfnc",
+      "game": false,
+      "day": "02-05-2027",
+      "id": "84c6993c-5c22-4cc2-921d-072ae50053bb",
+      "newsletter": false,
+      "filename": "every-day-is-the-worst-day.mp3",
+      "tags": [
+        "singer-songwriter",
+        "sad songs"
+      ]
+    },
+    {
+      "artist": "Silvana Estrada",
+      "album": "-",
+      "track": "Milagro y Desastre",
+      "description": "Devastating song with cool percussion. Watching her play it live made me appreciate it more.",
+      "link": "https://www.youtube.com/watch?v=xBw7P10lRwA",
+      "game": false,
+      "day": "01-05-2027",
+      "id": "97965db0-b960-4dca-b999-433abe0f35d5",
+      "newsletter": false,
+      "filename": "milagro-y-desastre.mp3",
+      "tags": [
+        "spanish language",
+        "singer-songwriter",
+        "devastating",
+        "sad songs"
+      ]
+    },
     {
       "artist": "Tori Amos",
       "album": "Under The Pink",
@@ -6267,7 +6758,8 @@
       "filename": "advanced-step.mp3",
       "tags": [
         "party",
-        "other"
+        "other",
+        "smash"
       ]
     },
     {
