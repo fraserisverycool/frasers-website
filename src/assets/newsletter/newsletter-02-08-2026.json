@@ -1,0 +1,139 @@
+{
+    "timestamp": "02-08-2026",
+    "title": "We should make it legal to jailbreak apps",
+    "description": [
+        "Hello everyone! Today's newsletter is all about the future of the internet. This past month I've been super impressed by the newsletter of popular writer Cory Doctorow: https://pluralistic.net/. He posts super interesting stuff almost daily about a huge range of topics, and his website is meticulously organised with sources and links and I'm just a bit star-struck if I'm honest. One of his big things that he keeps circling back to is 'anti-circumvention laws' - let me tell you about them!",
+        "When the USA was establishing dominance in the past, its trade ambassadors convinced every trade partner to make it illegal to reverse-engineer or modify a device or app from US tech. That means it's illegal to modify American social media apps to make them respect EU privacy laws, or make a version of Steam where you don't give Valve money when you buy games. US tech companies, currently fused to the Trump administration, have the rest of the world in a chokehold, stealing our data and going on a privacy crime spree, and it's illegal for us to change their apps.",
+        "We don't have alternatives to these apps (well they do in China I guess), but there is a world in which we didn't have these anti-circumvention laws in the EU at least, which would allow EU companies to make forks of all the apps and make them EU compliant (and pay taxes). It would be a massive fuck you to the US tech companies and would change the Internet for the better.",
+        "So why do we have these laws? It's because during those trade negotiations with the US back then, they always threatened to put up tariffs if we didn't! And guess what, Trump put up tariffs anyway. They didn't hold their end of the bargain - so why should we? I reckon we start with Estonia but then slowly but surely, all the other countries can just scrap this law and start jailbreaking the shit out of these evil apps. If I'm honest though I don't know how diplomacy and policy stuff really works so I'm pessimistic that something will actually happen.",
+        "Anyway, as for me, I've been enjoying a peaceful week in France with the family where I was able to chillax to the max and actually finish 2 (!) books. Berlin summer continues with constant plans and fun stuff and although I'm sometimes overwhelmed, I'm not complaining.",
+        "In website news, I made a new part of the site called 'playlists' in the music section where I will start posting some fun mixes of my favourite music. Each mp3 will be about an hour long and feature a particular vibe. The first one is up already and I'm working on two more. The first one is your stereotypical porn music from the 90s, that kinda chillout electronica with some moaning over the top I guess. Let me know if you have good sex while listening to it."
+    ],
+    "entries": [
+        {
+            "title": "Mina the Hollower",
+            "description": [
+                "This is such a cool game! As a little warning, it's a little overwhelming at the start, but if you're willing to stick through the difficult opening, you will get to grips with the game and get lots of momentum. By the end I was so locked in, and the final two areas of the game are so fucking cool. By the end the bosses are hard as nails but you have more than enough tools to deal with them. Beating the game was so satisfying!",
+                "The game is based on this cool movement mechanic where you jump and then burrow around the ground. When you're burrowing, you don't get hit by stuff, so if your timing is good, you can avoid all the shit the game throws at you. You get a bunch of different weapons to experiment with, and although they all seem cool, I really resonated with the coffin shield.",
+                "The vibes are great. It's a gothic, Victorian era story and has a really cool villain. The scene at the banquet at the end is great, and I really liked the ending. Jake Kaufman, one of my all time favourite video game composers is on the soundtrack and it fucking rules."
+            ],
+            "image": "games/mina-the-hollower.webp",
+            "metadata": "Vibes: 10, Gameplay: 10, Platform: Switch, Release: 2026",
+            "type": "GAME"
+        },
+        {
+            "title": "Pokemon LeafGreen",
+            "description": [
+                "I replayed this game this year because it's been ages since I've played an actual good pokemon game. (My review of FireRed from childhood is still up if you want my impressions before this replay)",
+                "God, I struggled with some parts of this. These old games are not as good as I remember. There's a big difficulty spike for the elite 4 and I simply wasn't willing to spend time grinding my pokemon up to like level 55. Also, just going through all the routes and battling boring pokemon over and over, it's not as fun as I remember.",
+                "One thing remains amazing though: making a team of your favourite mons. This time I went for a controversial Dewgong and loved it. I had both Jigglypuff and Clefairy because I simply cannot be stopped. Victreebel, such an ugly pokemon, I love it so much. I've never had a Poliwrath before so that was great, and surprise addition Rhydon was not on the cards but I was impressed by its performance after I accidentally caught a Rhyhorn at the safari zone by spamming A and it ended up coming in clutch against Koga, who I was trying to beat early so I could get Dewgong."
+            ],
+            "image": "games/pokemon-leafgreen.jpeg",
+            "metadata": "Vibes: 8, Gameplay: 5, Platform: Switch, Release: 2004",
+            "type": "GAME"
+        },
+        {
+            "title": "UFO 50 Nonograms",
+            "description": [
+                "As a lover of UFO 50 and picross, I knew I had to play this. I installed it on my work computer for boring meetings and I've been slowly making my way through its 250 puzzles. Love it. Love picross and the remixes are great. Makes me want to play more UFO 50."
+            ],
+            "image": "games/ufo-nonograms.png",
+            "metadata": "Vibes: 8, Gameplay: 7, Platform: PC, Release: 2026",
+            "type": "GAME"
+        },
+        {
+            "title": "Bubble Bobble",
+            "description": [
+                "I played this on my colleague R\u00fcdiger's little retro console he set up in the office. I got to level 15 and I intend to continue (there are 100 levels) but the controls are finicky and difficult. I don't understand how to pop the bubbles. But it's cool that it has lots of characters from the Bust-a-move game that I loved as a child."
+            ],
+            "image": "games/bubble-bobble.png",
+            "metadata": "Vibes: 3, Gameplay: 2, Platform: NES, Release: 1986",
+            "type": "GAME"
+        },
+        {
+            "title": "Backrooms",
+            "description": [
+                "Despite suffering so much from watching Obsession and vowing to never watch a horror film again, I decided to go see Backrooms and it was so scary. I'm so easily spooked. I liked it though."
+            ],
+            "image": "films/backrooms.webp",
+            "metadata": "Release: 2026, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "Move Ya Body: The Birth of House",
+            "description": [
+                "Honestly a pretty plain history of the first major Chicago house DJs. Had pacing issues and didn't even talk about the music itself, which I thought was lame. Featured a spicy part with Rachel the Rock n' Roll villain which was fun."
+            ],
+            "image": "films/birth-of-house.jpg",
+            "metadata": "Release: 2025",
+            "type": "FILM"
+        },
+        {
+            "title": "Obsession",
+            "description": [
+                "Oh my GOD I was suffering in the cinema. If you're looking for a horror film that makes you feel absolute dread, here you go! Highly recommended but only if you actually enjoy feeling like that."
+            ],
+            "image": "films/obsession.webp",
+            "metadata": "Release: 2026, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "Splatoon Raiders",
+            "description": [
+                "God, more Splatoon. I really feel like Splatoon music is terrible and this is no different. What were they thinking with some of these tracks."
+            ],
+            "image": "music/nintendo/splatoon-raiders.avif",
+            "metadata": "Platform: Switch 2, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Donkey Kong Bananza",
+            "description": [
+                "This soundtrack is very large! Looking back at it, I definitely can't say it's full of bangers and Donkey Kong goodness like Tropical Freeze was. A lot of the music is honestly just mid. But that's not to say there aren't highlights! But putting this soundtrack on doesn't make for a great listening experience if I'm honest.",
+                "I remember the first track that actually wowed me was a couple of hours into the game, the 'Challenge Course #1'. You go to this other dimension to deal with special bananas and the music is all electronic and this one was randomly super groovy. I made it the music at my home base for the whole game, so I have a certain attachment to it.",
+                "The area themes are a bit of a letdown. Thinking back at Mario Odyssey, the distinct kingdoms with their excellent soundtracks were so iconic, but these different layers don't have memorable music at all. I like the Canyon layer but I couldn't even hum the Freezer or Forest levels for example.",
+                "And the SINGING! Really annoying. Something about Nintendo these days and these vocal tracks. I suffer. The only acceptable song in this soundtrack is the Zebra Bananza.",
+                "I also want to do a case study of the disco music in the Groove Layer. I feel like it's soulless and bad, and I'm a lover of disco. Compare it with Thrills at Night from Origami King and it's night and day.",
+                "The soundtrack does include some old remixes on the 2D stages and they are very faithful and therefore good. Could have done with more of those stages."
+            ],
+            "image": "music/nintendo/donkey-kong-bananza.jpg",
+            "metadata": "Platform: Switch 2, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Max Cooper",
+            "description": [
+                "Leo took me to this as a surprise! It was great. Especially good were the visuals! It inspired me and now I want to make my own vibe-based videos."
+            ],
+            "image": "music/concerts/max-cooper.jpeg",
+            "metadata": "Date: 24-07-2026, Venue: Sonnenraum, Berlin",
+            "type": "CONCERT"
+        },
+        {
+            "title": "There Is No Antimemetics Division",
+            "description": [
+                "Imagine there was a monster that did weird and unspeakable things all the time in society, but it has the special ability to alter how people perceive and remember it, such that it goes entirely undetected? That's the premise of this book, and it takes it really far! So much unexpected shit happens and it's almost frustrating because all the characters keep forgetting about it afterwards! But you the reader know everything so it feels like you're cheating. Anyway, confusing but good book."
+            ],
+            "image": "books/memetics.jpg",
+            "metadata": "Author: qntm, Release: 2020, for the spoiler discussion please visit the books page!",
+            "type": "BOOK"
+        },
+        {
+            "title": "Frankenstein",
+            "description": [
+                "I watched the original Frankenstein film but felt like that can't be the whole story, and it wasn't! This must be the first time I've read a genuinely old book like this and it was a whole experience. Some of the language is laughable but I made it, and ended up really enjoying the story. It was way more family drama than monster science but still worth it."
+            ],
+            "image": "books/frankenstein.jpg",
+            "metadata": "Author: Mary Shelley, Release: 1818, for the spoiler discussion please visit the books page!",
+            "type": "BOOK"
+        },
+        {
+            "title": "Pulporrito con Pulpo",
+            "description": null,
+            "image": "gallery/pulpo2.jpeg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        }
+    ],
+    "id": "e8241355-5c1b-4b89-a89c-95974f315709"
+}

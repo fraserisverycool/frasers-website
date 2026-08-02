@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "pulpo2.jpeg",
+      "title": "Pulporrito con Pulpo",
+      "month": "July 2026",
+      "question": "Where did I go visit Pulpo?",
+      "id": "1a6521cf-b3f6-4263-9977-e4ce3501211f",
+      "newsletter": true
+    },
+    {
       "filename": "sportfest2.jpeg",
       "title": "Regen beim Sportfest",
       "month": "June 2026",

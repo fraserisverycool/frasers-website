@@ -1,6 +1,16 @@
 {
   "films": [
     {
+      "filename": "backrooms.webp",
+      "title": "Backrooms",
+      "description": "Despite suffering so much from watching Obsession and vowing to never watch a horror film again, I decided to go see Backrooms and it was so scary. I'm so easily spooked. I liked it though.",
+      "spoiler": "The film ended really suddenly! I expected a big scary blowout at the end, or maybe some loose ends tied up or explanations but the film isn't about that. I think it's a film just about: look at this scary place. There's no deeper message to be found here.",
+      "year": "2026",
+      "release": "2026",
+      "id": "4015772c-01b8-4fad-a4c8-678d4621643d",
+      "newsletter": true
+    },
+    {
       "filename": "birth-of-house.jpg",
       "title": "Move Ya Body: The Birth of House",
       "description": "Honestly a pretty plain history of the first major Chicago house DJs. Had pacing issues and didn't even talk about the music itself, which I thought was lame. Featured a spicy part with Rachel the Rock n' Roll villain which was fun.",
@@ -8,17 +18,17 @@
       "year": "2026",
       "release": "2025",
       "id": "b151cea6-5233-4b4c-9559-c68c0044fdb5",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "obsession.webp",
       "title": "Obsession",
-      "description": "Oh my GOD I was suffering in the cinema. If you're looking for a horror film that makes you feel absolute dread, here you go! Highly recommended but only if actually enjoying feeling like that.",
+      "description": "Oh my GOD I was suffering in the cinema. If you're looking for a horror film that makes you feel absolute dread, here you go! Highly recommended but only if you actually enjoy feeling like that.",
       "spoiler": "Love how they portray him like a conventionally attractive nice guy, but as the film progresses, and he proceeds to take no action, even though he is given many chances, and it slowly becomes clear that HE is the problem. Great that this film has that extra layer to it because it makes it memorable, apart from all the horrifically difficult-to-watch scenes with her 'acts of devotion'.",
       "year": "2026",
       "release": "2026",
       "id": "4015772c-01b8-4fad-a4c8-678d4621643d",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "chun-li.jpg",

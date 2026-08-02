@@ -1,6 +1,78 @@
 {
   "games": [
     {
+      "name": "Mina the Hollower",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "This is such a cool game! As a little warning, it's a little overwhelming at the start, but if you're willing to stick through the difficult opening, you will get to grips with the game and get lots of momentum. By the end I was so locked in, and the final two areas of the game are so fucking cool. By the end the bosses are hard as nails but you have more than enough tools to deal with them. Beating the game was so satisfying!",
+        "The game is based on this cool movement mechanic where you jump and then burrow around the ground. When you're burrowing, you don't get hit by stuff, so if your timing is good, you can avoid all the shit the game throws at you. You get a bunch of different weapons to experiment with, and although they all seem cool, I really resonated with the coffin shield.",
+        "The vibes are great. It's a gothic, Victorian era story and has a really cool villain. The scene at the banquet at the end is great, and I really liked the ending. Jake Kaufman, one of my all time favourite video game composers is on the soundtrack and it fucking rules."
+      ],
+      "image": "mina-the-hollower.webp",
+      "platform": "Switch",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": true,
+      "completable": true,
+      "id": "a3763190-78c4-4d65-8e7d-7dff4e741ac9",
+      "newsletter": true
+    },
+    {
+      "name": "Pokemon LeafGreen",
+      "vibes": "8",
+      "gameplay": "5",
+      "review": [
+        "I replayed this game this year because it's been ages since I've played an actual good pokemon game. (My review of FireRed from childhood is still up if you want my impressions before this replay)",
+        "God, I struggled with some parts of this. These old games are not as good as I remember. There's a big difficulty spike for the elite 4 and I simply wasn't willing to spend time grinding my pokemon up to like level 55. Also, just going through all the routes and battling boring pokemon over and over, it's not as fun as I remember.",
+        "One thing remains amazing though: making a team of your favourite mons. This time I went for a controversial Dewgong and loved it. I had both Jigglypuff and Clefairy because I simply cannot be stopped. Victreebel, such an ugly pokemon, I love it so much. I've never had a Poliwrath before so that was great, and surprise addition Rhydon was not on the cards but I was impressed by its performance after I accidentally caught a Rhyhorn at the safari zone by spamming A and it ended up coming in clutch against Koga, who I was trying to beat early so I could get Dewgong."
+      ],
+      "image": "pokemon-leafgreen.jpeg",
+      "platform": "Switch",
+      "year": "2026",
+      "release": "2004",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "bf088671-6498-4e97-963f-1772b025f722",
+      "newsletter": true
+    },
+    {
+      "name": "UFO 50 Nonograms",
+      "vibes": "8",
+      "gameplay": "7",
+      "review": [
+        "As a lover of UFO 50 and picross, I knew I had to play this. I installed it on my work computer for boring meetings and I've been slowly making my way through its 250 puzzles. Love it. Love picross and the remixes are great. Makes me want to play more UFO 50."
+      ],
+      "image": "ufo-nonograms.png",
+      "platform": "PC",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "4a42a2f6-867f-4d84-88ed-60ff018444a1",
+      "newsletter": true
+    },
+    {
+      "name": "Bubble Bobble",
+      "vibes": "3",
+      "gameplay": "2",
+      "review": [
+        "I played this on my colleague Rüdiger's little retro console he set up in the office. I got to level 15 and I intend to continue (there are 100 levels) but the controls are finicky and difficult. I don't understand how to pop the bubbles. But it's cool that it has lots of characters from the Bust-a-move game that I loved as a child."
+      ],
+      "image": "bubble-bobble.png",
+      "platform": "NES",
+      "year": "2026",
+      "release": "1986",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "2866fbe1-c406-49b5-86b8-851ceba80c2e",
+      "newsletter": true
+    },
+    {
       "name": "Her Story",
       "vibes": "10",
       "gameplay": "10",
@@ -9545,6 +9617,86 @@
       "completed": false,
       "completable": true,
       "id": "922257cd-2252-4633-9197-53813e317497",
+      "newsletter": true
+    },
+    {
+      "name": "Picross S",
+      "vibes": "4",
+      "gameplay": "7",
+      "review": [
+        "So meditative and nice. I feel like I've solved the puzzle of Picross, but it's still nice to do them and switch your brain off. I used to do it before bed. This one I actually completed fully, which is saying something."
+      ],
+      "image": "picross-s.avif",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2017",
+      "completed": true,
+      "completable": true,
+      "id": "c028ee75-cfb9-4c9d-8045-1656ec6242ba",
+      "newsletter": true
+    },
+    {
+      "name": "Picross S MEGA DRIVE & Master System edition",
+      "vibes": "4",
+      "gameplay": "7",
+      "review": [
+        "Still good like normal Picross, but I learned that taking sprites and stuff isn't so great because it's always totally unrecognisable when you're solving the puzzle. It's best to just have simple little pictures I think."
+      ],
+      "image": "picross-sega.jpg",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2021",
+      "completed": true,
+      "completable": true,
+      "id": "f77cc8af-342c-4c15-b06d-ef89c420d57b",
+      "newsletter": true
+    },
+    {
+      "name": "Picross S7",
+      "vibes": "4",
+      "gameplay": "7",
+      "review": [
+        "It's exactly the same as Picross S. Getting into this I realised just how much time I was wasting doing Picross and I eventually stopped."
+      ],
+      "image": "picross-7.jpg",
+      "platform": "Switch",
+      "year": "older",
+      "release": "2022",
+      "completed": false,
+      "completable": true,
+      "id": "ab4ffb15-879c-447a-a6b7-86ca5e6ffa68",
+      "newsletter": true
+    },
+    {
+      "name": "Tower Defense: Lost Earth",
+      "vibes": "2",
+      "gameplay": "5",
+      "review": [
+        "An old mobile game from way back when. I remember cutting my teeth on the Tower Defense genre with this game."
+      ],
+      "image": "tower-defense.jpg",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2011",
+      "completed": false,
+      "completable": true,
+      "id": "e59c62f2-2486-4aec-953d-8b52e9cd4bac",
+      "newsletter": true
+    },
+    {
+      "name": "Tiny Wings",
+      "vibes": "5",
+      "gameplay": "4",
+      "review": [
+        "An old mobile game from way back when. Impressive how unique it is considering it was released in 2011! I played it a whole lot and really enjoyed it."
+      ],
+      "image": "tiny-wings.jpg",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2011",
+      "completed": true,
+      "completable": false,
+      "id": "ae29c5b9-90e0-4842-9793-57c88694cded",
       "newsletter": true
     }
   ]

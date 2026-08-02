@@ -1,6 +1,59 @@
 {
   "soundtracks": [
     {
+      "filename": "splatoon-raiders.avif",
+      "name": "Splatoon Raiders",
+      "description": [
+        "God, more Splatoon. I really feel like Splatoon music is terrible and this is no different. What were they thinking with some of these tracks."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        ""
+      ],
+      "id": "88ed37f3-3c49-4212-9147-b44f90f9da16",
+      "newsletter": true
+    },
+    {
+      "filename": "donkey-kong-bananza.jpg",
+      "name": "Donkey Kong Bananza",
+      "description": [
+        "This soundtrack is very large! Looking back at it, I definitely can't say it's full of bangers and Donkey Kong goodness like Tropical Freeze was. A lot of the music is honestly just mid. But that's not to say there aren't highlights! But putting this soundtrack on doesn't make for a great listening experience if I'm honest.",
+        "I remember the first track that actually wowed me was a couple of hours into the game, the 'Challenge Course #1'. You go to this other dimension to deal with special bananas and the music is all electronic and this one was randomly super groovy. I made it the music at my home base for the whole game, so I have a certain attachment to it.",
+        "The area themes are a bit of a letdown. Thinking back at Mario Odyssey, the distinct kingdoms with their excellent soundtracks were so iconic, but these different layers don't have memorable music at all. I like the Canyon layer but I couldn't even hum the Freezer or Forest levels for example.",
+        "And the SINGING! Really annoying. Something about Nintendo these days and these vocal tracks. I suffer. The only acceptable song in this soundtrack is the Zebra Bananza.",
+        "I also want to do a case study of the disco music in the Groove Layer. I feel like it's soulless and bad, and I'm a lover of disco. Compare it with Thrills at Night from Origami King and it's night and day.",
+        "The soundtrack does include some old remixes on the 2D stages and they are very faithful and therefore good. Could have done with more of those stages."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Challenge Course #1",
+        "Getaway",
+        "2D Challenge Course 1 (DK Island Swing)",
+        "Canyon Layer",
+        "Challenge Course #2",
+        "Canyon Layer: Banandium Refinery (Mine-Cart Ride)",
+        "The Divide",
+        "Zebra Bananza",
+        "Poppy Kong Battle",
+        "Forest Layer: Beaky Thicket",
+        "2D Challenge Course 2 (Stickerbush Symphony)",
+        "Forest Layer: Eggshell Hotel",
+        "Forest Layer: Mossplume Marsh",
+        "Forest Layer: Eggshell Hotel Annex",
+        "2D Challenge Course 3 (Mine Cart Madness)",
+        "Radiance Layer: Solar Control Tower (Synthetic Sun Restored)",
+        "Radiance Layer: Hiss Hiss Oasis",
+        "Planet Core: Mine Cart",
+        "Banandium Root Tower",
+        "DK Artist",
+        "DK Island (Daytime)",
+        "Emerald Rush #4",
+        "DK Island (Sunset)"
+      ],
+      "id": "7de975de-956f-411e-9499-785d023fec09",
+      "newsletter": true
+    },
+    {
       "filename": "f-zero-99.jpg",
       "name": "F-Zero 99",
       "description": [
@@ -1093,21 +1146,6 @@
         "Great Palace Theme"
       ],
       "id": "0542525c-4566-470a-a919-a5f493fba85b",
-      "newsletter": true
-    },
-    {
-      "filename": "donkey-kong-bananza.jpg",
-      "name": "Donkey Kong Bananza",
-      "description": [
-        "I was so shook when they released this special release of 9 tracks from the game as part of a promotion for the DLC on a Saturday! Talk about unpredictable. I can't help but ask myself why they didn't just release the whole soundtrack! Whatever, I need to move on. This game has some great bops in it. It's not on the level of Tropical Freeze but we do have the incredible Zebra Bananza at least."
-      ],
-      "platform": "Switch 2",
-      "topTracks": [
-        "Canyon Layer",
-        "2D Challenge Course 1 (DK Island Swing)",
-        "Zebra Bananza"
-      ],
-      "id": "7de975de-956f-411e-9499-785d023fec09",
       "newsletter": true
     },
     {
