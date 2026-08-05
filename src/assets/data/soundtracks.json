@@ -1,6 +1,96 @@
 {
   "soundtracks": [
     {
+      "filename": "fire-emblem-fortunes-weave.jpg",
+      "name": "Fire Emblem: Fortune's Weave",
+      "description": [
+        "These tracks are great and I'm really looking forward to this game! The fire emblem team have been killing it ever since Awakening so I just know we're in for another banger soundtrack again this time round. Sign me up! I think I'm gonna play as the Alucard-like guy because he seems very extra."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Hopes Endures",
+        "Queen's Gambit",
+        "Storm of Petals",
+        "A Life of Glory",
+        "Bloodstained Arena"
+      ],
+      "id": "ba5ccb29-4cba-41f9-b3c0-4e6ca49b77ba",
+      "newsletter": false
+    },
+    {
+      "filename": "virtual-boy-wario-land.webp",
+      "name": "Virtual Boy Wario Land",
+      "description": [
+        "I feel like all these tracks were designed to sound weird and uncomfortable. But then again Wario Land music was always bad (until the legendary Wario Land 4). One track 'Stage BGM 7' is kinda cool because it riffs on Ravel's Bolero."
+      ],
+      "platform": "Virtual Boy",
+      "topTracks": [
+        "Stage BGM 7"
+      ],
+      "id": "5ad1298b-e25f-449c-93d2-f41b75b22444",
+      "newsletter": false
+    },
+    {
+      "filename": "mario-clash.webp",
+      "name": "Mario Clash",
+      "description": [
+        "Wow this soundtrack really is a write off. Really bad. Nothing salvageable here."
+      ],
+      "platform": "Virtual Boy",
+      "topTracks": [
+        ""
+      ],
+      "id": "391120e4-5a18-4aba-9c47-b8e5af6677a6",
+      "newsletter": false
+    },
+    {
+      "filename": "galactic-pinball.png",
+      "name": "Galactic Pinball",
+      "description": [
+        "Oh DAMN! After listening to all these other pretty shit virtual boy soundtracks, I was suddenly blown away by this one! The compositions are so ambitious and full of fun harmonies. It sounds super sci-fi and I'm obsessed. The title screen music alone is crazy enough but then you have the ominous sounding 'Colony', the 'UFO (Lucky Star)' track which is half Rainbow Road and half Kirby Rainbow Resort. So fun. Highly recommend."
+      ],
+      "platform": "Virtual Boy",
+      "topTracks": [
+        "Title Screen",
+        "Cosmic",
+        "Colony",
+        "UFO (Lucky Star)",
+        "Alien",
+        "Staff Credits"
+      ],
+      "id": "f9fb458e-8f4c-4c33-8e08-6fcc6209025e",
+      "newsletter": false
+    },
+    {
+      "filename": "teleroboxer.jpg",
+      "name": "Teleroboxer",
+      "description": [
+        "This punch out clone is going for rock music which I think sounds shit on this soundfont. I like the disco song, and the needlessly epic music for your records. They didn't need to go that hard for that."
+      ],
+      "platform": "Virtual Boy",
+      "topTracks": [
+        "Vs. Ikanger",
+        "Improve Your Record...",
+        "Staff Credits"
+      ],
+      "id": "a2c6c876-16cc-4dc5-b02e-0a2d86197fbe",
+      "newsletter": false
+    },
+    {
+      "filename": "marios-tennis.jpg",
+      "name": "Mario's Tennis",
+      "description": [
+        "This soundtrack is alright, it could be a lot worse. I don't appreciate that each song loops like 4 times, but there are a couple of nice tracks in here."
+      ],
+      "platform": "Virtual Boy",
+      "topTracks": [
+        "Singles 2",
+        "Tie Break"
+      ],
+      "id": "9dd0ab12-b913-4644-8dd5-770cc6e5b052",
+      "newsletter": false
+    },
+    {
       "filename": "splatoon-raiders.avif",
       "name": "Splatoon Raiders",
       "description": [
@@ -98,7 +188,9 @@
         "Then came the Nintendo 64 tracks. Absolute highlights for me are the beautiful 'Yoshi's Tale', the insane 11/8 time signature of 'Winning Results' faithfully recreated with the secret melody from the glitched original, and Super Mario 64's 'Staff Roll' which sounds like a cheesy sitcom theme tune. Also shoutouts to 'DK's Jungle Parkway', originally a 15-second drum loop, now reimagined as a fast paced jazz fusion piece with the weird pitched midi drums transformed into a guitar melody. Fucking great.",
         "Mario Kart Wii is just crammed full of huge bangers and these remixes are just so good. Personally I am loving 'Dry Dry Ruins', 'Moonview Highway' and 'Staff Credits A' the most. And they also gave us DS too, which is its own incredible vibe. This one features the ultra chill 'Cheep Cheep Beach' which is pure beach level bossa nova bliss. One of the best Nintendo beach music tracks out there, rivalling even Seaside Kingdom.",
         "Both the Super Mario Land tracks are legendary, although I have to admit that I'm biased simply because I loved playing that game as a child. And I also want to give special shoutouts to the incredible glow up they gave to Super Mario World's Underground theme, otherwise only heard and tolerated in the final level of Thousand Year Door, as well as the prog rock symphony that is the Castle theme. The original was so ambitious and now here we are with this insane remix.",
-        "The New Super Mario Bros remixes are so good as well. I really think the NSMB games underrated vibes-wise and they really nail them. Also the Mario Maker track is so good for no reason!"
+        "The New Super Mario Bros remixes are so good as well. I really think the NSMB games underrated vibes-wise and they really nail them. Also the Mario Maker track is so good for no reason!",
+        "Double Dash has one of Mario Kart's worst tracks (Dry Dry Desert) and Mario Kart World has the series' biggest glow up (the Dry Dry Desert remix). It's such a vibe and I love the percussion specifically. They also released Super Circuit tracks, and finally a proper remix of 'Bowser Castle' which is one of the hardest tracks ever.",
+        "Another great glow up is Mario Kart 7's 'Rosalina's Ice World' which originally was a very chaotic composition, but has been rescued in this remix. But the real star is the soloing on 'Toad Circuit'. Insane. Also huge shoutouts to the city tracks from Tour! 'Tokyo Blur' has that city pop harmony that I'm obsessed with, 'Vancouver Velocity' is house-inspired and a huge bop, and 'Singapore Speedway' is so wild and fun. I'm just devastated they didn't remix 'Sydney Sprint', which remains my favourite Mario Kart music."
       ],
       "platform": "Switch 2",
       "topTracks": [
@@ -177,7 +269,18 @@
         "Beach BGM (New Super Mario Bros. Wii)",
         "Volcano BGM (New Super Mario Bros. Wii)",
         "Credits Theme 1 (New Super Mario Bros. Wii)",
-        "Castle BGM (New Super Mario Bros.)"
+        "Castle BGM (New Super Mario Bros.)",
+        "Dry Dry Desert (Mario Kart: Double Dash!!)",
+        "Staff Credits (Mario Kart: Double Dash!!)",
+        "Peach Circuit (Mario Kart: Super Circuit)",
+        "Shy Guy Beach (Mario Kart: Super Circuit)",
+        "Bowser Castle (Mario Kart: Super Circuit)",
+        "Toad Circuit (Mario Kart 7)",
+        "DK Jungle (Mario Kart 7)",
+        "Rosalina's Ice World (Mario Kart 7)",
+        "Tokyo Blur (Mario Kart Tour)",
+        "Vancouver Velocity (Mario Kart Tour)",
+        "Singapore Speedway (Mario Kart Tour)"
       ],
       "id": "7d66a902-6f8e-4f5a-af9e-a66552ea45fb",
       "newsletter": true
