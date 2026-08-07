@@ -26,6 +26,7 @@ export default class MusicComponent implements OnInit {
   randomSmashImage: string | null = null;
   randomMixImage: string | null = null;
   randomPlaylistImage: string | null = null;
+  selectedSection: string | null = null;
 
   constructor(private http: HttpClient, private router: Router, protected imageService: ImageService) {}
 
@@ -41,6 +42,14 @@ export default class MusicComponent implements OnInit {
 
   handleClick(url: string) {
     this.router.navigate([url]);
+  }
+
+  selectSection(section: string) {
+    if (this.selectedSection === section) {
+      this.selectedSection = null;
+    } else {
+      this.selectedSection = section;
+    }
   }
 
   loadRandomAlbum(): void {

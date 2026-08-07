@@ -17,6 +17,106 @@
   gap: 20px;
 }
 
+.selection-collage {
+  position: relative;
+  height: 600px;
+  margin: 40px auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .selection-collage {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+}
+
+.collage-item {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: white;
+  border: 4px solid white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease, border-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  transform: translate(var(--x, 0), var(--y, 0)) rotate(var(--r, 0deg));
+}
+
+@media (max-width: 768px) {
+  .collage-item {
+    position: relative;
+    transform: rotate(var(--r, 0deg));
+    /* Reset translated position for mobile flow */
+    --x: 0px !important;
+    --y: 0px !important;
+  }
+
+  .collage-item:hover {
+    transform: scale(1.1) rotate(var(--r, 0deg)) !important;
+  }
+
+  .collage-item.active {
+    transform: scale(1.15) rotate(var(--r, 0deg)) !important;
+  }
+}
+
+.collage-item img {
+  width: 100%;
+  height: 82%;
+  object-fit: cover;
+}
+
+.collage-item span {
+  font-size: 12px;
+  font-family: "Comic Sans MS", cursive;
+  color: #333;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.collage-item:hover {
+  transform: translate(var(--x, 0), var(--y, 0)) scale(1.1) rotate(var(--r, 0deg));
+  z-index: 100;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.collage-item.active {
+  transform: translate(var(--x, 0), var(--y, 0)) scale(1.15) rotate(var(--r, 0deg));
+  z-index: 101;
+  border-color: #ffcc00;
+  box-shadow: 0 0 15px #ffcc00;
+}
+
+/* Positioning items in a spread out pile using variables */
+.collage-item.daily { --x: -280px; --y: -180px; --r: -10deg; }
+.collage-item.albums { --x: -80px; --y: -220px; --r: 5deg; }
+.collage-item.nintendo { --x: 120px; --y: -200px; --r: -15deg; }
+.collage-item.concerts { --x: -300px; --y: 20px; --r: 12deg; }
+.collage-item.cds { --x: -100px; --y: 0px; --r: -8deg; }
+.collage-item.smash { --x: 100px; --y: 20px; --r: 20deg; }
+.collage-item.playlists { --x: -200px; --y: 200px; --r: -5deg; }
+.collage-item.mixes { --x: 0px; --y: 220px; --r: 10deg; }
+.collage-item.worldpeace { --x: 200px; --y: 200px; --r: 3deg; }
+
+.display-area {
+  min-height: 200px;
+  margin-top: 50px;
+  transition: all 0.3s ease;
+}
+
 .row-item {
   position: relative;
   padding: 20px;
@@ -32,7 +132,6 @@
   gap: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
-  scale: 1.4;
 }
 
 .fun-button {
@@ -72,12 +171,14 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: auto;
 }
 
 .cd-image-container {
-  width: 50%;
+  width: 100%;
+  max-width: 300px;
   position: relative;
   overflow: visible;
   margin: 0 auto;
