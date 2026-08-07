@@ -7,10 +7,11 @@ import {CloseButtonComponent} from "../../../utils/close-button/close-button.com
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
-    selector: 'app-cd-modal',
-    imports: [NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
-    templateUrl: './cd-modal.component.html',
-    styleUrls: ['./cd-modal.component.css']
+  selector: 'app-cd-modal',
+  imports: [NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
+  templateUrl: './cd-modal.component.html',
+  standalone: true,
+  styleUrls: ['./cd-modal.component.css']
 })
 export class CdModalComponent implements OnInit, OnDestroy {
   @Input() selectedCd: CD | undefined;

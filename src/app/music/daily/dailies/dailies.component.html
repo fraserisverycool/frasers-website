@@ -120,7 +120,7 @@
       </div>
     </div>
   }
-  @for (group of groupedDailySoundtracks; track group.month) {
+  @for (group of paginatedGroups; track group.month) {
     @if (!isRandomSort) {
       <h3 class="month-heading">{{ group.month }}</h3>
     }
@@ -161,6 +161,7 @@
       }
     </ul>
   }
+  <div #scrollAnchor class="scroll-anchor"></div>
   <div class="gif" (click)="toggleFuture()">
     <img [src]="imageService.imageUrl('/homepage/daily.gif')">
   </div>

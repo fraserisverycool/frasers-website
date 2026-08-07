@@ -7,10 +7,11 @@ import {ImageService} from "../../../../utils/services/image.service";
 import {ClickedOutsideDirective} from "../../../../utils/directives/clicked-outside.directive";
 
 @Component({
-    selector: 'app-kk-modal',
-    imports: [CloseButtonComponent, NgOptimizedImage, RatingBarComponent, ClickedOutsideDirective, CommonModule],
-    templateUrl: './kk-modal.component.html',
-    styleUrls: ['./kk-modal.component.css']
+  selector: 'app-kk-modal',
+  imports: [CloseButtonComponent, NgOptimizedImage, RatingBarComponent, ClickedOutsideDirective, CommonModule],
+  templateUrl: './kk-modal.component.html',
+  standalone: true,
+  styleUrls: ['./kk-modal.component.css']
 })
 export class KkModalComponent implements OnInit, OnDestroy {
   @Input() selectedKkSong: KKSong | undefined;

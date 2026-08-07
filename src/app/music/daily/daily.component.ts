@@ -9,10 +9,11 @@ import {RouterLink} from "@angular/router";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-    selector: 'app-daily',
-    imports: [RatingBarComponent, RouterLink],
-    templateUrl: './daily.component.html',
-    styleUrls: ['./daily.component.css']
+  selector: 'app-daily',
+  imports: [RatingBarComponent, RouterLink],
+  templateUrl: './daily.component.html',
+  standalone: true,
+  styleUrls: ['./daily.component.css']
 })
 export class DailyComponent implements OnInit {
   dailySoundtracks: DailySoundtrack[] = [];

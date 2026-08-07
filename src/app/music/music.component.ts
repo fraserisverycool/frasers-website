@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
-import { RouterLink, Router } from '@angular/router';
+import { Router } from '@angular/router';
 import {Album} from "./albums/album.interface";
 import {Soundtrack} from "./nintendo/soundtrack.interface";
 import {CD} from "./cds/cd.interface";
 import { HttpClient } from "@angular/common/http";
-import {DailyComponent} from "./daily/daily.component";
 import {Concert} from "./concerts/concert.interface";
 import {ImageService} from "../utils/services/image.service";
 
 @Component({
-    selector: 'app-music',
-    imports: [RouterLink, NgOptimizedImage, DailyComponent],
-    templateUrl: './music.component.html',
-    styleUrls: ['./music.component.css']
+  selector: 'app-music',
+  imports: [],
+  templateUrl: './music.component.html',
+  standalone: true,
+  styleUrls: ['./music.component.css']
 })
 export default class MusicComponent implements OnInit {
   albums: Album[] = [];
@@ -26,8 +26,6 @@ export default class MusicComponent implements OnInit {
   randomSmashImage: string | null = null;
   randomMixImage: string | null = null;
   randomPlaylistImage: string | null = null;
-  selectedSection: string | null = null;
-
   constructor(private http: HttpClient, private router: Router, protected imageService: ImageService) {}
 
   ngOnInit(): void {
@@ -42,14 +40,6 @@ export default class MusicComponent implements OnInit {
 
   handleClick(url: string) {
     this.router.navigate([url]);
-  }
-
-  selectSection(section: string) {
-    if (this.selectedSection === section) {
-      this.selectedSection = null;
-    } else {
-      this.selectedSection = section;
-    }
   }
 
   loadRandomAlbum(): void {

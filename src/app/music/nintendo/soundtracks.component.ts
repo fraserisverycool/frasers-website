@@ -1,4 +1,4 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZone} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {RouterLink} from '@angular/router';
@@ -23,10 +23,11 @@ const platformOrder = [
 ];
 
 @Component({
-    selector: 'app-nintendo',
-    imports: [CommonModule, RouterLink, FormsModule, NgOptimizedImage, SoundtrackModalComponent],
-    templateUrl: './soundtracks.component.html',
-    styleUrls: ['./soundtracks.component.css']
+  selector: 'app-nintendo',
+  imports: [CommonModule, RouterLink, FormsModule, NgOptimizedImage, SoundtrackModalComponent],
+  templateUrl: './soundtracks.component.html',
+  standalone: true,
+  styleUrls: ['./soundtracks.component.css']
 })
 export default class SoundtracksComponent implements OnInit, AfterViewInit, OnDestroy {
   soundtracks: Soundtrack[] = [];
@@ -47,12 +48,12 @@ export default class SoundtracksComponent implements OnInit, AfterViewInit, OnDe
     return acc;
   }, {} as Record<string, number>);
 
-  pageSize = 10;
-  itemsToShow = 10;
+  pageSize = 20;
+  itemsToShow = 20;
   @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
   private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService, private ngZone: NgZone) {}
 
   ngOnInit(): void {
     this.loadSoundtracks();
@@ -71,10 +72,12 @@ export default class SoundtracksComponent implements OnInit, AfterViewInit, OnDe
   setupIntersectionObserver(): void {
     this.observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
-        this.loadMore();
+        this.ngZone.run(() => {
+          this.loadMore();
+        });
       }
     }, {
-      rootMargin: '100px'
+      rootMargin: '300px'
     });
 
     if (this.scrollAnchor) {

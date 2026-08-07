@@ -1,4 +1,4 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZone} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
@@ -8,10 +8,11 @@ import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-    selector: 'app-cds',
-    imports: [CommonModule, FormsModule, NgOptimizedImage, CdModalComponent],
-    templateUrl: './cds.component.html',
-    styleUrls: ['./cds.component.css']
+  selector: 'app-cds',
+  imports: [CommonModule, FormsModule, NgOptimizedImage, CdModalComponent],
+  templateUrl: './cds.component.html',
+  standalone: true,
+  styleUrls: ['./cds.component.css']
 })
 export default class CdsComponent implements OnInit, AfterViewInit, OnDestroy {
   cds: CD[] = [];
@@ -31,12 +32,12 @@ export default class CdsComponent implements OnInit, AfterViewInit, OnDestroy {
   genreList = ["Art Pop", "Pop", "Rock & Electronic", "House & Disco", "Indie & Singer-Songwriter", "Jazz, Soul & Hip-Hop", "Vocal Jazz & Smooth", "Video Game OST", "Classical"];
   selectedTag: string | null = null;
 
-  pageSize = 10;
-  itemsToShow = 10;
+  pageSize = 20;
+  itemsToShow = 20;
   @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
   private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService, private ngZone: NgZone) {}
 
   ngOnInit(): void {
     this.loadGenres();
@@ -56,10 +57,12 @@ export default class CdsComponent implements OnInit, AfterViewInit, OnDestroy {
   setupIntersectionObserver(): void {
     this.observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
-        this.loadMore();
+        this.ngZone.run(() => {
+          this.loadMore();
+        });
       }
     }, {
-      rootMargin: '100px'
+      rootMargin: '300px'
     });
 
     if (this.scrollAnchor) {

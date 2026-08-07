@@ -1,29 +1,35 @@
 import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import { NgOptimizedImage } from '@angular/common';
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
-import {Album} from "../album.interface";
-import {AlbumsService} from "../service/albums.service";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
 import {ImageService} from "../../../utils/services/image.service";
 
-@Component({
-  selector: 'app-album-modal',
-  imports: [ClickedOutsideDirective, NgOptimizedImage, RatingBarComponent, CloseButtonComponent],
-  templateUrl: './album-modal.component.html',
-  standalone: true,
-  styleUrls: ['./album-modal.component.css']
-})
-export class AlbumModalComponent implements OnInit, OnDestroy {
-  @Input() selectedAlbum: Album | undefined;
-  @Output() close: EventEmitter<void> = new EventEmitter<void>();
-  currentRandomColor: string = "#ffffff";
+interface Mp3Info {
+  filename: string;
+  name: string;
+  description: string;
+  image: string;
+  rating: number[];
+  id: string;
+  newsletter: boolean;
+}
 
-  constructor(private albumsService: AlbumsService, protected imageService: ImageService) {
+@Component({
+  selector: 'app-mix-modal',
+  imports: [ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
+  templateUrl: './mix-modal.component.html',
+  standalone: true,
+  styleUrls: ['./mix-modal.component.css']
+})
+export class MixModalComponent implements OnInit, OnDestroy {
+  @Input() selectedMix: Mp3Info | undefined;
+  @Input() color: string = "#000000";
+  @Output() close: EventEmitter<void> = new EventEmitter<void>();
+
+  constructor(protected imageService: ImageService) {
   }
 
   ngOnInit() {
-    this.getRandomColor();
     history.pushState({ modal: true }, '');
   }
 
@@ -36,9 +42,5 @@ export class AlbumModalComponent implements OnInit, OnDestroy {
     if (window.history.state?.modal) {
       history.back();
     }
-  }
-
-  getRandomColor() {
-    this.currentRandomColor = this.albumsService.getRandomColor();
   }
 }

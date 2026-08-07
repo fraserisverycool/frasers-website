@@ -5,10 +5,11 @@ import {Rating} from "./service/rating.interface";
 import {ImageService} from "../services/image.service";
 
 @Component({
-    selector: 'app-rating-bar',
-    imports: [CommonModule, NgOptimizedImage],
-    templateUrl: './rating-bar.component.html',
-    styleUrls: ['./rating-bar.component.css']
+  selector: 'app-rating-bar',
+  imports: [CommonModule, NgOptimizedImage],
+  templateUrl: './rating-bar.component.html',
+  standalone: true,
+  styleUrls: ['./rating-bar.component.css']
 })
 export class RatingBarComponent {
   @Input() rating: Rating = {

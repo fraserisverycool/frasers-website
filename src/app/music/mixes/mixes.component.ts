@@ -1,9 +1,11 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
+import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZone} from '@angular/core';
 
 import { HttpClient } from "@angular/common/http";
+import {FormsModule} from '@angular/forms';
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {ImageService} from "../../utils/services/image.service";
+import {MixModalComponent} from "./mix-modal/mix-modal.component";
 
 interface Mp3Info {
   filename: string;
@@ -17,20 +19,34 @@ interface Mp3Info {
 
 @Component({
     selector: 'app-mixes',
-    imports: [RatingBarComponent],
+    imports: [RatingBarComponent, MixModalComponent, FormsModule],
     templateUrl: './mixes.component.html',
+    standalone: true,
     styleUrls: ['./mixes.component.css']
 })
 export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy {
   mp3Files: Mp3Info[] = [];
-  color: String = "#000000"
+  originalMixes: Mp3Info[] = [];
+  filteredMixes: Mp3Info[] = [];
+  color: string = "#000000"
 
-  pageSize = 5;
-  itemsToShow = 5;
+  private _searchTerm: string = '';
+  get searchTerm(): string {
+    return this._searchTerm;
+  }
+  set searchTerm(value: string) {
+    this._searchTerm = value;
+    this.applyFilters();
+  }
+
+  pageSize = 20;
+  itemsToShow = 20;
   @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
   private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
+  selectedMix: Mp3Info | null = null;
+
+  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService, private ngZone: NgZone) {}
 
   ngOnInit(): void {
     this.loadMixes();
@@ -50,10 +66,12 @@ export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy 
   setupIntersectionObserver(): void {
     this.observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
-        this.loadMore();
+        this.ngZone.run(() => {
+          this.loadMore();
+        });
       }
     }, {
-      rootMargin: '100px'
+      rootMargin: '300px'
     });
 
     if (this.scrollAnchor) {
@@ -62,21 +80,51 @@ export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.mp3Files.length) {
+    if (this.itemsToShow < this.filteredMixes.length) {
       this.itemsToShow += this.pageSize;
     }
+  }
+
+  resetInfiniteScroll(): void {
+    this.itemsToShow = this.pageSize;
+  }
+
+  showMix(mix: Mp3Info): void {
+    setTimeout(() => {
+      this.selectedMix = mix;
+    }, 0);
+  }
+
+  closeMix(): void {
+    this.selectedMix = null;
   }
 
   loadMixes(): void {
     this.http.get<{ mixes: Mp3Info[] }>('assets/data/mixes.json').subscribe({
       next: (data) => {
+        this.originalMixes = data.mixes;
         this.mp3Files = data.mixes;
         this.getRatings();
+        this.applyFilters();
       },
       error: (err) => {
         console.error('Failed to load mixes:', err);
       },
     });
+  }
+
+  applyFilters(): void {
+    this.resetInfiniteScroll();
+    let filtered = [...this.mp3Files];
+
+    if (this.searchTerm) {
+      const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
+      filtered = filtered.filter(mix =>
+        mix.name.toLowerCase().includes(lowerCaseSearchTerm)
+      );
+    }
+
+    this.filteredMixes = filtered;
   }
 
   getRatings(): void {

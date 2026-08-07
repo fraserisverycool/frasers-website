@@ -1,4 +1,4 @@
-import {Component, ElementRef, HostListener, OnInit, OnDestroy, ChangeDetectorRef, NgZone} from '@angular/core';
+import {Component, ElementRef, HostListener, OnInit, OnDestroy, ChangeDetectorRef, NgZone, ViewChild, AfterViewInit} from '@angular/core';
 import { CommonModule, TitleCasePipe } from '@angular/common';
 import {DailySoundtrack} from "../daily-soundtrack.interface";
 import {DomSanitizer} from "@angular/platform-browser";
@@ -19,7 +19,7 @@ interface GroupedDailySoundtracks {
     templateUrl: './dailies.component.html',
     styleUrls: ['./dailies.component.css']
 })
-export default class DailiesComponent implements OnInit, OnDestroy {
+export default class DailiesComponent implements OnInit, OnDestroy, AfterViewInit {
   allDailySoundtracks: DailySoundtrack[] = [];
   originalDailySoundtracks: DailySoundtrack[] = [];
   groupedDailySoundtracks: GroupedDailySoundtracks[] = [];
@@ -43,6 +43,11 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   audioPath: string = '/music/dailysoundtracks/';
   currentTrack: DailySoundtrack | null = null;
   playlist: DailySoundtrack[] = [];
+
+  pageSize = 10;
+  itemsToShow = 10;
+  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
+  private observer!: IntersectionObserver;
 
   private isAutoAdvancing = false;
   isFirstLoad = true;
@@ -165,7 +170,14 @@ export default class DailiesComponent implements OnInit, OnDestroy {
     this.loadDailySoundtracks();
   }
 
+  ngAfterViewInit(): void {
+    this.setupIntersectionObserver();
+  }
+
   ngOnDestroy(): void {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
     this.stopProgressTracking();
     this.stopCurrentSource();
     if (this.audioCtx) {
@@ -597,6 +609,55 @@ export default class DailiesComponent implements OnInit, OnDestroy {
     }
   }
 
+  setupIntersectionObserver(): void {
+    this.observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.ngZone.run(() => {
+          this.loadMore();
+        });
+      }
+    }, {
+      rootMargin: '300px'
+    });
+
+    if (this.scrollAnchor) {
+      this.observer.observe(this.scrollAnchor.nativeElement);
+    }
+  }
+
+  get paginatedGroups(): GroupedDailySoundtracks[] {
+    let count = 0;
+    const result: GroupedDailySoundtracks[] = [];
+
+    for (const group of this.groupedDailySoundtracks) {
+      if (count >= this.itemsToShow) break;
+
+      const remaining = this.itemsToShow - count;
+      if (group.tracks.length <= remaining) {
+        result.push(group);
+        count += group.tracks.length;
+      } else {
+        result.push({
+          month: group.month,
+          tracks: group.tracks.slice(0, remaining)
+        });
+        count += remaining;
+      }
+    }
+    return result;
+  }
+
+  loadMore(): void {
+    const totalTracks = this.groupedDailySoundtracks.reduce((sum, g) => sum + g.tracks.length, 0);
+    if (this.itemsToShow < totalTracks) {
+      this.itemsToShow += this.pageSize;
+    }
+  }
+
+  resetInfiniteScroll(): void {
+    this.itemsToShow = this.pageSize;
+  }
+
   private startProgressTracking(): void {
     this.stopProgressTracking();
     this.ngZone.runOutsideAngular(() => {
@@ -664,6 +725,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   filterDailySoundtracks(criteria: string): void {
     this.currentFilter = criteria;
     this.isFilterDropdownOpen = false;
+    this.resetInfiniteScroll();
 
     if (criteria !== 'Gimme that sweet video game music!') {
       this.selectedFranchise = null;
@@ -692,6 +754,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   selectMonth(month: string | null): void {
     this.selectedMonth = month;
     this.isCalendarOpen = false;
+    this.resetInfiniteScroll();
     this.filterDailySoundtracks(this.currentFilter);
     this.saveState();
   }
@@ -699,6 +762,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   selectTag(tag: string | null): void {
     this.selectedTag = tag;
     this.isTagDropdownOpen = false;
+    this.resetInfiniteScroll();
     this.filterDailySoundtracks(this.currentFilter);
     this.saveState();
   }
@@ -706,6 +770,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   selectFranchise(franchise: string | null): void {
     this.selectedFranchise = franchise;
     this.isFranchiseDropdownOpen = false;
+    this.resetInfiniteScroll();
     this.filterDailySoundtracks(this.currentFilter);
     this.saveState();
   }
@@ -713,6 +778,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   selectGenre(genre: string | null): void {
     this.selectedGenre = genre;
     this.isGenreDropdownOpen = false;
+    this.resetInfiniteScroll();
     this.filterDailySoundtracks(this.currentFilter);
     this.saveState();
   }
@@ -769,12 +835,14 @@ export default class DailiesComponent implements OnInit, OnDestroy {
 
   randomize(): void {
     this.isRandomSort = true;
+    this.resetInfiniteScroll();
     this.filterDailySoundtracks(this.currentFilter);
     this.saveState();
   }
 
   chronological(): void {
     this.isRandomSort = false;
+    this.resetInfiniteScroll();
     this.filterDailySoundtracks(this.currentFilter);
     this.saveState();
   }

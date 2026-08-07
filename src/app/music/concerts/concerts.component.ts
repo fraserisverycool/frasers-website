@@ -7,10 +7,11 @@ import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-    selector: 'app-concerts',
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
-    templateUrl: './concerts.component.html',
-    styleUrls: ['./concerts.component.css']
+  selector: 'app-concerts',
+  imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+  templateUrl: './concerts.component.html',
+  standalone: true,
+  styleUrls: ['./concerts.component.css']
 })
 export default class ConcertsComponent implements OnInit, AfterViewInit, OnDestroy {
   concerts: Concert[] = []

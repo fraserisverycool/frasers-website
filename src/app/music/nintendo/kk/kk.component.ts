@@ -7,10 +7,11 @@ import {KkModalComponent} from "./kk-modal/kk-modal.component";
 import {ImageService} from "../../../utils/services/image.service";
 
 @Component({
-    selector: 'app-kk',
-    imports: [NgOptimizedImage, KkModalComponent],
-    templateUrl: './kk.component.html',
-    styleUrls: ['./kk.component.css']
+  selector: 'app-kk',
+  imports: [NgOptimizedImage, KkModalComponent],
+  templateUrl: './kk.component.html',
+  standalone: true,
+  styleUrls: ['./kk.component.css']
 })
 export default class KkComponent implements OnInit {
   kkSongs: KKSong[] = [];

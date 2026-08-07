@@ -1,0 +1,22 @@
+@if (selectedMix) {
+  <div class="modal">
+    <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()" [style.background-color]="color">
+      <app-close-button (click)="close.emit()"/>
+      <h2>{{ selectedMix.name }}</h2>
+      <div class="mix-image">
+        <img [src]="imageService.imageUrl('/music/mixes/art/' + selectedMix.image)" [alt]="selectedMix.name">
+      </div>
+      <p>{{ selectedMix.description }}</p>
+      <div class="audio-player-wrapper">
+        <audio controls preload="none" [src]="imageService.imageUrl('/music/mixes/' + selectedMix.filename)">
+          Mate your browser cannot handle this audio player.
+        </audio>
+      </div>
+      <a [href]="imageService.imageUrl('/music/mixes/' + selectedMix.filename)" [download]="selectedMix.filename">
+        <span class="file-icon">🎧</span>
+        Download {{ selectedMix.filename }}
+      </a>
+      <app-rating-bar [rating]="{id: selectedMix.id, ratings: selectedMix.rating}"></app-rating-bar>
+    </div>
+  </div>
+}

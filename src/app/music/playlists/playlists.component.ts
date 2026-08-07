@@ -17,10 +17,11 @@ interface Mp3Info {
 }
 
 @Component({
-    selector: 'app-playlists',
-    imports: [RatingBarComponent],
-    templateUrl: './playlists.component.html',
-    styleUrls: ['./playlists.component.css']
+  selector: 'app-playlists',
+  imports: [RatingBarComponent],
+  templateUrl: './playlists.component.html',
+  standalone: true,
+  styleUrls: ['./playlists.component.css']
 })
 export default class PlaylistsComponent implements OnInit, AfterViewInit, OnDestroy {
   mp3Files: Mp3Info[] = [];

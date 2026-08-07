@@ -115,7 +115,8 @@ h1 {
 }
 
 .scroll-anchor {
-  height: 10px;
+  height: 100px;
+  width: 100%;
 }
 
 .sorting-buttons button:hover {

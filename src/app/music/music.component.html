@@ -5,201 +5,56 @@
   </div>
 
   <div class="selection-collage">
-    <div class="collage-item daily" [class.active]="selectedSection === 'daily'" (click)="selectSection('daily')">
+    <div class="collage-item daily" (click)="handleClick('/music/daily-soundtracks')">
       <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="Daily">
       <span>Daily Soundtracks</span>
     </div>
-    <div class="collage-item albums" [class.active]="selectedSection === 'albums'" (click)="selectSection('albums')">
+    <div class="collage-item albums" (click)="handleClick('/music/albums')">
       @if (randomAlbum) {
         <img [src]="imageService.imageUrl('/music/albums/' + randomAlbum.filename)" [alt]="randomAlbum.name">
       }
       <span>Albums</span>
     </div>
-    <div class="collage-item nintendo" [class.active]="selectedSection === 'nintendo'" (click)="selectSection('nintendo')">
+    <div class="collage-item nintendo" (click)="handleClick('/music/nintendo')">
       @if (randomSoundtrack) {
         <img [src]="imageService.imageUrl('/music/nintendo/' + randomSoundtrack.filename)" [alt]="randomSoundtrack.name">
       }
       <span>Nintendo Soundtracks</span>
     </div>
-    <div class="collage-item concerts" [class.active]="selectedSection === 'concerts'" (click)="selectSection('concerts')">
+    <div class="collage-item concerts" (click)="handleClick('/music/concerts')">
       @if (randomConcert) {
         <img [src]="imageService.imageUrl('/music/concerts/' + randomConcert.image)" [alt]="randomConcert.artist">
       }
       <span>Concerts</span>
     </div>
-    <div class="collage-item cds" [class.active]="selectedSection === 'cds'" (click)="selectSection('cds')">
+    <div class="collage-item cds" (click)="handleClick('/music/cds')">
       @if (randomCd) {
         <img [src]="imageService.imageUrl('/music/albums/' + randomCd.image)" [alt]="randomCd.album">
       }
       <span>CDs</span>
     </div>
-    <div class="collage-item smash" [class.active]="selectedSection === 'smash'" (click)="selectSection('smash')">
+    <div class="collage-item smash" (click)="handleClick('/music/smash')">
       @if (randomSmashImage) {
         <img [src]="imageService.imageUrl('/music/smash/album-art/' + randomSmashImage)" alt="Smash">
       }
       <span>Smash Soundtrack</span>
     </div>
-    <div class="collage-item playlists" [class.active]="selectedSection === 'playlists'" (click)="selectSection('playlists')">
+    <div class="collage-item playlists" (click)="handleClick('/music/playlists')">
       @if (randomPlaylistImage) {
         <img [src]="imageService.imageUrl('/music/playlists/art/' + randomPlaylistImage)" alt="Playlists">
       }
       <span>Playlists</span>
     </div>
-    <div class="collage-item mixes" [class.active]="selectedSection === 'mixes'" (click)="selectSection('mixes')">
+    <div class="collage-item mixes" (click)="handleClick('/music/mixes')">
       @if (randomMixImage) {
         <img [src]="imageService.imageUrl('/music/mixes/art/' + randomMixImage)" alt="Mixes">
       }
       <span>Video Game Mixes</span>
     </div>
-    <div class="collage-item worldpeace" [class.active]="selectedSection === 'worldpeace'" (click)="selectSection('worldpeace')">
+    <div class="collage-item worldpeace" (click)="handleClick('/music/worldpeace')">
       <img [src]="imageService.imageUrl('/music/worldpeace/worldpeace.gif')" alt="DJ World Peace">
       <span>DJ World Peace</span>
     </div>
   </div>
 
-  <div class="display-area">
-    @if (selectedSection === 'daily') {
-      <div class="row-item">
-        <h3>Soundtrack of the day</h3>
-        <p>The daily soundtracks that appear on the website's homepage have been going for a long time now! I turned the archive of them into a fun little page where you can sort and play the music. Maybe you can discover some nice new music by giving it a listen!</p>
-        <button class="fun-button" (click)="handleClick('/music/daily-soundtracks')">
-          <span class="button-text">Soundtrack Archive</span>
-        </button>
-        <div class="gif">
-          <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="nice gif saying everyday" class="image">
-        </div>
-        <app-daily></app-daily>
-      </div>
-    }
-
-    @if (selectedSection === 'albums') {
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/albums')">
-          <span class="button-text">Albums</span>
-        </button>
-        <p>Here are some of my favourite albums. I've already put like 200 albums on here, and I've written a bunch of stuff about all of them. You can pick up some recommendations here!</p>
-        @if (randomAlbum) {
-          <img
-            [ngSrc]="imageService.imageUrl('/music/albums/' + randomAlbum.filename)"
-            [alt]="randomAlbum.artist + ' - ' + randomAlbum.name"
-            width="300"
-            height="300"
-            class="image">
-        }
-      </div>
-    }
-
-    @if (selectedSection === 'nintendo') {
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/nintendo')">
-          <span class="button-text">Nintendo Soundtracks</span>
-        </button>
-        <p>Have you heard about the Nintendo music app? It's so good! There's a growing selection of soundtracks on there - they're dropping new ones every week and I'm so hooked. I'm writing a review for each one they release.</p>
-        @if (randomSoundtrack) {
-          <img
-            [ngSrc]="imageService.imageUrl('/music/nintendo/' + randomSoundtrack.filename)"
-            [alt]="randomSoundtrack.name"
-            width="300"
-            height="300"
-            class="image">
-        }
-      </div>
-    }
-
-    @if (selectedSection === 'concerts') {
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/concerts')">
-          <span class="button-text">Concerts</span>
-        </button>
-        <p>This page is an attempt to track which concerts I've been to! You can also see for which concerts I have tickets for if you wanna tag along.</p>
-        @if (randomConcert) {
-          <img
-            [ngSrc]="imageService.imageUrl('/music/concerts/' + randomConcert.image)"
-            [alt]="randomConcert.artist"
-            width="300"
-            height="300"
-            class="image">
-        }
-      </div>
-    }
-
-    @if (selectedSection === 'cds') {
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/cds')">
-          <span class="button-text">Current CD collection</span>
-        </button>
-        <p>Here is a list of all the CDs I currently own so that I don't forget which ones I already own when I'm out and about.</p>
-        @if (randomCd) {
-          <div class="cd-image-container">
-            <img [ngSrc]="imageService.imageUrl('/music/albums/' + randomCd.image)"
-              [alt]="randomCd.artist + ' - ' + randomCd.album"
-              class="cd-image"
-              width="200"
-              height="200"/>
-            <img [src]="imageService.imageUrl('/music/cds/cd-case.png')" class="cd-case" />
-          </div>
-        }
-      </div>
-    }
-
-    @if (selectedSection === 'smash') {
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/smash')">
-          <span class="button-text">Smash Bros. Soundtrack</span>
-        </button>
-        <p>I embarked on an insane project to host every single song that was ever in Smash on this website. You can listen here!</p>
-        @if (randomSmashImage) {
-          <img
-            [ngSrc]="imageService.imageUrl('/music/smash/album-art/' + randomSmashImage)"
-            [alt]="'Smash Bros. - ' + randomSmashImage"
-            width="300"
-            height="300"
-            class="image">
-        }
-      </div>
-    }
-
-    @if (selectedSection === 'playlists') {
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/playlists')">
-          <span class="button-text">Music Playlists</span>
-        </button>
-        <p>I also make large MP3s of music that aren't for video games. You can find them all here on this page!</p>
-        @if (randomPlaylistImage) {
-          <img
-            [ngSrc]="imageService.imageUrl('/music/playlists/art/' + randomPlaylistImage)"
-            [alt]="'Music Playlists'"
-            width="300"
-            height="300"
-            class="image">
-        }
-      </div>
-    }
-
-    @if (selectedSection === 'mixes') {
-      <div class="row-item">
-        <button class="fun-button" (click)="handleClick('/music/mixes')">
-          <span class="button-text">Video Game Mixes</span>
-        </button>
-        <p>Talking about video game music, over the years I made a bunch of mixes of my favourite tracks. They are finally available for download! It took me a lot of time to figure out how to do that.</p>
-        @if (randomMixImage) {
-          <img
-            [ngSrc]="imageService.imageUrl('/music/mixes/art/' + randomMixImage)"
-            [alt]="'Video Game Mixes'"
-            width="300"
-            height="300"
-            class="image">
-        }
-      </div>
-    }
-
-    @if (selectedSection === 'worldpeace') {
-      <div class="secret">
-        <button style="background: none; border: none;" aria-label="DJ World Peace" routerLink="/music/worldpeace">
-          <img alt="World Peace Music" [src]="imageService.imageUrl('/music/worldpeace/worldpeace.gif')" class="image">
-        </button>
-      </div>
-    }
-
-  </div>
 </div>

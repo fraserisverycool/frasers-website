@@ -9,10 +9,11 @@ import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {ImageService} from "../../utils/services/image.service";
 
 @Component({
-    selector: 'app-albums',
-    imports: [FormsModule, NgOptimizedImage, AlbumModalComponent],
-    templateUrl: './albums.component.html',
-    styleUrls: ['./albums.component.css']
+  selector: 'app-albums',
+  imports: [FormsModule, NgOptimizedImage, AlbumModalComponent],
+  templateUrl: './albums.component.html',
+  standalone: true,
+  styleUrls: ['./albums.component.css']
 })
 export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy {
   albums: Album[] = [];
@@ -39,8 +40,8 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
     'special vibes', 'classic', 'not for everyone', 'cunty', 'devastating', 'wild shit', 'all time faves'
   ];
 
-  pageSize = 10;
-  itemsToShow = 10;
+  pageSize = 20;
+  itemsToShow = 20;
   @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
   private observer!: IntersectionObserver;
 
@@ -68,7 +69,7 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
         });
       }
     }, {
-      rootMargin: '100px'
+      rootMargin: '300px'
     });
 
     if (this.scrollAnchor) {
@@ -79,17 +80,6 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
   loadMore(): void {
     if (this.itemsToShow < this.filteredAlbums.length) {
       this.itemsToShow += this.pageSize;
-      // After adding more items, if the anchor is still intersecting, load even more
-      setTimeout(() => this.checkAndLoadMore(), 100);
-    }
-  }
-
-  private checkAndLoadMore(): void {
-    if (this.scrollAnchor) {
-      const rect = this.scrollAnchor.nativeElement.getBoundingClientRect();
-      if (rect.top < window.innerHeight + 100) { // Using the same 100px rootMargin
-        this.loadMore();
-      }
     }
   }
 
@@ -146,8 +136,6 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
     }
 
     this.filteredAlbums = filtered;
-    // After filtering, we might need to load more if the results are already visible
-    setTimeout(() => this.checkAndLoadMore(), 100);
   }
 
   showDescription(album: Album): void {
