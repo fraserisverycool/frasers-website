@@ -18,6 +18,7 @@ export interface Entry {
 export enum NewsletterContent {
   GAME = 'GAME',
   FILM = 'FILM',
+  PLAYLIST = 'PLAYLIST',
   TVSHOW = 'TVSHOW',
   DURSTLOESCHER = 'DURSTLOESCHER',
   BOOK = 'BOOK',

@@ -8,6 +8,7 @@ class ContentType(Enum):
     GAME = 'data/games.json'
     FILM = 'data/films.json'
     ALBUM = "data/albums.json"
+    PLAYLIST = "data/playlists.json"
     SOUNDTRACK = "data/soundtracks.json"
     CONCERT = "data/concerts.json"
     BOOK = "data/books.json"
@@ -34,6 +35,9 @@ class ContentTypeMapping:
 
 def mapper_games(json_item):
     return json_item["name"], json_item["review"], "games/" + json_item["image"], "Vibes: " + json_item["vibes"] + ", Gameplay: " + json_item["gameplay"] + ", Platform: " + json_item["platform"] + ", Release: " + json_item["release"]
+
+def mapper_playlists(json_item):
+  return json_item["name"], [json_item["description"]], "music/playlists/art/" + json_item["image"], "For the tracklist, visit the playlists page!"
 
 def mapper_films(json_item):
     spoiler = ""
@@ -95,6 +99,8 @@ def get_content_data(content_type, content_data):
     return content_data['films']
   elif content_type == ContentType.CONCERT:
     return content_data['concerts']
+  elif content_type == ContentType.PLAYLIST:
+    return content_data['playlists']
   elif content_type == ContentType.DURSTLOESCHER:
     return content_data['durstloescher']
   elif content_type == ContentType.BOOK:
@@ -153,6 +159,7 @@ def generate_newsletter(title, description):
     mappings.register(ContentType.FILM, mapper_films)
     mappings.register(ContentType.CONCERT, mapper_concerts)
     mappings.register(ContentType.ALBUM, mapper_albums)
+    mappings.register(ContentType.PLAYLIST, mapper_playlists)
     mappings.register(ContentType.SOUNDTRACK, mapper_soundtracks)
     mappings.register(ContentType.BOOK, mapper_books)
     mappings.register(ContentType.GALLERY, mapper_gallery)
@@ -197,14 +204,9 @@ def generate_newsletter(title, description):
 
 
 def main():
-  generate_newsletter("We should make it legal to jailbreak apps",
+  generate_newsletter("test",
                       [
-                        "Hello everyone! Today's newsletter is all about the future of the internet. This past month I've been super impressed by the newsletter of popular writer Cory Doctorow: https://pluralistic.net/. He posts super interesting stuff almost daily about a huge range of topics, and his website is meticulously organised with sources and links and I'm just a bit star-struck if I'm honest. One of his big things that he keeps circling back to is 'anti-circumvention laws' - let me tell you about them!",
-                        "When the USA was establishing dominance in the past, its trade ambassadors convinced every trade partner to make it illegal to reverse-engineer or modify a device or app from US tech. That means it's illegal to modify American social media apps to make them respect EU privacy laws, or make a version of Steam where you don't give Valve money when you buy games. US tech companies, currently fused to the Trump administration, have the rest of the world in a chokehold, stealing our data and going on a privacy crime spree, and it's illegal for us to change their apps.",
-                        "We don't have alternatives to these apps (well they do in China I guess), but there is a world in which we didn't have these anti-circumvention laws in the EU at least, which would allow EU companies to make forks of all the apps and make them EU compliant (and pay taxes). It would be a massive fuck you to the US tech companies and would change the Internet for the better.",
-                        "So why do we have these laws? It's because during those trade negotiations with the US back then, they always threatened to put up tariffs if we didn't! And guess what, Trump put up tariffs anyway. They didn't hold their end of the bargain - so why should we? I reckon we start with Estonia but then slowly but surely, all the other countries can just scrap this law and start jailbreaking the shit out of these evil apps. If I'm honest though I don't know how diplomacy and policy stuff really works so I'm pessimistic that something will actually happen.",
-                        "Anyway, as for me, I've been enjoying a peaceful week in France with the family where I was able to chillax to the max and actually finish 2 (!) books. Berlin summer continues with constant plans and fun stuff and although I'm sometimes overwhelmed, I'm not complaining.",
-                        "In website news, I made a new part of the site called 'playlists' in the music section where I will start posting some fun mixes of my favourite music. Each mp3 will be about an hour long and feature a particular vibe. The first one is up already and I'm working on two more. The first one is your stereotypical porn music from the 90s, that kinda chillout electronica with some moaning over the top I guess. Let me know if you have good sex while listening to it."
+                        "test"
                       ])
 
 if __name__ == "__main__":
