@@ -3,7 +3,6 @@ import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZo
 import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
 import {RatingService} from "../../utils/rating-bar/service/rating.service";
-import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {ImageService} from "../../utils/services/image.service";
 import {MixModalComponent} from "./mix-modal/mix-modal.component";
 
@@ -19,7 +18,7 @@ interface Mp3Info {
 
 @Component({
     selector: 'app-mixes',
-    imports: [RatingBarComponent, MixModalComponent, FormsModule],
+    imports: [MixModalComponent, FormsModule],
     templateUrl: './mixes.component.html',
     standalone: true,
     styleUrls: ['./mixes.component.css']
