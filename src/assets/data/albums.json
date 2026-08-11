@@ -1,6 +1,29 @@
 {
   "albums": [
     {
+      "filename": "kelsey-so.jpg",
+      "artist": "Kelsey Lu",
+      "name": "So Help Me God",
+      "releaseyear": "2026",
+      "description": [
+        "This album inspired me to make my 'wind through your hair' mix because these string arrangements make me feel like I'm cycling home on a warm summer's evening. It's just such a lush album. I adore the way the tempo slows down in 'Comfort', it makes it feel like you're opening the window in the morning. 'American Sonnet' is also a wild track. Those eerie, distant-sounding horn stabs, really ominous. The ending of the song as well."
+      ],
+      "topTracks": [
+        "Reaper",
+        "Running To Pain",
+        "Comfort",
+        "American Sonnet",
+        "Only The Lonely",
+        "Better Than That"
+      ],
+      "tags": [
+        "pop",
+        "special vibes"
+      ],
+      "id": "086825de-db87-47be-8e0a-3a825802891b",
+      "newsletter": false
+    },
+    {
       "filename": "madonna-ray.jpg",
       "artist": "Madonna",
       "name": "Ray of Light",

@@ -1,6 +1,54 @@
 {
   "playlists": [
     {
+      "filename": "wind-through-your-hair.mp3",
+      "name": "Wind Through Your Hair",
+      "description": "There's nothing better than being in a good mood while the weather is good, you are travelling and the wind is flowing through your hair. In German they call it Fahrtwind. With this playlist, I'm trying to capture that vibe of cycling on a warm summer evening, or driving with the top down. We've got string sections to the max here and we are reconnecting with the element of Air.",
+      "id": "6133dd22-d841-4aa7-90b9-e02d5e63dea9",
+      "newsletter": false,
+      "image": "wind.png",
+      "tracklist": [
+        "Prefab Sprout - Bonny",
+        "Marvin Gaye - Mercy Mercy Me (The Ecology)",
+        "Kelsey Lu - Comfort",
+        "Fleet Foxes - Silver Dagger",
+        "The Lovin' Spoonful - Darling Be Home Soon",
+        "Labi Siffre - Cannock Chase",
+        "Michael Kiwanuka - You've Got Nothing To Lose",
+        "Jessie Ware - Remember Where You Are",
+        "Madonna - Don't Tell Me",
+        "Groove Armada - At The River",
+        "Jens Lekman - Dandelion Seed",
+        "The War On Drugs - Disappearing",
+        "Dire Straits - Calling Elvis",
+        "Nina Simone - My Way"
+      ]
+    },
+    {
+      "filename": "lean-into-the-sadness.mp3",
+      "name": "Lean Into The Sadness",
+      "description": "I'm someone whose mood is very much affected by the music I'm listening. Sometimes when I'm upset, I can listen to happier, uplifting music and it eventually gets me out of the dumps. Sometimes though, all I want to do is lean into my sadness and indulge myself to the max in my feelings. This playlist is for moments like those. And just remember: it's OK to cry - you will feel better afterwards.",
+      "id": "b6c7d8db-4eb9-46c5-b19b-0cbe7a9bbe40",
+      "newsletter": false,
+      "image": "lean-into-the-sadness.png",
+      "tracklist": [
+        "Feist - The Park",
+        "Lykke Li - Love Me Like I'm Not Made Of Stone",
+        "Nina Simone - Don't Smoke In Bed",
+        "Natalia Lafourcade - Luna Cresciente",
+        "Lingua Ignota - Pennsylvania Furnace",
+        "Sade - Never Thought I'd See The Day",
+        "Weyes Blood - God Turn Me Into A Flower",
+        "Chartreuse - Swedish Water",
+        "Michael Kiwanuka - Small Changes",
+        "Hollow Knight: Silksong - Bone Bottom",
+        "Silvana Estrada - Si Me Matan",
+        "Aldous Harding - Heaven Is Empty",
+        "Laura Mvula - Diamonds",
+        "Anohni and the Johnsons - Why Am I Alive Now?"
+      ]
+    },
+    {
       "filename": "sexy-steamy-smooth-v2.mp3",
       "name": "Sexy, Steamy and Smooth",
       "description": "I made this steamy playlist, great for when you're getting it on with your lover. It's got that 90's electronica vibe, but it's chill. You could say it's stereotypical porn music and I would agree with you. Some of the songs are a little on the nose - you could maybe describe this mix as somewhat cheesy, but you have to just embrace it. It's camp, I swear.",
@@ -21,30 +69,6 @@
         "Thievery Corporation - Transcendence",
         "Sade - No Ordinary Love",
         "a.s.o. - Go On"
-      ]
-    },
-    {
-      "filename": "lean-into-your-sadness.mp3",
-      "name": "Lean Into Your Sadness",
-      "description": "I'm someone whose mood is very much affected by the music I'm listening. Sometimes when I'm upset, I can listen to happier, uplifting music and it eventually gets me out of the dumps. Sometimes though, all I want to do is lean into my sadness and indulge myself to the max in my feelings. This playlist is for moments like those. And just remember: it's OK to cry - you will feel better afterwards.",
-      "id": "b6c7d8db-4eb9-46c5-b19b-0cbe7a9bbe40",
-      "newsletter": false,
-      "image": "tear.jpg",
-      "tracklist": [
-        "Feist - The Park",
-        "Lykke Li - Love Me Like I'm Not Made Of Stone",
-        "Nina Simone - Don't Smoke In Bed",
-        "Natalia Lafourcade - Luna Cresciente",
-        "Lingua Ignota - Pennsylvania Furnace",
-        "Sade - Never Thought I'd See The Day",
-        "Weyes Blood - God Turn Me Into A Flower",
-        "Chartreuse - Swedish Water",
-        "Michael Kiwanuka - Small Changes",
-        "Hollow Knight: Silksong - Bone Bottom",
-        "Silvana Estrada - Si Me Matan",
-        "Aldous Harding - Heaven Is Empty",
-        "Laura Mvula - Diamonds",
-        "Anohni and the Johnsons - Why Am I Alive Now?"
       ]
     }
   ]
