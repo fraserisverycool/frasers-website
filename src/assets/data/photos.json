@@ -1,6 +1,14 @@
 {
   "pictures": [
     {
+      "filename": "eclipse.jpeg",
+      "title": "Not your normal Sports session",
+      "month": "August 2026",
+      "question": "What cool thing happened on the 12th of August?",
+      "id": "dd878af5-9e08-4ee0-82bc-a20209014b36",
+      "newsletter": false
+    },
+    {
       "filename": "pulpo2.jpeg",
       "title": "Pulporrito con Pulpo",
       "month": "July 2026",

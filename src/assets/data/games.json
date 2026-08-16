@@ -1,6 +1,26 @@
 {
   "games": [
     {
+      "name": "Star Fox",
+      "vibes": "8",
+      "gameplay": "7",
+      "review": [
+        "I have fond memories of the original game, playing it over and over just on the easy route because I was a dumb child, and having my mind blown when you can do the 'harder' route for an alternate ending. I decided to try the remake because the vibes looked good. I saw some gameplay of the meteorite belt and thought it looked gorgeous, and it is! But if I'm honest, I wasn't totally blown away. I think it's a lot to do with the fact that the game is on rails and you're not free to just fly around and explore.",
+        "I decided while I was playing it that maybe these rail shooter games aren't for me. I already know I'm not into first person shooters, and this isn't so different, although I like the arcade flair of this game. I don't feel inspired to go back through the levels and do them more efficiently or beat the challenges, but I guess that's OK, it's just not for me. I also tried out the multiplayer but it was too stressful, and I really don't enjoy team games.",
+        "The character designs are fine, shocking on first viewing but you get used to them very quickly. Although Falco is at his most ugly here. At first I was horrified but I remembered that Falco has always been ugly, so making him so deeply ugly here is only appropriate.",
+        "Finally, I feel like the soundtrack is too generic-orchestra. I would have preferred something weird and remarkable. The original tracks are pretty nice and there was a lot of potential there, but with the exception of maybe Zoness, the new music didn't really hit for me. Also, I thought the ending sequence with James totally ridiculous. I really feel like they fucked that up! All emotional weight gone. And the ending scene where all the animals are just running, ridiculous."
+      ],
+      "image": "star-fox-switch.jpg",
+      "platform": "Switch 2",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": true,
+      "completable": true,
+      "id": "4f793578-711b-4f4d-9e14-1b41d6b997de",
+      "newsletter": false
+    },
+    {
       "name": "Mina the Hollower",
       "vibes": "10",
       "gameplay": "10",

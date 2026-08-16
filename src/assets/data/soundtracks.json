@@ -1,6 +1,32 @@
 {
   "soundtracks": [
     {
+      "filename": "super-mario-sunshine.jpg",
+      "name": "Super Mario Sunshine",
+      "description": [
+        "Such a classic soundtrack! I've always loved this game for commiting to making the whole thing take place on a beautiful island. Each part of the island has its own vibe but is also part of the connected whole. You've got latin rhythms behind all these tracks and I just live for that shit. It starts straight away with the low-key great remix of the underground theme in Delfino Airstrip, with a nice slow cha-cha rhythm.",
+        "Personal highlights for me are definitely Gelato Beach (maximum vibes), Pinna Park (love to play it on the piano), Sirena Beach (actually kinda creepy), and Pianta Village (party music for a party town). Also special shoutouts to the casino music that they ended up using for all those minigames in the DS era. It's so good."
+      ],
+      "platform": "Gamecube",
+      "topTracks": [
+        "Delfino Airstrip",
+        "Isle Delfino",
+        "Ricco Harbor",
+        "Gelato Beach",
+        "Secret Course - Sky and Sea",
+        "Pinna Beach",
+        "Pinna Park",
+        "Sirena Beach",
+        "Hotel Delfino",
+        "Casino",
+        "Noki Bay",
+        "Noki Depths",
+        "Pianta Village"
+      ],
+      "id": "b77b9611-0944-443d-bb58-7c7d9ddfd949",
+      "newsletter": false
+    },
+    {
       "filename": "fire-emblem-fortunes-weave.jpg",
       "name": "Fire Emblem: Fortune's Weave",
       "description": [
