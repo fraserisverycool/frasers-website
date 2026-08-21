@@ -1,6 +1,27 @@
 {
   "soundtracks": [
     {
+      "filename": "sim-city.webp",
+      "name": "SimCity",
+      "description": [
+        "I was totally caught off guard by this release, because I knew next to nothing about this game. Originally publishing for the SNES, this development studio went on to create a spin-off of this series called 'The Sims' after it was bought by EA. But before this, the world was treated to this RTS gem with excellent vibes.",
+        "The vibes of this soundtrack are truly off the charts! I never would have guessed. Listening to it, I thought to myself that it has strong Pilotwings vibes, and lo and behold, the composer Soyo Oka - she's the composer for Pilotwings! Also, she did Super Mario Kart, which makes so much sense. The music is spacey, almost jazzy, and has some nice classical influences.",
+        "The game features a different track depending on how big your city is, and the largest size, Megalopolis, has music that made me stop what I was doing and listen to it again. What a cool, proggy ending before the loop goes round. Super nice sounding. It really makes me want to play the game."
+      ],
+      "platform": "SNES",
+      "topTracks": [
+        "Title Screen",
+        "Menu",
+        "Village",
+        "City",
+        "Capital",
+        "Metropolis",
+        "Megalopolis"
+      ],
+      "id": "d857a055-22a5-46ba-94cf-bb7cf7619723",
+      "newsletter": true
+    },
+    {
       "filename": "super-mario-sunshine.jpg",
       "name": "Super Mario Sunshine",
       "description": [
@@ -24,7 +45,7 @@
         "Pianta Village"
       ],
       "id": "b77b9611-0944-443d-bb58-7c7d9ddfd949",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "fire-emblem-fortunes-weave.jpg",
@@ -41,7 +62,7 @@
         "Bloodstained Arena"
       ],
       "id": "ba5ccb29-4cba-41f9-b3c0-4e6ca49b77ba",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "virtual-boy-wario-land.webp",
@@ -54,7 +75,7 @@
         "Stage BGM 7"
       ],
       "id": "5ad1298b-e25f-449c-93d2-f41b75b22444",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "mario-clash.webp",
@@ -67,7 +88,7 @@
         ""
       ],
       "id": "391120e4-5a18-4aba-9c47-b8e5af6677a6",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "galactic-pinball.png",
@@ -85,7 +106,7 @@
         "Staff Credits"
       ],
       "id": "f9fb458e-8f4c-4c33-8e08-6fcc6209025e",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "teleroboxer.jpg",
@@ -100,7 +121,7 @@
         "Staff Credits"
       ],
       "id": "a2c6c876-16cc-4dc5-b02e-0a2d86197fbe",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "marios-tennis.jpg",
@@ -114,7 +135,7 @@
         "Tie Break"
       ],
       "id": "9dd0ab12-b913-4644-8dd5-770cc6e5b052",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "splatoon-raiders.avif",
@@ -308,7 +329,13 @@
         "Tokyo Blur (Mario Kart Tour)",
         "Vancouver Velocity (Mario Kart Tour)",
         "Singapore Speedway (Mario Kart Tour)",
-        "Bowser's Castle: Main Courtyard (Super Mario Odyssey)"
+        "Bowser's Castle: Main Courtyard (Super Mario Odyssey)",
+        "Super Bell Hill (Super Mario 3D World)",
+        "Shifty Boo Mansion (Super Mario 3D World)",
+        "Athletic Theme (Jazz) (Super Mario 3D World)",
+        "Hisstocrat (Super Mario 3D World)",
+        "Plessie Ride! (Super Mario 3D World + Bowser's Fury)",
+        "Snow Mountain Theme (Super Mario 3D Land)"
       ],
       "id": "7d66a902-6f8e-4f5a-af9e-a66552ea45fb",
       "newsletter": true
