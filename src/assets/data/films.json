@@ -1,6 +1,56 @@
 {
   "films": [
     {
+      "filename": "la-chimera.jpg",
+      "title": "La Chimera",
+      "description": "Another Josh O'Connor film where he is dowsing for graves and using his archeological powers for evil. It has some great moments and some great characters. It's same director as Happy As Lazzaro which I also really liked. It's kinda like a biblical parable.",
+      "spoiler": "One of the characters says he's looking for chimeras, which is what he finds in that one ultimate grave, but instead it's immediately broken, and it's clear it wasn't what he was actually looking for, which is he deceased girlfriend. After dramatically throwing away the head (and I assume giving up this gravedigging nonsense) he returns to continue his search. He appears to find it in the final scene when he is buried alive. Something tells me it's all a delusion. He didn't find it in Italia, else he would have said something before leaving her. To me it feels like he just went back to graverobbing because that's all he knows and just fucking dies.",
+      "year": "2026",
+      "release": "2023",
+      "id": "83144494-ce3e-4282-9d70-3fe426d69828",
+      "newsletter": false
+    },
+    {
+      "filename": "nicht-der-homosexuelle.jpg",
+      "title": "Nicht der Homosexuelle ist pervers, sondern die Situation, in der er lebt",
+      "description": "Watched this film with Leo from Rosa von Praunheim, who I have to say I find insufferable. In it, he preaches about gay men in Berlin in the early 70s and gives a bunch of pauschale Verallgemeinerungen, his voice dubbed largely in silence over this footage of gay people. I struggled with it but shoutouts to him for making queer films in Germany when nobody else did.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "1971",
+      "id": "b077d30f-3d1b-4090-adc1-bc454f0e8913",
+      "newsletter": false
+    },
+    {
+      "filename": "twilight-new-moon.jpg",
+      "title": "Twilight: New Moon",
+      "description": "So funny. Bella is so horny for these dudes it's insane. Edward went to Brazil (?) and when he thought Bella killed herself (why did she jump off a cliff ??) they all flew internationally to Italy for an insane showdown with a cult (?). Just so ridiculous. Loved it.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2009",
+      "id": "add1e4ee-9b7f-4725-9546-3917a57ab268",
+      "newsletter": false
+    },
+    {
+      "filename": "species-of-bees.jpg",
+      "title": "20,000 Species of Bees",
+      "description": "Beautiful story about an 8-year old trans girl. I had lots of unanswered questions about what it's like when someone so young already knows so it was great to get an idea from this film. Some really nice moments in it.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2023",
+      "id": "2635f87c-3b48-4464-98b3-31d0157b2291",
+      "newsletter": false
+    },
+    {
+      "filename": "the-blob.jpg",
+      "title": "The Blob",
+      "description": "An old film about a massive corrosive blob going on a murdering rampage. It's super simple, full of tropes, features an unpleasant date rape scene, but altogether is hugely entertaining.",
+      "spoiler": "",
+      "year": "2026",
+      "release": "1988",
+      "id": "37c342c8-0c45-4edb-a239-980424c43e13",
+      "newsletter": false
+    },
+    {
       "filename": "backrooms.webp",
       "title": "Backrooms",
       "description": "Despite suffering so much from watching Obsession and vowing to never watch a horror film again, I decided to go see Backrooms and it was so scary. I'm so easily spooked. I liked it though.",

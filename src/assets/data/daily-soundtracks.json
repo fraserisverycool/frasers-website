@@ -234,43 +234,53 @@
       "tags": []
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Lingua Ignota",
+      "album": "Sinner Get Ready",
+      "track": "Perpetual Flame of Centralia",
+      "description": "Devastating sad song based off that video of the covid-denier who says she's protected from corona because she's covered in the blood of Jesus.",
+      "link": "https://www.youtube.com/watch?v=6FKgLmT5s2A",
       "game": false,
       "day": "13-06-2027",
       "id": "f5394576-7dfa-4eb8-b840-1fa6eda36454",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "perpetual-flame-of-centralia.mp3",
+      "tags": [
+        "devastating",
+        "peaceful",
+        "sad songs"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Yuji Takenouchi",
+      "album": "ChainDive",
+      "track": "Movin' On",
+      "description": "Banger soundtrack to a forgotten PS2 game that didn't sell well.",
+      "link": "https://www.youtube.com/watch?v=ngiSObCy6ok",
+      "game": true,
       "day": "12-06-2027",
       "id": "5c05390d-3973-4734-8cba-58b98ce29d92",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "movin-on.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Doja Cat",
+      "album": "-",
+      "track": "Mooo!",
+      "description": "My favourite meme of 2018 was Doja Cat posting this thing she made in a day, it going viral and launching her rap career. Her material since this hasn't ever reached the heights of the 'Bitch I'm a cow' song.",
+      "link": "https://www.youtube.com/watch?v=mXnJqYwebF8",
       "game": false,
       "day": "11-06-2027",
       "id": "736bf1b7-2d10-4197-a0e6-bba705c95b4c",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "mooo.mp3",
+      "tags": [
+        "hip-hop",
+        "not for everyone"
+      ]
     },
     {
       "artist": "The Magnetic Fields",
