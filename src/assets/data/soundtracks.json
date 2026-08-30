@@ -1,6 +1,34 @@
 {
   "soundtracks": [
     {
+      "filename": "fire-emblem-three-houses.webp",
+      "name": "Fire Emblem: Three Houses",
+      "description": [
+        "Modern Fire Emblem soundtrack are all so great. They are complex, ambitious and bombastic. This one is as well, although I have to admit I don't love it as much as Awakening or Fates. I enjoyed this game but it didn't capture my imagination as much as the others, and I feel like it has fewer memorable highlights music-wise in comparison.",
+        "That being said, the main hub area, the monastery, has super great vibes, although as I listen to it now, I feel like it sounds a lot like the Sims. The battle music is pretty good, still giving the 'wind through your hair' vibes of the series, but maybe more in-your-face and upbeat than usual. My personal favourite is 'Chasing Daybreak'.",
+        "Also I have to point out the insane dubstep music that they added for the 'real villains' near the end of the game (at least in the golden deer route that I played). It sounds so painfully shit. Honestly an embarrassment."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Fódlan Winds",
+        "The Archbishop",
+        "Guardian of Starlight",
+        "Life at Garreg Mach Monastery",
+        "As Switch as Wind",
+        "Dwellings of the Ancient Gods",
+        "Blue Skies and a Battle",
+        "The Land Beloved by the Goddess",
+        "Tactics",
+        "Chasing Daybreak",
+        "Scales of the Goddess",
+        "Golden Deer and Crescent Moon",
+        "Spiderweb",
+        "Paths That Will Never Cross"
+      ],
+      "id": "0df418b4-898b-4580-b27c-285b317255a3",
+      "newsletter": false
+    },
+    {
       "filename": "mario-kart-world.jpg",
       "name": "Mario Kart World",
       "description": [

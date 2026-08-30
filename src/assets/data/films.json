@@ -1,6 +1,16 @@
 {
   "films": [
     {
+      "filename": "mommie-dearest.webp",
+      "title": "Mommie Dearest",
+      "description": "Hilarious and also sad film about a total diva, Joan Crawford. It's a camp classic, it felt like it was made for the gays. Every time she did something outrageous we just lapped it up, we couldn't help it. She's like a drag queen. It's like drag queens channel this woman when they do their shows.",
+      "spoiler": "After the film I learned that this is all real! The story comes from a tell-all memoir from Christina herself, and it apparently shattered many perceptions of this otherwise perfect hollywood lady. But also, according to wikipedia, loads of people (for example Bette Davis) said the book by Christina is totally exaggerated and dishonest. Now Joan Crawford's legacy is totally split.",
+      "year": "2026",
+      "release": "2081",
+      "id": "e3446465-74dc-4c27-acbe-978a53fe6e15",
+      "newsletter": false
+    },
+    {
       "filename": "la-chimera.jpg",
       "title": "La Chimera",
       "description": "Another Josh O'Connor film where he is dowsing for graves and using his archeological powers for evil. It has some great moments and some great characters. It's same director as Happy As Lazzaro which I also really liked. It's kinda like a biblical parable.",
