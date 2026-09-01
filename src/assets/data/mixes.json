@@ -41,6 +41,14 @@
       "image": "celeste.png"
     },
     {
+      "filename": "Chrono Trigger Mix.mp3",
+      "name": "Chrono Trigger Mix",
+      "description": "This is a mix containing the entire soundtrack of legendary JRPG Chrono Trigger! It's full to the brim of huge hits. I once listened to this mix while canoeing in Wannsee, and it was great. Honestly, highly recommended to just actively listen to these tracks, they are just that good.",
+      "id": "d0a33636-4019-441c-941c-3e0de71cc801",
+      "newsletter": false,
+      "image": "chrono trigger.png"
+    },
+    {
       "filename": "Dandara Mix.mp3",
       "name": "Dandara Mix",
       "description": "Dandara is an obscure indie game that I loved with a mind-blowing soundtrack. About 5 minutes into this mix is the incredible boss theme. Let it bless your ears and then get blown away by the FINAL boss theme at the end. Holy moly.",
@@ -135,6 +143,14 @@
       "id": "3ea3edd8-5695-4953-a9bb-8690015fff6f",
       "newsletter": true,
       "image": "fire emblem 2.png"
+    },
+    {
+      "filename": "Fire Emblem Warriors Mix.mp3",
+      "name": "Fire Emblem Warriors Mix",
+      "description": "Unearthed this old mix from my old computer, because I suddenly remembered that I made this. This obscure spin-off title had some excellent remixes and I wanted to enjoy them all together in this little mix, so that's what happened. There's also a bunch of original music in there but I don't think it's as good honestly.",
+      "id": "fa0bd2d1-a8b4-4ef1-82a1-18d3cd9ca92f",
+      "newsletter": false,
+      "image": "fire emblem 3.png"
     },
     {
       "filename": "A Hat In Time Mix.mp3",
