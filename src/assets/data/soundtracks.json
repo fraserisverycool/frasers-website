@@ -1,6 +1,19 @@
 {
   "soundtracks": [
     {
+      "filename": "paper-mario.jpg",
+      "name": "Paper Mario",
+      "description": [
+        "What a total delight it is to listen to this classic soundtrack! It's super long for a N64 game and full of simple, cheesy tunes. Most of it is pretty forgettable but there are some absolute bangers stuck in there. I feel like all the music sounds like music played by toy instruments, but then you've got 'Freeze!', the ice boos, and holy shit, it goes so hard. I listened to this while super stoned and it was fucking great."
+      ],
+      "platform": "Nintendo 64",
+      "topTracks": [
+        ""
+      ],
+      "id": "19513a1b-b043-4a7e-a799-90f02bd67999",
+      "newsletter": false
+    },
+    {
       "filename": "fire-emblem-three-houses.webp",
       "name": "Fire Emblem: Three Houses",
       "description": [
