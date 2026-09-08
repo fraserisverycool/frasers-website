@@ -1,6 +1,19 @@
 {
   "soundtracks": [
     {
+      "filename": "zelda-ocarina-of-time-remake.jpg",
+      "name": "The Legend of Zelda: The Ocarina of Time",
+      "description": [
+        "Omigosh! I'm so pumped for this game! They just released a SINGLE SONG but it is literally perfect so fine."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Title Theme"
+      ],
+      "id": "aaa8807f-4a35-4922-ad3e-fbc43d9ab93b",
+      "newsletter": false
+    },
+    {
       "filename": "paper-mario.jpg",
       "name": "Paper Mario",
       "description": [
@@ -8,7 +21,21 @@
       ],
       "platform": "Nintendo 64",
       "topTracks": [
-        ""
+        "Shooting Star Summit",
+        "Attack of the Koopa Bros.",
+        "Unlucky!",
+        "Gusty Gulch Adventure",
+        "Keeping Pace",
+        "Over the Radio: A Beautiful Song (Orchestral)",
+        "Deep in the Jungle",
+        "Raphael the Raven",
+        "Mr Sun's Melancholy",
+        "Flower Field Rondo",
+        "Huffin' and Puffin'",
+        "Crystal Palace Crawl",
+        "Crystal King's Theme",
+        "Freeze!",
+        "A City in the Stars"
       ],
       "id": "19513a1b-b043-4a7e-a799-90f02bd67999",
       "newsletter": false
