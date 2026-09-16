@@ -1,6 +1,26 @@
 {
   "durstloescher": [
     {
+      "filename": "eistee-waldfrucht.jpeg",
+      "name": "Eistee Waldfrucht-Geschmack",
+      "score": "8.6",
+      "description": "Woooww echt geil. Bin kontroverserweise nicht der größte Fan von den Eistee Sorten aber diese ballert 8.6/10 shoutout an Medi, die uns in die geheime Gesellschaft der Metro gebracht hat🙏🏽",
+      "fraserscore": "8",
+      "fraserdescription": "I love anything that tastes remotely of blackberries",
+      "id": "793ecb02-0b1e-4b8b-a140-f7a54593b1eb",
+      "newsletter": true
+    },
+    {
+      "filename": "multivitamin-zero.jpeg",
+      "name": "Multivitamin 12-Frucht Zero",
+      "score": "6",
+      "description": "Boaaaaa iwie ne. Geil weil kein Zucker aber das schmeckt man leider auch. Geb es 6/10 weil ohne Zucker aber der Geschmack leider nicht so geil. Schade.",
+      "fraserscore": "",
+      "fraserdescription": "",
+      "id": "648b7df7-56df-4db9-99d8-71f3e7e06eed",
+      "newsletter": true
+    },
+    {
       "filename": "honigmelone.PNG",
       "name": "Honigmelonen-Zitronen-Geschmack",
       "score": "8",

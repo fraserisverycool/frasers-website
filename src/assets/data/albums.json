@@ -1,6 +1,30 @@
 {
   "albums": [
     {
+      "filename": "erykah-before.jpg",
+      "artist": "Erykah Badu & The Alchemist",
+      "name": "Before The World Blows",
+      "releaseyear": "2026",
+      "description": [
+        "I didn't expect Erykah to make doomer music but I have so here for it. Guys from here on out we will be getting way more doomer albums and it's necessary. The world is about to blow (it's just a matter of when) and I reckon it's going to be weird to be singing songs about sex and relationships before too long. 'Witch Doctor' alone is so real, make sure you watch the music video to get what it's really about. I love the percussion in that track. Also I appreciate how unafraid she is to sing these songs with such low tempo. The very final track might be my favourite, 'Black Box' she's referring to your phone. Because she gets it. Ugh I'm just such a fan."
+      ],
+      "topTracks": [
+        "Echos",
+        "Crossfade",
+        "Witch Doctor",
+        "Next 2 U",
+        "Love Me Not",
+        "They Ain't You",
+        "Black Box"
+      ],
+      "tags": [
+        "hip-hop",
+        "soul"
+      ],
+      "id": "8514da8d-964b-4905-8d23-91ec82650119",
+      "newsletter": true
+    },
+    {
       "filename": "kelsey-so.jpg",
       "artist": "Kelsey Lu",
       "name": "So Help Me God",

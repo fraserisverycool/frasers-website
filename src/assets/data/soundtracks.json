@@ -11,13 +11,13 @@
         "Title Theme"
       ],
       "id": "aaa8807f-4a35-4922-ad3e-fbc43d9ab93b",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "paper-mario.jpg",
       "name": "Paper Mario",
       "description": [
-        "What a total delight it is to listen to this classic soundtrack! It's super long for a N64 game and full of simple, cheesy tunes. Most of it is pretty forgettable but there are some absolute bangers stuck in there. I feel like all the music sounds like music played by toy instruments, but then you've got 'Freeze!', the ice boos, and holy shit, it goes so hard. I listened to this while super stoned and it was fucking great."
+        "What a total delight it is to listen to this classic soundtrack! It's super long for a N64 game and full of simple, cheesy tunes. Most of it is pretty forgettable but there are some absolute bangers stuck in there. I feel like all the music sounds like music played by toy instruments, but then you've got 'Freeze!', the ice boss, and holy shit, it goes so hard. I listened to this while super stoned and it was fucking great."
       ],
       "platform": "Nintendo 64",
       "topTracks": [
@@ -32,13 +32,14 @@
         "Mr Sun's Melancholy",
         "Flower Field Rondo",
         "Huffin' and Puffin'",
+        "Over Shiver Mountain",
         "Crystal Palace Crawl",
         "Crystal King's Theme",
         "Freeze!",
         "A City in the Stars"
       ],
       "id": "19513a1b-b043-4a7e-a799-90f02bd67999",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "fire-emblem-three-houses.webp",
@@ -66,7 +67,7 @@
         "Paths That Will Never Cross"
       ],
       "id": "0df418b4-898b-4580-b27c-285b317255a3",
-      "newsletter": false
+      "newsletter": true
     },
     {
       "filename": "mario-kart-world.jpg",

@@ -1,6 +1,27 @@
 {
   "games": [
     {
+      "name": "Rhythm Paradise: Groove",
+      "vibes": "10",
+      "gameplay": "9",
+      "review": [
+        "This game slaps so hard. It's so fun and so silly. It's a series of little songs where you have to press A in time with whatever silly animations it throws at you. It starts super easy (and fun) and it's a totally chill ride, and it just keeps going! There are tons of them and everytime you think you might be finished, it continues, and then there are harder versions of each song, and then the final gauntlet of remixes which combine all the songs. It just keeps going! And then you want to get medals on all the tracks, and that's when you start going for the perfects.",
+        "The feeling of exhilaration you feel when going for a perfect is insane. It's like playing a game of smash in tournament. I want to get that perfect so bad that my heartrate increases and I need to fully lock in. Make just one mistake and it's over. But if you get it? A deeply satisfying animation of the perfect P being stamped onto the stage. So good. But can you believe they only give you three attempts? After that, bam you have to wait for it to randomly give you this opportunity again. It really feels like it's all or nothing. So high-octane. Low-key more intense then most games.",
+        "The songs themselves are so goofy. I love Nintendo for this kind of shit. The vibes are very WarioWare. My absolute favourite is 'High-Five Fever', which caught me so off guard that it was the only one I failed. It contains a series of hilarious stock photos, which is one of my favourite things. Another favourite music-wise is Remix 9.",
+        "This also comes with a really cute and fun little rhythm adventure game called Beatspell and I actually loved it. It didn't overstay its welcome and also was still super fun and had a little bit of depth, especially on that final stage.",
+        "As of writing this I haven't played the multiplayer yet so I can't fully review this game but all in all I love it and highly recommend it to anyone."
+      ],
+      "image": "rhythm-paradise-groove.PNG",
+      "platform": "Switch",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": true,
+      "completable": true,
+      "id": "d64f0f92-e9d5-4e88-a297-ae8346722166",
+      "newsletter": true
+    },
+    {
       "name": "Star Fox",
       "vibes": "8",
       "gameplay": "7",

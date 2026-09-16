@@ -1,0 +1,173 @@
+{
+    "timestamp": "17-09-2026",
+    "title": "I have two wolves inside of me",
+    "description": [
+        "Guys I'm still bad at smash! I just went to Paris for a delightful weekend with my smash crew to visit Pulpo. It was a really great time but I did really badly in the tournament! Also, the week before I put on 'Super Epitech Chase', the first of our new smash tournaments in our new location in Warschauer Stra\u00dfe. It was successful, but I went 0-2 in both the main bracket and the amateur bracket. There are lots of reasons for this: I'm stressed on tournament days because I'm organising, people are just really good now and I can't rely on spamming float aerials, and most crucially, I don't practice.",
+        "I have two wolves inside of me - one wants to practice and be good at smash finally. I know what I want to work on. I want to improve my advantage state, polish up those Peach combos, practice catching people's tech options, watch my own vods to see what habits I have, and watch MuteAce for general inspiration. The other one wants to use what sparing free time I have to enjoy the rest of what life has to offer, because fuck this children's party game. I'll never get far in a bracket with Steve, Kazuya or Min Min in it anyway, I've spent countless hours on it already, and there's so much other shit I wanna do. I would simply rather spend my time playing Rhythm Paradise than smash at the moment.",
+        "So I've resigned myself to option 2 - not practicing the game and continuing to stagnate. So be it. Unlike those top players, I'm the real winner because I have a life! At least that's what I tell myself when I lose to them. And if I lose to children (increasingly the case)? Then at least I have an income and an apartment! Hah! Hm. Well, saying that makes me sound like a twat. We all lose in the end, I guess.",
+        "Anyway, there's been a fair few exciting content updates on the site, including two new mixes in the playlists section, and of course Anni has reviewed two of the new Durstl\u00f6scher flavours which recently dropped. I'm also thinking about implementing some kind of timeline of all the content I'm adding to the site and putting it on the homepage, to make it more interesting for people just checking in on the site and who don't want to read these newsletters.",
+        "Thanks for reading, and have a lovely day!"
+    ],
+    "entries": [
+        {
+            "title": "Rhythm Paradise: Groove",
+            "description": [
+                "This game slaps so hard. It's so fun and so silly. It's a series of little songs where you have to press A in time with whatever silly animations it throws at you. It starts super easy (and fun) and it's a totally chill ride, and it just keeps going! There are tons of them and everytime you think you might be finished, it continues, and then there are harder versions of each song, and then the final gauntlet of remixes which combine all the songs. It just keeps going! And then you want to get medals on all the tracks, and that's when you start going for the perfects.",
+                "The feeling of exhilaration you feel when going for a perfect is insane. It's like playing a game of smash in tournament. I want to get that perfect so bad that my heartrate increases and I need to fully lock in. Make just one mistake and it's over. But if you get it? A deeply satisfying animation of the perfect P being stamped onto the stage. So good. But can you believe they only give you three attempts? After that, bam you have to wait for it to randomly give you this opportunity again. It really feels like it's all or nothing. So high-octane. Low-key more intense then most games.",
+                "The songs themselves are so goofy. I love Nintendo for this kind of shit. The vibes are very WarioWare. My absolute favourite is 'High-Five Fever', which caught me so off guard that it was the only one I failed. It contains a series of hilarious stock photos, which is one of my favourite things. Another favourite music-wise is Remix 9.",
+                "This also comes with a really cute and fun little rhythm adventure game called Beatspell and I actually loved it. It didn't overstay its welcome and also was still super fun and had a little bit of depth, especially on that final stage.",
+                "As of writing this I haven't played the multiplayer yet so I can't fully review this game but all in all I love it and highly recommend it to anyone."
+            ],
+            "image": "games/rhythm-paradise-groove.PNG",
+            "metadata": "Vibes: 10, Gameplay: 9, Platform: Switch, Release: 2026",
+            "type": "GAME"
+        },
+        {
+            "title": "Mommie Dearest",
+            "description": [
+                "Hilarious and also sad film about a total diva, Joan Crawford. It's a camp classic, it felt like it was made for the gays. Every time she did something outrageous we just lapped it up, we couldn't help it. She's like a drag queen. It's like drag queens channel this woman when they do their shows."
+            ],
+            "image": "films/mommie-dearest.webp",
+            "metadata": "Release: 2081, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "La Chimera",
+            "description": [
+                "Another Josh O'Connor film where he is dowsing for graves and using his archeological powers for evil. It has some great moments and some great characters. It's same director as Happy As Lazzaro which I also really liked. It's kinda like a biblical parable."
+            ],
+            "image": "films/la-chimera.jpg",
+            "metadata": "Release: 2023, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "Nicht der Homosexuelle ist pervers, sondern die Situation, in der er lebt",
+            "description": [
+                "Watched this film with Leo from Rosa von Praunheim, who I have to say I find insufferable. In it, he preaches about gay men in Berlin in the early 70s and gives a bunch of pauschale Verallgemeinerungen, his voice dubbed largely in silence over this footage of gay people. I struggled with it but shoutouts to him for making queer films in Germany when nobody else did."
+            ],
+            "image": "films/nicht-der-homosexuelle.jpg",
+            "metadata": "Release: 1971",
+            "type": "FILM"
+        },
+        {
+            "title": "Twilight: New Moon",
+            "description": [
+                "So funny. Bella is so horny for these dudes it's insane. Edward went to Brazil (?) and when he thought Bella killed herself (why did she jump off a cliff ??) they all flew internationally to Italy for an insane showdown with a cult (?). Just so ridiculous. Loved it."
+            ],
+            "image": "films/twilight-new-moon.jpg",
+            "metadata": "Release: 2009",
+            "type": "FILM"
+        },
+        {
+            "title": "20,000 Species of Bees",
+            "description": [
+                "Beautiful story about an 8-year old trans girl. I had lots of unanswered questions about what it's like when someone so young already knows so it was great to get an idea from this film. Some really nice moments in it."
+            ],
+            "image": "films/species-of-bees.jpg",
+            "metadata": "Release: 2023",
+            "type": "FILM"
+        },
+        {
+            "title": "The Blob",
+            "description": [
+                "An old film about a massive corrosive blob going on a murdering rampage. It's super simple, full of tropes, features an unpleasant date rape scene, but altogether is hugely entertaining."
+            ],
+            "image": "films/the-blob.jpg",
+            "metadata": "Release: 1988",
+            "type": "FILM"
+        },
+        {
+            "title": "Before The World Blows",
+            "description": [
+                "I didn't expect Erykah to make doomer music but I have so here for it. Guys from here on out we will be getting way more doomer albums and it's necessary. The world is about to blow (it's just a matter of when) and I reckon it's going to be weird to be singing songs about sex and relationships before too long. 'Witch Doctor' alone is so real, make sure you watch the music video to get what it's really about. I love the percussion in that track. Also I appreciate how unafraid she is to sing these songs with such low tempo. The very final track might be my favourite, 'Black Box' she's referring to your phone. Because she gets it. Ugh I'm just such a fan."
+            ],
+            "image": "music/albums/erykah-before.jpg",
+            "metadata": "Artist: Erykah Badu & The Alchemist, Release: 2026, for a list of favourite tracks, please visit the albums page!",
+            "type": "ALBUM"
+        },
+        {
+            "title": "Wind Through Your Hair",
+            "description": [
+                "There's nothing better than being in a good mood while the weather is good, you are travelling and the wind is flowing through your hair. In German they call it Fahrtwind. With this playlist, I'm trying to capture that vibe of cycling on a warm summer evening, or driving with the top down. We've got string sections to the max here and we are reconnecting with the element of Air."
+            ],
+            "image": "music/playlists/art/wind.png",
+            "metadata": "For the tracklist, visit the playlists page!",
+            "type": "PLAYLIST"
+        },
+        {
+            "title": "Lean Into The Sadness",
+            "description": [
+                "I'm someone whose mood is very much affected by the music I'm listening. Sometimes when I'm upset, I can listen to happier, uplifting music and it eventually gets me out of the dumps. Sometimes though, all I want to do is lean into my sadness and indulge myself to the max in my feelings. This playlist is for moments like those. And just remember: it's OK to cry - you will feel better afterwards."
+            ],
+            "image": "music/playlists/art/lean-into-the-sadness.png",
+            "metadata": "For the tracklist, visit the playlists page!",
+            "type": "PLAYLIST"
+        },
+        {
+            "title": "The Legend of Zelda: The Ocarina of Time",
+            "description": [
+                "Omigosh! I'm so pumped for this game! They just released a SINGLE SONG but it is literally perfect so fine."
+            ],
+            "image": "music/nintendo/zelda-ocarina-of-time-remake.jpg",
+            "metadata": "Platform: Switch 2, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Paper Mario",
+            "description": [
+                "What a total delight it is to listen to this classic soundtrack! It's super long for a N64 game and full of simple, cheesy tunes. Most of it is pretty forgettable but there are some absolute bangers stuck in there. I feel like all the music sounds like music played by toy instruments, but then you've got 'Freeze!', the ice boss, and holy shit, it goes so hard. I listened to this while super stoned and it was fucking great."
+            ],
+            "image": "music/nintendo/paper-mario.jpg",
+            "metadata": "Platform: Nintendo 64, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Fire Emblem: Three Houses",
+            "description": [
+                "Modern Fire Emblem soundtrack are all so great. They are complex, ambitious and bombastic. This one is as well, although I have to admit I don't love it as much as Awakening or Fates. I enjoyed this game but it didn't capture my imagination as much as the others, and I feel like it has fewer memorable highlights music-wise in comparison.",
+                "That being said, the main hub area, the monastery, has super great vibes, although as I listen to it now, I feel like it sounds a lot like the Sims. The battle music is pretty good, still giving the 'wind through your hair' vibes of the series, but maybe more in-your-face and upbeat than usual. My personal favourite is 'Chasing Daybreak'.",
+                "Also I have to point out the insane dubstep music that they added for the 'real villains' near the end of the game (at least in the golden deer route that I played). It sounds so painfully shit. Honestly an embarrassment."
+            ],
+            "image": "music/nintendo/fire-emblem-three-houses.webp",
+            "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Eistee Waldfrucht-Geschmack",
+            "description": [
+                "Woooww echt geil. Bin kontroverserweise nicht der gr\u00f6\u00dfte Fan von den Eistee Sorten aber diese ballert 8.6/10 shoutout an Medi, die uns in die geheime Gesellschaft der Metro gebracht hat\ud83d\ude4f\ud83c\udffd"
+            ],
+            "image": "community/durstloescher/eistee-waldfrucht.jpeg",
+            "metadata": "Score: 8.6",
+            "type": "DURSTLOESCHER"
+        },
+        {
+            "title": "Multivitamin 12-Frucht Zero",
+            "description": [
+                "Boaaaaa iwie ne. Geil weil kein Zucker aber das schmeckt man leider auch. Geb es 6/10 weil ohne Zucker aber der Geschmack leider nicht so geil. Schade."
+            ],
+            "image": "community/durstloescher/multivitamin-zero.jpeg",
+            "metadata": "Score: 6",
+            "type": "DURSTLOESCHER"
+        },
+        {
+            "title": "Chrono Trigger Mix",
+            "description": [
+                "I unearthed this on my old harddrive but tragically the mp3 is a bit glitchy.... Anyway this is a mix containing the entire soundtrack of legendary JRPG Chrono Trigger! It's full to the brim of huge hits. I once listened to this mix while canoeing in Wannsee, and it was great. Honestly, highly recommended to just actively listen to these tracks, they are just that good."
+            ],
+            "image": "music/mixes/art/chrono trigger.png",
+            "metadata": "For a download link, please visit the video game mixes page!",
+            "type": "MIX"
+        },
+        {
+            "title": "Fire Emblem Warriors Mix",
+            "description": [
+                "Unearthed this old mix from my old computer, because I suddenly remembered that I made this. This obscure spin-off title had some excellent remixes and I wanted to enjoy them all together in this little mix, so that's what happened. There's also a bunch of original music in there but I don't think it's as good honestly."
+            ],
+            "image": "music/mixes/art/fire emblem 3.png",
+            "metadata": "For a download link, please visit the video game mixes page!",
+            "type": "MIX"
+        }
+    ],
+    "id": "c3af53d6-be51-4e7b-a071-2fcf08278d47"
+}
