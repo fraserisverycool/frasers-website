@@ -7,4 +7,5 @@ export interface CD {
   rating: number[];
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }

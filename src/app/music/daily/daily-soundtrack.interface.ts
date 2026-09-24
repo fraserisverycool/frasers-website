@@ -11,4 +11,5 @@ export interface DailySoundtrack {
   rating: number[];
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }

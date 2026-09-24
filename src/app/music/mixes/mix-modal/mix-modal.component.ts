@@ -12,6 +12,7 @@ interface Mp3Info {
   rating: number[];
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }
 
 @Component({

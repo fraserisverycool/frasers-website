@@ -14,4 +14,5 @@ export interface Game {
   completable: boolean;
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }

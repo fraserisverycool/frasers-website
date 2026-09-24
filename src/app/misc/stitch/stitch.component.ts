@@ -9,8 +9,9 @@ interface Stitch {
     filename: string;
     comment: string;
     rating: number[];
-    id: string;
+  id: string;
   newsletter: boolean;
+  timestamp?: string;
 }
 
 @Component({

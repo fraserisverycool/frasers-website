@@ -9,4 +9,5 @@ export interface Book {
   rating: number[];
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }

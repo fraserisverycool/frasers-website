@@ -8,4 +8,5 @@ export interface Durstloescher {
   rating: number[];
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }

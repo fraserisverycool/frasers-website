@@ -10,4 +10,5 @@ export interface Film {
   rating: number[];
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }

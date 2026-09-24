@@ -6,7 +6,8 @@
       "month": "August 2026",
       "question": "What cool thing happened on the 12th of August?",
       "id": "dd878af5-9e08-4ee0-82bc-a20209014b36",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "16-08-2026"
     },
     {
       "filename": "pulpo2.jpeg",
@@ -14,7 +15,8 @@
       "month": "July 2026",
       "question": "Where did I go visit Pulpo?",
       "id": "1a6521cf-b3f6-4263-9977-e4ce3501211f",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "02-08-2026"
     },
     {
       "filename": "sportfest2.jpeg",
@@ -22,7 +24,8 @@
       "month": "June 2026",
       "question": "Name a sport I'm doing at my Sportverein",
       "id": "f04f1b7d-dee9-422b-8d00-bf4bfe8fb868",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "29-06-2026"
     },
     {
       "filename": "weyes.jpg",
@@ -30,7 +33,8 @@
       "month": "May 2026",
       "question": "Name any Weyes DJ.",
       "id": "0e65fad7-fa0d-45f3-9b70-b8345d6f341f",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "08-05-2026"
     },
     {
       "filename": "shallow.jpg",
@@ -38,7 +42,8 @@
       "month": "April 2026",
       "question": "What's the name of our clan in smash? Alternatively, what's the name of our opponents on this crew battle?",
       "id": "a88ba457-58e4-4a55-b889-b7292b8012bd",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "08-05-2026"
     },
     {
       "filename": "bowling2.jpg",
@@ -46,7 +51,8 @@
       "month": "April 2026",
       "question": "Where did I go to visit lovely Michal?",
       "id": "f77e8fef-abc4-49e3-80fd-b1d5b0a829e3",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "24-04-2026"
     },
     {
       "filename": "protest.jpg",
@@ -54,7 +60,8 @@
       "month": "March 2026",
       "question": "Name a country that I will never ever visit.",
       "id": "e2603e1e-24a9-4667-a408-577f896c37d4",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "09-03-2026"
     },
     {
       "filename": "tromso.jpg",
@@ -62,7 +69,8 @@
       "month": "February 2026",
       "question": "Where are we?",
       "id": "3a93ddbe-a593-4db7-a0ca-0e690eb617fc",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "20-02-2026"
     },
     {
       "filename": "treeresa.jpg",
@@ -70,7 +78,8 @@
       "month": "January 2026",
       "question": "What am I making?",
       "id": "b2e97489-6cc7-49db-8ab5-c955c8c81361",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "18-01-2026"
     },
     {
       "filename": "lake.jpg",
@@ -78,7 +87,8 @@
       "month": "December 2025",
       "question": "Name one of these dogs",
       "id": "9a33dd2d-d248-4987-99b4-6e6056627d59",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "16-12-2025"
     },
     {
       "filename": "duckhunt2.jpg",
@@ -86,7 +96,8 @@
       "month": "December 2025",
       "question": "What ties all these players together?",
       "id": "6f044da1-6128-47f1-a7d4-cfa9589b3056",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "18-01-2026"
     },
     {
       "filename": "shibari2.jpg",
@@ -94,7 +105,8 @@
       "month": "October 2025",
       "question": "What's going on in this photo?",
       "id": "f2b0e2d6-c8e3-49a7-82e4-19a09ce30807",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "12-11-2025"
     },
     {
       "filename": "beach.jpg",
@@ -102,7 +114,8 @@
       "month": "October 2025",
       "question": "Where was this photo taken?",
       "id": "575236a8-781f-47c4-9f28-66ea1e34fbfa",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "10-10-2025"
     },
     {
       "filename": "verweile.jpg",
@@ -110,7 +123,8 @@
       "month": "September 2025",
       "question": "Who is singing?",
       "id": "8077001d-ffa4-441a-9369-4f5379221b4e",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "01-10-2025"
     },
     {
       "filename": "marlo2.jpg",
@@ -118,7 +132,8 @@
       "month": "September 2025",
       "question": "Who is this beauty pictured in this photo?",
       "id": "da2a1704-98be-4048-a7bd-6e1a456cf94d",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "10-10-2025"
     },
     {
       "filename": "belch.jpg",
@@ -126,7 +141,8 @@
       "month": "August 2025",
       "question": "What's this flower pot thing made out of?",
       "id": "613617ce-f45b-4628-bced-ab1a9ead9058",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "01-10-2025"
     },
     {
       "filename": "bob2.jpg",
@@ -134,7 +150,8 @@
       "month": "July 2025",
       "question": "What was the theme of this party?",
       "id": "0b432e75-98c6-4f3a-83cf-da3f9a63ed8a",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "16-07-2025"
     },
     {
       "filename": "kicker2.jpg",
@@ -142,7 +159,8 @@
       "month": "May 2025",
       "question": "What does D in D-Kicker stand for?",
       "id": "539bc807-cec8-4212-820a-0c10a3feff55",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "07-06-2025"
     },
     {
       "filename": "world-peace2.jpg",
@@ -150,7 +168,8 @@
       "month": "May 2025",
       "question": "What was the theme of this event?",
       "id": "c8d5da29-b4f4-4bf0-9fe7-730f9dd0e43a",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "14-05-2025"
     },
     {
       "filename": "choir.jpg",
@@ -158,7 +177,8 @@
       "month": "April 2025",
       "question": "What made this trip to the Philharmonie special?",
       "id": "838d91a1-310e-47a0-8506-c5f7cd3c621f",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "14-05-2025"
     },
     {
       "filename": "analog2.jpg",
@@ -166,7 +186,8 @@
       "month": "April 2025",
       "question": "What wasn't allowed at the Analog Weekend?",
       "id": "f6b4dad7-2b9e-417f-8923-931222d73e1e",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "14-05-2025"
     },
     {
       "filename": "tea.jpg",
@@ -174,7 +195,8 @@
       "month": "March 2025",
       "question": "What made this trip to the Botanischer Garten extra special?",
       "id": "18b245ab-66eb-49e2-b51b-c5bc31d748d5",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "beyonce.jpg",
@@ -182,7 +204,8 @@
       "month": "February 2025",
       "question": "What is buried here?",
       "id": "061565bf-feb3-4588-91ee-db4f51744e13",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "melee2.jpg",
@@ -190,7 +213,8 @@
       "month": "January 2025",
       "question": "What's the game I organise tournaments for?",
       "id": "df5f4915-036d-4617-beb5-54208e4ec4a1",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "archeology2.jpg",
@@ -198,7 +222,8 @@
       "month": "January 2025",
       "question": "Which country did I visit for a month at the start of 2025?",
       "id": "d0c5d41a-2297-4adf-8a89-a83c0f5c05a7",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "arturo2.jpg",
@@ -206,7 +231,8 @@
       "month": "January 2025",
       "question": "What's the name of the dentist that I met?",
       "id": "51991cee-2097-4555-a168-37774d7707d6",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "sam.jpg",
@@ -214,7 +240,8 @@
       "month": "December 2024",
       "question": "Which city do I live in?",
       "id": "d2d941a3-73c7-48b5-b4a0-c5ee771cd237",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "lickilicky.jpg",
@@ -222,7 +249,8 @@
       "month": "November 2024",
       "question": "What is Lickilicky?",
       "id": "23a3dd20-ccbb-4ac7-9a83-a29c47c6de37",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "clash2.jpg",
@@ -230,7 +258,8 @@
       "month": "September 2024",
       "question": "What event did I put on here?",
       "id": "3d5267c7-3d05-43e3-88b3-b8cd1461eaa4",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "tent2.jpg",
@@ -238,7 +267,8 @@
       "month": "August 2024",
       "question": "Who is my main character in Smash?",
       "id": "30fcbad1-b9b5-41b5-9b81-4fc44b6df021",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "claudia.jpg",
@@ -246,7 +276,8 @@
       "month": "July 2024",
       "question": "What's the name of our DJ collective?",
       "id": "9f9762ea-a7d8-411f-b895-ef705e7d8fd1",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "quiz.jpg",
@@ -254,7 +285,8 @@
       "month": "June 2024",
       "question": "What's the name of the place I run the monthly tournaments?",
       "id": "141f645e-024c-407d-a223-fdf8a058c146",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "bday.jpg",
@@ -262,7 +294,8 @@
       "month": "May 2024",
       "question": "For what occasion was this tacky event?",
       "id": "e19d67a8-b607-4e23-b16a-30c7f346d76b",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "planet.jpg",
@@ -270,7 +303,8 @@
       "month": "April 2024",
       "question": "What's the name of the friend who threw a space-themed party in 2024 at Mauersegler?",
       "id": "9c080a26-58a3-4b34-9194-e4a9d1f1bbf9",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "mushroom.jpg",
@@ -278,7 +312,8 @@
       "month": "March 2024",
       "question": "What was special about when we visited the Philharmonic?",
       "id": "210b4390-e8ac-4970-81fb-b78fcdf4fd71",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "tamales2.jpg",
@@ -286,7 +321,8 @@
       "month": "February 2024",
       "question": "Which country was I visiting here?",
       "id": "32df7aee-0cb0-48d1-b316-c967d7f13f6e",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "tower2.jpg",
@@ -294,7 +330,8 @@
       "month": "January 2024",
       "question": "La Condesa, Santa Maria la Ribera, Roma are all examples of parts of which city?",
       "id": "b209916e-720c-4b9c-99d6-66af6a66826d",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "dj.jpg",
@@ -302,7 +339,8 @@
       "month": "October 2023",
       "question": "What is my DJ name?",
       "id": "e79a70d2-8a0e-4dc3-9715-063059945ead",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "bath.jpg",
@@ -310,7 +348,8 @@
       "month": "October 2023",
       "question": "What's that games thing on the side table?",
       "id": "a39debff-93e0-4f3d-9f87-85a6230088ad",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "03-03-2025"
     },
     {
       "filename": "fish.jpg",
@@ -318,7 +357,8 @@
       "month": "October 2023",
       "question": "What's the name of any of these fish?",
       "id": "86b7ac0c-4bf9-4182-b46e-a051fd28c6f8",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "tie-dye.jpg",
@@ -326,7 +366,8 @@
       "month": "May 2023",
       "question": "What's my favourite colour?",
       "id": "edd3cf8e-d8e2-4714-a387-6b9e0fdad5a2",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "phenomenon.jpg",
@@ -334,7 +375,8 @@
       "month": "April 2023",
       "question": "Where is this photo taken?",
       "id": "f1a6baad-2a78-4f08-9f94-b6d9239f66eb",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "juice2.jpg",
@@ -342,7 +384,8 @@
       "month": "March 2023",
       "question": "CuÃ¡l es la palabra en espaÃ±ol para juice?",
       "id": "821fd504-7842-49de-9ba7-595b7958266f",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "bouldering.jpg",
@@ -350,7 +393,8 @@
       "month": "February 2023",
       "question": "Which sport does like all my friends do that I just can't get into?",
       "id": "c2dbd95f-9ebf-41fa-8c23-1b2838246acf",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "brexit.jpg",
@@ -358,7 +402,8 @@
       "month": "September 2022",
       "question": "What was the name of the weekly smash tournament in my apartment?",
       "id": "f91ca037-6f79-4dd8-849b-3233def1c1fc",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "film.jpg",
@@ -366,7 +411,8 @@
       "month": "February 2022",
       "question": "What did Dr.Puppet want to make a film about in my apartment?",
       "id": "0733f059-b7c3-4443-8838-1126aad4c12f",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "newyear.jpg",
@@ -374,7 +420,8 @@
       "month": "December 2021",
       "question": "What caused me to spend new years in 2021 in Animal Crossing?",
       "id": "2898d3b0-221c-420f-a44d-b4939e836a50",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "vier.jpg",
@@ -382,7 +429,8 @@
       "month": "October 2021",
       "question": "What company was I working for at this time?",
       "id": "ca46b076-3b19-43de-a63e-1384b9633e69",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "como.jpg",
@@ -390,7 +438,8 @@
       "month": "September 2021",
       "question": "Which lake did me, Jack and the spicy gingers visit?",
       "id": "b9ad6c78-040f-44de-a4dd-1d00d9b92f01",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "surfing.jpg",
@@ -398,7 +447,8 @@
       "month": "December 2020",
       "question": "Who famously sent Jack an insane tirade of bullshit effectively ending their friendship after being asked if she was a surfing boss now?",
       "id": "9d7c1601-7744-45d1-b02e-fa55b1c283d4",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "commentary.jpg",
@@ -406,7 +456,8 @@
       "month": "July 2020",
       "question": "What was I doing with this lovely lady at a smash tournament?",
       "id": "92ca7792-ba59-4393-b2e3-a3a1d9f0da7c",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     },
     {
       "filename": "boris.jpg",
@@ -414,7 +465,8 @@
       "month": "October 2019",
       "question": "Who is this?",
       "id": "6d7e0a7a-b595-4499-9a8a-453fc2f23435",
-      "newsletter": true
+      "newsletter": true,
+      "timestamp": "30-03-2025"
     }
   ]
 }

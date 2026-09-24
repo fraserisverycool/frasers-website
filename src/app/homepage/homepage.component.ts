@@ -11,10 +11,11 @@ import {of} from "rxjs";
 import {DailyComponent} from "../music/daily/daily.component";
 import {ImageService} from "../utils/services/image.service";
 import { WelcomeImageComponent } from "./welcome-image/welcome-image.component";
+import { LatestPostsComponent } from "./latest-posts/latest-posts.component";
 
 @Component({
     selector: 'app-homepage',
-  imports: [RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, DailyComponent, WelcomeImageComponent],
+  imports: [RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, DailyComponent, WelcomeImageComponent, LatestPostsComponent],
     templateUrl: './homepage.component.html',
     styleUrls: ['./homepage.component.css']
 })

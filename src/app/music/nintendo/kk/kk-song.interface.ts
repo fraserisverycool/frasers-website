@@ -6,4 +6,5 @@ export interface KKSong {
   rating: number[];
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }

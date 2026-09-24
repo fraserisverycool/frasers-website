@@ -1,0 +1,21 @@
+<div class="feed-container">
+  @for (entry of posts; track entry.id || $index) {
+    <div [ngClass]="['entry', getClass(entry)]">
+      <div [ngClass]="['special-title', getClass(entry)]">{{ getName(entry.type) }}</div>
+      @if (entry.title) {
+        <h3 class="entry-title">{{ entry.title }}</h3>
+      }
+      @if (entry.metadata) {
+        <p class="entry-metadata">{{ entry.metadata }}</p>
+      }
+      @for (paragraph of entry.description; track paragraph) {
+        <div>
+          <p class="description">{{ paragraph }}</p>
+        </div>
+      }
+      @if (entry.image) {
+        <img [src]="imageService.imageUrl(entry.image)" [alt]="entry.title || 'Post image'" class="entry-image" loading="lazy">
+      }
+    </div>
+  }
+</div>

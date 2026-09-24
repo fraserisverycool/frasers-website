@@ -13,6 +13,7 @@ export interface Character {
   rating: number[];
   id: string;
   newsletter: boolean;
+  timestamp?: string;
 }
 
 export interface Decoration {
