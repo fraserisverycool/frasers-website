@@ -1,6 +1,16 @@
 {
   "books": [
     {
+      "filename": "fahrenheit-451.jpg",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "description": "An interesting book where the premise is that firemen now burns books instead of putting out fires in a dystopian future. I bet when it came out in the 50s people were blown away by it, because it has all sorts of real shit like TV screens that didn't exist back then. The book accurately predicts a bunch of stuff! I do think the premise is a bit on the nose but it makes sense for the all-round fiery vibes of the book. I will say the writing is so out there that I didn't understand a lot of the prose.",
+      "spoiler": "The book has definitely taken on a new relevance with all the content slop that Mildred is consuming, as opposed to books written with intention. The author, several decades later, said that it's a critique of mass media and how we want easy content. Back then he was shocked by other media (TV and such) overtaking books. Now it's AI and I'm feeling just the same. I will say though, according to his Wikipedia, in the 90s he reckons this book was actually about the horrors of politically correctness. So you just know he would be a crazy right winger if he were alive today.",
+      "release": "1953",
+      "id": "02346f22-e838-446b-a55d-1f00dbcc1ae7",
+      "newsletter": false
+    },
+    {
       "filename": "memetics.jpg",
       "title": "There Is No Antimemetics Division",
       "author": "qntm",
