@@ -361,6 +361,46 @@
       "timestamp": "12-07-2025"
     },
     {
+      "artist": "Madonna",
+      "album": "Ray of Light",
+      "genre": "Pop",
+      "description": "Great album. Got the CD in Amsterdam",
+      "image": "madonna-ray.jpg",
+      "id": "f76a3dee-ebf5-42ee-9f2b-80e1e9fb2f2d",
+      "newsletter": false,
+      "timestamp": "29-09-2026"
+    },
+    {
+      "artist": "CMAT",
+      "album": "EURO-COUNTRY",
+      "genre": "Pop",
+      "description": "Such a good album. Got the CD in Amsterdam",
+      "image": "cmat-euro.jpg",
+      "id": "2baffe93-c03b-4f61-b376-8108563cb52f",
+      "newsletter": false,
+      "timestamp": "29-09-2026"
+    },
+    {
+      "artist": "Grace Jones",
+      "album": "Island Life",
+      "genre": "Pop",
+      "description": "Some classics from Grace. Got the CD in Amsterdam",
+      "image": "grace-island.jpg",
+      "id": "225367b7-b0e4-4fe2-bcca-af781448ff86",
+      "newsletter": false,
+      "timestamp": "29-09-2026"
+    },
+    {
+      "artist": "The Beach Boys",
+      "album": "Pet Sounds",
+      "genre": "Pop",
+      "description": "Some classics the Beach Boys. Got the CD in Amsterdam",
+      "image": "beach-pet.jpg",
+      "id": "d58d3340-9675-4bd1-9051-a231acb83830",
+      "newsletter": false,
+      "timestamp": "29-09-2026"
+    },
+    {
       "artist": "Air",
       "album": "Moon Safari",
       "genre": "Rock & Electronic",
@@ -509,6 +549,16 @@
       "id": "2c03ca6b-15bc-4f89-81eb-5e85b2ebb960",
       "newsletter": true,
       "timestamp": "30-05-2026"
+    },
+    {
+      "artist": "Avalanches",
+      "album": "Since I Left You",
+      "genre": "Rock & Electronic",
+      "description": "Got this at a release party that I went to at Rough Trade with Leo.",
+      "image": "avalanches-since.jpg",
+      "id": "fe3e6948-fe25-4323-ad75-c9ce337f7f77",
+      "newsletter": false,
+      "timestamp": "29-09-2026"
     },
     {
       "artist": "Divine",
@@ -1121,6 +1171,16 @@
       "timestamp": "20-09-2025"
     },
     {
+      "artist": "Michael Kiwanuka",
+      "album": "Love & Hate",
+      "genre": "Jazz, Soul & Hip-Hop",
+      "description": "One of my all-time favourite albums. Bought it in Amsterdam",
+      "image": "michael-love.jpg",
+      "id": "f76a3dee-ebf5-42ee-9f2b-80e1e9fb2f2d",
+      "newsletter": false,
+      "timestamp": "29-09-2026"
+    },
+    {
       "artist": "Caetano Veloso",
       "album": "Antologia",
       "genre": "Vocal Jazz & Smooth",
@@ -1369,6 +1429,16 @@
       "id": "a801a83d-20cd-4f53-aecf-9d4791c3ac34",
       "newsletter": true,
       "timestamp": "14-05-2025"
+    },
+    {
+      "artist": "Astor Piazzolla",
+      "album": "Astor Piazzolla y su Nuevo Conjunto",
+      "genre": "Classical",
+      "description": "Classic argentine tango music",
+      "image": "astor-piazzolla.jpg",
+      "id": "f731d65a-b9ef-43fe-a38f-cc92f509b45f",
+      "newsletter": false,
+      "timestamp": "29-09-2026"
     }
   ]
 }

@@ -1,6 +1,24 @@
 {
   "pictures": [
     {
+      "filename": "amsterdam2.jpg",
+      "title": "Cool tiny camera",
+      "month": "September 2026",
+      "question": "Where did I go to pick up Arturo after his long-haul flight?",
+      "id": "2dc8365a-17f4-4446-a2d4-3bb605a64968",
+      "newsletter": false,
+      "timestamp": "30-09-2026"
+    },
+    {
+      "filename": "eiffel2.jpg",
+      "title": "Shallow 3: Third Strike",
+      "month": "September 2026",
+      "question": "What were we up to in Paris?",
+      "id": "aec36644-b870-4193-ab08-b9ca94cb7cf3",
+      "newsletter": false,
+      "timestamp": "30-09-2026"
+    },
+    {
       "filename": "eclipse.jpeg",
       "title": "Not your normal Sports session",
       "month": "August 2026",
