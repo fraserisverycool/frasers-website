@@ -1,6 +1,54 @@
 {
   "soundtracks": [
     {
+      "filename": "starfox.jpg",
+      "name": "Starfox",
+      "description": [
+        "Hard to believe they remade Lylat Wars for the fourth time but here we are. At least that game had some great tracks on the soundtrack! Here we have some bombastic, orchestral versions of the old tracks. I'm not sure if it does anything for me. I feel like they are generic orchestra versions of the original soundtrack, missing some of the original magic."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Training Mode",
+        "Main Menu",
+        "Star Map",
+        "Mission Begins 1",
+        "Mission Accomplished",
+        "Aquas",
+        "Zoness",
+        "Area 6",
+        "All Clear",
+        "The Journey Home"
+      ],
+      "id": "c4b3b546-dfe0-46af-9d73-88f4662cb37c",
+      "newsletter": false,
+      "timestamp": "04-10-2026"
+    },
+    {
+      "filename": "warioware-move-it.jpg",
+      "name": "WarioWare: Move It!",
+      "description": [
+        "I really enjoyed this game but I do think Get It Together was the better game. Anyway, I definitely wasn't expecting to see this here. WarioWare isn't exactly known for its music, considering most of the tracks are 4 seconds long for the microgames. The original has some bangers, but I'm not so excited about the newer titles. There are so many tracks, but very few that actually make nice listening experiences.",
+        "Shoutouts to the minigame 'All Mixed Up' which features out-of-key gamelan music."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Form Guide",
+        "Candle Bear (Boss)",
+        "Poison Apple (Boss)",
+        "Theater",
+        "Results (All Mixed Up)",
+        "Title Screen (Dirty Job)",
+        "1st Shift & 2nd Shift (Dirty Job)",
+        "Results (Dirty Job)",
+        "Phases 1 to 3 (PyoroW)",
+        "Galactic Conquest: Map",
+        "Galactic Conquest: Butt Stamp"
+      ],
+      "id": "d998e831-04d0-4672-80c9-7b25561509d6",
+      "newsletter": false,
+      "timestamp": "04-10-2026"
+    },
+    {
       "filename": "zelda-ocarina-of-time-remake.jpg",
       "name": "The Legend of Zelda: The Ocarina of Time",
       "description": [
@@ -598,24 +646,6 @@
       "id": "ae8faf3e-7a96-4811-b939-f889be8c6ae7",
       "newsletter": true,
       "timestamp": "17-05-2026"
-    },
-    {
-      "filename": "starfox.jpg",
-      "name": "Starfox",
-      "description": [
-        "Hard to believe they're remaking Lylat Wars for the fourth time but here we are. At least that game had some great tracks on the soundtrack! Here we have some bombastic, orchestral versions of the old tracks. I'm not sure if it does anything for me. Starfox Zero had some real great music so maybe they can pull it out the bag."
-      ],
-      "platform": "Switch 2",
-      "topTracks": [
-        "Opening Theme",
-        "Star Map",
-        "Area 6",
-        "Main Menu",
-        "Mission Accomplished"
-      ],
-      "id": "c4b3b546-dfe0-46af-9d73-88f4662cb37c",
-      "newsletter": true,
-      "timestamp": "08-05-2026"
     },
     {
       "filename": "mario-tennis-aces.jpg",
