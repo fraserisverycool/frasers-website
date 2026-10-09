@@ -1,0 +1,147 @@
+{
+    "timestamp": "09-10-2026",
+    "title": "Nationality and belonging",
+    "description": [
+        "Having Arturo visiting Europe for the first time from Mexico was such a great moment because I could see through his eyes all the weird shit we do here which makes no sense for him. Why do our supermarkets sell vegetables wrapped in plastic? I had similar revelations when I stayed with him in Mexico! I couldn't help but mutter to myself 'a different world' all the time and saying 'otro mundo' became a bit of a thing between us. Him coming here for him was more like visiting 'otra dimension' which I respect.",
+        "This trip has coincided with my getting my German citizenship! So it's great to be able to say to Mexicans, or whoever, that I am German now, because I really, truly feel that Berlin is my home now, and not England. I'm so proud to live in Berlin, it's so great, and when meeting people I want to be able to say Germany, and not have to explain the place I'm really from. I'm grateful to my family for giving me an excellent upbringing in the UK but the area I'm from is very conservative and not a great conversation starter.",
+        "That's not to say that there aren't things about Germany that I dislike. Leo is kinda right, it's not as good as it looks on the outside (German efficiency? Uhh) and there are certain strains of Germans who are so deeply unpleasant in the way they talk to people (thinking about old people shouting at me in the street), but I maintain that each country has its own flavour of horrible people who don't have enough of a social life. The reason I feel so good about getting the nationality really is that both Saarland and Berlin have treated me very well.",
+        "If you're interested, I applied for it 13 months ago. Stay strong, the case worker should eventually get to it. It is a shame it took that extra month though, because I ended up missing the state elections!",
+        "Anyway, on the site there are some fun updates. I used the git history to add a timestamp to all the posts I made, so I could make a little timeline for the homepage. I thought it might be nice in case you want to check the website for anything new I've written. Fab's also published his game that he's been working on for like a year. I did the music for it together with Rodrigo as a fun little project, learning how to use Ableton. You need multiple people to play it though."
+    ],
+    "entries": [
+        {
+            "title": "Teenage Sex and Death at Camp Miasma",
+            "description": [
+                "An instant camp classic. So funny. I loved it! It's a bunch of lesbian nonsense. Absolute highlight was hearing them play 'No Ordinary Love' by Sade when I was wearing my Sade Love Deluxe t-shirt in the cinema!"
+            ],
+            "image": "films/camp-miasma.avif",
+            "metadata": "Release: 2026, for the spoiler discussion please visit the films page!",
+            "type": "FILM"
+        },
+        {
+            "title": "It's Rock Music",
+            "description": [
+                "It's rare that I get fired up but on occasion the right rock music hits so good. If the volume is nice and loud, this one makes for a guaranteed good gym playlist. Use it with caution!"
+            ],
+            "image": "music/playlists/art/its-rock-music.png",
+            "metadata": "For the tracklist, visit the playlists page!",
+            "type": "PLAYLIST"
+        },
+        {
+            "title": "The Legend of Zelda: Majora's Mask",
+            "description": [
+                "Wow, I am genuinely so delighted that this has finally hit the Nintendo music app! It's one of my all-time favourite zelda soundtracks, and listening to it again now has just rekindled my love for so many of these songs. So many of them are straight up devastating, especially 'Calling the Four Giants', 'Last Day' and 'Song of Healing'. No other Zelda game after this got close to those vibes.",
+                "Then you've got the beautiful 'Astral Observatory' which is great for when you're ascending to a higher plane. Hidden gems like 'Pirate's Fortress' continue to knock my socks off all this time later. The Indigo-Go's performance during the end credits is everything."
+            ],
+            "image": "music/nintendo/zelda-majoras-mask.jpg",
+            "metadata": "Platform: Nintendo 64, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Starfox",
+            "description": [
+                "Hard to believe they remade Lylat Wars for the fourth time but here we are. At least that game had some great tracks on the soundtrack! Here we have some bombastic, orchestral versions of the old tracks. I'm not sure if it does anything for me. I feel like they are generic orchestra versions of the original soundtrack, missing some of the original magic."
+            ],
+            "image": "music/nintendo/starfox.jpg",
+            "metadata": "Platform: Switch 2, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "WarioWare: Move It!",
+            "description": [
+                "I really enjoyed this game but I do think Get It Together was the better game. Anyway, I definitely wasn't expecting to see this here. WarioWare isn't exactly known for its music, considering most of the tracks are 4 seconds long for the microgames. The original has some bangers, but I'm not so excited about the newer titles. There are so many tracks, but very few that actually make nice listening experiences.",
+                "Shoutouts to the minigame 'All Mixed Up' which features out-of-key gamelan music."
+            ],
+            "image": "music/nintendo/warioware-move-it.jpg",
+            "metadata": "Platform: Switch, for a list of favourite tracks, please visit the nintendo soundtracks page!",
+            "type": "SOUNDTRACK"
+        },
+        {
+            "title": "Fahrenheit 451",
+            "description": [
+                "An interesting book where the premise is that firemen now burns books instead of putting out fires in a dystopian future. I bet when it came out in the 50s people were blown away by it, because it has all sorts of real shit like TV screens that didn't exist back then. The book accurately predicts a bunch of stuff! I do think the premise is a bit on the nose but it makes sense for the all-round fiery vibes of the book. I will say the writing is so out there that I didn't understand a lot of the prose."
+            ],
+            "image": "books/fahrenheit-451.jpg",
+            "metadata": "Author: Ray Bradbury, Release: 1953, for the spoiler discussion please visit the books page!",
+            "type": "BOOK"
+        },
+        {
+            "title": "Cool tiny camera",
+            "description": null,
+            "image": "gallery/amsterdam2.jpg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        },
+        {
+            "title": "Shallow 3: Third Strike",
+            "description": null,
+            "image": "gallery/eiffel2.jpg",
+            "metadata": "For anecdotes about the pictures, please visit the gallery page!",
+            "type": "GALLERY"
+        },
+        {
+            "title": "Ray of Light",
+            "description": [
+                "Great album. Got the CD in Amsterdam"
+            ],
+            "image": "music/albums/madonna-ray.jpg",
+            "metadata": "Artist: Madonna",
+            "type": "CD"
+        },
+        {
+            "title": "EURO-COUNTRY",
+            "description": [
+                "Such a good album. Got the CD in Amsterdam"
+            ],
+            "image": "music/albums/cmat-euro.jpg",
+            "metadata": "Artist: CMAT",
+            "type": "CD"
+        },
+        {
+            "title": "Island Life",
+            "description": [
+                "Some classics from Grace. Got the CD in Amsterdam"
+            ],
+            "image": "music/albums/grace-island.jpg",
+            "metadata": "Artist: Grace Jones",
+            "type": "CD"
+        },
+        {
+            "title": "Pet Sounds",
+            "description": [
+                "Some classics the Beach Boys. Got the CD in Amsterdam"
+            ],
+            "image": "music/albums/beach-pet.jpg",
+            "metadata": "Artist: The Beach Boys",
+            "type": "CD"
+        },
+        {
+            "title": "Since I Left You",
+            "description": [
+                "Huge album full of fun samples. Bought it in Amsterdam."
+            ],
+            "image": "music/albums/avalanches-since.jpg",
+            "metadata": "Artist: Avalanches",
+            "type": "CD"
+        },
+        {
+            "title": "Love & Hate",
+            "description": [
+                "One of my all-time favourite albums. Bought it in Amsterdam"
+            ],
+            "image": "music/albums/michael-love.jpg",
+            "metadata": "Artist: Michael Kiwanuka",
+            "type": "CD"
+        },
+        {
+            "title": "Astor Piazzolla y su Nuevo Conjunto",
+            "description": [
+                "Classic argentine tango music. Got it at Boxi."
+            ],
+            "image": "music/albums/astor-piazzolla.jpg",
+            "metadata": "Artist: Astor Piazzolla",
+            "type": "CD"
+        }
+    ],
+    "id": "d3790b3d-9149-4f35-9e61-c5cace72e178"
+}

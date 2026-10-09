@@ -1,11 +1,38 @@
 {
   "playlists": [
     {
+      "filename": "its-rock-music.mp3",
+      "name": "It's Rock Music",
+      "description": "It's rare that I get fired up but on occasion the right rock music hits so good. If the volume is nice and loud, this one makes for a guaranteed good gym playlist. Use it with caution!",
+      "id": "2ca87ba1-5853-4697-ad8a-09fa67fb4165",
+      "newsletter": true,
+      "image": "its-rock-music.png",
+      "tracklist": [
+        "Touchdown Jesus - I Love My Wife",
+        "black midi - Hellfire",
+        "Psychedelic Porn Crumpets - Weird World Awoke",
+        "Fat Dog - Running",
+        "Viagra Boys - Return to Monke",
+        "Yeah Yeah Yeahs - Sacrilege",
+        "Muse - Hyper Music",
+        "St. Vincent - Flea",
+        "Arctic Monkeys - R U Mine?",
+        "SPELLLING - Satisfaction",
+        "Squid - Match Bet",
+        "Psychedelic Porn Crumpets - Ergophobia",
+        "PISS - time loop at hot slit",
+        "King Gizzard and the Lizard Wizard - Ontology",
+        "Tame Impala - Elephant",
+        "Pond - Toast"
+      ],
+      "timestamp": "09-10-2026"
+    },
+    {
       "filename": "wind-through-your-hair-v2.mp3",
       "name": "Wind Through Your Hair",
       "description": "There's nothing better than being in a good mood while the weather is good, you are travelling and the wind is flowing through your hair. In German they call it Fahrtwind. With this playlist, I'm trying to capture that vibe of cycling on a warm summer evening, or driving with the top down. We've got string sections to the max here and we are reconnecting with the element of Air.",
       "id": "6133dd22-d841-4aa7-90b9-e02d5e63dea9",
-      "newsletter": false,
+      "newsletter": true,
       "image": "wind.png",
       "tracklist": [
         "Prefab Sprout - Bonny",
@@ -30,7 +57,7 @@
       "name": "Lean Into The Sadness",
       "description": "I'm someone whose mood is very much affected by the music I'm listening. Sometimes when I'm upset, I can listen to happier, uplifting music and it eventually gets me out of the dumps. Sometimes though, all I want to do is lean into my sadness and indulge myself to the max in my feelings. This playlist is for moments like those. And just remember: it's OK to cry - you will feel better afterwards.",
       "id": "b6c7d8db-4eb9-46c5-b19b-0cbe7a9bbe40",
-      "newsletter": false,
+      "newsletter": true,
       "image": "lean-into-the-sadness.png",
       "tracklist": [
         "Feist - The Park",

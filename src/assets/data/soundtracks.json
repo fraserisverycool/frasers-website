@@ -1,6 +1,54 @@
 {
   "soundtracks": [
     {
+      "filename": "zelda-majoras-mask.jpg",
+      "name": "The Legend of Zelda: Majora's Mask",
+      "description": [
+        "Wow, I am genuinely so delighted that this has finally hit the Nintendo music app! It's one of my all-time favourite zelda soundtracks, and listening to it again now has just rekindled my love for so many of these songs. So many of them are straight up devastating, especially 'Calling the Four Giants', 'Last Day' and 'Song of Healing'. No other Zelda game after this got close to those vibes.",
+        "Then you've got the beautiful 'Astral Observatory' which is great for when you're ascending to a higher plane. Hidden gems like 'Pirate's Fortress' continue to knock my socks off all this time later. The Indigo-Go's performance during the end credits is everything."
+      ],
+      "platform": "Nintendo 64",
+      "topTracks": [
+        "Title Theme",
+        "Opening",
+        "Clock Tower",
+        "Clock Town, First Day",
+        "Mayor's Meeting",
+        "Milk Bar",
+        "Clock Town, Second Day",
+        "Rosa Sisters",
+        "Minigame",
+        "Last Day",
+        "Astral Observatory",
+        "Song of Healing",
+        "Termina Field",
+        "Deku Palace",
+        "Sonata of Awakening",
+        "Woodfall Temple",
+        "Middle Boss Battle",
+        "Giants' Theme",
+        "Boss Battle",
+        "Bremen March",
+        "Ghost Attack",
+        "Cremia's Carriage",
+        "Great Bay Temple",
+        "The Indigo-Gos",
+        "Ikana Castle",
+        "Stone Tower Temple",
+        "Stone Tower Temple Upside-Down",
+        "Calling the Four Giants",
+        "Tatl & Tael",
+        "Majora's Mask Battle",
+        "Majora's Incarnation Battle",
+        "Majora's Wrath Battle",
+        "The Giants' Exit",
+        "The End / Credits"
+      ],
+      "id": "9ebc456e-28ba-4c19-a88e-d69f2628b5b8",
+      "newsletter": true,
+      "timestamp": "09-10-2026"
+    },
+    {
       "filename": "starfox.jpg",
       "name": "Starfox",
       "description": [
@@ -20,7 +68,7 @@
         "The Journey Home"
       ],
       "id": "c4b3b546-dfe0-46af-9d73-88f4662cb37c",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "04-10-2026"
     },
     {
@@ -45,7 +93,7 @@
         "Galactic Conquest: Butt Stamp"
       ],
       "id": "d998e831-04d0-4672-80c9-7b25561509d6",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "04-10-2026"
     },
     {

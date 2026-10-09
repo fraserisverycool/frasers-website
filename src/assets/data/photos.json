@@ -6,7 +6,7 @@
       "month": "September 2026",
       "question": "Where did I go to pick up Arturo after his long-haul flight?",
       "id": "2dc8365a-17f4-4446-a2d4-3bb605a64968",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "30-09-2026"
     },
     {
@@ -15,7 +15,7 @@
       "month": "September 2026",
       "question": "What were we up to in Paris?",
       "id": "aec36644-b870-4193-ab08-b9ca94cb7cf3",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "30-09-2026"
     },
     {

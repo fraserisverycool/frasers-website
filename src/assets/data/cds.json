@@ -367,7 +367,7 @@
       "description": "Great album. Got the CD in Amsterdam",
       "image": "madonna-ray.jpg",
       "id": "f76a3dee-ebf5-42ee-9f2b-80e1e9fb2f2d",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "29-09-2026"
     },
     {
@@ -377,7 +377,7 @@
       "description": "Such a good album. Got the CD in Amsterdam",
       "image": "cmat-euro.jpg",
       "id": "2baffe93-c03b-4f61-b376-8108563cb52f",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "29-09-2026"
     },
     {
@@ -387,7 +387,7 @@
       "description": "Some classics from Grace. Got the CD in Amsterdam",
       "image": "grace-island.jpg",
       "id": "225367b7-b0e4-4fe2-bcca-af781448ff86",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "29-09-2026"
     },
     {
@@ -397,7 +397,7 @@
       "description": "Some classics the Beach Boys. Got the CD in Amsterdam",
       "image": "beach-pet.jpg",
       "id": "d58d3340-9675-4bd1-9051-a231acb83830",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "29-09-2026"
     },
     {
@@ -554,10 +554,10 @@
       "artist": "Avalanches",
       "album": "Since I Left You",
       "genre": "Rock & Electronic",
-      "description": "Got this at a release party that I went to at Rough Trade with Leo.",
+      "description": "Huge album full of fun samples. Bought it in Amsterdam.",
       "image": "avalanches-since.jpg",
       "id": "fe3e6948-fe25-4323-ad75-c9ce337f7f77",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "29-09-2026"
     },
     {
@@ -1177,7 +1177,7 @@
       "description": "One of my all-time favourite albums. Bought it in Amsterdam",
       "image": "michael-love.jpg",
       "id": "f76a3dee-ebf5-42ee-9f2b-80e1e9fb2f2d",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "29-09-2026"
     },
     {
@@ -1434,10 +1434,10 @@
       "artist": "Astor Piazzolla",
       "album": "Astor Piazzolla y su Nuevo Conjunto",
       "genre": "Classical",
-      "description": "Classic argentine tango music",
+      "description": "Classic argentine tango music. Got it at Boxi.",
       "image": "astor-piazzolla.jpg",
       "id": "f731d65a-b9ef-43fe-a38f-cc92f509b45f",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "29-09-2026"
     }
   ]
