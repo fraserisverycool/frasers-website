@@ -1,6 +1,17 @@
 {
   "films": [
     {
+      "filename": "twilight-eclipse.jpg",
+      "title": "Twilight: Eclipse",
+      "description": "So funny, so ridiculous, makes for great viewing even today. This one drags on more than the previous two. Not sure if I'm looking forward to the next two.",
+      "spoiler": "So many hilarious moments, but the personal highlight for me in the tent scene where Jacob warms up Bella because Edward is too cold to do it and he put her on top of a snowy mountain, the dumbass.",
+      "year": "2026",
+      "release": "2010",
+      "id": "d593f05b-37b6-4a4b-b275-6a563f70a8c8",
+      "newsletter": false,
+      "timestamp": "13-10-2026"
+    },
+    {
       "filename": "camp-miasma.avif",
       "title": "Teenage Sex and Death at Camp Miasma",
       "description": "An instant camp classic. So funny. I loved it! It's a bunch of lesbian nonsense. Absolute highlight was hearing them play 'No Ordinary Love' by Sade when I was wearing my Sade Love Deluxe t-shirt in the cinema!",
