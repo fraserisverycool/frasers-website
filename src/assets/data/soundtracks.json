@@ -1,6 +1,21 @@
 {
   "soundtracks": [
     {
+      "filename": "wario-land.jpg",
+      "name": "Wario Land: Super Mario Land 3",
+      "description": [
+        "Honestly, any Wario Land soundtrack before Wario Land 4 is simply not worth your time. It's not great. They remixed a track from this for Mario Kart World and honestly I'm impressed. The credits music is alright."
+      ],
+      "platform": "Gameboy",
+      "topTracks": [
+        "Ripple Course",
+        "Ending"
+      ],
+      "id": "b8f1b277-294a-40b0-b71f-b45cd12cd3e7",
+      "newsletter": false,
+      "timestamp": "20-10-2026"
+    },
+    {
       "filename": "zelda-majoras-mask.jpg",
       "name": "The Legend of Zelda: Majora's Mask",
       "description": [

@@ -1,0 +1,139 @@
+{
+  "playlists": [
+    {
+      "image": "underrated-huge-hits.png",
+      "name": "Underrated Huge Hits",
+      "description": "You may or may not know the soundtrack, but maybe you didn't give these deeper cuts the time of day they deserve. This is a curated playlist of lesser-known bangers that will take you on a journey.",
+      "id": "4b6c00cb-329c-4592-9dbb-d649482736c5",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/dcb1ff03-02b5-47c2-8f0b-5b52986ffd1a",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "peace-and-tranquility.png",
+      "name": "Peace and Tranquility",
+      "description": "A collection of chill tracks that I like across many games. Nice for hanging out at home.",
+      "id": "6852b987-0ee3-4cef-a6ed-178f9ed6725f",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/3c316631-eea9-4ecd-8cc4-ccb695903b1a",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "all-time-faves.png",
+      "name": "All Time Faves",
+      "description": "Just some of my very favourite tracks on this app in no particular order.",
+      "id": "9ad34f1b-8167-4c29-91ba-90d8ad8a6478",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/ca599a6f-cccd-4d12-8f8a-1587993b43ba",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "from-mii-to-wii-u.png",
+      "name": "From Mii to Wii U",
+      "description": "Those amazing vibes from like 2007 with the unique original Nintendo music for the Wii and 3DS. Can't recreate it.",
+      "id": "e6f54ca0-8089-41c8-ae37-d16381619561",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/782249a5-dc98-4eb8-83e6-0bc7b73ffbef",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "pilotwings-forever.png",
+      "name": "Pilotwings Forever",
+      "description": "The 3 Pilotwings came all have a super great, chill vibe. If you want the best of Pilotwings, you can enjoy this playlist.",
+      "id": "1503a089-769c-46da-84d1-1a044070f71f",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/b1be1397-677d-4c99-845e-dd4ef6cfb911",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "fight.png",
+      "name": "Fight!",
+      "description": "A collection of boss battle and fighting music that might be useful for your next Dungeons and Dragons game.",
+      "id": "bdda9430-4c18-4ef1-b673-c5180840a83d",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/ebbe76d7-a107-49b3-8769-b814a2f88ec2",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "zelda-classics.png",
+      "name": "Zelda Classics",
+      "description": "A collection of my favourite Zelda music across many games. Maybe not all the classics are included, it's more of a personal list of faves.",
+      "id": "cb70c67b-3d1e-4887-a0a6-19d57441baa0",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/cf17eadf-44f6-4c02-abc5-de530a4b4779",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "peace-in-hyrule.png",
+      "name": "Peace in Hyrule",
+      "description": "All the minimal piano pieces from Breath of the Wild and Tears of the Kingdom. Super chill.",
+      "id": "8f674fe1-26e6-445c-afba-41e5b8449abc",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/68f8a83f-5c7e-45d1-812b-c0f24fefd4d0",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "best-bleeps-and-bloops.png",
+      "name": "Best Bleeps and Bloops",
+      "description": "Since there are so many bleeps and bloops (chiptune music) on this app, I thought I'd collect the best ones here.",
+      "id": "01b72bbc-6779-4d82-9654-e2ff74f0693b",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/06bcb939-4e46-46ab-a726-0eb564d7045d",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "fire-emblem-vibes.png",
+      "name": "Fire Emblem Vibes",
+      "description": "Some of the more chill tracks from Fire Emblem, although I couldn't help but put some upbeat map themes in there too because there's just so much to enjoy.",
+      "id": "4658fd64-b72b-430f-9632-62bde0a68fa4",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/90ad55d1-e652-47a5-bcca-e06bd866183a",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "paper-mario-faves.png",
+      "name": "Paper Mario Faves",
+      "description": "Specifically my favourite tracks from the Thousand Year Door.",
+      "id": "a0e0b548-c1e4-4a4f-8826-1f36ea5dfe6d",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/ff79abe1-4b16-4c5a-8343-07acbc819357",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "origami-faves.png",
+      "name": "Origami Faves",
+      "description": "Specifically my favourite tracks from Origami King.",
+      "id": "daff5c50-991a-4c0d-92d2-ef90046f6b72",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/2213e597-2cd6-463c-aa6a-7e47c1d3ae26",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "mario-kart-world-highlights.png",
+      "name": "Mario Kart World Highlights",
+      "description": "Listening to the entire soundtrack is exhausting, so here is a curated selection of my personal favourites.",
+      "id": "a9f55aed-a53d-441e-9e7b-a30d9957379f",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/66a78311-24c7-4661-8496-25097363c99d",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "bossa-nova-bliss.png",
+      "name": "Bossa Nova Bliss",
+      "description": "An exhaustive collection of all the bossa nova tracks on the app.",
+      "id": "892810f3-ba6d-452c-b24d-daa90a84cfc3",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/7b73e7e5-148b-4efe-9270-6cef35e76532",
+      "timestamp": "18-10-2026"
+    },
+    {
+      "image": "the-worst-of-the-nintendo-music-app.png",
+      "name": "The Worst of the Nintendo Music App",
+      "description": "Made this for laughs but I'm the real loser because I listened to so much shitty Splatoon music to find these.",
+      "id": "ebe0ff01-2945-4dab-be0f-e17cbb4d55ad",
+      "newsletter": false,
+      "link": "https://music.nintendo.com/shared/en-GB/GB/users/6e8ce231a39c7569/userPlaylists/f38343f7-1acd-4ddc-a5ac-3782f5b30dde",
+      "timestamp": "18-10-2026"
+    }
+  ]
+}

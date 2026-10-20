@@ -701,6 +701,12 @@
           "order": 18,
           "newsletter": true,
           "description": "Symon got me this cute Tellerchen!"
+        },
+        {
+          "filename": "peach19.jpeg",
+          "order": 19,
+          "newsletter": false,
+          "description": "Anni asked me to pick a random kinder surprise and I got this beautiful peach!"
         }
       ],
       "id": "820e9e9a-fd73-426a-99b9-9ab82dbf60a0",
