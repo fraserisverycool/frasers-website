@@ -1,0 +1,51 @@
+<div class="container">
+  <h1>Nintendo Music Playlists</h1>
+
+  <div class="back-link-container">
+    <a routerLink="/music/nintendo" class="back-link">← Back to Nintendo Soundtracks</a>
+  </div>
+
+  <p>Here are custom playlists I've put together inside the Nintendo Music app! You can click the link to open them in the app, but for whatever reason, they will be called 'Other User's Playlist' and you won't be able to save them. What the fuck, Nintendo. Until they sort that out, you can just use this website to find a link. I update all of them regularly with each new weekly release!</p>
+
+  <div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search playlists...">
+  </div>
+
+  <div class="sorting-buttons">
+    <button [class.active]="currentSort === 'alphabetical'" (click)="sortPlaylists('alphabetical')">Alphabetical</button>
+    <button [class.active]="currentSort === 'random'" (click)="sortPlaylists('random')">Random Order</button>
+  </div>
+
+  <ul class="playlist-grid">
+    @for (playlist of filteredPlaylists; track playlist.id; let i = $index) {
+      <li class="playlist-card" [style.animation-delay]="i * 0.05 + 's'">
+        <div class="playlist-image-container">
+          <img [ngSrc]="getPlaylistImageUrl(playlist.image)"
+               [alt]="playlist.name"
+               class="playlist-image"
+               width="300"
+               height="300">
+        </div>
+        <div class="playlist-info">
+          <h2 class="playlist-name">{{ playlist.name }}</h2>
+          <p class="playlist-description">{{ playlist.description }}</p>
+          <div class="playlist-actions">
+            <a [href]="playlist.link" target="_blank" rel="noopener noreferrer" class="listen-button">
+              <span class="btn-icon">🎧</span> Open in Nintendo Music
+            </a>
+          </div>
+          <div class="rating">
+            <app-rating-bar [rating]="{id: playlist.id, ratings: playlist.rating}"></app-rating-bar>
+          </div>
+        </div>
+      </li>
+    }
+  </ul>
+
+  @if (filteredPlaylists.length === 0) {
+    <div class="no-results">
+      <h2>Oops! No playlists found matching "{{ searchTerm }}".</h2>
+      <p>Try searching for something else, or check out <a routerLink="/music/nintendo">all Nintendo Soundtracks</a>!</p>
+    </div>
+  }
+</div>
