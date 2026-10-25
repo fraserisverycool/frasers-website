@@ -705,7 +705,7 @@
         {
           "filename": "peach19.jpeg",
           "order": 19,
-          "newsletter": false,
+          "newsletter": true,
           "description": "Anni asked me to pick a random kinder surprise and I got this beautiful peach!"
         }
       ],

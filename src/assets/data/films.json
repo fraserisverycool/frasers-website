@@ -1,6 +1,28 @@
 {
   "films": [
     {
+      "filename": "eco-sluts.webp",
+      "title": "Eco-Sluts @ Porn Film Festival 2026",
+      "description": "Went to support Cra whose short film 'Ballenas Mojadas' was being shown at the Berlin Porn Film Festival as part of a selection of shorts relating to having sex with nature. It was fun!",
+      "spoiler": "",
+      "year": "2026",
+      "release": "2026",
+      "id": "0038f305-e974-4609-ad88-7dfb27bb42c8",
+      "newsletter": true,
+      "timestamp": "24-10-2026"
+    },
+    {
+      "filename": "naza.webp",
+      "title": "NAZA",
+      "description": "A documentary speaking to IDF members who are part of the genocide in Gaza. An absolute must-watch. It's a total gut punch.",
+      "spoiler": "I didn't know it was as bad as that. I didn't know that they had total control over their phones and used their phone data to train AI to find targets. I couldn't believe the flippancy with which they were talking. The part about having fun made me sick. The sudden switch to Gaza at the very end completely set me off. Devastating.",
+      "year": "2026",
+      "release": "2026",
+      "id": "37749b91-c503-44de-a42b-46ee3cba59d3",
+      "newsletter": true,
+      "timestamp": "23-10-2026"
+    },
+    {
       "filename": "twilight-eclipse.jpg",
       "title": "Twilight: Eclipse",
       "description": "So funny, so ridiculous, makes for great viewing even today. This one drags on more than the previous two. Not sure if I'm looking forward to the next two.",
@@ -8,7 +30,7 @@
       "year": "2026",
       "release": "2010",
       "id": "d593f05b-37b6-4a4b-b275-6a563f70a8c8",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "13-10-2026"
     },
     {

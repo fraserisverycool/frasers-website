@@ -67,6 +67,8 @@ export default class NewsletterComponent implements OnInit {
         return 'kk';
       case NewsletterContent.DAILY_SOUNDTRACK:
         return 'daily-soundtrack';
+      case NewsletterContent.NINTENDO_PLAYLIST:
+        return 'nintendo-playlist'
       default:
         return 'entry';
     }
@@ -126,6 +128,9 @@ export default class NewsletterComponent implements OnInit {
     }
     if (type === NewsletterContent.DAILY_SOUNDTRACK) {
       return "Soundtrack of the day"
+    }
+    if (type === NewsletterContent.NINTENDO_PLAYLIST) {
+      return "New Nintendo Playlist"
     }
     return type;
   }

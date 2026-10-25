@@ -49,6 +49,8 @@ def mapTitle(type):
     return "Smash character decoration in my house"
   elif type == "DAILY_SOUNDTRACK":
     return "Soundtrack of the day"
+  elif type == "NINTENDO_PLAYLIST":
+    return "New Nintendo Playlist"
   else:
     return type
 

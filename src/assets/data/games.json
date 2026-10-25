@@ -1,6 +1,26 @@
 {
   "games": [
     {
+      "name": "Orbitals",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "Wow, the vibes of this co-op game are off the charts! We're talking anime sci-fi, super similar to Daft Punk's Discovery album, or popular classic anime Cowboy Bebop, with the full on animations and all. Even the gameplay itself looks just like those old cartoons with the painted backgrounds and animation style of the characters. I just love it!",
+        "It's another co-op game similar to 'It Takes Two' or 'Split Fiction' in a new genre that I like to call a 'Girlfriend Game', a game that you play with your girlfriend who doesn't play games. It's got light puzzle solving, some easy platforming and some fighting in the ship moments, but nothing was too hard for pro gamers Fab and me so we breezed through it. But we enjoyed breezing through it! The game just looked so gorgeous and felt so nice to play, that it's just great, and it doesn't overstay its welcome either. The story is also thankfully pretty cute and fun! Normally the writing in these games are terrible but this one is actually pretty great.",
+        "I can wholeheartedly say that this is the best Girlfriend Game."
+      ],
+      "image": "orbitals.avif",
+      "platform": "Switch 2",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": true,
+      "completable": true,
+      "id": "19971317-5322-41ae-850c-3c36a756e5d6",
+      "newsletter": true,
+      "timestamp": "25-10-2026"
+    },
+    {
       "name": "Rhythm Paradise: Groove",
       "vibes": "10",
       "gameplay": "9",

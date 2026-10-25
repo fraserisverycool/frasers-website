@@ -175,6 +175,10 @@
   background-color: #b8e5a4
 }
 
+.entry.nintendo-playlist {
+  background-color: #f6ff78
+}
+
 .entry.daily-soundtrack {
   background-color: #b8e5a4
 }
@@ -242,6 +246,10 @@
 }
 
 .special-title.kk {
+  color: #333333
+}
+
+.special-title.nintendo-playlist {
   color: #333333
 }
 

@@ -21,6 +21,7 @@ class ContentType(Enum):
     STITCH = "data/stitches.json"
     MIX = "data/mixes.json"
     KK = "data/kk.json"
+    NINTENDO_PLAYLIST = "data/nintendo-playlists.json"
     #DAILY_SOUNDTRACK = "data/daily-soundtracks.json"
 
 class ContentTypeMapping:
@@ -84,6 +85,9 @@ def mapper_soundtracks(json_item):
 def mapper_kk(json_item):
     return json_item["title"], [json_item["description"]], "music/nintendo/kk/" + json_item["filename"], "Tier: " + json_item["tier"]
 
+def mapper_nintendo_playlists(json_item):
+    return json_item["name"], [json_item["description"]], "music/nintendo-playlists/" + json_item["image"], "Link: " + json_item["link"]
+
 # def mapper_daily_soundtracks(json_item):
 #   metadata = "Day: " + json_item["day"] + ", Link: " + json_item["link"]
 #   if json_item["game"]:
@@ -123,6 +127,8 @@ def get_content_data(content_type, content_data):
     return content_data['kkSongs']
   elif content_type == ContentType.VIDEO:
     return content_data['videos']
+  elif content_type == ContentType.NINTENDO_PLAYLIST:
+    return content_data['playlists']
   elif content_type == ContentType.CHARACTER_DECO:
     decos = []
     for character in content_data['characters']:
@@ -171,6 +177,7 @@ def generate_newsletter(title, description):
     mappings.register(ContentType.STITCH, mapper_stitches)
     mappings.register(ContentType.MIX, mapper_mixes)
     mappings.register(ContentType.KK, mapper_kk)
+    mappings.register(ContentType.NINTENDO_PLAYLIST, mapper_nintendo_playlists)
     #mappings.register(ContentType.DAILY_SOUNDTRACK, mapper_daily_soundtracks)
 
     for content_type in ContentType:
@@ -204,14 +211,16 @@ def generate_newsletter(title, description):
 
 
 def main():
-  generate_newsletter("Nationality and belonging",
+  generate_newsletter("Cybersecurity is about to pop off",
                       [
-                        "Having Arturo visiting Europe for the first time from Mexico was such a great moment because I could see through his eyes all the weird shit we do here which makes no sense for him. Why do our supermarkets sell vegetables wrapped in plastic? I had similar revelations when I stayed with him in Mexico! I couldn't help but mutter to myself 'a different world' all the time and saying 'otro mundo' became a bit of a thing between us. Him coming here for him was more like visiting 'otra dimension' which I respect.",
-                        "This trip has coincided with my getting my German citizenship! So it's great to be able to say to Mexicans, or whoever, that I am German now, because I really, truly feel that Berlin is my home now, and not England. I'm so proud to live in Berlin, it's so great, and when meeting people I want to be able to say Germany, and not have to explain the place I'm really from. I'm grateful to my family for giving me an excellent upbringing in the UK but the area I'm from is very conservative and not a great conversation starter.",
-                        "That's not to say that there aren't things about Germany that I dislike. Leo is kinda right, it's not as good as it looks on the outside (German efficiency? Uhh) and there are certain strains of Germans who are so deeply unpleasant in the way they talk to people (thinking about old people shouting at me in the street), but I maintain that each country has its own flavour of horrible people who don't have enough of a social life. The reason I feel so good about getting the nationality really is that both Saarland and Berlin have treated me very well.",
-                        "If you're interested, I applied for it 13 months ago. Stay strong, the case worker should eventually get to it. It is a shame it took that extra month though, because I ended up missing the state elections!",
-                        "Anyway, on the site there are some fun updates. I used the git history to add a timestamp to all the posts I made, so I could make a little timeline for the homepage. I thought it might be nice in case you want to check the website for anything new I've written. Fab's also published his game that he's been working on for like a year. I did the music for it together with Rodrigo as a fun little project, learning how to use Ableton. You need multiple people to play it though."
-                      ])
+                        "I'm not an AI doomer, I don't think it can become conscious and I think all the panic about it is actually all about the tech billionaires wanting more people to invest in their 'terrifyingly powerful' technology. I think it's all a distraction from the real dangerous AI-related issues: our changing behaviours as we interact with chatbots, the environment, surveillance and maybe most urgently: cybersecurity.",
+                        "Recently, some researchers used AI to discover a very old bug within PHP, which has ended up becoming one of the most severe vulnerabilities ever, because PHP is used underneath the hood of so much software on the internet. Information about the bug was leaked before they could patch it, and hackers had a golden opportunity to hack into loads of shit as they want, which with the help of LLMs is made quite easy.",
+                        "The developers of PHP had time to prepare a fix in advance of the leak so it could have been way worse, but it really begs the question of what if the Russian state finds such vulnerabilities using AI and simply doesn't tell anyone, and they successfully hack government websites of Western nations, or Bitwarden or Google. I truly think it will happen! Critical software isn't always kept afloat by developers who are updating their dependencies, and a lot of software is (I believe) purposefully made to be vulnerable with backdoors and such. I really feel that some critical online services will be entirely compromised in the next years, and it will be some time before we are able to make stable software again.",
+                        "In a previous newsletter I talked about my 5-year plan to get off the grid and stop using American tech companies, but now I've decided to try to speed that up to 2 years, because it all feels very urgent. This week I downloaded all my emails and then deleted them from google and microsoft, and moved all my relevant accounts to Proton. I used a throwaway email for logins I don't care about if they get hacked. I also removed my most important things from my password manager.",
+                        "Dear readers, I feel like now is a great time to take control of your data online! Ask yourself, what do I absolutely not want to be hacked? Make sure you use a password manager with unique passwords for each thing.",
+                        "Anyway, in other news, I added a new webpage for playlists on the Nintendo Music App. I update them with each new release, so if you have the Nintendo Switch Online subscription you are free to enjoy them."
+                      ]),
+
 
 if __name__ == "__main__":
     main()

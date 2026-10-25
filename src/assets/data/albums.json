@@ -1,6 +1,26 @@
 {
   "albums": [
     {
+      "filename": "poison-melting.jpg",
+      "artist": "Poison Girl Friend",
+      "name": "Melting Moment",
+      "releaseyear": "1992",
+      "description": [
+        "Gorgeous music from the 90s, very reminiscent of Enigma or Sade. I adore this particular vibe so much that I made a mix with this kind of sexy smooth music on the playlist page. The string arrangements in the very first song are just so good, especially the loop of strings at the end. Stunning. And the final track almost sounds like it could replace Corridors of Time from Chrono Trigger. Very ethereal."
+      ],
+      "topTracks": [
+        "HARDLY EVER SMILE(without you)",
+        "MELTING MOMENT"
+      ],
+      "tags": [
+        "soul",
+        "chill"
+      ],
+      "id": "2b56c596-7b1f-4e2e-81d8-19d3d21576f6",
+      "newsletter": true,
+      "timestamp": "25-10-2026"
+    },
+    {
       "filename": "erykah-before.jpg",
       "artist": "Erykah Badu & The Alchemist",
       "name": "Before The World Blows",

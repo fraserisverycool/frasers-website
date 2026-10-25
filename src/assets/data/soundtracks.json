@@ -1,6 +1,32 @@
 {
   "soundtracks": [
     {
+      "filename": "arms.jpg",
+      "name": "ARMS",
+      "description": [
+        "Shoutouts to ARMS for being a genuinely fun game! It also has one of the most fun main themes ever. It's such a huge banger and the vocals are just so fucking great. I also particularly enjoy 'Ramen Bowl' and 'Scrapyard', as well as low-key the credits theme. Such a vibe."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "ARMS Grand Prix Theme",
+        "Fighter Select",
+        "Training",
+        "Ramen Bowl",
+        "Scrapyard",
+        "DNA Lab",
+        "Award Ceremony",
+        "Staff Credits",
+        "ARMS Grand Prix Theme (Ribbon Girl)",
+        "Lobby",
+        "ARM Getter",
+        "Via Dolce",
+        "Sparring Ring"
+      ],
+      "id": "cee1cbca-4df3-4651-aca5-4c55701bb1aa",
+      "newsletter": true,
+      "timestamp": "25-10-2026"
+    },
+    {
       "filename": "wario-land.jpg",
       "name": "Wario Land: Super Mario Land 3",
       "description": [
@@ -12,7 +38,7 @@
         "Ending"
       ],
       "id": "b8f1b277-294a-40b0-b71f-b45cd12cd3e7",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "20-10-2026"
     },
     {
