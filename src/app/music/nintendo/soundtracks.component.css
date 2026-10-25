@@ -28,6 +28,33 @@ h1 {
   width: 100%;
 }
 
+.playlists-banner {
+  width: 100%;
+  text-align: center;
+  margin: 10px 15px 20px;
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 1px solid #023000;
+  border-radius: 8px;
+  font-size: 1.05em;
+  box-sizing: border-box;
+}
+
+.playlists-banner p {
+  margin: 0;
+}
+
+.playlists-banner a {
+  color: #023000;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.playlists-banner a:hover {
+  color: #006400;
+}
+
 .soundtrack-card {
   width: calc(33.333% - 13.34px);
   cursor: pointer;

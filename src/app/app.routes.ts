@@ -11,6 +11,7 @@ import AlbumsComponent from "./music/albums/albums.component";
 import SpotifyComponent from "./music/spotify/spotify.component";
 import SoundtracksComponent from "./music/nintendo/soundtracks.component";
 import KkComponent from "./music/nintendo/kk/kk.component";
+import NintendoPlaylistsComponent from "./music/nintendo/playlists/nintendo-playlists.component";
 import MixesComponent from "./music/mixes/mixes.component";
 import PlaylistsComponent from "./music/playlists/playlists.component";
 import CdsComponent from "./music/cds/cds.component";
@@ -76,6 +77,9 @@ export const routes: Routes = [
   },
   {
     path: 'music/nintendo', component: SoundtracksComponent, data: { title: 'Nintendo Soundtracks - Fraser\'s Website' }
+  },
+  {
+    path: 'music/nintendo/playlists', component: NintendoPlaylistsComponent, data: { title: 'Nintendo Playlists - Fraser\'s Website' }
   },
   {
     path: 'music/nintendo/kk', component: KkComponent, data: { title: 'KK Songs - Fraser\'s Website' }
