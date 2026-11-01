@@ -1,6 +1,23 @@
 {
   "soundtracks": [
     {
+      "filename": "pokemon-legends-za.jpg",
+      "name": "Pokémon Legends: ZA",
+      "description": [
+        "I groaned when this popped up in the app, but my friend Oscar calmed me down and said don't worry, this soundtrack is actually full of bangers and he's right! It turns out a youtuber I used to follow, insaneintherain, is all over this soundtrack and you can hear it. It's really giving jazz fusion. Listening to it was a bit funny because these Gen 6 tracks I really associate with the Kalos stage from smash but here they are here in a new, exciting form. Doesn't make me want to play the game though."
+      ],
+      "platform": "Switch",
+      "topTracks": [
+        "Lumiose City",
+        "Battle! Trainer",
+        "Wild Zone",
+        "Lumiose City (Night)"
+      ],
+      "id": "951699fc-363b-4507-b4de-90761f23f485",
+      "newsletter": false,
+      "timestamp": "01-11-2026"
+    },
+    {
       "filename": "arms.jpg",
       "name": "ARMS",
       "description": [
