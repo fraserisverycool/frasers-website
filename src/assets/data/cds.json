@@ -671,6 +671,16 @@
       "timestamp": "12-07-2025"
     },
     {
+      "artist": "Cosmic Commando",
+      "album": "Acid Overdose / Atemnot",
+      "genre": "House & Disco",
+      "description": "BSR were doing a local thing where people leave stuff zu verschenken. This some sick German techno from 1999.",
+      "image": "cosmic-acid.jpg",
+      "id": "c29302d2-b7ff-4c5e-afba-fc4caacdb451",
+      "newsletter": false,
+      "timestamp": "10-11-2025"
+    },
+    {
       "artist": "Silvana Estrada",
       "album": "Vendrán Suaves Lluvias",
       "genre": "Indie & Singer-Songwriter",
@@ -1439,6 +1449,16 @@
       "id": "f731d65a-b9ef-43fe-a38f-cc92f509b45f",
       "newsletter": true,
       "timestamp": "29-09-2026"
+    },
+    {
+      "artist": "Peter Tschaikowsky",
+      "album": "Die Grossen Komponisten der Klassischen Musik",
+      "genre": "Classical",
+      "description": "Found it at the local BSR zu verschenken thing.",
+      "image": "tschaikowsky-komponisten.jpg",
+      "id": "1ad197e6-cc46-4766-a567-d48dc6bcdf81",
+      "newsletter": false,
+      "timestamp": "10-11-2026"
     }
   ]
 }

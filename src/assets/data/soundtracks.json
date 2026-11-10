@@ -1,6 +1,26 @@
 {
   "soundtracks": [
     {
+      "filename": "zelda-ocarina-of-time-remake.jpg",
+      "name": "The Legend of Zelda: The Ocarina of Time",
+      "description": [
+        "Omigosh! This game is everything and they really smashed it with this soundtrack. Holy shit! They took the timeless original and with great respect added so much to it. Lush string sections, whimsical instruments, or indeed the original weird synth sounds. For now, we just have these 8 tracks but holy god damn they are amazing. The 'Title Theme' is everything. Everything and more. It's so melancholic and dramatic and perfect. 'Kokiri Forest', 'Market' and 'Kakariko Village' are all classics and so gorgeous. I love how they add more instrumentation on the second loop, similar to how the Link's Awakening remake did it. There's also 'Hyrule Field' which includes all the variations, resulting in a whopping 9 minutes of bombastic nonsense, which admittedly doesn't make for a good listening experience. I love 'Zora's Domain' so much and holy god damn they knocked 'Gerudo Valley' out of the park. They somehow made it into even more of a banger. Is the percussion slightly different? I danced around my house the first time I heard it.",
+        "Please do go listen to the rest of the soundtrack on youtube! There's so much more to discover! Day/Night themes, the more ambient tracks, (personal favourite Forest Temple)."
+      ],
+      "platform": "Switch 2",
+      "topTracks": [
+        "Title Theme",
+        "Kokiri Forest",
+        "Market",
+        "Kakariko Village",
+        "Zora's Domain",
+        "Gerudo Valley"
+      ],
+      "id": "aaa8807f-4a35-4922-ad3e-fbc43d9ab93b",
+      "newsletter": false,
+      "timestamp": "10-11-2026"
+    },
+    {
       "filename": "pokemon-legends-za.jpg",
       "name": "Pokémon Legends: ZA",
       "description": [
@@ -153,20 +173,6 @@
       "id": "d998e831-04d0-4672-80c9-7b25561509d6",
       "newsletter": true,
       "timestamp": "04-10-2026"
-    },
-    {
-      "filename": "zelda-ocarina-of-time-remake.jpg",
-      "name": "The Legend of Zelda: The Ocarina of Time",
-      "description": [
-        "Omigosh! I'm so pumped for this game! They just released a SINGLE SONG but it is literally perfect so fine."
-      ],
-      "platform": "Switch 2",
-      "topTracks": [
-        "Title Theme"
-      ],
-      "id": "aaa8807f-4a35-4922-ad3e-fbc43d9ab93b",
-      "newsletter": true,
-      "timestamp": "08-09-2026"
     },
     {
       "filename": "paper-mario.jpg",

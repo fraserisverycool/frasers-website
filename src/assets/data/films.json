@@ -1,5 +1,38 @@
 {
   "films": [
+    {c
+      "filename": "la-bola-negra.webp",
+      "title": "La Bola Negra",
+      "description": "Gorgeous, sweeping epic all about gay romance during the Spanish civil war. It covers loads of grounds and has many themes. Honestly I think it's the kind of film that you need to see twice. I really liked it.",
+      "spoiler": "Loved the scenes with the female performer, loved the moments of tenderness, was horrified by the shooting. I didn't understand the significance of the balls or the snow, which it why I feel like I need to read more about Lorca and rewatch it.",
+      "year": "2026",
+      "release": "2026",
+      "id": "13db91d3-7940-435d-af66-e55be9f9ebe4",
+      "newsletter": false,
+      "timestamp": "10-11-2026"
+    },
+    {
+      "filename": "the-piano.jpg",
+      "title": "The Piano",
+      "description": "",
+      "spoiler": "",
+      "year": "2026",
+      "release": "1993",
+      "id": "9eaf3757-e976-4324-b162-7f1493416340",
+      "newsletter": false,
+      "timestamp": "10-11-2026"
+    },
+    {
+      "filename": "death-becomes-her.jpg",
+      "title": "Death Becomes Her",
+      "description": "",
+      "spoiler": "",
+      "year": "2026",
+      "release": "1992",
+      "id": "84d7b5b3-9385-49f8-820d-0eb264571c20",
+      "newsletter": false,
+      "timestamp": "10-11-2026"
+    },
     {
       "filename": "victor-victoria.jpg",
       "title": "Victor/Victoria",

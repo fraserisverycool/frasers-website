@@ -10324,6 +10324,23 @@
       "id": "ae29c5b9-90e0-4842-9793-57c88694cded",
       "newsletter": true,
       "timestamp": "02-08-2026"
+    },
+    {
+      "name": "2048",
+      "vibes": "2",
+      "gameplay": "2",
+      "review": [
+        "A super simple game concept that had me addicted for a time. I was reminded of this game recently when reading an article about people stealing game ideas by vibe coding. Someone could vibe code this in no time at all! But this game original stole the idea from someone else and became a huge hit, and only took a weekend to make. So it's always been a thing really."
+      ],
+      "image": "2048.webp",
+      "platform": "Mobile",
+      "year": "older",
+      "release": "2014",
+      "completed": false,
+      "completable": false,
+      "id": "f2a0d8a5-011a-4418-ba8e-98769699761b",
+      "newsletter": true,
+      "timestamp": "10-11-2026"
     }
   ]
 }
