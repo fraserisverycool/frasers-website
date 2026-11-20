@@ -28,6 +28,9 @@
             },
             "index": "src/index.html",
             "tsConfig": "tsconfig.app.json",
+            "allowedCommonJsDependencies": [
+              "phaser"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets",

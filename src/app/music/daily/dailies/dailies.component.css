@@ -113,10 +113,23 @@ app-rating-bar {
   cursor: pointer;
   border-radius: 9px;
   transition: all 0.2s ease-in-out;
+  background: #ff85a2;
+  color: #fff;
+  padding: 5px 15px;
 }
 
 .filter-button:hover {
   transform: scale(1.1);
+  background: #ff5c8a;
+}
+
+.filter-button.active {
+  background: #ff0054;
+}
+
+.filter-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
 }
 
 .button-rows {
@@ -153,46 +166,6 @@ app-rating-bar {
   justify-content: center;
   gap: 10px;
   width: 100%;
-}
-
-/* Row 1: Top row - Shades of pink */
-.row-1 .filter-button {
-  background: #ff85a2; /* Light Pink */
-  color: #fff;
-  padding: 5px 15px;
-}
-.row-1 .filter-button:hover {
-  background: #ff5c8a;
-}
-.row-1 .filter-button.active {
-  background: #ff0054;
-}
-
-/* Row 2: Middle row - Slightly different pink */
-.row-2 .filter-button {
-  background: #f06292; /* Medium Pink */
-  color: #fff;
-  padding: 5px 15px;
-}
-.row-2 .filter-button:hover {
-  background: #e91e63;
-}
-.row-2 .filter-button.active {
-  background: #c2185b;
-}
-
-/* Row 3: Bottom row - Another shade of pink */
-.row-3 .filter-button {
-  background: #ec407a; /* Deep Pink */
-  color: #fff;
-  padding: 5px 15px;
-}
-.row-3 .filter-button:hover {
-  background: #d81b60;
-}
-.row-3 .filter-button:disabled {
-  background: #ccc;
-  cursor: not-allowed;
 }
 
 .calendar-container, .filter-container, .tag-container, .franchise-container, .genre-container {
