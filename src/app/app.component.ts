@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-
+import { Component, inject } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import {NavigationEnd, Router, RouterLink, RouterOutlet} from '@angular/router';
 import {Title} from "@angular/platform-browser";
 import {filter} from "rxjs";
@@ -12,11 +12,12 @@ import {map} from "rxjs/operators";
     styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Fraser\'s Website';
+  private router = inject(Router);
+  private titleService = inject(Title);
 
-  constructor(private router: Router, private titleService: Title) {}
+  readonly title = 'Fraser\'s Website';
 
-  ngOnInit() {
+  constructor() {
     this.router.events
       .pipe(
         filter((event) => event instanceof NavigationEnd),
@@ -27,7 +28,8 @@ export class AppComponent {
           }
           return child;
         }),
-        filter((route) => route.outlet === 'primary')
+        filter((route) => route.outlet === 'primary'),
+        takeUntilDestroyed()
       )
       .subscribe((route) => {
         window.scroll(0, 0);

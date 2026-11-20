@@ -9,8 +9,8 @@
       <input type="text" [(ngModel)]="searchTerm" placeholder="Search mixes...">
     </div>
     <ul class="mp3-list">
-      @for (mp3 of filteredMixes.slice(0, itemsToShow); track mp3; let i = $index) {
-        <li class="mp3-card" [style.animation-delay]="i * 0.1 + 's'" [style.background-color]="color" (click)="showMix(mp3)">
+      @for (mp3 of visibleMixes(); track mp3; let i = $index) {
+        <li class="mp3-card" [style.animation-delay]="i * 0.1 + 's'" [style.background-color]="color()" (click)="showMix(mp3)">
             <div class="mix-image">
               <img [src]="'/music/mixes/art/' + mp3.image | imageUrl" [alt]="mp3.name">
             </div>
@@ -22,6 +22,6 @@
   </div>
 </div>
 
-@if (selectedMix) {
-  <app-mix-modal [selectedMix]="selectedMix" [color]="color" (close)="closeMix()"></app-mix-modal>
+@if (selectedMix(); as selectedMix) {
+  <app-mix-modal [selectedMix]="selectedMix" [color]="color()" (close)="closeMix()" />
 }

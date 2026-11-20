@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 
 @Component({
@@ -8,6 +8,6 @@ import { Component, Input } from '@angular/core';
     styleUrls: ['./star-message.component.css']
 })
 export default class StarMessageComponent {
-  @Input() score: string = '';
-  @Input() description: string = '';
+  readonly score = input<string>('');
+  readonly description = input<string>('');
 }

@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Choose your fighter!</h1>
   <ul class="character-grid">
-    @for (character of characters; track character) {
+    @for (character of characters(); track character) {
       <li
         class="character.description ? character-item : character-nothing"
         (click)="character.main ? selectCharacter(character) : null"
@@ -25,9 +25,8 @@
         id="password"
         type="text"
         [(ngModel)]="password"
-        (input)="updatePictureMode()"
         placeholder="ask me personally for this"
         />
       </div>
-      <app-character [selectedCharacter]="selectedCharacter" [pictureMode]="pictureMode" (close)="closeDetail()"></app-character>
+      <app-character [selectedCharacter]="selectedCharacter()" [pictureMode]="pictureMode()" (close)="closeDetail()" />
     </div>

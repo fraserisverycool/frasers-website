@@ -1,11 +1,11 @@
-<div [ngClass]="{'film-review': !film.tv, 'tv-review': film.tv}">
-  <h2>{{ film.title }}</h2>
-  <span [ngClass]="{'release-info': !film.tv, 'tv-info': film.tv}">Released:</span> {{ film.release }} |
-  <span [ngClass]="{'release-info': !film.tv, 'tv-info': film.tv}">Watched:</span> {{ film.year }}
-  @if (film.tv) {
+<div [ngClass]="{'film-review': !film().tv, 'tv-review': film().tv}">
+  <h2>{{ film().title }}</h2>
+  <span [ngClass]="{'release-info': !film().tv, 'tv-info': film().tv}">Released:</span> {{ film().release }} |
+  <span [ngClass]="{'release-info': !film().tv, 'tv-info': film().tv}">Watched:</span> {{ film().year }}
+  @if (film().tv) {
     <p>
       <span class="tv-info">Seasons watched:</span>
-      @for (season of film.seasons; track season; let isLast = $last) {
+      @for (season of film().seasons; track season; let isLast = $last) {
         <span>
           {{ season }}@if (!isLast) {
           ,
@@ -14,9 +14,9 @@
     }
   </p>
 }
-<p>{{ film.description }}</p>
-<app-spoiler-discussion [spoiler]="film.spoiler || ''"></app-spoiler-discussion>
-<img [ngSrc]="'/films/' + film.filename | imageUrl" alt="{{ film.title }}" width="600" height="400">
+<p>{{ film().description }}</p>
+<app-spoiler-discussion [spoiler]="film().spoiler || ''" />
+<img [ngSrc]="'/films/' + film().filename | imageUrl" alt="{{ film().title }}" width="600" height="400">
 <div [ngStyle]="{'padding-bottom': '10px'}"></div>
-<app-rating-bar [rating]="{id: film.id, ratings: film.rating}"></app-rating-bar>
+<app-rating-bar [rating]="{id: film().id, ratings: film().rating}" />
 </div>

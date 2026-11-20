@@ -1,5 +1,5 @@
 <div class="feed-container">
-  @for (entry of posts; track entry.id || $index) {
+  @for (entry of posts(); track entry.id || $index) {
     <div [ngClass]="['entry', getClass(entry)]">
       <div [ngClass]="['special-title', getClass(entry)]">{{ getName(entry.type) }}</div>
       @if (entry.title) {

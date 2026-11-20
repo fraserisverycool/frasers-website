@@ -1,5 +1,5 @@
-import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import {Component, OnDestroy, OnInit, input, output, signal} from '@angular/core';
+import { LowerCasePipe, NgClass, NgOptimizedImage } from '@angular/common';
 import {Soundtrack} from "../soundtrack.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
@@ -8,25 +8,22 @@ import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-soundtrack-modal',
-  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
+  imports: [NgClass, LowerCasePipe, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
   templateUrl: './soundtrack-modal.component.html',
-  standalone: true,
-  styleUrls: ['./soundtrack-modal.component.css']
+  styleUrls: ['./soundtrack-modal.component.css'],
+  host: { '(window:popstate)': 'onPopState()' }
 })
 export class SoundtrackModalComponent implements OnInit, OnDestroy {
-  @Input() selectedSoundtrack: Soundtrack | undefined;
-  @Output() close: EventEmitter<void> = new EventEmitter<void>();
+  readonly selectedSoundtrack = input<Soundtrack | undefined>();
+  readonly close = output<void>();
 
-  currentRandomColor: string = "#ffffff";
-
-  constructor() {}
+  readonly currentRandomColor = signal("#ffffff");
 
   ngOnInit() {
     this.getRandomColor();
     history.pushState({ modal: true }, '');
   }
 
-  @HostListener('window:popstate')
   onPopState() {
     this.close.emit();
   }
@@ -43,6 +40,6 @@ export class SoundtrackModalComponent implements OnInit, OnDestroy {
     const b = Math.floor(Math.random() * 128);
 
     const toHex = (c: number) => c.toString(16).padStart(2, '0');
-    this.currentRandomColor = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+    this.currentRandomColor.set(`#${toHex(r)}${toHex(g)}${toHex(b)}`);
   }
 }

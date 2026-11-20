@@ -1,6 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, OnInit, computed, inject, signal } from '@angular/core';
+import { KeyValuePipe, NgClass, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
+import { switchMap } from 'rxjs';
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {RatingHydrationService} from "../../utils/rating-bar/service/rating-hydration.service";
 import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
@@ -27,16 +28,19 @@ interface Track {
 
 @Component({
     selector: 'app-mariokart',
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
+    imports: [NgClass, KeyValuePipe, NgOptimizedImage, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './mariokart.component.html',
     styleUrls: ['./mariokart.component.css']
 })
 export default class MariokartComponent implements OnInit {
-  tracks: Track[] = [];
-  originalTracks: Track[] = [];
-  currentFilter: string = "";
+  private http = inject(HttpClient);
+  private ratingHydration = inject(RatingHydrationService);
 
-  gameMap: { [key: string]: string } = {
+  readonly tracks = signal<Track[]>([]);
+  readonly originalTracks = signal<Track[]>([]);
+  readonly currentFilter = signal("");
+
+  readonly gameMap: { [key: string]: string } = {
     'snes': 'Super Mario Kart',
     'n64': 'Mario Kart 64',
     'gba': 'Mario Kart: Super Circuit',
@@ -48,7 +52,7 @@ export default class MariokartComponent implements OnInit {
     'world': 'Mario Kart World'
   };
 
-  gameDescription: { [key: string]: string }  = {
+  readonly gameDescription: { [key: string]: string }  = {
     'snes': "The original and OG game! I never played this one as a child, instead just coming back to it as an adult. It's really hard but you can get the knack of it if you play for a bit. This is early days so they didn't have unique tracks, instead having Mario Circuit 1, 2 etc. In fact there are four Mario Circuits which is excessive. For this ranking I put all the themed circuits together even if there is some variation between the tracks because I wanted at least some level of consistency for this game that I have played the least out of all of the Mario Karts.",
     'n64': "The Nintendo 64 Mario Kart was so fucking iconic. It created the Mario Kart vibe as we know it today. It is so nostalgic and just being from this game makes most tracks instant classics. Seeing these tracks remade so many times is a total pleasure because they are so special.",
     'gba': "Super Circuit is lowkey a super fun game. It's hard to get used to when going on 150cc yes but it's still a lot of fun! They take the Super Mario Kart formula and modernise it, also creating some really inspired themed circuits. The latter half of the tracks tend to have a lot of difficult 90 degree turns and other bullshit, which makes it less fun. For some reason, there are four Bowser's Castles. I ended up ranking them together because their vibes are so similar but that fourth one is just ridiculous.",
@@ -60,38 +64,35 @@ export default class MariokartComponent implements OnInit {
     'world': "Oh damn!! This is a Smash Ultimate situation where I couldn't imagine how they out-do themselves and then they just went and did it! A huge, open world version of Mario Kart where you can drive between the tracks? Inspired. Actually, everything I ever wanted. Absolute highlight for me is the incredible soundtrack featuring over 300 remixes of Mario tracks. So good. For this ranking I'm just focusing on the 30 main tracks, although the game is so much more than just those."
   };
 
-  pageDescription = "Welcome to my ranking of every Mario Kart track ever. This is an exhaustive list featuring everything because I love it when lists are complete. What's that, I hear you say? Mario Kart Tour and Mario Kart Arcade GP aren't represented? Fuck you! Those aren't real games. If it means that Piranha Plant Pipeline gets forgotten to history, so be it! A quick note about these rankings, you might notice that the order doesn't correspond with the number of stars I give to each track. That's fine. These rankings come from the heart, and won't necessarily follow the rules. You've been warned!"
+  readonly pageDescription = "Welcome to my ranking of every Mario Kart track ever. This is an exhaustive list featuring everything because I love it when lists are complete. What's that, I hear you say? Mario Kart Tour and Mario Kart Arcade GP aren't represented? Fuck you! Those aren't real games. If it means that Piranha Plant Pipeline gets forgotten to history, so be it! A quick note about these rankings, you might notice that the order doesn't correspond with the number of stars I give to each track. That's fine. These rankings come from the heart, and won't necessarily follow the rules. You've been warned!"
 
-  pageSize = 5;
-  itemsToShow = 5;
-
-  constructor(
-    private http: HttpClient,
-    private ratingHydration: RatingHydrationService
-  ) {}
+  private readonly pageSize = 5;
+  readonly itemsToShow = signal(this.pageSize);
+  readonly visibleTracks = computed(() => this.tracks().slice(0, this.itemsToShow()));
 
   ngOnInit(): void {
     this.loadTracks();
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.tracks.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.tracks().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
   }
 
   resetInfiniteScroll(): void {
-    this.itemsToShow = this.pageSize;
+    this.itemsToShow.set(this.pageSize);
   }
 
   loadTracks(): void {
-    this.http.get<{ tracks: Track[] }>('assets/data/mariokart.json').subscribe({
-      next: (data) => {
-        this.ratingHydration.hydrateRatings(data.tracks).subscribe(hydrated => {
-          this.originalTracks = hydrated as Track[];
-          this.calculateNextAndPreviousTracks();
-          this.filterTracks('world');
-        });
+    this.http.get<{ tracks: Track[] }>('assets/data/mariokart.json').pipe(
+      switchMap(data => this.ratingHydration.hydrateRatings(data.tracks))
+    ).subscribe({
+      next: (hydrated) => {
+        const tracks = hydrated as Track[];
+        this.calculateNextAndPreviousTracks(tracks);
+        this.originalTracks.set(tracks);
+        this.filterTracks('world');
       },
       error: (err) => {
         console.error('Failed to load tracks:', err);
@@ -107,10 +108,10 @@ export default class MariokartComponent implements OnInit {
     this.resetInfiniteScroll();
     let gameName = this.gameMap[criteria as keyof typeof this.gameMap];
     if (gameName) {
-      this.tracks = [...this.originalTracks]
+      this.tracks.set(this.originalTracks()
         .filter((track) => track.game === gameName)
-        .sort((a, b) => a.ranking - b.ranking);
-      this.currentFilter = criteria;
+        .sort((a, b) => a.ranking - b.ranking));
+      this.currentFilter.set(criteria);
     } else {
       console.error('Invalid filtering criteria');
     }
@@ -123,8 +124,9 @@ export default class MariokartComponent implements OnInit {
     return Object.keys(object).find(key => object[key] === value)?.toUpperCase();
   }
 
-  calculateNextAndPreviousTracks(): void {
-    const orderedTracks = [...this.originalTracks].sort((a, b) => {
+  /** Fills in previousGame/nextGame on freshly loaded tracks (before they are put into signals). */
+  calculateNextAndPreviousTracks(tracks: Track[]): void {
+    const orderedTracks = [...tracks].sort((a, b) => {
       if (a.trackId < b.trackId) return -1;
       if (a.trackId > b.trackId) return 1;
 
@@ -133,7 +135,7 @@ export default class MariokartComponent implements OnInit {
       return gameOrderIndexA - gameOrderIndexB;
     });
 
-    this.originalTracks.forEach(track => {
+    tracks.forEach(track => {
       const correspondingOrderedTrack = orderedTracks.find(orderedTrack => orderedTrack.trackId === track.trackId && orderedTrack.game === track.game);
       if (correspondingOrderedTrack) {
         const indexInOrderedTracks = orderedTracks.indexOf(correspondingOrderedTrack);
@@ -148,18 +150,16 @@ export default class MariokartComponent implements OnInit {
   }
 
   navigateToTrack(newGame: string, oldGame: string, trackId: number): void {
-    const newTrack = this.originalTracks.find(track => track.trackId === trackId && track.game === newGame);
-    const oldTrackIndex = this.tracks.findIndex(track => track.trackId === trackId && track.game === oldGame);
+    const newTrack = this.originalTracks().find(track => track.trackId === trackId && track.game === newGame);
 
     if (newTrack) {
-
-      this.tracks[oldTrackIndex] = newTrack;
-      this.tracks = [...this.tracks];
+      const oldTrackIndex = this.tracks().findIndex(track => track.trackId === trackId && track.game === oldGame);
+      this.tracks.update(tracks => tracks.map((track, i) => (i === oldTrackIndex ? newTrack : track)));
     }
   }
 
   hasDuplicates(track: Track) {
-    return this.originalTracks.filter(t => t.trackId === track.trackId).length > 1;
+    return this.originalTracks().filter(t => t.trackId === track.trackId).length > 1;
   }
 }
 

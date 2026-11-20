@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {map, switchMap} from 'rxjs/operators';
@@ -17,10 +17,9 @@ import {KKSong} from '../nintendo/kk/kk-song.interface';
   providedIn: 'root'
 })
 export class MusicService {
-  constructor(
-    private http: HttpClient,
-    private ratingHydration: RatingHydrationService
-  ) {}
+  private http = inject(HttpClient);
+  private ratingHydration = inject(RatingHydrationService);
+
 
   getAlbums(hydrateRatings: boolean = true): Observable<Album[]> {
     const data$ = this.http.get<{ albums: Album[] }>('assets/data/albums.json').pipe(

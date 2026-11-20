@@ -27,8 +27,8 @@ describe('MixesComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should render audio players for selected mix in modal', () => {
-    component.selectedMix = {
+  it('should render audio players for selected mix in modal', async () => {
+    component.selectedMix.set({
       id: '1',
       name: 'Mix 1',
       description: 'Desc 1',
@@ -36,8 +36,8 @@ describe('MixesComponent', () => {
       image: 'placeholder.jpg',
       rating: [5,5,5,5,5,5],
       newsletter: false
-    };
-    fixture.detectChanges();
+    });
+    await fixture.whenStable();
     const audioElements = fixture.nativeElement.querySelectorAll('audio');
     expect(audioElements.length).toBeGreaterThan(0);
     expect(audioElements[0].src).toContain('mix1.mp3');

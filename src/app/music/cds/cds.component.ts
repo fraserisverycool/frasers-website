@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, OnInit, computed, inject, linkedSignal, signal } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {CD} from "./cd.interface";
 import {CdModalComponent} from "./cd-modal/cd-modal.component";
@@ -9,67 +9,71 @@ import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-cds',
-  imports: [CommonModule, FormsModule, NgOptimizedImage, CdModalComponent, InfiniteScrollDirective, ImageUrlPipe],
+  imports: [FormsModule, NgOptimizedImage, CdModalComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './cds.component.html',
-  standalone: true,
   styleUrls: ['./cds.component.css']
 })
 export default class CdsComponent implements OnInit {
-  cds: CD[] = [];
-  originalCds: CD[] = [];
-  selectedCd: CD | null = null;
+  private musicService = inject(MusicService);
 
-  private _searchTerm: string = '';
-  get searchTerm(): string {
-    return this._searchTerm;
-  }
-  set searchTerm(value: string) {
-    this._searchTerm = value;
-    this.resetInfiniteScroll();
-  }
+  private readonly originalCds = signal<CD[]>([]);
+  readonly cds = signal<CD[]>([]);
+  readonly selectedCd = signal<CD | null>(null);
+  readonly searchTerm = signal('');
+  readonly selectedTag = signal<string | null>(null);
 
-  genres = new Map<string, string>();
-  genreList = ["Art Pop", "Pop", "Rock & Electronic", "House & Disco", "Indie & Singer-Songwriter", "Jazz, Soul & Hip-Hop", "Vocal Jazz & Smooth", "Video Game OST", "Classical"];
-  selectedTag: string | null = null;
+  readonly genres = new Map<string, string>([
+    ["Art Pop", "#f563ff"],
+    ["Pop", "#ff3721"],
+    ["Rock & Electronic", "#ff7300"],
+    ["House & Disco", "#ffe224"],
+    ["Indie & Singer-Songwriter", "#22851b"],
+    ["Jazz, Soul & Hip-Hop", "#618bff"],
+    ["Vocal Jazz & Smooth", "#9642d6"],
+    ["Video Game OST", "white"],
+    ["Classical", "#7a3d1a"],
+  ]);
+  readonly genreList = ["Art Pop", "Pop", "Rock & Electronic", "House & Disco", "Indie & Singer-Songwriter", "Jazz, Soul & Hip-Hop", "Vocal Jazz & Smooth", "Video Game OST", "Classical"];
 
-  pageSize = 20;
-  itemsToShow = 20;
+  readonly filteredCds = computed(() => {
+    let filtered = this.cds();
+    const searchTerm = this.searchTerm();
+    const selectedTag = this.selectedTag();
 
-  constructor(private musicService: MusicService) {}
+    if (searchTerm) {
+      const lowerCaseSearchTerm = searchTerm.toLowerCase();
+      filtered = filtered.filter(cd =>
+        cd.artist.toLowerCase().includes(lowerCaseSearchTerm) ||
+        cd.album.toString().toLowerCase().includes(lowerCaseSearchTerm)
+      );
+    }
+
+    if (selectedTag) {
+      filtered = filtered.filter(cd => cd.genre === selectedTag);
+    }
+
+    return filtered;
+  });
+
+  private readonly pageSize = 20;
+  /** Resets to one page whenever the filtered list changes (search, genre, sort, load). */
+  readonly itemsToShow = linkedSignal({ source: this.filteredCds, computation: () => this.pageSize });
+  readonly visibleCds = computed(() => this.filteredCds().slice(0, this.itemsToShow()));
 
   ngOnInit(): void {
-    this.loadGenres();
     this.loadCds();
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.filteredCds.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.filteredCds().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
-  }
-
-  resetInfiniteScroll(): void {
-    this.itemsToShow = this.pageSize;
-  }
-
-  loadGenres(): void {
-    let genres = new Map<string, string>();
-    genres.set("Art Pop","#f563ff");
-    genres.set("Pop", "#ff3721");
-    genres.set("Rock & Electronic", "#ff7300");
-    genres.set("House & Disco", "#ffe224");
-    genres.set("Indie & Singer-Songwriter", "#22851b");
-    genres.set("Jazz, Soul & Hip-Hop", "#618bff");
-    genres.set("Vocal Jazz & Smooth", "#9642d6");
-    genres.set("Video Game OST", "white");
-    genres.set("Classical", "#7a3d1a");
-    this.genres = genres;
   }
 
   loadCds(): void {
     this.musicService.getCds().subscribe({
       next: (cds) => {
-        this.originalCds = cds;
+        this.originalCds.set(cds);
         this.sortCds('genre');
       },
       error: (err) => {
@@ -78,54 +82,36 @@ export default class CdsComponent implements OnInit {
     });
   }
 
-  get filteredCds(): CD[] {
-    let filtered = this.cds;
-
-    if (this.searchTerm) {
-      const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
-      filtered = filtered.filter(cd =>
-        cd.artist.toLowerCase().includes(lowerCaseSearchTerm) ||
-        cd.album.toString().toLowerCase().includes(lowerCaseSearchTerm)
-      );
-    }
-
-    if (this.selectedTag) {
-      filtered = filtered.filter(cd => cd.genre === this.selectedTag);
-    }
-
-    return filtered;
-  }
-
   toggleTagSelection(tag: string): void {
-    this.resetInfiniteScroll();
-    this.selectedTag = tag;
+    this.selectedTag.set(tag);
   }
 
   showDescription(cd: CD): void {
+    // Deferred so the opening click isn't treated as a click outside the modal.
     setTimeout(() => {
-      this.selectedCd = cd;
+      this.selectedCd.set(cd);
     }, 0);
   }
 
   closeDescription(): void {
-    this.selectedCd = null;
+    this.selectedCd.set(null);
   }
 
   sortCds(criteria: 'random' | 'alphabeticalAlbum' | 'alphabeticalArtist' | 'genre'): void {
-    this.resetInfiniteScroll();
+    const original = this.originalCds();
     switch (criteria) {
       case 'random':
-        this.cds = [...this.originalCds].sort(() => Math.random() - 0.5);
+        this.cds.set([...original].sort(() => Math.random() - 0.5));
         break;
       case 'alphabeticalAlbum':
-        this.cds = [...this.originalCds].sort((a, b) => a.album.toString().localeCompare(b.album));
+        this.cds.set([...original].sort((a, b) => a.album.toString().localeCompare(b.album)));
         break;
       case 'alphabeticalArtist':
-        this.cds = [...this.originalCds].sort((a, b) => a.artist.localeCompare(b.artist));
+        this.cds.set([...original].sort((a, b) => a.artist.localeCompare(b.artist)));
         break;
-      case 'genre':
+      case 'genre': {
         const genreOrder = Array.from(this.genres.keys());
-        this.cds = [...this.originalCds].sort((a, b) => {
+        this.cds.set([...original].sort((a, b) => {
           const indexA = genreOrder.indexOf(a.genre);
           const indexB = genreOrder.indexOf(b.genre);
 
@@ -133,8 +119,9 @@ export default class CdsComponent implements OnInit {
           if (indexB === -1) return -1;
 
           return indexA - indexB;
-        });
+        }));
         break;
+      }
       default:
         console.error('Invalid sorting criteria');
     }

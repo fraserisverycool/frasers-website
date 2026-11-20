@@ -10,25 +10,25 @@
       <span>Daily Soundtracks</span>
     </div>
     <div class="collage-item albums" (click)="handleClick('/music/albums')">
-      @if (randomAlbum) {
+      @if (randomAlbum(); as randomAlbum) {
         <img [src]="'/music/albums/' + randomAlbum.filename | imageUrl" [alt]="randomAlbum.name">
       }
       <span>Albums</span>
     </div>
     <div class="collage-item nintendo" (click)="handleClick('/music/nintendo')">
-      @if (randomSoundtrack) {
+      @if (randomSoundtrack(); as randomSoundtrack) {
         <img [src]="'/music/nintendo/' + randomSoundtrack.filename | imageUrl" [alt]="randomSoundtrack.name">
       }
       <span>Nintendo Soundtracks</span>
     </div>
     <div class="collage-item concerts" (click)="handleClick('/music/concerts')">
-      @if (randomConcert) {
+      @if (randomConcert(); as randomConcert) {
         <img [src]="'/music/concerts/' + randomConcert.image | imageUrl" [alt]="randomConcert.artist">
       }
       <span>Concerts</span>
     </div>
     <div class="collage-item cds" (click)="handleClick('/music/cds')">
-      @if (randomCd) {
+      @if (randomCd(); as randomCd) {
         <img [src]="'/music/albums/' + randomCd.image | imageUrl" [alt]="randomCd.album">
       }
       <span>CDs</span>
@@ -40,13 +40,13 @@
       <span>Smash Soundtrack</span>
     </div>
     <div class="collage-item playlists" (click)="handleClick('/music/playlists')">
-      @if (randomPlaylistImage) {
+      @if (randomPlaylistImage(); as randomPlaylistImage) {
         <img [src]="'/music/playlists/art/' + randomPlaylistImage | imageUrl" alt="Playlists">
       }
       <span>Playlists</span>
     </div>
     <div class="collage-item mixes" (click)="handleClick('/music/mixes')">
-      @if (randomMixImage) {
+      @if (randomMixImage(); as randomMixImage) {
         <img [src]="'/music/mixes/art/' + randomMixImage | imageUrl" alt="Mixes">
       }
       <span>Video Game Mixes</span>

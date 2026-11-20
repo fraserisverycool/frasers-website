@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule, NgClass } from '@angular/common';
+import { Component, OnInit, inject, signal } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { forkJoin, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
@@ -18,15 +18,14 @@ export interface PostEntry {
 
 @Component({
   selector: 'app-latest-posts',
-  standalone: true,
-  imports: [CommonModule, NgClass, ImageUrlPipe],
+  imports: [NgClass, ImageUrlPipe],
   templateUrl: './latest-posts.component.html',
   styleUrl: './latest-posts.component.css'
 })
 export class LatestPostsComponent implements OnInit {
-  posts: PostEntry[] = [];
+  private http = inject(HttpClient);
 
-  constructor(private http: HttpClient) {}
+  readonly posts = signal<PostEntry[]>([]);
 
   ngOnInit(): void {
     this.loadLatestPosts();
@@ -50,7 +49,7 @@ export class LatestPostsComponent implements OnInit {
       stitches: this.http.get<{ stitches: any[] }>('assets/data/stitches.json').pipe(catchError(() => of({ stitches: [] }))),
       mixes: this.http.get<{ mixes: any[] }>('assets/data/mixes.json').pipe(catchError(() => of({ mixes: [] }))),
       kk: this.http.get<{ kkSongs: any[] }>('assets/data/kk.json').pipe(catchError(() => of({ kkSongs: [] })))
-    }).subscribe(data => {
+    }).subscribe({ next: data => {
       const allPosts: PostEntry[] = [];
 
       // Games
@@ -298,11 +297,11 @@ export class LatestPostsComponent implements OnInit {
       }
 
       // Filter items with timestamps and sort descending
-      this.posts = allPosts
+      this.posts.set(allPosts
         .filter(post => !!post.timestamp)
         .sort((a, b) => this.parseDate(b.timestamp).getTime() - this.parseDate(a.timestamp).getTime())
-        .slice(0, 15);
-    });
+        .slice(0, 15));
+    }});
   }
 
   private normalizeDescription(desc: any): string[] {

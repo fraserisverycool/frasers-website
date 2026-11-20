@@ -1,4 +1,4 @@
-@if (selectedAlbum) {
+@if (selectedAlbum(); as selectedAlbum) {
   <div class="modal">
     <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
       <app-close-button (click)="close.emit()"/>
@@ -15,10 +15,10 @@
       <h3>Top Tracks:</h3>
       <ul class="top-tracks">
         @for (track of selectedAlbum.topTracks; track track) {
-          <li [style.background-color]="currentRandomColor">{{ track }}</li>
+          <li [style.background-color]="currentRandomColor()">{{ track }}</li>
         }
       </ul>
-      <app-rating-bar [rating]="{id: selectedAlbum.id, ratings: selectedAlbum.rating}"></app-rating-bar>
+      <app-rating-bar [rating]="{id: selectedAlbum.id, ratings: selectedAlbum.rating}" />
     </div>
   </div>
 }

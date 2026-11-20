@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import {Color} from "../color.interface";
 import {Observable, of} from "rxjs";
 import { HttpClient } from "@angular/common/http";
@@ -9,9 +9,9 @@ import { environment } from '../../../environments/environment';
   providedIn: 'root'
 })
 export class HomepageColorService {
-  private apiUrl = environment.apiUrl;
+  private http = inject(HttpClient);
 
-  constructor(private http: HttpClient) { }
+  private apiUrl = environment.apiUrl;
 
   getLatestColor(): Observable<{latest: string, total: number}> {
     return this.http.get<Color[]>(`${this.apiUrl}/homepage`).pipe(

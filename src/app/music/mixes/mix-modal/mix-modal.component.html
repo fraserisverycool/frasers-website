@@ -1,6 +1,6 @@
-@if (selectedMix) {
+@if (selectedMix(); as selectedMix) {
   <div class="modal">
-    <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()" [style.background-color]="color">
+    <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()" [style.background-color]="color()">
       <app-close-button (click)="close.emit()"/>
       <h2>{{ selectedMix.name }}</h2>
       <div class="mix-image">
@@ -16,7 +16,7 @@
         <span class="file-icon">🎧</span>
         Download {{ selectedMix.filename }}
       </a>
-      <app-rating-bar [rating]="{id: selectedMix.id, ratings: selectedMix.rating}"></app-rating-bar>
+      <app-rating-bar [rating]="{id: selectedMix.id, ratings: selectedMix.rating}" />
     </div>
   </div>
 }

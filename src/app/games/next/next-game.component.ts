@@ -7,14 +7,14 @@ import { Component } from '@angular/core';
     styleUrls: ['./next-game.component.css']
 })
 export default class NextGameComponent {
-  playstationgames = [
+  readonly playstationgames = [
     'Sable',
     'Tinykin',
     'Hardspace Shipbreaker',
     'Humanity',
     'Clair Obscur: Expedition 33'
   ];
-  switchgames = [
+  readonly switchgames = [
     'Unsighted',
     'Live a Live',
     'Mega Man Battle Network',
@@ -28,7 +28,7 @@ export default class NextGameComponent {
     'Iconoclasts',
     'Shinobi: Art of Vengeance'
   ];
-  pcgames = [
+  readonly pcgames = [
     'Papers Please',
     'Road Warden',
     'Misericorde',

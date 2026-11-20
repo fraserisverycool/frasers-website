@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import {Router} from "@angular/router";
 import {ImageUrlPipe} from "../utils/pipes/image-url.pipe";
 
@@ -9,9 +9,11 @@ import {ImageUrlPipe} from "../utils/pipes/image-url.pipe";
     styleUrls: ['./misc.component.css']
 })
 export default class MiscComponent {
-    positions: { top: string; left: string }[];
+    private router = inject(Router);
 
-    constructor(private router: Router) {
+    readonly positions: { top: string; left: string }[];
+
+    constructor() {
       const cols = 4;
       const rows = 4;
       const cells = Array.from({ length: cols * rows }, (_, i) => i);

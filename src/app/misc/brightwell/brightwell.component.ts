@@ -1,25 +1,19 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, inject } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { environment } from "../../../environments/environment";
-import {CommonModule} from "@angular/common";
 import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-brightwell',
-  imports: [
-    CommonModule,
-    ImageUrlPipe
-  ],
+  imports: [ImageUrlPipe],
   templateUrl: './brightwell.component.html',
   styleUrl: './brightwell.component.css',
 })
 export default class BrightwellComponent implements OnInit, OnDestroy {
-  path: string = `${environment.imageBaseUrl}/misc/brightwell/Brightwell.html`;
-  safePath: SafeResourceUrl;
+  private sanitizer = inject(DomSanitizer);
 
-  constructor(private sanitizer: DomSanitizer) {
-    this.safePath = this.sanitizer.bypassSecurityTrustResourceUrl(this.path);
-  }
+  readonly path: string = `${environment.imageBaseUrl}/misc/brightwell/Brightwell.html`;
+  readonly safePath: SafeResourceUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.path);
 
   private messageHandler = (event: MessageEvent) => {
     if (!event.data || event.data.type !== 'TWINE_EVENT') return;

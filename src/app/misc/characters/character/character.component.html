@@ -1,55 +1,55 @@
-@if (selectedCharacter) {
+@if (selectedCharacter(); as character) {
   <div class="character-detail" appClickedOutside (clickedOutside)="close.emit()">
     <app-close-button (click)="close.emit()"/>
-    <h2>{{ selectedCharacter.name }}</h2>
+    <h2>{{ character.name }}</h2>
     <img
-      [ngSrc]="'/misc/characters/pics/' + selectedCharacter.picture[pictureMode] | imageUrl"
-      alt="{{ selectedCharacter.name }}"
+      [ngSrc]="'/misc/characters/pics/' + character.picture[pictureMode()] | imageUrl"
+      alt="{{ character.name }}"
       class="character-picture"
       width="600"
       height="600"
       />
-      <div class="played-character" [style.box-shadow]="getBorder(selectedCharacter.color)">
-        <h3>Has Fraser played, completed and truly understood the game(s) {{ selectedCharacter.name }} is from?</h3>
-        <p>{{ selectedCharacter.playedDescription }}</p>
+      <div class="played-character" [style.box-shadow]="getBorder(character.color)">
+        <h3>Has Fraser played, completed and truly understood the game(s) {{ character.name }} is from?</h3>
+        <p>{{ character.playedDescription }}</p>
         <div class="played-ratings">
           <div class="played-ratings">
-            <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.played)" [style.border]="getColorBorder(selectedCharacter.played)">
-              {{ getBadge('Played', selectedCharacter.played) }}
+            <p class="played-rating-badge" [style.color]="getColor(character.played)" [style.border]="getColorBorder(character.played)">
+              {{ getBadge('Played', character.played) }}
             </p>
-            <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.completed)" [style.border]="getColorBorder(selectedCharacter.completed)">
-              {{ getBadge('Completed', selectedCharacter.completed) }}
+            <p class="played-rating-badge" [style.color]="getColor(character.completed)" [style.border]="getColorBorder(character.completed)">
+              {{ getBadge('Completed', character.completed) }}
             </p>
-            <p class="played-rating-badge" [style.color]="getColor(selectedCharacter.understood)" [style.border]="getColorBorder(selectedCharacter.understood)">
-              {{ getBadge('Understood', selectedCharacter.understood) }}
+            <p class="played-rating-badge" [style.color]="getColor(character.understood)" [style.border]="getColorBorder(character.understood)">
+              {{ getBadge('Understood', character.understood) }}
             </p>
           </div>
         </div>
       </div>
       <div class="main-character">
         <h3>Do you main this character? What does that say about you?</h3>
-        <button (click)="selectedCharacter.showMain = !selectedCharacter.showMain">
-          {{ getButtonText(selectedCharacter) }}
+        <button (click)="toggleShowMain()">
+          {{ buttonText() }}
         </button>
-        @if (selectedCharacter.showMain) {
-          <p>{{selectedCharacter.main}}</p>
+        @if (showMain()) {
+          <p>{{character.main}}</p>
         }
       </div>
       <div class="deco-character">
-        <h3>What decoration of {{ selectedCharacter.name }} does Fraser have at home?</h3>
-        @if (isEmpty(selectedCharacter.deco)) {
+        <h3>What decoration of {{ character.name }} does Fraser have at home?</h3>
+        @if (isEmpty(character.deco)) {
           <p>
-            I don't have any decoration of {{ selectedCharacter.name }} yet :(((
+            I don't have any decoration of {{ character.name }} yet :(((
           </p>
         }
         <ul>
-          @for (decoration of selectedCharacter.deco; track decoration) {
+          @for (decoration of character.deco; track decoration) {
             <li
               class="character-decoration"
               >
               <img
                 [ngSrc]="'/misc/characters/deco/' + decoration.filename | imageUrl"
-                alt="{{ selectedCharacter.name }}"
+                alt="{{ character.name }}"
                 class="decoration-picture"
                 width="400"
                 height="400"
@@ -59,7 +59,7 @@
             }
           </ul>
         </div>
-        <div [ngStyle]="{'padding-bottom': '15px'}"></div>
-        <app-rating-bar [rating]="{id: selectedCharacter.id, ratings: selectedCharacter.rating}"></app-rating-bar>
+        <div style="padding-bottom: 15px"></div>
+        <app-rating-bar [rating]="{id: character.id, ratings: character.rating}" />
       </div>
     }

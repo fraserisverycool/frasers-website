@@ -1,10 +1,10 @@
 <div class="container">
-  <h1 class="text-center">{{ title }}</h1>
+  <h1 class="text-center">{{ title() }}</h1>
   <div class="calendar-container">
     <ul class="calendar-grid">
       @for (filter of filters; track filter) {
         <li>
-          <button (click)="sortGames(filter)" class="filter-button" [ngClass]="{ 'active': filter === currentFilter }">
+          <button (click)="sortGames(filter)" class="filter-button" [ngClass]="{ 'active': filter === currentFilter() }">
             <span>{{ filter }}</span>
           </button>
         </li>
@@ -14,12 +14,12 @@
       <input type="text" [(ngModel)]="searchTerm" placeholder="Search games...">
     </div>
   </div>
-  @if (isPlatformSelected) {
+  @if (isPlatformSelected()) {
     <div class="calendar-container-mini">
       <ul class="calendar-grid-mini">
         @for (platform of platformOrder; track platform) {
           <li>
-            <button (click)="sortGames(platform)" class="filter-button-mini" [ngClass]="{ 'active': platform === currentFilter }">
+            <button (click)="sortGames(platform)" class="filter-button-mini" [ngClass]="{ 'active': platform === currentFilter() }">
               <span>{{ platform }}</span>
             </button>
           </li>
@@ -27,9 +27,9 @@
       </ul>
     </div>
   }
-  @for (game of filteredGames.slice(0, itemsToShow); track game) {
+  @for (game of visibleGames(); track game) {
     <div>
-      <app-game [game]="game"></app-game>
+      <app-game [game]="game" />
     </div>
   }
   <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>

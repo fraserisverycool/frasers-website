@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   selector: 'app-close-button',
   imports: [],
   templateUrl: './close-button.component.html',
-  standalone: true,
   styleUrls: ['./close-button.component.css']
 })
 export class CloseButtonComponent {

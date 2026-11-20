@@ -1,7 +1,7 @@
 <div class="container">
   <h1>{{title}}</h1>
   <ul>
-    @for (book of books.slice(0, itemsToShow); track book) {
+    @for (book of visibleBooks(); track book) {
       <li class="card">
         <img [ngSrc]="'/books/' + book.filename | imageUrl" alt="{{ book.title }}" width="600" height="400">
         <div class="card-info">
@@ -9,9 +9,9 @@
           <p>{{book.author}}</p>
           <p class="release">{{book.release}}</p>
           <p class="desc">{{book.description}}</p>
-          <app-spoiler-discussion [spoiler]="book.spoiler"></app-spoiler-discussion>
+          <app-spoiler-discussion [spoiler]="book.spoiler" />
           <div [ngStyle]="{'padding-bottom': '25px'}"></div>
-          <app-rating-bar [rating]="{id: book.id, ratings: book.rating}"></app-rating-bar>
+          <app-rating-bar [rating]="{id: book.id, ratings: book.rating}" />
         </div>
       </li>
     }

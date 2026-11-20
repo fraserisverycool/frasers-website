@@ -9,7 +9,7 @@
     <button (click)="sortDurstloescher('score')">By score</button>
   </div>
   <ul>
-    @for (durst of durstloescher; track durst) {
+    @for (durst of durstloescher(); track durst) {
       <li class="durstloescher-card" (click)="showDescription(durst)">
         <div class="durstloescher-image-container">
           <img [ngSrc]="'/community/durstloescher/' + durst.filename | imageUrl" [alt]="durst.name" class="durstloescher-image" width="600" height="600">
@@ -23,6 +23,6 @@
   </ul>
 </div>
 
-@if (selectedDurstloescher) {
-  <app-durstloescher-modal [selectedDurstloescher]="selectedDurstloescher" (close)="closeDescription()"></app-durstloescher-modal>
+@if (selectedDurstloescher(); as selected) {
+  <app-durstloescher-modal [selectedDurstloescher]="selected" (close)="closeDescription()" />
 }

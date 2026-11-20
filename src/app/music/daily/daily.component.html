@@ -1,4 +1,4 @@
-@if (today) {
+@if (today(); as today) {
   <div class="daily-soundtrack">
     <div class="overlay"></div>
     <h2>{{today.track}}</h2>
@@ -24,13 +24,13 @@
       </div>
     }
     <div class="video-container">
-      <iframe [src]="safeLink" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe [src]="safeLink()" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <app-rating-bar [rating]="{id: today.id, ratings: today.rating}"></app-rating-bar>
+    <app-rating-bar [rating]="{id: today.id, ratings: today.rating}" />
     <a routerLink="/music/daily-soundtracks">Here are all the daily soundtracks you missed!</a>
   </div>
 }
-@if (!today) {
+@if (!today()) {
   <div class="daily-soundtrack">
     <div class="overlay"></div>
     <h2>No soundtrack of the day today!</h2>

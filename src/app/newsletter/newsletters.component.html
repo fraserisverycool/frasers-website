@@ -19,7 +19,7 @@
   </div>
   <h2>Past Newsletters</h2>
   <ul class="table-container">
-    @for (newsletter of newsletters; track newsletter; let i = $index) {
+    @for (newsletter of newsletters(); track newsletter; let i = $index) {
       <li class="newsletter-row">
         <a [routerLink]="['/newsletter', newsletter.timestamp]">{{ newsletter.timestamp }} | {{ newsletter.title }}</a>
       </li>

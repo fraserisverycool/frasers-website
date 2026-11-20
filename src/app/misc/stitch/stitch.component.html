@@ -2,7 +2,7 @@
   <h1>Cross Stitches</h1>
   <p>This list sadly isn't exhaustive, there are cross stitches lost to time, photos of which I can't find.</p>
   <ul class="stitch-list">
-    @for (stitch of stitches.slice(0, itemsToShow); track stitch) {
+    @for (stitch of visibleStitches(); track stitch) {
       <li class="stitch-card">
         <img
           [ngSrc]="'/misc/stitch/' + stitch.filename | imageUrl"
@@ -10,8 +10,8 @@
           width="600"
           height="400"
           >
-          <p [ngStyle]="{'padding-bottom': '15px'}">{{ stitch.comment }}</p>
-          <app-rating-bar [rating]="{id: stitch.id, ratings: stitch.rating}" class="rating"></app-rating-bar>
+          <p style="padding-bottom: 15px">{{ stitch.comment }}</p>
+          <app-rating-bar [rating]="{id: stitch.id, ratings: stitch.rating}" class="rating" />
         </li>
       }
     </ul>

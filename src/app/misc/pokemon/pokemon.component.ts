@@ -1,22 +1,25 @@
-import {Component, EventEmitter, HostListener, OnInit, Output} from '@angular/core';
-import {CommonModule} from '@angular/common';
+import { Component, computed, inject, output, signal } from '@angular/core';
+import { NgClass, TitleCasePipe } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import {Pokemon, TierData} from "./pokemon.interface";
 import {CloseButtonComponent} from "../../utils/close-button/close-button.component";
 import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-pokemon',
-    imports: [CommonModule, CloseButtonComponent, ImageUrlPipe],
+    imports: [NgClass, TitleCasePipe, CloseButtonComponent, ImageUrlPipe],
     templateUrl: './pokemon.component.html',
-    styleUrls: ['./pokemon.component.css']
+    styleUrls: ['./pokemon.component.css'],
+    host: { '(window:popstate)': 'onPopState()' }
 })
-export default class PokemonComponent  implements OnInit {
-  @Output() close: EventEmitter<void> = new EventEmitter<void>();
+export default class PokemonComponent {
+  private http = inject(HttpClient);
 
-  originalTiers: TierData = {};
-  tiers: TierData = {};
-  tierHeadings: any = {
+  readonly close = output<void>();
+
+  readonly originalTiers = signal<TierData>({});
+  readonly tierHeadings: any = {
     SS: "Best of the best",
     S: "Stunning, beautiful",
     A: "Love it",
@@ -26,15 +29,18 @@ export default class PokemonComponent  implements OnInit {
     E: "Actively dislike this",
     F: "Hate it, ugly"
   };
-  orderedTiers: string[] = ["SS", "S", "A", "B", "C", "D", "E", "F"];
-  activeGenerations = new Set<number>();
-  activeRegions = new Set<string>();
-  activeTypes = new Set<string>();
-  collapsed: { [tier: string]: boolean } = {};
-  selectedPokemon: Pokemon | null = null;
-  filterMode: 'OR' | 'AND' = 'OR';
+  readonly orderedTiers: string[] = ["SS", "S", "A", "B", "C", "D", "E", "F"];
+  readonly activeGenerations = signal<ReadonlySet<number>>(new Set());
+  readonly activeRegions = signal<ReadonlySet<string>>(new Set());
+  readonly activeTypes = signal<ReadonlySet<string>>(new Set());
+  readonly collapsed = signal<{ [tier: string]: boolean }>({});
+  readonly selectedPokemon = signal<Pokemon | null>(null);
+  readonly filterMode = signal<'OR' | 'AND'>('OR');
 
-  pokemonTypes = [
+  /** The tiers after applying the active generation/region/type filters. */
+  readonly tiers = computed(() => this.applyFilters());
+
+  readonly pokemonTypes = [
     'normal',
     'fire',
     'water',
@@ -55,50 +61,57 @@ export default class PokemonComponent  implements OnInit {
     'fairy'
   ];
 
-  constructor(private http: HttpClient) {}
-
-  ngOnInit(): void {
+  constructor() {
     this.http.get<TierData>('assets/data/pokemon.json')
-      .subscribe(data => {
-        this.originalTiers = data;
-        this.tiers = this.originalTiers;
-
-        for (let t of Object.keys(data)) {
-          this.collapsed[t] = true;
-        }
+      .pipe(takeUntilDestroyed())
+      .subscribe({
+        next: data => {
+          this.originalTiers.set(data);
+          const collapsed = { ...this.collapsed() };
+          for (const t of Object.keys(data)) {
+            collapsed[t] = true;
+          }
+          this.collapsed.set(collapsed);
+        },
+        error: err => console.error('Failed to load pokemon:', err),
       });
   }
 
-  @HostListener('window:popstate')
   onPopState() {
-    if (this.selectedPokemon) {
+    if (this.selectedPokemon()) {
       this.closeModal();
     }
   }
 
   toggleTier(tier: string) {
-    this.collapsed[tier] = !this.collapsed[tier];
+    this.collapsed.update(collapsed => ({ ...collapsed, [tier]: !collapsed[tier] }));
   }
 
   collapseAllTiers(): void {
-    for (const tierKey of this.orderedTiers) {
-      this.collapsed[tierKey] = true;
-    }
+    this.setAllTiersCollapsed(true);
   }
 
   expandAllTiers(): void {
-    for (const tierKey of this.orderedTiers) {
-      this.collapsed[tierKey] = false;
-    }
+    this.setAllTiersCollapsed(false);
+  }
+
+  private setAllTiersCollapsed(value: boolean): void {
+    this.collapsed.update(collapsed => {
+      const next = { ...collapsed };
+      for (const tierKey of this.orderedTiers) {
+        next[tierKey] = value;
+      }
+      return next;
+    });
   }
 
   openModal(pokemon: Pokemon) {
-    this.selectedPokemon = pokemon;
+    this.selectedPokemon.set(pokemon);
     history.pushState({ modal: true }, '');
   }
 
   closeModal() {
-    this.selectedPokemon = null;
+    this.selectedPokemon.set(null);
     if (window.history.state?.modal) {
       history.back();
     }
@@ -133,9 +146,10 @@ export default class PokemonComponent  implements OnInit {
   private filterByRegion(regionKey: string): TierData {
     const config = this.regionFilters[regionKey];
     const filtered: TierData = {};
+    const tiers = this.tiers();
 
-    for (const tier of Object.keys(this.tiers)) {
-      filtered[tier] = this.tiers[tier].filter(pokemon => {
+    for (const tier of Object.keys(tiers)) {
+      filtered[tier] = tiers[tier].filter(pokemon => {
         const name = pokemon.name.toLowerCase();
 
         const matchesKeyword = name.includes(config.keyword);
@@ -195,27 +209,27 @@ export default class PokemonComponent  implements OnInit {
   }
 
   private matchesGeneration(pokemon: Pokemon): boolean {
-    if (this.activeGenerations.size === 0) return false;
+    if (this.activeGenerations().size === 0) return false;
 
     const gen = this.getPokemonGeneration(pokemon);
 
-    if (this.filterMode === 'AND') {
+    if (this.filterMode() === 'AND') {
       // Must match all selected generations? Usually only one selected makes sense
-      return this.activeGenerations.has(gen);
+      return this.activeGenerations().has(gen);
     }
 
     // OR mode
-    return this.activeGenerations.has(gen);
+    return this.activeGenerations().has(gen);
   }
 
   private matchesRegion(pokemon: Pokemon): boolean {
-    if (this.activeRegions.size === 0) return false;
+    if (this.activeRegions().size === 0) return false;
 
     const name = pokemon.name.toLowerCase();
 
-    if (this.filterMode === 'AND') {
+    if (this.filterMode() === 'AND') {
       // Every active region must match this Pokémon
-      return Array.from(this.activeRegions).every(region => {
+      return Array.from(this.activeRegions()).every(region => {
         const config = this.regionFilters[region];
         const keywordMatch = name.includes(config.keyword);
         const extraMatch = config.extras.some(extra =>
@@ -226,7 +240,7 @@ export default class PokemonComponent  implements OnInit {
     }
 
     // OR mode
-    return Array.from(this.activeRegions).some(region => {
+    return Array.from(this.activeRegions()).some(region => {
       const config = this.regionFilters[region];
       const keywordMatch = name.includes(config.keyword);
       const extraMatch = config.extras.some(extra =>
@@ -237,7 +251,7 @@ export default class PokemonComponent  implements OnInit {
   }
 
   private matchesType(pokemon: Pokemon): boolean {
-    if (this.activeTypes.size === 0) {
+    if (this.activeTypes().size === 0) {
       return false;
     }
 
@@ -247,93 +261,83 @@ export default class PokemonComponent  implements OnInit {
 
     const pokemonTypes = pokemon.types.map(t => t.toLowerCase());
 
-    if (this.filterMode === 'AND') {
+    if (this.filterMode() === 'AND') {
       // All selected types must exist in this Pokémon
-      return Array.from(this.activeTypes).every(type =>
+      return Array.from(this.activeTypes()).every(type =>
         pokemonTypes.includes(type)
       );
     }
 
     // OR mode: at least one type matches
     return pokemonTypes.some(type =>
-      this.activeTypes.has(type)
+      this.activeTypes().has(type)
     );
   }
 
-  private applyFilters(): void {
+  private applyFilters(): TierData {
+    const originalTiers = this.originalTiers();
     const hasAnyFilters =
-      this.activeGenerations.size > 0 ||
-      this.activeRegions.size > 0 ||
-      this.activeTypes.size > 0;
+      this.activeGenerations().size > 0 ||
+      this.activeRegions().size > 0 ||
+      this.activeTypes().size > 0;
 
     if (!hasAnyFilters) {
-      this.tiers = this.originalTiers;
-      return;
+      return originalTiers;
     }
 
     const filtered: TierData = {};
 
-    for (const tier of Object.keys(this.originalTiers)) {
-      filtered[tier] = this.originalTiers[tier].filter(pokemon => {
+    for (const tier of Object.keys(originalTiers)) {
+      filtered[tier] = originalTiers[tier].filter(pokemon => {
         const genMatch = this.matchesGeneration(pokemon);
         const regionMatch = this.matchesRegion(pokemon);
         const typeMatch = this.matchesType(pokemon);
 
-        if (this.filterMode === 'OR') {
+        if (this.filterMode() === 'OR') {
           return genMatch || regionMatch || typeMatch;
         }
 
         // AND mode: must satisfy all categories with active filters
         return (
-          (this.activeGenerations.size === 0 || genMatch) &&
-          (this.activeRegions.size === 0 || regionMatch) &&
-          (this.activeTypes.size === 0 || typeMatch)
+          (this.activeGenerations().size === 0 || genMatch) &&
+          (this.activeRegions().size === 0 || regionMatch) &&
+          (this.activeTypes().size === 0 || typeMatch)
         );
       });
     }
 
-    this.tiers = filtered;
+    return filtered;
   }
 
   toggleGeneration(gen: number): void {
-    if (this.activeGenerations.has(gen)) {
-      this.activeGenerations.delete(gen);
-    } else {
-      this.activeGenerations.add(gen);
-    }
-
-    this.applyFilters();
+    this.activeGenerations.update(set => PokemonComponent.toggled(set, gen));
   }
 
   toggleRegion(region: string): void {
-    if (this.activeRegions.has(region)) {
-      this.activeRegions.delete(region);
-    } else {
-      this.activeRegions.add(region);
-    }
-
-    this.applyFilters();
+    this.activeRegions.update(set => PokemonComponent.toggled(set, region));
   }
 
   toggleType(type: string): void {
-    if (this.activeTypes.has(type)) {
-      this.activeTypes.delete(type);
-    } else {
-      this.activeTypes.add(type);
-    }
-
-    this.applyFilters();
+    this.activeTypes.update(set => PokemonComponent.toggled(set, type));
   }
 
   clearFilters(): void {
-    this.activeGenerations.clear();
-    this.activeRegions.clear();
-    this.activeTypes.clear();
-    this.tiers = this.originalTiers;
+    this.activeGenerations.set(new Set());
+    this.activeRegions.set(new Set());
+    this.activeTypes.set(new Set());
   }
 
   toggleFilterMode(): void {
-    this.filterMode = this.filterMode === 'OR' ? 'AND' : 'OR';
-    this.applyFilters();
+    this.filterMode.update(mode => (mode === 'OR' ? 'AND' : 'OR'));
+  }
+
+  private static toggled<T>(set: ReadonlySet<T>, value: T): ReadonlySet<T> {
+    const next = new Set(set);
+    if (next.has(value)) {
+      next.delete(value);
+    } else {
+      next.add(value);
+    }
+    return next;
   }
 }

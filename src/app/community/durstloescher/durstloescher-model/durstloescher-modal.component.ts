@@ -1,5 +1,5 @@
-import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, OnDestroy, OnInit, input, output } from '@angular/core';
+import { NgOptimizedImage, NgStyle } from '@angular/common';
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import StarMessageComponent from "../../../utils/star-message/star-message.component";
 import {Durstloescher} from "../durstloescher.interface";
@@ -9,21 +9,19 @@ import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-durstloescher-modal',
-    imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, StarMessageComponent, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
+    imports: [NgStyle, ClickedOutsideDirective, NgOptimizedImage, StarMessageComponent, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
     templateUrl: './durstloescher-modal.component.html',
-    styleUrls: ['./durstloescher-modal.component.css']
+    styleUrls: ['./durstloescher-modal.component.css'],
+    host: { '(window:popstate)': 'onPopState()' }
 })
 export class DurstloescherModalComponent implements OnInit, OnDestroy {
-  @Input() selectedDurstloescher: Durstloescher | undefined;
-  @Output() close: EventEmitter<void> = new EventEmitter<void>();
-
-  constructor() {}
+  readonly selectedDurstloescher = input<Durstloescher | undefined>(undefined);
+  readonly close = output<void>();
 
   ngOnInit() {
     history.pushState({ modal: true }, '');
   }
 
-  @HostListener('window:popstate')
   onPopState() {
     this.close.emit();
   }

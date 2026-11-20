@@ -1,4 +1,4 @@
-import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
+import {Component, OnDestroy, OnInit, input, output} from '@angular/core';
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
@@ -9,21 +9,18 @@ import {Mix} from "../mix.interface";
   selector: 'app-mix-modal',
   imports: [ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
   templateUrl: './mix-modal.component.html',
-  standalone: true,
-  styleUrls: ['./mix-modal.component.css']
+  styleUrls: ['./mix-modal.component.css'],
+  host: { '(window:popstate)': 'onPopState()' }
 })
 export class MixModalComponent implements OnInit, OnDestroy {
-  @Input() selectedMix: Mix | undefined;
-  @Input() color: string = "#000000";
-  @Output() close: EventEmitter<void> = new EventEmitter<void>();
-
-  constructor() {}
+  readonly selectedMix = input<Mix | undefined>();
+  readonly color = input<string>("#000000");
+  readonly close = output<void>();
 
   ngOnInit() {
     history.pushState({ modal: true }, '');
   }
 
-  @HostListener('window:popstate')
   onPopState() {
     this.close.emit();
   }

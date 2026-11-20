@@ -1,11 +1,11 @@
-@for (p of paragraphs; track p; let i = $index) {
+@for (p of paragraphs(); track p; let i = $index) {
   <div>
-    @if (i < 2 || showAll) {
+    @if (i < 2 || showAll()) {
       <p>{{ p }}</p>
     }
   </div>
 }
 
-@if (paragraphs.length > 2 && !showAll) {
+@if (paragraphs().length > 2 && !showAll()) {
   <button (click)="toggleShowAll()">Read more...</button>
 }

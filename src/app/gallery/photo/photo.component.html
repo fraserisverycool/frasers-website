@@ -1,37 +1,37 @@
 <div class="image-details">
-  <h2>{{ photo.title }}</h2>
-  <div class="image-container" (click)="openModal(photo)">
-    @if (showText) {
-      <img [ngSrc]="'/gallery/' + photo.unmasked | imageUrl" [alt]="photo.title" class="gallery-image" width="600" height="600">
+  <h2>{{ photo().title }}</h2>
+  <div class="image-container" (click)="openModal()">
+    @if (showText()) {
+      <img [ngSrc]="'/gallery/' + displayedFilename() | imageUrl" [alt]="photo().title" class="gallery-image" width="600" height="600">
     } @else {
-      <img [ngSrc]="'/gallery/' + photo.filename | imageUrl" [alt]="photo.title" class="gallery-image" width="600" height="600">
+      <img [ngSrc]="'/gallery/' + displayedFilename() | imageUrl" [alt]="photo().title" class="gallery-image" width="600" height="600">
     }
   </div>
   <div class="description-container">
     <p>To unlock the anecdote behind this photo, please answer this question:</p>
-    <p>{{ photo.question }}</p>
+    <p>{{ photo().question }}</p>
     <div class="input-group">
-      <input [(ngModel)]="userAnswer" (keyup.enter)="checkAnswer(userAnswer)" placeholder="Your answer here">
-      <button (click)="checkAnswer(userAnswer)">Submit</button>
+      <input [(ngModel)]="userAnswer" (keyup.enter)="checkAnswer()" placeholder="Your answer here">
+      <button (click)="checkAnswer()">Submit</button>
     </div>
-    @if (showText) {
+    @if (showText()) {
       <div>
-        <p>{{ photo.description }}</p>
+        <p>{{ description() }}</p>
       </div>
     }
   </div>
-  <p class="date" [ngStyle]="{'padding-bottom': '10px'}">{{ photo.month }}</p>
-  <app-rating-bar [rating]="{id: photo.id, ratings: photo.rating}"></app-rating-bar>
+  <p class="date" style="padding-bottom: 10px">{{ photo().month }}</p>
+  <app-rating-bar [rating]="{id: photo().id, ratings: photo().rating}" />
 </div>
 
-@if (modalImage) {
+@if (modalOpen()) {
   <div class="modal" (click)="closeModal()">
     <img
-      [ngSrc]="'/gallery/' + (showText ? modalImage.unmasked : modalImage.filename) | imageUrl"
-      [alt]="modalImage.title"
+      [ngSrc]="'/gallery/' + displayedFilename() | imageUrl"
+      [alt]="photo().title"
       class="modal-image"
       width="600"
       height="600"
       />
-    </div>
-  }
+  </div>
+}

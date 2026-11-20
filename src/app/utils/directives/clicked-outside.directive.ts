@@ -1,28 +1,20 @@
-import {Directive, ElementRef, EventEmitter, HostListener, Input, Output} from '@angular/core';
+import { Directive, ElementRef, inject, output } from '@angular/core';
 
 @Directive({
   selector: '[appClickedOutside]',
-  standalone: true
+  host: {
+    '(window:click)': 'onClick($event.target)',
+    '(document:keydown.escape)': 'clickedOutside.emit()',
+  }
 })
 export class ClickedOutsideDirective {
+  private el = inject(ElementRef);
 
-  constructor(private el: ElementRef) { }
+  readonly clickedOutside = output<void>();
 
-  @Output() public clickedOutside = new EventEmitter();
-
-  @HostListener('window:click', ['$event.target'])
-  public onClick(target: any) {
-    const clickedInside = this.el.nativeElement.contains(target);
-    if (!clickedInside) {
-      this.clickedOutside.emit(null);
+  onClick(target: EventTarget | null) {
+    if (!this.el.nativeElement.contains(target)) {
+      this.clickedOutside.emit();
     }
   }
-
-  @HostListener('document:keydown', ['$event'])
-  public onKeydown(event: KeyboardEvent) {
-    if (event.key === 'Escape') {
-      this.clickedOutside.emit(null);
-    }
-  }
-
 }

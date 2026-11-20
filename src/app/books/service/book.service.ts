@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
@@ -9,10 +9,9 @@ import { RatingHydrationService } from '../../utils/rating-bar/service/rating-hy
   providedIn: 'root'
 })
 export class BookService {
-  constructor(
-    private http: HttpClient,
-    private ratingHydration: RatingHydrationService
-  ) {}
+  private http = inject(HttpClient);
+  private ratingHydration = inject(RatingHydrationService);
+
 
   getBooks(hydrateRatings: boolean = true): Observable<Book[]> {
     const books$ = this.http.get<{ books: Book[] }>('assets/data/books.json').pipe(

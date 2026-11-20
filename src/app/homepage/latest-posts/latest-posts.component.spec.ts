@@ -61,9 +61,9 @@ describe('LatestPostsComponent', () => {
     httpTestingController.expectOne('assets/data/kk.json').flush({ kkSongs: [] });
 
     expect(component).toBeTruthy();
-    expect(component.posts.length).toBe(3);
-    expect(component.posts[0].title).toBe('Game B');
-    expect(component.posts[1].title).toBe('Film A');
-    expect(component.posts[2].title).toBe('Game A');
+    expect(component.posts().length).toBe(3);
+    expect(component.posts()[0].title).toBe('Game B');
+    expect(component.posts()[1].title).toBe('Film A');
+    expect(component.posts()[2].title).toBe('Game A');
   });
 });

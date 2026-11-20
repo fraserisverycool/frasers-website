@@ -1,14 +1,15 @@
-import {Component, Input} from '@angular/core';
+import {Component, input, signal} from '@angular/core';
+
 @Component({
     selector: 'app-spoiler-discussion',
-    imports: [],
     templateUrl: './spoiler-discussion.component.html',
     styleUrls: ['./spoiler-discussion.component.css']
 })
 export class SpoilerDiscussionComponent {
-  @Input() spoiler: string = '';
-  showSpoiler: boolean = false;
+  readonly spoiler = input<string>('');
+  readonly showSpoiler = signal(false);
+
   toggleSpoiler() {
-    this.showSpoiler = !this.showSpoiler;
+    this.showSpoiler.update(v => !v);
   }
 }

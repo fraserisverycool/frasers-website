@@ -12,12 +12,12 @@
   </div>
 
   <div class="sorting-buttons">
-    <button [class.active]="currentSort === 'alphabetical'" (click)="sortPlaylists('alphabetical')">Alphabetical</button>
-    <button [class.active]="currentSort === 'random'" (click)="sortPlaylists('random')">Random Order</button>
+    <button [class.active]="currentSort() === 'alphabetical'" (click)="sortPlaylists('alphabetical')">Alphabetical</button>
+    <button [class.active]="currentSort() === 'random'" (click)="sortPlaylists('random')">Random Order</button>
   </div>
 
   <ul class="playlist-grid">
-    @for (playlist of filteredPlaylists; track playlist.id; let i = $index) {
+    @for (playlist of filteredPlaylists(); track playlist.id; let i = $index) {
       <li class="playlist-card" [style.animation-delay]="i * 0.05 + 's'">
         <div class="playlist-image-container">
           <img [ngSrc]="'/music/nintendo-playlists/' + playlist.image | imageUrl"
@@ -35,16 +35,16 @@
             </a>
           </div>
           <div class="rating">
-            <app-rating-bar [rating]="{id: playlist.id, ratings: playlist.rating}"></app-rating-bar>
+            <app-rating-bar [rating]="{id: playlist.id, ratings: playlist.rating}" />
           </div>
         </div>
       </li>
     }
   </ul>
 
-  @if (filteredPlaylists.length === 0) {
+  @if (filteredPlaylists().length === 0) {
     <div class="no-results">
-      <h2>Oops! No playlists found matching "{{ searchTerm }}".</h2>
+      <h2>Oops! No playlists found matching "{{ searchTerm() }}".</h2>
       <p>Try searching for something else, or check out <a routerLink="/music/nintendo">all Nintendo Soundtracks</a>!</p>
     </div>
   }

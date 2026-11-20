@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, OnInit, computed, inject, linkedSignal, signal } from '@angular/core';
+import { LowerCasePipe, NgClass, NgOptimizedImage } from '@angular/common';
 import {RouterLink} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {Soundtrack} from "./soundtrack.interface";
@@ -24,53 +24,53 @@ const platformOrder = [
 
 @Component({
   selector: 'app-nintendo',
-  imports: [CommonModule, RouterLink, FormsModule, NgOptimizedImage, SoundtrackModalComponent, InfiniteScrollDirective, ImageUrlPipe],
+  imports: [NgClass, LowerCasePipe, RouterLink, FormsModule, NgOptimizedImage, SoundtrackModalComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './soundtracks.component.html',
-  standalone: true,
   styleUrls: ['./soundtracks.component.css']
 })
 export default class SoundtracksComponent implements OnInit {
-  soundtracks: Soundtrack[] = [];
-  originalSoundtracks: Soundtrack[] = [];
-  selectedSoundtrack: Soundtrack | null = null;
+  private musicService = inject(MusicService);
 
-  private _searchTerm: string = '';
-  get searchTerm(): string {
-    return this._searchTerm;
-  }
-  set searchTerm(value: string) {
-    this._searchTerm = value;
-    this.resetInfiniteScroll();
-  }
+  private readonly originalSoundtracks = signal<Soundtrack[]>([]);
+  readonly soundtracks = signal<Soundtrack[]>([]);
+  readonly selectedSoundtrack = signal<Soundtrack | null>(null);
+  readonly searchTerm = signal('');
 
-  platformRank: Record<string, number> = platformOrder.reduce((acc, platform, index) => {
+  readonly platformRank: Record<string, number> = platformOrder.reduce((acc, platform, index) => {
     acc[platform] = index;
     return acc;
   }, {} as Record<string, number>);
 
-  pageSize = 20;
-  itemsToShow = 20;
+  readonly filteredSoundtracks = computed(() => {
+    const searchTerm = this.searchTerm();
+    if (!searchTerm) {
+      return this.soundtracks();
+    }
+    const lowerCaseSearchTerm = searchTerm.toLowerCase();
+    return this.soundtracks().filter(soundtrack =>
+      soundtrack.name.toLowerCase().includes(lowerCaseSearchTerm)
+    );
+  });
 
-  constructor(private musicService: MusicService) {}
+  private readonly pageSize = 20;
+  /** Resets to one page whenever the filtered list changes (search, sort, load). */
+  readonly itemsToShow = linkedSignal({ source: this.filteredSoundtracks, computation: () => this.pageSize });
+  readonly visibleSoundtracks = computed(() => this.filteredSoundtracks().slice(0, this.itemsToShow()));
 
   ngOnInit(): void {
     this.loadSoundtracks();
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.filteredSoundtracks.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.filteredSoundtracks().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
-  }
-
-  resetInfiniteScroll(): void {
-    this.itemsToShow = this.pageSize;
   }
 
   loadSoundtracks(): void {
     this.musicService.getSoundtracks().subscribe({
       next: (soundtracks) => {
-        this.originalSoundtracks = soundtracks;
+        this.originalSoundtracks.set(soundtracks);
         this.sortSoundtracks('release');
       },
       error: (err) => {
@@ -79,44 +79,35 @@ export default class SoundtracksComponent implements OnInit {
     });
   }
 
-  get filteredSoundtracks(): Soundtrack[] {
-    if (!this.searchTerm) {
-      return this.soundtracks;
-    }
-    return this.soundtracks.filter(soundtrack => {
-      const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
-      return soundtrack.name.toLowerCase().includes(lowerCaseSearchTerm);
-    });
-  }
-
   showDescription(soundtrack: Soundtrack): void {
+    // Deferred so the opening click is not treated as a click outside the modal.
     setTimeout(() => {
-      this.selectedSoundtrack = soundtrack;
+      this.selectedSoundtrack.set(soundtrack);
     }, 0);
   }
 
   closeDescription(): void {
-    this.selectedSoundtrack = null;
+    this.selectedSoundtrack.set(null);
   }
 
   sortSoundtracks(criteria: 'random' | 'release' | 'alphabeticalName' | 'platform'): void {
-    this.resetInfiniteScroll();
+    const original = this.originalSoundtracks();
     switch (criteria) {
       case 'release':
-        this.soundtracks = this.originalSoundtracks;
+        this.soundtracks.set([...original]);
         break;
       case 'random':
-        this.soundtracks = [...this.originalSoundtracks].sort(() => Math.random() - 0.5);
+        this.soundtracks.set([...original].sort(() => Math.random() - 0.5));
         break;
       case 'alphabeticalName':
-        this.soundtracks = [...this.originalSoundtracks].sort((a, b) => a.name.localeCompare(b.name));
+        this.soundtracks.set([...original].sort((a, b) => a.name.localeCompare(b.name)));
         break;
       case 'platform':
-        this.soundtracks = [...this.originalSoundtracks].sort((a, b) => {
+        this.soundtracks.set([...original].sort((a, b) => {
           const rankA = this.platformRank[a.platform] ?? Number.MAX_SAFE_INTEGER;
           const rankB = this.platformRank[b.platform] ?? Number.MAX_SAFE_INTEGER;
           return rankA - rankB;
-        });
+        }));
         break;
       default:
         console.error('Invalid sorting criteria');

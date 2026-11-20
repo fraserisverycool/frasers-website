@@ -8,15 +8,15 @@
     @for (game of gameMap | keyvalue:orderUnchanged; track game) {
       <a
         class="filter-button"
-        [ngClass]="{ 'selected': currentFilter === game.key }"
+        [ngClass]="{ 'selected': currentFilter() === game.key }"
         (click)="filterTracks(game.key)">
         {{ game.value }}
       </a>
     }
   </nav>
-  <p>{{ gameDescription[currentFilter] }}</p>
+  <p>{{ gameDescription[currentFilter()] }}</p>
   <ul class="track-list">
-    @for (track of tracks.slice(0, itemsToShow); track track) {
+    @for (track of visibleTracks(); track track) {
       <li class="track-card">
         <img
           [ngSrc]="'/misc/mariokart/' + track.image | imageUrl"
@@ -73,8 +73,8 @@
               }
             </div>
           }
-          <div [ngStyle]="{'padding-bottom': '25px'}"></div>
-          <app-rating-bar [rating]="{id: track.id, ratings: track.rating}"></app-rating-bar>
+          <div style="padding-bottom: 25px"></div>
+          <app-rating-bar [rating]="{id: track.id, ratings: track.rating}" />
         </li>
       }
     </ul>

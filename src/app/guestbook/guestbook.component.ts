@@ -1,77 +1,88 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, DestroyRef, OnInit, computed, inject, signal } from '@angular/core';
+import { DatePipe } from '@angular/common';
+import { Field, form, required, submit } from '@angular/forms/signals';
+import { firstValueFrom } from 'rxjs';
 import ColorPickerComponent from "../utils/color-picker/color-picker.component";
 import {GuestbookService} from "./service/guestbook.service";
-import {FormsModule} from "@angular/forms";
 import {Feedback} from "./feedback.interface";
 import {InfiniteScrollDirective} from "../utils/directives/infinite-scroll.directive";
 import {ImageUrlPipe} from "../utils/pipes/image-url.pipe";
 
+interface NewFeedback {
+  comment: string;
+  name: string;
+  color: string;
+}
+
+const EMPTY_FEEDBACK: NewFeedback = { comment: '', name: '', color: '#ffffff' };
+
 @Component({
     selector: 'app-guestbook',
-    imports: [CommonModule, FormsModule, ColorPickerComponent, InfiniteScrollDirective, ImageUrlPipe],
+    imports: [DatePipe, Field, ColorPickerComponent, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './guestbook.component.html',
     styleUrls: ['./guestbook.component.css']
 })
 export default class GuestbookComponent implements OnInit {
-  feedbacks: Feedback[] = [];
-  newFeedback = { comment: '', name: '', color: '#ffffff' };
-  errorMessage: string = '';
+  private guestbookService = inject(GuestbookService);
+  private destroyRef = inject(DestroyRef);
 
-  pageSize = 10;
-  itemsToShow = 10;
+  readonly feedbacks = signal<Feedback[]>([]);
 
-  constructor(private guestbookService: GuestbookService) { }
+  /** Signal Forms: the model is a plain signal, the form is derived from it. */
+  readonly newFeedback = signal<NewFeedback>({ ...EMPTY_FEEDBACK });
+  readonly feedbackForm = form(this.newFeedback, (path) => {
+    required(path.comment);
+    required(path.name);
+  });
+
+  readonly errorMessage = signal('');
+
+  private readonly pageSize = 10;
+  readonly itemsToShow = signal(this.pageSize);
+  readonly visibleFeedbacks = computed(() => this.feedbacks().slice(0, this.itemsToShow()));
 
   ngOnInit(): void {
-    this.loadFeedback();
+    this.guestbookService.getFeedback().subscribe({
+      next: (data) => this.feedbacks.set([...data].reverse()),
+      error: (error) => console.error('Error fetching feedback:', error),
+    });
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.feedbacks.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.feedbacks().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
   }
 
-  loadFeedback(): void {
-    this.guestbookService.getFeedback().subscribe(
-      (data) => {
-        this.feedbacks = [...data].reverse();
-      },
-      (error) => {
-        console.error('Error fetching feedback:', error);
-      }
-    );
-  }
-
-  submitFeedback(): void {
-    if (this.newFeedback.comment && this.newFeedback.name) {
-      this.guestbookService.postFeedback(this.newFeedback).subscribe(
-        (response) => {
-          this.feedbacks.unshift(response);
-          this.newFeedback = { comment: '', name: '', color: '#ffffff' };
-        },
-        (error) => {
-          console.error('Error posting feedback:', error);
-          if (error.error && error.error.errors) {
-            this.showError(error.error.errors.map((e: { msg: any; }) => e.msg).join(', '));
-          } else {
-            this.showError('Error submitting feedback');
-          }
+  onSubmit(event: Event): void {
+    event.preventDefault();
+    // `submit` marks every field as touched and only runs the action when the form is valid.
+    submit(this.feedbackForm, async (f) => {
+      try {
+        const response = await firstValueFrom(this.guestbookService.postFeedback(f().value()));
+        this.feedbacks.update(list => [response, ...list]);
+        this.newFeedback.set({ ...EMPTY_FEEDBACK });
+        f().reset();
+      } catch (error: any) {
+        console.error('Error posting feedback:', error);
+        if (error?.error?.errors) {
+          this.showError(error.error.errors.map((e: { msg: string }) => e.msg).join(', '));
+        } else {
+          this.showError('Error submitting feedback');
         }
-      );
-    }
-  }
-
-  showError(message: string): void {
-    this.errorMessage = message;
-    setTimeout(() => {
-      this.errorMessage = '';
-    }, 5000);
+      }
+      return undefined;
+    });
   }
 
   selectColor(color: string): void {
-    this.newFeedback.color = color;
+    this.newFeedback.update(f => ({ ...f, color }));
+  }
+
+  showError(message: string): void {
+    this.errorMessage.set(message);
+    const timer = setTimeout(() => this.errorMessage.set(''), 5000);
+    this.destroyRef.onDestroy(() => clearTimeout(timer));
   }
 
   textColor(color: string): string {

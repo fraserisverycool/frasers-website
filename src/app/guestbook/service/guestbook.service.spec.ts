@@ -42,8 +42,8 @@ describe('GuestbookService', () => {
   });
 
   it('should post feedback via POST', () => {
-    const newFeedback = { name: 'New User', comment: 'Awesome site!' };
-    const mockResponse: Feedback = { id: 3, ...newFeedback, color: '#ffffff', timestamp: '2024-01-03' };
+    const newFeedback = { name: 'New User', comment: 'Awesome site!', color: '#ffffff' };
+    const mockResponse: Feedback = { id: 3, ...newFeedback, timestamp: '2024-01-03' };
 
     service.postFeedback(newFeedback).subscribe(response => {
       expect(response).toEqual(mockResponse);

@@ -10,7 +10,7 @@
 <!--    </li>-->
 <!--  </ul>-->
   <ul class="concert-list">
-    @for (concert of concerts.slice(0, itemsToShow); track concert) {
+    @for (concert of visibleConcerts(); track concert) {
       <li class="concert-card">
         <h2>{{ concert.artist }}</h2>
         <p>
@@ -23,8 +23,8 @@
           width="600"
           height="400"
           >
-          <p [ngStyle]="{'padding-bottom': '15px'}">{{ concert.description }}</p>
-          <app-rating-bar [rating]="{id: concert.id, ratings: concert.rating}" class="rating"></app-rating-bar>
+          <p [style.padding-bottom]="'15px'">{{ concert.description }}</p>
+          <app-rating-bar [rating]="{id: concert.id, ratings: concert.rating}" class="rating" />
         </li>
       }
     </ul>

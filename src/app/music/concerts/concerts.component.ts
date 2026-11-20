@@ -1,5 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, computed, inject, signal } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { NgOptimizedImage } from '@angular/common';
+import { catchError, map, of } from 'rxjs';
 import {Concert} from "./concert.interface";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {MusicService} from "../service/music.service";
@@ -8,37 +10,31 @@ import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-concerts',
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
+  imports: [NgOptimizedImage, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './concerts.component.html',
-  standalone: true,
   styleUrls: ['./concerts.component.css']
 })
-export default class ConcertsComponent implements OnInit {
-  concerts: Concert[] = [];
+export default class ConcertsComponent {
+  private musicService = inject(MusicService);
 
-  pageSize = 5;
-  itemsToShow = 5;
+  readonly concerts = toSignal(
+    this.musicService.getConcerts().pipe(
+      map(concerts => concerts.filter(concert => concert.artist !== '')),
+      catchError(err => {
+        console.error('Failed to load concerts:', err);
+        return of([] as Concert[]);
+      })
+    ),
+    { initialValue: [] as Concert[] }
+  );
 
-  constructor(private musicService: MusicService) {}
-
-  ngOnInit(): void {
-    this.loadConcerts();
-  }
+  private readonly pageSize = 5;
+  readonly itemsToShow = signal(this.pageSize);
+  readonly visibleConcerts = computed(() => this.concerts().slice(0, this.itemsToShow()));
 
   loadMore(): void {
-    if (this.itemsToShow < this.concerts.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.concerts().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
-  }
-
-  loadConcerts(): void {
-    this.musicService.getConcerts().subscribe({
-      next: (concerts) => {
-        this.concerts = concerts.filter(concert => concert.artist !== '');
-      },
-      error: (err) => {
-        console.error('Failed to load concerts:', err);
-      },
-    });
   }
 }

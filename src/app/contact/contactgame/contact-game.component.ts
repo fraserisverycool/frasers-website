@@ -1,72 +1,74 @@
-import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, NgZone, OnDestroy, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnDestroy, signal, viewChild } from '@angular/core';
 import {environment} from "../../../environments/environment";
 
 type PhaserType = typeof import('phaser');
 
 @Component({
   selector: 'app-contactgame',
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './contact-game.component.html',
   styleUrl: './contact-game.component.css',
 })
 export class ContactGameComponent implements AfterViewInit, OnDestroy {
-  @ViewChild('gameContainer') gameContainer?: ElementRef<HTMLDivElement>;
+  readonly gameContainer = viewChild<ElementRef<HTMLDivElement>>('gameContainer');
 
-  hasWon = false;
-  hasFailed = false;
-  emailImageSrc = '';
-  score = 0;
-  lives = 3;
-  imagepath: string = `${environment.imageBaseUrl}/homepage/contact`;
+  readonly hasWon = signal(false);
+  readonly hasFailed = signal(false);
+  readonly emailImageSrc = signal('');
+  readonly score = signal(0);
+  readonly lives = signal(3);
+  readonly imagepath: string = `${environment.imageBaseUrl}/homepage/contact`;
   private game?: InstanceType<PhaserType['Game']>;
+  private destroyed = false;
   private readonly sceneKey = 'contact-maze';
-
-  constructor(private ngZone: NgZone) {}
 
   ngAfterViewInit(): void {
     void this.initGame();
   }
 
   ngOnDestroy(): void {
+    this.destroyed = true;
     this.destroyGame();
   }
 
   private async initGame(): Promise<void> {
-    if (this.game || !this.gameContainer) {
+    if (this.game || !this.gameContainer()) {
       return;
     }
 
     const phaserModule = (await import('phaser')) as PhaserType & { default?: PhaserType };
+    // The component may have been destroyed (or a game created) while Phaser was loading.
+    const container = this.gameContainer();
+    if (this.destroyed || this.game || !container) {
+      return;
+    }
     const Phaser = phaserModule.default ?? phaserModule;
     const scene = this.createScene(Phaser);
-    this.ngZone.runOutsideAngular(() => {
-      this.game = new Phaser.Game({
-        type: Phaser.AUTO,
+    this.game = new Phaser.Game({
+      type: Phaser.AUTO,
+      width: 520,
+      height: 520,
+      parent: container.nativeElement,
+      render: {
+        antialias: true,
+        antialiasGL: true,
+        pixelArt: false,
+        roundPixels: false,
+        transparent: true,
+      },
+      physics: {
+        default: 'arcade',
+        arcade: {
+          debug: false,
+        },
+      },
+      scale: {
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
         width: 520,
         height: 520,
-        parent: this.gameContainer?.nativeElement,
-        render: {
-          antialias: true,
-          antialiasGL: true,
-          pixelArt: false,
-          roundPixels: false,
-          transparent: true,
-        },
-        physics: {
-          default: 'arcade',
-          arcade: {
-            debug: false,
-          },
-        },
-        scale: {
-          mode: Phaser.Scale.FIT,
-          autoCenter: Phaser.Scale.CENTER_BOTH,
-          width: 520,
-          height: 520,
-        },
-        scene,
-      });
+      },
+      scene,
     });
   }
 
@@ -78,21 +80,21 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
   }
 
   private handleWin(): void {
-    if (this.hasWon || this.hasFailed) {
+    if (this.hasWon() || this.hasFailed()) {
       return;
     }
 
-    this.score = 2000 + this.lives * 150;
-    this.hasWon = true;
-    this.emailImageSrc = this.buildEmailImage();
+    this.score.set(2000 + this.lives() * 150);
+    this.hasWon.set(true);
+    this.emailImageSrc.set(this.buildEmailImage());
   }
 
   resetGame(): void {
-    this.hasWon = false;
-    this.hasFailed = false;
-    this.emailImageSrc = '';
-    this.score = 0;
-    this.lives = 3;
+    this.hasWon.set(false);
+    this.hasFailed.set(false);
+    this.emailImageSrc.set('');
+    this.score.set(0);
+    this.lives.set(3);
 
     if (this.game) {
       const scene = this.game.scene.getScene(this.sceneKey);
@@ -101,13 +103,13 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
   }
 
   private handleFailure(): void {
-    if (this.hasWon || this.hasFailed) {
+    if (this.hasWon() || this.hasFailed()) {
       return;
     }
 
-    this.hasFailed = true;
-    this.lives = 0;
-    this.score = 0;
+    this.hasFailed.set(true);
+    this.lives.set(0);
+    this.score.set(0);
   }
 
   private createScene(Phaser: PhaserType): InstanceType<PhaserType['Scene']> {
@@ -175,7 +177,7 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
           }
           this.ended = true;
           player.disableInteractive();
-          component.ngZone.run(() => component.handleFailure());
+          component.handleFailure();
           this.tweens.add({
             targets: player,
             alpha: 0.2,
@@ -210,7 +212,7 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
           }
           this.ended = true;
           player.disableInteractive();
-          component.ngZone.run(() => component.handleWin());
+          component.handleWin();
         });
       }
 

@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit, computed, inject, signal } from '@angular/core';
 import {Playlist} from "./playlist.interface";
 import {MusicService} from "../service/music.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
@@ -9,34 +9,31 @@ import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
   selector: 'app-playlists',
   imports: [RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './playlists.component.html',
-  standalone: true,
   styleUrls: ['./playlists.component.css']
 })
 export default class PlaylistsComponent implements OnInit {
-  mp3Files: Playlist[] = [];
-  color: String = "#000000"
+  private musicService = inject(MusicService);
 
-  pageSize = 5;
-  itemsToShow = 5;
+  readonly mp3Files = signal<Playlist[]>([]);
+  readonly color = signal(this.getRandomColor());
 
-  constructor(private musicService: MusicService) {}
+  private readonly pageSize = 5;
+  readonly itemsToShow = signal(this.pageSize);
+  readonly visibleFiles = computed(() => this.mp3Files().slice(0, this.itemsToShow()));
 
   ngOnInit(): void {
     this.loadPlaylists();
-    this.color = this.getRandomColor();
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.mp3Files.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.mp3Files().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
   }
 
   loadPlaylists(): void {
     this.musicService.getPlaylists().subscribe({
-      next: (playlists) => {
-        this.mp3Files = playlists;
-      },
+      next: (playlists) => this.mp3Files.set(playlists),
       error: (err) => {
         console.error('Failed to load playlists:', err);
       },

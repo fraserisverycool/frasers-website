@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
@@ -11,12 +11,10 @@ import {RatingHydrationService} from "../../../utils/rating-bar/service/rating-h
   providedIn: 'root'
 })
 export class PhotoService {
-  private apiUrl = environment.apiUrl;
+  private http = inject(HttpClient);
+  private ratingHydration = inject(RatingHydrationService);
 
-  constructor(
-    private http: HttpClient,
-    private ratingHydration: RatingHydrationService
-  ) { }
+  private apiUrl = environment.apiUrl;
 
   postAnswer(id: string, answer: string): Observable<Secret> {
     return this.http.post<Secret>(`${this.apiUrl}/anecdote/${id}`, { answer: answer });

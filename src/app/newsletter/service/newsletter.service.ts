@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { forkJoin, Observable, of } from 'rxjs';
 import { catchError, map, switchMap } from 'rxjs/operators';
@@ -9,10 +9,9 @@ import { RatingHydrationService } from '../../utils/rating-bar/service/rating-hy
   providedIn: 'root'
 })
 export class NewsletterService {
-  constructor(
-    private http: HttpClient,
-    private ratingHydration: RatingHydrationService
-  ) {}
+  private http = inject(HttpClient);
+  private ratingHydration = inject(RatingHydrationService);
+
 
   getNewsletterByTimestamp(timestamp: string): Observable<Newsletter | null> {
     return this.http.get<Newsletter>(`assets/newsletter/newsletter-${timestamp}.json`).pipe(

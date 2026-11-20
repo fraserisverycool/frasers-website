@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 
 @Component({
@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
     styleUrls: ['./divider.component.css']
 })
 export class DividerComponent {
-  @Input() height: number = 50;
+  readonly height = input<number>(50);
 }

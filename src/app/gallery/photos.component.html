@@ -1,9 +1,9 @@
 <div class="container">
   <h1>Photos!</h1>
   <ul class="gallery-rows">
-    @for (photo of photos.slice(0, itemsToShow); track photo; let i = $index) {
+    @for (photo of visiblePhotos(); track photo.id) {
       <li class="gallery-row">
-        <app-photo [photo]=photo></app-photo>
+        <app-photo [photo]="photo" />
       </li>
     }
   </ul>

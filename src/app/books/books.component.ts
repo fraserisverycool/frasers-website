@@ -1,5 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, computed, inject, signal } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { NgOptimizedImage, NgStyle } from '@angular/common';
+import { catchError, of } from 'rxjs';
 import {Book} from "./book.interface";
 import {RatingBarComponent} from "../utils/rating-bar/rating-bar.component";
 import {SpoilerDiscussionComponent} from "../utils/spoiler-discussion/spoiler-discussion.component";
@@ -9,37 +11,31 @@ import {ImageUrlPipe} from "../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-books',
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, SpoilerDiscussionComponent, InfiniteScrollDirective, ImageUrlPipe],
+    imports: [NgOptimizedImage, NgStyle, RatingBarComponent, SpoilerDiscussionComponent, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './books.component.html',
     styleUrls: ['./books.component.css']
 })
-export default class BooksComponent implements OnInit {
-  books: Book[] = [];
-  title: string = "Book recommendations";
+export default class BooksComponent {
+  private bookService = inject(BookService);
 
-  pageSize = 5;
-  itemsToShow = 5;
+  readonly books = toSignal(
+    this.bookService.getBooks().pipe(
+      catchError(err => {
+        console.error('Failed to load books:', err);
+        return of([] as Book[]);
+      })
+    ),
+    { initialValue: [] as Book[] }
+  );
+  readonly title = "Book recommendations";
 
-  constructor(private bookService: BookService) {}
-
-  ngOnInit(): void {
-    this.loadBooks();
-  }
+  private readonly pageSize = 5;
+  readonly itemsToShow = signal(this.pageSize);
+  readonly visibleBooks = computed(() => this.books().slice(0, this.itemsToShow()));
 
   loadMore(): void {
-    if (this.itemsToShow < this.books.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.books().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
-  }
-
-  loadBooks(): void {
-    this.bookService.getBooks().subscribe({
-      next: (books) => {
-        this.books = books;
-      },
-      error: (err) => {
-        console.error('Failed to load books:', err);
-      },
-    });
   }
 }

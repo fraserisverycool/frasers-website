@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, signal} from '@angular/core';
 import {environment} from "../../../../environments/environment";
 
 @Component({
@@ -8,9 +8,9 @@ import {environment} from "../../../../environments/environment";
   styleUrl: './brightwell-stats.component.css',
 })
 export default class BrightwellStatsComponent implements OnInit{
-  stats: any[] = [];
+  readonly stats = signal<any[]>([]);
 
-  endingTitles: { [key: string]: string } = {
+  readonly endingTitles: { [key: string]: string } = {
     'ending1': 'Safely in Brightwell',
     'ending2': 'Fruit arrives to Brightwell',
     'ending3': 'Island Life, Muriel AWOL',
@@ -28,7 +28,7 @@ export default class BrightwellStatsComponent implements OnInit{
     fetch(`${environment.apiUrl}/brightwell/stats`)
       .then(response => response.json())
       .then(data => {
-        this.stats = data.sort((a: any, b: any) => a.ending.localeCompare(b.ending));
+        this.stats.set(data.sort((a: any, b: any) => a.ending.localeCompare(b.ending)));
       })
       .catch(error => console.error('Error fetching ending stats:', error));
   }

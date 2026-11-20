@@ -1,33 +1,33 @@
 <div class='game-review'>
-  <h2>{{ game.name }} ({{ game.platform }})</h2>
+  <h2>{{ game().name }} ({{ game().platform }})</h2>
   <div class="summary">
     <div class="summary-text">
       <p>
-        <span class="vibes">Vibes:</span> {{ game.vibes }}/10 |
+        <span class="vibes">Vibes:</span> {{ game().vibes }}/10 |
         <span class="gameplay">
-          {{ game.story ? 'Story:' : 'Gameplay:' }}
+          {{ game().story ? 'Story:' : 'Gameplay:' }}
         </span>
-        {{ game.gameplay }}/10
+        {{ game().gameplay }}/10
       </p>
       <p>
-        <span class="release-info">Released:</span> {{ game.release }} |
-        <span class="release-info">Played:</span> {{ game.year === 'older' ? 'before 2020' : game.year }}
+        <span class="release-info">Released:</span> {{ game().release }} |
+        <span class="release-info">Played:</span> {{ game().year === 'older' ? 'before 2020' : game().year }}
       </p>
     </div>
-    @if (game.completed) {
+    @if (game().completed) {
       <img
         class="completed"
-        [ngSrc]="'/games/' + (!game.completable ? 'completed2.png' : 'completed.png') | imageUrl"
+        [ngSrc]="'/games/' + (!game().completable ? 'completed2.png' : 'completed.png') | imageUrl"
         alt="completed"
-        [title]="!game.completable ? 'As far as this game can actually be completed' : 'I beat the game!'"
+        [title]="!game().completable ? 'As far as this game can actually be completed' : 'I beat the game!'"
         width="50"
         height="50"
         />
     }
   </div>
-  <app-read-more [paragraphs]="game.review"></app-read-more>
-  <img [ngSrc]="'/games/' + game.image | imageUrl" alt="{{ game.name }}" width="600" height="400">
-  <app-friend-rating [currentId]="game.id"></app-friend-rating>
+  <app-read-more [paragraphs]="game().review" />
+  <img [ngSrc]="'/games/' + game().image | imageUrl" alt="{{ game().name }}" width="600" height="400">
+  <app-friend-rating [currentId]="game().id" />
   <div [ngStyle]="{'padding-bottom': '10px'}"></div>
-  <app-rating-bar [rating]="{id: game.id, ratings: game.rating}"></app-rating-bar>
+  <app-rating-bar [rating]="{id: game().id, ratings: game().rating}" />
 </div>

@@ -14,7 +14,7 @@ describe('GameComponent', () => {
     component = fixture.componentInstance;
 
     // Provide a mock game input to avoid errors
-    component.game = {
+    fixture.componentRef.setInput('game', {
       id: '1',
       name: 'Test Game',
       platform: 'Switch',
@@ -30,7 +30,7 @@ describe('GameComponent', () => {
       completed: true,
       completable: true,
       newsletter: false
-    } as Game;
+    } as Game);
 
     fixture.detectChanges();
   });

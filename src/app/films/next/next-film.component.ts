@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     styleUrls: ['./next-film.component.css']
 })
 export default class NextFilmComponent {
-  films = [
+  readonly films = [
     'Lurker', 'Streets of Fire', 'Gladiator',
     'Black Orpheus', 'Hereditary', 'Where Dragons Live',
     'Labyrinth', 'Playtime', 'Black Christmas', 'Wings', 'The Trial',

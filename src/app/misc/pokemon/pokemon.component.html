@@ -3,22 +3,22 @@
   <img [src]="'/misc/pokemon/pokemon-trainer.gif' | imageUrl" alt="cool gif with pokemon trainer">
   <p>I'm tired of all of these terrible opinions about pokemon. On this webpage I have put all 1025 pokemon into a tier list. Criteria is vibes only. SS, S and F tiers are ordered.</p>
   <div class="sorting-buttons generations">
-    <button (click)="toggleGeneration(1)" [class.selected]="activeGenerations.has(1)">Gen 1</button>
-    <button (click)="toggleGeneration(2)" [class.selected]="activeGenerations.has(2)">Gen 2</button>
-    <button (click)="toggleGeneration(3)" [class.selected]="activeGenerations.has(3)">Gen 3</button>
-    <button (click)="toggleGeneration(4)" [class.selected]="activeGenerations.has(4)">Gen 4</button>
-    <button (click)="toggleGeneration(5)" [class.selected]="activeGenerations.has(5)">Gen 5</button>
-    <button (click)="toggleGeneration(6)" [class.selected]="activeGenerations.has(6)">Gen 6</button>
-    <button (click)="toggleGeneration(7)" [class.selected]="activeGenerations.has(7)">Gen 7</button>
-    <button (click)="toggleGeneration(8)" [class.selected]="activeGenerations.has(8)">Gen 8</button>
-    <button (click)="toggleGeneration(9)" [class.selected]="activeGenerations.has(9)">Gen 9</button>
+    <button (click)="toggleGeneration(1)" [class.selected]="activeGenerations().has(1)">Gen 1</button>
+    <button (click)="toggleGeneration(2)" [class.selected]="activeGenerations().has(2)">Gen 2</button>
+    <button (click)="toggleGeneration(3)" [class.selected]="activeGenerations().has(3)">Gen 3</button>
+    <button (click)="toggleGeneration(4)" [class.selected]="activeGenerations().has(4)">Gen 4</button>
+    <button (click)="toggleGeneration(5)" [class.selected]="activeGenerations().has(5)">Gen 5</button>
+    <button (click)="toggleGeneration(6)" [class.selected]="activeGenerations().has(6)">Gen 6</button>
+    <button (click)="toggleGeneration(7)" [class.selected]="activeGenerations().has(7)">Gen 7</button>
+    <button (click)="toggleGeneration(8)" [class.selected]="activeGenerations().has(8)">Gen 8</button>
+    <button (click)="toggleGeneration(9)" [class.selected]="activeGenerations().has(9)">Gen 9</button>
   </div>
 
   <div class="sorting-buttons regions">
-    <button (click)="toggleRegion('alolan')" [class.selected]="activeRegions.has('alolan')">Alolan</button>
-    <button (click)="toggleRegion('galarian')" [class.selected]="activeRegions.has('galarian')">Galarian</button>
-    <button (click)="toggleRegion('hisuian')" [class.selected]="activeRegions.has('hisuian')">Hisuian</button>
-    <button (click)="toggleRegion('paldean')" [class.selected]="activeRegions.has('paldean')">Paldean</button>
+    <button (click)="toggleRegion('alolan')" [class.selected]="activeRegions().has('alolan')">Alolan</button>
+    <button (click)="toggleRegion('galarian')" [class.selected]="activeRegions().has('galarian')">Galarian</button>
+    <button (click)="toggleRegion('hisuian')" [class.selected]="activeRegions().has('hisuian')">Hisuian</button>
+    <button (click)="toggleRegion('paldean')" [class.selected]="activeRegions().has('paldean')">Paldean</button>
   </div>
 
   <div class="sorting-buttons types">
@@ -27,14 +27,14 @@
         (click)="toggleType(type)"
         class="type-button"
         [ngClass]="type.toLowerCase()"
-        [class.selected]="activeTypes.has(type)">
+        [class.selected]="activeTypes().has(type)">
         {{ type | titlecase }}
       </button>
     }
   </div>
 
   <div class="sorting-buttons misc">
-    <button (click)="toggleFilterMode()">Mode: {{ filterMode }}</button>
+    <button (click)="toggleFilterMode()">Mode: {{ filterMode() }}</button>
     <button (click)="clearFilters()">Clear Filters</button>
     <button (click)="collapseAllTiers()">Collapse All</button>
     <button (click)="expandAllTiers()">Open All</button>
@@ -46,12 +46,12 @@
         <div class="tier-header" (click)="toggleTier(tierKey)">
           <span class="tier-name">{{ tierKey }}</span>
           <span class="tier-description">{{ tierHeadings[tierKey] }}</span>
-          <span class="arrow">{{ collapsed[tierKey] ? "▶" : "▼" }}</span>
+          <span class="arrow">{{ collapsed()[tierKey] ? "▶" : "▼" }}</span>
         </div>
-        @if (!collapsed[tierKey]) {
+        @if (!collapsed()[tierKey]) {
           <div class="tier-content">
             <div class="pokemon-grid">
-              @for (p of tiers[tierKey]; track p) {
+              @for (p of tiers()[tierKey]; track p) {
                 <div
                   class="pokemon-card"
                   [title]="p.number + ' – ' + p.name"
@@ -71,7 +71,7 @@
     </div>
   </div>
 
-  @if (selectedPokemon) {
+  @if (selectedPokemon(); as selectedPokemon) {
     <div class="modal" (click)="closeModal()">
       <app-close-button (click)="close.emit()"/>
       <div class="modal-content" (click)="$event.stopPropagation()">

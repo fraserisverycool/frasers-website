@@ -1,7 +1,9 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { toSignal } from '@angular/core/rxjs-interop';
+import { catchError, map, of, switchMap } from 'rxjs';
 import {DailySoundtrack} from "./daily-soundtrack.interface";
-import {DomSanitizer, SafeResourceUrl, SafeUrl} from "@angular/platform-browser";
+import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {RouterLink} from "@angular/router";
 import {RatingHydrationService} from "../../utils/rating-bar/service/rating-hydration.service";
@@ -11,45 +13,35 @@ import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
   selector: 'app-daily',
   imports: [RatingBarComponent, RouterLink, ImageUrlPipe],
   templateUrl: './daily.component.html',
-  standalone: true,
   styleUrls: ['./daily.component.css']
 })
-export class DailyComponent implements OnInit {
-  dailySoundtracks: DailySoundtrack[] = [];
-  today: DailySoundtrack | null = null;
-  safeLink: SafeUrl | null = null;
-  audioPath: string = '/music/dailysoundtracks/';
+export class DailyComponent {
+  private http = inject(HttpClient);
+  private ratingHydration = inject(RatingHydrationService);
+  private sanitizer = inject(DomSanitizer);
 
-  constructor(
-    private http: HttpClient,
-    private ratingHydration: RatingHydrationService,
-    private sanitizer: DomSanitizer
-  ) {}
-
-  ngOnInit(): void {
-    this.loadDailySoundtracks();
-  }
-
-  loadDailySoundtracks(): void {
-    this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/data/daily-soundtracks.json').subscribe({
-      next: (data) => {
-        this.ratingHydration.hydrateRatings(data.dailysoundtracks).subscribe(hydrated => {
-          this.dailySoundtracks = hydrated as DailySoundtrack[];
-          this.today = this.dailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
-          if (this.today) {
-            if (typeof(this.today.link) === 'string') {
-              this.safeLink = this.getSafeEmbedUrl(this.today.link);
-            } else {
-              this.safeLink = this.getUnsafeEmbedUrl(this.today.link);
-            }
-          }
-        });
-      },
-      error: (err) => {
+  readonly dailySoundtracks = toSignal(
+    this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/data/daily-soundtracks.json').pipe(
+      switchMap(data => this.ratingHydration.hydrateRatings(data.dailysoundtracks)),
+      map(hydrated => hydrated as DailySoundtrack[]),
+      catchError(err => {
         console.error('Failed to load daily Soundtracks:', err);
-      },
-    });
-  }
+        return of([] as DailySoundtrack[]);
+      })
+    ),
+    { initialValue: [] as DailySoundtrack[] }
+  );
+  readonly today = computed(() =>
+    this.dailySoundtracks().find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null
+  );
+  readonly safeLink = computed<SafeResourceUrl | null>(() => {
+    const today = this.today();
+    if (!today) return null;
+    return typeof(today.link) === 'string'
+      ? this.getSafeEmbedUrl(today.link)
+      : this.getUnsafeEmbedUrl(today.link);
+  });
+  readonly audioPath: string = '/music/dailysoundtracks/';
 
   todaysDate(): string {
     const today = new Date();

@@ -10,26 +10,26 @@
   </div>
   <div class="feedback-form">
     <h2>Submit your contribution!</h2>
-    <form (ngSubmit)="submitFeedback()">
+    <form (submit)="onSubmit($event)" novalidate>
       <div>
         <label for="comment">Comment:</label>
-        <textarea id="comment" [(ngModel)]="newFeedback.comment" name="comment" required></textarea>
+        <textarea id="comment" [field]="feedbackForm.comment"></textarea>
       </div>
       <div>
         <label for="name">Name:</label>
-        <input type="text" id="name" [(ngModel)]="newFeedback.name" name="name" required>
+        <input type="text" id="name" [field]="feedbackForm.name">
       </div>
-      <app-color-picker [color]="newFeedback.color" (colorChange)="newFeedback.color = $event"></app-color-picker>
+      <app-color-picker [color]="newFeedback().color" (colorChange)="selectColor($event)" />
       <button type="submit">Submit Feedback</button>
-      @if (errorMessage) {
+      @if (errorMessage()) {
         <div class="error-message">
-          {{ errorMessage }}
+          {{ errorMessage() }}
         </div>
       }
     </form>
   </div>
   <ul class="feedback-list">
-    @for (feedback of feedbacks.slice(0, itemsToShow); track feedback) {
+    @for (feedback of visibleFeedbacks(); track feedback.id) {
       <li class="feedback-item" [style.background-color]="feedback.color" [style.color]="textColor(feedback.color)">
         <p><strong>{{ feedback.name }}</strong> - {{ feedback.timestamp | date:'dd-MM-yyyy' }}</p>
         <p>{{ feedback.comment }}</p>

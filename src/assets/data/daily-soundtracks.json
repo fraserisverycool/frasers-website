@@ -217,199 +217,245 @@
       "tags": []
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Koji Kondo, Masato Ohashi, Hayato Sato, Kairi Hamada, Rika Hayashi",
+      "album": "The Legend of Zelda: Ocarina of Time",
+      "track": "Gerudo Valley",
+      "description": "The remade Gerudo Valley is so good. That percussion is perfect. It's a classic and a banger.",
+      "link": "https://www.youtube.com/watch?v=_gwVjgNpRIQ",
+      "game": true,
       "day": "15-07-2027",
       "id": "a8c1397b-8b90-433f-8fa8-4bebe4ae3544",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "gerudo-valley.mp3",
+      "tags": [
+        "intense",
+        "zelda"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Tsunku",
+      "album": "Rhythm Paradise Groove",
+      "track": "Remix 18",
+      "description": "Shoutouts to Rhythm Paradise for making a deep house banger in one of its amazing remixes. A lot of these tracks are great.",
+      "link": "https://www.youtube.com/watch?v=BuX4DqDip4M",
+      "game": true,
       "day": "14-07-2027",
       "id": "da7e7419-7288-4131-b9e1-50dd4c259f4c",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "remix-18.mp3",
+      "tags": [
+        "party",
+        "chill"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Robin Beanland",
+      "album": "Killer Instinct - Killer Cuts Soundtrack",
+      "track": "The Instinct",
+      "description": "A fun classic rock track from the CD which game with this ancient fighting game.",
+      "link": "https://www.youtube.com/watch?v=Cvq-znoS2HY",
+      "game": true,
       "day": "13-07-2027",
       "id": "f6e31199-0a5d-4e21-a524-fa54b31e5b85",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "the-instinct.mp3",
+      "tags": [
+        "intense",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Jessie Ware",
+      "album": "Superbloom",
+      "track": "Don't You Know Who I Am?",
+      "description": "Wow, this might be the cuntiest song I've ever heard. A woman scorned realises her man is kissing another woman, and she curses him on the dancefloor. It's so great.",
+      "link": "https://www.youtube.com/watch?v=uBGydlIjhSc",
       "game": false,
       "day": "12-07-2027",
       "id": "45fea651-ee02-458a-a15f-f612f0352e9c",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "dont-you-know-who-i-am.mp3",
+      "tags": [
+        "pop",
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Kero Kero Bonito",
+      "album": "Time 'n' Place",
+      "track": "Swimming",
+      "description": "Such a great track. Only this band would choose words for their lyrics like 'detritus'. Also I love the video.",
+      "link": "https://www.youtube.com/watch?v=O9Zl4hyIgB4",
       "game": false,
       "day": "11-07-2027",
       "id": "b18f5f00-b0be-458f-9c94-26021e420f49",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "swimming.mp3",
+      "tags": [
+        "video",
+        "magical",
+        "indie"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Neggy Gemmy (feat. Sarah Bonito)",
+      "album": "Neggy Gemmy",
+      "track": "Gemmy Juice",
+      "description": "I don't know anything about Neggy Gemmy but this video is fun.",
+      "link": "https://www.youtube.com/watch?v=-bMeptsRTu4",
       "game": false,
       "day": "10-07-2027",
       "id": "3991e9de-bea5-4191-9c1e-0801852ee4e1",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "gemmy-juice.mp3",
+      "tags": [
+        "video",
+        "pop",
+        "party"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Shinji Hosoe",
+      "album": "Ridge Racer",
+      "track": "Rare Hero",
+      "description": "Cheesy happy-core party racing game nonsense.",
+      "link": "https://www.youtube.com/watch?v=uJkK83jJFuE",
+      "game": true,
       "day": "09-07-2027",
       "id": "aaa5590c-14a7-4dbe-ab86-a0dd9c6f0a1d",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "rare-hero.mp3",
+      "tags": [
+        "party",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Ibeyi",
+      "album": "Ibeyi",
+      "track": "River",
+      "description": "Nice track that I've known for a long time but really appreciated it when I heard it recently in a pilates class.",
+      "link": "https://www.youtube.com/watch?v=lHRAPIwsS5I",
       "game": false,
       "day": "08-07-2027",
       "id": "62d8817c-40ec-4e5e-99d9-774867f20155",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "river-ibeyi.mp3",
+      "tags": [
+        "chill"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Masato Nakamura",
+      "album": "Sonic the Hedgehog 2",
+      "track": "Aquatic Ruin Zone",
+      "description": "Timeless salsa classic from the Genesis. Love it.",
+      "link": "https://www.youtube.com/watch?v=AK33c2rV2Do",
+      "game": true,
       "day": "07-07-2027",
       "id": "dd29a41f-db99-4a20-a554-2aa37de4876d",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "aquatic-zone.mp3",
+      "tags": [
+        "funky",
+        "sonic"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Toshiharu Yamanishi, Takeshi Yoshida",
+      "album": "Thunder Force IV",
+      "track": "Don't Go Off",
+      "description": "Insanely funky character select screen from this banger of a game soundtrack. Go off.",
+      "link": "https://www.youtube.com/watch?v=z7rSbXMProc",
+      "game": true,
       "day": "06-07-2027",
       "id": "768e28cc-f29f-44eb-84c4-a7587d3736c3",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "dont-go-off.mp3",
+      "tags": [
+        "funky",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Isao Abe, Syun Nishigaki, Kiyoko Yamada",
+      "album": "Cadillacs and Dinosaurs",
+      "track": "Boss 4",
+      "description": "Wow super cool and jazzy intense boss music from this dumb game!",
+      "link": "https://www.youtube.com/watch?v=cbw1D7PYFqA",
+      "game": true,
       "day": "05-07-2027",
       "id": "492ab199-6b4e-4147-b510-c6c26efc71d8",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "boss-4.mp3",
+      "tags": [
+        "intense",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Harry Gregson-Williams, Norihiko Hibino",
+      "album": "Metal Gear Solid 2: Sons of Liberty",
+      "track": "Electronica Emma",
+      "description": "Recently learned about this huge vibe of a track from this game I've never played.",
+      "link": "https://www.youtube.com/watch?v=jaLzw52JWO8",
+      "game": true,
       "day": "04-07-2027",
       "id": "831dd9bd-ee24-4625-8448-25cba1064f0c",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "electronica-emma.mp3",
+      "tags": [
+        "funky",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Hideki Yamamoto, Hiroaki Shimizu, Yuka Watanabe",
+      "album": "Magician Lord",
+      "track": "Castle of Devils",
+      "description": "Fun song from this Neo-Geo game.",
+      "link": "https://www.youtube.com/watch?v=beshLnJMeFM",
+      "game": true,
       "day": "03-07-2027",
       "id": "207b0d31-738e-458a-9656-16f4879c059d",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "castle-of-devils.mp3",
+      "tags": [
+        "intense",
+        "other"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
+      "artist": "Caroline Rose",
+      "album": "Loner",
+      "track": "Jeannie Becomes A Mom",
+      "description": "Such a fun song by this lady that I don't really know.",
+      "link": "https://www.youtube.com/watch?v=1bx8QdYj0Pg",
       "game": false,
       "day": "02-07-2027",
       "id": "f9be78bb-ef53-4985-807a-a8103712e4cc",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "jeannie-becomes-a-mom.mp3",
+      "tags": [
+        "indie",
+        "singer-songwriter"
+      ]
     },
     {
-      "artist": "",
-      "album": "",
-      "track": "",
-      "description": "",
-      "link": "",
-      "game": false,
+      "artist": "Yuzo Koshiro",
+      "album": "The Revenge of Shinobi",
+      "track": "The Shinobi",
+      "description": "What a great groove. So funky.",
+      "link": "https://www.youtube.com/watch?v=4PdvVd-t1Vo",
+      "game": true,
       "day": "01-07-2027",
       "id": "8f425e60-99f5-4ca4-9716-92cf9fc0b41c",
       "newsletter": false,
-      "filename": "",
-      "tags": []
+      "filename": "shinobi.mp3",
+      "tags": [
+        "funky",
+        "other"
+      ]
     },
     {
       "artist": "Jamiroquai",
@@ -2420,7 +2466,7 @@
     {
       "artist": "Jessie Ware",
       "album": "Devotion",
-      "track": "Imagine Is Was Us",
+      "track": "Imagine It Was Us",
       "description": "This song is the blueprint for her reinvention as a disco queen. I don't think the What's Your Pleasure revolution would have happened if it weren't for this song. It's so good!",
       "link": "https://www.youtube.com/watch?v=u03f5Wnwff0",
       "game": false,

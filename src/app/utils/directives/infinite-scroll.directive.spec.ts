@@ -1,5 +1,6 @@
 import { InfiniteScrollDirective } from './infinite-scroll.directive';
 import { ElementRef } from '@angular/core';
+import { TestBed } from '@angular/core/testing';
 
 describe('InfiniteScrollDirective', () => {
   let elementRef: ElementRef;
@@ -24,7 +25,10 @@ describe('InfiniteScrollDirective', () => {
       unobserve = jasmine.createSpy('unobserve');
     };
 
-    directive = new InfiniteScrollDirective(elementRef);
+    TestBed.configureTestingModule({
+      providers: [{ provide: ElementRef, useValue: elementRef }]
+    });
+    directive = TestBed.runInInjectionContext(() => new InfiniteScrollDirective());
   });
 
   afterEach(() => {

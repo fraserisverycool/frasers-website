@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { catchError, map, switchMap } from 'rxjs/operators';
@@ -43,10 +43,9 @@ export const PLATFORM_RANK: Record<string, number> = PLATFORM_ORDER.reduce((acc,
   providedIn: 'root'
 })
 export class GameService {
-  constructor(
-    private http: HttpClient,
-    private ratingHydration: RatingHydrationService
-  ) {}
+  private http = inject(HttpClient);
+  private ratingHydration = inject(RatingHydrationService);
+
 
   getGames(hydrateRatings: boolean = true): Observable<Game[]> {
     const games$ = this.http.get<{ games: any[] }>('assets/data/games.json').pipe(

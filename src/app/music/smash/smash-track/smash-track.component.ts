@@ -1,5 +1,5 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { CommonModule, NgClass } from '@angular/common';
+import { Component, computed, input, output } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { ImageUrlPipe } from '../../../utils/pipes/image-url.pipe';
 
 interface Track {
@@ -24,16 +24,17 @@ interface Track {
 
 @Component({
   selector: 'app-smash-track',
-  standalone: true,
-  imports: [CommonModule, NgClass, ImageUrlPipe],
+  imports: [NgClass, ImageUrlPipe],
   templateUrl: './smash-track.component.html',
   styleUrl: './smash-track.component.css'
 })
 export class SmashTrackComponent {
-  @Input() track!: Track;
-  @Output() play = new EventEmitter<Track>();
+  readonly track = input.required<Track>();
+  readonly play = output<Track>();
 
-  constructor() {}
+  readonly franchiseIcon = computed(() => this.getFranchiseIcon(this.track().comment));
+  readonly trackClass = computed(() => this.getTrackClass(this.track().comment));
+  readonly starList = computed(() => this.getStars(this.track().stars));
 
   getFranchiseIcon(comment: string): string | null {
     if (!comment) return null;
@@ -62,6 +63,6 @@ export class SmashTrackComponent {
   }
 
   onPlay(): void {
-    this.play.emit(this.track);
+    this.play.emit(this.track());
   }
 }

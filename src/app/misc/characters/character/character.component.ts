@@ -1,5 +1,5 @@
-import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import {Component, OnDestroy, OnInit, computed, input, output, signal} from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
 import {Character, Decoration} from "../character.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
@@ -8,22 +8,35 @@ import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-character',
-    imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
+    imports: [NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
     templateUrl: './character.component.html',
-    styleUrls: ['./character.component.css']
+    styleUrls: ['./character.component.css'],
+    host: { '(window:popstate)': 'onPopState()' }
 })
 export class CharacterComponent implements OnInit, OnDestroy {
-  @Input() selectedCharacter: Character | undefined;
-  @Input() pictureMode: number = 0;
-  @Output() close: EventEmitter<void> = new EventEmitter<void>();
+  readonly selectedCharacter = input<Character | undefined>(undefined);
+  readonly pictureMode = input<number>(0);
+  readonly close = output<void>();
 
-  constructor() {}
+  /** "Show the truth" toggles per character, remembered while this page is open (the input is never mutated). */
+  private readonly showMainToggles = signal<ReadonlyMap<Character, boolean>>(new Map());
+
+  readonly showMain = computed(() => {
+    const character = this.selectedCharacter();
+    if (!character) {
+      return false;
+    }
+    return this.showMainToggles().get(character) ?? character.showMain;
+  });
+
+  readonly buttonText = computed(() =>
+    !this.showMain() ? "Show me the truth" : "I can't handle the truth"
+  );
 
   ngOnInit() {
     history.pushState({ modal: true }, '');
   }
 
-  @HostListener('window:popstate')
   onPopState() {
     this.close.emit();
   }
@@ -34,12 +47,21 @@ export class CharacterComponent implements OnInit, OnDestroy {
     }
   }
 
+  toggleShowMain(): void {
+    const character = this.selectedCharacter();
+    if (!character) {
+      return;
+    }
+    const next = !this.showMain();
+    this.showMainToggles.update(toggles => new Map(toggles).set(character, next));
+  }
+
   getBadge(ratingType: string, value: boolean) {
     let badgeText = ratingType + ' ';
     if (value) {
-      badgeText += '\u2713';
+      badgeText += '✓';
     } else {
-      badgeText += '\u274C';
+      badgeText += '❌';
     }
     return badgeText;
   }
@@ -54,10 +76,6 @@ export class CharacterComponent implements OnInit, OnDestroy {
 
   getBorder(color: string) {
     return "0 0 10px " + color;
-  }
-
-  getButtonText(character: Character): string {
-    return !character.showMain ? "Show me the truth" : "I can't handle the truth";
   }
 
   isEmpty(deco: Decoration[]): boolean {

@@ -1,43 +1,38 @@
-import { Component, OnInit, Input } from '@angular/core';
-
+import { Component, computed, inject, input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { catchError, map, of } from 'rxjs';
 import {FriendRating} from "./friend-rating.interface";
 import {ImageService} from "../services/image.service";
 
 @Component({
     selector: 'app-friend-rating',
-    imports: [],
     templateUrl: './friend-rating.component.html',
     styleUrls: ['./friend-rating.component.css']
 })
-export class FriendRatingComponent implements OnInit {
-  @Input() currentId: string = "";
+export class FriendRatingComponent {
+  private http = inject(HttpClient);
+  protected imageService = inject(ImageService);
 
-  originalFriendRatings: FriendRating[] = [];
-  friendRatings: FriendRating[] = [];
+  readonly currentId = input<string>("");
 
-  friendImages: Record<string, string> = {
+  private readonly allFriendRatings = toSignal(
+    this.http.get<{ ratings: FriendRating[] }>('assets/data/friend-ratings.json').pipe(
+      map(data => data.ratings),
+      catchError(err => {
+        console.error('Failed to load ratings:', err);
+        return of([] as FriendRating[]);
+      })
+    ),
+    { initialValue: [] as FriendRating[] }
+  );
+
+  readonly friendRatings = computed(() =>
+    this.allFriendRatings().filter(rating => rating.id === this.currentId())
+  );
+
+  readonly friendImages: Record<string, string> = {
     Victor: '/utils/friends/victor.png',
     Diego: '/utils/friends/diego.png'
   };
-
-  constructor(private http: HttpClient, protected imageService: ImageService) {}
-
-  ngOnInit(): void {
-    this.loadFriendRatings();
-  }
-
-  loadFriendRatings(): void {
-    this.http.get<{ ratings: FriendRating[] }>('assets/data/friend-ratings.json').subscribe({
-      next: (data) => {
-        this.originalFriendRatings = data.ratings;
-        this.friendRatings = this.originalFriendRatings.filter(
-          (rating) => rating.id === this.currentId
-        );
-      },
-      error: (err) => {
-        console.error('Failed to load ratings:', err);
-      },
-    });
-  }
 }

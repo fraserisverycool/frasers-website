@@ -1,5 +1,6 @@
-import {Component, ElementRef, HostListener, OnInit, OnDestroy, ChangeDetectorRef, NgZone} from '@angular/core';
-import { CommonModule, TitleCasePipe } from '@angular/common';
+import { Component, ElementRef, OnInit, OnDestroy, computed, inject, signal } from '@angular/core';
+import { NgClass, TitleCasePipe } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import {DailySoundtrack} from "../daily-soundtrack.interface";
 import {DomSanitizer} from "@angular/platform-browser";
 import { HttpClient } from "@angular/common/http";
@@ -17,37 +18,53 @@ interface GroupedDailySoundtracks {
 
 @Component({
     selector: 'app-dailies',
-    imports: [CommonModule, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
+    imports: [NgClass, TitleCasePipe, FormsModule, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './dailies.component.html',
-    styleUrls: ['./dailies.component.css']
+    styleUrls: ['./dailies.component.css'],
+    host: {
+      '(document:click)': 'clickout($event)'
+    }
 })
 export default class DailiesComponent implements OnInit, OnDestroy {
-  allDailySoundtracks: DailySoundtrack[] = [];
-  originalDailySoundtracks: DailySoundtrack[] = [];
-  groupedDailySoundtracks: GroupedDailySoundtracks[] = [];
-  currentFilter: string = '';
-  selectedMonth: string | null = null;
-  selectedTag: string | null = null;
-  selectedFranchise: string | null = null;
-  selectedGenre: string | null = null;
-  showFuture: boolean = false;
-  isRandomSort: boolean = false;
-  isCalendarOpen: boolean = false;
-  isFilterDropdownOpen: boolean = false;
-  isTagDropdownOpen: boolean = false;
-  isFranchiseDropdownOpen: boolean = false;
-  isGenreDropdownOpen: boolean = false;
-  filters = ["I don't care about video game music!", "Gimme that sweet video game music!", "Show me it all!"];
-  tags = ["chill", "party", "intense", "funky"];
-  franchises = ["mario", "zelda", "donkey kong", "yoshi", "pokemon", "animal crossing", "metroid", "indie", "other"];
-  genres = ["singer-songwriter", "pop", "soul", "rock", "indie", "sad songs", "from the heart"];
-  today: DailySoundtrack | null = null;
-  audioPath: string = '/music/dailysoundtracks/';
-  currentTrack: DailySoundtrack | null = null;
-  playlist: DailySoundtrack[] = [];
+  private http = inject(HttpClient);
+  private ratingService = inject(RatingService);
+  private sanitizer = inject(DomSanitizer);
+  protected imageService = inject(ImageService);
+  private eRef = inject(ElementRef);
 
-  pageSize = 10;
-  itemsToShow = 10;
+  private allDailySoundtracks: DailySoundtrack[] = [];
+  private readonly originalDailySoundtracks = signal<DailySoundtrack[]>([]);
+  private readonly groupedDailySoundtracks = signal<GroupedDailySoundtracks[]>([]);
+  readonly currentFilter = signal('');
+  readonly selectedMonth = signal<string | null>(null);
+  readonly selectedTag = signal<string | null>(null);
+  readonly selectedFranchise = signal<string | null>(null);
+  readonly selectedGenre = signal<string | null>(null);
+  /** Free-text search over artist, album and track name. */
+  readonly searchTerm = signal('');
+  private showFuture = false;
+  readonly isRandomSort = signal(false);
+  readonly isCalendarOpen = signal(false);
+  readonly isFilterDropdownOpen = signal(false);
+  readonly isTagDropdownOpen = signal(false);
+  readonly isFranchiseDropdownOpen = signal(false);
+  readonly isGenreDropdownOpen = signal(false);
+  readonly filters = ["I don't care about video game music!", "Gimme that sweet video game music!", "Show me it all!"];
+  readonly tags = ["chill", "party", "intense", "funky"];
+  readonly franchises = ["mario", "zelda", "donkey kong", "yoshi", "pokemon", "animal crossing", "metroid", "indie", "other"];
+  readonly genres = ["singer-songwriter", "pop", "soul", "rock", "indie", "sad songs", "from the heart"];
+  today: DailySoundtrack | null = null;
+  readonly audioPath: string = '/music/dailysoundtracks/';
+  readonly currentTrack = signal<DailySoundtrack | null>(null);
+  readonly playlist = signal<DailySoundtrack[]>([]);
+  /** Index of the current track in the playlist, matched by id (track objects are re-created when ratings load). */
+  readonly currentIndex = computed(() => {
+    const current = this.currentTrack();
+    return current ? this.playlist().findIndex(t => t.id === current.id) : -1;
+  });
+
+  private readonly pageSize = 10;
+  private readonly itemsToShow = signal(10);
 
   private isAutoAdvancing = false;
   isFirstLoad = true;
@@ -60,25 +77,21 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   private readonly PRELOAD_AHEAD = 3;
 
   // Custom player state
-  isPlaying = false;
-  currentTime = 0;
-  duration = 0;
+  readonly isPlaying = signal(false);
+  readonly currentTime = signal(0);
+  readonly duration = signal(0);
   private playbackStartWallTime = 0;
   private playbackStartOffset = 0;
-  private progressInterval: any = null;
-  volume = 1;
+  private progressInterval: ReturnType<typeof setInterval> | null = null;
+  readonly volume = signal(1);
 
-  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService, private eRef: ElementRef, private cdr: ChangeDetectorRef, private ngZone: NgZone) {
-  }
-
-  @HostListener('document:click', ['$event'])
   clickout(event: any) {
     if (!this.eRef.nativeElement.contains(event.target)) {
-      this.isCalendarOpen = false;
-      this.isFilterDropdownOpen = false;
-      this.isTagDropdownOpen = false;
-      this.isFranchiseDropdownOpen = false;
-      this.isGenreDropdownOpen = false;
+      this.isCalendarOpen.set(false);
+      this.isFilterDropdownOpen.set(false);
+      this.isTagDropdownOpen.set(false);
+      this.isFranchiseDropdownOpen.set(false);
+      this.isGenreDropdownOpen.set(false);
     } else {
       const clickedInsideCalendar = event.target.closest('.calendar-container');
       const clickedInsideFilter = event.target.closest('.filter-container');
@@ -87,42 +100,43 @@ export default class DailiesComponent implements OnInit, OnDestroy {
       const clickedInsideGenre = event.target.closest('.genre-container');
 
       if (!clickedInsideCalendar) {
-        this.isCalendarOpen = false;
+        this.isCalendarOpen.set(false);
       }
       if (!clickedInsideFilter) {
-        this.isFilterDropdownOpen = false;
+        this.isFilterDropdownOpen.set(false);
       }
       if (!clickedInsideTag) {
-        this.isTagDropdownOpen = false;
+        this.isTagDropdownOpen.set(false);
       }
       if (!clickedInsideFranchise) {
-        this.isFranchiseDropdownOpen = false;
+        this.isFranchiseDropdownOpen.set(false);
       }
       if (!clickedInsideGenre) {
-        this.isGenreDropdownOpen = false;
+        this.isGenreDropdownOpen.set(false);
       }
     }
   }
 
   setVolume(value: number | string): void {
-    this.volume = +value;
+    this.volume.set(+value);
     if (this.gainNode) {
-      this.gainNode.gain.value = this.volume;
+      this.gainNode.gain.value = this.volume();
     }
   }
 
   private saveState(): void {
     const state = {
-      currentFilter: this.currentFilter,
-      selectedMonth: this.selectedMonth,
-      selectedTag: this.selectedTag,
-      selectedFranchise: this.selectedFranchise,
-      selectedGenre: this.selectedGenre,
+      currentFilter: this.currentFilter(),
+      selectedMonth: this.selectedMonth(),
+      selectedTag: this.selectedTag(),
+      selectedFranchise: this.selectedFranchise(),
+      selectedGenre: this.selectedGenre(),
+      searchTerm: this.searchTerm(),
       showFuture: this.showFuture,
-      isRandomSort: this.isRandomSort,
-      currentTrackId: this.currentTrack?.id,
-      playlistIds: this.playlist.map(t => t.id),
-      playbackPosition: this.currentTime
+      isRandomSort: this.isRandomSort(),
+      currentTrackId: this.currentTrack()?.id,
+      playlistIds: this.playlist().map(t => t.id),
+      playbackPosition: this.currentTime()
     };
     localStorage.setItem('dailies_player_state', JSON.stringify(state));
   }
@@ -133,29 +147,30 @@ export default class DailiesComponent implements OnInit, OnDestroy {
 
     try {
       const state = JSON.parse(saved);
-      this.currentFilter = state.currentFilter || '';
-      this.selectedMonth = state.selectedMonth || null;
-      this.selectedTag = state.selectedTag || null;
-      this.selectedFranchise = state.selectedFranchise || null;
-      this.selectedGenre = state.selectedGenre || null;
+      this.currentFilter.set(state.currentFilter || '');
+      this.selectedMonth.set(state.selectedMonth || null);
+      this.selectedTag.set(state.selectedTag || null);
+      this.selectedFranchise.set(state.selectedFranchise || null);
+      this.selectedGenre.set(state.selectedGenre || null);
+      this.searchTerm.set(state.searchTerm || '');
       this.showFuture = state.showFuture || false;
-      this.isRandomSort = state.isRandomSort || false;
+      this.isRandomSort.set(state.isRandomSort || false);
 
       // Re-apply filters based on the restored state
       this.applyDateFilter();
 
       if (state.playlistIds && state.playlistIds.length > 0) {
         const trackMap = new Map(this.allDailySoundtracks.map(t => [t.id, t]));
-        this.playlist = state.playlistIds.map((id: string) => trackMap.get(id)).filter((t: any) => t) as DailySoundtrack[];
+        this.playlist.set(state.playlistIds.map((id: string) => trackMap.get(id)).filter((t: any) => t) as DailySoundtrack[]);
       }
 
       if (state.currentTrackId) {
         const track = this.allDailySoundtracks.find(t => t.id === state.currentTrackId);
         if (track) {
-          this.currentTrack = track;
+          this.currentTrack.set(track);
           if (state.playbackPosition) {
             this.playbackStartOffset = state.playbackPosition;
-            this.currentTime = state.playbackPosition;
+            this.currentTime.set(state.playbackPosition);
           }
           this.updateMediaSession(track);
         }
@@ -186,18 +201,21 @@ export default class DailiesComponent implements OnInit, OnDestroy {
         // @ts-ignore
         navigator.mediaSession.setActionHandler('seekto', null);
       } catch (e) {}
+      try {
+        navigator.mediaSession.setActionHandler('seekbackward', null);
+        navigator.mediaSession.setActionHandler('seekforward', null);
+      } catch (e) {}
     }
   }
 
   loadDailySoundtracks(): void {
     this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/data/daily-soundtracks.json').subscribe({
       next: (data) => {
-        this.allDailySoundtracks = data.dailysoundtracks;
-        this.allDailySoundtracks.forEach(ds => {
-          if (typeof ds.link === 'string') {
-            ds.link = this.sanitizer.bypassSecurityTrustResourceUrl(ds.link) as string;
-          }
-        });
+        this.allDailySoundtracks = data.dailysoundtracks.map(ds =>
+          typeof ds.link === 'string'
+            ? { ...ds, link: this.sanitizer.bypassSecurityTrustResourceUrl(ds.link) as string }
+            : ds
+        );
         this.applyDateFilter();
         this.getRatings();
         this.today = this.allDailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
@@ -214,13 +232,13 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   applyDateFilter(): void {
     const now = new Date();
     if (this.showFuture) {
-      this.originalDailySoundtracks = [...this.allDailySoundtracks];
+      this.originalDailySoundtracks.set([...this.allDailySoundtracks]);
     } else {
-      this.originalDailySoundtracks = this.allDailySoundtracks.filter(
+      this.originalDailySoundtracks.set(this.allDailySoundtracks.filter(
         ds => isBefore(parse(ds.day, 'dd-MM-yyyy', new Date()), now)
-      );
+      ));
     }
-    this.filterDailySoundtracks(this.currentFilter);
+    this.filterDailySoundtracks(this.currentFilter());
   }
 
   toggleFuture(): void {
@@ -238,9 +256,9 @@ export default class DailiesComponent implements OnInit, OnDestroy {
     return `${day}-${month}-${year}`;
   }
 
-  get availableMonths(): string[] {
+  readonly availableMonths = computed(() => {
     const months = new Set<string>();
-    this.originalDailySoundtracks.forEach(track => {
+    this.originalDailySoundtracks().forEach(track => {
       const date = parse(track.day, 'dd-MM-yyyy', new Date());
       months.add(format(date, 'MMMM yyyy'));
     });
@@ -249,50 +267,60 @@ export default class DailiesComponent implements OnInit, OnDestroy {
       const dateB = parse(b, 'MMMM yyyy', new Date());
       return dateB.getTime() - dateA.getTime();
     });
-  }
+  });
 
   getRatings(): void {
     this.ratingService.getRatingsById(this.allDailySoundtracks.map(dailySoundtrack => dailySoundtrack.id))
-      .subscribe(dailySoundtrackRatings => {
-        this.allDailySoundtracks = this.allDailySoundtracks.map(dailySoundtrack => {
-          const ratingData = dailySoundtrackRatings.find(rating => rating.id === dailySoundtrack.id);
-          if (ratingData) {
-            dailySoundtrack.rating = ratingData.ratings;
-          } else {
-            dailySoundtrack.rating = [0,0,0,0,0,0];
-          }
-          return dailySoundtrack;
-        });
-        this.applyDateFilter();
+      .subscribe({
+        next: dailySoundtrackRatings => {
+          this.allDailySoundtracks = this.allDailySoundtracks.map(dailySoundtrack => {
+            const ratingData = dailySoundtrackRatings.find(rating => rating.id === dailySoundtrack.id);
+            return { ...dailySoundtrack, rating: ratingData ? ratingData.ratings : [0,0,0,0,0,0] };
+          });
+          this.applyDateFilter();
+        },
+        error: (err) => console.error('Failed to load daily soundtrack ratings:', err)
       });
   }
 
   groupSoundtracks(tracks: DailySoundtrack[]): void {
+    const selectedMonth = this.selectedMonth();
+    const selectedTag = this.selectedTag();
+    const selectedFranchise = this.selectedFranchise();
+    const selectedGenre = this.selectedGenre();
+
     let filteredTracks = tracks;
-    if (this.selectedMonth) {
+    if (selectedMonth) {
       filteredTracks = filteredTracks.filter(track => {
         const date = parse(track.day, 'dd-MM-yyyy', new Date());
-        return format(date, 'MMMM yyyy') === this.selectedMonth;
+        return format(date, 'MMMM yyyy') === selectedMonth;
       });
     }
 
-    if (this.selectedTag) {
-      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(this.selectedTag!));
+    if (selectedTag) {
+      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(selectedTag));
     }
 
-    if (this.selectedFranchise) {
-      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(this.selectedFranchise!));
+    if (selectedFranchise) {
+      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(selectedFranchise));
     }
 
-    if (this.selectedGenre) {
-      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(this.selectedGenre!));
+    if (selectedGenre) {
+      filteredTracks = filteredTracks.filter(track => track.tags && track.tags.includes(selectedGenre));
     }
 
-    if (this.isRandomSort) {
-      this.groupedDailySoundtracks = [{
+    const searchTerm = this.searchTerm().trim().toLowerCase();
+    if (searchTerm) {
+      filteredTracks = filteredTracks.filter(track =>
+        [track.artist, track.album, track.track].some(field => (field ?? '').toLowerCase().includes(searchTerm))
+      );
+    }
+
+    if (this.isRandomSort()) {
+      this.groupedDailySoundtracks.set([{
         month: 'Random',
         tracks: [...filteredTracks].sort(() => Math.random() - 0.5)
-      }];
+      }]);
     } else {
       const groups: { [key: string]: DailySoundtrack[] } = {};
       const sortedTracks = [...filteredTracks].sort((a, b) => {
@@ -313,36 +341,36 @@ export default class DailiesComponent implements OnInit, OnDestroy {
         groups[monthYear].push(track);
       });
 
-      this.groupedDailySoundtracks = monthOrder.map(month => ({
+      this.groupedDailySoundtracks.set(monthOrder.map(month => ({
         month,
         tracks: groups[month]
-      }));
+      })));
     }
 
     this.updatePlaylist();
   }
 
   updatePlaylist(): void {
-    this.playlist = this.groupedDailySoundtracks.flatMap(group => group.tracks).filter(track => track.filename);
+    this.playlist.set(this.groupedDailySoundtracks().flatMap(group => group.tracks).filter(track => track.filename));
   }
 
   playAll(): void {
     this.isFirstLoad = false;
-    if (this.playlist.length > 0) {
-      this.playTrack(this.playlist[0]);
+    const playlist = this.playlist();
+    if (playlist.length > 0) {
+      this.playTrack(playlist[0]);
     }
   }
 
   playTrack(track: DailySoundtrack): void {
     this.isFirstLoad = false;
     this.isAutoAdvancing = false;
-    this.currentTrack = track;
-    this.currentTime = 0;
-    this.duration = 0;
+    this.currentTrack.set(track);
+    this.currentTime.set(0);
+    this.duration.set(0);
     this.playbackStartOffset = 0;
     this.updateMediaSession(track);
     this.saveState();
-    this.cdr.detectChanges();
 
     this.stopCurrentSource();
     this.stopProgressTracking();
@@ -350,7 +378,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
     const ctx = this.ensureAudioContext();
     const startPlayback = (buffer: AudioBuffer) => {
       this.stopCurrentSource();
-      this.duration = buffer.duration;
+      this.duration.set(buffer.duration);
       const source = ctx.createBufferSource();
       source.buffer = buffer;
       source.connect(this.gainNode!);
@@ -358,15 +386,14 @@ export default class DailiesComponent implements OnInit, OnDestroy {
       this.playbackStartOffset = 0;
       source.start(0);
       this.currentSource = source;
-      this.isPlaying = true;
+      this.isPlaying.set(true);
       source.onended = () => this.onSourceEnded(track);
       this.startProgressTracking();
       if ('mediaSession' in navigator) {
         navigator.mediaSession.playbackState = 'playing';
       }
-      const index = this.playlist.indexOf(track);
+      const index = this.playlist().findIndex(t => t.id === track.id);
       this.preloadAhead(index);
-      this.cdr.detectChanges();
     };
 
     const resume = ctx.state === 'suspended' ? ctx.resume() : Promise.resolve();
@@ -375,8 +402,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
         .then(buffer => startPlayback(buffer))
         .catch(err => {
           console.error('[DEBUG_LOG] playTrack error:', err);
-          this.isPlaying = false;
-          this.cdr.detectChanges();
+          this.isPlaying.set(false);
         })
     );
   }
@@ -396,15 +422,7 @@ export default class DailiesComponent implements OnInit, OnDestroy {
       navigator.mediaSession.metadata = new MediaMetadata(metadata);
       navigator.mediaSession.playbackState = 'playing';
 
-      if ('setPositionState' in navigator.mediaSession) {
-        try {
-          navigator.mediaSession.setPositionState({
-            duration: isFinite(this.duration) ? this.duration : 0,
-            playbackRate: 1,
-            position: Math.min(this.currentTime, this.duration || 0)
-          });
-        } catch (e) {}
-      }
+      this.updateMediaSessionPosition();
     }
   }
 
@@ -427,48 +445,49 @@ export default class DailiesComponent implements OnInit, OnDestroy {
       try {
         navigator.mediaSession.setActionHandler('seekbackward', (details) => {
           const skipTime = details.seekOffset || 10;
-          this.seekTo(Math.max(this.currentTime - skipTime, 0));
+          this.seekTo(Math.max(this.currentTime() - skipTime, 0));
         });
       } catch (e) {}
 
       try {
         navigator.mediaSession.setActionHandler('seekforward', (details) => {
           const skipTime = details.seekOffset || 10;
-          this.seekTo(Math.min(this.currentTime + skipTime, this.duration));
+          this.seekTo(Math.min(this.currentTime() + skipTime, this.duration()));
         });
       } catch (e) {}
     }
   }
 
   nextTrack(): void {
-    if (!this.currentTrack) return;
-    const currentIndex = this.playlist.findIndex(t => t.id === this.currentTrack?.id);
-    if (currentIndex !== -1 && currentIndex < this.playlist.length - 1) {
+    if (!this.currentTrack()) return;
+    const playlist = this.playlist();
+    const currentIndex = this.currentIndex();
+    if (currentIndex !== -1 && currentIndex < playlist.length - 1) {
       this.isFirstLoad = false;
       this.isAutoAdvancing = true;
-      this.playTrack(this.playlist[currentIndex + 1]);
+      this.playTrack(playlist[currentIndex + 1]);
     } else {
       this.isAutoAdvancing = false;
     }
   }
 
   previousTrack(): void {
-    if (!this.currentTrack) return;
-    const currentIndex = this.playlist.findIndex(t => t.id === this.currentTrack?.id);
+    if (!this.currentTrack()) return;
+    const currentIndex = this.currentIndex();
     if (currentIndex > 0) {
       this.isFirstLoad = false;
-      this.playTrack(this.playlist[currentIndex - 1]);
+      this.playTrack(this.playlist()[currentIndex - 1]);
     }
   }
 
   private onSourceEnded(track: DailySoundtrack): void {
-    if (!this.isPlaying) return;
+    if (!this.isPlaying()) return;
     this.isAutoAdvancing = true;
     this.nextTrack();
   }
 
   togglePlayPause(): void {
-    if (this.isPlaying) {
+    if (this.isPlaying()) {
       this.pausePlayback();
     } else {
       this.resumePlayback();
@@ -476,73 +495,64 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   }
 
   pausePlayback(): void {
-    if (!this.audioCtx || !this.isPlaying) return;
-    this.playbackStartOffset = this.currentTime;
+    if (!this.audioCtx || !this.isPlaying()) return;
+    this.playbackStartOffset = this.currentTime();
     this.stopCurrentSource();
     this.stopProgressTracking();
     this.audioCtx.suspend();
-    this.isPlaying = false;
+    this.isPlaying.set(false);
     if ('mediaSession' in navigator) {
       navigator.mediaSession.playbackState = 'paused';
     }
-    this.cdr.detectChanges();
   }
 
   resumePlayback(): void {
-    if (!this.currentTrack) return;
+    const currentTrack = this.currentTrack();
+    if (!currentTrack) return;
     const ctx = this.ensureAudioContext();
     const resume = ctx.state === 'suspended' ? ctx.resume() : Promise.resolve();
     resume.then(() => {
-      const url = this.imageService.imageUrl(this.audioPath + this.currentTrack!.filename);
+      const url = this.imageService.imageUrl(this.audioPath + currentTrack.filename);
       const buffer = this.bufferCache.get(url);
       if (buffer) {
-        const source = ctx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(this.gainNode!);
-        this.playbackStartWallTime = performance.now();
-        source.start(0, this.playbackStartOffset);
-        this.currentSource = source;
-        this.isPlaying = true;
-        source.onended = () => this.onSourceEnded(this.currentTrack!);
-        this.startProgressTracking();
-        if ('mediaSession' in navigator) {
-          navigator.mediaSession.playbackState = 'playing';
-        }
-        this.cdr.detectChanges();
+        this.startSourceAtOffset(ctx, buffer);
       } else {
-        this.fetchAndDecodeBuffer(this.currentTrack!).then(fetchedBuffer => {
-          const source = ctx.createBufferSource();
-          source.buffer = fetchedBuffer;
-          source.connect(this.gainNode!);
-          this.playbackStartWallTime = performance.now();
-          source.start(0, this.playbackStartOffset);
-          this.currentSource = source;
-          this.isPlaying = true;
-          source.onended = () => this.onSourceEnded(this.currentTrack!);
-          this.startProgressTracking();
-          if ('mediaSession' in navigator) {
-            navigator.mediaSession.playbackState = 'playing';
-          }
-          const index = this.playlist.indexOf(this.currentTrack!);
-          this.preloadAhead(index);
-          this.cdr.detectChanges();
+        this.fetchAndDecodeBuffer(currentTrack).then(fetchedBuffer => {
+          this.startSourceAtOffset(ctx, fetchedBuffer);
+          this.preloadAhead(this.currentIndex());
         }).catch(err => {
           console.error('[DEBUG_LOG] resumePlayback fetch error:', err);
-          this.isPlaying = false;
-          this.cdr.detectChanges();
+          this.isPlaying.set(false);
         });
       }
     });
   }
 
+  /** Starts the given buffer from the saved playback offset (used when resuming). */
+  private startSourceAtOffset(ctx: AudioContext, buffer: AudioBuffer): void {
+    const source = ctx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(this.gainNode!);
+    this.playbackStartWallTime = performance.now();
+    source.start(0, this.playbackStartOffset);
+    this.currentSource = source;
+    this.isPlaying.set(true);
+    source.onended = () => this.onSourceEnded(this.currentTrack()!);
+    this.startProgressTracking();
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'playing';
+    }
+  }
+
   seekTo(time: number): void {
-    if (!this.currentTrack) return;
+    const currentTrack = this.currentTrack();
+    if (!currentTrack) return;
     this.stopCurrentSource();
     this.stopProgressTracking();
     this.playbackStartOffset = time;
-    this.currentTime = time;
+    this.currentTime.set(time);
     const ctx = this.ensureAudioContext();
-    const url = this.imageService.imageUrl(this.audioPath + this.currentTrack.filename);
+    const url = this.imageService.imageUrl(this.audioPath + currentTrack.filename);
     const buffer = this.bufferCache.get(url);
     if (!buffer) return;
     const source = ctx.createBufferSource();
@@ -551,8 +561,8 @@ export default class DailiesComponent implements OnInit, OnDestroy {
     this.playbackStartWallTime = performance.now();
     source.start(0, time);
     this.currentSource = source;
-    this.isPlaying = true;
-    source.onended = () => this.onSourceEnded(this.currentTrack!);
+    this.isPlaying.set(true);
+    source.onended = () => this.onSourceEnded(this.currentTrack()!);
     this.startProgressTracking();
     if ('mediaSession' in navigator) {
       navigator.mediaSession.playbackState = 'playing';
@@ -582,9 +592,10 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   }
 
   private preloadAhead(fromIndex: number): void {
-    const end = Math.min(fromIndex + this.PRELOAD_AHEAD, this.playlist.length);
+    const playlist = this.playlist();
+    const end = Math.min(fromIndex + this.PRELOAD_AHEAD, playlist.length);
     for (let i = fromIndex + 1; i < end; i++) {
-      const track = this.playlist[i];
+      const track = playlist[i];
       if (!track.filename) continue;
       const url = this.imageService.imageUrl(this.audioPath + track.filename);
       if (!this.bufferCache.has(url)) {
@@ -602,14 +613,15 @@ export default class DailiesComponent implements OnInit, OnDestroy {
     }
   }
 
-  get paginatedGroups(): GroupedDailySoundtracks[] {
+  readonly paginatedGroups = computed(() => {
+    const itemsToShow = this.itemsToShow();
     let count = 0;
     const result: GroupedDailySoundtracks[] = [];
 
-    for (const group of this.groupedDailySoundtracks) {
-      if (count >= this.itemsToShow) break;
+    for (const group of this.groupedDailySoundtracks()) {
+      if (count >= itemsToShow) break;
 
-      const remaining = this.itemsToShow - count;
+      const remaining = itemsToShow - count;
       if (group.tracks.length <= remaining) {
         result.push(group);
         count += group.tracks.length;
@@ -622,35 +634,29 @@ export default class DailiesComponent implements OnInit, OnDestroy {
       }
     }
     return result;
-  }
+  });
 
   loadMore(): void {
-    const totalTracks = this.groupedDailySoundtracks.reduce((sum, g) => sum + g.tracks.length, 0);
-    if (this.itemsToShow < totalTracks) {
-      this.itemsToShow += this.pageSize;
+    const totalTracks = this.groupedDailySoundtracks().reduce((sum, g) => sum + g.tracks.length, 0);
+    if (this.itemsToShow() < totalTracks) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
   }
 
   resetInfiniteScroll(): void {
-    this.itemsToShow = this.pageSize;
+    this.itemsToShow.set(this.pageSize);
   }
 
   private startProgressTracking(): void {
     this.stopProgressTracking();
-    this.ngZone.runOutsideAngular(() => {
-      this.progressInterval = setInterval(() => {
-        if (this.isPlaying) {
-          const elapsed = (performance.now() - this.playbackStartWallTime) / 1000;
-          const newTime = Math.min(this.playbackStartOffset + elapsed, this.duration);
-          this.ngZone.run(() => {
-            this.currentTime = newTime;
-            this.saveState();
-            this.updateMediaSessionPosition();
-            this.cdr.detectChanges();
-          });
-        }
-      }, 500);
-    });
+    this.progressInterval = setInterval(() => {
+      if (this.isPlaying()) {
+        const elapsed = (performance.now() - this.playbackStartWallTime) / 1000;
+        this.currentTime.set(Math.min(this.playbackStartOffset + elapsed, this.duration()));
+        this.saveState();
+        this.updateMediaSessionPosition();
+      }
+    }, 500);
   }
 
   private stopProgressTracking(): void {
@@ -662,34 +668,30 @@ export default class DailiesComponent implements OnInit, OnDestroy {
 
   private updateMediaSessionPosition(): void {
     if ('mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
+      const duration = this.duration();
       try {
         navigator.mediaSession.setPositionState({
-          duration: isFinite(this.duration) ? this.duration : 0,
+          duration: isFinite(duration) ? duration : 0,
           playbackRate: 1,
-          position: Math.min(this.currentTime, this.duration || 0)
+          position: Math.min(this.currentTime(), duration || 0)
         });
       } catch (e) {}
     }
   }
 
-  get currentTimeFormatted(): string {
-    return this.formatTime(this.currentTime);
-  }
-
-  get durationFormatted(): string {
-    return this.formatTime(this.duration);
-  }
-
-  get progressPercent(): number {
-    if (!this.duration) return 0;
-    return (this.currentTime / this.duration) * 100;
-  }
+  readonly currentTimeFormatted = computed(() => this.formatTime(this.currentTime()));
+  readonly durationFormatted = computed(() => this.formatTime(this.duration()));
+  readonly progressPercent = computed(() => {
+    const duration = this.duration();
+    if (!duration) return 0;
+    return (this.currentTime() / duration) * 100;
+  });
 
   onProgressClick(event: MouseEvent): void {
     const bar = event.currentTarget as HTMLElement;
     const rect = bar.getBoundingClientRect();
     const ratio = (event.clientX - rect.left) / rect.width;
-    this.seekTo(ratio * this.duration);
+    this.seekTo(ratio * this.duration());
   }
 
   private formatTime(seconds: number): string {
@@ -700,127 +702,134 @@ export default class DailiesComponent implements OnInit, OnDestroy {
   }
 
   filterDailySoundtracks(criteria: string): void {
-    this.currentFilter = criteria;
-    this.isFilterDropdownOpen = false;
+    this.currentFilter.set(criteria);
+    this.isFilterDropdownOpen.set(false);
     this.resetInfiniteScroll();
 
     if (criteria !== 'Gimme that sweet video game music!') {
-      this.selectedFranchise = null;
+      this.selectedFranchise.set(null);
     }
 
     if (criteria !== "I don't care about video game music!") {
-      this.selectedGenre = null;
+      this.selectedGenre.set(null);
     }
 
-    let filteredTracks = this.originalDailySoundtracks;
+    const original = this.originalDailySoundtracks();
+    let filteredTracks: DailySoundtrack[];
     switch (criteria) {
       case 'Gimme that sweet video game music!':
-        filteredTracks = this.originalDailySoundtracks.filter(soundtrack => soundtrack.game);
+        filteredTracks = original.filter(soundtrack => soundtrack.game);
         break;
       case "I don't care about video game music!":
-        filteredTracks = this.originalDailySoundtracks.filter(soundtrack => !soundtrack.game);
+        filteredTracks = original.filter(soundtrack => !soundtrack.game);
         break;
       default:
-        filteredTracks = this.originalDailySoundtracks;
+        filteredTracks = original;
         break;
     }
     this.groupSoundtracks(filteredTracks);
     this.saveState();
   }
 
-  selectMonth(month: string | null): void {
-    this.selectedMonth = month;
-    this.isCalendarOpen = false;
+  search(term: string): void {
+    this.searchTerm.set(term);
     this.resetInfiniteScroll();
-    this.filterDailySoundtracks(this.currentFilter);
+    this.filterDailySoundtracks(this.currentFilter());
+  }
+
+  selectMonth(month: string | null): void {
+    this.selectedMonth.set(month);
+    this.isCalendarOpen.set(false);
+    this.resetInfiniteScroll();
+    this.filterDailySoundtracks(this.currentFilter());
     this.saveState();
   }
 
   selectTag(tag: string | null): void {
-    this.selectedTag = tag;
-    this.isTagDropdownOpen = false;
+    this.selectedTag.set(tag);
+    this.isTagDropdownOpen.set(false);
     this.resetInfiniteScroll();
-    this.filterDailySoundtracks(this.currentFilter);
+    this.filterDailySoundtracks(this.currentFilter());
     this.saveState();
   }
 
   selectFranchise(franchise: string | null): void {
-    this.selectedFranchise = franchise;
-    this.isFranchiseDropdownOpen = false;
+    this.selectedFranchise.set(franchise);
+    this.isFranchiseDropdownOpen.set(false);
     this.resetInfiniteScroll();
-    this.filterDailySoundtracks(this.currentFilter);
+    this.filterDailySoundtracks(this.currentFilter());
     this.saveState();
   }
 
   selectGenre(genre: string | null): void {
-    this.selectedGenre = genre;
-    this.isGenreDropdownOpen = false;
+    this.selectedGenre.set(genre);
+    this.isGenreDropdownOpen.set(false);
     this.resetInfiniteScroll();
-    this.filterDailySoundtracks(this.currentFilter);
+    this.filterDailySoundtracks(this.currentFilter());
     this.saveState();
   }
 
   toggleCalendar(): void {
-    this.isCalendarOpen = !this.isCalendarOpen;
-    if (this.isCalendarOpen) {
-      this.isFilterDropdownOpen = false;
-      this.isTagDropdownOpen = false;
-      this.isFranchiseDropdownOpen = false;
-      this.isGenreDropdownOpen = false;
+    this.isCalendarOpen.update(open => !open);
+    if (this.isCalendarOpen()) {
+      this.isFilterDropdownOpen.set(false);
+      this.isTagDropdownOpen.set(false);
+      this.isFranchiseDropdownOpen.set(false);
+      this.isGenreDropdownOpen.set(false);
     }
   }
 
   toggleFilterDropdown(): void {
-    this.isFilterDropdownOpen = !this.isFilterDropdownOpen;
-    if (this.isFilterDropdownOpen) {
-      this.isCalendarOpen = false;
-      this.isTagDropdownOpen = false;
-      this.isFranchiseDropdownOpen = false;
-      this.isGenreDropdownOpen = false;
+    this.isFilterDropdownOpen.update(open => !open);
+    if (this.isFilterDropdownOpen()) {
+      this.isCalendarOpen.set(false);
+      this.isTagDropdownOpen.set(false);
+      this.isFranchiseDropdownOpen.set(false);
+      this.isGenreDropdownOpen.set(false);
     }
   }
 
   toggleTagDropdown(): void {
-    this.isTagDropdownOpen = !this.isTagDropdownOpen;
-    if (this.isTagDropdownOpen) {
-      this.isCalendarOpen = false;
-      this.isFilterDropdownOpen = false;
-      this.isFranchiseDropdownOpen = false;
-      this.isGenreDropdownOpen = false;
+    this.isTagDropdownOpen.update(open => !open);
+    if (this.isTagDropdownOpen()) {
+      this.isCalendarOpen.set(false);
+      this.isFilterDropdownOpen.set(false);
+      this.isFranchiseDropdownOpen.set(false);
+      this.isGenreDropdownOpen.set(false);
     }
   }
 
   toggleFranchiseDropdown(): void {
-    this.isFranchiseDropdownOpen = !this.isFranchiseDropdownOpen;
-    if (this.isFranchiseDropdownOpen) {
-      this.isCalendarOpen = false;
-      this.isFilterDropdownOpen = false;
-      this.isTagDropdownOpen = false;
-      this.isGenreDropdownOpen = false;
+    this.isFranchiseDropdownOpen.update(open => !open);
+    if (this.isFranchiseDropdownOpen()) {
+      this.isCalendarOpen.set(false);
+      this.isFilterDropdownOpen.set(false);
+      this.isTagDropdownOpen.set(false);
+      this.isGenreDropdownOpen.set(false);
     }
   }
 
   toggleGenreDropdown(): void {
-    this.isGenreDropdownOpen = !this.isGenreDropdownOpen;
-    if (this.isGenreDropdownOpen) {
-      this.isCalendarOpen = false;
-      this.isFilterDropdownOpen = false;
-      this.isTagDropdownOpen = false;
-      this.isFranchiseDropdownOpen = false;
+    this.isGenreDropdownOpen.update(open => !open);
+    if (this.isGenreDropdownOpen()) {
+      this.isCalendarOpen.set(false);
+      this.isFilterDropdownOpen.set(false);
+      this.isTagDropdownOpen.set(false);
+      this.isFranchiseDropdownOpen.set(false);
     }
   }
 
   randomize(): void {
-    this.isRandomSort = true;
+    this.isRandomSort.set(true);
     this.resetInfiniteScroll();
-    this.filterDailySoundtracks(this.currentFilter);
+    this.filterDailySoundtracks(this.currentFilter());
     this.saveState();
   }
 
   chronological(): void {
-    this.isRandomSort = false;
+    this.isRandomSort.set(false);
     this.resetInfiniteScroll();
-    this.filterDailySoundtracks(this.currentFilter);
+    this.filterDailySoundtracks(this.currentFilter());
     this.saveState();
   }
 }

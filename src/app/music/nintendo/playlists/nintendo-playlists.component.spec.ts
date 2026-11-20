@@ -51,32 +51,32 @@ describe('NintendoPlaylistsComponent', () => {
     fixture.detectChanges();
 
     expect(component).toBeTruthy();
-    expect(component.playlists.length).toBe(2);
+    expect(component.playlists().length).toBe(2);
     expect(musicServiceSpy.getNintendoPlaylists).toHaveBeenCalled();
   });
 
   it('should filter playlists by name and description', () => {
-    component.originalPlaylists = mockPlaylists;
-    component.playlists = [...mockPlaylists];
+    component.originalPlaylists.set(mockPlaylists);
+    component.playlists.set([...mockPlaylists]);
 
-    component.searchTerm = 'bangers';
-    expect(component.filteredPlaylists.length).toBe(1);
-    expect(component.filteredPlaylists[0].name).toBe('Underrated Huge Hits');
+    component.searchTerm.set('bangers');
+    expect(component.filteredPlaylists().length).toBe(1);
+    expect(component.filteredPlaylists()[0].name).toBe('Underrated Huge Hits');
 
-    component.searchTerm = 'Faves';
-    expect(component.filteredPlaylists.length).toBe(1);
-    expect(component.filteredPlaylists[0].name).toBe('All Time Faves');
+    component.searchTerm.set('Faves');
+    expect(component.filteredPlaylists().length).toBe(1);
+    expect(component.filteredPlaylists()[0].name).toBe('All Time Faves');
   });
 
   it('should sort playlists alphabetically', () => {
-    component.originalPlaylists = [...mockPlaylists];
-    component.playlists = [...mockPlaylists];
+    component.originalPlaylists.set([...mockPlaylists]);
+    component.playlists.set([...mockPlaylists]);
 
     component.sortPlaylists('alphabetical');
-    expect(component.playlists[0].name).toBe('All Time Faves');
-    expect(component.playlists[1].name).toBe('Underrated Huge Hits');
+    expect(component.playlists()[0].name).toBe('All Time Faves');
+    expect(component.playlists()[1].name).toBe('Underrated Huge Hits');
 
     component.sortPlaylists('default');
-    expect(component.playlists[0].name).toBe('Underrated Huge Hits');
+    expect(component.playlists()[0].name).toBe('Underrated Huge Hits');
   });
 });

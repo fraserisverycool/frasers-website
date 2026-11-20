@@ -1,4 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { catchError, of } from 'rxjs';
 import {RouterLink} from "@angular/router";
 import PhotoComponent from "./photo/photo.component";
 import {Photo} from "./photo.interface";
@@ -11,27 +13,26 @@ import {InfiniteScrollDirective} from "../utils/directives/infinite-scroll.direc
     templateUrl: './photos.component.html',
     styleUrls: ['./photos.component.css']
 })
-export default class PhotosComponent implements OnInit {
-  photos: Photo[] = [];
-  pageSize = 5;
-  itemsToShow = 5;
+export default class PhotosComponent {
+  private photoService = inject(PhotoService);
 
-  constructor(private photoService: PhotoService) {}
-
-  ngOnInit(): void {
-    this.photoService.getPhotos().subscribe({
-      next: (photos) => {
-        this.photos = photos;
-      },
-      error: (err) => {
+  readonly photos = toSignal(
+    this.photoService.getPhotos().pipe(
+      catchError(err => {
         console.error('Failed to load photos:', err);
-      },
-    });
-  }
+        return of([] as Photo[]);
+      })
+    ),
+    { initialValue: [] as Photo[] }
+  );
+
+  private readonly pageSize = 5;
+  readonly itemsToShow = signal(this.pageSize);
+  readonly visiblePhotos = computed(() => this.photos().slice(0, this.itemsToShow()));
 
   loadMore(): void {
-    if (this.itemsToShow < this.photos.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.photos().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
   }
 }

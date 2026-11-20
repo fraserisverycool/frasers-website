@@ -1,8 +1,8 @@
 <h2>Welcome Image</h2>
 <p>I connected a little screen to the raspberry pi that this website is running on. Tragically, animated gifs are not supported. Currently on display:</p>
-@if (latestImageUrl) {
+@if (latestImageUrl()) {
   <div class="latest-image">
-    <img [src]="latestImageUrl" alt="Latest welcome image" />
+    <img [src]="latestImageUrl()" alt="Latest welcome image" />
   </div>
 } @else {
   <p>Oh, actually there's no image for some reason...</p>
@@ -14,21 +14,21 @@
     <input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/bmp,image/tiff,image/heic,image/heif" (change)="onFileSelected($event)" />
   </label>
   <span class="file-name">
-  {{ selectedFile ? selectedFile.name : 'No file selected yet' }}
+  {{ selectedFile()?.name ?? 'No file selected yet' }}
 </span>
   <input type="password" placeholder="Password" [(ngModel)]="password" class="password-input" />
-  <button class="upload-btn" (click)="onUpload()" [disabled]="isUploading">
-    {{ isCompressing ? 'Compressing...' : (isUploading ? 'Uploading (' + uploadProgress + '%)...' : 'Upload') }}
+  <button class="upload-btn" (click)="onUpload()" [disabled]="isUploading()">
+    {{ isCompressing() ? 'Compressing...' : (isUploading() ? 'Uploading (' + uploadProgress() + '%)...' : 'Upload') }}
   </button>
 </div>
-@if (isUploading && uploadProgress > 0) {
+@if (isUploading() && uploadProgress() > 0) {
   <div class="progress-bar-container">
-    <div class="progress-bar" [style.width.%]="uploadProgress"></div>
+    <div class="progress-bar" [style.width.%]="uploadProgress()"></div>
   </div>
 }
-@if (uploadSuccess) {
+@if (uploadSuccess()) {
   <p class="success">Image uploaded successfully!</p>
 }
-@if (uploadError) {
-  <p class="error">{{ uploadError }}</p>
+@if (uploadError()) {
+  <p class="error">{{ uploadError() }}</p>
 }

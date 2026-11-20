@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit, computed, inject, linkedSignal, signal } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {Mix} from "./mix.interface";
 import {MixModalComponent} from "./mix-modal/mix-modal.component";
@@ -10,81 +10,60 @@ import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
     selector: 'app-mixes',
     imports: [MixModalComponent, FormsModule, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './mixes.component.html',
-    standalone: true,
     styleUrls: ['./mixes.component.css']
 })
 export default class MixesComponent implements OnInit {
-  mp3Files: Mix[] = [];
-  originalMixes: Mix[] = [];
-  filteredMixes: Mix[] = [];
-  color: string = "#000000"
+  private musicService = inject(MusicService);
 
-  private _searchTerm: string = '';
-  get searchTerm(): string {
-    return this._searchTerm;
-  }
-  set searchTerm(value: string) {
-    this._searchTerm = value;
-    this.applyFilters();
-  }
+  readonly mp3Files = signal<Mix[]>([]);
+  readonly color = signal(this.getRandomColor());
+  readonly searchTerm = signal('');
+  readonly selectedMix = signal<Mix | null>(null);
 
-  pageSize = 20;
-  itemsToShow = 20;
+  readonly filteredMixes = computed(() => {
+    const searchTerm = this.searchTerm();
+    if (!searchTerm) {
+      return this.mp3Files();
+    }
+    const lowerCaseSearchTerm = searchTerm.toLowerCase();
+    return this.mp3Files().filter(mix =>
+      mix.name.toLowerCase().includes(lowerCaseSearchTerm)
+    );
+  });
 
-  selectedMix: Mix | null = null;
-
-  constructor(private musicService: MusicService) {}
+  private readonly pageSize = 20;
+  /** Resets to one page whenever the filtered list changes (search, load). */
+  readonly itemsToShow = linkedSignal({ source: this.filteredMixes, computation: () => this.pageSize });
+  readonly visibleMixes = computed(() => this.filteredMixes().slice(0, this.itemsToShow()));
 
   ngOnInit(): void {
     this.loadMixes();
-    this.color = this.getRandomColor();
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.filteredMixes.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.filteredMixes().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
   }
 
-  resetInfiniteScroll(): void {
-    this.itemsToShow = this.pageSize;
-  }
-
   showMix(mix: Mix): void {
+    // Deferred so the opening click is not treated as a click outside the modal.
     setTimeout(() => {
-      this.selectedMix = mix;
+      this.selectedMix.set(mix);
     }, 0);
   }
 
   closeMix(): void {
-    this.selectedMix = null;
+    this.selectedMix.set(null);
   }
 
   loadMixes(): void {
     this.musicService.getMixes().subscribe({
-      next: (mixes) => {
-        this.originalMixes = mixes;
-        this.mp3Files = mixes;
-        this.applyFilters();
-      },
+      next: (mixes) => this.mp3Files.set(mixes),
       error: (err) => {
         console.error('Failed to load mixes:', err);
       },
     });
-  }
-
-  applyFilters(): void {
-    this.resetInfiniteScroll();
-    let filtered = [...this.mp3Files];
-
-    if (this.searchTerm) {
-      const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
-      filtered = filtered.filter(mix =>
-        mix.name.toLowerCase().includes(lowerCaseSearchTerm)
-      );
-    }
-
-    this.filteredMixes = filtered;
   }
 
   getRandomColor() {

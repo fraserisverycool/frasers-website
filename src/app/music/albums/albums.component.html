@@ -15,14 +15,14 @@
     <ul class="tag-list">
       @for (tag of availableTags; track tag; let i = $index) {
         <li class="tag-checkbox">
-          <input type="checkbox" [id]="'tag-' + i" [value]="tag" (change)="toggleTagSelection(tag)" [checked]="selectedTags.includes(tag)">
+          <input type="checkbox" [id]="'tag-' + i" [value]="tag" (change)="toggleTagSelection(tag)" [checked]="selectedTags().includes(tag)">
           <label [for]="'tag-' + i">{{ tag }}</label>
         </li>
       }
     </ul>
   </div>
   <ul>
-    @for (album of filteredAlbums.slice(0, itemsToShow); track album) {
+    @for (album of visibleAlbums(); track album) {
       <li class="album-card" (click)="showDescription(album)">
         <div class="album-image-container" [style.border-color]="album.description ? 'inherit' : 'red'"
           [style.border-style]="album.description ? 'none' : 'solid'"
@@ -39,6 +39,6 @@
   <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
 </div>
 
-@if (selectedAlbum) {
-  <app-album-modal [selectedAlbum]="selectedAlbum" (close)="closeDescription()"></app-album-modal>
+@if (selectedAlbum(); as selectedAlbum) {
+  <app-album-modal [selectedAlbum]="selectedAlbum" (close)="closeDescription()" />
 }

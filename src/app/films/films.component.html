@@ -1,5 +1,5 @@
 <div class="container">
-  <h1 class="text-center">{{ title }}</h1>
+  <h1 class="text-center">{{ title() }}</h1>
   <div class="calendar-container">
     <ul class="calendar-grid">
       @for (filter of filters; track filter) {
@@ -15,9 +15,9 @@
     </div>
   </div>
   <ul>
-    @for (film of filteredFilms.slice(0, itemsToShow); track film) {
+    @for (film of visibleFilms(); track film) {
       <li>
-        <app-film [film]="film"></app-film>
+        <app-film [film]="film" />
       </li>
     }
   </ul>

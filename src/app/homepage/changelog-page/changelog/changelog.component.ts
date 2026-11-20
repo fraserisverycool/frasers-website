@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit, inject, signal } from '@angular/core';
 
 import {ChangelogEntry} from "../changelog-entry.interface";
 import { HttpClient } from "@angular/common/http";
@@ -10,21 +10,21 @@ import { HttpClient } from "@angular/common/http";
     styleUrls: ['./changelog.component.css']
 })
 export class ChangelogComponent implements OnInit {
-  changelogEntries: ChangelogEntry[] = [];
-  error: string | null = null;
+  private http = inject(HttpClient);
 
-  constructor(private http: HttpClient) {}
+  readonly changelogEntries = signal<ChangelogEntry[]>([]);
+  readonly error = signal<string | null>(null);
 
   ngOnInit(): void {
     this.http.get('assets/data/changelog.csv', { responseType: 'text' })
       .subscribe({
         next: (content) => this.parseChangelog(content),
-        error: () => this.error = 'Could not load changelog file.'
+        error: () => this.error.set('Could not load changelog file.')
       });
   }
 
   private parseChangelog(content: string): void {
-    this.changelogEntries = [];
+    const entries: ChangelogEntry[] = [];
     const lines = content.split(/\r?\n/);
 
     for (const line of lines) {
@@ -34,15 +34,17 @@ export class ChangelogComponent implements OnInit {
 
       if (parts.length < 2) continue;
 
-      this.changelogEntries.push({
+      entries.push({
         date: parts[0],
         message: parts[1],
         majorRelease: parts[2] === 'TRUE'  // Convert to boolean
       });
     }
 
-    if (this.changelogEntries.length === 0) {
-      this.error = 'No valid changelog entries found.';
+    this.changelogEntries.set(entries);
+
+    if (entries.length === 0) {
+      this.error.set('No valid changelog entries found.');
     }
   }
 }

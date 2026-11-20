@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import { Component, DestroyRef, computed, inject, signal } from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
 import {Router, RouterLink} from "@angular/router";
 import {CustomMarqueeComponent} from "./custom-marquee/custom-marquee.component";
@@ -6,8 +6,6 @@ import {ChangelogComponent} from "./changelog-page/changelog/changelog.component
 import ColorPickerComponent from "../utils/color-picker/color-picker.component";
 import {FormsModule} from "@angular/forms";
 import {HomepageColorService} from "./service/homepage-color.service";
-import {catchError, tap} from "rxjs/operators";
-import {of} from "rxjs";
 import {DailyComponent} from "../music/daily/daily.component";
 import { WelcomeImageComponent } from "./welcome-image/welcome-image.component";
 import { LatestPostsComponent } from "./latest-posts/latest-posts.component";
@@ -20,7 +18,10 @@ import { ImageUrlPipe } from "../utils/pipes/image-url.pipe";
     styleUrls: ['./homepage.component.css']
 })
 export default class HomepageComponent {
-  images = [
+  private router = inject(Router);
+  private homepageColorService = inject(HomepageColorService);
+
+  readonly images = [
     '/homepage/random/fraser.PNG',
     '/homepage/random/fraser2.jpg',
     '/homepage/random/fraser3.jpg',
@@ -34,13 +35,18 @@ export default class HomepageComponent {
     '/homepage/random/that.PNG',
     '/homepage/random/rocket.jpg',
   ];
-  randomImage: string = '/homepage/fraser.PNG';
-  homepageColor: string = '#ffffff';
-  colorSelection = { color: '#ffffff' };
-  colorChanges: number = 0;
-  errorMessage: string = '';
+  readonly randomImage = signal('/homepage/fraser.PNG');
+  readonly homepageColor = signal('#ffffff');
+  readonly colorSelection = signal('#ffffff');
+  readonly colorChanges = signal(0);
+  readonly errorMessage = signal('');
+  readonly textColorValue = computed(() => this.textColor(this.homepageColor()));
 
-  constructor(private router: Router, private homepageColorService: HomepageColorService) {}
+  private errorTimer?: ReturnType<typeof setTimeout>;
+
+  constructor() {
+    inject(DestroyRef).onDestroy(() => clearTimeout(this.errorTimer));
+  }
 
   handleClick(url: string) {
     this.router.navigate([url]);
@@ -53,40 +59,39 @@ export default class HomepageComponent {
 
   pickRandomImage(): void {
     const randomIndex = Math.floor(Math.random() * this.images.length);
-    this.randomImage = this.images[randomIndex];
+    this.randomImage.set(this.images[randomIndex]);
   }
 
   loadColor(): void {
-    this.homepageColorService.getLatestColor().pipe(
-      tap({next: (data) => {
-          this.homepageColor = data.latest;
-          this.colorChanges = data.total;
-        }}),
-      catchError(error => {
+    this.homepageColorService.getLatestColor().subscribe({
+      next: (data) => {
+        this.homepageColor.set(data.latest);
+        this.colorChanges.set(data.total);
+      },
+      error: () => {
         this.showError('Error loading colour');
-        this.homepageColor = "#ffffff"
-        return of();
-      })
-    ).subscribe();
+        this.homepageColor.set('#ffffff');
+      }
+    });
   }
 
   submitColor(): void {
-    if (this.colorSelection.color) {
-      this.homepageColorService.postColor(this.colorSelection).pipe(
-        tap({next: (response) => {
-            this.homepageColor = response.color;
-            this.colorChanges = this.colorChanges + 1;
-          }}),
-        catchError((error) => {
+    const color = this.colorSelection();
+    if (color) {
+      this.homepageColorService.postColor({ color }).subscribe({
+        next: (response) => {
+          this.homepageColor.set(response.color);
+          this.colorChanges.update(n => n + 1);
+        },
+        error: (error) => {
           console.error('Error posting colour:', error);
           if (error.error && error.error.errors) {
             this.showError(error.error.errors.map((e: { msg: any; }) => e.msg).join(', '));
           } else {
             this.showError('Error submitting colour');
           }
-          return of();
-        })
-      ).subscribe();
+        }
+      });
     }
   }
 
@@ -109,9 +114,10 @@ export default class HomepageComponent {
   }
 
   showError(message: string): void {
-    this.errorMessage = message;
-    setTimeout(() => {
-      this.errorMessage = '';
+    this.errorMessage.set(message);
+    clearTimeout(this.errorTimer);
+    this.errorTimer = setTimeout(() => {
+      this.errorMessage.set('');
     }, 5000);
   }
 }

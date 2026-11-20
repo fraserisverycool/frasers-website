@@ -1,6 +1,6 @@
 <div class="container">
   <div class="overlay"></div>
-  @if (newsletter) {
+  @if (newsletter(); as newsletter) {
     <div>
       <h1 class="title">{{ newsletter.title }}</h1>
       <p class="timestamp">{{ newsletter.timestamp }}</p>

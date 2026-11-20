@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, inject } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { catchError, map, of } from 'rxjs';
 import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
 import { HttpClient } from "@angular/common/http";
 
@@ -17,28 +18,27 @@ interface Video {
 
 @Component({
     selector: 'app-videos',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './videos.component.html',
     styleUrls: ['./videos.component.css']
 })
-export default class VideosComponent implements OnInit {
-  videos: Video[] = [];
+export default class VideosComponent {
+  private http = inject(HttpClient);
+  private sanitizer = inject(DomSanitizer);
 
-  constructor(private http: HttpClient, private sanitizer: DomSanitizer) {}
-
-  ngOnInit() {
-    this.http.get<{ videos: Video[] }>('assets/data/videos.json').subscribe(
-      data => {
-        this.videos = data.videos.map(video => ({
-          ...video,
-          embedUrl: this.sanitizer.bypassSecurityTrustResourceUrl(this.getEmbedUrl(video.link))
-        }));
-      },
-      error => {
+  readonly videos = toSignal(
+    this.http.get<{ videos: Video[] }>('assets/data/videos.json').pipe(
+      map(data => data.videos.map(video => ({
+        ...video,
+        embedUrl: this.sanitizer.bypassSecurityTrustResourceUrl(this.getEmbedUrl(video.link))
+      }))),
+      catchError(error => {
         console.error('Error fetching video data:', error);
-      }
-    );
-  }
+        return of([] as Video[]);
+      })
+    ),
+    { initialValue: [] as Video[] }
+  );
 
   private getEmbedUrl(link: string): string {
     try {

@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, OnInit, computed, inject, signal } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NintendoPlaylist } from './nintendo-playlist.interface';
@@ -7,20 +7,33 @@ import { RatingBarComponent } from '../../../utils/rating-bar/rating-bar.compone
 import { MusicService } from '../../service/music.service';
 import { ImageUrlPipe } from '../../../utils/pipes/image-url.pipe';
 
+type PlaylistSort = 'default' | 'alphabetical' | 'random';
+
 @Component({
   selector: 'app-nintendo-playlists',
-  standalone: true,
-  imports: [CommonModule, RouterLink, FormsModule, NgOptimizedImage, RatingBarComponent, ImageUrlPipe],
+  imports: [RouterLink, FormsModule, NgOptimizedImage, RatingBarComponent, ImageUrlPipe],
   templateUrl: './nintendo-playlists.component.html',
   styleUrls: ['./nintendo-playlists.component.css']
 })
 export default class NintendoPlaylistsComponent implements OnInit {
-  playlists: NintendoPlaylist[] = [];
-  originalPlaylists: NintendoPlaylist[] = [];
-  searchTerm: string = '';
-  currentSort: 'default' | 'alphabetical' | 'random' = 'default';
+  private musicService = inject(MusicService);
 
-  constructor(private musicService: MusicService) {}
+  readonly originalPlaylists = signal<NintendoPlaylist[]>([]);
+  readonly playlists = signal<NintendoPlaylist[]>([]);
+  readonly searchTerm = signal('');
+  readonly currentSort = signal<PlaylistSort>('default');
+
+  readonly filteredPlaylists = computed(() => {
+    const searchTerm = this.searchTerm();
+    if (!searchTerm.trim()) {
+      return this.playlists();
+    }
+    const term = searchTerm.toLowerCase();
+    return this.playlists().filter(playlist =>
+      playlist.name.toLowerCase().includes(term) ||
+      playlist.description.toLowerCase().includes(term)
+    );
+  });
 
   ngOnInit(): void {
     this.loadPlaylists();
@@ -29,7 +42,7 @@ export default class NintendoPlaylistsComponent implements OnInit {
   loadPlaylists(): void {
     this.musicService.getNintendoPlaylists().subscribe({
       next: (playlists) => {
-        this.originalPlaylists = playlists;
+        this.originalPlaylists.set(playlists);
         this.applySort();
       },
       error: (err) => {
@@ -38,32 +51,22 @@ export default class NintendoPlaylistsComponent implements OnInit {
     });
   }
 
-  get filteredPlaylists(): NintendoPlaylist[] {
-    if (!this.searchTerm.trim()) {
-      return this.playlists;
-    }
-    const term = this.searchTerm.toLowerCase();
-    return this.playlists.filter(playlist =>
-      playlist.name.toLowerCase().includes(term) ||
-      playlist.description.toLowerCase().includes(term)
-    );
-  }
-
-  sortPlaylists(criteria: 'default' | 'alphabetical' | 'random'): void {
-    this.currentSort = criteria;
+  sortPlaylists(criteria: PlaylistSort): void {
+    this.currentSort.set(criteria);
     this.applySort();
   }
 
   private applySort(): void {
-    switch (this.currentSort) {
+    const original = this.originalPlaylists();
+    switch (this.currentSort()) {
       case 'default':
-        this.playlists = [...this.originalPlaylists];
+        this.playlists.set([...original]);
         break;
       case 'alphabetical':
-        this.playlists = [...this.originalPlaylists].sort((a, b) => a.name.localeCompare(b.name));
+        this.playlists.set([...original].sort((a, b) => a.name.localeCompare(b.name)));
         break;
       case 'random':
-        this.playlists = [...this.originalPlaylists].sort(() => Math.random() - 0.5);
+        this.playlists.set([...original].sort(() => Math.random() - 0.5));
         break;
     }
   }

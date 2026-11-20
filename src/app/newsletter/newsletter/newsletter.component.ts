@@ -1,6 +1,8 @@
-import {Component, HostBinding, OnInit} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, inject } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { NgClass, NgOptimizedImage } from '@angular/common';
 import {ActivatedRoute, RouterLink} from "@angular/router";
+import { catchError, filter, map, of, switchMap } from 'rxjs';
 import {Entry, Newsletter} from "../newsletter.interface";
 import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 import {NewsletterService} from "../service/newsletter.service";
@@ -8,29 +10,27 @@ import {getNewsletterContentClass, getNewsletterContentName} from "../newsletter
 
 @Component({
     selector: 'app-newsletter',
-    imports: [CommonModule, NgOptimizedImage, RouterLink, ImageUrlPipe],
+    imports: [NgClass, NgOptimizedImage, RouterLink, ImageUrlPipe],
     templateUrl: './newsletter.component.html',
-    styleUrls: ['./newsletter.component.css']
+    styleUrls: ['./newsletter.component.css'],
+    host: { 'class': 'brown-background' }
 })
-export default class NewsletterComponent implements OnInit {
-  @HostBinding('class') classes = 'brown-background';
-  newsletter: Newsletter | null = null;
+export default class NewsletterComponent {
+  private route = inject(ActivatedRoute);
+  private newsletterService = inject(NewsletterService);
 
-  constructor(
-    private route: ActivatedRoute,
-    private newsletterService: NewsletterService
-  ) { }
-
-  ngOnInit() {
-    this.route.paramMap.subscribe(params => {
-      const timestamp = params.get('timestamp');
-      if (timestamp) {
-        this.newsletterService.getNewsletterByTimestamp(timestamp).subscribe(data => {
-          this.newsletter = data;
-        });
-      }
-    });
-  }
+  readonly newsletter = toSignal(
+    this.route.paramMap.pipe(
+      map(params => params.get('timestamp')),
+      filter((timestamp): timestamp is string => !!timestamp),
+      switchMap(timestamp => this.newsletterService.getNewsletterByTimestamp(timestamp)),
+      catchError(err => {
+        console.error('Failed to load newsletter:', err);
+        return of(null);
+      })
+    ),
+    { initialValue: null as Newsletter | null }
+  );
 
   getClass(entry: Entry): string {
     return getNewsletterContentClass(entry.type);

@@ -14,7 +14,7 @@
     <button (click)="sortSoundtracks('platform')">By Platform</button>
   </div>
   <ul>
-    @for (soundtrack of filteredSoundtracks.slice(0, itemsToShow); track soundtrack) {
+    @for (soundtrack of visibleSoundtracks(); track soundtrack) {
       <li class="soundtrack-card" (click)="showDescription(soundtrack)">
         <div class="soundtrack-image-container">
           <img [ngSrc]="'/music/nintendo/' + soundtrack.filename | imageUrl"
@@ -32,7 +32,7 @@
     </ul>
     <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
 
-    @if (filteredSoundtracks.length === 0) {
+    @if (filteredSoundtracks().length === 0) {
       <div>
         <h2>Oops! There are no soundtracks with that name. Here's a secret bonus for you for trying though:</h2>
         <div class="center-image">
@@ -44,6 +44,6 @@
     }
   </div>
 
-  @if (selectedSoundtrack) {
-    <app-soundtrack-modal [selectedSoundtrack]="selectedSoundtrack" (close)="closeDescription()"></app-soundtrack-modal>
+  @if (selectedSoundtrack(); as selectedSoundtrack) {
+    <app-soundtrack-modal [selectedSoundtrack]="selectedSoundtrack" (close)="closeDescription()" />
   }

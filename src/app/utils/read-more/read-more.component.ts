@@ -1,17 +1,15 @@
-import {Component, Input} from '@angular/core';
-
+import {Component, input, signal} from '@angular/core';
 
 @Component({
     selector: 'app-read-more',
-    imports: [],
     templateUrl: './read-more.component.html',
     styleUrls: ['./read-more.component.css']
 })
 export class ReadMoreComponent {
-  @Input() paragraphs: string[] = [];
-  showAll: boolean = false;
+  readonly paragraphs = input<string[]>([]);
+  readonly showAll = signal(false);
 
   toggleShowAll() {
-    this.showAll = !this.showAll;
+    this.showAll.update(v => !v);
   }
 }

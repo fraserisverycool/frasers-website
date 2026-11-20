@@ -1,4 +1,4 @@
-@if (selectedDurstloescher) {
+@if (selectedDurstloescher(); as selectedDurstloescher) {
   <div class="modal">
     <div class="modal-content" appClickedOutside (clickedOutside)="close.emit()">
       <app-close-button (click)="close.emit()"/>
@@ -7,14 +7,12 @@
       <img [ngSrc]="'/community/durstloescher/' + selectedDurstloescher.filename | imageUrl" [alt]="selectedDurstloescher.name" class="modal-image" width="600" height="600">
       @if (selectedDurstloescher.fraserscore) {
         <div class="star">
-          <app-star-message
-            [score]="selectedDurstloescher.fraserscore"
-            [description]="selectedDurstloescher.fraserdescription">
-          </app-star-message>
+          <app-star-message [score]="selectedDurstloescher.fraserscore"
+            [description]="selectedDurstloescher.fraserdescription" />
         </div>
       }
       <div [ngStyle]="{'padding-bottom': '30px'}"></div>
-      <app-rating-bar [rating]="{id: selectedDurstloescher.id, ratings: selectedDurstloescher.rating}"></app-rating-bar>
+      <app-rating-bar [rating]="{id: selectedDurstloescher.id, ratings: selectedDurstloescher.rating}" />
     </div>
   </div>
 }

@@ -6,9 +6,9 @@
     </div>
     <p>Here's a fun project: I've started making little mixes of my favourite music. They're available for you to enjoy as a single, continuous mp3 with transitions!</p>
     <ul class="mp3-list">
-      @for (mp3 of mp3Files.slice(0, itemsToShow); track mp3; let i = $index) {
+      @for (mp3 of visibleFiles(); track mp3; let i = $index) {
         <li [style.animation-delay]="i * 0.1 + 's'">
-          <div class="mp3-card" [style.background-color]="color">
+          <div class="mp3-card" [style.background-color]="color()">
             <h2>{{ mp3.name }}</h2>
             <div class="mix-image">
               <img [src]="'/music/playlists/art/' + mp3.image | imageUrl" [alt]="mp3.name">
@@ -33,7 +33,7 @@
               <span class="file-icon">🎧</span>
               Download {{ mp3.filename }}
             </a>
-            <app-rating-bar [rating]="{id: mp3.id, ratings: mp3.rating}"></app-rating-bar>
+            <app-rating-bar [rating]="{id: mp3.id, ratings: mp3.rating}" />
           </div>
         </li>
       }

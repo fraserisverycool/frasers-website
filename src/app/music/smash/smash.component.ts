@@ -1,6 +1,6 @@
-import { Component, OnInit, OnDestroy, ChangeDetectorRef, HostListener, NgZone, ElementRef } from '@angular/core';
+import { Component, OnInit, OnDestroy, ElementRef, computed, inject, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { CommonModule, NgClass } from '@angular/common';
+import { NgClass } from '@angular/common';
 import { forkJoin, map, switchMap } from 'rxjs';
 import { ImageService } from '../../utils/services/image.service';
 
@@ -48,38 +48,49 @@ interface Volume {
 
 @Component({
   selector: 'app-smash',
-  standalone: true,
-  imports: [CommonModule, NgClass, SmashTrackComponent, RouterLink, InfiniteScrollDirective, ImageUrlPipe],
+  imports: [NgClass, SmashTrackComponent, RouterLink, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './smash.component.html',
   styleUrl: './smash.component.css',
+  host: {
+    '(document:click)': 'onDocumentClick($event)'
+  }
 })
 export default class SmashComponent implements OnInit, OnDestroy {
-  volumes: Volume[] = [];
-  composersMetadata: { [key: string]: { image: string, source: string, notes: string } } = {};
-  allTracks: Track[] = [];
-  filteredTracks: Track[] = [];
-  categories: string[] = [];
-  selectedCategories: string[] = [];
-  selectedGames: string[] = [];
-  selectedStars: number[] = [];
-  selectedType: string | null = null; // 'Remix' | 'Original' | null
-  selectedComposers: string[] = [];
-  isFilterDropdownOpen = false;
-  isGameDropdownOpen = false;
-  isStarsDropdownOpen = false;
-  isComposerDropdownOpen = false;
-  composerImageFailed = false;
-  currentTrack: Track | null = null;
-  playlist: Track[] = [];
-  loading = true;
+  private http = inject(HttpClient);
+  protected imageService = inject(ImageService);
+  private eRef = inject(ElementRef);
 
-  games: string[] = ['64', 'Melee', 'Brawl', 'Smash 4', 'Ultimate'];
-  stars: number[] = [0, 1, 2, 3, 4, 5];
-  composersList: string[] = [];
+  private readonly volumes = signal<Volume[]>([]);
+  private readonly composersMetadata = signal<{ [key: string]: { image: string, source: string, notes: string } }>({});
+  private allTracks: Track[] = [];
+  readonly filteredTracks = signal<Track[]>([]);
+  readonly categories = signal<string[]>([]);
+  readonly selectedCategories = signal<string[]>([]);
+  readonly selectedGames = signal<string[]>([]);
+  readonly selectedStars = signal<number[]>([]);
+  readonly selectedType = signal<string | null>(null); // 'Remix' | 'Original' | null
+  readonly selectedComposers = signal<string[]>([]);
+  readonly isFilterDropdownOpen = signal(false);
+  readonly isGameDropdownOpen = signal(false);
+  readonly isStarsDropdownOpen = signal(false);
+  readonly isComposerDropdownOpen = signal(false);
+  readonly composerImageFailed = signal(false);
+  readonly currentTrack = signal<Track | null>(null);
+  readonly playlist = signal<Track[]>([]);
+  readonly currentIndex = computed(() => {
+    const current = this.currentTrack();
+    return current ? this.playlist().indexOf(current) : -1;
+  });
+  readonly loading = signal(true);
+
+  readonly games: string[] = ['64', 'Melee', 'Brawl', 'Smash 4', 'Ultimate'];
+  readonly stars: number[] = [0, 1, 2, 3, 4, 5];
+  readonly composersList = signal<string[]>([]);
 
   // Infinite scroll
-  itemsToShow = 20;
-  pageSize = 20;
+  private readonly itemsToShow = signal(20);
+  private readonly pageSize = 20;
+  readonly visibleTracks = computed(() => this.filteredTracks().slice(0, this.itemsToShow()));
 
   private isAutoAdvancing = false;
   isFirstLoad = true;
@@ -93,17 +104,14 @@ export default class SmashComponent implements OnInit, OnDestroy {
   private readonly PRELOAD_AHEAD = 3;
 
   // Custom player state
-  isPlaying = false;
-  currentTime = 0;
-  duration = 0;
+  readonly isPlaying = signal(false);
+  readonly currentTime = signal(0);
+  readonly duration = signal(0);
   private playbackStartWallTime = 0;
   private playbackStartOffset = 0;
-  private progressInterval: any = null;
-  volume = 1;
+  private progressInterval: ReturnType<typeof setInterval> | null = null;
+  readonly volume = signal(1);
 
-  constructor(private http: HttpClient, protected imageService: ImageService, private cdr: ChangeDetectorRef, private eRef: ElementRef, private ngZone: NgZone) {}
-
-  @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent): void {
     const target = event.target as HTMLElement;
     const filterContainers = this.eRef.nativeElement.querySelectorAll('.filter-container');
@@ -115,12 +123,11 @@ export default class SmashComponent implements OnInit, OnDestroy {
       }
     });
 
-    if (!isInsideAnyFilter && (this.isFilterDropdownOpen || this.isGameDropdownOpen || this.isStarsDropdownOpen || this.isComposerDropdownOpen)) {
-      this.isFilterDropdownOpen = false;
-      this.isGameDropdownOpen = false;
-      this.isStarsDropdownOpen = false;
-      this.isComposerDropdownOpen = false;
-      this.cdr.detectChanges();
+    if (!isInsideAnyFilter && (this.isFilterDropdownOpen() || this.isGameDropdownOpen() || this.isStarsDropdownOpen() || this.isComposerDropdownOpen())) {
+      this.isFilterDropdownOpen.set(false);
+      this.isGameDropdownOpen.set(false);
+      this.isStarsDropdownOpen.set(false);
+      this.isComposerDropdownOpen.set(false);
     }
   }
 
@@ -131,22 +138,22 @@ export default class SmashComponent implements OnInit, OnDestroy {
   }
 
   setVolume(value: number | string): void {
-    this.volume = +value;
+    this.volume.set(+value);
     if (this.gainNode) {
-      this.gainNode.gain.value = this.volume;
+      this.gainNode.gain.value = this.volume();
     }
   }
 
   private saveState(): void {
     const state = {
-      selectedCategories: this.selectedCategories,
-      selectedGames: this.selectedGames,
-      selectedStars: this.selectedStars,
-      selectedType: this.selectedType,
-      selectedComposers: this.selectedComposers,
-      currentTrackId: this.currentTrack?.id,
-      playlistIds: this.playlist.map(t => t.id),
-      playbackPosition: this.currentTime
+      selectedCategories: this.selectedCategories(),
+      selectedGames: this.selectedGames(),
+      selectedStars: this.selectedStars(),
+      selectedType: this.selectedType(),
+      selectedComposers: this.selectedComposers(),
+      currentTrackId: this.currentTrack()?.id,
+      playlistIds: this.playlist().map(t => t.id),
+      playbackPosition: this.currentTime()
     };
     localStorage.setItem('smash_player_state', JSON.stringify(state));
   }
@@ -157,27 +164,27 @@ export default class SmashComponent implements OnInit, OnDestroy {
 
     try {
       const state = JSON.parse(saved);
-      this.selectedCategories = state.selectedCategories || [];
-      this.selectedGames = state.selectedGames || [];
-      this.selectedStars = state.selectedStars || [];
-      this.selectedType = state.selectedType || null;
-      this.selectedComposers = state.selectedComposers || [];
+      this.selectedCategories.set(state.selectedCategories || []);
+      this.selectedGames.set(state.selectedGames || []);
+      this.selectedStars.set(state.selectedStars || []);
+      this.selectedType.set(state.selectedType || null);
+      this.selectedComposers.set(state.selectedComposers || []);
 
       this.applyFilter();
 
       if (state.playlistIds && state.playlistIds.length > 0) {
         // Map saved IDs back to track objects
         const trackMap = new Map(this.allTracks.map(t => [t.id, t]));
-        this.playlist = state.playlistIds.map((id: string) => trackMap.get(id)).filter((t: any) => t) as Track[];
+        this.playlist.set(state.playlistIds.map((id: string) => trackMap.get(id)).filter((t: any) => t) as Track[]);
       }
 
       if (state.currentTrackId) {
         const track = this.allTracks.find(t => t.id === state.currentTrackId);
         if (track) {
-          this.currentTrack = track;
+          this.currentTrack.set(track);
           if (state.playbackPosition) {
             this.playbackStartOffset = state.playbackPosition;
-            this.currentTime = state.playbackPosition;
+            this.currentTime.set(state.playbackPosition);
           }
           // Don't auto-play on load, just restore the info
           this.updateMediaSession(track);
@@ -193,7 +200,7 @@ export default class SmashComponent implements OnInit, OnDestroy {
 
     // Load composer metadata
     this.http.get<{ [key: string]: { image: string, source: string, notes: string } }>('assets/data/smash/composers.json').subscribe({
-      next: (data) => this.composersMetadata = data,
+      next: (data) => this.composersMetadata.set(data),
       error: () => console.log('No composer metadata found')
     });
 
@@ -221,7 +228,7 @@ export default class SmashComponent implements OnInit, OnDestroy {
       })
     ).subscribe({
       next: (volumes) => {
-        this.volumes = volumes;
+        this.volumes.set(volumes);
         this.allTracks = volumes.flatMap(v => v.tracks);
 
         // Derive categories from the 'album' property for better accuracy as requested
@@ -250,25 +257,23 @@ export default class SmashComponent implements OnInit, OnDestroy {
             });
           }
         });
-        this.categories = Array.from(categorySet);
-        this.composersList = Array.from(composerSet).sort();
+        this.categories.set(Array.from(categorySet));
+        this.composersList.set(Array.from(composerSet).sort());
 
         // Restore state if available
         this.loadState();
 
         // If no state was loaded, use defaults
-        if (this.filteredTracks.length === 0 && this.allTracks.length > 0 && this.selectedCategories.length === 0 && this.selectedGames.length === 0 && this.selectedStars.length === 0 && this.selectedType === null && this.selectedComposers.length === 0) {
-          this.filteredTracks = [...this.allTracks];
-          this.playlist = [...this.filteredTracks];
+        if (this.filteredTracks().length === 0 && this.allTracks.length > 0 && this.selectedCategories().length === 0 && this.selectedGames().length === 0 && this.selectedStars().length === 0 && this.selectedType() === null && this.selectedComposers().length === 0) {
+          this.filteredTracks.set([...this.allTracks]);
+          this.playlist.set([...this.allTracks]);
         }
 
-        this.loading = false;
-        this.cdr.detectChanges();
+        this.loading.set(false);
       },
       error: (err) => {
         console.error('Error loading smash data', err);
-        this.loading = false;
-        this.cdr.detectChanges();
+        this.loading.set(false);
       }
     });
   }
@@ -289,145 +294,112 @@ export default class SmashComponent implements OnInit, OnDestroy {
         // @ts-ignore
         navigator.mediaSession.setActionHandler('seekto', null);
       } catch (e) {}
+      try {
+        navigator.mediaSession.setActionHandler('seekbackward', null);
+        navigator.mediaSession.setActionHandler('seekforward', null);
+      } catch (e) {}
     }
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.filteredTracks.length) {
-      this.itemsToShow += this.pageSize;
-      this.cdr.detectChanges();
+    if (this.itemsToShow() < this.filteredTracks().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
   }
 
   resetInfiniteScroll(): void {
-    this.itemsToShow = this.pageSize;
+    this.itemsToShow.set(this.pageSize);
   }
 
   toggleFilterDropdown(event: MouseEvent): void {
     event.stopPropagation();
-    this.isFilterDropdownOpen = !this.isFilterDropdownOpen;
-    this.isGameDropdownOpen = false;
-    this.isStarsDropdownOpen = false;
-    this.isComposerDropdownOpen = false;
-    this.cdr.detectChanges();
+    this.isFilterDropdownOpen.update(open => !open);
+    this.isGameDropdownOpen.set(false);
+    this.isStarsDropdownOpen.set(false);
+    this.isComposerDropdownOpen.set(false);
   }
 
   toggleGameDropdown(event: MouseEvent): void {
     event.stopPropagation();
-    this.isGameDropdownOpen = !this.isGameDropdownOpen;
-    this.isFilterDropdownOpen = false;
-    this.isStarsDropdownOpen = false;
-    this.isComposerDropdownOpen = false;
-    this.cdr.detectChanges();
+    this.isGameDropdownOpen.update(open => !open);
+    this.isFilterDropdownOpen.set(false);
+    this.isStarsDropdownOpen.set(false);
+    this.isComposerDropdownOpen.set(false);
   }
 
   toggleStarsDropdown(event: MouseEvent): void {
     event.stopPropagation();
-    this.isStarsDropdownOpen = !this.isStarsDropdownOpen;
-    this.isFilterDropdownOpen = false;
-    this.isGameDropdownOpen = false;
-    this.isComposerDropdownOpen = false;
-    this.cdr.detectChanges();
+    this.isStarsDropdownOpen.update(open => !open);
+    this.isFilterDropdownOpen.set(false);
+    this.isGameDropdownOpen.set(false);
+    this.isComposerDropdownOpen.set(false);
   }
 
   toggleComposerDropdown(event: MouseEvent): void {
     event.stopPropagation();
-    this.isComposerDropdownOpen = !this.isComposerDropdownOpen;
-    this.isFilterDropdownOpen = false;
-    this.isGameDropdownOpen = false;
-    this.isStarsDropdownOpen = false;
-    this.cdr.detectChanges();
+    this.isComposerDropdownOpen.update(open => !open);
+    this.isFilterDropdownOpen.set(false);
+    this.isGameDropdownOpen.set(false);
+    this.isStarsDropdownOpen.set(false);
+  }
+
+  /** Returns a copy of the list with the value added, or removed if it was already present. */
+  private toggleValue<T>(list: T[], value: T): T[] {
+    return list.includes(value) ? list.filter(v => v !== value) : [...list, value];
   }
 
   selectCategory(category: string | null): void {
-    if (category === null) {
-      this.selectedCategories = [];
-    } else {
-      const index = this.selectedCategories.indexOf(category);
-      if (index > -1) {
-        this.selectedCategories.splice(index, 1);
-      } else {
-        this.selectedCategories.push(category);
-      }
-    }
+    this.selectedCategories.update(list => category === null ? [] : this.toggleValue(list, category));
     this.resetInfiniteScroll();
     this.applyFilter();
     this.saveState();
-    this.cdr.detectChanges();
   }
 
   selectGame(game: string | null): void {
-    if (game === null) {
-      this.selectedGames = [];
-    } else {
-      const index = this.selectedGames.indexOf(game);
-      if (index > -1) {
-        this.selectedGames.splice(index, 1);
-      } else {
-        this.selectedGames.push(game);
-      }
-    }
+    this.selectedGames.update(list => game === null ? [] : this.toggleValue(list, game));
     this.resetInfiniteScroll();
     this.applyFilter();
     this.saveState();
-    this.cdr.detectChanges();
   }
 
   selectStars(star: number | null): void {
-    if (star === null) {
-      this.selectedStars = [];
-    } else {
-      const index = this.selectedStars.indexOf(star);
-      if (index > -1) {
-        this.selectedStars.splice(index, 1);
-      } else {
-        this.selectedStars.push(star);
-      }
-    }
+    this.selectedStars.update(list => star === null ? [] : this.toggleValue(list, star));
     this.resetInfiniteScroll();
     this.applyFilter();
     this.saveState();
-    this.cdr.detectChanges();
   }
 
   selectType(type: string | null): void {
-    this.selectedType = type;
+    this.selectedType.set(type);
     this.resetInfiniteScroll();
     this.applyFilter();
     this.saveState();
-    this.cdr.detectChanges();
   }
 
   selectComposer(composer: string | null): void {
-    if (composer === null) {
-      this.selectedComposers = [];
-    } else {
-      const index = this.selectedComposers.indexOf(composer);
-      if (index > -1) {
-        this.selectedComposers.splice(index, 1);
-      } else {
-        this.selectedComposers = [composer];
-      }
-    }
-    this.composerImageFailed = false;
+    // Single-select: picking the selected composer again removes it, otherwise it replaces the selection
+    this.selectedComposers.update(list => {
+      if (composer === null) return [];
+      return list.includes(composer) ? list.filter(c => c !== composer) : [composer];
+    });
+    this.composerImageFailed.set(false);
     this.resetInfiniteScroll();
     this.applyFilter();
     this.saveState();
-    this.cdr.detectChanges();
   }
 
   onComposerImageError(): void {
-    this.composerImageFailed = true;
-    this.cdr.detectChanges();
+    this.composerImageFailed.set(true);
   }
 
-  get selectedFranchiseNotes(): string | null {
-    if (this.selectedCategories.length !== 1) {
+  readonly selectedFranchiseNotes = computed(() => {
+    const selectedCategories = this.selectedCategories();
+    if (selectedCategories.length !== 1) {
       return null;
     }
 
-    const selectedCategory = this.selectedCategories[0];
-    const volume = this.volumes.find(v => {
+    const selectedCategory = selectedCategories[0];
+    const volume = this.volumes().find(v => {
       // Check if volume title matches selected category
       if (v.title === selectedCategory) return true;
       // Or check if any track in the volume belongs to this category
@@ -443,14 +415,15 @@ export default class SmashComponent implements OnInit, OnDestroy {
     });
 
     return volume?.notes || null;
-  }
+  });
 
-  get selectedComposerInfo(): { name: string, image: string, notes: string } | null {
-    if (this.selectedComposers.length !== 1) {
+  readonly selectedComposerInfo = computed<{ name: string, image: string, notes: string } | null>(() => {
+    const selectedComposers = this.selectedComposers();
+    if (selectedComposers.length !== 1) {
       return null;
     }
-    const name = this.selectedComposers[0];
-    const metadata = this.composersMetadata[name];
+    const name = selectedComposers[0];
+    const metadata = this.composersMetadata()[name];
     if (metadata) {
       return {
         name: name,
@@ -459,68 +432,72 @@ export default class SmashComponent implements OnInit, OnDestroy {
       };
     }
     return null;
-  }
+  });
 
   shuffleTracks(): void {
-    if (this.filteredTracks.length === 0) return;
+    if (this.filteredTracks().length === 0) return;
 
     // Fisher-Yates shuffle algorithm
-    const tracks = [...this.filteredTracks];
+    const tracks = [...this.filteredTracks()];
     for (let i = tracks.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [tracks[i], tracks[j]] = [tracks[j], tracks[i]];
     }
-    this.filteredTracks = tracks;
-    this.playlist = [...this.filteredTracks];
+    this.filteredTracks.set(tracks);
+    this.playlist.set([...tracks]);
     this.saveState();
     this.resetInfiniteScroll();
-    this.cdr.detectChanges();
   }
 
   applyFilter(): void {
-    this.filteredTracks = this.allTracks.filter(track => {
+    const selectedCategories = this.selectedCategories();
+    const selectedGames = this.selectedGames();
+    const selectedStars = this.selectedStars();
+    const selectedType = this.selectedType();
+    const selectedComposers = this.selectedComposers();
+    const filtered = this.allTracks.filter(track => {
       // Category filter (OR logic within categories)
-      if (this.selectedCategories.length > 0) {
+      if (selectedCategories.length > 0) {
         let category: string;
         if (track.album && track.album.includes(': ')) {
           category = track.album.split(': ')[1].trim();
         } else {
           category = track.volume;
         }
-        if (!this.selectedCategories.includes(category)) return false;
+        if (!selectedCategories.includes(category)) return false;
       }
 
       // Game filter (comment field)
-      if (this.selectedGames.length > 0) {
-        const matchesAnyGame = this.selectedGames.some(game => track.comment.includes(game));
+      if (selectedGames.length > 0) {
+        const matchesAnyGame = selectedGames.some(game => track.comment.includes(game));
         if (!matchesAnyGame) return false;
       }
 
       // Stars filter
-      if (this.selectedStars.length > 0) {
+      if (selectedStars.length > 0) {
         const trackStars = parseInt(track.stars, 10);
-        if (!this.selectedStars.includes(trackStars)) return false;
+        if (!selectedStars.includes(trackStars)) return false;
       }
 
       // Remix/Original filter (type)
-      if (this.selectedType) {
-        if (!track.comment.includes(this.selectedType)) return false;
+      if (selectedType) {
+        if (!track.comment.includes(selectedType)) return false;
       }
 
       // Special case for "Original" to exclude "Remix" in comment
-      if (this.selectedType === 'Original' && track.comment.includes('Remix')) {
+      if (selectedType === 'Original' && track.comment.includes('Remix')) {
         return false;
       }
 
       // Composer/Contributor filter
-      if (this.selectedComposers.length > 0) {
-        const matchesAnyComposer = this.selectedComposers.some(composer => {
+      if (selectedComposers.length > 0) {
+        const matchesAnyComposer = selectedComposers.some(composer => {
           const trackContributors = this.getIndividualComposers(track.contributors);
           const trackComposers = this.getIndividualComposers(track.composers);
 
-          if (this.selectedType === 'Remix') {
+          if (selectedType === 'Remix') {
             return trackContributors.includes(composer);
-          } else if (this.selectedType === 'Original') {
+          } else if (selectedType === 'Original') {
             return trackComposers.includes(composer);
           } else {
             // "All" is selected or selectedType is null
@@ -533,26 +510,27 @@ export default class SmashComponent implements OnInit, OnDestroy {
       return true;
     });
 
-    this.playlist = [...this.filteredTracks];
+    this.filteredTracks.set(filtered);
+    this.playlist.set([...filtered]);
   }
 
   playAll(): void {
     this.isFirstLoad = false;
-    if (this.filteredTracks.length > 0) {
-      this.playTrack(this.filteredTracks[0]);
+    const filteredTracks = this.filteredTracks();
+    if (filteredTracks.length > 0) {
+      this.playTrack(filteredTracks[0]);
     }
   }
 
   playTrack(track: Track): void {
     this.isFirstLoad = false;
     this.isAutoAdvancing = false;
-    this.currentTrack = track;
-    this.currentTime = 0;
-    this.duration = 0;
+    this.currentTrack.set(track);
+    this.currentTime.set(0);
+    this.duration.set(0);
     this.playbackStartOffset = 0;
     this.updateMediaSession(track);
     this.saveState();
-    this.cdr.detectChanges();
 
     this.stopCurrentSource();
     this.stopProgressTracking();
@@ -561,7 +539,7 @@ export default class SmashComponent implements OnInit, OnDestroy {
     // Resume context if suspended (required after user gesture on mobile)
     const startPlayback = (buffer: AudioBuffer) => {
       this.stopCurrentSource();
-      this.duration = buffer.duration;
+      this.duration.set(buffer.duration);
       const source = ctx.createBufferSource();
       source.buffer = buffer;
       source.connect(this.gainNode!);
@@ -569,16 +547,15 @@ export default class SmashComponent implements OnInit, OnDestroy {
       this.playbackStartOffset = 0;
       source.start(0);
       this.currentSource = source;
-      this.isPlaying = true;
+      this.isPlaying.set(true);
       source.onended = () => this.onSourceEnded(track);
       this.startProgressTracking();
       if ('mediaSession' in navigator) {
         navigator.mediaSession.playbackState = 'playing';
       }
       // Pre-load next tracks
-      const index = this.playlist.indexOf(track);
+      const index = this.playlist().indexOf(track);
       this.preloadAhead(index);
-      this.cdr.detectChanges();
     };
 
     const resume = ctx.state === 'suspended' ? ctx.resume() : Promise.resolve();
@@ -587,8 +564,7 @@ export default class SmashComponent implements OnInit, OnDestroy {
         .then(buffer => startPlayback(buffer))
         .catch(err => {
           console.error('[DEBUG_LOG] playTrack error:', err);
-          this.isPlaying = false;
-          this.cdr.detectChanges();
+          this.isPlaying.set(false);
         })
     );
   }
@@ -609,15 +585,7 @@ export default class SmashComponent implements OnInit, OnDestroy {
       navigator.mediaSession.playbackState = 'playing';
 
       // Update position state for better background handling
-      if ('setPositionState' in navigator.mediaSession) {
-        try {
-          navigator.mediaSession.setPositionState({
-            duration: isFinite(this.duration) ? this.duration : 0,
-            playbackRate: 1,
-            position: Math.min(this.currentTime, this.duration || 0)
-          });
-        } catch (e) {}
-      }
+      this.updateMediaSessionPosition();
     }
   }
 
@@ -640,14 +608,14 @@ export default class SmashComponent implements OnInit, OnDestroy {
       try {
         navigator.mediaSession.setActionHandler('seekbackward', (details) => {
           const skipTime = details.seekOffset || 10;
-          this.seekTo(Math.max(this.currentTime - skipTime, 0));
+          this.seekTo(Math.max(this.currentTime() - skipTime, 0));
         });
       } catch (e) {}
 
       try {
         navigator.mediaSession.setActionHandler('seekforward', (details) => {
           const skipTime = details.seekOffset || 10;
-          this.seekTo(Math.min(this.currentTime + skipTime, this.duration));
+          this.seekTo(Math.min(this.currentTime() + skipTime, this.duration()));
         });
       } catch (e) {}
     }
@@ -676,9 +644,10 @@ export default class SmashComponent implements OnInit, OnDestroy {
   }
 
   private preloadAhead(fromIndex: number): void {
-    const end = Math.min(fromIndex + this.PRELOAD_AHEAD, this.playlist.length);
+    const playlist = this.playlist();
+    const end = Math.min(fromIndex + this.PRELOAD_AHEAD, playlist.length);
     for (let i = fromIndex + 1; i < end; i++) {
-      const track = this.playlist[i];
+      const track = playlist[i];
       const url = this.imageService.imageUrl(track.path);
       if (!this.bufferCache.has(url)) {
         this.fetchAndDecodeBuffer(track).catch(err =>
@@ -698,20 +667,14 @@ export default class SmashComponent implements OnInit, OnDestroy {
 
   private startProgressTracking(): void {
     this.stopProgressTracking();
-    this.ngZone.runOutsideAngular(() => {
-      this.progressInterval = setInterval(() => {
-        if (this.isPlaying) {
-          const elapsed = (performance.now() - this.playbackStartWallTime) / 1000;
-          const newTime = Math.min(this.playbackStartOffset + elapsed, this.duration);
-          this.ngZone.run(() => {
-            this.currentTime = newTime;
-            this.saveState();
-            this.updateMediaSessionPosition();
-            this.cdr.detectChanges();
-          });
-        }
-      }, 500);
-    });
+    this.progressInterval = setInterval(() => {
+      if (this.isPlaying()) {
+        const elapsed = (performance.now() - this.playbackStartWallTime) / 1000;
+        this.currentTime.set(Math.min(this.playbackStartOffset + elapsed, this.duration()));
+        this.saveState();
+        this.updateMediaSessionPosition();
+      }
+    }, 500);
   }
 
   private stopProgressTracking(): void {
@@ -723,24 +686,26 @@ export default class SmashComponent implements OnInit, OnDestroy {
 
   private updateMediaSessionPosition(): void {
     if ('mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
+      const duration = this.duration();
       try {
         navigator.mediaSession.setPositionState({
-          duration: isFinite(this.duration) ? this.duration : 0,
+          duration: isFinite(duration) ? duration : 0,
           playbackRate: 1,
-          position: Math.min(this.currentTime, this.duration || 0)
+          position: Math.min(this.currentTime(), duration || 0)
         });
       } catch (e) {}
     }
   }
 
   seekTo(time: number): void {
-    if (!this.currentTrack) return;
+    const currentTrack = this.currentTrack();
+    if (!currentTrack) return;
     this.stopCurrentSource();
     this.stopProgressTracking();
     this.playbackStartOffset = time;
-    this.currentTime = time;
+    this.currentTime.set(time);
     const ctx = this.ensureAudioContext();
-    const url = this.imageService.imageUrl(this.currentTrack.path);
+    const url = this.imageService.imageUrl(currentTrack.path);
     const buffer = this.bufferCache.get(url);
     if (!buffer) return;
     const source = ctx.createBufferSource();
@@ -749,8 +714,8 @@ export default class SmashComponent implements OnInit, OnDestroy {
     this.playbackStartWallTime = performance.now();
     source.start(0, time);
     this.currentSource = source;
-    this.isPlaying = true;
-    source.onended = () => this.onSourceEnded(this.currentTrack!);
+    this.isPlaying.set(true);
+    source.onended = () => this.onSourceEnded(this.currentTrack()!);
     this.startProgressTracking();
     if ('mediaSession' in navigator) {
       navigator.mediaSession.playbackState = 'playing';
@@ -758,71 +723,61 @@ export default class SmashComponent implements OnInit, OnDestroy {
   }
 
   pausePlayback(): void {
-    if (!this.audioCtx || !this.isPlaying) return;
-    this.playbackStartOffset = this.currentTime;
+    if (!this.audioCtx || !this.isPlaying()) return;
+    this.playbackStartOffset = this.currentTime();
     this.stopCurrentSource();
     this.stopProgressTracking();
     this.audioCtx.suspend();
-    this.isPlaying = false;
+    this.isPlaying.set(false);
     if ('mediaSession' in navigator) {
       navigator.mediaSession.playbackState = 'paused';
     }
-    this.cdr.detectChanges();
   }
 
   resumePlayback(): void {
-    if (!this.currentTrack) return;
+    const currentTrack = this.currentTrack();
+    if (!currentTrack) return;
     const ctx = this.ensureAudioContext();
     const resume = ctx.state === 'suspended' ? ctx.resume() : Promise.resolve();
     resume.then(() => {
-      const url = this.imageService.imageUrl(this.currentTrack!.path);
+      const url = this.imageService.imageUrl(currentTrack.path);
       const buffer = this.bufferCache.get(url);
       if (buffer) {
         // Buffer already in cache — start from saved offset
-        const source = ctx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(this.gainNode!);
-        this.playbackStartWallTime = performance.now();
-        source.start(0, this.playbackStartOffset);
-        this.currentSource = source;
-        this.isPlaying = true;
-        source.onended = () => this.onSourceEnded(this.currentTrack!);
-        this.startProgressTracking();
-        if ('mediaSession' in navigator) {
-          navigator.mediaSession.playbackState = 'playing';
-        }
-        this.cdr.detectChanges();
+        this.startSourceAtOffset(ctx, buffer);
       } else {
         // Buffer was not loaded (e.g. mobile browser suspended before preload finished)
         // Fetch and decode it now, then start playback from the saved offset
-        this.fetchAndDecodeBuffer(this.currentTrack!).then(fetchedBuffer => {
-          const source = ctx.createBufferSource();
-          source.buffer = fetchedBuffer;
-          source.connect(this.gainNode!);
-          this.playbackStartWallTime = performance.now();
-          source.start(0, this.playbackStartOffset);
-          this.currentSource = source;
-          this.isPlaying = true;
-          source.onended = () => this.onSourceEnded(this.currentTrack!);
-          this.startProgressTracking();
-          if ('mediaSession' in navigator) {
-            navigator.mediaSession.playbackState = 'playing';
-          }
+        this.fetchAndDecodeBuffer(currentTrack).then(fetchedBuffer => {
+          this.startSourceAtOffset(ctx, fetchedBuffer);
           // Also kick off preloading for upcoming tracks
-          const index = this.playlist.indexOf(this.currentTrack!);
-          this.preloadAhead(index);
-          this.cdr.detectChanges();
+          this.preloadAhead(this.currentIndex());
         }).catch(err => {
           console.error('[DEBUG_LOG] resumePlayback fetch error:', err);
-          this.isPlaying = false;
-          this.cdr.detectChanges();
+          this.isPlaying.set(false);
         });
       }
     });
   }
 
+  /** Starts the given buffer from the saved playback offset (used when resuming). */
+  private startSourceAtOffset(ctx: AudioContext, buffer: AudioBuffer): void {
+    const source = ctx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(this.gainNode!);
+    this.playbackStartWallTime = performance.now();
+    source.start(0, this.playbackStartOffset);
+    this.currentSource = source;
+    this.isPlaying.set(true);
+    source.onended = () => this.onSourceEnded(this.currentTrack()!);
+    this.startProgressTracking();
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'playing';
+    }
+  }
+
   togglePlayPause(): void {
-    if (this.isPlaying) {
+    if (this.isPlaying()) {
       this.pausePlayback();
     } else {
       this.resumePlayback();
@@ -831,49 +786,43 @@ export default class SmashComponent implements OnInit, OnDestroy {
 
   private onSourceEnded(track: Track): void {
     // Only advance if this ended naturally (not stopped manually)
-    if (!this.isPlaying) return;
-    this.ngZone.run(() => {
-      this.isAutoAdvancing = true;
-      this.nextTrack();
-    });
+    if (!this.isPlaying()) return;
+    this.isAutoAdvancing = true;
+    this.nextTrack();
   }
 
   nextTrack(): void {
-    if (!this.currentTrack) return;
-    const nextIndex = this.playlist.indexOf(this.currentTrack) + 1;
-    if (nextIndex < this.playlist.length) {
+    if (!this.currentTrack()) return;
+    const playlist = this.playlist();
+    const nextIndex = this.currentIndex() + 1;
+    if (nextIndex < playlist.length) {
       this.isFirstLoad = false;
       this.isAutoAdvancing = true;
-      this.playTrack(this.playlist[nextIndex]);
+      this.playTrack(playlist[nextIndex]);
     } else {
       this.isAutoAdvancing = false;
-      this.isPlaying = false;
+      this.isPlaying.set(false);
       this.stopProgressTracking();
-      this.cdr.detectChanges();
     }
   }
 
   previousTrack(): void {
-    if (!this.currentTrack) return;
-    const index = this.playlist.indexOf(this.currentTrack);
+    if (!this.currentTrack()) return;
+    const index = this.currentIndex();
     if (index > 0) {
       this.isFirstLoad = false;
-      this.playTrack(this.playlist[index - 1]);
+      this.playTrack(this.playlist()[index - 1]);
     }
   }
 
-  get progressPercent(): number {
-    if (!this.duration) return 0;
-    return (this.currentTime / this.duration) * 100;
-  }
+  readonly progressPercent = computed(() => {
+    const duration = this.duration();
+    if (!duration) return 0;
+    return (this.currentTime() / duration) * 100;
+  });
 
-  get currentTimeFormatted(): string {
-    return this.formatTime(this.currentTime);
-  }
-
-  get durationFormatted(): string {
-    return this.formatTime(this.duration);
-  }
+  readonly currentTimeFormatted = computed(() => this.formatTime(this.currentTime()));
+  readonly durationFormatted = computed(() => this.formatTime(this.duration()));
 
   private formatTime(seconds: number): string {
     const m = Math.floor(seconds / 60);
@@ -885,6 +834,7 @@ export default class SmashComponent implements OnInit, OnDestroy {
     const bar = event.currentTarget as HTMLElement;
     const rect = bar.getBoundingClientRect();
     const ratio = (event.clientX - rect.left) / rect.width;
-    this.seekTo(ratio * this.duration);
+    this.seekTo(ratio * this.duration());
+
   }
 }

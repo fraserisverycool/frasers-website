@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit, computed, inject, linkedSignal, signal } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {Album} from "./album.interface";
@@ -12,27 +12,19 @@ import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
   selector: 'app-albums',
   imports: [FormsModule, NgOptimizedImage, AlbumModalComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './albums.component.html',
-  standalone: true,
   styleUrls: ['./albums.component.css']
 })
 export default class AlbumsComponent implements OnInit {
-  albums: Album[] = [];
-  originalAlbums: Album[] = [];
-  filteredAlbums: Album[] = [];
-  selectedAlbum: Album | null = null;
+  private albumsService = inject(AlbumsService);
+  private musicService = inject(MusicService);
 
-  private _searchTerm: string = '';
-  get searchTerm(): string {
-    return this._searchTerm;
-  }
-  set searchTerm(value: string) {
-    this._searchTerm = value;
-    this.applyFilters();
-  }
+  private readonly originalAlbums = signal<Album[]>([]);
+  readonly albums = signal<Album[]>([]);
+  readonly selectedAlbum = signal<Album | null>(null);
+  readonly searchTerm = signal('');
+  readonly selectedTags = signal<string[]>([]);
 
-  selectedTags: string[] = [];
-
-  availableTags: string[] = [
+  readonly availableTags: string[] = [
     'chill', 'electronic', 'pop', 'party',
     'scandinavian', 'rock', 'folky', 'indie',
     'brazilian', 'peaceful', 'soul', 'hip-hop', 'singer-songwriter',
@@ -40,32 +32,48 @@ export default class AlbumsComponent implements OnInit {
     'special vibes', 'classic', 'not for everyone', 'cunty', 'devastating', 'wild shit', 'all time faves'
   ];
 
-  pageSize = 20;
-  itemsToShow = 20;
+  readonly filteredAlbums = computed(() => {
+    let filtered = this.albums();
+    const searchTerm = this.searchTerm();
+    const selectedTags = this.selectedTags();
 
-  constructor(private albumsService: AlbumsService, private musicService: MusicService) {}
+    if (searchTerm) {
+      const lowerCaseSearchTerm = searchTerm.toLowerCase();
+      filtered = filtered.filter(album =>
+        album.name.toLowerCase().includes(lowerCaseSearchTerm) ||
+        album.artist.toLowerCase().includes(lowerCaseSearchTerm)
+      );
+    }
+
+    if (selectedTags.length > 0) {
+      filtered = filtered.filter(album =>
+        selectedTags.every(tag => album.tags.includes(tag))
+      );
+    }
+
+    return filtered;
+  });
+
+  private readonly pageSize = 20;
+  /** Resets to one page whenever the filtered list changes (search, tags, sort, load). */
+  readonly itemsToShow = linkedSignal({ source: this.filteredAlbums, computation: () => this.pageSize });
+  readonly visibleAlbums = computed(() => this.filteredAlbums().slice(0, this.itemsToShow()));
 
   ngOnInit(): void {
     this.loadAlbums();
   }
 
   loadMore(): void {
-    if (this.itemsToShow < this.filteredAlbums.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.filteredAlbums().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
-  }
-
-  resetInfiniteScroll(): void {
-    this.itemsToShow = this.pageSize;
   }
 
   loadAlbums(): void {
     this.musicService.getAlbums().subscribe({
       next: (albums) => {
-        this.originalAlbums = albums;
+        this.originalAlbums.set(this.withColours(albums));
         this.sortAlbums('random');
-        this.generateColours();
-        this.applyFilters();
       },
       error: (err) => {
         console.error('Failed to load albums:', err);
@@ -73,70 +81,48 @@ export default class AlbumsComponent implements OnInit {
     });
   }
 
-  applyFilters(): void {
-    this.resetInfiniteScroll();
-    let filtered = [...this.albums];
-
-    if (this.searchTerm) {
-      const lowerCaseSearchTerm = this.searchTerm.toLowerCase();
-      filtered = filtered.filter(album =>
-        album.name.toLowerCase().includes(lowerCaseSearchTerm) ||
-        album.artist.toLowerCase().includes(lowerCaseSearchTerm)
-      );
-    }
-
-    if (this.selectedTags.length > 0) {
-      filtered = filtered.filter(album =>
-        this.selectedTags.every(tag => album.tags.includes(tag))
-      );
-    }
-
-    this.filteredAlbums = filtered;
-  }
-
   showDescription(album: Album): void {
+    // Deferred so the opening click isn't treated as a click outside the modal.
     setTimeout(() => {
-      this.selectedAlbum = album;
+      this.selectedAlbum.set(album);
     }, 0);
   }
 
   closeDescription(): void {
-    this.selectedAlbum = null;
+    this.selectedAlbum.set(null);
   }
 
   sortAlbums(criteria: 'random' | 'alphabeticalName' | 'alphabeticalArtist' | 'releaseDate'): void {
+    const original = this.originalAlbums();
     switch (criteria) {
       case 'random':
-        this.albums = [...this.originalAlbums].sort(() => Math.random() - 0.5);
+        this.albums.set([...original].sort(() => Math.random() - 0.5));
         break;
       case 'alphabeticalName':
-        this.albums = [...this.originalAlbums].sort((a, b) => a.name.localeCompare(b.name));
+        this.albums.set([...original].sort((a, b) => a.name.localeCompare(b.name)));
         break;
       case 'alphabeticalArtist':
-        this.albums = [...this.originalAlbums].sort((a, b) => a.artist.localeCompare(b.artist));
+        this.albums.set([...original].sort((a, b) => a.artist.localeCompare(b.artist)));
         break;
       case 'releaseDate':
-        this.albums = [...this.originalAlbums].sort((a, b) => parseInt(a.releaseyear) - parseInt(b.releaseyear));
+        this.albums.set([...original].sort((a, b) => parseInt(a.releaseyear) - parseInt(b.releaseyear)));
         break;
       default:
         console.error('Invalid sorting criteria');
     }
-    this.applyFilters();
   }
 
   toggleTagSelection(tag: string): void {
-    if (this.selectedTags.includes(tag)) {
-      this.selectedTags = this.selectedTags.filter(t => t !== tag);
-    } else {
-      this.selectedTags.push(tag);
-    }
-    this.applyFilters();
+    this.selectedTags.update(tags =>
+      tags.includes(tag) ? tags.filter(t => t !== tag) : [...tags, tag]
+    );
   }
 
-  generateColours(): void {
-    this.albums.forEach(album => {
-      album.color = this.albumsService.generateRainbowColor(album.releaseyear);
-      album.textColor = this.albumsService.generateTextColor(album.releaseyear);
-    });
+  private withColours(albums: Album[]): Album[] {
+    return albums.map(album => ({
+      ...album,
+      color: this.albumsService.generateRainbowColor(album.releaseyear),
+      textColor: this.albumsService.generateTextColor(album.releaseyear),
+    }));
   }
 }

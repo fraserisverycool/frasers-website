@@ -6,7 +6,6 @@ import { DividerComponent } from './divider/divider.component'
   selector: 'app-spotify',
   imports: [DividerComponent],
   templateUrl: './spotify.component.html',
-  standalone: true,
   styleUrls: ['./spotify.component.css']
 })
 export default class SpotifyComponent {

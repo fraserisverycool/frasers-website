@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import {Observable, of} from 'rxjs';
 import {catchError, map, switchMap} from 'rxjs/operators';
 import {RatingService} from './rating.service';
@@ -8,7 +8,8 @@ import {RateableEntity} from './rateable-entity.interface';
   providedIn: 'root'
 })
 export class RatingHydrationService {
-  constructor(private ratingService: RatingService) {}
+  private ratingService = inject(RatingService);
+
 
   hydrateRatings<T extends RateableEntity>(items: T[]): Observable<T[]> {
     if (!items || items.length === 0) {

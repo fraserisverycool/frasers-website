@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { NgOptimizedImage } from '@angular/common';
+import { catchError, map, of } from 'rxjs';
 import {KKSong} from "./kk-song.interface";
 import {KkModalComponent} from "./kk-modal/kk-modal.component";
 import {MusicService} from "../../service/music.service";
@@ -9,35 +11,28 @@ import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
   selector: 'app-kk',
   imports: [NgOptimizedImage, KkModalComponent, ImageUrlPipe],
   templateUrl: './kk.component.html',
-  standalone: true,
   styleUrls: ['./kk.component.css']
 })
-export default class KkComponent implements OnInit {
-  kkSongs: KKSong[] = [];
-  selectedKkSong: KKSong | null = null;
+export default class KkComponent {
+  private musicService = inject(MusicService);
 
-  constructor(private musicService: MusicService) {}
-
-  ngOnInit(): void {
-    this.loadKkSongs();
-  }
-
-  loadKkSongs(): void {
-    this.musicService.getKkSongs().subscribe({
-      next: (songs) => {
-        this.kkSongs = [...songs].sort(() => Math.random() - 0.5);
-      },
-      error: (err) => {
+  readonly kkSongs = toSignal(
+    this.musicService.getKkSongs().pipe(
+      map(songs => [...songs].sort(() => Math.random() - 0.5)),
+      catchError(err => {
         console.error('Failed to load KK songs:', err);
-      },
-    });
-  }
+        return of([] as KKSong[]);
+      })
+    ),
+    { initialValue: [] as KKSong[] }
+  );
+  readonly selectedKkSong = signal<KKSong | null>(null);
 
   showDescription(kkSong: KKSong): void {
-    this.selectedKkSong = kkSong;
+    this.selectedKkSong.set(kkSong);
   }
 
   closeDescription(): void {
-    this.selectedKkSong = null;
+    this.selectedKkSong.set(null);
   }
 }

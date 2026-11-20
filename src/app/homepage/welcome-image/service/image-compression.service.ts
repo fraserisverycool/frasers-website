@@ -6,8 +6,6 @@ import imageCompression from 'browser-image-compression';
 })
 export class ImageCompressionService {
 
-  constructor() { }
-
   async compressImage(file: File): Promise<File> {
     const options = {
       maxSizeMB: 1,

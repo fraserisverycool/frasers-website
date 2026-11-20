@@ -127,6 +127,27 @@ app-rating-bar {
   align-items: center;
 }
 
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #ff85a2;
+  width: 100%;
+  max-width: 300px;
+  background-color: #ffe4ec;
+}
+
+.search-container input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
 .row-1, .row-2, .row-3 {
   display: flex;
   justify-content: center;

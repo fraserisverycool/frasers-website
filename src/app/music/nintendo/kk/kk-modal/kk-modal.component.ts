@@ -1,5 +1,5 @@
-import {Component, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import { NgOptimizedImage, CommonModule } from '@angular/common';
+import {Component, OnDestroy, OnInit, computed, input, output} from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
 import {CloseButtonComponent} from "../../../../utils/close-button/close-button.component";
 import {RatingBarComponent} from "../../../../utils/rating-bar/rating-bar.component";
 import {KKSong} from "../kk-song.interface";
@@ -8,16 +8,19 @@ import {ImageUrlPipe} from "../../../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-kk-modal',
-  imports: [CloseButtonComponent, NgOptimizedImage, RatingBarComponent, ClickedOutsideDirective, CommonModule, ImageUrlPipe],
+  imports: [CloseButtonComponent, NgOptimizedImage, RatingBarComponent, ClickedOutsideDirective, ImageUrlPipe],
   templateUrl: './kk-modal.component.html',
-  standalone: true,
-  styleUrls: ['./kk-modal.component.css']
+  styleUrls: ['./kk-modal.component.css'],
+  host: {
+    '(window:click)': 'onClick($event)',
+    '(window:popstate)': 'onPopState()'
+  }
 })
 export class KkModalComponent implements OnInit, OnDestroy {
-  @Input() selectedKkSong: KKSong | undefined;
-  @Output() close: EventEmitter<void> = new EventEmitter<void>();
+  readonly selectedKkSong = input<KKSong | undefined>();
+  readonly close = output<void>();
 
-  audioFiles: string[] = [
+  readonly audioFiles: string[] = [
     '2-01 Welcome Horizons (Radio).mp3', '2-02 K.K. Chorale (Radio).mp3', '2-03 K.K. March (Radio).mp3',
     '2-04 K.K. Waltz (Radio).mp3', '2-05 K.K. Swing (Radio).mp3', '2-06 K.K. Jazz (Radio).mp3',
     '2-07 K.K. Fusion (Radio).mp3', '2-08 K.K. Étude (Radio).mp3', '2-09 K.K. Lullaby (Radio).mp3',
@@ -52,19 +55,17 @@ export class KkModalComponent implements OnInit, OnDestroy {
     '2-94 Drivin\' (Radio).mp3', '2-95 Farewell (Radio).mp3'
   ];
 
-  constructor() {}
-
-  getAudioUrl(): string | null {
-    if (!this.selectedKkSong) return null;
-    const title = this.selectedKkSong.title.toLowerCase();
+  readonly audioUrl = computed<string | null>(() => {
+    const song = this.selectedKkSong();
+    if (!song) return null;
+    const title = song.title.toLowerCase();
     const match = this.audioFiles.find(f => {
       const fileName = f.toLowerCase();
       return fileName.includes(title) || title.includes(fileName.replace(/^\d+-\d+\s+/, '').replace(/\s+\(radio\)\.mp3$/, ''));
     });
     return match ? '/music/nintendo/kk/audio/' + match : null;
-  }
+  });
 
-  @HostListener('window:click', ['$event'])
   public onClick(event: MouseEvent) {
     event.stopPropagation();
   }
@@ -73,7 +74,6 @@ export class KkModalComponent implements OnInit, OnDestroy {
     history.pushState({ modal: true }, '');
   }
 
-  @HostListener('window:popstate')
   onPopState() {
     this.close.emit();
   }

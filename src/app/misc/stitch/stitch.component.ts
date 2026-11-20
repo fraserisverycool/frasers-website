@@ -1,6 +1,8 @@
-import {Component, OnInit} from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { Component, computed, inject, signal } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
+import { toSignal } from '@angular/core/rxjs-interop';
+import { catchError, of, switchMap } from 'rxjs';
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {RatingHydrationService} from "../../utils/rating-bar/service/rating-hydration.service";
 import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
@@ -17,41 +19,32 @@ interface Stitch {
 
 @Component({
     selector: 'app-stitch',
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
+    imports: [NgOptimizedImage, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './stitch.component.html',
     styleUrls: ['./stitch.component.css']
 })
-export default class StitchComponent implements OnInit {
-  stitches: Stitch[] = [];
+export default class StitchComponent {
+  private http = inject(HttpClient);
+  private ratingHydration = inject(RatingHydrationService);
 
-  pageSize = 5;
-  itemsToShow = 5;
+  readonly stitches = toSignal(
+    this.http.get<{ stitches: Stitch[] }>('assets/data/stitches.json').pipe(
+      switchMap(data => this.ratingHydration.hydrateRatings(data.stitches)),
+      catchError(err => {
+        console.error('Failed to load stitches:', err);
+        return of([] as Stitch[]);
+      })
+    ),
+    { initialValue: [] as Stitch[] }
+  );
 
-  constructor(
-    private http: HttpClient,
-    private ratingHydration: RatingHydrationService
-  ) {}
-
-  ngOnInit(): void {
-    this.loadStitches();
-  }
+  private readonly pageSize = 5;
+  readonly itemsToShow = signal(this.pageSize);
+  readonly visibleStitches = computed(() => this.stitches().slice(0, this.itemsToShow()));
 
   loadMore(): void {
-    if (this.itemsToShow < this.stitches.length) {
-      this.itemsToShow += this.pageSize;
+    if (this.itemsToShow() < this.stitches().length) {
+      this.itemsToShow.update(n => n + this.pageSize);
     }
-  }
-
-  loadStitches(): void {
-    this.http.get<{ stitches: Stitch[] }>('assets/data/stitches.json').subscribe({
-      next: (data) => {
-        this.ratingHydration.hydrateRatings(data.stitches).subscribe(hydrated => {
-          this.stitches = hydrated as Stitch[];
-        });
-      },
-      error: (err) => {
-        console.error('Failed to load stitches:', err);
-      },
-    });
   }
 }
