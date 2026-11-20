@@ -1,6 +1,16 @@
 {
   "concerts": [
     {
+      "artist": "Jessie Ware",
+      "date": "16-11-2026",
+      "venue": "Huxley's Neue Welt, Berlin",
+      "image": "jessie-ware.jpeg",
+      "description": "Wow, this is up there with CMAT as one of my favourite concerts ever! She was amazing. I loved her dancers, they were so camp and ridiculous, and the crowd was great. She played all the best songs from her disco era, and really blew us all away honestly. She's such an amazing singer. So many props as well!",
+      "id": "77d700a3-abac-4e92-8030-54614e4e85d5",
+      "newsletter": true,
+      "timestamp": "20-11-2026"
+    },
+    {
       "artist": "Max Cooper",
       "date": "24-07-2026",
       "venue": "Sonnenraum, Berlin",

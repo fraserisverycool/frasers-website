@@ -1,6 +1,55 @@
 {
   "soundtracks": [
     {
+      "filename": "mario-kart-ds.jpg",
+      "name": "Mario Kart DS",
+      "description": [
+        "Huge drop on the app! These are some certified childhood bangers right here. I love that special DS vibe that comes with this soundtrack. I feel it shares a lot in common with the Gamecube version. The Title and Menu themes are just so good. Huge vibes! I feel like 'Delfino Square' was the blueprint for timeless bangers like Coconut Mall and Daisy Circuit. 'Waluigi Pinball' is, as we all know, a huge bop that will stay with all of us forever. This 'Rainbow Road' is just everything.",
+        "The retro tracks are never as good as the originals, but ironically I heard a lot of this music for the first time here. So I owe a lot to this game really."
+      ],
+      "platform": "DS",
+      "topTracks": [
+        "Mario Kart DS Title Screen",
+        "Mode Select",
+        "Cheep Cheep Beach",
+        "Delfino Square",
+        "Waluigi Pinball",
+        "Airship Fortress",
+        "Peach Gardens",
+        "Rainbow Road",
+        "SNES Mario Circuit 1",
+        "GBA Peach Circuit",
+        "GCN Luigi Circuit",
+        "SNES Donut Plains 1",
+        "GBA Bowser's Castle 2",
+        "SNES Koopa Troopa Beach 2",
+        "SNES Choco Island 2",
+        "Multiplayer",
+        "Nintendo WFC"
+      ],
+      "id": "15952eb0-d287-4213-b731-2d3822212773",
+      "newsletter": true,
+      "timestamp": "20-11-2026"
+    },
+    {
+      "filename": "pikmin-bloom.jpg",
+      "name": "Pikmin Bloom",
+      "description": [
+        "Damn, they're doing mobile games now! The Nintendo Music App continues to surprise us. Luckily, this soundtrack provides some more material for my 'pikmin vibes' playlist. It borrows a lot from 'Hey! Pikmin' on the 3DS, a game which isn't good, but whose soundtrack has some really great top-tier Pikmin music. So I don't think I'll ever play this boring ass game but I appreciate some of these music tracks for sure.",
+        "That being said, this soundtrack does not make for a good listening experience. A lot of the tracks sound like corporate music."
+      ],
+      "platform": "Mobile",
+      "topTracks": [
+        "Introduction",
+        "Home",
+        "Lifelog",
+        "Badge"
+      ],
+      "id": "e905ddad-4ee9-41d8-ac41-26faacf5888f",
+      "newsletter": true,
+      "timestamp": "20-11-2026"
+    },
+    {
       "filename": "zelda-ocarina-of-time-remake.jpg",
       "name": "The Legend of Zelda: The Ocarina of Time",
       "description": [
@@ -17,7 +66,7 @@
         "Gerudo Valley"
       ],
       "id": "aaa8807f-4a35-4922-ad3e-fbc43d9ab93b",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "10-11-2026"
     },
     {
@@ -31,10 +80,12 @@
         "Lumiose City",
         "Battle! Trainer",
         "Wild Zone",
-        "Lumiose City (Night)"
+        "Lumiose City (Night)",
+        "Lysandre Labs",
+        "Battle! (Team Flare Nouveau)"
       ],
       "id": "951699fc-363b-4507-b4de-90761f23f485",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "01-11-2026"
     },
     {

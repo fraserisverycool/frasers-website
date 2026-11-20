@@ -1,6 +1,68 @@
 {
   "games": [
     {
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "vibes": "10",
+      "gameplay": "10",
+      "review": [
+        "What an absolute dream. I'm still reeling from the fact that this exists! The original Ocarina of Time was such a formative part of my life, reliving it in full HD is almost surreal. I remember playing it as an 8 year old and being terrified of the skeletons in Hyrule Field, and had to get my brothers to do it for me. Then later in life I would get further and become terrified of the Redeads (still scary to this day) and get my brothers to do the Shadow Temple for me. And then in later years I would come back and beat it all myself, and Majora's Mask too (even scarier), and learning about speedrunning, cheats, secrets and lore. By the time I was an adult, I had played the game through at least 15 times and knew everything about it. The soundtrack stayed with me forever, and what can I say? It's just a perfect little childhood nostalgic game.",
+        "This remake pays so much respect to it, so much so that I would say it really lives up to the original. They've smoothed out some of the rougher parts but not in a way that significantly changes how the game plays, and they added lots of exciting new things, also in a way which respects the original, like the new Castle Town, or the sneaking past the guards section. I loved all the changes, honestly! When I played through the Water Temple, I realised that the key underneath the block in the central room had been removed and I thought to myself, that makes sense, honestly. Turns out they took out two keys and I didn't notice! Unlike back then, they did a lot of play testing here I think. Also, the Water Temple was and remains the best temple in terms of gameplay. In terms of VIBES, the prize for best temple of course has to go to the unforgettable Forest Temple, which they knocked out of the park in this game. It looks stunning with the new stained-glass windows and colours. Love it so much.",
+        "There are new cutscenes as well! Little pieces of reworked dialogue really serve to make more sense of the otherwise nonsensical story. Things like saying explicitly that Ganondorf was here and did something to Jabu-Jabu, or explaining that Rauru pulled the sages into the Sacred Realm makes a lot of sense and I totally approve. The best one is the amazing scene where you pull the Master Sword. It adds that missing context, and also just goes so hard. Ganondorf rocks in this game.",
+        "I love the updated soundtrack, it's very faithful to the original but just sounds more lush and orchestral. I love it. I love the new night-time versions, and in general I love that the day-night cycle continues no matter where you are. And the characters! They all look so good. Impa has the best glow-up for sure, but I also enjoy Zelda and Ganondorf's new looks, and I was totally gagged by Nabooru of the Gerudo. Stunning.",
+        "The game is easy. Don't go into this expecting anything challenging, but that makes it accessible. Unlike Breath of the Wild, I think Nintendo wanted this to be a hit with as many people as possible, and having an easy game (with great vibes) is a nice way to be accessible for everyone. For me, who already knows everything about the game, it was a case of me just sailing through. For Jack, who I watched play for the first time, they had to use their brain a bit, but the game provides enough signposts to show them where they can go next.",
+        "I also appreciate that they kept it weird. All the weird, unexplained shit from the original is still all there because why the fuck not. Twinrova, two elderly witches, fuse into a hot young woman for the Spirit Temple boss, which is really weird if you think about it. King Zora still inches to the left painfully slowly, and this time the camera really shows it off in all its glory. Love it. It keeps in the time paradox with the Song of Storms because why not. The cow in death mountain is still stuck in a hole.",
+        "Anyway, I am delighted that this game exists, I recommend it to everyone, and I can't wait for Majora's Mask."
+      ],
+      "image": "zelda-ocarina-remake.webp",
+      "platform": "Switch 2",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": true,
+      "completable": true,
+      "id": "9aa75f3b-44c0-434b-855c-af668004b750",
+      "newsletter": true,
+      "timestamp": "20-11-2026"
+    },
+    {
+      "name": "Nintendo Switch Sports Resort",
+      "vibes": "7",
+      "gameplay": "6",
+      "review": [
+        "Jack got this with their Switch 2 and we tried a few of the games. Some of them? Total bullshit. Thumb wrestling is totally dumb and random. I liked the volleyball and golf though. The highlight was flying the plane over Wuhu Island though. It felt like good old Pilotwings 3DS times, although I think that game is better. I'm told this sports game is a banger but I've yet to see its true magic."
+      ],
+      "image": "switch-sports.png",
+      "platform": "Switch 2",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": false,
+      "completable": false,
+      "id": "a32fa293-a3a0-4d11-9e9f-904bc36d3091",
+      "newsletter": true,
+      "timestamp": "20-11-2026"
+    },
+    {
+      "name": "Titanium Court",
+      "vibes": "10",
+      "gameplay": "8",
+      "review": [
+        "Nowadays it's hard to describe games without mentioning other games, but this one truly is unique. It's a story about a person waking up being told she is the queen of the castle, and that the castle is at war, and all her fairy subjects are all super weird and clueless and dripfeeding her information (but also hiding it from her) about what's actually going on. It's all clearly a metaphor for other things, and as you go to war in the game and do a bunch of things, you'll have a nagging sensation that your actions have consequences. The writing is really good and really kooky, and is ultimately what kept me going.",
+        "The gameplay is a match-3 puzzle situation to set up a board, then you have to fight your opponents castles. It's hard to describe but pretty tactical. It is another fucking roguelike though, goddamn. Wild shit happens each and every run though, so it's good. The presentation of the game is also really cool - it's all in this magenta-cyan-yellow colour pallette which is kinda giving trans. I like how it looks a lot.",
+        "I admit, I haven't beaten the game yet. I have four keys but it doesn't feel right to finish the game until I do more stuff. However, I've decided to take a break from it because there's clearly still lots to do, and it's getting quite difficult so I've started losing runs which is frustrating."
+      ],
+      "image": "titanium-court.webp",
+      "platform": "PC",
+      "year": "2026",
+      "release": "2026",
+      "score": 15,
+      "completed": false,
+      "completable": true,
+      "id": "dba51172-7367-4d19-8868-a32709e8744b",
+      "newsletter": true,
+      "timestamp": "20-11-2026"
+    },
+    {
       "name": "Orbitals",
       "vibes": "10",
       "gameplay": "8",
@@ -10341,6 +10403,23 @@
       "id": "f2a0d8a5-011a-4418-ba8e-98769699761b",
       "newsletter": true,
       "timestamp": "10-11-2026"
+    },
+    {
+      "name": "Harry Potter and the Philosopher's Stone",
+      "vibes": "5",
+      "gameplay": "2",
+      "review": [
+        "I remember playing and enjoying this as a child on my friend's Playstation. One thing I know about this game now is that it doesn't introduce any exposition or characters, things just happen like in the books, and if you've never read them you would have no idea what's going on."
+      ],
+      "image": "harry-potter.webp",
+      "platform": "Playstation 1",
+      "year": "older",
+      "release": "2001",
+      "completed": false,
+      "completable": true,
+      "id": "4be2725c-6022-4d30-8ec3-0e2f52c1edf2",
+      "newsletter": true,
+      "timestamp": "20-11-2026"
     }
   ]
 }

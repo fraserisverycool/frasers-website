@@ -675,9 +675,9 @@
       "album": "Acid Overdose / Atemnot",
       "genre": "House & Disco",
       "description": "BSR were doing a local thing where people leave stuff zu verschenken. This some sick German techno from 1999.",
-      "image": "cosmic-acid.jpg",
+      "image": "commando-acid.jpg",
       "id": "c29302d2-b7ff-4c5e-afba-fc4caacdb451",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "10-11-2025"
     },
     {
@@ -1457,7 +1457,7 @@
       "description": "Found it at the local BSR zu verschenken thing.",
       "image": "tschaikowsky-komponisten.jpg",
       "id": "1ad197e6-cc46-4766-a567-d48dc6bcdf81",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "10-11-2026"
     }
   ]

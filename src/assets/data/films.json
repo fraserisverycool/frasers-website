@@ -1,6 +1,6 @@
 {
   "films": [
-    {c
+    {
       "filename": "la-bola-negra.webp",
       "title": "La Bola Negra",
       "description": "Gorgeous, sweeping epic all about gay romance during the Spanish civil war. It covers loads of grounds and has many themes. Honestly I think it's the kind of film that you need to see twice. I really liked it.",
@@ -8,29 +8,29 @@
       "year": "2026",
       "release": "2026",
       "id": "13db91d3-7940-435d-af66-e55be9f9ebe4",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "10-11-2026"
     },
     {
       "filename": "the-piano.jpg",
       "title": "The Piano",
-      "description": "",
-      "spoiler": "",
+      "description": "I watched this because I knew of its haunting and beautiful soundtrack, but the film is creepy and unpleasant as hell!",
+      "spoiler": "The sexual assault into stockholm syndrome falling in love with your abuser thing was horrible, honestly. This film oozes bad vibes.",
       "year": "2026",
       "release": "1993",
       "id": "9eaf3757-e976-4324-b162-7f1493416340",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "10-11-2026"
     },
     {
       "filename": "death-becomes-her.jpg",
       "title": "Death Becomes Her",
-      "description": "",
-      "spoiler": "",
+      "description": "Super funny, cunty film about a bunch of narcissists. Really enjoyed it. Where do these camp classics keep coming from?",
+      "spoiler": "Shotgunning her rival was the best part",
       "year": "2026",
       "release": "1992",
       "id": "84d7b5b3-9385-49f8-820d-0eb264571c20",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "10-11-2026"
     },
     {
@@ -41,7 +41,7 @@
       "year": "2026",
       "release": "1982",
       "id": "951699fc-363b-4507-b4de-90761f23f485",
-      "newsletter": false,
+      "newsletter": true,
       "timestamp": "01-11-2026"
     },
     {
