@@ -6,12 +6,12 @@
       <p>{{ selectedKkSong.description }}</p>
       @if (getAudioUrl(); as audioUrl) {
         <div class="audio-player-wrapper">
-          <audio controls preload="none" [src]="audioUrl">
+          <audio controls preload="none" [src]="audioUrl | imageUrl">
             Mate your browser cannot handle this audio player.
           </audio>
         </div>
       }
-      <img [ngSrc]="imageService.imageUrl('/music/nintendo/kk/' + selectedKkSong.filename)" [alt]="selectedKkSong.title" class="modal-image" width="600" height="600">
+      <img [ngSrc]="'/music/nintendo/kk/' + selectedKkSong.filename | imageUrl" [alt]="selectedKkSong.title" class="modal-image" width="600" height="600">
       <app-rating-bar [rating]="{id: selectedKkSong.id, ratings: selectedKkSong.rating}"></app-rating-bar>
     </div>
   </div>

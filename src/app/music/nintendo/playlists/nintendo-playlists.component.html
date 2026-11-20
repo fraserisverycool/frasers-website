@@ -20,7 +20,7 @@
     @for (playlist of filteredPlaylists; track playlist.id; let i = $index) {
       <li class="playlist-card" [style.animation-delay]="i * 0.05 + 's'">
         <div class="playlist-image-container">
-          <img [ngSrc]="getPlaylistImageUrl(playlist.image)"
+          <img [ngSrc]="'/music/nintendo-playlists/' + playlist.image | imageUrl"
                [alt]="playlist.name"
                class="playlist-image"
                width="300"

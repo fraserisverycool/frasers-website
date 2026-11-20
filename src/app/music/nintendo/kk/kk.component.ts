@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
-import {RatingService} from "../../../utils/rating-bar/service/rating.service";
 import {KKSong} from "./kk-song.interface";
 import {KkModalComponent} from "./kk-modal/kk-modal.component";
-import {ImageService} from "../../../utils/services/image.service";
+import {MusicService} from "../../service/music.service";
+import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-kk',
-  imports: [NgOptimizedImage, KkModalComponent],
+  imports: [NgOptimizedImage, KkModalComponent, ImageUrlPipe],
   templateUrl: './kk.component.html',
   standalone: true,
   styleUrls: ['./kk.component.css']
@@ -17,38 +16,21 @@ export default class KkComponent implements OnInit {
   kkSongs: KKSong[] = [];
   selectedKkSong: KKSong | null = null;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
+  constructor(private musicService: MusicService) {}
 
   ngOnInit(): void {
     this.loadKkSongs();
   }
 
   loadKkSongs(): void {
-    this.http.get<{ kkSongs: KKSong[] }>('assets/data/kk.json').subscribe({
-      next: (data) => {
-        this.kkSongs = data.kkSongs;
-        this.getRatings();
-        this.kkSongs = this.kkSongs.sort(() => Math.random() - 0.5);
+    this.musicService.getKkSongs().subscribe({
+      next: (songs) => {
+        this.kkSongs = [...songs].sort(() => Math.random() - 0.5);
       },
       error: (err) => {
         console.error('Failed to load KK songs:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.kkSongs.map(kkSong => kkSong.id))
-      .subscribe(kkSongRatings => {
-        this.kkSongs = this.kkSongs.map(kkSong => {
-          const ratingData = kkSongRatings.find(rating => rating.id === kkSong.id);
-          if (ratingData) {
-            kkSong.rating = ratingData.ratings;
-          } else {
-            kkSong.rating = [0,0,0,0,0,0];
-          }
-          return kkSong;
-        });
-      });
   }
 
   showDescription(kkSong: KKSong): void {

@@ -1,21 +1,21 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZone} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
 import {Album} from "./album.interface";
 import {AlbumModalComponent} from "./album-modal/album-modal.component";
 import {AlbumsService} from "./service/albums.service";
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
-import {ImageService} from "../../utils/services/image.service";
+import {MusicService} from "../service/music.service";
+import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-albums',
-  imports: [FormsModule, NgOptimizedImage, AlbumModalComponent],
+  imports: [FormsModule, NgOptimizedImage, AlbumModalComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './albums.component.html',
   standalone: true,
   styleUrls: ['./albums.component.css']
 })
-export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy {
+export default class AlbumsComponent implements OnInit {
   albums: Album[] = [];
   originalAlbums: Album[] = [];
   filteredAlbums: Album[] = [];
@@ -42,39 +42,11 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
 
   pageSize = 20;
   itemsToShow = 20;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private albumsService: AlbumsService, private ratingService: RatingService, protected imageService: ImageService, private ngZone: NgZone) {}
+  constructor(private albumsService: AlbumsService, private musicService: MusicService) {}
 
   ngOnInit(): void {
     this.loadAlbums();
-  }
-
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
-  ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.ngZone.run(() => {
-          this.loadMore();
-        });
-      }
-    }, {
-      rootMargin: '300px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
-    }
   }
 
   loadMore(): void {
@@ -88,10 +60,9 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
   }
 
   loadAlbums(): void {
-    this.http.get<{ albums: Album[] }>('assets/data/albums.json').subscribe({
-      next: (data) => {
-        this.originalAlbums = data.albums;
-        this.getRatings();
+    this.musicService.getAlbums().subscribe({
+      next: (albums) => {
+        this.originalAlbums = albums;
         this.sortAlbums('random');
         this.generateColours();
         this.applyFilters();
@@ -100,21 +71,6 @@ export default class AlbumsComponent implements OnInit, AfterViewInit, OnDestroy
         console.error('Failed to load albums:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.originalAlbums.map(album => album.id))
-      .subscribe(albumRatings => {
-        this.originalAlbums = this.originalAlbums.map(album => {
-          const ratingData = albumRatings.find(rating => rating.id === album.id);
-          if (ratingData) {
-            album.rating = ratingData.ratings;
-          } else {
-            album.rating = [0,0,0,0,0,0];
-          }
-          return album;
-        });
-      });
   }
 
   applyFilters(): void {

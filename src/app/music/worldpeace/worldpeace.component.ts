@@ -1,15 +1,11 @@
 import { Component } from '@angular/core';
-
-import {ImageService} from "../../utils/services/image.service";
+import { ImageUrlPipe } from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-worldpeace',
-  imports: [],
+  imports: [ImageUrlPipe],
   templateUrl: './worldpeace.component.html',
   standalone: true,
   styleUrls: ['./worldpeace.component.css']
 })
-export default class WorldpeaceComponent {
-  constructor(protected imageService: ImageService) {
-  }
-}
+export default class WorldpeaceComponent {}

@@ -1,4 +1,4 @@
-<div class="space-bg" [style.background-image]="'url(' + imageService.imageUrl('/misc/space.jpg') + ')'">
+<div class="space-bg" [style.background-image]="'url(' + ('/misc/space.jpg' | imageUrl) + ')'">
   <h1 class="title">Miscellaneous Crap</h1>
 
   <div class="floating-item" [style.top]="positions[0].top" [style.left]="positions[0].left">
@@ -6,7 +6,7 @@
   </div>
 
   <div class="floating-item" [style.top]="positions[1].top" [style.left]="positions[1].left">
-    <img class="chaos-img img-sm" [src]="imageService.imageUrl('/misc/godzilla.gif')" alt="godzilla">
+    <img class="chaos-img img-sm" [src]="'/misc/godzilla.gif' | imageUrl" alt="godzilla">
   </div>
 
   <div class="floating-item" [style.top]="positions[2].top" [style.left]="positions[2].left">
@@ -14,11 +14,11 @@
   </div>
 
   <div class="floating-item" [style.top]="positions[3].top" [style.left]="positions[3].left">
-    <img class="chaos-img img-md" [src]="imageService.imageUrl('/misc/space2.gif')" alt="literature gif">
+    <img class="chaos-img img-md" [src]="'/misc/space2.gif' | imageUrl" alt="literature gif">
   </div>
 
   <div class="floating-item" [style.top]="positions[4].top" [style.left]="positions[4].left">
-    <img class="chaos-img img-lg" [src]="imageService.imageUrl('/misc/luigi.webp')" alt="luigi">
+    <img class="chaos-img img-lg" [src]="'/misc/luigi.webp' | imageUrl" alt="luigi">
   </div>
 
   <div class="floating-item" [style.top]="positions[5].top" [style.left]="positions[5].left">
@@ -26,7 +26,7 @@
   </div>
 
   <div class="floating-item" [style.top]="positions[6].top" [style.left]="positions[6].left">
-    <img class="chaos-img img-md" [src]="imageService.imageUrl('/misc/stitch/thug.jpg')" alt="thug stitch">
+    <img class="chaos-img img-md" [src]="'/misc/stitch/thug.jpg' | imageUrl" alt="thug stitch">
   </div>
 
   <div class="floating-item" [style.top]="positions[7].top" [style.left]="positions[7].left">
@@ -38,7 +38,7 @@
   </div>
 
   <div class="floating-item" [style.top]="positions[9].top" [style.left]="positions[9].left">
-    <img class="chaos-img img-md" [src]="imageService.imageUrl('/misc/pokemon/omanyte.gif')" alt="omanyte">
+    <img class="chaos-img img-md" [src]="'/misc/pokemon/omanyte.gif' | imageUrl" alt="omanyte">
   </div>
 
   <div class="floating-item" [style.top]="positions[10].top" [style.left]="positions[10].left">
@@ -46,10 +46,10 @@
   </div>
 
   <div class="floating-item" [style.top]="positions[11].top" [style.left]="positions[11].left">
-    <img class="chaos-img img-sm" [src]="imageService.imageUrl('/misc/samus.gif')" alt="smash gif">
+    <img class="chaos-img img-sm" [src]="'/misc/samus.gif' | imageUrl" alt="smash gif">
   </div>
 
   <div class="floating-item" [style.top]="positions[12].top" [style.left]="positions[12].left">
-    <img class="chaos-img img-sm clickable" (click)="handleClick('/misc/writing')" [src]="imageService.imageUrl('/misc/secreta.gif')" alt="secreta">
+    <img class="chaos-img img-sm clickable" (click)="handleClick('/misc/writing')" [src]="'/misc/secreta.gif' | imageUrl" alt="secreta">
   </div>
 </div>

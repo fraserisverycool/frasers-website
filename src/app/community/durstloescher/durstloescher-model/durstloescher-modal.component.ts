@@ -5,11 +5,11 @@ import StarMessageComponent from "../../../utils/star-message/star-message.compo
 import {Durstloescher} from "../durstloescher.interface";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
-import {ImageService} from "../../../utils/services/image.service";
+import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-durstloescher-modal',
-    imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, StarMessageComponent, RatingBarComponent, CloseButtonComponent],
+    imports: [CommonModule, ClickedOutsideDirective, NgOptimizedImage, StarMessageComponent, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
     templateUrl: './durstloescher-modal.component.html',
     styleUrls: ['./durstloescher-modal.component.css']
 })
@@ -17,8 +17,7 @@ export class DurstloescherModalComponent implements OnInit, OnDestroy {
   @Input() selectedDurstloescher: Durstloescher | undefined;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
 
-  constructor(protected imageService: ImageService) {
-  }
+  constructor() {}
 
   ngOnInit() {
     history.pushState({ modal: true }, '');

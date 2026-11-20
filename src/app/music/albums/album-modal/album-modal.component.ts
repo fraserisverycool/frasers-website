@@ -5,11 +5,11 @@ import {Album} from "../album.interface";
 import {AlbumsService} from "../service/albums.service";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
-import {ImageService} from "../../../utils/services/image.service";
+import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-album-modal',
-  imports: [ClickedOutsideDirective, NgOptimizedImage, RatingBarComponent, CloseButtonComponent],
+  imports: [ClickedOutsideDirective, NgOptimizedImage, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
   templateUrl: './album-modal.component.html',
   standalone: true,
   styleUrls: ['./album-modal.component.css']
@@ -19,8 +19,7 @@ export class AlbumModalComponent implements OnInit, OnDestroy {
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
   currentRandomColor: string = "#ffffff";
 
-  constructor(private albumsService: AlbumsService, protected imageService: ImageService) {
-  }
+  constructor(private albumsService: AlbumsService) {}
 
   ngOnInit() {
     this.getRandomColor();

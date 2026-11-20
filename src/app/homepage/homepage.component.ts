@@ -9,13 +9,13 @@ import {HomepageColorService} from "./service/homepage-color.service";
 import {catchError, tap} from "rxjs/operators";
 import {of} from "rxjs";
 import {DailyComponent} from "../music/daily/daily.component";
-import {ImageService} from "../utils/services/image.service";
 import { WelcomeImageComponent } from "./welcome-image/welcome-image.component";
 import { LatestPostsComponent } from "./latest-posts/latest-posts.component";
+import { ImageUrlPipe } from "../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-homepage',
-  imports: [RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, DailyComponent, WelcomeImageComponent, LatestPostsComponent],
+  imports: [RouterLink, CustomMarqueeComponent, NgOptimizedImage, ChangelogComponent, ColorPickerComponent, FormsModule, DailyComponent, WelcomeImageComponent, LatestPostsComponent, ImageUrlPipe],
     templateUrl: './homepage.component.html',
     styleUrls: ['./homepage.component.css']
 })
@@ -40,7 +40,7 @@ export default class HomepageComponent {
   colorChanges: number = 0;
   errorMessage: string = '';
 
-  constructor(private router: Router, private homepageColorService: HomepageColorService, protected imageService: ImageService) {}
+  constructor(private router: Router, private homepageColorService: HomepageColorService) {}
 
   handleClick(url: string) {
     this.router.navigate([url]);

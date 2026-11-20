@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, ChangeDetectorRef, HostListener, NgZone } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectorRef, HostListener, NgZone, ElementRef } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule, NgClass } from '@angular/common';
 import { forkJoin, map, switchMap } from 'rxjs';
@@ -6,6 +6,8 @@ import { ImageService } from '../../utils/services/image.service';
 
 import { SmashTrackComponent } from './smash-track/smash-track.component';
 import {RouterLink} from "@angular/router";
+import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 interface Track {
   id: string;
@@ -47,11 +49,11 @@ interface Volume {
 @Component({
   selector: 'app-smash',
   standalone: true,
-  imports: [CommonModule, NgClass, SmashTrackComponent, RouterLink],
+  imports: [CommonModule, NgClass, SmashTrackComponent, RouterLink, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './smash.component.html',
   styleUrl: './smash.component.css',
 })
-export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy {
+export default class SmashComponent implements OnInit, OnDestroy {
   volumes: Volume[] = [];
   composersMetadata: { [key: string]: { image: string, source: string, notes: string } } = {};
   allTracks: Track[] = [];
@@ -79,15 +81,6 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
   itemsToShow = 20;
   pageSize = 20;
 
-  private _scrollAnchor!: ElementRef;
-  @ViewChild('scrollAnchor') set scrollAnchor(value: ElementRef) {
-    if (value) {
-      this._scrollAnchor = value;
-      this.setupIntersectionObserver();
-    }
-  }
-
-  private observer: IntersectionObserver | null = null;
   private isAutoAdvancing = false;
   isFirstLoad = true;
 
@@ -280,14 +273,7 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
     });
   }
 
-  ngAfterViewInit(): void {
-    // Observer setup is handled by the scrollAnchor setter
-  }
-
   ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
     this.stopProgressTracking();
     this.stopCurrentSource();
     if (this.audioCtx) {
@@ -303,24 +289,6 @@ export default class SmashComponent implements OnInit, AfterViewInit, OnDestroy 
         // @ts-ignore
         navigator.mediaSession.setActionHandler('seekto', null);
       } catch (e) {}
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.loadMore();
-      }
-    }, {
-      rootMargin: '200px'
-    });
-
-    if (this._scrollAnchor) {
-      this.observer.observe(this._scrollAnchor.nativeElement);
     }
   }
 

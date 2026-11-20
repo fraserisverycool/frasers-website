@@ -1,5 +1,5 @@
 <div class="container">
-  <img [src]="imageService.imageUrl('/misc/brightwell/purplefruit.PNG')" alt="beautiful drawing of a plump, purple fruit">
+  <img [src]="'/misc/brightwell/purplefruit.PNG' | imageUrl" alt="beautiful drawing of a plump, purple fruit">
   <iframe
     class="twine-frame"
     [src]="safePath"

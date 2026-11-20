@@ -3,12 +3,12 @@ import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {Durstloescher} from "./durstloescher.interface";
 import {DurstloescherModalComponent} from "./durstloescher-model/durstloescher-modal.component";
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
-import {ImageService} from "../../utils/services/image.service";
+import {RatingHydrationService} from "../../utils/rating-bar/service/rating-hydration.service";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-durstloescher',
-    imports: [NgOptimizedImage, DurstloescherModalComponent],
+    imports: [NgOptimizedImage, DurstloescherModalComponent, ImageUrlPipe],
     templateUrl: './durstloescher.component.html',
     styleUrls: ['./durstloescher.component.css']
 })
@@ -17,7 +17,10 @@ export default class DurstloescherComponent implements OnInit {
   originalDurstloescher: Durstloescher[] = [];
   selectedDurstloescher: Durstloescher | null = null;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
+  constructor(
+    private http: HttpClient,
+    private ratingHydration: RatingHydrationService
+  ) {}
 
   ngOnInit(): void {
     this.loadDurstloescher();
@@ -26,29 +29,15 @@ export default class DurstloescherComponent implements OnInit {
   loadDurstloescher(): void {
     this.http.get<{ durstloescher: Durstloescher[] }>('assets/data/durstloescher.json').subscribe({
       next: (data) => {
-        this.originalDurstloescher = data.durstloescher;
-        this.getRatings();
-        this.sortDurstloescher('post');
+        this.ratingHydration.hydrateRatings(data.durstloescher).subscribe(hydrated => {
+          this.originalDurstloescher = hydrated as Durstloescher[];
+          this.sortDurstloescher('post');
+        });
       },
       error: (err) => {
         console.error('Failed to load durstloescher:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.originalDurstloescher.map(durstloescher => durstloescher.id))
-      .subscribe(durstloescherRatings => {
-        this.originalDurstloescher = this.originalDurstloescher.map(durstloescher => {
-          const ratingData = durstloescherRatings.find(rating => rating.id === durstloescher.id);
-          if (ratingData) {
-            durstloescher.rating = ratingData.ratings;
-          } else {
-            durstloescher.rating = [0,0,0,0,0,0];
-          }
-          return durstloescher;
-        });
-      });
   }
 
   showDescription(durstloescher: Durstloescher): void {

@@ -21,5 +21,5 @@
       </li>
     }
   </ul>
-  <div #scrollAnchor class="scroll-anchor"></div>
+  <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
 </div>

@@ -4,11 +4,11 @@ import {Character, Decoration} from "../character.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
-import {ImageService} from "../../../utils/services/image.service";
+import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-character',
-    imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
+    imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
     templateUrl: './character.component.html',
     styleUrls: ['./character.component.css']
 })
@@ -17,8 +17,7 @@ export class CharacterComponent implements OnInit, OnDestroy {
   @Input() pictureMode: number = 0;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
 
-  constructor(protected imageService: ImageService) {
-  }
+  constructor() {}
 
   ngOnInit() {
     history.pushState({ modal: true }, '');

@@ -1,16 +1,15 @@
 import {Component, OnInit} from '@angular/core';
-
 import { HttpClient } from "@angular/common/http";
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {DailySoundtrack} from "./daily-soundtrack.interface";
 import {DomSanitizer, SafeResourceUrl, SafeUrl} from "@angular/platform-browser";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {RouterLink} from "@angular/router";
-import {ImageService} from "../../utils/services/image.service";
+import {RatingHydrationService} from "../../utils/rating-bar/service/rating-hydration.service";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-daily',
-  imports: [RatingBarComponent, RouterLink],
+  imports: [RatingBarComponent, RouterLink, ImageUrlPipe],
   templateUrl: './daily.component.html',
   standalone: true,
   styleUrls: ['./daily.component.css']
@@ -21,8 +20,11 @@ export class DailyComponent implements OnInit {
   safeLink: SafeUrl | null = null;
   audioPath: string = '/music/dailysoundtracks/';
 
-  constructor(private http: HttpClient, private ratingService: RatingService, private sanitizer: DomSanitizer, protected imageService: ImageService) {
-  }
+  constructor(
+    private http: HttpClient,
+    private ratingHydration: RatingHydrationService,
+    private sanitizer: DomSanitizer
+  ) {}
 
   ngOnInit(): void {
     this.loadDailySoundtracks();
@@ -31,16 +33,17 @@ export class DailyComponent implements OnInit {
   loadDailySoundtracks(): void {
     this.http.get<{ dailysoundtracks: DailySoundtrack[] }>('assets/data/daily-soundtracks.json').subscribe({
       next: (data) => {
-        this.dailySoundtracks = data.dailysoundtracks;
-        this.getRatings();
-        this.today = this.dailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
-        if (this.today) {
-          if (typeof(this.today.link) === 'string') {
-            this.safeLink = this.getSafeEmbedUrl(this.today.link);
-          } else {
-            this.safeLink = this.getUnsafeEmbedUrl(this.today.link);
+        this.ratingHydration.hydrateRatings(data.dailysoundtracks).subscribe(hydrated => {
+          this.dailySoundtracks = hydrated as DailySoundtrack[];
+          this.today = this.dailySoundtracks.find(dailySoundtrack => dailySoundtrack.day === this.todaysDate()) || null;
+          if (this.today) {
+            if (typeof(this.today.link) === 'string') {
+              this.safeLink = this.getSafeEmbedUrl(this.today.link);
+            } else {
+              this.safeLink = this.getUnsafeEmbedUrl(this.today.link);
+            }
           }
-        }
+        });
       },
       error: (err) => {
         console.error('Failed to load daily Soundtracks:', err);
@@ -55,21 +58,6 @@ export class DailyComponent implements OnInit {
     const year = today.getFullYear();
 
     return `${day}-${month}-${year}`;
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.dailySoundtracks.map(dailySoundtrack => dailySoundtrack.id))
-      .subscribe(dailySoundtrackRatings => {
-        this.dailySoundtracks = this.dailySoundtracks.map(dailySoundtrack => {
-          const ratingData = dailySoundtrackRatings.find(rating => rating.id === dailySoundtrack.id);
-          if (ratingData) {
-            dailySoundtrack.rating = ratingData.ratings;
-          } else {
-            dailySoundtrack.rating = [0,0,0,0,0,0];
-          }
-          return dailySoundtrack;
-        });
-      });
   }
 
   private getEmbedUrl(link: string): string {

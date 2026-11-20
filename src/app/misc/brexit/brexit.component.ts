@@ -1,12 +1,11 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-
 import { HttpClient } from '@angular/common/http';
 import { NgOptimizedImage } from '@angular/common';
-import {ImageService} from "../../utils/services/image.service";
+import { ImageUrlPipe } from "../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-brexit',
-    imports: [NgOptimizedImage],
+    imports: [NgOptimizedImage, ImageUrlPipe],
     templateUrl: './brexit.component.html',
     styleUrls: ['./brexit.component.css']
 })
@@ -14,7 +13,7 @@ export default class BrexitComponent implements OnInit {
   images: string[] = [];
   selectedImage: string | null = null;
 
-  constructor(private http: HttpClient, protected imageService: ImageService) {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
     this.loadImages();

@@ -17,7 +17,7 @@
     @for (soundtrack of filteredSoundtracks.slice(0, itemsToShow); track soundtrack) {
       <li class="soundtrack-card" (click)="showDescription(soundtrack)">
         <div class="soundtrack-image-container">
-          <img [ngSrc]="imageService.imageUrl('/music/nintendo/' + soundtrack.filename)"
+          <img [ngSrc]="'/music/nintendo/' + soundtrack.filename | imageUrl"
             [alt]="soundtrack.name"
             class="soundtrack-image"
             width="200"
@@ -30,14 +30,14 @@
         </li>
       }
     </ul>
-    <div #scrollAnchor class="scroll-anchor"></div>
+    <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
 
     @if (filteredSoundtracks.length === 0) {
       <div>
         <h2>Oops! There are no soundtracks with that name. Here's a secret bonus for you for trying though:</h2>
         <div class="center-image">
           <button style="background: none; border: none;" aria-label="K.K. Slider" routerLink="/music/nintendo/kk">
-            <img alt="K.K. Slider" [ngSrc]="imageService.imageUrl('/music/nintendo/kk/kk-slider-icon.png')" width="200" height="200">
+            <img alt="K.K. Slider" [ngSrc]="'/music/nintendo/kk/kk-slider-icon.png' | imageUrl" width="200" height="200">
           </button>
         </div>
       </div>

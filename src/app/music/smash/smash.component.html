@@ -117,7 +117,7 @@
 
     @if (selectedComposerInfo && !composerImageFailed) {
       <div class="composer-info">
-        <img [src]="imageService.imageUrl(selectedComposerInfo.image)" [alt]="selectedComposerInfo.name" (error)="onComposerImageError()">
+        <img [src]="selectedComposerInfo.image | imageUrl" [alt]="selectedComposerInfo.name" (error)="onComposerImageError()">
         <div class="composer-details">
           <h3>{{ selectedComposerInfo.name }}</h3>
           <p>{{ selectedComposerInfo.notes }}</p>
@@ -130,6 +130,6 @@
         <app-smash-track [track]="track" (play)="playTrack($event)"></app-smash-track>
       }
     </div>
-    <div #scrollAnchor class="scroll-anchor" style="height: 10px; margin-top: 10px;"></div>
+    <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor" style="height: 10px; margin-top: 10px;"></div>
   }
 </div>

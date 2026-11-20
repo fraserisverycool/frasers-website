@@ -1,6 +1,6 @@
 <div class="container">
   <h1>Pokemon Rankings</h1>
-  <img [src]="imageService.imageUrl('/misc/pokemon/pokemon-trainer.gif')" alt="cool gif with pokemon trainer">
+  <img [src]="'/misc/pokemon/pokemon-trainer.gif' | imageUrl" alt="cool gif with pokemon trainer">
   <p>I'm tired of all of these terrible opinions about pokemon. On this webpage I have put all 1025 pokemon into a tier list. Criteria is vibes only. SS, S and F tiers are ordered.</p>
   <div class="sorting-buttons generations">
     <button (click)="toggleGeneration(1)" [class.selected]="activeGenerations.has(1)">Gen 1</button>
@@ -58,7 +58,7 @@
                   (click)="openModal(p)"
                   >
                   <img
-                    [src]="imageService.imageUrl('/misc/pokemon/' + p.image)"
+                    [src]="'/misc/pokemon/' + p.image | imageUrl"
                     loading="lazy"
                     [alt]="p.name">
                   </div>
@@ -78,7 +78,7 @@
         <h2>#{{ selectedPokemon.number }} – {{ selectedPokemon.name }}</h2>
         <img
           class="modal-image"
-          [src]="imageService.imageUrl('/misc/pokemon/' + selectedPokemon.image)"
+          [src]="'/misc/pokemon/' + selectedPokemon.image | imageUrl"
           [alt]="selectedPokemon.name">
           <p>{{ selectedPokemon.description }}</p>
         </div>

@@ -3,12 +3,12 @@ import { NgOptimizedImage, CommonModule } from '@angular/common';
 import {CloseButtonComponent} from "../../../../utils/close-button/close-button.component";
 import {RatingBarComponent} from "../../../../utils/rating-bar/rating-bar.component";
 import {KKSong} from "../kk-song.interface";
-import {ImageService} from "../../../../utils/services/image.service";
 import {ClickedOutsideDirective} from "../../../../utils/directives/clicked-outside.directive";
+import {ImageUrlPipe} from "../../../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-kk-modal',
-  imports: [CloseButtonComponent, NgOptimizedImage, RatingBarComponent, ClickedOutsideDirective, CommonModule],
+  imports: [CloseButtonComponent, NgOptimizedImage, RatingBarComponent, ClickedOutsideDirective, CommonModule, ImageUrlPipe],
   templateUrl: './kk-modal.component.html',
   standalone: true,
   styleUrls: ['./kk-modal.component.css']
@@ -52,8 +52,7 @@ export class KkModalComponent implements OnInit, OnDestroy {
     '2-94 Drivin\' (Radio).mp3', '2-95 Farewell (Radio).mp3'
   ];
 
-  constructor(protected imageService: ImageService) {
-  }
+  constructor() {}
 
   getAudioUrl(): string | null {
     if (!this.selectedKkSong) return null;
@@ -62,7 +61,7 @@ export class KkModalComponent implements OnInit, OnDestroy {
       const fileName = f.toLowerCase();
       return fileName.includes(title) || title.includes(fileName.replace(/^\d+-\d+\s+/, '').replace(/\s+\(radio\)\.mp3$/, ''));
     });
-    return match ? this.imageService.imageUrl('/music/nintendo/kk/audio/' + match) : null;
+    return match ? '/music/nintendo/kk/audio/' + match : null;
   }
 
   @HostListener('window:click', ['$event'])

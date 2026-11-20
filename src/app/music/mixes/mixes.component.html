@@ -2,7 +2,7 @@
   <div class="mp3-container">
     <h1 class="neon-text">🎵 MP3 Downloads 🎵</h1>
     <div class="gif">
-      <img [src]="imageService.imageUrl('/homepage/mp3.gif')" margin="5px" alt="nice gif saying 'New MP3s updated'">
+      <img [src]="'/homepage/mp3.gif' | imageUrl" margin="5px" alt="nice gif saying 'New MP3s updated'">
     </div>
     <p>Over the years I have made a bunch of little mixes from all my favourite video game music. There are a lot of them so don't be afraid to keep scrolling!</p>
     <div class="search-container">
@@ -12,13 +12,13 @@
       @for (mp3 of filteredMixes.slice(0, itemsToShow); track mp3; let i = $index) {
         <li class="mp3-card" [style.animation-delay]="i * 0.1 + 's'" [style.background-color]="color" (click)="showMix(mp3)">
             <div class="mix-image">
-              <img [src]="imageService.imageUrl('/music/mixes/art/' + mp3.image)" [alt]="mp3.name">
+              <img [src]="'/music/mixes/art/' + mp3.image | imageUrl" [alt]="mp3.name">
             </div>
             <h2>{{ mp3.name }}</h2>
         </li>
       }
     </ul>
-    <div #scrollAnchor class="scroll-anchor"></div>
+    <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
   </div>
 </div>
 

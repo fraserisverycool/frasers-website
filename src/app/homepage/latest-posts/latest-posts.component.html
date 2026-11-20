@@ -14,7 +14,7 @@
         </div>
       }
       @if (entry.image) {
-        <img [src]="imageService.imageUrl(entry.image)" [alt]="entry.title || 'Post image'" class="entry-image" loading="lazy">
+        <img [src]="entry.image | imageUrl" [alt]="entry.title || 'Post image'" class="entry-image" loading="lazy">
       }
     </div>
   }

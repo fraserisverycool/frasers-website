@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
-import {ImageService} from "../../utils/services/image.service";
+import { ImageUrlPipe } from "../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-party',
-    imports: [NgOptimizedImage],
+    imports: [NgOptimizedImage, ImageUrlPipe],
     templateUrl: './party.component.html',
     styleUrls: ['./party.component.css']
 })
-export default class PartyComponent {
-  constructor(protected imageService: ImageService) {
-  }
-}
+export default class PartyComponent {}

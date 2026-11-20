@@ -3,11 +3,11 @@ import {CommonModule} from '@angular/common';
 import { HttpClient } from "@angular/common/http";
 import {Pokemon, TierData} from "./pokemon.interface";
 import {CloseButtonComponent} from "../../utils/close-button/close-button.component";
-import {ImageService} from "../../utils/services/image.service";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-pokemon',
-    imports: [CommonModule, CloseButtonComponent],
+    imports: [CommonModule, CloseButtonComponent, ImageUrlPipe],
     templateUrl: './pokemon.component.html',
     styleUrls: ['./pokemon.component.css']
 })
@@ -55,7 +55,7 @@ export default class PokemonComponent  implements OnInit {
     'fairy'
   ];
 
-  constructor(private http: HttpClient, protected imageService: ImageService) {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
     this.http.get<TierData>('assets/data/pokemon.json')

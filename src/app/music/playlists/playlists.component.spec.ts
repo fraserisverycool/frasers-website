@@ -1,14 +1,22 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { of } from 'rxjs';
 import PlaylistsComponent from './playlists.component';
+import { MusicService } from '../service/music.service';
 
 describe('PlaylistsComponent', () => {
   let component: PlaylistsComponent;
   let fixture: ComponentFixture<PlaylistsComponent>;
+  let musicServiceSpy: jasmine.SpyObj<MusicService>;
 
   beforeEach(() => {
+    musicServiceSpy = jasmine.createSpyObj('MusicService', ['getPlaylists']);
+    musicServiceSpy.getPlaylists.and.returnValue(of([]));
+
     TestBed.configureTestingModule({
-      imports: [PlaylistsComponent]
+      imports: [PlaylistsComponent],
+      providers: [
+        { provide: MusicService, useValue: musicServiceSpy }
+      ]
     });
     fixture = TestBed.createComponent(PlaylistsComponent);
     component = fixture.componentInstance;

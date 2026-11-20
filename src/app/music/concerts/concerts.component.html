@@ -18,7 +18,7 @@
           <span class="bold">Venue:</span> {{ concert.venue }}
         </p>
         <img
-          [ngSrc]="imageService.imageUrl('/music/concerts/' + concert.image)"
+          [ngSrc]="'/music/concerts/' + concert.image | imageUrl"
           alt="{{ concert.artist }}"
           width="600"
           height="400"
@@ -28,5 +28,5 @@
         </li>
       }
     </ul>
-    <div #scrollAnchor class="scroll-anchor"></div>
+    <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
   </div>

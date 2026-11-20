@@ -7,6 +7,6 @@
       </li>
     }
   </ul>
-  <div #scrollAnchor class="scroll-anchor"></div>
+  <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
   <h4>I'm happy you made it to the end! Here's a <a routerLink="/gallery/videos">secret webpage</a> for you</h4>
 </div>

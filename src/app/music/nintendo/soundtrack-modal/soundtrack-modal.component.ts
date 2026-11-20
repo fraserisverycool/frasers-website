@@ -4,11 +4,11 @@ import {Soundtrack} from "../soundtrack.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
-import {ImageService} from "../../../utils/services/image.service";
+import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-soundtrack-modal',
-  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
+  imports: [CommonModule, NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
   templateUrl: './soundtrack-modal.component.html',
   standalone: true,
   styleUrls: ['./soundtrack-modal.component.css']
@@ -19,8 +19,7 @@ export class SoundtrackModalComponent implements OnInit, OnDestroy {
 
   currentRandomColor: string = "#ffffff";
 
-  constructor(protected imageService: ImageService) {
-  }
+  constructor() {}
 
   ngOnInit() {
     this.getRandomColor();

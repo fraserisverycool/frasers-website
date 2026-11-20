@@ -1,18 +1,18 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
-import { HttpClient } from "@angular/common/http";
+import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {Film} from "./film.interface";
 import {FilmComponent} from "./film/film.component";
-import {RatingService} from "../utils/rating-bar/service/rating.service";
+import {FilmService} from "./service/film.service";
+import {InfiniteScrollDirective} from "../utils/directives/infinite-scroll.directive";
 
 @Component({
     selector: 'app-films',
-    imports: [FormsModule, FilmComponent],
+    imports: [FormsModule, FilmComponent, InfiniteScrollDirective],
     templateUrl: './films.component.html',
     styleUrls: ['./films.component.css']
 })
-export default class FilmsComponent implements OnInit, AfterViewInit, OnDestroy {
+export default class FilmsComponent implements OnInit {
   films: Film[] = [];
   originalFilms: Film[] = [];
   title: string = "Films Fraser has watched since 2013";
@@ -29,37 +29,11 @@ export default class FilmsComponent implements OnInit, AfterViewInit, OnDestroy 
 
   pageSize = 10;
   itemsToShow = 10;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private router: Router, private ratingService: RatingService) {}
+  constructor(private router: Router, private filmService: FilmService) {}
 
   ngOnInit(): void {
     this.loadFilms();
-  }
-
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
-  ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.loadMore();
-      }
-    }, {
-      rootMargin: '100px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
-    }
   }
 
   loadMore(): void {
@@ -73,32 +47,15 @@ export default class FilmsComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   loadFilms(): void {
-    this.http.get<{ films: Film[] }>('assets/data/films.json').subscribe({
-      next: (data) => {
-        this.originalFilms = data.films;
-        this.getRatings();
+    this.filmService.getFilms().subscribe({
+      next: (films) => {
+        this.originalFilms = films;
         this.sortFilms('all');
-
       },
       error: (err) => {
         console.error('Failed to load films:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.originalFilms.map(film => film.id))
-      .subscribe(filmRatings => {
-        this.originalFilms = this.originalFilms.map(film => {
-          const ratingData = filmRatings.find(rating => rating.id === film.id);
-          if (ratingData) {
-            film.rating = ratingData.ratings;
-          } else {
-            film.rating = [0,0,0,0,0,0];
-          }
-          return film;
-        });
-      });
   }
 
   get filteredFilms(): Film[] {

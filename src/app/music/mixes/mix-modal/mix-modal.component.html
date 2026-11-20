@@ -4,15 +4,15 @@
       <app-close-button (click)="close.emit()"/>
       <h2>{{ selectedMix.name }}</h2>
       <div class="mix-image">
-        <img [src]="imageService.imageUrl('/music/mixes/art/' + selectedMix.image)" [alt]="selectedMix.name">
+        <img [src]="'/music/mixes/art/' + selectedMix.image | imageUrl" [alt]="selectedMix.name">
       </div>
       <p>{{ selectedMix.description }}</p>
       <div class="audio-player-wrapper">
-        <audio controls preload="none" [src]="imageService.imageUrl('/music/mixes/' + selectedMix.filename)">
+        <audio controls preload="none" [src]="'/music/mixes/' + selectedMix.filename | imageUrl">
           Mate your browser cannot handle this audio player.
         </audio>
       </div>
-      <a [href]="imageService.imageUrl('/music/mixes/' + selectedMix.filename)" [download]="selectedMix.filename">
+      <a [href]="'/music/mixes/' + selectedMix.filename | imageUrl" [download]="selectedMix.filename">
         <span class="file-icon">🎧</span>
         Download {{ selectedMix.filename }}
       </a>

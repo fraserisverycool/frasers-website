@@ -32,5 +32,5 @@
       <app-game [game]="game"></app-game>
     </div>
   }
-  <div #scrollAnchor class="scroll-anchor"></div>
+  <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
 </div>

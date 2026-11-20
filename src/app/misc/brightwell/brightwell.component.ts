@@ -1,13 +1,14 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { environment } from "../../../environments/environment";
-import {ImageService} from "../../utils/services/image.service";
 import {CommonModule} from "@angular/common";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-brightwell',
   imports: [
-    CommonModule
+    CommonModule,
+    ImageUrlPipe
   ],
   templateUrl: './brightwell.component.html',
   styleUrl: './brightwell.component.css',
@@ -16,7 +17,7 @@ export default class BrightwellComponent implements OnInit, OnDestroy {
   path: string = `${environment.imageBaseUrl}/misc/brightwell/Brightwell.html`;
   safePath: SafeResourceUrl;
 
-  constructor(private sanitizer: DomSanitizer, protected imageService: ImageService) {
+  constructor(private sanitizer: DomSanitizer) {
     this.safePath = this.sanitizer.bypassSecurityTrustResourceUrl(this.path);
   }
 

@@ -1,168 +1,230 @@
 import {Routes} from '@angular/router';
-import HomepageComponent from "./homepage/homepage.component";
-import PartyComponent from "./homepage/party/party.component";
-import ChangelogPageComponent from "./homepage/changelog-page/changelog-page.component";
-import GamesComponent from "./games/games.component";
-import NextFilmComponent from "./films/next/next-film.component";
-import FilmsComponent from "./films/films.component";
-import NextGameComponent from "./games/next/next-game.component";
-import MusicComponent from "./music/music.component";
-import AlbumsComponent from "./music/albums/albums.component";
-import SpotifyComponent from "./music/spotify/spotify.component";
-import SoundtracksComponent from "./music/nintendo/soundtracks.component";
-import KkComponent from "./music/nintendo/kk/kk.component";
-import NintendoPlaylistsComponent from "./music/nintendo/playlists/nintendo-playlists.component";
-import MixesComponent from "./music/mixes/mixes.component";
-import PlaylistsComponent from "./music/playlists/playlists.component";
-import CdsComponent from "./music/cds/cds.component";
-import DailiesComponent from "./music/daily/dailies/dailies.component";
-import WorldpeaceComponent from "./music/worldpeace/worldpeace.component";
-import SmashComponent from "./music/smash/smash.component";
-import BooksComponent from "./books/books.component";
-import PhotosComponent from "./gallery/photos.component";
-import VideosComponent from "./gallery/videos/videos.component";
-import CommunityComponent from "./community/community.component";
-import DurstloescherComponent from "./community/durstloescher/durstloescher.component";
-import GameOfLifeComponent from "./community/game-of-life/game-of-life.component";
-import MiscComponent from "./misc/misc.component";
-import BrexitComponent from "./misc/brexit/brexit.component";
-import CharactersComponent from "./misc/characters/characters.component";
-import MariokartComponent from "./misc/mariokart/mariokart.component";
-import StitchComponent from "./misc/stitch/stitch.component";
-import WritingComponent from "./misc/writing/writing.component";
-import BrightwellComponent from "./misc/brightwell/brightwell.component";
-import GuestbookComponent from "./guestbook/guestbook.component";
-import NewslettersComponent from "./newsletter/newsletters.component";
-import NewsletterComponent from "./newsletter/newsletter/newsletter.component";
-import ConcertsComponent from "./music/concerts/concerts.component";
-import PokemonComponent from "./misc/pokemon/pokemon.component";
-import ContactComponent from "./contact/contact.component";
-import BrightwellStatsComponent from "./misc/brightwell/brightwell-stats/brightwell-stats.component";
-import AboutComponent from "./music/smash/about/about.component";
-import PhilosophyComponent from "./homepage/philosophy/philosophy.component";
 
 export const routes: Routes = [
+  // Homepage & Brand
   {
-    path: '', component: HomepageComponent, data: { title: 'Fraser\'s Website' }
+    path: '',
+    loadComponent: () => import('./homepage/homepage.component'),
+    data: { title: 'Fraser\'s Website' }
   },
   {
-    path: 'party', component: PartyComponent, data: { title: 'Party - Fraser\'s Website' }
+    path: 'party',
+    loadComponent: () => import('./homepage/party/party.component'),
+    data: { title: 'Party - Fraser\'s Website' }
   },
   {
-    path: 'changelog', component: ChangelogPageComponent, data: { title: 'Changelog - Fraser\'s Website' }
+    path: 'changelog',
+    loadComponent: () => import('./homepage/changelog-page/changelog-page.component'),
+    data: { title: 'Changelog - Fraser\'s Website' }
   },
   {
-    path: 'philosophy', component: PhilosophyComponent, data: {title: 'Philosophy - Fraser\'s Website'}
+    path: 'philosophy',
+    loadComponent: () => import('./homepage/philosophy/philosophy.component'),
+    data: { title: 'Philosophy - Fraser\'s Website' }
+  },
+
+  // Games domain
+  {
+    path: 'games',
+    loadComponent: () => import('./games/games.component'),
+    data: { title: 'Games - Fraser\'s Website' }
   },
   {
-    path: 'games', component: GamesComponent, data: { title: 'Games - Fraser\'s Website' }
+    path: 'games/next',
+    loadComponent: () => import('./games/next/next-game.component'),
+    data: { title: 'Games To Play - Fraser\'s Website\'' }
+  },
+
+  // Films domain
+  {
+    path: 'films',
+    loadComponent: () => import('./films/films.component'),
+    data: { title: 'Films - Fraser\'s Website' }
   },
   {
-    path: 'games/next', component: NextGameComponent, data: { title: 'Games To Play - Fraser\'s Website\'' }
+    path: 'films/next',
+    loadComponent: () => import('./films/next/next-film.component'),
+    data: { title: 'Films To Watch - Fraser\'s Website\'' }
+  },
+
+  // Books domain
+  {
+    path: 'books',
+    loadComponent: () => import('./books/books.component'),
+    data: { title: 'Books - Fraser\'s Website' }
+  },
+
+  // Music domain
+  {
+    path: 'music',
+    loadComponent: () => import('./music/music.component'),
+    data: { title: 'Music - Fraser\'s Website' }
   },
   {
-    path: 'films', component: FilmsComponent, data: { title: 'Films - Fraser\'s Website'}
+    path: 'music/albums',
+    loadComponent: () => import('./music/albums/albums.component'),
+    data: { title: 'Albums - Fraser\'s Website' }
   },
   {
-    path: 'films/next', component: NextFilmComponent, data: { title: 'Films To Watch - Fraser\'s Website\'' }
+    path: 'music/spotify',
+    loadComponent: () => import('./music/spotify/spotify.component'),
+    data: { title: 'Spotify Playlists - Fraser\'s Website' }
   },
   {
-    path: 'music', component: MusicComponent, data: { title: 'Music - Fraser\'s Website' }
+    path: 'music/nintendo',
+    loadComponent: () => import('./music/nintendo/soundtracks.component'),
+    data: { title: 'Nintendo Soundtracks - Fraser\'s Website' }
   },
   {
-    path: 'music/albums', component: AlbumsComponent, data: { title: 'Albums - Fraser\'s Website' }
+    path: 'music/nintendo/playlists',
+    loadComponent: () => import('./music/nintendo/playlists/nintendo-playlists.component'),
+    data: { title: 'Nintendo Playlists - Fraser\'s Website' }
   },
   {
-    path: 'music/spotify', component: SpotifyComponent, data: { title: 'Spotify Playlists - Fraser\'s Website' }
+    path: 'music/nintendo/kk',
+    loadComponent: () => import('./music/nintendo/kk/kk.component'),
+    data: { title: 'KK Songs - Fraser\'s Website' }
   },
   {
-    path: 'music/nintendo', component: SoundtracksComponent, data: { title: 'Nintendo Soundtracks - Fraser\'s Website' }
+    path: 'music/concerts',
+    loadComponent: () => import('./music/concerts/concerts.component'),
+    data: { title: 'Concerts - Fraser\'s Website' }
   },
   {
-    path: 'music/nintendo/playlists', component: NintendoPlaylistsComponent, data: { title: 'Nintendo Playlists - Fraser\'s Website' }
+    path: 'music/mixes',
+    loadComponent: () => import('./music/mixes/mixes.component'),
+    data: { title: 'Video Game Mixes - Fraser\'s Website' }
   },
   {
-    path: 'music/nintendo/kk', component: KkComponent, data: { title: 'KK Songs - Fraser\'s Website' }
+    path: 'music/playlists',
+    loadComponent: () => import('./music/playlists/playlists.component'),
+    data: { title: 'Playlists - Fraser\'s Website' }
   },
   {
-    path: 'music/concerts', component: ConcertsComponent, data: { title: 'Concerts - Fraser\'s Website' }
+    path: 'music/cds',
+    loadComponent: () => import('./music/cds/cds.component'),
+    data: { title: 'CDs - Fraser\'s Website' }
   },
   {
-    path: 'music/mixes', component: MixesComponent, data: { title: 'Video Game Mixes - Fraser\'s Website' }
+    path: 'music/daily-soundtracks',
+    loadComponent: () => import('./music/daily/dailies/dailies.component'),
+    data: { title: 'Daily Soundtracks - Fraser\'s Website' }
   },
   {
-    path: 'music/playlists', component: PlaylistsComponent, data: { title: 'Playlists - Fraser\'s Website' }
+    path: 'music/worldpeace',
+    loadComponent: () => import('./music/worldpeace/worldpeace.component'),
+    data: { title: 'DJ World Peace - Fraser\'s Website' }
   },
   {
-    path: 'music/cds', component: CdsComponent, data: { title: 'CDs - Fraser\'s Website' }
+    path: 'music/smash',
+    loadComponent: () => import('./music/smash/smash.component'),
+    data: { title: 'Super Smash Bros. Soundtrack - Fraser\'s Website' }
   },
   {
-    path: 'music/daily-soundtracks', component: DailiesComponent, data: { title: 'Daily Soundtracks - Fraser\'s Website' }
+    path: 'music/smash/about',
+    loadComponent: () => import('./music/smash/about/about.component'),
+    data: { title: 'Super Smash Bros. Soundtrack - Fraser\'s Website' }
+  },
+
+  // Gallery domain
+  {
+    path: 'gallery',
+    loadComponent: () => import('./gallery/photos.component'),
+    data: { title: 'Music - Fraser\'s Website' }
   },
   {
-    path: 'music/worldpeace', component: WorldpeaceComponent, data: { title: 'DJ World Peace - Fraser\'s Website' }
+    path: 'gallery/videos',
+    loadComponent: () => import('./gallery/videos/videos.component'),
+    data: { title: 'Videos - Fraser\'s Website' }
+  },
+
+  // Community domain
+  {
+    path: 'community',
+    loadComponent: () => import('./community/community.component'),
+    data: { title: 'Community - Fraser\'s Website' }
   },
   {
-    path: 'music/smash', component: SmashComponent, data: { title: 'Super Smash Bros. Soundtrack - Fraser\'s Website' }
+    path: 'community/durstloescher',
+    loadComponent: () => import('./community/durstloescher/durstloescher.component'),
+    data: { title: 'Durstlöscher - Fraser\'s Website' }
   },
   {
-    path: 'music/smash/about', component: AboutComponent, data: { title: 'Super Smash Bros. Soundtrack - Fraser\'s Website' }
+    path: 'community/game-of-life',
+    loadComponent: () => import('./community/game-of-life/game-of-life.component'),
+    data: { title: 'Game of Life - Fraser\'s Website' }
+  },
+
+  // Miscellaneous domain
+  {
+    path: 'misc',
+    loadComponent: () => import('./misc/misc.component'),
+    data: { title: 'Miscellaneous - Fraser\'s Website' }
   },
   {
-    path: 'books', component: BooksComponent, data: { title: 'Books - Fraser\'s Website' }
+    path: 'misc/brexitsummit',
+    loadComponent: () => import('./misc/brexit/brexit.component'),
+    data: { title: 'BREXIT SUMMIT - Fraser\'s Website' }
   },
   {
-    path: 'gallery', component: PhotosComponent, data: { title: 'Music - Fraser\'s Website' }
+    path: 'misc/characters',
+    loadComponent: () => import('./misc/characters/characters.component'),
+    data: { title: 'Smash Characters - Fraser\'s Website' }
   },
   {
-    path: 'gallery/videos', component: VideosComponent, data: { title: 'Videos - Fraser\'s Website' }
+    path: 'misc/mariokart',
+    loadComponent: () => import('./misc/mariokart/mariokart.component'),
+    data: { title: 'Music - Fraser\'s Website' }
   },
   {
-    path: 'community', component: CommunityComponent, data: { title: 'Community - Fraser\'s Website' }
+    path: 'misc/stitch',
+    loadComponent: () => import('./misc/stitch/stitch.component'),
+    data: { title: 'Cross Stitches - Fraser\'s Website' }
   },
   {
-    path: 'community/durstloescher', component: DurstloescherComponent, data: { title: 'Durstlöscher - Fraser\'s Website' }
+    path: 'misc/writing',
+    loadComponent: () => import('./misc/writing/writing.component'),
+    data: { title: 'Old Posts - Fraser\'s Website' }
   },
   {
-    path: 'community/game-of-life', component: GameOfLifeComponent, data: { title: 'Game of Life - Fraser\'s Website' }
+    path: 'misc/pokemon',
+    loadComponent: () => import('./misc/pokemon/pokemon.component'),
+    data: { title: 'Pokemon Ranking - Fraser\'s Website' }
   },
   {
-    path: 'misc', component: MiscComponent, data: { title: 'Miscellaneous - Fraser\'s Website' }
+    path: 'misc/back-to-brightwell',
+    loadComponent: () => import('./misc/brightwell/brightwell.component'),
+    data: { title: 'Back to Brightwell - Fraser\'s Website' }
   },
   {
-    path: 'misc/brexitsummit', component: BrexitComponent, data: { title: 'BREXIT SUMMIT - Fraser\'s Website' }
+    path: 'misc/back-to-brightwell/stats',
+    loadComponent: () => import('./misc/brightwell/brightwell-stats/brightwell-stats.component'),
+    data: { title: 'Back to Brightwell Stats - Fraser\'s Website' }
+  },
+
+  // Guestbook
+  {
+    path: 'guestbook',
+    loadComponent: () => import('./guestbook/guestbook.component'),
+    data: { title: 'Guestbook - Fraser\'s Website' }
+  },
+
+  // Newsletter
+  {
+    path: 'newsletter',
+    loadComponent: () => import('./newsletter/newsletters.component'),
+    data: { title: 'Newsletters - Fraser\'s Website' }
   },
   {
-    path: 'misc/characters', component: CharactersComponent, data: { title: 'Smash Characters - Fraser\'s Website' }
+    path: 'newsletter/:timestamp',
+    loadComponent: () => import('./newsletter/newsletter/newsletter.component'),
+    data: { title: 'Newsletter - Fraser\'s Website' }
   },
+
+  // Contact
   {
-    path: 'misc/mariokart', component: MariokartComponent, data: { title: 'Music - Fraser\'s Website' }
-  },
-  {
-    path: 'misc/stitch', component: StitchComponent, data: { title: 'Cross Stitches - Fraser\'s Website' }
-  },
-  {
-    path: 'misc/writing', component: WritingComponent, data: { title: 'Old Posts - Fraser\'s Website' }
-  },
-  {
-    path: 'misc/pokemon', component: PokemonComponent, data: { title: 'Pokemon Ranking - Fraser\'s Website' }
-  },
-  {
-    path: 'misc/back-to-brightwell', component: BrightwellComponent, data: { title: 'Back to Brightwell - Fraser\'s Website' }
-  },
-  {
-    path: 'misc/back-to-brightwell/stats', component: BrightwellStatsComponent, data: { title: 'Back to Brightwell Stats - Fraser\'s Website' }
-  },
-  {
-    path: 'guestbook', component: GuestbookComponent, data: { title: 'Guestbook - Fraser\'s Website' }
-  },
-  {
-    path: 'newsletter', component: NewslettersComponent, data: { title: 'Newsletters - Fraser\'s Website' }
-  },
-  {
-    path: 'newsletter/:timestamp', component: NewsletterComponent, data: { title: 'Newsletter - Fraser\'s Website' }
-  },
-  {
-    path: 'contact', component: ContactComponent, data: { title: 'Contact - Fraser\'s Website' }
+    path: 'contact',
+    loadComponent: () => import('./contact/contact.component'),
+    data: { title: 'Contact - Fraser\'s Website' }
   },
 ];

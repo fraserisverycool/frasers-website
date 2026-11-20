@@ -3,7 +3,7 @@
   <ul>
     @for (book of books.slice(0, itemsToShow); track book) {
       <li class="card">
-        <img [ngSrc]="imageService.imageUrl('/books/' + book.filename)" alt="{{ book.title }}" width="600" height="400">
+        <img [ngSrc]="'/books/' + book.filename | imageUrl" alt="{{ book.title }}" width="600" height="400">
         <div class="card-info">
           <h2>{{book.title}}</h2>
           <p>{{book.author}}</p>
@@ -16,7 +16,7 @@
       </li>
     }
   </ul>
-  <div #scrollAnchor class="scroll-anchor"></div>
+  <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
 </div>
 
 

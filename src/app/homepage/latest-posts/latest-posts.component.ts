@@ -3,7 +3,8 @@ import { CommonModule, NgClass } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { forkJoin, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { ImageService } from '../../utils/services/image.service';
+import { ImageUrlPipe } from '../../utils/pipes/image-url.pipe';
+import { getNewsletterContentClass, getNewsletterContentName } from '../../newsletter/newsletter.config';
 
 export interface PostEntry {
   id?: string;
@@ -18,17 +19,14 @@ export interface PostEntry {
 @Component({
   selector: 'app-latest-posts',
   standalone: true,
-  imports: [CommonModule, NgClass],
+  imports: [CommonModule, NgClass, ImageUrlPipe],
   templateUrl: './latest-posts.component.html',
   styleUrl: './latest-posts.component.css'
 })
 export class LatestPostsComponent implements OnInit {
   posts: PostEntry[] = [];
 
-  constructor(
-    private http: HttpClient,
-    protected imageService: ImageService
-  ) {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
     this.loadLatestPosts();
@@ -334,88 +332,10 @@ export class LatestPostsComponent implements OnInit {
   }
 
   getName(type: string): string {
-    switch (type) {
-      case 'GAME':
-        return 'Game Review';
-      case 'FILM':
-        return 'Film Review';
-      case 'TVSHOW':
-        return 'TV Show Review';
-      case 'ALBUM':
-        return 'Album Review';
-      case 'PLAYLIST':
-        return 'New Playlist';
-      case 'SOUNDTRACK':
-        return 'Nintendo Soundtrack Review';
-      case 'BOOK':
-        return 'Book Review';
-      case 'GALLERY':
-        return 'New Photo in the Gallery';
-      case 'VIDEO':
-        return 'Fun video for your entertainment';
-      case 'CD':
-        return 'New CD';
-      case 'DURSTLOESCHER':
-        return 'Durstloescher Review from Anni';
-      case 'MARIOKART':
-        return 'Mario Kart Track Review';
-      case 'STITCH':
-        return 'New Cross Stitch';
-      case 'MIX':
-        return 'New Mix';
-      case 'CONCERT':
-        return 'Concert Review';
-      case 'KK':
-        return 'KK Song Review';
-      case 'CHARACTER_DECO':
-        return 'Smash character decoration in my house';
-      case 'DAILY_SOUNDTRACK':
-        return 'Soundtrack of the day';
-      default:
-        return type;
-    }
+    return getNewsletterContentName(type);
   }
 
   getClass(entry: { type: string }): string {
-    switch (entry.type) {
-      case 'GAME':
-        return 'game';
-      case 'FILM':
-        return 'film';
-      case 'PLAYLIST':
-        return 'playlist';
-      case 'TVSHOW':
-        return 'tvshow';
-      case 'DURSTLOESCHER':
-        return 'durstloescher';
-      case 'BOOK':
-        return 'book';
-      case 'GALLERY':
-        return 'gallery';
-      case 'VIDEO':
-        return 'video';
-      case 'CHARACTER_DECO':
-        return 'character-deco';
-      case 'MARIOKART':
-        return 'mariokart';
-      case 'STITCH':
-        return 'stitch';
-      case 'ALBUM':
-        return 'album';
-      case 'CONCERT':
-        return 'concert';
-      case 'CD':
-        return 'cd';
-      case 'MIX':
-        return 'mix';
-      case 'SOUNDTRACK':
-        return 'soundtrack';
-      case 'KK':
-        return 'kk';
-      case 'DAILY_SOUNDTRACK':
-        return 'daily-soundtrack';
-      default:
-        return 'entry';
-    }
+    return getNewsletterContentClass(entry.type);
   }
 }

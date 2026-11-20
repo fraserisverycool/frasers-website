@@ -1,4 +1,4 @@
-import {Component, ElementRef, HostListener, OnInit, OnDestroy, ChangeDetectorRef, NgZone, ViewChild, AfterViewInit} from '@angular/core';
+import {Component, ElementRef, HostListener, OnInit, OnDestroy, ChangeDetectorRef, NgZone} from '@angular/core';
 import { CommonModule, TitleCasePipe } from '@angular/common';
 import {DailySoundtrack} from "../daily-soundtrack.interface";
 import {DomSanitizer} from "@angular/platform-browser";
@@ -7,6 +7,8 @@ import {RatingService} from "../../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {isBefore, parse, format} from "date-fns";
 import {ImageService} from "../../../utils/services/image.service";
+import {InfiniteScrollDirective} from "../../../utils/directives/infinite-scroll.directive";
+import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 interface GroupedDailySoundtracks {
   month: string;
@@ -15,11 +17,11 @@ interface GroupedDailySoundtracks {
 
 @Component({
     selector: 'app-dailies',
-    imports: [CommonModule, RatingBarComponent],
+    imports: [CommonModule, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './dailies.component.html',
     styleUrls: ['./dailies.component.css']
 })
-export default class DailiesComponent implements OnInit, OnDestroy, AfterViewInit {
+export default class DailiesComponent implements OnInit, OnDestroy {
   allDailySoundtracks: DailySoundtrack[] = [];
   originalDailySoundtracks: DailySoundtrack[] = [];
   groupedDailySoundtracks: GroupedDailySoundtracks[] = [];
@@ -46,8 +48,6 @@ export default class DailiesComponent implements OnInit, OnDestroy, AfterViewIni
 
   pageSize = 10;
   itemsToShow = 10;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
   private isAutoAdvancing = false;
   isFirstLoad = true;
@@ -170,14 +170,7 @@ export default class DailiesComponent implements OnInit, OnDestroy, AfterViewIni
     this.loadDailySoundtracks();
   }
 
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
   ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
     this.stopProgressTracking();
     this.stopCurrentSource();
     if (this.audioCtx) {
@@ -606,22 +599,6 @@ export default class DailiesComponent implements OnInit, OnDestroy, AfterViewIni
     if (this.currentSource) {
       try { this.currentSource.onended = null; this.currentSource.stop(); } catch (e) {}
       this.currentSource = null;
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.ngZone.run(() => {
-          this.loadMore();
-        });
-      }
-    }, {
-      rootMargin: '300px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
     }
   }
 

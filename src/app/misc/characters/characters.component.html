@@ -9,7 +9,7 @@
         >
         <div class="box" [style.box-shadow]="getBorderColor(character.color)"></div>
         <img
-          [ngSrc]="imageService.imageUrl('/misc/characters/icons/' + character.icon)"
+          [ngSrc]="'/misc/characters/icons/' + character.icon | imageUrl"
           alt="{{ character.name }}"
           class="character-icon"
           width="20"

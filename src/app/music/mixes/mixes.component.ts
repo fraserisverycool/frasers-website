@@ -1,33 +1,22 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZone} from '@angular/core';
-
-import { HttpClient } from "@angular/common/http";
+import {Component, OnInit} from '@angular/core';
 import {FormsModule} from '@angular/forms';
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
-import {ImageService} from "../../utils/services/image.service";
+import {Mix} from "./mix.interface";
 import {MixModalComponent} from "./mix-modal/mix-modal.component";
-
-interface Mp3Info {
-  filename: string;
-  name: string;
-  description: string;
-  image: string;
-  rating: number[];
-  id: string;
-  newsletter: boolean;
-  timestamp?: string;
-}
+import {MusicService} from "../service/music.service";
+import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-mixes',
-    imports: [MixModalComponent, FormsModule],
+    imports: [MixModalComponent, FormsModule, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './mixes.component.html',
     standalone: true,
     styleUrls: ['./mixes.component.css']
 })
-export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy {
-  mp3Files: Mp3Info[] = [];
-  originalMixes: Mp3Info[] = [];
-  filteredMixes: Mp3Info[] = [];
+export default class MixesComponent implements OnInit {
+  mp3Files: Mix[] = [];
+  originalMixes: Mix[] = [];
+  filteredMixes: Mix[] = [];
   color: string = "#000000"
 
   private _searchTerm: string = '';
@@ -41,42 +30,14 @@ export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy 
 
   pageSize = 20;
   itemsToShow = 20;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
-  selectedMix: Mp3Info | null = null;
+  selectedMix: Mix | null = null;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService, private ngZone: NgZone) {}
+  constructor(private musicService: MusicService) {}
 
   ngOnInit(): void {
     this.loadMixes();
     this.color = this.getRandomColor();
-  }
-
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
-  ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.ngZone.run(() => {
-          this.loadMore();
-        });
-      }
-    }, {
-      rootMargin: '300px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
-    }
   }
 
   loadMore(): void {
@@ -89,7 +50,7 @@ export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy 
     this.itemsToShow = this.pageSize;
   }
 
-  showMix(mix: Mp3Info): void {
+  showMix(mix: Mix): void {
     setTimeout(() => {
       this.selectedMix = mix;
     }, 0);
@@ -100,11 +61,10 @@ export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   loadMixes(): void {
-    this.http.get<{ mixes: Mp3Info[] }>('assets/data/mixes.json').subscribe({
-      next: (data) => {
-        this.originalMixes = data.mixes;
-        this.mp3Files = data.mixes;
-        this.getRatings();
+    this.musicService.getMixes().subscribe({
+      next: (mixes) => {
+        this.originalMixes = mixes;
+        this.mp3Files = mixes;
         this.applyFilters();
       },
       error: (err) => {
@@ -125,21 +85,6 @@ export default class MixesComponent implements OnInit, AfterViewInit, OnDestroy 
     }
 
     this.filteredMixes = filtered;
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.mp3Files.map(mp3File => mp3File.id))
-      .subscribe(mp3FileRatings => {
-        this.mp3Files = this.mp3Files.map(mp3File => {
-          const ratingData = mp3FileRatings.find(rating => rating.id === mp3File.id);
-          if (ratingData) {
-            mp3File.rating = ratingData.ratings;
-          } else {
-            mp3File.rating = [0,0,0,0,0,0];
-          }
-          return mp3File;
-        });
-      });
   }
 
   getRandomColor() {

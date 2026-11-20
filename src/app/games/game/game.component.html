@@ -17,7 +17,7 @@
     @if (game.completed) {
       <img
         class="completed"
-        [ngSrc]="imageService.imageUrl('/games/' + (!game.completable ? 'completed2.png' : 'completed.png'))"
+        [ngSrc]="'/games/' + (!game.completable ? 'completed2.png' : 'completed.png') | imageUrl"
         alt="completed"
         [title]="!game.completable ? 'As far as this game can actually be completed' : 'I beat the game!'"
         width="50"
@@ -26,7 +26,7 @@
     }
   </div>
   <app-read-more [paragraphs]="game.review"></app-read-more>
-  <img [ngSrc]="imageService.imageUrl('/games/' + game.image)" alt="{{ game.name }}" width="600" height="400">
+  <img [ngSrc]="'/games/' + game.image | imageUrl" alt="{{ game.name }}" width="600" height="400">
   <app-friend-rating [currentId]="game.id"></app-friend-rating>
   <div [ngStyle]="{'padding-bottom': '10px'}"></div>
   <app-rating-bar [rating]="{id: game.id, ratings: game.rating}"></app-rating-bar>

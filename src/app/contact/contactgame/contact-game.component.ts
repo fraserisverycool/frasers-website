@@ -305,14 +305,14 @@ export class ContactGameComponent implements AfterViewInit, OnDestroy {
   }
 
   private emailUser(): string {
-    return 'fraserbowen82';
+    return 'fraser';
   }
 
   private emailDomain(): string {
-    return 'hotmail';
+    return 'worldpeace';
   }
 
   private emailTld(): string {
-    return 'co.uk';
+    return 'services';
   }
 }

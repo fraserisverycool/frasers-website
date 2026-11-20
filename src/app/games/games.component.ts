@@ -1,53 +1,25 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
-import {of} from 'rxjs';
-import {catchError, map} from 'rxjs/operators';
 import {Router} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {Game} from "./game.interface";
 import {GameComponent} from "./game/game.component";
-import {RatingService} from "../utils/rating-bar/service/rating.service";
+import {GameService, PLATFORM_ORDER, PLATFORM_RANK} from "./service/game.service";
+import {InfiniteScrollDirective} from "../utils/directives/infinite-scroll.directive";
 
 @Component({
     selector: 'app-games',
-    imports: [CommonModule, GameComponent, FormsModule],
+    imports: [CommonModule, GameComponent, FormsModule, InfiniteScrollDirective],
     templateUrl: './games.component.html',
     styleUrls: ['./games.component.css']
 })
-export default class GamesComponent implements OnInit, AfterViewInit, OnDestroy {
+export default class GamesComponent implements OnInit {
   games: Game[] = [];
   originalGames: Game[] = [];
   title: string = "Games Fraser has played since 2020";
   filters = ["all", "2025", "2024", "2023", "2022", "2021", "2020", "older", "random", "name", "vibes", "gameplay", "release", "platform", "next"];
-  platformOrder: string[] = [
-    "Game and Watch",
-    "NES",
-    "Gameboy",
-    "SNES",
-    "Nintendo 64",
-    "Gameboy Advance",
-    "Gamecube",
-    "DS",
-    "Wii",
-    "3DS",
-    "Wii U",
-    "Switch",
-    "Switch 2",
-    "PlayStation 1",
-    "PlayStation 2",
-    "PlayStation 3",
-    "PlayStation 4",
-    "PlayStation 5",
-    "Xbox",
-    "Xbox 360",
-    "Xbox Gamepass",
-    "Xbox Series X",
-    "PC",
-    "Arcade",
-    "Sega Mega Drive",
-    "Mobile"
-  ];
+  platformOrder: string[] = PLATFORM_ORDER;
+  platformRank: Record<string, number> = PLATFORM_RANK;
 
   private _searchTerm: string = '';
   get searchTerm(): string {
@@ -60,44 +32,14 @@ export default class GamesComponent implements OnInit, AfterViewInit, OnDestroy 
 
   currentFilter: string = '';
   isPlatformSelected: boolean = false;
-  platformRank: Record<string, number> = this.platformOrder.reduce((acc, platform, index) => {
-    acc[platform] = index;
-    return acc;
-  }, {} as Record<string, number>);
 
   pageSize = 10;
   itemsToShow = 10;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private router: Router, private ratingService: RatingService) {}
+  constructor(private router: Router, private gameService: GameService) {}
 
   ngOnInit(): void {
     this.loadGames();
-  }
-
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
-  ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.loadMore();
-      }
-    }, {
-      rootMargin: '100px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
-    }
   }
 
   loadMore(): void {
@@ -111,48 +53,15 @@ export default class GamesComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   loadGames(): void {
-    this.http.get<{ games: any[] }>('assets/data/games.json').pipe(
-      map(data => {
-        const parsedGames: Game[] = data.games
-        .filter((game: any) => game.review && game.review.length > 0)
-        .map((game: any) => {
-          const vibes = parseInt(game.vibes, 10);
-          const gameplay = parseInt(game.gameplay, 10);
-
-          return {
-            ...game,
-            vibes: isNaN(vibes) ? 0 : vibes,
-            gameplay: isNaN(gameplay) ? 0 : gameplay,
-          } as Game;
-        });
-        return parsedGames;
-      }),
-      catchError(err => {
-        console.error('Failed to load games:', err);
-        return of([] as Game[]);
-      })
-    ).subscribe(
-      (parsedGames) => {
-        this.originalGames = parsedGames;
-        this.getRatings();
+    this.gameService.getGames().subscribe({
+      next: (games) => {
+        this.originalGames = games;
         this.sortGames('all');
+      },
+      error: (err) => {
+        console.error('Failed to load games:', err);
       }
-    );
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.originalGames.map(game => game.id))
-      .subscribe(gameRatings => {
-        this.originalGames = this.originalGames.map(game => {
-          const ratingData = gameRatings.find(rating => rating.id === game.id);
-          if (ratingData) {
-            game.rating = ratingData.ratings;
-          } else {
-            game.rating = [0,0,0,0,0,0];
-          }
-          return game;
-        });
-      });
+    });
   }
 
   get filteredGames(): Game[] {

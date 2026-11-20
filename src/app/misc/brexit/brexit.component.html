@@ -2,13 +2,13 @@
 <div class="image-grid">
   @for (image of images; track image) {
     <div class="image-container">
-      <img [ngSrc]="imageService.imageUrl('/misc/brexit/' + image)" alt="Brexit Summit Top 8 Image" (click)="openImage(image)" width="100" height="200"/>
+      <img [ngSrc]="'/misc/brexit/' + image | imageUrl" alt="Brexit Summit Top 8 Image" (click)="openImage(image)" width="100" height="200"/>
     </div>
   }
 </div>
 
 @if (selectedImage) {
   <div class="overlay" (click)="closeImage()">
-    <img ngSrc="selectedImage" alt="Brexit Summit Top 8 Image" class="enlarged" width="600" height="800"/>
+    <img [ngSrc]="'/misc/brexit/' + selectedImage | imageUrl" alt="Brexit Summit Top 8 Image" class="enlarged" width="600" height="800"/>
   </div>
 }

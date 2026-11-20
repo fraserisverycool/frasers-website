@@ -2,7 +2,7 @@
   <h3 class="track-title">
     <div class="track-title-main">
       @if (getFranchiseIcon(track.comment); as icon) {
-        <img [src]="imageService.imageUrl('music/smash/franchise-icons/' + icon)" class="franchise-icon" alt="">
+        <img [src]="'music/smash/franchise-icons/' + icon | imageUrl" class="franchise-icon" alt="">
       }
       {{ track.title }}
       @if (track['original-game']) {
@@ -20,7 +20,7 @@
   </h3>
   <div class="track-details">
     @if (track.image) {
-      <img [src]="imageService.imageUrl('music/smash/album-art/' + track.image)" [alt]="track.title" class="track-image">
+      <img [src]="'music/smash/album-art/' + track.image | imageUrl" [alt]="track.title" class="track-image">
     }
     <div class="track-info">
       <div class="track-meta">
@@ -41,14 +41,14 @@
       }
       <div class="audio-container">
         <div class="audio-player-wrapper">
-          <audio controls preload="none" [src]="imageService.imageUrl(track.path)">
+          <audio controls preload="none" [src]="track.path | imageUrl">
             Mate your browser cannot handle this audio player.
           </audio>
         </div>
         <button (click)="onPlay()" class="play-button" title="Start Playlist from here">▶</button>
         <div class="star-rating">
           @for (i of getStars(track.stars); track $index) {
-            <img [src]="imageService.imageUrl('misc/mariokart/spinningstar.gif')" class="star-icon" alt="star">
+            <img [src]="'misc/mariokart/spinningstar.gif' | imageUrl" class="star-icon" alt="star">
           }
         </div>
       </div>

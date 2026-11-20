@@ -1,20 +1,23 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { provideHttpClient } from '@angular/common/http';
-import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { provideRouter } from '@angular/router';
+import { of } from 'rxjs';
 import NewsletterComponent from './newsletter.component';
+import { NewsletterService } from '../service/newsletter.service';
 
 describe('NewsletterComponent', () => {
   let component: NewsletterComponent;
   let fixture: ComponentFixture<NewsletterComponent>;
+  let newsletterServiceSpy: jasmine.SpyObj<NewsletterService>;
 
   beforeEach(() => {
+    newsletterServiceSpy = jasmine.createSpyObj('NewsletterService', ['getNewsletterByTimestamp']);
+    newsletterServiceSpy.getNewsletterByTimestamp.and.returnValue(of(null));
+
     TestBed.configureTestingModule({
       imports: [NewsletterComponent],
       providers: [
-        provideHttpClient(),
-        provideHttpClientTesting(),
-        provideRouter([])
+        provideRouter([]),
+        { provide: NewsletterService, useValue: newsletterServiceSpy }
       ]
     });
     fixture = TestBed.createComponent(NewsletterComponent);

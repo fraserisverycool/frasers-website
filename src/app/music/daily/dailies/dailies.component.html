@@ -144,7 +144,7 @@
             <div class="player-link-container">
               @if (track.filename) {
                 <div class="mini-audio-player">
-                  <audio controls preload="none" [src]="imageService.imageUrl(audioPath + track.filename)">
+                  <audio controls preload="none" [src]="audioPath + track.filename | imageUrl">
                     Normally there is an audio player here but mate your browser can't handle it
                   </audio>
                 </div>
@@ -161,8 +161,8 @@
       }
     </ul>
   }
-  <div #scrollAnchor class="scroll-anchor"></div>
+  <div appInfiniteScroll (scrollNearEnd)="loadMore()" class="scroll-anchor"></div>
   <div class="gif" (click)="toggleFuture()">
-    <img [src]="imageService.imageUrl('/homepage/daily.gif')">
+    <img [src]="'/homepage/daily.gif' | imageUrl">
   </div>
 </div>

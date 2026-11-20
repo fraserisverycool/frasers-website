@@ -4,11 +4,11 @@ import {FormsModule} from "@angular/forms";
 import {Photo} from "../photo.interface";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
 import {PhotoService} from "./service/photo.service";
-import {ImageService} from "../../utils/services/image.service";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-photo',
-    imports: [CommonModule, FormsModule, NgOptimizedImage, RatingBarComponent],
+    imports: [CommonModule, FormsModule, NgOptimizedImage, RatingBarComponent, ImageUrlPipe],
     templateUrl: './photo.component.html',
     styleUrls: ['./photo.component.css']
 })
@@ -29,7 +29,7 @@ export default class PhotoComponent {
 
   modalImage: Photo | null = null;
 
-  constructor(private service: PhotoService, protected imageService: ImageService) {}
+  constructor(private service: PhotoService) {}
 
   checkAnswer(answer: string) {
     this.service.postAnswer(this.photo.id, answer).subscribe(

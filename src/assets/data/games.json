@@ -188,18 +188,18 @@
       "vibes": "3",
       "gameplay": "2",
       "review": [
-        "I played this on my colleague Rüdiger's little retro console he set up in the office. I got to level 15 and I intend to continue (there are 100 levels) but the controls are finicky and difficult. I don't understand how to pop the bubbles. But it's cool that it has lots of characters from the Bust-a-move game that I loved as a child."
+        "I played this on my colleague Rüdiger's little retro console he set up in the office. The song is good and it's cool that it has lots of characters from the Bust-a-move game that I loved as a child. The controls are really difficult and it took a long time before I understood how to pop the bubbles. I actually ended up completing all 100 levels and beating the final boss which is insanely difficult. Some of the levels are also insanely hard, and ultimately I think I only got through because I picked up a lucky item that let me skip some floors. Beating this game wasn't a beautiful experience but for some reason I did it."
       ],
       "image": "bubble-bobble.png",
       "platform": "NES",
       "year": "2026",
       "release": "1986",
       "score": 15,
-      "completed": false,
+      "completed": true,
       "completable": true,
       "id": "2866fbe1-c406-49b5-86b8-851ceba80c2e",
       "newsletter": true,
-      "timestamp": "02-08-2026"
+      "timestamp": "21-11-2026"
     },
     {
       "name": "Her Story",

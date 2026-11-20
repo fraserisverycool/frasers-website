@@ -1,9 +1,10 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { HttpClient } from "@angular/common/http";
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
-import {ImageService} from "../../utils/services/image.service";
+import {RatingHydrationService} from "../../utils/rating-bar/service/rating-hydration.service";
+import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 interface Track {
   trackId: number;
@@ -26,11 +27,11 @@ interface Track {
 
 @Component({
     selector: 'app-mariokart',
-    imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+    imports: [CommonModule, NgOptimizedImage, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
     templateUrl: './mariokart.component.html',
     styleUrls: ['./mariokart.component.css']
 })
-export default class MariokartComponent implements OnInit, AfterViewInit, OnDestroy {
+export default class MariokartComponent implements OnInit {
   tracks: Track[] = [];
   originalTracks: Track[] = [];
   currentFilter: string = "";
@@ -63,37 +64,14 @@ export default class MariokartComponent implements OnInit, AfterViewInit, OnDest
 
   pageSize = 5;
   itemsToShow = 5;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
+  constructor(
+    private http: HttpClient,
+    private ratingHydration: RatingHydrationService
+  ) {}
 
   ngOnInit(): void {
     this.loadTracks();
-  }
-
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
-  ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.loadMore();
-      }
-    }, {
-      rootMargin: '100px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
-    }
   }
 
   loadMore(): void {
@@ -109,30 +87,16 @@ export default class MariokartComponent implements OnInit, AfterViewInit, OnDest
   loadTracks(): void {
     this.http.get<{ tracks: Track[] }>('assets/data/mariokart.json').subscribe({
       next: (data) => {
-        this.originalTracks = data.tracks;
-        this.getRatings();
-        this.calculateNextAndPreviousTracks();
-        this.filterTracks('world');
+        this.ratingHydration.hydrateRatings(data.tracks).subscribe(hydrated => {
+          this.originalTracks = hydrated as Track[];
+          this.calculateNextAndPreviousTracks();
+          this.filterTracks('world');
+        });
       },
       error: (err) => {
         console.error('Failed to load tracks:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.tracks.map(track => track.id))
-      .subscribe(trackRatings => {
-        this.tracks = this.tracks.map(track => {
-          const ratingData = trackRatings.find(rating => rating.id === track.id);
-          if (ratingData) {
-            track.rating = ratingData.ratings;
-          } else {
-            track.rating = [0,0,0,0,0,0];
-          }
-          return track;
-        });
-      });
   }
 
   orderUnchanged = (): number => {

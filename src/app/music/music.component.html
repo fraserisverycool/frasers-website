@@ -1,58 +1,58 @@
 <div class="container">
   <h1>Time to listen to some great music</h1>
   <div class="gif">
-    <img [src]="imageService.imageUrl('/homepage/notes.gif')" alt="nice gif of some music notes">
+    <img [src]="'/homepage/notes.gif' | imageUrl" alt="nice gif of some music notes">
   </div>
 
   <div class="selection-collage">
     <div class="collage-item daily" (click)="handleClick('/music/daily-soundtracks')">
-      <img [src]="imageService.imageUrl('/homepage/daily.gif')" alt="Daily">
+      <img [src]="'/homepage/daily.gif' | imageUrl" alt="Daily">
       <span>Daily Soundtracks</span>
     </div>
     <div class="collage-item albums" (click)="handleClick('/music/albums')">
       @if (randomAlbum) {
-        <img [src]="imageService.imageUrl('/music/albums/' + randomAlbum.filename)" [alt]="randomAlbum.name">
+        <img [src]="'/music/albums/' + randomAlbum.filename | imageUrl" [alt]="randomAlbum.name">
       }
       <span>Albums</span>
     </div>
     <div class="collage-item nintendo" (click)="handleClick('/music/nintendo')">
       @if (randomSoundtrack) {
-        <img [src]="imageService.imageUrl('/music/nintendo/' + randomSoundtrack.filename)" [alt]="randomSoundtrack.name">
+        <img [src]="'/music/nintendo/' + randomSoundtrack.filename | imageUrl" [alt]="randomSoundtrack.name">
       }
       <span>Nintendo Soundtracks</span>
     </div>
     <div class="collage-item concerts" (click)="handleClick('/music/concerts')">
       @if (randomConcert) {
-        <img [src]="imageService.imageUrl('/music/concerts/' + randomConcert.image)" [alt]="randomConcert.artist">
+        <img [src]="'/music/concerts/' + randomConcert.image | imageUrl" [alt]="randomConcert.artist">
       }
       <span>Concerts</span>
     </div>
     <div class="collage-item cds" (click)="handleClick('/music/cds')">
       @if (randomCd) {
-        <img [src]="imageService.imageUrl('/music/albums/' + randomCd.image)" [alt]="randomCd.album">
+        <img [src]="'/music/albums/' + randomCd.image | imageUrl" [alt]="randomCd.album">
       }
       <span>CDs</span>
     </div>
     <div class="collage-item smash" (click)="handleClick('/music/smash')">
       @if (randomSmashImage) {
-        <img [src]="imageService.imageUrl('/music/smash/album-art/' + randomSmashImage)" alt="Smash">
+        <img [src]="'/music/smash/album-art/' + randomSmashImage | imageUrl" alt="Smash">
       }
       <span>Smash Soundtrack</span>
     </div>
     <div class="collage-item playlists" (click)="handleClick('/music/playlists')">
       @if (randomPlaylistImage) {
-        <img [src]="imageService.imageUrl('/music/playlists/art/' + randomPlaylistImage)" alt="Playlists">
+        <img [src]="'/music/playlists/art/' + randomPlaylistImage | imageUrl" alt="Playlists">
       }
       <span>Playlists</span>
     </div>
     <div class="collage-item mixes" (click)="handleClick('/music/mixes')">
       @if (randomMixImage) {
-        <img [src]="imageService.imageUrl('/music/mixes/art/' + randomMixImage)" alt="Mixes">
+        <img [src]="'/music/mixes/art/' + randomMixImage | imageUrl" alt="Mixes">
       }
       <span>Video Game Mixes</span>
     </div>
     <div class="collage-item worldpeace" (click)="handleClick('/music/worldpeace')">
-      <img [src]="imageService.imageUrl('/music/worldpeace/worldpeace.gif')" alt="DJ World Peace">
+      <img [src]="'/music/worldpeace/worldpeace.gif' | imageUrl" alt="DJ World Peace">
       <span>DJ World Peace</span>
     </div>
   </div>

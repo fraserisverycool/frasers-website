@@ -1,12 +1,12 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZone} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
 import {RouterLink} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {Soundtrack} from "./soundtrack.interface";
 import {SoundtrackModalComponent} from "./soundtrack-modal/soundtrack-modal.component";
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
-import {ImageService} from "../../utils/services/image.service";
+import {MusicService} from "../service/music.service";
+import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 const platformOrder = [
   "NES",
@@ -24,12 +24,12 @@ const platformOrder = [
 
 @Component({
   selector: 'app-nintendo',
-  imports: [CommonModule, RouterLink, FormsModule, NgOptimizedImage, SoundtrackModalComponent],
+  imports: [CommonModule, RouterLink, FormsModule, NgOptimizedImage, SoundtrackModalComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './soundtracks.component.html',
   standalone: true,
   styleUrls: ['./soundtracks.component.css']
 })
-export default class SoundtracksComponent implements OnInit, AfterViewInit, OnDestroy {
+export default class SoundtracksComponent implements OnInit {
   soundtracks: Soundtrack[] = [];
   originalSoundtracks: Soundtrack[] = [];
   selectedSoundtrack: Soundtrack | null = null;
@@ -50,39 +50,11 @@ export default class SoundtracksComponent implements OnInit, AfterViewInit, OnDe
 
   pageSize = 20;
   itemsToShow = 20;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService, private ngZone: NgZone) {}
+  constructor(private musicService: MusicService) {}
 
   ngOnInit(): void {
     this.loadSoundtracks();
-  }
-
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
-  ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.ngZone.run(() => {
-          this.loadMore();
-        });
-      }
-    }, {
-      rootMargin: '300px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
-    }
   }
 
   loadMore(): void {
@@ -96,31 +68,15 @@ export default class SoundtracksComponent implements OnInit, AfterViewInit, OnDe
   }
 
   loadSoundtracks(): void {
-    this.http.get<{ soundtracks: Soundtrack[] }>('assets/data/soundtracks.json').subscribe({
-      next: (data) => {
-        this.originalSoundtracks = data.soundtracks;
-        this.getRatings();
+    this.musicService.getSoundtracks().subscribe({
+      next: (soundtracks) => {
+        this.originalSoundtracks = soundtracks;
         this.sortSoundtracks('release');
       },
       error: (err) => {
         console.error('Failed to load soundtracks:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.originalSoundtracks.map(soundtrack => soundtrack.id))
-      .subscribe(soundtrackRatings => {
-        this.originalSoundtracks = this.originalSoundtracks.map(soundtrack => {
-          const ratingData = soundtrackRatings.find(rating => rating.id === soundtrack.id);
-          if (ratingData) {
-            soundtrack.rating = ratingData.ratings;
-          } else {
-            soundtrack.rating = [0,0,0,0,0,0];
-          }
-          return soundtrack;
-        });
-      });
   }
 
   get filteredSoundtracks(): Soundtrack[] {

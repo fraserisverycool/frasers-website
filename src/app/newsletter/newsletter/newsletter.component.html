@@ -20,7 +20,7 @@
             </div>
           }
           @if (entry.image) {
-            <img [ngSrc]="imageService.imageUrl(entry.image)" [alt]="entry.title" class="entry-image" width="600" height="600">
+            <img [ngSrc]="entry.image | imageUrl" [alt]="entry.title" class="entry-image" width="600" height="600">
           }
         </div>
       }

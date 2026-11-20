@@ -1,54 +1,28 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {Concert} from "./concert.interface";
-import { HttpClient } from "@angular/common/http";
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
 import {RatingBarComponent} from "../../utils/rating-bar/rating-bar.component";
-import {ImageService} from "../../utils/services/image.service";
+import {MusicService} from "../service/music.service";
+import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-concerts',
-  imports: [CommonModule, NgOptimizedImage, RatingBarComponent],
+  imports: [CommonModule, NgOptimizedImage, RatingBarComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './concerts.component.html',
   standalone: true,
   styleUrls: ['./concerts.component.css']
 })
-export default class ConcertsComponent implements OnInit, AfterViewInit, OnDestroy {
-  concerts: Concert[] = []
+export default class ConcertsComponent implements OnInit {
+  concerts: Concert[] = [];
 
   pageSize = 5;
   itemsToShow = 5;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
+  constructor(private musicService: MusicService) {}
 
   ngOnInit(): void {
-      this.loadConcerts();
-  }
-
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
-  ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.loadMore();
-      }
-    }, {
-      rootMargin: '100px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
-    }
+    this.loadConcerts();
   }
 
   loadMore(): void {
@@ -58,29 +32,13 @@ export default class ConcertsComponent implements OnInit, AfterViewInit, OnDestr
   }
 
   loadConcerts(): void {
-    this.http.get<{ concerts: Concert[] }>('assets/data/concerts.json').subscribe({
-      next: (data) => {
-        this.concerts = data.concerts.filter(concert => concert.artist !== '');
-        this.getRatings();
+    this.musicService.getConcerts().subscribe({
+      next: (concerts) => {
+        this.concerts = concerts.filter(concert => concert.artist !== '');
       },
       error: (err) => {
-        console.error('Failed to load stitches:', err);
+        console.error('Failed to load concerts:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.concerts.map(concert => concert.id))
-      .subscribe(concertRatings => {
-        this.concerts = this.concerts.map(concert => {
-          const ratingData = concertRatings.find(rating => rating.id === concert.id);
-          if (ratingData) {
-            concert.rating = ratingData.ratings;
-          } else {
-            concert.rating = [0,0,0,0,0,0];
-          }
-          return concert;
-        });
-      });
   }
 }

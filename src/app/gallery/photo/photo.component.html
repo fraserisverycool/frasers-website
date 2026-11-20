@@ -2,9 +2,9 @@
   <h2>{{ photo.title }}</h2>
   <div class="image-container" (click)="openModal(photo)">
     @if (showText) {
-      <img [ngSrc]="imageService.imageUrl('/gallery/' + photo.unmasked)" [alt]="photo.title" class="gallery-image" width="600" height="600">
+      <img [ngSrc]="'/gallery/' + photo.unmasked | imageUrl" [alt]="photo.title" class="gallery-image" width="600" height="600">
     } @else {
-      <img [ngSrc]="imageService.imageUrl('/gallery/' + photo.filename)" [alt]="photo.title" class="gallery-image" width="600" height="600">
+      <img [ngSrc]="'/gallery/' + photo.filename | imageUrl" [alt]="photo.title" class="gallery-image" width="600" height="600">
     }
   </div>
   <div class="description-container">
@@ -27,9 +27,7 @@
 @if (modalImage) {
   <div class="modal" (click)="closeModal()">
     <img
-    [ngSrc]="imageService.imageUrl(
-    '/gallery/' + (showText ? modalImage.unmasked : modalImage.filename)
-  )"
+      [ngSrc]="'/gallery/' + (showText ? modalImage.unmasked : modalImage.filename) | imageUrl"
       [alt]="modalImage.title"
       class="modal-image"
       width="600"

@@ -1,14 +1,14 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { provideHttpClient } from '@angular/common/http';
-import { provideHttpClientTesting, HttpTestingController } from '@angular/common/http/testing';
 import { provideRouter } from '@angular/router';
+import { of } from 'rxjs';
 import NintendoPlaylistsComponent from './nintendo-playlists.component';
 import { NintendoPlaylist } from './nintendo-playlist.interface';
+import { MusicService } from '../../service/music.service';
 
 describe('NintendoPlaylistsComponent', () => {
   let component: NintendoPlaylistsComponent;
   let fixture: ComponentFixture<NintendoPlaylistsComponent>;
-  let httpMock: HttpTestingController;
+  let musicServiceSpy: jasmine.SpyObj<MusicService>;
 
   const mockPlaylists: NintendoPlaylist[] = [
     {
@@ -32,37 +32,27 @@ describe('NintendoPlaylistsComponent', () => {
   ];
 
   beforeEach(() => {
+    musicServiceSpy = jasmine.createSpyObj('MusicService', ['getNintendoPlaylists']);
+    musicServiceSpy.getNintendoPlaylists.and.returnValue(of(mockPlaylists));
+
     TestBed.configureTestingModule({
       imports: [NintendoPlaylistsComponent],
       providers: [
-        provideHttpClient(),
-        provideHttpClientTesting(),
-        provideRouter([])
+        provideRouter([]),
+        { provide: MusicService, useValue: musicServiceSpy }
       ]
     });
 
     fixture = TestBed.createComponent(NintendoPlaylistsComponent);
     component = fixture.componentInstance;
-    httpMock = TestBed.inject(HttpTestingController);
-  });
-
-  afterEach(() => {
-    httpMock.verify();
   });
 
   it('should create and load playlists', () => {
     fixture.detectChanges();
 
-    const req = httpMock.expectOne('assets/data/nintendo-playlists.json');
-    expect(req.request.method).toBe('GET');
-    req.flush({ playlists: mockPlaylists });
-
-    const ratingReq = httpMock.expectOne('https://worldpeace.services/api/rating/get');
-    expect(ratingReq.request.method).toBe('POST');
-    ratingReq.flush([]);
-
     expect(component).toBeTruthy();
     expect(component.playlists.length).toBe(2);
+    expect(musicServiceSpy.getNintendoPlaylists).toHaveBeenCalled();
   });
 
   it('should filter playlists by name and description', () => {

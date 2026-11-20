@@ -4,11 +4,11 @@ import {CD} from "../cd.interface";
 import {ClickedOutsideDirective} from "../../../utils/directives/clicked-outside.directive";
 import {RatingBarComponent} from "../../../utils/rating-bar/rating-bar.component";
 import {CloseButtonComponent} from "../../../utils/close-button/close-button.component";
-import {ImageService} from "../../../utils/services/image.service";
+import {ImageUrlPipe} from "../../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-cd-modal',
-  imports: [NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent],
+  imports: [NgOptimizedImage, ClickedOutsideDirective, RatingBarComponent, CloseButtonComponent, ImageUrlPipe],
   templateUrl: './cd-modal.component.html',
   standalone: true,
   styleUrls: ['./cd-modal.component.css']
@@ -17,8 +17,7 @@ export class CdModalComponent implements OnInit, OnDestroy {
   @Input() selectedCd: CD | undefined;
   @Output() close: EventEmitter<void> = new EventEmitter<void>();
 
-  constructor(protected imageService: ImageService) {
-  }
+  constructor() {}
 
   ngOnInit() {
     history.pushState({ modal: true }, '');

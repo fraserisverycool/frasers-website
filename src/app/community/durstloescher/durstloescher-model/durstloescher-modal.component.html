@@ -4,7 +4,7 @@
       <app-close-button (click)="close.emit()"/>
       <h2>{{ selectedDurstloescher.name }}</h2>
       <p>{{ selectedDurstloescher.description }}</p>
-      <img [ngSrc]="imageService.imageUrl('/community/durstloescher/' + selectedDurstloescher.filename)" [alt]="selectedDurstloescher.name" class="modal-image" width="600" height="600">
+      <img [ngSrc]="'/community/durstloescher/' + selectedDurstloescher.filename | imageUrl" [alt]="selectedDurstloescher.name" class="modal-image" width="600" height="600">
       @if (selectedDurstloescher.fraserscore) {
         <div class="star">
           <app-star-message

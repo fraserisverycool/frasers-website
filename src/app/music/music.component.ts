@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { NgOptimizedImage } from '@angular/common';
 import { Router } from '@angular/router';
 import {Album} from "./albums/album.interface";
 import {Soundtrack} from "./nintendo/soundtrack.interface";
 import {CD} from "./cds/cd.interface";
 import { HttpClient } from "@angular/common/http";
 import {Concert} from "./concerts/concert.interface";
-import {ImageService} from "../utils/services/image.service";
+import {ImageUrlPipe} from "../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-music',
-  imports: [],
+  imports: [ImageUrlPipe],
   templateUrl: './music.component.html',
   standalone: true,
   styleUrls: ['./music.component.css']
@@ -26,7 +25,7 @@ export default class MusicComponent implements OnInit {
   randomSmashImage: string | null = null;
   randomMixImage: string | null = null;
   randomPlaylistImage: string | null = null;
-  constructor(private http: HttpClient, private router: Router, protected imageService: ImageService) {}
+  constructor(private http: HttpClient, private router: Router) {}
 
   ngOnInit(): void {
     this.loadRandomAlbum();

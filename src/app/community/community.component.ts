@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
-import { RouterLink, Router } from '@angular/router';
-import {ImageService} from "../utils/services/image.service";
+import { RouterLink } from '@angular/router';
+import { ImageUrlPipe } from "../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-community',
-    imports: [RouterLink, NgOptimizedImage],
+    imports: [RouterLink, NgOptimizedImage, ImageUrlPipe],
     templateUrl: './community.component.html',
     styleUrls: ['./community.component.css']
 })
-export default class CommunityComponent {
-  constructor(protected imageService: ImageService) {}
-}
+export default class CommunityComponent {}

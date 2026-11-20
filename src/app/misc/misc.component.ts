@@ -1,18 +1,17 @@
 import { Component } from '@angular/core';
-
 import {Router} from "@angular/router";
-import {ImageService} from "../utils/services/image.service";
+import {ImageUrlPipe} from "../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-misc',
-    imports: [],
+    imports: [ImageUrlPipe],
     templateUrl: './misc.component.html',
     styleUrls: ['./misc.component.css']
 })
 export default class MiscComponent {
     positions: { top: string; left: string }[];
 
-    constructor(private router: Router, protected imageService: ImageService) {
+    constructor(private router: Router) {
       const cols = 4;
       const rows = 4;
       const cells = Array.from({ length: cols * rows }, (_, i) => i);

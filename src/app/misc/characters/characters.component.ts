@@ -4,12 +4,12 @@ import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import {Character} from "./character.interface";
 import {CharacterComponent} from "./character/character.component";
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
-import {ImageService} from "../../utils/services/image.service";
+import {RatingHydrationService} from "../../utils/rating-bar/service/rating-hydration.service";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
     selector: 'app-characters',
-    imports: [CommonModule, NgOptimizedImage, FormsModule, CharacterComponent],
+    imports: [CommonModule, NgOptimizedImage, FormsModule, CharacterComponent, ImageUrlPipe],
     templateUrl: './characters.component.html',
     styleUrls: ['./characters.component.css']
 })
@@ -19,7 +19,10 @@ export default class CharactersComponent implements OnInit {
   password: string = '';
   pictureMode: number = 0;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService) {}
+  constructor(
+    private http: HttpClient,
+    private ratingHydration: RatingHydrationService
+  ) {}
 
   ngOnInit(): void {
     this.loadCharacters();
@@ -28,30 +31,16 @@ export default class CharactersComponent implements OnInit {
   loadCharacters(): void {
     this.http.get<{ characters: Character[] }>('assets/data/characters.json').subscribe({
       next: (data) => {
-        this.characters = data.characters;
-        this.getRatings();
-        this.calculateColors();
-        this.reorderDecorations();
+        this.ratingHydration.hydrateRatings(data.characters).subscribe(hydrated => {
+          this.characters = hydrated as Character[];
+          this.calculateColors();
+          this.reorderDecorations();
+        });
       },
       error: (err) => {
         console.error('Failed to load characters:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.characters.map(character => character.id))
-      .subscribe(characterRatings => {
-        this.characters = this.characters.map(character => {
-          const ratingData = characterRatings.find(rating => rating.id === character.id);
-          if (ratingData) {
-            character.rating = ratingData.ratings;
-          } else {
-            character.rating = [0,0,0,0,0,0];
-          }
-          return character;
-        });
-      });
   }
 
   selectCharacter(character: Character): void {
@@ -98,8 +87,9 @@ export default class CharactersComponent implements OnInit {
     return "0 0 25px " + color;
   }
 
-reorderDecorations(): void {
-  this.characters.forEach(character => {
-    character.deco.sort((a, b) => a.order - b.order);
-  });}
+  reorderDecorations(): void {
+    this.characters.forEach(character => {
+      character.deco.sort((a, b) => a.order - b.order);
+    });
+  }
 }

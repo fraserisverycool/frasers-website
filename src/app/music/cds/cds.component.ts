@@ -1,20 +1,20 @@
-import {Component, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, NgZone} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { HttpClient } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
 import {CD} from "./cd.interface";
 import {CdModalComponent} from "./cd-modal/cd-modal.component";
-import {RatingService} from "../../utils/rating-bar/service/rating.service";
-import {ImageService} from "../../utils/services/image.service";
+import {MusicService} from "../service/music.service";
+import {InfiniteScrollDirective} from "../../utils/directives/infinite-scroll.directive";
+import {ImageUrlPipe} from "../../utils/pipes/image-url.pipe";
 
 @Component({
   selector: 'app-cds',
-  imports: [CommonModule, FormsModule, NgOptimizedImage, CdModalComponent],
+  imports: [CommonModule, FormsModule, NgOptimizedImage, CdModalComponent, InfiniteScrollDirective, ImageUrlPipe],
   templateUrl: './cds.component.html',
   standalone: true,
   styleUrls: ['./cds.component.css']
 })
-export default class CdsComponent implements OnInit, AfterViewInit, OnDestroy {
+export default class CdsComponent implements OnInit {
   cds: CD[] = [];
   originalCds: CD[] = [];
   selectedCd: CD | null = null;
@@ -34,40 +34,12 @@ export default class CdsComponent implements OnInit, AfterViewInit, OnDestroy {
 
   pageSize = 20;
   itemsToShow = 20;
-  @ViewChild('scrollAnchor') scrollAnchor!: ElementRef;
-  private observer!: IntersectionObserver;
 
-  constructor(private http: HttpClient, private ratingService: RatingService, protected imageService: ImageService, private ngZone: NgZone) {}
+  constructor(private musicService: MusicService) {}
 
   ngOnInit(): void {
     this.loadGenres();
     this.loadCds();
-  }
-
-  ngAfterViewInit(): void {
-    this.setupIntersectionObserver();
-  }
-
-  ngOnDestroy(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-  }
-
-  setupIntersectionObserver(): void {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        this.ngZone.run(() => {
-          this.loadMore();
-        });
-      }
-    }, {
-      rootMargin: '300px'
-    });
-
-    if (this.scrollAnchor) {
-      this.observer.observe(this.scrollAnchor.nativeElement);
-    }
   }
 
   loadMore(): void {
@@ -95,31 +67,15 @@ export default class CdsComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   loadCds(): void {
-    this.http.get<{ cds: CD[] }>('assets/data/cds.json').subscribe({
-      next: (data) => {
-        this.originalCds = data.cds;
-        this.getRatings();
+    this.musicService.getCds().subscribe({
+      next: (cds) => {
+        this.originalCds = cds;
         this.sortCds('genre');
       },
       error: (err) => {
         console.error('Failed to load CDs:', err);
       },
     });
-  }
-
-  getRatings(): void {
-    this.ratingService.getRatingsById(this.originalCds.map(cd => cd.id))
-      .subscribe(cdRatings => {
-        this.originalCds = this.originalCds.map(cd => {
-          const ratingData = cdRatings.find(rating => rating.id === cd.id);
-          if (ratingData) {
-            cd.rating = ratingData.ratings;
-          } else {
-            cd.rating = [0,0,0,0,0,0];
-          }
-          return cd;
-        });
-      });
   }
 
   get filteredCds(): CD[] {
